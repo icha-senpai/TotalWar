@@ -1,0 +1,794 @@
+####################################################################
+# Armored Car Battalion
+####################################################################
+armored_car_brigade.0 = { # Model I 1938
+	armored_recon_battalion = 1
+}
+armored_car_brigade.1 = { # Model II 1939
+	armored_recon_battalion = 2
+}
+armored_car_brigade.2 = { # Model III 1941
+	armored_recon_battalion = 3
+}
+armored_car_brigade.3 = { # Model IV 1943
+	armored_recon_battalion = 4
+}
+armored_car_brigade.4 = { # Model V 1945
+	armored_recon_battalion = 5
+}
+armored_car_brigade.5 = { # Model VI 1947
+	armored_recon_battalion = 6
+}
+armored_car_brigade.6 = { # Model VII 1949
+	armored_recon_battalion = 7
+}
+armored_car_brigade.7 = { # Model VIII 1951
+	armored_recon_battalion = 8
+}
+armored_car_brigade.8 = { # Model IX 1953
+	armored_recon_battalion = 9
+}
+armored_car_brigade.9 = { # Model X 1955
+	armored_recon_battalion = 10
+}
+armored_car_brigade.10 = { # Model XI 1957
+	armored_recon_battalion = 11
+}
+armored_car_brigade.11 = { # Model XII 1959
+	armored_recon_battalion = 12
+}
+####################################################################
+# SS Armored Recon Battalion
+####################################################################
+ss_armored_car_brigade.0 = { # Model I 1938
+	armored_recon_battalion = 1
+}
+ss_armored_car_brigade.1 = { # Model II 1939
+	armored_recon_battalion = 2
+}
+ss_armored_car_brigade.2 = { # Model III 1941
+	armored_recon_battalion = 3
+}
+ss_armored_car_brigade.3 = { # Model IV 1943
+	armored_recon_battalion = 4
+}
+ss_armored_car_brigade.4 = { # Model V 1945
+	armored_recon_battalion = 5
+}
+ss_armored_car_brigade.5 = { # Model VI 1947
+	armored_recon_battalion = 6
+}
+ss_armored_car_brigade.6 = { # Model VII 1949
+	armored_recon_battalion = 7
+}
+ss_armored_car_brigade.7 = { # Model VIII 1951
+	armored_recon_battalion = 8
+}
+ss_armored_car_brigade.8 = { # Model IX 1953
+	armored_recon_battalion = 9
+}
+ss_armored_car_brigade.9 = { # Model X 1955
+	armored_recon_battalion = 10
+}
+ss_armored_car_brigade.10 = { # Model XI 1957
+	armored_recon_battalion = 11
+}
+ss_armored_car_brigade.11 = { # Model XII 1959
+	armored_recon_battalion = 12
+}
+####################################################################
+# Light Armor
+####################################################################
+light_armor_brigade.0 = { # Model II 1935
+	first_light_tank_battalion = 1
+	second_light_tank_battalion = 1
+}
+light_armor_brigade.1 = { # Model III 1936
+	first_light_tank_battalion = 2
+	second_light_tank_battalion = 2
+}
+light_armor_brigade.2 = { # Model IV 1938
+	first_light_tank_battalion = 3
+	second_light_tank_battalion = 3
+}
+light_armor_brigade.3 = { # Model V 1940
+	first_light_tank_battalion = 4
+	second_light_tank_battalion = 4
+}
+light_armor_brigade.4 = { # Model VI 1942
+	first_light_tank_battalion = 5
+	second_light_tank_battalion = 5
+}
+light_armor_brigade.5 = { # Model VI 1944
+	first_light_tank_battalion = 6
+	second_light_tank_battalion = 6
+}
+light_armor_brigade.6 = { # Model VII 1946
+	first_light_tank_battalion = 7
+	second_light_tank_battalion = 7
+}
+light_armor_brigade.7 = { # Model VIII 1948
+	first_light_tank_battalion = 8
+	second_light_tank_battalion = 8
+}	
+light_armor_brigade.8 = { # Model IX 1950
+	first_light_tank_battalion = 9
+	second_light_tank_battalion = 9
+}
+light_armor_brigade.9 = { # Model X 1952
+	first_light_tank_battalion = 10
+	second_light_tank_battalion = 10
+}
+####################################################################
+# Light/Medium Captured-armor
+####################################################################
+captured_armor_brigade.0 = { # Model I 1935
+	first_tank_battalion = 1
+}
+captured_armor_brigade.1 = { # Model II 1939
+	first_tank_battalion = 2
+}
+captured_armor_brigade.2 = { # Model III 1941
+	first_tank_battalion = 3
+}
+captured_armor_brigade.3 = { # Model IV 1943
+	first_tank_battalion = 4
+}
+captured_armor_brigade.4 = { # Model V 1945
+	first_tank_battalion = 5
+}
+captured_armor_brigade.5 = { # Model VI 1947
+	first_tank_battalion = 6
+}
+captured_armor_brigade.6 = { # Model VII 1949
+	first_tank_battalion = 7
+}
+captured_armor_brigade.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+}	
+captured_armor_brigade.8 = { # Model IX 1953
+	first_tank_battalion = 9
+}
+captured_armor_brigade.9 = { # Model X 1955
+	first_tank_battalion = 10
+}
+####################################################################
+# Medium Armor => main battle tank
+####################################################################
+armor_brigade.0 = { # Model I 1935
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+}
+armor_brigade.1 = { # Model II 1939
+	first_tank_battalion = 2
+	second_tank_battalion = 2
+}
+armor_brigade.2 = { # Model III 1941
+	first_tank_battalion = 3
+	second_tank_battalion = 3
+}
+armor_brigade.3 = { # Model IV 1943
+	first_tank_battalion = 4
+	second_tank_battalion = 4
+}
+armor_brigade.4 = { # Model V 1945
+	first_tank_battalion = 5
+	second_tank_battalion = 5
+}
+armor_brigade.5 = { # Model VI 1947
+	first_tank_battalion = 6
+	second_tank_battalion = 6
+}
+armor_brigade.6 = { # Model VII 1949
+	first_tank_battalion = 7
+	second_tank_battalion = 7
+}
+armor_brigade.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+	second_tank_battalion = 8
+}	
+armor_brigade.8 = { # Model IX 1953
+	first_tank_battalion = 9
+	second_tank_battalion = 9
+}
+armor_brigade.9 = { # Model X 1955
+	first_tank_battalion = 10
+	second_tank_battalion = 10
+}
+####################################################################
+# Medium Armor => main battle tank
+####################################################################
+guard_armor_brigade.0 = { # Model I 1935
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+}
+guard_armor_brigade.1 = { # Model II 1939
+	first_tank_battalion = 2
+	second_tank_battalion = 2
+}
+guard_armor_brigade.2 = { # Model III 1941
+	first_tank_battalion = 3
+	second_tank_battalion = 3
+}
+guard_armor_brigade.3 = { # Model IV 1943
+	first_tank_battalion = 4
+	second_tank_battalion = 4
+}
+guard_armor_brigade.4 = { # Model V 1945
+	first_tank_battalion = 5
+	second_tank_battalion = 5
+}
+guard_armor_brigade.5 = { # Model VI 1947
+	first_tank_battalion = 6
+	second_tank_battalion = 6
+}
+guard_armor_brigade.6 = { # Model VII 1949
+	first_tank_battalion = 7
+	second_tank_battalion = 7
+}
+guard_armor_brigade.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+	second_tank_battalion = 8
+}	
+guard_armor_brigade.8 = { # Model IX 1953
+	first_tank_battalion = 9
+	second_tank_battalion = 9
+}
+guard_armor_brigade.9 = { # Model X 1955
+	first_tank_battalion = 10
+	second_tank_battalion = 10
+}
+####################################################################
+# SS Armored 
+####################################################################
+ss_armor_brigade.0 = { # Model I 1935
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+}
+ss_armor_brigade.1 = { # Model II 1939
+	first_tank_battalion = 2
+	second_tank_battalion = 2
+}
+ss_armor_brigade.2 = { # Model III 1941
+	first_tank_battalion = 3
+	second_tank_battalion = 3
+}
+ss_armor_brigade.3 = { # Model IV 1943
+	first_tank_battalion = 4
+	second_tank_battalion = 4
+}
+ss_armor_brigade.4 = { # Model V 1945
+	first_tank_battalion = 5
+	second_tank_battalion = 5
+}
+ss_armor_brigade.5 = { # Model VI 1947
+	first_tank_battalion = 6
+	second_tank_battalion = 6
+}
+ss_armor_brigade.6 = { # Model VII 1949
+	first_tank_battalion = 7
+	second_tank_battalion = 7
+}
+ss_armor_brigade.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+	second_tank_battalion = 8
+}	
+ss_armor_brigade.8 = { # Model IX 1953
+	first_tank_battalion = 9
+	second_tank_battalion = 9
+}
+ss_armor_brigade.9 = { # Model X 1955
+	first_tank_battalion = 10
+	second_tank_battalion = 10
+}
+####################################################################
+# Heavy Armor
+####################################################################
+heavy_armor_brigade.0 = { 	# Model I 1940
+	heavy_tank_battalion = 1
+}
+heavy_armor_brigade.1 = { 	# Model II 1941
+	heavy_tank_battalion = 2
+}
+heavy_armor_brigade.2 = { 	# Model III 1943
+	heavy_tank_battalion = 3
+}
+heavy_armor_brigade.3 = { 	# Model IV 1945
+	heavy_tank_battalion = 4
+}
+heavy_armor_brigade.4 = { 	# Model V 1947
+	heavy_tank_battalion = 5
+}
+heavy_armor_brigade.5 = { 	# Model VI 1949
+	heavy_tank_battalion = 6
+}
+heavy_armor_brigade.6 = { 	# Model VII 1951
+	heavy_tank_battalion = 7
+}
+heavy_armor_brigade.7 = { 	# Model VIII 1953
+	heavy_tank_battalion = 8
+}
+heavy_armor_brigade.8 = { 	# Model IX 1955
+	heavy_tank_battalion = 9
+}
+heavy_armor_brigade.9 = { 	# Model X 1957
+	heavy_tank_battalion = 10
+}
+####################################################################
+# Guard Heavy Armor
+####################################################################
+guard_heavy_armor_brigade.0 = { 	# Model I 1940
+	heavy_tank_battalion = 1
+}
+guard_heavy_armor_brigade.1 = { 	# Model II 1941
+	heavy_tank_battalion = 2
+}
+guard_heavy_armor_brigade.2 = { 	# Model III 1943
+	heavy_tank_battalion = 3
+}
+guard_heavy_armor_brigade.3 = { 	# Model IV 1945
+	heavy_tank_battalion = 4
+}
+guard_heavy_armor_brigade.4 = { 	# Model V 1947
+	heavy_tank_battalion = 5
+}
+guard_heavy_armor_brigade.5 = { 	# Model VI 1949
+	heavy_tank_battalion = 6
+}
+guard_heavy_armor_brigade.6 = { 	# Model VII 1951
+	heavy_tank_battalion = 7
+}
+guard_heavy_armor_brigade.7 = { 	# Model VIII 1953
+	heavy_tank_battalion = 8
+}
+guard_heavy_armor_brigade.8 = { 	# Model IX 1955
+	heavy_tank_battalion = 9
+}
+guard_heavy_armor_brigade.9 = { 	# Model X 1957
+	heavy_tank_battalion = 10
+}
+####################################################################
+# SS Heavy Armor 
+####################################################################
+ss_heavy_armor_brigade.0 = { 	# Model I 1940
+	heavy_tank_battalion = 1
+}
+ss_heavy_armor_brigade.1 = { 	# Model II 1941
+	heavy_tank_battalion = 2
+}
+ss_heavy_armor_brigade.2 = { 	# Model III 1943
+	heavy_tank_battalion = 3
+}
+ss_heavy_armor_brigade.3 = { 	# Model IV 1945
+	heavy_tank_battalion = 4
+}
+ss_heavy_armor_brigade.4 = { 	# Model V 1947
+	heavy_tank_battalion = 5
+}
+ss_heavy_armor_brigade.5 = { 	# Model VI 1949
+	heavy_tank_battalion = 6
+}
+ss_heavy_armor_brigade.6 = { 	# Model VII 1951
+	heavy_tank_battalion = 7
+}
+ss_heavy_armor_brigade.7 = { 	# Model VIII 1953
+	heavy_tank_battalion = 8
+}
+ss_heavy_armor_brigade.8 = { 	# Model IX 1955
+	heavy_tank_battalion = 9
+}
+ss_heavy_armor_brigade.9 = { 	# Model X 1957
+	heavy_tank_battalion = 10
+}
+####################################################################
+# Super-Heavy Armor
+####################################################################
+super_heavy_armor_brigade.0 = {
+	super_heavy_tank_battalion = 1
+}
+super_heavy_armor_brigade.1 = {
+	super_heavy_tank_battalion = 2
+}
+super_heavy_armor_brigade.2 = {
+	super_heavy_tank_battalion = 3
+}
+super_heavy_armor_brigade.3 = {
+	super_heavy_tank_battalion = 4
+}
+super_heavy_armor_brigade.4 = {
+	super_heavy_tank_battalion = 5
+}
+super_heavy_armor_brigade.5 = {
+	super_heavy_tank_battalion = 6
+}
+super_heavy_armor_brigade.6 = {
+	super_heavy_tank_battalion = 7
+}
+super_heavy_armor_brigade.7 = {
+	super_heavy_tank_battalion = 8
+}
+super_heavy_armor_brigade.8 = {
+	super_heavy_tank_battalion = 9
+}
+super_heavy_armor_brigade.9 = {
+	super_heavy_tank_battalion = 10
+}
+####################################################################
+# Amphibious armor
+####################################################################
+amph_armour_brigade.0 = {
+	first_tank_battalion = 3
+}
+####################################################################
+# Infantry Tank
+####################################################################
+infantry_tank_brigade.0 = { # Model I 1935
+	first_tank_battalion = 1
+}
+infantry_tank_brigade.1 = { # Model II 1939
+	first_tank_battalion = 2
+}
+infantry_tank_brigade.2 = { # Model III 1941
+	first_tank_battalion = 3
+}
+infantry_tank_brigade.3 = { # Model IV 1943
+	first_tank_battalion = 4
+}
+infantry_tank_brigade.4 = { # Model V 1945
+	first_tank_battalion = 5
+}
+infantry_tank_brigade.5 = { # Model VI 1947
+	first_tank_battalion = 6
+}
+infantry_tank_brigade.6 = { # Model VII 1949
+	first_tank_battalion = 7
+}
+infantry_tank_brigade.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+}
+infantry_tank_brigade.8 = { # Model IX 1953
+	first_tank_battalion = 9
+}
+infantry_tank_brigade.9 = { # Model X 1955
+	first_tank_battalion = 10
+}
+####################################################################
+# Assault gun
+####################################################################
+assault_gun_brigade.0 = { # Model I 1940
+	assault_gun_battalion = 1
+}
+assault_gun_brigade.1 = { # Model II 1941
+	assault_gun_battalion = 2
+}
+assault_gun_brigade.2 = { # Model III 1943
+	assault_gun_battalion = 3
+}
+assault_gun_brigade.3 = { # Model IV 1945
+	assault_gun_battalion = 4
+}
+assault_gun_brigade.4 = { # Model V 1947
+	assault_gun_battalion = 5
+}
+assault_gun_brigade.5 = { # Model VI 1949
+	assault_gun_battalion = 6
+}
+assault_gun_brigade.6 = { # Model VII 1951
+	assault_gun_battalion = 7
+}
+assault_gun_brigade.7 = { # Model VIII 1953
+	assault_gun_battalion = 8
+}
+assault_gun_brigade.8 = { # Model IX 1955
+	assault_gun_battalion = 9
+}
+assault_gun_brigade.9 = { # Model X 1957
+	assault_gun_battalion = 10
+}
+####################################################################
+# Heavy-Assault gun
+####################################################################
+heavy_assault_gun_brigade.0 = { # Model I 1943
+	heavy_assault_gun_battalion = 1
+}
+heavy_assault_gun_brigade.1 = { # Model II 1944
+	heavy_assault_gun_battalion = 2
+}
+heavy_assault_gun_brigade.2 = { # Model III 1946
+	heavy_assault_gun_battalion = 3
+}
+heavy_assault_gun_brigade.3 = { # Model IV 1948
+	heavy_assault_gun_battalion = 4
+}
+heavy_assault_gun_brigade.4 = { # Model V 1950
+	heavy_assault_gun_battalion = 5
+}
+heavy_assault_gun_brigade.5 = { # Model VI 1952
+	heavy_assault_gun_battalion = 6
+}
+heavy_assault_gun_brigade.6 = { # Model VII 1954
+	heavy_assault_gun_battalion = 7
+}
+heavy_assault_gun_brigade.7 = { # Model VIII 1956
+	heavy_assault_gun_battalion = 8
+}
+heavy_assault_gun_brigade.8 = { # Model IX 1958
+	heavy_assault_gun_battalion = 9
+}
+heavy_assault_gun_brigade.9 = { # Model X 1960
+	heavy_assault_gun_battalion = 10
+}
+####################################################################
+# Tank Destroyer
+####################################################################
+tank_destroyer_brigade.0 = { # Model I 1939
+	light_tank_destroyer_battalion = 1
+}
+tank_destroyer_brigade.1 = { # Model II 1941
+	light_tank_destroyer_battalion = 2
+}
+tank_destroyer_brigade.2 = { # Model III 1943
+	light_tank_destroyer_battalion = 3
+}
+tank_destroyer_brigade.3 = { # Model III 1945
+	light_tank_destroyer_battalion = 4
+}
+tank_destroyer_brigade.4 = { # Model III 1947
+	light_tank_destroyer_battalion = 5
+}
+tank_destroyer_brigade.5 = { # Model III 1949
+	light_tank_destroyer_battalion = 6
+}
+tank_destroyer_brigade.6 = { # Model III 1951
+	light_tank_destroyer_battalion = 7
+}
+tank_destroyer_brigade.7 = { # Model III 1953
+	light_tank_destroyer_battalion = 8
+}
+tank_destroyer_brigade.8 = { # Model III 1955
+	light_tank_destroyer_battalion = 9
+}
+tank_destroyer_brigade.9 = { # Model III 1957
+	light_tank_destroyer_battalion = 10
+}
+####################################################################
+# Medium Tank Destroyer
+####################################################################
+medium_tank_destroyer_brigade.0 = { # Model I 1942
+	medium_tank_destroyer_battalion = 1
+}
+medium_tank_destroyer_brigade.1 = { # Model II 1943
+	medium_tank_destroyer_battalion = 2
+}
+medium_tank_destroyer_brigade.2 = { # Model III 1945
+	medium_tank_destroyer_battalion = 3
+}
+medium_tank_destroyer_brigade.3 = { # Model IV 1947
+	medium_tank_destroyer_battalion = 4
+}
+medium_tank_destroyer_brigade.4 = { # Model V 1949
+	medium_tank_destroyer_battalion = 5
+}
+medium_tank_destroyer_brigade.5 = { # Model VI 1951
+	medium_tank_destroyer_battalion = 6
+}
+medium_tank_destroyer_brigade.6 = { # Model VII 1953
+	medium_tank_destroyer_battalion = 7
+}
+medium_tank_destroyer_brigade.7 = { # Model VIII 1955
+	medium_tank_destroyer_battalion = 8
+}
+medium_tank_destroyer_brigade.8 = { # Model IX 1957
+	medium_tank_destroyer_battalion = 9
+}
+medium_tank_destroyer_brigade.9 = { # Model X 1959
+	medium_tank_destroyer_battalion = 10
+}
+####################################################################
+# Medium Tank Destroyer SS
+####################################################################
+ss_tank_destroyer_brigade.0 = { # Model I 1942
+	medium_tank_destroyer_battalion = 1
+}
+ss_tank_destroyer_brigade.1 = { # Model II 1943
+	medium_tank_destroyer_battalion = 2
+}
+ss_tank_destroyer_brigade.2 = { # Model III 1945
+	medium_tank_destroyer_battalion = 3
+}
+ss_tank_destroyer_brigade.3 = { # Model IV 1947
+	medium_tank_destroyer_battalion = 4
+}
+ss_tank_destroyer_brigade.4 = { # Model V 1949
+	medium_tank_destroyer_battalion = 5
+}
+ss_tank_destroyer_brigade.5 = { # Model VI 1951
+	medium_tank_destroyer_battalion = 6
+}
+ss_tank_destroyer_brigade.6 = { # Model VII 1953
+	medium_tank_destroyer_battalion = 7
+}
+ss_tank_destroyer_brigade.7 = { # Model VIII 1955
+	medium_tank_destroyer_battalion = 8
+}
+ss_tank_destroyer_brigade.8 = { # Model IX 1957
+	medium_tank_destroyer_battalion = 9
+}
+ss_tank_destroyer_brigade.9 = { # Model X 1959
+	medium_tank_destroyer_battalion = 10
+}
+####################################################################
+# Heavy Tank Destroyer
+####################################################################
+heavy_tank_destroyer_brigade.0 = { # Model I 1943
+	heavy_tank_destroyer_battalion = 1
+}
+heavy_tank_destroyer_brigade.1 = { # Model II 1945
+	heavy_tank_destroyer_battalion = 2
+}
+heavy_tank_destroyer_brigade.2 = { # Model III 1947
+	heavy_tank_destroyer_battalion = 3
+}
+heavy_tank_destroyer_brigade.3 = { # Model IV 1949
+	heavy_tank_destroyer_battalion = 4
+}
+heavy_tank_destroyer_brigade.4 = { # Model V 1951
+	heavy_tank_destroyer_battalion = 5
+}
+heavy_tank_destroyer_brigade.5 = { # Model VI 1953
+	heavy_tank_destroyer_battalion = 6
+}
+heavy_tank_destroyer_brigade.6 = { # Model VII 1955
+	heavy_tank_destroyer_battalion = 7
+}
+heavy_tank_destroyer_brigade.7 = { # Model VIII 1957
+	heavy_tank_destroyer_battalion = 8
+}
+heavy_tank_destroyer_brigade.8 = { # Model IX 1959
+	heavy_tank_destroyer_battalion = 9
+}
+heavy_tank_destroyer_brigade.9 = { # Model X 1961
+	heavy_tank_destroyer_battalion = 10
+}
+####################################################################
+# Combined Arms
+####################################################################
+combined_arms_brigade.0 = { # Model I 1941
+	first_tank_battalion = 4
+	first_mechanized_battalion = 1
+	sp_artillery_brigade = 3
+	
+}
+####################################################################
+# Light armor Battalion
+####################################################################
+light_armor_bat.0 = { # Base Model 1935
+	first_light_tank_battalion = 1
+}
+light_armor_bat.1 = { # Model II 1936
+	first_light_tank_battalion = 2
+}
+light_armor_bat.2 = { # Model III 1938
+	first_light_tank_battalion = 3
+}
+light_armor_bat.3 = { # Model IV 1940
+	first_light_tank_battalion = 4
+}
+light_armor_bat.4 = { # Model V 1942
+	first_light_tank_battalion = 5
+}
+light_armor_bat.5 = { # Model VI 1944
+	first_light_tank_battalion = 6
+}
+light_armor_bat.6 = { # Model VII 1946
+	first_light_tank_battalion = 7
+}
+light_armor_bat.7 = { # Model VIII 1948
+	first_light_tank_battalion = 8
+}
+light_armor_bat.8 = { # Model IX 1950
+	first_light_tank_battalion = 9
+}	
+light_armor_bat.9 = { # Model X 1952
+	first_light_tank_battalion = 10
+}
+####################################################################
+# Medium Armor Battalion
+####################################################################
+armor_bat.0 = { # Model I 1935
+	first_tank_battalion = 1
+}
+armor_bat.1 = { # Model II 1939
+	first_tank_battalion = 2
+}
+armor_bat.2 = { # Model III 1941
+	first_tank_battalion = 3
+}
+armor_bat.3 = { # Model IV 1943
+	first_tank_battalion = 4
+}
+armor_bat.4 = { # Model V 1945
+	first_tank_battalion = 5
+}
+armor_bat.5 = { # Model VI 1947
+	first_tank_battalion = 6
+}
+armor_bat.6 = { # Model VII 1949
+	first_tank_battalion = 7
+}
+armor_bat.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+}
+armor_bat.8 = { # Model IX 1953
+	first_tank_battalion = 9
+}
+armor_bat.9 = { # Model X 1955
+	first_tank_battalion = 10
+}
+####################################################################
+# Guard Medium Armor Battalion
+####################################################################
+guard_armor_bat.0 = { # Model I 1935
+	first_tank_battalion = 1
+}
+guard_armor_bat.1 = { # Model II 1939
+	first_tank_battalion = 2
+}
+guard_armor_bat.2 = { # Model III 1941
+	first_tank_battalion = 3
+}
+guard_armor_bat.3 = { # Model IV 1943
+	first_tank_battalion = 4
+}
+guard_armor_bat.4 = { # Model V 1945
+	first_tank_battalion = 5
+}
+guard_armor_bat.5 = { # Model VI 1947
+	first_tank_battalion = 6
+}
+guard_armor_bat.6 = { # Model VII 1949
+	first_tank_battalion = 7
+}
+guard_armor_bat.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+}
+guard_armor_bat.8 = { # Model IX 1953
+	first_tank_battalion = 9
+}
+guard_armor_bat.9 = { # Model X 1955
+	first_tank_battalion = 10
+}
+####################################################################
+# SS Medium Armor Battalion
+####################################################################
+ss_armor_bat.0 = { # Model I 1935
+	first_tank_battalion = 1
+}
+ss_armor_bat.1 = { # Model II 1939
+	first_tank_battalion = 2
+}
+ss_armor_bat.2 = { # Model III 1941
+	first_tank_battalion = 3
+}
+ss_armor_bat.3 = { # Model IV 1943
+	first_tank_battalion = 4
+}
+ss_armor_bat.4 = { # Model V 1945
+	first_tank_battalion = 5
+}
+ss_armor_bat.5 = { # Model VI 1947
+	first_tank_battalion = 6
+}
+ss_armor_bat.6 = { # Model VII 1949
+	first_tank_battalion = 7
+}
+ss_armor_bat.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+}
+ss_armor_bat.8 = { # Model IX 1953
+	first_tank_battalion = 9
+}
+ss_armor_bat.9 = { # Model X 1955
+	first_tank_battalion = 10
+}
+#EOF#

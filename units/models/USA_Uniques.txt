@@ -1,0 +1,274 @@
+
+BB_Arizona.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_Arkansas.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_California.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_Colorado.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_Idaho.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_Iowa.0 = {
+	battleship_class = 5
+}
+
+BB_Maryland.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_Mississippi.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_Missouri.0 = {
+	battleship_class = 5
+}
+
+BB_Nevada.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_New_Mexico.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_New_York.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_Oklahoma.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_Pennsylvania.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_Tennessee.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_Texas.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+BB_West_Virginia.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+}
+
+CV_Enterprise.0 = {
+	fleet_carrier_class = 3
+	aircraft_carrier_propulsion = 3
+	aircraft_carrier_armor = 2
+	aircraft_carrier_hangar_deck_design = 3
+	aircraft_carrier_elevators = 3
+	aircraft_carrier_superstructure_design = 3
+	aircraft_carrier_flight_deck_design = 3
+	aircraft_carrier_hull_design = 3
+	aircraft_carrier_crew_berthing = 3
+	aircraft_carrier_anti_aircraft_fire_control = 2
+	aircraft_carrier_damage_control_system = 2
+}
+
+CV_Hornet.0 = {
+	fleet_carrier_class = 3
+	aircraft_carrier_propulsion = 3
+	aircraft_carrier_armor = 2
+	aircraft_carrier_hangar_deck_design = 3
+	aircraft_carrier_elevators = 3
+	aircraft_carrier_superstructure_design = 3
+	aircraft_carrier_flight_deck_design = 3
+	aircraft_carrier_hull_design = 3
+	aircraft_carrier_crew_berthing = 3
+	aircraft_carrier_anti_aircraft_fire_control = 2
+	aircraft_carrier_damage_control_system = 2
+}
+
+CV_Lexington.0 = {
+	fleet_carrier_class = 1
+	aircraft_carrier_propulsion = 1	
+	aircraft_carrier_armor = 1 
+	aircraft_carrier_hangar_deck_design = 1 
+	aircraft_carrier_elevators = 1
+	aircraft_carrier_superstructure_design = 1
+	aircraft_carrier_flight_deck_design = 1
+	aircraft_carrier_hull_design = 1 
+	aircraft_carrier_crew_berthing = 1
+	aircraft_carrier_anti_aircraft_fire_control = 1
+	aircraft_carrier_damage_control_system = 1	
+}
+
+CV_Ranger.0 = {
+	fleet_carrier_class = 2
+	aircraft_carrier_propulsion = 2
+	aircraft_carrier_armor = 2
+	aircraft_carrier_hangar_deck_design = 2
+	aircraft_carrier_elevators = 2
+	aircraft_carrier_superstructure_design = 2
+	aircraft_carrier_flight_deck_design = 2
+	aircraft_carrier_hull_design = 2
+	aircraft_carrier_crew_berthing = 2
+	aircraft_carrier_anti_aircraft_fire_control = 2
+	aircraft_carrier_damage_control_system = 2
+}
+
+CV_Saratoga.0 = {
+	fleet_carrier_class = 1
+	aircraft_carrier_propulsion = 1	
+	aircraft_carrier_armor = 1 
+	aircraft_carrier_hangar_deck_design = 1 
+	aircraft_carrier_elevators = 1
+	aircraft_carrier_superstructure_design = 1
+	aircraft_carrier_flight_deck_design = 1
+	aircraft_carrier_hull_design = 1 
+	aircraft_carrier_crew_berthing = 1
+	aircraft_carrier_anti_aircraft_fire_control = 1
+	aircraft_carrier_damage_control_system = 1
+}
+
+CV_Yorktown.0 = {
+	fleet_carrier_class = 3
+	aircraft_carrier_propulsion = 3
+	aircraft_carrier_armor = 2
+	aircraft_carrier_hangar_deck_design = 3
+	aircraft_carrier_elevators = 3
+	aircraft_carrier_superstructure_design = 3
+	aircraft_carrier_flight_deck_design = 3
+	aircraft_carrier_hull_design = 3
+	aircraft_carrier_crew_berthing = 3
+	aircraft_carrier_anti_aircraft_fire_control = 2
+	aircraft_carrier_damage_control_system = 2
+}
+
+

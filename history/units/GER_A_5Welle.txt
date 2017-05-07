@@ -1,0 +1,30 @@
+division= {
+	name = "93. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_XCIII_ID name = "Stab 93. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "94. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_XCIV_ID name = "Stab 94. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "95. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_XCV_ID name = "Stab 95. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "96. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_XCVI_ID name = "Stab 96. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "98. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_XCVIII_ID name = "Stab 98. Infanterie-Division" historical_model = 0 experience = 30 }
+}

@@ -1,0 +1,258 @@
+################################################;;;;;;;;;;;;;;x
+# United States New Aircraft Unit Model Names;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Fighter Aircraft ;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_multi_role_0;Curtiss A-3 Falcon;;;;;;;;;;;;;x
+USA_multi_role_1;Consolidated P-30;;;;;;;;;;;;;x
+USA_multi_role_5;P-40;;;;;;;;;;;;;;x
+USA_multi_role_6;P-40B;;;;;;;;;;;;;;x
+USA_multi_role_7;P-40C;;;;;;;;;;;;;;x
+USA_multi_role_8;P-40D;;;;;;;;;;;;;;x
+USA_multi_role_9;P-40E;;;;;;;;;;;;;;x
+USA_multi_role_10;P-40L;;;;;;;;;;;;;;x
+USA_multi_role_11;P-40K;;;;;;;;;;;;;;x
+USA_multi_role_12;P-40N;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_pursuit_fighter_0;Boeing P-12;;;;;;;;;;;;;x
+USA_pursuit_fighter_1;Boeing P-26A Peashooter;;;;;;;;;;;;;x
+USA_pursuit_fighter_2;Seversky P-35;;;;;;;;;;;;;x
+USA_pursuit_fighter_3;Seversky P-35A Guardsman;;;;;;;;;;;;;x
+USA_pursuit_fighter_4;Curtiss P-36A Hawk;;;;;;;;;;;;;;x
+USA_pursuit_fighter_5;Curtiss P-36B Hawk;;;;;;;;;;;;;;x
+USA_pursuit_fighter_6;Curtiss P-36E Hawk;;;;;;;;;;;;;;x
+USA_pursuit_fighter_7;Republic P-43 Lancer;;;;;;;;;;;;;x
+USA_pursuit_fighter_8;P-39C;;;;;;;;;;;;;;x
+USA_pursuit_fighter_9;P-51B;;;;;;;;;;;;;;x
+USA_pursuit_fighter_10;P-51C;;;;;;;;;;;;;;x
+USA_pursuit_fighter_11;P-51D;;;;;;;;;;;;;;x
+USA_pursuit_fighter_12;P-51H;;;;;;;;;;;;;;x
+USA_pursuit_fighter_13;P-51K;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_fighter_bomber_8;P-39L;;;;;;;;;;;;;;x
+USA_fighter_bomber_9;Republic P47C-1;;;;;;;;;;;;;;x
+USA_fighter_bomber_10;Republic P47D-1;;;;;;;;;;;;;;x
+USA_fighter_bomber_11;Republic P47D-25;;;;;;;;;;;;;;x
+USA_fighter_bomber_12;Republic P47M;;;;;;;;;;;;;;x
+USA_fighter_bomber_13;Republic P47N;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_cas_0;Curtiss A-12 Shrike;;;;;;;;;;;;;x
+USA_cas_1;Northrop A-17;;;;;;;;;;;;;x
+USA_cas_2;Northrop BT;;;;;;;;;;;;;x
+USA_cas_3;Douglas A-24 Banshee;;;;;;;;;;;;;x
+USA_cas_4;Douglas A-24A Banshee;;;;;;;;;;;;;x
+USA_cas_5;Douglas A-24B Banshee;;;;;;;;;;;;;x
+USA_cas_6;Curtiss A-25 Shrike;;;;;;;;;;;;;x
+USA_cas_7;North American A-36 Apache;;;;;;;;;;;;;x
+USA_cas_8;Douglas BTD Destroyer;;;;;;;;;;;;;x
+USA_cas_9;Martin AM Mauler;;;;;;;;;;;;;x
+USA_cas_10;Douglas A-1 Skyraider;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_cag_0;Curtiss A-3 Falcon;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_naval_fighter_0;Grumman F3F;;;;;;;;;;;;;;x
+USA_naval_fighter_1;Brewster F2A-1 Buffalo;;;;;;;;;;;;;;x
+USA_naval_fighter_2;Brewster F2A-2 Buffalo;;;;;;;;;;;;;;x
+USA_naval_fighter_3;Brewster F2A-3 Buffalo;;;;;;;;;;;;;;x
+USA_naval_fighter_4;Grumman F4F Wildcat;;;;;;;;;;;;;;;x
+USA_naval_fighter_5;Grumman F4F-3 Wildcat;;;;;;;;;;;;;;;x
+USA_naval_fighter_6;Grumman FM-1 Wildcat;;;;;;;;;;;;;;x
+USA_naval_fighter_7;Grumman FM-2 Wildcat;;;;;;;;;;;;;;x
+USA_naval_fighter_8;Grumman F8F-1 Bearcat;;;;;;;;;;;;;;;x
+USA_naval_fighter_9;Grumman F8F-1B Bearcat;;;;;;;;;;;;;;x
+USA_naval_fighter_10;Grumman F8F-2 Bearcat;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_naval_fighter_bomber_6;Grumman F6F-3 Hellcat;;;;;;;;;;;;;;;x
+USA_naval_fighter_bomber_7;Grumman F6F-5 Hellcat;;;;;;;;;;;;;;;x
+USA_naval_fighter_bomber_9;Grumman F7F-1 Tigercat;;;;;;;;;;;;;;x
+USA_naval_fighter_bomber_10;Grumman F7F-3 Tigercat;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_naval_cas_5;Vought F4U-1 Corsair;;;;;;;;;;;;;;x
+USA_naval_cas_6;Vought F4U-1A Corsair;;;;;;;;;;;;;;x
+USA_naval_cas_7;Vought F4U-4 Corsair;;;;;;;;;;;;;;x
+USA_naval_cas_8;Vought F4U-5 Corsair;;;;;;;;;;;;;;x
+USA_naval_cas_9;Douglas AD-1 Skyraider;;;;;;;;;;;;;;x
+USA_naval_cas_10;Douglas AD-2 Skyraider;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_naval_dive_bomber_0;Vought SBU-1;;;;;;;;;;;;;x
+USA_naval_dive_bomber_1;Vought SBU-2;;;;;;;;;;;;;x
+USA_naval_dive_bomber_2;Vought SB2U-1 Vindicator;;;;;;;;;;;;;x
+USA_naval_dive_bomber_3;Vought SBC-3 Helldiver;;;;;;;;;;;;;x
+USA_naval_dive_bomber_4;Vought SBC-4 Helldiver;;;;;;;;;;;;;x
+USA_naval_dive_bomber_5;Douglas SBD-1 Dauntless;;;;;;;;;;;;;x
+USA_naval_dive_bomber_6;Brewster SB2A-2 Buccaneer;;;;;;;;;;;;;x
+USA_naval_dive_bomber_7;Curtiss SB2C-1 Helldiver;;;;;;;;;;;;;x
+USA_naval_dive_bomber_8;Curtiss SB2C-1C Helldiver;;;;;;;;;;;;;x
+USA_naval_dive_bomber_9;Curtiss SB2C-3 Helldiver;;;;;;;;;;;;;x
+USA_naval_dive_bomber_10;Curtiss SB2C-4 Helldiver;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_naval_torpedo_plane_1;TBD-1 Devastator;;;;;;;;;;;;;x
+USA_naval_torpedo_plane_6;Grumman TBF-1 Avenger;;;;;;;;;;;;;x
+USA_naval_torpedo_plane_7;Grumman TBF-1C Avenger;;;;;;;;;;;;;x
+USA_naval_torpedo_plane_8;Grumman TBF-2 Avenger;;;;;;;;;;;;;x
+USA_naval_torpedo_plane_9;Grumman TBF-1D Avenger;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_twin_engine_fighters_0;Curtiss XA-14 Shrike;;;;;;;;;;;;;x
+USA_twin_engine_fighters_1;Curtiss A-18 Shrike II;;;;;;;;;;;;;x
+USA_twin_engine_fighters_2;Bell YFM-1 Airacuda;;;;;;;;;;;;;x
+USA_twin_engine_fighters_3;Bell YFM-1B Airacuda;;;;;;;;;;;;;x
+USA_twin_engine_fighters_6;Lockheed P-38E Lightning;;;;;;;;;;;;;x
+USA_twin_engine_fighters_7;Lockheed P-38F Lightning;;;;;;;;;;;;;x
+USA_twin_engine_fighters_8;Lockheed P-38H Lightning;;;;;;;;;;;;;x
+USA_twin_engine_fighters_9;Lockheed P-38J Lightning;;;;;;;;;;;;;x
+USA_twin_engine_fighters_10;Lockheed P-38L Lightning;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_night_fighter_4;P-61A-1;;;;;;;;;;;;;;x
+USA_night_fighter_5;P-61A-5;;;;;;;;;;;;;;x
+USA_night_fighter_6;P-61B-15;;;;;;;;;;;;;;x
+USA_night_fighter_7;P-61C-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_light_bomber_0;Martin B-10;;;;;;;;;;;;;x
+USA_light_bomber_1;Martin B-10B;;;;;;;;;;;;;x
+USA_light_bomber_2;Martin B-12A;;;;;;;;;;;;;x
+USA_light_bomber_3;Lockheed A-29 Hudson;;;;;;;;;;;;;x
+USA_light_bomber_4;Douglas A-20A Havoc;;;;;;;;;;;;;x
+USA_light_bomber_5;Douglas A-20B Havoc;;;;;;;;;;;;;x
+USA_light_bomber_6;Douglas A-20C Havoc;;;;;;;;;;;;;x
+USA_light_bomber_7;Douglas A-20G Havoc;;;;;;;;;;;;;x
+USA_light_bomber_8;Douglas A-26B Invader;;;;;;;;;;;;;x
+USA_light_bomber_9;Douglas A-26C Invader;;;;;;;;;;;;;x
+USA_light_bomber_10;Douglas A-26D Invader;;;;;;;;;;;;;;x
+USA_light_bomber_11;Douglas A-26E Invader;;;;;;;;;;;;;;x
+USA_light_bomber_12;Douglas A-26Z Invader;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_tactical_bomber_0;Keystone B-6A;;;;;;;;;;;;;x
+USA_tactical_bomber_1;Boeing B-9;;;;;;;;;;;;;x
+USA_tactical_bomber_2;Douglas B-18 Bolo;;;;;;;;;;;;;x
+USA_tactical_bomber_3;Douglas B-23 Dragon;;;;;;;;;;;;;x
+USA_tactical_bomber_4;Douglas B-18B Bolo;;;;;;;;;;;;;x
+USA_tactical_bomber_6;North American B-25A Mitchell;;;;;;;;;;;;;x
+USA_tactical_bomber_7;North American B-25C Mitchell;;;;;;;;;;;;;x
+USA_tactical_bomber_8;North American B-25H Mitchell;;;;;;;;;;;;;x
+USA_tactical_bomber_9;North American B-25J Mitchell;;;;;;;;;;;;;x
+USA_tactical_bomber_10;Martin B-26F Marauder;;;;;;;;;;;;;x
+USA_tactical_bomber_11;Martin B-26G Marauder;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_transport_plane_0;Douglas C-42;;;;;;;;;;;;;x
+USA_transport_plane_2;Lockheed 14 Super Electra;;;;;;;;;;;;;x
+USA_transport_plane_6;Douglas C-47A Skytrain;;;;;;;;;;;;;x
+USA_transport_plane_7;Douglas C-47B Skytrain;;;;;;;;;;;;;x
+USA_transport_plane_8;Curtiss C-46A Commando;;;;;;;;;;;;;x
+USA_transport_plane_9;Curtiss C-46D Commando;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_Flying_boat_0;Consolidated PBY-1 Catalina;;;;;;;;;;;;;x
+USA_Flying_boat_1;Consolidated PBY-3 Catalina;;;;;;;;;;;;;x
+USA_Flying_boat_2;Consolidated PBY-5 Catalina;;;;;;;;;;;;;x
+USA_Flying_boat_3;Consolidated PB2Y Coronado;;;;;;;;;;;;;x
+USA_Flying_boat_4;Grumman JRF-1 Goose;;;;;;;;;;;;;x
+USA_Flying_boat_5;Grumman J4F Gosling;;;;;;;;;;;;;x
+USA_Flying_boat_6;Martin PBM Mariner;;;;;;;;;;;;;x
+USA_Flying_boat_7;Martin PBM-3 Mariner;;;;;;;;;;;;;x
+USA_Flying_boat_8;Martin PBM-4 Mariner;;;;;;;;;;;;;x
+USA_Flying_boat_9;Martin PBM-5 Mariner;;;;;;;;;;;;;x
+USA_Flying_boat_10;Martin JRM Mars;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_naval_bomber_3;Douglas TBD-1 Devastator;;;;;;;;;;;;;x
+USA_naval_bomber_4;Northrop BT-1;;;;;;;;;;;;;x
+USA_naval_bomber_6;Douglas SBD-2 Dauntless;;;;;;;;;;;;;x
+USA_naval_bomber_7;Consolidated PB4Y-1 Liberator;;;;;;;;;;;;;x
+USA_naval_bomber_9;Consolidated PB4Y-2 Privateer;;;;;;;;;;;;;x
+USA_naval_bomber_10;Consolidated PB4Y-2B Privateer;;;;;;;;;;;;;x
+USA_naval_bomber_12;Lockheed P2V-2 Neptune;;;;;;;;;;;;;x
+USA_naval_bomber_13;Lockheed P2V-3 Neptune;;;;;;;;;;;;;x
+USA_naval_bomber_14;Martin P4M-1 Mercator;;;;;;;;;;;;;x
+USA_naval_bomber_15;Grumman AF-2W/AF-2S Guardian;;;;;;;;;;;;;x
+USA_naval_bomber_16;Grumman S2F-1 Tracker;;;;;;;;;;;;;x
+USA_naval_bomber_17;Grumman S2G Tracker;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_strategic_bomber_3;Martin XB-16;;;;;;;;;;;;;x
+USA_strategic_bomber_4;Boeing B-17A Flying Fortress;;;;;;;;;;;;;x
+USA_strategic_bomber_5;Boeing B-17B Flying Fortress;;;;;;;;;;;;;x
+USA_strategic_bomber_6;Boeing B-17C Flying Fortress;;;;;;;;;;;;;x
+USA_strategic_bomber_7;Boeing B-17D Flying Fortress;;;;;;;;;;;;;x
+USA_strategic_bomber_8;Boeing B-17E Flying Fortress;;;;;;;;;;;;;x
+USA_strategic_bomber_9;Boeing B-17F Flying Fortress;;;;;;;;;;;;;x
+USA_strategic_bomber_10;Boeing B-17G Flying Fortress;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_heavy_bomber_6;Consolidated B-24A Liberator;;;;;;;;;;;;;;x
+USA_heavy_bomber_7;Consolidated B-24C Liberator;;;;;;;;;;;;;;x
+USA_heavy_bomber_8;Consolidated B-24D Liberator;;;;;;;;;;;;;;x
+USA_heavy_bomber_9;Consolidated B-24H Liberator;;;;;;;;;;;;;;x
+USA_heavy_bomber_10;Consolidated B-24J Liberator;;;;;;;;;;;;;;x
+USA_heavy_bomber_11;Consolidated B-24L Liberator;;;;;;;;;;;;;;x
+USA_heavy_bomber_12;Consolidated B-24M Liberator;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_super_heavy_bomber_0;Boeing B-29 Superfortress;;;;;;;;;;;;;;x
+USA_super_heavy_bomber_1;Boeing B-29A Superfortress;;;;;;;;;;;;;;x
+USA_super_heavy_bomber_2;Boeing B-29B Superfortress;;;;;;;;;;;;;;x
+USA_super_heavy_bomber_3;Boeing B-29C Superfortress;;;;;;;;;;;;;;x
+USA_super_heavy_bomber_4;Boeing B-29D Superfortress;;;;;;;;;;;;;;x
+USA_super_heavy_bomber_5;Convair B-36B Peacemaker;;;;;;;;;;;;;;x
+USA_super_heavy_bomber_6;Convair B-36D Peacemaker;;;;;;;;;;;;;;x
+USA_super_heavy_bomber_7;Convair B-36F Peacemaker;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_quad_engine_transport_8;Douglas C-54A Skymaster;;;;;;;;;;;;;x
+USA_quad_engine_transport_9;Douglas C-54B Skymaster;;;;;;;;;;;;;;x
+USA_quad_engine_transport_10;Douglas C-74A Globemaster I;;;;;;;;;;;;;x
+USA_quad_engine_transport_15;Douglas C-124A Globemaster III;;;;;;;;;;;;;x
+USA_quad_engine_transport_16;Douglas C-124C Globemaster III;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_rocket_interceptor_van_0;Republic XP-91 Thunderceptor;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_rocket_interceptor_0;Bell P-59A Airacomet;;;;;;;;;;;;;x
+USA_rocket_interceptor_1;Lockheed P-80A Shooting Star;;;;;;;;;;;;;x
+USA_rocket_interceptor_2;Lockheed P-80B Shooting Star;;;;;;;;;;;;;x
+USA_rocket_interceptor_5;North American F-86A Sabre;;;;;;;;;;;;;x
+USA_rocket_interceptor_6;North American F-86B Sabre;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_jet_flying_wing_5;Grumman F9F-2 Panther;;;;;;;;;;;;;;x
+USA_jet_flying_wing_6;Grumman F9F-2B Panther;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_amerika_bomber_4;Northrop YB-49;;;;;;;;;;;;;;x
+USA_amerika_bomber_5;Northrop YB-49A;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_advanced_jet_fighter_0;North American F-86D Sabre;;;;;;;;;;;;;;x
+USA_advanced_jet_fighter_1;Grumman F-9 Cougar;;;;;;;;;;;;;;x
+USA_advanced_jet_fighter_2;North American F-100A Super Sabre;;;;;;;;;;;;;;x
+USA_advanced_jet_fighter_3;Vought F8A Crusader;;;;;;;;;;;;;;x
+USA_advanced_jet_fighter_4;McDonnell Douglas F-4A Phantom II;;;;;;;;;;;;;;x
+USA_advanced_jet_fighter_5;McDonnell Douglas F-4C Phantom II;;;;;;;;;;;;;;x
+USA_advanced_jet_fighter_6;McDonnell Douglas F-4E Phantom II;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_advanced_jet_cas_0;North American F-86F Sabre;;;;;;;;;;;;;;x
+USA_advanced_jet_cas_1;North American F-86H Sabre;;;;;;;;;;;;;;x
+USA_advanced_jet_cas_2;Douglas A-4A Skyhawk;;;;;;;;;;;;;;x
+USA_advanced_jet_cas_3;Douglas A-4C Skyhawk;;;;;;;;;;;;;;x
+USA_advanced_jet_cas_4;Douglas A-4F Skyhawk;;;;;;;;;;;;;;x
+USA_advanced_jet_cas_5;Vought A-7A Corsair II;;;;;;;;;;;;;;x
+USA_advanced_jet_cas_6;Vought A-7B Corsair II;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_advanced_jet_bomber_1;Martin B-57B Canberra;;;;;;;;;;;;;;x
+USA_advanced_jet_bomber_2;Martin B-57G Canberra;;;;;;;;;;;;;;x
+USA_advanced_jet_bomber_3;Republic F-105B Thunderchief;;;;;;;;;;;;;;x
+USA_advanced_jet_bomber_4;Republic F-105D Thunderchief;;;;;;;;;;;;;;x
+USA_advanced_jet_bomber_5;Grumman A-6B Intruder;;;;;;;;;;;;;;x
+USA_advanced_jet_bomber_6;General Dynamics F-111A Aardvark;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_advanced_jet_heavy_bomber_0;North American B-45 Tornado;;;;;;;;;;;;;;x
+USA_advanced_jet_heavy_bomber_1;Boeing B-47B Stratojet;;;;;;;;;;;;;;x
+USA_advanced_jet_heavy_bomber_2;Boeing B-52B Stratofortress;;;;;;;;;;;;;;x
+USA_advanced_jet_heavy_bomber_3;Convair B-58B Hustler;;;;;;;;;;;;;;x
+USA_advanced_jet_heavy_bomber_4;Boeing B-52D Stratofortress;;;;;;;;;;;;;;x
+USA_advanced_jet_heavy_bomber_5;Boeing B-52G Stratofortress;;;;;;;;;;;;;;x
+USA_advanced_jet_heavy_bomber_6;Boeing B-52H Stratofortress;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_tactical_transport_aircraft_0;Fairchild C-123B Provider;;;;;;;;;;;;;;x
+USA_tactical_transport_aircraft_1;Lockheed C-130A Hercules;;;;;;;;;;;;;;x
+USA_tactical_transport_aircraft_2;Lockheed C-130B Hercules;;;;;;;;;;;;;;x
+USA_tactical_transport_aircraft_3;Lockheed C-130E Hercules;;;;;;;;;;;;;;x
+USA_tactical_transport_aircraft_4;Lockheed C-141A Starlifter;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

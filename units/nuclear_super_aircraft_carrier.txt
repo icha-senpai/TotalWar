@@ -1,0 +1,52 @@
+nuclear_super_aircraft_carrier = {
+	type = naval
+	sprite = Carrier
+	capital = yes
+	active = no
+	can_be_pride = yes
+	
+	hull = 10.00 
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 40
+	default_morale = 0.30
+	officers = 675
+
+	#Building Costs
+	build_cost_ic = 22.00
+	build_cost_manpower = 5.500
+	build_time = 750
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 55.00
+	transport_capability = 0.00
+	supply_consumption = 11.15
+	fuel_consumption = 0.00
+	range = 60000
+	distance = 4.00
+	radio_strength = 1
+	positioning = 0.25
+
+	#Detection Abilities
+	surface_detection = 4.00
+	air_detection = 4.00
+	sub_detection = 4.00
+	visibility = 230.00
+
+	#Defensive Abilities
+	sea_defence = 30.00
+	air_defence = 25.00
+
+	#Offensive Abilities
+	convoy_attack = 1.00
+	sea_attack = 1.50
+	sub_attack = 2.50
+	air_attack = 0.0
+	shore_bombardment = 0.00
+
+	completion_size = 9
+	on_completion = carrier_practical
+	priority = 100
+}

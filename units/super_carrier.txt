@@ -1,0 +1,55 @@
+super_carrier = {
+	type = naval
+	sprite = Carrier
+	capital = yes
+	active = no
+	can_be_pride = yes
+	
+	hull = 9.00 
+
+
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 550
+
+	carrier_size = 7
+
+	#Building Costs
+	build_cost_ic = 18.00
+	build_cost_manpower = 4.900  
+	build_time = 600
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 24.00  
+	transport_capability = 0.00  
+	supply_consumption = 10.55
+	fuel_consumption = 8.35
+	range = 30000.00  
+	distance = 4.00
+	radio_strength = 1.25
+	positioning = 0.20
+
+	#Detection Abilities
+	surface_detection = 2.00
+	air_detection = 2.00
+	sub_detection = 0.00
+	visibility = 220.00
+
+	#Defensive Abilities
+	sea_defence = 27.00
+	air_defence = 22.00
+
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.50
+	sub_attack = 0.00
+	air_attack = 0.00
+	shore_bombardment = 0.00
+
+	completion_size = 8
+	on_completion = carrier_practical
+	priority = 100
+}

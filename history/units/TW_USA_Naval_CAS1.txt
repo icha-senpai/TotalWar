@@ -1,0 +1,15 @@
+military_construction = {
+	country = USA
+	
+	naval_cas = { 
+		historical_model = 5
+	}
+	naval_cas = { 
+		historical_model = 5
+	}
+			
+	cost = 15.00
+	duration = 90
+	progress = 15
+}
+#EOF#

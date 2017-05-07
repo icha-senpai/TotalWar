@@ -1,0 +1,1101 @@
+################################################################################
+# ADVANCED SUBMARINE TECHNOLOGIES	
+################################################################################
+################################################################################
+# SMALL NUCLEAR REACTOR DEVELOPMENT
+################################################################################
+small_nuclear_reactor_development = {
+	
+	allow = {
+		nuclear_test_facility = 1
+	}
+
+		
+	research_bonus_from = {
+		nuclear_physics = 1.00	
+	}
+
+	on_completion = nuclear_physics
+
+	difficulty = 10
+
+	start_year = 1950
+	folder = advanced_submarine_folder
+}
+################################################################################
+# SMALL NUCLEAR REACTOR TESTING
+################################################################################
+small_nuclear_reactor_testing = {
+	
+	allow = {
+		small_nuclear_reactor_development = 1
+	}
+
+		
+	research_bonus_from = {
+		nuclear_physics = 1	
+	}
+
+	on_completion = nuclear_physics
+
+	difficulty = 10
+
+	start_year = 1952
+	folder = advanced_submarine_folder
+}
+################################################################################
+# SMALL NUCLEAR REACTOR DESIGN
+################################################################################
+small_nuclear_reactor_design = {
+	
+	allow = {
+		small_nuclear_reactor_testing = 1
+	}
+
+		
+	research_bonus_from = {
+		nuclear_physics = 0.50
+		submarine_engineering = 0.50
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 10
+
+	start_year = 1953
+	first_offset = 1958		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 4 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# NUCLEAR SUBMARINE CLASS
+################################################################################
+nuclear_submarine_class = {
+	
+	allow = {
+		submarine_class = 6 
+		small_nuclear_reactor_design = 1
+		nuclear_submarine_hull_design = 1
+		nuclear_submarine_torpedo_tubes = 1
+		nuclear_submarine_crew_berthing = 1
+		submarine_construction_technolgies = 22
+	}
+
+	activate_unit = nuclear_submarine
+	
+	nuclear_submarine = {
+		default_organisation = -1
+		default_morale = -0.01
+		build_cost_ic =  0.75
+		build_cost_manpower = 0.005
+		build_time = 5
+		range = 250
+		positioning = 0.01
+		visibility = -1
+		sea_defence = 0.25
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 1.00	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 10
+
+	start_year = 1954
+	folder = advanced_submarine_folder
+}
+################################################################################
+# NUCLEAR SUBMARINE HULL DESIGN
+################################################################################
+nuclear_submarine_hull_design = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+	}
+
+	nuclear_submarine = {
+		build_cost_ic =  0.75
+		build_time = 10
+		range = 200
+		sea_defence = 1.65
+		convoy_attack = 0.15
+		sea_attack = 0.35
+		sub_attack = 0.25
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1.00	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 10
+
+	start_year = 1954
+	folder = advanced_submarine_folder
+}
+################################################################################
+# NUCLEAR SUBMARINE TORPEDO TUBES
+################################################################################
+nuclear_submarine_torpedo_tubes = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+	}
+
+	nuclear_submarine = {
+		default_organisation = 2
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.002
+		build_time = 10
+		range = -150
+		convoy_attack = 1.15
+		sea_attack = 1.15
+		sub_attack = 0.85
+	}	
+	
+	nuclear_fast_attack_submarine = {
+		default_organisation = 2
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.002
+		build_time = 10
+		range = -150
+		convoy_attack = 1.15
+		sea_attack = 1.15
+		sub_attack = 0.85
+	}	
+	
+	nuclear_ballistic_missile_submarine = {
+		default_organisation = 2
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.002
+		build_time = 10
+		range = -150
+		convoy_attack = 1.15
+		sea_attack = 1.15
+		sub_attack = 0.85
+	}	
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1.00	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 10
+
+	start_year = 1954
+	folder = advanced_submarine_folder
+}
+################################################################################
+# NUCLEAR SUBMARINE CREW BERTHING
+################################################################################
+nuclear_submarine_crew_berthing = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+	}
+
+	nuclear_submarine = {
+		default_morale = 0.02
+		build_cost_ic =  0.10
+		build_time = 8
+		range = -200
+	}	
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1.00	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 10
+
+	start_year = 1954
+	folder = advanced_submarine_folder
+}
+################################################################################
+# FAST ATTACK SUBMARINES
+################################################################################
+fast_attack_submarines = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		nuclear_submarine_class = 1
+		
+	}
+
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1958
+	folder = advanced_submarine_folder
+}
+################################################################################
+# FAST ATTACK SUBMARINE CLASS
+################################################################################
+fast_attack_submarine_class = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		fast_attack_submarines = 1
+					
+		OR ={ 
+			AND = {
+				NOT = { fast_attack_submarine_class = 1 } 
+				submarine_construction_technolgies = 26
+					OR = { 
+						fast_attack_submarine_pressure_hull = 1
+						fast_attack_submarine_crew_berthing = 1
+					}
+					OR = { 
+						fast_attack_submarine_engine_compartment_design = 1
+						fast_attack_submarine_sail_design = 1
+						fast_attack_submarine_propeller_blade_design = 1
+					}
+				}
+			AND = {
+				NOT = { fast_attack_submarine_class = 2 }
+				submarine_construction_technolgies = 30
+					OR = { 
+						fast_attack_submarine_pressure_hull = 2
+						fast_attack_submarine_crew_berthing = 2
+					}
+					OR = { 
+						fast_attack_submarine_engine_compartment_design = 2
+						fast_attack_submarine_sail_design = 2
+						fast_attack_submarine_propeller_blade_design = 2
+					}
+				}	
+			AND = {
+				NOT = { fast_attack_submarine_class = 3 }
+				submarine_construction_technolgies = 34
+					OR = { 
+						fast_attack_submarine_pressure_hull = 3
+						fast_attack_submarine_crew_berthing = 3
+					}
+					OR = { 
+						fast_attack_submarine_engine_compartment_design = 3
+						fast_attack_submarine_sail_design = 3
+						fast_attack_submarine_propeller_blade_design = 3
+					}
+				}
+	}
+
+	activate_unit = nuclear_fast_attack_submarine
+	
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  0.75
+		build_cost_manpower = 0.005
+		build_time = 5
+		range = 250
+		positioning = 0.01
+		visibility = -1
+		sea_defence = 0.25
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# FAST ATTACK SUBMARINES PRESSURE HULL
+################################################################################
+fast_attack_submarine_pressure_hull = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		fast_attack_submarines = 1
+	}
+	
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  1.15
+		build_time = 15
+		range = 300
+		sea_defence = 2.35
+		convoy_attack = 0.55
+		sea_attack = 0.45
+		sub_attack = 0.45
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1.00	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 11
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# FAST ATTACK SUBMARINE CREW BERTHING
+################################################################################
+fast_attack_submarine_crew_berthing = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		fast_attack_submarines = 1
+	}
+	
+	nuclear_fast_attack_submarine = {
+		default_morale = 0.02
+		build_cost_ic =  0.15
+		build_time = 12
+		range = -300
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 11
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# FAST ATTACK SUBMARINE ENGINE COMPARTMENT DESIGN
+################################################################################
+fast_attack_submarine_engine_compartment_design = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		fast_attack_submarines = 1
+	}
+
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  0.15
+		build_time = 5
+		maximum_speed = 1.852
+		range = 250
+		positioning = 0.05
+		sea_defence = 0.55
+		air_defence = 0.55
+		convoy_attack = 0.25
+		sea_attack = 0.25
+		sub_attack = 0.25
+		distance = 0.01
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 11
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# FAST ATTACK SUBMARINE SAIL DESIGN
+################################################################################
+fast_attack_submarine_sail_design = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		fast_attack_submarines = 1
+	}
+	
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  0.10
+		build_time = 3
+		maximum_speed = 1.852
+		range = 100
+		positioning = 0.01
+		sea_defence = 0.15
+		air_defence = 0.15
+		convoy_attack = 0.10
+		sea_attack = 0.10
+		sub_attack = 0.10
+		distance = 0.005
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 11
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# FAST ATTACK SUBMARINE PROPELLER BLADE DESIGN
+################################################################################
+fast_attack_submarine_propeller_blade_design = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		fast_attack_submarines = 1
+	}
+
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  0.25
+		build_time = 15
+		maximum_speed = 8.26
+		range = 250
+		positioning = 0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+		convoy_attack = 0.45
+		sea_attack = 0.55
+		sub_attack = 0.55
+		distance = 0.01
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1.00	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# BALLISTIC MISSILE SUBMARINES
+################################################################################
+ballistic_missile_submarines = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		nuclear_submarine_class = 1
+	}
+			
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1958
+	folder = advanced_submarine_folder
+}
+################################################################################
+# BALLISTIC MISSILE SUBMARINE DESIGN
+################################################################################
+ballistic_missile_submarine_class = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		ballistic_missile_submarines = 1
+		OR ={ 
+			AND = {
+				NOT = { ballistic_missile_submarine_class = 1 } 
+				submarine_construction_technolgies = 26
+					OR = { 
+						ballistic_missile_submarine_pressure_hull_design = 1
+						ballistic_missile_submarine_crew_berthing = 1
+					}
+					OR = { 
+						ballistic_missile_submarine_engine_compartment_design = 1
+						ballistic_missile_submarine_sail_design = 1
+						ballistic_missile_submarine_propeller_blade_design = 1
+					}
+				}
+			AND = {
+				NOT = { ballistic_missile_submarine_class = 2 }
+				submarine_construction_technolgies = 30
+					OR = { 
+						ballistic_missile_submarine_pressure_hull_design = 2
+						ballistic_missile_submarine_crew_berthing = 2
+					}
+					OR = { 
+						ballistic_missile_submarine_engine_compartment_design = 2
+						ballistic_missile_submarine_sail_design = 2
+						ballistic_missile_submarine_propeller_blade_design = 2
+					}
+				}
+			AND = {
+				NOT = { ballistic_missile_submarine_class = 3 }
+				submarine_construction_technolgies = 34
+					OR = { 
+						ballistic_missile_submarine_pressure_hull_design = 3
+						ballistic_missile_submarine_crew_berthing = 3
+					}
+					OR = { 
+						ballistic_missile_submarine_engine_compartment_design = 3
+						ballistic_missile_submarine_sail_design = 3
+						ballistic_missile_submarine_propeller_blade_design = 3
+					}
+				}	
+	}
+	
+	activate_unit = nuclear_ballistic_missile_submarine
+	
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  1.05
+		build_cost_manpower = 0.010
+		build_time = 10
+		range = 500
+		positioning = 0.01
+		visibility = -1
+		sea_defence = 0.10
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# BALLISTIC MISSILE SUBMARINE PRESSURE HULL DESIGN
+################################################################################
+ballistic_missile_submarine_pressure_hull_design = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		ballistic_missile_submarines = 1
+	}
+
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  1.25
+		build_time = 20
+		range = 400
+		sea_defence = 2.75
+		convoy_attack = 0.10
+		sea_attack = 0.10
+		sub_attack = 0.10
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# BALLISTIC MISSILE SUBMARINE CREW BERTHING
+################################################################################
+ballistic_missile_submarine_crew_berthing = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		ballistic_missile_submarines = 1
+	}
+
+	nuclear_ballistic_missile_submarine = {
+		default_morale = 0.02
+		build_cost_ic =  0.20
+		build_time = 15
+		range = -350
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# BALLISTIC MISSILE SUBMARINE ENGINE COMPARTMENT DESIGN
+################################################################################
+ballistic_missile_submarine_engine_compartment_design = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		ballistic_missile_submarines = 1
+	}
+
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  0.25
+		build_time = 10
+		maximum_speed = 1.852
+		range = 400
+		positioning = 0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+		convoy_attack = 0.25
+		sea_attack = 0.10
+		sub_attack = 0.10
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# BALLISTIC MISSILE SUBMARINE SAIL DESIGN
+################################################################################
+ballistic_missile_submarine_sail_design = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		ballistic_missile_submarines = 1
+	}
+
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  0.15
+		build_time = 5
+		maximum_speed = 1.852
+		range = 250
+		positioning = 0.05
+		sea_defence = 0.35
+		air_defence = 0.35
+		convoy_attack = 0.10
+		sea_attack = 0.10
+		sub_attack = 0.10
+		distance = 0.005
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 10
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# BALLISTIC MISSILE SUBMARINE PROPELLER BLADE DESIGN
+################################################################################
+ballistic_missile_submarine_propeller_blade_design = {
+	
+	allow = {
+		small_nuclear_reactor_design = 1
+		ballistic_missile_submarines = 1
+	}
+
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  0.25
+		build_time = 15
+		maximum_speed = 8.26
+		range = 150
+		positioning = 0.03
+		sea_defence = 0.15
+		air_defence = 0.15
+		convoy_attack = 0.45
+		sea_attack = 0.35
+		sub_attack = 0.35
+		distance = 0.001
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1958
+	first_offset = 1962		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1966
+	folder = advanced_submarine_folder
+}
+################################################################################
+# ADVANCED TORPEDOES
+################################################################################
+advanced_torpedoes = {
+	
+	allow = {
+		submarine_torpedo = 1
+		submarine_torpedo_warhead_and_fuzing = 7
+		submarine_torpedo_guidance = 7
+		submarine_torpedo_propulsion = 7
+		submarine_acoustic_torpedo = 1
+	}
+
+		
+	research_bonus_from = {
+		submarine_engineering = 1.00	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 10
+
+	start_year = 1950
+	folder = advanced_submarine_folder
+}
+################################################################################
+# TORPEDO PROPULSION DESIGNS
+################################################################################
+advanced_torpedo_propulsion_design = {
+	
+	allow = {
+		advanced_torpedoes = 1
+		
+	}
+
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  0.25
+		build_time = 3
+		convoy_attack = 2.00
+		sea_attack = 2.55
+		sub_attack = 2.55
+		distance = 0.02
+	}
+	
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  0.25
+		build_time = 3
+		convoy_attack = 2.00
+		sea_attack = 2.55
+		sub_attack = 2.55
+		distance = 0.02
+	}
+	
+	change = no
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 10
+
+	start_year = 1950
+	first_offset = 1955		
+	additional_offset = 5	
+	max_level = 4 # 1965
+	folder = advanced_submarine_folder
+}
+################################################################################
+# TORPEDO WARHEAD DESIGNS
+################################################################################
+advanced_torpedo_warhead_design = {
+	
+	allow = {
+		advanced_torpedoes = 1
+	}
+
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  0.05
+		convoy_attack = 0.65
+		sea_attack = 0.75
+		sub_attack = 0.75
+	}
+	
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  0.05
+		convoy_attack = 0.65
+		sea_attack = 0.75
+		sub_attack = 0.75
+	}
+	
+	change = no
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 10
+
+	start_year = 1952
+	first_offset = 1957		
+	additional_offset = 5	
+	max_level = 3 # 1962
+	folder = advanced_submarine_folder
+}
+################################################################################
+# ACOUSTIC TORPEDOES
+################################################################################
+advanced_acoustic_torpedoes = {
+	
+	allow = {
+		advanced_torpedoes = 1
+	}
+
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  0.07
+		positioning = 0.05
+	}
+	
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  0.07
+		positioning = 0.05
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 14
+
+	start_year = 1954
+	folder = advanced_submarine_folder
+}
+################################################################################
+# WAKE HOMING TORPEDOES
+################################################################################
+wake_homing_torpedoes = {
+	
+	allow = {
+		advanced_torpedoes = 1
+	}
+
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  0.05
+		positioning = 0.03
+	}
+	
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  0.05
+		positioning = 0.03
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 14
+
+	start_year = 1955
+	folder = advanced_submarine_folder
+}
+################################################################################
+# ADVANCED SUBMARINE SONAR
+################################################################################
+advanced_submarine_sonar = {
+	
+	allow = {
+		nuclear_submarine_class = 1
+	}
+		
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.005
+		build_time = 5
+		surface_detection = 1.25
+		sub_detection = 1.25
+		sea_defence = 0.75
+	}
+	
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.005
+		build_time = 5
+		surface_detection = 1.25
+		sub_detection = 1.25
+		sea_defence = 0.75
+	}	
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1954
+	folder = advanced_submarine_folder
+}
+################################################################################
+# ADVANCED SUBMARINE FIRE CONTROL
+################################################################################
+advanced_submarine_fire_control = {
+	
+	allow = {
+		nuclear_submarine_class = 1
+	}
+
+	nuclear_fast_attack_submarine = {
+		build_cost_ic =  0.25
+		build_time = 3
+		distance = 0.04
+		convoy_attack = 0.75
+		sea_attack = 0.75
+		sub_attack = 0.75
+	}
+	
+	nuclear_ballistic_missile_submarine = {
+		build_cost_ic =  0.25
+		build_time = 3
+		distance = 0.04
+		convoy_attack = 0.75
+		sea_attack = 0.75
+		sub_attack = 0.75
+	}	
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1958
+	folder = advanced_submarine_folder
+}

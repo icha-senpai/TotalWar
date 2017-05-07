@@ -1,0 +1,124 @@
+GER_pzthirtyfive_rgt = {
+	
+	type = land
+	sprite = Tank ## Assuming a mix between light and medium armour
+	active = no
+	is_buildable = yes
+	can_upgrade = no
+	is_mobile = yes
+	is_armor = yes
+	unit_group = armor_unit_type
+
+	#Size Definitions	- x2 Battalions
+	max_strength = 5.00
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 75
+
+	#Building Costs
+	build_cost_ic = 7.00
+	build_cost_manpower = 1.650
+	build_time = 100
+	repair_cost_multiplier = 0.07
+
+	#Misc Abilities
+	maximum_speed = 8.00
+	transport_weight = 32.00
+	supply_consumption = 1.33
+	fuel_consumption = 2.00
+	radio_strength = 0.50
+
+	#Defensive Abilities
+	defensiveness = 14.00	
+	toughness = 10.0
+	softness = 0.05
+	air_defence = 3.00
+	armor_value = 1
+
+	#Offensive Abilities
+	suppression = 0.00
+	soft_attack = 8.0
+	hard_attack = 2.0
+	air_attack = 0.00
+	ap_attack = 0
+
+	## Armored units have bonuses mostly to open terrain.  
+	
+	plains = {
+		attack = 0.60 ## Ideal terrain for offensive operations involving tanks. 
+		defence = -0.20 ## Difficult terrain for defense due to long sight lines.  
+		movement = 0.30 ## Easy terrain to move and manuever on. 
+	}
+	river = { 
+		attack = -0.15 ## At a disadvantage when attacking across rivers.  Need Engineers with heavy pontoon bridges.
+		defence = 0.10 ## Good for sitting on other side of river and picking target off as they cross.
+		movement = -0.40 ## Cannot move across rivers and streams easily.  Need strong bridges to support weight of armor. 
+	}
+	arctic = {	
+		attack = 0.45 ## Can attack on frozen tundra a lot easier than mud.
+		defence = -0.20 ## Tanks not suited for open tundra.
+		movement = 0.30 ## Can roll on frozen tundra a lot easier than mud. 
+		attrition = 5 ## Too cold to stay outside for too long.	
+	}
+	desert = { 
+		attack = 0.55 ## Ideal terrain for offensive operations involving tanks. 
+		defence = -0.10 ## Difficult terrain for defense due to long sight lines.  
+		movement = 0.30 ## Easy terrain to move and manuever on. 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = -0.15 ## Not as easy to attack concealed positions.
+		defence = 0.15 ## Can conceal tanks easy in wooded areas.
+		movement = -0.15 ## Not as easy to move armor through woods. 
+	}
+	forest = {
+		attack = -0.35 ## Not as easy to attack through dense forest.
+		defence = 0.25 ## Can conceal tanks easy in dense forest.
+		movement = -0.15 ## Can't move armor through dense forest easily.
+	}
+	jungle = { 
+		attack = -0.50 ## Not meant to operate in dense jungle
+		defence = 0.05 ## Slightly easy to defend dense jungle with tanks
+		movement = -0.40  ## No equipment for moving through dense jungle
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		attack = 0.05 # Slightly hard to fight in hilly areas
+		defence = 0.20 # Easy to conceal tanks on hilly terrain
+		movement = -0.10 # Slightly hard to manuever up and down hills
+	}
+	mountain = { 
+		attack = -0.40 # Armored vehicles not meant to traverse steep mountains
+		defence = -0.30 # Armored vehicles not meant to traverse steep mountains
+		movement = -0.35 # Armored vehicles not meant to traverse steep mountains
+	}
+	urban = {
+		attack = 0.30 ## Advantage to attacking urban areas.  Can advance into cities and be protected against machine gun fire. 
+		defence = -0.05 ## Can defend urban areas if tanks are dug in.  Not too much room to manuever though.  Also more vulnerable to handheld anti-tank weapons.  
+		movement = 0.25 ## Easy to move around on paved streets 
+	}
+	marsh = { 
+		attack = -0.20 ## Tanks won't get stuck in the mud as much as regular armor
+		defence = -0.25 ## Marshes are difficult defend from too, not as easy to manuever in the wetlands
+		movement = -0.30 ## Slightly easier for amphibious armor to move through marshes
+	}
+	amphibious = { 
+		attack = -1.00 ## Cannot conduct amphibious assaults
+		defence = -1.00	## Cannot conduct amphibious assaults 
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		attack = 0.05 # Tanks can attack forts easier than infantry.  Protected from machine gun fire.
+		defence = 0.05 # Pillboxes and Fortresses are easy to defend from
+	}
+
+	combat_width = 0.66
+
+	completion_size = 1.5
+	on_completion = armour_practical
+	
+	priority = 75
+}

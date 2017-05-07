@@ -1,0 +1,5555 @@
+# ########################################################################
+# STRATEGIC DOCTRINES
+# ########################################################################
+# ########################################################################
+# WW1 WARFARE
+# ########################################################################
+world_war_one_warfare = {
+
+	allow = {
+		
+	}	
+		
+	tactic_basic_attack = 1
+    tactic_basic_defend = 1
+	
+	infantry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	semi_motorized_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	motorized_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	mechanized_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	
+	garrison_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	police_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	light_infantry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	elite_light_infantry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	elite_light_infantry_battalion = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	conscript_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	militia_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	combined_arms_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	commando_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	ski_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	
+	cavalry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	bergsjaeger_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	alpini_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	alpins_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	airlanding_infantry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	paratrooper_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	naval_infantry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	marine_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	air_cavalry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	engineer_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	motorized_engineer_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	airborne_engineer_bat = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+				
+	armored_car_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	motorcycle_recon_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	Recon_cavalry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	infantry_tank_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+		
+	guard_cavalry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	guard_infantry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	guard_mechanized_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	guard_motorized_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	guard_paratrooper_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	guards_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	ss_mechanized_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	
+	ss_armored_car_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_armored_engineers_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+		
+	ss_cavalry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_commando_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_dasreich = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_engineer_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	
+	ss_motorized_engineer_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	
+	ss_florian_geyer = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_frundsberg = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	
+	
+	ss_hitlerjugend = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_hohenstaufen = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_infantry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_lssah = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	
+	ss_motorcycle_recon_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	
+	
+	ss_motorized_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	
+	ss_paratrooper_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_police_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_polizei = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_prinz_eugen = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_Recon_cavalry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	
+	ss_ski_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+		
+	ss_totenkopf = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	ss_wiking = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+			
+	HQDEF_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	
+	
+	anzac_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	afrika_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	Communist_militia_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	fascist_militia_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	goering_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	grossdeutschland_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	Gurkha_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	imperial_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	
+	NKVD_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	ranger_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	infantry_bat = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	motorized_infantry_bat = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	mechanized_infantry_bat = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	
+	colonial_bergsjaeger_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	colonial_cavalry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	colonial_infantry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	colonial_light_infantry_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	colonial_militia_brigade = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+		
+	guard_mechanized_infantry_bat = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	guard_motorized_infantry_bat = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	ss_armor_bat = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_infantry_bat = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	ss_motorized_infantry_bat = { 
+		default_organisation = 5
+		plains = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}	
+	
+	change = no
+	
+    research_bonus_from = {
+		grand_battleplan_theory = 0.50
+    }
+    
+    on_completion = grand_battleplan_theory
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1918		 
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# CAVALRY PURSUIT TACTICS
+# ########################################################################
+cavalry_pursuit_tactics = {
+    
+	allow = {
+	
+	}	
+	
+	change = no
+	
+	cavalry_brigade = {
+		maximum_speed = 0.10
+		plains = {
+			movement = 0.05
+			attack = 0.05
+		}
+		desert = {
+			movement = 0.05
+			attack = 0.05
+		}
+	}
+	ss_cavalry_brigade = {
+		maximum_speed = 0.10
+		plains = {
+			movement = 0.05
+			attack = 0.05
+		}
+		desert = {
+			movement = 0.05 
+			attack = 0.05
+		}
+	}
+	guard_cavalry_brigade = {
+		maximum_speed = 0.10
+		plains = {
+			movement = 0.05
+			attack = 0.05
+		}
+		desert = {
+			movement = 0.05 
+			attack = 0.05
+		}
+	}
+	Recon_cavalry_brigade = {
+		maximum_speed = 0.10
+		plains = {
+			movement = 0.05
+			attack = 0.05
+		}
+		desert = {
+			movement = 0.05
+			attack = 0.05
+		}
+	}
+	ss_Recon_cavalry_brigade = { 	
+		maximum_speed = 0.10
+		plains = {
+			movement = 0.05
+			attack = 0.05
+		}
+		desert = {
+			movement = 0.05
+			attack = 0.05
+		}
+	}
+	
+    research_bonus_from = {
+		mobile_theory = 0.05
+    }
+    
+    on_completion = mobile_theory
+	
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1918
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# ATTRITION WARFARE
+# ########################################################################
+attrition_warfare = {
+    
+	allow = {
+		world_war_one_warfare = 1	
+	}
+	
+	change = no
+	
+	maximum_attrition = -0.10
+		
+	infantry_brigade = { 
+		default_morale = 0.05
+	}
+	semi_motorized_brigade = { 
+		default_morale = 0.05
+	}
+	motorized_brigade = { 
+		default_morale = 0.05
+	}
+	mechanized_brigade = { 
+		default_morale = 0.05
+	}
+	
+	
+	garrison_brigade = { 
+		default_morale = 0.05
+	}
+	police_brigade = { 
+		default_morale = 0.05
+	}
+	
+	light_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	elite_light_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	elite_light_infantry_battalion = { 
+		default_morale = 0.05
+	}
+	
+	conscript_brigade = { 
+		default_morale = 0.05
+	}
+	militia_brigade = { 
+		default_morale = 0.05
+	}
+	
+	combined_arms_brigade = { 
+		default_morale = 0.05
+	}
+	commando_brigade = { 
+		default_morale = 0.05
+	}
+	ski_brigade = { 
+		default_morale = 0.05
+	}
+	
+	
+	cavalry_brigade = { 
+		default_morale = 0.05
+	}
+	
+	bergsjaeger_brigade = { 
+		default_morale = 0.05
+	}
+	alpini_brigade = { 
+		default_morale = 0.05
+	}
+	alpins_brigade = { 
+		default_morale = 0.05
+	}
+	airlanding_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	paratrooper_brigade = { 
+		default_morale = 0.05
+	}
+	naval_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	marine_brigade = { 
+		default_morale = 0.05
+	}
+	air_cavalry_brigade = { 
+		default_morale = 0.05
+	}
+	
+	engineer_brigade = { 
+		default_morale = 0.05
+	}
+	
+	motorized_engineer_brigade = { 
+		default_morale = 0.05
+	}
+	
+	airborne_engineer_bat = { 
+		default_morale = 0.05
+	}
+		
+	artillery_brigade = { 
+		default_morale = 0.05
+	}
+	
+	medium_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	
+	
+	anti_air_brigade = { 
+		default_morale = 0.05
+	}
+	
+	heavy_anti_air_brigade = { 
+		default_morale = 0.05
+	}
+	
+	anti_tank_brigade = { 
+		default_morale = 0.05
+	}
+	heavy_anti_tank_brigade = { 
+		default_morale = 0.05
+	}
+	
+	airborne_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	heavy_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	
+	rocket_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	
+	mixed_support_brigade = { 
+		default_morale = 0.05
+	}
+		
+	armored_car_brigade = { 
+		default_morale = 0.05
+	}
+	motorcycle_recon_brigade = { 
+		default_morale = 0.05
+	}
+	Recon_cavalry_brigade = { 
+		default_morale = 0.05
+	}
+	
+	
+	armor_brigade = { 
+		default_morale = 0.05
+	}
+	light_armor_brigade = { 
+		default_morale = 0.05
+	}
+	infantry_tank_brigade = { 
+		default_morale = 0.05
+	}
+	assault_gun_brigade = { 
+		default_morale = 0.05
+	}
+	heavy_armor_brigade = { 
+		default_morale = 0.05
+	}
+	super_heavy_armor_brigade = { 
+		default_morale = 0.05
+	}
+	heavy_assault_gun_brigade = { 
+		default_morale = 0.05
+	}
+	tank_destroyer_brigade = { 
+		default_morale = 0.05
+	}
+	medium_tank_destroyer_brigade = { 
+		default_morale = 0.05
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_morale = 0.05
+	}
+	amph_armour_brigade = { 
+		default_morale = 0.05
+	}
+	armored_engineers_brigade = { 
+		default_morale = 0.05
+	}
+	armored_support_brigade = { 
+		default_morale = 0.05
+	}
+	sp_anti_air_brigade = { 
+		default_morale = 0.05
+	}
+	sp_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	sp_rct_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	
+	guard_armor_brigade = { 
+		default_morale = 0.05
+	}
+	guard_cavalry_brigade = { 
+		default_morale = 0.05
+	}
+	guard_heavy_armor_brigade = { 
+		default_morale = 0.05
+	}
+	guard_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	guard_mechanized_brigade = { 
+		default_morale = 0.05
+	}
+	guard_motorized_brigade = { 
+		default_morale = 0.05
+	}
+	guard_paratrooper_brigade = { 
+		default_morale = 0.05
+	}
+	guard_sp_rct_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	guards_brigade = { 
+		default_morale = 0.05
+	}
+	
+	ss_armor_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_mechanized_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_anti_air_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_heavy_anti_air_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_anti_tank_brigade = { 
+		default_morale = 0.05
+	}	
+	
+	ss_heavy_anti_tank_brigade = { 
+		default_morale = 0.05
+	}	
+	
+	ss_armored_car_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_armored_engineers_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_armored_support_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_artillery_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_medium_artillery_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_bergsjaeger_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_cavalry_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_commando_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_dasreich = { 
+		default_morale = 0.05
+	}	
+	ss_engineer_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_motorized_engineer_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_florian_geyer = { 
+		default_morale = 0.05
+	}	
+	ss_frundsberg = { 
+		default_morale = 0.05
+	}	
+	ss_garrison_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_heavy_armor_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_hitlerjugend = { 
+		default_morale = 0.05
+	}	
+	ss_hohenstaufen = { 
+		default_morale = 0.05
+	}	
+	ss_infantry_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_lssah = { 
+		default_morale = 0.05
+	}	
+	ss_mixed_support_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_motorcycle_recon_brigade = { 
+		default_morale = 0.05
+	}	
+		
+	ss_motorized_brigade = { 
+		default_morale = 0.05
+	}	
+	
+	ss_pack_artillery_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_paratrooper_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_police_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_polizei = { 
+		default_morale = 0.05
+	}	
+	ss_prinz_eugen = { 
+		default_morale = 0.05
+	}	
+	ss_Recon_cavalry_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_rocket_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	ss_ski_brigade = { 
+		default_morale = 0.05
+	}
+	ss_sp_anti_air_brigade = { 
+		default_morale = 0.05
+	}
+	ss_sp_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	ss_tank_destroyer_brigade = { 
+		default_morale = 0.05
+	}
+	ss_totenkopf = { 
+		default_morale = 0.05
+	}
+	ss_wiking = { 
+		default_morale = 0.05
+	}
+			
+	HQDEF_brigade = { 
+		default_morale = 0.05
+	}	
+	
+	desertrats_brigade = { 
+		default_morale = 0.05
+	}
+	anzac_brigade = { 
+		default_morale = 0.05
+	}
+	afrika_brigade = { 
+		default_morale = 0.05
+	}
+	Communist_militia_brigade = { 
+		default_morale = 0.05
+	}
+	fascist_militia_brigade = { 
+		default_morale = 0.05
+	}
+	goering_brigade = { 
+		default_morale = 0.05
+	}
+	grossdeutschland_brigade = { 
+		default_morale = 0.05
+	}
+	Gurkha_brigade = { 
+		default_morale = 0.05
+	}
+	imperial_brigade = { 
+		default_morale = 0.05
+	}
+	lehr_brigade = { 
+		default_morale = 0.05
+	}
+	luftwaffe_brigade = { 
+		default_morale = 0.05
+	}
+	NKVD_brigade = { 
+		default_morale = 0.05
+	}
+	ranger_brigade = { 
+		default_morale = 0.05
+	}
+	
+	infantry_bat = { 
+		default_morale = 0.05
+	}
+	motorized_infantry_bat = { 
+		default_morale = 0.05
+	}
+	mechanized_infantry_bat = { 
+		default_morale = 0.05
+	}
+	garrison_detachment = { 
+		default_morale = 0.05
+	}
+	tropical_island_garrison_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_bergsjaeger_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_cavalry_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_garrison_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_light_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_militia_brigade = { 
+		default_morale = 0.05
+	}
+	pack_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	armor_bat = { 
+		default_morale = 0.05
+	}
+	light_armor_bat = { 
+		default_morale = 0.05
+	}
+	guard_armor_bat = { 
+		default_morale = 0.05
+	}
+	guard_mechanized_infantry_bat = { 
+		default_morale = 0.05
+	}
+	guard_motorized_infantry_bat = { 
+		default_morale = 0.05
+	}
+	ss_armor_bat = { 
+		default_morale = 0.05
+	}	
+	ss_infantry_bat = { 
+		default_morale = 0.05
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_morale = 0.05
+	}	
+	ss_motorized_infantry_bat = { 
+		default_morale = 0.05
+	}	
+
+    research_bonus_from = {
+		
+		grand_battleplan_theory = 0.05
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1918
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# STORMTROOPER TACTICS
+# ########################################################################
+stormtrooper_tactics = {
+    
+	allow = {
+		world_war_one_warfare = 1	
+		trench_warfare_experience = 1
+		OR = { 
+			germany = 1
+			land_battles_fought = 4000
+		}
+	}
+	
+	change = no
+		
+	tactic_assault = 3
+	
+	assault_unit_type = 0.01
+	special_forces_unit_type = 0.01
+		
+	light_infantry_brigade = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}
+	elite_light_infantry_brigade = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}
+	elite_light_infantry_battalion = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}
+	
+	commando_brigade = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}
+			
+	engineer_brigade = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}
+	motorized_engineer_brigade = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}
+	ss_engineer_brigade = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}
+	ss_motorized_engineer_brigade = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}
+	
+	airborne_engineer_bat = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}
+		
+	ss_commando_brigade = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}	
+	
+	ranger_brigade = { 
+		toughness = 1.0
+		fort = { 
+			attack = 0.10
+		}
+	}
+	
+    research_bonus_from = {
+		spearhead_theory = 0.10
+    }
+    
+    on_completion = spearhead_theory
+	
+    difficulty = 12
+
+    # common for all techs.
+    start_year = 1918
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# INFILTRATION
+# ######################################################################## 
+infiltration = {
+    
+	allow = {
+		stormtrooper_tactics = 1
+	}
+		
+	tactic_surprise_attack = 2
+	tactic_ambush = 2
+	
+	special_forces_unit_type = 0.01
+		
+	change = no
+	
+   research_bonus_from = {
+		spearhead_theory = 0.05
+    }
+    
+    on_completion = spearhead_theory
+    difficulty = 13
+
+    # common for all techs.
+    start_year = 1918
+	
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# ARTILLERY BARRAGE
+# ########################################################################
+artillery_barrage = {
+    
+	allow = {
+		world_war_one_warfare = 1
+	}	
+	
+	change = no
+			
+	tactic_offensive_artillery_bombardment = 2
+	
+	artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	medium_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+		
+	pack_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	rocket_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	airborne_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	heavy_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	
+	mixed_support_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	armored_support_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	sp_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	sp_rct_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	
+	guard_sp_rct_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	
+	ss_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	ss_medium_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	ss_rocket_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	ss_sp_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	ss_sp_rct_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	ss_mixed_support_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	
+	ss_armored_support_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+	ss_pack_artillery_brigade = { 
+		soft_attack = 0.10
+        plains = { 
+			attack = 0.05
+			defence = 0.05
+		}
+	}
+		
+    research_bonus_from = {
+        artillery_theory = 0.10       
+    }
+    
+    on_completion = artillery_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1918
+  
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# GRAND BATTLEPLAN DOCTRINES
+# ########################################################################
+grand_battle_plan = {
+    
+	allow = {
+		world_war_one_warfare = 1
+		attrition_warfare = 1
+		artillery_barrage = 1
+	}	
+	
+	change = no
+	
+	combat_efficiency = 0.02
+	
+	attack_delay = 1
+	
+	tactic_basic_attack = 1
+	tactic_basic_defend = 1
+	tactic_armor_defense = 2
+	tactic_flanking_attack = 1
+	
+	reinforce_chance = 0.02
+	attack_movement_speed = -0.05
+			
+	infantry_brigade = { 
+		default_morale = 0.05
+	}
+	semi_motorized_brigade = { 
+		default_morale = 0.05
+	}
+	motorized_brigade = { 
+		default_morale = 0.05
+	}
+	mechanized_brigade = { 
+		default_morale = 0.05
+	}
+	
+	
+	garrison_brigade = { 
+		default_morale = 0.05
+	}
+	police_brigade = { 
+		default_morale = 0.05
+	}
+	
+	light_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	elite_light_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	elite_light_infantry_battalion = { 
+		default_morale = 0.05
+	}
+	
+	conscript_brigade = { 
+		default_morale = 0.05
+	}
+	militia_brigade = { 
+		default_morale = 0.05
+	}
+	
+	combined_arms_brigade = { 
+		default_morale = 0.05
+	}
+	commando_brigade = { 
+		default_morale = 0.05
+	}
+	ski_brigade = { 
+		default_morale = 0.05
+	}
+	
+	
+	cavalry_brigade = { 
+		default_morale = 0.05
+	}
+	
+	bergsjaeger_brigade = { 
+		default_morale = 0.05
+	}
+	alpini_brigade = { 
+		default_morale = 0.05
+	}
+	alpins_brigade = { 
+		default_morale = 0.05
+	}
+	airlanding_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	paratrooper_brigade = { 
+		default_morale = 0.05
+	}
+	naval_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	marine_brigade = { 
+		default_morale = 0.05
+	}
+	air_cavalry_brigade = { 
+		default_morale = 0.05
+	}
+	
+	engineer_brigade = { 
+		default_morale = 0.05
+	}
+	
+	motorized_engineer_brigade = { 
+		default_morale = 0.05
+	}
+	
+	airborne_engineer_bat = { 
+		default_morale = 0.05
+	}
+		
+	artillery_brigade = { 
+		default_morale = 0.05
+	}
+	medium_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	anti_air_brigade = { 
+		default_morale = 0.05
+	}
+	
+	heavy_anti_air_brigade = { 
+		default_morale = 0.05
+	}
+	
+	anti_tank_brigade = { 
+		default_morale = 0.05
+	}
+	
+	heavy_anti_tank_brigade = { 
+		default_morale = 0.05
+	}
+	airborne_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	heavy_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	
+	rocket_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	
+	mixed_support_brigade = { 
+		default_morale = 0.05
+	}
+	
+	
+	armored_car_brigade = { 
+		default_morale = 0.05
+	}
+	motorcycle_recon_brigade = { 
+		default_morale = 0.05
+	}
+	Recon_cavalry_brigade = { 
+		default_morale = 0.05
+	}
+	
+	
+	armor_brigade = { 
+		default_morale = 0.05
+	}
+	light_armor_brigade = { 
+		default_morale = 0.05
+	}
+	infantry_tank_brigade = { 
+		default_morale = 0.05
+	}
+	assault_gun_brigade = { 
+		default_morale = 0.05
+	}
+	heavy_armor_brigade = { 
+		default_morale = 0.05
+	}
+	super_heavy_armor_brigade = { 
+		default_morale = 0.05
+	}
+	heavy_assault_gun_brigade = { 
+		default_morale = 0.05
+	}
+	tank_destroyer_brigade = { 
+		default_morale = 0.05
+	}
+	medium_tank_destroyer_brigade = { 
+		default_morale = 0.05
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_morale = 0.05
+	}
+	amph_armour_brigade = { 
+		default_morale = 0.05
+	}
+	armored_engineers_brigade = { 
+		default_morale = 0.05
+	}
+	armored_support_brigade = { 
+		default_morale = 0.05
+	}
+	sp_anti_air_brigade = { 
+		default_morale = 0.05
+	}
+	sp_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	sp_rct_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	
+	guard_armor_brigade = { 
+		default_morale = 0.05
+	}
+	guard_cavalry_brigade = { 
+		default_morale = 0.05
+	}
+	guard_heavy_armor_brigade = { 
+		default_morale = 0.05
+	}
+	guard_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	guard_mechanized_brigade = { 
+		default_morale = 0.05
+	}
+	guard_motorized_brigade = { 
+		default_morale = 0.05
+	}
+	guard_paratrooper_brigade = { 
+		default_morale = 0.05
+	}
+	guard_sp_rct_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	guards_brigade = { 
+		default_morale = 0.05
+	}
+	
+	ss_armor_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_mechanized_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_anti_air_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_heavy_anti_air_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_anti_tank_brigade = { 
+		default_morale = 0.05
+	}	
+	
+	ss_heavy_anti_tank_brigade = { 
+		default_morale = 0.05
+	}	
+	
+	ss_armored_car_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_armored_engineers_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_armored_support_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_artillery_brigade = { 
+		default_morale = 0.05
+	}	
+	
+	ss_medium_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	
+	ss_bergsjaeger_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_cavalry_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_commando_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_dasreich = { 
+		default_morale = 0.05
+	}	
+	ss_engineer_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_motorized_engineer_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_florian_geyer = { 
+		default_morale = 0.05
+	}	
+	ss_frundsberg = { 
+		default_morale = 0.05
+	}	
+	ss_garrison_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_heavy_armor_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_hitlerjugend = { 
+		default_morale = 0.05
+	}	
+	ss_hohenstaufen = { 
+		default_morale = 0.05
+	}	
+	ss_infantry_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_lssah = { 
+		default_morale = 0.05
+	}	
+	ss_mixed_support_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_motorcycle_recon_brigade = { 
+		default_morale = 0.05
+	}	
+	
+	ss_motorized_brigade = { 
+		default_morale = 0.05
+	}	
+		
+	ss_pack_artillery_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_paratrooper_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_police_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_polizei = { 
+		default_morale = 0.05
+	}	
+	ss_prinz_eugen = { 
+		default_morale = 0.05
+	}	
+	ss_Recon_cavalry_brigade = { 
+		default_morale = 0.05
+	}	
+	ss_rocket_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	ss_ski_brigade = { 
+		default_morale = 0.05
+	}
+	ss_sp_anti_air_brigade = { 
+		default_morale = 0.05
+	}
+	ss_sp_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	ss_tank_destroyer_brigade = { 
+		default_morale = 0.05
+	}
+	ss_totenkopf = { 
+		default_morale = 0.05
+	}
+	ss_wiking = { 
+		default_morale = 0.05
+	}
+			
+	HQDEF_brigade = { 
+		default_morale = 0.05
+	}	
+	
+	desertrats_brigade = { 
+		default_morale = 0.05
+	}
+	anzac_brigade = { 
+		default_morale = 0.05
+	}
+	afrika_brigade = { 
+		default_morale = 0.05
+	}
+	Communist_militia_brigade = { 
+		default_morale = 0.05
+	}
+	fascist_militia_brigade = { 
+		default_morale = 0.05
+	}
+	goering_brigade = { 
+		default_morale = 0.05
+	}
+	grossdeutschland_brigade = { 
+		default_morale = 0.05
+	}
+	Gurkha_brigade = { 
+		default_morale = 0.05
+	}
+	imperial_brigade = { 
+		default_morale = 0.05
+	}
+	lehr_brigade = { 
+		default_morale = 0.05
+	}
+	luftwaffe_brigade = { 
+		default_morale = 0.05
+	}
+	NKVD_brigade = { 
+		default_morale = 0.05
+	}
+	ranger_brigade = { 
+		default_morale = 0.05
+	}
+	
+	infantry_bat = { 
+		default_morale = 0.05
+	}
+	motorized_infantry_bat = { 
+		default_morale = 0.05
+	}
+	mechanized_infantry_bat = { 
+		default_morale = 0.05
+	}
+	garrison_detachment = { 
+		default_morale = 0.05
+	}
+	tropical_island_garrison_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_bergsjaeger_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_cavalry_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_garrison_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_light_infantry_brigade = { 
+		default_morale = 0.05
+	}
+	colonial_militia_brigade = { 
+		default_morale = 0.05
+	}
+	pack_artillery_brigade = { 
+		default_morale = 0.05
+	}
+	armor_bat = { 
+		default_morale = 0.05
+	}
+	light_armor_bat = { 
+		default_morale = 0.05
+	}
+	guard_armor_bat = { 
+		default_morale = 0.05
+	}
+	guard_mechanized_infantry_bat = { 
+		default_morale = 0.05
+	}
+	guard_motorized_infantry_bat = { 
+		default_morale = 0.05
+	}
+	ss_armor_bat = { 
+		default_morale = 0.05
+	}	
+	ss_infantry_bat = { 
+		default_morale = 0.05
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_morale = 0.05
+	}	
+	ss_motorized_infantry_bat = { 
+		default_morale = 0.05
+	}	
+		
+    research_bonus_from = {
+        grand_battleplan_theory = 0.15
+        
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1924
+	first_offset = 1937 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# ARMY FIELD MANUAL DOCTRINE
+# ########################################################################
+army_field_manual = {
+    
+	allow = {
+		grand_battle_plan = 1
+		OR = { 
+			NOT = { blitzkrieg = 1 }
+			NOT = { deep_battle_doctrine = 1 }
+			}
+		OR = {
+			AND = { 
+				germany = 1 
+				infantry_division_field_exercises = 6
+				infantry_regiment_field_exercises = 6
+				infantry_battalion_field_exercises = 6
+				infantry_company_field_exercises = 6	
+				land_battles_fought = 3000	
+			}
+			AND = { 
+				soviet_union = 1 
+				infantry_division_field_exercises = 5
+				infantry_regiment_field_exercises = 5
+				infantry_battalion_field_exercises = 5
+				infantry_company_field_exercises = 5	
+				land_battles_fought = 3000
+			}
+			AND ={
+				NOT = { germany = 1 }
+				NOT = { soviet_union = 1 }
+				infantry_division_field_exercises = 1
+				infantry_regiment_field_exercises = 1
+				infantry_battalion_field_exercises = 1
+				infantry_company_field_exercises = 1
+			}
+		}	
+		
+	}	
+	
+	change = no
+	
+	combat_efficiency = -0.05
+	
+	tactic_basic_attack = 1
+	tactic_basic_defend = 3
+	tactic_assault = 1
+	tactic_delay = 1
+	tactic_defensive_artillery_bombardment = 1
+	tactic_fire_and_manuever = 1
+	attack_movement_speed = -0.03
+
+    research_bonus_from = {
+        grand_battleplan_theory = 0.15
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1939 	# 2nd model is from 1936
+    additional_offset = 3   # one new every 2 years
+	max_level = 10
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# MASS ASSAULT
+# ########################################################################
+mass_assault = {
+   
+	allow = {
+		war = yes
+		world_war_one_warfare = 1
+		attrition_warfare = 1
+		OR = { 
+			grand_battle_plan = 1
+			political_indoctrination = 1	
+		}	
+	}	
+	
+	change = no
+		
+	tactic_reckless_assault = 2
+	tactic_breakthrough = 2
+	tactic_shock = 1
+	tactic_offensive_artillery_bombardment = 1
+	tactic_conscripts = 2
+
+	unit_cooperation = -0.01
+	reinforce_chance = -0.01
+	
+	combat_efficiency = -0.01
+	
+	maximum_attrition = 0.01
+
+    research_bonus_from = {
+		human_wave_theory = 0.25
+        
+    }
+    
+    on_completion = human_wave_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1939
+	first_offset = 1940 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 10
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# AIR LAND BATTLE
+# ########################################################################
+air_land_battle = {
+    
+	allow = {
+		grand_battle_plan = 1
+		total_amount_of_planes = 125
+		OR = {
+			tactical_air_support = 1
+			close_air_support = 1	
+		}
+	}	
+	
+	change = no
+	
+	unit_cooperation = 0.01
+	
+	logistical_strike = {
+		efficiency = 0.03
+	}	
+	
+	interdiction = {
+		reduction_modifier = -0.03
+	}
+
+    research_bonus_from = {
+        grand_battleplan_theory = 0.25
+        tac_focus = 0.25
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 15
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 10
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# SUPERIOR STRENGTH
+# ########################################################################
+superior_strength = {
+		
+	allow = {
+		grand_battle_plan = 1
+		army_field_manual = 1
+		total_amount_of_divisions = 75
+		ai = no
+	}	
+	
+	change = no
+	
+    research_bonus_from = {
+      superior_firepower_theory = 0.25
+        
+    }
+    
+    on_completion = superior_firepower_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938 # 
+	additional_offset = 1 # 
+	max_level = 6
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# SUPERIOR FIREPOWER
+# ########################################################################
+superior_firepower = {
+		
+	allow = {
+		total_amount_of_divisions = 100
+		OR = { 
+			superior_strength = 1
+			assault_concentration = 1
+		}	
+	}	
+	
+	change = no
+		
+	division_size = 1 
+	
+	attack_movement_speed = -0.10
+		
+    research_bonus_from = {
+        superior_firepower_theory = 0.25
+        
+    }
+    
+    on_completion = superior_firepower_theory
+
+    difficulty = 15
+
+    # common for all techs.
+    start_year = 1941
+   
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# INDEPENDENT BATTALIONS
+# ########################################################################
+independent_battalions = {
+		
+	allow = {
+		superior_firepower = 1
+		total_amount_of_divisions = 115
+		armor_battalion_field_exercises = 6
+		fast_tank_destroyer_doctrine = 1
+	}	
+	
+	change = no
+		
+	assault_gun_brigade = { 
+		default_organisation = 3
+	}
+	heavy_armor_brigade = { 
+		default_organisation = 3
+	}
+	super_heavy_armor_brigade = { 
+		default_organisation = 3
+	}
+	heavy_assault_gun_brigade = { 
+		default_organisation = 3
+	}
+	tank_destroyer_brigade = { 
+		default_organisation = 3
+	}
+	medium_tank_destroyer_brigade = { 
+		default_organisation = 3
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_organisation = 3
+	}
+	
+	guard_heavy_armor_brigade = { 
+		default_organisation = 3
+	}
+	
+	ss_heavy_armor_brigade = { 
+		default_organisation = 3
+	}	
+	ss_tank_destroyer_brigade = { 
+		default_organisation = 3
+	}
+	
+	infantry_bat = { 
+		default_organisation = 3
+	}
+	motorized_infantry_bat = { 
+		default_organisation = 3
+	}
+	mechanized_infantry_bat = { 
+		default_organisation = 3
+	}
+	
+	armor_bat = { 
+		default_organisation = 3
+	}
+	light_armor_bat = { 
+		default_organisation = 3
+	}
+	guard_armor_bat = { 
+		default_organisation = 3
+	}
+	guard_mechanized_infantry_bat = { 
+		default_organisation = 3
+	}
+	guard_motorized_infantry_bat = { 
+		default_organisation = 3
+	}
+	ss_armor_bat = { 
+		default_organisation = 3
+	}	
+	ss_infantry_bat = { 
+		default_organisation = 3
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_organisation = 3
+	}	
+	ss_motorized_infantry_bat = { 
+		default_organisation = 3
+	}	
+		
+    research_bonus_from = {
+        superior_firepower_theory = 0.25
+        
+    }
+    
+    on_completion = superior_firepower_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1941
+    first_offset = 1942 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 10
+    folder = strategic_doctrine_folder
+	stealable = no 
+}		
+# ########################################################################
+# SPACE FOR TIME
+# ########################################################################
+space_for_time = {
+		
+	allow = {
+		world_war_one_warfare = 1
+		attrition_warfare = 1
+		nationalist_china = 1
+	}	
+	
+	change = no
+		
+	tactic_slower_delay = 10
+
+    research_bonus_from = {
+        grand_battleplan_theory = 0.25
+        
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1938
+   
+    folder = strategic_doctrine_folder
+	stealable = no 
+}	
+# ########################################################################
+# BUSIDO CODE
+# ########################################################################
+bushido_code = {
+		
+	allow = {
+		japan = 1
+	}	
+	
+	change = no
+		
+	tactic_counterattack = 10
+	reinforce_chance = -0.10
+	unit_cooperation = -0.10
+
+    research_bonus_from = {
+        human_wave_theory = 0.25
+        
+    }
+    
+    on_completion = human_wave_theory
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1936
+   
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# BANZAI
+# ########################################################################
+banzai = {
+    
+	allow = {
+		surrender_progress = 10
+		japan = 1
+	}
+	
+	change = no
+			
+	tactic_banzai = 15
+	
+    research_bonus_from = {
+        human_wave_theory = 0.25
+       
+    }
+    
+    on_completion = human_wave_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1937
+    folder = strategic_doctrine_folder
+	stealable = no 		
+}
+# ########################################################################
+# POLITICAL DOCTRINES
+# ########################################################################
+# ####################################################################
+# 	POLITICAL INDOCTRINATION
+# ####################################################################
+political_indoctrination = {
+    
+	allow = {
+		OR = {
+			ideology_group = fascism
+			ideology_group = communism
+		}
+	}
+	
+	change = no
+	
+	tactic_conscripts = 1
+	
+    leader_brigade = { default_morale = 0.05 }
+	shock_hq_brigade = { default_morale = 0.05 }
+	guard_armor_hq_brigade = { default_morale = 0.05 }
+	guard_mech_hq_brigade = { default_morale = 0.05 }
+	guard_mot_hq_brigade = { default_morale = 0.05 }
+	guard_para_hq_brigade = { default_morale = 0.05	}
+	guard_hq_brigade = { default_morale = 0.05 }
+	
+	
+	ss_mech_hq_brigade = { default_morale = 0.05 }
+	ss_mot_hq_brigade = { default_morale = 0.05	}
+	ss_hq_brigade = { default_morale = 0.05	}
+		
+	NKVD_brigade = { 
+		default_morale = 0.05
+	}
+	
+	maximum_attrition = 0.05
+
+    research_bonus_from = {
+        militia_theory = 0.25
+    }
+    
+    on_completion = militia_theory
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1933
+	first_offset = 1936	
+	additional_offset = 2	
+	max_level = 10 # 1952
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ####################################################################
+# 	POLITICAL INTEGRATION
+# ####################################################################
+political_integration = {
+		
+	allow = {
+		political_indoctrination = 1 
+		OR = {
+			ideology_group = fascism
+			ideology_group = communism
+		}
+		
+	}
+	
+	change = no
+	    
+	leader_brigade = { default_organisation = 5 }
+	shock_hq_brigade = { default_organisation = 5 }
+	guard_armor_hq_brigade = { default_organisation = 5 }
+	guard_mech_hq_brigade = { default_organisation = 5 }
+	guard_mot_hq_brigade = { default_organisation = 5 }
+	guard_para_hq_brigade = { default_organisation = 5	}
+	guard_hq_brigade = { default_organisation = 5 }
+	
+	
+	ss_mech_hq_brigade = { default_organisation = 5 }
+	ss_mot_hq_brigade = { default_organisation = 5	}
+	ss_hq_brigade = { default_organisation = 5	}
+		
+	NKVD_brigade = { 
+		default_organisation = 5
+	}
+		
+	maximum_attrition = 0.05	
+
+    research_bonus_from = {
+        militia_theory = 0.05
+    }
+    
+    on_completion = militia_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1933
+	first_offset = 1936	
+	additional_offset = 2	
+	max_level = 10 # 1952
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# DEFENSE IN DEPTH
+# ########################################################################
+defense_in_depth = {
+    
+	allow = {
+		OR = { 
+			AND = {
+				political_indoctrination = 1
+				grand_battle_plan = 1
+				soviet_union = 1
+				land_battles_fought = 100
+			}
+			AND = {
+				NOT = { soviet_union = 1 }
+				grand_battle_plan = 3
+				land_battles_fought = 2000
+			}
+		}
+	}	
+	
+	change = no
+	
+	tactic_delay = 3
+	tactic_slower_delay = 3
+	tactic_basic_defend = 2
+	tactic_defensive_artillery_bombardment = 2
+	tactic_armor_defense = 3
+	
+	reiforce_chance = 0.02
+	
+	attack_movement_speed = -0.02
+	
+	maximum_attrition = 0.01
+	
+	support_unit_type = 0.01
+	artillery_unit_type = 0.01
+	direct_fire_unit_type = 0.01
+				
+	garrison_brigade = { 
+		default_organisation = 2
+	}
+	
+	engineer_brigade = { 
+		default_organisation = 2
+	}
+	
+	motorized_engineer_brigade = { 
+		default_organisation = 2
+	}
+	
+	airborne_engineer_bat = { 
+		default_organisation = 2
+	}
+		
+	artillery_brigade = { 
+		default_organisation = 2
+	}
+	medium_artillery_brigade = { 
+		default_organisation = 2
+	}
+	anti_air_brigade = { 
+		default_organisation = 2
+	}
+	
+	heavy_anti_air_brigade = { 
+		default_organisation = 2
+	}
+	
+	anti_tank_brigade = { 
+		default_organisation = 2
+	}
+	
+	heavy_anti_tank_brigade = { 
+		default_organisation = 2
+	}
+	
+	heavy_artillery_brigade = { 
+		default_organisation = 2
+	}
+	
+	rocket_artillery_brigade = { 
+		default_organisation = 2
+	}
+	
+	mixed_support_brigade = { 
+		default_organisation = 2
+	}
+	
+		
+	assault_gun_brigade = { 
+		default_organisation = 2
+	}
+	heavy_assault_gun_brigade = { 
+		default_organisation = 2
+	}
+	tank_destroyer_brigade = { 
+		default_organisation = 2
+	}
+	medium_tank_destroyer_brigade = { 
+		default_organisation = 2
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_organisation = 2
+	}
+	armored_engineers_brigade = { 
+		default_organisation = 2
+	}
+	armored_support_brigade = { 
+		default_organisation = 2
+	}
+	sp_anti_air_brigade = { 
+		default_organisation = 2
+	}
+	sp_artillery_brigade = { 
+		default_organisation = 2
+	}
+	sp_rct_artillery_brigade = { 
+		default_organisation = 2
+	}
+	
+	guard_sp_rct_artillery_brigade = { 
+		default_organisation = 2
+	}
+		
+	ss_anti_air_brigade = { 
+		default_organisation = 2
+	}	
+	ss_heavy_anti_air_brigade = { 
+		default_organisation = 2
+	}	
+	
+	ss_anti_tank_brigade = { 
+		default_organisation = 2
+	}	
+	
+	ss_heavy_anti_tank_brigade = { 
+		default_organisation = 2
+	}	
+	
+	ss_armored_engineers_brigade = { 
+		default_organisation = 2
+	}	
+	ss_armored_support_brigade = { 
+		default_organisation = 2
+	}	
+	ss_artillery_brigade = { 
+		default_organisation = 2
+	}	
+	
+	ss_medium_artillery_brigade = { 
+		default_organisation = 2
+	}	
+	
+	ss_engineer_brigade = { 
+		default_organisation = 2
+	}	
+	ss_motorized_engineer_brigade = { 
+		default_organisation = 2
+	}
+	ss_garrison_brigade = { 
+		default_organisation = 2
+	}	
+	ss_mixed_support_brigade = { 
+		default_organisation = 2
+	}		
+		
+	ss_pack_artillery_brigade = { 
+		default_organisation = 2
+	}	
+	ss_rocket_artillery_brigade = { 
+		default_organisation = 2
+	}
+	ss_sp_anti_air_brigade = { 
+		default_organisation = 2
+	}
+	ss_sp_artillery_brigade = { 
+		default_organisation = 2
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_organisation = 2
+	}
+	ss_tank_destroyer_brigade = { 
+		default_organisation = 2
+	}
+	
+	garrison_detachment = { 
+		default_organisation = 2
+	}
+	
+	pack_artillery_brigade = { 
+		default_organisation = 2
+	}
+			
+    research_bonus_from = {
+        grand_battleplan_theory = 0.25
+        superior_firepower_theory = 0.05
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 12
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942
+	additional_offset = 1	
+	max_level = 4 # 
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# DEEP BATTLE
+# ########################################################################
+deep_battle_doctrine = {
+    
+	allow = {
+		OR = {
+			NOT = { army_field_manual = 1 }
+			NOT = { blitzkrieg = 1 }
+			}
+		OR = {
+			AND = { 
+				OR = { 
+					AND = { 
+						soviet_union = 1
+						land_battles_fought = 200
+					}
+					AND = { 
+						soviet_union = 1
+						political_indoctrination = 2
+						political_integration = 2
+						grand_battle_plan = 2
+					}
+				}
+			}
+			AND = {
+				grand_battle_plan = 4
+				NOT = { soviet_union = 1 }
+				land_battles_fought = 3000
+				armor_regiment_field_exercises = 4 
+				armor_and_artillery_coordination = 2
+			}	
+		}
+	}
+	
+	change = no
+	
+	combat_efficiency = 0.02
+	
+	tactic_superior_breakthrough = 3
+	tactic_shock = 4
+	tactic_encirclement = 3
+	tactic_armor_attack = 3
+	tactic_flanking_attack = 2
+	
+	reinforce_chance = 0.02
+	unit_cooperation = 0.01
+	
+	maximum_attrition = 0.03
+	
+	attack_delay = 5
+	
+	armor_unit_type = 0.01
+	mobile_unit_type = 0.01
+	recon_unit_type = 0.01
+		
+	attack_delay = 10
+		
+	mechanized_brigade = { 
+		default_morale = 0.03
+	}
+
+	combined_arms_brigade = { 
+		default_morale = 0.03
+	}
+	
+	commando_brigade = { 
+		default_morale = 0.03
+	}
+	ski_brigade = { 
+		default_morale = 0.03
+	}
+	
+	
+	cavalry_brigade = { 
+		default_morale = 0.03
+	}
+	
+	airlanding_infantry_brigade = { 
+		default_morale = 0.03
+	}
+	paratrooper_brigade = { 
+		default_morale = 0.03
+	}
+		
+		
+	armored_car_brigade = { 
+		default_morale = 0.03
+	}
+	motorcycle_recon_brigade = { 
+		default_morale = 0.03
+	}
+	Recon_cavalry_brigade = { 
+		default_morale = 0.03
+	}
+	
+	
+	armor_brigade = { 
+		default_morale = 0.03
+	}
+	light_armor_brigade = { 
+		default_morale = 0.03
+	}
+	assault_gun_brigade = { 
+		default_morale = 0.03
+	}
+	heavy_armor_brigade = { 
+		default_morale = 0.03
+	}
+	super_heavy_armor_brigade = { 
+		default_morale = 0.03
+	}
+	heavy_assault_gun_brigade = { 
+		default_morale = 0.03
+	}
+	
+	sp_anti_air_brigade = { 
+		default_morale = 0.03
+	}
+	sp_artillery_brigade = { 
+		default_morale = 0.03
+	}
+	sp_rct_artillery_brigade = { 
+		default_morale = 0.03
+	}
+	
+	guard_armor_brigade = { 
+		default_morale = 0.03
+	}
+	guard_cavalry_brigade = { 
+		default_morale = 0.03
+	}
+	guard_heavy_armor_brigade = { 
+		default_morale = 0.03
+	}
+	guard_mechanized_brigade = { 
+		default_morale = 0.03
+	}
+	guard_paratrooper_brigade = { 
+		default_morale = 0.03
+	}
+	
+	
+	ss_armor_brigade = { 
+		default_morale = 0.03
+	}	
+	ss_mechanized_brigade = { 
+		default_morale = 0.03
+	}		
+	ss_armored_car_brigade = { 
+		default_morale = 0.03
+	}	
+	ss_cavalry_brigade = { 
+		default_morale = 0.03
+	}	
+	ss_commando_brigade = { 
+		default_morale = 0.03
+	}	
+	ss_heavy_armor_brigade = { 
+		default_morale = 0.03
+	}	
+	ss_motorcycle_recon_brigade = { 
+		default_morale = 0.03
+	}	
+	ss_paratrooper_brigade = { 
+		default_morale = 0.03
+	}	
+	ss_Recon_cavalry_brigade = { 
+		default_morale = 0.03
+	}	
+	ss_ski_brigade = { 
+		default_morale = 0.03
+	}
+	ss_sp_anti_air_brigade = { 
+		default_morale = 0.03
+	}
+	ss_sp_artillery_brigade = { 
+		default_morale = 0.03
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_morale = 0.03
+	}
+		
+	desertrats_brigade = { 
+		default_morale = 0.03
+	}
+	goering_brigade = { 
+		default_morale = 0.03
+	}
+	lehr_brigade = { 
+		default_morale = 0.03
+	}
+	ranger_brigade = { 
+		default_morale = 0.03
+	}
+	
+	mechanized_infantry_bat = { 
+		default_morale = 0.03
+	}
+	
+	armor_bat = { 
+		default_morale = 0.03
+	}
+	light_armor_bat = { 
+		default_morale = 0.03
+	}
+	guard_armor_bat = { 
+		default_morale = 0.03
+	}
+	guard_mechanized_infantry_bat = { 
+		default_morale = 0.03
+	}
+	
+	ss_armor_bat = { 
+		default_morale = 0.03
+	}	
+		
+	ss_mechanized_infantry_bat = { 
+		default_morale = 0.03
+	}	
+
+    research_bonus_from = {
+        spearhead_theory = 0.25
+        
+    }
+    
+    on_completion = spearhead_theory
+
+    difficulty = 15
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938
+	additional_offset = 2	
+	max_level = 6 # 
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# ASSAULT CONCENTRATION
+# ########################################################################
+assault_concentration = {
+    
+	allow = {
+		grand_battle_plan = 3
+		land_battles_fought = 1000
+		OR = { 
+			mass_assault = 1
+			deep_battle_doctrine = 1	
+		}
+	}
+	
+	change = no
+		
+	tactic_assault = 1
+	tactic_shock = 2
+	tactic_breakthrough = 2
+	tactic_armor_attack = 1
+	
+	unit_cooperation = 0.01
+	reinforce_chance = 0.01
+	
+	maximum_attrition = 0.01
+	
+	armor_unit_type = 0.01
+	mobile_unit_type = 0.01
+	recon_unit_type = 0.01
+	infantry_unit_type = 0.01
+	artillery_unit_type = 0.01
+	
+    research_bonus_from = {
+        grand_battleplan_theory = 0.15
+        superior_firepower_theory = 0.15
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1942
+	first_offset = 1943
+	additional_offset = 1	
+	max_level = 6 # 
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# HEDGEHOG DEFENSE
+# ########################################################################
+hedgehog_defense = {
+		
+	allow = {
+		NOT = { elastic_defense = 1 }
+		grand_battle_plan = 4
+		land_battles_fought = 1500
+		direct_fire_company_field_exercises = 7
+	}	
+	
+	change = no
+	
+	tactic_basic_defend = 2
+	tactic_anti_tank_gun_defense = 3	
+
+			
+	direct_fire_unit_type = 0.01
+	support_unit_type = 0.01
+	
+    research_bonus_from = {
+        grand_battleplan_theory = 0.15
+        superior_firepower_theory = 0.15
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1943
+	first_offset = 1944 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 3
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# URBAN ATTRITION
+# ########################################################################
+urban_attrition = {
+    
+	allow = {
+		defense_in_depth = 1
+		grand_battle_plan = 3
+		land_battles_fought = 2000
+		urban_special_tactics = 2
+	}
+	
+	change = no
+	
+	tactic_ambush = 4
+	
+	maximum_attrition = -0.01
+	
+	special_forces_unit_type = 0.01
+	
+	infantry_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	semi_motorized_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	motorized_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	mechanized_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	
+	garrison_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+		
+	light_infantry_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	elite_light_infantry_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	elite_light_infantry_battalion = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	
+	conscript_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	
+	militia_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	
+	combined_arms_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	
+	commando_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	
+	airlanding_infantry_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	paratrooper_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	naval_infantry_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	marine_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+		
+	engineer_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	
+	motorized_engineer_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	
+	airborne_engineer_bat = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+				
+	guard_infantry_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	guard_mechanized_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	guard_motorized_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	guard_paratrooper_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+		
+	ss_mechanized_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	
+	ss_commando_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_dasreich = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_engineer_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_motorized_engineer_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_florian_geyer = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_frundsberg = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_garrison_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_hitlerjugend = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_hohenstaufen = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_infantry_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_lssah = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_motorized_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}		
+	ss_paratrooper_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}		
+	ss_polizei = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_prinz_eugen = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_Recon_cavalry_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_sp_anti_air_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	ss_sp_artillery_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	ss_sp_rct_artillery_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	ss_tank_destroyer_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	ss_totenkopf = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	ss_wiking = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+			
+	anzac_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	afrika_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	Communist_militia_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	fascist_militia_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	goering_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	grossdeutschland_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	Gurkha_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	imperial_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	lehr_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	luftwaffe_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	NKVD_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	ranger_brigade = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	
+	infantry_bat = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	motorized_infantry_bat = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	mechanized_infantry_bat = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	garrison_detachment = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	guard_mechanized_infantry_bat = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	guard_motorized_infantry_bat = { 
+		urban = {
+			defence = 0.04 
+		}
+	}
+	ss_infantry_bat = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_mechanized_infantry_bat = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+	ss_motorized_infantry_bat = { 
+		urban = {
+			defence = 0.04 
+		}
+	}	
+
+    research_bonus_from = {
+        grand_battleplan_theory = 0.25
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1942
+	first_offset = 1943 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 4
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# SNIPER ATTRITION
+# ########################################################################
+sniper_attrition = {
+    
+	allow = {
+		OR = {
+			AND = {
+			political_indoctrination = 4
+			grand_battle_plan = 1
+			land_battles_fought = 1000
+			soviet_union = 1
+			}
+			AND = {
+			NOT = { soviet_union = 1 }
+			land_battles_fought = 3000
+			grand_battle_plan = 1
+			urban_attrition = 1
+			}
+		}
+	}
+	
+	change = no
+	
+	tactic_snipers = 3
+		
+	special_forces_unit_type = 0.01
+
+    research_bonus_from = {
+        grand_battleplan_theory = 0.25
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 15
+
+    # common for all techs.
+    start_year = 1942
+	first_offset = 1943 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 5
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# HUMAN WAVE
+# ########################################################################
+human_wave = {
+    
+	allow = {
+		OR = {
+			AND = {
+				political_indoctrination = 3
+				land_battles_fought = 1000
+				faction = comintern
+			}
+			AND = {
+				NOT = { faction = comintern }
+				land_battles_fought = 4000
+				mass_assault = 1
+			}
+		}
+	}	
+	
+	change = no
+	
+	tactic_reckless_assault = 3
+	tactic_conscripts = 3
+	tactic_shock = 1
+	
+	combat_efficiency = -0.01
+	unit_cooperation = -0.02
+	reinforce_chance = -0.01
+	
+	maximum_attrition = 0.15
+				
+	infantry_brigade = { 
+		combat_width = -0.02
+	}
+			
+	guard_infantry_brigade = { 
+		combat_width = -0.02
+	}
+	
+	ss_infantry_brigade = { 
+		combat_width = -0.02
+	}	
+
+    research_bonus_from = {
+        human_wave_theory = 0.1
+        
+    }
+    
+    on_completion = human_wave_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1943
+	first_offset = 1944 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 9
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# MECHANIZED ADVANCE
+# ########################################################################
+mechanized_advance = {
+    
+	allow = {
+		assault_concentration = 1
+		armor_division_hq = 5
+		military_truck_transport = 3
+		land_battles_fought = 4000
+	}	
+	
+	change = no
+		
+	attack_movement_speed = 0.01
+		
+	hftrack_transport = { 
+		default_organisation = 2
+		plains = {
+			movement = 0.03
+		}
+		arctic = {	
+			movement = 0.02
+		}
+		desert = { 
+			movement = 0.03
+			}
+		woods = { 
+			movement = 0.03
+		}
+		forest = {
+			movement = 0.03
+		}
+		jungle = { 
+			movement = 0.02
+		}
+		hills = { 
+			movement = 0.02
+		}
+		mountain = { 
+			movement = 0.02
+		}
+		urban = {
+			movement = 0.03
+		}
+		marsh = { 
+			movement = 0.02
+		}
+	}
+	
+
+    research_bonus_from = {
+        spearhead_theory = 0.25
+    }
+    
+    on_completion = spearhead_theory
+
+    difficulty = 12
+
+    # common for all techs.
+    start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 10
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# STRATEGIC PINCER
+# ########################################################################
+strategic_pincer = {
+    
+	allow = {
+		mechanized_advance = 1
+		land_battles_fought = 5000
+	}	
+	
+	change = no
+	
+	tactic_superior_breakthrough = 3
+	tactic_flanking_attack = 2
+	
+			
+    research_bonus_from = {
+        spearhead_theory = 0.25
+    }
+    
+    on_completion = spearhead_theory
+
+    difficulty = 12
+
+    # common for all techs.
+    start_year = 1945
+	first_offset = 1947 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 5
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# MOBILE WARFARE DOCTRINES
+# ########################################################################
+# ########################################################################
+# BLITZKRIEG
+# ########################################################################
+blitzkrieg = {
+    
+	allow = {
+		OR = {
+			NOT = { army_field_manual = 1 }
+			NOT = { deep_battle_doctrine = 1 }
+			}
+		OR = { 
+			AND = { 
+				NOT = { germany = 1 }
+				land_battles_fought = 5000
+				grand_battle_plan = 1
+				machine_gun_focused_squads = 1
+				armor_maneuver_warfare_doctrine = 1
+
+			}
+			AND = { 
+				germany = 1 
+				grand_battle_plan = 1
+				machine_gun_focused_squads = 1
+				armor_maneuver_warfare_doctrine = 1
+				
+			}
+		}
+	}	
+	
+	change = no
+	
+	combat_efficiency = 0.04
+	
+	tactic_blitz = 3
+	tactic_encirclement = 4
+	tactic_flanking_attack = 2
+	tactic_close_air_support = 3
+	tactic_armor_attack = 3
+	
+	attack_movement_speed = 0.05
+	unit_cooperation = 0.05
+	
+	reinforce_chance = -0.05
+	
+	mobile_unit_type = 0.01
+	armor_unit_type = 0.01
+	kampfgruppe_unit_type = 0.01
+	recon_unit_type = 0.01
+	
+	attack_delay = 15
+			
+	ground_attack = {
+		efficiency = 0.04 #4% greater eff when on on ground attack missions
+	}
+			
+	motorized_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	mechanized_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	
+	combined_arms_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+			
+		
+	armored_car_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	motorcycle_recon_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	Recon_cavalry_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	
+	armor_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	light_armor_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	infantry_tank_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	assault_gun_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	heavy_armor_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	super_heavy_armor_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	heavy_assault_gun_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	tank_destroyer_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	medium_tank_destroyer_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	heavy_tank_destroyer_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	amph_armour_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	armored_engineers_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	armored_support_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	sp_anti_air_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	sp_artillery_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	sp_rct_artillery_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+		
+	ss_armor_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	ss_mechanized_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	ss_armored_car_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	ss_armored_engineers_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	ss_armored_support_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	ss_heavy_armor_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	ss_motorcycle_recon_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	
+	ss_motorized_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	
+	ss_Recon_cavalry_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	ss_sp_anti_air_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	ss_sp_artillery_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	ss_sp_rct_artillery_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	ss_tank_destroyer_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+					
+	afrika_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	goering_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	grossdeutschland_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	lehr_brigade = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+		
+	motorized_infantry_bat = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	mechanized_infantry_bat = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	
+	armor_bat = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	light_armor_bat = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}
+	
+	ss_armor_bat = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	ss_mechanized_infantry_bat = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+	ss_motorized_infantry_bat = { 
+		woods = { 
+			attack = 0.04
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.04
+			movement = 0.05
+		}
+	}	
+
+    research_bonus_from = {
+		spearhead_theory = 0.25
+    }
+
+    on_completion = spearhead_theory
+
+    difficulty = 15
+
+    # common for all techs.
+    start_year = 1939
+	first_offset = 1940 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 6
+    folder = strategic_doctrine_folder
+	stealable = no 
+} 
+# ########################################################################
+# SCHWERPUNKT
+# ########################################################################
+schwerpunkt = {
+    
+	allow = {
+		blitzkrieg = 1
+		armor_division_hq = 3
+		land_battles_fought = 500
+		armor_regiment_field_exercises = 5
+	}	
+	
+	change = no
+	
+	tactic_super_blitz = 3
+	tactic_armor_attack = 2
+	tactic_shock = 1
+	
+	motorized_brigade = { 
+		default_organisation = 3
+	}
+	mechanized_brigade = { 
+		default_organisation = 3
+	}
+	
+	combined_arms_brigade = { 
+		default_organisation = 3
+	}
+					
+	armored_car_brigade = { 
+		default_organisation = 3
+	}
+	motorcycle_recon_brigade = { 
+		default_organisation = 3
+	}
+	Recon_cavalry_brigade = { 
+		default_organisation = 3
+	}
+	
+	armor_brigade = { 
+		default_organisation = 3
+	}
+	light_armor_brigade = { 
+		default_organisation = 3
+	}
+	infantry_tank_brigade = { 
+		default_organisation = 3
+	}
+	assault_gun_brigade = { 
+		default_organisation = 3
+	}
+	heavy_armor_brigade = { 
+		default_organisation = 3
+	}
+	super_heavy_armor_brigade = { 
+		default_organisation = 3
+	}
+	heavy_assault_gun_brigade = { 
+		default_organisation = 3
+	}
+	tank_destroyer_brigade = { 
+		default_organisation = 3
+	}
+	medium_tank_destroyer_brigade = { 
+		default_organisation = 3
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_organisation = 3
+	}
+	amph_armour_brigade = { 
+		default_organisation = 3
+	}
+	armored_engineers_brigade = { 
+		default_organisation = 3
+	}
+	armored_support_brigade = { 
+		default_organisation = 3
+	}
+	sp_anti_air_brigade = { 
+		default_organisation = 3
+	}
+	sp_artillery_brigade = { 
+		default_organisation = 3
+	}
+	sp_rct_artillery_brigade = { 
+		default_organisation = 3
+	}
+		
+	ss_armor_brigade = { 
+		default_organisation = 3
+	}	
+	ss_mechanized_brigade = { 
+		default_organisation = 3
+	}	
+	ss_armored_car_brigade = { 
+		default_organisation = 3
+	}	
+	ss_armored_engineers_brigade = { 
+		default_organisation = 3
+	}	
+	ss_armored_support_brigade = { 
+		default_organisation = 3
+	}	
+	ss_heavy_armor_brigade = { 
+		default_organisation = 3
+	}	
+	ss_motorcycle_recon_brigade = { 
+		default_organisation = 3
+	}	
+		
+	ss_motorized_brigade = { 
+		default_organisation = 3
+	}	
+	
+	ss_Recon_cavalry_brigade = { 
+		default_organisation = 3
+	}	
+	ss_sp_anti_air_brigade = { 
+		default_organisation = 3
+	}
+	ss_sp_artillery_brigade = { 
+		default_organisation = 3
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_organisation = 3
+	}
+	ss_tank_destroyer_brigade = { 
+		default_organisation = 3
+	}
+					
+	afrika_brigade = { 
+		default_organisation = 3
+	}
+	goering_brigade = { 
+		default_organisation = 3
+	}
+	grossdeutschland_brigade = { 
+		default_organisation = 3
+	}
+	lehr_brigade = { 
+		default_organisation = 3
+	}
+		
+	motorized_infantry_bat = { 
+		default_organisation = 3
+	}
+	mechanized_infantry_bat = { 
+		default_organisation = 3
+	}
+	
+	armor_bat = { 
+		default_organisation = 3
+	}
+	light_armor_bat = { 
+		default_organisation = 3
+	}
+	
+	ss_armor_bat = { 
+		default_organisation = 3
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_organisation = 3
+	}	
+	ss_motorized_infantry_bat = { 
+		default_organisation = 3
+	}		
+
+    research_bonus_from = {
+        spearhead_theory = 0.25
+    }
+    
+    on_completion = spearhead_theory
+
+    difficulty = 12
+
+    # common for all techs.
+    start_year = 1940
+    first_offset = 1941 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 5
+    folder = strategic_doctrine_folder
+	stealable = no 
+} 
+# ########################################################################
+# SPEARHEAD
+# ########################################################################
+spearhead = {
+    
+	allow = {
+		blitzkrieg = 1
+		armor_division_hq = 4
+		land_battles_fought = 750
+		armor_battalion_field_exercises = 6
+		infantry_and_armor_coordination = 5
+	}
+	
+	change = no
+					
+	tactic_super_blitz = 1
+	tactic_heavy_armor_shock = 3
+	
+	motorized_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	mechanized_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	
+	combined_arms_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+			
+		
+		
+	armored_car_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	motorcycle_recon_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	Recon_cavalry_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	
+	armor_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	light_armor_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	infantry_tank_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	assault_gun_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	heavy_armor_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	super_heavy_armor_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	heavy_assault_gun_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	tank_destroyer_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	medium_tank_destroyer_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	heavy_tank_destroyer_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	amph_armour_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	armored_engineers_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	armored_support_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	sp_anti_air_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	sp_artillery_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	sp_rct_artillery_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+		
+	ss_armor_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	ss_mechanized_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	ss_armored_car_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	ss_armored_engineers_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	ss_armored_support_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	ss_heavy_armor_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	ss_motorcycle_recon_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	
+	ss_motorized_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	
+	ss_Recon_cavalry_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	ss_sp_anti_air_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	ss_sp_artillery_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	ss_sp_rct_artillery_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	ss_tank_destroyer_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+					
+	afrika_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	goering_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	grossdeutschland_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	lehr_brigade = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+		
+	motorized_infantry_bat = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	mechanized_infantry_bat = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	
+	armor_bat = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	light_armor_bat = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}
+	
+	ss_armor_bat = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	ss_mechanized_infantry_bat = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+	ss_motorized_infantry_bat = { 
+		combat_width = -0.03
+		default_morale = 0.05
+		maximum_speed = 0.10
+	}	
+
+    research_bonus_from = {
+        spearhead_theory = 0.25
+    }
+    
+    on_completion = spearhead_theory
+
+    difficulty = 12
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 5
+    folder = strategic_doctrine_folder
+	stealable = no 
+} 
+# ########################################################################
+# SNIPER WARFARE
+# ########################################################################
+sniper_warfare = {
+
+	allow = {
+		OR = {
+			AND = {
+				land_battles_fought = 1000
+				infantry_battalion_field_exercises = 4
+				stormtrooper_tactics = 1
+				germany = 1
+			}
+			AND = {
+				land_battles_fought = 500
+				infantry_battalion_field_exercises = 4
+				soviet_union = 1
+			}
+			AND = {
+				NOT = { germany = 1 }
+				NOT = { soviet_union = 1 }
+				grand_battle_plan = 3
+				land_battles_fought = 3000
+				infantry_battalion_field_exercises = 6
+			}
+		}
+	}	
+	
+	change = no
+
+	combat_efficiency = 0.01
+	
+    tactic_snipers = 1
+
+    research_bonus_from = {
+		grand_battleplan_theory = 0.25
+    }
+    
+    on_completion = grand_battleplan_theory
+	
+    difficulty = 15
+
+    # common for all techs.
+    start_year = 1941 
+	first_offset = 1943 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 10
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# ELASTIC DEFENSE
+# ########################################################################
+elastic_defense = {
+    
+	allow = {
+		NOT = { hedgehog_defense = 1 }
+		OR = {
+			AND = { 
+				blitzkrieg = 1
+				germany = 1
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { germany = 1 }
+				grand_battle_plan = 1
+				land_battles_fought = 5000
+				assault_concentration = 1
+			}
+		}		
+	}	
+	
+	change = no
+				
+	tactic_counterattack = 3
+	tactic_elastic_defence = 4
+	tactic_armor_defense = 3
+	tactic_anti_tank_gun_defense = 2
+	
+	reinforce_chance = 0.05
+	
+	attack_delay = 2
+		
+	motorized_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	mechanized_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	
+	combined_arms_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+			
+			
+	armored_car_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	motorcycle_recon_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	Recon_cavalry_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	
+	armor_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	light_armor_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	infantry_tank_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	assault_gun_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	heavy_armor_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	super_heavy_armor_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	heavy_assault_gun_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	tank_destroyer_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	medium_tank_destroyer_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	amph_armour_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	armored_engineers_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	armored_support_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	sp_anti_air_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	sp_artillery_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	sp_rct_artillery_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+		
+	ss_armor_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+	ss_mechanized_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+	ss_armored_car_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+	ss_armored_engineers_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+	ss_armored_support_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+	ss_heavy_armor_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+	ss_motorcycle_recon_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+		
+	ss_motorized_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+	
+	ss_Recon_cavalry_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+	ss_sp_anti_air_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	ss_sp_artillery_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	ss_tank_destroyer_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+					
+	afrika_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	goering_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	grossdeutschland_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	lehr_brigade = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+		
+	motorized_infantry_bat = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	mechanized_infantry_bat = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	
+	armor_bat = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	light_armor_bat = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}
+	
+	ss_armor_bat = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+	ss_motorized_infantry_bat = { 
+		default_morale = 0.03
+		maximum_speed = 0.10
+	}	
+		
+    research_bonus_from = {
+        grand_battleplan_theory = 0.25
+        superior_firepower_theory = 0.05
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 15
+
+    # common for all techs.
+    start_year = 1942
+    first_offset = 1943 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 year
+	max_level = 5
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# AUFTRAGSTAKTIK
+# ########################################################################
+Auftragstaktik = {
+    
+	allow = { 
+		OR = {
+			AND = { 
+				germany = 1
+				grand_battle_plan = 1	
+			}
+			AND = { 
+				NOT = { germany = 1 }
+				grand_battle_plan = 3
+				land_battles_fought = 1000
+			}
+		}
+	}	
+	
+	change = no
+	
+	attack_movement_speed = 0.01	
+	unit_cooperation = 0.05
+	    
+	infantry_unit_type = 0.01
+	mobile_unit_type = 0.01
+	armor_unit_type = 0.01
+	kampfgruppe_unit_type = 0.01
+	recon_unit_type = 0.01
+	artillery_unit_type = 0.01
+	support_unit_type = 0.01
+
+    research_bonus_from = {
+        spearhead_theory = 0.1
+        
+    }
+    
+    on_completion = spearhead_theory
+
+    difficulty = 15
+
+    # common for all techs.
+    start_year = 1933
+    folder = strategic_doctrine_folder
+}
+# ########################################################################
+# BEFEHLSTAKTIK
+# ########################################################################
+Befehlstaktik = {
+    
+	allow = {
+		OR = {
+			AND = { 
+				germany = 1
+				grand_battle_plan = 1	
+			}
+			AND = { 
+				NOT = { germany = 1 }
+				grand_battle_plan = 1
+				army_field_manual = 1	
+			}
+		}
+	}	
+	
+	change = no
+		
+	tactic_basic_attack = 5 
+
+    research_bonus_from = {
+        grand_battleplan_theory = 0.25
+    }
+    
+    on_completion = grand_battleplan_theory
+	
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1933
+    folder = strategic_doctrine_folder
+}
+# ########################################################################
+# PAKFRONT
+# ########################################################################
+pakfront = {
+		
+	allow = {
+		OR = {
+			AND = {
+				soviet_union = 1
+				land_battles_fought = 2000
+				grand_battle_plan = 1
+				direct_fire_battalion_field_exercises = 5
+			}
+			AND = {
+				NOT = { soviet_union = 1 }
+				land_battles_fought = 3000
+				grand_battle_plan = 1
+				direct_fire_battalion_field_exercises = 5
+			}
+		}
+	}	
+	
+	change = no
+		
+	tactic_slower_delay = 3	
+	tactic_anti_tank_gun_defense = 5
+			
+	direct_fire_unit_type = 0.01
+		
+    research_bonus_from = {
+        grand_battleplan_theory = 0.25
+        superior_firepower_theory = 0.10
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1943
+	first_offset = 1944 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 year
+	max_level = 3
+    folder = strategic_doctrine_folder
+	stealable = no 
+}
+# ########################################################################
+# SURPRISE OFFENSIVE CAMPAIGN
+# ########################################################################
+surprise_offensive_campaign = {
+    
+	allow = {
+		OR = {
+			AND = { 
+				blitzkrieg = 1
+				germany = 1
+				land_battles_fought = 3000
+				division_intel_company = 8
+			}
+			AND = {
+				NOT = { germany = 1 }
+				blitzkrieg = 1
+				land_battles_fought = 5000
+				division_intel_company = 8
+			}
+		}	
+	}	
+	
+	change = no
+				
+	tactic_encirclement = 2
+	tactic_super_blitz = 5
+	tactic_shock = 5
+	tactic_surprise_attack = 5
+	tactic_heavy_armor_shock = 5
+
+	encryption = 0.10
+	
+	attack_delay = 2
+	
+	division_hq_standard = { 
+		radio_strength = -1
+	}
+	
+	# SS-HQ's
+	ss_hq_brigade = { 
+		radio_strength = -1
+	}
+	SA_hq_brigade = { 
+		radio_strength = -1
+	}
+	ss_mot_hq_brigade = { 
+		radio_strength = -1
+	}
+	ss_mech_hq_brigade = { 
+		radio_strength = -1
+	}
+	ss_pz_hq_brigade = { 
+		radio_strength = -1
+	}
+	
+	# Regular HQ's
+	hq_brigade = { 
+		radio_strength = -1
+	}
+	mot_hq_brigade = { 
+		radio_strength = -1
+	}
+	mech_hq_brigade = { 
+		radio_strength = -1
+	}
+	armor_hq_brigade = { 
+		radio_strength = -1
+	}
+	mountain_infantry_hq_brigade = { 
+		radio_strength = -1
+	}
+	marine_hq_brigade = { 
+		radio_strength = -1
+	}
+	para_hq_brigade = { 
+		radio_strength = -1
+	}		
+	armored_hq_train = { 
+		radio_strength = -1
+	}		
+	
+	
+	infantry_brigade = { 
+		radio_strength = -1
+	}
+	motorized_brigade = { 
+		radio_strength = -1
+	}
+	mechanized_brigade = { 
+		radio_strength = -1
+	}
+	
+		
+	light_infantry_brigade = { 
+		radio_strength = -1
+	}
+	elite_light_infantry_brigade = { 
+		radio_strength = -1
+	}
+	elite_light_infantry_battalion = { 
+		radio_strength = -1
+	}
+	
+	militia_brigade = { 
+		radio_strength = -1
+	}
+	
+	combined_arms_brigade = { 
+		radio_strength = -1
+	}
+	commando_brigade = { 
+		radio_strength = -1
+	}
+	ski_brigade = { 
+		radio_strength = -1
+	}
+	
+	
+	cavalry_brigade = { 
+		radio_strength = -1
+	}
+	
+	bergsjaeger_brigade = { 
+		radio_strength = -1
+	}
+	airlanding_infantry_brigade = { 
+		radio_strength = -1
+	}
+	paratrooper_brigade = { 
+		radio_strength = -1
+	}
+	naval_infantry_brigade = { 
+		radio_strength = -1
+	}
+	marine_brigade = { 
+		radio_strength = -1
+	}
+	air_cavalry_brigade = { 
+		radio_strength = -1
+	}
+	
+	engineer_brigade = { 
+		radio_strength = -1
+	}
+	
+	motorized_engineer_brigade = { 
+		radio_strength = -1
+	}
+	
+	airborne_engineer_bat = { 
+		radio_strength = -1
+	}
+		
+	artillery_brigade = { 
+		radio_strength = -1
+	}
+	medium_artillery_brigade = { 
+		radio_strength = -1
+	}
+	anti_air_brigade = { 
+		radio_strength = -1
+	}
+	
+	heavy_anti_air_brigade = { 
+		radio_strength = -1
+	}
+	
+	anti_tank_brigade = { 
+		radio_strength = -1
+	}
+	
+	heavy_anti_tank_brigade = { 
+		radio_strength = -1
+	}
+	
+	airborne_artillery_brigade = { 
+		radio_strength = -1
+	}
+	
+	rocket_artillery_brigade = { 
+		radio_strength = -1
+	}
+	
+	mixed_support_brigade = { 
+		radio_strength = -1
+	}
+	
+	
+	armored_car_brigade = { 
+		radio_strength = -1
+	}
+	motorcycle_recon_brigade = { 
+		radio_strength = -1
+	}
+	Recon_cavalry_brigade = { 
+		radio_strength = -1
+	}
+	
+	
+	armor_brigade = { 
+		radio_strength = -1
+	}
+	light_armor_brigade = { 
+		radio_strength = -1
+	}
+	infantry_tank_brigade = { 
+		radio_strength = -1
+	}
+	assault_gun_brigade = { 
+		radio_strength = -1
+	}
+	heavy_armor_brigade = { 
+		radio_strength = -1
+	}
+	super_heavy_armor_brigade = { 
+		radio_strength = -1
+	}
+	heavy_assault_gun_brigade = { 
+		radio_strength = -1
+	}
+	tank_destroyer_brigade = { 
+		radio_strength = -1
+	}
+	medium_tank_destroyer_brigade = { 
+		radio_strength = -1
+	}
+	heavy_tank_destroyer_brigade = { 
+		radio_strength = -1
+	}
+	armored_engineers_brigade = { 
+		radio_strength = -1
+	}
+	armored_support_brigade = { 
+		radio_strength = -1
+	}
+	sp_anti_air_brigade = { 
+		radio_strength = -1
+	}
+	sp_artillery_brigade = { 
+		radio_strength = -1
+	}
+	sp_rct_artillery_brigade = { 
+		radio_strength = -1
+	}
+		
+	ss_armor_brigade = { 
+		radio_strength = -1
+	}	
+	ss_mechanized_brigade = { 
+		radio_strength = -1
+	}	
+	ss_anti_air_brigade = { 
+		radio_strength = -1
+	}	
+	ss_heavy_anti_air_brigade = { 
+		radio_strength = -1
+	}	
+	
+	ss_anti_tank_brigade = { 
+		radio_strength = -1
+	}	
+	
+	ss_heavy_anti_tank_brigade = { 
+		radio_strength = -1
+	}	
+	
+	ss_armored_car_brigade = { 
+		radio_strength = -1
+	}	
+	ss_armored_engineers_brigade = { 
+		radio_strength = -1
+	}	
+	ss_armored_support_brigade = { 
+		radio_strength = -1
+	}	
+	ss_artillery_brigade = { 
+		radio_strength = -1
+	}	
+	ss_bergsjaeger_brigade = { 
+		radio_strength = -1
+	}	
+	ss_cavalry_brigade = { 
+		radio_strength = -1
+	}	
+	ss_commando_brigade = { 
+		radio_strength = -1
+	}	
+	ss_dasreich = { 
+		radio_strength = -1
+	}	
+	ss_engineer_brigade = { 
+		radio_strength = -1
+	}	
+	ss_motorized_engineer_brigade = { 
+		radio_strength = -1
+	}	
+	ss_florian_geyer = { 
+		radio_strength = -1
+	}	
+	ss_frundsberg = { 
+		radio_strength = -1
+	}	
+	ss_garrison_brigade = { 
+		radio_strength = -1
+	}	
+	ss_heavy_armor_brigade = { 
+		radio_strength = -1
+	}	
+	ss_hitlerjugend = { 
+		radio_strength = -1
+	}	
+	ss_hohenstaufen = { 
+		radio_strength = -1
+	}	
+	ss_infantry_brigade = { 
+		radio_strength = -1
+	}	
+	ss_lssah = { 
+		radio_strength = -1
+	}	
+	ss_mixed_support_brigade = { 
+		radio_strength = -1
+	}	
+	ss_motorcycle_recon_brigade = { 
+		radio_strength = -1
+	}	
+	
+	ss_motorized_brigade = { 
+		radio_strength = -1
+	}	
+	
+	ss_pack_artillery_brigade = { 
+		radio_strength = -1
+	}	
+	ss_paratrooper_brigade = { 
+		radio_strength = -1
+	}	
+	ss_police_brigade = { 
+		radio_strength = -1
+	}	
+	ss_polizei = { 
+		radio_strength = -1
+	}	
+	ss_prinz_eugen = { 
+		radio_strength = -1
+	}	
+	ss_Recon_cavalry_brigade = { 
+		radio_strength = -1
+	}	
+	ss_rocket_artillery_brigade = { 
+		radio_strength = -1
+	}
+	ss_ski_brigade = { 
+		radio_strength = -1
+	}
+	ss_sp_anti_air_brigade = { 
+		radio_strength = -1
+	}
+	ss_sp_artillery_brigade = { 
+		radio_strength = -1
+	}
+	ss_sp_rct_artillery_brigade = { 
+		radio_strength = -1
+	}
+	ss_tank_destroyer_brigade = { 
+		radio_strength = -1
+	}
+	ss_totenkopf = { 
+		radio_strength = -1
+	}
+	ss_wiking = { 
+		radio_strength = -1
+	}
+			
+	HQDEF_brigade = { 
+		radio_strength = -1
+	}	
+	
+	afrika_brigade = { 
+		radio_strength = -1
+	}
+	goering_brigade = { 
+		radio_strength = -1
+	}
+	grossdeutschland_brigade = { 
+		radio_strength = -1
+	}
+	lehr_brigade = { 
+		radio_strength = -1
+	}
+	luftwaffe_brigade = { 
+		radio_strength = -1
+	}
+		
+	infantry_bat = { 
+		radio_strength = -1
+	}
+	motorized_infantry_bat = { 
+		radio_strength = -1
+	}
+	mechanized_infantry_bat = { 
+		radio_strength = -1
+	}
+	garrison_detachment = { 
+		radio_strength = -1
+	}
+	
+	pack_artillery_brigade = { 
+		radio_strength = -1
+	}
+	armor_bat = { 
+		radio_strength = -1
+	}
+	light_armor_bat = { 
+		radio_strength = -1
+	}
+	
+	ss_armor_bat = { 
+		radio_strength = -1
+	}	
+	ss_infantry_bat = { 
+		radio_strength = -1
+	}	
+	ss_mechanized_infantry_bat = { 
+		radio_strength = -1
+	}	
+	ss_motorized_infantry_bat = { 
+		radio_strength = -1
+	}		
+
+    research_bonus_from = {
+        grand_battleplan_theory = 0.25
+    }
+    
+    on_completion = grand_battleplan_theory
+
+    difficulty = 12
+
+    # common for all techs.
+    start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 year
+	max_level = 3
+    folder = strategic_doctrine_folder
+	stealable = no 
+}

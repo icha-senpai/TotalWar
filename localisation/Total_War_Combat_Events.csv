@@ -1,0 +1,47 @@
+###############################;;;;;;;;;;;;;;x
+### New Combat Event System   ###;;;;;;;;;;;;;;x
+###############################;;;;;;;;;;;;;;x
+tactic_basic_attack;Infantry Attack;;Angreifen;;;;;;;;;;x;
+tactic_basic_defend;Infantry Defense;;Verteidigen;;;;;;;;;;x;
+tactic_assault;Infantry Assault;;Angriff;;;;;;;;;;x;
+tactic_reckless_assault;Reckless Assault;;Rücksichtsloser Angriff;;;;;;;;;;x;
+tactic_encirclement;Encirclement;;Einkesselung;;;;;;;;;;x;
+tactic_delay;Delay;;Verzögerung;;;;;;;;;;x;
+tactic_slower_delay;Masterful Delay;;Meisterhafte Verzögerung;;;;;;;;;;x;
+tactic_shock;Shock;;Schock;;;;;;;;;;x;
+tactic_counterattack;Counter Attack;;Gegenangriff;;;;;;;;;;x;
+tactic_tactical_withdrawal;Tactical Withdrawal;;Taktischer Rückzug;;;;;;;;;;x;
+tactic_breakthrough;Breakthrough;;Durchbruch;;;;;;;;;;x;
+tactic_superior_breakthrough;Masterful Breakthrough;;Meisterhafter Durchbruch;;;;;;;;;;x;
+tactic_ambush;Ambush;;Angriff aus dem Hinterhalt;;;;;;;;;;x;
+tactic_blitz;Blitz;;Blitzkrieg;;;;;;;;;;x;
+tactic_banzai;Banzai;;Banzai;;;;;;;;;;x;
+tactic_conscripts;Conscripts;;Opolcheniye;;;;;;;;;;x;
+tactic_super_blitz;Masterful Blitz;;Meisterhafter Blitzkrieg;;;;;;;;;;x;
+tactic_elastic_defence;Elastic Defence;;Flexible Verteidigung;;;;;;;;;;x;
+tactic_backhand_blow;Backhand Blow;;Rückhandstoß;;;;;;;;;;x;
+tactic_snipers;Snipers;;;;;;;;;;;;x;
+tactic_asymmetric;Asymmetric Tactics;;;;;;;;;;;;x;
+TACTIC_COUNTERED_BY;Countered by: §Y$NAME$§!\n;;Entgegnet von: §Y$NAME$§!\n;;;;;;;;;;x;
+TACTIC_COUNTERS;Counters:;;Entgegnungen:;;;;;;;;;;x;
+DEFENDER_COUNTERED;The defender's tactic was countered by the attacker rendering it useless. Leaders with a higher skill than their opponent are more likely to counter their tactics.;;Auf die Taktik des Verteidigers antwortete der Angreifer mit einer Gegentaktik. Anführer, die eine höhere Fertigkeit als ihre Gegner haben, können ihren Taktiken eher entgegenwirken.;;;;;;;;;;x;
+ATTACKER_COUNTERED;The attacker's tactic was countered by the defender rendering it useless. Leaders with a higher skill than their opponent are more likely to counter their tactics.;;Auf die Taktik des Angreifers antwortete der Verteidiger mit einer Gegentaktik. Anführer, die eine höhere Fertigkeit als ihre Gegner haben, können ihren Taktiken eher entgegenwirken.;;;;;;;;;;x;
+NONE_COUNTERED;Neither of the combatants deployed a tactic able to counter the other. Combat proceeds as normal.;;Keiner der Kämpfer setzte eine Taktik ein, die den Gegenangriff des Gegners kontert. Der Kampf wird normal fortgesetzt.;;;;;;;;;;x;
+LEADER_INITIATIVE;\n§YThis leader has a higher skill level and has a slightly higher chance of picking a tactic to directly counter the enemy's choice§!;;\n§YDieser Anführer hat ein höheres Fertigkeits-Level und hat eine etwas höhere Chance eine Taktik auszuwählen, mit der man direkt der Wahl des Feindes entgegenwirken kann§!;;;;;;;;;;x;
+tactic_offensive_artillery_bombardment;Artillery Attack ;;;;;;;;;;;;;x
+tactic_defensive_artillery_bombardment;Artillery Defense ;;;;;;;;;;;;;x
+tactic_armor_attack;Armor Attack ;;;;;;;;;;;;;x
+tactic_armor_defense;Armor Defense ;;;;;;;;;;;;;x
+tactic_anti_tank_gun_defense;Anti Tank Defense ;;;;;;;;;;;;;x
+tactic_anti_aircraft_gun_tank_defense;AA Gun Defense ;;;;;;;;;;;;;x
+tactic_heavy_armor_shock;Heavy Armor Shock ;;;;;;;;;;;;;x
+tactic_close_air_support;Close Air Support ;;;;;;;;;;;;;x
+tactic_fighter_bombers;Fighter Bomber Defense ;;;;;;;;;;;;;x
+tactic_flanking_attack;Flank Attack ;;;;;;;;;;;;;x
+tactic_fire_and_manuever;Fire and Manuever ;;;;;;;;;;;;;x
+tactic_machine_gun_squads;Machine Gun Squad Tactics;;;;;;;;;;;;;x
+tactic_surprise_attack;Surprise Attack ;;;;;;;;;;;;;x
+tactic_commando_raid;Commando Raid ;;;;;;;;;;;;;x
+tactic_paratrooper_air_assault;Paratrooper Assault ;;;;;;;;;;;;;x
+tactic_quick_assault;Hit and Run Attack ;;;;;;;;;;;;;x
+####eof;;;;;;;;;;;;;;x

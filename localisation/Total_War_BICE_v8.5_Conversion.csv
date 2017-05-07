@@ -1,0 +1,39 @@
+##################;;;;;;;;;;;;;;x
+### Land Units ###;;;;;;;;;;;;;x
+##################;;;;;;;;;;;;;;x
+civilian_truck_transport;Civilian Trucks;;;;;;;;;;;;;;x
+civilian_truck_transport_short;Civ-Trks;;;;;;;;;;;;;;x
+camel_transport;Desert Camel Transport;;;;;;;;;;;;;;x
+camel_transport_short;Cmls;;;;;;;;;;;;;;x
+airborne_engineer_bat;Airborne Engineer Battalion;;;;;;;;;;;;;;x
+airborne_engineer_bat_short;Air-Eng Bn.;;;;;;;;;;;;;;x
+heavy_anti_air_brigade;Anti-Air Battalion;;;;;;;;;;;;;;x
+heavy_anti_air_brigade_short;AA Bn.;;;;;;;;;;;;;;x
+heavy_anti_tank_brigade;Anti-Tank Battalion;;;;;;;;;;;;;;x
+heavy_anti_tank_brigade_short;AT Bn.;;;;;;;;;;;;;;x
+medium_artillery_brigade;Medium Artillery Battalion;;;;;;;;;;;;;;x
+medium_artillery_brigade_short;Med Art. Bn.;;;;;;;;;;;;;;x
+motorized_engineer_brigade;Motorized Engineer Battalion;;;;;;;;;;;;;;x
+motorized_engineer_brigade_short;Mot. Eng Bn.;;;;;;;;;;;;;;x
+#####################################;;;;;;;;;;;;;x
+USA_truck_transport;Deuce and a Half Truck ;;;;;;;;;;;;;x
+USA_truck_transport_short;US-Truck;;;;;;;;;;;;;x
+GER_truck_transport;Opel Blitz 3.6T Truck ;;;;;;;;;;;;;x
+GER_truck_transport_short;Opl-Bltz;;;;;;;;;;;;;x
+ENG_truck_transport;MW 15 CWT Truck ;;;;;;;;;;;;;x
+ENG_truck_transport_short;ENG-Truck;;;;;;;;;;;;;x
+FRA_truck_transport;French Truck transport ;;;;;;;;;;;;;x
+FRA_truck_transport_short;FRA-Truck;;;;;;;;;;;;;x
+GER_light_transport;VW Kubelwagen ;;;;;;;;;;;;;x
+GER_light_transport_short;Kblwgn;;;;;;;;;;;;;x
+USA_light_transport;Willys MB Jeep ;;;;;;;;;;;;;x
+USA_light_transport_short;Jeep;;;;;;;;;;;;;x
+ITA_light_transport;SPA-Viberti AS.42 ;;;;;;;;;;;;;x
+ITA_light_transport_short;AS.42;;;;;;;;;;;;;x
+SOV_horse_transport;Steppe Horse Transport ;;;;;;;;;;;;;x
+SOV_horse_transport_short;Loshad;;;;;;;;;;;;;x
+GER_hftrack_transport;Sd.Kfz. Halftrack ;;;;;;;;;;;;;x
+GER_hftrack_transport_short;Sd.Kfz.;;;;;;;;;;;;;x
+FRA_hftrack_transport;SOMUA MCG Halftrack ;;;;;;;;;;;;;x
+FRA_hftrack_transport_short;SOMUA MCG;;;;;;;;;;;;;x
+####eof;;;;;;;;;;;;;;x

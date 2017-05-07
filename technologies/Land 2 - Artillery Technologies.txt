@@ -1,0 +1,2730 @@
+##########################################################################################
+## Infantry Guns
+##########################################################################################
+infantry_guns = {
+	
+	allow = {
+		OR = {
+			AND = {
+				NOT = { infantry_guns  = 1 }
+				trench_warfare_experience = 1	
+				artillery_barrage = 1
+				electro_mechanical_engineering = 1
+			}
+			AND = {
+				NOT = { infantry_guns  = 2 }
+				trench_warfare_experience = 1	
+				artillery_barrage = 1 
+				electro_mechanical_engineering = 10
+				combined_arms_theory = 1 			
+			}
+			AND = {
+				NOT = { infantry_guns  = 3 }
+				electro_mechanical_engineering = 12	
+				combined_arms_theory = 1 	
+				artillery_barrage = 1	
+			}
+			AND = {
+				NOT = { infantry_guns  = 4 }
+				electro_mechanical_engineering = 14
+				land_battles_fought = 50	
+			}
+			AND = {
+				NOT = { infantry_guns  = 5 }
+				electro_mechanical_engineering = 16	
+			}
+			AND = {
+				NOT = { infantry_guns  = 6 }
+				electro_mechanical_engineering = 18
+			}
+			AND = {
+				NOT = { infantry_guns  = 7 }
+				electro_mechanical_engineering = 20
+			}
+			AND = {
+				NOT = { infantry_guns  = 8 }
+				electro_mechanical_engineering = 22
+			}
+			AND = {
+				NOT = { infantry_guns  = 9 }
+				electro_mechanical_engineering = 24
+			}
+			AND = {
+				NOT = { infantry_guns  = 10 }
+				electro_mechanical_engineering = 26
+			}
+			AND = {
+				NOT = { infantry_guns  = 11 }
+				electro_mechanical_engineering = 28
+			}
+			AND = {
+				NOT = { infantry_guns  = 12 }
+				electro_mechanical_engineering = 30
+			}
+			AND = {
+				NOT = { infantry_guns  = 13 }
+				electro_mechanical_engineering = 32
+			}
+			AND = {
+				NOT = { infantry_guns  = 14 }
+				electro_mechanical_engineering = 34
+			}
+			AND = {
+				NOT = { infantry_guns  = 15 }
+				electro_mechanical_engineering = 36
+			}
+		}
+	}
+	
+	change = yes
+	
+	tactic_defensive_artillery_bombardment = 1
+			
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 15 # 1940
+	folder = artillery_folder
+}
+##########################################################################################
+## Medium Field Artillery
+##########################################################################################
+med_field_artillery = {
+	
+	allow = {
+		infantry_guns = 1 
+		OR = {
+			AND = {
+				NOT = { med_field_artillery  = 1 }
+				trench_warfare_experience = 1	
+				electro_mechanical_engineering = 1
+				artillery_barrage = 1 
+			}
+			AND = {
+				NOT = { med_field_artillery  = 2 }
+				trench_warfare_experience = 1	
+				electro_mechanical_engineering = 10
+				combined_arms_theory = 1 		
+				artillery_barrage = 1	
+			}
+			AND = {
+				NOT = { med_field_artillery  = 3 }
+				electro_mechanical_engineering = 12	
+				combined_arms_theory = 1 	
+				artillery_barrage = 1	
+			}
+			AND = {
+				NOT = { med_field_artillery  = 4 }
+				electro_mechanical_engineering = 14
+				land_battles_fought = 50
+			}
+			AND = {
+				NOT = { med_field_artillery  = 5 }
+				electro_mechanical_engineering = 16
+			}
+			AND = {
+				NOT = { med_field_artillery  = 6 }
+				electro_mechanical_engineering = 18
+			}
+			AND = {
+				NOT = { med_field_artillery  = 7 }
+				electro_mechanical_engineering = 20
+			}
+			AND = {
+				NOT = { med_field_artillery  = 8 }
+				electro_mechanical_engineering = 22
+			}
+			AND = {
+				NOT = { med_field_artillery  = 9 }
+				electro_mechanical_engineering = 24
+			}
+			AND = {
+				NOT = { med_field_artillery  = 10 }
+				electro_mechanical_engineering = 26
+			}
+			AND = {
+				NOT = { med_field_artillery  = 11 }
+				electro_mechanical_engineering = 28
+			}
+			AND = {
+				NOT = { med_field_artillery  = 12 }
+				electro_mechanical_engineering = 30
+			}
+		}
+	}
+	
+	change = yes
+	
+	tactic_offensive_artillery_bombardment = 1
+	
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 12 # 1956
+	folder = artillery_folder
+}
+##########################################################################################
+## Heavy Field Artillery
+##########################################################################################
+hvy_field_artillery = {
+	
+	allow = {
+		med_field_artillery = 1
+		artillery_production_industry = 1
+		OR = {
+			AND = {
+				NOT = { hvy_field_artillery  = 1 }
+				trench_warfare_experience = 1	
+				electro_mechanical_engineering = 1
+				artillery_barrage = 1
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 2 }
+				trench_warfare_experience = 1	
+				electro_mechanical_engineering = 10		
+				artillery_barrage = 1	
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 3 }
+				electro_mechanical_engineering = 12		
+				artillery_barrage = 1	
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 4 }
+				electro_mechanical_engineering = 14			
+				land_battles_fought = 25
+				artillery_barrage = 1
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 5 }
+				electro_mechanical_engineering = 16	
+				land_battles_fought = 50	
+				artillery_barrage = 1
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 6 }
+				electro_mechanical_engineering = 18	
+				land_battles_fought = 75	
+				artillery_barrage = 1
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 7 }
+				electro_mechanical_engineering = 20	
+				artillery_barrage = 1
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 8 }
+				electro_mechanical_engineering = 22
+				artillery_barrage = 1
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 9 }
+				electro_mechanical_engineering = 24
+				artillery_barrage = 1
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 10 }
+				electro_mechanical_engineering = 26
+				artillery_barrage = 1
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 11 }
+				electro_mechanical_engineering = 28
+				artillery_barrage = 1
+			}
+			AND = {
+				NOT = { hvy_field_artillery  = 12 }
+				electro_mechanical_engineering = 30
+				artillery_barrage = 1
+			}
+		}
+	}
+	
+	change = yes
+		
+	tactic_shock = 1
+	
+	tactic_offensive_artillery_bombardment = 1
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 12 # 1956
+	folder = artillery_folder
+}
+##########################################################################################
+## Rocket Artillery
+##########################################################################################
+rocket_artillery = {
+	
+	allow = {
+		artillery_production_industry = 1
+		rocket_engine = 1
+		OR = {
+			AND = {
+				NOT = { rocket_artillery  = 1 }
+				med_field_artillery = 2	
+				electro_mechanical_engineering = 15
+				combined_arms_theory = 1
+				artillery_barrage = 1
+				land_battles_fought = 400
+			}
+			AND = {
+				NOT = { rocket_artillery  = 2 }
+				med_field_artillery = 2	
+				electro_mechanical_engineering = 16
+				combined_arms_theory = 1 		
+				artillery_barrage = 1	
+				land_battles_fought = 450
+			}
+			AND = {
+				NOT = { rocket_artillery  = 3 }
+				med_field_artillery = 2
+				electro_mechanical_engineering = 17
+				combined_arms_theory = 1 	
+				artillery_barrage = 1	
+				land_battles_fought = 500
+			}
+		}
+	}
+	
+	change = yes
+	
+	tactic_offensive_artillery_bombardment = 1
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+		rocket_science = 0.3
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 7
+
+	start_year = 1941
+	first_offset = 1942
+	additional_offset = 1
+	max_level = 3 # 1943
+	folder = artillery_folder
+}
+##########################################################################################
+## Anti-Tank Gun
+##########################################################################################
+anti_tank_gun = {
+	
+	allow = {
+		artillery_production_industry = 1
+		OR = {
+			AND = {
+				NOT = { anti_tank_gun = 1 }				# 1936
+				electro_mechanical_engineering = 10
+				trench_warfare_experience = 1
+				land_battles_fought = 50
+			}
+			AND = {
+				NOT = { anti_tank_gun = 1 }				# 1936
+				electro_mechanical_engineering = 10
+				combined_arms_theory = 1
+				trench_warfare_experience = 1
+			}
+			AND = {
+				NOT = { anti_tank_gun = 2 }				# 1938
+				electro_mechanical_engineering = 12
+				anti_tank_warfare = 1
+			}
+			AND = {
+				NOT = { anti_tank_gun = 3 }				# 1940
+				anti_tank_warfare = 1
+				electro_mechanical_engineering = 14	
+				anti_tank_warfare = 2
+				land_battles_fought = 150	
+			}
+			AND = {
+				NOT = { anti_tank_gun = 4 }				# 1942
+				anti_tank_warfare = 3
+				electro_mechanical_engineering = 16
+			}
+			AND = {
+				NOT = { anti_tank_gun = 5 }				# 1944
+				anti_tank_warfare = 4
+				electro_mechanical_engineering = 18
+			}
+			AND = {
+				NOT = { anti_tank_gun = 6 }				# 1946
+				anti_tank_warfare = 5
+				electro_mechanical_engineering = 20
+			}
+			AND = {
+				NOT = { anti_tank_gun = 7 }				# 1948
+				anti_tank_warfare = 6
+				electro_mechanical_engineering = 22
+			}
+			AND = {
+				NOT = { anti_tank_gun = 8 }				# 1950
+				anti_tank_warfare = 7
+				electro_mechanical_engineering = 24
+			}
+			AND = {
+				NOT = { anti_tank_gun = 9 }				# 1952
+				anti_tank_warfare = 8
+				electro_mechanical_engineering = 26
+			}
+			AND = {
+				NOT = { anti_tank_gun = 10 }			# 1954
+				anti_tank_warfare = 9
+				electro_mechanical_engineering = 28
+			}
+			AND = {
+				NOT = { anti_tank_gun = 11 }			# 1956
+				anti_tank_warfare = 10
+				electro_mechanical_engineering = 30
+			}
+			AND = {
+				NOT = { anti_tank_gun = 12 }			# 1958
+				anti_tank_warfare = 11
+				electro_mechanical_engineering = 32
+			}
+		}
+	}
+	
+	tactic_anti_tank_gun_defense = 1
+	
+	anti_tank_brigade = {
+		ap_attack = 2
+	}
+	
+	heavy_anti_tank_brigade = {
+		ap_attack = 2
+	}
+	
+	ss_anti_tank_brigade = { 
+		ap_attack = 2
+	}
+	
+	ss_heavy_anti_tank_brigade = { 
+		ap_attack = 2
+	}
+	
+	mixed_support_brigade = {
+		ap_attack = 2
+	}
+	ss_mixed_support_brigade = {
+		ap_attack = 2
+	}
+	
+	
+	
+	light_armor_bat = {
+		build_cost_ic = 0.25
+		ap_attack = 2
+		toughness = -0.25
+		maximum_speed = -0.15
+	}	
+	
+	medium_tank_destroyer_brigade = {
+		build_cost_ic = 0.25
+		ap_attack = 2
+		toughness = -0.50
+		maximum_speed = -0.50
+	}
+	
+	ss_tank_destroyer_brigade = {
+		build_cost_ic = 0.25
+		ap_attack = 2
+		toughness = -0.50
+		maximum_speed = -0.50
+	}
+	
+	heavy_tank_destroyer_brigade = {
+		build_cost_ic = 0.40
+		ap_attack = 3
+		toughness = -0.75
+		maximum_speed = -0.75
+	}
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 4
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 12 # 1946
+	folder = artillery_folder
+}
+##########################################################################################
+## AT Gun Ammunition
+##########################################################################################
+anti_tank_gun_ammunition = {
+	
+	allow = {
+		anti_tank_gun = 1
+				
+	}
+	
+	change = yes
+	
+	anti_tank_brigade = { 
+		ap_attack = 1.0
+	}
+	
+	heavy_anti_tank_brigade = { 
+		ap_attack = 1.0
+	}
+	
+	
+	tank_destroyer_brigade = { 
+		ap_attack = 1.0
+	}
+	medium_tank_destroyer_brigade = { 
+		ap_attack = 1.0
+	}
+	heavy_tank_destroyer_brigade = { 
+		ap_attack = 1.0
+	}
+	
+	mixed_support_brigade = { 
+		ap_attack = 1.0
+	}	
+	ss_mixed_support_brigade = { 
+		ap_attack = 1.0
+	}	
+	
+	
+		
+	
+	
+	ss_tank_destroyer_brigade = { 
+		ap_attack = 1.0
+	}
+		
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 6
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 4 # 1944
+	folder = artillery_folder
+}
+##########################################################################################
+## Anti-Aircraft Gun
+##########################################################################################
+anti_aircraft_gun = {
+	
+	allow = {
+		artillery_production_industry = 1
+		OR = {
+			AND = {
+				NOT = { anti_aircraft_gun = 1 }	
+				electro_mechanical_engineering = 1
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { anti_aircraft_gun = 2 }
+				electro_mechanical_engineering = 10
+				world_war_one_warfare = 1	
+			}
+			AND = {
+				NOT = { anti_aircraft_gun = 3 }
+				electro_mechanical_engineering = 12 	
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { anti_aircraft_gun = 4 }
+				electro_mechanical_engineering = 14
+				world_war_one_warfare = 1	
+				land_battles_fought = 100
+			}
+		}
+	}
+	
+	activate_building = anti_air
+	
+	provincial_aa_efficiency = 0.01
+	
+	tactic_anti_aircraft_gun_tank_defense = 1	
+			
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 4
+
+	start_year = 1918
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 15 # 1960
+	folder = artillery_folder
+}
+##########################################################################################
+## AA Gun Ammunition
+##########################################################################################
+anti_aircraft_gun_ammunition = {
+	
+	allow = {
+		anti_aircraft_gun = 1
+		
+	}
+	
+	change = yes
+	
+	anti_air_brigade = {  # Company
+		ap_attack = 0.5
+		air_attack = 1.0
+	}
+	
+	heavy_anti_air_brigade = {  # Battalion
+		ap_attack = 0.5
+		air_attack = 1.0
+	}
+	
+	ss_anti_air_brigade = { # Company 
+		ap_attack = 0.5
+		air_attack = 1.0
+	}
+	
+	ss_heavy_anti_air_brigade = { # Company 
+		ap_attack = 0.5
+		air_attack = 1.0
+	}
+	
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 6
+
+	start_year = 1935
+	first_offset = 1938
+	additional_offset = 3
+	max_level = 4 # 
+	folder = artillery_folder
+}
+##########################################################################################
+## AT Gun Battalion HQ
+##########################################################################################
+anti_tank_gun_battalion_hq = {
+	
+	allow = {
+		infantry_division_hq = 1 
+		anti_tank_gun = 1
+		OR = {
+			AND = {
+				NOT = { anti_tank_gun_battalion_hq = 1 }
+				first_anti_tank_company = 1
+				second_anti_tank_company = 1
+				third_anti_tank_company = 1
+			}
+			AND = {
+				NOT = { anti_tank_gun_battalion_hq = 2 }
+				first_anti_tank_company = 2
+				second_anti_tank_company = 2
+				third_anti_tank_company = 2
+			}
+			AND = {
+				NOT = { anti_tank_gun_battalion_hq = 3 }
+				first_anti_tank_company = 3
+				second_anti_tank_company = 3
+				third_anti_tank_company = 3
+			}
+			AND = {
+				NOT = { anti_tank_gun_battalion_hq = 4 }
+				first_anti_tank_company = 4
+				second_anti_tank_company = 4
+				third_anti_tank_company = 4
+			}
+			AND = {
+				NOT = { anti_tank_gun_battalion_hq = 5 }
+				first_anti_tank_company = 5
+				second_anti_tank_company = 5
+				third_anti_tank_company = 5
+			}
+			AND = {
+				NOT = { anti_tank_gun_battalion_hq = 6 }
+				first_anti_tank_company = 6
+				second_anti_tank_company = 6
+				third_anti_tank_company = 6
+			}	
+			AND = {
+				NOT = { anti_tank_gun_battalion_hq = 7 }
+				first_anti_tank_company = 7
+				second_anti_tank_company = 7
+				third_anti_tank_company = 7
+			}	
+			AND = {
+				NOT = { anti_tank_gun_battalion_hq = 8 }
+				first_anti_tank_company = 8
+				second_anti_tank_company = 8
+				third_anti_tank_company = 8
+			}	
+			AND = {
+				NOT = { anti_tank_gun_battalion_hq = 9 }
+				first_anti_tank_company = 9
+				second_anti_tank_company = 9
+				third_anti_tank_company = 9
+			}	
+			AND = {
+				NOT = { anti_tank_gun_battalion_hq = 10 }
+				first_anti_tank_company = 10
+				second_anti_tank_company = 10
+				third_anti_tank_company = 10
+			}	
+		}
+		
+	}
+	
+	change = no
+		
+	activate_unit = heavy_anti_tank_brigade
+	
+	heavy_anti_tank_brigade = { 
+		default_organisation = 1
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+				
+	ss_heavy_anti_tank_brigade = { 
+		default_organisation = 1
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+		
+		
+	
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 3
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 10 # 1946
+	folder = artillery_folder
+}
+##########################################################################################
+## 1st AT Gun Company
+##########################################################################################
+first_anti_tank_company = {
+	
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { first_anti_tank_company = 1 }	# 1936	
+				artillery_production_industry = 5
+				infantry_division_hq = 1 
+				anti_tank_gun = 1
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { first_anti_tank_company = 2 }	# 1938
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { first_anti_tank_company = 3 }	# 1940
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { first_anti_tank_company = 4 }	# 1942
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { first_anti_tank_company = 5 }	# 1944
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { first_anti_tank_company = 6 }	# 1946
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { first_anti_tank_company = 7 }	# 1948
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { first_anti_tank_company = 8 }	# 1950
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { first_anti_tank_company = 9 }	# 1952
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { first_anti_tank_company = 10 }	# 1954
+				artillery_production_industry = 23
+			}
+		}	
+	}
+	
+	change = yes
+	
+	activate_unit = anti_tank_brigade
+	
+	anti_tank_brigade = {
+		build_cost_ic = 0.03   # x1 Company
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		hard_attack = 0.50
+		defensiveness = 1.00
+		maximum_speed = -0.05
+	}
+	
+	heavy_anti_tank_brigade = {
+		build_cost_ic = 0.03   # x1 Company
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		hard_attack = 0.50
+		defensiveness = 1.00
+		maximum_speed = -0.05
+	}
+	
+	ss_anti_tank_brigade = { 
+		build_cost_ic = 0.03   # x1 Company
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		hard_attack = 0.50
+		defensiveness = 1.00
+		maximum_speed = -0.05
+	}
+	
+	ss_heavy_anti_tank_brigade = { 
+		build_cost_ic = 0.03   # x1 Company
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		hard_attack = 0.50
+		defensiveness = 1.00
+		maximum_speed = -0.05
+	}
+	
+	mixed_support_brigade = {
+		build_cost_ic = 0.03   # x1 Company
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		hard_attack = 0.50
+		defensiveness = 1.00
+		maximum_speed = -0.05
+	}
+	ss_mixed_support_brigade = {
+		build_cost_ic = 0.03   # x1 Company
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		hard_attack = 0.50
+		defensiveness = 1.00
+		maximum_speed = -0.05
+	}
+	
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 1
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 10 # 1944
+	folder = artillery_folder
+}
+##########################################################################################
+## 2nd AT Gun Company
+##########################################################################################
+second_anti_tank_company = {
+	
+	allow = {
+	
+		OR = { 
+			AND = {
+				NOT = { second_anti_tank_company = 1 }	# 1936	
+				artillery_production_industry = 5
+				infantry_division_hq = 1 
+				anti_tank_gun = 1
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { second_anti_tank_company = 2 }	# 1938
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { second_anti_tank_company = 3 }	# 1940
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { second_anti_tank_company = 4 }	# 1942
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { second_anti_tank_company = 5 }	# 1944
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { second_anti_tank_company = 6 }	# 1946
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { second_anti_tank_company = 7 }	# 1948
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { second_anti_tank_company = 8 }	# 1950
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { second_anti_tank_company = 9 }	# 1952
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { second_anti_tank_company = 10 }	# 1954
+				artillery_production_industry = 23
+			}
+		}	
+	}
+	
+	change = yes
+	
+	heavy_anti_tank_brigade = {
+		build_cost_ic = 0.03   # x1 Company
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		hard_attack = 0.50
+		defensiveness = 1.00
+		maximum_speed = -0.05
+	}
+	
+	ss_heavy_anti_tank_brigade = { 
+		build_cost_ic = 0.03   # x1 Company
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		hard_attack = 0.50
+		defensiveness = 1.00
+		maximum_speed = -0.05
+	}
+	
+			
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 1
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 10 # 1946
+	folder = artillery_folder
+}
+##########################################################################################
+## 3rd AT Gun Company
+##########################################################################################
+third_anti_tank_company = {
+	
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { third_anti_tank_company = 1 }	# 1936	
+				artillery_production_industry = 5
+				infantry_division_hq = 1 
+				anti_tank_gun = 1
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { third_anti_tank_company = 2 }	# 1938
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { third_anti_tank_company = 3 }	# 1940
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { third_anti_tank_company = 4 }	# 1942
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { third_anti_tank_company = 5 }	# 1944
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { third_anti_tank_company = 6 }	# 1946
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { third_anti_tank_company = 7 }	# 1948
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { third_anti_tank_company = 8 }	# 1950
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { third_anti_tank_company = 9 }	# 1952
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { third_anti_tank_company = 10 }	# 1954
+				artillery_production_industry = 23
+			}
+		}	
+	}
+	
+	change = yes
+	
+	heavy_anti_tank_brigade = {
+		build_cost_ic = 0.03   # x1 Company
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		hard_attack = 0.50
+		defensiveness = 1.00
+		maximum_speed = -0.05
+	}
+	
+	ss_heavy_anti_tank_brigade = { 
+		build_cost_ic = 0.03   # x1 Company
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		hard_attack = 0.50
+		defensiveness = 1.00
+		maximum_speed = -0.05
+	}
+		
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 1
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 10 # 1944
+	folder = artillery_folder
+}
+##########################################################################################
+## AA Gun Battalion HQ
+##########################################################################################
+anti_aircraft_gun_battalion_hq = {
+	
+	allow = { 
+		
+		OR = {
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 1 }
+				first_anti_aircraft_company = 1
+				second_anti_aircraft_company = 1
+				third_anti_aircraft_company = 1
+			}
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 2 }
+				first_anti_aircraft_company = 2
+				second_anti_aircraft_company = 2
+				third_anti_aircraft_company = 2
+			}
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 3 }
+				first_anti_aircraft_company = 3
+				second_anti_aircraft_company = 3
+				third_anti_aircraft_company = 3
+			}
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 4 }
+				first_anti_aircraft_company = 4
+				second_anti_aircraft_company = 4
+				third_anti_aircraft_company = 4
+			}
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 5 }
+				first_anti_aircraft_company = 5
+				second_anti_aircraft_company = 5
+				third_anti_aircraft_company = 5
+			}
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 6 }
+				first_anti_aircraft_company = 6
+				second_anti_aircraft_company = 6
+				third_anti_aircraft_company = 6
+			}	
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 6 }
+				first_anti_aircraft_company = 6
+				second_anti_aircraft_company = 6
+				third_anti_aircraft_company = 6
+			}	
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 7 }
+				first_anti_aircraft_company = 7
+				second_anti_aircraft_company = 7
+				third_anti_aircraft_company = 7
+			}	
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 8 }
+				first_anti_aircraft_company = 8
+				second_anti_aircraft_company = 8
+				third_anti_aircraft_company = 8
+			}	
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 9 }
+				first_anti_aircraft_company = 9
+				second_anti_aircraft_company = 9
+				third_anti_aircraft_company = 9
+			}	
+			AND = {
+				NOT = { anti_aircraft_gun_battalion_hq = 10 }
+				first_anti_aircraft_company = 10
+				second_anti_aircraft_company = 10
+				third_anti_aircraft_company = 10
+			}	
+		}
+	}
+	
+	change = no
+	
+	activate_unit = heavy_anti_air_brigade
+	
+	heavy_anti_air_brigade = {  # Company
+		default_organisation = 1
+		air_attack = 0.01
+		air_defence = 0.01
+		defensiveness = 0.01
+	}
+				
+	ss_heavy_anti_air_brigade = { # Company 
+		default_organisation = 1
+		air_attack = 0.01
+		air_defence = 0.01
+		defensiveness = 0.01
+	}
+		
+		
+			
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 3
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 10 # 1944
+	folder = artillery_folder
+}
+##########################################################################################
+## 1st AA Gun Company
+##########################################################################################
+first_anti_aircraft_company = {
+	
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { first_anti_aircraft_company = 1 }	# 1936
+				artillery_production_industry = 5
+				anti_aircraft_gun = 1
+				infantry_division_hq = 1 
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { first_anti_aircraft_company = 2 }	# 1938
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { first_anti_aircraft_company = 3 }	# 1940
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { first_anti_aircraft_company = 4 }	# 1942
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { first_anti_aircraft_company = 5 }	# 1944
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { first_anti_aircraft_company = 6 }	# 1946
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { first_anti_aircraft_company = 7 }	# 1948
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { first_anti_aircraft_company = 8 }	# 1950
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { first_anti_aircraft_company = 9 }	# 1952
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { first_anti_aircraft_company = 10 }	# 1954
+				artillery_production_industry = 23
+			}
+		}
+	}
+	
+	change = yes
+	
+	activate_unit = anti_air_brigade
+	
+	anti_air_brigade = {  # Company
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	heavy_anti_air_brigade = {  # Company
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	ss_anti_air_brigade = { # Company 
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	ss_heavy_anti_air_brigade = { # Company 
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	mixed_support_brigade = { # Battalion
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	ss_mixed_support_brigade = { # Battalion
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+
+	luftwaffe_brigade = {  # Company
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	goering_brigade = {  # Company
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 3
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 10 # 1944
+	folder = artillery_folder
+}
+##########################################################################################
+## 2nd AA Gun Company
+##########################################################################################
+second_anti_aircraft_company = {
+	
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { second_anti_aircraft_company = 1 }	# 1936
+				artillery_production_industry = 5
+				anti_aircraft_gun = 1
+				infantry_division_hq = 1 
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { second_anti_aircraft_company = 2 }	# 1938
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { second_anti_aircraft_company = 3 }	# 1940
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { second_anti_aircraft_company = 4 }	# 1942
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { second_anti_aircraft_company = 5 }	# 1944
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { second_anti_aircraft_company = 6 }	# 1946
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { second_anti_aircraft_company = 7 }	# 1948
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { second_anti_aircraft_company = 8 }	# 1950
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { second_anti_aircraft_company = 9 }	# 1952
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { second_anti_aircraft_company = 10 }	# 1954
+				artillery_production_industry = 23
+			}
+		}
+	}
+	
+	change = yes
+	
+	heavy_anti_air_brigade = {  # Battalion
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	luftwaffe_brigade = {  # Battalion
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	goering_brigade = {  # Battalion
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+		
+	ss_heavy_anti_air_brigade = { # Battalion 
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 3
+
+	start_year = 1935
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 10 # 1944
+	folder = artillery_folder
+}
+##########################################################################################
+## 3rd AA Gun Company
+##########################################################################################
+third_anti_aircraft_company = {
+	
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { third_anti_aircraft_company = 1 }	# 1936	
+				artillery_production_industry = 5
+				anti_aircraft_gun = 1
+				infantry_division_hq = 1 
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { third_anti_aircraft_company = 2 }	# 1938
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { third_anti_aircraft_company = 3 }	# 1940
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { third_anti_aircraft_company = 4 }	# 1942
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { third_anti_aircraft_company = 5 }	# 1944
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { third_anti_aircraft_company = 6 }	# 1946
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { third_anti_aircraft_company = 7 }	# 1948
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { third_anti_aircraft_company = 8 }	# 1950
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { third_anti_aircraft_company = 9 }	# 1952
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { third_anti_aircraft_company = 10 }	# 1954
+				artillery_production_industry = 23
+			}
+		}
+	}
+	
+	change = yes
+	
+	heavy_anti_air_brigade = {  # Battalion
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	ss_heavy_anti_air_brigade = { # Battalion 
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	luftwaffe_brigade = {  # Battalion
+		build_cost_ic = 0.03
+		build_time = 1
+		air_attack = 1.00
+		air_defence = 1.00
+		defensiveness = 0.50
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 3
+
+	start_year = 1935
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 10 # 1944
+	folder = artillery_folder
+}
+##########################################################################################
+## Pack Artillery
+##########################################################################################
+pack_artillery = {
+	
+	allow = {
+		infantry_guns = 1
+		mountain_infantry_regiment = 1
+	}
+	
+	activate_unit = pack_artillery_brigade
+			
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 5
+
+	start_year = 1937
+	folder = artillery_folder
+}
+##########################################################################################
+## Airborne Artillery
+##########################################################################################
+airborne_artillery = {
+	
+	allow = {
+		infantry_guns = 1
+		airlanding_infantry_regiment = 1
+		gliders_technology = 1
+	}
+	
+	activate_unit = airborne_artillery_brigade
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 5
+
+	start_year = 1940
+	folder = artillery_folder
+}
+##########################################################################################
+## Self-Propelled Artillery
+##########################################################################################
+sp_artillery_prototype = {
+	
+	allow = {
+	automotive_construction_industry = 1
+	artillery_production_industry = 1
+		OR = {
+			AND = {
+				NOT = { sp_artillery_prototype = 1 } # 1939
+				land_battles_fought = 50
+				OR = {
+					infantry_guns = 2
+					med_field_artillery = 2
+					hvy_field_artillery = 2
+				}
+			}
+			AND = { 
+				NOT = { sp_artillery_prototype = 2 } # 1940
+				land_battles_fought = 150
+				OR = {
+					infantry_guns = 3
+					med_field_artillery = 3
+					hvy_field_artillery = 3
+				}
+			}
+			AND = {
+				NOT = { sp_artillery_prototype = 3 } # 1941
+				land_battles_fought = 300
+				OR = {
+					infantry_guns = 4
+					med_field_artillery = 4
+					hvy_field_artillery = 4
+				}
+			}
+			AND = {
+				NOT = { sp_artillery_prototype = 4 } # 1942
+				land_battles_fought = 500
+				OR = {
+					infantry_guns = 4
+					med_field_artillery = 4
+					hvy_field_artillery = 4
+				}
+			}
+			AND = {
+				NOT = { sp_artillery_prototype = 5 } # 1943
+				land_battles_fought = 700
+				OR = {
+					infantry_guns = 5
+					med_field_artillery = 5
+					hvy_field_artillery = 5
+				}
+			}
+			AND = {
+				NOT = { sp_artillery_prototype = 6 } # 1944
+				land_battles_fought = 900
+				OR = {
+					infantry_guns = 6
+					med_field_artillery = 6
+					hvy_field_artillery = 6
+				}
+			}
+			AND = {
+				NOT = { sp_artillery_prototype = 7 } # 1945
+				land_battles_fought = 1100
+				OR = {
+					infantry_guns = 6
+					med_field_artillery = 6
+					hvy_field_artillery = 6
+				}
+			}
+		}		
+	}
+	
+	change = yes
+	
+	tactic_offensive_artillery_bombardment = 1
+				
+	research_bonus_from = {
+		artillery_theory = 0.3
+		automotive_theory = 0.2
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 6
+
+	start_year = 1939
+	first_offset = 1940 
+	additional_offset = 1 
+	max_level = 7 # 1945
+	folder = artillery_folder
+}
+##########################################################################################
+## SP Rocket Artillery
+##########################################################################################
+sp_rocket_artillery_prototype = {
+	
+	allow = {
+		
+		armored_vehicle_prototype = 4
+		rocket_artillery = 1
+		land_battles_fought = 250
+	}
+	
+	change = yes
+	
+	tactic_shock = 1
+	
+	tactic_offensive_artillery_bombardment = 1
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		automotive_theory = 0.2
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 6
+
+	start_year = 1941
+	first_offset = 1943 
+	additional_offset = 2 
+	max_level = 12 # 1944
+	folder = artillery_folder
+}
+##########################################################################################
+## Assault Gun
+##########################################################################################
+assault_gun_prototype = {
+	
+	allow = {
+		
+			OR = {
+				AND = {
+					NOT = { assault_gun_prototype = 1 } # 1940
+					land_battles_fought = 100
+					medium_tank_prototype = 1
+					short_barrel_tank_gun_design = 1
+				}
+				AND = {
+					NOT = { assault_gun_prototype = 2 } # 1941
+					land_battles_fought = 300				
+				}
+				AND = {
+					NOT = { assault_gun_prototype = 3 } # 1942
+					land_battles_fought = 500
+				}
+				AND = {
+					NOT = { assault_gun_prototype = 4 } # 1943
+					land_battles_fought = 700	
+				}
+				AND = {
+					NOT = { assault_gun_prototype = 5 } # 1944
+					land_battles_fought = 1000
+				}
+			}		
+	}
+	
+	change = yes
+	
+	tactic_breakthrough = 1
+	
+	tactic_armor_defense = 1
+	
+	
+	research_bonus_from = {
+		artillery_theory = 0.3
+		automotive_theory = 0.2
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 6
+
+	start_year = 1940
+	first_offset = 1941
+	additional_offset = 1
+	max_level = 5 # 1944
+	folder = artillery_folder
+}
+##########################################################################################
+## Heavy Assault Gun
+##########################################################################################
+heavy_assault_gun_prototype = {
+	
+	allow = {
+				
+			OR = {
+				AND = {
+					NOT = { heavy_assault_gun_prototype = 1 } # 1943
+					land_battles_fought = 500
+					automotive_construction_industry = 1
+					artillery_production_industry = 1
+					assault_gun_prototype = 1
+					OR = {
+						hvy_field_artillery = 1
+						hvy_field_artillery = 2
+					}
+				}
+				AND = {
+					NOT = { heavy_assault_gun_prototype = 2 } # 1944
+					land_battles_fought = 700
+					OR = {
+						hvy_field_artillery = 2
+						hvy_field_artillery = 3
+					}
+				}
+				AND = {
+					NOT = { heavy_assault_gun_prototype = 3 } # 1945
+					land_battles_fought = 1000
+					
+					OR = {
+						hvy_field_artillery = 4
+						hvy_field_artillery = 5
+					}
+				}
+			}		
+	}
+	
+	change = yes
+	
+	tactic_superior_breakthrough = 1
+	
+	tactic_armor_defense = 1
+					
+	research_bonus_from = {
+		artillery_theory = 0.3
+		automotive_theory = 0.2
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 7
+
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1
+	max_level = 3
+	folder = artillery_folder
+}
+##########################################################################################
+## Self-Propelled Anti-Aircraft Gun Prototype
+##########################################################################################
+sp_anti_aircraft_prototype = {
+	
+	allow = {
+		
+		OR = {
+			AND = {
+				NOT = { sp_anti_aircraft_prototype = 1 } # 1942
+				land_battles_fought = 150
+				OR = { 
+					medium_tank_prototype = 2
+					armored_vehicle_prototype = 5
+				}
+				
+				anti_air_gun = 2
+				turret_design = 4
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_prototype = 2 } # 1943
+				land_battles_fought = 300
+				OR = { 
+					medium_tank_prototype = 3
+					armored_vehicle_prototype = 5
+				}
+				
+				anti_air_gun = 3
+				turret_design = 4
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_prototype = 3 } # 1944
+				land_battles_fought = 500
+				OR = { 
+					medium_tank_prototype = 3
+					armored_vehicle_prototype = 6
+				}
+				
+				anti_air_gun = 4
+				turret_design = 5
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_prototype = 4 } # 1945
+				land_battles_fought = 700
+				OR = { 
+					medium_tank_prototype = 3
+					armored_vehicle_prototype = 6
+				}
+				
+				anti_air_gun = 4
+				turret_design = 6
+			}
+		}		
+	}
+	
+	change = yes
+	
+	tactic_anti_aircraft_gun_tank_defense = 1
+	
+				
+	research_bonus_from = {
+		artillery_theory = 0.3
+		automotive_theory = 0.2
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 8
+
+	start_year = 1942
+	first_offset = 1943
+	additional_offset = 1
+	max_level = 4
+	folder = artillery_folder
+}
+##########################################################################################
+## HE Artillery Shell
+##########################################################################################
+he_artillery_shell = {
+	
+	allow = {
+		med_field_artillery = 1
+	}
+	
+	change = yes
+	
+	infantry_brigade = {
+		soft_attack = 0.5
+	}
+	motorized_brigade = {
+		soft_attack = 0.5
+	}
+	artillery_brigade = { 
+		soft_attack = 0.5
+	}
+	ss_artillery_brigade = { 
+		soft_attack = 0.5
+	}
+	airborne_artillery_brigade = { 
+		soft_attack = 0.5
+	}
+	pack_artillery_brigade = { 
+		soft_attack = 0.5
+	}
+	
+	sp_artillery_brigade = { 
+		soft_attack = 0.5
+	}
+	assault_gun_brigade = { 
+		soft_attack = 0.5
+	}
+	heavy_assault_gun_brigade = { 
+		soft_attack = 0.5
+	}
+	ss_pack_artillery_brigade = { 
+		soft_attack = 0.5
+	}
+	
+	ss_sp_artillery_brigade = { 
+		soft_attack = 0.5
+	}
+	anzac_brigade = {
+		soft_attack = 0.5
+	}
+	ss_totenkopf = {
+		soft_attack = 0.5
+	}
+	ss_lssah = {
+		soft_attack = 0.5
+	}
+	grossdeutschland_brigade  = {
+		soft_attack = 0.5
+	}
+	lehr_brigade  = {
+		soft_attack = 0.5
+	}
+	afrika_brigade  = {
+		soft_attack = 0.5
+	}
+	goering_brigade  = {
+		soft_attack = 0.5
+	}
+	ss_wiking = {
+		soft_attack = 0.5
+	}
+	ss_dasreich = {
+		soft_attack = 0.5
+	}
+	ss_frundsberg = {
+		soft_attack = 0.5
+	}
+	
+	ss_hohenstaufen = {
+		soft_attack = 0.5
+	}
+	ss_hitlerjugend = {
+		soft_attack = 0.5
+	}
+	ss_polizei = {
+		soft_attack = 0.5
+	}
+	guard_mechanized_brigade = {
+		soft_attack = 0.5
+	}
+	guard_motorized_brigade = {
+		soft_attack = 0.5
+	}
+	guard_infantry_brigade = {
+		soft_attack = 0.5
+	}
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 3
+
+	start_year = 1918
+	folder = artillery_folder
+}
+##########################################################################################
+## Rocket Artillery Shell
+##########################################################################################
+rocket_artillery_shell = {
+	
+	allow = {
+		rocket_artillery = 1
+	}
+	
+	change = yes
+	
+	rocket_artillery_brigade = { 
+		soft_attack = 1.0
+	}
+	ss_rocket_artillery_brigade = { 
+		soft_attack = 1.0
+	}
+	sp_rct_artillery_brigade = { 
+		soft_attack = 1.0
+	}
+	ss_sp_rct_artillery_brigade = { 
+		soft_attack = 1.0
+	}
+	guard_sp_rct_artillery_brigade = { 
+		soft_attack = 1.0
+	}
+	
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+		rocket_science = 0.3
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 6
+
+	start_year = 1941
+	first_offset = 1942
+	additional_offset = 1
+	max_level = 4
+	folder = artillery_folder
+}
+##########################################################################################
+## Illumination Artillery Shell
+##########################################################################################
+illumination_shell = {
+	
+	allow = {
+		med_field_artillery = 1
+	}
+	
+	change = yes
+	
+	artillery_brigade = { 
+		night = {
+		attack = 0.05
+		}
+	}
+	ss_artillery_brigade = { 
+		night = {
+		attack = 0.05
+		}
+	}
+	
+	sp_artillery_brigade = { 
+		night = {
+		attack = 0.05
+		}
+	}
+	
+	ss_sp_artillery_brigade = { 
+		night = {
+		attack = 0.05
+		}
+	}
+			
+	research_bonus_from = {
+		artillery_theory = 0.3
+		artillery_practical = 0.2
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 4
+
+	start_year = 1918
+	folder = artillery_folder
+}
+##########################################################################################
+## Artillery Proximity Fuze
+##########################################################################################
+proximity_fuze = {
+	
+	allow = {
+		radar_minaturization = 1
+		med_field_artillery = 3
+	}
+	
+	change = yes
+	
+	artillery_brigade = { 
+		build_cost_ic = 0.25
+		soft_attack = 3.0
+		supply_consumption = 0.15
+	}
+	ss_artillery_brigade = { 
+		build_cost_ic = 0.25
+		soft_attack = 3.0
+		supply_consumption = 0.15
+	}
+	
+	sp_artillery_brigade = { 
+		build_cost_ic = 0.25
+		soft_attack = 3.0
+		supply_consumption = 0.15
+	}
+	
+	ss_sp_artillery_brigade = { 
+		build_cost_ic = 0.25
+		soft_attack = 3.0
+		supply_consumption = 0.15
+	}
+	anti_air_brigade = {  # Company
+		build_cost_ic = 0.25
+		air_attack = 1.5
+		supply_consumption = 0.05
+	}
+	
+	heavy_anti_air_brigade = {  # Company
+		build_cost_ic = 0.25
+		air_attack = 1.5
+		supply_consumption = 0.05
+	}
+	
+	ss_anti_air_brigade = { # Company 
+		build_cost_ic = 0.25
+		air_attack = 1.5
+		supply_consumption = 0.05
+	}
+	
+	ss_heavy_anti_air_brigade = { # Company 
+		build_cost_ic = 0.25
+		air_attack = 1.5
+		supply_consumption = 0.05
+	}
+	
+	sp_anti_air_brigade = { # Battalion 
+		build_cost_ic = 0.25
+		air_attack = 4.5
+		supply_consumption = 0.15
+	}
+	ss_sp_anti_air_brigade = { # Battalion 
+		build_cost_ic = 0.25
+		air_attack = 4.5
+		supply_consumption = 0.15
+	}
+			
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 10
+
+	start_year = 1941
+	folder = artillery_folder
+}
+##########################################################################################
+## HEAT Shell
+##########################################################################################
+HEAT_shell = {
+	
+	allow = {
+		medium_velocity_tank_gun = 2
+		
+	}
+	
+	change = yes
+	
+	armor_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	armor_bat = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	heavy_armor_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	ss_armor_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	ss_armor_bat = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	ss_heavy_armor_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	guard_armor_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	guard_armor_bat = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	guard_heavy_armor_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	super_heavy_armor_brigade  = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	assault_gun_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	tank_destroyer_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	medium_tank_destroyer_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	heavy_tank_destroyer_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	ss_tank_destroyer_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+	ss_armored_support_brigade = { 
+		ap_attack = 1.0
+		supply_consumption = 0.15
+	}
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 7
+
+	start_year = 1940
+	folder = artillery_folder
+}
+##########################################################################################
+## SABOT Shell
+##########################################################################################
+SABOT_shell = {
+	
+	allow = {
+		high_velocity_tank_gun = 2
+	}
+	
+	change = yes
+	
+	armor_brigade = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	armor_bat = {
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	heavy_armor_brigade = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	ss_armor_brigade = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	ss_armor_bat = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	ss_heavy_armor_brigade = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	guard_armor_brigade = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	guard_armor_bat = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	guard_heavy_armor_brigade = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	super_heavy_armor_brigade  = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	medium_tank_destroyer_brigade = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	heavy_tank_destroyer_brigade = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+	ss_tank_destroyer_brigade = { 
+		ap_attack = 3.0
+		supply_consumption = 0.15
+	}
+				
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+	difficulty = 12
+
+	start_year = 1945
+	folder = artillery_folder
+}
+
+#########################################################################################
+## Tank AP Shells Design
+#########################################################################################
+tank_ap_shells = {
+	
+	allow = {
+		medium_velocity_tank_gun = 1
+	}
+	
+	change = yes
+	
+	armored_support_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	ss_armored_support_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	captured_armor_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	light_armor_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	light_armor_bat = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	amph_armour_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	armor_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	desertrats_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	armor_bat = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	combined_arms_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	assault_gun_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	tank_destroyer_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	medium_tank_destroyer_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	heavy_tank_destroyer_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	ss_tank_destroyer_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.10
+		ap_attack = 0.35
+		supply_consumption = 0.10
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 3
+	
+	start_year = 1937
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 3
+	folder = artillery_folder
+}
+#########################################################################################
+## Tank HE Shells
+#########################################################################################
+tank_he_shells = {
+	
+	allow = {
+		medium_velocity_tank_gun = 1
+	}
+	
+	change = yes
+	
+	armored_support_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	ss_armored_support_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	captured_armor_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	amph_armour_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	armor_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	desertrats_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	armor_bat = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.45
+		supply_consumption = 0.10
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.45
+		supply_consumption = 0.10
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.45
+		supply_consumption = 0.10
+	}
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.50
+		supply_consumption = 0.10
+	}
+	infantry_tank_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.35
+		supply_consumption = 0.10
+	}
+	combined_arms_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	assault_gun_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.25
+		supply_consumption = 0.10
+	}
+	heavy_assault_gun_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.45
+		supply_consumption = 0.10
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 0.10
+		soft_attack = 0.45
+		supply_consumption = 0.10
+	}
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 3
+	
+	start_year = 1936
+	folder = artillery_folder
+}
+
+#########################################################################################
+## Wet Ammo Storage
+#########################################################################################
+wet_ammo_storage = {
+	
+	allow = {
+		versatile_tank_designs = 1
+		land_battles_fought = 350
+	}
+	
+	change = yes
+	
+	armor_brigade = {
+		toughness = 1.00
+	}
+	desertrats_brigade = {
+		toughness = 1.00
+	}
+	armor_bat = {
+		toughness = 1.00
+	}
+	ss_armor_brigade = {
+		toughness = 1.00
+	}
+	ss_armor_bat = {
+		toughness = 1.00
+	}
+	guard_armor_brigade = {
+		toughness = 1.00
+	}
+	guard_armor_bat = {
+		toughness = 1.00
+	}
+	heavy_armor_brigade = {
+		toughness = 1.00
+	}
+	ss_heavy_armor_brigade = {
+		toughness = 1.00
+	}
+	guard_heavy_armor_brigade = {
+		toughness = 1.00
+	}
+	super_heavy_armor_brigade = {
+		toughness = 1.00
+	}
+	
+	afrika_brigade = {
+		toughness = 1.00
+	}
+	
+	lehr_brigade = {
+		toughness = 1.00
+	}
+	
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		armour_practical = 0.15
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 9
+	
+	# common for all techs.
+	start_year = 1942
+	folder = artillery_folder
+}

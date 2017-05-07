@@ -1,0 +1,13 @@
+division= {
+	name = "104. Jäger-Division"
+	location = 1861 #berlin
+	leader = 600207 # von Ludwiger
+	regiment = { type = GER_A_CIV_jaeger name = "Stab 104. Jäger-Division" historical_model = 0 experience = 60 organisation = 1 }
+	regiment = { type = light_infantry_brigade name = "Jäger Regiment 724/734" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = infantry_bat name = "Feldersatz-Bataillon 104" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = artillery_brigade name = "Artillerie-Regiment 654" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = anti_tank_brigade name = "Panzerjäger-Abteilung 104" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "Aufklärungs-Abteilung 104" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = engineer_brigade name = "Pionier-Bataillon 104" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = light_transport name = "Versorgungseinheiten 104" historical_model = 0 organisation = 1 }
+}

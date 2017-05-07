@@ -1,0 +1,2442 @@
+###################
+###################
+# Div Str +
+###################
+# Regular Army
+militia_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		OR = {
+			AND = {
+				not = { militia_increase = 1 }
+				superior_strength = 1
+			}
+			AND = {
+				militia_increase = 1
+				superior_strength = 2
+			}
+			AND = {
+				militia_increase = 2 
+				superior_strength = 3
+			}
+			AND = {
+				militia_increase = 3
+				superior_strength = 4
+			}
+			AND = {
+				militia_increase = 4
+				superior_strength = 5
+			}
+			AND = {
+				militia_increase = 5
+				superior_strength = 6
+			}
+		}
+		
+	}
+
+	change = no
+	
+	can_upgrade = yes	
+
+   	militia_brigade = { 
+		max_strength = 2.40
+		officers = 4
+		supply_consumption = 0.01
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+   	colonial_militia_brigade = { 
+		max_strength = 2.40
+		officers = 4
+		supply_consumption = 0.01
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}	
+	fascist_militia_brigade = { 
+		max_strength = 2.40
+		officers = 4
+		supply_consumption = 0.01
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	SA_militia_brigade = { 
+		max_strength = 2.40
+		officers = 4
+		supply_consumption = 0.01
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	Communist_militia_brigade = { 
+		max_strength = 2.40
+		officers = 4
+		supply_consumption = 0.01
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+
+	on_completion = militia_theory
+
+    difficulty = 1
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+	stealable = no
+    folder = division_increase_folder
+}
+
+infantry_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		OR = {
+			AND = {
+				not = { infantry_increase = 1 }
+				superior_strength = 1
+			}
+			AND = {
+				infantry_increase = 1
+				superior_strength = 2
+			}
+			AND = {
+				infantry_increase = 2 
+				superior_strength = 3
+			}
+			AND = {
+				infantry_increase = 3
+				superior_strength = 4
+			}
+			AND = {
+				infantry_increase = 4
+				superior_strength = 5
+			}
+			AND = {
+				infantry_increase = 5
+				superior_strength = 6
+			}
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+	
+   	infantry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+   	colonial_infantry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	infantry_bat = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	ss_infantry_bat = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	anzac_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	light_infantry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	colonial_light_infantry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	HQDEF_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	
+	police_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	conscript_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	
+	luftwaffe_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	
+	garrison_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}	
+	garrison_detachment = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	colonial_garrison_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	
+	tropical_island_garrison_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+
+special_forces_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		OR = {
+			AND = {
+				not = { special_forces_increase = 1 }
+				superior_strength = 1
+			}
+			AND = {
+				special_forces_increase = 1
+				superior_strength = 2
+			}
+			AND = {
+				special_forces_increase = 2 
+				superior_strength = 3
+			}
+			AND = {
+				special_forces_increase = 3
+				superior_strength = 4
+			}
+			AND = {
+				special_forces_increase = 4
+				superior_strength = 5
+			}
+			AND = {
+				special_forces_increase = 5 
+				superior_strength = 6
+			}
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	paratrooper_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	airlanding_infantry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	marine_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	naval_infantry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	ski_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	bergsjaeger_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	colonial_bergsjaeger_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	elite_light_infantry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	elite_light_infantry_battalion = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	commando_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	Gurkha_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	
+	on_completion = infantry_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+
+mobile_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		OR = {
+			AND = {
+				not = { mobile_increase = 1 }
+				superior_strength = 1
+			}
+			AND = {
+				mobile_increase = 1
+				superior_strength = 2
+			}
+			AND = {
+				mobile_increase = 2 
+				superior_strength = 3
+			}
+			AND = {
+				mobile_increase = 3
+				superior_strength = 4
+			}
+			AND = {
+				mobile_increase = 4
+				superior_strength = 5
+			}
+			AND = {
+				mobile_increase = 5 
+				superior_strength = 6
+			}
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	cavalry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+   	colonial_cavalry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+   	semi_motorized_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.05
+		fuel_consumption = 0.37
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	motorized_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	mechanized_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.15
+		defensiveness = 0.40
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	air_cavalry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.20
+		defensiveness = 0.45
+		transport_weight = 0.25
+		build_cost_ic = 1.00
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	combined_arms_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.25
+		defensiveness = 0.50
+		transport_weight = 0.25
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	motorized_infantry_bat = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	mechanized_infantry_bat = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.15
+		defensiveness = 0.40
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	afrika_brigade  = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.15
+		defensiveness = 0.40
+		transport_weight = 0.25
+		build_cost_ic = 0.30
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	goering_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.15
+		defensiveness = 0.40
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	grossdeutschland_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.15
+		defensiveness = 0.40
+		transport_weight = 0.25
+		build_cost_ic = 0.30
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+
+	on_completion = mobile_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+armor_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		OR = {
+			AND = {
+				not = { armor_increase = 1 }
+				superior_strength = 1
+			}
+			AND = {
+				armor_increase = 1
+				superior_strength = 2
+			}
+			AND = {
+				armor_increase = 2 
+				superior_strength = 3
+			}
+			AND = {
+				armor_increase = 3
+				superior_strength = 4
+			}
+			AND = {
+				armor_increase = 4
+				superior_strength = 5
+			}
+			AND = {
+				armor_increase = 5 
+				superior_strength = 6
+			}
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+	infantry_tank_brigade = {
+		max_strength = 2.40
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 1.75
+		defensiveness = 2.50
+		transport_weight = 1.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	light_armor_brigade = { 
+		max_strength = 2.40
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 1.75
+		defensiveness = 2.50
+		transport_weight = 1.00
+		build_cost_ic = 0.55
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+   	armor_brigade = {
+		max_strength = 2.40
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		defensiveness = 3.00
+		transport_weight = 1.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	heavy_armor_brigade = {
+		max_strength = 0.60
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		defensiveness = 3.00
+		transport_weight = 1.00
+		build_cost_ic = 0.75
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	super_heavy_armor_brigade = {
+		max_strength = 0.30
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		defensiveness = 3.00
+		transport_weight = 1.00
+		build_cost_ic = 1.00
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	
+	desertrats_brigade = {
+		max_strength = 3.00
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		defensiveness = 3.00
+		transport_weight = 1.00
+		build_cost_ic = 1.0
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	lehr_brigade = { 
+		max_strength = 3.00
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		defensiveness = 3.00
+		transport_weight = 1.00
+		build_cost_ic = 1.0
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	
+	on_completion = automotive_theory 
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+recon_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		OR = {
+			AND = {
+				not = { recon_increase = 1 }
+				superior_strength = 1
+			}
+			AND = {
+				recon_increase = 1
+				superior_strength = 2
+			}
+			AND = {
+				recon_increase = 2 
+				superior_strength = 3
+			}
+			AND = {
+				recon_increase = 3
+				superior_strength = 4
+			}
+			AND = {
+				recon_increase = 4
+				superior_strength = 5
+			}
+			AND = {
+				recon_increase = 5
+				superior_strength = 6
+			}
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	Recon_cavalry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		soft_attack = 0.15
+		defensiveness = 1.00
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	motorcycle_recon_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.15
+		defensiveness = 1.00
+		transport_weight = 0.25
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+	}
+	armored_car_brigade = { 
+		max_strength = 1.50
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.15
+		defensiveness = 1.00
+		transport_weight = 0.25
+		build_cost_ic = 0.30
+		build_cost_manpower = 0.24
+	}
+	
+	on_completion = mobile_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+artillery_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		OR = {
+			AND = {
+				not = { artillery_increase = 1 }
+				superior_strength = 1
+			}
+			AND = {
+				artillery_increase = 1
+				superior_strength = 2
+			}
+			AND = {
+				artillery_increase = 2 
+				superior_strength = 3
+			}
+			AND = {
+				artillery_increase = 3
+				superior_strength = 4
+			}
+			AND = {
+				artillery_increase = 4
+				superior_strength = 5
+			}
+			AND = {
+				artillery_increase = 5
+				superior_strength = 6
+			}
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	artillery_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.05
+		soft_attack = 2.25
+		defensiveness = 0.25
+		transport_weight = 0.35
+		build_cost_ic = 0.35
+		build_cost_manpower = 0.24
+	}
+	
+	medium_artillery_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.05
+		soft_attack = 2.25
+		defensiveness = 0.25
+		transport_weight = 0.35
+		build_cost_ic = 0.35
+		build_cost_manpower = 0.24
+	}
+	
+	sp_artillery_brigade = { 
+		max_strength = 1.80
+		officers = 5
+		supply_consumption = 0.05
+		fuel_consumption = 0.25
+		soft_attack = 2.25
+		defensiveness = 0.25
+		transport_weight = 0.35
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+	}
+	rocket_artillery_brigade = { 
+		max_strength = 0.90
+		officers = 5
+		supply_consumption = 0.05
+		soft_attack = 4.0
+		defensiveness = 0.33
+		transport_weight = 0.35
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.24
+	}
+	sp_rct_artillery_brigade = { 
+		max_strength = 0.90
+		officers = 5
+		supply_consumption = 0.05
+		fuel_consumption = 0.25
+		soft_attack = 5.00
+		defensiveness = 1.00
+		transport_weight = 0.35
+		build_cost_ic = 0.30
+		build_cost_manpower = 0.24
+	}
+	pack_artillery_brigade = { 
+		max_strength = 1.80
+		officers = 5
+		supply_consumption = 0.05
+		fuel_consumption = 0.25
+		soft_attack = 2.60
+		defensiveness = 0.33
+		transport_weight = 0.35
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24		
+	}
+	airborne_artillery_brigade = { 
+		max_strength = 1.80
+		officers = 5
+		supply_consumption = 0.05
+		fuel_consumption = 0.25
+		soft_attack = 2.60
+		defensiveness = 0.33
+		transport_weight = 0.35
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+	}
+	heavy_artillery_brigade = { 
+		max_strength = 0.90
+		officers = 5
+		supply_consumption = 0.05
+		fuel_consumption = 0.25
+		soft_attack = 7.0
+		defensiveness = 0.33
+		transport_weight = 0.35
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.24
+	}
+	
+	on_completion = artillery_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+armorsupport_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		OR = {
+			AND = {
+				not = { armorsupport_increase = 1 }
+				superior_strength = 1
+			}
+			AND = {
+				armorsupport_increase = 1
+				superior_strength = 2
+			}
+			AND = {
+				armorsupport_increase = 2 
+				superior_strength = 3
+			}
+			AND = {
+				armorsupport_increase = 3
+				superior_strength = 4
+			}
+			AND = {
+				armorsupport_increase = 4
+				superior_strength = 5
+			}
+			AND = {
+				armorsupport_increase = 5
+				superior_strength = 6
+			}
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	amph_armour_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		hard_attack = 1.0
+		defensiveness = 3.00
+		transport_weight = 3.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+	}
+	assault_gun_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		hard_attack = 1.0
+		defensiveness = 3.00
+		transport_weight = 3.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+	}
+	heavy_assault_gun_brigade = { 
+		max_strength = 1.60
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 3.00
+		hard_attack = 2.00
+		defensiveness = 4.00
+		transport_weight = 0.85
+		build_cost_ic = 0.75
+		build_cost_manpower = 0.255
+	}
+	tank_destroyer_brigade = { 
+		max_strength = 1.20
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 0.15
+		hard_attack = 3.00
+		defensiveness = 6.66
+		transport_weight = 0.85
+		build_cost_ic = 0.45
+		build_cost_manpower = 0.255
+	}
+	medium_tank_destroyer_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 0.50
+		hard_attack = 5.00
+		defensiveness = 8.00
+		transport_weight = 0.85
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+	}
+	heavy_tank_destroyer_brigade = { 
+		max_strength = 1.60
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 0.10
+		hard_attack = 6.00
+		defensiveness = 9.00
+		transport_weight = 4.00
+		build_cost_ic = 0.75
+		build_cost_manpower = 0.255
+	}
+	armored_support_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		hard_attack = 1.00
+		defensiveness = 2.00
+		transport_weight = 2.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+	}
+	armor_bat = { 
+		max_strength = 2.40
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		hard_attack = 1.0
+		defensiveness = 3.00
+		transport_weight = 3.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	light_armor_bat = { 
+		max_strength = 2.40
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		hard_attack = 1.0
+		defensiveness = 3.00
+		transport_weight = 3.00
+		build_cost_ic = 0.35
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+		
+	on_completion = automotive_theory 
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+aa_at_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		OR = {
+			AND = {
+				not = { aa_at_increase = 1 }
+				superior_strength = 1
+			}
+			AND = {
+				aa_at_increase = 1
+				superior_strength = 2
+			}
+			AND = {
+				aa_at_increase = 2 
+				superior_strength = 3
+			}
+			AND = {
+				aa_at_increase = 3
+				superior_strength = 5
+			}
+			AND = {
+				aa_at_increase = 4
+				superior_strength = 6
+			}
+			AND = {
+				aa_at_increase = 5
+				superior_strength = 6
+			}
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	anti_air_brigade = { 
+		max_strength = 1.80
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.15
+		defensiveness = 0.25
+		air_attack = 2.3
+		transport_weight = 0.45
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.180
+	}
+	
+	heavy_anti_air_brigade = { 
+		max_strength = 1.80
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.15
+		defensiveness = 0.25
+		air_attack = 2.3
+		transport_weight = 0.45
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.180
+	}
+	
+	sp_anti_air_brigade = { 
+		max_strength = 1.80
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.15
+		defensiveness = 0.25
+		air_attack = 2.3
+		transport_weight = 0.45
+		build_cost_ic = 0.30
+		build_cost_manpower = 0.180
+	}
+	anti_tank_brigade = { 
+		max_strength = 1.80
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.10
+		hard_attack = 1.00
+		defensiveness = 5.00
+		transport_weight = 0.45
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.180
+		ap_attack = 1.0
+	}
+	
+	heavy_anti_tank_brigade = { 
+		max_strength = 1.80
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.10
+		hard_attack = 1.00
+		defensiveness = 5.00
+		transport_weight = 0.45
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.180
+		ap_attack = 1.0
+	}
+	
+	mixed_support_brigade = { 
+		max_strength = 1.80
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.10
+		hard_attack = 1.00
+		defensiveness = 5.00
+		transport_weight = 0.45
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.180
+		ap_attack = 1.0
+	}
+	
+	
+	on_completion = artillery_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+engineers_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		OR = {
+			AND = {
+				not = {engineers_increase = 1 }
+				superior_strength = 1
+			}
+			AND = {
+				engineers_increase = 1
+				superior_strength = 2
+			}
+			AND = {
+				engineers_increase = 2 
+				superior_strength = 3
+			}
+			AND = {
+				engineers_increase = 3
+				superior_strength = 4
+			}
+			AND = {
+				engineers_increase = 4
+				superior_strength = 5
+			}
+			AND = {
+				engineers_increase = 5
+				superior_strength = 6
+			}
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	engineer_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		soft_attack = 0.10
+		defensiveness = 3.3
+		transport_weight = 2.00
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	motorized_engineer_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		soft_attack = 0.10
+		defensiveness = 3.3
+		transport_weight = 2.00
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+	}
+	airborne_engineer_bat = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		soft_attack = 0.10
+		defensiveness = 3.3
+		transport_weight = 2.00
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+	}
+	armored_engineers_brigade = { 
+		max_strength = 1.80
+		officers = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.45
+		soft_attack = 2.08
+		defensiveness = 5.0
+		transport_weight = 13.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.24
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+# SS
+SS_security_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = SS_Waffen_creation
+	or = { 
+		has_country_flag =  ss_starting
+		has_country_flag =  ss_ahistorical 
+		}
+	}
+
+	change = no
+	
+	can_upgrade = yes	
+
+	ss_garrison_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	
+	ss_police_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+		
+	on_completion = militia_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+	stealable = no
+    folder = division_increase_folder
+}
+SS_infantry_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = SS_Waffen_creation
+		or = { 
+			has_country_flag =  ss_starting
+			has_country_flag =  ss_ahistorical
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	ss_infantry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	
+
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+SS_special_forces_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = SS_Waffen_creation
+		or = { 
+		
+		has_country_flag =  ss_starting
+		has_country_flag =  ss_ahistorical }
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	ss_paratrooper_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.24
+	}
+	
+	ss_ski_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.24
+	}
+	ss_bergsjaeger_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.24
+	}
+	
+	ss_commando_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.24
+	}
+	ss_prinz_eugen = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.12
+		defensiveness = 0.35
+		transport_weight = 0.25
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.24
+	}
+	
+	
+	on_completion = infantry_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+SS_mobile_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = SS_Waffen_creation
+		or = { 
+		has_country_flag =  ss_starting
+		has_country_flag =  ss_ahistorical 
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	ss_cavalry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+	}
+	ss_motorized_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_mechanized_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_dasreich = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_florian_geyer = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.08
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_frundsberg = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_hitlerjugend = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_hohenstaufen = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_lssah = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_polizei = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_totenkopf = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_wiking = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_mechanized_infantry_bat = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	ss_motorized_infantry_bat = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.11
+		defensiveness = 0.33
+		transport_weight = 0.25
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+
+	on_completion = mobile_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+SS_armor_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = SS_Waffen_creation
+		or = { 
+		
+		has_country_flag =  ss_starting
+		has_country_flag =  ss_ahistorical }
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	ss_armor_brigade = {
+		max_strength = 2.50
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		hard_attack = 1.0
+		defensiveness = 3.00
+		transport_weight = 3.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	
+	ss_heavy_armor_brigade = {
+		max_strength = 0.80
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.50
+		hard_attack = 1.0
+		defensiveness = 4.00
+		transport_weight = 3.00
+		build_cost_ic = 0.75
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	
+	
+	on_completion = automotive_theory 
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+SS_recon_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = SS_Waffen_creation
+		or = { 
+		has_country_flag =  ss_starting
+		has_country_flag =  ss_ahistorical 
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	ss_Recon_cavalry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		soft_attack = 0.15
+		defensiveness = 1.00
+		transport_weight = 0.25
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	ss_motorcycle_recon_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.15
+		defensiveness = 1.00
+		transport_weight = 0.25
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+	}
+	ss_armored_car_brigade = { 
+		max_strength = 1.50
+		officers = 5
+		supply_consumption = 0.07
+		fuel_consumption = 0.44
+		soft_attack = 0.15
+		defensiveness = 1.00
+		transport_weight = 0.25
+		build_cost_ic = 0.30
+		build_cost_manpower = 0.24
+	}
+	
+
+	on_completion = mobile_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+SS_artillery_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = SS_Waffen_creation
+		or = { 
+		
+		has_country_flag =  ss_starting
+		has_country_flag =  ss_ahistorical }
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	ss_artillery_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.05
+		soft_attack = 2.25
+		defensiveness = 0.25
+		transport_weight = 0.35
+		build_cost_ic = 0.35
+		build_cost_manpower = 0.24
+	}
+	
+	ss_medium_artillery_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.05
+		soft_attack = 2.25
+		defensiveness = 0.25
+		transport_weight = 0.35
+		build_cost_ic = 0.35
+		build_cost_manpower = 0.24
+	}
+	
+	ss_sp_artillery_brigade = { 
+		max_strength = 1.60
+		officers = 5
+		supply_consumption = 0.05
+		fuel_consumption = 0.25
+		soft_attack = 2.25
+		defensiveness = 0.25
+		transport_weight = 0.35
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.24
+	}
+	ss_rocket_artillery_brigade = { 
+		max_strength = 1.60
+		officers = 5
+		supply_consumption = 0.05
+		soft_attack = 4.0
+		defensiveness = 0.33
+		transport_weight = 0.35
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.24
+	}
+	ss_sp_rct_artillery_brigade = { 
+		max_strength = 1.60
+		officers = 5
+		supply_consumption = 0.05
+		fuel_consumption = 0.25
+		soft_attack = 5.00
+		defensiveness = 1.00
+		transport_weight = 0.35
+		build_cost_ic = 0.35
+		build_cost_manpower = 0.24
+	}
+	ss_pack_artillery_brigade = { 
+		max_strength = 1.60
+		officers = 5
+		supply_consumption = 0.05
+		fuel_consumption = 0.25
+		soft_attack = 2.60
+		defensiveness = 0.33
+		transport_weight = 0.35
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.24	
+	}
+		
+
+	on_completion = artillery_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+SS_armorsupport_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = SS_Waffen_creation
+		or = { 
+		has_country_flag =  ss_starting
+		has_country_flag =  ss_ahistorical }
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+   	
+	ss_tank_destroyer_brigade = { 
+		max_strength = 1.80
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 0.50
+		hard_attack = 5.00
+		defensiveness = 8.00
+		transport_weight = 0.85
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+	}
+	
+	ss_armored_support_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		hard_attack = 1.00
+		defensiveness = 2.00
+		transport_weight = 2.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+	}
+	
+	ss_armor_bat = { 
+		max_strength = 2.40
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 2.00
+		hard_attack = 1.0
+		defensiveness = 3.00
+		transport_weight = 3.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	
+		
+
+	on_completion = automotive_theory 
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+SS_aa_at_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = SS_Waffen_creation
+		or = { 
+		has_country_flag =  ss_starting
+		has_country_flag =  ss_ahistorical 
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	ss_anti_air_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.15
+		defensiveness = 0.25
+		air_attack = 2.3
+		transport_weight = 0.45
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.180
+	}
+	
+	ss_heavy_anti_air_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.15
+		defensiveness = 0.25
+		air_attack = 2.3
+		transport_weight = 0.45
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.180
+	}
+	
+	ss_sp_anti_air_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.15
+		defensiveness = 0.25
+		air_attack = 2.3
+		transport_weight = 0.45
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.180
+	}
+	ss_anti_tank_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.10
+		hard_attack = 1.00
+		defensiveness = 5.00
+		transport_weight = 0.45
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.180
+		ap_attack = 1.0
+	}
+	
+	ss_heavy_anti_tank_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.10
+		hard_attack = 1.00
+		defensiveness = 5.00
+		transport_weight = 0.45
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.180
+		ap_attack = 1.0
+	}
+	
+	ss_mixed_support_brigade = { 
+		max_strength = 2.00
+		officers = 6
+		supply_consumption = 0.05
+		soft_attack = 0.10
+		hard_attack = 1.00
+		defensiveness = 5.00
+		transport_weight = 0.45
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.180
+		ap_attack = 1.0
+	}
+	
+		
+
+	on_completion = artillery_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+SS_engineers_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = SS_Waffen_creation
+		or = { 
+		has_country_flag =  ss_starting
+		has_country_flag =  ss_ahistorical 
+		}
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+   	ss_engineer_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		soft_attack = 0.10
+		defensiveness = 3.3
+		transport_weight = 2.00
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	ss_motorized_engineer_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.07
+		soft_attack = 0.10
+		defensiveness = 3.3
+		transport_weight = 2.00
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+	}
+	ss_armored_engineers_brigade = { 
+		max_strength = 2.00
+		officers = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.45
+		soft_attack = 2.08
+		defensiveness = 5.0
+		transport_weight = 13.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.24
+	}
+	
+	on_completion = infantry_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+################### GUARDS INCREASE ##########################
+NKVD_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = sovietguards
+		
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+	NKVD_brigade = { 
+		max_strength = 1.20
+		officers = 5
+		supply_consumption = 0.04
+		fuel_consumption = 0.15
+		soft_attack = 0.10
+		defensiveness = 0.33
+		transport_weight = 0.33
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.13
+	}
+	
+
+	on_completion = militia_theory
+
+    difficulty = 1
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+	stealable = no
+    folder = division_increase_folder
+}
+Guards_infantry_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = sovietguards
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+	guard_infantry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.40
+		defensiveness = 1.0
+		transport_weight = 1.60
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	
+	on_completion = infantry_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+Guards_special_forces_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = sovietguards
+		
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+   
+	guard_paratrooper_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.35
+		defensiveness = 0.91
+		transport_weight = 0.25
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.24
+	}
+
+
+	on_completion = infantry_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+Guards_mobile_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = sovietguards
+		
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+	guard_cavalry_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		soft_attack = 0.10
+		defensiveness = 0.33
+		transport_weight = 0.15
+		build_cost_ic = 0.10
+		build_cost_manpower = 0.24
+	}
+	guard_motorized_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		fuel_consumption = 0.37
+		soft_attack = 0.10
+		defensiveness = 0.33
+		transport_weight = 0.15
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+	guard_mechanized_brigade = { 
+		max_strength = 2.40
+		officers = 5
+		supply_consumption = 0.03
+		fuel_consumption = 0.44
+		soft_attack = 0.10
+		defensiveness = 0.33
+		transport_weight = 0.15
+		build_cost_ic = 0.40
+		build_cost_manpower = 0.24
+		default_organisation = -3
+	}
+
+	on_completion = mobile_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+Guards_armor_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = sovietguards
+		
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+	guard_armor_brigade = {
+		max_strength = 2.40
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 3.0
+		hard_attack = 1.0
+		defensiveness = 3.0
+		transport_weight = 5.00
+		build_cost_ic = 0.50
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+	guard_heavy_armor_brigade = {
+		max_strength = 0.60
+		officers = 6
+		supply_consumption = 0.09
+		fuel_consumption = 0.45
+		soft_attack = 4.0
+		hard_attack = 2.0
+		defensiveness = 4.0
+		transport_weight = 6.00
+		build_cost_ic = 0.75
+		build_cost_manpower = 0.255
+		default_organisation = -3
+	}
+
+	on_completion = automotive_theory 
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+
+Guards_artillery_increase = {
+
+	allow = {
+		has_country_flag = blackICE
+		has_country_flag = sovietguards
+	}	
+	
+	change = no
+	
+	can_upgrade = yes
+
+	guard_sp_rct_artillery_brigade = { 
+		max_strength = 1.80
+		officers = 5
+		supply_consumption = 0.05
+		fuel_consumption = 0.25
+		soft_attack = 2.25
+		defensiveness = 0.25
+		transport_weight = 7
+		build_cost_ic = 0.35
+		build_cost_manpower = 0.24
+	}
+	
+	on_completion = artillery_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938	
+	additional_offset = 1
+	max_level = 6
+ 	stealable = no
+    folder = division_increase_folder
+}
+

@@ -1,0 +1,801 @@
+################################################################################
+# ADVANCED NAVAL AND AIR DOCTRINES	
+################################################################################
+################################################################################
+# CLOSE JET AIR TO AIR DOGFIGHTING 
+################################################################################
+close_jet_air_to_air_dogfighting = {
+	
+	allow = {
+		advanced_jet_aircraft_model = 1
+		air_battles_fought = 100
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+			
+	rocket_interceptor = { 	
+		air_attack = 1.0
+		}
+	
+	jet_flying_wing = { 	
+		air_attack = 1.0
+		}
+	peoples_fighter = { 	
+		air_attack = 1.0
+		}	
+			
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 1.0
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 1.0
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 1.0
+		}	
+	
+		
+	research_bonus_from = {
+		fighter_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = fighter_focus
+
+	difficulty = 5
+
+	start_year = 1950
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 10
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# BVR JET AIR TO AIR ENGAGEMENTS 
+################################################################################
+bvr_jet_air_to_air_engagement = {
+	
+	allow = {
+		close_jet_air_to_air_dogfighting = 1
+		radar_guided_air_to_air_missile = 1
+		air_battles_fought = 200
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	air_intercept = {
+		efficiency = 0.15 #15% greater eff when on on intercept mission
+	}	
+			
+	research_bonus_from = {
+		fighter_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = fighter_focus
+
+	difficulty = 6
+
+	start_year = 1956
+	first_offset = 1958	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 7
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# RADAR INTERCEPT OFFICER ROLE
+################################################################################
+radar_intercept_officer_role = {
+	
+	allow = {
+		close_jet_air_to_air_dogfighting = 1
+		air_battles_fought = 150
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	advanced_jet_fighter = { 	
+		air_attack = 1.0
+		}			
+			
+	research_bonus_from = {
+		fighter_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = fighter_focus
+
+	difficulty = 7
+
+	start_year = 1960
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# MASSIVE AIRLIFT
+################################################################################
+massive_airlift = {
+	
+	allow = {
+		heavy_airlift = 1
+	}
+
+	supply_throughput = 0.10
+	supply_transfer_cost = -0.10
+		
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = strategic_air_focus
+
+	difficulty = 7
+
+	start_year = 1948
+	first_offset = 1951	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 8
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# JET CLOSE AIR SUPPORT
+################################################################################
+jet_close_air_support = {
+	
+	allow = {
+		close_air_support = 1
+		advanced_jet_cas_focus = 3
+		anti_tank_guided_missiles = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	tactic_close_air_support = 2
+	
+	ground_attack = {
+		efficiency = 0.05 #5% greater eff when on on ground attack missions
+	}	
+	
+	interdiction = {
+		efficiency = 0.05 #5% greater eff when on on intercept mission
+	}	
+	
+	frontline_focus = 0.05
+
+	advanced_jet_cas = { 	
+		soft_attack = 1.00
+		hard_attack = 1.00
+		default_organisation = 2
+		}
+		
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = cas_focus
+
+	difficulty = 6
+
+	start_year = 1955
+	first_offset = 1957	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 8
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# SEAD MISSIONS
+################################################################################
+sead_missions = {
+	
+	allow = {
+		advanced_jet_cas_focus = 6
+		anti_radiation_missiles = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	installation_strike = {
+		efficiency = 0.10 #10% greater eff when on on Installation strike mission
+	}	
+	
+	advanced_jet_fighter = { 	
+		surface_defence = 1.00
+		default_organisation = 2
+		}	
+	advanced_jet_bomber = { 	
+		surface_defence = 1.00
+		default_organisation = 2
+		}	
+		
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = cas_focus
+
+	difficulty = 7
+
+	start_year = 1966
+	first_offset = 1954	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 9
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# NAPALM TACTICS
+################################################################################
+napalm_tactics = {
+	
+	allow = {
+		close_air_support = 1
+		direct_air_support = 1
+		advanced_jet_cas_focus = 4
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	ground_attack = {
+		efficiency = 0.05 #5% greater eff when on on ground attack missions
+	}
+	
+	naval_cas = { 	
+		soft_attack = 1.00
+		}
+
+	advanced_jet_cas = { 	
+		soft_attack = 1.00
+		}
+		
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = cas_focus
+
+	difficulty = 7
+
+	start_year = 1958
+	first_offset = 1960	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 5
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# CARPET BOMBING
+################################################################################
+carpet_bombing = {
+	
+	allow = {
+		strategic_bombing = 1
+		advanced_jet_heavy_bomber_focus = 1
+	}
+
+	strategic_bomb = {
+		efficiency = 0.05 #05% greater eff when on on strategic_bomb mission
+	}	
+		
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = strategic_air_focus
+
+	difficulty = 7
+
+	start_year = 1956
+	first_offset = 1958	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 7
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# HELICOPTER CLOSE AIR SUPPORT
+################################################################################
+helicopter_close_air_support = {
+	
+	allow = {
+		military_light_transport_helicopter = 1 
+	}
+
+	ground_attack = {
+		efficiency = 0.05 #5% greater eff when on on ground attack missions
+	}	
+		
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = cas_focus
+
+	difficulty = 4
+
+	start_year = 1950
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# ADVANCED HELICOPTER CLOSE AIR SUPPORT
+################################################################################
+advanced_helicopter_close_air_support = {
+	
+	allow = {
+		helicopter_close_air_support = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	air_cavalry_brigade = { 
+		soft_attack = 2.00
+	}
+		
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = cas_focus
+
+	difficulty = 5
+
+	start_year = 1961
+	first_offset = 1963	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 4
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# HELICOPTER MEDEVAC
+################################################################################
+helicopter_medevac = {
+	
+	allow = {
+		military_light_transport_helicopter = 1 
+		mobile_army_surgical_hospital = 1
+	}
+	
+	casualty_trickleback = 0.05
+		
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = cas_focus
+
+	difficulty = 5
+
+	start_year = 1950
+	first_offset = 1953	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# HELICOPTER PILOT RESCUE
+################################################################################
+helicopter_pilot_rescue = {
+	
+	allow = {
+		military_light_transport_helicopter = 1 
+		
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+
+	rocket_interceptor = { 	
+		default_morale = 0.05
+		}
+	rocket_interceptor_van = { 	
+		default_morale = 0.05
+		}	
+	jet_flying_wing = { 	
+		default_morale = 0.05
+		}
+	peoples_fighter = { 	
+		default_morale = 0.05
+		}	
+	jet_bomber = { 	
+		default_morale = 0.05
+		}	
+	amerika_bomber = { 	
+		default_morale = 0.05
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_morale = 0.05
+		}	
+	advanced_jet_cas = { 	
+		default_morale = 0.05
+		}	
+	advanced_jet_bomber = { 	
+		default_morale = 0.05
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_morale = 0.05
+		}	
+	tactical_transport_aircraft = { 	
+		default_morale = 0.05
+		}	
+
+		
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	
+	on_completion = cas_focus
+
+	difficulty = 7
+
+	start_year = 1945
+	first_offset = 1948	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 9
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# NAVAL GUIDED MISSILE OFFENSE TACTICS
+################################################################################
+naval_guided_missile_offense_tactics = {
+	
+	allow = {
+		guided_missile_destroyer_class = 3
+		naval_surface_to_surface_missiles = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+
+	guided_missile_destroyer = {
+		sea_attack = 2.00
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		sea_attack = 2.00
+	}
+			
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 5
+
+	start_year = 1962
+	first_offset = 1964	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 4
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# NAVAL GUIDED MISSILE DEFENSE TACTICS
+################################################################################
+naval_guided_missile_defense_tactics = {
+	
+	allow = {
+		guided_missile_destroyer_class = 3
+		naval_surface_to_surface_missiles = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+
+	guided_missile_destroyer = {
+		sea_defence = 2.00
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		sea_defence = 2.00
+	}
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 5
+
+	start_year = 1962
+	first_offset = 1964	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 4
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# AMPHIBIOUS HELICOPTER VERTICAL ENVELOPMENT
+################################################################################
+amphibious_helicopter_vertical_envelopment = {
+	
+	allow = {
+		landing_platform_helicopter_ship = 1
+		amphibious_assault = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+
+	landing_platform_helicopter = {
+		amphibious_invasion_speed = 0.25
+		amphibious_invasion_defence = 0.15
+	}		
+	
+	research_bonus_from = {
+		transport_practical = 0.75
+	}
+
+	on_completion = transport_practical
+
+	difficulty = 5
+
+	start_year = 1960
+	first_offset = 1962	#2nd model is from 1936
+	additional_offset = 4	#one new every 2 years
+	max_level = 5
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# NUCLEAR SUBMARINE ANTI-SHIP TACTICS
+################################################################################
+nuclear_submarine_anti_ship_tactics = {
+	
+	allow = {
+		fast_attack_submarine_class = 1 
+		submarine_warfare_doctrine = 1
+		trade_interdiction_submarine_doctrine = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+
+	nuclear_submarine = { 
+		positioning = 0.03
+		sea_attack = 2.00	
+	}
+	nuclear_fast_attack_submarine = { 
+		positioning = 0.03
+		sea_attack = 2.00		
+	}
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 7
+
+	start_year = 1958
+	first_offset = 1960	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 6
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# FAST ATTACK SUB VS SUB TACTICS
+################################################################################
+fast_attack_sub_vs_sub_tactics = {
+	
+	allow = {
+		fast_attack_submarine_class = 1 
+		submarine_warfare_doctrine = 1
+		unrestricted_submarine_warfare = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+
+	nuclear_submarine = { 
+		positioning = 0.03
+		sub_attack = 2.00	
+	}
+	nuclear_fast_attack_submarine = { 
+		positioning = 0.03
+		sub_attack = 2.00		
+	}
+		
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 5
+
+	start_year = 1958
+	first_offset = 1960	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 6
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# CARRIER BATTLEGROUP
+################################################################################
+carrier_battlegroup = {
+	
+	allow = {
+		naval_aviation_doctrine = 1
+		carrier_task_force = 1
+		supercarrier_class = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+
+	super_carrier = { 
+		default_organisation = 5
+		positioning = 0.05
+		distance = 1.00
+	}
+	battle_carrier = { 
+		default_organisation = 5
+		positioning = 0.05
+		distance = 1.00		
+	}
+	nuclear_super_aircraft_carrier = { 
+		default_organisation = 5
+		positioning = 0.05
+		distance = 1.00				
+	}
+			
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		base_strike_doctrine = 0.25
+	}
+	
+	on_completion = base_strike_doctrine
+
+	difficulty = 6
+
+	start_year = 1956
+	first_offset = 1958	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 7
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# ADVANCED SURFACE ASW
+################################################################################
+advanced_surface_asw = {
+	
+	allow = {
+		convoy_defense_doctrine = 1
+		hunter_killer_groups = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+
+	destroyer_actual = {
+		sub_attack = 2.00
+		sub_detection = 1.00
+	}
+	
+	guided_missile_destroyer = {
+		sub_attack = 2.00
+		sub_detection = 1.00
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		sub_attack = 2.00
+		sub_detection = 1.00
+	}
+			
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 5
+
+	start_year = 1950
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 10
+	folder = advanced_naval_and_air_doctrine_folder
+}
+################################################################################
+# HELICOPTER ASW
+################################################################################
+helicopter_asw = {
+	
+	allow = {
+		convoy_defense_doctrine = 1
+		hunter_killer_groups = 1
+		military_medium_transport_helicopter = 1
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+
+	destroyer_actual = {
+		sub_attack = 3.00
+		sub_detection = 2.00
+	}
+	
+	guided_missile_destroyer = {
+		sub_attack = 3.00
+		sub_detection = 2.00
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		sub_attack = 3.00
+		sub_detection = 2.00
+	}
+	
+	battle_carrier = {
+		sub_attack = 3.00
+		sub_detection = 2.00
+	}
+	
+	super_carrier = {
+		sub_attack = 3.00
+		sub_detection = 2.00
+	}
+	
+	nuclear_super_aircraft_carrier = {
+		sub_attack = 3.00
+		sub_detection = 2.00
+	}
+		
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 7
+
+	start_year = 1961
+	first_offset = 1963	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 5
+	folder = advanced_naval_and_air_doctrine_folder
+}

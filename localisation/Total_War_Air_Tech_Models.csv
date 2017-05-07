@@ -1,0 +1,1498 @@
+MODEL_TAG;Model;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# AIR TECH MODELS;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+### MINOR NATIONS ###;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### LIGHT AIR TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### Fighter Armor ###;;;;;;;;;;;;;;x
+fighter_armor_1;+1mm;;;;;;;;;;;;;x
+fighter_armor_2;+2mm;;;;;;;;;;;;;x
+fighter_armor_3;+3mm;;;;;;;;;;;;;x
+fighter_armor_4;+4mm;;;;;;;;;;;;;x
+fighter_armor_5;+5mm;;;;;;;;;;;;;x
+fighter_armor_6;+6mm;;;;;;;;;;;;;x
+fighter_armor_7;+7mm;;;;;;;;;;;;;x
+fighter_armor_8;+8mm;;;;;;;;;;;;;x
+### Fighter-Bomber Armor ###;;;;;;;;;;;;;;x
+fighter_bomber_armor_1;+1mm;;;;;;;;;;;;;x
+fighter_bomber_armor_2;+2mm;;;;;;;;;;;;;x
+fighter_bomber_armor_3;+3mm;;;;;;;;;;;;;x
+fighter_bomber_armor_4;+4mm;;;;;;;;;;;;;x
+fighter_bomber_armor_5;+5mm;;;;;;;;;;;;;x
+fighter_bomber_armor_6;+6mm;;;;;;;;;;;;;x
+fighter_bomber_armor_7;+7mm;;;;;;;;;;;;;x
+fighter_bomber_armor_8;+8mm;;;;;;;;;;;;;x
+### CAS Armor ###;;;;;;;;;;;;;;x
+cas_armor_1;+1mm;;;;;;;;;;;;;x
+cas_armor_2;+2mm;;;;;;;;;;;;;x
+cas_armor_3;+3mm;;;;;;;;;;;;;x
+cas_armor_4;+4mm;;;;;;;;;;;;;x
+cas_armor_5;+5mm;;;;;;;;;;;;;x
+cas_armor_6;+6mm;;;;;;;;;;;;;x
+cas_armor_7;+7mm;;;;;;;;;;;;;x
+cas_armor_8;+8mm;;;;;;;;;;;;;x
+### Light Aircraft Production Model ###;;;;;;;;;;;;;;x
+light_aircraft_production_model_1;Production Version I;;;;;;;;;;;;;x
+light_aircraft_production_model_2;Production Version II;;;;;;;;;;;;;x
+light_aircraft_production_model_3;Production Version III;;;;;;;;;;;;;x
+light_aircraft_production_model_4;Production Version IV;;;;;;;;;;;;;x
+light_aircraft_production_model_5;Production Version V;;;;;;;;;;;;;x
+light_aircraft_production_model_6;Production Version VI;;;;;;;;;;;;;x
+light_aircraft_production_model_7;Production Version VII;;;;;;;;;;;;;x
+light_aircraft_production_model_8;Production Version VIII;;;;;;;;;;;;;x
+light_aircraft_production_model_9;Production Version IX;;;;;;;;;;;;;x
+light_aircraft_production_model_10;Production Version X;;;;;;;;;;;;;x
+light_aircraft_production_model_11;Production Version XI;;;;;;;;;;;;;x
+light_aircraft_production_model_12;Production Version XII;;;;;;;;;;;;;x
+light_aircraft_production_model_13;Production Version XIII;;;;;;;;;;;;;x
+light_aircraft_production_model_14;Production Version XIV;;;;;;;;;;;;;x
+light_aircraft_production_model_15;Production Version XV;;;;;;;;;;;;;x
+### Light Aircraft Engine Improvements ###;;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_1;+5hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_2;+10hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_3;+15hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_4;+20hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_5;+25hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_6;+30hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_7;+35hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_8;+40hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_9;+50hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_10;+55hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_11;+60hp;;;;;;;;;;;;;x
+light_aircraft_engine_improvements_12;+70hp;;;;;;;;;;;;;x
+### Light Aircraft Internal Mechanical Improvements ###;;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_1;+10 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_2;+20 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_3;+30 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_4;+40 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_5;+50 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_6;+60 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_7;+70 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_8;+80 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_9;+90 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_10;+100 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_11;+110 Km Range;;;;;;;;;;;;;x
+light_aircraft_internal_mechanical_improvements_12;+120 Km Range;;;;;;;;;;;;;x
+### Light Aircraft Aerodynamic Improvements ###;;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_1;+0.1 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_2;+0.2 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_3;+0.3 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_4;+0.4 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_5;+0.5 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_6;+0.6 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_7;+0.7 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_8;+0.8 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_9;+0.9 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_10;+1.0 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_11;+1.3 G-Loading;;;;;;;;;;;;;x
+light_aircraft_aerodynamic_improvements_12;+1.5 G-Loading;;;;;;;;;;;;;x
+### Light Aircraft Armament Improvements ###;;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_1;+10m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_2;+15m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_3;+20m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_4;+25m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_5;+30m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_6;+35m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_7;+40m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_8;+45m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_9;+50m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_10;+55m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_11;+60m Gun Range;;;;;;;;;;;;;x
+light_aircraft_armament_improvements_12;+65m Gun Range;;;;;;;;;;;;;x
+### Light Aircraft Climatization Modifications ###;;;;;;;;;;;;;;x
+light_aircraft_climatization_modifications_1;10% Efficient Air Filters;;;;;;;;;;;;;x
+light_aircraft_climatization_modifications_2;20% Efficient Air Filters;;;;;;;;;;;;;x
+light_aircraft_climatization_modifications_3;30% Efficient Air Filters;;;;;;;;;;;;;x
+light_aircraft_climatization_modifications_4;40% Efficient Air Filters;;;;;;;;;;;;;x
+light_aircraft_climatization_modifications_5;50% Efficient Air Filters;;;;;;;;;;;;;x
+### Interceptor Focus ###;;;;;;;;;;;;;;x
+interceptor_focus_1;Interceptor I;;;;;;;;;;;;;x
+interceptor_focus_2;Interceptor II;;;;;;;;;;;;;x
+interceptor_focus_3;Interceptor III;;;;;;;;;;;;;x
+interceptor_focus_4;Interceptor IV;;;;;;;;;;;;;x
+interceptor_focus_5;Interceptor V;;;;;;;;;;;;;x
+interceptor_focus_6;Interceptor VI;;;;;;;;;;;;;x
+interceptor_focus_7;Interceptor VII;;;;;;;;;;;;;x
+interceptor_focus_8;Interceptor VIII;;;;;;;;;;;;;x
+interceptor_focus_9;Interceptor IX;;;;;;;;;;;;;x
+interceptor_focus_10;Interceptor X;;;;;;;;;;;;;x
+interceptor_focus_11;Interceptor XI;;;;;;;;;;;;;x
+interceptor_focus_12;Interceptor XII;;;;;;;;;;;;;x
+interceptor_focus_13;Interceptor XIII;;;;;;;;;;;;;x
+interceptor_focus_14;Interceptor XIV;;;;;;;;;;;;;x
+interceptor_focus_15;Interceptor XV;;;;;;;;;;;;;x
+### Multi-Role Fighter Focus ###;;;;;;;;;;;;;;x
+multi_role_fighter_focus_1;Multi-Role I;;;;;;;;;;;;;x
+multi_role_fighter_focus_2;Multi-Role II;;;;;;;;;;;;;x
+multi_role_fighter_focus_3;Multi-Role III;;;;;;;;;;;;;x
+multi_role_fighter_focus_4;Multi-Role IV;;;;;;;;;;;;;x
+multi_role_fighter_focus_5;Multi-Role V;;;;;;;;;;;;;x
+multi_role_fighter_focus_6;Multi-Role VI;;;;;;;;;;;;;x
+multi_role_fighter_focus_7;Multi-Role VII;;;;;;;;;;;;;x
+multi_role_fighter_focus_8;Multi-Role VIII;;;;;;;;;;;;;x
+multi_role_fighter_focus_9;Multi-Role IX;;;;;;;;;;;;;x
+multi_role_fighter_focus_10;Multi-Role X;;;;;;;;;;;;;x
+multi_role_fighter_focus_11;Multi-Role XI;;;;;;;;;;;;;x
+multi_role_fighter_focus_12;Multi-Role XII;;;;;;;;;;;;;x
+multi_role_fighter_focus_13;Multi-Role XIII;;;;;;;;;;;;;x
+multi_role_fighter_focus_14;Multi-Role XIV;;;;;;;;;;;;;x
+multi_role_fighter_focus_15;Multi-Role XV;;;;;;;;;;;;;x
+### Pursuit Fighter Focus ###;;;;;;;;;;;;;;x
+pursuit_fighters_focus_1;Pursuit Fighter I;;;;;;;;;;;;;x
+pursuit_fighters_focus_2;Pursuit Fighter II;;;;;;;;;;;;;x
+pursuit_fighters_focus_3;Pursuit Fighter III;;;;;;;;;;;;;x
+pursuit_fighters_focus_4;Pursuit Fighter IV;;;;;;;;;;;;;x
+pursuit_fighters_focus_5;Pursuit Fighter V;;;;;;;;;;;;;x
+pursuit_fighters_focus_6;Pursuit Fighter VI;;;;;;;;;;;;;x
+pursuit_fighters_focus_7;Pursuit Fighter VII;;;;;;;;;;;;;x
+pursuit_fighters_focus_8;Pursuit Fighter VIII;;;;;;;;;;;;;x
+pursuit_fighters_focus_9;Pursuit Fighter IX;;;;;;;;;;;;;x
+pursuit_fighters_focus_10;Pursuit Fighter X;;;;;;;;;;;;;x
+pursuit_fighters_focus_11;Pursuit Fighter XI;;;;;;;;;;;;;x
+pursuit_fighters_focus_12;Pursuit Fighter XII;;;;;;;;;;;;;x
+pursuit_fighters_focus_13;Pursuit Fighter XIII;;;;;;;;;;;;;x
+pursuit_fighters_focus_14;Pursuit Fighter XIV;;;;;;;;;;;;;x
+pursuit_fighters_focus_15;Pursuit Fighter XV;;;;;;;;;;;;;x
+### Fighter-Bomber Focus ###;;;;;;;;;;;;;;x
+fighter_bombers_focus_1;Fighter Bomber I;;;;;;;;;;;;;x
+fighter_bombers_focus_2;Fighter Bomber II;;;;;;;;;;;;;x
+fighter_bombers_focus_3;Fighter Bomber III;;;;;;;;;;;;;x
+fighter_bombers_focus_4;Fighter Bomber IV;;;;;;;;;;;;;x
+fighter_bombers_focus_5;Fighter Bomber V;;;;;;;;;;;;;x
+fighter_bombers_focus_6;Fighter Bomber VI;;;;;;;;;;;;;x
+fighter_bombers_focus_7;Fighter Bomber VII;;;;;;;;;;;;;x
+fighter_bombers_focus_8;Fighter Bomber VIII;;;;;;;;;;;;;x
+fighter_bombers_focus_9;Fighter Bomber IX;;;;;;;;;;;;;x
+fighter_bombers_focus_10;Fighter Bomber X;;;;;;;;;;;;;x
+fighter_bombers_focus_11;Fighter Bomber XI;;;;;;;;;;;;;x
+fighter_bombers_focus_12;Fighter Bomber XII;;;;;;;;;;;;;x
+fighter_bombers_focus_13;Fighter Bomber XIII;;;;;;;;;;;;;x
+fighter_bombers_focus_14;Fighter Bomber XIV;;;;;;;;;;;;;x
+fighter_bombers_focus_15;Fighter Bomber XV;;;;;;;;;;;;;x
+### Close Air Support Focus ###;;;;;;;;;;;;;;x
+close_air_support_focus_1;Close Air Support I;;;;;;;;;;;;;x
+close_air_support_focus_2;Close Air Support II;;;;;;;;;;;;;x
+close_air_support_focus_3;Close Air Support III;;;;;;;;;;;;;x
+close_air_support_focus_4;Close Air Support IV;;;;;;;;;;;;;x
+close_air_support_focus_5;Close Air Support V;;;;;;;;;;;;;x
+close_air_support_focus_6;Close Air Support VI;;;;;;;;;;;;;x
+close_air_support_focus_7;Close Air Support VII;;;;;;;;;;;;;x
+close_air_support_focus_8;Close Air Support VIII;;;;;;;;;;;;;x
+close_air_support_focus_9;Close Air Support IX;;;;;;;;;;;;;x
+close_air_support_focus_10;Close Air Support X;;;;;;;;;;;;;x
+close_air_support_focus_11;Close Air Support XI;;;;;;;;;;;;;x
+close_air_support_focus_12;Close Air Support XII;;;;;;;;;;;;;x
+close_air_support_focus_13;Close Air Support XIII;;;;;;;;;;;;;x
+close_air_support_focus_14;Close Air Support XIV;;;;;;;;;;;;;x
+close_air_support_focus_15;Close Air Support XV;;;;;;;;;;;;;x
+### Heavy Close Air Support Focus ###;;;;;;;;;;;;;;x
+heavy_close_air_support_focus_1;Heavy Close Air Support I;;;;;;;;;;;;;x
+heavy_close_air_support_focus_2;Heavy Close Air Support II;;;;;;;;;;;;;x
+heavy_close_air_support_focus_3;Heavy Close Air Support III;;;;;;;;;;;;;x
+heavy_close_air_support_focus_4;Heavy Close Air Support IV;;;;;;;;;;;;;x
+heavy_close_air_support_focus_5;Heavy Close Air Support V;;;;;;;;;;;;;x
+heavy_close_air_support_focus_6;Heavy Close Air Support VI;;;;;;;;;;;;;x
+heavy_close_air_support_focus_7;Heavy Close Air Support VII;;;;;;;;;;;;;x
+heavy_close_air_support_focus_8;Heavy Close Air Support VIII;;;;;;;;;;;;;x
+### FIGHTER AIRCRAFT BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+fighter_bomb_load_plus_1;+100lbs;;;;;;;;;;;;;x
+fighter_bomb_load_plus_2;+300lbs;;;;;;;;;;;;;x
+fighter_bomb_load_plus_3;+500lbs;;;;;;;;;;;;;x
+fighter_bomb_load_plus_4;+800lbs;;;;;;;;;;;;;x
+fighter_bomb_load_plus_5;+1000lbs;;;;;;;;;;;;;x
+fighter_bomb_load_plus_6;+1200lbs;;;;;;;;;;;;;x
+### MULTI-ROLE FIGHTER AIRCRAFT BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_plus_1;+100lbs;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_plus_2;+300lbs;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_plus_3;+500lbs;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_plus_4;+800lbs;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_plus_5;+1000lbs;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_plus_6;+1200lbs;;;;;;;;;;;;;x
+### FIGHTER BOMBER AIRCRAFT BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_plus_1;+100lbs;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_plus_2;+300lbs;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_plus_3;+500lbs;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_plus_4;+800lbs;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_plus_5;+1000lbs;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_plus_6;+1200lbs;;;;;;;;;;;;;x
+### CAS AIRCRAFT BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+cas_bomb_load_plus_1;+100lbs;;;;;;;;;;;;;x
+cas_bomb_load_plus_2;+300lbs;;;;;;;;;;;;;x
+cas_bomb_load_plus_3;+500lbs;;;;;;;;;;;;;x
+cas_bomb_load_plus_4;+800lbs;;;;;;;;;;;;;x
+cas_bomb_load_plus_5;+1000lbs;;;;;;;;;;;;;x
+cas_bomb_load_plus_6;+1200lbs;;;;;;;;;;;;;x
+###  HEAVY CAS AIRCRAFT BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+heavy_cas_bomb_load_plus_1;+100lbs;;;;;;;;;;;;;x
+heavy_cas_bomb_load_plus_2;+300lbs;;;;;;;;;;;;;x
+heavy_cas_bomb_load_plus_3;+500lbs;;;;;;;;;;;;;x
+heavy_cas_bomb_load_plus_4;+800lbs;;;;;;;;;;;;;x
+heavy_cas_bomb_load_plus_5;+1000lbs;;;;;;;;;;;;;x
+heavy_cas_bomb_load_plus_6;+1200lbs;;;;;;;;;;;;;x
+### FIGHTER AIRCRAFT BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+fighter_bomb_load_minus_1;-100lbs;;;;;;;;;;;;;x
+fighter_bomb_load_minus_2;-300lbs;;;;;;;;;;;;;x
+fighter_bomb_load_minus_3;-500lbs;;;;;;;;;;;;;x
+fighter_bomb_load_minus_4;-800lbs;;;;;;;;;;;;;x
+fighter_bomb_load_minus_5;-1000lbs;;;;;;;;;;;;;x
+fighter_bomb_load_minus_6;-1200lbs;;;;;;;;;;;;;x
+### MULTI-ROLE FIGHTER AIRCRAFT BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_minus_1;-100lbs;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_minus_2;-300lbs;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_minus_3;-500lbs;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_minus_4;-800lbs;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_minus_5;-1000lbs;;;;;;;;;;;;;x
+multi_role_fighter_bomb_load_minus_6;-1200lbs;;;;;;;;;;;;;x
+### FIGHTER BOMBER AIRCRAFT BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_minus_1;-100lbs;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_minus_2;-300lbs;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_minus_3;-500lbs;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_minus_4;-800lbs;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_minus_5;-1000lbs;;;;;;;;;;;;;x
+fighter_bomber_bomb_load_minus_6;-1200lbs;;;;;;;;;;;;;x
+### CAS AIRCRAFT BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+cas_bomb_load_minus_1;-100lbs;;;;;;;;;;;;;x
+cas_bomb_load_minus_2;-300lbs;;;;;;;;;;;;;x
+cas_bomb_load_minus_3;-500lbs;;;;;;;;;;;;;x
+cas_bomb_load_minus_4;-800lbs;;;;;;;;;;;;;x
+cas_bomb_load_minus_5;-1000lbs;;;;;;;;;;;;;x
+cas_bomb_load_minus_6;-1200lbs;;;;;;;;;;;;;x
+###  HEAVY CAS AIRCRAFT BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+heavy_cas_bomb_load_minus_1;-100lbs;;;;;;;;;;;;;x
+heavy_cas_bomb_load_minus_2;-300lbs;;;;;;;;;;;;;x
+heavy_cas_bomb_load_minus_3;-500lbs;;;;;;;;;;;;;x
+heavy_cas_bomb_load_minus_4;-800lbs;;;;;;;;;;;;;x
+heavy_cas_bomb_load_minus_5;-1000lbs;;;;;;;;;;;;;x
+heavy_cas_bomb_load_minus_6;-1200lbs;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### NAVAL AIR TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+###  NAVAL AIRCRAFT MODEL ###;;;;;;;;;;;;;;x
+naval_aircraft_model_1;Production Version I;;;;;;;;;;;;;x
+naval_aircraft_model_2;Production Version II;;;;;;;;;;;;;x
+naval_aircraft_model_3;Production Version III;;;;;;;;;;;;;x
+naval_aircraft_model_4;Production Version IV;;;;;;;;;;;;;x
+naval_aircraft_model_5;Production Version V;;;;;;;;;;;;;x
+naval_aircraft_model_6;Production Version VI;;;;;;;;;;;;;x
+naval_aircraft_model_7;Production Version VII;;;;;;;;;;;;;x
+naval_aircraft_model_8;Production Version VIII;;;;;;;;;;;;;x
+naval_aircraft_model_9;Production Version IX;;;;;;;;;;;;;x
+naval_aircraft_model_10;Production Version X;;;;;;;;;;;;;x
+naval_aircraft_model_11;Production Version XI;;;;;;;;;;;;;x
+###  NAVAL AIRCRAFT ENGINE IMPROVEMENTS ###;;;;;;;;;;;;;;x
+naval_aircraft_engine_improvements_1;+5hp;;;;;;;;;;;;;x
+naval_aircraft_engine_improvements_2;+10hp;;;;;;;;;;;;;x
+naval_aircraft_engine_improvements_3;+15hp;;;;;;;;;;;;;x
+naval_aircraft_engine_improvements_4;+20hp;;;;;;;;;;;;;x
+naval_aircraft_engine_improvements_5;+25hp;;;;;;;;;;;;;x
+naval_aircraft_engine_improvements_6;+30hp;;;;;;;;;;;;;x
+naval_aircraft_engine_improvements_7;+35hp;;;;;;;;;;;;;x
+naval_aircraft_engine_improvements_8;+40hp;;;;;;;;;;;;;x
+naval_aircraft_engine_improvements_9;+45hp;;;;;;;;;;;;;x
+naval_aircraft_engine_improvements_10;+50hp;;;;;;;;;;;;;x
+###  NAVAL AIRCRAFT INTERNAL MECHANICAL IMPROVEMENTS ###;;;;;;;;;;;;;;x
+naval_aircraft_internal_mechanical_improvements_1;+10 Km Range;;;;;;;;;;;;;x
+naval_aircraft_internal_mechanical_improvements_2;+20 Km Range;;;;;;;;;;;;;x
+naval_aircraft_internal_mechanical_improvements_3;+30 Km Range;;;;;;;;;;;;;x
+naval_aircraft_internal_mechanical_improvements_4;+40 Km Range;;;;;;;;;;;;;x
+naval_aircraft_internal_mechanical_improvements_5;+50 Km Range;;;;;;;;;;;;;x
+naval_aircraft_internal_mechanical_improvements_6;+60 Km Range;;;;;;;;;;;;;x
+naval_aircraft_internal_mechanical_improvements_7;+70 Km Range;;;;;;;;;;;;;x
+naval_aircraft_internal_mechanical_improvements_8;+80 Km Range;;;;;;;;;;;;;x
+naval_aircraft_internal_mechanical_improvements_9;+90 Km Range;;;;;;;;;;;;;x
+naval_aircraft_internal_mechanical_improvements_10;+100 Km Range;;;;;;;;;;;;;x
+###  NAVAL AIRCRAFT INTERNAL MECHANICAL IMPROVEMENTS ###;;;;;;;;;;;;;;x
+naval_aircraft_aerodynamic_improvements_1;+0.1 G-Loading;;;;;;;;;;;;;x
+naval_aircraft_aerodynamic_improvements_2;+0.2 G-Loading;;;;;;;;;;;;;x
+naval_aircraft_aerodynamic_improvements_3;+0.3 G-Loading;;;;;;;;;;;;;x
+naval_aircraft_aerodynamic_improvements_4;+0.4 G-Loading;;;;;;;;;;;;;x
+naval_aircraft_aerodynamic_improvements_5;+0.5 G-Loading;;;;;;;;;;;;;x
+naval_aircraft_aerodynamic_improvements_6;+0.6 G-Loading;;;;;;;;;;;;;x
+naval_aircraft_aerodynamic_improvements_7;+0.7 G-Loading;;;;;;;;;;;;;x
+naval_aircraft_aerodynamic_improvements_8;+0.8 G-Loading;;;;;;;;;;;;;x
+naval_aircraft_aerodynamic_improvements_9;+0.9 G-Loading;;;;;;;;;;;;;x
+naval_aircraft_aerodynamic_improvements_10;+1.0 G-Loading;;;;;;;;;;;;;x
+###  NAVAL AIRCRAFT INTERNAL MECHANICAL IMPROVEMENTS ###;;;;;;;;;;;;;;x
+naval_aircraft_armament_improvements_1;+10m Gun Range;;;;;;;;;;;;;x
+naval_aircraft_armament_improvements_2;+20m Gun Range;;;;;;;;;;;;;x
+naval_aircraft_armament_improvements_3;+30m Gun Range;;;;;;;;;;;;;x
+naval_aircraft_armament_improvements_4;+40m Gun Range;;;;;;;;;;;;;x
+naval_aircraft_armament_improvements_5;+50m Gun Range;;;;;;;;;;;;;x
+naval_aircraft_armament_improvements_6;+60m Gun Range;;;;;;;;;;;;;x
+naval_aircraft_armament_improvements_7;+70m Gun Range;;;;;;;;;;;;;x
+naval_aircraft_armament_improvements_8;+80m Gun Range;;;;;;;;;;;;;x
+naval_aircraft_armament_improvements_9;+90m Gun Range;;;;;;;;;;;;;x
+naval_aircraft_armament_improvements_10;+100m Gun Range;;;;;;;;;;;;;x
+###  NAVAL FIGHTER FOCUS ###;;;;;;;;;;;;;;x
+naval_fighter_focus_1;Carrier Fighter I;;;;;;;;;;;;;x
+naval_fighter_focus_2;Carrier Fighter II;;;;;;;;;;;;;x
+naval_fighter_focus_3;Carrier Fighter III;;;;;;;;;;;;;x
+naval_fighter_focus_4;Carrier Fighter IV;;;;;;;;;;;;;x
+naval_fighter_focus_5;Carrier Fighter V;;;;;;;;;;;;;x
+naval_fighter_focus_6;Carrier Fighter VI;;;;;;;;;;;;;x
+naval_fighter_focus_7;Carrier Fighter VII;;;;;;;;;;;;;x
+naval_fighter_focus_8;Carrier Fighter VIII;;;;;;;;;;;;;x
+naval_fighter_focus_9;Carrier Fighter IX;;;;;;;;;;;;;x
+###  NAVAL FIGHTER BOMBER FOCUS ###;;;;;;;;;;;;;;x
+naval_fighter_bomber_focus_1;Carrier Fighter-Bomber I;;;;;;;;;;;;;x
+naval_fighter_bomber_focus_2;Carrier Fighter-Bomber II;;;;;;;;;;;;;x
+naval_fighter_bomber_focus_3;Carrier Fighter-Bomber III;;;;;;;;;;;;;x
+naval_fighter_bomber_focus_4;Carrier Fighter-Bomber IV;;;;;;;;;;;;;x
+naval_fighter_bomber_focus_5;Carrier Fighter-Bomber V;;;;;;;;;;;;;x
+naval_fighter_bomber_focus_6;Carrier Fighter-Bomber VI;;;;;;;;;;;;;x
+naval_fighter_bomber_focus_7;Carrier Fighter-Bomber VII;;;;;;;;;;;;;x
+naval_fighter_bomber_focus_8;Carrier Fighter-Bomber VIII;;;;;;;;;;;;;x
+naval_fighter_bomber_focus_9;Carrier Fighter-Bomber IX;;;;;;;;;;;;;x
+###  NAVAL DIVE BOMBER FOCUS ###;;;;;;;;;;;;;;x
+naval_dive_bomber_focus_1;Carrier Dive Bomber I;;;;;;;;;;;;;x
+naval_dive_bomber_focus_2;Carrier Dive Bomber II;;;;;;;;;;;;;x
+naval_dive_bomber_focus_3;Carrier Dive Bomber III;;;;;;;;;;;;;x
+naval_dive_bomber_focus_4;Carrier Dive Bomber IV;;;;;;;;;;;;;x
+naval_dive_bomber_focus_5;Carrier Dive Bomber V;;;;;;;;;;;;;x
+naval_dive_bomber_focus_6;Carrier Dive Bomber VI;;;;;;;;;;;;;x
+naval_dive_bomber_focus_7;Carrier Dive Bomber VII;;;;;;;;;;;;;x
+naval_dive_bomber_focus_8;Carrier Dive Bomber VIII;;;;;;;;;;;;;x
+naval_dive_bomber_focus_9;Carrier Dive Bomber IX;;;;;;;;;;;;;x
+###  NAVAL TORPEDO PLANE FOCUS ###;;;;;;;;;;;;;;x
+naval_torpedo_plane_focus_1;Carrier Torpedo Plane I;;;;;;;;;;;;;x
+naval_torpedo_plane_focus_2;Carrier Torpedo Plane II;;;;;;;;;;;;;x
+naval_torpedo_plane_focus_3;Carrier Torpedo Plane III;;;;;;;;;;;;;x
+naval_torpedo_plane_focus_4;Carrier Torpedo Plane IV;;;;;;;;;;;;;x
+naval_torpedo_plane_focus_5;Carrier Torpedo Plane V;;;;;;;;;;;;;x
+naval_torpedo_plane_focus_6;Carrier Torpedo Plane VI;;;;;;;;;;;;;x
+naval_torpedo_plane_focus_7;Carrier Torpedo Plane VII;;;;;;;;;;;;;x
+naval_torpedo_plane_focus_8;Carrier Torpedo Plane VIII;;;;;;;;;;;;;x
+naval_torpedo_plane_focus_9;Carrier Torpedo Plane IX;;;;;;;;;;;;;x
+###  NAVAL CAS FOCUS ###;;;;;;;;;;;;;;x
+naval_cas_focus_1;Carrier CAS I;;;;;;;;;;;;;x
+naval_cas_focus_2;Carrier CAS II;;;;;;;;;;;;;x
+naval_cas_focus_3;Carrier CAS III;;;;;;;;;;;;;x
+naval_cas_focus_4;Carrier CAS IV;;;;;;;;;;;;;x
+naval_cas_focus_5;Carrier CAS V;;;;;;;;;;;;;x
+naval_cas_focus_6;Carrier CAS VI;;;;;;;;;;;;;x
+naval_cas_focus_7;Carrier CAS VII;;;;;;;;;;;;;x
+naval_cas_focus_8;Carrier CAS VIII;;;;;;;;;;;;;x
+naval_cas_focus_9;Carrier CAS IX;;;;;;;;;;;;;x
+### NAVAL FIGHTER ARMOR ###;;;;;;;;;;;;;;x
+naval_fighter_armor_1;+1mm;;;;;;;;;;;;;x
+naval_fighter_armor_2;+2mm;;;;;;;;;;;;;x
+naval_fighter_armor_3;+3mm;;;;;;;;;;;;;x
+naval_fighter_armor_4;+4mm;;;;;;;;;;;;;x
+naval_fighter_armor_5;+5mm;;;;;;;;;;;;;x
+naval_fighter_armor_6;+6mm;;;;;;;;;;;;;x
+### NAVAL BOMBER ARMOR ###;;;;;;;;;;;;;;x
+naval_bomber_armor_1;+1mm;;;;;;;;;;;;;x
+naval_bomber_armor_2;+2mm;;;;;;;;;;;;;x
+naval_bomber_armor_3;+3mm;;;;;;;;;;;;;x
+naval_bomber_armor_4;+4mm;;;;;;;;;;;;;x
+naval_bomber_armor_5;+5mm;;;;;;;;;;;;;x
+naval_bomber_armor_6;+6mm;;;;;;;;;;;;;x
+### NAVAL TORPEDO PLANE ARMOR ###;;;;;;;;;;;;;;x
+naval_torpedo_plane_armor_1;+1mm;;;;;;;;;;;;;x
+naval_torpedo_plane_armor_2;+2mm;;;;;;;;;;;;;x
+naval_torpedo_plane_armor_3;+3mm;;;;;;;;;;;;;x
+naval_torpedo_plane_armor_4;+4mm;;;;;;;;;;;;;x
+naval_torpedo_plane_armor_5;+5mm;;;;;;;;;;;;;x
+naval_torpedo_plane_armor_6;+6mm;;;;;;;;;;;;;x
+### NAVAL FIGHTER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+naval_fighter_bomb_load_plus_1;+100lbs;;;;;;;;;;;;;x
+naval_fighter_bomb_load_plus_2;+300lbs;;;;;;;;;;;;;x
+naval_fighter_bomb_load_plus_3;+500lbs;;;;;;;;;;;;;x
+naval_fighter_bomb_load_plus_4;+800lbs;;;;;;;;;;;;;x
+naval_fighter_bomb_load_plus_5;+1000lbs;;;;;;;;;;;;;x
+naval_fighter_bomb_load_plus_6;+1200lbs;;;;;;;;;;;;;x
+### NAVAL FIGHTER BOMBER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_plus_1;+100lbs;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_plus_2;+300lbs;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_plus_3;+500lbs;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_plus_4;+800lbs;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_plus_5;+1000lbs;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_plus_6;+1200lbs;;;;;;;;;;;;;x
+### NAVAL DIVE BOMBER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_plus_1;+100lbs;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_plus_2;+300lbs;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_plus_3;+500lbs;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_plus_4;+800lbs;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_plus_5;+1000lbs;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_plus_6;+1200lbs;;;;;;;;;;;;;x
+### NAVAL CAS BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+naval_cas_bomb_load_plus_1;+100lbs;;;;;;;;;;;;;x
+naval_cas_bomb_load_plus_2;+300lbs;;;;;;;;;;;;;x
+naval_cas_bomb_load_plus_3;+500lbs;;;;;;;;;;;;;x
+naval_cas_bomb_load_plus_4;+800lbs;;;;;;;;;;;;;x
+naval_cas_bomb_load_plus_5;+1000lbs;;;;;;;;;;;;;x
+naval_cas_bomb_load_plus_6;+1200lbs;;;;;;;;;;;;;x
+### NAVAL FIGHTER BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+naval_fighter_bomb_load_minus_1;-100lbs;;;;;;;;;;;;;x
+naval_fighter_bomb_load_minus_2;-300lbs;;;;;;;;;;;;;x
+naval_fighter_bomb_load_minus_3;-500lbs;;;;;;;;;;;;;x
+naval_fighter_bomb_load_minus_4;-800lbs;;;;;;;;;;;;;x
+naval_fighter_bomb_load_minus_5;-1000lbs;;;;;;;;;;;;;x
+naval_fighter_bomb_load_minus_6;-1200lbs;;;;;;;;;;;;;x
+### NAVAL FIGHTER BOMBER BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_minus_1;-100lbs;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_minus_2;-300lbs;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_minus_3;-500lbs;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_minus_4;-800lbs;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_minus_5;-1000lbs;;;;;;;;;;;;;x
+naval_fighter_bomber_bomb_load_minus_6;-1200lbs;;;;;;;;;;;;;x
+### NAVAL DIVE BOMBER BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_minus_1;-100lbs;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_minus_2;-300lbs;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_minus_3;-500lbs;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_minus_4;-800lbs;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_minus_5;-1000lbs;;;;;;;;;;;;;x
+naval_dive_bomber_bomb_load_minus_6;-1200lbs;;;;;;;;;;;;;x
+### NAVAL CAS BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+naval_cas_bomb_load_minus_1;-100lbs;;;;;;;;;;;;;x
+naval_cas_bomb_load_minus_2;-300lbs;;;;;;;;;;;;;x
+naval_cas_bomb_load_minus_3;-500lbs;;;;;;;;;;;;;x
+naval_cas_bomb_load_minus_4;-800lbs;;;;;;;;;;;;;x
+naval_cas_bomb_load_minus_5;-1000lbs;;;;;;;;;;;;;x
+naval_cas_bomb_load_minus_6;-1200lbs;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### TWIN ENGINE AIRCRAFT ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+###  TWIN ENGINE AIRCRAFT MODEL ###;;;;;;;;;;;;;;x
+twin_engine_aircraft_model_1;Production Version I;;;;;;;;;;;;;x
+twin_engine_aircraft_model_2;Production Version II;;;;;;;;;;;;;x
+twin_engine_aircraft_model_3;Production Version III;;;;;;;;;;;;;x
+twin_engine_aircraft_model_4;Production Version IV;;;;;;;;;;;;;x
+twin_engine_aircraft_model_5;Production Version V;;;;;;;;;;;;;x
+twin_engine_aircraft_model_6;Production Version VI;;;;;;;;;;;;;x
+twin_engine_aircraft_model_7;Production Version VII;;;;;;;;;;;;;x
+twin_engine_aircraft_model_8;Production Version VIII;;;;;;;;;;;;;x
+twin_engine_aircraft_model_9;Production Version IX;;;;;;;;;;;;;x
+twin_engine_aircraft_model_10;Production Version X;;;;;;;;;;;;;x
+twin_engine_aircraft_model_11;Production Version XI;;;;;;;;;;;;;x
+twin_engine_aircraft_model_12;Production Version XII;;;;;;;;;;;;;x
+twin_engine_aircraft_model_13;Production Version XIII;;;;;;;;;;;;;x
+###  TWIN ENGINE AIRCRAFT ENGINE IMPROVEMENTS ###;;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_1;+5hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_2;+10hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_3;+15hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_4;+20hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_5;+25hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_6;+30hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_7;+35hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_8;+40hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_9;+45hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_10;+50hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_11;+55hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_12;+60hp;;;;;;;;;;;;;x
+twin_engine_aircraft_engine_improvements_13;+70hp;;;;;;;;;;;;;x
+###  TWIN ENGINE AIRCRAFT INTERNAL MECHANICAL IMPROVEMENTS ###;;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_1;+10 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_2;+20 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_3;+30 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_4;+40 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_5;+50 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_6;+60 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_7;+70 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_8;+80 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_9;+90 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_10;+100 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_11;+110 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_12;+120 Km Range;;;;;;;;;;;;;x
+twin_engine_aircraft_internal_mechanical_improvements_13;+130 Km Range;;;;;;;;;;;;;x
+###  TWIN ENGINE AERODYNAMIC IMPROVEMENTS ###;;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_1;+0.1 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_2;+0.2 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_3;+0.3 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_4;+0.4 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_5;+0.5 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_6;+0.6 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_7;+0.7 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_8;+0.8 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_9;+0.9 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_10;+1.0 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_11;+1.1 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_12;+1.2 G-Loading;;;;;;;;;;;;;x
+twin_engine_aircraft_aerodynamic_improvements_13;+1.3 G-Loading;;;;;;;;;;;;;x
+###  TWIN ENGINE ARMAMENT IMPROVEMENTS ###;;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_1;+10m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_2;+20m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_3;+30m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_4;+40m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_5;+50m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_6;+60m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_7;+70m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_8;+80m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_9;+90m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_10;+100m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_11;+110m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_12;+120m Gun Range;;;;;;;;;;;;;x
+twin_engine_aircraft_armament_improvements_13;+130m Gun Range;;;;;;;;;;;;;x
+###  TWIN ENGINE FIGHTER FOCUS ###;;;;;;;;;;;;;;x
+twin_engine_fighter_focus_1;Heavy Fighter I;;;;;;;;;;;;;x
+twin_engine_fighter_focus_2;Heavy Fighter II;;;;;;;;;;;;;x
+twin_engine_fighter_focus_3;Heavy Fighter III;;;;;;;;;;;;;x
+twin_engine_fighter_focus_4;Heavy Fighter IV;;;;;;;;;;;;;x
+twin_engine_fighter_focus_5;Heavy Fighter V;;;;;;;;;;;;;x
+twin_engine_fighter_focus_6;Heavy Fighter VI;;;;;;;;;;;;;x
+twin_engine_fighter_focus_7;Heavy Fighter VII;;;;;;;;;;;;;x
+twin_engine_fighter_focus_8;Heavy Fighter VIII;;;;;;;;;;;;;x
+twin_engine_fighter_focus_9;Heavy Fighter IX;;;;;;;;;;;;;x
+twin_engine_fighter_focus_10;Heavy Fighter X;;;;;;;;;;;;;x
+twin_engine_fighter_focus_11;Heavy Fighter XI;;;;;;;;;;;;;x
+###  NIGHT FIGHTER FOCUS ###;;;;;;;;;;;;;;x
+night_fighter_focus_1;Night Fighter I;;;;;;;;;;;;;x
+night_fighter_focus_2;Night Fighter II;;;;;;;;;;;;;x
+night_fighter_focus_3;Night Fighter III;;;;;;;;;;;;;x
+night_fighter_focus_4;Night Fighter IV;;;;;;;;;;;;;x
+night_fighter_focus_5;Night Fighter V;;;;;;;;;;;;;x
+night_fighter_focus_6;Night Fighter VI;;;;;;;;;;;;;x
+night_fighter_focus_7;Night Fighter VII;;;;;;;;;;;;;x
+night_fighter_focus_8;Night Fighter VIII;;;;;;;;;;;;;x
+###  MULTI-ROLE BOMBER FOCUS ###;;;;;;;;;;;;;;x
+multi_role_bomber_focus_1;Multi-Role Bomber I;;;;;;;;;;;;;x
+multi_role_bomber_focus_2;Multi-Role Bomber II;;;;;;;;;;;;;x
+multi_role_bomber_focus_3;Multi-Role Bomber III;;;;;;;;;;;;;x
+multi_role_bomber_focus_4;Multi-Role Bomber IV;;;;;;;;;;;;;x
+multi_role_bomber_focus_5;Multi-Role Bomber V;;;;;;;;;;;;;x
+multi_role_bomber_focus_6;Multi-Role Bomber VI;;;;;;;;;;;;;x
+multi_role_bomber_focus_7;Multi-Role Bomber VII;;;;;;;;;;;;;x
+multi_role_bomber_focus_8;Multi-Role Bomber VIII;;;;;;;;;;;;;x
+multi_role_bomber_focus_9;Multi-Role Bomber IX;;;;;;;;;;;;;x
+multi_role_bomber_focus_10;Multi-Role Bomber X;;;;;;;;;;;;;x
+###  TACTICAL BOMBER FOCUS ###;;;;;;;;;;;;;;x
+tactical_bomber_focus_1;Tactical Bomber I;;;;;;;;;;;;;x
+tactical_bomber_focus_2;Tactical Bomber II;;;;;;;;;;;;;x
+tactical_bomber_focus_3;Tactical Bomber III;;;;;;;;;;;;;x
+tactical_bomber_focus_4;Tactical Bomber IV;;;;;;;;;;;;;x
+tactical_bomber_focus_5;Tactical Bomber V;;;;;;;;;;;;;x
+tactical_bomber_focus_6;Tactical Bomber VI;;;;;;;;;;;;;x
+tactical_bomber_focus_7;Tactical Bomber VII;;;;;;;;;;;;;x
+tactical_bomber_focus_8;Tactical Bomber VIII;;;;;;;;;;;;;x
+tactical_bomber_focus_9;Tactical Bomber IX;;;;;;;;;;;;;x
+tactical_bomber_focus_10;Tactical Bomber X;;;;;;;;;;;;;x
+###  TWIN ENGINE TRANSPORT FOCUS ###;;;;;;;;;;;;;;x
+twin_engine_transport_focus_1;Transport I;;;;;;;;;;;;;x
+twin_engine_transport_focus_2;Transport II;;;;;;;;;;;;;x
+twin_engine_transport_focus_3;Transport III;;;;;;;;;;;;;x
+twin_engine_transport_focus_4;Transport IV;;;;;;;;;;;;;x
+twin_engine_transport_focus_5;Transport V;;;;;;;;;;;;;x
+twin_engine_transport_focus_6;Transport VI;;;;;;;;;;;;;x
+twin_engine_transport_focus_7;Transport VII;;;;;;;;;;;;;x
+twin_engine_transport_focus_8;Transport VIII;;;;;;;;;;;;;x
+twin_engine_transport_focus_9;Transport IX;;;;;;;;;;;;;x
+twin_engine_transport_focus_10;Transport X;;;;;;;;;;;;;x
+###  SEAPLANE FOCUS ###;;;;;;;;;;;;;;x
+seaplane_focus_1;Seaplane I;;;;;;;;;;;;;x
+seaplane_focus_2;Seaplane II;;;;;;;;;;;;;x
+seaplane_focus_3;Seaplane III;;;;;;;;;;;;;x
+seaplane_focus_4;Seaplane IV;;;;;;;;;;;;;x
+seaplane_focus_5;Seaplane V;;;;;;;;;;;;;x
+seaplane_focus_6;Seaplane VI;;;;;;;;;;;;;x
+seaplane_focus_7;Seaplane VII;;;;;;;;;;;;;x
+seaplane_focus_8;Seaplane VIII;;;;;;;;;;;;;x
+seaplane_focus_9;Seaplane IX;;;;;;;;;;;;;x
+seaplane_focus_10;Seaplane X;;;;;;;;;;;;;x
+### TWIN ENGINE FIGHTER ARMOR ###;;;;;;;;;;;;;;x
+twin_engine_fighter_armor_1;+1mm;;;;;;;;;;;;;x
+twin_engine_fighter_armor_2;+2mm;;;;;;;;;;;;;x
+twin_engine_fighter_armor_3;+3mm;;;;;;;;;;;;;x
+twin_engine_fighter_armor_4;+4mm;;;;;;;;;;;;;x
+twin_engine_fighter_armor_5;+5mm;;;;;;;;;;;;;x
+twin_engine_fighter_armor_6;+6mm;;;;;;;;;;;;;x
+### MULTI-ROLE BOMBER ARMOR ###;;;;;;;;;;;;;;x
+multi_role_bomber_armor_1;+1mm;;;;;;;;;;;;;x
+multi_role_bomber_armor_2;+2mm;;;;;;;;;;;;;x
+multi_role_bomber_armor_3;+3mm;;;;;;;;;;;;;x
+multi_role_bomber_armor_4;+4mm;;;;;;;;;;;;;x
+multi_role_bomber_armor_5;+5mm;;;;;;;;;;;;;x
+multi_role_bomber_armor_6;+6mm;;;;;;;;;;;;;x
+### TACTICAL BOMBER ARMOR ###;;;;;;;;;;;;;;x
+tactical_bomber_armor_1;+1mm;;;;;;;;;;;;;x
+tactical_bomber_armor_2;+2mm;;;;;;;;;;;;;x
+tactical_bomber_armor_3;+3mm;;;;;;;;;;;;;x
+tactical_bomber_armor_4;+4mm;;;;;;;;;;;;;x
+tactical_bomber_armor_5;+5mm;;;;;;;;;;;;;x
+tactical_bomber_armor_6;+6mm;;;;;;;;;;;;;x
+### TWIN ENGINE FIGHTER AIRCRAFT BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+twin_engine_fighter_bomb_load_plus_1;+200lbs;;;;;;;;;;;;;x
+twin_engine_fighter_bomb_load_plus_2;+500lbs;;;;;;;;;;;;;x
+twin_engine_fighter_bomb_load_plus_3;+800lbs;;;;;;;;;;;;;x
+twin_engine_fighter_bomb_load_plus_4;+1000lbs;;;;;;;;;;;;;x
+twin_engine_fighter_bomb_load_plus_5;+1200lbs;;;;;;;;;;;;;x
+twin_engine_fighter_bomb_load_plus_6;+1500lbs;;;;;;;;;;;;;x
+### MULTI-ROLE BOMBER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+multi_role_bomber_bomb_load_plus_1;+400lbs;;;;;;;;;;;;;x
+multi_role_bomber_bomb_load_plus_2;+600lbs;;;;;;;;;;;;;x
+multi_role_bomber_bomb_load_plus_3;+1000lbs;;;;;;;;;;;;;x
+multi_role_bomber_bomb_load_plus_4;+1200lbs;;;;;;;;;;;;;x
+multi_role_bomber_bomb_load_plus_5;+1500lbs;;;;;;;;;;;;;x
+multi_role_bomber_bomb_load_plus_6;+2000lbs;;;;;;;;;;;;;x
+### TACTICAL BOMBER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+tactical_bomber_bomb_load_plus_1;+400lbs;;;;;;;;;;;;;x
+tactical_bomber_bomb_load_plus_2;+600lbs;;;;;;;;;;;;;x
+tactical_bomber_bomb_load_plus_3;+1000lbs;;;;;;;;;;;;;x
+tactical_bomber_bomb_load_plus_4;+1200lbs;;;;;;;;;;;;;x
+tactical_bomber_bomb_load_plus_5;+1500lbs;;;;;;;;;;;;;x
+tactical_bomber_bomb_load_plus_6;+2000lbs;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### HEAVY AIRCRAFT ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+###  HEAVY AIRCRAFT MODEL ###;;;;;;;;;;;;;;x
+heavy_aircraft_model_1;Production Version I;;;;;;;;;;;;;x
+heavy_aircraft_model_2;Production Version II;;;;;;;;;;;;;x
+heavy_aircraft_model_3;Production Version III;;;;;;;;;;;;;x
+heavy_aircraft_model_4;Production Version IV;;;;;;;;;;;;;x
+heavy_aircraft_model_5;Production Version V;;;;;;;;;;;;;x
+heavy_aircraft_model_6;Production Version VI;;;;;;;;;;;;;x
+heavy_aircraft_model_7;Production Version VII;;;;;;;;;;;;;x
+heavy_aircraft_model_8;Production Version VIII;;;;;;;;;;;;;x
+heavy_aircraft_model_9;Production Version IX;;;;;;;;;;;;;x
+heavy_aircraft_model_10;Production Version X;;;;;;;;;;;;;x
+heavy_aircraft_model_11;Production Version XI;;;;;;;;;;;;;x
+heavy_aircraft_model_12;Production Version XII;;;;;;;;;;;;;x
+heavy_aircraft_model_13;Production Version XIII;;;;;;;;;;;;;x
+heavy_aircraft_model_14;Production Version XIV;;;;;;;;;;;;;x
+heavy_aircraft_model_15;Production Version XV;;;;;;;;;;;;;x
+heavy_aircraft_model_16;Production Version XVI;;;;;;;;;;;;;x
+heavy_aircraft_model_17;Production Version XVII;;;;;;;;;;;;;x
+heavy_aircraft_model_18;Production Version XVIII;;;;;;;;;;;;;x
+###  HEAVY AIRCRAFT ENGINE IMPROVEMENTS ###;;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_1;+10hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_2;+15hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_3;+20hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_4;+25hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_5;+30hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_6;+35hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_7;+40hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_8;+45hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_9;+50hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_10;+55hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_11;+60hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_12;+65hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_13;+70hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_14;+75hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_15;+80hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_16;+85hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_17;+90hp;;;;;;;;;;;;;x
+heavy_aircraft_engine_improvements_18;+95hp;;;;;;;;;;;;;x
+###  HEAVY AIRCRAFT INTERNAL MECHANICAL IMPROVEMENTS ###;;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_1;+10 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_2;+20 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_3;+30 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_4;+40 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_5;+50 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_6;+60 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_7;+70 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_8;+80 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_9;+90 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_10;+100 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_11;+110 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_12;+120 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_13;+130 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_14;+140 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_15;+150 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_16;+160 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_17;+170 Km Range;;;;;;;;;;;;;x
+heavy_aircraft_internal_mechanical_improvements_18;+180 Km Range;;;;;;;;;;;;;x
+###  HEAVY AIRCRAFT INTERNAL MECHANICAL IMPROVEMENTS ###;;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_1;+0.1 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_2;+0.2 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_3;+0.3 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_4;+0.4 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_5;+0.5 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_6;+0.6 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_7;+0.7 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_8;+0.8 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_9;+0.9 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_10;+1.0 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_11;+1.1 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_12;+1.2 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_13;+1.3 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_14;+1.4 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_15;+1.5 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_16;+1.6 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_17;+1.7 G-Loading;;;;;;;;;;;;;x
+heavy_aircraft_aerodynamic_improvements_18;+1.8 G-Loading;;;;;;;;;;;;;x
+###  NAVAL BOMBER FOCUS ###;;;;;;;;;;;;;;x
+naval_bomber_focus_1;Naval Bomber I;;;;;;;;;;;;;x
+naval_bomber_focus_2;Naval Bomber II;;;;;;;;;;;;;x
+naval_bomber_focus_3;Naval Bomber III;;;;;;;;;;;;;x
+naval_bomber_focus_4;IV;;;;;;;;;;;;;x
+naval_bomber_focus_5;Naval Bomber V;;;;;;;;;;;;;x
+naval_bomber_focus_6;Naval Bomber VI;;;;;;;;;;;;;x
+naval_bomber_focus_7;Naval Bomber VII;;;;;;;;;;;;;x
+naval_bomber_focus_8;Naval Bomber VIII;;;;;;;;;;;;;x
+naval_bomber_focus_9;Naval Bomber IX;;;;;;;;;;;;;x
+naval_bomber_focus_10;Naval Bomber X;;;;;;;;;;;;;x
+naval_bomber_focus_11;Naval Bomber XI;;;;;;;;;;;;;x
+naval_bomber_focus_12;Naval Bomber XII;;;;;;;;;;;;;x
+naval_bomber_focus_13;Naval Bomber XIII;;;;;;;;;;;;;x
+naval_bomber_focus_14;Naval Bomber XIV;;;;;;;;;;;;;x
+naval_bomber_focus_15;Naval Bomber XV;;;;;;;;;;;;;x
+naval_bomber_focus_16;Naval Bomber XVI;;;;;;;;;;;;;x
+naval_bomber_focus_17;Naval Bomber XVII;;;;;;;;;;;;;x
+naval_bomber_focus_18;Naval Bomber XVIII;;;;;;;;;;;;;x
+###  NAVAL BOMBER FOCUS ###;;;;;;;;;;;;;;x
+strategic_bomber_focus_1;Strategic Bomber I;;;;;;;;;;;;;x
+strategic_bomber_focus_2;Strategic Bomber II;;;;;;;;;;;;;x
+strategic_bomber_focus_3;Strategic Bomber III;;;;;;;;;;;;;x
+strategic_bomber_focus_4;Strategic Bomber IV;;;;;;;;;;;;;x
+strategic_bomber_focus_5;Strategic Bomber V;;;;;;;;;;;;;x
+strategic_bomber_focus_6;Strategic Bomber VI;;;;;;;;;;;;;x
+strategic_bomber_focus_7;Strategic Bomber VII;;;;;;;;;;;;;x
+strategic_bomber_focus_8;Strategic Bomber VIII;;;;;;;;;;;;;x
+strategic_bomber_focus_9;Strategic Bomber IX;;;;;;;;;;;;;x
+strategic_bomber_focus_10;Strategic Bomber X;;;;;;;;;;;;;x
+strategic_bomber_focus_11;Strategic Bomber XI;;;;;;;;;;;;;x
+strategic_bomber_focus_12;Strategic Bomber XII;;;;;;;;;;;;;x
+strategic_bomber_focus_13;Strategic Bomber XIII;;;;;;;;;;;;;x
+strategic_bomber_focus_14;Strategic Bomber XIV;;;;;;;;;;;;;x
+strategic_bomber_focus_15;Strategic Bomber XV;;;;;;;;;;;;;x
+strategic_bomber_focus_16;Strategic Bomber XVI;;;;;;;;;;;;;x
+strategic_bomber_focus_17;Strategic Bomber XVII;;;;;;;;;;;;;x
+strategic_bomber_focus_18;Strategic Bomber XVIII;;;;;;;;;;;;;x
+###  HEAVY BOMBER FOCUS ###;;;;;;;;;;;;;;x
+heavy_bomber_focus_1;Heavy Bomber I;;;;;;;;;;;;;x
+heavy_bomber_focus_2;Heavy Bomber II;;;;;;;;;;;;;x
+heavy_bomber_focus_3;Heavy Bomber III;;;;;;;;;;;;;x
+heavy_bomber_focus_4;Heavy Bomber IV;;;;;;;;;;;;;x
+heavy_bomber_focus_5;Heavy Bomber V;;;;;;;;;;;;;x
+heavy_bomber_focus_6;Heavy Bomber VI;;;;;;;;;;;;;x
+heavy_bomber_focus_7;Heavy Bomber VII;;;;;;;;;;;;;x
+heavy_bomber_focus_8;Heavy Bomber VIII;;;;;;;;;;;;;x
+heavy_bomber_focus_9;Heavy Bomber IX;;;;;;;;;;;;;x
+heavy_bomber_focus_10;Heavy Bomber X;;;;;;;;;;;;;x
+heavy_bomber_focus_11;Heavy Bomber XI;;;;;;;;;;;;;x
+heavy_bomber_focus_12;Heavy Bomber XII;;;;;;;;;;;;;x
+heavy_bomber_focus_13;Heavy Bomber XIII;;;;;;;;;;;;;x
+heavy_bomber_focus_14;Heavy Bomber XIV;;;;;;;;;;;;;x
+heavy_bomber_focus_15;Heavy Bomber XV;;;;;;;;;;;;;x
+heavy_bomber_focus_16;Heavy Bomber XVI;;;;;;;;;;;;;x
+heavy_bomber_focus_17;Heavy Bomber XVII;;;;;;;;;;;;;x
+heavy_bomber_focus_18;Heavy Bomber XVIII;;;;;;;;;;;;;x
+###  HEAVY TRANSPORT FOCUS ###;;;;;;;;;;;;;;x
+heavy_transport_focus_1;Heavy Transport I;;;;;;;;;;;;;x
+heavy_transport_focus_2;Heavy Transport II;;;;;;;;;;;;;x
+heavy_transport_focus_3;Heavy Transport III;;;;;;;;;;;;;x
+heavy_transport_focus_4;Heavy Transport IV;;;;;;;;;;;;;x
+heavy_transport_focus_5;Heavy Transport V;;;;;;;;;;;;;x
+heavy_transport_focus_6;Heavy Transport VI;;;;;;;;;;;;;x
+heavy_transport_focus_7;Heavy Transport VII;;;;;;;;;;;;;x
+heavy_transport_focus_8;Heavy Transport VIII;;;;;;;;;;;;;x
+heavy_transport_focus_9;Heavy Transport IX;;;;;;;;;;;;;x
+heavy_transport_focus_10;Heavy Transport X;;;;;;;;;;;;;x
+heavy_transport_focus_11;Heavy Transport XI;;;;;;;;;;;;;x
+heavy_transport_focus_12;Heavy Transport XII;;;;;;;;;;;;;x
+heavy_transport_focus_13;Heavy Transport XIII;;;;;;;;;;;;;x
+heavy_transport_focus_14;Heavy Transport XIV;;;;;;;;;;;;;x
+heavy_transport_focus_15;Heavy Transport XV;;;;;;;;;;;;;x
+heavy_transport_focus_16;Heavy Transport XVI;;;;;;;;;;;;;x
+heavy_transport_focus_17;Heavy Transport XVII;;;;;;;;;;;;;x
+heavy_transport_focus_18;Heavy Transport XVIII;;;;;;;;;;;;;x
+###  SUPER HEAVY BOMBER FOCUS ###;;;;;;;;;;;;;;x
+super_heavy_bomber_focus_1;Super Heavy Bomber I;;;;;;;;;;;;;x
+super_heavy_bomber_focus_2;Super Heavy Bomber II;;;;;;;;;;;;;x
+super_heavy_bomber_focus_3;Super Heavy Bomber III;;;;;;;;;;;;;x
+super_heavy_bomber_focus_4;Super Heavy Bomber IV;;;;;;;;;;;;;x
+super_heavy_bomber_focus_5;Super Heavy Bomber V;;;;;;;;;;;;;x
+super_heavy_bomber_focus_6;Super Heavy Bomber VI;;;;;;;;;;;;;x
+### STRATEGIC BOMBER ARMOR ###;;;;;;;;;;;;;;x
+strategic_bomber_armor_1;+1mm;;;;;;;;;;;;;x
+strategic_bomber_armor_2;+2mm;;;;;;;;;;;;;x
+strategic_bomber_armor_3;+3mm;;;;;;;;;;;;;x
+strategic_bomber_armor_4;+4mm;;;;;;;;;;;;;x
+strategic_bomber_armor_5;+5mm;;;;;;;;;;;;;x
+strategic_bomber_armor_6;+6mm;;;;;;;;;;;;;x
+### HEAVY BOMBER ARMOR ###;;;;;;;;;;;;;;x
+heavy_bomber_armor_1;+1mm;;;;;;;;;;;;;x
+heavy_bomber_armor_2;+2mm;;;;;;;;;;;;;x
+heavy_bomber_armor_3;+3mm;;;;;;;;;;;;;x
+heavy_bomber_armor_4;+4mm;;;;;;;;;;;;;x
+heavy_bomber_armor_5;+5mm;;;;;;;;;;;;;x
+heavy_bomber_armor_6;+6mm;;;;;;;;;;;;;x
+### SUPER HEAVY BOMBER ARMOR ###;;;;;;;;;;;;;;x
+super_heavy_bomber_armor_1;+1mm;;;;;;;;;;;;;x
+super_heavy_bomber_armor_2;+2mm;;;;;;;;;;;;;x
+super_heavy_bomber_armor_3;+3mm;;;;;;;;;;;;;x
+super_heavy_bomber_armor_4;+4mm;;;;;;;;;;;;;x
+super_heavy_bomber_armor_5;+5mm;;;;;;;;;;;;;x
+super_heavy_bomber_armor_6;+6mm;;;;;;;;;;;;;x
+### PRESSURIZED CABIN ###;;;;;;;;;;;;;;x
+pressurized_cabin_1;+10,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cabin_2;+12,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cabin_3;+14,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cabin_4;+16,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cabin_5;+18,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cabin_6;+20,000ft Altitude;;;;;;;;;;;;;x
+### STRATEGIC BOMBER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+strategic_bomber_bomb_load_plus_1;+500lbs;;;;;;;;;;;;;x
+strategic_bomber_bomb_load_plus_2;+800lbs;;;;;;;;;;;;;x
+strategic_bomber_bomb_load_plus_3;+1000lbs;;;;;;;;;;;;;x
+strategic_bomber_bomb_load_plus_4;+1200lbs;;;;;;;;;;;;;x
+strategic_bomber_bomb_load_plus_5;+1500lbs;;;;;;;;;;;;;x
+strategic_bomber_bomb_load_plus_6;+2000lbs;;;;;;;;;;;;;x
+### HEAVY BOMBER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_plus_1;+600lbs;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_plus_2;+800lbs;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_plus_3;+1200lbs;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_plus_4;+1800lbs;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_plus_5;+2000lbs;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_plus_6;+2500lbs;;;;;;;;;;;;;x
+### SUPER HEAVY AIRCRAFT BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_plus_1;+1000lbs;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_plus_2;+1500lbs;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_plus_3;+2000lbs;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_plus_4;+2500lbs;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_plus_5;+3000lbs;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_plus_6;+4000lbs;;;;;;;;;;;;;x
+### STRATEGIC BOMBER BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_1;-500lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_2;-800lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_3;-1000lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_4;-1200lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_5;-1500lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_6;-2000lbs;;;;;;;;;;;;;x
+### HEAVY BOMBER BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_minus_1;-600lbs;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_minus_2;-800lbs;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_minus_3;-1200lbs;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_minus_4;-1800lbs;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_minus_5;-2000lbs;;;;;;;;;;;;;x
+heavy_bomber_bomb_load_minus_6;-2500lbs;;;;;;;;;;;;;x
+### SUPER HEAVY AIRCRAFT BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_minus_1;-1000lbs;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_minus_2;-1500lbs;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_minus_3;-2000lbs;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_minus_4;-2500lbs;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_minus_5;-3000lbs;;;;;;;;;;;;;x
+super_heavy_bomber_bomb_load_minus_6;-4000lbs;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### JET AIRCRAFT ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### JET ENGINE DESIGN ###;;;;;;;;;;;;;;x
+jet_engine_design_1;+1000lbs Thrust;;;;;;;;;;;;;x
+jet_engine_design_2;+1100lbs Thrust;;;;;;;;;;;;;x
+jet_engine_design_3;+1200lbs Thrust;;;;;;;;;;;;;x
+jet_engine_design_4;+1300lbs Thrust;;;;;;;;;;;;;x
+jet_engine_design_5;+1400lbs Thrust;;;;;;;;;;;;;x
+jet_engine_design_6;+1500lbs Thrust;;;;;;;;;;;;;x
+### JET AERODYNAMIC DESIGN ###;;;;;;;;;;;;;;x
+jet_aerodynamics_1;+100km/h Top Speed;;;;;;;;;;;;;x
+jet_aerodynamics_2;+200km/h Top Speed;;;;;;;;;;;;;x
+jet_aerodynamics_3;+300km/h Top Speed;;;;;;;;;;;;;x
+jet_aerodynamics_4;+400km/h Top Speed;;;;;;;;;;;;;x
+jet_aerodynamics_5;+500km/h Top Speed;;;;;;;;;;;;;x
+jet_aerodynamics_6;+600km/h Top Speed;;;;;;;;;;;;;x
+### JET FIGHTER MODEL ###;;;;;;;;;;;;;;x
+jet_aircraft_model_1;Production Version I;;;;;;;;;;;;;x
+jet_aircraft_model_2;Production Version II;;;;;;;;;;;;;x
+jet_aircraft_model_3;Production Version III;;;;;;;;;;;;;x
+jet_aircraft_model_4;Production Version IV;;;;;;;;;;;;;x
+jet_aircraft_model_5;Production Version V;;;;;;;;;;;;;x
+jet_aircraft_model_6;Production Version VI;;;;;;;;;;;;;x
+jet_aircraft_model_7;Production Version VII;;;;;;;;;;;;;x
+### JET ENGINE IMPROVEMENTS ###;;;;;;;;;;;;;;x
+jet_engine_improvements_1;+20lbs Thrust;;;;;;;;;;;;;x
+jet_engine_improvements_2;+40lbs Thrust;;;;;;;;;;;;;x
+jet_engine_improvements_3;+60lbs Thrust;;;;;;;;;;;;;x
+jet_engine_improvements_4;+80lbs Thrust;;;;;;;;;;;;;x
+jet_engine_improvements_5;+100lbs Thrust;;;;;;;;;;;;;x
+jet_engine_improvements_6;+120lbs Thrust;;;;;;;;;;;;;x
+jet_engine_improvements_7;+140lbs Thrust;;;;;;;;;;;;;x
+### JET INTERNAL MECHANICAL IMPROVEMENTS ###;;;;;;;;;;;;;;x
+jet_internal_mechanical_improvements_1;+40 Km Range;;;;;;;;;;;;;x
+jet_internal_mechanical_improvements_2;+80 Km Range;;;;;;;;;;;;;x
+jet_internal_mechanical_improvements_3;+120 Km Range;;;;;;;;;;;;;x
+jet_internal_mechanical_improvements_4;+160 Km Range;;;;;;;;;;;;;x
+jet_internal_mechanical_improvements_5;+200 Km Range;;;;;;;;;;;;;x
+jet_internal_mechanical_improvements_6;+240 Km Range;;;;;;;;;;;;;x
+jet_internal_mechanical_improvements_7;+280 Km Range;;;;;;;;;;;;;x
+### JET AERODYNAMIC IMPROVEMENTS ###;;;;;;;;;;;;;;x
+jet_aerodynamic_improvements_1;+0.2 G-Loading;;;;;;;;;;;;;x
+jet_aerodynamic_improvements_2;+0.4 G-Loading;;;;;;;;;;;;;x
+jet_aerodynamic_improvements_3;+0.6 G-Loading;;;;;;;;;;;;;x
+jet_aerodynamic_improvements_4;+0.8 G-Loading;;;;;;;;;;;;;x
+jet_aerodynamic_improvements_5;+1.0 G-Loading;;;;;;;;;;;;;x
+jet_aerodynamic_improvements_6;+1.2 G-Loading;;;;;;;;;;;;;x
+jet_aerodynamic_improvements_7;+1.4 G-Loading;;;;;;;;;;;;;x
+### JET ARMAMENT IMPROVEMENTS ###;;;;;;;;;;;;;;x
+jet_armament_improvements_1;+10m Gun Range;;;;;;;;;;;;;x
+jet_armament_improvements_2;+20m Gun Range;;;;;;;;;;;;;x
+jet_armament_improvements_3;+30m Gun Range;;;;;;;;;;;;;x
+jet_armament_improvements_4;+40m Gun Range;;;;;;;;;;;;;x
+jet_armament_improvements_5;+50m Gun Range;;;;;;;;;;;;;x
+jet_armament_improvements_6;+60m Gun Range;;;;;;;;;;;;;x
+jet_armament_improvements_7;+70m Gun Range;;;;;;;;;;;;;x
+### JET FIGHTER FOCUS ###;;;;;;;;;;;;;;x
+jet_fighter_focus_1;Jet Figher I;;;;;;;;;;;;;x
+jet_fighter_focus_2;Jet Figher II;;;;;;;;;;;;;x
+jet_fighter_focus_3;Jet Figher III;;;;;;;;;;;;;x
+jet_fighter_focus_4;Jet Figher IV;;;;;;;;;;;;;x
+jet_fighter_focus_5;Jet Figher V;;;;;;;;;;;;;x
+jet_fighter_focus_6;Jet Figher VI;;;;;;;;;;;;;x
+jet_fighter_focus_7;Jet Figher VII;;;;;;;;;;;;;x
+### JET FIGHTER FLYING WING FOCUS ###;;;;;;;;;;;;;;x
+jet_fighter_flying_wing_focus_1;Jet Flying Wing I;;;;;;;;;;;;;x
+jet_fighter_flying_wing_focus_2;Jet Flying Wing II;;;;;;;;;;;;;x
+jet_fighter_flying_wing_focus_3;Jet Flying Wing III;;;;;;;;;;;;;x
+jet_fighter_flying_wing_focus_4;Jet Flying Wing IV;;;;;;;;;;;;;x
+jet_fighter_flying_wing_focus_5;Jet Flying Wing V;;;;;;;;;;;;;x
+jet_fighter_flying_wing_focus_6;Jet Flying Wing VI;;;;;;;;;;;;;x
+jet_fighter_flying_wing_focus_7;Jet Flying Wing VII;;;;;;;;;;;;;x
+### JET BOMBER FOCUS ###;;;;;;;;;;;;;;x
+jet_bomber_focus_1;Jet Bomber I;;;;;;;;;;;;;x
+jet_bomber_focus_2;Jet Bomber II;;;;;;;;;;;;;x
+jet_bomber_focus_3;Jet Bomber III;;;;;;;;;;;;;x
+jet_bomber_focus_4;Jet Bomber IV;;;;;;;;;;;;;x
+jet_bomber_focus_5;Jet Bomber V;;;;;;;;;;;;;x
+jet_bomber_focus_6;Jet Bomber VI;;;;;;;;;;;;;x
+jet_bomber_focus_7;Jet Bomber VII;;;;;;;;;;;;;x
+### JET BOMBER FLYING WING FOCUS ###;;;;;;;;;;;;;;x
+jet_bomber_flying_wing_focus_1;Long Range Jet Bomber I;;;;;;;;;;;;;x
+jet_bomber_flying_wing_focus_2;Long Range Jet Bomber II;;;;;;;;;;;;;x
+jet_bomber_flying_wing_focus_3;Long Range Jet Bomber III;;;;;;;;;;;;;x
+jet_bomber_flying_wing_focus_4;Long Range Jet Bomber IV;;;;;;;;;;;;;x
+jet_bomber_flying_wing_focus_5;Long Range Jet Bomber V;;;;;;;;;;;;;x
+jet_bomber_flying_wing_focus_6;Long Range Jet Bomber VI;;;;;;;;;;;;;x
+jet_bomber_flying_wing_focus_7;Long Range Jet Bomber VII;;;;;;;;;;;;;x
+### JET FIGHTER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+jet_fighter_bomb_load_plus_1;+300lbs;;;;;;;;;;;;;x
+jet_fighter_bomb_load_plus_2;+500lbs;;;;;;;;;;;;;x
+jet_fighter_bomb_load_plus_3;+800lbs;;;;;;;;;;;;;x
+jet_fighter_bomb_load_plus_4;+1000lbs;;;;;;;;;;;;;x
+jet_fighter_bomb_load_plus_5;+1200lbs;;;;;;;;;;;;;x
+### JET BOMBER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_1;+500lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_2;+800lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_3;+1000lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_4;+1200lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_plus_5;+1500lbs;;;;;;;;;;;;;x
+### JET FIGHTER BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+jet_fighter_bomb_load_minus_1;-300lbs;;;;;;;;;;;;;x
+jet_fighter_bomb_load_minus_2;-500lbs;;;;;;;;;;;;;x
+jet_fighter_bomb_load_minus_3;-800lbs;;;;;;;;;;;;;x
+jet_fighter_bomb_load_minus_4;-1000lbs;;;;;;;;;;;;;x
+jet_fighter_bomb_load_minus_5;-1200lbs;;;;;;;;;;;;;x
+### JET BOMBER BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+jet_bomber_bomb_load_minus_1;-500lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_minus_2;-800lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_minus_3;-1000lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_minus_4;-1200lbs;;;;;;;;;;;;;x
+jet_bomber_bomb_load_minus_5;-1500lbs;;;;;;;;;;;;;x
+### Jet Ejection Seat ###;;;;;;;;;;;;;;x
+jet_ejection_seat_1;-0.1s Ejection Sequence;;;;;;;;;;;;;x
+jet_ejection_seat_2;-0.2s Ejection Sequence;;;;;;;;;;;;;x
+jet_ejection_seat_3;-0.3s Ejection Sequence;;;;;;;;;;;;;x
+jet_ejection_seat_4;-0.4s Ejection Sequence;;;;;;;;;;;;;x
+jet_ejection_seat_5;-0.5s Ejection Sequence;;;;;;;;;;;;;x
+jet_ejection_seat_6;-0.6s Ejection Sequence;;;;;;;;;;;;;x
+jet_ejection_seat_7;-0.7s Ejection Sequence;;;;;;;;;;;;;x
+### Jet Drop Tanks ###;;;;;;;;;;;;;;x
+jet_drop_tanks_1;+400 Liters;;;;;;;;;;;;;x
+jet_drop_tanks_2;+600 Liters;;;;;;;;;;;;;x
+jet_drop_tanks_3;+800 Liters;;;;;;;;;;;;;x
+jet_drop_tanks_4;+1000 Liters;;;;;;;;;;;;;x
+jet_drop_tanks_5;+1200 Liters;;;;;;;;;;;;;x
+jet_drop_tanks_6;+1400 Liters;;;;;;;;;;;;;x
+jet_drop_tanks_7;+1600 Liters;;;;;;;;;;;;;x
+### Flight Suits ###;;;;;;;;;;;;;;x
+flight_suits_1;Flight Suit Design I;;;;;;;;;;;;;x
+flight_suits_2;Flight Suit Design II;;;;;;;;;;;;;x
+flight_suits_3;Flight Suit Design III;;;;;;;;;;;;;x
+flight_suits_4;Flight Suit Design IV;;;;;;;;;;;;;x
+flight_suits_5;Flight Suit Design V;;;;;;;;;;;;;x
+### Flight G-Suits ###;;;;;;;;;;;;;;x
+flight_g_suits_1;+0.2 Pilot G-Load;;;;;;;;;;;;;x
+flight_g_suits_2;+0.4 Pilot G-Load;;;;;;;;;;;;;x
+flight_g_suits_3;+0.6 Pilot G-Load;;;;;;;;;;;;;x
+flight_g_suits_4;+0.8 Pilot G-Load;;;;;;;;;;;;;x
+flight_g_suits_5;+1.0 Pilot G-Load;;;;;;;;;;;;;x
+### FLIGHT HELMETS ###;;;;;;;;;;;;;;x
+flight_helmets_1;Flight Helmet Design I;;;;;;;;;;;;;x
+flight_helmets_2;Flight Helmet Design II;;;;;;;;;;;;;x
+flight_helmets_3;Flight Helmet Design III;;;;;;;;;;;;;x
+flight_helmets_4;Flight Helmet Design IV;;;;;;;;;;;;;x
+flight_helmets_5;Flight Helmet Design V;;;;;;;;;;;;;x
+### FLIGHT OXYGEN MASKS ###;;;;;;;;;;;;;;x
+flight_oxygen_masks_1;Oxygen Mask Design I;;;;;;;;;;;;;x
+flight_oxygen_masks_2;Oxygen Mask Design II;;;;;;;;;;;;;x
+flight_oxygen_masks_3;Oxygen Mask Design III;;;;;;;;;;;;;x
+flight_oxygen_masks_4;Oxygen Mask Design IV;;;;;;;;;;;;;x
+flight_oxygen_masks_5;Oxygen Mask Design V;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### ADVANCED JET AIRCRAFT ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### MILITARY MEDIUM TRANSPORT HELICOPTER ###;;;;;;;;;;;;;;x
+military_medium_transport_helicopter_1;Medium Helicopter I;;;;;;;;;;;;;x
+military_medium_transport_helicopter_2;Medium Helicopter II;;;;;;;;;;;;;x
+military_medium_transport_helicopter_3;Medium Helicopter III;;;;;;;;;;;;;x
+military_medium_transport_helicopter_4;Medium Helicopter IV;;;;;;;;;;;;;x
+### MILITARY HEAVY TRANSPORT HELICOPTER ###;;;;;;;;;;;;;;x
+military_heavy_transport_helicopter_1;Heavy Helicopter I;;;;;;;;;;;;;x
+military_heavy_transport_helicopter_2;Heavy Helicopter II;;;;;;;;;;;;;x
+military_heavy_transport_helicopter_3;Heavy Helicopter III;;;;;;;;;;;;;x
+### AVIONICS ###;;;;;;;;;;;;;;x
+avionics_1;Avionics I;;;;;;;;;;;;;x
+avionics_2;Avionics II;;;;;;;;;;;;;x
+avionics_3;Avionics III;;;;;;;;;;;;;x
+avionics_4;Avionics IV;;;;;;;;;;;;;x
+avionics_5;Avionics V;;;;;;;;;;;;;x
+avionics_6;Avionics VI;;;;;;;;;;;;;x
+avionics_7;Avionics VII;;;;;;;;;;;;;x
+avionics_8;Avionics VIII;;;;;;;;;;;;;x
+avionics_9;Avionics IX;;;;;;;;;;;;;x
+### ADVANCED FLIGHT EQUIPMENT ###;;;;;;;;;;;;;;x
+advanced_flight_equipment_1;Advanced Equipment I;;;;;;;;;;;;;x
+advanced_flight_equipment_2;Advanced Equipment II;;;;;;;;;;;;;x
+advanced_flight_equipment_3;Advanced Equipment III;;;;;;;;;;;;;x
+advanced_flight_equipment_4;Advanced Equipment IV;;;;;;;;;;;;;x
+advanced_flight_equipment_5;Advanced Equipment V;;;;;;;;;;;;;x
+advanced_flight_equipment_6;Advanced Equipment VI;;;;;;;;;;;;;x
+### TRANSONIC AERODYNAMICS ###;;;;;;;;;;;;;;x
+transonic_aerodynamics_1;Transonic Research I;;;;;;;;;;;;;x
+transonic_aerodynamics_2;Transonic Research II;;;;;;;;;;;;;x
+transonic_aerodynamics_3;Transonic Research III;;;;;;;;;;;;;x
+transonic_aerodynamics_4;Transonic Research IV;;;;;;;;;;;;;x
+transonic_aerodynamics_5;Transonic Research V;;;;;;;;;;;;;x
+### ADVANCED JET FIGHTER ###;;;;;;;;;;;;;;x
+advanced_jet_aircraft_model_1;Production Version I;;;;;;;;;;;;;x
+advanced_jet_aircraft_model_2;Production Version II;;;;;;;;;;;;;x
+advanced_jet_aircraft_model_3;Production Version III;;;;;;;;;;;;;x
+advanced_jet_aircraft_model_4;Production Version IV;;;;;;;;;;;;;x
+advanced_jet_aircraft_model_5;Production Version V;;;;;;;;;;;;;x
+advanced_jet_aircraft_model_6;Production Version VI;;;;;;;;;;;;;x
+advanced_jet_aircraft_model_7;Production Version VII;;;;;;;;;;;;;x
+### ADVANCED JET ENGINE IMPROVEMENTS ###;;;;;;;;;;;;;;x
+advanced_jet_engine_improvements_1;+100lbs Thrust;;;;;;;;;;;;;x
+advanced_jet_engine_improvements_2;+200lbs Thrust;;;;;;;;;;;;;x
+advanced_jet_engine_improvements_3;+300lbs Thrust;;;;;;;;;;;;;x
+advanced_jet_engine_improvements_4;+400lbs Thrust;;;;;;;;;;;;;x
+advanced_jet_engine_improvements_5;+500lbs Thrust;;;;;;;;;;;;;x
+advanced_jet_engine_improvements_6;+600lbs Thrust;;;;;;;;;;;;;x
+advanced_jet_engine_improvements_7;+700lbs Thrust;;;;;;;;;;;;;x
+### ADVANCED JET INTERNAL MECHANICAL IMPROVEMENTS ###;;;;;;;;;;;;;;x
+advanced_jet_internal_mechanical_improvements_1;+70 Km Range;;;;;;;;;;;;;x
+advanced_jet_internal_mechanical_improvements_2;+140 Km Range;;;;;;;;;;;;;x
+advanced_jet_internal_mechanical_improvements_3;+230 Km Range;;;;;;;;;;;;;x
+advanced_jet_internal_mechanical_improvements_4;+300 Km Range;;;;;;;;;;;;;x
+advanced_jet_internal_mechanical_improvements_5;+370 Km Range;;;;;;;;;;;;;x
+advanced_jet_internal_mechanical_improvements_6;+440 Km Range;;;;;;;;;;;;;x
+advanced_jet_internal_mechanical_improvements_7;+510 Km Range;;;;;;;;;;;;;x
+### ADVANCED JET AERODYNAMIC IMPROVEMENTS ###;;;;;;;;;;;;;;x
+advanced_jet_aerodynamic_improvements_1;+0.2 G-Loading;;;;;;;;;;;;;x
+advanced_jet_aerodynamic_improvements_2;+0.4 G-Loading;;;;;;;;;;;;;x
+advanced_jet_aerodynamic_improvements_3;+0.6 G-Loading;;;;;;;;;;;;;x
+advanced_jet_aerodynamic_improvements_4;+0.7 G-Loading;;;;;;;;;;;;;x
+advanced_jet_aerodynamic_improvements_5;+0.8 G-Loading;;;;;;;;;;;;;x
+advanced_jet_aerodynamic_improvements_6;+1.0 G-Loading;;;;;;;;;;;;;x
+advanced_jet_aerodynamic_improvements_7;+1.2 G-Loading;;;;;;;;;;;;;x
+### ADVANCED JET ARMAMENT IMPROVEMENTS ###;;;;;;;;;;;;;;x
+advanced_jet_armament_improvements_1;+500m Weapon Range;;;;;;;;;;;;;x
+advanced_jet_armament_improvements_2;+800m Weapon Range;;;;;;;;;;;;;x
+advanced_jet_armament_improvements_3;+1000m Weapon Range;;;;;;;;;;;;;x
+advanced_jet_armament_improvements_4;+1300m Weapon Range;;;;;;;;;;;;;x
+advanced_jet_armament_improvements_5;+1500m Weapon Range;;;;;;;;;;;;;x
+advanced_jet_armament_improvements_6;+1800m Weapon Range;;;;;;;;;;;;;x
+advanced_jet_armament_improvements_7;+2000m Weapon Range;;;;;;;;;;;;;x
+### TRANSONIC JET ENGINE DESIGN ###;;;;;;;;;;;;;;x
+transonic_jet_engine_design_1;+1000lbs Thrust;;;;;;;;;;;;;x
+transonic_jet_engine_design_2;+1500lbs Thrust;;;;;;;;;;;;;x
+transonic_jet_engine_design_3;+2000lbs Thrust;;;;;;;;;;;;;x
+transonic_jet_engine_design_4;+2500lbs Thrust;;;;;;;;;;;;;x
+transonic_jet_engine_design_5;+3000lbs Thrust;;;;;;;;;;;;;x
+transonic_jet_engine_design_6;+3500lbs Thrust;;;;;;;;;;;;;x
+### TURBOPROP ENGINE DESIGN ###;;;;;;;;;;;;;;x
+turboprop_engine_design_1;+500 Shaft Horsepower;;;;;;;;;;;;;x
+turboprop_engine_design_2;+700 Shaft Horsepower;;;;;;;;;;;;;x
+turboprop_engine_design_3;+1000 Shaft Horsepower;;;;;;;;;;;;;x
+turboprop_engine_design_4;+1200 Shaft Horsepower;;;;;;;;;;;;;x
+turboprop_engine_design_5;+1500 Shaft Horsepower;;;;;;;;;;;;;x
+turboprop_engine_design_6;+1700 Shaft Horsepower;;;;;;;;;;;;;x
+### ADVANCED JET FIGHTER FOCUS ###;;;;;;;;;;;;;;x
+advanced_jet_fighter_focus_1;Advanced Jet Fighter I;;;;;;;;;;;;;x
+advanced_jet_fighter_focus_2;Advanced Jet Fighter II;;;;;;;;;;;;;x
+advanced_jet_fighter_focus_3;Advanced Jet Fighter III;;;;;;;;;;;;;x
+advanced_jet_fighter_focus_4;Advanced Jet Fighter IV;;;;;;;;;;;;;x
+advanced_jet_fighter_focus_5;Advanced Jet Fighter V;;;;;;;;;;;;;x
+advanced_jet_fighter_focus_6;Advanced Jet Fighter VI;;;;;;;;;;;;;x
+advanced_jet_fighter_focus_7;Advanced Jet Fighter VII;;;;;;;;;;;;;x
+### ADVANCED JET CAS FOCUS ###;;;;;;;;;;;;;;x
+advanced_jet_cas_focus_1;Advanced Jet CAS I;;;;;;;;;;;;;x
+advanced_jet_cas_focus_2;Advanced Jet CAS II;;;;;;;;;;;;;x
+advanced_jet_cas_focus_3;Advanced Jet CAS III;;;;;;;;;;;;;x
+advanced_jet_cas_focus_4;Advanced Jet CAS IV;;;;;;;;;;;;;x
+advanced_jet_cas_focus_5;Advanced Jet CAS V;;;;;;;;;;;;;x
+advanced_jet_cas_focus_6;Advanced Jet CAS VI;;;;;;;;;;;;;x
+advanced_jet_cas_focus_7;Advanced Jet CAS VII;;;;;;;;;;;;;x
+### ADVANCED JET BOMBER FOCUS ###;;;;;;;;;;;;;;x
+advanced_jet_bomber_focus_1;Advanced Jet Bomber I;;;;;;;;;;;;;x
+advanced_jet_bomber_focus_2;Advanced Jet Bomber II;;;;;;;;;;;;;x
+advanced_jet_bomber_focus_3;Advanced Jet Bomber III;;;;;;;;;;;;;x
+advanced_jet_bomber_focus_4;Advanced Jet Bomber IV;;;;;;;;;;;;;x
+advanced_jet_bomber_focus_5;Advanced Jet Bomber V;;;;;;;;;;;;;x
+advanced_jet_bomber_focus_6;Advanced Jet Bomber VI;;;;;;;;;;;;;x
+advanced_jet_bomber_focus_7;Advanced Jet Bomber VII;;;;;;;;;;;;;x
+### ADVANCED JET HEAVY BOMBER FOCUS ###;;;;;;;;;;;;;;x
+advanced_jet_heavy_bomber_focus_1;Advanced Jet Heavy Bomber I;;;;;;;;;;;;;x
+advanced_jet_heavy_bomber_focus_2;Advanced Jet Heavy Bomber II;;;;;;;;;;;;;x
+advanced_jet_heavy_bomber_focus_3;Advanced Jet Heavy Bomber III;;;;;;;;;;;;;x
+advanced_jet_heavy_bomber_focus_4;Advanced Jet Heavy Bomber IV;;;;;;;;;;;;;x
+advanced_jet_heavy_bomber_focus_5;Advanced Jet Heavy Bomber V;;;;;;;;;;;;;x
+advanced_jet_heavy_bomber_focus_6;Advanced Jet Heavy Bomber VI;;;;;;;;;;;;;x
+advanced_jet_heavy_bomber_focus_7;Advanced Jet Heavy Bomber VII;;;;;;;;;;;;;x
+### TACTICAL TRANSPORT FOCUS ###;;;;;;;;;;;;;;x
+tactical_transport_focus_1;Tactical Transport I;;;;;;;;;;;;;x
+tactical_transport_focus_2;Tactical Transport II;;;;;;;;;;;;;x
+tactical_transport_focus_3;Tactical Transport III;;;;;;;;;;;;;x
+tactical_transport_focus_4;Tactical Transport IV;;;;;;;;;;;;;x
+tactical_transport_focus_5;Tactical Transport V;;;;;;;;;;;;;x
+tactical_transport_focus_6;Tactical Transport VI;;;;;;;;;;;;;x
+tactical_transport_focus_7;Tactical Transport VII;;;;;;;;;;;;;x
+### ADVANCED JET FIGHTER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_plus_1;+200lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_plus_2;+500lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_plus_3;+800lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_plus_4;+1000lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_plus_5;+1200lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_plus_6;+1500lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_plus_7;+1800lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_plus_8;+2000lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_plus_9;+2400lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_plus_10;+2800lbs;;;;;;;;;;;;;x
+### ADVANCED JET FIGHTER BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_minus_1;-200lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_minus_2;-500lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_minus_3;-800lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_minus_4;-1000lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_minus_5;-1200lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_minus_6;-1500lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_minus_7;-1800lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_minus_8;-2000lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_minus_9;-2400lbs;;;;;;;;;;;;;x
+advanced_jet_fighter_bomb_load_minus_10;-2800lbs;;;;;;;;;;;;;x
+### ADVANCED JET BOMBER BOMB LOAD PLUS ###;;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_plus_1;+500lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_plus_2;+1000lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_plus_3;+1500lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_plus_4;+2000lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_plus_5;+2500lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_plus_6;+3000lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_plus_7;+3500lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_plus_8;+4000lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_plus_9;+4500lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_plus_10;+5000lbs;;;;;;;;;;;;;x
+### ADVANCED JET BOMBER BOMB LOAD MINUS ###;;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_minus_1;-500lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_minus_2;-1000lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_minus_3;-1500lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_minus_4;-2000lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_minus_5;-2500lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_minus_6;-3000lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_minus_7;-3500lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_minus_8;-4000lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_minus_9;-4500lbs;;;;;;;;;;;;;x
+advanced_jet_bomber_bomb_load_minus_10;-5000lbs;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### AIRCRAFT ARMAMENT TECHS ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### FIGHTER AIRCRAFT MACHINE GUNS ###;;;;;;;;;;;;;;x
+fighter_aircraft_machine_guns_1;Machine Guns I;;;;;;;;;;;;;x
+fighter_aircraft_machine_guns_2;Machine Guns II;;;;;;;;;;;;;x
+fighter_aircraft_machine_guns_3;Machine Guns III;;;;;;;;;;;;;x
+fighter_aircraft_machine_guns_4;Machine Guns IV;;;;;;;;;;;;;x
+fighter_aircraft_machine_guns_5;Machine Guns V;;;;;;;;;;;;;x
+fighter_aircraft_machine_guns_6;Machine Guns VI;;;;;;;;;;;;;x
+fighter_aircraft_machine_guns_7;Machine Guns VII;;;;;;;;;;;;;x
+### Fighter Aircraft Cannons ###;;;;;;;;;;;;;;x
+fighter_aircraft_cannons_1;Cannons I;;;;;;;;;;;;;x
+fighter_aircraft_cannons_2;Cannons II;;;;;;;;;;;;;x
+fighter_aircraft_cannons_3;Cannons III;;;;;;;;;;;;;x
+fighter_aircraft_cannons_4;Cannons IV;;;;;;;;;;;;;x
+fighter_aircraft_cannons_5;Cannons V;;;;;;;;;;;;;x
+fighter_aircraft_cannons_6;Cannons VI;;;;;;;;;;;;;x
+fighter_aircraft_cannons_7;Cannons VII;;;;;;;;;;;;;x
+### Fighter Aircraft Cannons ###;;;;;;;;;;;;;;x
+fighter_aircraft_mg_and_cannons_1;MG/Cannon Combo I;;;;;;;;;;;;;x
+fighter_aircraft_mg_and_cannons_2;MG/Cannon Combo II;;;;;;;;;;;;;x
+fighter_aircraft_mg_and_cannons_3;MG/Cannon Combo III;;;;;;;;;;;;;x
+fighter_aircraft_mg_and_cannons_4;MG/Cannon Combo IV;;;;;;;;;;;;;x
+fighter_aircraft_mg_and_cannons_5;MG/Cannon Combo V;;;;;;;;;;;;;x
+fighter_aircraft_mg_and_cannons_6;MG/Cannon Combo VI;;;;;;;;;;;;;x
+fighter_aircraft_mg_and_cannons_7;MG/Cannon Combo VII;;;;;;;;;;;;;x
+### CAS Aircraft Machine Guns ###;;;;;;;;;;;;;;x
+cas_aircraft_machine_guns_1;Machine Guns I;;;;;;;;;;;;;x
+cas_aircraft_machine_guns_2;Machine Guns II;;;;;;;;;;;;;x
+cas_aircraft_machine_guns_3;Machine Guns III;;;;;;;;;;;;;x
+cas_aircraft_machine_guns_4;Machine Guns IV;;;;;;;;;;;;;x
+cas_aircraft_machine_guns_5;Machine Guns V;;;;;;;;;;;;;x
+cas_aircraft_machine_guns_6;Machine Guns VI;;;;;;;;;;;;;x
+cas_aircraft_machine_guns_7;Machine Guns VII;;;;;;;;;;;;;x
+### CAS Aircraft Cannons ###;;;;;;;;;;;;;;x
+cas_aircraft_cannons_1;Cannons I;;;;;;;;;;;;;x
+cas_aircraft_cannons_2;Cannons II;;;;;;;;;;;;;x
+cas_aircraft_cannons_3;Cannons III;;;;;;;;;;;;;x
+cas_aircraft_cannons_4;Cannons IV;;;;;;;;;;;;;x
+cas_aircraft_cannons_5;Cannons V;;;;;;;;;;;;;x
+cas_aircraft_cannons_6;Cannons VI;;;;;;;;;;;;;x
+cas_aircraft_cannons_7;Cannons VII;;;;;;;;;;;;;x
+### Jet Fighter Aircraft Machine Guns ###;;;;;;;;;;;;;;x
+jet_fighter_aircraft_machine_guns_1;Jet Machine Guns I;;;;;;;;;;;;;x
+jet_fighter_aircraft_machine_guns_2;Jet Machine Guns II;;;;;;;;;;;;;x
+jet_fighter_aircraft_machine_guns_3;Jet Machine Guns III;;;;;;;;;;;;;x
+jet_fighter_aircraft_machine_guns_4;Jet Machine Guns IV;;;;;;;;;;;;;x
+jet_fighter_aircraft_machine_guns_5;Jet Machine Guns V;;;;;;;;;;;;;x
+jet_fighter_aircraft_machine_guns_6;Jet Machine Guns VI;;;;;;;;;;;;;x
+jet_fighter_aircraft_machine_guns_7;Jet Machine Guns VII;;;;;;;;;;;;;x
+### Jet Fighter Aircraft Cannons ###;;;;;;;;;;;;;;x
+jet_fighter_aircraft_cannons_1;Jet Cannons I;;;;;;;;;;;;;x
+jet_fighter_aircraft_cannons_2;Jet Cannons II;;;;;;;;;;;;;x
+jet_fighter_aircraft_cannons_3;Jet Cannons III;;;;;;;;;;;;;x
+jet_fighter_aircraft_cannons_4;Jet Cannons IV;;;;;;;;;;;;;x
+jet_fighter_aircraft_cannons_5;Jet Cannons V;;;;;;;;;;;;;x
+jet_fighter_aircraft_cannons_6;Jet Cannons VI;;;;;;;;;;;;;x
+jet_fighter_aircraft_cannons_7;Jet Cannons VII;;;;;;;;;;;;;x
+### Air to Ground Rockets ###;;;;;;;;;;;;;;x
+air_to_ground_rockets_1;Rockets I;;;;;;;;;;;;;x
+air_to_ground_rockets_2;Rockets II;;;;;;;;;;;;;x
+air_to_ground_rockets_3;Rockets III;;;;;;;;;;;;;x
+air_to_ground_rockets_4;Rockets IV;;;;;;;;;;;;;x
+air_to_ground_rockets_5;Rockets V;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### AIRCRAFT SYSTEM TECHS ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### V12 Inline Liquid Cooled Engine	###;;;;;;;;;;;;;;x
+v_twelve_aircraft_engine_1;500hp Engine;;;;;;;;;;;;;x
+v_twelve_aircraft_engine_2;700hp Engine;;;;;;;;;;;;;x
+v_twelve_aircraft_engine_3;900hp Engine;;;;;;;;;;;;;x
+v_twelve_aircraft_engine_4;1100hp Engine;;;;;;;;;;;;;x
+v_twelve_aircraft_engine_5;1300hp Engine;;;;;;;;;;;;;x
+v_twelve_aircraft_engine_6;1500hp Engine;;;;;;;;;;;;;x
+v_twelve_aircraft_engine_7;1700hp Engine;;;;;;;;;;;;;x
+### H24 Cylinder Engine ###;;;;;;;;;;;;;;x
+h_twenty_four_cylinder_aircraft_engine_1;800hp Engine;;;;;;;;;;;;;x
+h_twenty_four_cylinder_aircraft_engine_2;1100hp Engine;;;;;;;;;;;;;x
+h_twenty_four_cylinder_aircraft_engine_3;1400hp Engine;;;;;;;;;;;;;x
+h_twenty_four_cylinder_aircraft_engine_4;1700hp Engine;;;;;;;;;;;;;x
+### 18 Cylinder Radial Engine	###;;;;;;;;;;;;;;x
+eighteen_cylinder_radial_aircraft_engine_1;600hp Engine;;;;;;;;;;;;;x
+eighteen_cylinder_radial_aircraft_engine_2;800hp Engine;;;;;;;;;;;;;x
+eighteen_cylinder_radial_aircraft_engine_3;1000hp Engine;;;;;;;;;;;;;x
+eighteen_cylinder_radial_aircraft_engine_4;1200hp Engine;;;;;;;;;;;;;x
+eighteen_cylinder_radial_aircraft_engine_5;1400hp Engine;;;;;;;;;;;;;x
+eighteen_cylinder_radial_aircraft_engine_6;1700hp Engine;;;;;;;;;;;;;x
+eighteen_cylinder_radial_aircraft_engine_7;2000hp Engine;;;;;;;;;;;;;x
+### 14 Cylinder Radial Engine	###;;;;;;;;;;;;;;x
+fourteen_cylinder_radial_aircraft_engine_1;600hp Engine;;;;;;;;;;;;;x
+fourteen_cylinder_radial_aircraft_engine_2;800hp Engine;;;;;;;;;;;;;x
+fourteen_cylinder_radial_aircraft_engine_3;1000hp Engine;;;;;;;;;;;;;x
+fourteen_cylinder_radial_aircraft_engine_4;1200hp Engine;;;;;;;;;;;;;x
+fourteen_cylinder_radial_aircraft_engine_5;1400hp Engine;;;;;;;;;;;;;x
+fourteen_cylinder_radial_aircraft_engine_6;1700hp Engine;;;;;;;;;;;;;x
+fourteen_cylinder_radial_aircraft_engine_7;2000hp Engine;;;;;;;;;;;;;x
+### 9 Cylinder Radial Engine ###;;;;;;;;;;;;;;x
+nine_cylinder_radial_aircraft_engine_1;300hp Engine;;;;;;;;;;;;;x
+nine_cylinder_radial_aircraft_engine_2;500hp Engine;;;;;;;;;;;;;x
+nine_cylinder_radial_aircraft_engine_3;800hp Engine;;;;;;;;;;;;;x
+nine_cylinder_radial_aircraft_engine_4;1000hp Engine;;;;;;;;;;;;;x
+nine_cylinder_radial_aircraft_engine_5;1300hp Engine;;;;;;;;;;;;;x
+nine_cylinder_radial_aircraft_engine_6;1600hp Engine;;;;;;;;;;;;;x
+### Cable Flight Control System	###;;;;;;;;;;;;;;x
+cable_flight_control_system_1;+2% Controllability;;;;;;;;;;;;;x
+cable_flight_control_system_2;+4% Controllability;;;;;;;;;;;;;x
+cable_flight_control_system_3;+6% Controllability;;;;;;;;;;;;;x
+cable_flight_control_system_4;+8% Controllability;;;;;;;;;;;;;x
+cable_flight_control_system_5;+10% Controllability;;;;;;;;;;;;;x
+cable_flight_control_system_6;+12% Controllability;;;;;;;;;;;;;x
+cable_flight_control_system_7;+14% Controllability;;;;;;;;;;;;;x
+### Hydraulics System	###;;;;;;;;;;;;;;x
+hydraulics_system_1;+5% Powered Systems;;;;;;;;;;;;;x
+hydraulics_system_2;+10% Powered Systems;;;;;;;;;;;;;x
+hydraulics_system_3;+15% Powered Systems;;;;;;;;;;;;;x
+hydraulics_system_4;+20% Powered Systems;;;;;;;;;;;;;x
+hydraulics_system_5;+25% Powered Systems;;;;;;;;;;;;;x
+### Automatic Leading Edge Slots ###;;;;;;;;;;;;;;x
+automatic_leading_edge_slots_1;+5% Manueverability;;;;;;;;;;;;;x
+automatic_leading_edge_slots_2;+10% Manueverability;;;;;;;;;;;;;x
+automatic_leading_edge_slots_3;+15% Manueverability;;;;;;;;;;;;;x
+automatic_leading_edge_slots_4;+20% Manueverability;;;;;;;;;;;;;x
+automatic_leading_edge_slots_5;+25% Manueverability;;;;;;;;;;;;;x
+automatic_leading_edge_slots_6;+30% Manueverability;;;;;;;;;;;;;x
+automatic_leading_edge_slots_7;+35% Manueverability;;;;;;;;;;;;;x
+automatic_leading_edge_slots_8;+40% Manueverability;;;;;;;;;;;;;x
+### Pushrod and Bearing Flight Control System ###;;;;;;;;;;;;;;x
+pushrod_and_bearing_flight_control_system_1;+10% Controllability;;;;;;;;;;;;;x
+pushrod_and_bearing_flight_control_system_2;+15% Controllability;;;;;;;;;;;;;x
+pushrod_and_bearing_flight_control_system_3;+20% Controllability;;;;;;;;;;;;;x
+pushrod_and_bearing_flight_control_system_4;+25% Controllability;;;;;;;;;;;;;x
+pushrod_and_bearing_flight_control_system_5;+30% Controllability;;;;;;;;;;;;;x
+pushrod_and_bearing_flight_control_system_6;+35% Controllability;;;;;;;;;;;;;x
+### Electrical Motors Systems ###;;;;;;;;;;;;;;x
+electrical_motor_systems_1;+30% Powered Systems;;;;;;;;;;;;;x
+electrical_motor_systems_2;+35% Powered Systems;;;;;;;;;;;;;x
+electrical_motor_systems_3;+40% Powered Systems;;;;;;;;;;;;;x
+electrical_motor_systems_4;+45% Powered Systems;;;;;;;;;;;;;x
+electrical_motor_systems_5;+50% Powered Systems;;;;;;;;;;;;;x
+electrical_motor_systems_6;+55% Powered Systems;;;;;;;;;;;;;x
+electrical_motor_systems_7;+60% Powered Systems;;;;;;;;;;;;;x
+### Variable Pitch Propeller ###;;;;;;;;;;;;;;x
+variable_pitch_propeller_1;+10% Pitch Controllability;;;;;;;;;;;;;x
+variable_pitch_propeller_2;+20% Pitch Controllability;;;;;;;;;;;;;x
+variable_pitch_propeller_3;+30% Pitch Controllability;;;;;;;;;;;;;x
+variable_pitch_propeller_4;+40% Pitch Controllability;;;;;;;;;;;;;x
+variable_pitch_propeller_5;+50% Pitch Controllability;;;;;;;;;;;;;x
+### Gun Sight ###;;;;;;;;;;;;;;x
+gun_sight_1;Basic Iron Sights;;;;;;;;;;;;;x
+gun_sight_2;Floating Gun Sights;;;;;;;;;;;;;x
+gun_sight_3;Reflector Gun Sights;;;;;;;;;;;;;x
+gun_sight_4;Gyro Gun Sights;;;;;;;;;;;;;x
+### Pressurized Cockpit ###;;;;;;;;;;;;;;x
+pressurized_cockpit_1;+5,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cockpit_2;+7,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cockpit_3;+9,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cockpit_4;+11,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cockpit_5;+13,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cockpit_6;+15,000ft Altitude;;;;;;;;;;;;;x
+pressurized_cockpit_7;+17,000ft Altitude;;;;;;;;;;;;;x
+### Nitrous Oxide ###;;;;;;;;;;;;;;x
+nitrous_oxide_1;+10% Nitrous Boost;;;;;;;;;;;;;x
+nitrous_oxide_2;+15% Nitrous Boost;;;;;;;;;;;;;x
+nitrous_oxide_3;+20% Nitrous Boost;;;;;;;;;;;;;x
+nitrous_oxide_4;+25% Nitrous Boost;;;;;;;;;;;;;x
+### Bombing Sight ###;;;;;;;;;;;;;;x
+bombing_sight_1;+10% Level Bombing Accuracy;;;;;;;;;;;;;x
+bombing_sight_2;+20% Level Bombing Accuracy;;;;;;;;;;;;;x
+bombing_sight_3;+30% Level Bombing Accuracy;;;;;;;;;;;;;x
+bombing_sight_4;+40% Level Bombing Accuracy;;;;;;;;;;;;;x
+bombing_sight_5;+50% Level Bombing Accuracy;;;;;;;;;;;;;x
+### Acrylic Bubble Cockpit ###;;;;;;;;;;;;;;x
+acrylic_bubble_cockpit_1;+10% Situational Awareness;;;;;;;;;;;;;x
+acrylic_bubble_cockpit_2;+20% Situational Awareness;;;;;;;;;;;;;x
+acrylic_bubble_cockpit_3;+30% Situational Awareness;;;;;;;;;;;;;x
+acrylic_bubble_cockpit_4;+40% Situational Awareness;;;;;;;;;;;;;x
+acrylic_bubble_cockpit_5;+50% Situational Awareness;;;;;;;;;;;;;x
+acrylic_bubble_cockpit_6;+60% Situational Awareness;;;;;;;;;;;;;x
+acrylic_bubble_cockpit_7;+70% Situational Awareness;;;;;;;;;;;;;x
+acrylic_bubble_cockpit_8;+80% Situational Awareness;;;;;;;;;;;;;x
+acrylic_bubble_cockpit_9;+90% Situational Awareness;;;;;;;;;;;;;x
+acrylic_bubble_cockpit_10;+100% Situational Awareness;;;;;;;;;;;;;x
+### Self Sealing Fuel Tanks ###;;;;;;;;;;;;;;x
+self_sealing_fuel_tanks_1;+10% Protection;;;;;;;;;;;;;x
+self_sealing_fuel_tanks_2;+20% Protection;;;;;;;;;;;;;x
+self_sealing_fuel_tanks_3;+30% Protection;;;;;;;;;;;;;x
+self_sealing_fuel_tanks_4;+40% Protection;;;;;;;;;;;;;x
+self_sealing_fuel_tanks_5;+50% Protection;;;;;;;;;;;;;x
+### Drop Tanks ###;;;;;;;;;;;;;;x
+drop_tanks_1;+100 Liters;;;;;;;;;;;;;x
+drop_tanks_2;+200 Liters;;;;;;;;;;;;;x
+drop_tanks_3;+300 Liters;;;;;;;;;;;;;x
+drop_tanks_4;+400 Liters;;;;;;;;;;;;;x
+drop_tanks_5;+500 Liters;;;;;;;;;;;;;x
+drop_tanks_6;+600 Liters;;;;;;;;;;;;;x
+drop_tanks_7;+700 Liters;;;;;;;;;;;;;x
+drop_tanks_8;+800 Liters;;;;;;;;;;;;;x
+drop_tanks_9;+900 Liters;;;;;;;;;;;;;x
+drop_tanks_10;+1000 Liters;;;;;;;;;;;;;x
+### SuperCharger ###;;;;;;;;;;;;;;x
+supercharger_1;+100hp;;;;;;;;;;;;;x
+supercharger_2;+150hp;;;;;;;;;;;;;x
+supercharger_3;+200hp;;;;;;;;;;;;;x
+supercharger_4;+250hp;;;;;;;;;;;;;x
+### Fuel Injection ###;;;;;;;;;;;;;;x
+fuel_injection_1;+10% Engine Efficiency;;;;;;;;;;;;;x
+fuel_injection_2;+15% Engine Efficiency;;;;;;;;;;;;;x
+fuel_injection_3;+20% Engine Efficiency;;;;;;;;;;;;;x
+fuel_injection_4;+25% Engine Efficiency;;;;;;;;;;;;;x
+fuel_injection_5;+30% Engine Efficiency;;;;;;;;;;;;;x
+fuel_injection_6;+35% Engine Efficiency;;;;;;;;;;;;;x
+fuel_injection_7;+40% Engine Efficiency;;;;;;;;;;;;;x
+### Airborne Air Intercept Radar ###;;;;;;;;;;;;;;x
+airborne_air_intercept_radar_1;+5% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_2;+10% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_3;+15% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_4;+20% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_5;+25% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_6;+30% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_7;+45% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_8;+50% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_9;+55% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_10;+60% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_11;+65% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_12;+70% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_13;+75% Air Radar Efficiency;;;;;;;;;;;;;x
+airborne_air_intercept_radar_14;+80% Air Radar Efficiency;;;;;;;;;;;;;x
+### Air to Surface Vessel Radar ###;;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_1;+5% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_2;+10% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_3;+15% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_4;+20% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_5;+25% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_6;+30% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_7;+45% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_8;+50% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_9;+55% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_10;+60% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_11;+65% Sea Radar Efficiency;;;;;;;;;;;;;x
+air_to_surface_vessel_radar_12;+70% Sea Radar Efficiency;;;;;;;;;;;;;x
+### Airborne Surface Search Radar ###;;;;;;;;;;;;;;x
+airborne_surface_search_radar_1;+5% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_2;+10% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_3;+15% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_4;+20% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_5;+25% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_6;+30% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_7;+45% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_8;+50% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_9;+55% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_10;+60% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_11;+65% Ground Radar Efficiency;;;;;;;;;;;;;x
+airborne_surface_search_radar_12;+70% Ground Radar Efficiency;;;;;;;;;;;;;x
+### Radar Guided Navigation Equipment ###;;;;;;;;;;;;;;x
+radar_guided_navigation_equipment_1;+5% Navigation Efficiency;;;;;;;;;;;;;x
+radar_guided_navigation_equipment_2;+10% Navigation Efficiency;;;;;;;;;;;;;x
+radar_guided_navigation_equipment_3;+15% Navigation Efficiency;;;;;;;;;;;;;x
+radar_guided_navigation_equipment_4;+20% Navigation Efficiency;;;;;;;;;;;;;x
+radar_guided_navigation_equipment_5;+25% Navigation Efficiency;;;;;;;;;;;;;x
+radar_guided_navigation_equipment_6;+30% Navigation Efficiency;;;;;;;;;;;;;x
+### Radar Detectors ###;;;;;;;;;;;;;;x
+aircraft_radar_detectors_1;+5% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_2;+10% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_3;+15% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_4;+20% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_5;+25% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_6;+30% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_7;+45% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_8;+50% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_9;+55% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_10;+60% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_11;+65% Radar Detection;;;;;;;;;;;;;x
+aircraft_radar_detectors_12;+70% Radar Detection;;;;;;;;;;;;;x
+### Chaff ###;;;;;;;;;;;;;;x
+chaff_1;+5% Chaff Efficiency;;;;;;;;;;;;;x
+chaff_2;+10% Chaff Efficiency;;;;;;;;;;;;;x
+chaff_3;+15% Chaff Efficiency;;;;;;;;;;;;;x
+chaff_4;+20% Chaff Efficiency;;;;;;;;;;;;;x
+chaff_5;+25% Chaff Efficiency;;;;;;;;;;;;;x
+### Aircraft Radios ###;;;;;;;;;;;;;;x
+aircraft_radios_1;+5% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_2;+10% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_3;+15% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_4;+20% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_5;+25% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_6;+30% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_7;+45% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_8;+50% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_9;+55% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_10;+60% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_11;+65% Radio Range;;;;;;;;;;;;;x
+aircraft_radios_12;+70% Radio Range;;;;;;;;;;;;;x
+### Intercoolers ###;;;;;;;;;;;;;;x
+intercoolers_1;+10% Engine Performance;;;;;;;;;;;;;x
+intercoolers_2;+20% Engine Performance;;;;;;;;;;;;;x
+### Turbochargers ###;;;;;;;;;;;;;;x
+turbo_chargers_1;+100hp;;;;;;;;;;;;;x
+turbo_chargers_2;+200hp;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

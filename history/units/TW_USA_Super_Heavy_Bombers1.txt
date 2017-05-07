@@ -1,0 +1,18 @@
+military_construction = {
+	country = USA
+	
+	super_heavy_bomber = { 
+		historical_model = 0
+	}
+	super_heavy_bomber = { 
+		historical_model = 0
+	}
+	super_heavy_bomber = { 
+		historical_model = 0
+	}
+		
+	cost = 120.00
+	duration = 140
+	progress = 40
+}
+#EOF#

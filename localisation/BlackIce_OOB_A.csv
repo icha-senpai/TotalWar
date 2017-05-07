@@ -1,0 +1,436 @@
+#############################################################;;;;;;;;;;;;;;x
+######## Aleksi_i units #####################################;;;;;;;;;;;;;;x
+#############################################################;;;;;;;;;;;;;;x
+EVTDESC6660000;You will get UTR units from vanilla Black ICE event or UTR event OOB's ;;;;;;;;;;;;;x
+EVTDESC6660001;We need more special trained and equipped units to fight in africa.\n\nOptions\nYou can have bulk of four "Afrika-Divisions" with one korps or without it.\nDivisions have Afrika brigade, armored cars, staff and truck transports\n\nShould we start training these units? ;;;;;;;;;;;;;x
+#### 352. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCCLII_ID;Stab 352. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCCLII_ID_short;Stb 352. ID;;;;;;;;;;;;;x
+EVTDESC6660004;The 352nd was formed in November 1943 in France, commanded by Generalleutnant Dietrich Kraiss from 6 November 1943 until it was destroyed in July 1944. Organizationally, the 352nd was better off than most German divisions in 1944 although other divisions too were very powerful. At that time, as a result of severe personnel losses, German infantry divisions were generally reduced to six battalions. The 352nd, however, retained its full complement of nine battalions.\n\nThe soldiers of the 916th and 726th regiments occupied slit trenches, eight concrete bunkers, 35 pillboxes, six mortar pits, sites for 35 Nebelwerfers, (multi-barrel rocket launchers) and 85 machine-gun nests. The defenses were clustered in strongpoints.\nThe 916th Grenadier Regiment saw action during D-Day (Operation Overlord), opposing the US 1st and 29th divisions at Omaha Beach. The 352nd gave a good account of itself, causing many casualties and defending the bluffs above the beach for several hours before being overwhelmed.\nThe 916th retreated in the morning hours of 7 June after the commander, Colonel Ernst Goth, could no longer hold the positions retaken in the night of 6/7 June.\n\nSoldier named Heinrich Severloh inflicted a large number of casualties on the US forces landing on Omaha Beach from a machine gun emplacement known as “Widerstandsnest 62” and was nicknamed the "Beast of Omaha Beach". ;;;;;;;;;;;;;x
+#### 22. Panzer-Division ####;;;;;;;;;;;;;;x
+GER_A_XXII_mPzD;Stab 22. Pz.-Div;;;;;;;;;;;;;x
+GER_A_XXII_mPzD_short;Stb 22. PzD;;;;;;;;;;;;;x
+EVTDESC6660048;The 22. Panzer-Division was formed in September 1941 in France. It was transferred to the southern sector of the Eastern front in February 1942. It was encircled and almost destroyed during the fighting near Stalingrad.\n\nThe division is upgraded in 1st November 1942. ;;;;;;;;;;;;;x
+EVTDESC6660049;On November 19, 1942, Operation Uranus began. The great Soviet counter-offensive encircled the German 6th Army and much of the 4th Panzer Army and smashed the XXXXVIII Panzer Corps, including the 22nd Panzer Division. Many of the division's tanks had been parked in dugouts for an extended period of time and protected from the frost by straw. When the tanks were called on to respond to the Soviet offensive, many could not be started because mice had sought refuge in the straw and then in the tanks where they chewed up the insulation of electric system wires. The ability of the division to put up effective resistance was also compromised by the prior piecemeal deployment of division assets to shore up the Romanian line. ;;;;;;;;;;;;;x
+#### 23. Panzer-Division ####;;;;;;;;;;;;;;x
+GER_A_XXIII_mPzD;Stab 23. Pz.-Div;;;;;;;;;;;;;x
+GER_A_XXIII_mPzD_short;Stb 23. PzD;;;;;;;;;;;;;x
+EVTDESC6660050;The 23. Panzer-Division was formed in September 1941 in France from Panzer-Brigade 101 and replacement troops. It was transferred to the southern sector of the Eastern front in April 1942 and took part in the failed attempt to relieve the surrounded troops at Stalingrad. It withdrew through the Ukraine and Poland until October 1944 when it was sent to Hungary. It fought in Hungary and Slovakia before being destroyed by the Red Army in Austria. ;;;;;;;;;;;;;x
+#### 25. Panzer-Division ####;;;;;;;;;;;;;;x
+GER_A_XXV_mPzD;Stab 25. Pz.-Div;;;;;;;;;;;;;x
+GER_A_XXV_mPzD_short;Stb 25. PzD;;;;;;;;;;;;;x
+EVTDESC6660051;The 25. Panzer-Division was formed in February 1942 in Eberswalde and was sent to Norway where it remained until August 1943 when it was transferred to Denmark where it took part in the disarming of the Danish Army. It was sent to the Eastern front in October and suffered heavy losses during the withdrawal through the Ukraine. It was once again sent to Denmark, this time for refitting in May 1944. It was sent to the front in Poland in September 1944 and withdrew through Poland and into eastern Germany where it ended the war. ;;;;;;;;;;;;;x
+#### 26. Panzer-Division ####;;;;;;;;;;;;;;x
+GER_A_XXVI_mPzD;Stab 26. Pz.-Div;;;;;;;;;;;;;x
+GER_A_XXVI_mPzD_short;Stb 26. PzD;;;;;;;;;;;;;x
+EVTDESC6660052;The 26. Panzer-Division was formed in September 1942 in Belgium from parts of 23. Infanterie-Division. It was transferred to Amiens, France in October 1942 for training and coastal defense and remained there until July 1943 when it was sent to Italy where it fought the Allied landings. It surrendered to the Allies in northern Italy at the end of the war. ;;;;;;;;;;;;;x
+#### 27. Panzer-Division ####;;;;;;;;;;;;;;x
+GER_A_XXVII_mPzD;Stab 27. Pz.-Div;;;;;;;;;;;;;x
+GER_A_XXVII_mPzD_short;Stb 27. PzD;;;;;;;;;;;;;x
+EVTDESC6660053;The 27. Panzer-Division was formed in October 1942 in southern Russia from Kampfgruppe Michalik (formed from elemets of 22. Panzer-Division). It fought at Voronezh and Voroshilovgrad until it was disbanded on 15 February 1943 and absorbed into 7. Panzer-Division and 24. Panzer-Division.\n\nYou can choose the historic with one panzer battalion and infantry regiment\nOr go with the one Pz.-regiment and two infantry regiments. ;;;;;;;;;;;;;x
+#### 97. Jaeger-Division ####;;;;;;;;;;;;;;x
+GER_A_XCVII_jaeger;Stab 97. Jaeger.-Div;;;;;;;;;;;;;x
+GER_A_XCVII_jaeger;Stb 97. JD;;;;;;;;;;;;;x
+EVTDESC6660039;The 97. Leichte Infanterie-Division was formed on 10 December 1940 near Bad Tölz. It was redesignated 97. Jäger-Division on 6 July 1942. ;;;;;;;;;;;;;x
+EVTDESC6660040;The 97. Jäger-Division was formed on 6 July 1942. It can trace its origins to the 97th Light Infantry Division which was formed in December 1940. It fought in the Kursk offensive and suffered heavy losses. It was transferred to the lower Dnieper and fought well during the retreat through the Ukraine. The division was transferred to Slovakia in October 1944 and surrendered to the Red Army near Deutsch Brod in May 1945. it was one of the most highly decorated units of in the German army.;;;;;;;;;;;;;x
+#### Schwere Panzer-Abteilung 501 ####;;;;;;;;;;;;;;x
+GER_A_501_sPzA;Stab 501. s.Pz.-Abt.;;;;;;;;;;;;;x
+GER_A_501_sPzA_short;Stb 501. sPzA;;;;;;;;;;;;;x
+EVTDESC6660016;The Schwere Panzer-Abteilung 501 was formed on 10 May 1942 in Erfurt, commanded by Major Hans-Georg Lueder.\n\nIt was sended to North Africa following the Allied landings in Africa. The first tanks arrived in Tunisia November 1942. It surrendered in Tunisia May 1943.\n\nIt was reformed in September 1943 from the cadre that had not been sent to Africa and was sent to the Eastern front in November and fought at Vitebsk and Gorodok.\n\nIt will be refitted with Tiger II (Königstiger) tanks in July 1944\n\nDo you want to form it? ;;;;;;;;;;;;;x
+EVTDESC6660017;The Schwere Panzer-Abteilung 501 was refitted with Tiger II (Königstiger) tanks in July 1944 and attached to Heeresgruppe Nordukraine. ;;;;;;;;;;;;;x
+#### Schwere Panzer-Abteilung 502 ####;;;;;;;;;;;;;;x
+GER_A_502_sPzA;Stab 502. s.Pz.-Abt.;;;;;;;;;;;;;x
+GER_A_502_sPzA_short;Stb 502. sPzA;;;;;;;;;;;;;x
+EVTDESC6660018;The Schwere Panzer-Abteilung 502 was formed in 25 May 1942 at Bamberg from the 35th Panzer Training Battalion. First tanks arrived at the front near Leningrad on 29 August 1942. On 22 September, after crossing a causeway, a Tiger became bogged down in the mud, due to enemy fire the tank could not be recovered despite a number of attempts. the tank was destroyed on 25 November to prevent its capture by the enemy. This marked the first total loss of a Tiger I.\n\nHistoricly it only received a few Tiger IIs. But it can be refitted in April 1945\n\nDo you want to form it? ;;;;;;;;;;;;;x
+EVTDESC6660019;The Schwere Panzer-Abteilung 502 can be refitted with Tiger II (Königstiger). ;;;;;;;;;;;;;x
+#### Schwere Panzer-Abteilung 503 ####;;;;;;;;;;;;;;x
+GER_A_503_sPzA;Stab 503. s.Pz.-Abt.;;;;;;;;;;;;;x
+GER_A_503_sPzA_short;Stb 503. sPzA;;;;;;;;;;;;;x
+EVTDESC6660020;The Schwere Panzer-Abteilung 503 was originally planned for North Africa but was sent to the Eastern front. It fought in southern Russia, taking part in the Don campaign and the withdrawal from Stalingrad.\n\nit will be re-equipped with the new Tiger II in july 1944.\n\nDo you want to form it? ;;;;;;;;;;;;;x
+EVTDESC6660021;The Schwere Panzer-Abteilung 503 can be refitted with Tiger II (Königstiger). ;;;;;;;;;;;;;x
+#### Schwere Panzer-Abteilung 504 ####;;;;;;;;;;;;;;x
+GER_A_504_sPzA;Stab 504. s.Pz.-Abt.;;;;;;;;;;;;;x
+GER_A_504_sPzA_short;Stb 504. sPzA;;;;;;;;;;;;;x
+EVTDESC6660022;The Schwere Panzer-Abteilung 504 was formed in February 1943 Fallingbostel, and one company was sent to North Africa in Marvh 1943. It surrendered in Tunisia in May 1943. The second company was attached to Fallschirm-Panzer-Division Hermann Göring and fought the Allies after the landing on Sicily in July 1943. It was evacuated across Messina Strait to Italy and was sent to Holland for refitting. The 504 returned to Italy in June 1944 and was attached to SS Panzergrenadier Division Götz von Berlichingen. It fought the Allies at Anzio in support of 362. Infanterie-Division.\n\nIt will be refitted with Tiger II (Königstiger) tanks in December 1944.\n\nDo you want to form it? ;;;;;;;;;;;;;x
+EVTDESC6660023;The Schwere Panzer-Abteilung 504 can be refitted with Tiger II (Königstiger). ;;;;;;;;;;;;;x
+#### Schwere Panzer-Abteilung 505 ####;;;;;;;;;;;;;;x
+GER_A_505_sPzA;Stab 505. s.Pz.-Abt.;;;;;;;;;;;;;x
+GER_A_505_sPzA_short;Stb 505. sPzA;;;;;;;;;;;;;x
+EVTDESC6660024;The Schwere Panzer-Abteilung 505 was formed in January 1943. It was assigned to 9. Armee and fought at Kursk and after Kursk it was attached to Heeresgruppe Mitte and fought at Smolensk.\n\nIt was refitted with Tiger II (Königstiger) tanks in September 1944 and fought with 24. Panzer-Division and 5. Panzer-Division in East Prussia until the end of the war.\n\nDo you want to form it? ;;;;;;;;;;;;;x
+EVTDESC6660025;The Schwere Panzer-Abteilung 505 can be refitted with Tiger II (Königstiger). ;;;;;;;;;;;;;x
+#### Schwere Panzer-Abteilung 506 ####;;;;;;;;;;;;;;x
+GER_A_506_sPzA;Stab 506. s.Pz.-Abt.;;;;;;;;;;;;;x
+GER_A_506_sPzA_short;Stb 506. sPzA;;;;;;;;;;;;;x
+EVTDESC6660026;The Schwere Panzer Abteilung 506 was formed in July 1943 around a cadre from 9. Panzer-Division. It fought with Heeresgruppe Mitte at the Dnieper and later at Krivoi-Rog.\n\nIt was sent to Germany and refitted with Tiger II (Köningstiger) tanks in August 1944. It fought the Allies near Arnhem (during Operation Market Garden) and at Aachen.\n\nIt took part in the Ardennes offensive (as the only Tiger tank battalion from the Heer) in December 1944.\n\nDo you want to form it? ;;;;;;;;;;;;;x
+EVTDESC6660027;The Schwere Panzer-Abteilung 506 can be refitted with Tiger II (Königstiger). ;;;;;;;;;;;;;x
+#### Schwere Panzer-Abteilung 507 ####;;;;;;;;;;;;;;x
+GER_A_507_sPzA;Stab 507. s.Pz.-Abt.;;;;;;;;;;;;;x
+GER_A_507_sPzA_short;Stb 507. sPzA;;;;;;;;;;;;;x
+EVTDESC6660028;The Schwere Panzer Abteilung 507 was formed in September 1943 around a cadre from 13. Panzer-Division. It arrived at the front in March 1944 and fought the red army at Vitebk and Narev.\n\nIt was refitted with Tiger II (Köningstiger) tanks in February 1945 and surrendered to the Red Army at the end of the war after a failed attempt to reach the American troops.\n\nDo you want to form it? ;;;;;;;;;;;;;x
+EVTDESC6660029;The Schwere Panzer-Abteilung 507 can be refitted with Tiger II (Königstiger). ;;;;;;;;;;;;;x
+#### Schwere Panzer-Abteilung 508 ####;;;;;;;;;;;;;;x
+GER_A_508_sPzA;Stab 508. s.Pz.-Abt.;;;;;;;;;;;;;x
+GER_A_508_sPzA_short;Stb 508. sPzA;;;;;;;;;;;;;x
+EVTDESC6660030;The Schwere Panzer Abteilung 508 was formed in August 1943 and was sent to Italy. It fought the Allies at Anzio and through Italy suffering heavy casualties. It was disbanded in February 1945 and transferred to Germany for training with Tiger II, this did not happen and they fought as infantry at the end of the war.\n\nIt can be refitted with Tiger II (Köningstiger) tanks in February 1945.\n\nDo you want to form it? ;;;;;;;;;;;;;x
+EVTDESC6660031;The Schwere Panzer-Abteilung 508 can be refitted with Tiger II (Königstiger). ;;;;;;;;;;;;;x
+#### Schwere Panzer-Abteilung 509 ####;;;;;;;;;;;;;;x
+GER_A_509_sPzA;Stab 509. s.Pz.-Abt.;;;;;;;;;;;;;x
+GER_A_509_sPzA_short;Stb 509. sPzA;;;;;;;;;;;;;x
+EVTDESC6660032;The Schwere Panzer-Abteilung 509 was formed in September 1943 around a cadre from 22. Panzer-Division. It fought on the Eastern front, seeing action at Kirovograd, Kiev and Pavlova. It was attached to SS Panzer Division Das Reich in November 1943.\n\nIt can be refitted with Tiger II (Königstiger) tanks in December 1944.\n\nDo you want to form it? ;;;;;;;;;;;;;x
+EVTDESC6660033;The Schwere Panzer-Abteilung 509 can be refitted with Tiger II (Königstiger). ;;;;;;;;;;;;;x
+#### Schwere Panzer-Abteilung 510 ####;;;;;;;;;;;;;;x
+GER_A_510_sPzA;Stab 510. s.Pz.-Abt.;;;;;;;;;;;;;x
+GER_A_510_sPzA_short;Stb 510. sPzA;;;;;;;;;;;;;x
+EVTDESC6660034;The Schwere Panzer Abteilung 510 was formed in June 1944 at Paderborn and it July it was sent to Lithuania where it fought in the Kurland pocket until the end of the war attached to 14. Panzer-Division.\n\nDo you want to form it? ;;;;;;;;;;;;;x
+#############################################################;;;;;;;;;;;;;;x
+######## SS-Units ###########################################;;;;;;;;;;;;;;x
+#############################################################;;;;;;;;;;;;;;x
+#### 6 ####;;;;;;;;;;;;;;x
+Ger_A_6_Nord;Stab 6. SS.-Div;;;;;;;;;;;;;x
+Ger_A_6_Nord_short;Stb 6. SSD;;;;;;;;;;;;;x
+#### 11 ####;;;;;;;;;;;;;;x
+Ger_A_11_Nordland;Stab 11. SS.-Div;;;;;;;;;;;;;x
+Ger_A_11_Nordland_short;Stb 11. SSD;;;;;;;;;;;;;x
+#### 13 ####;;;;;;;;;;;;;;x
+Ger_A_13_Handschar;Stab 13. SS.-Div;;;;;;;;;;;;;x
+Ger_A_13_Handschar_short;Stb 13. SSD;;;;;;;;;;;;;x
+#### 14 ####;;;;;;;;;;;;;;x
+Ger_A_14_Galizien;Stab 14. SS.-Div;;;;;;;;;;;;;x
+Ger_A_14_Galizien_short;Stb 14. SSD;;;;;;;;;;;;;x
+#### 15 ####;;;;;;;;;;;;;;x
+Ger_A_15_1Latvian;Stab 15. SS.-Div;;;;;;;;;;;;;x
+Ger_A_15_1Latvian_short;Stb 15. SSD;;;;;;;;;;;;;x
+#### 16 ####;;;;;;;;;;;;;;x
+Ger_A_16_Reichsfuhrer;Stab 16. SS.-Div;;;;;;;;;;;;;x
+Ger_A_16_Reichsfuhrer_short;Stb 16. SSD;;;;;;;;;;;;;x
+#### 17 ####;;;;;;;;;;;;;;x
+Ger_A_17_GotzVonBerlichingen;Stab 17. SS.-Div;;;;;;;;;;;;;x
+Ger_A_17_GotzVonBerlichingen_short;Stb 17. SSD;;;;;;;;;;;;;x
+#### 18 ####;;;;;;;;;;;;;;x
+Ger_A_18_Horst_Wessel;Stab 18. SS.-Div;;;;;;;;;;;;;x
+Ger_A_18_Horst_Wessel_short;Stb 18. SSD;;;;;;;;;;;;;x
+#### 19 ####;;;;;;;;;;;;;;x
+Ger_A_19_2Latvian;Stab 19. SS.-Div;;;;;;;;;;;;;x
+Ger_A_19_2Latvian_short;Stb 19. SSD;;;;;;;;;;;;;x
+#### 20 ####;;;;;;;;;;;;;;x
+Ger_A_20_1Estonian;Stab 20. SS.-Div;;;;;;;;;;;;;x
+Ger_A_20_1Estonian_short;Stb 20. SSD;;;;;;;;;;;;;x
+#### 21 ####;;;;;;;;;;;;;;x
+Ger_A_21_Skanderbeg;Stab 21. SS.-Div;;;;;;;;;;;;;x
+Ger_A_21_Skanderbeg_short;Stb 21. SSD;;;;;;;;;;;;;x
+#### 22 ####;;;;;;;;;;;;;;x
+Ger_A_22_Maria_Theresia;Stab 22. SS.-Div;;;;;;;;;;;;;x
+Ger_A_22_Maria_Theresia_short;Stb 22. SSD;;;;;;;;;;;;;x
+#### 23 ####;;;;;;;;;;;;;;x
+Ger_A_23_Kama;Stab 23. SS.-DivK;;;;;;;;;;;;;x
+Ger_A_23_Kama_short;Stb 23. SSDK;;;;;;;;;;;;;x
+#### 23 ####;;;;;;;;;;;;;;x
+Ger_A_23_Nederland;Stab 23. SS.-DivN;;;;;;;;;;;;;x
+Ger_A_23_Nederland_short;Stb 23. SSDN;;;;;;;;;;;;;x
+#### 24 ####;;;;;;;;;;;;;;x
+Ger_A_24_Karstjager;Stab 24. SS.-Div;;;;;;;;;;;;;x
+Ger_A_24_Karstjager_short;Stb 24. SSD;;;;;;;;;;;;;x
+#### 25 ####;;;;;;;;;;;;;;x
+Ger_A_25_1Hungarian;Stab 25. SS.-Div;;;;;;;;;;;;;x
+Ger_A_25_1Hungarian_short;Stb 25. SSD;;;;;;;;;;;;;x
+#### 26 ####;;;;;;;;;;;;;;x
+Ger_A_26_2Hungarian;Stab 26. SS.-Div;;;;;;;;;;;;;x
+Ger_A_26_2Hungarian_short;Stb 26. SSD;;;;;;;;;;;;;x
+#### 27 ####;;;;;;;;;;;;;;x
+Ger_A_27_Langemarck;Stab 27. SS.-Div;;;;;;;;;;;;;x
+Ger_A_27_Langemarck_short;Stb 27. SSD;;;;;;;;;;;;;x
+#### 28 ####;;;;;;;;;;;;;;x
+Ger_A_28_Wallonien;Stab 28. SS.-Div;;;;;;;;;;;;;x
+Ger_A_28_Wallonien_short;Stb 28. SSD;;;;;;;;;;;;;x
+#### 29 ####;;;;;;;;;;;;;;x
+Ger_A_29_Italia;Stab 29. SS.-DivI;;;;;;;;;;;;;x
+Ger_A_29_Italia_short;Stb 29. SSDI;;;;;;;;;;;;;x
+#### 29 ####;;;;;;;;;;;;;;x
+Ger_A_29_RONA;Stab 29. SS.-DivR;;;;;;;;;;;;;x
+Ger_A_29_RONA_short;Stb 29. SSDR;;;;;;;;;;;;;x
+#### 30 ####;;;;;;;;;;;;;;x
+Ger_A_30_2Russische;Stab 30. SS.-DivR;;;;;;;;;;;;;x
+Ger_A_30_2Russische_short;Stb 30. SSDR;;;;;;;;;;;;;x
+#### 31 ####;;;;;;;;;;;;;;x
+Ger_A_31_Grenadier_Division;Stab 31. SS.-Div;;;;;;;;;;;;;x
+Ger_A_31_Grenadier_Division_short;Stb 31. SSD;;;;;;;;;;;;;x
+#### 32 ####;;;;;;;;;;;;;;x
+Ger_A_32_30Januar;Stab 32. SS.-Div;;;;;;;;;;;;;x
+Ger_A_32_30Januar_short;Stb 32. SSD;;;;;;;;;;;;;x
+#### 33 ####;;;;;;;;;;;;;;x
+Ger_A_33_Charlemagne;Stab 33. SS.-DivC;;;;;;;;;;;;;x
+Ger_A_33_Charlemagne_short;Stb 33. SSDC;;;;;;;;;;;;;x
+#### 34 ####;;;;;;;;;;;;;;x
+Ger_A_34_Landstorm_Nederland;Stab 34. SS.-Div;;;;;;;;;;;;;x
+Ger_A_34_Landstorm_Nederland_short;Stb 34. SSD;;;;;;;;;;;;;x
+#### 35 ####;;;;;;;;;;;;;;x
+Ger_A_35_Police;Stab 35. SS.-Div;;;;;;;;;;;;;x
+Ger_A_35_Police_short;Stb 35. SSD;;;;;;;;;;;;;x
+#### 36 ####;;;;;;;;;;;;;;x
+Ger_A_36_Dirlewanger;Stab 36. SS.-Div;;;;;;;;;;;;;x
+Ger_A_36_Dirlewanger_short;Stb 36. SSD;;;;;;;;;;;;;x
+#### 37 ####;;;;;;;;;;;;;;x
+Ger_A_37_Lutzow;Stab 37. SS.-Div;;;;;;;;;;;;;x
+Ger_A_37_Lutzow_short;Stb 37. SSD;;;;;;;;;;;;;x
+#### 38 ####;;;;;;;;;;;;;;x
+Ger_A_38_Nibelungen;Stab 38. SS-Div;;;;;;;;;;;;;x
+Ger_A_38_Nibelungen_short;Stb 38. SSD;;;;;;;;;;;;;x
+EVTDESC6660002;Division insignias are my design and are based on their name. You will get events to form the divisions with some background for reasons why unit logo is what it is.\n\nDo you want to form the SS-Paperdivisions? ;;;;;;;;;;;;;x
+#### Kalevala ####;;;;;;;;;;;;;;x
+Ger_A_41_Kalevala;Stab 41. SS-Div;;;;;;;;;;;;;x
+Ger_A_41_Kalevala_short;Stb 41. SSD;;;;;;;;;;;;;x
+EVTDESC6660009;Do you want to form the Paperdivision:\nSS-Grenadier-Division 'Kalevala (Finnische nr.1)'?\n\nDivision is formed from the veterans of SS-Freiwilligen-Battalion 'Nordost', and other finnish volunteers. 2000 men are shipped to danzig where the division will start to reinforce and rearm. Division is build around three regiments:\n\n101. SS-Grenadier-Regiment\n102. SS-Grenadier-Regiment\n103. SS-Grenadier-Regiment\n\nReich needs your help to build rest of the division. ;;;;;;;;;;;;;x
+#### AndreasHofer ####;;;;;;;;;;;;;;x
+Ger_A_39_AndreasHofer;Stab 39. SS-Div;;;;;;;;;;;;;x
+Ger_A_39_AndreasHofer_short;Stb 39. SSD;;;;;;;;;;;;;x
+EVTDESC6660010;Paper Division: 39. SS Gebirgs Division 'Andreas Höfer'\n\nAndreas Hofer (November 22, 1767 – February 20, 1810) was a Tyrolean innkeeper and drover, who in 1809 became the leader of the Tyrolean Rebellion against the French and Bavarian occupation forces during the War of the Fifth Coalition. He was subsequently captured and executed. Hofer is still today venerated as a folk hero, freedom fighter and Austrian patriot.\n\nInsignia has the eagle of the Tyrol coat of arms. ;;;;;;;;;;;;;x
+#### Feldherrnhalle ####;;;;;;;;;;;;;;x
+Ger_A_40_Feldherrnhalle;Stab 40. SS-Div;;;;;;;;;;;;;x
+Ger_A_40_Feldherrnhalle_short;Stb 40. SSD;;;;;;;;;;;;;x
+EVTDESC6660011;Paper Division: 40. SS Freiwillige Panzergrenadier Division 'Feldherrnhalle'\n\nIt means a "Field Marshall's Hall".\n\nInsignia has the same marking as the wehrmacht division. ;;;;;;;;;;;;;x
+#### Niedersachsen ####;;;;;;;;;;;;;;x
+Ger_A_42_Niedersachsen;Stab 42. SS-Div;;;;;;;;;;;;;x
+Ger_A_42_Niedersachsen_short;Stb 42. SSD;;;;;;;;;;;;;x
+EVTDESC6660012;Paper Division: 42. SS Grenadier Division 'Niedersachsen'\n\nName means "Lower Saxony" and it's capital is Hannover.\n\nInsignia comes from it capital coat of arms. ;;;;;;;;;;;;;x
+#### Reichmarschall ####;;;;;;;;;;;;;;x
+Ger_A_43_Reichmarschall;Stab 43. SS-Div;;;;;;;;;;;;;x
+Ger_A_43_Reichmarschall_short;Stb 43. SSD;;;;;;;;;;;;;x
+EVTDESC6660013;Paper Division: 43. SS Grenadier Division 'Reichsmarschall'\n\nNamed after Hermann Göring or atleast after his tittle.\n\nInsignias has the Reichsmarschalls scepter. ;;;;;;;;;;;;;x
+#### Wallenstein ####;;;;;;;;;;;;;;x
+Ger_A_44_Wallenstein;Stab 44. SS-Div;;;;;;;;;;;;;x
+Ger_A_44_Wallenstein_short;Stb 44. SSD;;;;;;;;;;;;;x
+EVTDESC6660014;Paper Division: 44. SS Panzer Grenadier Division 'Wallenstein'\n\nAlbrecht Wenzel Eusebius von Wallenstein was a military leader and politician, who offered his services, and an army of 30,000 to 100,000 men during the Thirty Years' War (1618–48), to the Holy Roman Emperor Ferdinand II. He became the supreme commander of the armies of the Habsburg Monarchy and a major figure of the Thirty Years' War.\n\nInsignia has the lion from the coat of arms from his home town Hermanice east of Praha. ;;;;;;;;;;;;;x
+#### Warager ####;;;;;;;;;;;;;;x
+Ger_A_45_Warager;Stab 45. SS-Div;;;;;;;;;;;;;x
+Ger_A_45_Warager_short;Stb 45. SSD;;;;;;;;;;;;;x
+EVTDESC6660015;Paper Division: 45. SS Grenadier Division 'Waräger'\n\nThe Varangians or Varyags was the name given by Greeks and East Slavs to Vikings, who between the 9th and 11th centuries ruled the medieval state of Rus' and formed the Byzantine Varangian Guard.\n\nInsignia has a classic two crossing axes. ;;;;;;;;;;;;;x
+#### Blau ####;;;;;;;;;;;;;;x
+GER_A_Blau_ID;Stab blau-Div;;;;;;;;;;;;;x
+GER_A_Blau_ID_short;Stb Blau ID;;;;;;;;;;;;;x
+#### 100. Jaeger-Division ####;;;;;;;;;;;;;;x
+GER_A_C_jaeger;Stab 100. Jaeger-Div;;;;;;;;;;;;;x
+GER_A_C_jaeger_short;Stb 100. JD;;;;;;;;;;;;;x
+EVTDESC6660041;The 100. Leichte Infanterie-Division was formed in December 1940 and was redesignated 100. Jäger-Division in July 1942. ;;;;;;;;;;;;;x
+EVTDESC6660042;The 100. Jäger-Division was formed when 100. Leichte Infanterie-Division was redesignated in July 1942 and fought in the encirclement and Battle of Staryyogkol, the advance across the Don, the drive to the Volga and the street fighting in Stalingrad. It was encircled with 6. Armee in November 1942 and destroyed in January 1943.\n\nIt was reformed in the Belgrade area in April 1943 and was transferred to Albania in July. It was transferred to the eastern front in March 1944 and joined the forces fighting to break the encirclement of 1. Panzer-Armee. It took part in the withdrawal from Russia and the fighting in Hungary before surrendering to the Soviet Red Army at the end of the war in Silesia. ;;;;;;;;;;;;;x
+#### 101. Jaeger-Division ####;;;;;;;;;;;;;;x
+GER_A_CI_jaeger;Stab 101. Jaeger-Div;;;;;;;;;;;;;x
+GER_A_CI_jaeger_short;Stb 101. JD;;;;;;;;;;;;;x
+EVTDESC6660043;The 101. Leichte Infanterie-Division was formed on 10 December 1940. It was redesignated 101. Jäger-Division on 6 July 1942. ;;;;;;;;;;;;;x
+EVTDESC6660044;The 101. Jäger-Division was formed when 101. Leichte Infanterie-Division was redesignated in July 1942 and fought in the battle of Kharkov, The Caucasus campaign and the retreat into the Kuban. It suffered heavy losses during the fighting from both the Red army and the partisans. It was evacuated across the Kerch straits and transferred to lower Dneper late 1943.\n\nIt was surrounded with the 1. Panzer-Armee in March 1944 and formed the rear guard of XXXXVI Panzerkorps in the breakout. It participated in retreats across the Ukraine and was transferred to Slovakia in October 1944. It retreated through Hungary and Austria during 1945 and was at battle group strength when it surrendered to the US forces at the end of the war. ;;;;;;;;;;;;;x
+#### 104. Jaeger-Division ####;;;;;;;;;;;;;;x
+GER_A_CIV_jaeger;Stab 104. Jaeger-Div;;;;;;;;;;;;;x
+GER_A_CIV_jaeger_short;Stb 104. JD;;;;;;;;;;;;;x
+EVTDESC6660047;The 104. Jäger-Division was formed on 1 April 1943 by the reorganization and redesignation of the 704. Infanterie-Division. It surrendered to the Yugoslav Army at Celje, Slovenia in May 1945. ;;;;;;;;;;;;;x
+#### 114. Jaeger-Division ####;;;;;;;;;;;;;;x
+GER_A_CXIV_jaeger;Stab 114. Jaeger-Div;;;;;;;;;;;;;x
+GER_A_CXIV_jaeger_short;Stb 114. JD;;;;;;;;;;;;;x
+#### 42. Jaeger-Division ####;;;;;;;;;;;;;;x
+GER_A_XLII_jaeger;Stab 42. Jaeger-Div;;;;;;;;;;;;;x
+GER_A_XLII_jaeger_short;Stb 42. JD;;;;;;;;;;;;;x
+EVTDESC6660005;Do you want to form: Jäger-Divisions\n\nDivisions will form in Berlin with jäger regiments ready. ;;;;;;;;;;;;;x
+#### Croat divisions ####;;;;;;;;;;;;;;x
+GER_A_Croat_ID;Stab Croatian.-Div;;;;;;;;;;;;;x
+GER_A_Croat_ID_short;Stb CRO-ID;;;;;;;;;;;;;x
+#### Denmark Freikorps ####;;;;;;;;;;;;;;x
+GER_A_DENfreikorps;Stab freikorps Dan;;;;;;;;;;;;;x
+GER_A_DENfreikorps_short;Stb DFK;;;;;;;;;;;;;x
+#### 2. Geb-Division ####;;;;;;;;;;;;;;x
+GER_A_II_Geb;Stab 2. Geb.-Div;;;;;;;;;;;;;x
+GER_A_II_Geb_short;Stb 2. GD;;;;;;;;;;;;;x
+#### 3. Geb-Division ####;;;;;;;;;;;;;;x
+GER_A_III_Geb;Stab 3. Geb.-Div;;;;;;;;;;;;;x
+GER_A_III_Geb_short;Stb 4. GD;;;;;;;;;;;;;x
+#### 5. Geb-Division ####;;;;;;;;;;;;;;x
+GER_A_V_Geb;Stab 5. Geb.-Div;;;;;;;;;;;;;x
+GER_A_V_Geb_short;Stb 5. GD;;;;;;;;;;;;;x
+#### 6. Geb-Division ####;;;;;;;;;;;;;;x
+GER_A_VI_Geb;Stab 6. Geb.-Div;;;;;;;;;;;;;x
+GER_A_VI_Geb_short;Stb 6. GD;;;;;;;;;;;;;x
+EVTDESC6660003;The 6. Gebirgs-Division was formed in 1940 and served as an occupation force in France before being transferred to Poland. It then took part in the invasion of Greece and remained there until September 1941 when it was transferred to Norway. It took part in the invasion of the Soviet Union and the offensive towards Murmansk, it remained there until late 1944 when it retreated to Norway following the Finnish withdrawal from the war. ;;;;;;;;;;;;;x
+#### 7. Geb-Division ####;;;;;;;;;;;;;;x
+GER_A_VII_Geb;Stab 7. Geb.-Div;;;;;;;;;;;;;x
+GER_A_VII_Geb_short;Stb 7. GD;;;;;;;;;;;;;x
+EVTDESC6660045;The 99. Leichte Infanterie-Division was formed in November 1940 at Bad Kissingen. It fought on the southern sector of the Eastern Front until being withdrawn to Germany and reorganized into 7. Gebirgs-Divison in October 1941. ;;;;;;;;;;;;;x
+EVTDESC6660046;The 7. Gebirgs-Division was formed through the redesignation of 99. Leichte Infanterie-Division in the fall of 1941. It was sent to the front in Finland early 1942 and remained there until the Finnish withdrawal from the war when in retreated to Norway where it remained until the end of the war. ;;;;;;;;;;;;;x
+#### 8. Geb-Division ####;;;;;;;;;;;;;;x
+GER_A_VIII_Geb;Stab 8. Geb.-Div;;;;;;;;;;;;;x
+GER_A_VIII_Geb_short;Stb 8. GD;;;;;;;;;;;;;x
+#### 157. Geb-Division ####;;;;;;;;;;;;;;x
+GER_A_CLVII_Geb;Stab 157. Geb.-Div;;;;;;;;;;;;;x
+GER_A_CLVII_Geb_short;Stb 157. GD;;;;;;;;;;;;;x
+EVTDESC6660006;Do you want to form the Gebirgs-Division HQ's? ;;;;;;;;;;;;;x
+#### 188. Geb-Division ####;;;;;;;;;;;;;;x
+GER_A_CLXXXVIII_Geb;Stab 188. Geb.-Div;;;;;;;;;;;;;x
+GER_A_CLXXXVIII_Geb_short;Stb 188. GD;;;;;;;;;;;;;x
+EVTDESC6660055;German Division Nr. 188 was raised in late 1939. It consisted of the 136th, 138th and 139th Mountain Replacement Regiments and the 112th Artillery Replacement Regiment, plus supporting units. It began the war on border guard duty in the mountainous region between Austria and Yugoslavia with the primary mission of training reservists and replacements for the regular mountain divisions. In the spring of 1941 it joined the invasion of Yugoslavia, with the three mountain regiments given responsibility of seizing control of Carniola and Carinthia on the Yugoslav side of the border, which they carried out quickly and effectively against little to no resistance.\n\nForming this unit will have boost in training reservists and replacements for the regular mountain divisions. But with large cost of supplies for training purposes.\n\nAlso HQ with two regiments for 8. Gebirgs-Division is formed.\nFires Other Gebirgs event if GGA mod is not used.  ;;;;;;;;;;;;;x
+#### 1. Marine-Division ####;;;;;;;;;;;;;;x
+GER_A_Mar_I;Stab 1. Mar.-Div;;;;;;;;;;;;;x
+GER_A_Mar_I_short;Stb 1. MD;;;;;;;;;;;;;x
+#### 2. Marine-Division ####;;;;;;;;;;;;;;x
+GER_A_Mar_II;Stab 2. Mar.-Div;;;;;;;;;;;;;x
+GER_A_Mar_II_short;Stb 2. MD;;;;;;;;;;;;;x
+#### 1. Marine-Division ####;;;;;;;;;;;;;;x
+GER_A_Mar_III;Stab 3. Mar.-Div;;;;;;;;;;;;;x
+GER_A_Mar_III_short;Stb 3. MD;;;;;;;;;;;;;x
+#### 1. Marine-Division ####;;;;;;;;;;;;;;x
+GER_A_Mar_VIII;Stab 8. Mar.-Div;;;;;;;;;;;;;x
+GER_A_Mar_VIII_short;Stb 8. MD;;;;;;;;;;;;;x
+#### 1. Marine-Division ####;;;;;;;;;;;;;;x
+GER_A_Mar_XI;Stab 11. Mar.-Div;;;;;;;;;;;;;x
+GER_A_Mar_XI_short;Stb 11. MD;;;;;;;;;;;;;x
+#### 1. Marine-Division ####;;;;;;;;;;;;;;x
+GER_A_Mar_XVI;Stab 16. Mar.-Div;;;;;;;;;;;;;x
+GER_A_Mar_XVI_short;Stb 16. MD;;;;;;;;;;;;;x
+EVTDESC6660008;War is inevitable. We need forces capable of doing naval invasions. Should we form the divisional staff's for:\n\n1. Marine-Infanterie-Division\n2. Marine-Infanterie-Division\n3. Marine-Infanterie-Division\n8. Marine-Infanterie-Division\n11. Marine-Infanterie-Division\n16. Marine-Infanterie-Division\n\nHistoricly German naval divisions where formed in 1945. From the Kriegsmarine personnel no longer required to crew ships or for shore establishments.\n\nIf you buy your naval/marine infantry from other nations like Japan, you should select the Reserve option.\n\nForming them in 1945 will have high cost for our naval organization!\n(You can refuse taking them now and then.) ;;;;;;;;;;;;;x
+EVTDESC6660054;Do you want to form the marine divisions from the Kriegsmarine personnel no longer required to crew ships or for shore establishments?\n\nThis will have high cost for our naval organization. ;;;;;;;;;;;;;x
+#### 3 Welle ####;;;;;;;;;;;;;;x
+EVTDESC6660035;Do you want to mobilize the 3th wave HQ's? ;;;;;;;;;;;;;x
+#### 205. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCV_ID;Stab 205. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCV_ID_short;Stb 205. ID;;;;;;;;;;;;;x
+#### 206. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCVI_ID;Stab 206. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCVI_ID_short;Stb 206. ID;;;;;;;;;;;;;x
+#### 207. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCVII_ID;Stab 207. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCVII_ID_short;Stb 207. ID;;;;;;;;;;;;;x
+#### 208. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCVIII_ID;Stab 208. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCVIII_ID_short;Stb 208. ID;;;;;;;;;;;;;x
+#### 209. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCIX_ID;Stab 209. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCIX_ID_short;Stb 209. ID;;;;;;;;;;;;;x
+#### 211. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXI_ID;Stab 211. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXI_ID_short;Stb 211. ID;;;;;;;;;;;;;x
+#### 212. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXII_ID;Stab 212. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXII_ID_short;Stb 212. ID;;;;;;;;;;;;;x
+#### 213. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXIII_ID;Stab 213. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXIII_ID_short;Stb 213. ID;;;;;;;;;;;;;x
+#### 214. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXIV_ID;Stab 214. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXIV_ID_short;Stb 214. ID;;;;;;;;;;;;;x
+#### 215. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXV_ID;Stab 215. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXV_ID_short;Stb 215. ID;;;;;;;;;;;;;x
+#### 216. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXVI_ID;Stab 216. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXVI_ID_short;Stb 216. ID;;;;;;;;;;;;;x
+#### 217. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXVII_ID;Stab 217. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXVII_ID_short;Stb 217. ID;;;;;;;;;;;;;x
+#### 218. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXVIII_ID;Stab 218. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXVIII_ID_short;Stb 218. ID;;;;;;;;;;;;;x
+#### 231. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXXXI_ID;Stab 231. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXXXI_ID_short;Stb 231. ID;;;;;;;;;;;;;x
+#### 239. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXIX_ID;Stab 239. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXIX_ID_short;Stb 239. ID;;;;;;;;;;;;;x
+#### 246. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCXLVI_ID;Stab 246. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCXLVI_ID_short;Stb 246. ID;;;;;;;;;;;;;x
+#### 4 Welle ####;;;;;;;;;;;;;;x
+EVTDESC6660036;Do you want to mobilize the 4th wave HQ's? ;;;;;;;;;;;;;x
+#### 251. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLI_ID;Stab 251. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLI_ID_short;Stb 251. ID;;;;;;;;;;;;;x
+#### 252. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLII_ID;Stab 252. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLII_ID_short;Stb 252. ID;;;;;;;;;;;;;x
+#### 253. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLIII_ID;Stab 253. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLIII_ID_short;Stb 253. ID;;;;;;;;;;;;;x
+#### 254. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLIV_ID;Stab 254. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLIV_ID_short;Stb 254. ID;;;;;;;;;;;;;x
+#### 255. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLV_ID;Stab 255. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLV_ID_short;Stb 255. ID;;;;;;;;;;;;;x
+#### 256. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLVI_ID;Stab 256. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLVI_ID_short;Stb 256. ID;;;;;;;;;;;;;x
+#### 257. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLVII_ID;Stab 257. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLVII_ID_short;Stb 257. ID;;;;;;;;;;;;;x
+#### 258. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLVIII_ID;Stab 258. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLVIII_ID_short;Stb 258. ID;;;;;;;;;;;;;x
+#### 260. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLX_ID;Stab 260. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLX_ID_short;Stb 260. ID;;;;;;;;;;;;;x
+#### 262. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLXII_ID;Stab 262. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLXII_ID_short;Stb 262. ID;;;;;;;;;;;;;x
+#### 263. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLXIII_ID;Stab 263. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLXIII_ID_short;Stb 263. ID;;;;;;;;;;;;;x
+#### 267. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLX_ID;Stab 267. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLX_ID_short;Stb 267. ID;;;;;;;;;;;;;x
+#### 268. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLXVIII_ID;Stab 268. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLXVIII_ID_short;Stb 268. ID;;;;;;;;;;;;;x
+#### 269. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_CCLXIX_ID;Stab 269. Inf.-Div;;;;;;;;;;;;;x
+GER_A_CCLXIX_ID_short;Stb 269. ID;;;;;;;;;;;;;x
+#### 5 Welle ####;;;;;;;;;;;;;;x
+EVTDESC6660037;Do you want to mobilize the 5th wave HQ's? ;;;;;;;;;;;;;x
+#### 93. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_XCIII_ID;Stab 93. Inf.-Div;;;;;;;;;;;;;x
+GER_A_XCIII_ID_short;Stb 93. ID;;;;;;;;;;;;;x
+#### 94. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_XCIV_ID;Stab 94. Inf.-Div;;;;;;;;;;;;;x
+GER_A_XCIV_ID_short;Stb 94. ID;;;;;;;;;;;;;x
+#### 95. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_XCV_ID;Stab 95. Inf.-Div;;;;;;;;;;;;;x
+GER_A_XCV_ID_short;Stb 95. ID;;;;;;;;;;;;;x
+#### 96. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_XCVI_ID;Stab 96. Inf.-Div;;;;;;;;;;;;;x
+GER_A_XCVI_ID_short;Stb 96. ID;;;;;;;;;;;;;x
+#### 98. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_XCVIII_ID;Stab 98. Inf.-Div;;;;;;;;;;;;;x
+GER_A_XCVIII_ID_short;Stb 98. ID;;;;;;;;;;;;;x
+#### 6 Welle ####;;;;;;;;;;;;;;x
+EVTDESC6660038;Do you want to mobilize the 6th wave HQ's? ;;;;;;;;;;;;;x
+#### 81. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_LXXXI_ID;Stab 81. Inf.-Div;;;;;;;;;;;;;x
+GER_A_LXXXI_ID_short;Stb 81. ID;;;;;;;;;;;;;x
+#### 82. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_LXXXII_ID;Stab 82. Inf.-Div;;;;;;;;;;;;;x
+GER_A_LXXXII_ID_short;Stb 82. ID;;;;;;;;;;;;;x
+#### 83. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_LXXXIII_ID;Stab 83. Inf.-Div;;;;;;;;;;;;;x
+GER_A_LXXXIII_ID_short;Stb 83. ID;;;;;;;;;;;;;x
+#### 88. Infanterie-Division ####;;;;;;;;;;;;;;x
+GER_A_LXXXVIII_ID;Stab 88. Inf.-Div;;;;;;;;;;;;;x
+GER_A_LXXXVIII_ID_short;Stb 88. ID;;;;;;;;;;;;;x
+#### 1. Ski-division ####;;;;;;;;;;;;;;x
+GER_A_I_Ski;Stab 1. Ski-Div;;;;;;;;;;;;;x
+GER_A_I_Ski_short;Stb 1. SD;;;;;;;;;;;;;x
+#############################################################;;;;;;;;;;;;;;x
+######## Fj-Units ###########################################;;;;;;;;;;;;;;x
+#############################################################;;;;;;;;;;;;;;x
+EVTDESC6660007;Fallschirmjägers played an important role during World War II. German Fallschirmjäger in World War II were the first paratroopers to be committed in large-scale airborne operations. They came to be known as the "green devils" by the Allied forces they fought against, as well as for their uniquely distinct morale.\n\nThe Luftwaffe built up a division-sized unit of three Fallschirmjäger regiments plus supporting arms and air assets, known as the 7th Flieger Division.\n\nShould we start training more of these "green devils", as they could come very usefull.\n\nThis will start the event chain of the Fallschirmjäger-Divisions.\n\nYou can have the historic Fj.-Divisions earlier.\nIf you are willing to invest more resources to train and equip them. ;;;;;;;;;;;;;x
+EVTDESC6660056;Fallschirmjäger training centers.\n\nYou will get corps with few brigade units what represents certant division training center.\n\nSystem works that disbanding this unit will launch event that gives you a division.\n\nHow good division is given, depends the year you disband the corps.\nLetting them to be trained longer also gives you more tech bonuses.\n\n-You can move it where you like it to be.\n-Renaming brigade is deleting.\n-Let them upgrade and be prioritized, as this represents the cost of training.\n\nAfter disbanding it usually takes some time after the event is launched. It is wise to disband the unit early of the year ;;;;;;;;;;;;;x
+EVTDESC6660057;We are ready to expand the number of our Fallschirmjäger training centers. ;;;;;;;;;;;;;x
+EVTDESC6660058;New Fallschirmjäger-Divisions are formed. ;;;;;;;;;;;;;x
+#### 2. Fallschirm division ####;;;;;;;;;;;;;;x
+GER_A_II_FJ;Stab 2. Fj.-Div;;;;;;;;;;;;;x
+GER_A_II_FJ_short;Stb 2. FJD;;;;;;;;;;;;;x
+#### 3. Fallschirm division ####;;;;;;;;;;;;;;x
+GER_A_III_FJ;Stab 3. FJ.-Div;;;;;;;;;;;;;x
+GER_A_III_FJ_short;Stb 3. FJD;;;;;;;;;;;;;x
+#### 4. Fallschirm division ####;;;;;;;;;;;;;;x
+GER_A_IV_FJ;Stab 4. FJ.-Div;;;;;;;;;;;;;x
+GER_A_IV_FJ_short;Stb 4. FJD;;;;;;;;;;;;;x
+#### 5. Fallschirm division ####;;;;;;;;;;;;;;x
+GER_A_V_FJ;Stab 5. FJ.-Div;;;;;;;;;;;;;x
+GER_A_V_FJ_short;Stb 5. FJD;;;;;;;;;;;;;x
+#### 6. Fallschirm division ####;;;;;;;;;;;;;;x
+GER_A_VI_FJ;Stab 6. FJ.-Div;;;;;;;;;;;;;x
+GER_A_VI_FJ_short;Stb 6. FJD;;;;;;;;;;;;;x
+#EOF#;;;;;;;;;;;;;;x

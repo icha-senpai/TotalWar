@@ -1,0 +1,1773 @@
+################################################################################
+# ADVANCED LAND DOCTRINES	
+################################################################################
+################################################################################
+# LIMITED WAR 
+################################################################################
+limited_war = {
+	
+	allow = {
+		war = no
+		land_battles_fought = 100		
+	}
+
+	
+		
+	research_bonus_from = {
+		land_doctrine_practical = 0.50
+    }
+    
+    on_completion = land_doctrine_practical
+
+	difficulty = 3
+
+	start_year = 1950
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# ASSYMETRIC WARFARE
+################################################################################
+assymetric_warfare = {
+	
+	allow = {
+		limited_war = 1
+		OR = {
+			NOT = { germany = 1 }
+			NOT = { france = 1 }
+			NOT = { united_kingdom = 1 }
+			NOT = { soviet_union = 1 }
+			NOT = { romania = 1 }
+			NOT = { nationalist_china = 1 }
+			NOT = { finland = 1 }
+			NOT = { japan = 1 }
+			NOT = { italy = 1 }
+		}
+	}
+	
+	tactic_asymmetric = 15
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+
+	start_year = 1962
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# GUERILLA WARFARE
+################################################################################
+guerilla_warfare = {
+	
+	allow = {
+		assymetric_warfare = 1
+	}
+
+	tactic_ambush = 2
+	tactic_asymmetric = 2
+	
+	militia_brigade = {
+		default_organization = 5
+		default_morale = 0.05
+		soft_attack = 1.00
+	}	
+	
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+
+	start_year = 1963
+	first_offset = 1964	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 7
+	folder = advanced_land_doctrine_folder
+}
+
+################################################################################
+# COUNTER ASSYMETRIC WARFARE
+################################################################################
+counter_assymetric_warfare = {
+	
+	allow = {
+		war = no
+		limited_war = 1
+	}
+
+	tactic_assault = 5
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+
+	start_year = 1962
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# SEARCH AND DESTROY TACTICS
+################################################################################
+search_and_destroy_tactics = {
+	
+	allow = {
+		counter_assymetric_warfare = 1
+	}
+
+	tactic_shock = 2
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+
+	start_year = 1965
+	first_offset = 1967	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 5
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# ADVANCED LAND WARFARE
+################################################################################
+advanced_land_warfare = {
+	
+	allow = {
+		OR = {
+			strategic_pincer = 1
+			surprise_offensive_campaign = 1
+		}
+		OR = {
+			mobile_infantry_theory = 1
+			combat_command_doctrine = 1
+		}
+	}
+
+	
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+
+	start_year = 1946
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# ADVANCED INFANTRY WARFARE
+################################################################################
+advanced_infantry_warfare = {
+	
+	allow = {
+		advanced_land_warfare = 1
+	}
+
+	infantry_unit_type = 0.03
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+
+	start_year = 1946
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# ARMY FIRE TEAMS
+################################################################################
+army_fire_teams = {
+	
+	allow = {
+		advanced_infantry_warfare = 1
+	}
+	
+	change = no
+
+	infantry_brigade = {
+		soft_attack = 1.00
+	}	
+	motorized_brigade = { 
+		soft_attack = 1.00
+	}
+	mechanized_brigade = { 
+		soft_attack = 1.00
+	}
+	
+	infantry_bat = { 
+		soft_attack = 0.50
+	}
+	motorized_infantry_bat = { 
+		soft_attack = 0.50
+	}
+	mechanized_infantry_bat = { 
+		soft_attack = 0.50
+	}
+	
+	combined_arms_brigade = {
+		soft_attack = 0.50
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+
+	start_year = 1957
+	first_offset = 1959 	# 2nd model is from 1959
+    additional_offset = 2   # one new every 2 year
+	max_level = 7
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# INFANTRY MOBILITY DOCTRINE
+################################################################################
+infantry_mobility_doctrine = {
+	
+	allow = {
+		advanced_infantry_warfare = 1
+		army_division_reorganization = 1
+		mobile_infantry_theory = 1
+		OR = {
+			mechanized_advance = 1
+			infantry_division_reorganization_nineteen_fourty_four = 1
+		}
+	}
+
+	change = no
+	
+	infantry_brigade = {
+		max_strength = -30.00
+		build_cost_ic = -3.15
+		build_cost_manpower = -3.000
+		build_time = -15
+		officers = -25
+		transport_weight = -3.00
+		supply_consumption = -0.35
+		fuel_consumption = -0.10
+		radio_strength = -1
+		soft_attack = -3.50
+		hard_attack = -1.50
+		air_attack = -0.25
+		ap_attack = -3
+		defensiveness = -3.00
+		maximum_speed = 1.50
+	}	
+		
+	infantry_bat = { 
+		max_strength = -10.00
+		build_cost_ic = -1.45
+		build_cost_manpower = -1.000
+		build_time = -5
+		officers = -10
+		transport_weight = -1.00
+		supply_consumption = -0.10
+		fuel_consumption = -0.03
+		radio_strength = -0.33
+		soft_attack = -1.25
+		hard_attack = -0.35
+		air_attack = -0.10
+		ap_attack = -1
+		defensiveness = -1.00
+		maximum_speed = 1.50
+	}
+	
+	ss_infantry_brigade = {
+		max_strength = -30.00
+		build_cost_ic = -3.15
+		build_cost_manpower = -3.000
+		build_time = -15
+		officers = -25
+		transport_weight = -3.00
+		supply_consumption = -0.35
+		fuel_consumption = -0.10
+		radio_strength = -1
+		soft_attack = -3.50
+		hard_attack = -1.50
+		air_attack = -0.25
+		ap_attack = -3
+		defensiveness = -3.00
+		maximum_speed = 1.50
+	}	
+		
+	ss_infantry_bat = { 
+		max_strength = -10.00
+		build_cost_ic = -1.45
+		build_cost_manpower = -1.000
+		build_time = -5
+		officers = -10
+		transport_weight = -1.00
+		supply_consumption = -0.10
+		fuel_consumption = -0.03
+		radio_strength = -0.33
+		soft_attack = -1.25
+		hard_attack = -0.35
+		air_attack = -0.10
+		ap_attack = -1
+		defensiveness = -1.00
+		maximum_speed = 1.50
+	}
+	
+	guard_infantry_brigade = {
+		max_strength = -30.00
+		build_cost_ic = -3.15
+		build_cost_manpower = -3.000
+		build_time = -15
+		officers = -25
+		transport_weight = -3.00
+		supply_consumption = -0.35
+		fuel_consumption = -0.10
+		radio_strength = -1
+		soft_attack = -3.50
+		hard_attack = -1.50
+		air_attack = -0.25
+		ap_attack = -3
+		defensiveness = -3.00
+		maximum_speed = 1.50
+	}	
+				
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1947
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# NUCLEAR MOBILE ARTILLERY INTEGRATION
+################################################################################
+mobile_artillery_integration = {
+	
+	allow = {
+		advanced_infantry_warfare = 1
+		advanced_sp_artillery = 1
+		NOT = { nuclear_deterrence_doctrine = 1 }
+		nuclear_bomb_production = 6
+	}
+
+	change = no
+	
+	sp_artillery_brigade = { 
+		plains = {
+			attack = 0.20   
+		}
+		arctic = { 
+			attack = 0.20  
+			}
+		desert = { 
+			attack = 0.20 
+			}
+		woods = { 
+			attack = 0.20 
+		}
+		forest = {
+			attack = 0.20 
+		}		
+		hills = { 
+			attack = 0.20 
+		}
+		urban = {
+			attack = 0.20 
+		}
+		fort = { 
+			attack = 0.20 
+		}
+	}
+	
+	ss_sp_artillery_brigade = { 
+		plains = {
+			attack = 0.20   
+		}
+		arctic = { 
+			attack = 0.20  
+			}
+		desert = { 
+			attack = 0.20 
+			}
+		woods = { 
+			attack = 0.20 
+		}
+		forest = {
+			attack = 0.20 
+		}		
+		hills = { 
+			attack = 0.20 
+		}
+		urban = {
+			attack = 0.20 
+		}
+		fort = { 
+			attack = 0.20 
+		}
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1952
+	first_offset = 1955 	# 2nd model is from 1959
+    additional_offset = 3   # one new every 2 year
+	max_level = 6
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# JAGER ZERSTORER DOCTRINE
+################################################################################
+jager_zerstorer_doctrine = {
+	
+	allow = {
+		advanced_infantry_warfare = 1
+		SF_Division_HQ = 7
+		special_forces_forest_training = 5
+		blitzkrieg = 1
+	}
+	
+	change = no
+
+	light_infantry_brigade = {
+		max_strength = -15.00
+		build_cost_ic = 1.25
+		build_cost_manpower = -1.000
+		build_time = 5
+		officers = 10
+		transport_weight = 1.00
+		supply_consumption = 0.35
+		fuel_consumption = 0.25
+		radio_strength = -1
+		soft_attack = 1.50
+		hard_attack = 0.50
+		air_attack = 0.25
+		armor_value = 2
+		ap_attack = 3
+		defensiveness = 1.00
+		maximum_speed = 3.00
+	}	
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1948
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# CONSCRIPT CENTRIC WARFARE
+################################################################################
+conscript_centric_warfare = {
+	
+	allow = {
+		advanced_infantry_warfare = 1
+		
+	}
+	
+	change = no
+	
+	tactic_conscripts = 3
+
+	militia_brigade = {
+		default_organisation = 10
+		default_morale = 0.10
+	}	
+	
+	conscript_brigade = {
+		default_organisation = 10
+		default_morale = 0.10
+	}	
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1950
+	first_offset = 1953 	# 2nd model is from 1953
+    additional_offset = 3   # one new every 2 year
+	max_level = 7
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# MULTI-ROLE MARINE DOCTRINE
+################################################################################
+multi_role_marine_doctrine = {
+	
+	allow = {
+		advanced_infantry_warfare = 1
+		SF_Division_HQ = 12
+	}
+	
+	change = no
+
+	marine_brigade = {
+		plains = {
+			attack = 0.10
+			movement = 0.02  
+		}
+		arctic = {	
+			attack = 0.10
+			movement = 0.02 
+		}
+		desert = { 
+			attack = 0.10
+			movement = 0.02   
+			}
+		woods = { 
+			attack = 0.10
+			movement = 0.02 
+		}
+		forest = {
+			attack = 0.10 
+			movement = 0.02
+		}		
+		hills = { 
+			attack = 0.10 
+			movement = 0.02 
+		}
+		urban = {
+			attack = 0.10
+			movement = 0.02 
+		}
+		fort = { 
+			attack = 0.10
+		}
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1962
+	first_offset = 1964		# 2nd model is from 1953
+    additional_offset = 2   # one new every 2 year
+	max_level = 5
+	folder = advanced_land_doctrine_folder
+}
+
+################################################################################
+# ADVANCED MECHANIZED WARFARE
+################################################################################
+advanced_mechanized_warfare = {
+	
+	allow = {
+		advanced_land_warfare = 1
+	}
+
+	mobile_unit_type = 0.03
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1946
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# LEICHTE PANZER-GRENADIER DOCTRINE
+################################################################################
+leichte_panzer_grenadier_doctrine = {
+	
+	allow = {
+		advanced_mechanized_warfare = 1
+		mechanized_assault_tactics = 6
+		blitzkrieg = 1
+	}
+	
+	change = no
+
+	mechanized_brigade = { 
+		max_strength = -15.00
+		build_cost_ic = 2.50
+		build_cost_manpower = -1.000
+		build_time = 10
+		officers = 15
+		transport_weight = 3.00
+		supply_consumption = 0.35
+		fuel_consumption = 0.45
+		radio_strength = -1
+		soft_attack = 2.75
+		hard_attack = 1.65
+		air_attack = 0.65
+		armor_value = 4
+		ap_attack = 6
+		defensiveness = 4.00
+		maximum_speed = 0.50
+	}	
+	
+	mechanized_infantry_bat = { 
+		max_strength = -5.00
+		build_cost_ic = 1.25
+		build_cost_manpower = -0.500
+		build_time = 7
+		officers = 10
+		transport_weight = 1.50
+		supply_consumption = 0.17
+		fuel_consumption = 0.25
+		radio_strength = -1
+		soft_attack = 1.45
+		hard_attack = 0.85
+		air_attack = 0.30
+		armor_value = 2
+		ap_attack = 3
+		defensiveness = 2.00
+		maximum_speed = 0.50
+	}	
+					
+	ss_mechanized_brigade = { 
+		max_strength = -15.00
+		build_cost_ic = 2.50
+		build_cost_manpower = -1.000
+		build_time = 10
+		officers = 15
+		transport_weight = 3.00
+		supply_consumption = 0.35
+		fuel_consumption = 0.45
+		radio_strength = -1
+		soft_attack = 2.75
+		hard_attack = 1.65
+		air_attack = 0.65
+		armor_value = 4
+		ap_attack = 6
+		defensiveness = 4.00
+		maximum_speed = 0.50
+	}	
+	
+	ss_mechanized_infantry_bat = { 
+		max_strength = -5.00
+		build_cost_ic = 1.25
+		build_cost_manpower = -0.500
+		build_time = 7
+		officers = 10
+		transport_weight = 1.50
+		supply_consumption = 0.17
+		fuel_consumption = 0.25
+		radio_strength = -1
+		soft_attack = 1.45
+		hard_attack = 0.85
+		air_attack = 0.30
+		armor_value = 2
+		ap_attack = 3
+		defensiveness = 2.00
+		maximum_speed = 0.50
+	}	
+
+	goering_brigade = { 
+		max_strength = -15.00
+		build_cost_ic = 2.50
+		build_cost_manpower = -1.000
+		build_time = 10
+		officers = 15
+		transport_weight = 3.00
+		supply_consumption = 0.35
+		fuel_consumption = 0.45
+		radio_strength = -1
+		soft_attack = 2.75
+		hard_attack = 1.65
+		air_attack = 0.65
+		armor_value = 4
+		ap_attack = 6
+		defensiveness = 4.00
+		maximum_speed = 0.50
+	}
+		
+			
+	guard_mechanized_brigade = { 
+		max_strength = -15.00
+		build_cost_ic = 2.50
+		build_cost_manpower = -1.000
+		build_time = 10
+		officers = 15
+		transport_weight = 3.00
+		supply_consumption = 0.35
+		fuel_consumption = 0.45
+		radio_strength = -1
+		soft_attack = 2.75
+		hard_attack = 1.65
+		air_attack = 0.65
+		armor_value = 4
+		ap_attack = 6
+		defensiveness = 4.00
+		maximum_speed = 0.50
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		max_strength = -5.00
+		build_cost_ic = 1.25
+		build_cost_manpower = -0.500
+		build_time = 7
+		officers = 10
+		transport_weight = 1.50
+		supply_consumption = 0.17
+		fuel_consumption = 0.25
+		radio_strength = -1
+		soft_attack = 1.45
+		hard_attack = 0.85
+		air_attack = 0.30
+		armor_value = 2
+		ap_attack = 3
+		defensiveness = 2.00
+		maximum_speed = 0.50
+	}	
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1946
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# MECHANIZED ARMY DOCTRINE
+################################################################################
+mechanized_army_doctrine = {
+	
+	allow = {
+		advanced_mechanized_warfare = 1
+		mechanized_advance = 1
+		mechanized_division_hq = 7
+	}
+	
+	change = no
+
+	mechanized_brigade = { 
+		build_cost_ic = -2.25
+		build_time = -20
+	}	
+	
+	mechanized_infantry_bat = { 
+		build_cost_ic = -1.15
+		build_time = -20
+	}	
+					
+	ss_mechanized_brigade = { 
+		build_cost_ic = -2.25
+		build_time = -20
+	}	
+	
+	ss_mechanized_infantry_bat = { 
+		build_cost_ic = -1.15
+		build_time = -20
+	}	
+
+	goering_brigade = { 
+		build_cost_ic = -2.25
+		build_time = -20
+	}
+		
+			
+	guard_mechanized_brigade = { 
+		build_cost_ic = -2.25
+		build_time = -20
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		build_cost_ic = -1.15
+		build_time = -20
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1952
+	first_offset = 1955		# 2nd model is from 1953
+    additional_offset = 3   # one new every 2 year
+	max_level = 7
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# INFANTRY FIGHTING VEHICLE CONCEPT
+################################################################################
+infantry_fighting_vehicle_concept = {
+	
+	allow = {
+		advanced_mechanized_warfare = 1
+		armored_personnel_carriers = 2
+	}
+	
+	change = no
+
+	mechanized_brigade = { 
+		soft_attack = 2.55
+		hard_attack = 0.35
+		air_attack = 0.45
+		armor_value = 1
+		ap_attack = 1
+		defensiveness = 3.00
+	}	
+	
+	mechanized_infantry_bat = { 
+		soft_attack = 2.55
+		hard_attack = 0.35
+		air_attack = 0.45
+		armor_value = 1
+		ap_attack = 1
+		defensiveness = 3.00
+	}	
+					
+	ss_mechanized_brigade = { 
+		soft_attack = 2.55
+		hard_attack = 0.35
+		air_attack = 0.45
+		armor_value = 1
+		ap_attack = 1
+		defensiveness = 3.00
+	}	
+	
+	ss_mechanized_infantry_bat = { 
+		soft_attack = 2.55
+		hard_attack = 0.35
+		air_attack = 0.45
+		armor_value = 1
+		ap_attack = 1
+		defensiveness = 3.00
+	}	
+
+	goering_brigade = { 
+		soft_attack = 2.55
+		hard_attack = 0.35
+		air_attack = 0.45
+		armor_value = 1
+		ap_attack = 1
+		defensiveness = 3.00
+	}
+		
+			
+	guard_mechanized_brigade = { 
+		soft_attack = 2.55
+		hard_attack = 0.35
+		air_attack = 0.45
+		armor_value = 1
+		ap_attack = 1
+		defensiveness = 3.00
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		soft_attack = 2.55
+		hard_attack = 0.35
+		air_attack = 0.45
+		armor_value = 1
+		ap_attack = 1
+		defensiveness = 3.00
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 12
+
+	start_year = 1957
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# MECHANIZED AIRBORNE DOCTRINE
+################################################################################
+mechanized_airborne_doctrine = {
+	
+	allow = {
+		advanced_mechanized_warfare = 1
+		airborne_invasion = 8
+		armored_personnel_carriers = 2
+	}
+	
+	change = no
+	
+	tactic_paratrooper_air_assault = 5
+
+	airlanding_infantry_brigade = {
+		max_strength = 0.15
+		build_cost_ic = 3.15
+		build_cost_manpower = 0.500
+		build_time = 25
+		officers = 20
+		transport_weight = 4.00
+		supply_consumption = 0.95
+		fuel_consumption = 0.75
+		radio_strength = 1
+		soft_attack = 1.25
+		hard_attack = 0.65
+		air_attack = 0.30
+		armor_value = 1.5
+		ap_attack = 2.0
+		defensiveness = 1.85
+		maximum_speed = 2.00
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 15
+
+	start_year = 1962
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# ANTI-TANK GUIDED MISSILE TACTICS
+################################################################################
+anti_tank_guided_missile_tactics = {
+	
+	allow = {
+		advanced_mechanized_warfare = 1
+		anti_tank_guided_missiles = 2
+		NOT = { mechanized_mbt_coordination_doctrine = 1 }
+	}
+	
+	change = no
+	
+	tactic_anti_tank_gun_defense = 2
+
+	mechanized_brigade = { 
+		hard_attack = 1.50
+	}	
+	
+	mechanized_infantry_bat = { 
+		hard_attack = 1.50
+	}	
+					
+	ss_mechanized_brigade = { 
+		hard_attack = 1.50
+	}	
+	
+	ss_mechanized_infantry_bat = { 
+		hard_attack = 1.50
+	}	
+
+	goering_brigade = { 
+		hard_attack = 1.50
+	}
+		
+			
+	guard_mechanized_brigade = { 
+		hard_attack = 1.50
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		hard_attack = 1.50
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 8
+
+	start_year = 1961
+	first_offset = 1963	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 5
+	folder = advanced_land_doctrine_folder
+}
+
+################################################################################
+# ADVANCED ARMOR WARFARE
+################################################################################
+advanced_armor_warfare = {
+	
+	allow = {
+		advanced_land_warfare = 1
+		main_battle_tank = 1
+	}
+
+	armor_unit_type = 0.03
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1947
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# OPERATIONAL MANEUVER GROUP
+################################################################################
+operational_maneuver_group = {
+	
+	allow = {
+		advanced_armor_warfare = 1
+		OR = { 
+			mechanized_advance = 1
+			combat_command_doctrine = 1
+		}
+		armor_division_hq = 7
+	}
+	
+	change = no
+	
+	tactic_armor_attack = 2
+
+	armor_brigade = { 
+        default_organisation = 5
+	}
+	
+	armor_bat = { 
+        default_organisation = 5
+	}
+		
+	guard_armor_brigade = { 
+		default_organisation = 5
+	}
+	
+	guard_armor_bat = { 
+		default_organisation = 5
+	}
+	
+	ss_armor_brigade = { 
+		default_organisation = 5
+	}
+
+	ss_armor_bat = { 
+        default_organisation = 5
+	}	
+	
+	desertrats_brigade = { 
+		default_organisation = 5
+	}
+	
+	lehr_brigade = { 
+		default_organisation = 5
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 8
+
+	start_year = 1951
+	first_offset = 1953		# 2nd model is from 1953
+    additional_offset = 2   # one new every 2 year
+	max_level = 10
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# NACHTPANZERJAGER DOCTRINE
+################################################################################
+panzerjager_doctrine = {
+	
+	allow = {
+		advanced_armor_warfare = 1
+		armor_division_hq = 6
+		spearhead = 1
+		armor_versus_armor_engagements = 6
+		tank_night_metascope = 2
+	}
+	
+	change = no
+	
+	tactic_surprise_attack = 2
+
+	armor_brigade = { 
+        hard_attack = 1.00
+		default_morale = 0.10
+		night = { 
+				attack = 0.10  
+				defence = 0.10 
+				movement = 0.10 
+			}
+	}
+	
+	armor_bat = { 
+        hard_attack = 1.00
+		default_morale = 0.10
+		night = { 
+				attack = 0.10  
+				defence = 0.10 
+				movement = 0.10 
+			}
+	}
+		
+	guard_armor_brigade = { 
+		hard_attack = 1.00
+		default_morale = 0.10
+		night = { 
+				attack = 0.10  
+				defence = 0.10 
+				movement = 0.10 
+			}
+	}
+	
+	guard_armor_bat = { 
+		hard_attack = 1.00
+		default_morale = 0.10
+		night = { 
+				attack = 0.10  
+				defence = 0.10 
+				movement = 0.10 
+			}
+	}
+	
+	ss_armor_brigade = { 
+		hard_attack = 1.00
+		default_morale = 0.10
+		night = { 
+				attack = 0.10  
+				defence = 0.10 
+				movement = 0.10 
+			}
+	}
+
+	ss_armor_bat = { 
+        hard_attack = 1.00
+		default_morale = 0.10
+		night = { 
+				attack = 0.10  
+				defence = 0.10 
+				movement = 0.10 
+			}
+	}	
+	
+	desertrats_brigade = { 
+		hard_attack = 1.00
+		default_morale = 0.10
+		night = { 
+				attack = 0.10  
+				defence = 0.10 
+				movement = 0.10 
+			}
+	}
+	
+	lehr_brigade = { 
+		hard_attack = 1.00
+		default_morale = 0.10
+		night = { 
+				attack = 0.10  
+				defence = 0.10 
+				movement = 0.10 
+			}
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 12
+
+	start_year = 1948
+	first_offset = 1951		# 2nd model is from 1953
+    additional_offset = 3   # one new every 2 year
+	max_level = 8
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# NUCLEAR DETERRENCE DOCTRINE
+################################################################################
+nuclear_deterrence_doctrine = {
+	
+	allow = {
+		advanced_armor_warfare = 1
+		armor_division_hq = 6
+		armor_maneuver_warfare_doctrine = 13
+		NOT = { mobile_artillery_integration = 1 }
+	}
+	
+	change = no
+
+	armor_brigade = { 
+        toughness = -1
+		defensiveness = 3.00
+	}
+	
+	armor_bat = { 
+        toughness = -1
+		defensiveness = 1.50
+	}
+		
+	guard_armor_brigade = { 
+		toughness = -1
+		defensiveness = 3.00
+	}
+	
+	guard_armor_bat = { 
+		toughness = -1
+		defensiveness = 1.50
+	}
+	
+	ss_armor_brigade = { 
+		toughness = -1
+		defensiveness = 1.50
+	}
+
+	ss_armor_bat = { 
+        toughness = -1
+		defensiveness = 1.50
+	}	
+	
+	desertrats_brigade = { 
+		toughness = -1
+		defensiveness = 3.00
+	}
+	
+	lehr_brigade = { 
+		toughness = -1
+		defensiveness = 3.00
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1952
+	first_offset = 1955		# 2nd model is from 1953
+    additional_offset = 3   # one new every 2 year
+	max_level = 7
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# MBT HEAVY ARMOR DOCTRINE
+################################################################################
+mbt_heavy_armor_doctrine = {
+	
+	allow = {
+		advanced_armor_warfare = 1
+		main_battle_tank = 2
+		NOT = { mbt_mobility_doctrine = 1 }
+	}
+	
+	change = no
+	
+	tactic_heavy_armor_shock = 2
+
+	armor_brigade = { 
+        armor_value = 1
+		maximum_speed = -0.50
+	}
+	
+	armor_bat = { 
+        armor_value = 1
+		maximum_speed = -0.50
+	}
+		
+	guard_armor_brigade = { 
+		armor_value = 1
+		maximum_speed = -0.50
+	}
+	
+	guard_armor_bat = { 
+		armor_value = 1
+		maximum_speed = -0.50
+	}
+	
+	ss_armor_brigade = { 
+		armor_value = 1
+		maximum_speed = -0.50
+	}
+
+	ss_armor_bat = { 
+        armor_value = 1
+		maximum_speed = -0.50
+	}	
+	
+	desertrats_brigade = { 
+		armor_value = 1
+		maximum_speed = -0.50
+	}
+	
+	lehr_brigade = { 
+		armor_value = 1
+		maximum_speed = -0.50
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+
+	start_year = 1952
+	first_offset = 1955		# 2nd model is from 1953
+    additional_offset = 3   # one new every 2 year
+	max_level = 7
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# MBT MOBILITY DOCTRINE
+################################################################################
+mbt_mobility_doctrine = {
+	
+	allow = {
+		advanced_armor_warfare = 1
+		main_battle_tank = 2
+		NOT = { mbt_heavy_armor_doctrine = 1 }
+	}
+	
+	change = no
+
+	armor_brigade = { 
+        armor_value = -1
+		maximum_speed = 0.50
+	}
+	
+	armor_bat = { 
+        armor_value = -1
+		maximum_speed = 0.50
+	}
+		
+	guard_armor_brigade = { 
+		armor_value = -1
+		maximum_speed = 0.50
+	}
+	
+	guard_armor_bat = { 
+		armor_value = -1
+		maximum_speed = 0.50
+	}
+	
+	ss_armor_brigade = { 
+		armor_value = -1
+		maximum_speed = 0.50
+	}
+
+	ss_armor_bat = { 
+        armor_value = -1
+		maximum_speed = 0.50
+	}	
+	
+	desertrats_brigade = { 
+		armor_value = -1
+		maximum_speed = 0.50
+	}
+	
+	lehr_brigade = { 
+		armor_value = -1
+		maximum_speed = 0.50
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+
+	start_year = 1952
+	first_offset = 1955		# 2nd model is from 1953
+    additional_offset = 3   # one new every 2 year
+	max_level = 7
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# MECHANIZED-MBT COORDINATION DOCTRINE
+################################################################################
+mechanized_mbt_coordination_doctrine = {
+	
+	allow = {
+		advanced_armor_warfare = 1
+		main_battle_tank = 2
+		infantry_and_armor_coordination = 15
+		NOT = { anti_tank_guided_missile_tactics = 1 }
+	}
+	
+	change = no
+
+	mobile_unit_type = 0.02
+	armor_unit_type = 0.02
+			
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 12
+
+	start_year = 1955
+	first_offset = 1958		# 2nd model is from 1953
+    additional_offset = 3   # one new every 2 year
+	max_level = 5
+	folder = advanced_land_doctrine_folder
+}
+
+################################################################################
+# ADVANCED AIRBORNE WARFARE
+################################################################################
+advanced_airborne_warfare = {
+	
+	allow = {
+		advanced_land_warfare = 1
+		airborne_assault = 8
+		SF_Division_HQ = 8
+	}
+
+	special_forces_unit_type = 0.03
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1950
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# AIRMOBILE OPERATIONS
+################################################################################
+air_mobile_operations = {
+	
+	allow = {
+		advanced_airborne_warfare = 1
+		air_assault_division = 1
+	}
+	
+	change = no
+
+	air_cavalry_brigade = { 
+		default_morale = 0.10
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 9
+
+	start_year = 1966
+	first_offset = 1968		# 2nd model is from 1953
+    additional_offset = 2   # one new every 2 year
+	max_level = 3
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# RAPID AERIAL ENVELOPEMENT
+################################################################################
+rapid_aerial_envelopment = {
+	
+	allow = {
+		advanced_airborne_warfare = 1
+		military_medium_transport_helicopter = 1
+	}
+	
+	tactic_paratrooper_air_assault = 2
+
+	paradrop_mission = {
+		efficiency = 0.10	#10% efficiency increase airborne assault missions
+	}
+	
+	
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1954
+	first_offset = 1957	# 2nd model is from 1953
+    additional_offset = 3   # one new every 2 year
+	max_level = 6
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# TACTICAL AIRBORNE REINFORCEMENT 
+################################################################################
+tactical_airborne_reinforcement = {
+	
+	allow = {
+		advanced_airborne_warfare = 1
+		airborne_division_reorganization = 1
+	}
+	
+	change = no
+
+	paratrooper_brigade = { 
+		default_morale = 0.10
+	}
+	
+	tactical_transport_aircraft = { 
+		default_morale = 0.10
+	}
+			
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1955
+	first_offset = 1958		# 2nd model is from 1953
+    additional_offset = 3   # one new every 2 year
+	max_level = 5
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# GUNSHIP SUPPORT TACTICS 
+################################################################################
+gunship_support_tactics = {
+	
+	allow = {
+		advanced_airborne_warfare = 1
+		helicopter_gunships = 1
+	}
+	
+	change = no
+
+	air_cavalry_brigade = { 
+		soft_attack = 3.00
+		hard_attack = 1.00
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+
+	start_year = 1963
+	first_offset = 1965	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 4
+	folder = advanced_land_doctrine_folder
+}
+
+################################################################################
+# ADVANCED BATTLEFIELD MEDICINE
+################################################################################
+advanced_battlefield_medicine = {
+	
+	allow = {
+		combat_medicine = 4
+	}
+
+	
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 6
+
+	start_year = 1945
+	folder = advanced_land_doctrine_folder
+}
+
+################################################################################
+# MOBILE ARMY SURGICAL HOSPITAL
+################################################################################
+mobile_army_surgical_hospital = {
+	
+	allow = {
+		advanced_battlefield_medicine = 1
+	}
+
+	casualty_trickleback = 0.05
+	
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 6
+
+	start_year = 1945
+	first_offset = 1950	#2nd model is from 1936
+	additional_offset = 5	#one new every 2 years
+	max_level = 6
+	folder = advanced_land_doctrine_folder
+}
+################################################################################
+# HELICOPTER AIR AMBULANCE
+################################################################################
+helicopter_air_ambulance = {
+	
+	allow = {
+		advanced_battlefield_medicine = 1
+	}
+
+	casualty_trickleback = 0.10
+		
+	research_bonus_from = {
+		land_doctrine_practical = 1	
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 8
+
+	start_year = 1963
+	folder = advanced_land_doctrine_folder
+}
+
+################################################################################
+# AFRICAN MILITIA ACTIVATION
+################################################################################
+african_militia_activation = {
+	
+	activate_unit = colonial_infantry_brigade
+	activate_unit = colonial_militia_brigade
+	activate_unit = colonial_light_infantry_brigade
+	activate_unit = colonial_cavalry_brigade
+	activate_unit =	colonial_bergsjaeger_brigade
+	activate_unit = colonial_garrison_brigade
+	
+	allow = {
+		or = {
+			and = {
+				north_africa_region = {controlled_by = THIS }	 # Alger - North
+			}
+			and = {
+				eritrea_region = {controlled_by = THIS }	 # Assab - East
+			}
+			and = {
+				or = {
+					sudan_region = {controlled_by = THIS }
+					ENG_10327 	= {controlled_by = THIS }
+					ENG_10066 	= {controlled_by = THIS }
+					ENG_10184 	= {controlled_by = THIS }
+					ENG_10087 	= {controlled_by = THIS }
+					ENG_10272 	= {controlled_by = THIS }
+					ENG_10244 	= {controlled_by = THIS }
+					ENG_9805 	= {controlled_by = THIS }
+				} 
+			}
+		}
+	}	
+
+	change = no
+
+	on_completion = infantry_theory
+
+    difficulty = 1
+
+    start_year = 1935
+	first_offset = 1936
+	additional_offset = 1
+	max_level = 12
+    folder = advanced_land_doctrine_folder
+}
+################################################################################
+# INDIAN INFANTRY ACTIVATION
+################################################################################
+indian_infantry_activation = {
+
+	activate_unit = colonial_infantry_brigade
+	activate_unit = colonial_militia_brigade
+	activate_unit = colonial_light_infantry_brigade
+	activate_unit = colonial_cavalry_brigade
+	activate_unit =	colonial_bergsjaeger_brigade
+	activate_unit = colonial_garrison_brigade
+	allow = {
+		controls = 9406
+		war = yes
+	}	
+
+	change = no
+
+	on_completion = infantry_theory
+
+    difficulty = 1
+
+    start_year = 1935
+	first_offset = 1936
+	additional_offset = 1
+	max_level = 12
+    folder = advanced_land_doctrine_folder
+}
+################################################################################
+# LUFTWAFFE INFANTRY
+################################################################################
+Luftwaffe_Infantry = {
+
+	activate_unit = luftwaffe_brigade
+	
+	allow = {
+		has_country_flag = op_fall_blau
+	}	
+
+	change = no
+
+	on_completion = infantry_theory
+
+    difficulty = 1
+
+    start_year = 1942
+	first_offset = 1943	
+	additional_offset = 1
+	max_level = 4
+    folder = advanced_land_doctrine_folder
+}

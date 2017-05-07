@@ -1,0 +1,6 @@
+division= {
+	name = "43. SS Grenadier Division 'Reichsmarschall'"
+	location = 1861 #berlin
+	regiment = { type = Ger_A_43_Reichmarschall name = "Stab 43. SS-Division" historical_model = 0 strength = 2 experience = 30 organisation = 1 }
+	regiment = { type = ss_infantry_brigade name = "SS-Grenadier-Regiment 105/107/109" historical_model = 0 strength = 30 experience = 30 organisation = 1 }
+}

@@ -1,0 +1,7543 @@
+# ########################################################################
+# Training Doctrines
+# ########################################################################
+############################################################################################
+## INFANTRY DIVISION FIELD EXERCISES
+############################################################################################
+infantry_division_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		infantry_division_hq = 2
+		trench_warfare_experience = 1
+		basic_infantry_training = 4
+	}
+	
+	change = no
+			
+	division_hq_standard = { 
+		maximum_speed = 0.10
+	}
+	infantry_brigade = { 
+        maximum_speed = 0.10
+	}
+	semi_motorized_brigade = { 
+		maximum_speed = 0.10
+	}
+	motorized_brigade = { 
+		maximum_speed = 0.10
+	}
+	cavalry_brigade = { 
+		maximum_speed = 0.10
+	}
+	light_infantry_brigade = { 
+		maximum_speed = 0.10
+	}
+	bergsjaeger_brigade = { 
+		maximum_speed = 0.10
+	}
+	alpini_brigade = { 
+		maximum_speed = 0.10
+	}
+	alpins_brigade = { 
+		maximum_speed = 0.10
+	}
+	paratrooper_brigade = { 
+		maximum_speed = 0.10
+	}
+	marine_brigade = { 
+		maximum_speed = 0.10
+	}
+		
+	guard_cavalry_brigade = { 
+		maximum_speed = 0.10
+	}
+	guard_infantry_brigade = { 
+		maximum_speed = 0.10
+	}
+	guard_motorized_brigade = { 
+		maximum_speed = 0.10
+	}
+	guard_paratrooper_brigade = { 
+		maximum_speed = 0.10
+	}
+	
+	ss_infantry_brigade = { 
+		maximum_speed = 0.10
+	}
+	ss_motorized_brigade = { 
+		maximum_speed = 0.10
+	}		
+	ss_bergsjaeger_brigade = { 
+		maximum_speed = 0.10
+	}	
+	ss_cavalry_brigade = { 
+		maximum_speed = 0.10
+	}
+	ss_paratrooper_brigade = { 
+		maximum_speed = 0.10
+	}	
+    
+	ss_dasreich = { 
+		maximum_speed = 0.10
+	}
+	ss_florian_geyer = { 
+		maximum_speed = 0.10
+	}	
+	ss_frundsberg = { 
+		maximum_speed = 0.10
+	}
+	ss_hitlerjugend = { 
+		maximum_speed = 0.10
+	}	
+	ss_hohenstaufen = { 
+		maximum_speed = 0.10
+	}	
+	ss_polizei = { 
+		maximum_speed = 0.10
+	}	
+	ss_prinz_eugen = { 
+		maximum_speed = 0.10
+	}	
+	ss_totenkopf = { 
+		maximum_speed = 0.10
+	}
+	ss_wiking = { 
+		maximum_speed = 0.10
+	}
+	
+	anzac_brigade = { 
+		maximum_speed = 0.10
+	}
+	afrika_brigade = { 
+		maximum_speed = 0.10
+	}
+	Gurkha_brigade = { 
+		maximum_speed = 0.10
+	}
+	imperial_brigade = { 
+		maximum_speed = 0.10
+	}
+	luftwaffe_brigade = { 
+		maximum_speed = 0.10
+	}
+	
+    research_bonus_from = {
+		infantry_practical = 0.25
+    }
+   
+    on_completion = infantry_practical
+
+    difficulty = 9
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1936 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 30
+    folder = training_doctrine_folder
+}
+############################################################################################
+## INFANTRY REGIMENT FIELD EXERCISES
+############################################################################################
+infantry_regiment_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		first_infantry_regiment_hqtrs = 1
+		trench_warfare_experience = 1
+		basic_infantry_training = 3
+	}
+	
+	change = no
+			
+	infantry_brigade = { 
+        default_organisation = 1
+	}
+	semi_motorized_brigade = { 
+		default_organisation = 1
+	}
+	motorized_brigade = { 
+		default_organisation = 1
+	}
+	
+	light_infantry_brigade = { 
+		default_organisation = 1
+	}
+	elite_light_infantry_brigade = { 
+		default_organisation = 1
+	}
+	
+	conscript_brigade = { 
+		default_organisation = 1
+	}
+	
+	combined_arms_brigade = { 
+		default_organisation = 1
+	}
+	
+	cavalry_brigade = { 
+		default_organisation = 1
+	}
+	
+	bergsjaeger_brigade = { 
+		default_organisation = 1
+	}
+	alpini_brigade = { 
+		default_organisation = 1
+	}
+	alpins_brigade = { 
+		default_organisation = 1
+	}
+	
+	airlanding_infantry_brigade = { 
+		default_organisation = 1
+	}
+	
+	paratrooper_brigade = { 
+		default_organisation = 1
+	}
+	
+	naval_infantry_brigade = { 
+		default_organisation = 1
+	}
+	marine_brigade = { 
+		default_organisation = 1
+	}
+	
+	guard_cavalry_brigade = { 
+		default_organisation = 1
+	}
+	guard_infantry_brigade = { 
+		default_organisation = 1
+	}
+	guard_motorized_brigade = { 
+		default_organisation = 1
+	}
+	guard_paratrooper_brigade = { 
+		default_organisation = 1
+	}
+	
+	
+	ss_bergsjaeger_brigade = { 
+		default_organisation = 1
+	}	
+	ss_cavalry_brigade = { 
+		default_organisation = 1
+	}	
+	ss_motorized_brigade = { 
+		default_organisation = 1
+	}	
+	ss_paratrooper_brigade = { 
+		default_organisation = 1
+	}	
+	
+	
+	ss_lssah = { 
+		default_organisation = 1
+	}	
+	ss_dasreich = { 
+		default_organisation = 1
+	}	
+	ss_hitlerjugend = { 
+		default_organisation = 1
+	}	
+	ss_florian_geyer = { 
+		default_organisation = 1
+	}	
+	ss_frundsberg = { 
+		default_organisation = 1
+	}	
+	ss_hohenstaufen = { 
+		default_organisation = 1
+	}	
+	ss_polizei = { 
+		default_organisation = 1
+	}	
+	ss_prinz_eugen = { 
+		default_organisation = 1
+	}	
+	ss_totenkopf = { 
+		default_organisation = 1
+	}
+	ss_wiking = { 
+		default_organisation = 1
+	}
+	
+	anzac_brigade = { 
+		default_organisation = 1
+	}
+	afrika_brigade = { 
+		default_organisation = 1
+	}
+	
+	grossdeutschland_brigade = { 
+		default_organisation = 1
+	}
+	luftwaffe_brigade = { 
+		default_organisation = 1
+	}
+	
+	Gurkha_brigade = { 
+		default_organisation = 1
+	}
+	imperial_brigade = { 
+		default_organisation = 1
+	}
+
+    research_bonus_from = {
+		infantry_practical = 0.25
+    }
+   
+    on_completion = infantry_practical
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1936 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 30
+    folder = training_doctrine_folder
+}
+############################################################################################
+## INFANTRY BATTALION FIELD EXERCISES
+############################################################################################
+infantry_battalion_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		trench_warfare_experience = 1
+		first_infantry_battalion = 1
+		second_infantry_battalion = 1
+		third_infantry_battalion = 1
+		basic_infantry_training = 2
+	}
+	
+	change = no
+	
+	infantry_unit_type = 0.01
+		
+	infantry_brigade = { 
+        default_morale = 0.01
+	}
+	semi_motorized_brigade = { 
+		default_morale = 0.01
+	}
+	motorized_brigade = { 
+		default_morale = 0.01
+	}
+		
+	light_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	elite_light_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	elite_light_infantry_battalion = { 
+		default_morale = 0.01
+	}
+	
+	conscript_brigade = { 
+		default_morale = 0.01
+	}
+	militia_brigade = { 
+		default_morale = 0.01
+	}
+	
+	combined_arms_brigade = { 
+		default_morale = 0.01
+	}
+	
+	commando_brigade = { 
+		default_morale = 0.01
+	}
+	ski_brigade = { 
+		default_morale = 0.01
+	}
+	
+	cavalry_brigade = { 
+		default_morale = 0.01
+	}
+	
+	bergsjaeger_brigade = { 
+		default_morale = 0.01
+	}
+	alpini_brigade = { 
+		default_morale = 0.01
+	}
+	alpins_brigade = { 
+		default_morale = 0.01
+	}
+	airlanding_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	paratrooper_brigade = { 
+		default_morale = 0.01
+	}
+	naval_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	marine_brigade = { 
+		default_morale = 0.01
+	}
+	air_cavalry_brigade = { 
+		default_morale = 0.01
+	}
+	
+	engineer_brigade = { 
+		default_morale = 0.01
+	}
+	
+	motorized_engineer_brigade = { 
+		default_morale = 0.01
+	}
+	
+	airborne_engineer_bat = { 
+		default_morale = 0.01
+	}
+	
+	guard_cavalry_brigade = { 
+		default_morale = 0.01
+	}
+	guard_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	guard_motorized_brigade = { 
+		default_morale = 0.01
+	}
+	guard_paratrooper_brigade = { 
+		default_morale = 0.01
+	}
+	
+	ss_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	ss_motorized_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_bergsjaeger_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_paratrooper_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_cavalry_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_commando_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	ss_engineer_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_motorized_engineer_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	
+	ss_lssah = { 
+		default_morale = 0.01
+	}	
+	ss_dasreich = { 
+		default_morale = 0.01
+	}	
+	ss_florian_geyer = { 
+		default_morale = 0.01
+	}	
+	ss_frundsberg = { 
+		default_morale = 0.01
+	}	
+	ss_hitlerjugend = { 
+		default_morale = 0.01
+	}	
+	ss_hohenstaufen = { 
+		default_morale = 0.01
+	}	
+	ss_polizei = { 
+		default_morale = 0.01
+	}	
+	ss_prinz_eugen = { 
+		default_morale = 0.01
+	}	
+	ss_totenkopf = { 
+		default_morale = 0.01
+	}
+	ss_wiking = { 
+		default_morale = 0.01
+	}
+	
+	anzac_brigade = { 
+		default_morale = 0.01
+	}
+	afrika_brigade = { 
+		default_morale = 0.01
+	}
+	
+	Communist_militia_brigade = { 
+		default_morale = 0.01
+	}
+	fascist_militia_brigade = { 
+		default_morale = 0.01
+	}
+	
+	grossdeutschland_brigade = { 
+		default_morale = 0.01
+	}
+	Gurkha_brigade = { 
+		default_morale = 0.01
+	}
+	imperial_brigade = { 
+		default_morale = 0.01
+	}
+	luftwaffe_brigade = { 
+		default_morale = 0.01
+	}
+	
+	ranger_brigade = { 
+		default_morale = 0.01
+	}
+	
+	infantry_bat = { 
+		default_morale = 0.01
+	}
+	motorized_infantry_bat = { 
+		default_morale = 0.01
+	}
+	
+	tropical_island_garrison_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_bergsjaeger_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_cavalry_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_garrison_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_light_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_militia_brigade = { 
+		default_morale = 0.01
+	}
+	
+	guard_motorized_infantry_bat = { 
+		default_morale = 0.01
+	}
+	
+	ss_infantry_bat = { 
+		default_morale = 0.01
+	}	
+	ss_motorized_infantry_bat = { 
+		default_morale = 0.01
+	}	
+    
+    research_bonus_from = {
+		infantry_practical = 0.25
+    }
+   
+    on_completion = infantry_practical
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1936 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 30
+    folder = training_doctrine_folder
+}
+############################################################################################
+## INFANTRY COMPANY FIELD EXERCISES
+############################################################################################
+infantry_company_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		trench_warfare_experience = 1
+		first_infantry_battalion = 1
+		second_infantry_battalion = 1
+		third_infantry_battalion = 1
+		basic_infantry_training = 1
+	}
+	
+	change = no
+		
+	infantry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	semi_motorized_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	motorized_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+		
+	police_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	light_infantry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	elite_light_infantry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	elite_light_infantry_battalion = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	conscript_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	militia_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	combined_arms_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	commando_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	ski_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	
+	cavalry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	bergsjaeger_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		mountain = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	alpini_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		mountain = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	alpins_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		mountain = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	airlanding_infantry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	paratrooper_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	naval_infantry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	marine_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	air_cavalry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	engineer_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	motorized_engineer_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	airborne_engineer_bat = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+		
+	
+	guard_cavalry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	guard_infantry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	guard_motorized_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	guard_paratrooper_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+		
+	ss_bergsjaeger_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_cavalry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_commando_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_engineer_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	
+	ss_motorized_engineer_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	ss_dasreich = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_florian_geyer = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_frundsberg = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_hitlerjugend = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_hohenstaufen = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_infantry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_lssah = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_motorized_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	
+	ss_paratrooper_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_police_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_polizei = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_prinz_eugen = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_ski_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	ss_totenkopf = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	ss_wiking = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+				
+	anzac_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	afrika_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	Communist_militia_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	fascist_militia_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	grossdeutschland_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	Gurkha_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	imperial_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	luftwaffe_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	NKVD_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	ranger_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	infantry_bat = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	motorized_infantry_bat = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+		
+	colonial_bergsjaeger_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	colonial_cavalry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	colonial_garrison_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	colonial_infantry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	colonial_light_infantry_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	colonial_militia_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	guard_motorized_infantry_bat = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	ss_infantry_bat = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	ss_motorized_infantry_bat = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.02   
+			movement = 0.01   
+		}
+		river = { 
+			attack = 0.02 
+			movement = 0.01   
+		}
+		woods = { 
+			attack = 0.02  
+			movement = 0.01 
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+				
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.01
+		}
+		marsh = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}	
+	
+    research_bonus_from = {
+		infantry_practical = 0.25
+    }
+   
+    on_completion = infantry_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1936 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 30
+    folder = training_doctrine_folder
+}
+############################################################################################
+## DIRECT FIRE BATTALION FIELD EXERCISES
+############################################################################################
+direct_fire_battalion_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		anti_tank_warfare = 1
+		OR = {
+			anti_tank_gun_battalion_hq = 1
+			anti_aircraft_gun_battalion_hq = 1
+		}
+		basic_artillery_training = 2
+	}
+	
+	change = no
+	
+	direct_fire_unit_type = 0.01
+	
+	anti_tank_brigade = { 
+        default_morale = 0.01
+	}
+	
+	heavy_anti_tank_brigade = { 
+        default_morale = 0.01
+	}
+	
+	anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	
+	heavy_anti_air_brigade = { 
+		default_morale = 0.01
+	}
+			
+	mixed_support_brigade = { 
+		default_morale = 0.01
+	}
+		
+	tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	medium_tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	
+	assault_gun_brigade = { 
+		default_morale = 0.01
+	}
+	heavy_assault_gun_brigade = { 
+		default_morale = 0.01
+	}
+	
+	sp_anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	
+	ss_mixed_support_brigade = { 
+		default_morale = 0.01
+	}
+	
+	ss_anti_tank_brigade = { 
+        default_morale = 0.01
+	}
+	
+	ss_heavy_anti_tank_brigade = { 
+        default_morale = 0.01
+	}
+	
+	ss_anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	
+	ss_heavy_anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	
+	ss_sp_anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	
+	combined_arms_brigade = { 
+		default_morale = 0.01
+	}
+	
+    research_bonus_from = {
+		artillery_practical = 0.25
+    }
+   
+    on_completion = artillery_practical
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1938
+    first_offset = 1939 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## DIRECT FIRE COMPANY FIELD EXERCISES
+############################################################################################
+direct_fire_company_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		anti_tank_warfare = 1
+		OR = {
+		first_anti_tank_company = 1 
+		first_anti_aircraft_company = 1
+		}
+		basic_artillery_training = 1
+	}
+	
+	change = no
+		
+	anti_tank_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	heavy_anti_tank_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	anti_air_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	heavy_anti_air_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	mixed_support_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+		
+	tank_destroyer_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	medium_tank_destroyer_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	assault_gun_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	heavy_assault_gun_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	sp_anti_air_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	ss_anti_tank_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	ss_heavy_anti_tank_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	ss_mixed_support_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	ss_anti_air_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	ss_heavy_anti_air_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	ss_sp_anti_air_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	combined_arms_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+    
+    research_bonus_from = {
+		artillery_practical = 0.25
+    }
+   
+    on_completion = artillery_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1938
+    first_offset = 1939 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## MECHANIZED DIVISION FIELD EXERCISES
+############################################################################################
+mechanized_division_field_exercises = {
+	allow = {
+		mechanized_division_hq = 2
+		basic_infantry_training = 5
+	}
+	
+	change = no
+			
+	mechanized_brigade = { 
+        default_organisation = 1
+		maximum_speed = 0.15
+	}
+	
+	guard_mechanized_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.15
+	}
+	
+	ss_mechanized_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.15
+	}	
+    
+	goering_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.15
+	}
+		
+	change = no
+	
+    research_bonus_from = {
+		mobile_practical = 0.25
+    }
+   
+    on_completion = mobile_practical
+
+    difficulty = 9
+
+    # common for all techs.
+    start_year = 1941
+    first_offset = 1942 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## MECHANIZED REGIMENT FIELD EXERCISES
+############################################################################################
+mechanized_regiment_field_exercises = {
+	allow = {
+		mechanized_regiment_hq = 2
+		mobile_infantry_theory = 1
+		basic_infantry_training = 4
+	}
+	
+	change = no
+			
+	mechanized_brigade = { 
+        default_morale = 0.01
+		air_defence = 1.00
+	}
+	
+	guard_mechanized_brigade = { 
+		default_morale = 0.01
+		air_defence = 1.00
+	}
+	
+	ss_mechanized_brigade = { 
+		default_morale = 0.01
+		air_defence = 1.00
+	}	
+    
+	goering_brigade = { 
+		default_morale = 0.01
+		air_defence = 1.00
+	}
+	
+
+    research_bonus_from = {
+		mobile_practical = 0.25
+    }
+   
+    on_completion = mobile_practical
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1941
+    first_offset = 1942 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## MECHANIZED BATTALION FIELD EXERCISES
+############################################################################################
+mechanized_battalion_field_exercises = {
+	allow = {
+		first_mechanized_battalion = 1
+		second_mechanized_battalion = 1
+		mobile_infantry_theory = 1
+		basic_infantry_training = 3
+	}
+	
+	change = no
+				
+	mechanized_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.05 
+			movement = 0.01  
+		}
+		arctic = {	
+			attack = 0.05	
+			movement = 0.01 
+		}
+		desert = { 
+			attack = 0.05 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.05 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.05 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.05 
+			movement = 0.01 
+		}
+		urban = {
+			attack = 0.05
+			movement = 0.01  
+		}
+		fort = { 
+			attack = 0.05
+		}
+	}
+	
+	guard_mechanized_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.05 
+			movement = 0.01  
+		}
+		arctic = {	
+			attack = 0.05	
+			movement = 0.01 
+		}
+		desert = { 
+			attack = 0.05 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.05 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.05 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.05 
+			movement = 0.01 
+		}
+		urban = {
+			attack = 0.05
+			movement = 0.01  
+		}
+		fort = { 
+			attack = 0.05
+		}
+	}
+	
+	ss_mechanized_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.05 
+			movement = 0.01  
+		}
+		arctic = {	
+			attack = 0.05	
+			movement = 0.01 
+		}
+		desert = { 
+			attack = 0.05 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.05 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.05 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.05 
+			movement = 0.01 
+		}
+		urban = {
+			attack = 0.05
+			movement = 0.01  
+		}
+		fort = { 
+			attack = 0.05
+		}
+	}	
+    
+	goering_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.05 
+			movement = 0.01  
+		}
+		arctic = {	
+			attack = 0.05	
+			movement = 0.01 
+		}
+		desert = { 
+			attack = 0.05 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.05 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.05 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.05 
+			movement = 0.01 
+		}
+		urban = {
+			attack = 0.05
+			movement = 0.01  
+		}
+		fort = { 
+			attack = 0.05
+		}
+	}
+		
+	mechanized_infantry_bat = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.05 
+			movement = 0.01  
+		}
+		arctic = {	
+			attack = 0.05	
+			movement = 0.01 
+		}
+		desert = { 
+			attack = 0.05 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.05 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.05 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.05 
+			movement = 0.01 
+		}
+		urban = {
+			attack = 0.05
+			movement = 0.01  
+		}
+		fort = { 
+			attack = 0.05
+		}
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.05 
+			movement = 0.01  
+		}
+		arctic = {	
+			attack = 0.05	
+			movement = 0.01 
+		}
+		desert = { 
+			attack = 0.05 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.05 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.05 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.05 
+			movement = 0.01 
+		}
+		urban = {
+			attack = 0.05
+			movement = 0.01  
+		}
+		fort = { 
+			attack = 0.05
+		}
+	}
+	
+	ss_mechanized_infantry_bat = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.05 
+			movement = 0.01  
+		}
+		arctic = {	
+			attack = 0.05	
+			movement = 0.01 
+		}
+		desert = { 
+			attack = 0.05 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.05 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.05 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.05 
+			movement = 0.01 
+		}
+		urban = {
+			attack = 0.05
+			movement = 0.01  
+		}
+		fort = { 
+			attack = 0.05
+		}
+	}	
+	
+	combined_arms_brigade = { 
+		toughness = 0.50
+		plains = {
+			attack = 0.05 
+			movement = 0.01  
+		}
+		arctic = {	
+			attack = 0.05	
+			movement = 0.01 
+		}
+		desert = { 
+			attack = 0.05 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.05 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.05 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.05 
+			movement = 0.01 
+		}
+		urban = {
+			attack = 0.05
+			movement = 0.01  
+		}
+		fort = { 
+			attack = 0.05
+		}
+	}
+	
+    research_bonus_from = {
+		mobile_practical = 0.25
+    }
+   
+    on_completion = mobile_practical
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1941
+    first_offset = 1942		# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## MECHANIZED COMPANY FIELD EXERCISES
+############################################################################################
+mechanized_company_field_exercises = {
+	allow = {
+		first_mechanized_battalion = 1
+		second_mechanized_battalion = 1
+		mobile_infantry_theory = 1
+		basic_infantry_training = 2
+	}
+	
+	change = no
+	
+	mobile_unit_type = 0.01
+		
+	mechanized_brigade = { 
+		defensiveness = 1
+	}
+	
+	guard_mechanized_brigade = { 
+		defensiveness = 1
+	}
+	
+	ss_mechanized_brigade = {
+		defensiveness = 1
+	}	
+    
+	goering_brigade = { 
+		defensiveness = 1
+	}
+		
+	mechanized_infantry_bat = { 
+		defensiveness = 1
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		defensiveness = 1
+	}
+	
+	ss_mechanized_infantry_bat = { 
+		defensiveness = 1
+	}
+	
+	combined_arms_brigade = { 
+		defensiveness = 1
+	}
+
+    research_bonus_from = {
+		mobile_practical = 0.25
+    }
+   
+    on_completion = mobile_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1941
+    first_offset = 1942 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ARTILLERY REGIMENT FIELD EXERCISES
+############################################################################################
+artillery_regiment_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		artillery_barrage = 1
+		artillery_regiment_hq = 1
+		basic_artillery_training = 2
+	}
+	
+	change = no
+	
+	artillery_unit_type = 0.01
+	
+	artillery_brigade = { 
+        maximum_speed = 0.1
+	}
+	
+	medium_artillery_brigade = { 
+        maximum_speed = 0.1
+	}
+		
+	pack_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	
+	rocket_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	
+	airborne_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	
+	heavy_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	
+	
+	mixed_support_brigade = { 
+		maximum_speed = 0.1
+	}
+
+	armored_support_brigade = { 
+		maximum_speed = 0.1
+	}
+	
+	sp_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	sp_rct_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	
+	
+	guard_sp_rct_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	
+	
+	ss_artillery_brigade = { 
+		maximum_speed = 0.1
+	}	
+	ss_medium_artillery_brigade = { 
+        maximum_speed = 0.1
+	}
+	ss_rocket_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	ss_sp_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	ss_sp_rct_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	ss_mixed_support_brigade = { 
+		maximum_speed = 0.1
+	}
+	
+	ss_armored_support_brigade = { 
+		maximum_speed = 0.1
+	}
+	ss_pack_artillery_brigade = { 
+		maximum_speed = 0.1
+	}
+	
+	
+	    
+    research_bonus_from = {
+		artillery_practical = 0.25
+    }
+   
+    on_completion = artillery_practical
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1936 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 30
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ARTILLERY BATTALION FIELD EXERCISES
+############################################################################################
+artillery_battalion_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		first_light_artillery_battalion = 1
+		second_light_artillery_battalion = 1
+		third_light_artillery_battalion = 1
+		medium_artillery_battalion = 1
+		basic_artillery_training = 2
+	}
+	
+	change = no
+		
+	artillery_brigade = { 
+        default_organisation = 1
+	}
+	medium_artillery_brigade = { 
+        default_organisation = 1
+	}
+	
+	pack_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	rocket_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	airborne_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	heavy_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	
+	mixed_support_brigade = { 
+		default_organisation = 1
+	}
+	
+	armored_support_brigade = { 
+		default_organisation = 1
+	}
+	
+	sp_artillery_brigade = { 
+		default_organisation = 1
+	}
+	sp_rct_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	
+	guard_sp_rct_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	
+	ss_artillery_brigade = { 
+		default_organisation = 1
+	}	
+	ss_medium_artillery_brigade = { 
+		default_organisation = 1
+	}	
+	ss_rocket_artillery_brigade = { 
+		default_organisation = 1
+	}
+	ss_sp_artillery_brigade = { 
+		default_organisation = 1
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_organisation = 1
+	}
+	ss_mixed_support_brigade = { 
+		default_organisation = 1
+	}
+	
+	ss_armored_support_brigade = { 
+		default_organisation = 1
+	}
+	ss_pack_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	combined_arms_brigade = { 
+		default_organisation = 1
+	}
+    
+    research_bonus_from = {
+		artillery_practical = 0.25
+    }
+   
+    on_completion = artillery_practical
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1936 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 30
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ARTILLERY BATTERY FIELD EXERCISES
+############################################################################################
+artillery_battery_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		first_light_artillery_battalion = 1
+		second_light_artillery_battalion = 1
+		third_light_artillery_battalion = 1
+		medium_artillery_battalion = 1
+		basic_artillery_training = 1
+	}
+	
+	change = no
+		
+	artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	
+	medium_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+		
+	pack_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	
+	rocket_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	
+	airborne_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	
+	heavy_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	
+	
+	mixed_support_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	
+	armored_support_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	
+	sp_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	sp_rct_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	
+	
+	guard_sp_rct_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	
+	
+	ss_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}	
+	
+	ss_medium_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}	
+	
+	ss_rocket_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	ss_sp_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	ss_mixed_support_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	
+	ss_armored_support_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+	ss_pack_artillery_brigade = { 
+		default_morale = 0.01
+		plains = {
+			attack = 0.02 
+			defence = 0.02  
+		}
+		desert = { 
+			attack = 0.02 
+			defence = 0.02  
+			}
+		woods = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.02 
+			defence = 0.02 
+		}		
+		hills = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02 
+			defence = 0.02 
+		}
+		fort = { 
+			attack = 0.02 
+			defence = 0.02
+		}
+	}
+
+    research_bonus_from = {
+		artillery_practical = 0.25
+    }
+   
+    on_completion = artillery_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1936 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 30
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ARMOR DIVISION FIELD EXERCISES
+############################################################################################
+armor_division_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		armor_division_hq = 1
+		basic_armor_training = 2
+	}
+	
+	change = no
+		
+	armor_brigade = { 
+        default_morale = 0.01
+		maximum_speed = 0.15
+	}
+	light_armor_brigade = { 
+		default_morale = 0.01
+		maximum_speed = 0.15
+	}
+	
+	guard_armor_brigade = { 
+		default_morale = 0.01
+		maximum_speed = 0.15
+	}
+	
+	ss_armor_brigade = { 
+		default_morale = 0.01
+		maximum_speed = 0.15
+	}	
+	
+	desertrats_brigade = { 
+		default_morale = 0.01
+		maximum_speed = 0.15
+	}
+	
+	lehr_brigade = { 
+		default_morale = 0.01
+		maximum_speed = 0.15
+	}
+
+    research_bonus_from = {
+		armour_practical = 0.25
+    }
+   
+    on_completion = armour_practical
+
+    difficulty = 9
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1940 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ARMOR REGIMENT FIELD EXERCISES
+############################################################################################
+armor_regiment_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		OR = { 	
+		armor_regiment_hq = 1
+		light_armor_regiment_hq = 2
+		}
+		basic_armor_training = 1
+	}
+	
+	change = no
+	
+	armor_unit_type = 0.01
+			
+	armor_brigade = { 
+        default_organisation = 1
+	}
+	light_armor_brigade = { 
+		default_organisation = 1
+	}
+	
+	guard_armor_brigade = { 
+		default_organisation = 1
+	}
+	
+	ss_armor_brigade = { 
+		default_organisation = 1
+	}	
+	
+	desertrats_brigade = { 
+		default_organisation = 1
+	}
+	
+	lehr_brigade = { 
+		default_organisation = 1
+	}
+    	
+    research_bonus_from = {
+		armour_practical = 0.25
+    }
+   
+    on_completion = armour_practical
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1938
+    first_offset = 1939 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ARMOR BATTALION FIELD EXERCISES
+############################################################################################
+armor_battalion_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		OR = {
+			first_tank_battalion = 1
+			first_light_tank_battalion = 1
+			heavy_tank_battalion = 1
+		}
+		basic_armor_training = 1
+	}
+	
+	change = no
+	
+	armor_brigade = { 
+        toughness = 2
+	}
+	
+	light_armor_brigade = { 
+		toughness = 2
+	}
+	
+	armor_bat = { 
+        toughness = 2
+	}
+	light_armor_bat = { 
+		toughness = 2
+	}
+	
+	guard_armor_brigade = { 
+		toughness = 2
+	}
+	guard_armor_bat = { 
+		toughness = 2
+	}
+	
+	ss_armor_brigade = { 
+		toughness = 2
+	}	
+	ss_armor_bat = { 
+		toughness = 2
+	}	
+	
+	desertrats_brigade = { 
+		toughness = 2
+	}
+	
+	lehr_brigade = { 
+		toughness = 2
+	}
+	
+	heavy_armor_brigade = { 
+		toughness = 2
+	}
+	
+	ss_heavy_armor_brigade = { 
+		toughness = 2
+	}
+	
+	guard_heavy_armor_brigade = { 
+		toughness = 2
+	}
+		
+    research_bonus_from = {
+		armour_practical = 0.25
+    }
+   
+    on_completion = armour_practical
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1937
+    first_offset = 1938		# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ARMOR COMPANY FIELD EXERCISES
+############################################################################################
+armor_company_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		OR = {
+			first_tank_battalion = 1
+			first_light_tank_battalion = 1
+			heavy_tank_battalion = 1
+		}
+		basic_armor_training = 1
+	}
+	
+	change = no
+	
+	armor_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	light_armor_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	
+	guard_armor_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	
+	ss_armor_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}	
+	
+	desertrats_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	
+	heavy_armor_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	
+	super_heavy_armor_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	
+	guard_heavy_armor_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	ss_heavy_armor_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}	
+	
+	armor_bat = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	light_armor_bat = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	
+	guard_armor_bat = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	
+	ss_armor_bat = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}	
+	
+	combined_arms_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	
+	lehr_brigade = { 
+		
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+
+    research_bonus_from = {
+		armour_practical = 0.25
+    }
+   
+    on_completion = armour_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+    first_offset = 1937 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## RECON BATTALION FIELD EXERCISES
+############################################################################################
+recon_battalion_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		infantry_division_hq = 2
+		stormtrooper_tactics = 1
+		recon_battalion = 1
+		basic_infantry_training = 2
+	}
+	
+	change = no
+	
+	recon_unit_type = 0.01
+	
+	Recon_cavalry_brigade = { 
+        default_organisation = 1
+		maximum_speed = 0.1
+	}
+	motorcycle_recon_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	armored_car_brigade = { 
+        default_organisation = 1
+		maximum_speed = 0.1
+	}
+	
+	ss_Recon_cavalry_brigade = { 
+        default_organisation = 1
+		maximum_speed = 0.1
+	}
+	ss_motorcycle_recon_brigade = { 
+		default_organisation = 1
+		maximum_speed = 0.1
+	}
+	ss_armored_car_brigade = { 
+        default_organisation = 1
+		maximum_speed = 0.1
+	}
+	    
+    research_bonus_from = {
+		infantry_practical = 0.50
+    }
+   
+    on_completion = infantry_practical
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1936
+    first_offset = 1937 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## RECON COMPANY FIELD EXERCISES
+############################################################################################
+recon_company_field_exercises = {
+	allow = {
+		world_war_one_warfare = 1
+		infantry_division_hq = 2
+		stormtrooper_tactics = 1
+		recon_battalion = 1
+		basic_infantry_training = 1
+	}
+	
+	change = no
+		
+	Recon_cavalry_brigade = { 
+		toughness = 1
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	motorcycle_recon_brigade = { 
+		toughness = 1
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	armored_car_brigade = { 
+        toughness = 1
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	
+	combined_arms_brigade = { 
+		toughness = 1
+		plains = {
+			attack = 0.01
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.01 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.01 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.01 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.01 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.01 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.01 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.01 
+			movement = 0.01
+		}
+	}
+	
+	
+	ss_Recon_cavalry_brigade = { 
+		toughness = 1
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	ss_motorcycle_recon_brigade = { 
+		toughness = 1
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+	ss_armored_car_brigade = { 
+        toughness = 1
+		plains = {
+			attack = 0.02 
+			movement = 0.01  
+		}
+		arctic = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		desert = { 
+			attack = 0.02 
+			movement = 0.01  
+			}
+		woods = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		forest = {
+			attack = 0.02 
+			movement = 0.01 
+		}		
+		hills = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+		urban = {
+			attack = 0.02 
+			movement = 0.01 
+		}
+		fort = { 
+			attack = 0.02 
+			movement = 0.01
+		}
+	}
+
+    research_bonus_from = {
+		infantry_practical = 0.25
+    }
+   
+    on_completion = infantry_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+    first_offset = 1937 	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 25
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ENGINEER ASSAULT TRAINING
+############################################################################################
+engineer_assault_training = {
+	allow = {
+		
+		OR = { 
+			infantry_assault_theory = 1
+			stormtrooper_tactics = 1
+		}
+		
+	}
+	
+	change = no
+	
+	support_unit_type = 0.01
+	    
+	change = no
+	
+    research_bonus_from = {
+		spearhead_theory = 0.25
+    }
+   
+    on_completion = spearhead_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1936
+    first_offset = 1938 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## FORWARD AIR CONTROLLER TRAINING
+############################################################################################
+foward_air_controller_training = {
+	allow = {
+		infantry_assault_theory = 1
+		infantry_close_air_support_doctrine = 1
+		basic_infantry_training = 3
+		basic_pilot_training = 3
+	}
+	
+	ground_attack = {
+		reduction_modifier = -0.02
+	}
+	    
+	change = no
+	
+    research_bonus_from = {
+		spearhead_theory = 0.25
+    }
+   
+    on_completion = spearhead_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1940
+    first_offset = 1941 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 14
+    folder = training_doctrine_folder
+}
+############################################################################################
+## SPECIAL ASSAULT TRAINING
+############################################################################################
+special_assault_training = {
+	allow = {
+		OR = { 
+			infantry_assault_theory = 1
+			stormtrooper_tactics = 1
+		}
+				
+	}
+	
+	assault_unit_type = 0.01
+		
+    
+	change = no
+	
+    research_bonus_from = {
+		spearhead_theory = 0.25
+    }
+   
+    on_completion = spearhead_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1941 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## NAVAL GUNFIRE LIASON TRAINING
+############################################################################################
+naval_gunfire_liason_training = {
+	allow = {
+		basic_naval_training = 8
+		marine_regiment = 1
+	}
+	
+	marine_brigade = {
+		amphibious = { 
+				attack = 0.04
+				defence = 0.04 
+			}
+	}
+		    
+	change = no
+	
+    research_bonus_from = {
+		spearhead_theory = 0.25
+    }
+   
+    on_completion = spearhead_theory
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1941		# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## SPECIAL COMBINED ARMS TACTICS
+############################################################################################
+special_combined_arms_tactics = {
+	allow = {
+		basic_infantry_training = 8
+		basic_armor_training = 8
+		basic_artillery_training = 8
+	}
+	
+	kampfgruppe_unit_type = 0.01
+	    
+	change = no
+	
+    research_bonus_from = {
+		spearhead_theory = 0.25
+    }
+   
+    on_completion = spearhead_theory
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1941 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## PARTISAN SUPPRESSION
+############################################################################################
+partisan_suppression = {
+
+	allow = { 
+		war = yes 
+	
+	}
+	
+	police_brigade = { 
+		suppression = 1.0
+	}
+	
+	global_revolt_risk = -0.025
+	partisan_efficiency = -5
+	
+	change = no
+	
+    research_bonus_from = {
+        militia_theory = 0.25
+    }
+   
+    on_completion = militia_theory
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+    first_offset = 1938 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 12
+    folder = training_doctrine_folder
+}
+############################################################################################
+## RESISTANCE SUPPORT
+############################################################################################
+resistance_support = {
+
+	allow = { 
+		war = yes 
+	}
+	
+	activate_building = desperate_defence
+	
+    partisan_brigade = {
+		default_organisation = 4
+			marsh 	 = { movement = 0.08  }
+			jungle 	 = { movement = 0.05  }
+			forest 	 = { movement = 0.03  }
+			mountain = { movement = 0.10  }
+			hills 	 = { movement = 0.03  }
+	}
+	
+	change = no
+	
+    research_bonus_from = {
+        militia_theory = 0.25
+    }
+   
+    on_completion = militia_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+    first_offset = 1938 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 12
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ADVANCED FIGHTER PILOT TRAINING
+############################################################################################
+advanced_fighter_pilot_training = {
+
+	allow = { 
+		OR = {
+			AND = { 
+				war = yes 
+				basic_pilot_training = 1
+				light_aircraft_production_model = 1
+			}
+			AND = { 
+				ideology_group = fascism
+				basic_pilot_training = 1
+				light_aircraft_production_model = 1
+			}		
+		}
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	leadership_gain = -0.005
+		
+	air_intercept = {
+		efficiency = 0.01 #1% greater eff when on on intercept mission
+	}
+	ground_attack = {
+		efficiency = 0.01 #1% greater eff when on on ground attack missions
+	}
+	
+	interceptor = { 	
+		default_organisation = 5
+		}
+	pursuit_fighter = { 	
+		default_organisation = 5
+		}	
+	multi_role = { 	
+		default_organisation = 5
+		}
+	fighter_bomber = { 	
+		default_organisation = 5
+		}		
+		
+	twin_engine_fighters = { 	
+		default_organisation = 5
+		}
+	night_fighter = { 	
+		default_organisation = 5
+		}	
+		
+	rocket_interceptor = { 	
+		default_organisation = 5
+		}
+	rocket_interceptor_van = { 	
+		default_organisation = 5
+		}	
+	jet_flying_wing = { 	
+		default_organisation = 5
+		}
+	peoples_fighter = { 	
+		default_organisation = 5
+		}	
+	
+#######################################	
+	advanced_jet_fighter = { 	
+		default_organisation = 5
+		}	
+	
+		
+    research_bonus_from = {
+        air_doctrine_practical = 0.25
+    }
+   
+    on_completion = air_doctrine_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1937
+    first_offset = 1939 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ADVANCED BOMBER PILOT TRAINING
+############################################################################################
+advanced_bomber_pilot_training = {
+
+	allow = { 
+		OR = {
+			AND = { 
+				war = yes 
+				basic_pilot_training = 1
+				OR = {
+					heavy_aircraft = 1
+					twin_engine_aircraft = 1
+				}
+			}
+			AND = { 
+				ideology_group = fascism
+				basic_pilot_training = 1
+				OR = {
+					heavy_aircraft = 1
+					twin_engine_aircraft = 1
+				}
+			}		
+		}
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	leadership_gain = -0.005
+		
+	interdiction = {
+		efficiency = 0.02 #1% greater eff when on on intercept mission
+	}
+	
+	logistical_strike = {
+		efficiency = 0.02 #1% greater eff when on on logistical strike mission
+	}
+	
+	installation_strike = {
+		efficiency = 0.02 #1% greater eff when on on Installation strike mission
+	}
+		
+	cas = { 	
+		default_organisation = 5
+		}
+	heavy_cas = { 	
+		default_organisation = 5
+		}	
+	
+#######################################		
+	
+	light_bomber = { 	
+		default_organisation = 5
+		}
+	tactical_bomber = { 	
+		default_organisation = 5
+		}
+	transport_plane = { 	
+		default_organisation = 5
+		}	
+	Flying_boat = { 	
+		default_organisation = 5
+		}
+#######################################			
+	naval_bomber = { 	
+		default_organisation = 5
+		}
+	strategic_bomber = { 	
+		default_organisation = 5
+		}
+	heavy_bomber = { 	
+		default_organisation = 5
+		}
+	super_heavy_bomber = { 	
+		default_organisation = 5
+		}	
+	quad_engine_transport = { 	
+		default_organisation = 5
+		}
+#######################################		
+	
+	jet_bomber = { 	
+		default_organisation = 5
+		}	
+	amerika_bomber = { 	
+		default_organisation = 5
+		}		
+#######################################	
+		
+	advanced_jet_bomber = { 	
+		default_organisation = 5
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_organisation = 5
+		}	
+	tactical_transport_aircraft = { 	
+		default_organisation = 5
+		}	
+	
+	
+    research_bonus_from = {
+        air_doctrine_practical = 0.25
+    }
+   
+    on_completion = air_doctrine_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1937
+    first_offset = 1939 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ADVANCED BOMBADIER TRAINING
+############################################################################################
+advanced_bombadier_training = {
+
+	allow = { 
+		OR = {
+			AND = { 
+				war = yes 
+				basic_pilot_training = 1
+				OR = {
+					heavy_aircraft = 1
+					twin_engine_aircraft = 1
+				}
+			}
+			AND = { 
+				ideology_group = fascism 
+				basic_pilot_training = 1
+				OR = {
+					heavy_aircraft = 1
+					twin_engine_aircraft = 1
+				}
+			}		
+		}
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	leadership_gain = -0.005
+		
+	strategic_bomb = {
+		efficiency = 0.02 #1% greater eff when on on strategic_bomb mission 
+	}
+	
+	
+	light_bomber = { 	
+		default_organisation = 1
+		strategic_attack = 0.10
+		}
+	tactical_bomber = { 	
+		default_organisation = 1
+		strategic_attack = 0.10
+		}
+	
+	strategic_bomber = { 	
+		default_organisation = 1
+		strategic_attack = 0.10
+		}
+	heavy_bomber = { 	
+		default_organisation = 1
+		strategic_attack = 0.10
+		}
+	super_heavy_bomber = { 	
+		default_organisation = 1
+		strategic_attack = 0.10
+		}	
+	
+#######################################		
+	
+	jet_bomber = { 	
+		default_organisation = 1
+		strategic_attack = 0.10
+		}	
+	amerika_bomber = { 	
+		default_organisation = 1
+		strategic_attack = 0.10
+		}		
+#######################################	
+	
+	advanced_jet_heavy_bomber = { 	
+		default_organisation = 1
+		strategic_attack = 0.10
+		}	
+	
+	
+    research_bonus_from = {
+        air_doctrine_practical = 0.25
+    }
+   
+    on_completion = air_doctrine_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1938
+    first_offset = 1940 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ADVANCED NAVIGATOR TRAINING
+############################################################################################
+advanced_navigator_training = {
+
+	allow = { 
+		OR = {
+			AND = { 
+				war = yes 
+				basic_pilot_training = 1
+				OR = {
+					heavy_aircraft = 1
+					twin_engine_aircraft = 1
+				}
+			}
+			AND = { 
+				ideology_group = fascism 
+				basic_pilot_training = 1
+				OR = {
+					heavy_aircraft = 1
+					twin_engine_aircraft = 1
+				}
+			}		
+		}
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	leadership_gain = -0.005
+			
+	light_bomber = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}
+	tactical_bomber = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}
+	transport_plane = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}	
+	Flying_boat = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}
+#######################################			
+	naval_bomber = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}
+	strategic_bomber = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}
+	heavy_bomber = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}
+	super_heavy_bomber = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}	
+	quad_engine_transport = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}
+#######################################		
+	
+	amerika_bomber = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}		
+#######################################	
+	
+	advanced_jet_heavy_bomber = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}	
+	tactical_transport_aircraft = { 	
+		default_organisation = 1
+        surface_defence = 0.10
+		}
+	
+   research_bonus_from = {
+        air_doctrine_practical = 0.25
+    }
+   
+    on_completion = air_doctrine_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+    first_offset = 1938 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ADVANCED NAVAL AVIATOR TRAINING
+############################################################################################
+advanced_naval_aviator_training = {
+
+	allow = { 
+		OR = {
+			AND = { 
+				war = yes 
+				basic_pilot_training = 1
+				naval_aircraft = 1
+					}
+			AND = { 
+				ideology_group = fascism 
+				basic_pilot_training = 1
+				naval_aircraft = 1
+					}		
+		} 
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	leadership_gain = -0.005
+	
+	port_strike = {
+		efficiency = 0.02 #1% greater eff when on port strikes mission
+	}
+	naval_strike = {
+		efficiency = 0.02 #1% greater eff when on naval strikes mission
+	}
+	carrier_protection = {
+		efficiency  = 0.02 #1% greater eff when on CAG duty mission
+	}
+		
+	naval_air_target_chance = 0.01
+	
+	cag = { 	
+		default_organisation = 5
+		}	
+			
+	naval_fighter = { 	
+		default_organisation = 5
+		}	
+	naval_fighter_bomber = { 	
+		default_organisation = 5
+		}	
+	naval_dive_bomber = { 	
+		default_organisation = 5
+		}	
+	naval_torpedo_plane = { 	
+		default_organisation = 5
+		}	
+	naval_cas = { 	
+		default_organisation = 5
+		}		
+	
+    research_bonus_from = {
+        air_doctrine_practical = 0.25
+    }
+   
+    on_completion = air_doctrine_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+    first_offset = 1938 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ADVANCED MAINTENANCE TRAINING
+############################################################################################
+advanced_maintenance_training = {
+
+	allow = { 
+		OR = {
+			light_aircraft_production_model = 1
+			naval_aircraft = 1
+			twin_engine_aircraft = 1
+			heavy_aircraft = 1
+		} 
+		basic_airmen_training = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	leadership_gain = -0.005
+		
+	interceptor = { 	
+		default_morale = 0.05
+		supply_consumption = -0.02
+		}
+	pursuit_fighter = { 	
+		default_morale = 0.05
+		supply_consumption = -0.02
+		}	
+	multi_role = { 	
+		default_morale = 0.05
+		supply_consumption = -0.02
+		}
+	fighter_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.03
+		}		
+	cas = { 	
+		default_morale = 0.05
+		supply_consumption = -0.03
+		}
+	heavy_cas = { 	
+		default_morale = 0.05
+		supply_consumption = -0.04
+		}	
+#######################################	
+	cag = { 	
+		default_morale = 0.05
+		supply_consumption = -0.02
+		}			
+	naval_fighter = { 	
+		default_morale = 0.05
+		supply_consumption = -0.02
+		}	
+	naval_fighter_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.03
+		}	
+	naval_dive_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.04
+		}	
+	naval_torpedo_plane = { 	
+		default_morale = 0.05
+		supply_consumption = -0.04
+		}	
+	naval_cas = { 	
+		default_morale = 0.05
+		supply_consumption = -0.04
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		default_morale = 0.05
+		supply_consumption = -0.03
+		}
+	night_fighter = { 	
+		default_morale = 0.05
+		supply_consumption = -0.03
+		}	
+	light_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.05
+		}
+	tactical_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.07
+		}
+	transport_plane = { 	
+		default_morale = 0.05
+		supply_consumption = -0.05
+		}	
+	Flying_boat = { 	
+		default_morale = 0.05
+		supply_consumption = -0.04
+		}
+#######################################			
+	naval_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.09
+		}
+	strategic_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.10
+		}
+	heavy_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.11
+		}
+	super_heavy_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.15
+		}	
+	quad_engine_transport = { 	
+		default_morale = 0.05
+		supply_consumption = -0.15
+		}
+#######################################		
+	rocket_interceptor = { 	
+		default_morale = 0.05
+		supply_consumption = -0.02
+		}
+	rocket_interceptor_van = { 	
+		default_morale = 0.05
+		supply_consumption = -0.02
+		}	
+	jet_flying_wing = { 	
+		default_morale = 0.05
+		supply_consumption = -0.02
+		}
+	peoples_fighter = { 	
+		default_morale = 0.05
+		supply_consumption = -0.02
+		}	
+	jet_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.04
+		}	
+	amerika_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.10
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_morale = 0.05
+		supply_consumption = -0.04
+		}	
+	advanced_jet_cas = { 	
+		default_morale = 0.05
+		supply_consumption = -0.04
+		}	
+	advanced_jet_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.08
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_morale = 0.05
+		supply_consumption = -0.15
+		}	
+	tactical_transport_aircraft = { 	
+		default_morale = 0.05
+		supply_consumption = -0.08
+		}
+	
+	
+    research_bonus_from = {
+        air_doctrine_practical = 0.25
+    }
+   
+    on_completion = air_doctrine_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1936
+    first_offset = 1938 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## ADVANCED GUNNER TRAINING
+############################################################################################
+advanced_gunner_training = {
+
+	allow = { 
+		OR = {
+			AND = { 
+				war = yes 
+				OR = {
+				twin_engine_aircraft = 1
+				heavy_aircraft = 1
+				} 
+			}
+			AND = { 
+				ideology_group = fascism 
+				OR = {
+				twin_engine_aircraft = 1
+				heavy_aircraft = 1
+				} 
+			}		
+		} 
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	leadership_gain = -0.005
+			
+	light_bomber = { 	
+		default_organisation = 1
+        air_attack = 0.25
+		}
+	tactical_bomber = { 	
+		default_organisation = 1
+        air_attack = 0.25
+		}
+	transport_plane = { 	
+		default_organisation = 1
+        air_attack = 0.25
+		}	
+	Flying_boat = { 	
+		default_organisation = 1
+        air_attack = 0.25
+		}
+#######################################			
+	naval_bomber = { 	
+		default_organisation = 1
+        air_attack = 0.25
+		}
+	strategic_bomber = { 	
+		default_organisation = 1
+        air_attack = 0.25
+		}
+	heavy_bomber = { 	
+		default_organisation = 1
+        air_attack = 0.25
+		}
+	super_heavy_bomber = { 	
+		default_organisation = 1
+        air_attack = 0.25
+		}	
+	quad_engine_transport = { 	
+		default_organisation = 1
+        air_attack = 0.25
+		}
+
+		
+    research_bonus_from = {
+        air_doctrine_practical = 0.25
+    }
+   
+    on_completion = air_doctrine_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1937
+    first_offset = 1939 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## CAPITAL SHIP TRAINING DRILLS
+############################################################################################
+capital_ship_training_drills = {
+
+	allow = { 
+		OR = {
+			battlecruiser_class = 1
+			battleship_class = 1
+			fleet_carrier_class = 1
+		}
+	}
+			
+	targeting_choice = 0.01
+	targeting_chance = 0.01
+	
+	battlecruiser = { 
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	battleship = { 
+		default_organisation = 2
+		default_morale = 0.02	
+	}
+	coastal_battleship = { 
+		default_organisation = 2
+		default_morale = 0.02	
+	}
+	pocket_battleship = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	super_heavy_battleship = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	super_carrier = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	battle_carrier = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	carrier = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	light_carrier = { 
+		default_organisation = 2
+		default_morale = 0.02	
+	}
+	nuclear_super_aircraft_carrier = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	
+	
+	BB_Andrea_Doria = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Anson = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Arizona = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Arkansas = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	BB_Barham = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	BB_Bismarck = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Caio_Duilio = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_California = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	BB_Colorado = { 
+		default_organisation = 2
+		default_morale = 0.02	
+	}
+	BB_Conte_di_Cavour = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Duke_of_York = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	BB_Fuso = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Giulio_Cesare = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Gneisenau = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	BB_Howe = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Hyuga = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Idaho = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Iowa = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Ise = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_King_George_V = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Littorio = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Malaya = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Maryland = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Mississippi = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Missouri = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	BB_Mutsu = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Nagato = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Nelson = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Nevada = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_New_Mexico = { 
+		default_organisation = 2
+		default_morale = 0.02	
+	}
+	BB_New_York = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Oklahoma = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Pennsylvania = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	BB_Prince_of_Wales = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Queen_elizabeth = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Ramillies = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Resolution = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	BB_Revenge = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Rodney = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Royal_Oak = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Royal_sovereign = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Scharnhorst = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Tennessee = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Texas = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Tirpitz = { 
+		default_organisation = 2
+		default_morale = 0.02	
+	}
+	BB_Valiant = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Vittorio_Veneto = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BB_Warspite = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_West_Virginia = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BB_Yamashiro = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BC_Haruna = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BC_Hiei = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	BC_Hood = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BC_Kirishima = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BC_Kongo = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	BC_Renown = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	BC_Repulse = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	SBB_Musashi = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	SBB_Yamato = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	CV_Akagi = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	CV_Ark_Royal = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	CV_Courageous = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	CV_Enterprise = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	CV_Furious = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	CV_Glorious = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	CV_Hiryu = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	CV_Hornet = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	CV_Kaga = { 
+		default_organisation = 2
+		default_morale = 0.02	
+	}
+	CV_Lexington = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	CV_Ranger = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	CV_Saratoga = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	CV_Soryu = { 
+		default_organisation = 2
+		default_morale = 0.02		
+	}
+	CV_Yorktown = { 
+		default_organisation = 2
+		default_morale = 0.02	
+	}
+		
+	
+	
+    change = no
+	
+    research_bonus_from = {
+        capitalship_practical = 0.25
+    }
+   
+    on_completion = capitalship_practical
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1936 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## CRUISER SHIP TRAINING DRILLS
+############################################################################################
+cruiser_ship_training_drills = {
+
+	allow = { 
+		OR = {
+			light_cruiser_class = 1
+			heavy_cruiser_class = 1
+			anti_air_cruiser_class = 1
+		}
+	}
+		
+	light_cruiser = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	anti_air_cruiser = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	heavy_cruiser = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	nuclear_guided_missile_cruiser = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	
+    change = no
+	
+    research_bonus_from = {
+        cruiser_practical = 0.25
+    }
+   
+    on_completion = cruiser_practical
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1935 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## SMALL SHIP TRAINING DRILLS
+############################################################################################
+small_ship_training_drills = {
+
+	allow = { 
+		OR = {
+			destroyer_class = 1
+			patrol_torpedo_boat = 1
+			destroyer_escort = 1
+		}
+	}
+	
+	destroyer_actual = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	destroyer = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	motor_torpedo_boat = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	torpedo_boat = { 
+		default_organisation = 2
+		default_morale = 0.02			
+	}
+	
+	guided_missile_destroyer = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	
+    change = no
+	
+    research_bonus_from = {
+        destroyer_practical = 0.25
+    }
+   
+    on_completion = destroyer_practical
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1936 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## SUBMARINE TRAINING DRILLS
+############################################################################################
+submarine_training_drills = {
+
+	allow = { 
+		 submarine_class = 1
+	}
+	
+	submarine = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	long_range_submarine = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	coastal_submarine = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	nuclear_submarine = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	nuclear_fast_attack_submarine = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	nuclear_ballistic_missile_submarine = { 
+		default_organisation = 2
+		default_morale = 0.02				
+	}
+	
+    change = no
+	
+    research_bonus_from = {
+        submarine_practical = 0.25
+    }
+   
+    on_completion = submarine_practical
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1918
+    first_offset = 1935 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}
+############################################################################################
+## SURFACE SHIP NIGHT TRAINING DRILLS
+############################################################################################
+surface_ship_night_training_drills = {
+
+	allow = { 
+		OR = {
+			destroyer_class = 1
+			light_cruiser_class = 1
+			heavy_cruiser_class = 1
+			battlecruiser_class = 1
+			battleship_class = 1
+		}
+	}
+	
+	battlecruiser = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	battleship = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	coastal_battleship = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}				
+	}
+	pocket_battleship = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	super_heavy_battleship = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}	
+	}
+	
+	
+	BB_Andrea_Doria = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Anson = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Arizona = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Arkansas = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Barham = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Bismarck = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Caio_Duilio = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_California = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Colorado = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Conte_di_Cavour = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Duke_of_York = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Fuso = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Giulio_Cesare = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Gneisenau = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Howe = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Hyuga = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Idaho = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Iowa = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Ise = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_King_George_V = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Littorio = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Malaya = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Maryland = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Mississippi = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Missouri = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Mutsu = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Nagato = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Nelson = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Nevada = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_New_Mexico = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_New_York = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Oklahoma = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}	
+	}
+	BB_Pennsylvania = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Prince_of_Wales = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Queen_elizabeth = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Ramillies = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Resolution = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Revenge = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Rodney = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Royal_Oak = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Royal_sovereign = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Scharnhorst = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Tennessee = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Texas = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Tirpitz = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Valiant = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	BB_Vittorio_Veneto = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Warspite = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_West_Virginia = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	BB_Yamashiro = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	
+	light_cruiser = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	heavy_cruiser = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+		
+	destroyer_actual = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	destroyer = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	motor_torpedo_boat = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}			
+	}
+	torpedo_boat = { 
+		night = { 
+			attack = 0.03
+			defence = 0.03
+		}		
+	}
+	
+		
+    change = no
+	
+    research_bonus_from = {
+		capitalship_practical = 0.10
+		cruiser_practical = 0.10
+        destroyer_practical = 0.10
+    }
+   
+    on_completion = destroyer_practical
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1937
+    first_offset = 1939 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 15
+    folder = training_doctrine_folder
+}

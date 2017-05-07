@@ -1,0 +1,375 @@
+MODEL_TAG;Model;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# COMMAND TECH MODELS;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### DVISION INCREASE ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### MILITIA INCREASE ###;;;;;;;;;;;;;;x
+militia_increase_1;+1 Company ;;;;;;;;;;;;;;x
+militia_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+militia_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+militia_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+militia_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+militia_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### INFANTRY INCREASE ###;;;;;;;;;;;;;;x
+infantry_increase_1;+1 Company ;;;;;;;;;;;;;;x
+infantry_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+infantry_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+infantry_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+infantry_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+infantry_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SPECIAL FORCES INCREASE ###;;;;;;;;;;;;;;x
+special_forces_increase_1;+1 Company ;;;;;;;;;;;;;;x
+special_forces_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+special_forces_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+special_forces_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+special_forces_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+special_forces_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### MOBILE INCREASE ###;;;;;;;;;;;;;;x
+mobile_increase_1;+1 Company ;;;;;;;;;;;;;;x
+mobile_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+mobile_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+mobile_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+mobile_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+mobile_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### ARMOR INCREASE ###;;;;;;;;;;;;;;x
+armor_increase_1;+1 Company ;;;;;;;;;;;;;;x
+armor_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+armor_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+armor_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+armor_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+armor_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### RECON INCREASE ###;;;;;;;;;;;;;;x
+recon_increase_1;+1 Company ;;;;;;;;;;;;;;x
+recon_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+recon_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+recon_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+recon_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+recon_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### ARTILLERY INCREASE ###;;;;;;;;;;;;;;x
+artillery_increase_1;+1 Battery;;;;;;;;;;;;;;x
+artillery_increase_2;+2 Batteries ;;;;;;;;;;;;;;x
+artillery_increase_3;+3 Batteries ;;;;;;;;;;;;;;x
+artillery_increase_4;+4 Batteries ;;;;;;;;;;;;;;x
+artillery_increase_5;+5 Batteries ;;;;;;;;;;;;;;x
+artillery_increase_6;+6 Batteries ;;;;;;;;;;;;;;x
+### ARMOR SUPPORT INCREASE ###;;;;;;;;;;;;;;x
+armorsupport_increase_1;+1 Company ;;;;;;;;;;;;;;x
+armorsupport_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+armorsupport_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+armorsupport_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+armorsupport_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+armorsupport_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### AA AT INCREASE ###;;;;;;;;;;;;;;x
+aa_at_increase_1;+1 Company ;;;;;;;;;;;;;;x
+aa_at_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+aa_at_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+aa_at_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+aa_at_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+aa_at_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### ENGINEERS INCREASE ###;;;;;;;;;;;;;;x
+engineers_increase_1;+1 Company ;;;;;;;;;;;;;;x
+engineers_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+engineers_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+engineers_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+engineers_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+engineers_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SS SECURITY INCREASE ###;;;;;;;;;;;;;;x
+SS_security_increase_1;+1 Company ;;;;;;;;;;;;;;x
+SS_security_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+SS_security_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+SS_security_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+SS_security_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+SS_security_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SS INFANTRY INCREASE ###;;;;;;;;;;;;;;x
+SS_infantry_increase_1;+1 Company ;;;;;;;;;;;;;;x
+SS_infantry_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+SS_infantry_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+SS_infantry_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+SS_infantry_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+SS_infantry_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SS SPECIAL FORCES INCREASE ###;;;;;;;;;;;;;;x
+SS_special_forces_increase_1;+1 Company ;;;;;;;;;;;;;;x
+SS_special_forces_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+SS_special_forces_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+SS_special_forces_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+SS_special_forces_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+SS_special_forces_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SS MOBILE INCREASE ###;;;;;;;;;;;;;;x
+SS_mobile_increase_1;+1 Company ;;;;;;;;;;;;;;x
+SS_mobile_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+SS_mobile_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+SS_mobile_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+SS_mobile_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+SS_mobile_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SS ARMOR INCREASE ###;;;;;;;;;;;;;;x
+SS_armor_increase_1;+1 Company ;;;;;;;;;;;;;;x
+SS_armor_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+SS_armor_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+SS_armor_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+SS_armor_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+SS_armor_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SS RECON INCREASE ###;;;;;;;;;;;;;;x
+SS_recon_increase_1;+1 Company ;;;;;;;;;;;;;;x
+SS_recon_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+SS_recon_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+SS_recon_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+SS_recon_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+SS_recon_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SS ARTILLERY INCREASE ###;;;;;;;;;;;;;;x
+SS_artillery_increase_1;+1 Company ;;;;;;;;;;;;;;x
+SS_artillery_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+SS_artillery_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+SS_artillery_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+SS_artillery_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+SS_artillery_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SS ARMORED SUPPORT INCREASE ###;;;;;;;;;;;;;;x
+SS_armorsupport_increase_1;+1 Company ;;;;;;;;;;;;;;x
+SS_armorsupport_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+SS_armorsupport_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+SS_armorsupport_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+SS_armorsupport_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+SS_armorsupport_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SS AA AT INCREASE ###;;;;;;;;;;;;;;x
+SS_aa_at_increase_1;+1 Company ;;;;;;;;;;;;;;x
+SS_aa_at_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+SS_aa_at_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+SS_aa_at_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+SS_aa_at_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+SS_aa_at_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### SS ENGINEERS INCREASE ###;;;;;;;;;;;;;;x
+SS_engineers_increase_1;+1 Company ;;;;;;;;;;;;;;x
+SS_engineers_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+SS_engineers_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+SS_engineers_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+SS_engineers_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+SS_engineers_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### NKVD INCREASE ###;;;;;;;;;;;;;;x
+NKVD_increase_1;+1 Company ;;;;;;;;;;;;;;x
+NKVD_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+NKVD_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+NKVD_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+NKVD_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+NKVD_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### GUARDS INFANTRY INCREASE ###;;;;;;;;;;;;;;x
+Guards_infantry_increase_1;+1 Company ;;;;;;;;;;;;;;x
+Guards_infantry_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+Guards_infantry_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+Guards_infantry_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+Guards_infantry_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+Guards_infantry_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### GUARDS SPECIAL FORCES INCREASE ###;;;;;;;;;;;;;;x
+Guards_special_forces_increase_1;+1 Company ;;;;;;;;;;;;;;x
+Guards_special_forces_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+Guards_special_forces_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+Guards_special_forces_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+Guards_special_forces_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+Guards_special_forces_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### GUARDS MOBILE INCREASE ###;;;;;;;;;;;;;;x
+Guards_mobile_increase_1;+1 Company ;;;;;;;;;;;;;;x
+Guards_mobile_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+Guards_mobile_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+Guards_mobile_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+Guards_mobile_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+Guards_mobile_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### GUARDS ARMOR INCREASE ###;;;;;;;;;;;;;;x
+Guards_armor_increase_1;+1 Company ;;;;;;;;;;;;;;x
+Guards_armor_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+Guards_armor_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+Guards_armor_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+Guards_armor_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+Guards_armor_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+### GUARDS ARTILLERY INCREASE ###;;;;;;;;;;;;;;x
+Guards_artillery_increase_1;+1 Company ;;;;;;;;;;;;;;x
+Guards_artillery_increase_2;+2 Companies ;;;;;;;;;;;;;;x
+Guards_artillery_increase_3;+3 Companies ;;;;;;;;;;;;;;x
+Guards_artillery_increase_4;+4 Companies ;;;;;;;;;;;;;;x
+Guards_artillery_increase_5;+5 Companies ;;;;;;;;;;;;;;x
+Guards_artillery_increase_6;+6 Companies ;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### DVISION DECREASE ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### MILITIA DECREASE ###;;;;;;;;;;;;;;x
+militia_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+militia_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+militia_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+militia_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+militia_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+militia_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### INFANTRY DECREASE ###;;;;;;;;;;;;;;x
+infantry_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+infantry_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+infantry_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+infantry_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+infantry_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+infantry_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SPECIAL FORCES DECREASE ###;;;;;;;;;;;;;;x
+special_forces_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+special_forces_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+special_forces_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+special_forces_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+special_forces_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+special_forces_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### MOBILE DECREASE ###;;;;;;;;;;;;;;x
+mobile_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+mobile_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+mobile_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+mobile_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+mobile_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+mobile_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### ARMOR DECREASE ###;;;;;;;;;;;;;;x
+armor_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+armor_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+armor_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+armor_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+armor_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+armor_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### RECON DECREASE ###;;;;;;;;;;;;;;x
+recon_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+recon_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+recon_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+recon_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+recon_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+recon_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### ARTILLERY DECREASE ###;;;;;;;;;;;;;;x
+artillery_decrease_1;-1 Battery;;;;;;;;;;;;;;x
+artillery_decrease_2;-2 Batteries ;;;;;;;;;;;;;;x
+artillery_decrease_3;-3 Batteries ;;;;;;;;;;;;;;x
+artillery_decrease_4;-4 Batteries ;;;;;;;;;;;;;;x
+artillery_decrease_5;-5 Batteries ;;;;;;;;;;;;;;x
+artillery_decrease_6;-6 Batteries ;;;;;;;;;;;;;;x
+### ARMOR SUPPORT DECREASE ###;;;;;;;;;;;;;;x
+armorsupport_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+armorsupport_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+armorsupport_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+armorsupport_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+armorsupport_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+armorsupport_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### AA AT DECREASE ###;;;;;;;;;;;;;;x
+aa_at_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+aa_at_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+aa_at_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+aa_at_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+aa_at_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+aa_at_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### ENGINEERS DECREASE ###;;;;;;;;;;;;;;x
+engineers_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+engineers_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+engineers_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+engineers_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+engineers_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+engineers_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SS SECURITY DECREASE ###;;;;;;;;;;;;;;x
+SS_security_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+SS_security_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+SS_security_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+SS_security_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+SS_security_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+SS_security_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SS INFANTRY DECREASE ###;;;;;;;;;;;;;;x
+SS_infantry_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+SS_infantry_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+SS_infantry_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+SS_infantry_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+SS_infantry_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+SS_infantry_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SS SPECIAL FORCES DECREASE ###;;;;;;;;;;;;;;x
+SS_special_forces_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+SS_special_forces_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+SS_special_forces_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+SS_special_forces_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+SS_special_forces_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+SS_special_forces_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SS MOBILE DECREASE ###;;;;;;;;;;;;;;x
+SS_mobile_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+SS_mobile_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+SS_mobile_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+SS_mobile_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+SS_mobile_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+SS_mobile_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SS ARMOR DECREASE ###;;;;;;;;;;;;;;x
+SS_armor_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+SS_armor_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+SS_armor_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+SS_armor_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+SS_armor_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+SS_armor_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SS RECON DECREASE ###;;;;;;;;;;;;;;x
+SS_recon_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+SS_recon_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+SS_recon_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+SS_recon_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+SS_recon_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+SS_recon_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SS ARTILLERY DECREASE ###;;;;;;;;;;;;;;x
+SS_artillery_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+SS_artillery_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+SS_artillery_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+SS_artillery_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+SS_artillery_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+SS_artillery_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SS ARMORED SUPPORT DECREASE ###;;;;;;;;;;;;;;x
+SS_armorsupport_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+SS_armorsupport_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+SS_armorsupport_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+SS_armorsupport_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+SS_armorsupport_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+SS_armorsupport_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SS AA AT DECREASE ###;;;;;;;;;;;;;;x
+SS_aa_at_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+SS_aa_at_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+SS_aa_at_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+SS_aa_at_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+SS_aa_at_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+SS_aa_at_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### SS ENGINEERS DECREASE ###;;;;;;;;;;;;;;x
+SS_engineers_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+SS_engineers_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+SS_engineers_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+SS_engineers_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+SS_engineers_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+SS_engineers_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### NKVD DECREASE ###;;;;;;;;;;;;;;x
+NKVD_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+NKVD_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+NKVD_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+NKVD_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+NKVD_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+NKVD_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### GUARDS INFANTRY DECREASE ###;;;;;;;;;;;;;;x
+Guards_infantry_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+Guards_infantry_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+Guards_infantry_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+Guards_infantry_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+Guards_infantry_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+Guards_infantry_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### GUARDS SPECIAL FORCES DECREASE ###;;;;;;;;;;;;;;x
+Guards_special_forces_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+Guards_special_forces_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+Guards_special_forces_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+Guards_special_forces_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+Guards_special_forces_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+Guards_special_forces_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### GUARDS MOBILE DECREASE ###;;;;;;;;;;;;;;x
+Guards_mobile_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+Guards_mobile_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+Guards_mobile_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+Guards_mobile_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+Guards_mobile_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+Guards_mobile_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### GUARDS ARMOR DECREASE ###;;;;;;;;;;;;;;x
+Guards_armor_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+Guards_armor_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+Guards_armor_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+Guards_armor_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+Guards_armor_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+Guards_armor_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+### GUARDS ARTILLERY DECREASE ###;;;;;;;;;;;;;;x
+Guards_artillery_decrease_1;-1 Company ;;;;;;;;;;;;;;x
+Guards_artillery_decrease_2;-2 Companies ;;;;;;;;;;;;;;x
+Guards_artillery_decrease_3;-3 Companies ;;;;;;;;;;;;;;x
+Guards_artillery_decrease_4;-4 Companies ;;;;;;;;;;;;;;x
+Guards_artillery_decrease_5;-5 Companies ;;;;;;;;;;;;;;x
+Guards_artillery_decrease_6;-6 Companies ;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

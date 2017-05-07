@@ -1,0 +1,164 @@
+##################################################################
+### Total War New Zealand Unique Weapons Techs
+##################################################################
+
+##################################################################################################################
+### INFANTRY WEAPONS
+##################################################################################################################
+################################################################################################
+### Charlton Light Machine Gun
+################################################################################################
+charlton_lmg_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {			
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	motorized_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	semi_motorized_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	Recon_cavalry_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+	cavalry_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+	engineer_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+	
+	motorcycle_recon_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	naval_infantry_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+	ranger_brigade = {			
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+		
+	
+#########################################
+
+	infantry_bat = { 
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	motorized_infantry_bat = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}	
+		
+	########################################################
+	### SPECIAL FORCES
+	########################################################
+	
+	light_infantry_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	elite_light_infantry_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	elite_light_infantry_battalion = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	airlanding_infantry_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	bergsjaeger_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+	ski_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+	marine_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	paratrooper_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+			
+	commando_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+	
+		
+	##########################################################
+	### Mechanized Units
+	##########################################################
+	
+	mechanized_brigade = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	mechanized_infantry_bat = {
+		toughness = 0.15
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+	stealable = no
+	difficulty = 5
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+
+

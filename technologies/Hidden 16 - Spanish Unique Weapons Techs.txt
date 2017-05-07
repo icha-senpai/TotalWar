@@ -1,0 +1,67 @@
+##################################################################
+### Total War Spanish Unique Weapons Techs
+##################################################################
+
+##################################################################################################################
+### INFANTRY WEAPONS
+##################################################################################################################
+################################################################################################
+### ALFA 44 Heavy Machine Gun
+################################################################################################
+alfa_fourty_four_hmg_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {
+		defensiveness = 0.15
+	}
+		
+	motorized_brigade = {
+		defensiveness = 0.15
+	}
+	semi_motorized_brigade = {
+		defensiveness = 0.15
+	}
+			
+		
+########################################
+
+	infantry_bat = { 
+		defensiveness = 0.15
+	}
+	motorized_infantry_bat = { 
+		defensiveness = 0.15
+	}
+		
+########################################
+	
+	
+	######################################################
+	### Mechanized Units
+	######################################################
+	
+	mechanized_brigade = {
+		defensiveness = 0.15
+	}
+	mechanized_infantry_bat = {
+		defensiveness = 0.15
+	}
+		
+	Recon_cavalry_brigade = {
+		defensiveness = 0.15
+	}	
+	
+	stealable = no
+	difficulty = 4
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+

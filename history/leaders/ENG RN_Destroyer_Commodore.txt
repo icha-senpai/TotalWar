@@ -1,0 +1,651 @@
+601800 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601801 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601802 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601803 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601804 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601805 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601806 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601807 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601808 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601809 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601810 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601811 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601812 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601813 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601814 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601815 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601816 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601817 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601818 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601819 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601820 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601821 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601822 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601823 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601824 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601825 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601826 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601827 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601828 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601829 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601830 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601831 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601832 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601833 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601834 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601835 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601836 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601837 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601838 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601839 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601840 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601841 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601842 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601843 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601844 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601845 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601846 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601847 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601848 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+601849 = {
+	name = "RN Destroyer Commodore"
+	country = ENG
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RN_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+

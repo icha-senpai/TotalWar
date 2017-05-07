@@ -1,0 +1,221 @@
+###################################
+### Goering Brigade
+###################################
+goering_brigade.0 = {	# Model I 1941
+	first_mechanized_battalion = 1
+	second_mechanized_battalion = 1
+}
+goering_brigade.1 = {	# Model II 1942
+	first_mechanized_battalion = 2
+	second_mechanized_battalion = 2
+}
+goering_brigade.2 = {	# Model III 1944
+	first_mechanized_battalion = 3
+	second_mechanized_battalion = 3
+}
+goering_brigade.3 = {	# Model IV 1946
+	first_mechanized_battalion = 4
+	second_mechanized_battalion = 4
+}
+goering_brigade.4 = {	# Model V 1948
+	first_mechanized_battalion = 5
+	second_mechanized_battalion = 5
+}
+goering_brigade.5 = {	# Model VI 1954
+	first_mechanized_battalion = 6
+	second_mechanized_battalion = 6
+}
+goering_brigade.6 = {	# Model VII 1956
+	first_mechanized_battalion = 7
+	second_mechanized_battalion = 7		
+}
+goering_brigade.7 = {	# Model VIII 1958
+	first_mechanized_battalion = 8
+	second_mechanized_battalion = 8		
+}
+goering_brigade.8 = {	# Model IX 1960
+	first_mechanized_battalion = 9
+	second_mechanized_battalion = 9	
+}
+goering_brigade.9 = {	# Model X 1962
+	first_mechanized_battalion = 10
+	second_mechanized_battalion = 10	
+}
+goering_brigade.10 = {	# Model XI 1964
+	first_mechanized_battalion = 11
+	second_mechanized_battalion = 11		
+}
+goering_brigade.11 = {	# Model XII 1966
+	first_mechanized_battalion = 12
+	second_mechanized_battalion = 12		
+}
+###################################
+### Grossdeutschland Regiment
+###################################
+grossdeutschland_brigade.0 = {	# model I 1918
+	first_infantry_battalion = 1
+	second_infantry_battalion = 1
+	third_infantry_battalion = 1
+}
+grossdeutschland_brigade.1 = { # model II 1936
+	first_infantry_battalion = 2
+	second_infantry_battalion = 2
+	third_infantry_battalion = 2
+}
+grossdeutschland_brigade.2 = { # model III 1938
+	first_infantry_battalion = 3
+	second_infantry_battalion = 3
+	third_infantry_battalion = 3
+}
+grossdeutschland_brigade.3 = { # model IV 1940
+	first_infantry_battalion = 4
+	second_infantry_battalion = 4
+	third_infantry_battalion = 4
+}
+grossdeutschland_brigade.4 = { # model V 1942
+	first_infantry_battalion = 5
+	second_infantry_battalion = 5
+	third_infantry_battalion = 5
+}
+grossdeutschland_brigade.5 = { # model VI 1944
+	first_infantry_battalion = 6
+	second_infantry_battalion = 6
+	third_infantry_battalion = 6
+}
+grossdeutschland_brigade.6 = { # model VII 1946
+	first_infantry_battalion = 7
+	second_infantry_battalion = 7
+	third_infantry_battalion = 7
+}
+grossdeutschland_brigade.7 = { # model VIII 1948
+	first_infantry_battalion = 8
+	second_infantry_battalion = 8
+	third_infantry_battalion = 8
+}
+grossdeutschland_brigade.8 = { # model IX 1950
+	first_infantry_battalion = 9
+	second_infantry_battalion = 9
+	third_infantry_battalion = 9
+}
+grossdeutschland_brigade.9 = { # model X 1952
+	first_infantry_battalion = 10
+	second_infantry_battalion = 10
+	third_infantry_battalion = 10
+}
+grossdeutschland_brigade.10 = { # model XI 1954
+	first_infantry_battalion = 11
+	second_infantry_battalion = 11
+	third_infantry_battalion = 11
+}
+grossdeutschland_brigade.11 = { # model XII 1956
+	first_infantry_battalion = 12
+	second_infantry_battalion = 12
+	third_infantry_battalion = 12
+}
+
+###################################
+### Lehr Division
+###################################
+lehr_brigade.0 = { # Model I 1935
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+}
+lehr_brigade.1 = { # Model II 1939
+	first_tank_battalion = 2
+	second_tank_battalion = 2
+}
+lehr_brigade.2 = { # Model III 1941
+	first_tank_battalion = 3
+	second_tank_battalion = 3
+}
+lehr_brigade.3 = { # Model IV 1943
+	first_tank_battalion = 4
+	second_tank_battalion = 4
+}
+lehr_brigade.4 = { # Model V 1945
+	first_tank_battalion = 5
+	second_tank_battalion = 5
+}
+lehr_brigade.5 = { # Model VI 1947
+	first_tank_battalion = 6
+	second_tank_battalion = 6
+}
+lehr_brigade.6 = { # Model VII 1949
+	first_tank_battalion = 7
+	second_tank_battalion = 7
+}
+lehr_brigade.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+	second_tank_battalion = 8
+}	
+lehr_brigade.8 = { # Model IX 1953
+	first_tank_battalion = 9
+	second_tank_battalion = 9
+}
+lehr_brigade.9 = { # Model X 1955
+	first_tank_battalion = 10
+	second_tank_battalion = 10
+}
+#################################################################
+### Afrika Division
+#################################################################
+afrika_brigade.0 = {	# model I 1918
+	first_infantry_battalion = 1
+	second_infantry_battalion = 1
+	third_infantry_battalion = 1
+}
+afrika_brigade.1 = { # model II 1936
+	first_infantry_battalion = 2
+	second_infantry_battalion = 2
+	third_infantry_battalion = 2
+}
+afrika_brigade.2 = { # model III 1938
+	first_infantry_battalion = 3
+	second_infantry_battalion = 3
+	third_infantry_battalion = 3
+}
+afrika_brigade.3 = { # model IV 1940
+	first_infantry_battalion = 4
+	second_infantry_battalion = 4
+	third_infantry_battalion = 4
+}
+afrika_brigade.4 = { # model V 1942
+	first_infantry_battalion = 5
+	second_infantry_battalion = 5
+	third_infantry_battalion = 5
+}
+afrika_brigade.5 = { # model VI 1944
+	first_infantry_battalion = 6
+	second_infantry_battalion = 6
+	third_infantry_battalion = 6
+}
+afrika_brigade.6 = { # model VII 1946
+	first_infantry_battalion = 7
+	second_infantry_battalion = 7
+	third_infantry_battalion = 7
+}
+afrika_brigade.7 = { # model VIII 1948
+	first_infantry_battalion = 8
+	second_infantry_battalion = 8
+	third_infantry_battalion = 8
+}
+afrika_brigade.8 = { # model IX 1950
+	first_infantry_battalion = 9
+	second_infantry_battalion = 9
+	third_infantry_battalion = 9
+}
+afrika_brigade.9 = { # model X 1952
+	first_infantry_battalion = 10
+	second_infantry_battalion = 10
+	third_infantry_battalion = 10
+}
+afrika_brigade.10 = { # model XI 1954
+	first_infantry_battalion = 11
+	second_infantry_battalion = 11
+	third_infantry_battalion = 11
+}
+afrika_brigade.11 = { # model XII 1956
+	first_infantry_battalion = 12
+	second_infantry_battalion = 12
+	third_infantry_battalion = 12
+}

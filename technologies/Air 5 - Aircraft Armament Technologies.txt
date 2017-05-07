@@ -1,0 +1,1363 @@
+ ################################################################################
+# Aircraft Armament Technologies	
+################################################################################
+################################################################################
+# Fighter Aircraft Machine Guns
+################################################################################
+fighter_aircraft_machine_guns = {
+	
+	allow = {
+		electro_mechanical_engineering = 8
+		mono_wing_design = 1
+		
+		has_country_flag = fighter_aircraft_machine_gun_focus
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	interceptor = { 	
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}
+	pursuit_fighter = { 
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}	
+	multi_role = { 	
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}
+	fighter_bomber = { 	
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}		
+	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}
+	night_fighter = { 	
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}	
+	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50	
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 7
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Fighter Aircraft Cannons
+################################################################################
+fighter_aircraft_cannons = {
+	
+	allow = {
+		electro_mechanical_engineering = 8
+		mono_wing_design = 1
+		
+		has_country_flag = fighter_aircraft_cannon_focus
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	interceptor = { 	
+		air_attack = 0.40
+		soft_attack = 0.10
+		hard_attack = 0.20
+		build_cost_ic = 0.08
+        build_time = 1
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.40
+		soft_attack = 0.10
+		hard_attack = 0.20
+		build_cost_ic = 0.08
+        build_time = 1
+		}	
+	multi_role = { 	
+		air_attack = 0.40
+		soft_attack = 0.10
+		hard_attack = 0.20
+		build_cost_ic = 0.08
+        build_time = 1
+		}
+	fighter_bomber = { 	
+		air_attack = 0.40
+		soft_attack = 0.10
+		hard_attack = 0.20
+		build_cost_ic = 0.08
+        build_time = 1
+		}		
+	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.40
+		soft_attack = 0.10
+		hard_attack = 0.20
+		build_cost_ic = 0.08
+        build_time = 1
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.40
+		soft_attack = 0.10
+		hard_attack = 0.20
+		build_cost_ic = 0.08
+        build_time = 1
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.40
+		soft_attack = 0.10
+		hard_attack = 0.20
+		build_cost_ic = 0.08
+        build_time = 1
+		}
+	night_fighter = { 	
+		air_attack = 0.40
+		soft_attack = 0.10
+		hard_attack = 0.20
+		build_cost_ic = 0.08
+        build_time = 1
+		}	
+	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50	
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 7
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Fighter Aircraft Machine Gun / Cannon Combination
+################################################################################
+fighter_aircraft_mg_and_cannons = {
+	
+	allow = {
+		electro_mechanical_engineering = 10
+		mono_wing_design = 1
+				
+		has_country_flag = fighter_aircraft_mg_and_cannon_combo_focus
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	interceptor = { 	
+		air_attack = 0.05
+		soft_attack = 0.05
+		hard_attack = 0.05
+		air_defence = -0.25
+		build_cost_ic = 0.10
+        build_time = 2
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.05
+		soft_attack = 0.05
+		hard_attack = 0.05
+		air_defence = -0.25
+		build_cost_ic = 0.10
+        build_time = 2
+		}	
+	multi_role = { 	
+		air_attack = 0.05
+		soft_attack = 0.05
+		hard_attack = 0.05
+		air_defence = -0.25
+		build_cost_ic = 0.10
+        build_time = 2
+		}
+	fighter_bomber = { 	
+		air_attack = 0.05
+		soft_attack = 0.05
+		hard_attack = 0.05
+		air_defence = -0.25
+		build_cost_ic = 0.10
+        build_time = 2
+		}		
+	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.05
+		soft_attack = 0.05
+		hard_attack = 0.05
+		air_defence = -0.25
+		build_cost_ic = 0.10
+        build_time = 2
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.05
+		soft_attack = 0.05
+		hard_attack = 0.05
+		air_defence = -0.25
+		build_cost_ic = 0.10
+        build_time = 2
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.05
+		soft_attack = 0.05
+		hard_attack = 0.05
+		air_defence = -0.25
+		build_cost_ic = 0.10
+        build_time = 2
+		}
+	night_fighter = { 	
+		air_attack = 0.05
+		soft_attack = 0.05
+		hard_attack = 0.05
+		air_defence = -0.25
+		build_cost_ic = 0.10
+        build_time = 2
+		}	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50	
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 7
+	folder = aircraft_armament_folder
+}
+
+################################################################################
+# CAS Aircraft Machine Guns
+################################################################################
+cas_aircraft_machine_guns = {
+	
+	allow = {
+		electro_mechanical_engineering = 8
+		close_air_support_focus = 1
+		
+		has_country_flag = cas_aircraft_machine_gun_focus
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+				
+	cas = { 	
+		soft_attack = 0.40
+		build_cost_ic = 0.05
+        build_time = 1
+		}
+	heavy_cas = { 	
+		soft_attack = 0.40
+		build_cost_ic = 0.05
+        build_time = 1
+		}	
+#######################################				
+	naval_cas = { 	
+		soft_attack = 0.40
+		build_cost_ic = 0.10
+        build_time = 1
+		}		
+
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50	
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1928
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 7
+	folder = aircraft_armament_folder
+}
+################################################################################
+# CAS Aircraft Cannons
+################################################################################
+cas_aircraft_cannons = {
+	
+	allow = {
+		electro_mechanical_engineering = 8
+		close_air_support_focus = 1
+		
+		has_country_flag = cas_aircraft_cannon_focus
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	cas = { 	
+		hard_attack = 0.40
+		build_cost_ic = 0.08
+        build_time = 2
+		}
+	heavy_cas = { 	
+		hard_attack = 0.40
+		build_cost_ic = 0.08
+        build_time = 2
+		}	
+#######################################				
+	naval_cas = { 	
+		hard_attack = 0.40
+		build_cost_ic = 0.08
+        build_time = 2
+		}
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50	
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1928
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 7
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Anti-Tank Gun Adaptation
+################################################################################
+anti_tank_gun_adaptation = {
+	
+	allow = {
+		electro_mechanical_engineering = 16
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1943
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Anti-Bomber Cannon
+################################################################################
+anti_bomber_cannon = {
+	
+	allow = {
+		electro_mechanical_engineering = 17
+		anti_tank_gun_adaptation = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	twin_engine_fighters = { 	
+		air_attack = 3.00
+		air_defence = -1.50
+		build_cost_ic = 0.50
+        build_time = 3
+		}
+		
+	light_bomber = { 	
+		air_attack = 1.0
+		soft_attack = 0.50
+		hard_attack = 0.75
+		air_defence = -0.80
+		build_cost_ic = 0.50
+        build_time = 3
+		}	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 8
+	
+	# common for all techs.
+	start_year = 1943
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Anti-Tank Gun Cannon
+################################################################################
+anti_tank_gun_cannon = {
+	
+	allow = {
+		electro_mechanical_engineering = 17
+		anti_tank_gun_adaptation = 1
+		autoloader = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	heavy_cas = { 	
+		hard_attack = 7.00
+		air_defence = -2.00
+		build_cost_ic = 1.00
+        build_time = 5
+		}
+	light_bomber = { 	
+		hard_attack = 6.00
+		air_defence = -1.50
+		build_cost_ic = 1.00
+        build_time = 5
+		}	
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 9
+	
+	# common for all techs.
+	start_year = 1943
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Jet Fighter Aircraft Machine Guns
+################################################################################
+jet_fighter_aircraft_machine_guns = {
+	
+	allow = {
+		electro_mechanical_engineering = 14
+		jet_aircraft_model = 1
+		NOT = { jet_fighter_aircraft_cannons = 1 }
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	rocket_interceptor = { 
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}
+	jet_flying_wing = { 
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}	
+	peoples_fighter = { 
+		air_attack = 0.15
+		soft_attack = 0.30
+		build_cost_ic = 0.05
+        build_time = 1
+		}		
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50	
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 7
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Jet Fighter Aircraft Cannons
+################################################################################
+jet_fighter_aircraft_cannons = {
+	
+	allow = {
+		electro_mechanical_engineering = 14
+		jet_aircraft_model = 1
+		NOT = { jet_fighter_aircraft_machine_guns = 1 }
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	rocket_interceptor = { 
+		air_attack = 0.30
+		soft_attack = 0.15
+		build_cost_ic = 0.08
+        build_time = 1
+		}
+	jet_flying_wing = { 
+		air_attack = 0.30
+		soft_attack = 0.15
+		build_cost_ic = 0.08
+        build_time = 1
+		}	
+	peoples_fighter = { 
+		air_attack = 0.30
+		soft_attack = 0.15
+		build_cost_ic = 0.08
+        build_time = 1
+		}	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50	
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 7
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Advanced Jet Aircraft Cannon
+################################################################################
+advanced_jet_aircraft_cannon = {
+	
+	allow = {
+		electro_mechanical_engineering = 24
+		advanced_jet_guns = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	advanced_jet_fighter = { 	
+		air_attack = 0.30
+		soft_attack = 0.15
+		build_cost_ic = 0.15
+        build_time = 2
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.30
+		soft_attack = 0.15
+		build_cost_ic = 0.15
+        build_time = 2
+		}	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1950
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Jet Aircraft Revolver Cannon
+################################################################################
+jet_aircraft_revolver_cannon = {
+	
+	allow = {
+		electro_mechanical_engineering = 24
+		twenty_mm_cannons = 1
+		advanced_jet_guns = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	advanced_jet_fighter = { 	
+		air_attack = 2.00
+		soft_attack = 1.00
+		build_cost_ic = 0.50
+        build_time = 3
+		}	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1950
+	folder = aircraft_armament_folder
+}
+
+################################################################################
+# Advanced Jet 6-Barreled Gatling Cannon
+################################################################################
+advanced_jet_six_barreled_gatling_cannon = {
+	
+	allow = {
+		electro_mechanical_engineering = 33
+		twenty_mm_cannons = 1
+		advanced_jet_guns = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	advanced_jet_fighter = { 	
+		air_attack = 3.00
+		soft_attack = 1.00
+		build_cost_ic = 0.75
+        build_time = 4
+		}
+	advanced_jet_cas = { 	
+		air_attack = 3.00
+		soft_attack = 1.00
+		build_cost_ic = 0.75
+        build_time = 4
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 3.00
+		soft_attack = 1.00
+		build_cost_ic = 0.75
+        build_time = 4
+		}	
+	
+	naval_fighter_bomber = { 	
+		air_attack = 3.00
+		soft_attack = 1.00
+		build_cost_ic = 0.75
+        build_time = 4
+		}		
+	naval_cas = { 	
+		air_attack = 3.00
+		soft_attack = 1.00
+		build_cost_ic = 0.75
+        build_time = 4
+		}		
+		
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 10
+	
+	# common for all techs.
+	start_year = 1959
+	folder = aircraft_armament_folder
+}
+
+################################################################################
+# Vertical Firing Cannons
+################################################################################
+vertical_firing_cannons = {
+	
+	allow = {
+		night_fighter_focus = 4 
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	night_fighter = { 	
+			night = {
+				attack = 0.10
+			}
+		build_cost_ic = 0.35
+        build_time = 3
+		}
+	twin_engine_fighters = { 	
+			night = {
+				attack = 0.10
+			}
+		build_cost_ic = 0.35
+        build_time = 3	
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1943
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Gun Pods
+################################################################################
+gun_pods = {
+	
+	allow = {
+		electro_mechanical_engineering = 16
+		OR = {
+			aircraft_small_cannon = 1
+			aircraft_large_cannon = 1
+				}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	interceptor = { 	
+		air_attack = 0.40
+		soft_attack = 0.15
+		air_defence = -0.40
+		build_cost_ic = 0.20
+        build_time = 2
+		}
+	twin_engine_fighters = { 	
+		air_attack = 0.40
+		soft_attack = 0.15
+		air_defence = -0.40
+		build_cost_ic = 0.20
+        build_time = 2
+		}	
+		
+	light_bomber = { 	
+		air_attack = 0.40
+		soft_attack = 0.15
+		hard_attack = 0.40
+		air_defence = -0.40
+		build_cost_ic = 0.20
+        build_time = 2
+		}	
+
+	advanced_jet_bomber = { 	
+		air_attack = 0.40
+		soft_attack = 0.15
+		air_defence = -0.40
+		build_cost_ic = 0.20
+        build_time = 2
+		}	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1942
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Rear Gunner
+################################################################################
+rear_gunner = {
+	
+	allow = {
+		light_aircraft_production_model = 1		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	cas = {			
+		air_attack = 0.10
+		air_defence = -0.10
+		build_cost_ic = 0.05
+        build_time = 1
+		}
+	twin_engine_fighters = {			
+		air_attack = 0.10
+		air_defence = -0.10
+		build_cost_ic = 0.05
+        build_time = 1
+		}	
+	naval_dive_bomber = {		
+		air_attack = 0.10
+		air_defence = -0.10
+		build_cost_ic = 0.05
+        build_time = 1
+		}	
+	naval_torpedo_plane = {		
+		air_attack = 0.10
+		air_defence = -0.10
+		build_cost_ic = 0.05
+        build_time = 1
+		}		
+		
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1928
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Remote Operated Turrets
+################################################################################
+remote_operated_turrets = {
+	
+	allow = {
+		twin_engine_aircraft_model = 8
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	twin_engine_fighters = { 	
+		air_attack = 0.30
+		soft_attack = 0.15
+		air_defence = -0.25
+		build_cost_ic = 1.00
+        build_time = 5
+		}
+	night_fighter = { 	
+		air_attack = 0.30
+		soft_attack = 0.15
+		air_defence = -0.25
+		build_cost_ic = 1.00
+        build_time = 5
+		}	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1942
+	folder = aircraft_armament_folder
+}
+
+################################################################################
+# Air to Ground Rockets
+################################################################################
+air_to_ground_rockets = {
+	
+	allow = {
+		or = {
+			multi_role_fighter_focus = 5
+			fighter_bomber_focus = 5
+		}
+		rocket_development = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	multi_role = { 	
+		soft_attack = 1.00
+		hard_attack = 1.00
+		build_cost_ic = 1.00
+        build_time = 5
+		}
+	fighter_bomber = { 	
+		soft_attack = 1.00
+		hard_attack = 1.00
+		build_cost_ic = 1.00
+        build_time = 5
+		}	
+	cas = { 	
+		soft_attack = 1.00
+		hard_attack = 1.00
+		build_cost_ic = 1.00
+        build_time = 5
+		}	
+	heavy_cas = { 	
+		soft_attack = 1.00
+		hard_attack = 1.00
+		build_cost_ic = 1.00
+        build_time = 5
+		}		
+		
+	naval_fighter_bomber = { 	
+		soft_attack = 1.00
+		hard_attack = 1.00
+		build_cost_ic = 1.00
+        build_time = 5
+		}	
+		
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 5
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Air to Air Rockets
+################################################################################
+air_to_air_rockets = {
+	
+	allow = {
+		air_to_ground_rockets = 1		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	bomber_targeting = 0.15
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1944
+	folder = aircraft_armament_folder
+}
+################################################################################
+# x1 Air Launched Torpedo
+################################################################################
+one_air_launched_torpedo = {
+	
+	allow = {
+		naval_aircraft_model = 1
+		naval_torpedo_plane_focus = 1		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	cag = { 	
+		sea_attack = 1.00
+		air_defence = -2.00
+		surface_defence = -2.00
+		build_cost_ic = 0.50
+        build_time = 5
+		}
+	
+	naval_torpedo_plane = { 	
+		sea_attack = 1.00
+		air_defence = -2.00
+		surface_defence = -2.00
+		build_cost_ic = 0.50
+        build_time = 5
+		}	
+	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1938
+	folder = aircraft_armament_folder
+}
+################################################################################
+# x2 Air Launched Torpedo
+################################################################################
+two_air_launched_torpedos = {
+	
+	allow = {
+		twin_engine_aircraft_model = 3
+		or = {
+		multi_role_bomber_focus = 3		
+		tactical_bomber_focus = 3
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_bomber = { 	
+		sea_attack = 2.00
+		air_defence = -2.00
+		surface_defence = -2.00
+		build_cost_ic = 1.00
+        build_time = 7
+		}	
+	tactical_bomber = { 	
+		sea_attack = 2.00
+		air_defence = -2.00
+		surface_defence = -2.00
+		build_cost_ic = 1.00
+        build_time = 7
+		}	
+		
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1939
+	folder = aircraft_armament_folder
+}
+
+################################################################################
+# Very Light General Purpose Bombs
+################################################################################
+very_light_gp_bombs = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+	}
+		
+	naval_strike = {
+		efficiency = 0.01 #01% greater eff when on naval strikes mission
+	}	
+	ground_attack = {
+		efficiency = 0.01 #01% greater eff when on on ground attack missions
+	}		
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# Model 2 - 1930
+    additional_offset = 2   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 4
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Light General Purpose Bombs
+################################################################################
+light_gp_bombs = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+	}
+		
+	naval_strike = {
+		efficiency = 0.01 #01% greater eff when on naval strikes mission
+	}	
+	port_strike = {
+		efficiency = 0.01 #01% greater eff when on port strikes mission
+	}	
+	strategic_bomb = {
+		efficiency = 0.01 #01% greater eff when on on strategic_bomb mission
+	}	
+	logistical_strike = {
+		efficiency = 0.01 #01% greater eff when on on logistical strike mission
+	}	
+	installation_strike = {
+		efficiency = 0.01 #01% greater eff when on on Installation strike mission
+	}
+	runway_cratering = {
+		efficiency = 0.01 #01% greater eff when on on runway_cratering mission
+	}
+	ground_attack = {
+		efficiency = 0.01 #01% greater eff when on on ground attack missions
+	}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1937
+	first_offset = 1939 	# Model 2 - 1930
+    additional_offset = 2   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 5
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Medium General Purpose Bombs
+################################################################################
+medium_gp_bombs = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+	}
+		
+	naval_strike = {
+		efficiency = 0.02 #01% greater eff when on naval strikes mission
+	}	
+	port_strike = {
+		efficiency = 0.02 #01% greater eff when on port strikes mission
+	}	
+	strategic_bomb = {
+		efficiency = 0.02 #01% greater eff when on on strategic_bomb mission
+	}	
+	logistical_strike = {
+		efficiency = 0.02 #01% greater eff when on on logistical strike mission
+	}	
+	installation_strike = {
+		efficiency = 0.02 #01% greater eff when on on Installation strike mission
+	}
+	runway_cratering = {
+		efficiency = 0.02 #01% greater eff when on on runway_cratering mission
+	}
+	ground_attack = {
+		efficiency = 0.02 #01% greater eff when on on ground attack missions
+	}	
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940 	# Model 2 - 1930
+    additional_offset = 2   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 6
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Heavy General Purpose Bombs
+################################################################################
+heavy_gp_bombs = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+	}
+	
+	port_strike = {
+		efficiency = 0.03 #10% greater eff when on port strikes mission
+	}	
+	strategic_bomb = {
+		efficiency = 0.03 #10% greater eff when on on strategic_bomb mission
+	}	
+	installation_strike = {
+		efficiency = 0.03 #10% greater eff when on on Installation strike mission
+	}
+	runway_cratering = {
+		efficiency = 0.03 #10% greater eff when on on runway_cratering mission
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 9
+	
+	# common for all techs.
+	start_year = 1939
+	first_offset = 1941 	# Model 2 - 1930
+    additional_offset = 2   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 6
+	folder = aircraft_armament_folder
+}
+
+################################################################################
+# Aerial Bombs
+################################################################################
+aerial_bombs = {
+	
+	allow = {
+		multi_role_fighter_bomb_load = 5
+		multi_role_fighter_focus = 12
+		
+	}
+		
+	bomber_targeting = 0.10
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1944
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Cluster Bombs
+################################################################################
+cluster_bombs = {
+	
+	allow = {		
+		close_air_support_focus = 11
+		medium_gp_bombs = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	ground_attack = {
+		efficiency = 0.05 #10% greater eff when on on ground attack missions
+	}			
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1940
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Incendiary Bombs
+################################################################################
+incendiary_bombs = {
+	
+	allow = {
+		heavy_bomber_focus = 10		
+		light_gp_bombs = 1
+	}
+	
+	strategic_bomb = {
+		efficiency = 0.10 #10% greater eff when on on strategic_bomb mission
+	}		
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1943
+	folder = aircraft_armament_folder
+}
+################################################################################
+# Earthquake Bomb
+################################################################################
+earthquake_bomb = {
+	
+	allow = {
+		OR= {
+			heavy_bomber_focus = 11		
+			super_heavy_bomber_focus = 1
+		}
+	}
+		
+	strategic_bomb = {
+		efficiency = 0.10 #10% greater eff when on on strategic_bomb mission
+	}	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 9
+	
+	# common for all techs.
+	start_year = 1944
+	folder = aircraft_armament_folder
+}
+

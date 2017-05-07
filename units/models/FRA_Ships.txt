@@ -1,0 +1,390 @@
+##################################################################
+##  Super Heavy Battleships
+##################################################################
+super_heavy_battleship.0 = {
+	super_heavy_battleship_class = 1
+}
+super_heavy_battleship.1 = {
+	super_heavy_battleship_class = 2
+}
+##################################################################
+##  Battleships
+##################################################################
+battleship.0 = { # 
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+}
+battleship.1 = {	#
+	battleship_class = 2
+	battleship_main_armament = 2
+	battleship_secondary_armament = 2
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 2
+	battleship_crew_berthing = 1
+}
+battleship.2 = {	#
+	battleship_class = 3
+	battleship_main_armament = 3
+	battleship_secondary_armament = 2
+	battleship_propulsion = 3
+	battleship_armor = 2
+	battleship_hull_design = 2
+	battleship_crew_berthing = 2
+}
+battleship.3 = {	#
+	battleship_class = 4
+}
+battleship.4 = {	#
+	battleship_class = 5
+}
+battleship.5 = {	#
+	battleship_class = 6
+}
+battleship.6 = {	#
+	battleship_class = 7
+}
+##################################################################
+##  Heavy Cruiser
+##################################################################
+heavy_cruiser.0 = { # ingame-model I
+	heavy_cruiser_class = 1
+	heavy_cruiser_main_armament = 1
+	heavy_cruiser_secondary_armament = 1
+	heavy_cruiser_propulsion = 1
+	heavy_cruiser_armour = 1
+	heavy_cruiser_hull_design = 1
+	heavy_cruiser_crew_berthing = 1
+}
+heavy_cruiser.1 = { # ingame-model II
+	heavy_cruiser_class = 2
+	heavy_cruiser_main_armament = 2
+	heavy_cruiser_secondary_armament = 2
+	heavy_cruiser_propulsion = 2
+	heavy_cruiser_armour = 2
+	heavy_cruiser_hull_design = 2
+	heavy_cruiser_crew_berthing = 2
+}
+heavy_cruiser.2 = { # ingame-model III
+	heavy_cruiser_class = 3
+	heavy_cruiser_main_armament = 3
+	heavy_cruiser_secondary_armament = 3
+	heavy_cruiser_propulsion = 2
+	heavy_cruiser_armour = 2
+	heavy_cruiser_hull_design = 3
+	heavy_cruiser_crew_berthing = 3
+}
+heavy_cruiser.3 = { # ingame-model IV
+	heavy_cruiser_class = 4
+}
+heavy_cruiser.4 = {
+	heavy_cruiser_class = 5
+}
+heavy_cruiser.5 = {
+	heavy_cruiser_class = 6
+}
+heavy_cruiser.6 = {
+	heavy_cruiser_class = 7
+}
+##################################################################
+##  Light Cruiser
+##################################################################
+light_cruiser.0 = { # ingame-model I
+	light_cruiser_class = 1
+	light_cruiser_main_armament = 1
+	light_cruiser_secondary_armament = 1
+	light_cruiser_propulsion = 1
+	light_cruiser_armor = 1
+	light_cruiser_hull_design = 1
+	light_cruiser_crew_berthing = 1
+}
+light_cruiser.1 = { # ingame-model II
+	light_cruiser_class = 2
+	light_cruiser_main_armament = 2
+	light_cruiser_secondary_armament = 2
+	light_cruiser_propulsion = 2
+	light_cruiser_armor = 2
+	light_cruiser_hull_design = 2
+	light_cruiser_crew_berthing = 2
+}
+light_cruiser.2 = { # ingame-model III
+	light_cruiser_class = 3
+	light_cruiser_main_armament = 3
+	light_cruiser_secondary_armament = 2
+	light_cruiser_propulsion = 3
+	light_cruiser_armor = 3
+	light_cruiser_hull_design = 3
+	light_cruiser_crew_berthing = 2
+}
+light_cruiser.3 = { # ingame-model IV
+	light_cruiser_class = 4
+	light_cruiser_main_armament = 4
+	light_cruiser_secondary_armament = 3
+	light_cruiser_propulsion = 4
+	light_cruiser_armor = 3
+	light_cruiser_hull_design = 4
+	light_cruiser_crew_berthing = 3
+}
+light_cruiser.4 = { # ingame-model V
+	light_cruiser_class = 5
+}
+light_cruiser.5 = {
+	light_cruiser_class = 6
+}
+light_cruiser.6 = {
+	light_cruiser_class = 7
+}
+##################################################################
+##  Anti-Air Cruiser
+##################################################################
+anti_air_cruiser.0 = {
+	anti_air_cruiser_class = 1
+}
+##################################################################
+##  Destroyer 
+##################################################################
+destroyer_actual.0 = {
+	destroyer_class = 1
+	destroyer_main_armament = 1
+	destroyer_secondary_armament = 1
+	destroyer_propulsion = 1
+	destroyer_armor = 1
+	destroyer_hull_design = 1
+	destroyer_crew_berthing = 1
+	destroyer_fire_control_system = 1
+}
+destroyer_actual.1 = {
+	destroyer_class = 2
+	destroyer_main_armament = 2
+	destroyer_secondary_armament = 2
+	destroyer_propulsion = 2
+	destroyer_armor = 2
+	destroyer_hull_design = 2
+	destroyer_crew_berthing = 2
+	destroyer_fire_control_system = 1
+}
+destroyer_actual.2 = {
+	destroyer_class = 3
+}
+destroyer_actual.3 = {
+	destroyer_class = 4
+} 
+destroyer_actual.4 = {
+	destroyer_class = 5
+}
+destroyer_actual.5 = {
+	destroyer_class = 6
+}
+destroyer_actual.6 = {
+	destroyer_class = 7
+}
+destroyer_actual.7 = {
+	destroyer_class = 8
+}
+destroyer_actual.8 = {
+	destroyer_class = 9
+}
+##################################################################
+##  Destroyer Escort 
+##################################################################
+destroyer.0 = {
+	destroyer_escort = 1
+}
+##################################################################
+##  Torpedo Boat
+##################################################################
+torpedo_boat.0 = { # ingame-model I
+	patrol_torpedo_boat = 1
+}
+##################################################################
+##  Motor Torpedo Boat
+##################################################################
+motor_torpedo_boat.0 = { # ingame-model I
+	patrol_torpedo_boat = 1
+}
+##################################################################
+##  Frigate
+##################################################################
+frigate.0 = {
+	destroyer_escort = 1
+}
+##################################################################
+##  Fleet Carrier
+##################################################################
+carrier.0 = {
+	fleet_carrier_class = 1	
+	aircraft_carrier_propulsion = 1
+	aircraft_carrier_armor = 1
+	aircraft_carrier_hangar_deck_design = 1
+	aircraft_carrier_elevators = 1
+	aircraft_carrier_superstructure_design = 1
+	aircraft_carrier_flight_deck_design = 1
+	aircraft_carrier_hull_design = 1
+	aircraft_carrier_crew_berthing = 1
+}
+carrier.1 = {
+	fleet_carrier_class = 2
+	aircraft_carrier_propulsion = 2
+	aircraft_carrier_armor = 1
+	aircraft_carrier_hangar_deck_design = 2
+	aircraft_carrier_elevators = 2
+	aircraft_carrier_superstructure_design = 2
+	aircraft_carrier_flight_deck_design = 2
+	aircraft_carrier_hull_design = 2
+	aircraft_carrier_crew_berthing = 2
+}
+carrier.2 = {
+	fleet_carrier_class = 3
+}
+carrier.3 = {
+	fleet_carrier_class = 4
+}
+carrier.4 = {
+	fleet_carrier_class = 5
+}
+carrier.5 = {
+	fleet_carrier_class = 6
+}
+##################################################################
+##  Light Carrier
+##################################################################
+light_carrier.0 = {
+	light_aircraft_carrier_class = 1
+	aircraft_carrier_propulsion = 1
+	aircraft_carrier_armor = 1
+	aircraft_carrier_hangar_deck_design = 1
+	aircraft_carrier_elevators = 1
+	aircraft_carrier_superstructure_design = 1
+	aircraft_carrier_flight_deck_design = 1
+	aircraft_carrier_hull_design = 1
+	aircraft_carrier_crew_berthing = 1
+}
+light_carrier.1 = {
+	light_aircraft_carrier_class = 2
+}
+light_carrier.2 = {
+	light_aircraft_carrier_class = 3
+}
+##################################################################
+##  Escort Carrier
+##################################################################
+escort_carrier.0 = {
+	escort_carrier_class = 1
+}
+escort_carrier.1 = {
+	escort_carrier_class = 2 
+}
+escort_carrier.2 = {
+	escort_carrier_class = 3
+}
+##################################################################
+##  Battlecruiser
+##################################################################
+battlecruiser.0 = {
+	battlecruiser_class = 1
+	battlecruiser_main_armament = 1
+	battlecruiser_secondary_armament = 1
+	battlecruiser_propulsion = 1
+	battlecruiser_armor = 1
+	battlecruiser_hull_design = 1
+	battlecruiser_crew_berthing = 1
+	battlecruiser_fire_control_system = 1
+}
+battlecruiser.1 = {
+	battlecruiser_class = 2
+	battlecruiser_main_armament = 2
+	battlecruiser_secondary_armament = 2
+	battlecruiser_propulsion = 2
+	battlecruiser_armor = 2
+	battlecruiser_hull_design = 2
+	battlecruiser_crew_berthing = 2
+	battlecruiser_fire_control_system = 1
+}
+battlecruiser.2 = {
+	battlecruiser_class = 3
+	battlecruiser_main_armament = 3
+	battlecruiser_secondary_armament = 2
+	battlecruiser_propulsion = 3
+	battlecruiser_armor = 2
+	battlecruiser_hull_design = 3
+	battlecruiser_crew_berthing = 3
+	battlecruiser_fire_control_system = 1
+}
+battlecruiser.3 = {
+	battlecruiser_class = 4
+}
+battlecruiser.4 = {
+	battlecruiser_class = 5
+}
+battlecruiser.5 = {
+	battlecruiser_class = 6
+}
+
+##################################################################
+##  Pocket Battleship
+##################################################################
+#Pocket-Battleships
+pocket_battleship.0 = { #Deutschland I-class
+	pocket_battleship = 1
+}
+##################################################################
+##  Coastal Battleship
+##################################################################
+coastal_battleship.0 = { # ingame-model I
+	battleship_class = 1
+}
+##################################################################
+##  Submarine
+##################################################################
+submarine.0 = { # ingame-model I 18 
+	submarine_class = 1
+	submarine_propulsion = 1
+	submarine_pressure_hull = 1
+	submarine_batteries = 1
+	submarine_torpedo_tubes = 1
+	submarine_crew_berthing = 1
+	submarine_periscope = 1
+	submarine_damage_control = 1
+}
+submarine.1 = { # ingame-model II 36 
+	submarine_class = 2
+	submarine_propulsion = 2
+	submarine_pressure_hull = 2
+	submarine_batteries = 2
+	submarine_torpedo_tubes = 1
+	submarine_crew_berthing = 2
+	submarine_periscope = 1
+	submarine_damage_control = 1
+}
+submarine.2 = { # ingame-model III 38
+	submarine_class = 3
+}
+submarine.3 = { # ingame-model IV 40
+	submarine_class = 4
+}
+submarine.4 = { # ingame-model V 42
+	submarine_class = 5
+}
+submarine.5 = { # ingame-model VI 44
+	submarine_class = 6
+}
+submarine.6 = { # ingame-model VII 46
+	submarine_class = 7
+}
+##################################################################
+##  Coastal Submarine
+##################################################################
+coastal_submarine.0 = { # ingame-model I
+	submarine_class = 1
+	submarine_propulsion = 1
+	submarine_pressure_hull = 1
+	submarine_batteries = 1
+	submarine_torpedo_tubes = 1
+	submarine_crew_berthing = 1
+	submarine_periscope = 1
+}

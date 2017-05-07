@@ -1,0 +1,55 @@
+battle_carrier = {
+	type = naval
+	sprite = Carrier
+	capital = yes
+	active = no
+	can_be_pride = yes
+	
+	hull = 6.00
+
+
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 215
+
+	carrier_size = 5  
+
+	#Building Costs
+	build_cost_ic = 11.25
+	build_cost_manpower = 3.000  
+	build_time = 550
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 35.10 
+	transport_capability = 0.00  
+	supply_consumption = 6.35
+	fuel_consumption = 4.30
+	range = 14000.00  
+	distance = 3.00
+	radio_strength = 1.00
+	positioning = 0.17
+
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 2.00
+	sub_detection = 0.00
+	visibility = 180.00
+
+	#Defensive Abilities
+	sea_defence = 18.00
+	air_defence = 14.00
+
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 0.50
+	sub_attack = 0.00
+	air_attack = 0.00
+	shore_bombardment = 0.00
+
+	completion_size = 8.0
+	on_completion = carrier_practical
+	priority = 100
+}

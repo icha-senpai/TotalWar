@@ -1,0 +1,106 @@
+Recon_cavalry_brigade = {
+	type = land
+	sprite = Cavalry
+	active = no
+	is_buildable = yes
+	unit_group = recon_unit_type
+	
+	#Size Definitions
+	max_strength = 7.50
+	default_organisation = 35
+	default_morale = 0.35
+	officers = 10
+
+	#Building Costs
+	build_cost_ic = 1.00
+	build_cost_manpower = 0.750
+	build_time = 60
+	repair_cost_multiplier = 0.02
+
+	#Misc Abilities
+	maximum_speed = 4.5
+	transport_weight = 7.00
+	supply_consumption = 0.35
+	fuel_consumption = 0.00
+	radio_strength = 0.05
+
+	#Defensive Abilities
+	defensiveness = 1.65	
+	toughness = 5.0
+	softness = 1.00
+	air_defence = 1.00
+
+	#Offensive Abilities
+	suppression = 3.00
+	soft_attack = 0.55
+	hard_attack = 0.25
+	air_attack = 0.00
+	ap_attack = 0
+	
+	##  Recon Units have better stats due to their specialized nature. 
+
+	plains = {
+		attack = 0.35 ## Slight bonus due to terrain being easy to fight on.  
+		movement = 0.10 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		attack = 0.35 ## Can Recon across rivers 
+		movement = 0.10 ## Not easy for infantry to cross river.  
+	}
+	arctic = {	
+		movement = -0.30 ## Not easy to move around on tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		attack = 0.35 ## Easy to attack but hot	
+		movement = -0.20 ## Desert is too hot and big to cross on foot 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = 0.35 ## Slightly hard to assault wooded areas 
+		movement = -0.15 ## Troops not specially trained to move through woods or forest
+	}
+	forest = {
+		attack = 0.20 ## Hard to attack dense forest
+		movement = -0.25 ## Hard to move through dense forest 
+	}
+	jungle = { 
+		attack = 0.15 ## Very hard to attack jungle
+		movement = -0.35  ## Not trained for jungle warfare
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		attack = 0.25 # Hard to attack up hills
+		movement = -0.25 # Hard to move through hilly areas
+	}
+	mountain = { 
+		attack = 0.10 # Not trained in mountain warfare
+		movement = -0.25 # Not trained in mountain warfare
+	}
+	urban = {
+		attack = 0.25 ## Difficult to attack urban areas if they are not trained in urban assault tactics 
+		movement = 0.15  ## Easy to move through urban streets
+	}
+	marsh = { 
+		attack = 0.15 ## Not trained to assault marshes
+		movement = -0.25 ## Difficult to move through marshes
+	}
+	amphibious = { 
+		attack = -0.10 ## Not trained for amphibious assaults
+	}
+	night = { 
+		attack = 0.15 ## Can conduct patrols at night
+		movement = -0.25 ## Difficult to see at night
+	}
+	fort = { 
+		attack = 0.15 # Can Recon fortifications
+	}
+
+	combat_width = 0.11
+
+	completion_size = 0.10
+	on_completion = mobile_practical
+	
+	priority = 6
+}

@@ -1,0 +1,1925 @@
+910600 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910601 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910602 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910603 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910604 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910605 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910606 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910607 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910608 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910609 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910610 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910611 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910612 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910613 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910614 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910615 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910616 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910617 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910618 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910619 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910620 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910621 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910622 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910623 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910624 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910625 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910626 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910627 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910628 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910629 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910630 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910631 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910632 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910633 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910634 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910635 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910636 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910637 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+91038 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910639 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910640 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910641 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910642 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910643 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910644 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910645 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910646 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910647 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910648 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910649 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+910650 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910651 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910652 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910653 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910654 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910655 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910656 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910657 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910658 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910659 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910660 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910661 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910662 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910663 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910664 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910665 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910666 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910667 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910668 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910669 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910670 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910671 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910672 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910673 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910674 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910675 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910676 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910677 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910678 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910679 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910680 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910681 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910682 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910683 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910684 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910685 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910686 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910687 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910688 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910689 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910690 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910691 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910692 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910693 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910694 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910695 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910696 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910697 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910698 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910699 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910700 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910701 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910702 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910703 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910704 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910705 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910706 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910707 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910708 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910709 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910710 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910711 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910712 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910713 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910714 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910715 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910716 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910717 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910718 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910719 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910720 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910721 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910722 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910723 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910724 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910725 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910726 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910727 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910728 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910729 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910730 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910731 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910732 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910733 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910734 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910735 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910736 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910737 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910738 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910739 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910740 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910741 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910742 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910743 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910744 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910745 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910746 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910747 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910748 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+910749 = {
+	name = "Regia Aeronautica Colonello"
+	country = ITA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 5_RA_COLONELLO
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

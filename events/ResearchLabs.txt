@@ -1,0 +1,2053 @@
+### AUTO-GENERATED FILE - DO NOT EDIT! ###
+### RUN ID: 1441886557 ###
+
+#################################################################################################
+#
+# Marneman's Expanded Research Center Events
+# 
+# Originally, the research lab events were very simple, non-scaling events
+# that gave a boost to the player's techs with a flat amount per firing of the
+# event. While it was cool, it didn't really scale with the game over time
+# (e.g. 200 points in something early game is worth more than 200 points in
+# late game).  Additionally, the player was allowed to "build" a research
+# center in any discipline, rather than having to choose a path.
+#
+# In this revamp, the player is given the choice to build a single "National
+# Defense Research Center". They choose a "focus", such as Land Warfare, Naval
+# Warfare, etc.  Then, they choose a research path, such as "Infantry",
+# "Armor", "Capital Ships", etc.
+#
+# Instead of just receiving a flat amount of tech points each time across a
+# cluster of related techs, I've now implemented a bit of randomness to it.
+# Each time the event fires, there is a chance of a "research breakthrough",
+# which can range from a very minor one, to a major one.  There is also a
+# chance that no breakthrough will happen.  Once the type of breakthrough is
+# determined, a random tech is chosen from their focus area, and they receive
+# the bonus to it then.
+#
+# The frequency of the research breakthroughs is a function of the number of leadership
+# points a given country has.
+#
+# -Marneman
+# 
+#################################################################################################
+
+# TODO: Expand support services to include another research cluster for AA, recon vehicles, etc.
+# TODO: New category for "Mobile" under Land Warfare
+
+#################################################################################################
+#
+# Player given the choice to build a National Center for Defense Research.  This happens once a 
+# year until they choose a path for research.
+#
+#################################################################################################
+
+country_event = {
+	id = 999300
+
+	# Triggers always for BI Normal mode, must be at war on Hard or Grofaz
+	trigger = {
+		OR = {
+			AND = {
+				war = yes
+				has_global_flag = BI_GROFAZ
+			}
+		
+			AND = {
+				war = yes
+				has_global_flag = BI_HARD
+			}
+			
+			has_global_flag = BINormalAI
+			has_global_flag = BIEasyAI
+		}
+		has_country_flag = university
+		NOT = { has_country_modifier = research_cooldown }
+		NOT = { has_country_flag = research_lab_land }
+		NOT = { has_country_flag = research_lab_naval }
+		NOT = { has_country_flag = research_lab_aerospace }
+		NOT = { has_country_flag = research_lab_support }
+		money = 3000
+		supplies = 1250
+	}
+
+	title = "EVTNAMEMARNE0300"
+	desc = "EVTDESCMARNE0300"
+	picture = "ResearchLabChooseFocus"
+
+	option = {
+		name = "EVTOPTAMARNE0300"
+		ai_chance = { factor = 25 }
+		country_event = 999301
+	}
+
+	option = {
+		name = "EVTOPTBMARNE0300"
+		ai_chance = { factor = 25 }
+		country_event = 999302
+	}
+
+	option = {
+		name = "EVTOPTCMARNE0300"
+		ai_chance = { factor = 25 }
+		country_event = 999303
+	}
+
+	option = {
+		name = "EVTOPTDMARNE0300"
+		ai_chance = { factor = 25 }
+		country_event = 999304
+	}
+	
+	option = {
+		name = "EVTOPTEMARNE0300"
+		add_country_modifier = { 
+			name = "research_cooldown"
+			duration = 360
+		}
+	}
+}
+
+#################################################################################################
+#
+# Land Warfare Research
+#
+#################################################################################################
+country_event = {
+	id = 999301
+
+	is_triggered_only = yes
+
+	title = "EVTNAMEMARNE0301"
+	desc = "EVTDESCMARNE0301"
+	picture = "ResearchLabLandFocus"
+
+	option = {
+		name = "EVTOPTAMARNE0301"
+		set_country_flag = research_lab_land
+		set_country_flag = research_lab_land_infantry
+	}
+
+	option = {
+		name = "EVTOPTBMARNE0301"
+		set_country_flag = research_lab_land
+		set_country_flag = research_lab_land_armor
+	}
+	
+	option = {
+		name = "EVTOPTCMARNE0301"
+		set_country_flag = research_lab_land
+		set_country_flag = research_lab_land_artillery
+	}
+
+	option = {
+		name = "EVTOPTDMARNE0301"
+		set_country_flag = research_lab_land
+		set_country_flag = research_lab_land_amphibious
+	}
+
+	option = {
+		name = "EVTOPTEMARNE0301"
+		set_country_flag = research_lab_land
+		set_country_flag = research_lab_land_specops
+	}
+	
+	option = {
+		name = "EVTOPTFMARNE0301"
+		country_event = 999300
+	}
+}
+
+
+#################################################################################################
+#
+# Naval Warfare Research
+#
+#################################################################################################
+country_event = {
+	id = 999302
+
+	is_triggered_only = yes
+
+	title = "Choose Naval Focus"
+	desc = "EVTDESCMARNE0302"
+	picture = "ResearchLabNavalFocus"
+
+	option = {
+		name = "EVTOPTAMARNE0302"
+		set_country_flag = research_lab_naval
+		set_country_flag = research_lab_naval_submarines
+	}
+
+	option = {
+		name = "EVTOPTBMARNE0302"
+		set_country_flag = research_lab_naval
+		set_country_flag = research_lab_naval_escorts
+	}
+
+	option = {
+		name = "EVTOPTCMARNE0302"
+		set_country_flag = research_lab_naval
+		set_country_flag = research_lab_naval_lightcruisers
+	}
+
+	option = {
+		name = "EVTOPTDMARNE0302"
+		set_country_flag = research_lab_naval
+		set_country_flag = research_lab_naval_heavycruisers
+	}
+
+	option = {
+		name = "EVTOPTEMARNE0302"
+		set_country_flag = research_lab_naval
+		set_country_flag = research_lab_naval_capitalships
+	}
+
+	option = {
+		name = "EVTOPTFMARNE0302"
+		set_country_flag = research_lab_naval
+		set_country_flag = research_lab_naval_carriers
+	}
+	
+	option = {
+		name = "EVTOPTGMARNE0302"
+		country_event = 999300
+	}
+
+}
+
+#################################################################################################
+#
+# Aerospace Defense Research
+#
+#################################################################################################
+country_event = {
+	id = 999303
+
+	is_triggered_only = yes
+
+	title = "EVTNAMEMARNE0303"
+	desc = "EVTDESCMARNE0303"
+	picture = "ResearchLabAerospaceFocus"
+
+	option = {
+		name = "EVTOPTAMARNE0303"
+		set_country_flag = research_lab_aerospace
+		set_country_flag = research_lab_aerospace_singleengine
+	}
+
+	option = {
+		name = "EVTOPTBMARNE0303"
+		set_country_flag = research_lab_aerospace
+		set_country_flag = research_lab_aerospace_twinengine
+	}
+
+	option = {
+		name = "EVTOPTCMARNE0303"
+		set_country_flag = research_lab_aerospace
+		set_country_flag = research_lab_aerospace_fourengine
+	}
+
+	option = {
+		name = "EVTOPTDMARNE0303"
+		country_event = 999300
+	}
+}
+
+#################################################################################################
+#
+# Defense Support Services
+#
+#################################################################################################
+country_event = {
+	id = 999304
+
+	is_triggered_only = yes
+
+	title = "EVTNAMEMARNE0304"
+	desc = "EVTDESCMARNE0304"
+	picture = "ResearchLabSupportFocus"
+
+	option = {
+		name = "EVTOPTAMARNE0304"
+		set_country_flag = research_lab_support
+		set_country_flag = research_lab_support_mixed
+	}
+
+	option = {
+		name = "EVTOPTBMARNE0304"
+		country_event = 999300
+	}
+}
+
+#################################################################################################
+#
+# No breakthrough this month!
+#
+#################################################################################################
+country_event = {
+	id = 999309
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMEMARNE0309"
+	desc = "EVTDESCMARNE0309"
+	picture = "ResearchNoBreakthrough"
+	
+	option = {
+		name = "EVTOPTAMARNE0309"
+	}
+}
+
+#################################################################################################
+#
+# Periodic Findings From the Research Lab
+#
+# TODO - make this AI only and fire the chained event to the player country?
+#
+#################################################################################################
+country_event = {
+	id = 999310
+	
+	# Player country who has chosen a specific focus 
+	trigger = {
+		ai = no
+		OR = {
+			has_country_flag = research_lab_land
+			has_country_flag = research_lab_naval
+			has_country_flag = research_lab_aerospace
+			has_country_flag = research_lab_support
+		}
+	}
+	
+	# The baseline is 180 days for firing.  For every step of 10 points of leadership, this timeframe is reduced
+	# by 10%. So we achieve a bit of a  scale here.  The more leadership points the country has, the more
+	# frequently they will get research breakthroughs.
+	
+	mean_time_to_happen = {
+		days = 180
+		modifier = { factor = 0.90 global_leadership = 10 }
+		modifier = { factor = 0.90 global_leadership = 20 }
+		modifier = { factor = 0.90 global_leadership = 30 }
+		modifier = { factor = 0.90 global_leadership = 40 }
+		modifier = { factor = 0.90 global_leadership = 50 }
+		modifier = { factor = 0.90 global_leadership = 60 }
+		modifier = { factor = 0.90 global_leadership = 70 }
+		modifier = { factor = 0.90 global_leadership = 80 }
+	}
+	
+	title = "EVTNAMEMARNE0310"
+	desc = "EVTDESCMARNE0310"
+	picture = "ResearchBreakthrough"
+	
+	option = {
+		name = "EVTOPTAMARNE0310"
+
+		THIS = { set_country_flag = hide_tooltip_spam }
+		
+		random_list = {
+
+			# Pay no mind to the whacky way I'm firing these events ... it is all a facade to bundle event logic and hide tooltip spam
+			
+			# 60% chance of a minor breakthrough
+			60 = {
+
+				random_owned = {
+					limit = {
+						owner = { has_country_flag = hide_tooltip_spam }
+						owner = { has_country_flag = research_lab_land_infantry }
+					}
+
+					owner = { country_event = 999311 }
+				}
+
+				# Land Warfare: Minor
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_armor } } 				owner = { country_event = 999314 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_artillery } } 			owner = { country_event = 999317 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_amphibious } } 			owner = { country_event = 999320 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_specops } } 				owner = { country_event = 999323 } }
+
+				# Naval Warfare: Minor
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_submarines } } 			owner = { country_event = 999326 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_escorts } } 			owner = { country_event = 999329 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_lightcruisers } } 		owner = { country_event = 999332 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_heavycruisers } } 		owner = { country_event = 999335 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_capitalships } } 		owner = { country_event = 999338 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_carriers } } 			owner = { country_event = 999341 } }
+				
+				# Aerospace Defense: Minor
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_aerospace_singleengine } }	owner = { country_event = 999344 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_aerospace_twinengine } }		owner = { country_event = 999347 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_aerospace_fourengine } }		owner = { country_event = 999350 } }
+				
+				# Defense Support Services: Minor
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_support_mixed } }		owner = { country_event = 999353 } }
+				
+				THIS = { clr_country_flag = hide_tooltip_spam }
+			}
+
+			# 25% chance of a moderate breakthrough
+			25 = {
+			
+				# Land Warfare: Moderate
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_infantry } } 			owner = { country_event = 999312 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_armor } } 				owner = { country_event = 999315 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_artillery } } 			owner = { country_event = 999318 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_amphibious } } 			owner = { country_event = 999321 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_specops } } 				owner = { country_event = 999324 } }
+				
+				# Naval Warface: Moderate
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_submarines } } 			owner = { country_event = 999327 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_escorts } } 			owner = { country_event = 999330 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_lightcruisers } } 		owner = { country_event = 999333 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_heavycruisers } } 		owner = { country_event = 999336 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_capitalships } } 		owner = { country_event = 999339 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_carriers } } 			owner = { country_event = 999342 } }
+				
+				# Aerospace Defense: Moderate
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_aerospace_singleengine } }	owner = { country_event = 999345 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_aerospace_twinengine } }		owner = { country_event = 999348 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_aerospace_fourengine } }		owner = { country_event = 999351 } }
+
+				# Defense Support Services: Moderate
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_support_mixed } }		owner = { country_event = 999354 } }
+				
+				THIS = { clr_country_flag = hide_tooltip_spam }
+			}
+			
+			# 10% chance of a major breakthrough
+			10 = {
+			
+				# Land Warface: Moderate
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_infantry } } 			owner = { country_event = 999313 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_armor } } 				owner = { country_event = 999316 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_artillery } } 			owner = { country_event = 999319 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_amphibious } } 			owner = { country_event = 999322 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_land_specops } } 				owner = { country_event = 999325 } }
+				
+				# Naval Warface: Moderate
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_submarines } } 			owner = { country_event = 999328 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_escorts } } 			owner = { country_event = 999331 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_lightcruisers } } 		owner = { country_event = 999334 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_heavycruisers } } 		owner = { country_event = 999337 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_capitalships } } 		owner = { country_event = 999340 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_naval_carriers } } 			owner = { country_event = 999343 } }
+				
+				# Aerospace Defense: Major
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_aerospace_singleengine } }	owner = { country_event = 999346 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_aerospace_twinengine } }		owner = { country_event = 999349 } }
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_aerospace_fourengine } }		owner = { country_event = 999352 } }
+
+				# Defense Support Services: Major
+				random_owned = { limit = { owner = { has_country_flag = hide_tooltip_spam } owner = { has_country_flag = research_lab_support_mixed } }		owner = { country_event = 999355 } }
+				
+				THIS = { clr_country_flag = hide_tooltip_spam }
+			}
+			
+			# 5% chance of no breakthrough
+			5 = {
+				country_event = 999309
+				
+				THIS = { clr_country_flag = hide_tooltip_spam }
+			}
+		}
+	}
+}
+
+#################################################################################################
+#
+# Land Warfare: Infantry: Minor Breakthrough
+#
+#################################################################################################
+country_event = {
+	id = 999311
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchLandInfantryMinor"
+	
+	option = {
+		name = "Great!"
+		
+		random_list = {
+			9 = { rifle_prototype = 57 }
+			9 = { carbine_prototype = 66 }
+			9 = { submachineguns_prototype = 66 }
+			9 = { assault_rifles_prototype = 66 }
+			8 = { lmg_prototype = 96 }
+			8 = { hmg_prototype = 48 }
+			8 = { mortar_prototype = 70 }
+			8 = { anti_tank_rifle_prototype = 61 } 				
+			8 = { rocket_at_prototype = 79 }	
+			8 = { bridge_crossing_equipment = 79 }
+			8 = { anti_personnel_mines = 70 }
+			8 = { anti_tank_mines = 70 }
+		}
+	}
+}
+
+
+#################################################################################################
+#
+# Land Warfare: Infantry: Moderate Breakthrough
+#
+#################################################################################################
+country_event = {
+	id = 999312
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchLandInfantryModerate"
+	
+	option = {
+		name = "Great!"
+		
+		random_list = {
+			9 = { rifle_prototype = 122 }
+			9 = { carbine_prototype = 141 }
+			9 = { submachineguns_prototype = 141 }
+			9 = { assault_rifles_prototype = 141 }
+			8 = { lmg_prototype = 206 }
+			8 = { hmg_prototype = 103 }
+			8 = { mortar_prototype = 150 }
+			8 = { anti_tank_rifle_prototype = 131 } 			
+			8 = { rocket_at_prototype = 169 }	
+			8 = { bridge_crossing_equipment = 169 }
+			8 = { anti_personnel_mines = 150 }
+			8 = { anti_tank_mines = 150 }
+		}
+	}
+}
+
+
+
+#################################################################################################
+#
+# Land Warfare: Infantry: Major Breakthrough
+#
+#################################################################################################
+country_event = {
+	id = 999313
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchLandInfantryMajor"
+	
+	option = {
+		name = "Great!"
+		
+		random_list = {
+			9 = { rifle_prototype = 163 }
+			9 = { carbine_prototype = 188 }
+			9 = { submachineguns_prototype = 188 }
+			9 = { assault_rifles_prototype = 188 }
+			8 = { lmg_prototype = 275 }
+			8 = { hmg_prototype = 138 }
+			8 = { mortar_prototype = 200 }
+			8 = { anti_tank_rifle_prototype = 175 } 			
+			8 = { rocket_at_prototype = 225 }	
+			8 = { bridge_crossing_equipment = 225 }
+			8 = { anti_personnel_mines = 200 }
+			8 = { anti_tank_mines = 200 }
+		}
+	}
+}
+
+
+
+#################################################################################################
+#
+# Land Warfare: Armor: Minor Breakthrough
+#
+#################################################################################################
+country_event = {
+	id = 999314
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchLandArmorMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			6 = { infantry_tank_design = 70 }
+			7 = { light_tank_hull_designs = 48 }
+			7 = { medium_tank_engine_designs = 48 }
+			7 = { heavy_tank_track_and_suspension_designs = 48 }
+			7 = { tank_transmission_designs = 61 }
+			7 = { tank_blueprints = 61 }
+			7 = { light_tank_prototype = 79 }
+			7 = { light_medium_tank_versions = 96 }
+			7 = { crew_ergonomics = 61 }
+			6 = { commanders_cupola = 57 }
+			6 = { interleaved_roadwheel_design = 57 }
+			6 = { head_gasket_seal_designs = 70 }
+			7 = { smoke_canisters = 70 }
+			7 = { medium_velocity_tank_gun = 70 }
+			6 = { heavy_tank_destroyer_prototype = 88 }
+		}
+	}
+}
+
+
+#################################################################################################
+#
+# Land Warfare: Armor: Moderate Breakthrough
+#
+#################################################################################################
+country_event = {
+	id = 999315
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchLandArmorModerate"
+	
+	option = {
+		name = "Great!"
+		
+		random_list = {
+			6 = { medium_tank_armor_designs = 150 }
+			7 = { heavy_tank_gun_designs = 103 }
+			7 = { light_tank_turret_designs = 103 }
+			7 = { heavy_medium_tank_versions = 103 }
+			7 = { heavy_tank_engines_designs = 131 }
+			7 = { light_tank_armor_designs = 131 }
+			7 = { medium_tank_gun_designs = 169 }
+			7 = { tank_mantlet_designs = 206 }
+			7 = { torsion_bar_suspension = 131 }
+			6 = { larger_ammunition_storage_space = 122 }
+			6 = { hydraulic_turret_traversal = 122 }
+			6 = { anti_personnel_defenses = 150 }
+			7 = { tactical_tank_radios = 150 }
+			7 = { advanced_tank_optics = 150 }
+			6 = { command_tanks = 188 }
+		}
+	}
+}
+
+
+
+#################################################################################################
+#
+# Land Warfare: Armor: Major Breakthrough
+#
+#################################################################################################
+country_event = {
+	id = 999316
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchLandArmorMajor"
+	
+	option = {
+		name = "Great!"
+		
+		random_list = {
+			6 = { light_tank_track_and_suspension_designs = 200 }
+			7 = { light_tank_engine_designs = 138 }
+			7 = { medium_tank_engine_designs = 138 }
+			7 = { medium_tank_turret_designs = 138 }
+			7 = { medium_tank_armor_designs = 175 }
+			7 = { heavy_tank_hull_designs = 175 }
+			7 = { heavy_tank_engines_designs = 225 }
+			7 = { heavy_tank_gun_designs = 275 }
+			7 = { tank_final_drive_designs = 175 }
+			6 = { tank_transmission_designs = 163 }
+			6 = { tank_mantlet_designs = 163 }
+			6 = { tank_prototype_and_testing = 200 }
+			7 = { light_tank_prototype = 200 }
+			7 = { medium_tank_prototype = 200 }
+			6 = { heavy_tank_prototype = 250 }
+		}
+	}
+}
+
+
+#################################################################################################
+#
+# Land Warfare: Artillery: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999317
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchLandArtilleryMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			8 = { infantry_guns = 57 }
+			8 = { med_field_artillery = 61 }
+			8 = { hvy_field_artillery = 61 }
+			8 = { rocket_artillery = 53 }
+			8 = { anti_tank_gun = 57 }
+			8 = { anti_aircraft_gun = 61 }
+			7 = { sp_artillery_prototype = 70 }
+			7 = { sp_rocket_artillery_prototype = 57 }
+			7 = { assault_gun_prototype = 61 }
+			7 = { heavy_assault_gun_prototype = 53 }
+			8 = { sp_anti_aircraft_prototype = 70 }
+			8 = { anti_tank_gun_ammunition = 70 }
+			8 = { anti_aircraft_gun_ammunition = 70 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Land Warfare: Artillery: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999318
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchLandArtilleryModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			8 = { infantry_guns = 122 }
+			8 = { med_field_artillery = 131 }
+			8 = { hvy_field_artillery = 131 }
+			8 = { rocket_artillery = 113 }
+			8 = { anti_tank_gun = 122 }
+			8 = { anti_aircraft_gun = 131 }
+			7 = { sp_artillery_prototype = 150 }
+			7 = { sp_rocket_artillery_prototype = 122 }
+			7 = { assault_gun_prototype = 131 }
+			7 = { heavy_assault_gun_prototype = 113 }
+			8 = { sp_anti_aircraft_prototype = 150 }
+			8 = { anti_tank_gun_ammunition = 150 }
+			8 = { anti_aircraft_gun_ammunition = 150 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Land Warfare: Artillery: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999319
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchLandArtilleryMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			8 = { infantry_guns = 163 }
+			8 = { med_field_artillery = 175 }
+			8 = { hvy_field_artillery = 175 }
+			8 = { rocket_artillery = 150 }
+			8 = { anti_tank_gun = 163 }
+			8 = { anti_aircraft_gun = 175 }
+			7 = { sp_artillery_prototype = 200 }
+			7 = { sp_rocket_artillery_prototype = 163 }
+			7 = { assault_gun_prototype = 175 }
+			7 = { heavy_assault_gun_prototype = 150 }
+			8 = { sp_anti_aircraft_prototype = 200 }
+			8 = { anti_tank_gun_ammunition = 200 }
+			8 = { anti_aircraft_gun_ammunition = 200 }
+		}
+	}
+}
+
+
+#################################################################################################
+#
+# Land Warfare: Amphibious: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999320
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchLandAmphibiousMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			16 = { amphibious_landing_craft = 96 }
+			12 = { wheeled_amphibious_landing_craft_distribution = 70 }
+			12 = { tracked_amphibious_landing_craft_distribution = 70 }
+			12 = { amphibious_car_distribution = 79 }
+			12 = { special_forces_amphibious_training = 88 }
+			12 = { amphibious_landing = 61 }
+			12 = { amphibious_assault = 66 }
+			12 = { amphibious_invasion = 61 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Land Warfare: Amphibious: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999321
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchLandAmphibiousModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			16 = { amphibious_landing_craft = 206 }
+			12 = { wheeled_amphibious_landing_craft_distribution = 150 }
+			12 = { tracked_amphibious_landing_craft_distribution = 150 }
+			12 = { amphibious_car_distribution = 169 }
+			12 = { special_forces_amphibious_training = 188 }
+			12 = { amphibious_landing = 131 }
+			12 = { amphibious_assault = 141 }
+			12 = { amphibious_invasion = 131 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Land Warfare: Amphibious: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999322
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchLandAmphibiousMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			16 = { amphibious_landing_craft = 275 }
+			12 = { wheeled_amphibious_landing_craft_distribution = 200 }
+			12 = { tracked_amphibious_landing_craft_distribution = 200 }
+			12 = { amphibious_car_distribution = 225 }
+			12 = { special_forces_amphibious_training = 250 }
+			12 = { amphibious_landing = 175 }
+			12 = { amphibious_assault = 188 }
+			12 = { amphibious_invasion = 175 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Land Warfare: Specops: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999323
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchLandSpecopsMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			9 = { special_forces_mountain_training = 44 }
+			9 = { special_forces_jungle_training = 44 }
+			9 = { special_forces_night_training = 96 }
+			9 = { special_forces_forest_training = 70 }
+			9 = { special_forces_airborne_training = 53 }
+			9 = { urban_special_tactics = 88 }
+			9 = { arctic_warfare_tactics = 70 }
+			9 = { covert_ops = 70 }
+			9 = { infiltration_tactics = 70 }
+			9 = { deep_recon = 70 }
+			10 = { rescue_missions = 70 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Land Warfare: Specops: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999324
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchLandSpecopsModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			9 = { special_forces_mountain_training = 94 }
+			9 = { special_forces_jungle_training = 94 }
+			9 = { special_forces_night_training = 206 }
+			9 = { special_forces_forest_training = 150 }
+			9 = { special_forces_airborne_training = 113 }
+			9 = { urban_special_tactics = 188 }
+			9 = { arctic_warfare_tactics = 150 }
+			9 = { covert_ops = 150 }
+			9 = { infiltration_tactics = 150 }
+			9 = { deep_recon = 150 }
+			10 = { rescue_missions = 150 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Land Warfare: Specops: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999325
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchLandSpecopsMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			9 = { special_forces_mountain_training = 125 }
+			9 = { special_forces_jungle_training = 125 }
+			9 = { special_forces_night_training = 275 }
+			9 = { special_forces_forest_training = 200 }
+			9 = { special_forces_airborne_training = 150 }
+			9 = { urban_special_tactics = 250 }
+			9 = { arctic_warfare_tactics = 200 }
+			9 = { covert_ops = 200 }
+			9 = { infiltration_tactics = 200 }
+			9 = { deep_recon = 200 }
+			10 = { rescue_missions = 200 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Submarines: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999326
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchNavalSubmarinesMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { submarine_propulsion = 61 }
+			7 = { submarine_pressure_hull = 74 }
+			7 = { submarine_batteries = 70 }
+			7 = { submarine_anti_air = 66 }
+			7 = { submarine_torpedo_tubes = 70 }
+			7 = { submarine_crew_berthing = 66 }
+			7 = { submarine_periscope = 53 }
+			7 = { submarine_snorkel = 66 }
+			7 = { submarine_streamlined_hull = 66 }
+			7 = { submarine_air_independent_propulsion = 57 }
+			6 = { submarine_torpedo_auto_loading_system = 57 }
+			6 = { submarine_large_battery_capacity = 57 }
+			6 = { submarine_thick_pressure_hull = 74 }
+			6 = { submarine_air_conditioning = 79 }
+			6 = { submarine_silent_running_drive = 70 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Submarines: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999327
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchNavalSubmarinesModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { submarine_propulsion = 131 }
+			7 = { submarine_pressure_hull = 159 }
+			7 = { submarine_batteries = 150 }
+			7 = { submarine_anti_air = 141 }
+			7 = { submarine_torpedo_tubes = 150 }
+			7 = { submarine_crew_berthing = 141 }
+			7 = { submarine_periscope = 113 }
+			7 = { submarine_snorkel = 141 }
+			7 = { submarine_streamlined_hull = 141 }
+			7 = { submarine_air_independent_propulsion = 122 }
+			6 = { submarine_torpedo_auto_loading_system = 122 }
+			6 = { submarine_large_battery_capacity = 122 }
+			6 = { submarine_thick_pressure_hull = 159 }
+			6 = { submarine_air_conditioning = 169 }
+			6 = { submarine_silent_running_drive = 150 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Submarines: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999328
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchNavalSubmarinesMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { submarine_propulsion = 175 }
+			7 = { submarine_pressure_hull = 213 }
+			7 = { submarine_batteries = 200 }
+			7 = { submarine_anti_air = 188 }
+			7 = { submarine_torpedo_tubes = 200 }
+			7 = { submarine_crew_berthing = 188 }
+			7 = { submarine_periscope = 150 }
+			7 = { submarine_snorkel = 188 }
+			7 = { submarine_streamlined_hull = 188 }
+			7 = { submarine_air_independent_propulsion = 163 }
+			6 = { submarine_torpedo_auto_loading_system = 163 }
+			6 = { submarine_large_battery_capacity = 163 }
+			6 = { submarine_thick_pressure_hull = 213 }
+			6 = { submarine_air_conditioning = 225 }
+			6 = { submarine_silent_running_drive = 200 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Escorts: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999329
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchNavalEscortsMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			8 = { destroyer_main_armament = 66 }
+			8 = { destroyer_secondary_armament = 66 }
+			8 = { destroyer_anti_air_guns = 53 }
+			8 = { destroyer_propulsion = 57 }
+			8 = { destroyer_armor = 53 }
+			8 = { destroyer_hull_design = 66 }
+			8 = { destroyer_crew_berthing = 74 }
+			8 = { destroyer_fire_control_system = 70 }
+			8 = { destroyer_anti_air_fire_control_system = 70 }
+			7 = { destroyer_damage_control = 74 }
+			7 = { destroyer_hydrophones = 79 }
+			7 = { destroyer_surface_search_radar_set = 70 }
+			7 = { destroyer_air_search_radar_set = 79 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Escorts: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999330
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchNavalEscortsModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			8 = { destroyer_main_armament = 141 }
+			8 = { destroyer_secondary_armament = 141 }
+			8 = { destroyer_anti_air_guns = 113 }
+			8 = { destroyer_propulsion = 122 }
+			8 = { destroyer_armor = 113 }
+			8 = { destroyer_hull_design = 141 }
+			8 = { destroyer_crew_berthing = 159 }
+			8 = { destroyer_fire_control_system = 150 }
+			8 = { destroyer_anti_air_fire_control_system = 150 }
+			7 = { destroyer_damage_control = 159 }
+			7 = { destroyer_hydrophones = 169 }
+			7 = { destroyer_surface_search_radar_set = 150 }
+			7 = { destroyer_air_search_radar_set = 169 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Escorts: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999331
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchNavalEscortsMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			8 = { destroyer_main_armament = 188 }
+			8 = { destroyer_secondary_armament = 188 }
+			8 = { destroyer_anti_air_guns = 150 }
+			8 = { destroyer_propulsion = 163 }
+			8 = { destroyer_armor = 150 }
+			8 = { destroyer_hull_design = 188 }
+			8 = { destroyer_crew_berthing = 213 }
+			8 = { destroyer_fire_control_system = 200 }
+			8 = { destroyer_anti_air_fire_control_system = 200 }
+			7 = { destroyer_damage_control = 213 }
+			7 = { destroyer_hydrophones = 225 }
+			7 = { destroyer_surface_search_radar_set = 200 }
+			7 = { destroyer_air_search_radar_set = 225 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Light Cruisers: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999332
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchNavalLightcruisersMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { light_cruiser_main_armament = 66 }
+			8 = { light_cruiser_secondary_armament = 70 }
+			8 = { light_cruiser_anti_aircraft_guns = 66 }
+			7 = { light_cruiser_propulsion = 57 }
+			7 = { light_cruiser_armor = 66 }
+			7 = { light_cruiser_hull_design = 66 }
+			7 = { light_cruiser_crew_berthing = 74 }
+			7 = { light_cruiser_fire_control_system = 70 }
+			7 = { light_cruiser_anti_air_fire_control = 70 }
+			7 = { light_cruiser_damage_control = 79 }
+			7 = { cruiser_surface_search_radar = 70 }
+			7 = { cruiser_air_search_radar = 79 }
+			7 = { cruiser_fire_control_radar = 74 }
+			7 = { cruiser_hydrophones = 66 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Light Cruisers: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999333
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchNavalLightcruisersModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { light_cruiser_main_armament = 141 }
+			8 = { light_cruiser_secondary_armament = 150 }
+			8 = { light_cruiser_anti_aircraft_guns = 141 }
+			7 = { light_cruiser_propulsion = 122 }
+			7 = { light_cruiser_armor = 141 }
+			7 = { light_cruiser_hull_design = 141 }
+			7 = { light_cruiser_crew_berthing = 159 }
+			7 = { light_cruiser_fire_control_system = 150 }
+			7 = { light_cruiser_anti_air_fire_control = 150 }
+			7 = { light_cruiser_damage_control = 169 }
+			7 = { cruiser_surface_search_radar = 150 }
+			7 = { cruiser_air_search_radar = 169 }
+			7 = { cruiser_fire_control_radar = 159 }
+			7 = { cruiser_hydrophones = 141 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Light Cruisers: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999334
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchNavalLightcruisersMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { light_cruiser_main_armament = 188 }
+			8 = { light_cruiser_secondary_armament = 200 }
+			8 = { light_cruiser_anti_aircraft_guns = 188 }
+			7 = { light_cruiser_propulsion = 163 }
+			7 = { light_cruiser_armor = 188 }
+			7 = { light_cruiser_hull_design = 188 }
+			7 = { light_cruiser_crew_berthing = 213 }
+			7 = { light_cruiser_fire_control_system = 200 }
+			7 = { light_cruiser_anti_air_fire_control = 200 }
+			7 = { light_cruiser_damage_control = 225 }
+			7 = { cruiser_surface_search_radar = 200 }
+			7 = { cruiser_air_search_radar = 225 }
+			7 = { cruiser_fire_control_radar = 213 }
+			7 = { cruiser_hydrophones = 188 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Heavy Cruisers: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999335
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchNavalHeavycruisersMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			10 = { heavy_cruiser_main_armament = 70 }
+			10 = { heavy_cruiser_secondary_armament = 74 }
+			10 = { heavy_cruiser_anti_aircraft_guns = 70 }
+			10 = { heavy_cruiser_propulsion = 70 }
+			10 = { heavy_cruiser_armour = 70 }
+			10 = { heavy_cruiser_hull_design = 74 }
+			10 = { heavy_cruiser_crew_berthing = 57 }
+			10 = { heavy_cruiser_fire_control_system = 66 }
+			10 = { heavy_cruiser_anti_aircraft_fire_control = 79 }
+			10 = { heavy_cruiser_damage_control = 61 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Heavy Cruisers: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999336
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchNavalHeavycruisersModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			10 = { heavy_cruiser_main_armament = 150 }
+			10 = { heavy_cruiser_secondary_armament = 159 }
+			10 = { heavy_cruiser_anti_aircraft_guns = 150 }
+			10 = { heavy_cruiser_propulsion = 150 }
+			10 = { heavy_cruiser_armour = 150 }
+			10 = { heavy_cruiser_hull_design = 159 }
+			10 = { heavy_cruiser_crew_berthing = 122 }
+			10 = { heavy_cruiser_fire_control_system = 141 }
+			10 = { heavy_cruiser_anti_aircraft_fire_control = 169 }
+			10 = { heavy_cruiser_damage_control = 131 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Heavy Cruisers: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999337
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchNavalHeavycruisersMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			10 = { heavy_cruiser_main_armament = 200 }
+			10 = { heavy_cruiser_secondary_armament = 213 }
+			10 = { heavy_cruiser_anti_aircraft_guns = 200 }
+			10 = { heavy_cruiser_propulsion = 200 }
+			10 = { heavy_cruiser_armour = 200 }
+			10 = { heavy_cruiser_hull_design = 213 }
+			10 = { heavy_cruiser_crew_berthing = 163 }
+			10 = { heavy_cruiser_fire_control_system = 188 }
+			10 = { heavy_cruiser_anti_aircraft_fire_control = 225 }
+			10 = { heavy_cruiser_damage_control = 175 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Capital Ships: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999338
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchNavalCapitalShipsMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { battlecruiser_main_armament = 74 }
+			7 = { battlecruiser_secondary_armament = 66 }
+			6 = { battlecruiser_anti_aircraft_guns = 74 }
+			6 = { battlecruiser_propulsion = 70 }
+			7 = { battlecruiser_armor = 79 }
+			7 = { battlecruiser_hull_design = 74 }
+			6 = { battlecruiser_crew_berthing = 57 }
+			6 = { battlecruiser_fire_control_system = 66 }
+			6 = { battleship_main_armament = 79 }
+			6 = { battleship_secondary_armament = 70 }
+			6 = { battleship_anti_air_guns = 70 }
+			6 = { battleship_propulsion = 74 }
+			6 = { battleship_armor = 70 }
+			6 = { battleship_hull_design = 70 }
+			6 = { battleship_crew_berthing = 70 }
+			6 = { battleship_fire_control_systems = 70 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Capital Ships: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999339
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchNavalCapitalShipsModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { battlecruiser_main_armament = 159 }
+			7 = { battlecruiser_secondary_armament = 141 }
+			6 = { battlecruiser_anti_aircraft_guns = 159 }
+			6 = { battlecruiser_propulsion = 150 }
+			7 = { battlecruiser_armor = 169 }
+			7 = { battlecruiser_hull_design = 159 }
+			6 = { battlecruiser_crew_berthing = 122 }
+			6 = { battlecruiser_fire_control_system = 141 }
+			6 = { battleship_main_armament = 169 }
+			6 = { battleship_secondary_armament = 150 }
+			6 = { battleship_propulsion = 150 }
+			6 = { battleship_armor = 159 }
+			6 = { battleship_hull_design = 150 }
+			6 = { battleship_crew_training = 150 }
+			6 = { battleship_crew_berthing = 150 }
+			6 = { battleship_fire_control_systems = 150 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Capital Ships: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999340
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchNavalCapitalShipsMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { battlecruiser_main_armament = 213 }
+			7 = { battlecruiser_secondary_armament = 188 }
+			6 = { battlecruiser_anti_aircraft_guns = 213 }
+			6 = { battlecruiser_propulsion = 200 }
+			7 = { battlecruiser_armor = 225 }
+			7 = { battlecruiser_hull_design = 213 }
+			6 = { battlecruiser_crew_berthing = 163 }
+			6 = { battlecruiser_fire_control_system = 188 }
+			6 = { battleship_antiaircraft = 225 }
+			6 = { battleship_main_armament = 200 }
+			6 = { battleship_secondary_armament = 200 }
+			6 = { battleship_propulsion = 213 }
+			6 = { battleship_armor = 200 }
+			6 = { battleship_hull_design = 200 }
+			6 = { battleship_crew_berthing = 200 }
+			6 = { battleship_fire_control_systems = 200 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Aircraft Carriers: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999341
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchNavalCarriersMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { aircraft_carrier_anti_air_guns = 79 }
+			7 = { aircraft_carrier_propulsion = 74 }
+			7 = { aircraft_carrier_armor = 74 }
+			6 = { aircraft_carrier_hangar_deck_design = 96 }
+			6 = { aircraft_carrier_elevators = 70 }
+			6 = { aircraft_carrier_superstructure_design = 74 }
+			7 = { aircraft_carrier_flight_deck_design = 88 }
+			7 = { aircraft_carrier_hull_design = 88 }
+			6 = { aircraft_carrier_crew_berthing = 88 }
+			6 = { aircraft_carrier_anti_aircraft_fire_control = 74 }
+			7 = { aircraft_carrier_damage_control_system = 61 }
+			7 = { carrier_surface_search_radar = 53 }
+			7 = { carrier_air_search_radar = 53 }
+			7 = { carrier_fire_control_radar = 53 }
+			7 = { carrier_combat_information_center = 57 }
+		}
+	}
+}
+
+
+#################################################################################################
+#
+# Naval Warfare: Aircraft Carriers: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999342
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchNavalCarriersModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { aircraft_carrier_anti_air_guns = 169 }
+			7 = { aircraft_carrier_propulsion = 159 }
+			7 = { aircraft_carrier_armor = 159 }
+			6 = { aircraft_carrier_hangar_deck_design = 206 }
+			6 = { aircraft_carrier_elevators = 150 }
+			6 = { aircraft_carrier_superstructure_design = 159 }
+			7 = { aircraft_carrier_flight_deck_design = 188 }
+			7 = { aircraft_carrier_hull_design = 188 }
+			6 = { aircraft_carrier_crew_berthing = 188 }
+			6 = { aircraft_carrier_anti_aircraft_fire_control = 159 }
+			7 = { aircraft_carrier_damage_control_system = 131 }
+			7 = { carrier_surface_search_radar = 113 }
+			7 = { carrier_air_search_radar = 113 }
+			7 = { carrier_fire_control_radar = 113 }
+			7 = { carrier_combat_information_center = 122 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Naval Warfare: Aircraft Carriers: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999343
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchNavalCarriersMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			7 = { aircraft_carrier_anti_air_guns = 225 }
+			7 = { aircraft_carrier_propulsion = 213 }
+			7 = { aircraft_carrier_armor = 213 }
+			6 = { aircraft_carrier_hangar_deck_design = 275 }
+			6 = { aircraft_carrier_elevators = 200 }
+			6 = { aircraft_carrier_superstructure_design = 213 }
+			7 = { aircraft_carrier_flight_deck_design = 250 }
+			7 = { aircraft_carrier_hull_design = 250 }
+			6 = { aircraft_carrier_crew_berthing = 250 }
+			6 = { aircraft_carrier_anti_aircraft_fire_control = 213 }
+			7 = { aircraft_carrier_damage_control_system = 175 }
+			7 = { carrier_surface_search_radar = 150 }
+			7 = { carrier_air_search_radar = 150 }
+			7 = { carrier_fire_control_radar = 150 }
+			7 = { carrier_combat_information_center = 163 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Aerospace Defense: Single Engine: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999344
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchAerospaceSingleMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			9 = { light_aircraft_fuselage_design = 48 }
+			9 = { light_aircraft_wing_design = 66 }
+			9 = { light_aircraft_horizontal_stabilizer_design = 66 }
+			9 = { light_aircraft_vertical_stabilizer_design = 57 }
+			9 = { light_aircraft_blueprint = 66 }
+			9 = { light_aircraft_prototype_and_testing = 48 }
+			10 = { light_aircraft_production_model = 66 }
+			9 = { light_aircraft_engine_improvements = 61 }
+			9 = { light_aircraft_internal_mechanical_improvements = 66 }
+			9 = { light_aircraft_aerodynamic_improvements = 66 }
+			9 = { light_aircraft_armament_improvements = 66 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Aerospace Defense: Single Engine: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999345
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchAerospaceSingleModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			9 = { light_aircraft_fuselage_design = 103 }
+			9 = { light_aircraft_wing_design = 141 }
+			9 = { light_aircraft_horizontal_stabilizer_design = 141 }
+			9 = { light_aircraft_vertical_stabilizer_design = 122 }
+			9 = { light_aircraft_blueprint = 141 }
+			9 = { light_aircraft_prototype_and_testing = 103 }
+			10 = { light_aircraft_production_model = 141 }
+			9 = { light_aircraft_engine_improvements = 131 }
+			9 = { light_aircraft_internal_mechanical_improvements = 141 }
+			9 = { light_aircraft_aerodynamic_improvements = 141 }
+			9 = { light_aircraft_armament_improvements = 141 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Aerospace Defense: Single Engine: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999346
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchAerospaceSingleMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			9 = { light_aircraft_fuselage_design = 138 }
+			9 = { light_aircraft_wing_design = 188 }
+			9 = { light_aircraft_horizontal_stabilizer_design = 188 }
+			9 = { light_aircraft_vertical_stabilizer_design = 163 }
+			9 = { light_aircraft_blueprint = 188 }
+			9 = { light_aircraft_prototype_and_testing = 138 }
+			10 = { light_aircraft_production_model = 188 }
+			9 = { light_aircraft_engine_improvements = 175 }
+			9 = { light_aircraft_internal_mechanical_improvements = 188 }
+			9 = { light_aircraft_aerodynamic_improvements = 188 }
+			9 = { light_aircraft_armament_improvements = 188 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Aerospace Defense: Twin Engine: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999347
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchAerospaceTwinMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			9 = { twin_engine_fuselage_design = 48 }
+			9 = { twin_engine_horizontal_stabilizer_design = 48 }
+			9 = { twin_engine_wing_design = 48 }
+			9 = { twin_engine_vertical_stabilizer_design = 48 }
+			9 = { twin_engine_aircraft_blueprint = 66 }
+			9 = { twin_engine_aircraft_prototype_and_testing = 66 }
+			10 = { twin_engine_aircraft_model = 57 }
+			9 = { twin_engine_aircraft_engine_improvements = 66 }
+			9 = { twin_engine_aircraft_internal_mechanical_improvements = 70 }
+			9 = { twin_engine_aircraft_aerodynamic_improvements = 79 }
+			9 = { twin_engine_aircraft_armament_improvements = 66 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Aerospace Defense: Twin Engine: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999348
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchAerospaceTwinModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			9 = { twin_engine_fuselage_design = 103 }
+			9 = { twin_engine_horizontal_stabilizer_design = 103 }
+			9 = { twin_engine_wing_design = 103 }
+			9 = { twin_engine_vertical_stabilizer_design = 103 }
+			9 = { twin_engine_aircraft_blueprint = 141 }
+			9 = { twin_engine_aircraft_prototype_and_testing = 141 }
+			10 = { twin_engine_aircraft_model = 122 }
+			9 = { twin_engine_aircraft_engine_improvements = 141 }
+			9 = { twin_engine_aircraft_internal_mechanical_improvements = 150 }
+			9 = { twin_engine_aircraft_aerodynamic_improvements = 169 }
+			9 = { twin_engine_aircraft_armament_improvements = 141 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Aerospace Defense: Twin Engine: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999349
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchAerospaceTwinMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			9 = { twin_engine_fuselage_design = 138 }
+			9 = { twin_engine_horizontal_stabilizer_design = 138 }
+			9 = { twin_engine_wing_design = 138 }
+			9 = { twin_engine_vertical_stabilizer_design = 138 }
+			9 = { twin_engine_aircraft_blueprint = 188 }
+			9 = { twin_engine_aircraft_prototype_and_testing = 188 }
+			10 = { twin_engine_aircraft_model = 163 }
+			9 = { twin_engine_aircraft_engine_improvements = 188 }
+			9 = { twin_engine_aircraft_internal_mechanical_improvements = 200 }
+			9 = { twin_engine_aircraft_aerodynamic_improvements = 225 }
+			9 = { twin_engine_aircraft_armament_improvements = 188 }
+		}
+	}
+}
+
+
+#################################################################################################
+#
+# Aerospace Defense: Four Engine: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999350
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchAerospaceFourMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			10 = { heavy_aircraft_fuselage_design = 48 }
+			10 = { heavy_aircraft_horizontal_stabilizer_design = 48 }
+			10 = { heavy_aircraft_wing_design = 48 }
+			10 = { heavy_aircraft_vertical_stabilizer_design = 66 }
+			10 = { heavy_aircraft_blueprint = 66 }
+			10 = { heavy_aircraft_prototype_and_testing = 66 }
+			10 = { heavy_aircraft_model = 57 }
+			10 = { heavy_aircraft_engine_improvements = 66 }
+			10 = { heavy_aircraft_internal_mechanical_improvements = 74 }
+			10 = { heavy_aircraft_aerodynamic_improvements = 66 }
+		}
+	}
+}
+
+
+#################################################################################################
+#
+# Aerospace Defense: Four Engine: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999351
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchAerospaceFourModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			10 = { heavy_aircraft_fuselage_design = 103 }
+			10 = { heavy_aircraft_horizontal_stabilizer_design = 103 }
+			10 = { heavy_aircraft_wing_design = 103 }
+			10 = { heavy_aircraft_vertical_stabilizer_design = 141 }
+			10 = { heavy_aircraft_blueprint = 141 }
+			10 = { heavy_aircraft_prototype_and_testing = 141 }
+			10 = { heavy_aircraft_model = 122 }
+			10 = { heavy_aircraft_engine_improvements = 141 }
+			10 = { heavy_aircraft_internal_mechanical_improvements = 159 }
+			10 = { heavy_aircraft_aerodynamic_improvements = 141 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Aerospace Defense: Four Engine: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999352
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchAerospaceFourMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			10 = { heavy_aircraft_fuselage_design = 138 }
+			10 = { heavy_aircraft_horizontal_stabilizer_design = 138 }
+			10 = { heavy_aircraft_wing_design = 138 }
+			10 = { heavy_aircraft_vertical_stabilizer_design = 188 }
+			10 = { heavy_aircraft_blueprint = 188 }
+			10 = { heavy_aircraft_prototype_and_testing = 188 }
+			10 = { heavy_aircraft_model = 163 }
+			10 = { heavy_aircraft_internal_mechanical_improvements = 188 }
+			10 = { heavy_bomber_pilot_training = 213 }
+			10 = { heavy_aircraft_aerodynamic_improvements = 188 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Defense Support Services: Minor Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999353
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMINOR"
+	desc = "EVTDESCRESEARCHMINOR"
+	picture = "ResearchSupportMixedMinor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			10 = { engineer_battalion = 74 }
+			9 = { division_maintenance_company = 74 }
+			9 = { division_supply_company = 74 }
+			9 = { division_medical_company = 74 }
+			9 = { division_radio_company = 74 }
+			9 = { division_intel_company = 70 }
+			9 = { armor_maintenance_company = 66 }
+			9 = { armor_supply_company = 96 }
+			9 = { armor_medical_company = 96 }
+			9 = { armor_radio_company = 61 }
+			9 = { armor_intel_company = 66 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Defense Support Services: Moderate Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999354
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMOD"
+	desc = "EVTDESCRESEARCHMOD"
+	picture = "ResearchSupportMixedModerate"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			10 = { engineer_battalion = 159 }
+			9 = { division_maintenance_company = 159 }
+			9 = { division_supply_company = 159 }
+			9 = { division_medical_company = 159 }
+			9 = { division_radio_company = 159 }
+			9 = { division_intel_company = 150 }
+			9 = { armor_maintenance_company = 141 }
+			9 = { armor_supply_company = 206 }
+			9 = { armor_medical_company = 206 }
+			9 = { armor_radio_company = 131 }
+			9 = { armor_intel_company = 141 }
+		}
+	}
+}
+
+#################################################################################################
+#
+# Defense Support Services: Major Breakthrough
+#
+#################################################################################################
+
+country_event = {
+	id = 999355
+	
+	is_triggered_only = yes
+	
+	title = "EVTNAMERESEARCHMAJOR"
+	desc = "EVTDESCRESEARCHMAJOR"
+	picture = "ResearchSupportMixedMajor"
+	
+	option = {
+		name = "Great!"
+
+		random_list = {
+			10 = { engineer_battalion = 213 }
+			9 = { division_maintenance_company = 213 }
+			9 = { division_supply_company = 213 }
+			9 = { division_medical_company = 213 }
+			9 = { division_radio_company = 213 }
+			9 = { division_intel_company = 200 }
+			9 = { armor_maintenance_company = 188 }
+			9 = { armor_supply_company = 275 }
+			9 = { armor_medical_company = 275 }
+			9 = { armor_radio_company = 175 }
+			9 = { armor_intel_company = 188 }
+		}
+	}
+}
+

@@ -1,0 +1,13 @@
+division= {
+	name = "27. Panzer-Division"
+	location = 3046 #Mariupol
+	leader = 266 # Tröger
+	regiment = { type = GER_A_XXVII_mPzD name = "Stab 27. Panzer-Division" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = armor_brigade name = "Panzer-Regiment 27" historical_model = 4 strength = 20 experience = 50 organisation = 1 }
+	regiment = { type = motorized_infantry_bat name = "Panzergrenadier-Regiment 140/141" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = sp_artillery_brigade name = "Panzer-Artillerie-Regiment 127" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = motorized_anti_tank_brigade name = "Panzerjäger-Abteilung 127" historical_model = 3 experience = 50 organisation = 1 }
+	regiment = { type = armored_car_brigade name = "Panzer-Aufklärungs-Abteilung 127" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = armored_engineers_brigade name = "Panzer-Pionier-Bataillon 127" historical_model = 2 experience = 50 organisation = 1 }
+	regiment = { type = truck_transport name = "Gefechtstross 27. Panzer-Division" historical_model = 0 experience = 50 organisation = 1 }
+}

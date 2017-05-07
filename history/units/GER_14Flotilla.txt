@@ -1,0 +1,19 @@
+corps = {
+	name = "14. U-Flottille"
+	location = 65 #???
+	regiment = { type = naval_hq_brigade name = "14. U-Flottille" historical_model = 0 }
+
+	navy = {
+		name = "14. U-Flottille"
+		base = 65
+		location = 65
+		#leader = 
+		ship = { type = submarine name = "U-160" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-161" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-162" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-163" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-164" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-165" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+	}
+}
+#EOF#

@@ -1,0 +1,1480 @@
+MODEL_TAG;Model;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# MAIN TECH MODELS;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### NATION TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### UNIVERSITY SCIENTISTS ###;;;;;;;;;;;;;;x
+university_scientists_1;3% Recruitment;;;;;;;;;;;;;x
+university_scientists_2;6% Recruitment;;;;;;;;;;;;;x
+university_scientists_3;9% Recruitment;;;;;;;;;;;;;x
+university_scientists_4;12% Recruitment;;;;;;;;;;;;;x
+university_scientists_5;15% Recruitment;;;;;;;;;;;;;x
+university_scientists_6;18% Recruitment;;;;;;;;;;;;;x
+university_scientists_7;21% Recruitment;;;;;;;;;;;;;x
+university_scientists_8;24% Recruitment;;;;;;;;;;;;;x
+university_scientists_9;27% Recruitment;;;;;;;;;;;;;x
+university_scientists_10;30% Recruitment;;;;;;;;;;;;;x
+university_scientists_11;33% Recruitment;;;;;;;;;;;;;x
+university_scientists_12;36% Recruitment;;;;;;;;;;;;;x
+university_scientists_13;39% Recruitment;;;;;;;;;;;;;x
+university_scientists_14;42% Recruitment;;;;;;;;;;;;;x
+university_scientists_15;45% Recruitment;;;;;;;;;;;;;x
+university_scientists_16;48% Recruitment;;;;;;;;;;;;;x
+university_scientists_17;51% Recruitment;;;;;;;;;;;;;x
+university_scientists_18;54% Recruitment;;;;;;;;;;;;;x
+university_scientists_19;57% Recruitment;;;;;;;;;;;;;x
+university_scientists_20;60% Recruitment;;;;;;;;;;;;;x
+university_scientists_21;63% Recruitment;;;;;;;;;;;;;x
+university_scientists_22;66% Recruitment;;;;;;;;;;;;;x
+university_scientists_23;69% Recruitment;;;;;;;;;;;;;x
+university_scientists_24;72% Recruitment;;;;;;;;;;;;;x
+### INDIVIDUAL SCIENTISTS ###;;;;;;;;;;;;;;x
+individual_scientific_researchers_1;2% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_2;4% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_3;6% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_4;8% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_5;10% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_6;12% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_7;14% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_8;16% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_9;18% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_10;20% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_11;22% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_12;24% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_13;26% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_14;28% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_15;30% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_16;32% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_17;34% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_18;36% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_19;38% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_20;40% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_21;42% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_22;44% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_23;46% Recruitment;;;;;;;;;;;;;x
+individual_scientific_researchers_24;48% Recruitment;;;;;;;;;;;;;x
+### SCIENCE INDUSTRIALIZATION ###;;;;;;;;;;;;;;x
+science_industrialization_1;1% Industrialization;;;;;;;;;;;;;x
+science_industrialization_2;2% Industrialization;;;;;;;;;;;;;x
+science_industrialization_3;3% Industrialization;;;;;;;;;;;;;x
+science_industrialization_4;4% Industrialization;;;;;;;;;;;;;x
+science_industrialization_5;5% Industrialization;;;;;;;;;;;;;x
+science_industrialization_6;6% Industrialization;;;;;;;;;;;;;x
+science_industrialization_7;7% Industrialization;;;;;;;;;;;;;x
+science_industrialization_8;8% Industrialization;;;;;;;;;;;;;x
+science_industrialization_9;9% Industrialization;;;;;;;;;;;;;x
+science_industrialization_10;10% Industrialization;;;;;;;;;;;;;x
+science_industrialization_11;11% Industrialization;;;;;;;;;;;;;x
+science_industrialization_12;12% Industrialization;;;;;;;;;;;;;x
+### OPERATIONS RESEARCH ###;;;;;;;;;;;;;;x
+operations_research_1;1% Research;;;;;;;;;;;;;x
+operations_research_2;2% Research;;;;;;;;;;;;;x
+operations_research_3;3% Research;;;;;;;;;;;;;x
+operations_research_4;4% Research;;;;;;;;;;;;;x
+operations_research_5;5% Research;;;;;;;;;;;;;x
+operations_research_6;6% Research;;;;;;;;;;;;;x
+operations_research_7;7% Research;;;;;;;;;;;;;x
+operations_research_8;8% Research;;;;;;;;;;;;;x
+operations_research_9;9% Research;;;;;;;;;;;;;x
+operations_research_10;10% Research;;;;;;;;;;;;;x
+operations_research_11;11% Research;;;;;;;;;;;;;x
+operations_research_12;12% Research;;;;;;;;;;;;;x
+operations_research_13;13% Research;;;;;;;;;;;;;x
+operations_research_14;14% Research;;;;;;;;;;;;;x
+operations_research_15;15% Research;;;;;;;;;;;;;x
+operations_research_16;16% Research;;;;;;;;;;;;;x
+operations_research_17;17% Research;;;;;;;;;;;;;x
+operations_research_18;18% Research;;;;;;;;;;;;;x
+operations_research_19;19% Research;;;;;;;;;;;;;x
+operations_research_20;20% Research;;;;;;;;;;;;;x
+operations_research_21;21% Research;;;;;;;;;;;;;x
+operations_research_22;22% Research;;;;;;;;;;;;;x
+operations_research_23;23% Research;;;;;;;;;;;;;x
+operations_research_24;24% Research;;;;;;;;;;;;;x
+### AVIATION MEDICINE ###;;;;;;;;;;;;;;x
+aviation_medicine_1;Physiological Studies;;;;;;;;;;;;;x
+aviation_medicine_2;Life Support Systems;;;;;;;;;;;;;x
+aviation_medicine_3;Aero Medical Certifications;;;;;;;;;;;;;x
+aviation_medicine_4;Atmospheric Physics;;;;;;;;;;;;;x
+aviation_medicine_5;Breathing Apparatus;;;;;;;;;;;;;x
+aviation_medicine_6;Eye Vision Tests;;;;;;;;;;;;;x
+aviation_medicine_7;Flight Surgeons;;;;;;;;;;;;;x
+aviation_medicine_8;G-Suit Development;;;;;;;;;;;;;x
+### MILITARY NUTRITION ###;;;;;;;;;;;;;;x
+military_nutrition_1;Soldier Rations;;;;;;;;;;;;;x
+military_nutrition_2;Planned Meals;;;;;;;;;;;;;x
+military_nutrition_3;Improved Food Logistics;;;;;;;;;;;;;x
+military_nutrition_4;Military Cook Training;;;;;;;;;;;;;x
+military_nutrition_5;Food Ration Surveys;;;;;;;;;;;;;x
+military_nutrition_6;Frozen Foods;;;;;;;;;;;;;x
+military_nutrition_7;Army Institute of Nutrition Research;;;;;;;;;;;;;x
+military_nutrition_8;Meal Ready To Eat;;;;;;;;;;;;;x
+### NATIONAL GUARD ###;;;;;;;;;;;;;;x
+national_guard_1;Nation Guard;;;;;;;;;;;;;x
+### ARMED FORCES BASIC TRAINING ###;;;;;;;;;;;;;;x
+armed_forces_basic_training_0;59 Days ;;;;;;;;;;;;;x
+armed_forces_basic_training_1;60 Days ;;;;;;;;;;;;;x
+armed_forces_basic_training_2;61 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_3;62 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_4;63 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_5;64 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_6;65 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_7;66 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_8;67 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_9;68 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_10;69 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_11;70 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_12;71 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_13;72 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_14;73 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_15;74 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_16;75 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_17;76 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_18;77 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_19;78 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_20;79 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_21;80 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_22;81 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_23;82 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_24;83 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_25;84 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_26;85 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_27;86 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_28;87 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_29;88 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_30;89 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_31;90 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_32;91 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_33;92 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_34;93 Days;;;;;;;;;;;;;x
+armed_forces_basic_training_35;94 Days;;;;;;;;;;;;;x
+### BASIC INFANTRY TRAINING ###;;;;;;;;;;;;;;x
+basic_infantry_training_0;14 Days;;;;;;;;;;;;;x
+basic_infantry_training_1;15 Days;;;;;;;;;;;;;x
+basic_infantry_training_2;16 Days;;;;;;;;;;;;;x
+basic_infantry_training_3;17 Days;;;;;;;;;;;;;x
+basic_infantry_training_4;18 Days;;;;;;;;;;;;;x
+basic_infantry_training_5;19 Days;;;;;;;;;;;;;x
+basic_infantry_training_6;20 Days;;;;;;;;;;;;;x
+basic_infantry_training_7;21 Days;;;;;;;;;;;;;x
+basic_infantry_training_8;22 Days;;;;;;;;;;;;;x
+basic_infantry_training_9;23 Days;;;;;;;;;;;;;x
+basic_infantry_training_10;24 Days;;;;;;;;;;;;;x
+basic_infantry_training_11;25 Days;;;;;;;;;;;;;x
+basic_infantry_training_12;26 Days;;;;;;;;;;;;;x
+basic_infantry_training_13;27 Days;;;;;;;;;;;;;x
+basic_infantry_training_14;28 Days;;;;;;;;;;;;;x
+basic_infantry_training_15;29 Days;;;;;;;;;;;;;x
+basic_infantry_training_16;30 Days;;;;;;;;;;;;;x
+basic_infantry_training_17;31 Days;;;;;;;;;;;;;x
+basic_infantry_training_18;32 Days;;;;;;;;;;;;;x
+basic_infantry_training_19;33 Days;;;;;;;;;;;;;x
+basic_infantry_training_20;34 Days;;;;;;;;;;;;;x
+basic_infantry_training_21;35 Days;;;;;;;;;;;;;x
+basic_infantry_training_22;36 Days;;;;;;;;;;;;;x
+basic_infantry_training_23;37 Days;;;;;;;;;;;;;x
+basic_infantry_training_24;38 Days;;;;;;;;;;;;;x
+basic_infantry_training_25;39 Days;;;;;;;;;;;;;x
+basic_infantry_training_26;40 Days;;;;;;;;;;;;;x
+basic_infantry_training_27;41 Days;;;;;;;;;;;;;x
+basic_infantry_training_28;42 Days;;;;;;;;;;;;;x
+basic_infantry_training_29;43 Days;;;;;;;;;;;;;x
+basic_infantry_training_30;44 Days;;;;;;;;;;;;;x
+basic_infantry_training_31;45 Days;;;;;;;;;;;;;x
+basic_infantry_training_32;46 Days;;;;;;;;;;;;;x
+basic_infantry_training_33;47 Days;;;;;;;;;;;;;x
+basic_infantry_training_34;48 Days;;;;;;;;;;;;;x
+basic_infantry_training_35;49 Days;;;;;;;;;;;;;x
+### BASIC ARTILLERY TRAINING ###;;;;;;;;;;;;;;x
+basic_artillery_training_0;14 Days;;;;;;;;;;;;;x
+basic_artillery_training_1;15 Days;;;;;;;;;;;;;x
+basic_artillery_training_2;16 Days;;;;;;;;;;;;;x
+basic_artillery_training_3;17 Days;;;;;;;;;;;;;x
+basic_artillery_training_4;18 Days;;;;;;;;;;;;;x
+basic_artillery_training_5;19 Days;;;;;;;;;;;;;x
+basic_artillery_training_6;20 Days;;;;;;;;;;;;;x
+basic_artillery_training_7;21 Days;;;;;;;;;;;;;x
+basic_artillery_training_8;22 Days;;;;;;;;;;;;;x
+basic_artillery_training_9;23 Days;;;;;;;;;;;;;x
+basic_artillery_training_10;24 Days;;;;;;;;;;;;;x
+basic_artillery_training_11;25 Days;;;;;;;;;;;;;x
+basic_artillery_training_12;26 Days;;;;;;;;;;;;;x
+basic_artillery_training_13;27 Days;;;;;;;;;;;;;x
+basic_artillery_training_14;28 Days;;;;;;;;;;;;;x
+basic_artillery_training_15;29 Days;;;;;;;;;;;;;x
+basic_artillery_training_16;30 Days;;;;;;;;;;;;;x
+basic_artillery_training_17;31 Days;;;;;;;;;;;;;x
+basic_artillery_training_18;32 Days;;;;;;;;;;;;;x
+basic_artillery_training_19;33 Days;;;;;;;;;;;;;x
+basic_artillery_training_20;34 Days;;;;;;;;;;;;;x
+basic_artillery_training_21;35 Days;;;;;;;;;;;;;x
+basic_artillery_training_22;36 Days;;;;;;;;;;;;;x
+basic_artillery_training_23;37 Days;;;;;;;;;;;;;x
+basic_artillery_training_24;38 Days;;;;;;;;;;;;;x
+basic_artillery_training_25;39 Days;;;;;;;;;;;;;x
+basic_artillery_training_26;40 Days;;;;;;;;;;;;;x
+basic_artillery_training_27;41 Days;;;;;;;;;;;;;x
+basic_artillery_training_28;42 Days;;;;;;;;;;;;;x
+basic_artillery_training_29;43 Days;;;;;;;;;;;;;x
+basic_artillery_training_30;44 Days;;;;;;;;;;;;;x
+basic_artillery_training_31;45 Days;;;;;;;;;;;;;x
+basic_artillery_training_32;46 Days;;;;;;;;;;;;;x
+basic_artillery_training_33;47 Days;;;;;;;;;;;;;x
+basic_artillery_training_34;48 Days;;;;;;;;;;;;;x
+basic_artillery_training_35;49 Days;;;;;;;;;;;;;x
+### BASIC ARMOR TRAINING ###;;;;;;;;;;;;;;x
+basic_armor_training_0;14 Days;;;;;;;;;;;;;x
+basic_armor_training_1;15 Days;;;;;;;;;;;;;x
+basic_armor_training_2;16 Days;;;;;;;;;;;;;x
+basic_armor_training_3;17 Days;;;;;;;;;;;;;x
+basic_armor_training_4;18 Days;;;;;;;;;;;;;x
+basic_armor_training_5;19 Days;;;;;;;;;;;;;x
+basic_armor_training_6;20 Days;;;;;;;;;;;;;x
+basic_armor_training_7;21 Days;;;;;;;;;;;;;x
+basic_armor_training_8;22 Days;;;;;;;;;;;;;x
+basic_armor_training_9;23 Days;;;;;;;;;;;;;x
+basic_armor_training_10;24 Days;;;;;;;;;;;;;x
+basic_armor_training_11;25 Days;;;;;;;;;;;;;x
+basic_armor_training_12;26 Days;;;;;;;;;;;;;x
+basic_armor_training_13;27 Days;;;;;;;;;;;;;x
+basic_armor_training_14;28 Days;;;;;;;;;;;;;x
+basic_armor_training_15;29 Days;;;;;;;;;;;;;x
+basic_armor_training_16;30 Days;;;;;;;;;;;;;x
+basic_armor_training_17;31 Days;;;;;;;;;;;;;x
+basic_armor_training_18;32 Days;;;;;;;;;;;;;x
+basic_armor_training_19;33 Days;;;;;;;;;;;;;x
+basic_armor_training_20;34 Days;;;;;;;;;;;;;x
+basic_armor_training_21;35 Days;;;;;;;;;;;;;x
+basic_armor_training_22;36 Days;;;;;;;;;;;;;x
+basic_armor_training_23;37 Days;;;;;;;;;;;;;x
+basic_armor_training_24;38 Days;;;;;;;;;;;;;x
+basic_armor_training_25;39 Days;;;;;;;;;;;;;x
+basic_armor_training_26;40 Days;;;;;;;;;;;;;x
+basic_armor_training_27;41 Days;;;;;;;;;;;;;x
+basic_armor_training_28;42 Days;;;;;;;;;;;;;x
+basic_armor_training_29;43 Days;;;;;;;;;;;;;x
+basic_armor_training_30;44 Days;;;;;;;;;;;;;x
+basic_armor_training_31;45 Days;;;;;;;;;;;;;x
+basic_armor_training_32;46 Days;;;;;;;;;;;;;x
+basic_armor_training_33;47 Days;;;;;;;;;;;;;x
+basic_armor_training_34;48 Days;;;;;;;;;;;;;x
+basic_armor_training_35;49 Days;;;;;;;;;;;;;x
+### BASIC PILOT TRAINING ###;;;;;;;;;;;;;;x
+basic_pilot_training_0;6 Hours;;;;;;;;;;;;;x
+basic_pilot_training_1;9 Hours;;;;;;;;;;;;;x
+basic_pilot_training_2;12 Hours;;;;;;;;;;;;;x
+basic_pilot_training_3;15 Hours;;;;;;;;;;;;;x
+basic_pilot_training_4;18 Hours;;;;;;;;;;;;;x
+basic_pilot_training_5;21 Hours;;;;;;;;;;;;;x
+basic_pilot_training_6;24 Hours;;;;;;;;;;;;;x
+basic_pilot_training_7;27 Hours;;;;;;;;;;;;;x
+basic_pilot_training_8;30 Hours;;;;;;;;;;;;;x
+basic_pilot_training_9;33 Hours;;;;;;;;;;;;;x
+basic_pilot_training_10;36 Hours;;;;;;;;;;;;;x
+basic_pilot_training_11;39 Hours;;;;;;;;;;;;;x
+basic_pilot_training_12;42 Hours;;;;;;;;;;;;;x
+basic_pilot_training_13;45 Hours;;;;;;;;;;;;;x
+basic_pilot_training_14;48 Hours;;;;;;;;;;;;;x
+basic_pilot_training_15;51 Hours;;;;;;;;;;;;;x
+basic_pilot_training_16;54 Hours;;;;;;;;;;;;;x
+basic_pilot_training_17;57 Hours;;;;;;;;;;;;;x
+basic_pilot_training_18;60 Hours;;;;;;;;;;;;;x
+basic_pilot_training_19;63 Hours;;;;;;;;;;;;;x
+basic_pilot_training_20;66 Hours;;;;;;;;;;;;;x
+basic_pilot_training_21;69 Hours;;;;;;;;;;;;;x
+basic_pilot_training_22;72 Hours;;;;;;;;;;;;;x
+basic_pilot_training_23;75 Hours;;;;;;;;;;;;;x
+basic_pilot_training_24;78 Hours;;;;;;;;;;;;;x
+basic_pilot_training_25;81 Hours;;;;;;;;;;;;;x
+basic_pilot_training_26;84 Hours;;;;;;;;;;;;;x
+basic_pilot_training_27;87 Hours;;;;;;;;;;;;;x
+basic_pilot_training_28;90 Hours;;;;;;;;;;;;;x
+basic_pilot_training_29;93 Hours;;;;;;;;;;;;;x
+basic_pilot_training_30;96 Hours;;;;;;;;;;;;;x
+basic_pilot_training_31;99 Hours;;;;;;;;;;;;;x
+basic_pilot_training_32;102 Hours;;;;;;;;;;;;;x
+basic_pilot_training_33;105 Hours;;;;;;;;;;;;;x
+basic_pilot_training_34;108 Hours;;;;;;;;;;;;;x
+basic_pilot_training_35;111 Hours;;;;;;;;;;;;;x
+### BASIC AIRMEN SCHOOLS ###;;;;;;;;;;;;;;x
+basic_airmen_training_0;6 Hours;;;;;;;;;;;;;x
+basic_airmen_training_1;9 Hours;;;;;;;;;;;;;x
+basic_airmen_training_2;12 Hours;;;;;;;;;;;;;x
+basic_airmen_training_3;15 Hours;;;;;;;;;;;;;x
+basic_airmen_training_4;18 Hours;;;;;;;;;;;;;x
+basic_airmen_training_5;21 Hours;;;;;;;;;;;;;x
+basic_airmen_training_6;24 Hours;;;;;;;;;;;;;x
+basic_airmen_training_7;27 Hours;;;;;;;;;;;;;x
+basic_airmen_training_8;30 Hours;;;;;;;;;;;;;x
+basic_airmen_training_9;33 Hours;;;;;;;;;;;;;x
+basic_airmen_training_10;36 Hours;;;;;;;;;;;;;x
+basic_airmen_training_11;39 Hours;;;;;;;;;;;;;x
+basic_airmen_training_12;42 Hours;;;;;;;;;;;;;x
+basic_airmen_training_13;45 Hours;;;;;;;;;;;;;x
+basic_airmen_training_14;48 Hours;;;;;;;;;;;;;x
+basic_airmen_training_15;51 Hours;;;;;;;;;;;;;x
+basic_airmen_training_16;54 Hours;;;;;;;;;;;;;x
+basic_airmen_training_17;57 Hours;;;;;;;;;;;;;x
+basic_airmen_training_18;60 Hours;;;;;;;;;;;;;x
+basic_airmen_training_19;63 Hours;;;;;;;;;;;;;x
+basic_airmen_training_20;66 Hours;;;;;;;;;;;;;x
+basic_airmen_training_21;69 Hours;;;;;;;;;;;;;x
+basic_airmen_training_22;72 Hours;;;;;;;;;;;;;x
+basic_airmen_training_23;75 Hours;;;;;;;;;;;;;x
+basic_airmen_training_24;78 Hours;;;;;;;;;;;;;x
+basic_airmen_training_25;81 Hours;;;;;;;;;;;;;x
+basic_airmen_training_26;84 Hours;;;;;;;;;;;;;x
+basic_airmen_training_27;87 Hours;;;;;;;;;;;;;x
+basic_airmen_training_28;90 Hours;;;;;;;;;;;;;x
+basic_airmen_training_29;93 Hours;;;;;;;;;;;;;x
+basic_airmen_training_30;96 Hours;;;;;;;;;;;;;x
+basic_airmen_training_31;99 Hours;;;;;;;;;;;;;x
+basic_airmen_training_32;102 Hours;;;;;;;;;;;;;x
+basic_airmen_training_33;105 Hours;;;;;;;;;;;;;x
+basic_airmen_training_34;108 Hours;;;;;;;;;;;;;x
+basic_airmen_training_35;111 Hours;;;;;;;;;;;;;x
+### BASIC NAVAL SCHOOLS ###;;;;;;;;;;;;;;x
+basic_naval_training_0;59 Days ;;;;;;;;;;;;;x
+basic_naval_training_1;60 Days ;;;;;;;;;;;;;x
+basic_naval_training_2;61 Days;;;;;;;;;;;;;x
+basic_naval_training_3;62 Days;;;;;;;;;;;;;x
+basic_naval_training_4;63 Days;;;;;;;;;;;;;x
+basic_naval_training_5;64 Days;;;;;;;;;;;;;x
+basic_naval_training_6;65 Days;;;;;;;;;;;;;x
+basic_naval_training_7;66 Days;;;;;;;;;;;;;x
+basic_naval_training_8;67 Days;;;;;;;;;;;;;x
+basic_naval_training_9;68 Days;;;;;;;;;;;;;x
+basic_naval_training_10;69 Days;;;;;;;;;;;;;x
+basic_naval_training_11;70 Days;;;;;;;;;;;;;x
+basic_naval_training_12;71 Days;;;;;;;;;;;;;x
+basic_naval_training_13;72 Days;;;;;;;;;;;;;x
+basic_naval_training_14;73 Days;;;;;;;;;;;;;x
+basic_naval_training_15;74 Days;;;;;;;;;;;;;x
+basic_naval_training_16;75 Days;;;;;;;;;;;;;x
+basic_naval_training_17;76 Days;;;;;;;;;;;;;x
+basic_naval_training_18;77 Days;;;;;;;;;;;;;x
+basic_naval_training_19;78 Days;;;;;;;;;;;;;x
+basic_naval_training_20;79 Days;;;;;;;;;;;;;x
+basic_naval_training_21;80 Days;;;;;;;;;;;;;x
+basic_naval_training_22;81 Days;;;;;;;;;;;;;x
+basic_naval_training_23;82 Days;;;;;;;;;;;;;x
+basic_naval_training_24;83 Days;;;;;;;;;;;;;x
+basic_naval_training_25;84 Days;;;;;;;;;;;;;x
+basic_naval_training_26;85 Days;;;;;;;;;;;;;x
+basic_naval_training_27;86 Days;;;;;;;;;;;;;x
+basic_naval_training_28;87 Days;;;;;;;;;;;;;x
+basic_naval_training_29;88 Days;;;;;;;;;;;;;x
+basic_naval_training_30;89 Days;;;;;;;;;;;;;x
+basic_naval_training_31;90 Days;;;;;;;;;;;;;x
+basic_naval_training_32;91 Days;;;;;;;;;;;;;x
+basic_naval_training_33;92 Days;;;;;;;;;;;;;x
+basic_naval_training_34;93 Days;;;;;;;;;;;;;x
+basic_naval_training_35;94 Days;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### INDUSTRIAL TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### FUEL CONSERVATION ###;;;;;;;;;;;;;;x
+fuel_conservation_1;10% Conservation;;;;;;;;;;;;;x
+fuel_conservation_2;20% Conservation;;;;;;;;;;;;;x
+fuel_conservation_3;30% Conservation;;;;;;;;;;;;;x
+fuel_conservation_4;40% Conservation;;;;;;;;;;;;;x
+fuel_conservation_5;50% Conservation;;;;;;;;;;;;;x
+### OCTANE CONSERVATION ###;;;;;;;;;;;;;;x
+octane_conservation_1;5% Conservation;;;;;;;;;;;;;x
+octane_conservation_2;10% Conservation;;;;;;;;;;;;;x
+octane_conservation_3;15% Conservation;;;;;;;;;;;;;x
+octane_conservation_4;20% Conservation;;;;;;;;;;;;;x
+octane_conservation_5;25% Conservation;;;;;;;;;;;;;x
+octane_conservation_6;30% Conservation;;;;;;;;;;;;;x
+octane_conservation_7;35% Conservation;;;;;;;;;;;;;x
+octane_conservation_8;40% Conservation;;;;;;;;;;;;;x
+octane_conservation_9;45% Conservation;;;;;;;;;;;;;x
+octane_conservation_10;50% Conservation;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### ELECTRONIC TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### MECHANICAL ENCRYPTION MACHINE ###;;;;;;;;;;;;;;x
+mechanical_encryption_machine_1;5% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_2;10% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_3;15% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_4;20% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_5;25% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_6;30% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_7;35% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_8;40% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_9;45% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_10;50% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_11;55% Encryption;;;;;;;;;;;;;x
+mechanical_encryption_machine_12;60% Encryption;;;;;;;;;;;;;x
+### ENCRYPTION CODES ###;;;;;;;;;;;;;;x
+encryption_codes_1;365 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_2;300 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_3;270 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_4;240 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_5;180 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_6;150 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_7;120 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_8;90 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_9;60 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_10;30 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_11;15 Day Code Change;;;;;;;;;;;;;x
+encryption_codes_12;7 Day Code Change;;;;;;;;;;;;;x
+### DECRYPTION TEAMS ###;;;;;;;;;;;;;;x
+decryption_teams_1;1 Team;;;;;;;;;;;;;x
+decryption_teams_2;2 Teams;;;;;;;;;;;;;x
+decryption_teams_3;3 Teams;;;;;;;;;;;;;x
+decryption_teams_4;4 Teams;;;;;;;;;;;;;x
+decryption_teams_5;5 Teams;;;;;;;;;;;;;x
+decryption_teams_6;6 Teams;;;;;;;;;;;;;x
+decryption_teams_7;7 Teams ;;;;;;;;;;;;;x
+decryption_teams_8;8 Teams;;;;;;;;;;;;;x
+decryption_teams_9;9 Teams;;;;;;;;;;;;;x
+decryption_teams_10;10 Teams;;;;;;;;;;;;;x
+decryption_teams_11;11 Teams;;;;;;;;;;;;;x
+decryption_teams_12;12 Teams;;;;;;;;;;;;;x
+### CODE BREAKING MACHINE ###;;;;;;;;;;;;;;x
+code_breaking_machine_1;Rudimentary Machine;;;;;;;;;;;;;x
+code_breaking_machine_2;Basic Analog Machine;;;;;;;;;;;;;x
+code_breaking_machine_3;Complex Analog Machine;;;;;;;;;;;;;x
+code_breaking_machine_4;Advanced Analog Machine;;;;;;;;;;;;;x
+code_breaking_machine_5;Multi-Analog Machine;;;;;;;;;;;;;x
+code_breaking_machine_6;Semi-Digital Machine;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### CONSTRUCTION TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### NAVAL BASE OIL TANKS ###;;;;;;;;;;;;;;x
+naval_base_oil_tanks_1;100 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_2;200 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_3;300 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_4;400 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_5;500 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_6;600 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_7;700 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_8;800 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_9;900 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_10;1000 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_11;1100 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_12;1200 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_13;1300 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_14;1400 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_15;1500 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_16;1600 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_17;1700 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_18;1800 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_19;1900 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_20;2000 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_21;2100 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_22;2200 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_23;2300 Storage Tanks;;;;;;;;;;;;;x
+naval_base_oil_tanks_24;2400 Storage Tanks;;;;;;;;;;;;;x
+### NAVAL BASE REPAIR FACILITIES ###;;;;;;;;;;;;;;x
+naval_base_repair_facilities_1;10 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_2;20 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_3;30 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_4;40 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_5;50 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_6;60 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_7;70 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_8;80 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_9;90 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_10;100 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_11;110 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_12;120 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_13;130 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_14;140 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_15;150 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_16;160 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_17;170 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_18;180 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_19;190 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_20;200 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_21;210 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_22;220 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_23;230 Facilities;;;;;;;;;;;;;x
+naval_base_repair_facilities_24;240 Facilities;;;;;;;;;;;;;x
+### NAVAL BASE ORDNANCE DEPOTS ###;;;;;;;;;;;;;;x
+naval_base_ordnance_depot_1;10 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_2;20 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_3;30 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_4;40 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_5;50 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_6;60 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_7;70 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_8;80 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_9;90 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_10;100 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_11;110 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_12;120 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_13;130 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_14;140 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_15;150 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_16;160 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_17;170 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_18;180 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_19;190 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_20;200 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_21;210 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_22;220 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_23;230 Depots;;;;;;;;;;;;;x
+naval_base_ordnance_depot_24;240 Depots;;;;;;;;;;;;;x
+### NAVAL BASE ORDNANCE DEPOTS ###;;;;;;;;;;;;;;x
+submarine_pens_1;1 Pen;;;;;;;;;;;;;x
+submarine_pens_2;2 Pens;;;;;;;;;;;;;x
+submarine_pens_3;3 Pens;;;;;;;;;;;;;x
+submarine_pens_4;4 Pens;;;;;;;;;;;;;x
+submarine_pens_5;5 Pens;;;;;;;;;;;;;x
+submarine_pens_6;6 Pens;;;;;;;;;;;;;x
+submarine_pens_7;7 Pens;;;;;;;;;;;;;x
+submarine_pens_8;8 Pens;;;;;;;;;;;;;x
+submarine_pens_9;9 Pens;;;;;;;;;;;;;x
+submarine_pens_10;10 Pens;;;;;;;;;;;;;x
+submarine_pens_11;11 Pens;;;;;;;;;;;;;x
+submarine_pens_12;12 Pens;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### MANUFACTURING TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### LIGHT INFANTRY WEAPON PRODUCTION ###;;;;;;;;;;;;;;x
+rifle_production_1;+2% Production;;;;;;;;;;;;;x
+rifle_production_2;+4% Production;;;;;;;;;;;;;x
+rifle_production_3;+6% Production;;;;;;;;;;;;;x
+rifle_production_4;+10% Production;;;;;;;;;;;;;x
+rifle_production_5;+12% Production;;;;;;;;;;;;;x
+rifle_production_6;+14% Production;;;;;;;;;;;;;x
+rifle_production_7;+16% Production;;;;;;;;;;;;;x
+rifle_production_8;+18% Production;;;;;;;;;;;;;x
+rifle_production_9;+20% Production;;;;;;;;;;;;;x
+rifle_production_10;+22% Production;;;;;;;;;;;;;x
+rifle_production_11;+24% Production;;;;;;;;;;;;;x
+rifle_production_12;+26% Production;;;;;;;;;;;;;x
+rifle_production_13;+28% Production;;;;;;;;;;;;;x
+rifle_production_14;+30% Production;;;;;;;;;;;;;x
+rifle_production_15;+32% Production;;;;;;;;;;;;;x
+rifle_production_16;+34% Production;;;;;;;;;;;;;x
+rifle_production_17;+36% Production;;;;;;;;;;;;;x
+rifle_production_18;+38% Production;;;;;;;;;;;;;x
+rifle_production_19;+40% Production;;;;;;;;;;;;;x
+rifle_production_20;+42% Production;;;;;;;;;;;;;x
+rifle_production_21;+44% Production;;;;;;;;;;;;;x
+rifle_production_22;+46% Production;;;;;;;;;;;;;x
+rifle_production_23;+48% Production;;;;;;;;;;;;;x
+rifle_production_24;+50% Production;;;;;;;;;;;;;x
+rifle_production_25;+52% Production;;;;;;;;;;;;;x
+rifle_production_26;+54% Production;;;;;;;;;;;;;x
+rifle_production_27;+56% Production;;;;;;;;;;;;;x
+rifle_production_28;+58% Production;;;;;;;;;;;;;x
+rifle_production_29;+60% Production;;;;;;;;;;;;;x
+rifle_production_30;+62% Production;;;;;;;;;;;;;x
+rifle_production_31;+64% Production;;;;;;;;;;;;;x
+rifle_production_32;+66% Production;;;;;;;;;;;;;x
+rifle_production_33;+68% Production;;;;;;;;;;;;;x
+rifle_production_34;+70% Production;;;;;;;;;;;;;x
+### HEAVY INFANTRY WEAPON PRODUCTION ###;;;;;;;;;;;;;;x
+submachinegun_production_1;+2% Production;;;;;;;;;;;;;x
+submachinegun_production_2;+4% Production;;;;;;;;;;;;;x
+submachinegun_production_3;+6% Production;;;;;;;;;;;;;x
+submachinegun_production_4;+10% Production;;;;;;;;;;;;;x
+submachinegun_production_5;+12% Production;;;;;;;;;;;;;x
+submachinegun_production_6;+14% Production;;;;;;;;;;;;;x
+submachinegun_production_7;+16% Production;;;;;;;;;;;;;x
+submachinegun_production_8;+18% Production;;;;;;;;;;;;;x
+submachinegun_production_9;+20% Production;;;;;;;;;;;;;x
+submachinegun_production_10;+22% Production;;;;;;;;;;;;;x
+submachinegun_production_11;+24% Production;;;;;;;;;;;;;x
+submachinegun_production_12;+26% Production;;;;;;;;;;;;;x
+submachinegun_production_13;+28% Production;;;;;;;;;;;;;x
+submachinegun_production_14;+30% Production;;;;;;;;;;;;;x
+submachinegun_production_15;+32% Production;;;;;;;;;;;;;x
+submachinegun_production_16;+34% Production;;;;;;;;;;;;;x
+submachinegun_production_17;+36% Production;;;;;;;;;;;;;x
+submachinegun_production_18;+38% Production;;;;;;;;;;;;;x
+submachinegun_production_19;+40% Production;;;;;;;;;;;;;x
+submachinegun_production_20;+42% Production;;;;;;;;;;;;;x
+submachinegun_production_21;+44% Production;;;;;;;;;;;;;x
+submachinegun_production_22;+46% Production;;;;;;;;;;;;;x
+submachinegun_production_23;+48% Production;;;;;;;;;;;;;x
+submachinegun_production_24;+50% Production;;;;;;;;;;;;;x
+submachinegun_production_25;+52% Production;;;;;;;;;;;;;x
+submachinegun_production_26;+54% Production;;;;;;;;;;;;;x
+submachinegun_production_27;+56% Production;;;;;;;;;;;;;x
+submachinegun_production_28;+58% Production;;;;;;;;;;;;;x
+submachinegun_production_29;+60% Production;;;;;;;;;;;;;x
+submachinegun_production_30;+62% Production;;;;;;;;;;;;;x
+submachinegun_production_31;+64% Production;;;;;;;;;;;;;x
+submachinegun_production_32;+66% Production;;;;;;;;;;;;;x
+submachinegun_production_33;+68% Production;;;;;;;;;;;;;x
+submachinegun_production_34;+70% Production;;;;;;;;;;;;;x
+### MOUNTAIN EQUIPMENT PRODUCTION ###;;;;;;;;;;;;;;x
+assault_rifle_production_1;+2% Production;;;;;;;;;;;;;x
+assault_rifle_production_2;+4% Production;;;;;;;;;;;;;x
+assault_rifle_production_3;+6% Production;;;;;;;;;;;;;x
+assault_rifle_production_4;+10% Production;;;;;;;;;;;;;x
+assault_rifle_production_5;+12% Production;;;;;;;;;;;;;x
+assault_rifle_production_6;+14% Production;;;;;;;;;;;;;x
+assault_rifle_production_7;+16% Production;;;;;;;;;;;;;x
+assault_rifle_production_8;+18% Production;;;;;;;;;;;;;x
+assault_rifle_production_9;+20% Production;;;;;;;;;;;;;x
+assault_rifle_production_10;+22% Production;;;;;;;;;;;;;x
+assault_rifle_production_11;+24% Production;;;;;;;;;;;;;x
+assault_rifle_production_12;+26% Production;;;;;;;;;;;;;x
+assault_rifle_production_13;+28% Production;;;;;;;;;;;;;x
+assault_rifle_production_14;+30% Production;;;;;;;;;;;;;x
+assault_rifle_production_15;+32% Production;;;;;;;;;;;;;x
+assault_rifle_production_16;+34% Production;;;;;;;;;;;;;x
+assault_rifle_production_17;+36% Production;;;;;;;;;;;;;x
+assault_rifle_production_18;+38% Production;;;;;;;;;;;;;x
+assault_rifle_production_19;+40% Production;;;;;;;;;;;;;x
+assault_rifle_production_20;+42% Production;;;;;;;;;;;;;x
+assault_rifle_production_21;+44% Production;;;;;;;;;;;;;x
+assault_rifle_production_22;+46% Production;;;;;;;;;;;;;x
+assault_rifle_production_23;+48% Production;;;;;;;;;;;;;x
+assault_rifle_production_24;+50% Production;;;;;;;;;;;;;x
+assault_rifle_production_25;+52% Production;;;;;;;;;;;;;x
+assault_rifle_production_26;+54% Production;;;;;;;;;;;;;x
+assault_rifle_production_27;+56% Production;;;;;;;;;;;;;x
+assault_rifle_production_28;+58% Production;;;;;;;;;;;;;x
+assault_rifle_production_29;+60% Production;;;;;;;;;;;;;x
+assault_rifle_production_30;+62% Production;;;;;;;;;;;;;x
+assault_rifle_production_31;+64% Production;;;;;;;;;;;;;x
+assault_rifle_production_32;+66% Production;;;;;;;;;;;;;x
+assault_rifle_production_33;+68% Production;;;;;;;;;;;;;x
+assault_rifle_production_34;+70% Production;;;;;;;;;;;;;x
+### MARINE EQUIPMENT PRODUCTION ###;;;;;;;;;;;;;;x
+anti_tank_rocket_production_1;+2% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_2;+4% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_3;+6% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_4;+10% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_5;+12% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_6;+14% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_7;+16% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_8;+18% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_9;+20% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_10;+22% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_11;+24% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_12;+26% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_13;+28% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_14;+30% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_15;+32% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_16;+34% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_17;+36% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_18;+38% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_19;+40% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_20;+42% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_21;+44% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_22;+46% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_23;+48% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_24;+50% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_25;+52% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_26;+54% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_27;+56% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_28;+58% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_29;+60% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_30;+62% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_31;+64% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_32;+66% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_33;+68% Production;;;;;;;;;;;;;x
+anti_tank_rocket_production_34;+70% Production;;;;;;;;;;;;;x
+### AIRBORNE EQUIPMENT PRODUCTION ###;;;;;;;;;;;;;;x
+light_machine_gun_production_1;+2% Production;;;;;;;;;;;;;x
+light_machine_gun_production_2;+4% Production;;;;;;;;;;;;;x
+light_machine_gun_production_3;+6% Production;;;;;;;;;;;;;x
+light_machine_gun_production_4;+10% Production;;;;;;;;;;;;;x
+light_machine_gun_production_5;+12% Production;;;;;;;;;;;;;x
+light_machine_gun_production_6;+14% Production;;;;;;;;;;;;;x
+light_machine_gun_production_7;+16% Production;;;;;;;;;;;;;x
+light_machine_gun_production_8;+18% Production;;;;;;;;;;;;;x
+light_machine_gun_production_9;+20% Production;;;;;;;;;;;;;x
+light_machine_gun_production_10;+22% Production;;;;;;;;;;;;;x
+light_machine_gun_production_11;+24% Production;;;;;;;;;;;;;x
+light_machine_gun_production_12;+26% Production;;;;;;;;;;;;;x
+light_machine_gun_production_13;+28% Production;;;;;;;;;;;;;x
+light_machine_gun_production_14;+30% Production;;;;;;;;;;;;;x
+light_machine_gun_production_15;+32% Production;;;;;;;;;;;;;x
+light_machine_gun_production_16;+34% Production;;;;;;;;;;;;;x
+light_machine_gun_production_17;+36% Production;;;;;;;;;;;;;x
+light_machine_gun_production_18;+38% Production;;;;;;;;;;;;;x
+light_machine_gun_production_19;+40% Production;;;;;;;;;;;;;x
+light_machine_gun_production_20;+42% Production;;;;;;;;;;;;;x
+light_machine_gun_production_21;+44% Production;;;;;;;;;;;;;x
+light_machine_gun_production_22;+46% Production;;;;;;;;;;;;;x
+light_machine_gun_production_23;+48% Production;;;;;;;;;;;;;x
+light_machine_gun_production_24;+50% Production;;;;;;;;;;;;;x
+light_machine_gun_production_25;+52% Production;;;;;;;;;;;;;x
+light_machine_gun_production_26;+54% Production;;;;;;;;;;;;;x
+light_machine_gun_production_27;+56% Production;;;;;;;;;;;;;x
+light_machine_gun_production_28;+58% Production;;;;;;;;;;;;;x
+light_machine_gun_production_29;+60% Production;;;;;;;;;;;;;x
+light_machine_gun_production_30;+62% Production;;;;;;;;;;;;;x
+light_machine_gun_production_31;+64% Production;;;;;;;;;;;;;x
+light_machine_gun_production_32;+66% Production;;;;;;;;;;;;;x
+light_machine_gun_production_33;+68% Production;;;;;;;;;;;;;x
+light_machine_gun_production_34;+70% Production;;;;;;;;;;;;;x
+### LIGHT COMBAT VEHICLE PRODUCTION ###;;;;;;;;;;;;;;x
+heavy_machine_gun_production_1;+2% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_2;+4% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_3;+6% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_4;+10% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_5;+12% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_6;+14% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_7;+16% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_8;+18% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_9;+20% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_10;+22% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_11;+24% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_12;+26% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_13;+28% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_14;+30% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_15;+32% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_16;+34% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_17;+36% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_18;+38% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_19;+40% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_20;+42% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_21;+44% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_22;+46% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_23;+48% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_24;+50% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_25;+52% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_26;+54% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_27;+56% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_28;+58% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_29;+60% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_30;+62% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_31;+64% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_32;+66% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_33;+68% Production;;;;;;;;;;;;;x
+heavy_machine_gun_production_34;+70% Production;;;;;;;;;;;;;x
+### LIGHT ARTILLERY PRODUCTION ###;;;;;;;;;;;;;;x
+light_artillery_production_1;+2% Production;;;;;;;;;;;;;x
+light_artillery_production_2;+4% Production;;;;;;;;;;;;;x
+light_artillery_production_3;+6% Production;;;;;;;;;;;;;x
+light_artillery_production_4;+10% Production;;;;;;;;;;;;;x
+light_artillery_production_5;+12% Production;;;;;;;;;;;;;x
+light_artillery_production_6;+14% Production;;;;;;;;;;;;;x
+light_artillery_production_7;+16% Production;;;;;;;;;;;;;x
+light_artillery_production_8;+18% Production;;;;;;;;;;;;;x
+light_artillery_production_9;+20% Production;;;;;;;;;;;;;x
+light_artillery_production_10;+22% Production;;;;;;;;;;;;;x
+light_artillery_production_11;+24% Production;;;;;;;;;;;;;x
+light_artillery_production_12;+26% Production;;;;;;;;;;;;;x
+light_artillery_production_13;+28% Production;;;;;;;;;;;;;x
+light_artillery_production_14;+30% Production;;;;;;;;;;;;;x
+light_artillery_production_15;+32% Production;;;;;;;;;;;;;x
+light_artillery_production_16;+34% Production;;;;;;;;;;;;;x
+light_artillery_production_17;+36% Production;;;;;;;;;;;;;x
+light_artillery_production_18;+38% Production;;;;;;;;;;;;;x
+light_artillery_production_19;+40% Production;;;;;;;;;;;;;x
+light_artillery_production_20;+42% Production;;;;;;;;;;;;;x
+light_artillery_production_21;+44% Production;;;;;;;;;;;;;x
+light_artillery_production_22;+46% Production;;;;;;;;;;;;;x
+light_artillery_production_23;+48% Production;;;;;;;;;;;;;x
+light_artillery_production_24;+50% Production;;;;;;;;;;;;;x
+light_artillery_production_25;+52% Production;;;;;;;;;;;;;x
+light_artillery_production_26;+54% Production;;;;;;;;;;;;;x
+light_artillery_production_27;+56% Production;;;;;;;;;;;;;x
+light_artillery_production_28;+58% Production;;;;;;;;;;;;;x
+light_artillery_production_29;+60% Production;;;;;;;;;;;;;x
+light_artillery_production_30;+62% Production;;;;;;;;;;;;;x
+light_artillery_production_31;+64% Production;;;;;;;;;;;;;x
+light_artillery_production_32;+66% Production;;;;;;;;;;;;;x
+light_artillery_production_33;+68% Production;;;;;;;;;;;;;x
+light_artillery_production_34;+70% Production;;;;;;;;;;;;;x
+### MEDIUM ARTILLERY PRODUCTION ###;;;;;;;;;;;;;;x
+medium_artillery_production_1;+2% Production;;;;;;;;;;;;;x
+medium_artillery_production_2;+4% Production;;;;;;;;;;;;;x
+medium_artillery_production_3;+6% Production;;;;;;;;;;;;;x
+medium_artillery_production_4;+10% Production;;;;;;;;;;;;;x
+medium_artillery_production_5;+12% Production;;;;;;;;;;;;;x
+medium_artillery_production_6;+14% Production;;;;;;;;;;;;;x
+medium_artillery_production_7;+16% Production;;;;;;;;;;;;;x
+medium_artillery_production_8;+18% Production;;;;;;;;;;;;;x
+medium_artillery_production_9;+20% Production;;;;;;;;;;;;;x
+medium_artillery_production_10;+22% Production;;;;;;;;;;;;;x
+medium_artillery_production_11;+24% Production;;;;;;;;;;;;;x
+medium_artillery_production_12;+26% Production;;;;;;;;;;;;;x
+medium_artillery_production_13;+28% Production;;;;;;;;;;;;;x
+medium_artillery_production_14;+30% Production;;;;;;;;;;;;;x
+medium_artillery_production_15;+32% Production;;;;;;;;;;;;;x
+medium_artillery_production_16;+34% Production;;;;;;;;;;;;;x
+medium_artillery_production_17;+36% Production;;;;;;;;;;;;;x
+medium_artillery_production_18;+38% Production;;;;;;;;;;;;;x
+medium_artillery_production_19;+40% Production;;;;;;;;;;;;;x
+medium_artillery_production_20;+42% Production;;;;;;;;;;;;;x
+medium_artillery_production_21;+44% Production;;;;;;;;;;;;;x
+medium_artillery_production_22;+46% Production;;;;;;;;;;;;;x
+medium_artillery_production_23;+48% Production;;;;;;;;;;;;;x
+medium_artillery_production_24;+50% Production;;;;;;;;;;;;;x
+medium_artillery_production_25;+52% Production;;;;;;;;;;;;;x
+medium_artillery_production_26;+54% Production;;;;;;;;;;;;;x
+medium_artillery_production_27;+56% Production;;;;;;;;;;;;;x
+medium_artillery_production_28;+58% Production;;;;;;;;;;;;;x
+medium_artillery_production_29;+60% Production;;;;;;;;;;;;;x
+medium_artillery_production_30;+62% Production;;;;;;;;;;;;;x
+medium_artillery_production_31;+64% Production;;;;;;;;;;;;;x
+medium_artillery_production_32;+66% Production;;;;;;;;;;;;;x
+medium_artillery_production_33;+68% Production;;;;;;;;;;;;;x
+medium_artillery_production_34;+70% Production;;;;;;;;;;;;;x
+### HEAVY ARTILLERY PRODUCTION ###;;;;;;;;;;;;;;x
+heavy_artillery_production_1;+2% Production;;;;;;;;;;;;;x
+heavy_artillery_production_2;+4% Production;;;;;;;;;;;;;x
+heavy_artillery_production_3;+6% Production;;;;;;;;;;;;;x
+heavy_artillery_production_4;+10% Production;;;;;;;;;;;;;x
+heavy_artillery_production_5;+12% Production;;;;;;;;;;;;;x
+heavy_artillery_production_6;+14% Production;;;;;;;;;;;;;x
+heavy_artillery_production_7;+16% Production;;;;;;;;;;;;;x
+heavy_artillery_production_8;+18% Production;;;;;;;;;;;;;x
+heavy_artillery_production_9;+20% Production;;;;;;;;;;;;;x
+heavy_artillery_production_10;+22% Production;;;;;;;;;;;;;x
+heavy_artillery_production_11;+24% Production;;;;;;;;;;;;;x
+heavy_artillery_production_12;+26% Production;;;;;;;;;;;;;x
+heavy_artillery_production_13;+28% Production;;;;;;;;;;;;;x
+heavy_artillery_production_14;+30% Production;;;;;;;;;;;;;x
+heavy_artillery_production_15;+32% Production;;;;;;;;;;;;;x
+heavy_artillery_production_16;+34% Production;;;;;;;;;;;;;x
+heavy_artillery_production_17;+36% Production;;;;;;;;;;;;;x
+heavy_artillery_production_18;+38% Production;;;;;;;;;;;;;x
+heavy_artillery_production_19;+40% Production;;;;;;;;;;;;;x
+heavy_artillery_production_20;+42% Production;;;;;;;;;;;;;x
+heavy_artillery_production_21;+44% Production;;;;;;;;;;;;;x
+heavy_artillery_production_22;+46% Production;;;;;;;;;;;;;x
+heavy_artillery_production_23;+48% Production;;;;;;;;;;;;;x
+heavy_artillery_production_24;+50% Production;;;;;;;;;;;;;x
+heavy_artillery_production_25;+52% Production;;;;;;;;;;;;;x
+heavy_artillery_production_26;+54% Production;;;;;;;;;;;;;x
+heavy_artillery_production_27;+56% Production;;;;;;;;;;;;;x
+heavy_artillery_production_28;+58% Production;;;;;;;;;;;;;x
+heavy_artillery_production_29;+60% Production;;;;;;;;;;;;;x
+heavy_artillery_production_30;+62% Production;;;;;;;;;;;;;x
+heavy_artillery_production_31;+64% Production;;;;;;;;;;;;;x
+heavy_artillery_production_32;+66% Production;;;;;;;;;;;;;x
+heavy_artillery_production_33;+68% Production;;;;;;;;;;;;;x
+heavy_artillery_production_34;+70% Production;;;;;;;;;;;;;x
+### ANTI-TANK GUN PRODUCTION ###;;;;;;;;;;;;;;x
+anti_tank_gun_production_1;+2% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_2;+4% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_3;+6% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_4;+10% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_5;+12% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_6;+14% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_7;+16% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_8;+18% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_9;+20% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_10;+22% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_11;+24% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_12;+26% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_13;+28% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_14;+30% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_15;+32% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_16;+34% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_17;+36% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_18;+38% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_19;+40% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_20;+42% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_21;+44% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_22;+46% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_23;+48% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_24;+50% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_25;+52% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_26;+54% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_27;+56% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_28;+58% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_29;+60% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_30;+62% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_31;+64% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_32;+66% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_33;+68% Production;;;;;;;;;;;;;x
+anti_tank_gun_production_34;+70% Production;;;;;;;;;;;;;x
+### ANTI-AIR GUN PRODUCTION ###;;;;;;;;;;;;;;x
+anti_air_gun_production_1;+2% Production;;;;;;;;;;;;;x
+anti_air_gun_production_2;+4% Production;;;;;;;;;;;;;x
+anti_air_gun_production_3;+6% Production;;;;;;;;;;;;;x
+anti_air_gun_production_4;+10% Production;;;;;;;;;;;;;x
+anti_air_gun_production_5;+12% Production;;;;;;;;;;;;;x
+anti_air_gun_production_6;+14% Production;;;;;;;;;;;;;x
+anti_air_gun_production_7;+16% Production;;;;;;;;;;;;;x
+anti_air_gun_production_8;+18% Production;;;;;;;;;;;;;x
+anti_air_gun_production_9;+20% Production;;;;;;;;;;;;;x
+anti_air_gun_production_10;+22% Production;;;;;;;;;;;;;x
+anti_air_gun_production_11;+24% Production;;;;;;;;;;;;;x
+anti_air_gun_production_12;+26% Production;;;;;;;;;;;;;x
+anti_air_gun_production_13;+28% Production;;;;;;;;;;;;;x
+anti_air_gun_production_14;+30% Production;;;;;;;;;;;;;x
+anti_air_gun_production_15;+32% Production;;;;;;;;;;;;;x
+anti_air_gun_production_16;+34% Production;;;;;;;;;;;;;x
+anti_air_gun_production_17;+36% Production;;;;;;;;;;;;;x
+anti_air_gun_production_18;+38% Production;;;;;;;;;;;;;x
+anti_air_gun_production_19;+40% Production;;;;;;;;;;;;;x
+anti_air_gun_production_20;+42% Production;;;;;;;;;;;;;x
+anti_air_gun_production_21;+44% Production;;;;;;;;;;;;;x
+anti_air_gun_production_22;+46% Production;;;;;;;;;;;;;x
+anti_air_gun_production_23;+48% Production;;;;;;;;;;;;;x
+anti_air_gun_production_24;+50% Production;;;;;;;;;;;;;x
+anti_air_gun_production_25;+52% Production;;;;;;;;;;;;;x
+anti_air_gun_production_26;+54% Production;;;;;;;;;;;;;x
+anti_air_gun_production_27;+56% Production;;;;;;;;;;;;;x
+anti_air_gun_production_28;+58% Production;;;;;;;;;;;;;x
+anti_air_gun_production_29;+60% Production;;;;;;;;;;;;;x
+anti_air_gun_production_30;+62% Production;;;;;;;;;;;;;x
+anti_air_gun_production_31;+64% Production;;;;;;;;;;;;;x
+anti_air_gun_production_32;+66% Production;;;;;;;;;;;;;x
+anti_air_gun_production_33;+68% Production;;;;;;;;;;;;;x
+anti_air_gun_production_34;+70% Production;;;;;;;;;;;;;x
+### AIRCRAFT GUN PRODUCTION ###;;;;;;;;;;;;;;x
+aircraft_gun_production_1;+2% Production;;;;;;;;;;;;;x
+aircraft_gun_production_2;+4% Production;;;;;;;;;;;;;x
+aircraft_gun_production_3;+6% Production;;;;;;;;;;;;;x
+aircraft_gun_production_4;+10% Production;;;;;;;;;;;;;x
+aircraft_gun_production_5;+12% Production;;;;;;;;;;;;;x
+aircraft_gun_production_6;+14% Production;;;;;;;;;;;;;x
+aircraft_gun_production_7;+16% Production;;;;;;;;;;;;;x
+aircraft_gun_production_8;+18% Production;;;;;;;;;;;;;x
+aircraft_gun_production_9;+20% Production;;;;;;;;;;;;;x
+aircraft_gun_production_10;+22% Production;;;;;;;;;;;;;x
+aircraft_gun_production_11;+24% Production;;;;;;;;;;;;;x
+aircraft_gun_production_12;+26% Production;;;;;;;;;;;;;x
+aircraft_gun_production_13;+28% Production;;;;;;;;;;;;;x
+aircraft_gun_production_14;+30% Production;;;;;;;;;;;;;x
+aircraft_gun_production_15;+32% Production;;;;;;;;;;;;;x
+aircraft_gun_production_16;+34% Production;;;;;;;;;;;;;x
+aircraft_gun_production_17;+36% Production;;;;;;;;;;;;;x
+aircraft_gun_production_18;+38% Production;;;;;;;;;;;;;x
+aircraft_gun_production_19;+40% Production;;;;;;;;;;;;;x
+aircraft_gun_production_20;+42% Production;;;;;;;;;;;;;x
+aircraft_gun_production_21;+44% Production;;;;;;;;;;;;;x
+aircraft_gun_production_22;+46% Production;;;;;;;;;;;;;x
+aircraft_gun_production_23;+48% Production;;;;;;;;;;;;;x
+aircraft_gun_production_24;+50% Production;;;;;;;;;;;;;x
+aircraft_gun_production_25;+52% Production;;;;;;;;;;;;;x
+aircraft_gun_production_26;+54% Production;;;;;;;;;;;;;x
+aircraft_gun_production_27;+56% Production;;;;;;;;;;;;;x
+aircraft_gun_production_28;+58% Production;;;;;;;;;;;;;x
+aircraft_gun_production_29;+60% Production;;;;;;;;;;;;;x
+aircraft_gun_production_30;+62% Production;;;;;;;;;;;;;x
+aircraft_gun_production_31;+64% Production;;;;;;;;;;;;;x
+aircraft_gun_production_32;+66% Production;;;;;;;;;;;;;x
+aircraft_gun_production_33;+68% Production;;;;;;;;;;;;;x
+aircraft_gun_production_34;+70% Production;;;;;;;;;;;;;x
+### LIGHT TRANSPORT VEHICLE PRODUCTION ###;;;;;;;;;;;;;;x
+light_tank_engine_production_1;+2% Production;;;;;;;;;;;;;x
+light_tank_engine_production_2;+4% Production;;;;;;;;;;;;;x
+light_tank_engine_production_3;+6% Production;;;;;;;;;;;;;x
+light_tank_engine_production_4;+10% Production;;;;;;;;;;;;;x
+light_tank_engine_production_5;+12% Production;;;;;;;;;;;;;x
+light_tank_engine_production_6;+14% Production;;;;;;;;;;;;;x
+light_tank_engine_production_7;+16% Production;;;;;;;;;;;;;x
+light_tank_engine_production_8;+18% Production;;;;;;;;;;;;;x
+light_tank_engine_production_9;+20% Production;;;;;;;;;;;;;x
+light_tank_engine_production_10;+22% Production;;;;;;;;;;;;;x
+light_tank_engine_production_11;+24% Production;;;;;;;;;;;;;x
+light_tank_engine_production_12;+26% Production;;;;;;;;;;;;;x
+light_tank_engine_production_13;+28% Production;;;;;;;;;;;;;x
+light_tank_engine_production_14;+30% Production;;;;;;;;;;;;;x
+light_tank_engine_production_15;+32% Production;;;;;;;;;;;;;x
+light_tank_engine_production_16;+34% Production;;;;;;;;;;;;;x
+light_tank_engine_production_17;+36% Production;;;;;;;;;;;;;x
+light_tank_engine_production_18;+38% Production;;;;;;;;;;;;;x
+light_tank_engine_production_19;+40% Production;;;;;;;;;;;;;x
+light_tank_engine_production_20;+42% Production;;;;;;;;;;;;;x
+light_tank_engine_production_21;+44% Production;;;;;;;;;;;;;x
+light_tank_engine_production_22;+46% Production;;;;;;;;;;;;;x
+light_tank_engine_production_23;+48% Production;;;;;;;;;;;;;x
+light_tank_engine_production_24;+50% Production;;;;;;;;;;;;;x
+light_tank_engine_production_25;+52% Production;;;;;;;;;;;;;x
+light_tank_engine_production_26;+54% Production;;;;;;;;;;;;;x
+light_tank_engine_production_27;+56% Production;;;;;;;;;;;;;x
+light_tank_engine_production_28;+58% Production;;;;;;;;;;;;;x
+light_tank_engine_production_29;+60% Production;;;;;;;;;;;;;x
+light_tank_engine_production_30;+62% Production;;;;;;;;;;;;;x
+light_tank_engine_production_31;+64% Production;;;;;;;;;;;;;x
+light_tank_engine_production_32;+66% Production;;;;;;;;;;;;;x
+light_tank_engine_production_33;+68% Production;;;;;;;;;;;;;x
+light_tank_engine_production_34;+70% Production;;;;;;;;;;;;;x
+### MILITARY TRUCK PRODUCTION ###;;;;;;;;;;;;;;x
+medium_tank_engine_production_1;+2% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_2;+4% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_3;+6% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_4;+10% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_5;+12% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_6;+14% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_7;+16% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_8;+18% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_9;+20% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_10;+22% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_11;+24% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_12;+26% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_13;+28% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_14;+30% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_15;+32% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_16;+34% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_17;+36% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_18;+38% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_19;+40% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_20;+42% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_21;+44% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_22;+46% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_23;+48% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_24;+50% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_25;+52% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_26;+54% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_27;+56% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_28;+58% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_29;+60% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_30;+62% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_31;+64% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_32;+66% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_33;+68% Production;;;;;;;;;;;;;x
+medium_tank_engine_production_34;+70% Production;;;;;;;;;;;;;x
+### MILITARY HALFTRACK PRODUCTION ###;;;;;;;;;;;;;;x
+heavy_tank_engine_production_1;+2% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_2;+4% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_3;+6% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_4;+10% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_5;+12% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_6;+14% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_7;+16% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_8;+18% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_9;+20% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_10;+22% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_11;+24% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_12;+26% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_13;+28% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_14;+30% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_15;+32% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_16;+34% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_17;+36% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_18;+38% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_19;+40% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_20;+42% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_21;+44% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_22;+46% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_23;+48% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_24;+50% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_25;+52% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_26;+54% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_27;+56% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_28;+58% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_29;+60% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_30;+62% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_31;+64% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_32;+66% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_33;+68% Production;;;;;;;;;;;;;x
+heavy_tank_engine_production_34;+70% Production;;;;;;;;;;;;;x
+### LIGHT TANK PRODUCTION ###;;;;;;;;;;;;;;x
+tank_transmission_production_1;+2% Production;;;;;;;;;;;;;x
+tank_transmission_production_2;+4% Production;;;;;;;;;;;;;x
+tank_transmission_production_3;+6% Production;;;;;;;;;;;;;x
+tank_transmission_production_4;+10% Production;;;;;;;;;;;;;x
+tank_transmission_production_5;+12% Production;;;;;;;;;;;;;x
+tank_transmission_production_6;+14% Production;;;;;;;;;;;;;x
+tank_transmission_production_7;+16% Production;;;;;;;;;;;;;x
+tank_transmission_production_8;+18% Production;;;;;;;;;;;;;x
+tank_transmission_production_9;+20% Production;;;;;;;;;;;;;x
+tank_transmission_production_10;+22% Production;;;;;;;;;;;;;x
+tank_transmission_production_11;+24% Production;;;;;;;;;;;;;x
+tank_transmission_production_12;+26% Production;;;;;;;;;;;;;x
+tank_transmission_production_13;+28% Production;;;;;;;;;;;;;x
+tank_transmission_production_14;+30% Production;;;;;;;;;;;;;x
+tank_transmission_production_15;+32% Production;;;;;;;;;;;;;x
+tank_transmission_production_16;+34% Production;;;;;;;;;;;;;x
+tank_transmission_production_17;+36% Production;;;;;;;;;;;;;x
+tank_transmission_production_18;+38% Production;;;;;;;;;;;;;x
+tank_transmission_production_19;+40% Production;;;;;;;;;;;;;x
+tank_transmission_production_20;+42% Production;;;;;;;;;;;;;x
+tank_transmission_production_21;+44% Production;;;;;;;;;;;;;x
+tank_transmission_production_22;+46% Production;;;;;;;;;;;;;x
+tank_transmission_production_23;+48% Production;;;;;;;;;;;;;x
+tank_transmission_production_24;+50% Production;;;;;;;;;;;;;x
+tank_transmission_production_25;+52% Production;;;;;;;;;;;;;x
+tank_transmission_production_26;+54% Production;;;;;;;;;;;;;x
+tank_transmission_production_27;+56% Production;;;;;;;;;;;;;x
+tank_transmission_production_28;+58% Production;;;;;;;;;;;;;x
+tank_transmission_production_29;+60% Production;;;;;;;;;;;;;x
+tank_transmission_production_30;+62% Production;;;;;;;;;;;;;x
+tank_transmission_production_31;+64% Production;;;;;;;;;;;;;x
+tank_transmission_production_32;+66% Production;;;;;;;;;;;;;x
+tank_transmission_production_33;+68% Production;;;;;;;;;;;;;x
+tank_transmission_production_34;+70% Production;;;;;;;;;;;;;x
+### MEDIUM TANK PRODUCTION ###;;;;;;;;;;;;;;x
+light_tank_gun_production_1;+2% Production;;;;;;;;;;;;;x
+light_tank_gun_production_2;+4% Production;;;;;;;;;;;;;x
+light_tank_gun_production_3;+6% Production;;;;;;;;;;;;;x
+light_tank_gun_production_4;+10% Production;;;;;;;;;;;;;x
+light_tank_gun_production_5;+12% Production;;;;;;;;;;;;;x
+light_tank_gun_production_6;+14% Production;;;;;;;;;;;;;x
+light_tank_gun_production_7;+16% Production;;;;;;;;;;;;;x
+light_tank_gun_production_8;+18% Production;;;;;;;;;;;;;x
+light_tank_gun_production_9;+20% Production;;;;;;;;;;;;;x
+light_tank_gun_production_10;+22% Production;;;;;;;;;;;;;x
+light_tank_gun_production_11;+24% Production;;;;;;;;;;;;;x
+light_tank_gun_production_12;+26% Production;;;;;;;;;;;;;x
+light_tank_gun_production_13;+28% Production;;;;;;;;;;;;;x
+light_tank_gun_production_14;+30% Production;;;;;;;;;;;;;x
+light_tank_gun_production_15;+32% Production;;;;;;;;;;;;;x
+light_tank_gun_production_16;+34% Production;;;;;;;;;;;;;x
+light_tank_gun_production_17;+36% Production;;;;;;;;;;;;;x
+light_tank_gun_production_18;+38% Production;;;;;;;;;;;;;x
+light_tank_gun_production_19;+40% Production;;;;;;;;;;;;;x
+light_tank_gun_production_20;+42% Production;;;;;;;;;;;;;x
+light_tank_gun_production_21;+44% Production;;;;;;;;;;;;;x
+light_tank_gun_production_22;+46% Production;;;;;;;;;;;;;x
+light_tank_gun_production_23;+48% Production;;;;;;;;;;;;;x
+light_tank_gun_production_24;+50% Production;;;;;;;;;;;;;x
+light_tank_gun_production_25;+52% Production;;;;;;;;;;;;;x
+light_tank_gun_production_26;+54% Production;;;;;;;;;;;;;x
+light_tank_gun_production_27;+56% Production;;;;;;;;;;;;;x
+light_tank_gun_production_28;+58% Production;;;;;;;;;;;;;x
+light_tank_gun_production_29;+60% Production;;;;;;;;;;;;;x
+light_tank_gun_production_30;+62% Production;;;;;;;;;;;;;x
+light_tank_gun_production_31;+64% Production;;;;;;;;;;;;;x
+light_tank_gun_production_32;+66% Production;;;;;;;;;;;;;x
+light_tank_gun_production_33;+68% Production;;;;;;;;;;;;;x
+light_tank_gun_production_34;+70% Production;;;;;;;;;;;;;x
+### HEAVY TANK PRODUCTION ###;;;;;;;;;;;;;;x
+medium_tank_gun_production_1;+2% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_2;+4% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_3;+6% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_4;+10% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_5;+12% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_6;+14% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_7;+16% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_8;+18% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_9;+20% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_10;+22% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_11;+24% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_12;+26% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_13;+28% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_14;+30% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_15;+32% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_16;+34% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_17;+36% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_18;+38% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_19;+40% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_20;+42% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_21;+44% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_22;+46% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_23;+48% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_24;+50% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_25;+52% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_26;+54% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_27;+56% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_28;+58% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_29;+60% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_30;+62% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_31;+64% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_32;+66% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_33;+68% Production;;;;;;;;;;;;;x
+medium_tank_gun_production_34;+70% Production;;;;;;;;;;;;;x
+### SELF PROPELLED VEHICLE PRODUCTION ###;;;;;;;;;;;;;;x
+heavy_tank_gun_production_1;+2% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_2;+4% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_3;+6% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_4;+10% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_5;+12% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_6;+14% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_7;+16% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_8;+18% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_9;+20% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_10;+22% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_11;+24% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_12;+26% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_13;+28% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_14;+30% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_15;+32% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_16;+34% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_17;+36% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_18;+38% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_19;+40% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_20;+42% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_21;+44% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_22;+46% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_23;+48% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_24;+50% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_25;+52% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_26;+54% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_27;+56% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_28;+58% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_29;+60% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_30;+62% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_31;+64% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_32;+66% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_33;+68% Production;;;;;;;;;;;;;x
+heavy_tank_gun_production_34;+70% Production;;;;;;;;;;;;;x
+### TANK SPARE PARTS PRODUCTION ###;;;;;;;;;;;;;;x
+tank_spare_parts_production_1;+2% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_2;+4% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_3;+6% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_4;+10% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_5;+12% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_6;+14% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_7;+16% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_8;+18% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_9;+20% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_10;+22% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_11;+24% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_12;+26% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_13;+28% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_14;+30% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_15;+32% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_16;+34% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_17;+36% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_18;+38% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_19;+40% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_20;+42% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_21;+44% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_22;+46% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_23;+48% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_24;+50% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_25;+52% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_26;+54% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_27;+56% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_28;+58% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_29;+60% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_30;+62% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_31;+64% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_32;+66% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_33;+68% Production;;;;;;;;;;;;;x
+tank_spare_parts_production_34;+70% Production;;;;;;;;;;;;;x
+### AIRCRAFT INLINE ENGINE PRODUCTION ###;;;;;;;;;;;;;;x
+aircraft_inline_engine_production_1;+2% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_2;+4% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_3;+6% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_4;+10% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_5;+12% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_6;+14% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_7;+16% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_8;+18% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_9;+20% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_10;+22% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_11;+24% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_12;+26% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_13;+28% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_14;+30% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_15;+32% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_16;+34% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_17;+36% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_18;+38% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_19;+40% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_20;+42% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_21;+44% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_22;+46% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_23;+48% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_24;+50% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_25;+52% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_26;+54% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_27;+56% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_28;+58% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_29;+60% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_30;+62% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_31;+64% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_32;+66% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_33;+68% Production;;;;;;;;;;;;;x
+aircraft_inline_engine_production_34;+70% Production;;;;;;;;;;;;;x
+### AIRCRAFT RADIAL ENGINE PRODUCTION ###;;;;;;;;;;;;;;x
+aircraft_radial_engine_production_1;+2% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_2;+4% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_3;+6% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_4;+10% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_5;+12% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_6;+14% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_7;+16% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_8;+18% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_9;+20% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_10;+22% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_11;+24% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_12;+26% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_13;+28% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_14;+30% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_15;+32% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_16;+34% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_17;+36% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_18;+38% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_19;+40% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_20;+42% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_21;+44% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_22;+46% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_23;+48% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_24;+50% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_25;+52% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_26;+54% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_27;+56% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_28;+58% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_29;+60% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_30;+62% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_31;+64% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_32;+66% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_33;+68% Production;;;;;;;;;;;;;x
+aircraft_radial_engine_production_34;+70% Production;;;;;;;;;;;;;x
+### DURALUMIN PRODUCTION ###;;;;;;;;;;;;;;x
+duralumin_production_1;+2% Production;;;;;;;;;;;;;x
+duralumin_production_2;+4% Production;;;;;;;;;;;;;x
+duralumin_production_3;+6% Production;;;;;;;;;;;;;x
+duralumin_production_4;+10% Production;;;;;;;;;;;;;x
+duralumin_production_5;+12% Production;;;;;;;;;;;;;x
+duralumin_production_6;+14% Production;;;;;;;;;;;;;x
+duralumin_production_7;+16% Production;;;;;;;;;;;;;x
+duralumin_production_8;+18% Production;;;;;;;;;;;;;x
+duralumin_production_9;+20% Production;;;;;;;;;;;;;x
+duralumin_production_10;+22% Production;;;;;;;;;;;;;x
+duralumin_production_11;+24% Production;;;;;;;;;;;;;x
+duralumin_production_12;+26% Production;;;;;;;;;;;;;x
+duralumin_production_13;+28% Production;;;;;;;;;;;;;x
+duralumin_production_14;+30% Production;;;;;;;;;;;;;x
+duralumin_production_15;+32% Production;;;;;;;;;;;;;x
+duralumin_production_16;+34% Production;;;;;;;;;;;;;x
+duralumin_production_17;+36% Production;;;;;;;;;;;;;x
+duralumin_production_18;+38% Production;;;;;;;;;;;;;x
+duralumin_production_19;+40% Production;;;;;;;;;;;;;x
+duralumin_production_20;+42% Production;;;;;;;;;;;;;x
+duralumin_production_21;+44% Production;;;;;;;;;;;;;x
+duralumin_production_22;+46% Production;;;;;;;;;;;;;x
+duralumin_production_23;+48% Production;;;;;;;;;;;;;x
+duralumin_production_24;+50% Production;;;;;;;;;;;;;x
+duralumin_production_25;+52% Production;;;;;;;;;;;;;x
+duralumin_production_26;+54% Production;;;;;;;;;;;;;x
+duralumin_production_27;+56% Production;;;;;;;;;;;;;x
+duralumin_production_28;+58% Production;;;;;;;;;;;;;x
+duralumin_production_29;+60% Production;;;;;;;;;;;;;x
+duralumin_production_30;+62% Production;;;;;;;;;;;;;x
+duralumin_production_31;+64% Production;;;;;;;;;;;;;x
+duralumin_production_32;+66% Production;;;;;;;;;;;;;x
+duralumin_production_33;+68% Production;;;;;;;;;;;;;x
+duralumin_production_34;+70% Production;;;;;;;;;;;;;x
+### AIRCRAFT SPARE PARTS PRODUCTION ###;;;;;;;;;;;;;;x
+aircraft_spare_parts_production_1;+2% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_2;+4% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_3;+6% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_4;+10% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_5;+12% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_6;+14% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_7;+16% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_8;+18% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_9;+20% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_10;+22% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_11;+24% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_12;+26% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_13;+28% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_14;+30% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_15;+32% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_16;+34% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_17;+36% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_18;+38% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_19;+40% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_20;+42% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_21;+44% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_22;+46% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_23;+48% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_24;+50% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_25;+52% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_26;+54% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_27;+56% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_28;+58% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_29;+60% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_30;+62% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_31;+64% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_32;+66% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_33;+68% Production;;;;;;;;;;;;;x
+aircraft_spare_parts_production_34;+70% Production;;;;;;;;;;;;;x
+### BALLS BEARINGS PRODUCTION ###;;;;;;;;;;;;;;x
+ball_bearings_production_1;+2% Production;;;;;;;;;;;;;x
+ball_bearings_production_2;+4% Production;;;;;;;;;;;;;x
+ball_bearings_production_3;+6% Production;;;;;;;;;;;;;x
+ball_bearings_production_4;+10% Production;;;;;;;;;;;;;x
+ball_bearings_production_5;+12% Production;;;;;;;;;;;;;x
+ball_bearings_production_6;+14% Production;;;;;;;;;;;;;x
+ball_bearings_production_7;+16% Production;;;;;;;;;;;;;x
+ball_bearings_production_8;+18% Production;;;;;;;;;;;;;x
+ball_bearings_production_9;+20% Production;;;;;;;;;;;;;x
+ball_bearings_production_10;+22% Production;;;;;;;;;;;;;x
+ball_bearings_production_11;+24% Production;;;;;;;;;;;;;x
+ball_bearings_production_12;+26% Production;;;;;;;;;;;;;x
+ball_bearings_production_13;+28% Production;;;;;;;;;;;;;x
+ball_bearings_production_14;+30% Production;;;;;;;;;;;;;x
+ball_bearings_production_15;+32% Production;;;;;;;;;;;;;x
+ball_bearings_production_16;+34% Production;;;;;;;;;;;;;x
+ball_bearings_production_17;+36% Production;;;;;;;;;;;;;x
+ball_bearings_production_18;+38% Production;;;;;;;;;;;;;x
+ball_bearings_production_19;+40% Production;;;;;;;;;;;;;x
+ball_bearings_production_20;+42% Production;;;;;;;;;;;;;x
+ball_bearings_production_21;+44% Production;;;;;;;;;;;;;x
+ball_bearings_production_22;+46% Production;;;;;;;;;;;;;x
+ball_bearings_production_23;+48% Production;;;;;;;;;;;;;x
+ball_bearings_production_24;+50% Production;;;;;;;;;;;;;x
+ball_bearings_production_25;+52% Production;;;;;;;;;;;;;x
+ball_bearings_production_26;+54% Production;;;;;;;;;;;;;x
+ball_bearings_production_27;+56% Production;;;;;;;;;;;;;x
+ball_bearings_production_28;+58% Production;;;;;;;;;;;;;x
+ball_bearings_production_29;+60% Production;;;;;;;;;;;;;x
+ball_bearings_production_30;+62% Production;;;;;;;;;;;;;x
+ball_bearings_production_31;+64% Production;;;;;;;;;;;;;x
+ball_bearings_production_32;+66% Production;;;;;;;;;;;;;x
+ball_bearings_production_33;+68% Production;;;;;;;;;;;;;x
+ball_bearings_production_34;+70% Production;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### SECRET TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### SECRET AIRCRAFT TEST FACILITY ###;;;;;;;;;;;;;;x
+secret_aircraft_test_facility_1;1 Facility;;;;;;;;;;;;;x
+secret_aircraft_test_facility_2;2 Facilities;;;;;;;;;;;;;x
+secret_aircraft_test_facility_3;3 Facilities;;;;;;;;;;;;;x
+secret_aircraft_test_facility_4;4 Facilities;;;;;;;;;;;;;x
+secret_aircraft_test_facility_5;5 Facilities;;;;;;;;;;;;;x
+secret_aircraft_test_facility_6;6 Facilities;;;;;;;;;;;;;x
+secret_aircraft_test_facility_7;7 Facilities;;;;;;;;;;;;;x
+secret_aircraft_test_facility_8;8 Facilities;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### ADVANCED TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+### SURFACE TO SURFACE MISSILE ###;;;;;;;;;;;;;;x
+surface_to_surface_missile_1;Short Range Missile;;;;;;;;;;;;;x
+surface_to_surface_missile_2;Medium Range Missile;;;;;;;;;;;;;x
+surface_to_surface_missile_3;Long Range Missile;;;;;;;;;;;;;x
+surface_to_surface_missile_4;Very Long Range Missile;;;;;;;;;;;;;x
+### MOBILE SAM SYSTEM ###;;;;;;;;;;;;;;x
+mobile_sam_system_1;Short Range SAM;;;;;;;;;;;;;;x
+mobile_sam_system_2;Medium Range SAM ;;;;;;;;;;;;;;x
+mobile_sam_system_3;Long Range SAM ;;;;;;;;;;;;;;x
+mobile_sam_system_4;Very Long Range SAM ;;;;;;;;;;;;;;x
+### MEDIUM RANGE BALLISTIC MISSILES  ###;;;;;;;;;;;;;;x
+medium_range_ballistic_missiles_1;1,000 Mile Range ;;;;;;;;;;;;;x
+medium_range_ballistic_missiles_2;1,500 Mile Range;;;;;;;;;;;;;x
+medium_range_ballistic_missiles_3;2,000 Mile Range;;;;;;;;;;;;;x
+### ICBM  ###;;;;;;;;;;;;;;x
+icbm_1;4,000 Mile Range ;;;;;;;;;;;;;x
+icbm_2;7,000 Mile Range;;;;;;;;;;;;;x
+icbm_3;10,000 Mile Range;;;;;;;;;;;;;x
+### HEAT SEEKING AIR TO AIR MISSILE  ###;;;;;;;;;;;;;;x
+heat_seeking_air_to_air_missile_1;Rudimentary Infrared;;;;;;;;;;;;;x
+heat_seeking_air_to_air_missile_2;Basic Infrared;;;;;;;;;;;;;x
+heat_seeking_air_to_air_missile_3;Infrared;;;;;;;;;;;;;x
+### RADAR GUIDED AIR TO AIR MISSILE  ###;;;;;;;;;;;;;;x
+radar_guided_air_to_air_missile_1;Rudimentary Semi-Active;;;;;;;;;;;;;x
+radar_guided_air_to_air_missile_2;Basic Semi-Active;;;;;;;;;;;;;x
+radar_guided_air_to_air_missile_3;Beam Riding Radar;;;;;;;;;;;;;x
+### ANTI-TANK GUIDED MISSILES  ###;;;;;;;;;;;;;;x
+anti_tank_guided_missiles_1;Basic Wire-Guided;;;;;;;;;;;;;x
+anti_tank_guided_missiles_2;Basic Electro-Optical;;;;;;;;;;;;;x
+#####################################;;;;;;;;;;;;;;x
+### UNITED KINGDOM ###;;;;;;;;;;;;;;x
+#####################################;;;;;;;;;;;;;;x
+### ANTI-TANK GUIDED MISSILES  ###;;;;;;;;;;;;;;x
+ENG_anti_tank_guided_missiles_1;Malkara;;;;;;;;;;;;;x
+ENG_anti_tank_guided_missiles_2;Vickers Vigilant;;;;;;;;;;;;;x
+#####################################;;;;;;;;;;;;;;x
+### GERMANY ###;;;;;;;;;;;;;;x
+#####################################;;;;;;;;;;;;;;x
+#####################################;;;;;;;;;;;;;;x
+### SOVIET UNION ###;;;;;;;;;;;;;;x
+#####################################;;;;;;;;;;;;;;x
+### SURFACE TO SURFACE MISSILE ###;;;;;;;;;;;;;;x
+SOV_surface_to_surface_missile_1;SS-1 Scud;;;;;;;;;;;;;x
+SOV_surface_to_surface_missile_2;Medium Range Missile;;;;;;;;;;;;;x
+SOV_surface_to_surface_missile_3;Long Range Missile;;;;;;;;;;;;;x
+SOV_surface_to_surface_missile_4;Very Long Range Missile;;;;;;;;;;;;;x
+### MOBILE SAM SYSTEM ###;;;;;;;;;;;;;;x
+SOV_mobile_sam_system_1;SA-2;;;;;;;;;;;;;;x
+SOV_mobile_sam_system_2;SA-3;;;;;;;;;;;;;;x
+SOV_mobile_sam_system_3;SA-5;;;;;;;;;;;;;;x
+SOV_mobile_sam_system_4;SA-9;;;;;;;;;;;;;;x
+### MEDIUM RANGE BALLISTIC MISSILES  ###;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

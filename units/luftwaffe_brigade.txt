@@ -1,0 +1,105 @@
+luftwaffe_brigade = {
+
+	usable_by = { GER }
+	type = land
+	sprite = Infantry
+	is_buildable = no
+	unit_group = infantry_unit_type
+
+	#Size Definitions
+	max_strength = 20
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 25
+
+	#Building Costs
+	build_cost_ic = 1.00
+	build_cost_manpower = 2.80
+	build_time = 30
+	repair_cost_multiplier = 0.01
+
+	#Misc Abilities
+	maximum_speed = 4.00
+	transport_weight = 20.00
+	supply_consumption = 0.75
+	fuel_consumption = 0.00
+	radio_strength = 1
+
+	#Defensive Abilities
+	defensiveness = 4.00	
+	toughness = 0.0
+	softness = 1
+	air_defence = 10.00
+
+	#Offensive Abilities
+	suppression = 1.00
+	soft_attack = 1.50
+	hard_attack = 0.25
+	air_attack = 4.15
+	
+	## Infantry Units are good for a variety of things but do not specialize in any one area.  
+	
+	plains = {
+		defence = 0.25 ## Easy to defend due to long sight lines.
+		movement = -0.30 ## Horses have easier time walking on level roads
+	}
+	river = { 
+		defence = 0.25 ## Easy to defend due to long sight lines.
+		movement = -0.30 ## Horses will have trouble pulling anti-air guns through river water.  Need bridges! 
+	}
+	arctic = {	
+		defence = 0.25 ## Sitting in a warm foxhole is easier than attacking in -60C!	
+		movement = -0.40 ## Not easy to move around on tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.	
+	}
+	desert = {   	
+		defence = 0.25 ## Easy to defend due to long sight lines.
+		movement = -0.30 ## Horses get hot and thirsty while moving the guns. 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = {  
+		defence = 0.15 ## Easy to defend due to long sight lines.  Higher bonus due to concealing guns in woods.
+		movement = -0.45 ## Not as easy for horses to move guns through wooded areas.  
+	}
+	forest = {
+		defence = 0.10 ## Easy to defend due to long sight lines.  Higher bonus due to concealing guns in woods.
+		movement = -0.50 ## Not as easy for horses to move guns through wooded areas. 
+	}
+	jungle = { 
+		defence = 0.05 ## Easy to defend due to long sight lines.  Higher bonus due to concealing guns in woods.
+		movement = -0.60 ## Not as easy for horses to move guns through wooded areas. 
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		defence = 0.25 ## Easy to defend due to long sight lines. Slightly bonus due to higher elevations. 
+		movement = -0.45 ## Not as easy for horses to move guns through up and down hilly areas. 
+	}
+	mountain = { 
+		defence = 0.25 ## Easy to defend due to long sight lines. Slightly bonus due to higher elevations. 
+		movement = -0.50 ## Not as easy for horses to move guns through up and down hilly areas. 
+	}
+	urban = { 
+		defence = 0.25 ## Easy to defend due to long sight lines. Big bonus due to urban environment. 
+		movement = -0.25 ## Easy for horses to move guns through urban streets.  
+	}
+	marsh = { 
+		movement = -0.60 ## Horses have extreme trouble moving through marshes.  
+	}
+	amphibious = { 
+		attack = -1.00 ## Nowhere to setup guns.  
+	}
+	night = { 
+		movement = -0.50  ## Can't see as easily during the night. 
+	}
+	fort = { 
+		defence = 0.50 ## Excellent for defending forts. 
+	}
+
+	combat_width = 0.66
+	
+	completion_size = 0.20
+	on_completion = infantry_practical
+	
+	priority = 51
+}

@@ -1,0 +1,1304 @@
+950850 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950851 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950852 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950853 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950854 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950855 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950856 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950857 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950858 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950859 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950860 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950861 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950862 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950863 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950864 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950865 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950866 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950867 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950868 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950869 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950870 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950871 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950872 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950873 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950874 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950875 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950876 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950877 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950878 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950879 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950880 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950881 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950882 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950883 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950884 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950885 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950886 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950887 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950888 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950889 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950890 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950891 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950892 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950893 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950894 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950895 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950896 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950897 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950898 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950899 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950900 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950901 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950902 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950903 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950904 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950905 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950906 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950907 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950908 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950909 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950910 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950911 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950912 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950913 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950914 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950915 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950916 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950917 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950918 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950919 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950920 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950921 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950922 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950923 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950924 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950925 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950926 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950927 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950928 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950929 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950930 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950931 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950932 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950933 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950934 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950935 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950936 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950937 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950938 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950939 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950940 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950941 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950942 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950943 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950944 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950945 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950946 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950947 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950948 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950949 = {
+	name = "Destroyer Commodore"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_DESTROYER_COMMODORE
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

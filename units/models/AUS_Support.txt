@@ -1,0 +1,423 @@
+######################
+### Engineers
+######################
+engineer_brigade.0 = {
+	engineer_battalion = 1
+}
+engineer_brigade.1 = {
+	engineer_battalion = 2
+}
+engineer_brigade.2 = {
+	engineer_battalion = 3
+}
+engineer_brigade.3 = {
+	engineer_battalion = 4
+}
+engineer_brigade.4 = {
+	engineer_battalion = 5
+}
+engineer_brigade.5 = {
+	engineer_battalion = 6
+}
+engineer_brigade.6 = {
+	engineer_battalion = 7
+}
+engineer_brigade.7 = {
+	engineer_battalion = 8
+}
+engineer_brigade.8 = {
+	engineer_battalion = 9
+}
+engineer_brigade.9 = {
+	engineer_battalion = 10
+}
+engineer_brigade.10 = {
+	engineer_battalion = 11
+}
+engineer_brigade.11 = {
+	engineer_battalion = 12
+}
+######################
+### SS Engineers
+######################
+ss_engineer_brigade.0 = {
+	engineer_battalion = 1
+}
+ss_engineer_brigade.1 = {
+	engineer_battalion = 2
+}
+ss_engineer_brigade.2 = {
+	engineer_battalion = 3
+}
+ss_engineer_brigade.3 = {
+	engineer_battalion = 4
+}
+ss_engineer_brigade.4 = {
+	engineer_battalion = 5
+}
+ss_engineer_brigade.5 = {
+	engineer_battalion = 6
+}
+ss_engineer_brigade.6 = {
+	engineer_battalion = 7
+}
+ss_engineer_brigade.7 = {
+	engineer_battalion = 8
+}
+ss_engineer_brigade.8 = {
+	engineer_battalion = 9
+}
+ss_engineer_brigade.9 = {
+	engineer_battalion = 10
+}
+ss_engineer_brigade.10 = {
+	engineer_battalion = 11
+}
+ss_engineer_brigade.11 = {
+	engineer_battalion = 12
+}
+######################
+### Armoured Engineers
+######################
+armored_engineers_brigade.0 = { # 1940
+	armoured_engineers = 1
+}
+armored_engineers_brigade.1 = { # 1941
+	armoured_engineers = 2
+}
+armored_engineers_brigade.2 = { # 1942
+	armoured_engineers = 3
+}
+armored_engineers_brigade.2 = { # 1943
+	armoured_engineers = 4
+}
+armored_engineers_brigade.2 = { # 1944
+	armoured_engineers = 5
+}
+armored_engineers_brigade.2 = { # 1945
+	armoured_engineers = 6
+}
+armored_engineers_brigade.2 = { # 1946
+	armoured_engineers = 7
+}
+armored_engineers_brigade.2 = { # 1947
+	armoured_engineers = 8
+}
+armored_engineers_brigade.2 = { # 1948
+	armoured_engineers = 9
+}
+armored_engineers_brigade.2 = { # 1949
+	armoured_engineers = 10
+}
+######################
+### SS Armoured Engineers
+######################
+ss_armored_engineers_brigade.0 = { # 1940
+	armoured_engineers = 1
+}
+ss_armored_engineers_brigade.1 = { # 1941
+	armoured_engineers = 2
+}
+ss_armored_engineers_brigade.2 = { # 1942
+	armoured_engineers = 3
+}
+ss_armored_engineers_brigade.2 = { # 1943
+	armoured_engineers = 4
+}
+ss_armored_engineers_brigade.2 = { # 1944
+	armoured_engineers = 5
+}
+ss_armored_engineers_brigade.2 = { # 1945
+	armoured_engineers = 6
+}
+ss_armored_engineers_brigade.2 = { # 1946
+	armoured_engineers = 7
+}
+ss_armored_engineers_brigade.2 = { # 1947
+	armoured_engineers = 8
+}
+ss_armored_engineers_brigade.2 = { # 1948
+	armoured_engineers = 9
+}
+ss_armored_engineers_brigade.2 = { # 1949
+	armoured_engineers = 10
+}
+###################################################################
+# Mixed Support Battalion
+###################################################################
+mixed_support_brigade.0 = {	# model I 1918
+	first_light_artillery_battalion = 1
+	first_anti_tank_company = 1
+	first_anti_aircraft_company = 1 
+}
+mixed_support_brigade.1 = { # model II 1936
+	first_light_artillery_battalion = 2
+	first_anti_tank_company = 2
+	first_anti_aircraft_company = 2
+}
+mixed_support_brigade.2 = {	# model III 1938
+	first_light_artillery_battalion = 3
+	first_anti_tank_company = 3
+	first_anti_aircraft_company = 3
+}
+mixed_support_brigade.3 = {	# model IV 1940
+	first_light_artillery_battalion = 4
+	first_anti_tank_company = 4
+	first_anti_aircraft_company = 4
+}
+mixed_support_brigade.4 = {	# model V 1942
+	first_light_artillery_battalion = 5
+	first_anti_tank_company = 5
+	first_anti_aircraft_company = 5
+}
+mixed_support_brigade.5 = {	# model VI 1944
+	first_light_artillery_battalion = 6
+	first_anti_tank_company = 6
+	first_anti_aircraft_company = 6
+}
+mixed_support_brigade.6 = {	# model VII 1946
+	first_light_artillery_battalion = 7
+	first_anti_tank_company = 7
+	first_anti_aircraft_company = 7
+}
+mixed_support_brigade.7 = {	# model VIII 1948
+	first_light_artillery_battalion = 8
+	first_anti_tank_company = 8
+	first_anti_aircraft_company = 8
+}
+###################################################################
+# SS Mixed Support Battalion
+###################################################################
+ss_mixed_support_brigade.0 = {	# model I 1918
+	first_light_artillery_battalion = 1
+	first_anti_tank_company = 1
+	first_anti_aircraft_company = 1 
+}
+ss_mixed_support_brigade.1 = { # model II 1936
+	first_light_artillery_battalion = 2
+	first_anti_tank_company = 2
+	first_anti_aircraft_company = 2
+}
+ss_mixed_support_brigade.2 = {	# model III 1938
+	first_light_artillery_battalion = 3
+	first_anti_tank_company = 3
+	first_anti_aircraft_company = 3
+}
+ss_mixed_support_brigade.3 = {	# model IV 1940
+	first_light_artillery_battalion = 4
+	first_anti_tank_company = 4
+	first_anti_aircraft_company = 4
+}
+ss_mixed_support_brigade.4 = {	# model V 1942
+	first_light_artillery_battalion = 5
+	first_anti_tank_company = 5
+	first_anti_aircraft_company = 5
+}
+ss_mixed_support_brigade.5 = {	# model VI 1944
+	first_light_artillery_battalion = 6
+	first_anti_tank_company = 6
+	first_anti_aircraft_company = 6
+}
+ss_mixed_support_brigade.6 = {	# model VII 1946
+	first_light_artillery_battalion = 7
+	first_anti_tank_company = 7
+	first_anti_aircraft_company = 7
+}
+ss_mixed_support_brigade.7 = {	# model VIII 1948
+	first_light_artillery_battalion = 8
+	first_anti_tank_company = 8
+	first_anti_aircraft_company = 8
+}
+###################################################################
+# Motorized Support Battalion
+###################################################################
+motorized_support_brigade.0 = {	# model I 1918
+	first_light_artillery_battalion = 1
+	first_anti_tank_company = 1
+	first_anti_aircraft_company = 1 
+}
+motorized_support_brigade.1 = { # model II 1936
+	first_light_artillery_battalion = 2
+	first_anti_tank_company = 2
+	first_anti_aircraft_company = 2
+}
+motorized_support_brigade.2 = {	# model III 1938
+	first_light_artillery_battalion = 3
+	first_anti_tank_company = 3
+	first_anti_aircraft_company = 3
+}
+motorized_support_brigade.3 = {	# model IV 1940
+	first_light_artillery_battalion = 4
+	first_anti_tank_company = 4
+	first_anti_aircraft_company = 4
+}
+motorized_support_brigade.4 = {	# model V 1942
+	first_light_artillery_battalion = 5
+	first_anti_tank_company = 5
+	first_anti_aircraft_company = 5
+}
+motorized_support_brigade.5 = {	# model VI 1944
+	first_light_artillery_battalion = 6
+	first_anti_tank_company = 6
+	first_anti_aircraft_company = 6
+}
+motorized_support_brigade.6 = {	# model VII 1946
+	first_light_artillery_battalion = 7
+	first_anti_tank_company = 7
+	first_anti_aircraft_company = 7
+}
+motorized_support_brigade.7 = {	# model VIII 1948
+	first_light_artillery_battalion = 8
+	first_anti_tank_company = 8
+	first_anti_aircraft_company = 8
+}
+###################################################################
+# SS Motorized Support Battalion
+###################################################################
+ss_motorized_support_brigade.0 = {	# model I 1918
+	first_light_artillery_battalion = 1
+	first_anti_tank_company = 1
+	first_anti_aircraft_company = 1 
+}
+ss_motorized_support_brigade.1 = { # model II 1936
+	first_light_artillery_battalion = 2
+	first_anti_tank_company = 2
+	first_anti_aircraft_company = 2
+}
+ss_motorized_support_brigade.2 = {	# model III 1938
+	first_light_artillery_battalion = 3
+	first_anti_tank_company = 3
+	first_anti_aircraft_company = 3
+}
+ss_motorized_support_brigade.3 = {	# model IV 1940
+	first_light_artillery_battalion = 4
+	first_anti_tank_company = 4
+	first_anti_aircraft_company = 4
+}
+ss_motorized_support_brigade.4 = {	# model V 1942
+	first_light_artillery_battalion = 5
+	first_anti_tank_company = 5
+	first_anti_aircraft_company = 5
+}
+ss_motorized_support_brigade.5 = {	# model VI 1944
+	first_light_artillery_battalion = 6
+	first_anti_tank_company = 6
+	first_anti_aircraft_company = 6
+}
+ss_motorized_support_brigade.6 = {	# model VII 1946
+	first_light_artillery_battalion = 7
+	first_anti_tank_company = 7
+	first_anti_aircraft_company = 7
+}
+ss_motorized_support_brigade.7 = {	# model VIII 1948
+	first_light_artillery_battalion = 8
+	first_anti_tank_company = 8
+	first_anti_aircraft_company = 8
+}
+###################################################################
+# Armoured Support Battalion
+###################################################################
+armored_support_brigade.0 = {	# model I 1942
+	sp_artillery_battalion = 3	# 
+	medium_tank_destroyer_battalion = 1  # 
+	sp_anti_aircraft_battalion = 1 # 
+}
+armored_support_brigade.1 = {	# model II 1943
+	sp_artillery_battalion = 3	# 
+	medium_tank_destroyer_battalion = 2  # 
+	sp_anti_aircraft_battalion = 2 # 
+}
+armored_support_brigade.2 = {	# model III 1945
+	sp_artillery_battalion = 4	# 
+	medium_tank_destroyer_battalion = 3  # 
+	sp_anti_aircraft_battalion = 3 # 
+}
+armored_support_brigade.3 = {	# model IV 1947
+	sp_artillery_battalion = 5	# 
+	medium_tank_destroyer_battalion = 4  # 
+	sp_anti_aircraft_battalion = 4 # 
+}
+armored_support_brigade.4 = {	# model V 1949
+	sp_artillery_battalion = 6	# 
+	medium_tank_destroyer_battalion = 5  # 
+	sp_anti_aircraft_battalion = 5 # 
+}
+armored_support_brigade.5 = {	# model VI 1951
+	sp_artillery_battalion = 7	# 
+	medium_tank_destroyer_battalion = 6  # 
+	sp_anti_aircraft_battalion = 6 # 
+}
+armored_support_brigade.6 = {	# model VII 1953
+	sp_artillery_battalion = 8	# 
+	medium_tank_destroyer_battalion = 7  # 
+	sp_anti_aircraft_battalion = 7 # 
+}
+armored_support_brigade.7 = {	# model VIII 1955
+	sp_artillery_battalion = 9	# 
+	medium_tank_destroyer_battalion = 8  # 
+	sp_anti_aircraft_battalion = 8 # 
+}
+armored_support_brigade.8 = {	# model IX 1957
+	sp_artillery_battalion = 10	# 
+	medium_tank_destroyer_battalion = 9  # 
+	sp_anti_aircraft_battalion = 9 # 
+}
+armored_support_brigade.9 = {	# model X 1959
+	sp_artillery_battalion = 10	#
+	medium_tank_destroyer_battalion = 10  # 
+	sp_anti_aircraft_battalion = 10 # 
+}
+###################################################################
+# SS Armoured Support Battalion
+###################################################################
+ss_armored_support_brigade.0 = {	# model I 1942
+	sp_artillery_battalion = 3	# 
+	medium_tank_destroyer_battalion = 1  # 
+	sp_anti_aircraft_battalion = 1 # 
+}
+ss_armored_support_brigade.1 = {	# model II 1943
+	sp_artillery_battalion = 3	# 
+	medium_tank_destroyer_battalion = 2  # 
+	sp_anti_aircraft_battalion = 2 # 
+}
+ss_armored_support_brigade.2 = {	# model III 1945
+	sp_artillery_battalion = 4	# 
+	medium_tank_destroyer_battalion = 3  # 
+	sp_anti_aircraft_battalion = 3 # 
+}
+ss_armored_support_brigade.3 = {	# model IV 1947
+	sp_artillery_battalion = 5	# 
+	medium_tank_destroyer_battalion = 4  # 
+	sp_anti_aircraft_battalion = 4 # 
+}
+ss_armored_support_brigade.4 = {	# model V 1949
+	sp_artillery_battalion = 6	# 
+	medium_tank_destroyer_battalion = 5  # 
+	sp_anti_aircraft_battalion = 5 # 
+}
+ss_armored_support_brigade.5 = {	# model VI 1951
+	sp_artillery_battalion = 7	# 
+	medium_tank_destroyer_battalion = 6  # 
+	sp_anti_aircraft_battalion = 6 # 
+}
+ss_armored_support_brigade.6 = {	# model VII 1953
+	sp_artillery_battalion = 8	# 
+	medium_tank_destroyer_battalion = 7  # 
+	sp_anti_aircraft_battalion = 7 # 
+}
+ss_armored_support_brigade.7 = {	# model VIII 1955
+	sp_artillery_battalion = 9	# 
+	medium_tank_destroyer_battalion = 8  # 
+	sp_anti_aircraft_battalion = 8 # 
+}
+ss_armored_support_brigade.8 = {	# model IX 1957
+	sp_artillery_battalion = 10	# 
+	medium_tank_destroyer_battalion = 9  # 
+	sp_anti_aircraft_battalion = 9 # 
+}
+ss_armored_support_brigade.9 = {	# model X 1959
+	sp_artillery_battalion = 10	#
+	medium_tank_destroyer_battalion = 10  # 
+	sp_anti_aircraft_battalion = 10 # 
+}
+#EOF#

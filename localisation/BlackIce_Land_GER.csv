@@ -1,0 +1,211 @@
+# MODEL_TAG;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Unit names;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+afrika_brigade;Afrika Korps 'DAK';;;;;;;;;;;;;x
+afrika_brigade_short;DAK;;;;;;;;;;;;;x
+### LUFTWAFFE ###;;;;;;;;;;;;;;x
+goering_brigade;Hermann Goering Regiment;;;;;;;;;;;;;x
+goering_brigade_short;HG-Rgt;;;;;;;;;;;;;x
+luftwaffe_brigade;Luftwaffe Infantry ;;;;;;;;;;;;;x
+luftwaffe_brigade_short;LW INF;;;;;;;;;;;;;x
+### FALLSCHIRMJAEGER KAMPFGRUPPEN ###;;;;;;;;;;;;;;x
+ger_kampfgruppe_schultz;Kampfgruppe Schultz;;;;;;;;;;;;;x
+ger_kampfgruppe_schultz_short;KG Schultz;;;;;;;;;;;;;x
+ger_kampfgruppe_hubner;Kampfgruppe Hübner;;;;;;;;;;;;;x
+ger_kampfgruppe_hubner_short;KG Hübner;;;;;;;;;;;;;x
+ger_kampfgruppe_ramcke;Kampfgruppe Ramcke;;;;;;;;;;;;;x
+ger_kampfgruppe_ramcke_short;KG Ramcke;;;;;;;;;;;;;x
+ger_kampfgruppe_heydte;Kampfgruppe von der Heydte;;;;;;;;;;;;;x
+ger_kampfgruppe_heydte_short;KG Heydte;;;;;;;;;;;;;x
+### HEER ###;;;;;;;;;;;;;;x
+### HQ ###;;;;;;;;;;;;;;x
+ger_army_nord;Heeresgruppe Nord ;;;;;;;;;;;;;x
+ger_army_nord_short;H.Gr. Nord ;;;;;;;;;;;;;x
+ger_army_mitte;Heeresgruppe Mitte ;;;;;;;;;;;;;x
+ger_army_mitte_short;H.Gr. Mitte ;;;;;;;;;;;;;x
+ger_army_group_center;Heeresgruppe Mitte ;;;;;;;;;;;;;x
+ger_army_group_center_short;H.Gr. Mitte ;;;;;;;;;;;;;x
+ger_army_group_south;Heeresgruppe Süd;;;;;;;;;;;;;x
+ger_army_group_south_short;H.Gr. Süd;;;;;;;;;;;;;x
+ger_army_sud;Heeresgruppe Süd ;;;;;;;;;;;;;x
+ger_army_sud_short;H.Gr. Süd ;;;;;;;;;;;;;x
+ger_army_norway;Heeresgruppe Norwegen ;;;;;;;;;;;;;x
+ger_army_norway_short;H.Gr. Norwegen ;;;;;;;;;;;;;x
+ger_army_group_afrika;Deutsches Afrikakorps;;;;;;;;;;;;;x
+ger_army_group_afrika_short;D.A.K ;;;;;;;;;;;;;x
+ger_army_group_a;Heeresgruppe A ;;;;;;;;;;;;;x
+ger_army_group_a_short;H.Gr. A ;;;;;;;;;;;;;x
+ger_army_group_b;Heeresgruppe B ;;;;;;;;;;;;;x
+ger_army_group_b_short;H.Gr. B ;;;;;;;;;;;;;x
+ger_army_group_d;Heeresgruppe D ;;;;;;;;;;;;;x
+ger_army_group_d_short;H.Gr. D ;;;;;;;;;;;;;x
+ger_army_group_e;Heeresgruppe E ;;;;;;;;;;;;;x
+ger_army_group_e_short;H.Gr. E ;;;;;;;;;;;;;x
+ger_army_group_f;Heeresgruppe F ;;;;;;;;;;;;;x
+ger_army_group_f_short;H.Gr. F ;;;;;;;;;;;;;x
+ger_army_group_g;Heeresgruppe G ;;;;;;;;;;;;;x
+ger_army_group_g_short;H.Gr. G ;;;;;;;;;;;;;x
+ger_army_group_h;Heeresgruppe H ;;;;;;;;;;;;;x
+ger_army_group_h_short;H.Gr. H ;;;;;;;;;;;;;x
+ger_army_group_courtland;Heeresgruppe Kurland;;;;;;;;;;;;;x
+ger_army_group_courtland_short;H.Gr. Kurland;;;;;;;;;;;;;x
+ger_army_group_don;Heeresgruppe Don;;;;;;;;;;;;;x
+ger_army_group_don_short;H.Gr. Don;;;;;;;;;;;;;x
+ger_army_group_fhq;Heeresgruppe Führerhauptquartiere;;;;;;;;;;;;;x
+ger_army_group_fhq_short;H.Gr. FHQ;;;;;;;;;;;;;x
+ger_army_group_liguria;Heeresgruppe Ligurien;;;;;;;;;;;;;x
+ger_army_group_liguria_short;H.Gr. Ligurien;;;;;;;;;;;;;x
+ger_army_group_north_ukraine;Heeresgruppe Nordukraine;;;;;;;;;;;;;x
+ger_army_group_north_ukraine_short;H.Gr. Nordukraine;;;;;;;;;;;;;x
+ger_army_group_oberrhein;Heeresgruppe Oberrhein;;;;;;;;;;;;;x
+ger_army_group_oberrhein_short;H.Gr. Oberrhein;;;;;;;;;;;;;x
+ger_army_group_ostmark;Heeresgruppe Ostmark;;;;;;;;;;;;;x
+ger_army_group_ostmark_short;H.Gr. Ostmark;;;;;;;;;;;;;x
+ger_army_group_south_ukraine;Heeresgruppe Südukraine;;;;;;;;;;;;;x
+ger_army_group_south_ukraine_short;H.Gr. Südukraine;;;;;;;;;;;;;x
+ger_army_group_vistula;Heeresgruppe Weichsel;;;;;;;;;;;;;x
+ger_army_group_vistula_short;H.Gr. Weichsel;;;;;;;;;;;;;x
+ger_first_fallschirm_army;1. Fj-Armee ;;;;;;;;;;;;;x
+ger_first_fallschirm_army_short;1.-Fj.Aok;;;;;;;;;;;;;x
+ger_first_panzer_army;1. Panzer-Armee ;;;;;;;;;;;;;x
+ger_first_panzer_army_short;1.-Pz.AOK ;;;;;;;;;;;;;x
+ger_second_panzer_army;2. Panzer-Armee ;;;;;;;;;;;;;x
+ger_second_panzer_army_short;2.-Pz.AOK ;;;;;;;;;;;;;x
+ger_third_panzer_army;3. Panzer-Armee ;;;;;;;;;;;;;x
+ger_third_panzer_army_short;3.-Pz.AOK ;;;;;;;;;;;;;x
+ger_fourth_panzer_army;4. Panzer-Armee ;;;;;;;;;;;;;x
+ger_fourth_panzer_army_short;4.-Pz.AOK ;;;;;;;;;;;;;x
+ger_fifth_panzer_army;5. Panzer-Armee ;;;;;;;;;;;;;x
+ger_fifth_panzer_army_short;5.-Pz.AOK ;;;;;;;;;;;;;x
+ger_sixth_panzer_army;6. Panzer-Armee ;;;;;;;;;;;;;x
+ger_sixth_panzer_army_short;6.-Pz.AOK ;;;;;;;;;;;;;x
+ger_eleventh_army;Stab 11. Armee ;;;;;;;;;;;;;x
+ger_eleventh_army_short;11.-AOK ;;;;;;;;;;;;;x
+ger_twelfth_army;Stab 12. Armee ;;;;;;;;;;;;;x
+ger_twelfth_army_short;12.-AOK ;;;;;;;;;;;;;x
+ger_thirteenth_army;Stab 13. Armee ;;;;;;;;;;;;;x
+ger_thirteenth_army_short;13.-AOK ;;;;;;;;;;;;;x
+ger_fourteenth_army;Stab 14. Armee ;;;;;;;;;;;;;x
+ger_fourteenth_army_short;14.-AOK ;;;;;;;;;;;;;x
+ger_fifteenth_army;Stab 15. Armee ;;;;;;;;;;;;;x
+ger_fifteenth_army_short;15.-AOK ;;;;;;;;;;;;;x
+ger_sixteenth_army;Stab 16. Armee ;;;;;;;;;;;;;x
+ger_sixteenth_army_short;16.-AOK ;;;;;;;;;;;;;x
+ger_seventeenth_army;Stab 17. Armee ;;;;;;;;;;;;;x
+ger_seventeenth_army_short;17.-AOK ;;;;;;;;;;;;;x
+ger_eighteenth_army;Stab 18. Armee ;;;;;;;;;;;;;x
+ger_eighteenth_army_short;18.-AOK ;;;;;;;;;;;;;x
+ger_nineteenth_army;Stab 19. Armee ;;;;;;;;;;;;;x
+ger_nineteenth_army_short;19.-AOK ;;;;;;;;;;;;;x
+ger_twentieth_mountain_army;20. Gebirgsarmee ;;;;;;;;;;;;;x
+ger_twentieth_mountain_army_short;20.-GbAOK ;;;;;;;;;;;;;x
+ger_twentyfirst_army;Stab 21. Armee ;;;;;;;;;;;;;x
+ger_twentyfirst_army_short;21.-AOK ;;;;;;;;;;;;;x
+ger_twentyfourth_army;Stab 24. Armee ;;;;;;;;;;;;;x
+ger_twentyfourth_army_short;24.-AOK ;;;;;;;;;;;;;x
+ger_twentyfifth_army;Stab 25. Armee ;;;;;;;;;;;;;x
+ger_twentyfifth_army_short;25.-AOK ;;;;;;;;;;;;;x
+ger_i_corps;I. Armeekorps ;;;;;;;;;;;;;x
+ger_i_corps_short;I.-AK ;;;;;;;;;;;;;x
+ger_ii_corps;II. Armeekorps ;;;;;;;;;;;;;x
+ger_ii_corps_short;II.-AK ;;;;;;;;;;;;;x
+ger_iii_corps;III. Armeekorps ;;;;;;;;;;;;;x
+ger_iii_corps_short;III.-AK ;;;;;;;;;;;;;x
+ger_iv_corps;IV. Armeekorps ;;;;;;;;;;;;;x
+ger_iv_corps_short;IV.-AK ;;;;;;;;;;;;;x
+ger_v_corps;V. Armeekorps ;;;;;;;;;;;;;x
+ger_v_corps_short;V.-AK ;;;;;;;;;;;;;x
+ger_vi_corps;VI. Armeekorps ;;;;;;;;;;;;;x
+ger_vi_corps_short;VI.-AK ;;;;;;;;;;;;;x
+ger_vii_corps;VII. Armeekorps ;;;;;;;;;;;;;x
+ger_vii_corps_short;VII.-AK ;;;;;;;;;;;;;x
+ger_viii_corps;VIII. Armeekorps ;;;;;;;;;;;;;x
+ger_viii_corps_short;VIII.-AK ;;;;;;;;;;;;;x
+ger_ix_corps;IX. Armeekorps ;;;;;;;;;;;;;x
+ger_ix_corps_short;IX.-AK ;;;;;;;;;;;;;x
+ger_x_corps;X. Armeekorps ;;;;;;;;;;;;;x
+ger_x_corps_short;X.-AK ;;;;;;;;;;;;;x
+ger_xi_corps;XI. Armeekorps ;;;;;;;;;;;;;x
+ger_xi_corps_short;XI.-AK ;;;;;;;;;;;;;x
+ger_xii_corps;XII. Armeekorps ;;;;;;;;;;;;;x
+ger_xii_corps_short;XII.-AK ;;;;;;;;;;;;;x
+ger_xiii_corps;XIII. Armeekorps ;;;;;;;;;;;;;x
+ger_xiii_corps_short;XIII.-AK ;;;;;;;;;;;;;x
+ger_xiv_corps;XIV. Armeekorps ;;;;;;;;;;;;;x
+ger_xiv_corps_short;XIV.-AK ;;;;;;;;;;;;;x
+ger_xv_corps;XV. Armeekorps ;;;;;;;;;;;;;x
+ger_xv_corps_short;XV.-AK ;;;;;;;;;;;;;x
+ger_xvi_corps;XVI. Armeekorps ;;;;;;;;;;;;;x
+ger_xvi_corps_short;XVI.-AK ;;;;;;;;;;;;;x
+ger_xvii_corps;XVII. Armeekorps ;;;;;;;;;;;;;x
+ger_xvii_corps_short;XVII.-AK ;;;;;;;;;;;;;x
+ger_xviii_corps;XVIII. Armeekorps ;;;;;;;;;;;;;x
+ger_xviii_corps_short;XVIII.-AK ;;;;;;;;;;;;;x
+ger_xx_corps;XX. Armeekorps ;;;;;;;;;;;;;x
+ger_xx_corps_short;XX.-AK ;;;;;;;;;;;;;x
+ger_xxi_corps;XXI. Armeekorps ;;;;;;;;;;;;;x
+ger_xxi_corps_short;XXI.-AK ;;;;;;;;;;;;;x
+ger_xxii_corps;XXII. Armeekorps ;;;;;;;;;;;;;x
+ger_xxii_corps_short;XXII.-AK ;;;;;;;;;;;;;x
+ger_xxiii_corps;XXIII. Armeekorps ;;;;;;;;;;;;;x
+ger_xxiii_corps_short;XXIII.-AK ;;;;;;;;;;;;;x
+ger_xxiv_corps;XXIV. Armeekorps ;;;;;;;;;;;;;x
+ger_xxiv_corps_short;XXIV.-AK ;;;;;;;;;;;;;x
+ger_xxv_corps;XXV. Armeekorps ;;;;;;;;;;;;;x
+ger_xxv_corps_short;XXV.-AK ;;;;;;;;;;;;;x
+ger_grossedeutschland_panzer_korps;Panzerkorps Großdeutschland ;;;;;;;;;;;;;x
+ger_grossedeutschland_panzer_korps_short;GD.Pz.-AK ;;;;;;;;;;;;;x
+ger_xxxix_panzer_korps;XXXIX. PanzerKorps ;;;;;;;;;;;;;x
+ger_xxxix_panzer_korps_short;39.Pz.-AK ;;;;;;;;;;;;;x
+ger_xxxviii_panzer_korps;XXXVIII. Panzerkorps ;;;;;;;;;;;;;x
+ger_xxxviii_panzer_korps_short;38.Pz.-AK ;;;;;;;;;;;;;x
+ger_iii_panzer_korps;III. Panzerkorps ;;;;;;;;;;;;;x
+ger_iii_panzer_korps_short;3.Pz.-AK ;;;;;;;;;;;;;x
+ger_v_panzer_korps;V. Panzerkorps ;;;;;;;;;;;;;x
+ger_v_panzer_korps_short;5.Pz.-AK ;;;;;;;;;;;;;x
+ger_vii_panzer_korps;VII. Panzerkorps;;;;;;;;;;;;;x
+ger_vii_panzer_korps_short;7.Pz.-AK ;;;;;;;;;;;;;x
+ger_xiv_panzer_korps;XIV. Panzerkorps ;;;;;;;;;;;;;x
+ger_xiv_panzer_korps_short;14.Pz.-AK ;;;;;;;;;;;;;x
+ger_xl_panzer_korps;XL. Panzerkorps ;;;;;;;;;;;;;x
+ger_xl_panzer_korps_short;40.Pz.-AK ;;;;;;;;;;;;;x
+ger_xli_panzer_korps;XLI. Panzerkorps ;;;;;;;;;;;;;x
+ger_xli_panzer_korps_short;41.Pz.-AK ;;;;;;;;;;;;;x
+ger_xlii_panzer_korps;XLII. Panzerkorps ;;;;;;;;;;;;;x
+ger_xlii_panzer_korps_short;42.Pz.-AK ;;;;;;;;;;;;;x
+ger_xlviii_panzer_korps;XLVIII. Panzerkorps ;;;;;;;;;;;;;x
+ger_xlviii_panzer_korps_short;48.Pz.-AK ;;;;;;;;;;;;;x
+ger_xlvii_panzer_korps;XLVII. Panzerkorps ;;;;;;;;;;;;;x
+ger_xlvii_panzer_korps_short;47.Pz.-AK ;;;;;;;;;;;;;x
+ger_xxiv_panzer_korps;XXIV. Panzerkorps ;;;;;;;;;;;;;x
+ger_xxiv_panzer_korps_short;24.Pz.-AK ;;;;;;;;;;;;;x
+ger_iv_panzer_korps;IV. Panzerkorps ;;;;;;;;;;;;;x
+ger_iv_panzer_korps_short;4.Pz.-AK ;;;;;;;;;;;;;x
+ger_lvi_panzer_korps;LVI. Panzerkorps ;;;;;;;;;;;;;x
+ger_lvi_panzer_korps_short;56.Pz.-AK ;;;;;;;;;;;;;x
+ger_lvii_panzer_korps;LVII. Panzerkorps ;;;;;;;;;;;;;x
+ger_lvii_panzer_korps_short;57.Pz.-AK ;;;;;;;;;;;;;x
+ger_lviii_panzer_korps;LVIII. Panzerkorps ;;;;;;;;;;;;;x
+ger_lviii_panzer_korps_short;58.Pz.-AK ;;;;;;;;;;;;;x
+ger_lxxvi_panzer_korps;LXXVI. Panzerkorps ;;;;;;;;;;;;;x
+ger_lxxvi_panzer_korps_short;76.Pz.-AK ;;;;;;;;;;;;;x
+ger_oke_theatre;Oberbefehlshaber des Ersatz;;;;;;;;;;;;;x
+ger_oke_theatre_short;OKE.-Kdo ;;;;;;;;;;;;;x
+ger_okh_theatre;Oberbefehlshaber des Heeres ;;;;;;;;;;;;;x
+ger_okh_theatre_short;OKH.-Kdo ;;;;;;;;;;;;;x
+ger_okw_theatre;Oberbefehlshaber des Westen ;;;;;;;;;;;;;x
+ger_okw_theatre_short;OKW.-Kdo.Westen ;;;;;;;;;;;;;x
+Fuhrer_hq;Führerhauptquartier ;;;;;;;;;;;;;x
+Fuhrer_hq_short;FhQ ;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Unit Model Names #;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+##################### Railway Artillery_brigade #################;;;;;;;;;;;;;;x
+GER_railway_artillery_brigade_0;24cm Theodor/Bruno Kanone (E);;;;;;;;;;;;;x
+GER_railway_artillery_brigade_1;28cm schwere Bruno Kanone (E);;;;;;;;;;;;;x
+GER_railway_artillery_brigade_2;Krupp 28cm Kanone K5 (E);;;;;;;;;;;;;x
+GER_railway_artillery_brigade_3;38cm Siegfried K (E);;;;;;;;;;;;;x
+GER_railway_artillery_brigade_4;52cm Langer Gustav;;;;;;;;;;;;;x
+GER_railway_artillery_brigade_5;80cm Schwerer Gustav/Dora Kanone(E);;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;x

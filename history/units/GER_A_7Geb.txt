@@ -1,0 +1,13 @@
+division = {
+		name = "7. Gebirgs-Division"
+		location = 2494 # Bad Kissingen
+                leader = 168 # Konrad
+                regiment = { type = GER_A_VII_Geb name = "Stab 7. Gebirgs-Division" historical_model = 1 organisation = 1 }
+		regiment = { type = bergsjaeger_brigade name = "Gebirgsjäger-Regiment 206/218" historical_model = 5 organisation = 1 }
+                regiment = { type = pack_artillery_brigade name = "Gebirgs-Artillerie-Regiment 82" historical_model = 5 organisation = 1 }
+                regiment = { type = engineer_brigade name = "Gebirgs-Pionier-Bataillon 99" historical_model = 4 organisation = 1 }
+                regiment = { type = Recon_cavalry_brigade name = "Aufklärungs-Abteilung 99" historical_model = 5 organisation = 1 }
+                regiment = { type = anti_tank_brigade name = "Panzerjäger-Abteilung 99" historical_model = 4 organisation = 1 }
+                regiment = { type = horse_transport name = "Gefechtstross 7. Gebirgs-Division" historical_model = 0 organisation = 1 }
+	}
+

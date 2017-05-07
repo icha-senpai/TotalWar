@@ -1,0 +1,1946 @@
+# ########################################################################
+# Special Forces Doctrines
+# ########################################################################
+#########################################################################
+## Special Forces Integration
+#########################################################################
+special_forces_integration = {
+
+	allow = {
+		
+		OR = { 	
+			light_infantry_regiment = 1
+			mountain_infantry_regiment = 1
+			marine_regiment = 1
+			paratrooper_regiment = 1
+			airlanding_infantry_regiment = 1
+			ski_infantry_battalion = 1
+			commando_battalion = 1
+		}
+		land_battles_fought = 100
+		
+	} 
+	
+	special_forces_unit_type = 0.01
+    		
+    research_bonus_from = {
+        land_doctrine_practical = 0.35
+    }
+   
+    on_completion = land_doctrine_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1940
+	first_offset = 1941 # Model 1
+	additional_offset = 2 # Model 2 thru 5
+	max_level = 15
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Independent Ops
+#########################################################################
+special_forces_independent_ops = {
+
+	allow = {
+		
+		OR = { 	
+			light_infantry_regiment = 1
+			mountain_infantry_regiment = 1
+			marine_regiment = 1
+			paratrooper_regiment = 1
+			airlanding_infantry_regiment = 1
+			ski_infantry_battalion = 1
+			commando_battalion = 1
+		}
+		land_battles_fought = 200
+	} 
+	
+	change = no
+	
+	light_infantry_brigade = {
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	elite_light_infantry_brigade = {
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	elite_light_infantry_battalion = {
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	airlanding_infantry_brigade = {
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	airborne_engineer_bat = {
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	bergsjaeger_brigade = {
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	ss_bergsjaeger_brigade = {
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	marine_brigade = {
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	paratrooper_brigade = {
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = 2
+		default_morale = 0.02
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = 2
+		default_morale = 0.02
+	}	
+    	
+    research_bonus_from = {
+       
+        land_doctrine_practical = 0.35
+    }
+   
+    on_completion = land_doctrine_practical
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1940
+	first_offset = 1941 # Model 1
+	additional_offset = 2 # Model 2 thru 5
+	max_level = 15
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Submachinegun Distribution
+#########################################################################
+special_forces_submachinegun_distribution = {
+
+	allow = {
+		submachineguns_prototype = 1
+		OR = { 	
+			light_infantry_regiment = 1
+			mountain_infantry_regiment = 1
+			marine_regiment = 1
+			paratrooper_regiment = 1
+			airlanding_infantry_regiment = 1
+			ski_infantry_battalion = 1
+			commando_battalion = 1
+		}
+		OR = { 
+			AND = {
+				NOT = { special_forces_submachinegun_distribution = 1 } # 1938
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { special_forces_submachinegun_distribution = 2 } # 1939
+				small_arms_manufacturing = 8
+				
+			}
+			AND = {
+				NOT = { special_forces_submachinegun_distribution = 3 } # 1941
+				small_arms_manufacturing = 10
+				
+			}
+			AND = {
+				NOT = { special_forces_submachinegun_distribution = 4 } # 1943
+				small_arms_manufacturing = 12
+				
+			}
+			AND = {
+				NOT = { special_forces_submachinegun_distribution = 5 } # 1945
+				small_arms_manufacturing = 14
+				
+			}
+			AND = {
+				NOT = { special_forces_submachinegun_distribution = 6 } # 1947
+				small_arms_manufacturing = 16
+				
+			}
+			AND = {
+				NOT = { special_forces_submachinegun_distribution = 7 } # 1949
+				small_arms_manufacturing = 18
+									
+			}
+			AND = {
+				NOT = { special_forces_submachinegun_distribution = 8 } # 1951
+				small_arms_manufacturing = 20
+									
+			}
+			AND = {
+				NOT = { special_forces_submachinegun_distribution = 9 } # 1953
+				small_arms_manufacturing = 22
+									
+			}
+			AND = {
+				NOT = { special_forces_submachinegun_distribution = 10 } # 1955
+				small_arms_manufacturing = 24
+									
+			}
+		}
+	} 
+	
+	change = yes
+	
+	light_infantry_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	elite_light_infantry_battalion = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	elite_light_infantry_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	airlanding_infantry_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	airborne_engineer_bat = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	bergsjaeger_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	ss_bergsjaeger_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	ski_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	ss_ski_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	marine_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	commando_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}
+	ss_commando_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.35
+		defensiveness = 0.25
+		toughness = 0.15
+		build_cost_ic = 0.12
+		build_time = 3
+		supply_consumption = 0.01
+	}   
+	
+    research_bonus_from = {
+       
+        infantry_practical = 0.35
+    }
+   
+    on_completion = infantry_practical
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1938 # Model 0
+	first_offset = 1939 # Model 1
+	additional_offset = 2 # Model 2 thru 5
+	max_level = 10
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Assault Rifle Distribution
+#########################################################################
+special_forces_assault_rifle_distribution = {
+
+	allow = {
+		assault_rifles_prototype = 1
+		OR = { 	
+			light_infantry_regiment = 1
+			mountain_infantry_regiment = 1
+			marine_regiment = 1
+			paratrooper_regiment = 1
+			airlanding_infantry_regiment = 1
+			ski_infantry_battalion = 1
+			commando_battalion = 1
+		}
+		OR = { 
+			AND = {
+				NOT = { special_forces_assault_rifle_distribution = 1 } # 1944
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { special_forces_assault_rifle_distribution = 2 } # 1945
+				small_arms_manufacturing = 14
+				
+			}
+			AND = {
+				NOT = { special_forces_assault_rifle_distribution = 3 } # 1947
+				small_arms_manufacturing = 16
+				
+			}
+			AND = {
+				NOT = { special_forces_assault_rifle_distribution = 4 } # 1949
+				small_arms_manufacturing = 18
+									
+			}
+			AND = {
+				NOT = { special_forces_assault_rifle_distribution = 5 } # 1951
+				small_arms_manufacturing = 20
+									
+			}
+			AND = {
+				NOT = { special_forces_assault_rifle_distribution = 6 } # 1953
+				small_arms_manufacturing = 22
+									
+			}
+			AND = {
+				NOT = { special_forces_assault_rifle_distribution = 7 } # 1955
+				small_arms_manufacturing = 24
+									
+			}
+			AND = {
+				NOT = { special_forces_assault_rifle_distribution = 8 } # 1957
+				small_arms_manufacturing = 26
+									
+			}
+			AND = {
+				NOT = { special_forces_assault_rifle_distribution = 9 } # 1959
+				small_arms_manufacturing = 28
+									
+			}
+			AND = {
+				NOT = { special_forces_assault_rifle_distribution = 10 } # 1961
+				small_arms_manufacturing = 30
+									
+			}
+		}
+	} 
+	
+	change = yes
+	
+	light_infantry_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	elite_light_infantry_battalion = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	elite_light_infantry_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	airlanding_infantry_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	airborne_engineer_bat = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	bergsjaeger_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_bergsjaeger_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ski_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_ski_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	marine_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	commando_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_commando_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.55
+		defensiveness = 0.55
+		toughness = 0.25
+		build_cost_ic = 0.15
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+    research_bonus_from = {
+       
+        infantry_practical = 0.35
+    }
+   
+    on_completion = infantry_practical
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1944 # Model 1
+	first_offset = 1945 # Model 2
+	additional_offset = 2 # Model 3 thru 
+	max_level = 10
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Light Machine Gun Distribution
+#########################################################################
+special_forces_lmg_distribution = {
+
+	allow = {
+		lmg_prototype = 1	
+		OR = { 	
+			light_infantry_regiment = 1
+			mountain_infantry_regiment = 1
+			marine_regiment = 1
+			paratrooper_regiment = 1
+			airlanding_infantry_regiment = 1
+			ski_infantry_battalion = 1
+			commando_battalion = 1
+		}
+		OR = { 
+			AND = {
+				NOT = { special_forces_lmg_distribution = 1 } # 1935
+				small_arms_manufacturing = 4
+				
+			}
+			AND = {
+				NOT = { special_forces_lmg_distribution = 2 } # 1937
+				small_arms_manufacturing = 6
+				
+			}
+			AND = {
+				NOT = { special_forces_lmg_distribution = 3 } # 1939
+				small_arms_manufacturing = 8
+				
+			}
+			AND = {
+				NOT = { special_forces_lmg_distribution = 4 } # 1941
+				small_arms_manufacturing = 10
+									
+			}
+			AND = {
+				NOT = { special_forces_lmg_distribution = 5 } # 1943
+				small_arms_manufacturing = 12
+									
+			}
+			AND = {
+				NOT = { special_forces_lmg_distribution = 6 } # 1945
+				small_arms_manufacturing = 14
+									
+			}
+			AND = {
+				NOT = { special_forces_lmg_distribution = 7 } # 1947
+				small_arms_manufacturing = 16
+									
+			}
+			AND = {
+				NOT = { special_forces_lmg_distribution = 8 } # 1949
+				small_arms_manufacturing = 18
+									
+			}
+			AND = {
+				NOT = { special_forces_lmg_distribution = 9 } # 1951
+				small_arms_manufacturing = 20
+									
+			}
+			AND = {
+				NOT = { special_forces_lmg_distribution = 10 } # 1953
+				small_arms_manufacturing = 22
+									
+			}
+		}	
+	} 
+	
+	change = yes
+	
+	light_infantry_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	elite_light_infantry_battalion = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	elite_light_infantry_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	airlanding_infantry_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	airborne_engineer_bat = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	bergsjaeger_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	
+	ss_bergsjaeger_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	ski_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	ss_ski_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	marine_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	
+	ss_paratrooper_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	commando_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	ss_commando_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.65
+		defensiveness = 0.40
+		toughness = 0.10
+		build_cost_ic = 0.15
+		build_time = 1
+		supply_consumption = 0.03
+	}
+	
+    research_bonus_from = {
+       
+        infantry_practical = 0.35
+    }
+   
+    on_completion = infantry_practical
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1935
+	first_offset = 1937 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Training
+#########################################################################
+special_forces_training = {
+
+	allow = {
+		OR = {
+			special_forces_integration = 1
+			special_forces_independent_ops = 1
+		}
+		OR = { 	
+			light_infantry_regiment = 1
+			mountain_infantry_regiment = 1
+			marine_regiment = 1
+			paratrooper_regiment = 1
+			airlanding_infantry_regiment = 1
+			ski_infantry_battalion = 1
+			commando_battalion = 1
+		}
+		land_battles_fought = 150
+	} 
+	
+	special_forces_unit_type = 0.01
+    	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1939
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Mountain Training
+#########################################################################
+special_forces_mountain_training = {
+
+	allow = {
+		special_forces_training = 1
+		OR = { 
+			mountain_infantry_regiment = 1
+			commando_battalion = 1
+		}	
+	} 
+	
+	change = no
+	
+	bergsjaeger_brigade = {
+			mountain = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+	ss_bergsjaeger_brigade = {
+			mountain = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+	commando_brigade = {
+		mountain = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	ss_commando_brigade = {
+		mountain = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1941	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Jungle Training
+######################################################################### 
+special_forces_jungle_training = {
+
+	allow = {
+		special_forces_training = 1
+		OR = {
+			light_infantry_regiment = 1
+			marine_regiment = 1
+			commando_battalion = 1
+		}
+	} 
+	
+	change = no
+	
+	marine_brigade = {
+		jungle = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+	light_infantry_brigade = {
+		jungle = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	elite_light_infantry_battalion = {
+		jungle = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	elite_light_infantry_brigade = {
+		jungle = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+	commando_brigade = {
+		jungle = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	ss_commando_brigade = {
+		jungle = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 7
+
+    # common for all techs.
+	start_year = 1939
+    first_offset = 1941	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+} 
+#########################################################################
+## Special Forces Night Training
+#########################################################################
+special_forces_night_training = {
+
+	allow = {
+		special_forces_training = 1
+		OR = {
+			light_infantry_regiment = 1
+			mountain_infantry_regiment = 1
+			marine_regiment = 1
+			paratrooper_regiment = 1
+			airlanding_infantry_regiment = 1
+			ski_infantry_battalion = 1
+			commando_battalion = 1
+		}
+	} 
+	
+	change = no
+	
+	light_infantry_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	elite_light_infantry_battalion = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	elite_light_infantry_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	airlanding_infantry_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	airborne_engineer_bat = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	bergsjaeger_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+	ss_bergsjaeger_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	ski_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	ss_ski_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	marine_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	paratrooper_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+	ss_paratrooper_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	guard_paratrooper_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	commando_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	ss_commando_brigade = {
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 7
+
+    # common for all techs.
+	start_year = 1939
+    first_offset = 1941	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Forest Training
+#########################################################################
+special_forces_forest_training = {
+
+	allow = {
+		special_forces_training = 1
+		OR = {
+			light_infantry_regiment = 1
+			commando_battalion = 1
+		}
+	} 
+	
+	change = no
+	
+	light_infantry_brigade = {
+		forest = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	elite_light_infantry_battalion = {
+		forest = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	elite_light_infantry_brigade = {
+		forest = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	commando_brigade = {
+		forest = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	ss_commando_brigade = {
+		forest = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+   research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1941	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Amphibious Training
+#########################################################################
+special_forces_amphibious_training = {
+
+	allow = {
+		special_forces_training = 1
+		OR = {
+			marine_regiment = 1
+			commando_battalion = 1
+		}
+	} 
+	
+	change = no
+	
+	marine_brigade = {
+		amphibious = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	commando_brigade = {
+		amphibious = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	ss_commando_brigade = {
+		amphibious = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1941	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Airborne Training
+#########################################################################
+special_forces_airborne_training = {
+
+	allow = {
+		special_forces_training = 1
+		OR = {
+			paratrooper_regiment = 1
+			commando_battalion = 1
+		}
+	} 
+	
+	change = no
+	
+	paradrop_mission = {
+		efficiency = 0.05	#5% efficiency increase airborne assault missions
+	}
+		
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1941	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Urban Tactics
+#########################################################################
+urban_special_tactics = {
+
+	allow = {
+		special_forces_training = 1
+		OR = {
+			light_infantry_regiment = 1
+			mountain_infantry_regiment = 1
+			marine_regiment = 1
+			paratrooper_regiment = 1
+			airlanding_infantry_regiment = 1
+			commando_battalion = 1
+		}
+	} 
+	
+	change = no
+	
+	light_infantry_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	elite_light_infantry_battalion = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	elite_light_infantry_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	airlanding_infantry_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	airborne_engineer_bat = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	bergsjaeger_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+	ss_bergsjaeger_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	marine_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	paratrooper_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+	ss_paratrooper_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	guard_paratrooper_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	commando_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	ss_commando_brigade = {
+		urban = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	 
+	
+	research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1941	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Artic Warfare Tactics
+#########################################################################
+arctic_warfare_tactics = {
+
+	allow = {
+		special_forces_training = 1
+		OR = {
+			ski_infantry_battalion = 1
+			commando_battalion = 1
+		}
+	} 
+	
+	change = no
+	
+	ski_brigade = {
+		arctic = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	ss_ski_brigade = {
+		arctic = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	commando_brigade = {
+		arctic = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	ss_commando_brigade = {
+		arctic = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+	}
+	
+   research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1941	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Covert Ops
+#########################################################################
+covert_ops = {
+
+	allow = {
+		oss_missions = 1
+	} 
+	
+	change = no
+	
+	tactic_commando_raid = 3
+		
+	commando_brigade = {
+		maximum_speed = 0.25
+		radio_strength = -0.25
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+		fort = { 
+				attack = 0.05  
+			}	
+	}
+	ss_commando_brigade = {
+		maximum_speed = 0.25
+		radio_strength = -0.25
+		night = { 
+				attack = 0.05  
+				defence = 0.05 
+				movement = 0.05 
+			}
+		fort = { 
+				attack = 0.05  
+			}	
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1942
+	first_offset = 1943	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Infiltration Tactics
+#########################################################################
+infiltration_tactics = {
+
+	allow = {
+		oss_missions = 1
+	} 
+	
+	change = no
+	
+	tactic_quick_assault = 3
+	
+	commando_brigade = {
+		desert = { 
+			attack = 0.05 
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.05
+			movement = 0.05
+		}
+		jungle = { 
+			attack = 0.05
+			movement = 0.05
+		}
+		fort = { 
+			attack = 0.05
+		}
+	}
+	ss_commando_brigade = {
+		desert = { 
+			attack = 0.05 
+			movement = 0.05
+		}
+		forest = { 
+			attack = 0.05
+			movement = 0.05
+		}
+		jungle = { 
+			attack = 0.05
+			movement = 0.05
+		}
+		fort = { 
+			attack = 0.05
+		}
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1943
+	first_offset = 1944	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Deep Recon
+#########################################################################
+deep_recon = {
+
+	allow = {
+		OR = {
+			light_infantry_regiment = 1
+			commando_battalion = 1
+		}
+	} 
+	
+	change = no
+	
+	assault_unit_type = 0.02
+	
+	light_infantry_brigade = {
+		default_organisation = 3
+		toughness = 1
+		river = { 
+			attack = 0.05
+		}
+	}
+	elite_light_infantry_battalion = {
+		default_organisation = 3
+		toughness = 1
+		river = { 
+			attack = 0.05
+		}
+	}
+	elite_light_infantry_brigade = {
+		default_organisation = 3
+		toughness = 1
+		river = { 
+			attack = 0.05
+		}
+	}
+	commando_brigade = {
+		default_organisation = 3
+		toughness = 1
+		river = { 
+			attack = 0.05
+		}
+	}
+	ss_commando_brigade = {
+		default_organisation = 3
+		toughness = 1
+		river = { 
+			attack = 0.05
+		}
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Rescue Missions
+#########################################################################
+rescue_missions = {
+
+	allow = {
+		commando_battalion = 1
+	} 
+	
+	change = no
+	
+	maximum_attrition = -0.05
+	
+	commando_brigade = {
+		default_morale = 3
+	}
+	ss_commando_brigade = {
+		default_morale = 3
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1944
+	first_offset = 1945	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Amphibious Landing
+#########################################################################
+amphibious_landing = {
+
+	allow = {
+		OR = {
+		first_infantry_regiment_hqtrs = 1
+		marine_regiment = 1
+		}
+		amphibious_landing_craft = 1
+	} 
+	
+	change = no
+	
+	landing_craft = {
+		default_organisation = 3
+		
+	}	
+	assault_ship = {
+		default_organisation = 3
+		
+	}	
+	transport_dock_ship = {
+		default_organisation = 3
+		
+	}	
+	landing_ship_dock = {
+		default_organisation = 3
+		
+	}	
+	landing_platform_helicopter = {
+		default_organisation = 3
+		
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 8
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Amphibious Assault
+#########################################################################
+amphibious_assault = {
+
+	allow = {
+		amphibious_landing = 1 
+		marine_regiment = 1
+	} 
+	
+	change = no
+		
+	landing_craft = {
+		amphibious_invasion_defence = 0.05
+	}	
+	assault_ship = {
+		amphibious_invasion_defence = 0.05
+	}	
+	transport_dock_ship = {
+		amphibious_invasion_defence = 0.05
+	}	
+	landing_ship_dock = {
+		amphibious_invasion_defence = 0.05
+	}	
+	landing_platform_helicopter = {
+		amphibious_invasion_defence = 0.05
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1942
+	first_offset = 1943	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 8
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Amphibious Invasion
+#########################################################################
+amphibious_invasion = {
+
+	allow = {
+		amphibious_assault = 1 
+	} 
+	
+	change = no
+	
+	landing_craft = {
+		amphibious_invasion_speed = 0.10 
+	}	
+	assault_ship = {
+		amphibious_invasion_speed = 0.10
+	}	
+	transport_dock_ship = {
+		amphibious_invasion_speed = 0.10
+	}	
+	landing_ship_dock = {
+		amphibious_invasion_speed = 0.10
+	}	
+	landing_platform_helicopter = {
+		amphibious_invasion_speed = 0.10
+	}	
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 9
+
+    # common for all techs.
+    start_year = 1944
+	first_offset = 1945	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 8
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Airborne Landing
+#########################################################################
+airborne_landing = {
+
+	allow = {
+		twin_engine_transport_focus = 1
+		OR = {
+			paratrooper_regiment = 1
+			airlanding_infantry_regiment = 1
+		}
+			
+	} 
+	
+	change = no
+	
+	paratrooper_brigade = {
+		default_organisation = 3
+	}
+	airlanding_infantry_brigade = {
+		default_organisation = 3
+	}
+	airborne_engineer_bat = {
+		default_organisation = 3
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1940
+	first_offset = 1941	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 8
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Airborne Assault
+#########################################################################
+airborne_assault = {
+
+	allow = {
+		airborne_landing = 1
+	} 
+	
+	tactic_paratrooper_air_assault = 2
+	
+	paratrooper_brigade = {
+		transport_weight = -0.25
+		default_morale = 0.03
+	}
+	airlanding_infantry_brigade = {
+		transport_weight = -0.25
+		default_morale = 0.03
+	}
+	airborne_engineer_bat = {
+		transport_weight = -0.25
+		default_morale = 0.03
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 8
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Special Forces Airborne Invasion
+#########################################################################
+airborne_invasion = {
+
+	allow = {
+		airborne_assault = 1
+	} 
+	
+	paradrop_mission = {
+		efficiency = 0.05	#05% efficiency increase airborne assault missions
+	}
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 9
+
+    # common for all techs.
+    start_year = 1944
+	first_offset = 1945	# 2nd model is from 1936
+    additional_offset = 1   # one new every 2 years
+	max_level = 8
+    folder = special_forces_doctrine_folder
+}
+#########################################################################
+## Marine Fire Team Doctrine
+#########################################################################
+marine_fire_team_doctrine = {
+
+	allow = {
+		land_battles_fought = 300
+		marine_regiment = 1 
+		special_forces_lmg_distribution = 8
+	} 
+	
+	change = no
+	
+	marine_brigade = {
+		default_organisation = 5
+		soft_attack = 3.00
+	}	
+	
+    research_bonus_from = {
+       
+        infantry_theory = 0.35
+    }
+   
+    on_completion = infantry_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1943
+    folder = special_forces_doctrine_folder
+}

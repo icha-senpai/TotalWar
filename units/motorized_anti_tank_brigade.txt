@@ -1,0 +1,122 @@
+motorized_anti_tank_brigade = {
+	type = land
+	sprite = Infantry
+	
+	unit_group = direct_fire_unit_type
+	
+	active = no
+	is_buildable = yes
+	
+	#Size Definitions - x3 Companies
+	max_strength = 12.50
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 17
+
+	#Building Costs
+	build_cost_ic = 6.00
+	build_cost_manpower = 1.250
+	build_time = 75
+	repair_cost_multiplier = 0.07
+	
+	#Misc Abilities
+	maximum_speed = 7.00
+	transport_weight = 14.00
+	supply_consumption = 0.75
+	fuel_consumption = 1.00
+	radio_strength = 0.25
+
+	#Defensive Abilities
+	defensiveness = 15.00	# Can be easily hidden
+	toughness = 30.00
+	softness = 0.50
+	air_defence = 30.00  	# Can be easily hidden
+	armor_value = 1
+
+	#Offensive Abilities
+	suppression = 0.00
+	soft_attack = 0.25
+	hard_attack = 3.00
+	air_attack = 0.00
+	ap_attack = 3.0
+	
+	##  Anti-Tank Units very good at defense
+	
+	plains = {
+		attack = -0.05 ## Difficult to attack with direct fire weapons that are not mobile. 
+		defence = 0.50 ## Easy to defend due to long sight lines.
+		movement = -0.15 ## Horses have easier time walking on level roads
+	}
+	river = { 
+		attack = -0.05 ## Can provide suppressive covering fire but can't fire while crossing!
+		defence = 0.50 ## Easy to defend due to long sight lines.
+		movement = -0.40 ## Horses will have trouble pulling anti-air guns through river water.  Need bridges! 
+	}
+	arctic = {	
+		attack = -0.10 ## Too cold to attack
+		defence = 0.10 ## Sitting in a warm foxhole is easier than attacking in -60C!	
+		movement = -0.30 ## Not easy to move around on tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.	
+	}
+	desert = { 
+		attack = -0.05 ## Too hot and not meant to attack with.  	
+		defence = 0.30 ## Easy to defend due to long sight lines.
+		movement = -0.15 ## Horses get hot and thirsty while moving the guns. 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = -0.10 ## Not easy to attack with direct fire weapons that are not mobile. 
+		defence = 0.55 ## Easy to defend due to long sight lines.  Higher bonus due to concealing guns in woods.
+		movement = -0.35 ## Not as easy for horses to move guns through wooded areas.  
+	}
+	forest = {
+		attack = -0.20 ## Not easy to attack with direct fire weapons that are not mobile. 
+		defence = 0.60 ## Easy to defend due to long sight lines.  Higher bonus due to concealing guns in woods.
+		movement = -0.40 ## Not as easy for horses to move guns through wooded areas. 
+	}
+	jungle = { 
+		attack = -0.50 ## Not easy to attack with direct fire weapons that are not mobile.  Worse for dense jungles.  
+		defence = 0.60 ## Easy to defend due to long sight lines.  Higher bonus due to concealing guns in woods.
+		movement = -0.50 ## Not as easy for horses to move guns through wooded areas. 
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		attack = -0.30 ## Not easy to attack with direct fire weapons that are not mobile.  Worse for hilly areas. 
+		defence = 0.70 ## Easy to defend due to long sight lines. Slightly bonus due to higher elevations. 
+		movement = -0.35 ## Not as easy for horses to move guns through up and down hilly areas. 
+	}
+	mountain = { 
+		attack = -0.60 ## Not easy to attack with direct fire weapons that are not mobile.  Worse for mountain areas. 
+		defence = 0.75 ## Easy to defend due to long sight lines. Slightly bonus due to higher elevations. 
+		movement = -0.40 ## Not as easy for horses to move guns through up and down hilly areas. 
+	}
+	urban = {
+		attack = -0.40 ## Not easy to attack with direct fire weapons that are not mobile.  
+		defence = 0.60 ## Easy to defend due to long sight lines. Big bonus due to urban environment. 
+		movement = -0.15 ## Easy for horses to move guns through urban streets.  
+	}
+	marsh = { 
+		attack = -0.50 ## Not easy to attack with direct fire weapons that are not mobile.  
+		defence = 0.40 ## Easy to defend due to long sight lines. Big bonus due to urban environment. 
+		movement = -0.50 ## Horses have extreme trouble moving through marshes.  
+	}
+	amphibious = { 
+		attack = -1.00 ## Nowhere to setup guns.  
+		defence = -1.00 ## Nowhere to setup guns.
+	}
+	night = { 
+		movement = -0.50  ## Can't see as easily during the night. 
+	}
+	fort = { 
+		attack = -0.60 ## Difficult to get gun setup to attack fort with.  
+		defence = 0.75 ## Excellent for defending forts. 
+	}
+
+	combat_width = 0.11
+
+	completion_size = 0.036
+	on_completion = artillery_practical
+	
+	priority = 15
+}

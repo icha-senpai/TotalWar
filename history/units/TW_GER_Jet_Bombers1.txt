@@ -1,0 +1,12 @@
+military_construction = {
+	country = GER
+	
+	jet_bomber = { 
+		historical_model = 0
+	}
+		
+	cost = 15.00
+	duration = 120
+	progress = 25
+}
+#EOF#

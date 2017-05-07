@@ -1,0 +1,109 @@
+########################################################################################
+############# Australian Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Australian WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### Austen SMG Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9107200
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = AST
+			submachineguns_prototype = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107200"
+		desc = "EVTDESC9107200"
+		picture = "austen_smg"
+		
+		option = {
+			name = "Put it Into Production."
+			austen_smg_hidden = 6000
+			set_global_flag = austen_smg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Owen SMG Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9107201
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = AST
+			submachineguns_prototype = 6
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107201"
+		desc = "EVTDESC9107201"
+		picture = "owen_smg"
+		
+		option = {
+			name = "Put it Into Production."
+			owen_smg_hidden = 6000
+			set_global_flag = owen_smg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Cruiser Tank Sentinel AC Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9107202
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = AST
+			medium_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107202"
+		desc = "EVTDESC9107202"
+		picture = "cruiser_tank_sentinel_ac_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			cruiser_tank_sentinel_ac_medium_tank_hidden = 6000
+			set_global_flag = cruiser_tank_sentinel_ac_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+	

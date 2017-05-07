@@ -1,0 +1,2985 @@
+##############################################################
+############# Red Army Unique Weapons Activation Events     ###########
+##############################################################
+##############################################################
+#### Infantry Weapons
+##############################################################
+##############################################################
+#### Mosin Nagant Rifle
+##############################################################
+
+	country_event = {
+		id = 9105030
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 1
+		}	
+		
+		title = "EVTNAME9105030"
+		desc = "EVTDESC9105030"
+		picture = "mosin_nagant"
+		
+		option = {
+			name = "Put it Into Production."
+			mosin_nagant_rifle_hidden = 6000
+			set_global_flag = mosin_nagant_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### AVS36 Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9105031
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			carbine_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 3
+		}	
+		
+		title = "EVTNAME9105031"
+		desc = "EVTDESC9105031"
+		picture = "avs_thirty_six"
+		
+		option = {
+			name = "Put it Into Production."
+			avs_thirty_six_hidden = 6000
+			set_global_flag = avs_thirty_six
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Tokarev SVT-38 Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9105032
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			carbine_prototype = 3
+			has_global_flag = avs_thirty_six
+		}
+		
+		mean_time_to_happen = {
+			days = 3
+		}	
+		
+		title = "EVTNAME9105032"
+		desc = "EVTDESC9105032"
+		picture = "svt_thirty_eight"
+		
+		option = {
+			name = "Put it Into Production."
+			svt_thirty_eight_hidden = 6000
+			set_global_flag = svt_thirty_eight
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Tokarev SVT-40 Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9105033
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			carbine_prototype = 4
+			has_global_flag = svt_thirty_eight
+		}
+		
+		mean_time_to_happen = {
+			days = 3
+		}	
+		
+		title = "EVTNAME9105033"
+		desc = "EVTDESC9105033"
+		picture = "svt_fourty"
+		
+		option = {
+			name = "Put it Into Production."
+			svt_fourty_hidden = 6000
+			set_global_flag = svt_fourty
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Simonov SKS Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9105034
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			carbine_prototype = 7
+			has_global_flag = svt_fourty
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105034"
+		desc = "EVTDESC9105034"
+		picture = "simonov_sks"
+		
+		option = {
+			name = "Put it Into Production."
+			simonov_sks_hidden = 6000
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### PPD SUBMACHINEGUN
+##############################################################
+
+	country_event = {
+		id = 9105035
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			submachineguns_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105035"
+		desc = "EVTDESC9105035"
+		picture = "ppd_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			ppd_submachinegun_hidden = 6000
+			set_global_flag = ppd_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### PPSH-41 SUBMACHINEGUN
+##############################################################
+
+	country_event = {
+		id = 9105036
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			submachineguns_prototype = 5
+			has_global_flag = ppd_submachinegun
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105036"
+		desc = "EVTDESC9105036"
+		picture = "ppsh_fourty_one_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			ppsh_fourty_one_submachinegun_hidden = 6000
+			set_global_flag = ppsh_fourty_one_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### PPSH-42 SUBMACHINEGUN
+##############################################################
+
+	country_event = {
+		id = 9105037
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			submachineguns_prototype = 6
+			has_global_flag = ppsh_fourty_one_submachinegun
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105037"
+		desc = "EVTDESC9105037"
+		picture = "ppsh_fourty_two_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			ppsh_fourty_two_submachinegun_hidden = 6000
+			set_global_flag = ppsh_fourty_two_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### PPSH-43 SUBMACHINEGUN
+##############################################################
+
+	country_event = {
+		id = 9105038
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			submachineguns_prototype = 7
+			has_global_flag = ppsh_fourty_two_submachinegun
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105038"
+		desc = "EVTDESC9105038"
+		picture = "ppsh_fourty_three_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			ppsh_fourty_three_submachinegun_hidden = 6000
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### AK-47 Assault Rifle
+##############################################################
+
+	country_event = {
+		id = 9105039
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			assault_rifles_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105039"
+		desc = "EVTDESC9105039"
+		picture = "ak_fourty_seven"
+		
+		option = {
+			name = "Put it Into Production."
+			ak_fourty_seven_hidden = 6000
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Degtyarev DP LMG (DP28)
+##############################################################
+
+	country_event = {
+		id = 9105040
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			lmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105040"
+		desc = "EVTDESC9105040"
+		picture = "degtyarev_dp_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			degtyarev_dp_lmg_hidden = 6000
+			set_global_flag = degtyarev_dp_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Degtyarev DPM LMG 
+##############################################################
+
+	country_event = {
+		id = 9105041
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			lmg_prototype = 5
+			has_global_flag = degtyarev_dp_lmg
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105041"
+		desc = "EVTDESC9105041"
+		picture = "degtyarev_dpm_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			degtyarev_dpm_lmg_hidden = 6000
+			set_global_flag = degtyarev_dpm_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Degtyarev RP-46 LMG 
+##############################################################
+
+	country_event = {
+		id = 9105042
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			lmg_prototype = 6
+			has_global_flag = degtyarev_dpm_lmg
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105042"
+		desc = "EVTDESC9105042"
+		picture = "degtyarev_rp_fourty_six_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			degtyarev_rp_fourty_six_lmg_hidden = 6000
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Maxim MG Model 1910 HMG 
+##############################################################
+
+	country_event = {
+		id = 9105043
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			hmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105043"
+		desc = "EVTDESC9105043"
+		picture = "maxim_mg_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			maxim_mg_hidden = 6000
+			set_global_flag = maxim_mg_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### DShK 1938 HMG 
+##############################################################
+
+	country_event = {
+		id = 9105044
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			hmg_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105044"
+		desc = "EVTDESC9105044"
+		picture = "dshk_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			dshk_hmg_hidden = 6000
+			set_global_flag = dshk_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Goryunov SG-43 HMG 
+##############################################################
+
+	country_event = {
+		id = 9105045
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			hmg_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105045"
+		desc = "EVTDESC9105045"
+		picture = "goryunov_sg_fourty_three_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			dshk_hmg_hidden = 6000
+			set_global_flag = goryunov_sg_fourty_three_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1937 82mm Mortar
+##############################################################
+
+	country_event = {
+		id = 9105046
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			mortar_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105046"
+		desc = "EVTDESC9105046"
+		picture = "m_nineteen_thirty_seven_eighty_two_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_thirty_seven_eighty_two_mm_mortar_hidden = 6000
+			set_global_flag = m_nineteen_thirty_seven_eighty_two_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1938 50mm Mortar
+##############################################################
+
+	country_event = {
+		id = 9105047
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			mortar_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105047"
+		desc = "EVTDESC9105047"
+		picture = "m_nineteen_thirty_eight_fifty_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_thirty_eight_fifty_mm_mortar_hidden = 6000
+			set_global_flag = m_nineteen_thirty_eight_fifty_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1938 120mm Mortar
+##############################################################
+
+	country_event = {
+		id = 9105048
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			mortar_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 5
+		}	
+		
+		title = "EVTNAME9105048"
+		desc = "EVTDESC9105048"
+		picture = "m_nineteen_thirty_eight_one_hundred_twenty_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_thirty_eight_one_hundred_twenty_mm_mortar_hidden = 6000
+			set_global_flag = m_nineteen_thirty_eight_one_hundred_twenty_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Degtyarev PTRD 1941 (PTRD-41)
+##############################################################
+
+	country_event = {
+		id = 9105049
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_tank_rifle_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 10
+		}	
+		
+		title = "EVTNAME9105049"
+		desc = "EVTDESC9105049"
+		picture = "degtyarev_ptrd"
+		
+		option = {
+			name = "Put it Into Production."
+			degtyarev_ptrd_hidden = 6000
+			set_global_flag = degtyarev_ptrd
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### RPG-2
+##############################################################
+
+	country_event = {
+		id = 9105050
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			rocket_at_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105050"
+		desc = "EVTDESC9105050"
+		picture = "rpg_two"
+		
+		option = {
+			name = "Put it Into Production."
+			rpg_two_hidden = 6000
+			set_global_flag = rpg_two
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### F-22 Divisional Gun
+##############################################################
+
+	country_event = {
+		id = 9105051
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			infantry_guns = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 25
+		}	
+		
+		title = "EVTNAME9105051"
+		desc = "EVTDESC9105051"
+		picture = "f_twenty_two_divisional_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			f_twenty_two_divisional_gun_hidden = 6000
+			set_global_flag = f_twenty_two_divisional_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### ML-20 152mm Model 1937 Heavy Artillery
+##############################################################
+
+	country_event = {
+		id = 9105052
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			hvy_field_artillery = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 25
+		}	
+		
+		title = "EVTNAME9105052"
+		desc = "EVTDESC9105052"
+		picture = "ml_twenty_one_hundred_fifty_two_mm"
+		
+		option = {
+			name = "Put it Into Production."
+			ml_twenty_one_hundred_fifty_two_mm_hidden = 6000
+			set_global_flag = ml_twenty_one_hundred_fifty_two_mm
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 203mm Howitzer Model 1931 (B-4)
+##############################################################
+
+	country_event = {
+		id = 9105053
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			hvy_field_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105053"
+		desc = "EVTDESC9105053"
+		picture = "b_four_two_hundred_three_mm_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			b_four_two_hundred_three_mm_howitzer_hidden = 6000
+			set_global_flag = b_four_two_hundred_three_mm_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### 152mm Model 1943 (D-1)
+##############################################################
+
+	country_event = {
+		id = 9105054
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			hvy_field_artillery = 6
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105054"
+		desc = "EVTDESC9105054"
+		picture = "d_one_one_fifty_two_heavy_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			d_one_one_fifty_two_heavy_artillery_hidden = 6000
+			set_global_flag = d_one_one_fifty_two_heavy_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 100mm Field Gun M1944 (BS-3)
+##############################################################
+
+	country_event = {
+		id = 9105055
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			med_field_artillery = 6
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105055"
+		desc = "EVTDESC9105055"
+		picture = "bs_three_one_hundred_mm_field_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			bs_three_one_hundred_mm_field_gun_hidden = 6000
+			set_global_flag = bs_three_one_hundred_mm_field_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 122mm Field Gun M1931/37 (A-19)
+##############################################################
+
+	country_event = {
+		id = 9105056
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			med_field_artillery = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105056"
+		desc = "EVTDESC9105056"
+		picture = "a_nineteen_hundred_twenty_two_mm_field_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			a_nineteen_hundred_twenty_two_mm_field_gun_hidden = 6000
+			set_global_flag = a_nineteen_hundred_twenty_two_mm_field_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### 45mm M1937 (53-K)
+##############################################################
+
+	country_event = {
+		id = 9105057
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_tank_gun = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105057"
+		desc = "EVTDESC9105057"
+		picture = "m_nineteen_thirty_seven_fourty_five_mm_anti_tank_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_thirty_seven_fourty_five_mm_anti_tank_gun_hidden = 6000
+			set_global_flag = m_nineteen_thirty_seven_fourty_five_mm_anti_tank_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 45mm M1942 (M-42)
+##############################################################
+
+	country_event = {
+		id = 9105058
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_tank_gun = 4
+			has_global_flag = m_nineteen_thirty_seven_fourty_five_mm_anti_tank_gun
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105058"
+		desc = "EVTDESC9105058"
+		picture = "m_nineteen_fourty_two_fourty_five_mm_anti_tank_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_fourty_two_fourty_five_mm_anti_tank_gun_hidden = 6000
+			set_global_flag = m_nineteen_fourty_two_fourty_five_mm_anti_tank_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### 57mm ZiS-2 (M1941 / M1943) Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105059
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_tank_gun = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105059"
+		desc = "EVTDESC9105059"
+		picture = "zis_two_fifty_seven_mm_anti_tank_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			zis_two_fifty_seven_mm_anti_tank_gun_hidden = 6000
+			set_global_flag = zis_two_fifty_seven_mm_anti_tank_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### ZiS-3 M1942 76mm Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105060
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_tank_gun = 4
+			has_global_flag = zis_two_fifty_seven_mm_anti_tank_gun
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105060"
+		desc = "EVTDESC9105060"
+		picture = "zis_three_seventy_six_mm_anti_tank_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			zis_three_seventy_six_mm_anti_tank_gun_hidden = 6000
+			set_global_flag = zis_three_seventy_six_mm_anti_tank_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### 25mm Air Defense Gun 72-K (M1940)
+##############################################################
+
+	country_event = {
+		id = 9105061
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_aircraft_gun = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105061"
+		desc = "EVTDESC9105061"
+		picture = "m_nineteen_fourty_twenty_five_mm_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_fourty_twenty_five_mm_anti_air_gun_hidden = 6000
+			set_global_flag = m_nineteen_fourty_twenty_five_mm_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 76mm Air Defense Gun (M1938) (KS-12 / 52-K) 
+##############################################################
+
+	country_event = {
+		id = 9105062
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_aircraft_gun = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105062"
+		desc = "EVTDESC9105062"
+		picture = "m_nineteen_thirty_eight_seventy_six_mm_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_thirty_eight_seventy_six_mm_anti_air_gun_hidden = 6000
+			set_global_flag = m_nineteen_thirty_eight_seventy_six_mm_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 85mm Air Defense Gun Model 1939 (M1939) (KS-12 / 52-K)
+##############################################################
+
+	country_event = {
+		id = 9105063
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_aircraft_gun = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105063"
+		desc = "EVTDESC9105063"
+		picture = "m_nineteen_thirty_nine_eighty_five_mm_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_thirty_nine_eighty_five_mm_anti_air_gun_hidden = 6000
+			set_global_flag = m_nineteen_thirty_nine_eighty_five_mm_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 100mm Air Defense Gun KS-19
+##############################################################
+
+	country_event = {
+		id = 9105064
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_aircraft_gun = 8
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105064"
+		desc = "EVTDESC9105064"
+		picture = "ks_nineteen_one_hundred_mm_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			ks_nineteen_one_hundred_mm_anti_air_gun_hidden = 6000
+			set_global_flag = ks_nineteen_one_hundred_mm_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 130 mm Air Defense Gun KS-30
+##############################################################
+
+	country_event = {
+		id = 9105065
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_aircraft_gun = 11
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105065"
+		desc = "EVTDESC9105065"
+		picture = "ks_thirty_one_hundred_thirty_mm_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			ks_thirty_one_hundred_thirty_mm_anti_air_gun_hidden = 6000
+			set_global_flag = ks_thirty_one_hundred_thirty_mm_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### BM-13 Katyusha
+##############################################################
+
+	country_event = {
+		id = 9105066
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			sp_rocket_artillery_prototype = 2
+			has_global_flag = bm_eight_katyusha
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105066"
+		desc = "EVTDESC9105066"
+		picture = "bm_thirteen_katyusha"
+		
+		option = {
+			name = "Put it Into Production."
+			bm_thirteen_katyusha_hidden = 6000
+			set_global_flag = bm_thirteen_katyusha
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### BM-8 Katyusha
+##############################################################
+
+	country_event = {
+		id = 9105067
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			sp_rocket_artillery_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105067"
+		desc = "EVTDESC9105067"
+		picture = "bm_eight_katyusha"
+		
+		option = {
+			name = "Put it Into Production."
+			bm_eight_katyusha_hidden = 6000
+			set_global_flag = bm_eight_katyusha
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### BM-31 Katyusha
+##############################################################
+
+	country_event = {
+		id = 9105068
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			sp_rocket_artillery_prototype = 3
+			has_global_flag = bm_thirteen_katyusha
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105068"
+		desc = "EVTDESC9105068"
+		picture = "bm_thirty_one_katyusha"
+		
+		option = {
+			name = "Put it Into Production."
+			bm_thirty_one_katyusha_hidden = 6000
+			set_global_flag = bm_thirty_one_katyusha
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### BM-14 Katyusha
+##############################################################
+
+	country_event = {
+		id = 9105069
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			sp_rocket_artillery_prototype = 6
+			has_global_flag = bm_thirty_one_katyusha
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105069"
+		desc = "EVTDESC9105069"
+		picture = "bm_fourteen_katyusha"
+		
+		option = {
+			name = "Put it Into Production."
+			bm_fourteen_katyusha_hidden = 6000
+			set_global_flag = bm_fourteen_katyusha
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### BM-21 Katyusha Grad
+##############################################################
+
+	country_event = {
+		id = 9105070
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			sp_rocket_artillery_prototype = 12
+			has_global_flag = bm_thirty_one_katyusha
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105070"
+		desc = "EVTDESC9105070"
+		picture = "bm_twenty_one_katyusha"
+		
+		option = {
+			name = "Put it Into Production."
+			bm_twenty_one_katyusha_hidden = 6000
+			set_global_flag = bm_twenty_one_katyusha
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### SU-76 Assault Gun
+##############################################################
+
+	country_event = {
+		id = 9105071
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			assault_gun_prototype = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105071"
+		desc = "EVTDESC9105071"
+		picture = "su_seventy_six_assault_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			su_seventy_six_assault_gun_hidden = 6000
+			set_global_flag = su_seventy_six_assault_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### SU-122 Assault Gun
+##############################################################
+
+	country_event = {
+		id = 9105072
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			assault_gun_prototype = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105072"
+		desc = "EVTDESC9105072"
+		picture = "su_one_twenty_two_assault_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			su_one_twenty_two_assault_gun_hidden = 6000
+			set_global_flag = su_one_twenty_two_assault_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### SU-152 Assault Gun
+##############################################################
+
+	country_event = {
+		id = 9105073
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			assault_gun_prototype = 5
+			heavy_tank_prototype = 1
+			has_global_flag = su_one_twenty_two_assault_gun
+		}
+		
+		mean_time_to_happen = {
+			days = 45
+		}	
+		
+		title = "EVTNAME9105073"
+		desc = "EVTDESC9105073"
+		picture = "su_one_fifty_two_assault_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			su_one_fifty_two_assault_gun_hidden = 6000
+			set_global_flag = su_one_fifty_two_assault_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### ISU-122 Heavy Assault Gun
+##############################################################
+
+	country_event = {
+		id = 9105074
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			heavy_assault_gun_prototype = 2
+			heavy_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105074"
+		desc = "EVTDESC9105074"
+		picture = "isu_one_twenty_two_heavy_assault_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			isu_one_twenty_two_heavy_assault_gun_hidden = 6000
+			set_global_flag = isu_one_twenty_two_heavy_assault_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### ISU-152 Heavy Assault Gun
+##############################################################
+
+	country_event = {
+		id = 9105075
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			heavy_assault_gun_prototype = 2
+			heavy_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105075"
+		desc = "EVTDESC9105075"
+		picture = "isu_one_fifty_two_heavy_assault_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			isu_one_fifty_two_heavy_assault_gun_hidden = 6000
+			set_global_flag = isu_one_fifty_two_heavy_assault_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### ZSU-37 SP Anti-Air Gun
+##############################################################
+
+	country_event = {
+		id = 9105076
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			sp_anti_aircraft_prototype = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105076"
+		desc = "EVTDESC9105076"
+		picture = "zsu_thirty_seven_sp_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			zsu_thirty_seven_sp_anti_air_gun_hidden = 6000
+			set_global_flag = zsu_thirty_seven_sp_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### BT-5 Infantry Tank
+##############################################################
+
+	country_event = {
+		id = 9105077
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			infantry_tank_design = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105077"
+		desc = "EVTDESC9105077"
+		picture = "bt_five_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			bt_five_infantry_tank_hidden = 6000
+			set_global_flag = bt_five_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### BT-7 Cavalry Tank
+##############################################################
+
+	country_event = {
+		id = 9105078
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			infantry_tank_design = 2
+			has_global_flag = bt_five_infantry_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105078"
+		desc = "EVTDESC9105078"
+		picture = "bt_seven_cavalry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			bt_seven_cavalry_tank_hidden = 6000
+			set_global_flag = bt_seven_cavalry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### BT-7M Cavalry Tank
+##############################################################
+
+	country_event = {
+		id = 9105079
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			infantry_tank_design = 4
+			has_global_flag = bt_seven_cavalry_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105079"
+		desc = "EVTDESC9105079"
+		picture = "bt_seven_m_cavalry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			bt_seven_m_cavalry_tank_hidden = 6000
+			set_global_flag = bt_seven_m_cavalry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### T-26 Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105080
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			light_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105080"
+		desc = "EVTDESC9105080"
+		picture = "t_twenty_six_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_twenty_six_light_tank_hidden = 6000
+			set_global_flag = t_twenty_six_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### T-37A Tankette
+##############################################################
+
+	country_event = {
+		id = 9105081
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			light_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105081"
+		desc = "EVTDESC9105081"
+		picture = "t_thirty_seven_tankette"
+		
+		option = {
+			name = "Put it Into Production."
+			t_thirty_seven_tankette_hidden = 6000
+			set_global_flag = t_thirty_seven_tankette
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### T-60 Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105082
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			light_tank_prototype = 3
+			has_global_flag = t_twenty_six_light_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105082"
+		desc = "EVTDESC9105082"
+		picture = "t_sixty_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_sixty_light_tank_hidden = 6000
+			set_global_flag = t_sixty_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### T-70 Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105083
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			light_tank_prototype = 4
+			has_global_flag = t_sixty_light_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105083"
+		desc = "EVTDESC9105083"
+		picture = "t_seventy_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_seventy_light_tank_hidden = 6000
+			set_global_flag = t_seventy_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### T-28 Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9105084
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			medium_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105084"
+		desc = "EVTDESC9105084"
+		picture = "t_twenty_eight_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_twenty_eight_medium_tank_hidden = 6000
+			set_global_flag = t_twenty_eight_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### T-34 Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9105085
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			medium_tank_prototype = 2
+			sloped_armor = 1 
+			wide_tank_tracks = 1
+			infantry_tank_design = 4
+			rugged_and_simple_tank_designs = 1
+			has_global_flag = bt_seven_m_cavalry_tank
+			has_global_flag = t_twenty_eight_medium_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105085"
+		desc = "EVTDESC9105085"
+		picture = "t_thirty_four_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_thirty_four_medium_tank_hidden = 6000
+			set_global_flag = t_thirty_four_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### T-44 Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9105086
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			medium_tank_prototype = 4
+			has_global_flag = t_thirty_four_medium_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105086"
+		desc = "EVTDESC9105086"
+		picture = "t_fourty_four_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_fourty_four_medium_tank_hidden = 6000
+			set_global_flag = t_fourty_four_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### T-35 Heavy Tank
+##############################################################
+
+	country_event = {
+		id = 9105087
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			heavy_tank_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105087"
+		desc = "EVTDESC9105087"
+		picture = "t_thirty_five_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_thirty_five_heavy_tank_hidden = 6000
+			set_global_flag = t_thirty_five_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### KV-1 Heavy Tank Mod.1939
+##############################################################
+
+	country_event = {
+		id = 9105088
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			heavy_tank_prototype = 2
+			deep_battle_doctrine = 1
+			tank_extra_front_armor = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105088"
+		desc = "EVTDESC9105088"
+		picture = "kv_one_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			kv_one_heavy_tank_hidden = 6000
+			set_global_flag = kv_one_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### KV-1B Heavy Tank Mod.1941
+##############################################################
+
+	country_event = {
+		id = 9105089
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			heavy_tank_prototype = 2
+			deep_battle_doctrine = 1
+			has_global_flag = kv_one_heavy_tank
+			land_battles_fought = 100
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105089"
+		desc = "EVTDESC9105089"
+		picture = "kv_one_b_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			kv_one_b_heavy_tank_hidden = 6000
+			set_global_flag = kv_one_b_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### KV-1S Heavy Tank Mod.1942
+##############################################################
+
+	country_event = {
+		id = 9105090
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			has_global_flag = kv_one_b_heavy_tank
+			land_battles_fought = 150
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105090"
+		desc = "EVTDESC9105090"
+		picture = "kv_one_s_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			kv_one_s_heavy_tank_hidden = 6000
+			set_global_flag = kv_one_s_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### KV-85 Heavy Tank Mod.1944
+##############################################################
+
+	country_event = {
+		id = 9105091
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			has_global_flag = kv_one_s_heavy_tank
+			land_battles_fought = 1000
+			year = 1943
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105091"
+		desc = "EVTDESC9105091"
+		picture = "kv_eighty_five_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			kv_eighty_five_heavy_tank_hidden = 6000
+			set_global_flag = kv_eighty_five_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### IS-2 Heavy Tank Mod.1943
+##############################################################
+
+	country_event = {
+		id = 9105092
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			heavy_tank_prototype = 4	
+			has_global_flag = kv_eighty_five_heavy_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105092"
+		desc = "EVTDESC9105092"
+		picture = "is_two_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			is_two_heavy_tank_hidden = 6000
+			set_global_flag = is_two_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### IS-2 Heavy Tank Mod.1944
+##############################################################
+
+	country_event = {
+		id = 9105093
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			heavy_tank_prototype = 4	
+			has_global_flag = is_two_heavy_tank
+			year = 1944
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105093"
+		desc = "EVTDESC9105093"
+		picture = "is_two_mod_nineteen_fourty_four_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			is_two_mod_nineteen_fourty_four_heavy_tank_hidden = 6000
+			set_global_flag = is_two_mod_nineteen_fourty_four_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### IS-3 Super Heavy Tank Mod.1945
+##############################################################
+
+	country_event = {
+		id = 9105094
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			super_heavy_tank_prototype = 1
+			has_global_flag = is_two_mod_nineteen_fourty_four_heavy_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105094"
+		desc = "EVTDESC9105094"
+		picture = "is_three_mod_nineteen_fourty_five_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			is_three_mod_nineteen_fourty_five_heavy_tank_hidden = 6000
+			set_global_flag = is_three_mod_nineteen_fourty_five_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### SU-85 Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105095
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			medium_tank_destroyer_prototype = 2
+			has_global_flag = t_thirty_four_medium_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105095"
+		desc = "EVTDESC9105095"
+		picture = "su_eighty_five_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			su_eighty_five_tank_destroyer_hidden = 6000
+			set_global_flag = su_eighty_five_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### SU-100 Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105096
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			medium_tank_destroyer_prototype = 4
+			has_global_flag = t_thirty_four_medium_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105096"
+		desc = "EVTDESC9105096"
+		picture = "su_one_hundred_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			su_one_hundred_tank_destroyer_hidden = 6000
+			set_global_flag = su_one_hundred_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+######################################################################################################################
+#### SOVIET COLD WAR WEAPONS
+######################################################################################################################
+##############################################################
+#### T-54 Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9105097
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			main_battle_tank = 1
+			has_global_flag = t_thirty_four_medium_tank
+			has_global_flag = t_fourty_four_medium_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105097"
+		desc = "EVTDESC9105097"
+		picture = "t_fifty_four_main_battle_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_fifty_four_main_battle_tank_hidden = 6000
+			set_global_flag = t_fifty_four_main_battle_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### IS-4 Super Heavy Tank Mod.1947
+##############################################################
+
+	country_event = {
+		id = 9105098
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			super_heavy_tank_prototype = 2
+			has_global_flag = is_three_mod_nineteen_fourty_five_heavy_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105098"
+		desc = "EVTDESC9105098"
+		picture = "is_four_mod_nineteen_fourty_seven_super_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			is_four_mod_nineteen_fourty_seven_super_heavy_tank_hidden = 6000
+			set_global_flag = is_four_mod_nineteen_fourty_seven_super_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### BTR-50 Armored Personnel Carrier (APC)
+##############################################################
+
+	country_event = {
+		id = 9105099
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			armored_personnel_carriers = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105099"
+		desc = "EVTDESC9105099"
+		picture = "btr_fifty_armored_personnel_carrier"
+		
+		option = {
+			name = "Put it Into Production."
+			btr_fifty_armored_personnel_carrier_hidden = 6000
+			set_global_flag = btr_fifty_armored_personnel_carrier
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### ASU-57 Airborne Self-Propelled Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105100
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			light_tank_destroyer_prototype = 1
+			advanced_tank_technology = 1
+			armored_personnel_carriers = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105100"
+		desc = "EVTDESC9105100"
+		picture = "asu_fifty_seven_airborne_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			asu_fifty_seven_airborne_tank_destroyer_hidden = 6000
+			set_global_flag = asu_fifty_seven_airborne_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### PT-76 Light Amphibious Tank
+##############################################################
+
+	country_event = {
+		id = 9105101
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			tracked_amphibious_landing_craft_prototype = 1
+			advanced_tank_technology = 1
+			armored_personnel_carriers = 1
+			light_tank_prototype = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105101"
+		desc = "EVTDESC9105101"
+		picture = "pt_seventy_six_light_amphibious_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			pt_seventy_six_light_amphibious_tank_hidden = 6000
+			set_global_flag = pt_seventy_six_light_amphibious_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### IS-10 Super Heavy Tank Mod.1952
+##############################################################
+
+	country_event = {
+		id = 9105102
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			super_heavy_tank_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105102"
+		desc = "EVTDESC9105102"
+		picture = "is_ten_mod_nineteen_fifty_two_super_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			is_ten_mod_nineteen_fifty_two_super_heavy_tank_hidden = 6000
+			set_global_flag = is_ten_mod_nineteen_fifty_two_super_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### ZSU-57-2 Self-Propelled Anti-Aircraft Gun Platform
+##############################################################
+
+	country_event = {
+		id = 9105103
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			sp_anti_aircraft_prototype = 4
+			armored_personnel_carriers = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105103"
+		desc = "EVTDESC9105103"
+		picture = "zsu_fifty_seven_sp_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			zsu_fifty_seven_sp_aa_gun_hidden = 6000
+			set_global_flag = zsu_fifty_seven_sp_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}			
+##############################################################
+#### 2B1 Oka SP Super Heavy Artillery
+##############################################################
+
+	country_event = {
+		id = 9105104
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			sp_artillery_prototype = 5
+			advanced_tank_technology = 1
+			hvy_field_artillery = 11
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105104"
+		desc = "EVTDESC9105104"
+		picture = "two_b_one_oka_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			two_b_one_oka_sp_artillery_hidden = 6000
+			set_global_flag = two_b_one_oka_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### T-55 Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9105105
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			main_battle_tank = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105105"
+		desc = "EVTDESC9105105"
+		picture = "t_fifty_five_main_battle_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_fifty_five_main_battle_tank_hidden = 6000
+			set_global_flag = t_fifty_five_main_battle_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### BTR-60 8x8 Armored Personnel Carrier
+##############################################################
+
+	country_event = {
+		id = 9105106
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			armored_personnel_carriers = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105106"
+		desc = "EVTDESC9105106"
+		picture = "btr_sixty_armored_personnel_carrier"
+		
+		option = {
+			name = "Put it Into Production."
+			btr_sixty_armored_personnel_carrier_hidden = 6000
+			set_global_flag = btr_sixty_armored_personnel_carrier
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### ZU-23-2 / ZU-23 Anti-Air Gun
+##############################################################
+
+	country_event = {
+		id = 9105107
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			anti_aircraft_gun = 15
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105107"
+		desc = "EVTDESC9105107"
+		picture = "zu_twenty_three_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			zu_twenty_three_anti_air_gun_hidden = 6000
+			set_global_flag = zu_twenty_three_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}			
+##############################################################
+#### T-62 Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9105108
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			main_battle_tank = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105108"
+		desc = "EVTDESC9105108"
+		picture = "t_sixty_two_main_battle_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_sixty_two_main_battle_tank_hidden = 6000
+			set_global_flag = t_sixty_two_main_battle_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### ZSU-23-4 (Shilka) Self-Propelled Anti-Aircraft Gun (SPAAG)
+##############################################################
+
+	country_event = {
+		id = 9105109
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			sp_anti_aircraft_prototype = 4
+			armored_personnel_carriers = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105109"
+		desc = "EVTDESC9105109"
+		picture = "zsu_twenty_three_shilka_sp_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			zsu_twenty_three_shilka_sp_anti_air_gun_hidden = 6000
+			set_global_flag = zsu_twenty_three_shilka_sp_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### BMP-1 Armored Personnel Carrier
+##############################################################
+
+	country_event = {
+		id = 9105110
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			armored_personnel_carriers = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105110"
+		desc = "EVTDESC9105110"
+		picture = "bmp_one_armored_personnel_carrier"
+		
+		option = {
+			name = "Put it Into Production."
+			bmp_one_armored_personnel_carrier_hidden = 6000
+			set_global_flag = bmp_one_armored_personnel_carrier
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### T-64 Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9105111
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			main_battle_tank = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105111"
+		desc = "EVTDESC9105111"
+		picture = "t_sixty_four_main_battle_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_sixty_four_main_battle_tank_hidden = 6000
+			set_global_flag = t_sixty_four_main_battle_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### AKM Assault Rifle
+##############################################################
+
+	country_event = {
+		id = 9105112
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			advanced_assault_rifles = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105112"
+		desc = "EVTDESC9105112"
+		picture = "akm_assualt_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			akm_assualt_rifle_hidden = 6000
+			set_global_flag = akm_assualt_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### RPG-7
+##############################################################
+
+	country_event = {
+		id = 9105113
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			rocket_propelled_grenades = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105113"
+		desc = "EVTDESC9105113"
+		picture = "rpg_seven"
+		
+		option = {
+			name = "Put it Into Production."
+			rpg_seven_hidden = 6000
+			set_global_flag = rpg_seven
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### RPK Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105114
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			advanced_light_machine_guns = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105114"
+		desc = "EVTDESC9105114"
+		picture = "rpk_light_machine_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			rpk_light_machine_gun_hidden = 6000
+			set_global_flag = rpk_light_machine_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### SA-7 MANPAD
+##############################################################
+
+	country_event = {
+		id = 9105115
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SOV
+			manpads = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105115"
+		desc = "EVTDESC9105115"
+		picture = "sa_seven_manpad"
+		
+		option = {
+			name = "Put it Into Production."
+			sa_seven_manpad_hidden = 6000
+			set_global_flag = sa_seven_manpad
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		

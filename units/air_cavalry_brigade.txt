@@ -1,0 +1,98 @@
+air_cavalry_brigade = {
+	type = land
+	sprite = Infantry ##helicopters
+	active = no
+	is_buildable = yes
+	
+	unit_group = mobile_unit_type 
+	
+	#max_percentage_of_type = 0.25
+	
+	#Size Definitions
+	max_strength = 5.00
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 35
+
+	#Building Costs
+	build_cost_ic = 20.00 ##expensive unit due to helicopters
+	build_cost_manpower = 1.000
+	build_time = 180
+	repair_cost_multiplier = 0.25
+
+	#Misc Abilities
+	maximum_speed = 157 ##helicopters
+	transport_weight = 150.00
+	supply_consumption = 2.65
+	fuel_consumption = 3.85 ##helicopters
+	radio_strength = 0.25
+
+	#Defensive Abilities
+	defensiveness = 28.00
+	toughness = 0.00
+	softness = 0.65
+	air_defence = 1.0 
+
+	#Offensive Abilities
+	suppression = 8.00 ##dropping rapidly from above
+	soft_attack = 10.25
+	hard_attack = 1.25
+	air_attack = 0.75
+	ap_attack = 1
+	
+	## Air Cavalry have no malus to movement due to helicopters and can shift their attack easily.
+	
+	plains = {
+		attack = 0.15 ## Slight bonus due to terrain being easy to fight on.  
+	}
+	river = { 
+		attack = 0.15 ## no boats to cross river
+	}
+	arctic = {	
+		attack = 0.10 ## Not easy to attack in frigid weather.   
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		attack = 0.15 ## Easy to attack but hot	
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = -0.15 ## Can't Land Helicopters in Wooded Areas
+	}
+	forest = {
+		attack = -0.40 ## Can't Land Helicopters in Forested Areas
+	}
+	jungle = { 
+		attack = -0.40 ## Can't Land Helicopters in Dense Jungle Areas
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		attack = 0.15 # Hard to attack up hills
+	}
+	mountain = { 
+		attack = 0.15 # Not trained in mountain warfare
+	}
+	urban = {
+		attack = 0.10 ## Difficult to Land Helicopters in Urban Zones
+	}
+	marsh = { 
+		attack = 0.15 ## 
+	}
+	amphibious = { 
+		attack = -1.50 ## No where to put Helicopters without the appropriate amphibious ship type
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		attack = 0.50 # Can land on top of forts
+	}
+
+	combat_width = 0.75
+
+	completion_size = 0.10
+	on_completion = mobile_practical
+	
+	priority = 65
+}

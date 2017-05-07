@@ -1,0 +1,5274 @@
+# Advanced Armor Technology
+#########################################################################################
+## 
+#########################################################################################
+
+#########################################################################################
+## Tank Gun Ballistics  
+#########################################################################################
+tank_gun_ballistics = {
+
+	allow = {
+		
+		WWI_tank_designs = 1
+				
+	}
+	
+		
+	change = no
+	
+	can_upgrade = no		
+			
+	research_bonus_from = {
+		spearhead_theory = 0.1
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1936
+	folder = advanced_armor_folder
+}
+#########################################################################################
+## Short Barrel Tank Gun Design
+#########################################################################################
+short_barrel_tank_gun_design = {
+
+	allow = {
+		tank_gun_ballistics = 1
+		infantry_tank_design = 2
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	infantry_tank_brigade = {
+		maximum_speed = -0.02
+		toughness = -0.15
+		soft_attack = 1.0
+		fort = {
+			attack = 0.05
+		}
+	}
+	assault_gun_brigade = {
+		maximum_speed = -0.02
+		toughness = -0.15
+		soft_attack = 1.0
+		fort = {
+			attack = 0.05
+		}
+	}
+			
+	research_bonus_from = {
+		spearhead_theory = 0.1
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	folder = advanced_armor_folder
+}
+#########################################################################################
+## Medium Velocity Tank Gun  
+#########################################################################################
+medium_velocity_tank_gun = {
+
+	allow = {
+		
+		tank_gun_ballistics = 1
+		medium_tank_turret_designs = 2
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {
+		ap_attack = 1
+	}
+	armor_bat = {
+		ap_attack = 1
+	}
+		
+	guard_armor_brigade = {
+		ap_attack = 1
+	}
+	guard_armor_bat = {
+		ap_attack = 1
+	}
+	
+	ss_armor_brigade = {
+		ap_attack = 1
+	}
+	ss_armor_bat = {
+		ap_attack = 1
+	}
+	
+	lehr_brigade = {
+		ap_attack = 1
+	}	
+	
+	afrika_brigade = {
+		ap_attack = 1
+	}
+	
+	desertrats_brigade = {
+		ap_attack = 1
+	}
+	
+			
+	research_bonus_from = {
+		spearhead_theory = 0.1
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 3
+	folder = advanced_armor_folder
+}
+
+#########################################################################################
+## High Velocity Tank Gun  
+#########################################################################################
+high_velocity_tank_gun = {
+
+	allow = {
+		
+		tank_gun_ballistics = 1
+		OR = { 
+			medium_tank_turret_designs = 3
+			heavy_tank_turret_designs = 3
+		}
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {
+		ap_attack = 2
+	}
+	armor_bat = {
+		ap_attack = 2
+	}
+		
+	guard_armor_brigade = {
+		ap_attack = 2
+	}
+	guard_armor_bat = {
+		ap_attack = 2
+	}
+	
+	ss_armor_brigade = {
+		ap_attack = 2
+	}
+	ss_armor_bat = {
+		ap_attack = 2
+	}
+	
+	lehr_brigade = {
+		ap_attack = 2
+	}	
+	
+	afrika_brigade = {
+		ap_attack = 2
+	}
+	
+	desertrats_brigade = {
+		ap_attack = 2
+	}
+	
+			
+	research_bonus_from = {
+		spearhead_theory = 0.20
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 8
+	
+	# common for all techs.
+	start_year = 1942
+	first_offset = 1943
+	additional_offset = 1
+	max_level = 2
+	folder = advanced_armor_folder
+}
+
+#########################################################################################
+## Extremely High Velocity Tank Gun  
+#########################################################################################
+extremely_high_velocity_tank_gun = {
+
+	allow = {
+		
+		tank_gun_ballistics = 1
+		heavy_tank_turret_designs = 4
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+		
+	heavy_armor_brigade = {
+		ap_attack = 3
+	}
+	ss_heavy_armor_brigade = {
+		ap_attack = 3
+	}
+	guard_heavy_armor_brigade = {
+		ap_attack = 3
+	}
+	
+	super_heavy_armor_brigade = {
+		ap_attack = 3
+	}
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 10
+	
+	# common for all techs.
+	start_year = 1942
+	first_offset = 1944
+	additional_offset = 2
+	max_level = 4
+	folder = advanced_armor_folder
+}
+
+#########################################################################
+# Anti-Tank Gun Adaptation
+#########################################################################
+tank_anti_tank_gun_adaptation = {
+	
+	allow = { 
+		
+		OR = {
+			medium_tank_prototype = 3
+			light_tank_destroyer_prototype = 3
+		}
+		armor_versus_armor_engagements = 4
+		versatile_tank_designs = 1	
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {
+		ap_attack = 2
+	}
+	armor_bat = {
+		ap_attack = 2
+	}
+		
+	desertrats_brigade = {
+		ap_attack = 2
+	}
+	
+	heavy_armor_brigade = {
+		ap_attack = 2
+	}
+		
+	
+	research_bonus_from = {
+		spearhead_theory = 0.80
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1944
+	folder = advanced_armor_folder
+}
+
+#########################################################################################
+## Tank Extra Front Armor
+#########################################################################################
+tank_extra_front_armor = {
+
+	allow = {
+		
+		OR = { 
+			land_battles_fought = 500
+			medium_tank_armor_designs = 2
+			heavy_tank_armor_designs = 2
+		}		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	light_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		armor_value = 0.15
+		air_defence = 0.10
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	light_armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 1
+		armor_value = 0.05
+		air_defence = 0.10
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	
+	armor_brigade = {
+		build_cost_ic = 0.24
+		build_time = 3
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -1
+		maximum_speed = -0.10
+	}
+	armor_bat = {
+		build_cost_ic = 0.12
+		build_time = 1
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -1
+		maximum_speed = -0.10
+	}
+		
+	guard_armor_brigade = {
+		build_cost_ic = 0.24
+		build_time = 3
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -1
+		maximum_speed = -0.10
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.12
+		build_time = 1
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -1
+		maximum_speed = -0.10
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.24
+		build_time = 3
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -1
+		maximum_speed = -0.10
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.12
+		build_time = 1
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -1
+		maximum_speed = -0.10
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.24
+		build_time = 3
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -1
+		maximum_speed = -0.10
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.24
+		build_time = 3
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -1
+		maximum_speed = -0.10
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.25
+		build_time = 3
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -1
+		maximum_speed = -0.10
+	}
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.10
+		build_time = 3
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -1
+		maximum_speed = -0.10
+	}
+		
+	amph_armour_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -1
+		maximum_speed = -0.10
+	}
+	
+	heavy_armor_brigade = {
+		build_cost_ic = 0.30
+		build_time = 5
+		armor_value = 1.00
+		air_defence = 1.00
+		toughness = -1
+		maximum_speed = -0.15
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.30
+		build_time = 5
+		armor_value = 1.00
+		air_defence = 1.00
+		toughness = -1
+		maximum_speed = -0.15
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.30
+		build_time = 5
+		armor_value = 1.00
+		air_defence = 1.00
+		toughness = -1
+		maximum_speed = -0.15
+	}
+	
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.35
+		build_time = 5
+		armor_value = 1.00
+		air_defence = 1.00
+		toughness = -1
+		maximum_speed = -0.15
+	}
+	
+	tank_destroyer_brigade = {
+		build_cost_ic = 0.08
+		build_time = 3
+		armor_value = 0.15
+		air_defence = 0.15
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	
+	medium_tank_destroyer_brigade = {
+		build_cost_ic = 0.12
+		build_time = 2
+		armor_value = 0.35
+		air_defence = 0.35
+		toughness = -0.75
+		maximum_speed = -0.10
+	}
+	
+	ss_tank_destroyer_brigade = {
+		build_cost_ic = 0.12
+		build_time = 2
+		armor_value = 0.35
+		air_defence = 0.35
+		toughness = -0.75
+		maximum_speed = -0.10
+	}
+	
+	heavy_tank_destroyer_brigade = {
+		build_cost_ic = 0.15
+		build_time = 4
+		armor_value = 0.85
+		air_defence = 0.85
+		toughness = -0.85
+		maximum_speed = -0.15
+	}	
+	
+	armored_support_brigade = {
+		build_cost_ic = 0.12
+		build_time = 2
+		armor_value = 0.35
+		air_defence = 0.35
+		toughness = -0.75
+		maximum_speed = -0.10
+	}
+	
+	ss_armored_support_brigade = {
+		build_cost_ic = 0.12
+		build_time = 2
+		armor_value = 0.35
+		air_defence = 0.35
+		toughness = -0.75
+		maximum_speed = -0.10
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1940
+	first_offset = 1942
+	additional_offset = 2
+	max_level = 5
+	folder = advanced_armor_folder
+}
+#########################################################################################
+## Tank Extra Side Armor
+#########################################################################################
+tank_extra_side_armor = {
+
+	allow = {
+		
+		OR = { 
+			land_battles_fought = 750
+			medium_tank_armor_designs = 3
+			heavy_tank_armor_designs = 2
+		}
+				
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	light_armor_brigade = {
+		build_cost_ic = 0.06
+		build_time = 1
+		armor_value = 0.05
+		air_defence = 0.05
+		toughness = -0.05
+		maximum_speed = -0.01
+	}
+	light_armor_bat = {
+		build_cost_ic = 0.03
+		build_time = 1
+		armor_value = 0.03
+		air_defence = 0.03
+		toughness = -0.05
+		maximum_speed = -0.01
+	}
+	
+	armor_brigade = {
+		build_cost_ic = 0.12
+		build_time = 1
+		armor_value = 0.10
+		air_defence = 0.10
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	armor_bat = {
+		build_cost_ic = 0.06
+		build_time = 1
+		armor_value = 0.03
+		air_defence = 0.03
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+		
+	guard_armor_brigade = {
+		build_cost_ic = 0.12
+		build_time = 1
+		armor_value = 0.10
+		air_defence = 0.10
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.06
+		build_time = 1
+		armor_value = 0.03
+		air_defence = 0.03
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.12
+		build_time = 1
+		armor_value = 0.10
+		air_defence = 0.10
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.06
+		build_time = 1
+		armor_value = 0.03
+		air_defence = 0.03
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.12
+		build_time = 1
+		armor_value = 0.10
+		air_defence = 0.10
+		toughness = -0.25
+		maximum_speed = -0.05
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.12
+		build_time = 1
+		armor_value = 0.10
+		air_defence = 0.10
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.12
+		build_time = 1
+		armor_value = 0.10
+		air_defence = 0.10
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.04
+		build_time = 1
+		armor_value = 0.10
+		air_defence = 0.10
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+		
+	amph_armour_brigade = {
+		build_cost_ic = 0.07
+		build_time = 1
+		armor_value = 0.10
+		air_defence = 0.10
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	
+	heavy_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 2
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 2
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 2
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.20
+		build_time = 2
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1941
+	first_offset = 1943
+	additional_offset = 2
+	max_level = 5
+	folder = advanced_armor_folder
+}
+#########################################################################################
+## Tank Extra Mantlet Armor
+#########################################################################################
+tank_extra_mantlet_armor = {
+
+	allow = {
+		
+		OR = { 
+			land_battles_fought = 1000
+			medium_tank_armor_designs = 3
+			heavy_tank_armor_designs = 3
+		}
+				
+	}
+	
+	change = no
+	
+	can_upgrade = no
+		
+	armor_brigade = {
+		build_cost_ic = 0.06
+		build_time = 2
+		armor_value = 0.15
+		air_defence = 0.15
+		toughness = -0.35
+		maximum_speed = -0.02
+	}
+	armor_bat = {
+		build_cost_ic = 0.03
+		build_time = 1
+		armor_value = 0.07
+		air_defence = 0.07
+		toughness = -0.35
+		maximum_speed = -0.02
+	}
+		
+	guard_armor_brigade = {
+		build_cost_ic = 0.06
+		build_time = 2
+		armor_value = 0.15
+		air_defence = 0.15
+		toughness = -0.35
+		maximum_speed = -0.02
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.03
+		build_time = 1
+		armor_value = 0.07
+		air_defence = 0.07
+		toughness = -0.35
+		maximum_speed = -0.02
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.06
+		build_time = 2
+		armor_value = 0.15
+		air_defence = 0.15
+		toughness = -0.35
+		maximum_speed = -0.02
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.03
+		build_time = 1
+		armor_value = 0.07
+		air_defence = 0.07
+		toughness = -0.35
+		maximum_speed = -0.02
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.06
+		build_time = 2
+		armor_value = 0.15
+		air_defence = 0.15
+		toughness = -0.35
+		maximum_speed = -0.02
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.06
+		build_time = 2
+		armor_value = 0.15
+		air_defence = 0.15
+		toughness = -0.35
+		maximum_speed = -0.02
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.06
+		build_time = 2
+		armor_value = 0.15
+		air_defence = 0.15
+		toughness = -0.35
+		maximum_speed = -0.02
+	}
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.02
+		build_time = 2
+		armor_value = 0.15
+		air_defence = 0.15
+		toughness = -0.35
+		maximum_speed = -0.02
+	}
+		
+	amph_armour_brigade = {
+		build_cost_ic = 0.03
+		build_time = 2
+		armor_value = 0.15
+		air_defence = 0.15
+		toughness = -0.35
+		maximum_speed = -0.02
+	}
+	
+	heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 2
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -0.45
+		maximum_speed = -0.03
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 2
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -0.45
+		maximum_speed = -0.03
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 2
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -0.45
+		maximum_speed = -0.03
+	}
+	
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.12
+		build_time = 2
+		armor_value = 0.25
+		air_defence = 0.25
+		toughness = -0.45
+		maximum_speed = -0.03
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1942
+	first_offset = 1944
+	additional_offset = 2
+	max_level = 4
+	folder = advanced_armor_folder
+}
+
+#########################################################################################
+## Rugged and Simple Tank Designs
+#########################################################################################
+rugged_and_simple_tank_designs = {
+
+	allow = {
+		NOT = { infantry_tank_support_doctrine = 1 }
+		deep_battle_doctrine = 1
+		OR = { 
+			light_tank_prototype = 2
+			medium_tank_prototype = 1
+			heavy_tank_prototype = 1
+		}
+		
+		
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+	
+	light_armor_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 3.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	light_armor_bat = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	
+	armor_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	desertrats_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	armor_bat = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	ss_armor_bat = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	guard_armor_bat = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	combined_arms_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	guard_armor_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	ss_armor_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	
+	afrika_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	
+	heavy_armor_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	ss_heavy_armor_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	guard_heavy_armor_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}
+	
+	super_heavy_armor_brigade = {
+		maximum_speed = 0.05
+		defensiveness = 1.00
+		toughness = 5
+		plains = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}	
+		arctic = {	
+			attack = 0.10
+			defence = 0.10
+			movement = 0.10
+		}
+	}		
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1939
+	folder = advanced_armor_folder
+}
+
+#########################################################################################
+## Precision Engineered Tank Designs
+#########################################################################################
+precision_engineered_tank_designs = {
+
+	allow = {
+		NOT = { infantry_tank_support_doctrine = 1 }
+		NOT  = { deep_battle_doctrine = 1 }
+		blitzkrieg = 1
+		OR = { 
+			light_tank_prototype = 2
+			medium_tank_prototype = 1
+			heavy_tank_prototype = 3
+		}
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+	
+	light_armor_brigade = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 0.15
+		toughness = -5
+		armor_value = 1
+	}
+	light_armor_bat = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 0.15
+		toughness = -5
+		armor_value = 1
+	}
+	
+	armor_brigade = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 1.00
+		toughness = -5
+		armor_value = 3
+	}
+	desertrats_brigade = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 1.00
+		toughness = -5
+		armor_value = 3
+	}
+	armor_bat = {
+		soft_attack = 0.50
+		hard_attack = 0.50
+		ap_attack = 0.50
+		toughness = -5
+		armor_value = 2
+	}
+	ss_armor_bat = {
+		soft_attack = 0.50
+		hard_attack = 0.50
+		ap_attack = 0.50
+		toughness = -5
+		armor_value = 2
+	}
+	guard_armor_bat = {
+		soft_attack = 0.50
+		hard_attack = 0.50
+		ap_attack = 0.50
+		toughness = -5
+		armor_value = 2
+	}
+	combined_arms_brigade = {
+		soft_attack = 0.50
+		hard_attack = 0.50
+		ap_attack = 0.50
+		toughness = -5
+		armor_value = 2
+	}
+	guard_armor_brigade = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 1.00
+		toughness = -5
+		armor_value = 3
+	}
+	ss_armor_brigade = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 1.00
+		toughness = -5
+		armor_value = 3
+	}
+	
+	afrika_brigade = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 1.00
+		toughness = -5
+		armor_value = 3
+	}
+	
+	heavy_armor_brigade = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 1.00
+		toughness = -5
+		armor_value = 3
+	}
+	ss_heavy_armor_brigade = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 1.00
+		toughness = -5
+		armor_value = 3
+	}
+	guard_heavy_armor_brigade = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 1.00
+		toughness = -5
+		armor_value = 3
+	}
+	
+	super_heavy_armor_brigade = {
+		soft_attack = 1.00
+		hard_attack = 1.00
+		ap_attack = 1.00
+		toughness = -5
+		armor_value = 3
+	}
+				
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1939
+	folder = advanced_armor_folder
+}
+
+#########################################################################################
+## Versatile Tank Designs
+#########################################################################################
+versatile_tank_designs = {
+
+	allow = {
+		infantry_tank_support_doctrine = 1 
+		NOT  = { blitzkrieg = 1 }
+		NOT  = { deep_battle_doctrine = 1 }
+		OR = { 
+			light_tank_prototype = 3
+			medium_tank_prototype = 2
+			heavy_tank_prototype = 4
+		}
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+	
+	light_armor_brigade = {
+		ap_attack = 0.15
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -1
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	light_armor_bat = {
+		ap_attack = 0.10
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -1
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	
+	armor_brigade = {
+		ap_attack = 0.25
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -3
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	desertrats_brigade = {
+		ap_attack = 0.25
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -3
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	armor_bat = {
+		ap_attack = 0.15
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -2
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	ss_armor_bat = {
+		ap_attack = 0.15
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -2
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	guard_armor_bat = {
+		ap_attack = 0.15
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -2
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	combined_arms_brigade = {
+		ap_attack = 0.15
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -2
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	guard_armor_brigade = {
+		ap_attack = 0.25
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -3
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	ss_armor_brigade = {
+		ap_attack = 0.25
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -3
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	
+	afrika_brigade = {
+		ap_attack = 0.25
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -3
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	
+	heavy_armor_brigade = {
+		ap_attack = 0.25
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -3
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	ss_heavy_armor_brigade = {
+		ap_attack = 0.25
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -3
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	guard_heavy_armor_brigade = {
+		ap_attack = 0.25
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -3
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}
+	
+	super_heavy_armor_brigade = {
+		ap_attack = 0.25
+		defensiveness = -1.00
+		toughness = 1
+		armor_value = -3
+		plains = {
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+		forest = { 
+			movement = 0.10 
+		}
+		woods = { 
+			movement = 0.10 
+		}
+	}		
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1939
+	folder = advanced_armor_folder
+}
+
+#########################################################################
+# Christie Suspension
+#########################################################################
+christie_suspension = {
+	
+	allow = { 
+		
+		WWI_tank_designs = 1	
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	armor_bat = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+			
+	amph_armour_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	
+	medium_tank_destroyer_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	
+	ss_tank_destroyer_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+		
+	armored_support_brigade = {
+		build_cost_ic = 0.04
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	
+	ss_armored_support_brigade = {
+		build_cost_ic = 0.04
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	
+	assault_gun_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		defensiveness = -2
+		plains = {
+			movement = 0.08
+		}
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.80
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 3 # 1940
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Torsion Bar Suspension
+#########################################################################
+torsion_bar_suspension = {
+	
+	allow = { 
+		
+		WWI_tank_designs = 1
+		medium_tank_track_and_suspension_designs = 1
+		armor_maneuver_warfare_doctrine = 1
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	armor_bat = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+			
+	amph_armour_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	
+	medium_tank_destroyer_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	
+	ss_tank_destroyer_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+		
+	armored_support_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	
+	ss_armored_support_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	
+	assault_gun_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	
+	heavy_armor_brigade = {
+		build_cost_ic = 0.15	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.15	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.15	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.17	
+		build_time = 2
+		toughness = -2
+		soft_attack = 1
+		hard_attack = 1
+		plains = {
+			movement = 0.04
+		}
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.80
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1936
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 3 # 1941
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Muzzle Brake
+#########################################################################
+muzzle_brake = {
+	
+	allow = { 
+		
+		medium_tank_gun_designs = 2	
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+	armor_bat = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+			
+	amph_armour_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+				
+	heavy_armor_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 1
+		hard_attack = 1
+		ap_attack = -1
+	}
+	
+		
+	research_bonus_from = {
+		spearhead_theory = 0.50
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1941
+	first_offset = 1943
+	additional_offset = 2
+	max_level = 3 # 1945
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Improved Engine Ventilation
+#########################################################################
+improved_engine_ventilation = {
+	
+	allow = { 
+		
+		medium_tank_engine_designs = 3
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {	
+		build_time = 1
+		toughness = 1
+	}
+	armor_bat = {
+		build_time = 1
+		toughness = 1
+	}
+	guard_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	guard_armor_bat = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	ss_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	ss_armor_bat = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	lehr_brigade = {
+		build_time = 1
+		toughness = 1
+	}	
+	
+	afrika_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	desertrats_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+			
+	amph_armour_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	medium_tank_destroyer_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	ss_tank_destroyer_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+		
+	armored_support_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	ss_armored_support_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	assault_gun_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	ss_heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	guard_heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	super_heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1942
+	first_offset = 1943
+	additional_offset = 2
+	max_level = 5 # 1949
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Commanders Cupola
+#########################################################################
+commanders_cupola = {
+	
+	allow = { 
+		
+		medium_tank_turret_designs = 1
+		three_man_turret = 1
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_armor_brigade = {	
+		build_cost_ic = 0.05	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	light_armor_bat = {	
+		build_cost_ic = 0.02	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	
+	armor_brigade = {	
+		build_cost_ic = 0.05	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	armor_bat = {
+		build_cost_ic = 0.02	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.02	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.02	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+			
+	amph_armour_brigade = {
+		build_cost_ic = 0.02	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+			
+	heavy_armor_brigade = {
+		build_cost_ic = 0.06	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.06	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.06	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.06	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	
+	research_bonus_from = {
+		spearhead_theory = 0.50
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1937
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 5 # 1946
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Single Radius Steering System
+#########################################################################
+single_radius_steering_system = {
+	
+	allow = { 
+		
+		medium_tank_track_and_suspension_designs = 1
+		
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	armor_bat = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.08	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+			
+	amph_armour_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	
+	medium_tank_destroyer_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	
+	ss_tank_destroyer_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+		
+	armored_support_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	
+	ss_armored_support_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	
+	assault_gun_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	
+	heavy_assault_gun_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	
+	heavy_tank_destroyer_brigade = {
+		build_cost_ic = 0.04	
+		build_time = 1
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.02
+		}
+	}
+	
+	heavy_armor_brigade = {
+		build_cost_ic = 0.09
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.09	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.09	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.09	
+		build_time = 2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		default_organisation = 1
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1938
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 5 # 1946
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Dual Radius Steering System
+#########################################################################
+dual_radius_steering_system = {
+	
+	allow = { 
+		
+		OR = { 
+			medium_tank_track_and_suspension_designs = 2
+			heavy_tank_track_and_suspension_designs = 2
+		}
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	armor_bat = {
+		build_cost_ic = 0.05	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.08	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.10		
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.05	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+			
+	amph_armour_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	medium_tank_destroyer_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	ss_tank_destroyer_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+		
+	armored_support_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	ss_armored_support_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	assault_gun_brigade = {
+		build_cost_ic = 0.05	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	heavy_assault_gun_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	heavy_tank_destroyer_brigade = {
+		build_cost_ic = 0.10	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	heavy_armor_brigade = {
+		build_cost_ic = 0.12	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.12	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.12	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.15	
+		build_time = 3
+		plains = {
+			movement = 0.05
+		}
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+	
+	difficulty = 8
+	
+	# common for all techs.
+	start_year = 1942
+	first_offset = 1944
+	additional_offset = 2
+	max_level = 4 # 1946
+	folder = advanced_armor_folder
+}
+
+#########################################################################
+# Interleaved Roadwheel Design
+#########################################################################
+interleaved_roadwheel_design = {
+	
+	allow = { 
+
+		medium_tank_track_and_suspension_designs = 1
+		precision_engineered_tank_designs = 1
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+		
+	armor_brigade = {	
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+	armor_bat = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+	guard_armor_brigade = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+	guard_armor_bat = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+	
+	ss_armor_brigade = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+	ss_armor_bat = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+	
+	lehr_brigade = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}	
+	
+	afrika_brigade = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+	
+	desertrats_brigade = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+			
+	amph_armour_brigade = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+			
+	heavy_armor_brigade = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+	ss_heavy_armor_brigade = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+	guard_heavy_armor_brigade = {
+		toughness = -2
+		armor_value = 1
+		default_organisation = -3
+		build_time = 2
+		maximum_speed = 0.25
+	}
+	
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1939
+	first_offset = 1941
+	additional_offset = 2
+	max_level = 4 # 1946
+	folder = advanced_armor_folder
+}
+
+#########################################################################
+# Crew Ergonomics
+#########################################################################
+crew_ergonomics = {
+	
+	allow = { 
+		
+		OR = { 
+			light_tank_prototype = 1
+			medium_tank_prototype = 1
+			heavy_tank_prototype = 1
+		}
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {	
+		default_organisation = 1
+	}
+	armor_bat = {
+		default_organisation = 1
+	}
+	guard_armor_brigade = {
+		default_organisation = 1
+	}
+	guard_armor_bat = {
+		default_organisation = 1
+	}
+	
+	ss_armor_brigade = {
+		default_organisation = 1
+	}
+	ss_armor_bat = {
+		default_organisation = 1
+	}
+	
+	lehr_brigade = {
+		default_organisation = 1
+	}	
+	
+	afrika_brigade = {
+		default_organisation = 1
+	}
+	
+	desertrats_brigade = {
+		default_organisation = 1
+	}
+			
+	amph_armour_brigade = {
+		default_organisation = 1
+	}
+			
+	heavy_armor_brigade = {
+		default_organisation = 1
+	}
+	ss_heavy_armor_brigade = {
+		default_organisation = 1
+	}
+	guard_heavy_armor_brigade = {
+		default_organisation = 1
+	}
+	
+	research_bonus_from = {
+		spearhead_theory = 0.50
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 4
+	
+	#common for all techs.
+	start_year = 1935
+	first_offset = 1937
+	additional_offset = 2
+	max_level = 7 # 1946
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Insulated Fuel Connectors
+#########################################################################
+insulated_fuel_connectors = {
+	
+	allow = { 
+		
+		medium_tank_prototype = 3
+		land_battles_fought = 1000
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {	
+		build_time = 1
+		toughness = 1
+	}
+	armor_bat = {
+		build_time = 1
+		toughness = 1
+	}
+	guard_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	guard_armor_bat = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	ss_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	ss_armor_bat = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	lehr_brigade = {
+		build_time = 1
+		toughness = 1
+	}	
+	
+	afrika_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	desertrats_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+			
+	amph_armour_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+			
+	heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	ss_heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	guard_heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1943
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Water-Tight Engine Compartment
+#########################################################################
+water_tight_engine_compartments = {
+	
+	allow = { 
+		
+		medium_tank_prototype = 3
+		land_battles_fought = 1000
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {	
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+	armor_bat = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+	guard_armor_brigade = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+	guard_armor_bat = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+	
+	ss_armor_brigade = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+	ss_armor_bat = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+	
+	lehr_brigade = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}	
+	
+	afrika_brigade = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+	
+	desertrats_brigade = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+			
+	amph_armour_brigade = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+			
+	heavy_armor_brigade = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+	ss_heavy_armor_brigade = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+	guard_heavy_armor_brigade = {
+		build_time = 1
+		toughness = -1
+		river = { 
+			attack = 0.10 
+			movement = 0.10 
+		}	
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1943
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Engine Governors
+#########################################################################
+engine_governors = {
+	
+	allow = { 
+		
+		medium_tank_prototype = 2
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {	
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+	armor_bat = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+	guard_armor_brigade = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+	guard_armor_bat = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+	
+	ss_armor_brigade = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+	ss_armor_bat = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+	
+	lehr_brigade = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}	
+	
+	afrika_brigade = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+	
+	desertrats_brigade = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35	
+	}
+			
+	amph_armour_brigade = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+			
+	heavy_armor_brigade = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+	ss_heavy_armor_brigade = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+	guard_heavy_armor_brigade = {
+		toughness = 2
+		default_organisation = 2
+		maximum_speed = -0.35
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1940
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Head Gasket Seal Designs
+#########################################################################
+head_gasket_seal_designs = {
+	
+	allow = { 
+		
+		OR = { 
+			light_tank_engine_designs = 1
+			medium_tank_engine_designs = 1
+			heavy_tank_engines_designs = 1
+		}
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {	
+		build_time = 1
+		toughness = 1
+	}
+	armor_bat = {
+		build_time = 1
+		toughness = 1
+	}
+	guard_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	guard_armor_bat = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	ss_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	ss_armor_bat = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	lehr_brigade = {
+		build_time = 1
+		toughness = 1
+	}	
+	
+	afrika_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	desertrats_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+			
+	amph_armour_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+			
+	heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	ss_heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	guard_heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1935
+	first_offset = 1937
+	additional_offset = 2
+	max_level = 7 # 1947
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Multi-Stage Air Filters
+#########################################################################
+multi_stage_air_filters = {
+	
+	allow = { 
+		
+		OR = { 
+			medium_tank_engine_designs = 3
+			heavy_tank_engines_designs = 3
+		}
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {	
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+	armor_bat = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+	guard_armor_brigade = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+	guard_armor_bat = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+	
+	ss_armor_brigade = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+	ss_armor_bat = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+	
+	lehr_brigade = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}	
+	
+	afrika_brigade = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+	
+	desertrats_brigade = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+			
+	amph_armour_brigade = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+			
+	heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+	ss_heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+	guard_heavy_armor_brigade = {
+		build_time = 1
+		toughness = 1
+		desert = { 
+			attrition = -1 
+		}
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1943
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Hydraulic Turret Traversal
+#########################################################################
+hydraulic_turret_traversal = {
+	
+	allow = { 
+		
+		has_country_flag = tank_hydraulic_turret_traversal_system
+		OR = { 
+			medium_tank_turret_designs = 1
+			heavy_tank_turret_designs = 1
+		}
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {	
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+	armor_bat = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+	guard_armor_brigade = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+	guard_armor_bat = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+	
+	ss_armor_brigade = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+	ss_armor_bat = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+	
+	lehr_brigade = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}	
+	
+	afrika_brigade = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+	
+	desertrats_brigade = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+			
+	amph_armour_brigade = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+			
+	heavy_armor_brigade = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+	ss_heavy_armor_brigade = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+	guard_heavy_armor_brigade = {
+		build_time = -3
+		soft_attack = -1
+		hard_attack = -1
+		defensiveness = -1
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1937
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 4 # 1947
+	folder = advanced_armor_folder
+}
+#########################################################################
+# Electric Turret Traversal
+#########################################################################
+electric_turret_traversal = {
+	
+	allow = { 
+		
+		has_country_flag = tank_electrical_turret_traversal_system
+		OR = { 
+			medium_tank_turret_designs = 1
+			heavy_tank_turret_designs = 1
+		}
+		
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {	
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+	armor_bat = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+	guard_armor_brigade = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+	guard_armor_bat = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+	
+	ss_armor_brigade = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+	ss_armor_bat = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+	
+	lehr_brigade = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}	
+	
+	afrika_brigade = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+	
+	desertrats_brigade = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+			
+	amph_armour_brigade = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+			
+	heavy_armor_brigade = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+	ss_heavy_armor_brigade = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+	guard_heavy_armor_brigade = {
+		build_time = 4
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.50
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1937
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 4 # 1947
+	folder = advanced_armor_folder
+}
+#########################################################################################
+## Tactical Tank Radios
+#########################################################################################
+tactical_tank_radios = {
+	
+	allow = {
+	
+		OR = { 
+			AND = { 
+				short_range_radios = 2
+				armor_maneuver_warfare_doctrine = 1
+			}	
+			AND = { 
+				short_range_radios = 4
+				land_battles_fought = 250
+			}
+			AND = { 
+				short_range_radios = 3
+				land_battles_fought = 500
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armored_car_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	ss_armored_car_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	light_armor_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	light_armor_bat = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	armor_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	desertrats_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	armor_bat = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	heavy_armor_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.50
+		build_time = 3
+		default_organisation = 5
+	}
+		
+	research_bonus_from = {
+		armour_practical = 0.15
+		spearhead_theory = 0.20
+		electornicegineering_theory  = 0.20
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 9
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6
+	folder = advanced_armor_folder
+}
+#########################################################################################
+## Command Tanks
+#########################################################################################
+command_tanks = {
+	
+	allow = {
+	
+		land_battles_fought = 500
+		tactical_tank_radios = 2
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	desertrats_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	armor_bat = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	ss_armor_bat = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	heavy_armor_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	super_heavy_armor_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	armored_support_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	ss_armored_support_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 1.00
+		default_organisation = 10
+	}
+	
+	research_bonus_from = {
+		armour_practical = 0.15
+		spearhead_theory = 0.20
+		electornicegineering_theory  = 0.20
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 12
+	
+	# common for all techs.
+	start_year = 1940
+	first_offset = 1941		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5
+	folder = advanced_armor_folder
+}
+
+
+#########################################################################
+# Larger ammunition storage space
+#########################################################################
+larger_ammunition_storage_space = {
+	
+	allow = { 
+		
+		medium_tank_hull_designs = 2
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {	
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+	armor_bat = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+	guard_armor_brigade = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+	guard_armor_bat = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	ss_armor_brigade = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+	ss_armor_bat = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	lehr_brigade = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}	
+	
+	afrika_brigade = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	desertrats_brigade = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+			
+	amph_armour_brigade = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+			
+	heavy_armor_brigade = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+	ss_heavy_armor_brigade = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+	guard_heavy_armor_brigade = {
+		default_organisation = -2
+		soft_attack = 0.50
+		hard_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	research_bonus_from = {
+		spearhead_theory = 0.50
+		armour_practical = 0.15
+	}
+
+	on_completion = armour_practical
+
+	difficulty = 4
+	
+	#common for all techs.
+	start_year = 1940
+	first_offset = 1941		# 2nd model is from 1936
+	additional_offset = 1	# one new every 2 years
+	max_level = 8
+	folder = advanced_armor_folder
+}
+
+#########################################################################################
+## Wide Tank Tracks
+#########################################################################################
+wide_tank_tracks = {
+	
+	allow = {
+	
+		medium_tank_track_and_suspension_designs = 1
+		
+		or = {
+			and = {
+				medium_tank_prototype = 1
+				faction = comintern
+				deep_battle_doctrine = 1
+			}
+			and = { 
+				medium_tank_prototype = 3
+				faction = axis
+				land_battles_fought = 1500
+			}
+			and = { 
+				faction = axis
+				heavy_tank_prototype = 3	
+				land_battles_fought = 1500
+			}
+			and = { 
+				medium_tank_track_and_suspension_designs = 3
+				land_battles_fought = 3000
+			}
+		}
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}
+	armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}
+	
+	
+	guard_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}
+	
+	ss_armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.10
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}	
+		
+	combined_arms_brigade = {
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}
+		
+	heavy_armor_brigade = {
+		build_cost_ic = 0.12
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}
+	
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.12
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}
+	
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.12
+		build_time = 2
+		maximum_speed = 0.15
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+			}
+		marsh = { 
+			movement = 0.10 
+		}
+	}
+		
+	research_bonus_from = {
+		automotive_theory = 0.30
+		armour_practical = 0.30
+		spearhead_theory = 0.10
+	}
+
+	on_completion = armour_practical
+
+	difficulty = 10
+	
+	# common for all techs.
+	start_year = 1940
+	first_offset = 1942		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 4
+	folder = advanced_armor_folder
+}
+#########################################################################################
+## Sloped Armor
+#########################################################################################
+sloped_armor = {
+	
+	allow = {
+				
+		or = {
+			and = {
+				faction = comintern
+				medium_tank_prototype = 1
+				deep_battle_doctrine = 1
+			}
+			and = { 
+				faction = axis
+				medium_tank_prototype = 3				
+				land_battles_fought = 1500
+			}
+			and = { 
+				faction = axis
+				heavy_tank_prototype = 4		
+				land_battles_fought = 1500
+			}
+			and = {
+				medium_tank_prototype = 4
+				heavy_tank_prototype = 4
+				land_battles_fought = 4000
+			}
+		}
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {
+		armor_value = 7
+	}
+	armor_bat = {
+		armor_value = 7
+	}
+	
+	guard_armor_brigade = {
+		armor_value = 7
+	}
+	guard_armor_bat = {
+		armor_value = 7
+	}
+	
+	ss_armor_brigade = {
+		armor_value = 7
+	}
+	
+	ss_armor_bat = {
+		armor_value = 7
+	}
+	
+	lehr_brigade = {
+		armor_value = 7
+	}	
+		
+	combined_arms_brigade = {
+		armor_value = 7
+	}
+		
+		
+	research_bonus_from = {
+		automotive_theory = 0.30
+		armour_practical = 0.30
+		spearhead_theory = 0.10
+	}
+
+	on_completion = armour_practical
+
+	difficulty = 12
+	
+	# common for all techs.
+	start_year = 1940
+	folder = advanced_armor_folder
+}
+#########################################################################################
+## Advanced Tank Optics
+#########################################################################################
+advanced_tank_optics = {
+	
+	allow = {
+	
+		OR = { 
+			AND = { 
+				armor_versus_armor_engagements = 1
+				medium_tank_turret_designs = 2
+				medium_tank_prototype = 2
+			}
+			AND = { 
+				NOT = { armor_versus_armor_engagements = 1 }
+				medium_tank_turret_designs = 3
+				medium_tank_prototype = 3
+				land_battles_fought = 1500
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	desertrats_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	armor_bat = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	heavy_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	armored_support_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	ss_armored_support_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.15
+		build_time = 3
+		hard_attack = 2.00
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.30
+		armour_practical = 0.15
+		spearhead_theory = 0.20
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 9
+	
+	# common for all techs.
+	start_year = 1941
+	folder = advanced_armor_folder
+}
+
+
+#########################################################################################
+## Anti-Personnel Defenses
+#########################################################################################
+anti_personnel_defenses = {
+	
+	allow = {
+		medium_tank_prototype = 2
+		land_battles_fought = 500
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armored_car_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	ss_armored_car_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	light_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	light_armor_bat = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	desertrats_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	armor_bat = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		defensiveness = 2.00
+	}
+		
+	research_bonus_from = {
+		armour_practical = 0.25
+		spearhead_theory = 0.25
+	}
+
+	on_completion = armour_practical
+
+	difficulty = 9
+	
+	# common for all techs.
+	start_year = 1944
+	first_offset = 1946		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 4
+	folder = advanced_armor_folder
+}
+
+
+#########################################################################################
+## Smoke Canisters
+#########################################################################################
+smoke_canisters = {
+	
+	allow = {
+		medium_tank_turret_designs = 2
+		medium_tank_prototype = 2
+		land_battles_fought = 750
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armored_car_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	ss_armored_car_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	light_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	light_armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	desertrats_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	heavy_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		defensiveness = 2.00
+		air_defence = 2.00
+	}
+	
+	
+	research_bonus_from = {
+		armour_practical = 0.25
+		spearhead_theory = 0.25
+	}
+
+	on_completion = armour_practical
+
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1943
+	first_offset = 1945		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 5
+	folder = advanced_armor_folder
+}
+
+#########################################################################################
+## Battlefield Modified Armor
+#########################################################################################
+battlefield_modified_armor = {
+	
+	allow = {
+		medium_tank_hull_designs = 2
+		land_battles_fought = 1000
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	desertrats_brigade = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	armor_bat = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	ss_armor_brigade = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	ss_armor_bat = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	guard_armor_bat = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	guard_armor_brigade = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	heavy_armor_brigade = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	ss_heavy_armor_brigade = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	guard_heavy_armor_brigade = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	super_heavy_armor_brigade = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	
+	afrika_brigade = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+	
+	lehr_brigade = {
+		maximum_speed = -0.25
+		toughness = -0.50
+		armor_value = 0.25
+	}
+		
+	research_bonus_from = {
+		armour_practical = 0.50
+	}
+
+	on_completion = armour_practical
+
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1
+	max_level = 8
+	folder = advanced_armor_folder
+}
+#########################################################################################
+## Side Skirts
+#########################################################################################
+side_skirts = {
+
+	allow = {
+		medium_tank_hull_designs = 2
+		land_battles_fought = 1500
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_armor_brigade = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	light_armor_bat = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	armor_brigade = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	armor_bat = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	ss_armor_brigade = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	ss_armor_bat = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	guard_armor_bat = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	guard_armor_brigade = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	heavy_armor_brigade = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	ss_heavy_armor_brigade = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	guard_heavy_armor_brigade = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	super_heavy_armor_brigade = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	
+	afrika_brigade = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+	
+	lehr_brigade = {
+		maximum_speed = -0.15
+		toughness = -0.65
+		armor_value = 0.25
+	}
+		
+	research_bonus_from = {
+		armour_practical = 0.40
+		spearhead_theory = 0.1
+	}
+
+	on_completion = armour_practical
+
+	difficulty = 8
+	
+	# common for all techs.
+	start_year = 1944
+	folder = advanced_armor_folder
+}
+
+#########################################################################################
+## 3 man Turret
+#########################################################################################
+three_man_turret = {
+	
+	allow = {
+		light_tank_prototype = 1
+		medium_tank_prototype = 1
+		or = {
+			and = {
+				soviet_union = 1 
+				land_battles_fought = 1000
+				medium_tank_turret_designs = 3
+			}
+			and = {			
+				united_kingdom = 1
+				united_states = 1
+				land_battles_fought = 250
+				medium_tank_turret_designs = 2
+			}
+			and = { 
+				germany = 1	
+				armor_maneuver_warfare_doctrine = 1
+				medium_tank_turret_designs = 1
+			}
+		}
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	armor_brigade = {
+		default_organisation = 7
+	}
+	desertrats_brigade = {
+		default_organisation = 7
+	}
+	armor_bat = {
+		default_organisation = 7
+	}
+	ss_armor_brigade = {
+		default_organisation = 7
+	}
+	ss_armor_bat = {
+		default_organisation = 7
+	}
+	guard_armor_bat = {
+		default_organisation = 7
+	}
+	guard_armor_brigade = {
+		default_organisation = 7
+	}
+	heavy_armor_brigade = {
+		default_organisation = 7
+	}
+	ss_heavy_armor_brigade = {
+		default_organisation = 7
+	}
+	guard_heavy_armor_brigade = {
+		default_organisation = 7
+	}
+	super_heavy_armor_brigade = {
+		default_organisation = 7
+	}
+	afrika_brigade = {
+		default_organisation = 7
+	}
+	
+	lehr_brigade = {
+		default_organisation = 7
+	}
+		
+	research_bonus_from = {
+		armour_practical = 0.25
+		spearhead_theory = 0.25
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 10
+	
+	# common for all techs.
+	start_year = 1936
+	folder = advanced_armor_folder
+}
+
+#########################################################################################
+## Turret Mounted Machine Guns
+#########################################################################################
+turret_mounted_machine_guns = {
+	
+	allow = {
+		medium_tank_turret_designs = 2
+		land_battles_fought = 500
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		soft_attack = 1
+		defensiveness = 1
+		air_attack = 2
+		air_defence = 1
+	}
+	desertrats_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		soft_attack = 1
+		defensiveness = 1
+		air_attack = 2
+		air_defence = 1
+	}
+	armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 1
+		soft_attack = 1
+		defensiveness = 1
+		air_attack = 2
+		air_defence = 1
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		soft_attack = 1
+		defensiveness = 1
+		air_attack = 2
+		air_defence = 1
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 1
+		soft_attack = 1
+		defensiveness = 1
+		air_attack = 2
+		air_defence = 1
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		soft_attack = 1
+		defensiveness = 1
+		air_attack = 2
+		air_defence = 1
+	}
+	super_heavy_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		soft_attack = 1
+		defensiveness = 1
+		air_attack = 2
+		air_defence = 1
+	}
+	medium_tank_destroyer_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		soft_attack = 1
+		defensiveness = 1
+		air_attack = 2
+		air_defence = 1
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		soft_attack = 1
+		defensiveness = 1
+		air_attack = 2
+		air_defence = 1
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		soft_attack = 1
+		defensiveness = 1
+		air_attack = 2
+		air_defence = 1
+	}
+	
+	research_bonus_from = {
+		armour_practical = 0.25
+		spearhead_theory = 0.25
+	}
+
+	on_completion = armour_practical
+
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1942
+	first_offset = 1944
+	additional_offset = 2
+	max_level = 6
+	folder = advanced_armor_folder
+}

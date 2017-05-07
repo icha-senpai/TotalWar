@@ -1,0 +1,3295 @@
+#################################
+## Manufacturing Technologies
+#################################
+###############################################################################
+##  Rifle Production
+###############################################################################
+rifle_production = {
+	
+	allow = {
+		small_arms_manufacturing = 1
+			
+		
+	}
+	
+	change = no
+		
+	ic_modifier = -0.001
+	
+	
+	
+	infantry_brigade = { 
+        build_time = -5.00
+	}
+	
+	semi_motorized_brigade = { 
+		build_time = -3.00
+	}
+	motorized_brigade = { 
+		build_time = -4.00
+	}
+	mechanized_brigade = { 
+		build_time = -1.00
+	}
+	
+	garrison_brigade = { 
+		build_time = -1.00
+	}
+	police_brigade = { 
+		build_time = -1.00
+	}
+	
+	light_infantry_brigade = { 
+		build_time = -3.00
+	}
+			
+	combined_arms_brigade = { 
+		build_time = -1.00
+	}
+	commando_brigade = { 
+		build_time = -1.00
+	}
+	ski_brigade = { 
+		build_time = -1.00
+	}
+	
+	Recon_cavalry_brigade = { 
+		build_time = -1.00
+	}
+	
+	ss_Recon_cavalry_brigade = { 
+		build_time = -1.00
+	}
+	
+	motorcycle_recon_brigade = { 
+		build_time = -1.00
+	}
+	
+	ss_motorcycle_recon_brigade = { 
+		build_time = -1.00
+	}
+	
+	cavalry_brigade = { 
+		build_time = -3.00
+	}
+	
+	bergsjaeger_brigade = { 
+		build_time = -3.00
+	}
+	alpini_brigade = { 
+		build_time = -3.00
+	}
+	alpins_brigade = { 
+		build_time = -3.00
+	}
+	
+	airlanding_infantry_brigade = { 
+		build_time = -2.00
+	}
+	paratrooper_brigade = { 
+		build_time = -6.00
+	}
+	naval_infantry_brigade = { 
+		build_time = -3.00
+	}
+	marine_brigade = { 
+		build_time = -6.00
+	}
+	
+	air_cavalry_brigade = { 
+		build_time = -2.00
+	}
+	
+	engineer_brigade = { 
+		build_time = -0.50
+	}
+	
+	motorized_engineer_brigade = { 
+		build_time = -0.50
+	}
+	
+	airborne_engineer_bat = { 
+		build_time = -0.50
+	}
+		
+	guard_cavalry_brigade = { 
+		build_time = -3.00
+	}
+	guard_infantry_brigade = { 
+		build_time = -5.00
+	}
+	guard_mechanized_brigade = { 
+		build_time = -1.00
+	}
+	guard_motorized_brigade = { 
+		build_time = -4.00
+	}
+	guard_paratrooper_brigade = { 
+		build_time = -6.00
+	}
+	
+	ss_mechanized_brigade = { 
+		build_time = -1.00
+	}	
+	ss_bergsjaeger_brigade = { 
+		build_time = -3.00
+	}	
+	ss_cavalry_brigade = { 
+		build_time = -3.00
+	}	
+	ss_commando_brigade = { 
+		build_time = -1.00
+	}		
+	ss_engineer_brigade = { 
+		build_time = -0.50
+	}	
+	ss_motorized_engineer_brigade = { 
+		build_time = -0.50
+	}	
+	ss_garrison_brigade = { 
+		build_time = -1.00
+	}		
+	
+	ss_infantry_brigade = { 
+		build_time = -5.00
+	}
+	
+	ss_motorcycle_recon_brigade = { 
+		build_time = -1.00
+	}	
+	ss_motorized_brigade = { 
+		build_time = -3.00
+	}		
+	ss_paratrooper_brigade = { 
+		build_time = -6.00
+	}	
+	ss_police_brigade = { 
+		build_time = -1.00
+	}	
+	ss_Recon_cavalry_brigade = { 
+		build_time = -1.00
+	}	
+	ss_ski_brigade = { 
+		build_time = -1.00
+	}
+				
+	HQDEF_brigade = { 
+		build_time = -1.00
+	}	
+	
+	
+	infantry_bat = { 
+		build_time = -2.00
+	}
+	motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+	mechanized_infantry_bat = { 
+		build_time = -1.00
+	}
+	
+	garrison_detachment = { 
+		build_time = -1.00
+	}
+	tropical_island_garrison_brigade = { 
+		build_time = -1.00
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		build_time = -0.50
+	}
+	guard_motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+		
+	ss_infantry_bat = { 
+		build_time = -2.00
+	}	
+	ss_mechanized_infantry_bat = { 
+		build_time = -1.00
+	}	
+	ss_motorized_infantry_bat = { 
+		build_time = -2.00
+	}		
+		
+	research_bonus_from = {
+		infantry_practical = 0.1
+		
+	}
+	
+	on_completion = infantry_practical
+
+	difficulty = 12
+
+	start_year = 1918
+	first_offset = 1933
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Submachine Gun Production
+###############################################################################
+submachinegun_production = {
+	
+	allow = {
+		submachineguns_prototype = 1
+		small_arms_manufacturing = 7	
+		submachinegun_distribution = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.001
+	
+	
+	infantry_brigade = { 
+        build_time = -2.00
+	}
+	
+	semi_motorized_brigade = { 
+		build_time = -2.00
+	}
+	motorized_brigade = { 
+		build_time = -2.00
+	}
+	mechanized_brigade = { 
+		build_time = -2.00
+	}
+		
+	light_infantry_brigade = { 
+		build_time = -2.00
+	}
+			
+	combined_arms_brigade = { 
+		build_time = -2.00
+	}
+	commando_brigade = { 
+		build_time = -2.00
+	}
+	ski_brigade = { 
+		build_time = -2.00
+	}
+	
+	
+	cavalry_brigade = { 
+		build_time = -2.00
+	}
+	
+	bergsjaeger_brigade = { 
+		build_time = -2.00
+	}
+	alpini_brigade = { 
+		build_time = -2.00
+	}
+	alpins_brigade = { 
+		build_time = -2.00
+	}
+	
+	airlanding_infantry_brigade = { 
+		build_time = -2.00
+	}
+	paratrooper_brigade = { 
+		build_time = -2.00
+	}
+	
+	naval_infantry_brigade = { 
+		build_time = -2.00
+	}
+	
+	marine_brigade = { 
+		build_time = -2.00
+	}
+	
+	air_cavalry_brigade = { 
+		build_time = -2.00
+	}
+	
+	engineer_brigade = { 
+		build_time = -2.00
+	}
+	motorized_engineer_brigade = { 
+		build_time = -2.00
+	}
+	
+	airborne_engineer_bat = { 
+		build_time = -2.00
+	}
+		
+	guard_cavalry_brigade = { 
+		build_time = -2.00
+	}
+	guard_infantry_brigade = { 
+		build_time = -2.00
+	}
+	guard_mechanized_brigade = { 
+		build_time = -2.00
+	}
+	guard_motorized_brigade = { 
+		build_time = -2.00
+	}
+	guard_paratrooper_brigade = { 
+		build_time = -2.00
+	}
+	
+	ss_mechanized_brigade = { 
+		build_time = -2.00
+	}	
+	ss_bergsjaeger_brigade = { 
+		build_time = -2.00
+	}	
+	ss_cavalry_brigade = { 
+		build_time = -2.00
+	}	
+	ss_commando_brigade = { 
+		build_time = -2.00
+	}		
+	ss_engineer_brigade = { 
+		build_time = -2.00
+	}	
+	ss_motorized_engineer_brigade = { 
+		build_time = -2.00
+	}	
+	ss_garrison_brigade = { 
+		build_time = -2.00
+	}		
+	ss_infantry_brigade = { 
+		build_time = -2.00
+	}	
+	ss_motorcycle_recon_brigade = { 
+		build_time = -2.00
+	}	
+	ss_motorized_brigade = { 
+		build_time = -2.00
+	}		
+	ss_paratrooper_brigade = { 
+		build_time = -2.00
+	}	
+	ss_police_brigade = { 
+		build_time = -2.00
+	}	
+	ss_Recon_cavalry_brigade = { 
+		build_time = -2.00
+	}	
+	ss_ski_brigade = { 
+		build_time = -2.00
+	}
+					
+	infantry_bat = { 
+		build_time = -2.00
+	}
+	motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+	mechanized_infantry_bat = { 
+		build_time = -2.00
+	}
+	
+	garrison_detachment = { 
+		build_time = -2.00
+	}
+	tropical_island_garrison_brigade = { 
+		build_time = -2.00
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		build_time = -2.00
+	}
+	guard_motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+		
+	ss_infantry_bat = { 
+		build_time = -2.00
+	}	
+	ss_mechanized_infantry_bat = { 
+		build_time = -2.00
+	}	
+	ss_motorized_infantry_bat = { 
+		build_time = -2.00
+	}		
+		
+	research_bonus_from = {
+		infantry_practical = 0.1
+		
+	}
+	
+	on_completion = infantry_practical
+
+	difficulty = 16
+
+	start_year = 1938
+	first_offset = 1939
+	additional_offset = 1
+	max_level = 25
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Assault Rifle Production
+###############################################################################
+assault_rifle_production = {
+	
+	allow = {
+		
+		small_arms_manufacturing = 13	
+		assault_rifle_distribution = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.003
+	
+	
+	infantry_brigade = { 
+        build_time = -2.00
+	}
+	
+	semi_motorized_brigade = { 
+		build_time = -2.00
+	}
+	motorized_brigade = { 
+		build_time = -2.00
+	}
+	mechanized_brigade = { 
+		build_time = -2.00
+	}
+	
+		
+	light_infantry_brigade = { 
+		build_time = -2.00
+	}
+			
+	combined_arms_brigade = { 
+		build_time = -2.00
+	}
+	commando_brigade = { 
+		build_time = -2.00
+	}
+	ski_brigade = { 
+		build_time = -2.00
+	}
+	
+	
+	cavalry_brigade = { 
+		build_time = -2.00
+	}
+	
+	bergsjaeger_brigade = { 
+		build_time = -2.00
+	}
+	alpini_brigade = { 
+		build_time = -2.00
+	}
+	alpins_brigade = { 
+		build_time = -2.00
+	}
+	airlanding_infantry_brigade = { 
+		build_time = -2.00
+	}
+	paratrooper_brigade = { 
+		build_time = -2.00
+	}
+	naval_infantry_brigade = { 
+		build_time = -2.00
+	}
+	marine_brigade = { 
+		build_time = -2.00
+	}
+	air_cavalry_brigade = { 
+		build_time = -2.00
+	}
+	
+	engineer_brigade = { 
+		build_time = -2.00
+	}
+	
+	motorized_engineer_brigade = { 
+		build_time = -2.00
+	}
+	
+	airborne_engineer_bat = { 
+		build_time = -2.00
+	}
+		
+	guard_cavalry_brigade = { 
+		build_time = -2.00
+	}
+	guard_infantry_brigade = { 
+		build_time = -2.00
+	}
+	guard_mechanized_brigade = { 
+		build_time = -2.00
+	}
+	guard_motorized_brigade = { 
+		build_time = -2.00
+	}
+	guard_paratrooper_brigade = { 
+		build_time = -2.00
+	}
+	
+	ss_mechanized_brigade = { 
+		build_time = -2.00
+	}	
+	ss_bergsjaeger_brigade = { 
+		build_time = -2.00
+	}	
+	ss_cavalry_brigade = { 
+		build_time = -2.00
+	}	
+	ss_commando_brigade = { 
+		build_time = -2.00
+	}		
+	ss_engineer_brigade = { 
+		build_time = -2.00
+	}	
+	ss_motorized_engineer_brigade = { 
+		build_time = -2.00
+	}	
+	ss_garrison_brigade = { 
+		build_time = -2.00
+	}		
+	ss_infantry_brigade = { 
+		build_time = -2.00
+	}	
+	ss_motorcycle_recon_brigade = { 
+		build_time = -2.00
+	}	
+	ss_motorized_brigade = { 
+		build_time = -2.00
+	}		
+	ss_paratrooper_brigade = { 
+		build_time = -2.00
+	}	
+	ss_police_brigade = { 
+		build_time = -2.00
+	}	
+	ss_Recon_cavalry_brigade = { 
+		build_time = -2.00
+	}	
+	ss_ski_brigade = { 
+		build_time = -2.00
+	}
+				
+		
+	
+	infantry_bat = { 
+		build_time = -2.00
+	}
+	motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+	mechanized_infantry_bat = { 
+		build_time = -2.00
+	}
+	
+		
+	guard_mechanized_infantry_bat = { 
+		build_time = -2.00
+	}
+	guard_motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+		
+	ss_infantry_bat = { 
+		build_time = -2.00
+	}	
+	ss_mechanized_infantry_bat = { 
+		build_time = -2.00
+	}	
+	ss_motorized_infantry_bat = { 
+		build_time = -2.00
+	}	
+				
+	research_bonus_from = {
+		infantry_practical = 0.1
+	}
+	
+	on_completion = infantry_practical
+
+	difficulty = 12
+
+	start_year = 1944
+	first_offset = 1945
+	additional_offset = 1
+	max_level = 20
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Anti-Tank Rocket Production
+###############################################################################
+anti_tank_rocket_production = {
+	
+	allow = {
+		rocket_at_prototype = 1
+		small_arms_manufacturing = 13			
+	}
+	
+	change = no
+	
+	ic_modifier = -0.003
+				
+	infantry_brigade = { 
+        build_time = -2.00
+	}
+	
+	semi_motorized_brigade = { 
+		build_time = -2.00
+	}
+	motorized_brigade = { 
+		build_time = -2.00
+	}
+	mechanized_brigade = { 
+		build_time = -2.00
+	}
+	
+	garrison_brigade = { 
+		build_time = -2.00
+	}
+		
+	light_infantry_brigade = { 
+		build_time = -2.00
+	}
+			
+		
+	cavalry_brigade = { 
+		build_time = -2.00
+	}
+	
+	
+	paratrooper_brigade = { 
+		build_time = -2.00
+	}
+	
+	marine_brigade = { 
+		build_time = -2.00
+	}
+	air_cavalry_brigade = { 
+		build_time = -2.00
+	}
+	
+			
+	guard_cavalry_brigade = { 
+		build_time = -2.00
+	}
+	guard_infantry_brigade = { 
+		build_time = -2.00
+	}
+	guard_mechanized_brigade = { 
+		build_time = -2.00
+	}
+	guard_motorized_brigade = { 
+		build_time = -2.00
+	}
+	guard_paratrooper_brigade = { 
+		build_time = -2.00
+	}
+	
+	ss_mechanized_brigade = { 
+		build_time = -2.00
+	}	
+	
+	ss_cavalry_brigade = { 
+		build_time = -2.00
+	}	
+			
+	ss_infantry_brigade = { 
+		build_time = -2.00
+	}	
+	ss_motorcycle_recon_brigade = { 
+		build_time = -2.00
+	}	
+	ss_motorized_brigade = { 
+		build_time = -2.00
+	}		
+	ss_paratrooper_brigade = { 
+		build_time = -2.00
+	}	
+		
+	ss_Recon_cavalry_brigade = { 
+		build_time = -2.00
+	}	
+		
+	infantry_bat = { 
+		build_time = -2.00
+	}
+	motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+	mechanized_infantry_bat = { 
+		build_time = -2.00
+	}
+	
+		
+	guard_mechanized_infantry_bat = { 
+		build_time = -2.00
+	}
+	guard_motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+		
+	ss_infantry_bat = { 
+		build_time = -2.00
+	}	
+	ss_mechanized_infantry_bat = { 
+		build_time = -2.00
+	}	
+	ss_motorized_infantry_bat = { 
+		build_time = -2.00
+	}	
+		
+	research_bonus_from = {
+		rocket_science = 0.50
+	}
+
+	on_completion = rocket_practical
+
+	difficulty = 12
+
+	start_year = 1937
+	first_offset = 1938
+	additional_offset = 1
+	max_level = 20
+	folder = manufacturing_folder
+}
+###############################################################################
+##  LMG Production
+###############################################################################
+light_machine_gun_production = {
+	
+	allow = {
+		lmg_distribution = 1
+		small_arms_manufacturing = 5
+	}
+	
+	change = no
+	
+	ic_modifier = -0.003
+			
+	infantry_brigade = { 
+        build_time = -2.00
+	}
+	
+	semi_motorized_brigade = { 
+		build_time = -2.00
+	}
+	motorized_brigade = { 
+		build_time = -2.00
+	}
+	mechanized_brigade = { 
+		build_time = -2.00
+	}
+	
+		
+	light_infantry_brigade = { 
+		build_time = -2.00
+	}
+			
+	combined_arms_brigade = { 
+		build_time = -2.00
+	}
+	commando_brigade = { 
+		build_time = -2.00
+	}
+	ski_brigade = { 
+		build_time = -2.00
+	}
+	
+	
+	cavalry_brigade = { 
+		build_time = -2.00
+	}
+	
+	bergsjaeger_brigade = { 
+		build_time = -2.00
+	}
+	alpini_brigade = { 
+		build_time = -2.00
+	}
+	alpins_brigade = { 
+		build_time = -2.00
+	}
+	airlanding_infantry_brigade = { 
+		build_time = -2.00
+	}
+	paratrooper_brigade = { 
+		build_time = -2.00
+	}
+	naval_infantry_brigade = { 
+		build_time = -2.00
+	}
+	marine_brigade = { 
+		build_time = -2.00
+	}
+	air_cavalry_brigade = { 
+		build_time = -2.00
+	}
+			
+	guard_cavalry_brigade = { 
+		build_time = -2.00
+	}
+	guard_infantry_brigade = { 
+		build_time = -2.00
+	}
+	guard_mechanized_brigade = { 
+		build_time = -2.00
+	}
+	guard_motorized_brigade = { 
+		build_time = -2.00
+	}
+	guard_paratrooper_brigade = { 
+		build_time = -2.00
+	}
+	
+	ss_mechanized_brigade = { 
+		build_time = -2.00
+	}	
+	ss_bergsjaeger_brigade = { 
+		build_time = -2.00
+	}	
+	ss_cavalry_brigade = { 
+		build_time = -2.00
+	}	
+	ss_commando_brigade = { 
+		build_time = -2.00
+	}		
+		
+	ss_infantry_brigade = { 
+		build_time = -2.00
+	}	
+	ss_motorcycle_recon_brigade = { 
+		build_time = -2.00
+	}	
+	ss_motorized_brigade = { 
+		build_time = -2.00
+	}		
+	ss_paratrooper_brigade = { 
+		build_time = -2.00
+	}	
+	
+	ss_Recon_cavalry_brigade = { 
+		build_time = -2.00
+	}	
+	ss_ski_brigade = { 
+		build_time = -2.00
+	}
+				
+	HQDEF_brigade = { 
+		build_time = -2.00
+	}	
+	
+	
+	infantry_bat = { 
+		build_time = -2.00
+	}
+	motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+	mechanized_infantry_bat = { 
+		build_time = -2.00
+	}
+	
+		
+	guard_mechanized_infantry_bat = { 
+		build_time = -2.00
+	}
+	guard_motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+		
+	ss_infantry_bat = { 
+		build_time = -2.00
+	}	
+	ss_mechanized_infantry_bat = { 
+		build_time = -2.00
+	}	
+	ss_motorized_infantry_bat = { 
+		build_time = -2.00
+	}	
+				
+	research_bonus_from = {
+		infantry_practical = 0.1
+	}
+	
+	on_completion = infantry_practical
+
+	difficulty = 12
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 20
+	folder = manufacturing_folder
+}
+###############################################################################
+##  HMG Production
+###############################################################################
+heavy_machine_gun_production = {
+	
+	allow = {
+		small_arms_manufacturing = 1
+		hmg_prototype = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.003
+								
+	infantry_brigade = { 
+        build_time = -4.00
+	}
+	
+	semi_motorized_brigade = { 
+		build_time = -3.00
+	}
+	motorized_brigade = { 
+		build_time = -3.00
+	}
+	mechanized_brigade = { 
+		build_time = -1.00
+	}
+	
+							
+	marine_brigade = { 
+		build_time = -3.00
+	}
+		
+	
+	guard_infantry_brigade = { 
+		build_time = -4.00
+	}
+	guard_mechanized_brigade = { 
+		build_time = -1.00
+	}
+	guard_motorized_brigade = { 
+		build_time = -3.00
+	}
+	
+	
+	ss_mechanized_brigade = { 
+		build_time = -1.00
+	}	
+			
+	ss_infantry_brigade = { 
+		build_time = -4.00
+	}	
+	
+	ss_motorcycle_recon_brigade = { 
+		build_time = -1.00
+	}	
+	
+	ss_motorized_brigade = { 
+		build_time = -3.00
+	}		
+		
+	ss_Recon_cavalry_brigade = { 
+		build_time = -1.00
+	}	
+					
+	HQDEF_brigade = { 
+		build_time = -1.00
+	}		
+	
+	infantry_bat = { 
+		build_time = -2.00
+	}
+	motorized_infantry_bat = { 
+		build_time = -1.00
+	}
+		
+		
+	guard_motorized_infantry_bat = { 
+		build_time = -1.00
+	}
+		
+	ss_infantry_bat = { 
+		build_time = -2.00
+	}	
+
+	ss_motorized_infantry_bat = { 
+		build_time = -1.00
+	}				
+		
+	research_bonus_from = {
+		infantry_practical = 0.1
+	}
+	
+	on_completion = infantry_practical
+
+	difficulty = 12
+
+	start_year = 1918
+	first_offset = 1933
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Light Artillery Production
+###############################################################################
+light_artillery_production = {
+	
+	allow = {
+		small_arms_manufacturing = 2
+		mortar_prototype = 1	
+		infantry_guns = 1
+		first_light_artillery_battalion = 1
+		second_light_artillery_battalion = 1
+		third_light_artillery_battalion = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.004
+	
+	
+	
+	infantry_brigade = {
+		build_time = -3.00
+	}
+	
+		
+	guard_infantry_brigade = { 
+		build_time = -3.00
+	}
+		
+	ss_infantry_brigade = { 
+		build_time = -3.00
+	}	
+				
+	infantry_bat = { 
+		build_time = -1.00
+	}
+	
+	ss_infantry_bat = { 
+		build_time = -1.00
+	}	
+	
+	artillery_brigade = { 
+		build_time = -3.00
+	}
+	
+			
+	airborne_artillery_brigade = { 
+		build_time = -1.00
+	}
+	
+	pack_artillery_brigade = { 
+		build_time = -1.00
+	}	
+	ss_pack_artillery_brigade = { 
+		build_time = -1.00
+	}	
+		
+	research_bonus_from = {
+		artillery_practical = 0.1
+	}
+	
+	on_completion = artillery_practical
+
+	difficulty = 12
+
+	start_year = 1918
+	first_offset = 1933
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Medium Artillery Production
+###############################################################################
+medium_artillery_production = {
+	
+	allow = {
+		artillery_production_industry = 1
+		med_field_artillery = 1	
+		medium_artillery_battalion = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.004
+	
+		
+	artillery_brigade = { 
+		build_time = -1.00
+	}
+	
+	medium_artillery_brigade = { 
+		build_time = -2.00
+	}	
+	
+	
+	sp_artillery_brigade = { 
+		build_time = -1.00
+	}
+	
+	rocket_artillery_brigade = { 
+		build_time = -1.00
+	}
+	sp_rct_artillery_brigade = { 
+		build_time = -1.00
+	}
+	
+	ss_artillery_brigade = { 
+		build_time = -1.00
+	}
+	
+	ss_medium_artillery_brigade = { 
+		build_time = -1.00
+	}
+	
+	ss_rocket_artillery_brigade = { 
+		build_time = -1.00
+	}
+	ss_sp_artillery_brigade = { 
+		build_time = -1.00
+	}
+	ss_sp_rct_artillery_brigade = { 
+		build_time = -1.00
+	}
+							
+	research_bonus_from = {
+		artillery_practical = 0.1
+	}
+	
+	on_completion = artillery_practical
+
+	difficulty = 14
+
+	start_year = 1918
+	first_offset = 1933
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Heavy Artillery Production
+###############################################################################
+heavy_artillery_production = {
+	
+	allow = {
+		artillery_production_industry = 1
+		hvy_field_artillery = 1	
+		heavy_artillery_battalion = 1	
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	
+	
+	
+	heavy_artillery_brigade = { 
+		build_time = -3.00
+	}
+	sp_artillery_brigade = { 
+		build_time = -1.00
+	}
+	
+	ss_sp_artillery_brigade = { 
+		build_time = -1.00
+	}
+			
+	research_bonus_from = {
+		artillery_practical = 0.1	
+	}
+	
+	on_completion = artillery_practical
+
+	difficulty = 16
+
+	start_year = 1918
+	first_offset = 1933
+	additional_offset = 1
+	max_level = 20
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Anti-Tank Gun Production
+###############################################################################
+anti_tank_gun_production = {
+	
+	allow = {
+		artillery_production_industry = 2
+		anti_tank_gun = 1	
+		first_anti_tank_company = 1
+		second_anti_tank_company = 1
+		third_anti_tank_company = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.002
+	
+	
+	anti_tank_brigade = { 
+		build_time = -2.00
+	}
+	
+	heavy_anti_tank_brigade = { 
+		build_time = -3.00
+	}
+	
+	ss_anti_tank_brigade = { 
+		build_time = -2.00
+	}
+	
+	ss_heavy_anti_tank_brigade = { 
+		build_time = -3.00
+	}
+			
+	tank_destroyer_brigade = { 
+		build_time = -1.00
+	}
+	medium_tank_destroyer_brigade = { 
+		build_time = -1.00
+	}
+	ss_tank_destroyer_brigade = { 
+		build_time = -1.00
+	}
+	heavy_tank_destroyer_brigade = { 
+		build_time = -1.00
+	}	
+	
+		
+		
+	research_bonus_from = {
+		artillery_practical = 0.1
+		
+	}
+	
+	on_completion = artillery_practical
+
+	difficulty = 15
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Anti-Air Gun Production
+###############################################################################
+anti_air_gun_production = {
+	
+	allow = {
+		artillery_production_industry = 2	
+		anti_aircraft_gun = 1	
+		first_anti_aircraft_company = 1
+		second_anti_aircraft_company = 1
+		third_anti_aircraft_company	= 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	
+	
+	
+	anti_air_brigade = { 
+		build_time = -2.00
+	}
+	
+	heavy_anti_air_brigade = { 
+		build_time = -2.00
+	}
+	
+	sp_anti_air_brigade = { 
+		build_time = -2.00
+ 	}
+	
+	ss_anti_air_brigade = { 
+		build_time = -2.00
+	}
+	
+	ss_heavy_anti_air_brigade = { 
+		build_time = -2.00
+	}
+	
+	ss_sp_anti_air_brigade = { 
+		build_time = -2.00
+ 	} 	
+	
+		
+	research_bonus_from = {
+		artillery_practical = 0.1
+		
+	}
+	
+	on_completion = artillery_practical
+
+	difficulty = 15
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Aircraft Gun Production
+###############################################################################
+aircraft_gun_production = {
+	
+	allow = {
+		artillery_production_industry = 2	
+		OR = { 
+			fighter_aircraft_machine_guns = 1
+			fighter_aircraft_cannons = 1
+			fighter_aircraft_mg_and_cannons = 1
+			cas_aircraft_machine_guns = 1
+			cas_aircraft_cannons = 1
+		}
+			
+	}
+	
+	change = no
+	
+	ic_modifier = -0.001
+	
+	
+	
+	interceptor = { 	
+		build_time = -1.00
+		}
+	pursuit_fighter = { 	
+		build_time = -1.00
+		}	
+	multi_role = { 	
+		build_time = -1.00
+		}
+	fighter_bomber = { 	
+		build_time = -1.00
+		}		
+	cas = { 	
+		build_time = -1.00
+		}
+	heavy_cas = { 	
+		build_time = -1.00
+		}	
+#######################################			
+	naval_fighter = { 	
+		build_time = -1.00
+		}	
+	naval_fighter_bomber = { 	
+		build_time = -1.00
+		}	
+	naval_dive_bomber = { 	
+		build_time = -1.00
+		}	
+	naval_torpedo_plane = { 	
+		build_time = -1.00
+		}	
+	naval_cas = { 	
+		build_time = -1.00
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		build_time = -1.00
+		}
+	night_fighter = { 	
+		build_time = -1.00
+		}	
+	light_bomber = { 	
+		build_time = -1.00
+		}
+	tactical_bomber = { 	
+		build_time = -1.00
+		}
+	transport_plane = { 	
+		build_time = -1.00
+		}	
+	Flying_boat = { 	
+		build_time = -1.00
+		}
+#######################################			
+	naval_bomber = { 	
+		build_time = -1.00
+		}
+	strategic_bomber = { 	
+		build_time = -1.00
+		}
+	heavy_bomber = { 	
+		build_time = -1.00
+		}
+	super_heavy_bomber = { 	
+		build_time = -1.00
+		}	
+	quad_engine_transport = { 	
+		build_time = -1.00
+		}
+#######################################		
+	rocket_interceptor = { 	
+		build_time = -1.00
+		}
+	rocket_interceptor_van = { 	
+		build_time = -1.00
+		}	
+	jet_flying_wing = { 	
+		build_time = -1.00
+		}
+	peoples_fighter = { 	
+		build_time = -1.00
+		}	
+	jet_bomber = { 	
+		build_time = -1.00
+		}	
+	amerika_bomber = { 	
+		build_time = -1.00
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		build_time = -1.00
+		}	
+	advanced_jet_cas = { 	
+		build_time = -1.00
+		}	
+	advanced_jet_bomber = { 	
+		build_time = -1.00
+		}	
+	advanced_jet_heavy_bomber = { 	
+		build_time = -1.00
+		}	
+	tactical_transport_aircraft = { 	
+		build_time = -1.00
+		}
+	
+		
+	research_bonus_from = {
+		artillery_practical = 0.1
+		
+	}
+	
+	on_completion = artillery_practical
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1933
+	additional_offset = 1
+	max_level = 25
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Light Vehicle Engine Production
+###############################################################################
+light_tank_engine_production = {
+	
+	allow = {
+		OR = { 
+			light_motorized_transport = 1
+			military_truck_transport = 1
+			military_halftrack_transport = 1	
+			light_tank_prototype = 1
+		}
+	}
+	
+	change = no
+	
+	ic_modifier = -0.002
+	
+	light_transport = { 
+		build_time = -1.00
+	}
+	
+	truck_transport = { 
+		build_time = -1.00
+	}
+	
+	hftrack_transport = { 
+		build_time = -1.00
+	}
+	
+	light_armor_brigade = { 
+		build_time = -2.00
+	}
+	light_armor_bat = { 
+		build_time = -1.00
+	}
+		
+	mechanized_brigade = { 
+		build_time = -4.00
+	}
+	mechanized_infantry_bat = { 
+		build_time = -2.00
+	}
+	
+	combined_arms_brigade = { 
+		build_time = -1.00
+	}		
+	
+	guard_mechanized_brigade = { 
+		build_time = -4.00
+	}
+	guard_mechanized_infantry_bat = { 
+		build_time = -2.00
+	}
+					
+	ss_mechanized_brigade = { 
+		build_time = -4.00
+	}	
+	ss_mechanized_infantry_bat = { 
+		build_time = -2.00
+	}	
+	
+	armored_car_brigade = { 
+		build_time = -1.00
+	}
+	ss_armored_car_brigade = { 
+		build_time = -1.00
+	}
+	
+	motorcycle_recon_brigade = { 
+		build_time = -1.00
+	}
+	ss_motorcycle_recon_brigade = { 
+		build_time = -1.00
+	}
+			
+	semi_motorized_brigade = { 
+		build_time = -2.00
+	}
+	motorized_brigade = {
+		build_time = -6.00
+	}
+				
+	
+	
+			
+	guard_motorized_brigade = { 
+		build_time = -6.00
+	}
+		
+	ss_motorized_brigade = { 
+		build_time = -6.00
+	}	
+		
+	
+				
+	motorized_infantry_bat = { 
+		build_time = -2.00
+	}
+		
+	guard_motorized_infantry_bat = { 
+		build_time = -2.00
+	}	
+	
+	ss_motorized_infantry_bat = { 
+		build_time = -2.00
+	}	
+
+	
+	tank_destroyer_brigade = { 
+		build_time = -1.00
+	}
+	
+	sp_artillery_brigade = { 
+		build_time = -1.00
+	}
+	sp_rct_artillery_brigade = { 
+		build_time = -1.00
+	}
+		
+	guard_sp_rct_artillery_brigade = { 
+		build_time = -1.00
+	}
+			
+	ss_sp_artillery_brigade = { 
+		build_time = -1.00
+	}
+	ss_sp_rct_artillery_brigade = { 
+		build_time = -1.00
+	}
+
+		
+	research_bonus_from = {
+		armour_practical = 0.1
+	}
+	
+	on_completion = armour_practical
+
+	difficulty = 10
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Medium Tank Engine Production
+###############################################################################
+medium_tank_engine_production = {
+	
+	allow = {
+		first_tank_battalion = 1
+		
+	}
+	
+	change = no
+	
+	ic_modifier = -0.003
+		
+	combined_arms_brigade = { 
+		build_time = -1.00
+	}
+				
+	armor_brigade = { 
+		build_time = -6.00
+	}
+	
+	infantry_tank_brigade = { 
+		build_time = -2.00
+	}
+	
+	amph_armour_brigade = { 
+		build_time = -2.00
+	}
+	armored_engineers_brigade = { 
+		build_time = -2.00
+	}
+			
+	guard_armor_brigade = { 
+		build_time = -6.00
+	}
+			
+	ss_armored_engineers_brigade = { 
+		build_time = -2.00
+	}	
+			
+	
+	armor_bat = { 
+		build_time = -3.00
+	}
+	
+	guard_armor_bat = { 
+		build_time = -3.00
+	}
+		
+	ss_armor_brigade = { 
+		build_time = -3.00
+	}	
+	ss_armor_bat = { 
+		build_time = -3.00
+	}	
+	
+	assault_gun_brigade = { 
+		build_time = -2.00
+	}
+	medium_tank_destroyer_brigade = { 
+		build_time = -2.00
+	}
+		
+	sp_anti_air_brigade = { 
+		build_time = -2.00
+	}
+				
+	ss_sp_anti_air_brigade = { 
+		build_time = -2.00
+	}
+	ss_tank_destroyer_brigade = { 
+		build_time = -2.00
+	}
+				
+	research_bonus_from = {
+		armour_practical = 0.1
+	}
+	
+	on_completion = armour_practical
+
+	difficulty = 12
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Heavy Tank Engine Production
+###############################################################################
+heavy_tank_engine_production = {
+	
+	allow = {
+		heavy_tank_battalion = 1
+		
+	}
+	
+	change = no
+	
+	ic_modifier = -0.004
+	
+	heavy_armor_brigade = { 
+		build_time = -5.00
+	}
+	
+	super_heavy_armor_brigade = { 
+		build_time = -7.00
+	}
+	
+	guard_heavy_armor_brigade = { 
+		build_time = -5.00
+	}
+			
+	ss_heavy_armor_brigade = { 
+		build_time = -5.00
+	}	
+	
+	heavy_assault_gun_brigade = { 
+		build_time = -3.00
+	}
+	heavy_tank_destroyer_brigade = { 
+		build_time = -3.00
+	}
+			
+	research_bonus_from = {
+		armour_practical = 0.1
+		
+	}
+	
+	on_completion = armour_practical
+
+	difficulty = 14
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 25
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Tank Transmission Production
+###############################################################################
+tank_transmission_production = {
+	
+	allow = {
+		OR = { 
+			first_light_tank_battalion = 1
+			first_tank_battalion = 1				
+		}		
+	}
+	
+	change = no
+	
+	ic_modifier = -0.002
+		
+	light_armor_brigade = { 
+		build_time = -2.00
+	}
+	light_armor_bat = { 
+		build_time = -2.00
+	}
+	
+	armor_brigade = { 
+		build_time = -2.00
+	}
+	
+	infantry_tank_brigade = { 
+		build_time = -2.00
+	}
+	
+	amph_armour_brigade = { 
+		build_time = -2.00
+	}
+	armored_engineers_brigade = { 
+		build_time = -2.00
+	}
+			
+	guard_armor_brigade = { 
+		build_time = -2.00
+	}
+			
+	ss_armored_engineers_brigade = { 
+		build_time = -2.00
+	}	
+			
+	
+	armor_bat = { 
+		build_time = -2.00
+	}
+	
+	guard_armor_bat = { 
+		build_time = -2.00
+	}
+		
+	ss_armor_brigade = { 
+		build_time = -2.00
+	}	
+	ss_armor_bat = { 
+		build_time = -2.00
+	}	
+	
+	heavy_armor_brigade = { 
+		build_time = -2.00
+	}
+	
+	super_heavy_armor_brigade = { 
+		build_time = -2.00
+	}
+	
+	guard_heavy_armor_brigade = { 
+		build_time = -2.00
+	}
+			
+	ss_heavy_armor_brigade = { 
+		build_time = -2.00
+	}	
+	
+	assault_gun_brigade = { 
+		build_time = -2.00
+	}
+	heavy_assault_gun_brigade = { 
+		build_time = -2.00
+	}
+	tank_destroyer_brigade = { 
+		build_time = -2.00
+	}
+	medium_tank_destroyer_brigade = { 
+		build_time = -2.00
+	}
+	heavy_tank_destroyer_brigade = { 
+		build_time = -2.00
+	}
+	
+	sp_anti_air_brigade = { 
+		build_time = -2.00
+	}
+	sp_artillery_brigade = { 
+		build_time = -2.00
+	}
+	sp_rct_artillery_brigade = { 
+		build_time = -2.00
+	}
+		
+	guard_sp_rct_artillery_brigade = { 
+		build_time = -2.00
+	}
+			
+	ss_sp_anti_air_brigade = { 
+		build_time = -2.00
+	}
+	ss_sp_artillery_brigade = { 
+		build_time = -2.00
+	}
+	ss_sp_rct_artillery_brigade = { 
+		build_time = -2.00
+	}
+	ss_tank_destroyer_brigade = { 
+		build_time = -2.00
+	}
+			
+	research_bonus_from = {
+		armour_practical = 0.1
+		
+	}
+	
+	on_completion = armour_practical
+
+	difficulty = 14
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Light Tank Gun Production
+###############################################################################
+light_tank_gun_production = {
+	
+	allow = {
+		first_light_tank_battalion = 1	
+	}
+	
+	change = no
+	
+	ic_modifier = -0.001
+		
+	light_armor_brigade = { 
+		build_time = -2.00
+	}
+	light_armor_bat = { 
+		build_time = -1.00
+	}	
+		
+	sp_anti_air_brigade = { 
+		build_time = -1.00
+	}
+						
+	ss_sp_anti_air_brigade = { 
+		build_time = -1.00
+	}
+				
+	research_bonus_from = {
+		artillery_practical = 0.1
+		
+	}
+	
+	on_completion = artillery_practical
+
+	difficulty = 10
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Medium Tank Gun Production
+###############################################################################
+medium_tank_gun_production = {
+	
+	allow = {
+		first_tank_battalion = 1
+		
+	}
+	
+	change = no
+	
+	ic_modifier = -0.002
+	
+					
+	armor_brigade = { 
+		build_time = -4.00
+	}
+	
+	infantry_tank_brigade = { 
+		build_time = -1.00
+	}
+	
+	amph_armour_brigade = { 
+		build_time = -1.00
+	}
+	
+			
+	guard_armor_brigade = { 
+		build_time = -4.00
+	}
+				
+		
+	armor_bat = { 
+		build_time = -2.00
+	}
+	
+	guard_armor_bat = { 
+		build_time = -2.00
+	}
+		
+	ss_armor_brigade = { 
+		build_time = -4.00
+	}	
+	ss_armor_bat = { 
+		build_time = -2.00
+	}	
+	
+	assault_gun_brigade = { 
+		build_time = -1.00
+	}
+	
+	tank_destroyer_brigade = { 
+		build_time = -1.00
+	}
+	medium_tank_destroyer_brigade = { 
+		build_time = -1.00
+	}
+		
+	ss_tank_destroyer_brigade = { 
+		build_time = -1.00
+	}
+	
+					
+	research_bonus_from = {
+		artillery_practical = 0.1
+		
+	}
+	
+	on_completion = artillery_practical
+
+	difficulty = 15
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Heavy Tank Gun Production
+###############################################################################
+heavy_tank_gun_production = {
+	
+	allow = {
+		heavy_tank_battalion = 3		
+	}
+	
+	change = no
+	
+	ic_modifier = -0.003
+	
+	heavy_armor_brigade = { 
+		build_time = -2.00
+	}
+	
+	super_heavy_armor_brigade = { 
+		build_time = -2.00
+	}
+	
+	guard_heavy_armor_brigade = { 
+		build_time = -2.00
+	}
+			
+	ss_heavy_armor_brigade = { 
+		build_time = -2.00
+	}	
+	
+	heavy_assault_gun_brigade = { 
+		build_time = -2.00
+	}
+	heavy_tank_destroyer_brigade = { 
+		build_time = -2.00
+	}
+				
+					
+	research_bonus_from = {
+		artillery_practical = 0.1
+		
+	}
+	
+	on_completion = artillery_practical
+
+	difficulty = 17
+
+	start_year = 1942
+	first_offset = 1943
+	additional_offset = 1
+	max_level = 20
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Tank Spare Parts Production
+###############################################################################
+tank_spare_parts_production = {
+	
+	allow = {
+		automotive_construction_industry = 5
+		OR = {
+		light_tank_prototype = 1
+		medium_tank_prototype = 1	
+		heavy_tank_prototype = 1	
+		}	
+		OR = { 
+			AND = { 
+			first_light_tank_battalion = 1
+			second_light_tank_battalion = 1
+			}
+			AND = { 
+			first_tank_battalion = 1
+			second_tank_battalion = 1
+			}
+		heavy_tank_battalion = 1
+		}
+	}
+	
+	change = no
+	
+	ic_modifier = -0.001
+				
+	armored_car_brigade = { 
+		default_morale = 0.01
+	}
+		
+	armor_brigade = { 
+		default_morale = 0.01
+	}
+	light_armor_brigade = { 
+		default_morale = 0.01
+	}
+	infantry_tank_brigade = { 
+		default_morale = 0.01
+	}
+	assault_gun_brigade = { 
+		default_morale = 0.01
+	}
+	heavy_armor_brigade = { 
+		default_morale = 0.01
+	}
+	super_heavy_armor_brigade = { 
+		default_morale = 0.01
+	}
+	heavy_assault_gun_brigade = { 
+		default_morale = 0.01
+	}
+	tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	amph_armour_brigade = { 
+		default_morale = 0.01
+	}
+	armored_engineers_brigade = { 
+		default_morale = 0.01
+	}
+	
+	sp_anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	sp_artillery_brigade = { 
+		default_morale = 0.01
+	}
+		
+	guard_armor_brigade = { 
+		default_morale = 0.01
+	}
+	guard_heavy_armor_brigade = { 
+		default_morale = 0.01
+	}
+			
+	ss_armored_car_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_armored_engineers_brigade = { 
+		default_morale = 0.01
+	}	
+		
+	ss_frundsberg = { 
+		default_morale = 0.01
+	}	
+	ss_heavy_armor_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_hitlerjugend = { 
+		default_morale = 0.01
+	}	
+	ss_hohenstaufen = { 
+		default_morale = 0.01
+	}	
+	ss_lssah = { 
+		default_morale = 0.01
+	}		
+	ss_prinz_eugen = { 
+		default_morale = 0.01
+	}	
+	ss_sp_anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	ss_sp_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	ss_tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	ss_totenkopf = { 
+		default_morale = 0.01
+	}
+	ss_wiking = { 
+		default_morale = 0.01
+	}
+				
+	desertrats_brigade = { 
+		default_morale = 0.01
+	}
+	afrika_brigade = { 
+		default_morale = 0.01
+	}
+	goering_brigade = { 
+		default_morale = 0.01
+	}
+	grossdeutschland_brigade = { 
+		default_morale = 0.01
+	}
+	lehr_brigade = { 
+		default_morale = 0.01
+	}
+		
+	armor_bat = { 
+		default_morale = 0.01
+	}
+	light_armor_bat = { 
+		default_morale = 0.01
+	}
+	medium_tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	guard_armor_bat = { 
+		default_morale = 0.01
+	}
+	ss_armor_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_armor_bat = { 
+		default_morale = 0.01
+	}		
+			
+	research_bonus_from = {
+		armour_practical = 0.1
+		
+	}
+	
+	on_completion = armour_practical
+
+	difficulty = 8
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 25
+	folder = manufacturing_folder
+}
+###############################################################################
+## Light Aircraft Engine Production
+###############################################################################
+light_aircraft_engine_production = {
+	
+	allow = {
+		v_twelve_aircraft_engine = 1		
+			
+		short_range_aircraft_production = 2
+	}
+	
+	change = no
+	
+	ic_modifier = -0.003
+	
+	
+	
+	interceptor = { 	
+		build_time = -5.00
+		}
+	pursuit_fighter = { 	
+		build_time = -5.00
+		}	
+	fighter_bomber = { 	
+		build_time = -5.00
+		}	
+	multi_role = { 	
+		build_time = -5.00
+		}
+	cas = { 	
+		build_time = -5.00
+		}
+	heavy_cas = { 	
+		build_time = -5.00
+		}	
+	
+	research_bonus_from = {
+		single_engine_aircraft_practical = 0.1
+		
+	}
+	
+	on_completion = single_engine_aircraft_practical
+
+	difficulty = 14
+
+	start_year = 1933
+	first_offset = 1934
+	additional_offset = 1
+	max_level = 16
+	folder = manufacturing_folder
+}
+###############################################################################
+## Carrier Aircraft Engine Production
+###############################################################################
+carrier_aircraft_engine_production = {
+	
+	allow = {
+		h_twenty_four_cylinder_aircraft_engine = 1
+	
+		short_range_aircraft_production = 2
+		
+	}
+	
+	change = no
+	
+	ic_modifier = -0.003
+	
+	
+		
+	cag = { 	
+		build_time = -5.00
+		}	
+	naval_fighter = { 	
+		build_time = -5.00
+		}	
+	naval_fighter_bomber = { 	
+		build_time = -5.00
+		}	
+	naval_dive_bomber = { 	
+		build_time = -5.00
+		}	
+	naval_torpedo_plane = { 	
+		build_time = -5.00
+		}	
+	naval_cas = { 	
+		build_time = -5.00
+		}		
+		
+	research_bonus_from = {
+		single_engine_aircraft_practical = 0.1
+		
+	}
+	
+	on_completion = single_engine_aircraft_practical
+
+	difficulty = 14
+
+	start_year = 1933
+	first_offset = 1934
+	additional_offset = 1
+	max_level = 16
+	folder = manufacturing_folder
+}
+###############################################################################
+## Medium Aircraft Engine Production
+###############################################################################
+medium_aircraft_engine_production = {
+	
+	allow = {
+		eighteen_cylinder_radial_aircraft_engine = 1		
+				
+		long_range_aircraft_production = 2
+	}
+	
+	change = no
+	
+	ic_modifier = -0.003
+	
+	
+	
+	twin_engine_fighters = { 	
+		build_time = -5.00
+		}
+	light_bomber = { 	
+		build_time = -5.00
+		}
+	night_fighter = { 	
+		build_time = -5.00
+		}	
+	
+	tactical_bomber = { 	
+		build_time = -5.00
+		}
+	transport_plane = { 	
+		build_time = -5.00
+		}	
+	Flying_boat = { 	
+		build_time = -5.00
+		}
+		
+	research_bonus_from = {
+		single_engine_aircraft_practical = 0.1
+		
+	}
+	
+	on_completion = single_engine_aircraft_practical
+
+	difficulty = 16
+
+	start_year = 1933
+	first_offset = 1934
+	additional_offset = 1
+	max_level = 16
+	folder = manufacturing_folder
+}
+###############################################################################
+## Heavy Aircraft Engine Production
+###############################################################################
+heavy_aircraft_engine_production = {
+	
+	allow = {
+		fourteen_cylinder_radial_aircraft_engine = 1
+		
+		long_range_aircraft_production = 2
+	}
+	
+	change = no
+	
+	ic_modifier = -0.05
+	
+	
+			
+	naval_bomber = { 	
+		build_time = -5.00
+		}
+	strategic_bomber = { 	
+		build_time = -5.00
+		}
+	heavy_bomber = { 	
+		build_time = -5.00
+		}
+	super_heavy_bomber = { 	
+		build_time = -5.00
+		}	
+	quad_engine_transport = { 	
+		build_time = -5.00
+		}
+		
+	research_bonus_from = {
+		single_engine_aircraft_practical = 0.1
+		
+	}
+	
+	on_completion = single_engine_aircraft_practical
+
+	difficulty = 18
+
+	start_year = 1933
+	first_offset = 1934
+	additional_offset = 1
+	max_level = 16
+	folder = manufacturing_folder
+}
+###############################################################################
+## Jet Aircraft Engine Production
+###############################################################################
+jet_aircraft_engine_production = {
+	
+	allow = {
+		jet_engine_design = 2
+		
+		jet_aircraft_model = 2
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	
+	
+	
+	rocket_interceptor = { 	
+		build_time = -5.00
+		}
+	jet_flying_wing = { 	
+		build_time = -5.00
+		}	
+	jet_bomber = { 	
+		build_time = -5.00
+		}	
+	amerika_bomber = { 	
+		build_time = -5.00
+		}		
+		
+	research_bonus_from = {
+		single_engine_aircraft_practical = 0.1
+		
+	}
+	
+	on_completion = single_engine_aircraft_practical
+
+	difficulty = 20
+
+	start_year = 1944
+	first_offset = 1945
+	additional_offset = 1
+	max_level = 12
+	folder = manufacturing_folder
+}
+###############################################################################
+## Advanced Jet Aircraft Engine Production
+###############################################################################
+advanced_jet_aircraft_engine_production = {
+	
+	allow = {
+		jet_engine_design = 4
+		
+		advanced_jet_aircraft_model = 2
+	}
+	
+	change = no
+	
+	ic_modifier = -0.006
+	
+	
+	
+	advanced_jet_fighter = { 	
+		build_time = -5.00
+		}
+	advanced_jet_cas = { 	
+		build_time = -5.00
+		}	
+	advanced_jet_bomber = { 	
+		build_time = -5.00
+		}	
+	advanced_jet_heavy_bomber = { 	
+		build_time = -5.00
+		}	
+	tactical_transport_aircraft = { 	
+		build_time = -5.00
+		}		
+		
+	research_bonus_from = {
+		single_engine_aircraft_practical = 0.1
+		
+	}
+	
+	on_completion = single_engine_aircraft_practical
+
+	difficulty = 14
+
+	start_year = 1950
+	first_offset = 1952
+	additional_offset = 1
+	max_level = 18
+	folder = manufacturing_folder
+}
+###############################################################################
+## Duralumin Production
+###############################################################################
+duralumin_production = {
+	
+	allow = {
+		duralumin = 1	
+	}
+	
+	change = no
+	
+	ic_modifier = -0.005
+	
+	interceptor = { 	
+		build_cost_ic = -0.50
+		}
+	pursuit_fighter = { 	
+		build_cost_ic = -0.50
+		}	
+	multi_role = { 	
+		build_cost_ic = -0.50
+		}
+	fighter_bomber = { 	
+		build_cost_ic = -0.50
+		}		
+	cas = { 	
+		build_cost_ic = -0.50
+		}
+	heavy_cas = { 	
+		build_cost_ic = -0.50
+		}	
+#######################################			
+	naval_fighter = { 	
+		build_cost_ic = -0.50
+		}	
+	naval_fighter_bomber = { 	
+		build_cost_ic = -0.50
+		}	
+	naval_dive_bomber = { 	
+		build_cost_ic = -0.50
+		}	
+	naval_torpedo_plane = { 	
+		build_cost_ic = -0.50
+		}	
+	naval_cas = { 	
+		build_cost_ic = -0.50
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		build_cost_ic = -0.50
+		}
+	night_fighter = { 	
+		build_cost_ic = -0.50
+		}	
+	light_bomber = { 	
+		build_cost_ic = -0.50
+		}
+	tactical_bomber = { 	
+		build_cost_ic = -0.50
+		}
+	transport_plane = { 	
+		build_cost_ic = -0.50
+		}	
+	Flying_boat = { 	
+		build_cost_ic = -0.50
+		}
+#######################################			
+	naval_bomber = { 	
+		build_cost_ic = -0.50
+		}
+	strategic_bomber = { 	
+		build_cost_ic = -0.50
+		}
+	heavy_bomber = { 	
+		build_cost_ic = -0.50
+		}
+	super_heavy_bomber = { 	
+		build_cost_ic = -0.50
+		}	
+	quad_engine_transport = { 	
+		build_cost_ic = -0.50
+		}
+		
+		
+	research_bonus_from = {
+		single_engine_aircraft_practical = 0.1
+		
+	}
+	
+	on_completion = single_engine_aircraft_practical
+
+	difficulty = 7
+
+	start_year = 1933
+	first_offset = 1934
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+###############################################################################
+## Aircraft Spare Parts Production
+###############################################################################
+aircraft_spare_parts_production = {
+	
+	allow = {
+		long_range_aircraft_production = 5
+		short_range_aircraft_production = 5
+	}
+	
+	change = no
+	
+	ic_modifier = -0.001
+	
+	interceptor = { 	
+		default_morale = 0.01
+		}
+	pursuit_fighter = { 	
+		default_morale = 0.01
+		}	
+	multi_role = { 	
+		default_morale = 0.01
+		}
+	fighter_bomber = { 	
+		default_morale = 0.01
+		}		
+	cas = { 	
+		default_morale = 0.01
+		}
+	heavy_cas = { 	
+		default_morale = 0.01
+		}	
+#######################################			
+	naval_fighter = { 	
+		default_morale = 0.01
+		}	
+	naval_fighter_bomber = { 	
+		default_morale = 0.01
+		}	
+	naval_dive_bomber = { 	
+		default_morale = 0.01
+		}	
+	naval_torpedo_plane = { 	
+		default_morale = 0.01
+		}	
+	naval_cas = { 	
+		default_morale = 0.01
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		default_morale = 0.01
+		}
+	night_fighter = { 	
+		default_morale = 0.01
+		}	
+	light_bomber = { 	
+		default_morale = 0.01
+		}
+	tactical_bomber = { 	
+		default_morale = 0.01
+		}
+	transport_plane = { 	
+		default_morale = 0.01
+		}	
+	Flying_boat = { 	
+		default_morale = 0.01
+		}
+#######################################			
+	naval_bomber = { 	
+		default_morale = 0.01
+		}
+	strategic_bomber = { 	
+		default_morale = 0.01
+		}
+	heavy_bomber = { 	
+		default_morale = 0.01
+		}
+	super_heavy_bomber = { 	
+		default_morale = 0.01
+		}	
+	quad_engine_transport = { 	
+		default_morale = 0.01
+		}
+	
+		
+	research_bonus_from = {
+		single_engine_aircraft_practical = 0.1
+		
+	}
+	
+	on_completion = single_engine_aircraft_practical
+
+	difficulty = 8
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 25
+	folder = manufacturing_folder
+}
+###############################################################################
+## Ball Bearings Production
+###############################################################################
+ball_bearings_production = {
+	
+	allow = {
+		
+			
+	}
+	
+	change = no
+	
+	ic_modifier = -0.001
+	
+	light_armor_brigade = { 
+		build_cost_ic = -0.25
+	}
+	light_armor_bat = { 
+		build_cost_ic = -0.25
+	}
+	tank_destroyer_brigade = { 
+		build_cost_ic = -0.25
+	}
+	armored_car_brigade = { 
+		build_cost_ic = -0.25
+	}
+	ss_armored_car_brigade = { 
+		build_cost_ic = -0.25
+	}
+		
+	armor_brigade = { 
+		build_cost_ic = -0.25
+	}
+	armor_bat = { 
+		build_cost_ic = -0.25
+	}
+	
+	armored_engineers_brigade = { 
+		build_cost_ic = -0.25
+		 } 
+	ss_armored_engineers_brigade = { 
+		build_cost_ic = -0.25
+		 } 
+		
+	amph_armour_brigade = { 
+		build_cost_ic = -0.25
+	}
+	assault_gun_brigade = { 
+		build_cost_ic = -0.25
+	}
+	medium_tank_destroyer_brigade = { 
+		build_cost_ic = -0.25
+	}
+	ss_tank_destroyer_brigade = { 
+		build_cost_ic = -0.25
+	}
+	infantry_tank_brigade = { 
+		build_cost_ic = -0.25
+	}
+	sp_artillery_brigade = { 
+		build_cost_ic = -0.25
+	}
+	sp_anti_air_brigade = { 
+		build_cost_ic = -0.25
+ 	} 
+	armored_engineers_brigade = { 
+		build_cost_ic = -0.25
+		 } 
+	ss_armored_engineers_brigade = { 
+		build_cost_ic = -0.25
+		 } 
+	
+	heavy_armor_brigade = { 
+		build_cost_ic = -0.25
+	}
+	ss_heavy_armor_brigade = { 
+		build_cost_ic = -0.25
+	}
+	guard_heavy_armor_brigade = { 
+		build_cost_ic = -0.25
+	}
+	super_heavy_armor_brigade  = { 
+		build_cost_ic = -0.25
+	}
+	heavy_assault_gun_brigade = { 
+		build_cost_ic = -0.25
+	}
+	heavy_tank_destroyer_brigade = { 
+		build_cost_ic = -0.25
+	}	
+	
+#############################################	
+	
+	interceptor = { 	
+		build_cost_ic = -0.15
+		}
+	pursuit_fighter = { 	
+		build_cost_ic = -0.15
+		}	
+	multi_role = { 	
+		build_cost_ic = -0.15
+		}
+	fighter_bomber = { 	
+		build_cost_ic = -0.15
+		}		
+	cas = { 	
+		build_cost_ic = -0.15
+		}
+	heavy_cas = { 	
+		build_cost_ic = -0.15
+		}	
+#######################################			
+	naval_fighter = { 	
+		build_cost_ic = -0.15
+		}	
+	naval_fighter_bomber = { 	
+		build_cost_ic = -0.15
+		}	
+	naval_dive_bomber = { 	
+		build_cost_ic = -0.15
+		}	
+	naval_torpedo_plane = { 	
+		build_cost_ic = -0.15
+		}	
+	naval_cas = { 	
+		build_cost_ic = -0.15
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		build_cost_ic = -0.15
+		}
+	night_fighter = { 	
+		build_cost_ic = -0.15
+		}	
+	light_bomber = { 	
+		build_cost_ic = -0.15
+		}
+	tactical_bomber = { 	
+		build_cost_ic = -0.15
+		}
+	transport_plane = { 	
+		build_cost_ic = -0.15
+		}	
+	Flying_boat = { 	
+		build_cost_ic = -0.15
+		}
+#######################################			
+	naval_bomber = { 	
+		build_cost_ic = -0.15
+		}
+	strategic_bomber = { 	
+		build_cost_ic = -0.15
+		}
+	heavy_bomber = { 	
+		build_cost_ic = -0.15
+		}
+	super_heavy_bomber = { 	
+		build_cost_ic = -0.15
+		}	
+	quad_engine_transport = { 	
+		build_cost_ic = -0.15
+		}
+	
+		
+	research_bonus_from = {
+		single_engine_aircraft_practical = 0.1
+		armour_practical = 0.10		
+	}
+	
+	on_completion = single_engine_aircraft_practical
+	
+	difficulty = 7
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 30
+	folder = manufacturing_folder
+}
+
+###############################################################################
+##  24 Hour Shifts
+###############################################################################
+twenty_four_hour_shifts = {
+	
+	allow = {
+		war = yes
+		industral_efficiency = 9
+	}
+	
+	research_bonus_from = {
+		construction_practical = 0.10
+	}
+
+	on_completion = construction_practical	
+		
+	difficulty = 3
+
+	start_year = 1939
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Jerrycans
+###############################################################################
+jerrycan = {
+	
+	allow = {
+		steel_production = 2	
+		germany = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	infantry_brigade = { 
+		maximum_speed = 0.10
+		supply_consumption = -0.15
+	}
+	semi_motorized_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	motorized_brigade = {
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	mechanized_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	
+	
+	combined_arms_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+			
+			
+		
+	armored_car_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	motorcycle_recon_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	Recon_cavalry_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	
+	
+	armor_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	light_armor_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	infantry_tank_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	assault_gun_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	heavy_armor_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	super_heavy_armor_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	heavy_assault_gun_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	tank_destroyer_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	heavy_tank_destroyer_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	amph_armour_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	armored_engineers_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	
+	sp_anti_air_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	sp_artillery_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	sp_rct_artillery_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+			
+	ss_armored_car_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_armored_engineers_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	
+	ss_frundsberg = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_heavy_armor_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_hitlerjugend = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_hohenstaufen = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_lssah = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_motorcycle_recon_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	
+	ss_motorized_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+			
+	ss_polizei = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_prinz_eugen = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_sp_anti_air_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	ss_sp_artillery_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	ss_sp_rct_artillery_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	ss_tank_destroyer_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	ss_totenkopf = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	ss_wiking = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+				
+	afrika_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	goering_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	grossdeutschland_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	lehr_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+		
+	motorized_infantry_bat = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	mechanized_infantry_bat = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	armor_bat = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	light_armor_bat = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	medium_tank_destroyer_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	guard_armor_bat = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	guard_mechanized_infantry_bat = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	guard_motorized_infantry_bat = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}
+	ss_armor_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_armor_bat = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}		
+	ss_mechanized_brigade = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_mechanized_infantry_bat = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}	
+	ss_motorized_infantry_bat = { 
+		maximum_speed = 0.10
+        supply_consumption = -0.15
+	}			
+		
+	on_completion = mobile_theory
+
+	difficulty = 5
+
+	start_year = 1938
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Hydrogen Peroxide Fuel
+###############################################################################
+hydrogen_peroxide_fuel = {
+	
+	allow = {
+		rocket_interceptor_production_model = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor_van = { 	
+		default_organisation = 10
+		}
+	
+		
+	research_bonus_from = {
+		rocket_science = 0.15
+		rocket_practical = 0.15
+	}
+
+	on_completion = jetengine_theory
+
+	difficulty = 9
+
+	start_year = 1941
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Women Factory Workers
+###############################################################################
+women_factory_workers = {
+	
+	allow = {
+		OR = { 
+			faction = allies
+			faction = comintern		
+		}
+		war = yes
+	}
+	
+	research_bonus_from = {
+		construction_practical = 0.10
+	}
+
+	on_completion = construction_practical
+
+	difficulty = 3
+
+	start_year = 1939
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Professional Industry Labor
+###############################################################################
+professional_industry_labor = {
+	
+	allow = {
+		has_country_flag = professional_factory_labor
+		war = yes
+	}
+	
+			
+	research_bonus_from = {
+		construction_practical = 0.10
+	}
+
+	on_completion = construction_practical
+	
+	difficulty = 3
+
+	start_year = 1939
+	folder = manufacturing_folder
+}
+###############################################################################
+##  Conscript Industry Labor
+###############################################################################
+conscript_industry_labor = {
+	
+	allow = {
+		has_country_flag = slave_factory_labor
+		war = yes
+	}
+	
+	research_bonus_from = {
+		construction_practical = 0.10
+	}
+
+	on_completion = construction_practical	
+		
+	difficulty = 3
+
+	start_year = 1939
+	folder = manufacturing_folder
+}

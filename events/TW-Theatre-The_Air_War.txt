@@ -1,0 +1,1537 @@
+# Events to make sure that AI builds new Air Units
+
+#######################################################################################
+###  GER AIR UNITS
+#######################################################################################	
+
+############################
+### New Jet Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902021
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			war_with = ENG
+			war_with = USA
+			jet_fighter_focus = 2
+			NOT = { total_ic = 400 }
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New Jet Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Jet_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+############################
+### More New Jet Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902022
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			war_with = ENG
+			war_with = USA
+			jet_fighter_focus = 2
+			total_ic = 400
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "More New Jet Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Jet_Fighters2.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+############################
+### New Jet Flying Wings Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902023
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			war_with = ENG
+			war_with = USA
+			jet_fighter_flying_wing_focus = 1
+			NOT = { total_ic = 400 }
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New Jet Flying Wings"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Jet_Flying_Wings1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+############################
+### More New Jet Flying Wings Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902024
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			war_with = ENG
+			war_with = USA
+			jet_fighter_flying_wing_focus = 1
+			total_ic = 400
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "More New Jet Flying Wings"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Jet_Flying_Wings2.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Jet Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902025
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			war_with = ENG
+			war_with = USA
+			jet_bomber_focus = 1
+			NOT = { total_ic = 400 }
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New Jet Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Jet_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+############################
+### More New Jet Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902026
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			war_with = ENG
+			war_with = USA
+			jet_bomber_focus = 1
+			total_ic = 400
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "More New Jet Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Jet_Bombers2.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Fighter Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902027
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			war_with = ENG
+			fighter_bomber_focus = 12
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New Fighter Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Fighter_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Heavy CAS Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902028
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			war_with = SOV
+			heavy_close_air_support_focus = 4
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Heavy CAS"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Heavy_CAS1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Night Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902029
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			war_with = ENG
+			night_fighter_focus = 4
+        }
+		
+		mean_time_to_happen = {
+			days = 45
+		}		
+
+		title = "New Night Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Night_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Heavy Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902030
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			war_with = ENG
+			heavy_bomber_focus = 9
+        }
+		
+		mean_time_to_happen = {
+			days = 90
+		}		
+
+		title = "New Heavy Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Heavy_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Jet Bomber Flying Wing Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902044
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			jet_bomber_flying_wing_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Jet Flying Wings Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_Jet_Flying_Wing_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}		
+
+#######################################################################################
+###  USA AIR UNITS
+#######################################################################################
+	
+############################
+### New Pursuit Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 9020311
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			pursuit_fighter_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 90
+		}		
+
+		title = "New Pursuit-Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Pursuit_Fighters2.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+############################
+### New Pursuit Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902031
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			war_with = GER
+			pursuit_fighter_focus = 12
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New P-51D's"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Pursuit_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+############################
+### New Fighter-Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902032
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			war_with = GER
+			fighter_bomber_focus = 10
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New P-47's"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Fighter_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Naval Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902033
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			naval_fighter_focus = 5
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New F4F Wildcats"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Naval_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Naval Fighter-Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902034
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			war_with = JAP
+			naval_fighter_bomber_focus = 7
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New F6F Hellcats"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Naval_Fighter_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Naval CAS Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902035
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			war_with = JAP
+			naval_cas_focus = 6
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New F4U Corsairs"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Naval_CAS1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Naval Dive-Bomber Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902036
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			naval_dive_bomber_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Naval Dive Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Naval_Dive_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Naval Torpedo Planes Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902037
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			naval_torpedo_plane_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Naval Torpedo Planes"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Naval_Torpedo_Planes1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Night Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902038
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			war_with = JAP
+			night_fighter_focus = 5
+        }
+		
+		mean_time_to_happen = {
+			days = 90
+		}		
+
+		title = "New Night Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Night_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Heavy Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902039
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			heavy_bomber_focus = 7
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Heavy Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Heavy_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Super Heavy Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902040
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			war_with = JAP
+			super_heavy_bomber_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Super Heavy Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Super_Heavy_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Jet Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902041
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			jet_fighter_focus = 2
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Jet Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Jet_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Jet Flying Wing Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902042
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			jet_fighter_flying_wing_focus = 6
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Jet Flying Wings"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Jet_Flying_Wings1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Jet Flying Wing Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902043
+		
+		trigger = {
+			tag = USA
+			ai = yes
+			jet_bomber_flying_wing_focus = 5
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Jet Flying Wings Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_USA_Jet_Flying_Wing_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+#######################################################################################
+###  ENG EVENTS
+#######################################################################################	
+
+############################
+### New Fighter Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902045
+		
+		trigger = {
+			tag = ENG
+			ai = yes
+			fighter_bomber_focus = 9
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Fighter Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_ENG_Fighter_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}		
+
+############################
+### New Naval Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902046
+		
+		trigger = {
+			tag = ENG
+			ai = yes
+			naval_fighter_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 90
+		}		
+
+		title = "New Naval Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_ENG_Naval_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Naval Dive Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902047
+		
+		trigger = {
+			tag = ENG
+			ai = yes
+			naval_dive_bomber_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 90
+		}		
+
+		title = "New Naval Dive Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_ENG_Naval_Dive_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Naval Torpedo Plane Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902048
+		
+		trigger = {
+			tag = ENG
+			ai = yes
+			naval_torpedo_plane_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 90
+		}		
+
+		title = "New Naval Torpedo Planes"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_ENG_Naval_Torpedo_Plane1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Heavy Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902049
+		
+		trigger = {
+			tag = ENG
+			ai = yes
+			heavy_bomber_focus = 6
+        }
+		
+		mean_time_to_happen = {
+			days = 45
+		}		
+
+		title = "New Heavy Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_ENG_Heavy_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Jet Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902050
+		
+		trigger = {
+			tag = ENG
+			ai = yes
+			jet_fighter_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Jet Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_ENG_Jet_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Jet Flying Wing Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902051
+		
+		trigger = {
+			tag = ENG
+			ai = yes
+			jet_fighter_flying_wing_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Jet Flying Wings"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_ENG_Jet_Flying_Wings1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}		
+	
+#######################################################################################
+###  JAP EVENTS
+#######################################################################################		
+
+############################
+### New Pursuit Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902052
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			pursuit_fighter_focus = 11
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New Pursuit Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Pursuit_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Heavy CAS Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902053
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			heavy_close_air_support_focus = 7
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New Heavy CAS"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Heavy_CAS1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Naval Fighter Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902054
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			naval_fighter_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Naval Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Naval_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}		
+	
+############################
+### New Naval Fighter-Bomber Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902055
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			naval_fighter_bomber_focus = 9
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Naval Fighter-Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Naval_Fighter_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Naval Dive-Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902056
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			naval_dive_bomber_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Naval Dive-Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Naval_Dive_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}		
+
+############################
+### New Naval Dive-Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902057
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			naval_torpedo_plane_focus = 2
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Naval Torpedo Plane"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Naval_Torpedo_Planes1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Night Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902058
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			night_fighter_focus = 3
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Night Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Night_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Heavy Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902059
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			heavy_bomber_focus = 9
+        }
+		
+		mean_time_to_happen = {
+			days = 60
+		}		
+
+		title = "New Heavy Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Heavy_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Super Heavy Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902060
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			super_heavy_bomber_focus = 3
+        }
+		
+		mean_time_to_happen = {
+			days = 90
+		}		
+
+		title = "New Super Heavy Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Super_Heavy_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Jet Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902061
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			jet_fighter_focus = 2
+        }
+		
+		mean_time_to_happen = {
+			days = 90
+		}		
+
+		title = "New Jet Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Jet_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Jet Flying Wings Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902062
+		
+		trigger = {
+			tag = JAP
+			ai = yes
+			jet_fighter_flying_wing_focus = 3
+        }
+		
+		mean_time_to_happen = {
+			days = 90
+		}		
+
+		title = "New Jet Flying Wings"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_JAP_Jet_Flying_Wings1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}		
+	
+#######################################################################################
+###  SOV AIR UNITS
+#######################################################################################	
+
+############################
+### New Pursuit Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902063
+		
+		trigger = {
+			tag = SOV
+			ai = yes
+			pursuit_fighter_focus = 8
+        }
+		
+		mean_time_to_happen = {
+			days = 45
+		}		
+
+		title = "New Pursuit Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_SOV_Pursuit_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### New Fighter-Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902064
+		
+		trigger = {
+			tag = SOV
+			ai = yes
+			fighter_bomber_focus = 10
+        }
+		
+		mean_time_to_happen = {
+			days = 45
+		}		
+
+		title = "New Fighter-Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_SOV_Fighter_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Heavy-CAS Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902065
+		
+		trigger = {
+			tag = SOV
+			ai = yes
+			heavy_close_air_support_focus = 2
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New Fighter-Bombers"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_SOV_Heavy_CAS1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}		
+	
+############################
+### New Jet Fighters Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902066
+		
+		trigger = {
+			tag = SOV
+			ai = yes
+			jet_fighter_focus = 1
+        }
+		
+		mean_time_to_happen = {
+			days = 45
+		}		
+
+		title = "New Jet-Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_SOV_Jet_Fighters1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### New Jet Bombers Under Construction ###
+############################
+
+	country_event = {
+
+		id = 902067
+		
+		trigger = {
+			tag = SOV
+			ai = yes
+			jet_bomber_focus = 5
+        }
+		
+		mean_time_to_happen = {
+			days = 45
+		}		
+
+		title = "New Jet-Fighters"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_SOV_Jet_Bombers1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}		

@@ -1,0 +1,12 @@
+military_construction = {
+	country = ENG
+	
+	naval_dive_bomber = { 
+		historical_model = 0
+	}
+		
+	cost = 4.00
+	duration = 75
+	progress = 5
+}
+#EOF#

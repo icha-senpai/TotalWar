@@ -1,0 +1,42 @@
+############# 7th Armoured "Desert Rats"
+desertrats_brigade.0 = { # Model I 1935
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+}
+desertrats_brigade.1 = { # Model II 1939
+	first_tank_battalion = 2
+	second_tank_battalion = 2
+}
+desertrats_brigade.2 = { # Model III 1941
+	first_tank_battalion = 3
+	second_tank_battalion = 3
+}
+desertrats_brigade.3 = { # Model IV 1943
+	first_tank_battalion = 4
+	second_tank_battalion = 4
+}
+desertrats_brigade.4 = { # Model V 1945
+	first_tank_battalion = 5
+	second_tank_battalion = 5
+}
+desertrats_brigade.5 = { # Model VI 1947
+	first_tank_battalion = 6
+	second_tank_battalion = 6
+}
+desertrats_brigade.6 = { # Model VII 1949
+	first_tank_battalion = 7
+	second_tank_battalion = 7
+}
+desertrats_brigade.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+	second_tank_battalion = 8
+}	
+desertrats_brigade.8 = { # Model IX 1953
+	first_tank_battalion = 9
+	second_tank_battalion = 9
+}
+desertrats_brigade.9 = { # Model X 1955
+	first_tank_battalion = 10
+	second_tank_battalion = 10
+}
+#EOF#

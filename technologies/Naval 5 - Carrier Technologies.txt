@@ -1,0 +1,1669 @@
+################################################################################
+# CARRIER TECHNOLOGIES	
+################################################################################
+################################################################################
+# AIRCRAFT CARRIERS	
+################################################################################
+# 
+aircraft_carriers = {
+	
+	allow = {
+		num_of_ports  = 1
+		Ship_Building_Technologies = 1
+		naval_aviation_doctrine = 1
+	}
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1922
+	folder = carrier_folder
+}
+################################################################################
+# FLEET CARRIER CLASS
+################################################################################
+# 
+fleet_carrier_class = {
+	
+	allow = {
+		aircraft_carriers = 1
+		
+		OR = {
+			AND = {
+				NOT = { fleet_carrier_class = 1 }  # 1933
+				Ship_Building_Technologies = 2
+				OR = {
+					aircraft_carrier_anti_air_guns = 1
+					aircraft_carrier_propulsion = 1	
+					
+				}
+				OR = {
+					aircraft_carrier_armor = 1 
+					aircraft_carrier_hangar_deck_design = 1 
+					
+				}
+				OR = {
+					aircraft_carrier_elevators = 1
+					aircraft_carrier_superstructure_design = 1
+					
+				}
+				OR = {
+					aircraft_carrier_flight_deck_design = 1
+					aircraft_carrier_hull_design = 1 
+					aircraft_carrier_crew_berthing = 1
+					
+				}	
+			
+			}
+			AND = {
+				NOT = { fleet_carrier_class = 2 }    # 1936
+				Ship_Building_Technologies = 4
+				OR = {
+					aircraft_carrier_anti_air_guns = 2
+					aircraft_carrier_propulsion = 2
+					
+				}
+				OR = {
+					aircraft_carrier_armor = 2 
+					aircraft_carrier_hangar_deck_design = 2 
+					
+				}
+				OR = {
+					aircraft_carrier_elevators = 2
+					aircraft_carrier_superstructure_design = 2
+					
+				}
+				OR = {
+					aircraft_carrier_flight_deck_design = 2
+					aircraft_carrier_hull_design = 2 
+					aircraft_carrier_crew_berthing = 2
+					
+				}				
+			}
+			AND = {
+				NOT = { fleet_carrier_class = 3 }    # 1939
+				Ship_Building_Technologies = 7
+				OR = {
+					aircraft_carrier_anti_air_guns = 3
+					aircraft_carrier_propulsion = 3
+					
+				}
+				OR = {
+					aircraft_carrier_armor = 3
+					aircraft_carrier_hangar_deck_design = 3
+					
+				}
+				OR = {
+					aircraft_carrier_elevators = 3
+					aircraft_carrier_superstructure_design = 3
+					
+				}
+				OR = {
+					aircraft_carrier_flight_deck_design = 3
+					aircraft_carrier_hull_design = 3
+					aircraft_carrier_crew_berthing = 3
+					
+				}			
+			}
+			AND = {
+				NOT = { fleet_carrier_class = 4 }    # 1942
+				Ship_Building_Technologies = 10
+				OR = {
+					aircraft_carrier_anti_air_guns = 4
+					aircraft_carrier_propulsion = 4
+					
+				}
+				OR = {
+					aircraft_carrier_armor = 4
+					aircraft_carrier_hangar_deck_design = 4
+					
+				}
+				OR = {
+					aircraft_carrier_elevators = 4
+					aircraft_carrier_superstructure_design = 4
+					
+				}
+				OR = {
+					aircraft_carrier_flight_deck_design = 4
+					aircraft_carrier_hull_design = 4
+					aircraft_carrier_crew_berthing = 4
+					
+				}			
+			}
+			AND = {
+				NOT = { fleet_carrier_class = 5 }    # 1945
+				Ship_Building_Technologies = 13
+				OR = {
+					aircraft_carrier_anti_air_guns = 4
+					aircraft_carrier_propulsion = 5
+					
+				}
+				OR = {
+					aircraft_carrier_armor = 5 
+					aircraft_carrier_hangar_deck_design = 5
+					
+				}
+				OR = {
+					aircraft_carrier_elevators = 5
+					aircraft_carrier_superstructure_design = 5
+					
+				}
+				OR = {
+					aircraft_carrier_flight_deck_design = 5
+					aircraft_carrier_hull_design = 5
+					aircraft_carrier_crew_berthing = 5
+					
+				}		
+			}		
+		}
+	}
+	
+	activate_unit = carrier
+	
+	carrier = {
+		build_cost_ic =  1.00
+		build_cost_manpower = 0.040
+		build_time = 20
+		range = 150
+		positioning = 0.01
+		visibility = -5
+		sea_defence = 1.25
+		air_defence = 0.55
+	}	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1933
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1944
+	folder = carrier_folder
+}
+################################################################################
+# CARRIER ANTI-AIR GUNS
+################################################################################
+# 
+aircraft_carrier_anti_air_guns = {
+
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85
+	}	
+	
+	light_carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.020
+		build_time = 2
+		range = -40
+		air_attack = 2.15
+	}
+	
+	escort_carrier = {
+		build_cost_ic =  0.10
+		build_cost_manpower = 0.005
+		build_time = 1
+		range = -10
+		air_attack = 1.15
+	}
+	
+	battle_carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.040
+		build_time = 8
+		range = -100
+		air_attack = 4.15
+	}	
+	
+	CV_Akagi = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85			
+	}
+	CV_Ark_Royal = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85		
+	}
+	CV_Courageous = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85			
+	}
+	CV_Enterprise = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85			
+	}
+	CV_Furious = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85			
+	}
+	CV_Glorious = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85			
+	}
+	CV_Hiryu = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85			
+	}
+	CV_Hornet = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85			
+	}
+	CV_Kaga = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85			
+	}
+	CV_Lexington = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85			
+	}
+	CV_Ranger = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85		
+	}
+	CV_Saratoga = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85			
+	}
+	CV_Soryu = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85		
+	}
+	CV_Yorktown = { 
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.025
+		build_time = 3
+		range = -50
+		air_attack = 2.85		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+
+	start_year = 1937
+	first_offset = 1939		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 4 # 1943
+	folder = carrier_folder
+}
+################################################################################
+# AIRCRAFT CARRIER PROPULSION
+################################################################################
+# 
+aircraft_carrier_propulsion = {
+	
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.035
+		build_time = 8
+		maximum_speed = 1.852
+		range = 300
+		positioning = 0.03
+		sea_defence = 0.35
+		air_defence = 0.35
+		visibility = -5
+	}
+	
+	light_carrier = {
+		build_cost_ic =  0.25
+		build_cost_manpower = 0.030
+		build_time = 7
+		maximum_speed = 1.852
+		range = 250
+		positioning = 0.03
+		sea_defence = 0.35
+		air_defence = 0.35
+		visibility = -5
+	}
+	
+	escort_carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.015
+		build_time = 4
+		maximum_speed = 1.852
+		range = 100
+		positioning = 0.01
+		sea_defence = 0.35
+		air_defence = 0.35
+		visibility = -5
+	}
+	
+	battle_carrier = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.035
+		build_time = 8
+		maximum_speed = 1.852
+		range = 300
+		positioning = 0.03
+		sea_defence = 0.35
+		air_defence = 0.35
+		visibility = -5
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1933
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5 # 1942
+	folder = carrier_folder
+}
+################################################################################
+# AIRCRAFT CARRIER ARMOR
+################################################################################
+# 
+aircraft_carrier_armor = {
+	
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		build_cost_ic =  0.20
+		build_time = 4
+		range = -400
+		positioning = -0.01
+		sea_defence = 4.00
+		air_defence = 1.25
+	}
+	
+	light_carrier = {
+		build_cost_ic =  0.10
+		build_time = 3
+		range = -300
+		positioning = -0.01
+		sea_defence = 3.00
+		air_defence = 1.00
+	}
+	
+	battle_carrier = {
+		build_cost_ic =  0.20
+		build_time = 5
+		range = -500
+		positioning = -0.01
+		sea_defence = 5.00
+		air_defence = 1.65
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1933
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5 # 1942
+	folder = carrier_folder
+}
+################################################################################
+# AIRCRAFT CARRIER HANGAR DECK DESIGN	
+################################################################################
+# 
+aircraft_carrier_hangar_deck_design = {
+
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		build_cost_ic =  0.10
+		build_time = 5
+		sea_defence = 0.50
+		air_defence = 0.50
+		carrier_size = 1 
+		default_organisation = -2
+		default_morale = 0.02		
+	}
+		
+	battle_carrier = {
+		build_cost_ic =  0.10
+		build_time = 5
+		sea_defence = 0.50
+		air_defence = 0.50
+		carrier_size = 1 
+		default_organisation = -2
+		default_morale = 0.02
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1933
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 4 # 1942
+	folder = carrier_folder
+}
+################################################################################
+# AIRCRAFT CARRIER ELEVATORS
+################################################################################
+# 
+aircraft_carrier_elevators = {
+
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		build_cost_ic =  0.10
+		build_time = 5
+		default_organisation = 3		
+	}
+	
+	light_carrier = {
+		build_cost_ic =  0.10
+		build_time = 5
+		default_organisation = 3		
+	}
+	
+	battle_carrier = {
+		build_cost_ic =  0.10
+		build_time = 5
+		default_organisation = 3
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no	
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1933
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5 # 1942
+	folder = carrier_folder
+}
+################################################################################
+# AIRCRAFT CARRIER SUPERSTRUCTURE DESIGN	
+################################################################################
+# 
+aircraft_carrier_superstructure_design = {
+
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		build_cost_ic =  0.15
+		build_time = 10
+		default_organisation = 1
+		air_attack = 0.50		
+	}
+	
+	light_carrier = {
+		build_cost_ic =  0.15
+		build_time = 10
+		default_organisation = 1
+		air_attack = 0.50		
+	}
+	
+	battle_carrier = {
+		build_cost_ic =  0.15
+		build_time = 10
+		default_organisation = 1
+		air_attack = 0.50	
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1933
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5 # 1942
+	folder = carrier_folder
+}
+################################################################################
+# AIRCRAFT CARRIER FLIGHT DECK DESIGN	
+################################################################################
+# 
+aircraft_carrier_flight_deck_design = {
+
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		build_time = 1
+		default_organisation = 1
+		air_defence = 1.0
+	}
+	
+	light_carrier = {
+		build_time = 1
+		default_organisation = 1
+		air_defence = 1.0
+	}
+	
+	battle_carrier = {
+		build_time = 1
+		default_organisation = 1
+		air_defence = 1.0	
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1933
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5 # 1942
+	folder = carrier_folder
+}
+################################################################################
+# AIRCRAFT CARRIER HULL DESIGN	
+################################################################################
+# 
+aircraft_carrier_hull_design = {
+
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		build_cost_ic =  0.15
+		build_time = 10
+		range = 500
+		sea_defence = 1.25
+		air_defence = 0.30
+	}
+	
+	light_carrier = {
+		build_cost_ic =  0.10
+		build_time = 7
+		range = 300
+		sea_defence = 0.85
+		air_defence = 0.15
+	}
+	
+	battle_carrier = {
+		build_cost_ic =  0.15
+		build_time = 15
+		range = 700
+		sea_defence = 1.55
+		air_defence = 0.50
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1933
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5 # 1942
+	folder = carrier_folder
+}
+################################################################################
+# AIRCRAFT CARRIER CREW BERTHING	
+################################################################################
+# 
+aircraft_carrier_crew_berthing = {
+
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		default_morale = 0.02
+		build_cost_ic =  0.10
+		build_time = 8
+		range = -400
+	}
+	
+	light_carrier = {
+		default_morale = 0.02
+		build_cost_ic =  0.07
+		build_time = 6
+		range = -300
+	}
+	
+	battle_carrier = {
+		default_morale = 0.02
+		build_cost_ic =  0.10
+		build_time = 10
+		range = -500
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1933
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5 # 1942
+	folder = carrier_folder
+}
+################################################################################
+# AIRCRAFT CARRIER ANTI-AIRCRAFT FIRE CONTROL	
+################################################################################
+# 
+aircraft_carrier_anti_aircraft_fire_control = {
+
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	light_carrier = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	battle_carrier = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	CV_Akagi = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15		
+	}
+	CV_Ark_Royal = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	CV_Courageous = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15		
+	}
+	CV_Enterprise = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	CV_Furious = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	CV_Glorious = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	CV_Hiryu = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	CV_Hornet = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	CV_Kaga = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	CV_Lexington = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15	
+	}
+	CV_Ranger = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	CV_Saratoga = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	CV_Soryu = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	CV_Yorktown = { 
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1937
+	first_offset = 1939		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5 # 1945
+	folder = carrier_folder
+}
+################################################################################
+# AIRCRAFT CARRIER DAMAGE CONTROL SYSTEM	
+################################################################################
+# 
+aircraft_carrier_damage_control_system = {
+
+	allow = {
+		aircraft_carriers = 1
+	}
+	
+	carrier = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	light_carrier = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	battle_carrier = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	CV_Akagi = { 
+		sea_defence = 0.65
+		air_defence = 0.65		
+	}
+	CV_Ark_Royal = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Courageous = { 
+		sea_defence = 0.65
+		air_defence = 0.65		
+	}
+	CV_Enterprise = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Furious = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Glorious = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Hiryu = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Hornet = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Kaga = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Lexington = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Ranger = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Saratoga = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Soryu = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	CV_Yorktown = { 
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+		
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1933
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1944
+	folder = carrier_folder
+}
+################################################################################
+# LIGHT AIRCRAFT CARRIER CLASS
+################################################################################
+# 
+light_aircraft_carrier_class = {
+
+	allow = {
+		aircraft_carriers = 1
+						
+		OR = {
+			AND = {
+				NOT = { light_aircraft_carrier_class = 1 }  # 1935
+				Ship_Building_Technologies = 3
+				OR = {
+					aircraft_carrier_anti_air_guns = 1
+					aircraft_carrier_propulsion = 1	
+					
+				}
+				OR = {
+					aircraft_carrier_armor = 1 
+					aircraft_carrier_hangar_deck_design = 1 
+					
+				}
+				OR = {
+					aircraft_carrier_elevators = 1
+					aircraft_carrier_superstructure_design = 1
+					
+				}
+				OR = {
+					aircraft_carrier_flight_deck_design = 1
+					aircraft_carrier_hull_design = 1 
+					aircraft_carrier_crew_berthing = 1
+					
+				}	
+				
+			}
+			AND = {
+				NOT = { light_aircraft_carrier_class = 2 }    # 1941
+				Ship_Building_Technologies = 9
+				light_cruiser_hull_design = 4
+				OR = {
+					aircraft_carrier_anti_air_guns = 3
+					aircraft_carrier_propulsion = 3
+					
+				}
+				OR = {
+					aircraft_carrier_armor = 3
+					aircraft_carrier_hangar_deck_design = 3
+					
+				}
+				OR = {
+					aircraft_carrier_elevators = 3
+					aircraft_carrier_superstructure_design = 3
+					
+				}
+				OR = {
+					aircraft_carrier_flight_deck_design = 3
+					aircraft_carrier_hull_design = 3
+					aircraft_carrier_crew_berthing = 3
+					
+				}			
+			}
+			AND = {
+				NOT = { light_aircraft_carrier_class = 3 }    # 1944
+				Ship_Building_Technologies = 12
+				heavy_cruiser_hull_design = 5
+				OR = {
+					aircraft_carrier_anti_air_guns = 4
+					aircraft_carrier_propulsion = 5
+					
+				}
+				OR = {
+					aircraft_carrier_armor = 5
+					aircraft_carrier_hangar_deck_design = 5
+					
+				}
+				OR = {
+					aircraft_carrier_elevators = 5
+					aircraft_carrier_superstructure_design = 5
+					
+				}
+				OR = {
+					aircraft_carrier_flight_deck_design = 5
+					aircraft_carrier_hull_design = 5
+					aircraft_carrier_crew_berthing = 5
+					
+				}			
+			}		
+		}
+	}
+	
+	activate_unit = light_carrier
+	
+	light_carrier = {
+		build_cost_ic =  0.65
+		build_cost_manpower = 0.020
+		build_time = 10
+		range = 75
+		positioning = 0.01
+		visibility = -5
+		sea_defence = 0.75
+		air_defence = 0.35
+	}
+
+	change = yes
+	
+	can_upgrade = no	
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1935
+	first_offset = 1941		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 3 # 1944
+	folder = carrier_folder
+}
+################################################################################
+# CARRIER SURFACE SEARCH RADAR
+################################################################################
+# 
+carrier_surface_search_radar = {
+
+	allow = {
+		aircraft_carriers = 1
+		fleet_carrier_class = 3
+		naval_radar = 2
+	}
+	
+	carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+	}
+	light_carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+	}
+	battle_carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1942
+	first_offset = 1943		
+	additional_offset = 2	
+	max_level = 4 # 1947
+	folder = carrier_folder
+}
+################################################################################
+# CARRIER AIR SEARCH RADAR
+################################################################################
+# 
+carrier_air_search_radar = {
+
+	allow = {
+		aircraft_carriers = 1
+		fleet_carrier_class = 3
+		naval_radar = 2
+	}
+	
+	carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	light_carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	battle_carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1942
+	first_offset = 1943		
+	additional_offset = 2	
+	max_level = 4 # 1947
+	folder = carrier_folder
+}
+################################################################################
+# CARRIER FIRE CONTROL RADAR
+################################################################################
+# 
+carrier_fire_control_radar = {
+
+	allow = {
+		aircraft_carriers = 1
+		fleet_carrier_class = 3
+		naval_radar = 2
+	}
+	
+	carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_attack = 1.15
+	}
+	light_carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_attack = 1.15
+	}
+	battle_carrier = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_attack = 1.15
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+		electornicegineering_theory = 0.20	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1942
+	first_offset = 1943		
+	additional_offset = 2	
+	max_level = 4 # 1947
+	folder = carrier_folder
+}
+################################################################################
+# CARRIER COMBAT INFORMATION CENTER
+################################################################################
+# 
+carrier_combat_information_center = {
+
+	allow = {
+		aircraft_carriers = 1
+		fleet_carrier_class = 3
+		naval_ship_radios = 4
+		naval_radar = 3
+	}
+	
+	port_strike = {
+		reduction_modifier = -0.15
+	}
+	naval_strike = {
+		reduction_modifier = -0.15
+	}
+	
+	carrier = {
+		default_organisation = 5
+		officers = 25
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.025
+	}
+	battle_carrier = {
+		default_organisation = 5
+		officers = 25
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.025
+	}
+		
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+		electornicegineering_theory = 0.20	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1943
+	folder = carrier_folder
+}
+################################################################################
+# CARRIER AIR TRAFFIC CONTROL CENTER
+################################################################################
+# 
+carrier_air_traffic_control_center = {
+	
+	allow = {
+		aircraft_carriers = 1
+		fleet_carrier_class = 3
+		naval_ship_radios = 4
+		naval_radar = 3
+	}
+	
+	carrier = {
+		default_organisation = 3
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.025
+	}
+	battle_carrier = {
+		default_organisation = 3
+		build_cost_ic = 0.20
+		build_cost_manpower = 0.025
+	}
+		
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+		electornicegineering_theory = 0.20		
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1943
+	folder = carrier_folder
+}
+################################################################################
+# CARRIER AIR DEFENCE CONTROL CENTER
+################################################################################
+# 
+carrier_air_defence_control_center = {
+
+	allow = {
+		aircraft_carriers = 1
+		fleet_carrier_class = 3
+		naval_ship_radios = 5
+		naval_radar = 3
+	}
+	
+	carrier_protection = {
+		efficiency  = 0.15 #15% greater eff when on CAG duty mission
+	}
+	
+	
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+		electornicegineering_theory = 0.20	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1944
+	folder = carrier_folder
+}
+################################################################################
+# ESCORT CARRIER CLASS
+################################################################################
+# 
+escort_carrier_class = {
+	
+	allow = {
+		aircraft_carriers = 1
+		fleet_carrier_class = 3
+		OR = {
+			carrier_aircraft_invasion_support = 1 
+			hunter_killer_groups = 1
+		}
+	}
+	
+	activate_unit = escort_carrier
+	
+	escort_carrier = {
+		default_organisation = -1
+		default_morale = -0.01
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 2
+		range = 25
+		positioning = 0.01
+		visibility = -1
+		sea_defence = 0.10
+		air_defence = 0.05
+	}	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1940
+	first_offset = 1942		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 3 # 1944
+	folder = carrier_folder
+}
+################################################################################
+# ARMORED FLIGHT DECK
+################################################################################
+# 
+carrier_armored_flight_deck = {
+
+	allow = {
+		aircraft_carriers = 1
+		fleet_carrier_class = 4
+		aircraft_carrier_flight_deck_design = 4
+	}
+	
+	carrier = {
+		build_cost_ic = 0.45
+		build_time = 25
+		air_defence = 5.00
+		sea_defence = -1.00
+		maximum_speed = -5.0
+		range = -300
+	}
+	battle_carrier = {
+		build_cost_ic = 0.45
+		build_time = 25
+		air_defence = 5.00
+		sea_defence = -1.00
+		maximum_speed = -5.0
+		range = -300
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1940
+	folder = carrier_folder
+}
+################################################################################
+# CARRIER CATAPULTS
+################################################################################
+# 
+carrier_catapults = {
+	
+	allow = {
+		aircraft_carriers = 1
+		OR = {
+		fleet_carrier_class = 5
+		battlecarrier_class = 1
+		}
+		aircraft_carrier_flight_deck_design = 4
+	}
+	
+	carrier_protection = {
+		efficiency  = 0.15 #15% greater eff when on CAG duty mission
+	}
+	
+	carrier = {
+		build_cost_ic = 0.25
+		build_time = 10
+		default_organisation = 5
+	}
+	battle_carrier = {
+		build_cost_ic = 0.25
+		build_time = 10
+		default_organisation = 5
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1940
+	folder = carrier_folder
+}
+################################################################################
+# FAST CARRIER DESIGN
+################################################################################
+# 
+fast_carrier_design = {
+	
+	allow = {
+		aircraft_carriers = 1
+		fleet_carrier_class = 2
+	}
+		
+	carrier = {
+		maximum_speed = 23.0
+		range = -3000	
+	}
+	
+	light_carrier = {
+		maximum_speed = 15.0
+		range = -2000	
+	}
+	
+	battle_carrier = {
+		maximum_speed = 23.0	
+		range = -3000
+	}
+	
+		
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10		
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1937
+	folder = carrier_folder
+}
+################################################################################
+# BATTLECARRIER CLASS
+################################################################################
+# 
+battlecarrier_class = {
+	
+	allow = {
+		aircraft_carriers = 1
+		fleet_carrier_class = 4
+		Ship_Building_Technologies = 12
+	}
+	
+	activate_unit = battle_carrier
+	
+	battle_carrier = {
+		build_cost_ic =  1.50
+		build_cost_manpower = 0.060
+		build_time = 25
+		range = 200
+		positioning = 0.01
+		visibility = -3
+		sea_defence = 2.00
+		air_defence = 1.35
+	}	
+
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10		
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1943
+	folder = carrier_folder
+}

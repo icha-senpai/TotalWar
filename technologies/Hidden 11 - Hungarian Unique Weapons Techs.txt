@@ -1,0 +1,226 @@
+##################################################################
+### Total War Hungarian Unique Weapons Techs
+##################################################################
+
+##################################################################################################################
+### INFANTRY WEAPONS
+##################################################################################################################
+################################################################################################
+### FEG 35M (Mannlicher M1935) Bolt-Action Rifle
+################################################################################################
+feg_thirty_five_m_bolt_action_rifle_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	naval_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	cavalry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	motorized_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	semi_motorized_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+			
+		
+########################################
+
+	infantry_bat = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	motorized_infantry_bat = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+		
+########################################
+	
+	militia_brigade = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}	
+				
+	garrison_brigade = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}	
+	garrison_detachment = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}	
+		
+	HQDEF_brigade = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	##############################################
+	# SPECIAL FORCES
+	##############################################
+	light_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	elite_light_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	elite_light_infantry_battalion = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	airlanding_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	bergsjaeger_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	ski_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	marine_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	paratrooper_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+			
+	commando_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	
+	######################################################
+	### Mechanized Units
+	######################################################
+	
+	mechanized_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	mechanized_infantry_bat = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+		
+		
+	Recon_cavalry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+		
+	conscript_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	stealable = no
+	difficulty = 3
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+################################################################################################
+### 38M Toldi Light Tank
+################################################################################################
+thirty_eight_m_toldi_light_tank_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.003
+
+	light_armor_brigade = {
+		armor_value = 0.65
+		ap_attack = 0.25
+		soft_attack = 0.45
+		hard_attack = 0.15
+		defensiveness = 0.45
+		maximum_speed = 0.15
+	}
+	
+	light_armor_bat = {
+		armor_value = 0.65
+		ap_attack = 0.25
+		soft_attack = 0.45
+		hard_attack = 0.15
+		defensiveness = 0.45
+		maximum_speed = 0.15
+	}
+	
+	stealable = no
+	difficulty = 3
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+################################################################################################
+### 40M Turan I/41M Turan II Medium Tank
+################################################################################################
+fourty_m_turan_light_tank_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.003
+
+	armor_brigade = {
+		armor_value = 1.25
+		ap_attack = 0.45
+		soft_attack = 0.75
+		hard_attack = 0.95
+		defensiveness = 0.85
+		maximum_speed = 0.10
+	}
+	
+	armor_bat = {
+		armor_value = 1.25
+		ap_attack = 0.45
+		soft_attack = 0.75
+		hard_attack = 0.95
+		defensiveness = 0.85
+		maximum_speed = 0.10
+	}
+	
+	stealable = no
+	difficulty = 4
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}

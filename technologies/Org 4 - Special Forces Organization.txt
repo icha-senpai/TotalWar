@@ -1,0 +1,4216 @@
+#########################################################################
+## Light Infantry Regiment
+#########################################################################
+light_infantry_regiment = {
+	
+
+	allow = {
+		infantry_division_hq = 1
+		stormtrooper_tactics = 1
+		SF_first_regiment_HQ = 1
+		SF_second_regiment_HQ = 1				
+	}
+	
+	activate_unit = light_infantry_brigade 
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 2
+	
+	start_year = 1937
+	folder = special_forces_folder
+}
+#########################################################################
+## Mountain Infantry Regiment
+#########################################################################
+mountain_infantry_regiment = {
+	
+
+	allow = {
+		infantry_division_hq = 1
+		SF_first_regiment_HQ = 1
+		SF_second_regiment_HQ = 1	
+	}
+	
+	activate_unit = bergsjaeger_brigade 
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 3
+	
+	start_year = 1937
+	folder = special_forces_folder
+}
+#########################################################################
+## Airlanding Infantry Regiment
+#########################################################################
+airlanding_infantry_regiment = {
+	
+
+	allow = {
+		gliders_technology = 1
+		infantry_division_hq = 1
+		SF_first_regiment_HQ = 1
+		SF_second_regiment_HQ = 1	
+	}
+	
+	activate_unit = airlanding_infantry_brigade 
+	
+	activate_unit = airborne_engineer_bat 
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 4
+	
+	start_year = 1939
+	folder = special_forces_folder
+}
+#########################################################################
+## Paratrooper Infantry Regiment
+#########################################################################
+paratrooper_regiment = {
+
+	allow = {
+		submachineguns_prototype = 1
+		infantry_division_hq = 1
+		twin_engine_transport_focus = 1
+		SF_first_regiment_HQ = 1
+		SF_second_regiment_HQ = 1	
+		SF_third_regiment_HQ = 1
+	}
+
+	activate_unit = paratrooper_brigade 
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 7
+	
+	start_year = 1939
+	folder = special_forces_folder
+}
+#########################################################################
+## Marine Infantry Regiment
+#########################################################################
+marine_regiment = {
+	
+
+	allow = {
+		troop_transport_ships = 1
+		infantry_division_hq = 1
+		
+		SF_first_regiment_HQ = 1
+		SF_second_regiment_HQ = 1	
+		SF_third_regiment_HQ = 1
+	}
+	
+	activate_unit = marine_brigade 
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1939
+	folder = special_forces_folder
+}
+#########################################################################
+## Ski Infantry Battalion
+#########################################################################
+ski_infantry_battalion = {
+	
+
+	allow = {
+		mountain_infantry_regiment = 1
+		SF_first_battalion = 1
+	}
+
+	activate_unit = ski_brigade 
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1939
+	folder = special_forces_folder
+}
+#########################################################################
+## Commando Battalion
+#########################################################################
+commando_battalion = {
+	
+	allow = {
+		submachineguns_prototype = 1
+		submachinegun_distribution = 1
+		stormtrooper_tactics = 1
+		light_infantry_regiment = 1
+		mountain_infantry_regiment = 1
+		paratrooper_regiment = 1
+		marine_regiment = 1
+		ski_infantry_battalion = 1
+		SF_first_battalion = 1
+	}
+	
+	activate_unit = commando_brigade 
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 8
+	
+	start_year = 1940
+	folder = special_forces_folder
+}
+#########################################################################
+## Air Commando Battalion
+#########################################################################
+air_commando_battalion = {
+	 
+	allow = {
+		commando_battalion = 1
+	}
+
+	activate_unit = air_commando_brigade
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 9
+	
+	start_year = 1942
+	folder = special_forces_folder
+}
+#########################################################################
+## Camoflauge Design
+#########################################################################
+camoflauge_design = {
+	
+	allow = {
+		OR = { 
+			light_infantry_regiment = 1
+			mountain_infantry_regiment = 1
+			paratrooper_regiment = 1
+			marine_regiment = 1
+			ski_infantry_battalion = 1
+			commando_battalion =1
+			}
+	}
+	
+	change = yes
+
+	light_infantry_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	elite_light_infantry_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	elite_light_infantry_battalion = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	airlanding_infantry_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	air_cavalry_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	bergsjaeger_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	ss_bergsjaeger_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	ski_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	ss_ski_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	marine_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	paratrooper_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	ss_paratrooper_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	guard_paratrooper_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	commando_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	ss_commando_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	mechanized_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	mechanized_infantry_bat = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	ss_mechanized_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	ss_mechanized_infantry_bat = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	guard_mechanized_brigade= {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	Recon_cavalry_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	ss_Recon_cavalry_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	
+	armor_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	
+	light_armor_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+			
+	guard_armor_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+		
+	ss_armor_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	
+	lehr_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	
+	armor_bat = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	
+	guard_armor_bat = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+	
+	ss_armor_bat = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+				
+	combined_arms_brigade = {
+		defensiveness = 1	
+		air_defence = 2.0
+	}
+			
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 4
+	
+	start_year = 1939
+	first_offset = 1940 # 
+	additional_offset = 1 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## Paratrooper Carbine Prototype
+#########################################################################
+paratrooper_carbine_prototype = {
+	
+	allow = {
+		small_arms_manufacturing = 10
+		carbine_prototype = 4
+		paratrooper_regiment = 1
+		land_battles_fought = 150
+	}
+	
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1943
+	folder = special_forces_folder
+}
+#########################################################################
+## Paratrooper Assault Rifle Prototype
+#########################################################################
+paratrooper_assault_rifle_prototype = {
+	
+	allow = {
+		small_arms_manufacturing = 11
+		rifle_prototype = 1
+		carbine_prototype = 4
+		lmg_prototype = 3
+		paratrooper_regiment = 1
+		land_battles_fought = 200
+	}
+	
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 7
+	
+	start_year = 1942
+	folder = special_forces_folder
+}
+#########################################################################
+## Paratrooper Recoilless Rifle Prototype
+#########################################################################
+paratrooper_recoilless_rifle_prototype = {
+	
+	allow = {
+		small_arms_manufacturing = 12
+		infantry_guns = 2
+		land_battles_fought = 250
+	}
+	
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 9
+	
+	start_year = 1944
+	folder = special_forces_folder
+}
+#########################################################################
+## Paratrooper Carbine Distribution
+#########################################################################
+paratrooper_carbine_distribution = {
+	
+	allow = {
+		
+
+		OR = { 
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 1 } # 1943
+				paratrooper_carbine_prototype = 1	
+				
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 1 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 2 } # 1944
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 3 } # 1946
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 4 } # 1948
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 5 } # 1950
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 6 } # 1952
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 7 } # 1954
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 8 } # 1956
+				small_arms_manufacturing = 27
+									
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 9 } # 1958
+				small_arms_manufacturing = 29
+									
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 10 } # 1960
+				small_arms_manufacturing = 31
+									
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 11 } # 1962
+				small_arms_manufacturing = 33
+									
+			}
+			AND = {
+				NOT = { paratrooper_carbine_distribution = 12 } # 1964
+				small_arms_manufacturing = 35
+									
+			}
+		}		
+	}
+	
+	change = yes
+	
+	paradrop_mission = {
+		efficiency = 0.01	#1% efficiency increase airborne assault missions
+	}
+
+	paratrooper_brigade = {
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 1
+		supply_consumption = 0.01
+	}
+		
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 6
+	
+	start_year = 1943
+	first_offset = 1944 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## Paratrooper Assault Rifle Distribution
+#########################################################################
+paratrooper_assault_rifle_distribution = {
+	
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 1 } # 1942
+				paratrooper_assault_rifle_prototype = 1
+				
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 1 } # 1942
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 2 } # 1943
+				small_arms_manufacturing = 14
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 3 } # 1945
+				small_arms_manufacturing = 16
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 4 } # 1947
+				small_arms_manufacturing = 18
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 5 } # 1949
+				small_arms_manufacturing = 20
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 6 } # 1951
+				small_arms_manufacturing = 22
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 7 } # 1953
+				small_arms_manufacturing = 24
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 8 } # 1955
+				small_arms_manufacturing = 26
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 9 } # 1957
+				small_arms_manufacturing = 28
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 10 } # 1959
+				small_arms_manufacturing = 30
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 11 } # 1961
+				small_arms_manufacturing = 32
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 12 } # 1963
+				small_arms_manufacturing = 34
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	paradrop_mission = {
+		efficiency = 0.02	#4% efficiency increase airborne assault missions
+	}
+
+	paratrooper_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.45
+		defensiveness = 0.45
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+		
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 7
+	
+	start_year = 1942
+	first_offset = 1943 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## Paratrooper Recoilless Rifle Distribution
+#########################################################################
+paratrooper_recoilless_rifle_distribution = {
+	
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 1 } # 1944
+				paratrooper_recoilless_rifle_prototype = 1	
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 1 } # 1944
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 2 } # 1945
+				small_arms_manufacturing = 16
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 3 } # 1947
+				small_arms_manufacturing = 18
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 4 } # 1949
+				small_arms_manufacturing = 20
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 5 } # 1951
+				small_arms_manufacturing = 22
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 6 } # 1953
+				small_arms_manufacturing = 24
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 7 } # 1955
+				small_arms_manufacturing = 26
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 8 } # 1957
+				small_arms_manufacturing = 28
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 9 } # 1959
+				small_arms_manufacturing = 30
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 10 } # 1961
+				small_arms_manufacturing = 32
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 11 } # 1963
+				small_arms_manufacturing = 34
+									
+			}
+			AND = {
+				NOT = { paratrooper_assault_rifle_distribution = 12 } # 1965
+				small_arms_manufacturing = 36
+									
+			}
+		}		
+	}
+	
+	change = yes
+	
+	paratrooper_brigade = {
+		default_organisation = -0.25
+		hard_attack = 0.55	
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.03
+		ap_attack = 0.15
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 8
+	
+	start_year = 1944
+	first_offset = 1945 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## Wheeled Amphibious Landing Craft Prototype
+#########################################################################
+wheeled_amphibious_landing_craft_prototype = {
+	
+	allow = {
+		automotive_construction_industry = 4
+		armored_vehicle_prototype = 5
+		marine_regiment = 1
+	}
+	
+	change = yes
+	
+	marine_brigade = {
+			amphibious = { 
+				attack = 0.10 
+				defence = 0.10	 
+			}
+	}
+
+	research_bonus_from = {
+		mobile_theory = 0.3
+	}
+	
+	on_completion = mobile_theory
+	
+	difficulty = 5
+	
+	start_year = 1942
+	folder = special_forces_folder
+}
+#########################################################################
+## Tracked Amphibious Landing Craft Prototype
+#########################################################################
+tracked_amphibious_landing_craft_prototype = {
+
+	allow = {
+		automotive_construction_industry = 5
+		armored_vehicle_prototype = 5
+		marine_regiment = 1
+	}
+	
+	change = yes
+	
+	marine_brigade = {
+			amphibious = { 
+				attack = 0.15 
+				defence = 0.15	 
+			}
+	}
+
+	research_bonus_from = {
+		mobile_theory = 0.3
+	}
+	
+	on_completion = mobile_theory
+	
+	difficulty = 6
+	
+	start_year = 1943
+	folder = special_forces_folder
+}
+#########################################################################
+## Amphibious Car Prototype
+#########################################################################
+amphibious_car_prototype = {
+
+	allow = {
+		automotive_construction_industry = 1
+		armored_vehicle_prototype = 4
+		light_infantry_regiment = 1
+	}
+	
+	change = yes
+	
+	light_infantry_brigade = {
+			river = { 
+				attack = 0.10 
+				defence = 0.10	 
+			}
+	}
+	commando_brigade = {
+			river = { 
+				attack = 0.10 
+				defence = 0.10	 
+			}
+	}
+	ss_commando_brigade = {
+			river = { 
+				attack = 0.10 
+				defence = 0.10	 
+			}
+	}
+
+	research_bonus_from = {
+		mobile_theory = 0.3
+	}
+	
+	on_completion = mobile_theory
+	
+	difficulty = 3
+	
+	start_year = 1941
+	folder = special_forces_folder
+}
+#########################################################################
+## Wheeled Amphibious Landing Craft Distribution
+#########################################################################
+wheeled_amphibious_landing_craft_distribution = {
+	
+	allow = {
+		wheeled_amphibious_landing_craft_prototype = 1
+	}
+	
+	change = yes
+	
+	marine_brigade = {
+		soft_attack = 0.25
+		build_cost_ic = 0.55
+		build_time = 1
+		toughness = 1.00
+		supply_consumption = 0.05
+		fuel_consumption = 0.07
+		default_organisation = -3.0
+		default_morale = -0.03
+		amphibious = { 
+				attack = 0.02
+				defence = 0.02 
+			}
+	}
+
+	research_bonus_from = {
+		mobile_practical = 0.3
+	}
+	
+	on_completion = mobile_practical
+	
+	difficulty = 7
+	
+	start_year = 1942
+	first_offset = 1943 # 
+	additional_offset = 1 # 
+	max_level = 10
+	folder = special_forces_folder
+}
+#########################################################################
+## Tracked Amphibious Landing Craft Distribution
+#########################################################################
+tracked_amphibious_landing_craft_distribution = {
+
+	allow = {
+		tracked_amphibious_landing_craft_prototype = 1
+	}
+	
+	change = yes
+	
+	marine_brigade = {
+		soft_attack = 0.35
+		build_cost_ic = 0.75
+		build_time = 1
+		toughness = 1.25
+		supply_consumption = 0.06
+		fuel_consumption = 0.08
+		default_organisation = -3.0
+		default_morale = -0.03
+		amphibious = { 
+				attack = 0.03
+				defence = 0.03	 
+			}
+	}
+
+	research_bonus_from = {
+		mobile_practical = 0.3
+	}
+	
+	on_completion = mobile_practical
+	
+	difficulty = 8
+	
+	start_year = 1943
+	first_offset = 1944 # 
+	additional_offset = 1 # 
+	max_level = 10
+	folder = special_forces_folder
+}
+#########################################################################
+## Amphibious Car Distribution
+#########################################################################
+amphibious_car_distribution = {
+	
+	allow = {
+		amphibious_car_prototype = 1
+	}
+	
+	change = yes
+	
+	light_infantry_brigade = {
+		soft_attack = 0.10
+		build_cost_ic = 0.20
+		build_time = 1
+		toughness = 0.25
+		supply_consumption = 0.03
+		fuel_consumption = 0.03
+		default_organisation = -1.0
+		default_morale = -0.01
+		river = { 
+			attack = 0.02
+			movement = 0.03 
+		}
+	}
+		
+	commando_brigade = {
+		soft_attack = 0.10
+		build_cost_ic = 0.20
+		build_time = 1
+		toughness = 0.25
+		supply_consumption = 0.03
+		fuel_consumption = 0.03
+		default_organisation = -1.0
+		default_morale = -0.01
+		river = { 
+			attack = 0.02
+			movement = 0.03  
+		}
+	}
+	ss_commando_brigade = {
+		soft_attack = 0.10
+		build_cost_ic = 0.20
+		build_time = 1
+		toughness = 0.25
+		supply_consumption = 0.03
+		fuel_consumption = 0.03
+		default_organisation = -1.0
+		default_morale = -0.01
+		river = { 
+			attack = 0.02
+			movement = 0.03  
+		}
+	}
+	
+
+	research_bonus_from = {
+		mobile_practical = 0.3
+	}
+	
+	on_completion = mobile_practical
+	
+	difficulty = 6
+	
+	start_year = 1942
+	first_offset = 1943 # 
+	additional_offset = 1 # 
+	max_level = 10
+	folder = special_forces_folder
+}
+#########################################################################
+## SF Division HQ
+#########################################################################
+SF_Division_HQ = {
+	
+	allow = {
+		infantry_division_hq = 1
+		OR = {
+			AND = {
+				NOT = { SF_Division_HQ = 1 }
+				SF_first_regiment_HQ = 1
+				SF_second_regiment_HQ = 1
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 2 }
+				SF_first_regiment_HQ = 2
+				SF_second_regiment_HQ = 2
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 3 }
+				SF_first_regiment_HQ = 3
+				SF_second_regiment_HQ = 3
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 4 }
+				SF_first_regiment_HQ = 4
+				SF_second_regiment_HQ = 4
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 5 }
+				SF_first_regiment_HQ = 5
+				SF_second_regiment_HQ = 5
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 6 }
+				SF_first_regiment_HQ = 6
+				SF_second_regiment_HQ = 6
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 7 }
+				SF_first_regiment_HQ = 7
+				SF_second_regiment_HQ = 7
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 8 }
+				SF_first_regiment_HQ = 8
+				SF_second_regiment_HQ = 8
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 9 }
+				SF_first_regiment_HQ = 9
+				SF_second_regiment_HQ = 9
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 10 }
+				SF_first_regiment_HQ = 10
+				SF_second_regiment_HQ = 10
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 11 }
+				SF_first_regiment_HQ = 1
+				SF_second_regiment_HQ = 11
+			}
+			AND = {
+				NOT = { SF_Division_HQ = 12 }
+				SF_first_regiment_HQ = 12
+				SF_second_regiment_HQ = 12
+			}
+		}
+	}
+	
+	change = no
+	
+	division_hq_standard = {
+		default_organisation = 1.0
+		woods = {
+			attack = 0.05
+		}
+		forest = {
+			attack = 0.05			
+		}
+		hills = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+	}
+	division_hq_veteran = {
+		default_organisation = 1.0
+		woods = {
+			attack = 0.05
+		}
+		forest = {
+			attack = 0.05			
+		}
+		hills = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+	}
+	division_hq_elite = {
+		default_organisation = 1.0
+		woods = {
+			attack = 0.05
+		}
+		forest = {
+			attack = 0.05			
+		}
+		hills = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+	}
+	
+	division_hq_ss_standard = {
+		default_organisation = 1.0
+		woods = {
+			attack = 0.05
+		}
+		forest = {
+			attack = 0.05			
+		}
+		hills = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+	}
+	division_hq_ss_veteran = {
+		default_organisation = 1.0
+		woods = {
+			attack = 0.05
+		}
+		forest = {
+			attack = 0.05			
+		}
+		hills = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+	}
+	division_hq_ss_elite = {
+		default_organisation = 1.0
+		woods = {
+			attack = 0.05
+		}
+		forest = {
+			attack = 0.05			
+		}
+		hills = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+	}
+	
+	division_hq_guard_standard = {
+		default_organisation = 1.0
+		woods = {
+			attack = 0.05
+		}
+		forest = {
+			attack = 0.05			
+		}
+		hills = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+	}
+	division_hq_guard_veteran = {
+		default_organisation = 1.0
+		woods = {
+			attack = 0.05
+		}
+		forest = {
+			attack = 0.05			
+		}
+		hills = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+	}
+	division_hq_guard_elite = {
+		default_organisation = 1.0
+		woods = {
+			attack = 0.05
+		}
+		forest = {
+			attack = 0.05			
+		}
+		hills = {
+			attack = 0.05
+		}
+		mountain = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+		}
+		amphibious = {
+			attack = 0.05
+		}
+		urban = {
+			attack = 0.05
+		}
+	}
+	
+	light_infantry_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	naval_infantry_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	elite_light_infantry_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	airlanding_infantry_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	bergsjaeger_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_bergsjaeger_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	marine_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	paratrooper_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}	
+	
+	colonial_light_infantry_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	ss_prinz_eugen = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+		
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 6
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 1st Regiment HQ
+#########################################################################
+SF_first_regiment_HQ = {
+	
+	allow = {
+		OR = {
+			AND = {
+				NOT = { SF_first_regiment_HQ = 1 }
+				SF_first_battalion = 1
+				SF_second_battalion = 1
+				SF_third_battalion = 1
+				SF_first_light_gun_company = 1
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 2 }
+				AND = {
+					SF_first_battalion = 2
+					SF_second_battalion = 2
+					SF_third_battalion = 2
+					SF_first_light_gun_company = 2
+				}
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 3 }
+				AND = {
+					SF_first_battalion = 3
+					SF_second_battalion = 3
+					SF_third_battalion = 3
+					SF_first_light_gun_company = 3
+				}
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 4 }
+				AND = {
+					SF_first_battalion = 4
+					SF_second_battalion = 4
+					SF_third_battalion = 4
+					SF_first_light_gun_company = 4
+				}
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 5 }
+				AND = {
+					SF_first_battalion = 5
+					SF_second_battalion = 5
+					SF_third_battalion = 5
+					SF_first_light_gun_company = 5
+				}
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 6 }
+				AND = {
+					SF_first_battalion = 6
+					SF_second_battalion = 6
+					SF_third_battalion = 6
+					SF_first_light_gun_company = 6
+				}
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 7 }
+				AND = {
+					SF_first_battalion = 7
+					SF_second_battalion = 7
+					SF_third_battalion = 7
+					SF_first_light_gun_company = 7
+				}
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 8 }
+				AND = {
+					SF_first_battalion = 8
+					SF_second_battalion = 8
+					SF_third_battalion = 8
+					SF_first_light_gun_company = 8
+				}
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 9 }
+				AND = {
+					SF_first_battalion = 9
+					SF_second_battalion = 9
+					SF_third_battalion = 9
+					SF_first_light_gun_company = 9
+				}
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 10 }
+				AND = {
+					SF_first_battalion = 10
+					SF_second_battalion = 10
+					SF_third_battalion = 10
+					SF_first_light_gun_company = 10
+				}
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 11 }
+				AND = {
+					SF_first_battalion = 11
+					SF_second_battalion = 11
+					SF_third_battalion = 11
+					SF_first_light_gun_company = 11
+				}
+			}
+			AND = {
+				NOT = { SF_first_regiment_HQ = 12 }
+				AND = {
+					SF_first_battalion = 12
+					SF_second_battalion = 12
+					SF_third_battalion = 12
+					SF_first_light_gun_company = 12
+				}
+			}
+		}
+	}
+	
+	change = no
+		
+	light_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	elite_light_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	airlanding_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	bergsjaeger_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_bergsjaeger_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	marine_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	paratrooper_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_paratrooper_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	guard_paratrooper_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}	
+	
+	colonial_light_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	ss_prinz_eugen = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 1st Battalion
+#########################################################################
+SF_first_battalion = {
+	
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { SF_first_battalion = 1 } # 1937
+				small_arms_manufacturing = 5
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { SF_first_battalion = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { SF_first_battalion = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { SF_first_battalion = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { SF_first_battalion = 5 } # 1945
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { SF_first_battalion = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { SF_first_battalion = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { SF_first_battalion = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { SF_first_battalion = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { SF_first_battalion = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { SF_first_battalion = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { SF_first_battalion = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	elite_light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	elite_light_infantry_battalion = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	airlanding_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ski_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_ski_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	marine_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	colonial_light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_prinz_eugen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	commando_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_commando_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 3
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 2nd Battalion
+#########################################################################
+SF_second_battalion = {
+
+	allow = {
+		OR = { 
+			
+			AND = {
+				NOT = { SF_second_battalion = 1 } # 1937
+				small_arms_manufacturing = 5
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { SF_second_battalion = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { SF_second_battalion = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { SF_second_battalion = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { SF_second_battalion = 5 } # 1945
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { SF_second_battalion = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { SF_second_battalion = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { SF_second_battalion = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { SF_second_battalion = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { SF_second_battalion = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { SF_second_battalion = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { SF_second_battalion = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	elite_light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	elite_light_infantry_battalion = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	airlanding_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	marine_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	colonial_light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_prinz_eugen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 3
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 3rd Battalion
+#########################################################################
+SF_third_battalion = {
+
+	allow = {
+		OR = { 
+			
+			AND = {
+				NOT = { SF_third_battalion = 1 } # 1937
+				small_arms_manufacturing = 5
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { SF_third_battalion = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { SF_third_battalion = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { SF_third_battalion = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { SF_third_battalion = 5 } # 1945
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { SF_third_battalion = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { SF_third_battalion = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { SF_third_battalion = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { SF_third_battalion = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { SF_third_battalion = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { SF_third_battalion = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { SF_third_battalion = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	elite_light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	elite_light_infantry_battalion = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	airlanding_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	marine_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	colonial_light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_prinz_eugen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 3
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 1st Light Gun Company
+#########################################################################
+SF_first_light_gun_company = {
+	
+	allow = {
+		
+		OR = { 
+		
+			AND = {
+				NOT = { SF_first_light_gun_company = 1 } #1937
+				artillery_production_industry = 5
+				infantry_guns = 1
+				mortar_prototype = 1
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 2 } #1938
+				artillery_production_industry = 6
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 3 } #1940
+				artillery_production_industry = 8
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 4 } #1942
+				artillery_production_industry = 10
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 5 } #1944
+				artillery_production_industry = 12
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 6 } #1946
+				artillery_production_industry = 14
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 7 } #1948
+				artillery_production_industry = 16
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 8 } #1950
+				artillery_production_industry = 18
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 9 } #1952
+				artillery_production_industry = 20
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 10 } #1954
+				artillery_production_industry = 22
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 11 } #1956
+				artillery_production_industry = 24
+			}
+			AND = {
+				NOT = { SF_first_light_gun_company = 12 } #1958
+				artillery_production_industry = 26
+			}
+		}	
+			
+	}
+	
+	change = yes	
+		
+	light_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	elite_light_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	elite_light_infantry_battalion = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	airlanding_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	bergsjaeger_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_bergsjaeger_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	marine_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	paratrooper_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_paratrooper_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	guard_paratrooper_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+	colonial_light_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+	ss_prinz_eugen = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 4
+	
+	start_year = 1937
+	first_offset = 1938 # 
+	additional_offset = 2 # 
+	max_level = 12 # 1942
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 2nd Regiment HQ
+#########################################################################
+SF_second_regiment_HQ = {
+	
+	allow = {
+		OR = {
+			AND = {
+				NOT = { SF_second_regiment_HQ = 1 } #1937
+				SF_fourth_battalion = 1
+				SF_fifth_battalion = 1
+				SF_sixth_battalion = 1
+				SF_second_light_gun_company = 1
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 2 } #1938
+				SF_fourth_battalion = 2
+				SF_fifth_battalion = 2
+				SF_sixth_battalion = 2
+				SF_second_light_gun_company = 2
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 3 } #1940
+				SF_fourth_battalion = 3
+				SF_fifth_battalion = 3
+				SF_sixth_battalion = 3
+				SF_second_light_gun_company = 3
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 4 } #1942
+				SF_fourth_battalion = 4
+				SF_fifth_battalion = 4
+				SF_sixth_battalion = 4
+				SF_second_light_gun_company = 4
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 5 } #1944
+				SF_fourth_battalion = 5
+				SF_fifth_battalion = 5
+				SF_sixth_battalion = 5
+				SF_second_light_gun_company = 5
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 6 } #1946
+				SF_fourth_battalion = 6
+				SF_fifth_battalion = 6
+				SF_sixth_battalion = 6
+				SF_second_light_gun_company = 6
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 7 } #1948
+				SF_fourth_battalion = 7
+				SF_fifth_battalion = 7
+				SF_sixth_battalion = 7
+				SF_second_light_gun_company = 7
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 8 } #1950
+				SF_fourth_battalion = 8
+				SF_fifth_battalion = 8
+				SF_sixth_battalion = 8
+				SF_second_light_gun_company = 8
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 9 } #1952
+				SF_fourth_battalion = 9
+				SF_fifth_battalion = 9
+				SF_sixth_battalion = 9
+				SF_second_light_gun_company = 9
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 10 } #1954
+				SF_fourth_battalion = 10
+				SF_fifth_battalion = 10
+				SF_sixth_battalion = 10
+				SF_second_light_gun_company = 10
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 11 } #1956
+				SF_fourth_battalion = 11
+				SF_fifth_battalion = 11
+				SF_sixth_battalion = 11
+				SF_second_light_gun_company = 11
+			}
+			AND = {
+				NOT = { SF_second_regiment_HQ = 12 } #1958
+				SF_fourth_battalion = 12
+				SF_fifth_battalion = 12
+				SF_sixth_battalion = 12
+				SF_second_light_gun_company = 12
+			}
+		}
+	}
+	
+	change = no
+		
+	light_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	elite_light_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	bergsjaeger_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_bergsjaeger_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	marine_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	paratrooper_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_paratrooper_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	guard_paratrooper_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}	
+	
+	colonial_light_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}	
+	
+	colonial_bergsjaeger_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}	
+	
+	ss_prinz_eugen = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}	
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 4th Battalion
+#########################################################################
+SF_fourth_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { SF_fourth_battalion = 1 } # 1937
+				small_arms_manufacturing = 5
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 5 } # 1945
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { SF_fourth_battalion = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	airlanding_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	marine_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	colonial_light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_prinz_eugen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 3
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 5th Battalion
+#########################################################################
+SF_fifth_battalion = {
+	
+	allow = {
+	
+		OR = { 
+			
+			AND = {
+				NOT = { SF_fifth_battalion = 1 } # 1937
+				small_arms_manufacturing = 5
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 5 } # 1945
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { SF_fifth_battalion = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	airlanding_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	marine_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	colonial_light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_prinz_eugen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 3
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 6th Battalion
+#########################################################################
+SF_sixth_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { SF_sixth_battalion = 1 } # 1937
+				small_arms_manufacturing = 5
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 5 } # 1945
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { SF_sixth_battalion = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	airlanding_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	marine_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	colonial_light_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_prinz_eugen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 3
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 2nd Light Gun Company
+#########################################################################
+SF_second_light_gun_company = {
+	
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { SF_second_light_gun_company = 1 } #1937
+				artillery_production_industry = 5
+				infantry_guns = 1
+				mortar_prototype = 1
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 2 } #1938
+				artillery_production_industry = 6
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 3 } #1940
+				artillery_production_industry = 8
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 4 } #1942
+				artillery_production_industry = 10
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 5 } #1944
+				artillery_production_industry = 12
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 6 } #1946
+				artillery_production_industry = 14
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 7 } #1948
+				artillery_production_industry = 16
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 8 } #1950
+				artillery_production_industry = 18
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 9 } #1952
+				artillery_production_industry = 20
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 10 } #1954
+				artillery_production_industry = 22
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 11 } #1955
+				artillery_production_industry = 24
+			}
+			AND = {
+				NOT = { SF_second_light_gun_company = 12 } #1958
+				artillery_production_industry = 26
+			}
+		}	
+	}
+	
+	change = yes	
+		
+	light_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	elite_light_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	airlanding_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	bergsjaeger_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_bergsjaeger_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	marine_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	paratrooper_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_paratrooper_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	guard_paratrooper_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+	colonial_light_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+	ss_prinz_eugen = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 4
+	
+	start_year = 1937
+	first_offset = 1938 # 
+	additional_offset = 2 # 
+	max_level = 12 # 1942
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 3rd Regiment HQ
+#########################################################################
+SF_third_regiment_HQ = {
+	
+	allow = {
+		OR = {
+			AND = {
+				NOT = { SF_third_regiment_HQ = 1 } # 1937
+				SF_seventh_battalion = 1
+				SF_eighth_battalion = 1
+				SF_nineth_battalion = 1
+				SF_third_light_gun_company = 1
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 2 } # 1938
+				SF_seventh_battalion = 2
+				SF_eighth_battalion = 2
+				SF_nineth_battalion = 2
+				SF_third_light_gun_company = 2
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 3 } # 1940
+				SF_seventh_battalion = 3
+				SF_eighth_battalion = 3
+				SF_nineth_battalion = 3
+				SF_third_light_gun_company = 3
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 4 } # 1942
+				SF_seventh_battalion = 4
+				SF_eighth_battalion = 4
+				SF_nineth_battalion = 4
+				SF_third_light_gun_company = 4
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 5 } # 1944
+				SF_seventh_battalion = 5
+				SF_eighth_battalion = 5
+				SF_nineth_battalion = 5
+				SF_third_light_gun_company = 5
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 6 } # 1946
+				SF_seventh_battalion = 6
+				SF_eighth_battalion = 6
+				SF_nineth_battalion = 6
+				SF_third_light_gun_company = 6
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 7 } # 1948
+				SF_seventh_battalion = 7
+				SF_eighth_battalion = 7
+				SF_nineth_battalion = 7
+				SF_third_light_gun_company = 7
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 8 } # 1950
+				SF_seventh_battalion = 8
+				SF_eighth_battalion = 8
+				SF_nineth_battalion = 8
+				SF_third_light_gun_company = 8
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 9 } # 1952
+				SF_seventh_battalion = 9
+				SF_eighth_battalion = 9
+				SF_nineth_battalion = 9
+				SF_third_light_gun_company = 9
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 10 } # 1954
+				SF_seventh_battalion = 10
+				SF_eighth_battalion = 10
+				SF_nineth_battalion = 10
+				SF_third_light_gun_company = 10
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 11 } # 1956
+				SF_seventh_battalion = 11
+				SF_eighth_battalion = 11
+				SF_nineth_battalion = 11
+				SF_third_light_gun_company = 11
+			}
+			AND = {
+				NOT = { SF_third_regiment_HQ = 12 } # 1958
+				SF_seventh_battalion = 12
+				SF_eighth_battalion = 12
+				SF_nineth_battalion = 12
+				SF_third_light_gun_company = 12
+			}
+		}
+	}
+	
+	change = no
+			
+	marine_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	paratrooper_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_paratrooper_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	guard_paratrooper_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+		
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 7th Battalion
+#########################################################################
+SF_seventh_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { SF_seventh_battalion = 1 } # 1937
+				small_arms_manufacturing = 5
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 5 } # 1945
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { SF_seventh_battalion = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	marine_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 3
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 8th Battalion
+#########################################################################
+SF_eighth_battalion = {
+	
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { SF_eighth_battalion = 1 } # 1937
+				small_arms_manufacturing = 5
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 5 } # 1945
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { SF_eighth_battalion = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	marine_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 3
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 9th Battalion
+#########################################################################
+SF_nineth_battalion = {
+
+	allow = {
+	
+		OR = { 
+			
+			AND = {
+				NOT = { SF_nineth_battalion = 1 } # 1937
+				small_arms_manufacturing = 5
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 5 } # 1945
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { SF_nineth_battalion = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	marine_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_paratrooper_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 3
+	
+	start_year = 1937
+	first_offset = 1939 # 
+	additional_offset = 2 # 
+	max_level = 12
+	folder = special_forces_folder
+}
+#########################################################################
+## SF 3rd Light Gun Company
+#########################################################################
+SF_third_light_gun_company = {
+	
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { SF_third_light_gun_company = 1 } #1937
+				artillery_production_industry = 5
+				infantry_guns = 1
+				mortar_prototype = 1
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 2 } #1938
+				artillery_production_industry = 6
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 3 } #1940
+				artillery_production_industry = 8
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 4 } #1942
+				artillery_production_industry = 10
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 5 } #1944
+				artillery_production_industry = 12
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 6 } #1946
+				artillery_production_industry = 14
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 7 } #1948
+				artillery_production_industry = 16
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 8 } #1950
+				artillery_production_industry = 18
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 9 } #1952
+				artillery_production_industry = 20
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 10 } #1954
+				artillery_production_industry = 22
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 11 } #1956
+				artillery_production_industry = 24
+			}
+			AND = {
+				NOT = { SF_third_light_gun_company = 12 } #1958
+				artillery_production_industry = 26
+			}
+		}	
+	}
+	
+	change = yes	
+	
+	marine_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	paratrooper_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_paratrooper_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	guard_paratrooper_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.02
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.2
+	}
+	
+	on_completion = infantry_practical
+	
+	difficulty = 4
+	
+	start_year = 1937
+	first_offset = 1938 # 
+	additional_offset = 2 # 
+	max_level = 12 # 1958
+	folder = special_forces_folder
+}
+#########################################################################
+## SF Amphibious Tank Prototype
+#########################################################################
+amphibious_tank_prototype = {
+
+	allow = {
+		WWI_tank_designs = 1
+		automotive_construction_industry = 5
+		special_forces_amphibious_training = 2
+		tracked_amphibious_landing_craft_prototype = 1
+		medium_tank_prototype = 4
+	}
+	
+	activate_unit = amph_armour_brigade
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 8
+	
+	# common for all techs.
+	start_year = 1942
+	folder = special_forces_folder
+}
+#########################################################################
+## SF Gliders
+#########################################################################
+gliders_technology = {
+
+	allow = {
+		twin_engine_aircraft_model = 1
+		twin_engine_transport_focus = 1
+	}
+	
+	activate_unit = gliders 
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1939
+	folder = special_forces_folder
+}

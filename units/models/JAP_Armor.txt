@@ -1,0 +1,423 @@
+####################################################################
+# Armored Car Battalion
+####################################################################
+armored_car_brigade.0 = { # Model I 1938
+	armored_recon_battalion = 1
+}
+armored_car_brigade.1 = { # Model II 1939
+	armored_recon_battalion = 2
+}
+armored_car_brigade.2 = { # Model III 1941
+	armored_recon_battalion = 3
+}
+armored_car_brigade.3 = { # Model IV 1943
+	armored_recon_battalion = 4
+}
+armored_car_brigade.4 = { # Model V 1945
+	armored_recon_battalion = 5
+}
+armored_car_brigade.5 = { # Model VI 1947
+	armored_recon_battalion = 6
+}
+armored_car_brigade.6 = { # Model VII 1949
+	armored_recon_battalion = 7
+}
+armored_car_brigade.7 = { # Model VIII 1951
+	armored_recon_battalion = 8
+}
+armored_car_brigade.8 = { # Model IX 1953
+	armored_recon_battalion = 9
+}
+armored_car_brigade.9 = { # Model X 1955
+	armored_recon_battalion = 10
+}
+armored_car_brigade.10 = { # Model XI 1957
+	armored_recon_battalion = 11
+}
+armored_car_brigade.11 = { # Model XII 1959
+	armored_recon_battalion = 12
+}
+
+####################################################################
+# Light Armor
+####################################################################
+light_armor_brigade.0 = { # Model I 1936 - Type 92 Jyu-Sokosha Tankette
+	first_light_tank_battalion = 1
+	second_light_tank_battalion = 1
+	light_tank_prototype = 1
+	light_tank_versions = 1
+}
+light_armor_brigade.1 = { # Model II 1937 - Type 95 Ha-Go
+	first_light_tank_battalion = 2
+	second_light_tank_battalion = 2
+	light_tank_prototype = 1
+	light_tank_versions = 2
+}
+light_armor_brigade.2 = { # Model III 1938 - Type 95 Ha-Go Type 4 Ne-Nu
+	first_light_tank_battalion = 2
+	second_light_tank_battalion = 2
+	light_tank_prototype = 1
+	light_tank_versions = 3
+}
+light_armor_brigade.3 = { # Model IV 1939 - Type 95 Ha-Go Type 98 Ke-ni
+	first_light_tank_battalion = 3
+	second_light_tank_battalion = 3
+	light_tank_prototype = 1
+	light_tank_versions = 4
+}
+
+####################################################################
+# Light/Medium Captured-armor
+####################################################################
+captured_armor_brigade.0 = { # Model I 1935
+	first_tank_battalion = 1
+}
+captured_armor_brigade.1 = { # Model II 1939
+	first_tank_battalion = 2
+}
+captured_armor_brigade.2 = { # Model III 1941
+	first_tank_battalion = 3
+}
+captured_armor_brigade.3 = { # Model IV 1943
+	first_tank_battalion = 4
+}
+captured_armor_brigade.4 = { # Model V 1945
+	first_tank_battalion = 5
+}
+captured_armor_brigade.5 = { # Model VI 1947
+	first_tank_battalion = 6
+}
+captured_armor_brigade.6 = { # Model VII 1949
+	first_tank_battalion = 7
+}
+captured_armor_brigade.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+}	
+captured_armor_brigade.8 = { # Model IX 1953
+	first_tank_battalion = 9
+}
+captured_armor_brigade.9 = { # Model X 1955
+	first_tank_battalion = 10
+}
+####################################################################
+# Medium Armor => main battle tank
+####################################################################
+armor_brigade.0 = { # Model I 1935 - Medium Tank Prototype I
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 0
+	medium_tank_versions = 0
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_brigade.1 = { # Model II 1939 - Type 1 Chi-He
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 0
+	medium_tank_versions = 1
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_brigade.2 = { # Model III 1940 - Type 3 Chi-Nu
+	first_tank_battalion = 2
+	second_tank_battalion = 2
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 0
+	medium_tank_versions = 2
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_brigade.3 = { # Model IV 1943 - Type 4 Chi-To
+	first_tank_battalion = 3
+	second_tank_battalion = 3
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 0
+	medium_tank_versions = 2
+	heavy_medium_tank_versions = 1
+	main_battle_tank = 0
+}
+armor_brigade.4 = { # Model V 1944 - Type 5 Chi-Ri
+	first_tank_battalion = 3
+	second_tank_battalion = 3
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 0
+	medium_tank_versions = 2
+	heavy_medium_tank_versions = 2
+	main_battle_tank = 0
+}
+armor_brigade.5 = { # Model VI 1961 - Type 61 MBT
+	first_tank_battalion = 3
+	second_tank_battalion = 3
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 0
+	medium_tank_versions = 2
+	heavy_medium_tank_versions = 2
+	main_battle_tank = 3
+}
+
+####################################################################
+# Heavy Armor
+####################################################################
+heavy_armor_brigade.0 = { 	# Model I 1935 - 
+	heavy_tank_battalion = 1
+	heavy_tank_prototype = 1
+}
+heavy_armor_brigade.1 = { 	# Model II 1940 - 
+	heavy_tank_battalion = 2
+	heavy_tank_prototype = 2
+}
+heavy_armor_brigade.2 = { 	# Model III 1941 - 
+	heavy_tank_battalion = 2
+	heavy_tank_prototype = 2
+}
+heavy_armor_brigade.3 = { 	# Model IV 1942 - 
+	heavy_tank_battalion = 3
+	heavy_tank_prototype = 2
+}
+heavy_armor_brigade.4 = { 	# Model IV 1943 - 
+	heavy_tank_battalion = 3
+	heavy_tank_prototype = 4
+}
+heavy_armor_brigade.5 = { 	# Model IV 1944 - 
+	heavy_tank_battalion = 4
+	heavy_tank_prototype = 4
+}
+
+####################################################################
+# Super-Heavy Armor
+####################################################################
+super_heavy_armor_brigade.0 = { 	# Model I 1944 - I-O Super Heavy Tank
+	super_heavy_tank_battalion = 1
+	super_heavy_tank_prototype = 1
+}
+super_heavy_armor_brigade.1 = { 	# Model II 1947 - 
+	super_heavy_tank_battalion = 1
+	super_heavy_tank_prototype = 2
+}
+super_heavy_armor_brigade.2 = { 	# Model III 1952 - 
+	super_heavy_tank_battalion = 1
+	super_heavy_tank_prototype = 3
+}
+
+####################################################################
+# Amphibious Armor
+####################################################################
+amph_armour_brigade.0 = {			# Model I Type 2 Ka-Mi
+	first_tank_battalion = 3
+	light_tank_prototype = 2
+	amphibious_tank_prototype = 1
+}
+amph_armour_brigade.1 = {			# Model II Type 3 Ka-Chi
+	first_tank_battalion = 3
+	light_tank_prototype = 3
+	amphibious_tank_prototype = 1
+}
+amph_armour_brigade.2 = {			# Model III Type 5 To-Ku
+	first_tank_battalion = 3
+	light_tank_prototype = 4
+	amphibious_tank_prototype = 1
+}
+
+####################################################################
+# Infantry Tank
+####################################################################
+infantry_tank_brigade.0 = { # Model I 1933 - Infantry Tank Prototype I
+	infantry_tank_design = 1
+}
+infantry_tank_brigade.1 = { # Model II 1935 - Type 97 Chi-Ha Shinoto
+	infantry_tank_design = 2
+}
+infantry_tank_brigade.2 = { # Model III 1937 - 
+	infantry_tank_design = 3
+}
+infantry_tank_brigade.3 = { # Model IV 1939 - 
+	infantry_tank_design = 4
+}
+infantry_tank_brigade.4 = { # Model V 1941 - Type 2 Gun Tank Ho-I
+	infantry_tank_design = 5
+}
+
+####################################################################
+# Assault gun
+####################################################################
+assault_gun_brigade.0 = { # Model I 1940 - Type 1 Gun Tank Ho-Ni I
+	assault_gun_battalion = 1
+	assault_gun_prototype = 1
+}
+assault_gun_brigade.1 = { # Model II 1941 - 
+	assault_gun_battalion = 1
+	assault_gun_prototype = 2
+}
+assault_gun_brigade.2 = { # Model III 1942 - 
+	assault_gun_battalion = 1
+	assault_gun_prototype = 3
+}
+assault_gun_brigade.3 = { # Model IV 1944 - 
+	assault_gun_battalion = 1
+	assault_gun_prototype = 4
+}
+assault_gun_brigade.4 = { # Model V 1945 - 
+	assault_gun_battalion = 1
+	assault_gun_prototype = 5
+}
+
+####################################################################
+# Heavy-Assault gun
+####################################################################
+heavy_assault_gun_brigade.0 = { # Model I 1943 - 
+	heavy_assault_gun_battalion = 1
+	heavy_assault_gun_prototype = 1
+}
+heavy_assault_gun_brigade.1 = { # Model II 1944 - 
+	heavy_assault_gun_battalion = 1
+	heavy_assault_gun_prototype = 2
+}
+heavy_assault_gun_brigade.2 = { # Model III 1945 - 
+	heavy_assault_gun_battalion = 1
+	heavy_assault_gun_prototype = 3
+}
+
+####################################################################
+# Tank Destroyer
+####################################################################
+tank_destroyer_brigade.0 = { # Model I 1940 - Prototype I
+	light_tank_destroyer_battalion = 1
+	light_tank_destroyer_prototype = 1
+}
+tank_destroyer_brigade.1 = { # Model II 1941 - Type 3 Ho-Ni III
+	light_tank_destroyer_battalion = 1
+	light_tank_destroyer_prototype = 2
+}
+tank_destroyer_brigade.2 = { # Model III 1942 - Type 5 Na-To
+	light_tank_destroyer_battalion = 1
+	light_tank_destroyer_prototype = 3
+}
+tank_destroyer_brigade.3 = { # Model III 1943 - Prototype IV
+	light_tank_destroyer_battalion = 1
+	light_tank_destroyer_prototype = 4
+}
+tank_destroyer_brigade.4 = { # Model IV 1944 - Prototype V
+	light_tank_destroyer_battalion = 3
+	light_tank_destroyer_prototype = 4
+}
+
+####################################################################
+# Medium Tank Destroyer
+####################################################################
+medium_tank_destroyer_brigade.0 = { # Model I 1942 - 
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 1
+}
+medium_tank_destroyer_brigade.1 = { # Model II 1943 - 
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 2
+}
+medium_tank_destroyer_brigade.2 = { # Model III 1944 - 
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 3
+}
+medium_tank_destroyer_brigade.3 = { # Model IV 1945 - 
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 4
+}
+
+####################################################################
+# Heavy Tank Destroyer
+####################################################################
+heavy_tank_destroyer_brigade.0 = { # Model I 1943 - 
+	heavy_tank_destroyer_battalion = 1
+	heavy_tank_destroyer_prototype = 1
+}
+heavy_tank_destroyer_brigade.1 = { # Model II 1944 - 
+	heavy_tank_destroyer_battalion = 1
+	heavy_tank_destroyer_prototype = 2
+}
+
+####################################################################
+# Light armor Battalion
+####################################################################
+light_armor_bat.0 = { # Model I 1936 - Type 92 Jyu-Sokosha Tankette
+	first_light_tank_battalion = 1
+	second_light_tank_battalion = 0
+	light_tank_prototype = 1
+	light_tank_versions = 1
+}
+light_armor_bat.1 = { # Model II 1937 - Type 95 Ha-Go
+	first_light_tank_battalion = 2
+	second_light_tank_battalion = 0
+	light_tank_prototype = 1
+	light_tank_versions = 1
+}
+light_armor_bat.2 = { # Model III 1938 - Type 95 Ha-Go Type 4 Ne-Nu
+	first_light_tank_battalion = 2
+	second_light_tank_battalion = 0
+	light_tank_prototype = 1
+	light_tank_versions = 2
+}
+light_armor_bat.3 = { # Model IV 1939 - Type 95 Ha-Go Type 98 Ke-ni
+	first_light_tank_battalion = 3
+	second_light_tank_battalion = 0
+	light_tank_prototype = 2
+	light_tank_versions = 3
+}
+####################################################################
+# Medium Armor Battalion
+####################################################################
+armor_bat.0 = { # Model I 1935 - Medium Tank Prototype I
+	first_tank_battalion = 1
+	second_tank_battalion = 0
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 0
+	medium_tank_versions = 0
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_bat.1 = { # Model II 1939 - Type 1 Chi-He
+	first_tank_battalion = 1
+	second_tank_battalion = 0
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 0
+	medium_tank_versions = 1
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_bat.2 = { # Model III 1940 - Type 3 Chi-Nu
+	first_tank_battalion = 2
+	second_tank_battalion = 0
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 0
+	medium_tank_versions = 2
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_bat.3 = { # Model IV 1943 - Type 4 Chi-To
+	first_tank_battalion = 3
+	second_tank_battalion = 0
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 0
+	medium_tank_versions = 2
+	heavy_medium_tank_versions = 1
+	main_battle_tank = 0
+}
+armor_bat.4 = { # Model V 1944 - Type 5 Chi-Ri
+	first_tank_battalion = 3
+	second_tank_battalion = 0
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 0
+	medium_tank_versions = 2
+	heavy_medium_tank_versions = 2
+	main_battle_tank = 0
+}
+armor_bat.5 = { # Model VI 1961 - Type 61 MBT
+	first_tank_battalion = 3
+	second_tank_battalion = 0
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 0
+	medium_tank_versions = 2
+	heavy_medium_tank_versions = 2
+	main_battle_tank = 3
+}
+
+#EOF#

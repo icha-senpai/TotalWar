@@ -1,0 +1,12 @@
+military_construction = {
+	country = USA
+	
+	night_fighter = { 
+		historical_model = 4
+	}
+			
+	cost = 12.00
+	duration = 100
+	progress = 20
+}
+#EOF#

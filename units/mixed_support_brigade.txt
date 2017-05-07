@@ -1,0 +1,119 @@
+mixed_support_brigade = {
+	type = land
+	sprite = Infantry
+	active = no
+	is_buildable = yes
+	can_paradrop = yes
+	unit_group = kampfgruppe_unit_type
+
+	#Size Definitions - Regiment Strength unit - 1 Battalion of Artillery, Anti-Tank, and Anti-Air each
+	max_strength = 18.00
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 25
+
+	#Building Costs
+	build_cost_ic = 26.00
+	build_cost_manpower = 1.200
+	build_time = 130
+	repair_cost_multiplier = 0.05
+
+	#Misc Abilities
+	maximum_speed = 6.0
+	transport_weight = 12.00
+	supply_consumption = 1.00
+	fuel_consumption = 0.00
+	radio_strength = 0.25
+
+	#Defensive Abilities
+	defensiveness = 15.0	
+	toughness = 30.0
+	softness = 0.50
+	air_defence = 15.0
+	armor_value = 0
+
+	#Offensive Abilities
+	suppression = 0.00
+	soft_attack = 3.00
+	hard_attack = 1.50
+	air_attack = 7.00
+	ap_attack = 2.0
+	
+	## Mixed Support has bonuses to defense mostly. 
+
+   	plains = {
+		attack = 0.30 ## Excellent for attacking open terrain. 
+		defence = 0.25 ## Easy to defend due to long sight lines.
+		movement = -0.30 ## Horses have easier time walking on level roads
+	}
+	river = { 
+		attack = 0.30 ## Can provide suppressive covering fire. 
+		defence = 0.20 ## Easy to defend due to long sight lines.
+		movement = -0.30 ## Horses will have trouble pulling anti-air guns through river water.  Need bridges! 
+	}
+	arctic = {	
+		attack = 0.30 ## Can still fire guns in the cold
+		defence = 0.05 ## Sitting in a warm foxhole is easier than attacking in -60C!	
+		movement = -0.40 ## Not easy to move around on tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.	
+	}
+	desert = {   
+		attack = 0.30 ## Excellent for attacking open desert terrain. 
+		defence = 0.15 ## Easy to defend due to long sight lines.
+		movement = -0.30 ## Horses get hot and thirsty while moving the guns. 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = {  
+		attack = 0.25 ## Artillery can be effective when bombarding wooded areas. 
+		defence = 0.20 ## Easy to defend due to long sight lines.  Higher bonus due to concealing guns in woods.
+		movement = -0.45 ## Not as easy for horses to move guns through wooded areas.  
+	}
+	forest = {
+		attack = 0.15 ## Artillery can be effective when bombarding forested areas.
+		defence = 0.23 ## Easy to defend due to long sight lines.  Higher bonus due to concealing guns in woods.
+		movement = -0.50 ## Not as easy for horses to move guns through wooded areas. 
+	}
+	jungle = { 
+		attack = 0.10 ## Dense jungle difficult to bombard enemy positions.  Not as big of a bonus.  
+		defence = 0.30 ## Easy to defend due to long sight lines.  Higher bonus due to concealing guns in woods.
+		movement = -0.60 ## Not as easy for horses to move guns through wooded areas. 
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		attack = 0.20 ## Small bonus for attacking hilly areas.  
+		defence = 0.35 ## Easy to defend due to long sight lines. Slightly bonus due to higher elevations. 
+		movement = -0.45 ## Not as easy for horses to move guns through up and down hilly areas. 
+	}
+	mountain = { 
+		attack = 0.10 ## Sight lines obstructed by mountains. 
+		defence = 0.30 ## Easy to defend due to long sight lines. Slightly bonus due to higher elevations. 
+		movement = -0.50 ## Not as easy for horses to move guns through up and down hilly areas. 
+	}
+	urban = { 
+		attack = 0.25 ## Excellent for destroying enemy positions in cities. 
+		defence = 0.30 ## Easy to defend due to long sight lines. Big bonus due to urban environment. 
+		movement = -0.25 ## Easy for horses to move guns through urban streets.  
+	}
+	marsh = { 
+		attack = 0.10 ## Artillery not as effective in marshes.
+		movement = -0.60 ## Horses have extreme trouble moving through marshes.  
+	}
+	amphibious = { 
+		attack = -1.00 ## Nowhere to setup guns.  
+	}
+	night = { 
+		movement = -0.50  ## Can't see as easily during the night. 
+	}
+	fort = { 
+		attack = 0.30 ## 
+		defence = 0.75 ## Excellent for defending forts. 
+	}
+	
+	combat_width = 0.15
+
+	completion_size = 0.25
+	on_completion = artillery_practical
+	
+	priority = 38
+}

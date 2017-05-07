@@ -1,0 +1,57 @@
+ss_police_brigade = {
+	type = land
+	usable_by = { GER }
+	sprite = Infantry
+	unit_group = support_unit_type
+	active = yes
+	available_trigger = {
+		or = {
+			has_country_flag =  ss_starting
+			has_country_flag =  ss_ahistorical
+			has_country_flag = The_gestapo
+		}
+	} 
+
+	#Size Definitions
+	max_strength = 10.00
+	default_organisation = 40
+	default_morale = 0.40
+	officers = 10
+	
+	#Building Costs
+	build_cost_ic = 1.50
+	build_cost_manpower = 1.000
+	build_time = 60
+	repair_cost_multiplier = 0.01
+
+	#Misc Abilities
+	maximum_speed = 6.0
+	transport_weight = 1.00
+	supply_consumption = 0.15
+	fuel_consumption = 0.15
+	radio_strength = 1
+	
+	#Defensive Abilities
+	defensiveness = 1.25
+	toughness = 5.00
+	softness = 1.00
+	air_defence = 1.00
+
+	#Offensive Abilities
+	suppression = 15.00
+	soft_attack = 0.45
+	hard_attack = 0.00
+	air_attack = 0.00
+	ap_attack = 0
+	
+	##  SS units have better overall bonuses than regular units. 
+	
+	
+
+	combat_width = 0.11
+	
+	completion_size = 0.10
+	on_completion = militia_practical
+	
+	priority = 50
+}

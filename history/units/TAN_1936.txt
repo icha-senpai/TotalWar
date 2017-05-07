@@ -1,0 +1,9 @@
+division = {
+	name = "1ya Tunska Armiya"
+	location = 8794
+	is_reserve = yes
+	regiment = { type = conscript_brigade historical_model = 0 }
+}
+
+
+

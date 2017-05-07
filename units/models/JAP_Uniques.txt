@@ -1,0 +1,213 @@
+### AUTO_GENERATED FILE - DO NOT EDIT MANUALLY! ###
+
+BB_Fuso.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+	fast_battleship_design = 1
+}
+
+
+BB_Hyuga.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+	fast_battleship_design = 1
+}
+
+
+BB_Ise.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+	fast_battleship_design = 1
+}
+
+
+BB_Mutsu.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+	fast_battleship_design = 1
+}
+
+
+BB_Nagato.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+	fast_battleship_design = 1
+}
+
+
+BB_Yamashiro.0 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_aircraft_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_system = 1
+	fast_battleship_design = 1
+}
+
+
+SBB_Musashi.0 = {
+	super_heavy_battleship_class = 1
+}
+
+
+SBB_Yamato.0 = {
+	super_heavy_battleship_class = 1
+}
+
+
+CV_Akagi.0 = {
+	fleet_carrier_class = 1
+	aircraft_carrier_propulsion = 1	
+	aircraft_carrier_armor = 1 
+	aircraft_carrier_hangar_deck_design = 1 
+	aircraft_carrier_elevators = 1
+	aircraft_carrier_superstructure_design = 1
+	aircraft_carrier_flight_deck_design = 1
+	aircraft_carrier_hull_design = 1 
+	aircraft_carrier_crew_berthing = 1
+	aircraft_carrier_anti_aircraft_fire_control = 1
+	aircraft_carrier_damage_control_system = 1
+}
+
+
+CV_Hiryu.0 = {
+	fleet_carrier_class = 2
+}
+
+
+CV_Kaga.0 = {
+	fleet_carrier_class = 1
+	aircraft_carrier_propulsion = 1	
+	aircraft_carrier_armor = 1 
+	aircraft_carrier_hangar_deck_design = 1 
+	aircraft_carrier_elevators = 1
+	aircraft_carrier_superstructure_design = 1
+	aircraft_carrier_flight_deck_design = 1
+	aircraft_carrier_hull_design = 1 
+	aircraft_carrier_crew_berthing = 1
+	aircraft_carrier_anti_aircraft_fire_control = 1
+	aircraft_carrier_damage_control_system = 1
+}
+
+
+CV_Soryu.0 = {
+	fleet_carrier_class = 2
+}
+
+
+BC_Haruna.0 = {
+	battlecruiser_class = 1
+	battlecruiser_main_armament = 1
+	battlecruiser_secondary_armament = 1	
+	battlecruiser_anti_aircraft_guns = 1 
+	battlecruiser_propulsion = 1 
+	battlecruiser_armor = 1
+	battlecruiser_hull_design = 1
+	battlecruiser_crew_berthing = 1
+	battlecruiser_fire_control_system = 1 
+	battlecruiser_anti_air_fire_control = 1
+	battlecruiser_damage_control = 1
+	fast_battleship_design = 1
+}
+
+
+BC_Hiei.0 = {
+	battlecruiser_class = 1
+	battlecruiser_main_armament = 1
+	battlecruiser_secondary_armament = 1	
+	battlecruiser_anti_aircraft_guns = 1 
+	battlecruiser_propulsion = 1 
+	battlecruiser_armor = 1
+	battlecruiser_hull_design = 1
+	battlecruiser_crew_berthing = 1
+	battlecruiser_fire_control_system = 1 
+	battlecruiser_anti_air_fire_control = 1
+	battlecruiser_damage_control = 1
+	fast_battleship_design = 1
+}
+BC_Hiei.1 = {
+	battlecruiser_class = 1
+	battlecruiser_main_armament = 1
+	battlecruiser_secondary_armament = 1	
+	battlecruiser_anti_aircraft_guns = 1 
+	battlecruiser_propulsion = 1 
+	battlecruiser_armor = 1
+	battlecruiser_hull_design = 1
+	battlecruiser_crew_berthing = 1
+	battlecruiser_fire_control_system = 1 
+	battlecruiser_anti_air_fire_control = 1
+	battlecruiser_damage_control = 1
+	fast_battleship_design = 1
+}
+
+BC_Kirishima.0 = {
+	battlecruiser_class = 1
+	battlecruiser_main_armament = 1
+	battlecruiser_secondary_armament = 1	
+	battlecruiser_anti_aircraft_guns = 1 
+	battlecruiser_propulsion = 1 
+	battlecruiser_armor = 1
+	battlecruiser_hull_design = 1
+	battlecruiser_crew_berthing = 1
+	battlecruiser_fire_control_system = 1 
+	battlecruiser_anti_air_fire_control = 1
+	battlecruiser_damage_control = 1
+	fast_battleship_design = 1
+}
+
+
+BC_Kongo.0 = {
+	battlecruiser_class = 1
+	battlecruiser_main_armament = 1
+	battlecruiser_secondary_armament = 1	
+	battlecruiser_anti_aircraft_guns = 1 
+	battlecruiser_propulsion = 1 
+	battlecruiser_armor = 1
+	battlecruiser_hull_design = 1
+	battlecruiser_crew_berthing = 1
+	battlecruiser_fire_control_system = 1 
+	battlecruiser_anti_air_fire_control = 1
+	battlecruiser_damage_control = 1
+	fast_battleship_design = 1
+}
+
+

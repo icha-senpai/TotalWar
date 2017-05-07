@@ -1,0 +1,312 @@
+########################################################################################
+############# Polish Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Polish WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### Karabinek wz. 1929 Bolt-Action Rifle
+##############################################################
+
+	country_event = {
+		id = 9107500
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = POL
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107500"
+		desc = "EVTDESC9107500"
+		picture = "karabinek_bolt_action_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			karabinek_bolt_action_rifle_hidden = 6000
+			set_global_flag = karabinek_bolt_action_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Kb wz. 98a Bolt-Action Rifle
+##############################################################
+
+	country_event = {
+		id = 9107501
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = POL
+			rifle_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107501"
+		desc = "EVTDESC9107501"
+		picture = "karabinek_ninety_eight_bolt_action_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			karabinek_ninety_eight_bolt_action_rifle_hidden = 6000
+			set_global_flag = karabinek_ninety_eight_bolt_action_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Kbsp wz. 1938M Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9107502
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = POL
+			carbine_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107502"
+		desc = "EVTDESC9107502"
+		picture = "karabin_semi_automatic_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			karabin_semi_automatic_rifle_hidden = 6000
+			set_global_flag = karabin_semi_automatic_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Mors Submachine Gun
+##############################################################
+
+	country_event = {
+		id = 9107503
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = POL
+			submachineguns_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107503"
+		desc = "EVTDESC9107503"
+		picture = "mors_smg"
+		
+		option = {
+			name = "Put it Into Production."
+			mors_smg_hidden = 6000
+			set_global_flag = mors_smg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Schwarzlose machine gun
+##############################################################
+
+	country_event = {
+		id = 9107504
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = POL
+			submachineguns_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107504"
+		desc = "EVTDESC9107504"
+		picture = "shwarzlose_smg"
+		
+		option = {
+			name = "Put it Into Production."
+			shwarzlose_smg_hidden = 6000
+			set_global_flag = shwarzlose_smg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Ckm wz. 30 HMG
+##############################################################
+
+	country_event = {
+		id = 9107505
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = POL
+			hmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107505"
+		desc = "EVTDESC9107505"
+		picture = "wz_thirty_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			wz_thirty_hmg_hidden = 6000
+			set_global_flag = wz_thirty_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Granatnik wz. 36
+##############################################################
+
+	country_event = {
+		id = 9107506
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = POL
+			mortar_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107506"
+		desc = "EVTDESC9107506"
+		picture = "granatnik_thirty_six_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			granatnik_thirty_six_mortar_hidden = 6000
+			set_global_flag = granatnik_thirty_six_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Wz. 35 Anti-Tank Rifle
+##############################################################
+
+	country_event = {
+		id = 9107507
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = POL
+			anti_tank_rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107507"
+		desc = "EVTDESC9107507"
+		picture = "wz_thirty_five_at_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			wz_thirty_five_at_rifle_hidden = 6000
+			set_global_flag = wz_thirty_five_at_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### 7TP Light Tank
+##############################################################
+
+	country_event = {
+		id = 9107508
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = POL
+			light_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107508"
+		desc = "EVTDESC9107508"
+		picture = "seven_tp_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			seven_tp_light_tank_hidden = 6000
+			set_global_flag = seven_tp_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	

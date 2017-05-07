@@ -1,0 +1,2796 @@
+################################################################################
+# Medium Aircraft Technology
+################################################################################
+################################################################################
+# TWIN ENGINE AIRCRAFT
+################################################################################
+twin_engine_aircraft = {
+
+	allow = {
+		wwi_biplane_designs = 1
+		
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	start_year = 1932
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE FUSELAGE DESIGN
+################################################################################
+twin_engine_fuselage_design = {
+
+	allow = {
+		twin_engine_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE HORIZONTAL STABILIZER DESIGN
+################################################################################
+twin_engine_horizontal_stabilizer_design = {
+
+	allow = {
+		twin_engine_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE WING DESIGN
+################################################################################
+twin_engine_wing_design = {
+
+	allow = {
+		twin_engine_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE VERTICAL STABILIZER DESIGN
+################################################################################
+twin_engine_vertical_stabilizer_design = {
+
+	allow = {
+		twin_engine_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE FIGHTER BLUEPRINT
+################################################################################
+twin_engine_aircraft_blueprint = {
+
+	allow = {
+		twin_engine_fuselage_design = 1
+		twin_engine_wing_design = 1
+		twin_engine_horizontal_stabilizer_design = 1
+		twin_engine_vertical_stabilizer_design = 1
+		OR = {
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 2 } # 1935
+	
+				twin_engine_fuselage_design = 2 # 1935
+				twin_engine_wing_design = 2 # 1935
+				twin_engine_horizontal_stabilizer_design = 2 # 1935
+				twin_engine_vertical_stabilizer_design = 2 # 1935
+			
+			}
+			AND = { 
+				duralumin = 1
+				fully_enclosed_cockpit = 1
+				radial_and_inline_engine_design = 1
+				mono_wing_design = 1
+				retractable_landing_gear = 1
+				NOT = { twin_engine_aircraft_blueprint = 3 } # 1936
+
+				twin_engine_fuselage_design = 3 # 1936
+				twin_engine_wing_design = 3 # 1936
+				twin_engine_horizontal_stabilizer_design = 3 # 1936
+				twin_engine_vertical_stabilizer_design = 3 # 1936
+		
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 4 } # 1937
+		
+				twin_engine_fuselage_design = 4 # 1937
+				twin_engine_wing_design = 4 # 1937
+				twin_engine_horizontal_stabilizer_design = 4 # 1937
+				twin_engine_vertical_stabilizer_design = 4 # 1937
+		
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 5 } # 1938
+		 
+				twin_engine_fuselage_design = 5 # 1938
+				twin_engine_wing_design = 5 # 1938
+				twin_engine_horizontal_stabilizer_design = 5 # 1938
+				twin_engine_vertical_stabilizer_design = 5 # 1938
+		
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 6 } # 1939
+		
+				twin_engine_fuselage_design = 6 # 1939
+				twin_engine_wing_design = 6 # 1939
+				twin_engine_horizontal_stabilizer_design = 6 # 1939
+				twin_engine_vertical_stabilizer_design = 6 # 1939
+		
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 7 } # 1940
+			
+				twin_engine_fuselage_design = 7 # 1940
+				twin_engine_wing_design = 7 # 1940
+				twin_engine_horizontal_stabilizer_design = 7 # 1940
+				twin_engine_vertical_stabilizer_design = 7 # 1940
+			
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 8 } # 1941
+		
+				twin_engine_fuselage_design = 8 # 1941
+				twin_engine_wing_design = 8 # 1941
+				twin_engine_horizontal_stabilizer_design = 8 # 1941
+				twin_engine_vertical_stabilizer_design = 8 # 1941
+		
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 9 } # 1942
+	
+				twin_engine_fuselage_design = 9 # 1942
+				twin_engine_wing_design = 9 # 1942
+				twin_engine_horizontal_stabilizer_design = 9 # 1942
+				twin_engine_vertical_stabilizer_design = 9 # 1942
+		
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 10 } # 1943
+		
+				twin_engine_fuselage_design = 10 # 1943
+				twin_engine_wing_design = 10 # 1943
+				twin_engine_horizontal_stabilizer_design = 10 # 1943
+				twin_engine_vertical_stabilizer_design = 10 # 1943
+		
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 11 } # 1944
+	
+				twin_engine_fuselage_design = 11 # 1944
+				twin_engine_wing_design = 11 # 1944
+				twin_engine_horizontal_stabilizer_design = 11 # 1944
+				twin_engine_vertical_stabilizer_design = 11 # 1944
+		
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 12 } # 1945
+
+				twin_engine_fuselage_design = 12 # 1945
+				twin_engine_wing_design = 12 # 1945
+				twin_engine_horizontal_stabilizer_design = 12 # 1945
+				twin_engine_vertical_stabilizer_design = 12 # 1945
+		
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_blueprint = 13 } # 1946
+		
+				twin_engine_fuselage_design = 13 # 1946
+				twin_engine_wing_design = 13 # 1946
+				twin_engine_horizontal_stabilizer_design = 13 # 1946
+				twin_engine_vertical_stabilizer_design = 13 # 1946
+	
+			}
+		}
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		twin_engine_aircraft_practical = 0.25
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE AIRCRAFT PROTOTYPE AND TESTING
+################################################################################
+twin_engine_aircraft_prototype_and_testing = {
+
+	allow = {
+		OR = {
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 2 } # 1935
+				twin_engine_aircraft_blueprint = 2 # 1935
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 3 } # 1936
+				twin_engine_aircraft_blueprint = 3 # 1936
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 4 } # 1937
+				twin_engine_aircraft_blueprint = 4 # 1937
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 5 } # 1938
+				twin_engine_aircraft_blueprint = 5 # 1938
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 6 } # 1939
+				twin_engine_aircraft_blueprint = 6 # 1939
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 7 } # 1940
+				twin_engine_aircraft_blueprint = 7 # 1940
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 8 } # 1941
+				twin_engine_aircraft_blueprint = 8 # 1941
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 9 } # 1942
+				twin_engine_aircraft_blueprint = 9 # 1942
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 10 } # 1943
+				twin_engine_aircraft_blueprint = 10 # 1943
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 11 } # 1944
+				twin_engine_aircraft_blueprint = 11 # 1944
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 12 } # 1945
+				twin_engine_aircraft_blueprint = 12 # 1945
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_prototype_and_testing = 13 } # 1946
+				twin_engine_aircraft_blueprint = 13 # 1946
+			}
+		}
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		twin_engine_aircraft_practical = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE AIRCRAFT MODEL
+################################################################################
+twin_engine_aircraft_model = {
+
+	allow = {
+		OR = {
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 2 } # 1935
+				twin_engine_aircraft_prototype_and_testing = 2 # 1935
+				long_range_aircraft_production = 3
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 3 } # 1936
+				twin_engine_aircraft_prototype_and_testing = 3 # 1936
+				long_range_aircraft_production = 4
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 4 } # 1937
+				twin_engine_aircraft_prototype_and_testing = 4 # 1937
+				long_range_aircraft_production = 5
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 5 } # 1938
+				twin_engine_aircraft_prototype_and_testing = 5 # 1938
+				long_range_aircraft_production = 6
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 6 } # 1939
+				twin_engine_aircraft_prototype_and_testing = 6 # 1939
+				long_range_aircraft_production = 7
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 7 } # 1940
+				twin_engine_aircraft_prototype_and_testing = 7 # 1940
+				long_range_aircraft_production = 8
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 8 } # 1941
+				twin_engine_aircraft_prototype_and_testing = 8 # 1941
+				long_range_aircraft_production = 9
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 9 } # 1942
+				twin_engine_aircraft_prototype_and_testing = 9 # 1942
+				long_range_aircraft_production = 10
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 10 } # 1943
+				twin_engine_aircraft_prototype_and_testing = 10 # 1943
+				long_range_aircraft_production = 11
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 11 } # 1944
+				twin_engine_aircraft_prototype_and_testing = 11 # 1944
+				long_range_aircraft_production = 12
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 12 } # 1945
+				twin_engine_aircraft_prototype_and_testing = 12 # 1945
+				long_range_aircraft_production = 13
+			}
+			AND = { 
+				NOT = { twin_engine_aircraft_model = 13 } # 1946
+				twin_engine_aircraft_prototype_and_testing = 13 # 1946
+				long_range_aircraft_production = 14
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	twin_engine_fighters = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 1.50
+		air_defence = 1.25
+		surface_defence = 1.25
+		maximum_speed = 13
+		range = 25
+		build_cost_ic = 0.40
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.75
+		hard_attack = 0.50
+		strategic_attack = 0.15
+		sea_attack = 0.50
+		sub_attack = 0.20
+		}
+		
+	night_fighter = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 1.75
+		air_defence = 0.50
+		surface_defence = 0.25
+		maximum_speed = 7
+		range = 15
+		build_cost_ic = 0.45
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.10
+		hard_attack = 0.10
+		night = {
+			attack = 0.03
+			defence = 0.03		
+			}	
+		}
+
+	light_bomber = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.75
+		air_defence = 1.25
+		surface_defence = 1.50
+		maximum_speed = 10
+		range = 35
+		build_cost_ic = 0.50
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 2.00
+		hard_attack = 1.00
+		strategic_attack = 0.25
+		sea_attack = 0.75
+		sub_attack = 0.20
+		}	
+		
+	tactical_bomber = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.25
+		air_defence = 2.00
+		surface_defence = 2.00
+		maximum_speed = 5
+		range = 50
+		build_cost_ic = 0.60
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 3.00
+		hard_attack = 0.50
+		strategic_attack = 0.50
+		sea_attack = 0.50
+		}
+
+	transport_plane = { 		
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.15
+		air_defence = 1.50
+		surface_defence = 1.25
+		maximum_speed = 3
+		range = 60
+		build_cost_ic = 0.60
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.35
+		hard_attack = 0.10
+		transport_capability = 1.00
+		}	
+		
+	Flying_boat = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.50
+		air_defence = 1.75
+		surface_defence = 1.75
+		maximum_speed = 2
+		range = 70
+		build_cost_ic = 0.55
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.35
+		sea_attack = 0.75
+		sub_attack = 1.25
+		}	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		twin_engine_aircraft_practical = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 8
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE AIRCRAFT ENGINE IMPROVEMENTS
+################################################################################
+twin_engine_aircraft_engine_improvements = {
+
+	allow = {
+		twin_engine_aircraft_model = 1
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	twin_engine_fighters = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.25
+		}
+		
+	night_fighter = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}	
+		
+	light_bomber = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}
+		
+	tactical_bomber = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}
+	
+	transport_plane = { 	
+		maximum_speed = 5
+		range = 5.0
+		}	
+		
+	Flying_boat = { 	
+		maximum_speed = 5
+		range = 5.0
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE AIRCRAFT INTERNAL MECHANICAL IMPROVEMENTS
+################################################################################
+twin_engine_aircraft_internal_mechanical_improvements = {
+
+	allow = {
+		twin_engine_aircraft_model = 1
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	twin_engine_fighters = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+		
+	night_fighter = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}	
+		
+	light_bomber = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+		
+	tactical_bomber = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+	
+	transport_plane = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}	
+		
+	Flying_boat = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE AERODYNAMIC IMPROVEMENTS
+################################################################################
+twin_engine_aircraft_aerodynamic_improvements = {
+
+	allow = {
+		twin_engine_aircraft_model = 1
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	twin_engine_fighters = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+		
+	night_fighter = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}	
+		
+	light_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+		
+	tactical_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+	
+	transport_plane = { 	
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}	
+		
+	Flying_boat = { 	
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE ARMAMENT IMPROVEMENTS
+################################################################################
+twin_engine_aircraft_armament_improvements = {
+
+	allow = {
+		twin_engine_aircraft_model = 1
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	twin_engine_fighters = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}
+		
+	night_fighter = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}	
+		
+	light_bomber = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}
+		
+	tactical_bomber = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}
+	
+	transport_plane = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}	
+		
+	Flying_boat = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE FIGHTER FOCUS
+################################################################################
+twin_engine_fighter_focus = {
+
+	allow = {
+		twin_engine_aircraft_model = 1 # 1935
+		OR = {
+			AND = { 
+				NOT = { twin_engine_fighter_focus = 2 } # 1936
+				OR = { 
+					twin_engine_aircraft_model = 3 # 1936
+					OR = {
+						twin_engine_aircraft_engine_improvements = 2
+						twin_engine_aircraft_internal_mechanical_improvements = 2
+						twin_engine_aircraft_aerodynamic_improvements = 2
+						twin_engine_aircraft_armament_improvements = 2
+						}
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_focus = 3 } # 1937
+				OR = { 
+					twin_engine_aircraft_model = 4 # 1937
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 3
+						twin_engine_aircraft_internal_mechanical_improvements = 3
+						twin_engine_aircraft_aerodynamic_improvements = 3
+						twin_engine_aircraft_armament_improvements = 3
+						}
+					AND = {
+						twin_engine_aircraft_engine_improvements = 2
+						twin_engine_aircraft_internal_mechanical_improvements = 2
+						twin_engine_aircraft_aerodynamic_improvements = 2
+						twin_engine_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_focus = 4 } # 1938
+				OR = { 
+					twin_engine_aircraft_model = 5 # 1938
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 4
+						twin_engine_aircraft_internal_mechanical_improvements = 4
+						twin_engine_aircraft_aerodynamic_improvements = 4
+						twin_engine_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 3
+						twin_engine_aircraft_internal_mechanical_improvements = 3
+						twin_engine_aircraft_aerodynamic_improvements = 3
+						twin_engine_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_focus = 5 } # 1939
+				OR = { 
+					twin_engine_aircraft_model = 6 # 1939
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 4
+						twin_engine_aircraft_internal_mechanical_improvements = 4
+						twin_engine_aircraft_aerodynamic_improvements = 4
+						twin_engine_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_focus = 6 } # 1940
+				OR = { 
+					twin_engine_aircraft_model = 7 # 1940
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_focus = 7 } # 1941
+				OR = { 
+					twin_engine_aircraft_model = 8 # 1941
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_focus = 8 } # 1942
+				OR = { 
+					twin_engine_aircraft_model = 9 # 1942
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_focus = 9 } # 1943
+				OR = { 
+					twin_engine_aircraft_model = 10 # 1943
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_focus = 10 } # 1944
+				OR = { 
+					twin_engine_aircraft_model = 11 # 1944
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_focus = 11 } # 1945
+				OR = { 
+					twin_engine_aircraft_model = 12 # 1945
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 11
+						twin_engine_aircraft_internal_mechanical_improvements = 11
+						twin_engine_aircraft_aerodynamic_improvements = 11
+						twin_engine_aircraft_armament_improvements = 11
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = twin_engine_fighters
+	
+	twin_engine_fighters = { 			
+		air_defence = 0.35
+		range = 10
+		build_cost_ic = 0.10
+		build_time = 2
+		}
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 11
+	folder = medium_aircraft_folder
+}
+################################################################################
+# NIGHT FIGHTER FOCUS
+################################################################################
+night_fighter_focus = {
+
+	allow = {
+		twin_engine_aircraft_model = 5
+		OR = {
+			AND = { 
+				NOT = { night_fighter_focus = 1 } # 1939
+				OR = { 
+					twin_engine_aircraft_model = 6 # 1939
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}
+					}
+			}
+			AND = { 
+				NOT = { night_fighter_focus = 2 } # 1940
+				OR = { 
+					twin_engine_aircraft_model = 7 # 1940
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { night_fighter_focus = 3 } # 1941
+				OR = { 
+					twin_engine_aircraft_model = 8 # 1941
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { night_fighter_focus = 4 } # 1942
+				OR = { 
+					twin_engine_aircraft_model = 9 # 1942
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { night_fighter_focus = 5 } # 1943
+				OR = { 
+					twin_engine_aircraft_model = 10 # 1943
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { night_fighter_focus = 6 } # 1944
+				OR = { 
+					twin_engine_aircraft_model = 11 # 1944
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+			AND = { 
+				NOT = { night_fighter_focus = 7 } # 1945
+				OR = { 
+					twin_engine_aircraft_model = 12 # 1945
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 11
+						twin_engine_aircraft_internal_mechanical_improvements = 11
+						twin_engine_aircraft_aerodynamic_improvements = 11
+						twin_engine_aircraft_armament_improvements = 11
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}	
+					}
+			}
+			AND = { 
+				NOT = { night_fighter_focus = 8 } # 1946
+				OR = { 
+					twin_engine_aircraft_model = 13 # 1946
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 12
+						twin_engine_aircraft_internal_mechanical_improvements = 12
+						twin_engine_aircraft_aerodynamic_improvements = 12
+						twin_engine_aircraft_armament_improvements = 12
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 11
+						twin_engine_aircraft_internal_mechanical_improvements = 11
+						twin_engine_aircraft_aerodynamic_improvements = 11
+						twin_engine_aircraft_armament_improvements = 11
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = night_fighter
+		
+	night_fighter = { 
+		build_cost_ic = 0.10
+		build_time = 2
+		night = {
+			attack = 0.03
+			defence = 0.03		
+			}	
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1939
+	first_offset = 1940 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 1 years
+	max_level = 8
+	folder = medium_aircraft_folder
+}
+################################################################################
+# MULTI-ROLE BOMBER FOCUS
+################################################################################
+multi_role_bomber_focus = {
+
+	allow = {
+		twin_engine_aircraft_model = 1
+		OR = {
+			AND = { 
+				NOT = { multi_role_bomber_focus = 2 } # 1936
+				OR = { 
+					twin_engine_aircraft_model = 3 # 1936
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 2
+						twin_engine_aircraft_internal_mechanical_improvements = 2
+						twin_engine_aircraft_aerodynamic_improvements = 2
+						twin_engine_aircraft_armament_improvements = 2
+						}
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 3 } # 1937
+				OR = { 
+					twin_engine_aircraft_model = 4 # 1937
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 3
+						twin_engine_aircraft_internal_mechanical_improvements = 3
+						twin_engine_aircraft_aerodynamic_improvements = 3
+						twin_engine_aircraft_armament_improvements = 3
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 2
+						twin_engine_aircraft_internal_mechanical_improvements = 2
+						twin_engine_aircraft_aerodynamic_improvements = 2
+						twin_engine_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 4 } # 1938
+				OR = { 
+					twin_engine_aircraft_model = 5 # 1938
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 4
+						twin_engine_aircraft_internal_mechanical_improvements = 4
+						twin_engine_aircraft_aerodynamic_improvements = 4
+						twin_engine_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 3
+						twin_engine_aircraft_internal_mechanical_improvements = 3
+						twin_engine_aircraft_aerodynamic_improvements = 3
+						twin_engine_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 5 } # 1939
+				OR = { 
+					twin_engine_aircraft_model = 6 # 1939
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 4
+						twin_engine_aircraft_internal_mechanical_improvements = 4
+						twin_engine_aircraft_aerodynamic_improvements = 4
+						twin_engine_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 6 } # 1940
+				OR = { 
+					twin_engine_aircraft_model = 7 # 1940
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 7 } # 1941
+				OR = { 
+					twin_engine_aircraft_model = 8 # 1941
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 8 } # 1942
+				OR = { 
+					twin_engine_aircraft_model = 9 # 1942
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 9 } # 1943
+				OR = { 
+					twin_engine_aircraft_model = 10 # 1943
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 10 } # 1944
+				OR = { 
+					twin_engine_aircraft_model = 11 # 1944
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 11 } # 1945
+				OR = { 
+					twin_engine_aircraft_model = 12 # 1945
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 11
+						twin_engine_aircraft_internal_mechanical_improvements = 11
+						twin_engine_aircraft_aerodynamic_improvements = 11
+						twin_engine_aircraft_armament_improvements = 11
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 12 } # 1946
+				OR = { 
+					twin_engine_aircraft_model = 13 # 1946
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 12
+						twin_engine_aircraft_internal_mechanical_improvements = 12
+						twin_engine_aircraft_aerodynamic_improvements = 12
+						twin_engine_aircraft_armament_improvements = 12
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 11
+						twin_engine_aircraft_internal_mechanical_improvements = 11
+						twin_engine_aircraft_aerodynamic_improvements = 11
+						twin_engine_aircraft_armament_improvements = 11
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_bomber_focus = 13 } # 1947
+				OR = { 
+					twin_engine_aircraft_model = 14 # 1947
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 13
+						twin_engine_aircraft_internal_mechanical_improvements = 13
+						twin_engine_aircraft_aerodynamic_improvements = 13
+						twin_engine_aircraft_armament_improvements = 13
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 12
+						twin_engine_aircraft_internal_mechanical_improvements = 12
+						twin_engine_aircraft_aerodynamic_improvements = 12
+						twin_engine_aircraft_armament_improvements = 12
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = light_bomber
+	
+	light_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		surface_defence = 0.15
+		maximum_speed = 3
+		range = 5
+		soft_attack = 0.15
+		hard_attack = 0.10
+		strategic_attack = 0.10
+		sea_attack = 0.10
+		sub_attack = 0.05
+		build_cost_ic = 0.13
+		build_time = 2
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 13
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TACTICAL BOMBER FOCUS
+################################################################################
+tactical_bomber_focus = {
+
+	allow = {
+		twin_engine_aircraft_model = 1
+		OR = {
+			AND = { 
+				NOT = { tactical_bomber_focus = 2 } # 1936
+				OR = { 
+					twin_engine_aircraft_model = 3 # 1936
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 2
+						twin_engine_aircraft_internal_mechanical_improvements = 2
+						twin_engine_aircraft_aerodynamic_improvements = 2
+						twin_engine_aircraft_armament_improvements = 2
+						}
+					}
+			}
+			AND = { 
+				NOT = { tactical_bomber_focus = 3 } # 1937
+				OR = { 
+					twin_engine_aircraft_model = 4 # 1937
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 3
+						twin_engine_aircraft_internal_mechanical_improvements = 3
+						twin_engine_aircraft_aerodynamic_improvements = 3
+						twin_engine_aircraft_armament_improvements = 3
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 2
+						twin_engine_aircraft_internal_mechanical_improvements = 2
+						twin_engine_aircraft_aerodynamic_improvements = 2
+						twin_engine_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_bomber_focus = 4 } # 1938
+				OR = { 
+					twin_engine_aircraft_model = 5 # 1938
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 4
+						twin_engine_aircraft_internal_mechanical_improvements = 4
+						twin_engine_aircraft_aerodynamic_improvements = 4
+						twin_engine_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 3
+						twin_engine_aircraft_internal_mechanical_improvements = 3
+						twin_engine_aircraft_aerodynamic_improvements = 3
+						twin_engine_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_bomber_focus = 5 } # 1939
+				OR = { 
+					twin_engine_aircraft_model = 6 # 1939
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 4
+						twin_engine_aircraft_internal_mechanical_improvements = 4
+						twin_engine_aircraft_aerodynamic_improvements = 4
+						twin_engine_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_bomber_focus = 6 } # 1940
+				OR = { 
+					twin_engine_aircraft_model = 7 # 1940
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_bomber_focus = 7 } # 1941
+				OR = { 
+					twin_engine_aircraft_model = 8 # 1941
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_bomber_focus = 8 } # 1942
+				OR = { 
+					twin_engine_aircraft_model = 9 # 1942
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_bomber_focus = 9 } # 1943
+				OR = { 
+					twin_engine_aircraft_model = 10 # 1943
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_bomber_focus = 10 } # 1944
+				OR = { 
+					twin_engine_aircraft_model = 11 # 1944
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_bomber_focus = 11 } # 1945
+				OR = { 
+					twin_engine_aircraft_model = 12 # 1945
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 11
+						twin_engine_aircraft_internal_mechanical_improvements = 11
+						twin_engine_aircraft_aerodynamic_improvements = 11
+						twin_engine_aircraft_armament_improvements = 11
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_bomber_focus = 12 } # 1946
+				OR = { 
+					twin_engine_aircraft_model = 13 # 1946
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 12
+						twin_engine_aircraft_internal_mechanical_improvements = 12
+						twin_engine_aircraft_aerodynamic_improvements = 12
+						twin_engine_aircraft_armament_improvements = 12
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 11
+						twin_engine_aircraft_internal_mechanical_improvements = 11
+						twin_engine_aircraft_aerodynamic_improvements = 11
+						twin_engine_aircraft_armament_improvements = 11
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	
+	activate_unit = tactical_bomber
+		
+	tactical_bomber = { 		
+		soft_attack = 0.35
+		strategic_attack = 0.35
+		build_cost_ic = 0.17
+		build_time = 3
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 12
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE TRANSPORT FOCUS
+################################################################################
+twin_engine_transport_focus = {
+
+	allow = {
+		twin_engine_aircraft_model = 1
+		OR = {
+			AND = { 
+				NOT = { twin_engine_transport_focus = 2 } # 1936
+				OR = { 
+					twin_engine_aircraft_model = 3 # 1936
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 2
+						twin_engine_aircraft_internal_mechanical_improvements = 2
+						twin_engine_aircraft_aerodynamic_improvements = 2
+						twin_engine_aircraft_armament_improvements = 2
+						}
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_transport_focus = 3 } # 1937
+				OR = { 
+					twin_engine_aircraft_model = 4 # 1937
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 3
+						twin_engine_aircraft_internal_mechanical_improvements = 3
+						twin_engine_aircraft_aerodynamic_improvements = 3
+						twin_engine_aircraft_armament_improvements = 3
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 2
+						twin_engine_aircraft_internal_mechanical_improvements = 2
+						twin_engine_aircraft_aerodynamic_improvements = 2
+						twin_engine_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_transport_focus = 4 } # 1938
+				OR = { 
+					twin_engine_aircraft_model = 5 # 1938
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 4
+						twin_engine_aircraft_internal_mechanical_improvements = 4
+						twin_engine_aircraft_aerodynamic_improvements = 4
+						twin_engine_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 3
+						twin_engine_aircraft_internal_mechanical_improvements = 3
+						twin_engine_aircraft_aerodynamic_improvements = 3
+						twin_engine_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_transport_focus = 5 } # 1939
+				OR = { 
+					twin_engine_aircraft_model = 6 # 1939
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 4
+						twin_engine_aircraft_internal_mechanical_improvements = 4
+						twin_engine_aircraft_aerodynamic_improvements = 4
+						twin_engine_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_transport_focus = 6 } # 1940
+				OR = { 
+					twin_engine_aircraft_model = 7 # 1940
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_transport_focus = 7 } # 1941
+				OR = { 
+					twin_engine_aircraft_model = 8 # 1941
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_transport_focus = 8 } # 1942
+				OR = { 
+					twin_engine_aircraft_model = 9 # 1942
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_transport_focus = 9 } # 1943
+				OR = { 
+					twin_engine_aircraft_model = 10 # 1943
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { twin_engine_transport_focus = 10 } # 1944
+				OR = { 
+					twin_engine_aircraft_model = 11 # 1944
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = transport_plane
+	
+	transport_plane = { 		
+		range = 25
+		transport_capability = 0.15
+		build_cost_ic = 0.17
+		build_time = 2
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 10
+	folder = medium_aircraft_folder
+}
+################################################################################
+# SEAPLANE FOCUS
+################################################################################
+seaplane_focus = {
+
+	allow = {
+		twin_engine_aircraft_model = 1
+		OR = {
+			AND = { 
+				NOT = { seaplane_focus = 2 } # 1936
+				OR = { 
+					twin_engine_aircraft_model = 3 # 1936
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 2
+						twin_engine_aircraft_internal_mechanical_improvements = 2
+						twin_engine_aircraft_aerodynamic_improvements = 2
+						twin_engine_aircraft_armament_improvements = 2
+						}
+					}
+			}
+			AND = { 
+				NOT = { seaplane_focus = 3 } # 1937
+				OR = { 
+					twin_engine_aircraft_model = 4 # 1937
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 3
+						twin_engine_aircraft_internal_mechanical_improvements = 3
+						twin_engine_aircraft_aerodynamic_improvements = 3
+						twin_engine_aircraft_armament_improvements = 3
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 2
+						twin_engine_aircraft_internal_mechanical_improvements = 2
+						twin_engine_aircraft_aerodynamic_improvements = 2
+						twin_engine_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { seaplane_focus = 4 } # 1938
+				OR = { 
+					twin_engine_aircraft_model = 5 # 1938
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 4
+						twin_engine_aircraft_internal_mechanical_improvements = 4
+						twin_engine_aircraft_aerodynamic_improvements = 4
+						twin_engine_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 3
+						twin_engine_aircraft_internal_mechanical_improvements = 3
+						twin_engine_aircraft_aerodynamic_improvements = 3
+						twin_engine_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { seaplane_focus = 5 } # 1939
+				OR = { 
+					twin_engine_aircraft_model = 6 # 1939
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 4
+						twin_engine_aircraft_internal_mechanical_improvements = 4
+						twin_engine_aircraft_aerodynamic_improvements = 4
+						twin_engine_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { seaplane_focus = 6 } # 1940
+				OR = { 
+					twin_engine_aircraft_model = 7 # 1940
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 5
+						twin_engine_aircraft_internal_mechanical_improvements = 5
+						twin_engine_aircraft_aerodynamic_improvements = 5
+						twin_engine_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { seaplane_focus = 7 } # 1941
+				OR = { 
+					twin_engine_aircraft_model = 8 # 1941
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 6
+						twin_engine_aircraft_internal_mechanical_improvements = 6
+						twin_engine_aircraft_aerodynamic_improvements = 6
+						twin_engine_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { seaplane_focus = 8 } # 1942
+				OR = { 
+					twin_engine_aircraft_model = 9 # 1942
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 7
+						twin_engine_aircraft_internal_mechanical_improvements = 7
+						twin_engine_aircraft_aerodynamic_improvements = 7
+						twin_engine_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { seaplane_focus = 9 } # 1943
+				OR = { 
+					twin_engine_aircraft_model = 10 # 1943
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 8
+						twin_engine_aircraft_internal_mechanical_improvements = 8
+						twin_engine_aircraft_aerodynamic_improvements = 8
+						twin_engine_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { seaplane_focus = 10 } # 1944
+				OR = { 
+					twin_engine_aircraft_model = 11 # 1944
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 9
+						twin_engine_aircraft_internal_mechanical_improvements = 9
+						twin_engine_aircraft_aerodynamic_improvements = 9
+						twin_engine_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+			AND = { 
+				NOT = { seaplane_focus = 11 } # 1945
+				OR = { 
+					twin_engine_aircraft_model = 12 # 1945
+					OR = { 
+						twin_engine_aircraft_engine_improvements = 11
+						twin_engine_aircraft_internal_mechanical_improvements = 11
+						twin_engine_aircraft_aerodynamic_improvements = 11
+						twin_engine_aircraft_armament_improvements = 11
+						}
+					AND = { 
+						twin_engine_aircraft_engine_improvements = 10
+						twin_engine_aircraft_internal_mechanical_improvements = 10
+						twin_engine_aircraft_aerodynamic_improvements = 10
+						twin_engine_aircraft_armament_improvements = 10
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = Flying_boat
+	
+	Flying_boat = { 	
+		sub_attack = 0.25
+		build_cost_ic = 0.15
+		build_time = 2
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 11
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE FIGHTER ARMOR
+################################################################################
+twin_engine_fighter_armor = {
+
+	allow = {
+		twin_engine_aircraft = 1
+		twin_engine_aircraft_model = 1
+		twin_engine_fighter_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	twin_engine_fighters = { 	
+		air_defence = 1.50
+		surface_defence = 1.50
+		maximum_speed = -40
+		range = -60
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+	folder = medium_aircraft_folder
+}
+################################################################################
+# MULTI-ROLE BOMBER ARMOR
+################################################################################
+multi_role_bomber_armor = {
+
+	allow = {
+		twin_engine_aircraft = 1
+		twin_engine_aircraft_model = 1
+		multi_role_bomber_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_bomber = { 	
+		air_defence = 1.50
+		surface_defence = 1.50
+		maximum_speed = -40
+		range = -60
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TACTICAL BOMBER ARMOR
+################################################################################
+tactical_bomber_armor = {
+
+	allow = {
+		twin_engine_aircraft = 1
+		twin_engine_aircraft_model = 1
+		tactical_bomber_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	tactical_bomber = { 	
+		air_defence = 1.50
+		surface_defence = 1.50
+		maximum_speed = -40
+		range = -60
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+	folder = medium_aircraft_folder
+}
+################################################################################
+# NOSE GUNNER
+################################################################################
+medium_bomber_nose_gunner = {
+
+	allow = {
+		twin_engine_aircraft_model = 2
+		OR = {
+			tactical_bomber_focus = 1
+			multi_role_bomber_focus = 1
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+			
+	light_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+		
+	tactical_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+			
+	Flying_boat = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1938
+	folder = medium_aircraft_folder
+}
+################################################################################
+# SIDE GUNNERS
+################################################################################
+medium_bomber_side_gunners = {
+
+	allow = {
+		twin_engine_aircraft_model = 4
+		OR = {
+			tactical_bomber_focus = 3
+			multi_role_bomber_focus = 3
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.10
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.10
+		}
+		
+	tactical_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.10
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.10
+		}
+			
+	Flying_boat = { 	
+		build_time = 1
+		build_cost_ic = 0.10
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.10
+		}	
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1938
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TAIL GUNNER
+################################################################################
+medium_bomber_tail_gunner = {
+
+	allow = {
+		twin_engine_aircraft_model = 6
+		OR = {
+			tactical_bomber_focus = 5
+			multi_role_bomber_focus = 5
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+		
+	tactical_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+			
+	Flying_boat = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}	
+				
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1938
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TOP GUNNER
+################################################################################
+medium_bomber_top_gunner = {
+
+	allow = {
+		twin_engine_aircraft_model = 3
+		OR = {
+			tactical_bomber_focus = 2
+			multi_role_bomber_focus = 2
+			twin_engine_fighter_focus = 2
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+		
+	tactical_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+			
+	Flying_boat = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1938
+	folder = medium_aircraft_folder
+}
+################################################################################
+# DORSAL GUN TURRET
+################################################################################
+medium_bomber_dorsal_gun_turret = {
+
+	allow = {
+		twin_engine_aircraft_model = 6
+		OR = {
+			tactical_bomber_focus = 5
+			multi_role_bomber_focus = 5
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+		
+	tactical_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+		
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	start_year = 1941
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE FIGHTER AIRCRAFT BOMB LOAD PLUS
+################################################################################
+twin_engine_fighter_bomb_load_plus = {
+	
+	allow = {
+		twin_engine_aircraft_model = 1
+		twin_engine_fighter_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	twin_engine_fighters = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 1.25
+		hard_attack = 1.00
+		strategic_attack = 0.25
+		maximum_speed = -30
+		range = -65
+		supply_consumption = 0.15
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = medium_aircraft_folder
+}
+################################################################################
+# MULTI-ROLE BOMBER BOMB LOAD PLUS
+################################################################################
+multi_role_bomber_bomb_load_plus = {
+	
+	allow = {
+		twin_engine_aircraft_model = 1
+		multi_role_bomber_focus = 1		
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 1.75
+		hard_attack = 1.25
+		strategic_attack = 0.50
+		maximum_speed = -35
+		range = -85
+		supply_consumption = 0.15
+		}
+
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TACTICAL BOMBER BOMB LOAD PLUS
+################################################################################
+tactical_bomber_bomb_load_plus = {
+	
+	allow = {
+		twin_engine_aircraft_model = 1
+		tactical_bomber_focus = 1	
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	tactical_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 2.00
+		hard_attack = 0.75
+		strategic_attack = 0.75
+		maximum_speed = -40
+		range = -100
+		supply_consumption = 0.15
+		}
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TWIN ENGINE FIGHTER AIRCRAFT BOMB LOAD MINUS
+################################################################################
+twin_engine_fighter_bomb_load_minus = {
+	
+	allow = {
+		twin_engine_fighter_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { twin_engine_fighter_bomb_load_minus = 3 } # 1940
+				twin_engine_fighter_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_bomb_load_minus = 4 } # 1942
+				twin_engine_fighter_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_bomb_load_minus = 5 } # 1944
+				naval_aircraft_prototype_and_testing = 3 # 1938
+			}
+			AND = { 
+				NOT = { twin_engine_fighter_bomb_load_minus = 6 } # 1946
+				naval_aircraft_prototype_and_testing = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	twin_engine_fighters = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -1.25
+		hard_attack = -1.00
+		strategic_attack = -0.25
+		maximum_speed = 30
+		range = 65
+		supply_consumption = -0.15
+		}
+			
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = medium_aircraft_folder
+}
+################################################################################
+# MULTI-ROLE BOMBER BOMB LOAD MINUS
+################################################################################
+multi_role_bomber_bomb_load_minus = {
+	
+	allow = {
+		multi_role_bomber_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { multi_role_bomber_bomb_load_minus = 3 } # 1940
+				multi_role_bomber_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { multi_role_bomber_bomb_load_minus = 4 } # 1942
+				multi_role_bomber_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { multi_role_bomber_bomb_load_minus = 5 } # 1944
+				multi_role_bomber_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { multi_role_bomber_bomb_load_minus = 6 } # 1946
+				multi_role_bomber_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -1.75
+		hard_attack = -1.25
+		strategic_attack = -0.50
+		maximum_speed = 35
+		range = 85
+		supply_consumption = -0.15
+		}
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = medium_aircraft_folder
+}
+################################################################################
+# TACTICAL BOMBER BOMB LOAD MINUS
+################################################################################
+tactical_bomber_bomb_load_minus = {
+	
+	allow = {
+		tactical_bomber_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { tactical_bomber_bomb_load_minus = 3 } # 1940
+				tactical_bomber_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { tactical_bomber_bomb_load_minus = 4 } # 1942
+				tactical_bomber_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { tactical_bomber_bomb_load_minus = 5 } # 1944
+				tactical_bomber_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { tactical_bomber_bomb_load_minus = 6 } # 1946
+				tactical_bomber_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	tactical_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -2.00
+		hard_attack = -0.75
+		strategic_attack = -0.75
+		maximum_speed = 40
+		range = 100
+		supply_consumption = -0.15
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = medium_aircraft_folder
+}

@@ -1,0 +1,75 @@
+########################################################################################
+############# Spanish Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Spanish WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### ALFA 44 Heavy Machine Gun (Republican Spain Event)
+##############################################################
+
+	country_event = {
+		id = 9107100
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SPR
+			hmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107100"
+		desc = "EVTDESC9107100"
+		picture = "alfa_fourty_four_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			alfa_fourty_four_hmg_hidden = 6000
+			set_global_flag = alfa_fourty_four_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### ALFA 44 Heavy Machine Gun (Nationalist Spain Event)
+##############################################################
+
+	country_event = {
+		id = 9107101
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SPA
+			hmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107101"
+		desc = "EVTDESC9107101"
+		picture = "alfa_fourty_four_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			alfa_fourty_four_hmg_hidden = 6000
+			set_global_flag = alfa_fourty_four_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+	

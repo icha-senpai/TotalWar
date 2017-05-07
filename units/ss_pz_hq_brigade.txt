@@ -1,0 +1,109 @@
+ss_pz_hq_brigade = {
+	usable_by = { GER }
+	type = land
+	is_buildable = no
+	sprite = Tank
+	unit_group = ss_HQ_unit_type
+	available_trigger = {
+		has_country_flag =  ss_armor_brigade_activation
+	}
+	
+	#Size Definitions
+	max_strength = 20
+	default_organisation = 65
+	default_morale = 0.85
+	officers = 300
+
+	#Building Costs
+	build_cost_ic = 6.00
+	build_cost_manpower = 1
+	build_time = 120
+
+	#Misc Abilities
+	maximum_speed = 8.00
+	transport_weight = 20.00
+	supply_consumption = 0.40
+	fuel_consumption = 0.65
+	radio_strength = 2
+	repair_cost_multiplier = 0.2
+
+	#Defensive Abilities
+	defensiveness = 4.165	# was 5.67
+	toughness = 3.335
+	softness = 0.2
+	air_defence = 9.50
+
+	#Offensive Abilities
+	suppression = 4.67
+	soft_attack = 1.165
+	hard_attack = 1.00
+	air_attack = 4.5
+
+    plains = {
+		attack = 0.15 ## long sightlines 
+		defence = 0.15
+	}
+    river = { 
+		attack = -0.2
+		defence = 0.25 
+		movement = -0.35
+	}
+	amphibious = {
+		attack = -1.00 
+	}
+	urban = {
+		attack = -0.20
+		defence = -0.20
+		movement = -0.05
+	}
+	arctic ={ 			
+		attack = -0.8
+		attrition = 2
+	}
+	desert = {
+		attack = 0.25 ## long sightlines 
+		defence = 0.3 
+	}
+	woods = {
+		attack = -0.3 
+		defence = -0.25
+		movement = -0.4
+	}
+	forest = {
+		attack = -0.50
+		defence = -0.4
+		movement = -0.80
+	}
+	jungle = {
+		attack = -1.50 
+		defence = -1
+		movement = -1.50
+	}
+   	hills = {
+		attack = -0.3 
+		defence = -0.25  
+		movement = -0.4 
+	}
+	mountain = {
+		attack = -0.50 
+		defence = -0.4
+		movement = -0.80 
+	}
+   	marsh = {
+		attack = -1.50 
+		defence = -1
+		movement = -1.50
+	}
+	night = {
+	}
+	fort = {
+		attack = 0.4
+	}
+	
+	combat_width = 1		# was 1
+
+	completion_size = 0.2
+	on_completion = land_doctrine_practical
+
+	priority = 90
+}

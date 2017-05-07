@@ -1,0 +1,115 @@
+guard_paratrooper_brigade = {
+	
+	usable_by = { SOV }
+	type = land
+	sprite = Infantry
+	active = yes
+	is_buildable = yes
+	can_paradrop = yes
+	
+	#max_percentage_of_type = 0.8
+	
+	unit_group = special_forces_unit_type 
+	
+	available_trigger = {
+		has_country_flag =  guard_paratrooper_brigade_activation
+	}
+	
+	#Size Definitions - x9 Battalions
+	max_strength = 85.0
+	default_organisation = 35
+	default_morale = 0.45
+	officers = 105
+
+	#Building Costs
+	build_cost_ic = 11.50
+	build_cost_manpower = 9.000
+	build_time = 120
+	repair_cost_multiplier = 0.07
+
+	#Misc Abilities
+	maximum_speed = 4.0
+	transport_weight = 6.40
+	supply_consumption = 1.00
+	fuel_consumption = 0.00
+	radio_strength = 2.15
+
+	#Defensive Abilities
+	defensiveness = 8.00 
+	toughness = 5.0
+	softness = 1.00
+	air_defence = 1.00
+
+	#Offensive Abilities
+	suppression = 1.00
+	soft_attack = 2.50
+	hard_attack = 0.25
+	air_attack = 0.00
+	
+	## Guards units have slightly better values overall. 
+	
+	plains = {
+		attack = 0.10 ## Light Infantry can Assault 
+		movement = -0.15 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		attack = 0.10 ## Light Infantry can Assault 
+		movement = -0.15 ## Not easy for infantry to cross river.  
+	}
+	arctic = {	 
+		movement = -0.25 ## Light Infantry. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		movement = -0.25 ## Desert is too hot and big to cross on foot 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = 0.08 ## Light Infantry can assault wooded areas 
+		movement = -0.15 ## Light Infantry
+	}
+	forest = {
+		attack = 0.04 ## Light Infantry can assault Forested areas 
+		movement = -0.20 ## Light Infantry
+	}
+	jungle = { 
+		attack = 0.15 ## Light Infantry can assault Jungle
+		movement = -0.30  ## Not trained for jungle warfare
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		attack = 0.15 # Light Infantry can assault hills
+		movement = -0.50 # Hard to move through hilly areas
+	}
+	mountain = { 
+		attack = 0.10 # Light Infantry can attack mountains a little easier
+		movement = -0.30 # Not trained in mountain warfare
+	}
+	urban = {
+		attack = 0.25 ## Light Infantry can assault Urban areas easier
+		defence = 0.20 ## Light Infantry can defend Urban areas easier
+		movement = -0.10  ## Easy to move through urban streets
+	}
+	marsh = { 
+		attack = 0.10 ## Light Infantry can assault marshes a little easier
+		movement = -0.30 ## Difficult to move through marshes
+	}
+	amphibious = { 
+		attack = 0.25 ## Light Infantry can assault a beach easier
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		attack = 0.15 # Light Infantry
+		defence = 0.10 # Forts are easy to defend from
+	}
+	
+	combat_width = 0.99
+
+	completion_size = 0.50
+	on_completion = infantry_practical
+	
+	priority = 63
+}

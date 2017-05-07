@@ -1,0 +1,113 @@
+ss_commando_brigade = {
+	type = land
+	sprite = Infantry
+	active = yes
+	can_paradrop = yes
+	
+	unit_group = special_forces_unit_type
+	
+	#max_percentage_of_type = 0.05
+	
+	usable_by = { GER }
+	
+	available_trigger = {
+		has_country_flag = ss_commando_brigade_activation
+	}
+
+	#Size Definitions
+	max_strength = 7
+	default_organisation = 55
+	default_morale = 0.55
+	officers = 8
+
+	#Building Costs
+	build_cost_ic = 4.50	#  - It takes a lot of resources to train these guys
+	build_cost_manpower = 0.750
+	build_time = 180
+	repair_cost_multiplier = 0.07
+
+	#Misc Abilities
+	maximum_speed = 9.0 ##motorised
+	transport_weight = 1.50
+	supply_consumption = 0.20
+	fuel_consumption = 0.25
+	radio_strength = 0.05
+
+	#Defensive Abilities
+	defensiveness = 2.50
+	toughness = 11.00
+	softness = 1.00 
+ 	air_defence = 15.00
+
+	#Offensive Abilities
+	suppression = 0.00
+	soft_attack = 1.40
+	hard_attack = 0.75
+	air_attack = 0.00
+	ap_attack = 1
+	
+	# Commandos are specially trained units in almost all warfare areas.  
+
+	plains = {
+		attack = 0.10 ## Slight bonus due to terrain being easy to fight on.  
+		movement = 0.20 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		attack = 0.50 ## Can sneak across river in specialized assault boats
+		movement = 0.50 ## Use assault boats to cross river.  
+	}
+	arctic = {	
+		attack = 0.50 ## They have been through arctic training 
+		movement = 0.50 ## They have been through arctic training
+	}
+	desert = { 
+		attack = 0.15 ## Easy to attack but hot	
+		movement = 0.25 ## They are motorized
+		}
+	woods = { 
+		attack = 0.50 ## They are trained in forest assault
+		movement = 0.50 ## They are trained in forest assault
+	}
+	forest = {
+		attack = 0.50 ## They are trained in forest assault
+		movement = 0.50 ## They are trained in forest assault 
+	}
+	jungle = { 
+		attack = 0.50 ## They are trained in jungle assault
+		movement = 0.50  ## They are trained in jungle assault
+	}
+	
+	hills = { 
+		attack = 0.50 # They are trained in mountain warfare 
+		movement = 0.50 # They are trained in mountain warfare 
+	}
+	mountain = { 
+		attack = 0.50 # They are trained in mountain warfare 
+		movement = 0.50 # They are trained in mountain warfare 
+	}
+	urban = {
+		attack = 0.50 ## They are trained in urban warfare
+		movement = 0.50  ## They are trained in urban warfare
+	}
+	marsh = { 
+		attack = 0.50 ## They are trained in irregular warfare
+		movement = 0.50 ## They are trained in irregular warfare
+	}
+	amphibious = { 
+		attack = 0.50 ## They are trained in amphibious warfare
+	}
+	night = { 
+		attack = 0.50 ## Can attack at night 
+		movement = 0.25 ## Can move a lot faster at night 
+	}
+	fort = { 
+		attack = 0.95 # Trained to assault fortifications
+	}
+
+	combat_width = 0.11
+	
+	completion_size = 0.05
+	on_completion = infantry_practical
+	
+	priority = 45
+}

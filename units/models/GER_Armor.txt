@@ -1,0 +1,734 @@
+####################################################################
+# Armored Car Battalion
+####################################################################
+armored_car_brigade.0 = { # Model I 1938
+	armored_recon_battalion = 1
+}
+armored_car_brigade.1 = { # Model II 1939
+	armored_recon_battalion = 2
+}
+armored_car_brigade.2 = { # Model III 1941
+	armored_recon_battalion = 3
+}
+armored_car_brigade.3 = { # Model IV 1943
+	armored_recon_battalion = 4
+}
+armored_car_brigade.4 = { # Model V 1945
+	armored_recon_battalion = 5
+}
+armored_car_brigade.5 = { # Model VI 1947
+	armored_recon_battalion = 6
+}
+armored_car_brigade.6 = { # Model VII 1949
+	armored_recon_battalion = 7
+}
+armored_car_brigade.7 = { # Model VIII 1951
+	armored_recon_battalion = 8
+}
+armored_car_brigade.8 = { # Model IX 1953
+	armored_recon_battalion = 9
+}
+armored_car_brigade.9 = { # Model X 1955
+	armored_recon_battalion = 10
+}
+armored_car_brigade.10 = { # Model XI 1957
+	armored_recon_battalion = 11
+}
+armored_car_brigade.11 = { # Model XII 1959
+	armored_recon_battalion = 12
+}
+####################################################################
+# SS Armored Recon Battalion
+####################################################################
+ss_armored_car_brigade.0 = { # Model I 1938
+	armored_recon_battalion = 1
+}
+ss_armored_car_brigade.1 = { # Model II 1939
+	armored_recon_battalion = 2
+}
+ss_armored_car_brigade.2 = { # Model III 1941
+	armored_recon_battalion = 3
+}
+ss_armored_car_brigade.3 = { # Model IV 1943
+	armored_recon_battalion = 4
+}
+ss_armored_car_brigade.4 = { # Model V 1945
+	armored_recon_battalion = 5
+}
+ss_armored_car_brigade.5 = { # Model VI 1947
+	armored_recon_battalion = 6
+}
+ss_armored_car_brigade.6 = { # Model VII 1949
+	armored_recon_battalion = 7
+}
+ss_armored_car_brigade.7 = { # Model VIII 1951
+	armored_recon_battalion = 8
+}
+ss_armored_car_brigade.8 = { # Model IX 1953
+	armored_recon_battalion = 9
+}
+ss_armored_car_brigade.9 = { # Model X 1955
+	armored_recon_battalion = 10
+}
+ss_armored_car_brigade.10 = { # Model XI 1957
+	armored_recon_battalion = 11
+}
+ss_armored_car_brigade.11 = { # Model XII 1959
+	armored_recon_battalion = 12
+}
+	
+####################################################################
+# Light Armor
+####################################################################
+light_armor_brigade.0 = { # Model I 1935 - PzKpfw.I
+	first_light_tank_battalion = 1
+	second_light_tank_battalion = 1
+	light_tank_prototype = 1
+	light_tank_versions = 0
+}
+light_armor_brigade.1 = { # Model II 1936 - PzKpfw.II Ausf.A
+	first_light_tank_battalion = 2
+	second_light_tank_battalion = 2
+	light_tank_prototype = 2
+	light_tank_versions = 1
+}
+light_armor_brigade.2 = { # Model III 1937 - PzKpfw.II Ausf.C
+	first_light_tank_battalion = 2
+	second_light_tank_battalion = 2
+	light_tank_prototype = 2
+	light_tank_versions = 2
+}
+light_armor_brigade.3 = { # Model IV 1938 - PzKpfw.II Ausf.D
+	first_light_tank_battalion = 3
+	second_light_tank_battalion = 3
+	light_tank_prototype = 2
+	light_tank_versions = 3
+}
+light_armor_brigade.4 = { # Model VI 1939 - PzKpfw.II Ausf.E
+	first_light_tank_battalion = 3
+	second_light_tank_battalion = 3
+	light_tank_prototype = 2
+	light_tank_versions = 4
+}
+light_armor_brigade.5 = { # Model VI 1940 - PzKpfw.II Ausf.F
+	first_light_tank_battalion = 4
+	second_light_tank_battalion = 4
+	light_tank_prototype = 2
+	light_tank_versions = 5
+}
+light_armor_brigade.6 = { # Model VII 1941 - PzKpfw.II Ausf.J
+	first_light_tank_battalion = 4
+	second_light_tank_battalion = 4
+	light_tank_prototype = 2
+	light_tank_versions = 6
+}
+light_armor_brigade.7 = { # Model VII 1942 - PzKpfw.II Ausf.L 'Luchs'
+	first_light_tank_battalion = 5
+	second_light_tank_battalion = 5
+	light_tank_prototype = 2
+	light_tank_versions = 7
+}
+light_armor_brigade.8 = { # Model VIII 1945 - E-5 Standardpanzer I
+	first_light_tank_battalion = 6
+	second_light_tank_battalion = 6
+	light_tank_prototype = 5
+	light_tank_versions = 8
+}	
+
+####################################################################
+# Light/Medium Captured-armor
+####################################################################
+captured_armor_brigade.0 = { # Model I 1935
+	first_tank_battalion = 1
+}
+captured_armor_brigade.1 = { # Model II 1939
+	first_tank_battalion = 2
+}
+captured_armor_brigade.2 = { # Model III 1941
+	first_tank_battalion = 3
+}
+captured_armor_brigade.3 = { # Model IV 1943
+	first_tank_battalion = 4
+}
+captured_armor_brigade.4 = { # Model V 1945
+	first_tank_battalion = 5
+}
+captured_armor_brigade.5 = { # Model VI 1947
+	first_tank_battalion = 6
+}
+captured_armor_brigade.6 = { # Model VII 1949
+	first_tank_battalion = 7
+}
+captured_armor_brigade.7 = { # Model VIII 1951
+	first_tank_battalion = 8
+}	
+captured_armor_brigade.8 = { # Model IX 1953
+	first_tank_battalion = 9
+}
+captured_armor_brigade.9 = { # Model X 1955
+	first_tank_battalion = 10
+}
+####################################################################
+# Medium Armor => main battle tank
+####################################################################
+armor_brigade.0 = { # Model I 1935 - PzKpfw.III 
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 0
+	medium_tank_versions = 0
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_brigade.1 = { # Model II 1936 - PzKpfw.III Ausf.A
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 1
+	medium_tank_versions = 0
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_brigade.2 = { # Model III 1937 - PzKpfw.III Ausf.C
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 2
+	medium_tank_versions = 0
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_brigade.3 = { # Model IV 1938 - PzKpfw.III Ausf.D
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 3
+	medium_tank_versions = 0
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_brigade.4 = { # Model V 1939 - PzKpfw.III Ausf.E/F
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 4
+	medium_tank_versions = 1
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_brigade.5 = { # Model VI 1940 - PzKpfw.III Ausf.G/H
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 5
+	medium_tank_versions = 2
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_brigade.6 = { # Model VII 1941 - PzKpfw.IV Ausf.F2
+	first_tank_battalion = 2
+	second_tank_battalion = 2
+	medium_tank_prototype = 2
+	light_medium_tank_versions = 6
+	medium_tank_versions = 3
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+armor_brigade.7 = { # Model VIII 1942 - PzKpfw.IV Ausf.G
+	first_tank_battalion = 2
+	second_tank_battalion = 2
+	medium_tank_prototype = 2
+	light_medium_tank_versions = 6
+	medium_tank_versions = 4
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}	
+armor_brigade.8 = { # Model IX 1943 - PzKpfw.V 'Panther' Ausf.D
+	first_tank_battalion = 3
+	second_tank_battalion = 3
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 6
+	medium_tank_versions = 5
+	heavy_medium_tank_versions = 1
+	main_battle_tank = 0
+}
+armor_brigade.9 = { # Model X 1944 - PzKpfw.V 'Panther' Ausf.A
+	first_tank_battalion = 4
+	second_tank_battalion = 4
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 2
+	main_battle_tank = 0
+}
+armor_brigade.10 = { # Model XI 1945 - PzKpfw.V 'Panther' Ausf.G
+	first_tank_battalion = 5
+	second_tank_battalion = 5
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 3
+	main_battle_tank = 0
+}
+armor_brigade.11 = { # Model XII 1946 - PzKpfw.V 'Panther' II
+	first_tank_battalion = 5
+	second_tank_battalion = 5
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 4
+	main_battle_tank = 0
+}
+armor_brigade.12 = { # Model XIII 1947 - E-50 Standard Panzer I 
+	first_tank_battalion = 6
+	second_tank_battalion = 6
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 4
+	main_battle_tank = 1
+}
+armor_brigade.13 = { # Model XIV 1953 - E-50 Standard Panzer II 
+	first_tank_battalion = 8
+	second_tank_battalion = 8
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 4
+	main_battle_tank = 2
+}
+armor_brigade.14 = { # Model XIV 1965 - Leopard 1 Main Battle Tank
+	first_tank_battalion = 10
+	second_tank_battalion = 10
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 4
+	main_battle_tank = 5
+}
+####################################################################
+# SS Armored 
+####################################################################
+ss_armor_brigade.0 = { # Model I 1935 - PzKpfw.III 
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 0
+	medium_tank_versions = 0
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+ss_armor_brigade.1 = { # Model II 1936 - PzKpfw.III Ausf.A
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 1
+	medium_tank_versions = 0
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+ss_armor_brigade.2 = { # Model III 1937 - PzKpfw.III Ausf.C
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 2
+	medium_tank_versions = 0
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+ss_armor_brigade.3 = { # Model IV 1938 - PzKpfw.III Ausf.D
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 3
+	medium_tank_versions = 0
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+ss_armor_brigade.4 = { # Model V 1939 - PzKpfw.III Ausf.E/F
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 4
+	medium_tank_versions = 1
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+ss_armor_brigade.5 = { # Model VI 1940 - PzKpfw.III Ausf.G/H
+	first_tank_battalion = 1
+	second_tank_battalion = 1
+	medium_tank_prototype = 1
+	light_medium_tank_versions = 5
+	medium_tank_versions = 2
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+ss_armor_brigade.6 = { # Model VII 1941 - PzKpfw.IV Ausf.F2
+	first_tank_battalion = 2
+	second_tank_battalion = 2
+	medium_tank_prototype = 2
+	light_medium_tank_versions = 6
+	medium_tank_versions = 3
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}
+ss_armor_brigade.7 = { # Model VIII 1942 - PzKpfw.IV Ausf.G
+	first_tank_battalion = 2
+	second_tank_battalion = 2
+	medium_tank_prototype = 2
+	light_medium_tank_versions = 6
+	medium_tank_versions = 4
+	heavy_medium_tank_versions = 0
+	main_battle_tank = 0
+}	
+ss_armor_brigade.8 = { # Model IX 1943 - PzKpfw.V 'Panther' Ausf.D
+	first_tank_battalion = 3
+	second_tank_battalion = 3
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 6
+	medium_tank_versions = 5
+	heavy_medium_tank_versions = 1
+	main_battle_tank = 0
+}
+ss_armor_brigade.9 = { # Model X 1944 - PzKpfw.V 'Panther' Ausf.A
+	first_tank_battalion = 4
+	second_tank_battalion = 4
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 2
+	main_battle_tank = 0
+}
+ss_armor_brigade.10 = { # Model XI 1945 - PzKpfw.V 'Panther' Ausf.G
+	first_tank_battalion = 5
+	second_tank_battalion = 5
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 3
+	main_battle_tank = 0
+}
+ss_armor_brigade.11 = { # Model XII 1946 - PzKpfw.V 'Panther' II
+	first_tank_battalion = 5
+	second_tank_battalion = 5
+	medium_tank_prototype = 3
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 4
+	main_battle_tank = 0
+}
+ss_armor_brigade.12 = { # Model XIII 1947 - E-50 Standard Panzer I 
+	first_tank_battalion = 6
+	second_tank_battalion = 6
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 4
+	main_battle_tank = 1
+}
+ss_armor_brigade.13 = { # Model XIV 1953 - E-50 Standard Panzer II 
+	first_tank_battalion = 8
+	second_tank_battalion = 8
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 4
+	main_battle_tank = 2
+}
+ss_armor_brigade.14 = { # Model XIV 1965 - Leopard 1 Main Battle Tank
+	first_tank_battalion = 10
+	second_tank_battalion = 10
+	medium_tank_prototype = 4
+	light_medium_tank_versions = 7
+	medium_tank_versions = 6
+	heavy_medium_tank_versions = 4
+	main_battle_tank = 5
+}
+####################################################################
+# Heavy Armor
+####################################################################
+heavy_armor_brigade.0 = { 	# Model I 1935 - Sturmpanzer A7V
+	heavy_tank_battalion = 1
+	heavy_tank_prototype = 1
+}
+heavy_armor_brigade.1 = { 	# Model II 1940 - VK 36.01(H)Prototype
+	heavy_tank_battalion = 1
+	heavy_tank_prototype = 2
+}
+heavy_armor_brigade.2 = { 	# Model III 1942 - Tiger I Ausf.E
+	heavy_tank_battalion = 1
+	heavy_tank_prototype = 3
+}
+heavy_armor_brigade.3 = { 	# Model IV 1944 - Tiger II Kingtiger Ausf.B
+	heavy_tank_battalion = 1
+	heavy_tank_prototype = 4
+}
+
+####################################################################
+# SS Heavy Armor 
+####################################################################
+ss_heavy_armor_brigade.0 = { 	# Model I 1935 - Sturmpanzer A7V
+	heavy_tank_battalion = 1
+	heavy_tank_prototype = 1
+}
+ss_heavy_armor_brigade.1 = { 	# Model II 1940 - VK 36.01(H)Prototype
+	heavy_tank_battalion = 1
+	heavy_tank_prototype = 2
+}
+ss_heavy_armor_brigade.2 = { 	# Model III 1942 - Tiger I Ausf.E
+	heavy_tank_battalion = 1
+	heavy_tank_prototype = 3
+}
+ss_heavy_armor_brigade.3 = { 	# Model IV 1944 - Tiger II Kingtiger Ausf.B
+	heavy_tank_battalion = 1
+	heavy_tank_prototype = 4
+}
+####################################################################
+# Super-Heavy Armor
+####################################################################
+super_heavy_armor_brigade.0 = { 	# Model I 1944 - PzKpfw.VIII 'Maus'
+	super_heavy_tank_battalion = 1
+	super_heavy_tank_prototype = 1
+}
+
+####################################################################
+# Amphibious armor
+####################################################################
+amph_armour_brigade.0 = {
+	first_tank_battalion = 3
+	amphibious_tank_prototype = 1
+}
+####################################################################
+# Infantry Tank
+####################################################################
+infantry_tank_brigade.0 = { # Model I 1933
+	infantry_tank_design = 1
+}
+infantry_tank_brigade.1 = { # Model II 1935
+	infantry_tank_design = 2
+}
+infantry_tank_brigade.2 = { # Model III 1937
+	infantry_tank_design = 3
+}
+infantry_tank_brigade.3 = { # Model IV 1939
+	infantry_tank_design = 4
+}
+infantry_tank_brigade.4 = { # Model V 1941
+	infantry_tank_design = 5
+}
+
+####################################################################
+# Assault gun
+####################################################################
+assault_gun_brigade.0 = { # Model I 1940 - StuG III Ausf.B
+	assault_gun_battalion = 1
+	assault_gun_prototype = 1
+}
+assault_gun_brigade.1 = { # Model II 1941 - StuG III Ausf.E
+	assault_gun_battalion = 1
+	assault_gun_prototype = 2
+}
+assault_gun_brigade.2 = { # Model III 1942 - StuG III Ausf.F
+	assault_gun_battalion = 1
+	assault_gun_prototype = 3
+}
+assault_gun_brigade.3 = { # Model IV 1944 - StuG III Ausf.G
+	assault_gun_battalion = 1
+	assault_gun_prototype = 4
+}
+assault_gun_brigade.4 = { # Model V 1945 - StuG IV
+	assault_gun_battalion = 1
+	assault_gun_prototype = 5
+}
+
+####################################################################
+# Heavy-Assault gun
+####################################################################
+heavy_assault_gun_brigade.0 = { # Model I 1943 - Sturmpanzer IV 'Brummbar' Heavy Assault Gun
+	heavy_assault_gun_battalion = 1
+	heavy_assault_gun_prototype = 1
+}
+heavy_assault_gun_brigade.1 = { # Model II 1944 - Sturmtiger Heavy Assault Gun
+	heavy_assault_gun_battalion = 1
+	heavy_assault_gun_prototype = 2
+}
+heavy_assault_gun_brigade.2 = { # Model III 1945 - 
+	heavy_assault_gun_battalion = 1
+	heavy_assault_gun_prototype = 3
+}
+
+####################################################################
+# Tank Destroyer
+####################################################################
+tank_destroyer_brigade.0 = { # Model I 1940 - Panzerjager I
+	light_tank_destroyer_battalion = 1
+	light_tank_destroyer_prototype = 1
+}
+tank_destroyer_brigade.1 = { # Model II 1941 - Marder I
+	light_tank_destroyer_battalion = 1
+	light_tank_destroyer_prototype = 2
+}
+tank_destroyer_brigade.2 = { # Model III 1942 - Marder II
+	light_tank_destroyer_battalion = 1
+	light_tank_destroyer_prototype = 3
+}
+tank_destroyer_brigade.3 = { # Model III 1943 - Marder III
+	light_tank_destroyer_battalion = 1
+	light_tank_destroyer_prototype = 4
+}
+tank_destroyer_brigade.4 = { # Model IV 1944 - Hetzer
+	light_tank_destroyer_battalion = 3
+	light_tank_destroyer_prototype = 4
+}
+
+####################################################################
+# Medium Tank Destroyer
+####################################################################
+medium_tank_destroyer_brigade.0 = { # Model I 1942 - StuG III Ausf.F
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 1
+}
+medium_tank_destroyer_brigade.1 = { # Model II 1943 - Jagdpanzer IV
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 2
+}
+medium_tank_destroyer_brigade.2 = { # Model III 1944 - Jagdpanther
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 3
+}
+medium_tank_destroyer_brigade.3 = { # Model IV 1945 - 
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 4
+}
+
+####################################################################
+# Medium Tank Destroyer SS
+####################################################################
+ss_tank_destroyer_brigade.0 = { # Model I 1942 - StuG III Ausf.F
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 1
+}
+ss_tank_destroyer_brigade.1 = { # Model II 1943 - Jagdpanzer IV
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 2
+}
+ss_tank_destroyer_brigade.2 = { # Model III 1944 - Jagdpanther
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 3
+}
+ss_tank_destroyer_brigade.3 = { # Model IV 1945 - 
+	medium_tank_destroyer_battalion = 1
+	medium_tank_destroyer_prototype = 4
+}
+
+####################################################################
+# Heavy Tank Destroyer
+####################################################################
+heavy_tank_destroyer_brigade.0 = { # Model I 1943 - Elephant
+	heavy_tank_destroyer_battalion = 1
+	heavy_tank_destroyer_prototype = 1
+}
+heavy_tank_destroyer_brigade.1 = { # Model II 1944 - Jagdtiger
+	heavy_tank_destroyer_battalion = 1
+	heavy_tank_destroyer_prototype = 2
+}
+
+####################################################################
+# Light Armor Battalion
+####################################################################
+light_armor_bat.0 = { # Model I 1935 - PzKpfw.I
+	first_light_tank_battalion = 1
+	light_tank_prototype = 1
+	light_tank_versions = 0
+}
+light_armor_bat.1 = { # Model II 1936 - PzKpfw.II Ausf.A
+	first_light_tank_battalion = 2
+	light_tank_prototype = 2
+	light_tank_versions = 1
+}
+light_armor_bat.2 = { # Model III 1937 - PzKpfw.II Ausf.C
+	first_light_tank_battalion = 2
+	light_tank_prototype = 2
+	light_tank_versions = 2
+}
+light_armor_bat.3 = { # Model IV 1938 - PzKpfw.II Ausf.D
+	first_light_tank_battalion = 3
+	light_tank_prototype = 2
+	light_tank_versions = 3
+}
+light_armor_bat.4 = { # Model V 1939 - PzKpfw.II Ausf.E
+	first_light_tank_battalion = 3
+	light_tank_prototype = 2
+	light_tank_versions = 4
+}
+light_armor_bat.5 = { # Model VI 1940 - PzKpfw.II Ausf.F
+	first_light_tank_battalion = 4
+	light_tank_prototype = 2
+	light_tank_versions = 5
+}
+light_armor_bat.6 = { # Model VII 1941 - PzKpfw.II Ausf.J
+	first_light_tank_battalion = 4
+	light_tank_prototype = 2
+	light_tank_versions = 6
+}
+light_armor_bat.7 = { # Model VIII 1942 - PzKpfw.II Ausf.L 'Luchs'
+	first_light_tank_battalion = 5
+	light_tank_prototype = 2
+	light_tank_versions = 7
+}
+light_armor_bat.8 = { # Model IX 1945 - E-5 Standardpanzer I
+	first_light_tank_battalion = 6
+	light_tank_prototype = 5
+	light_tank_versions = 8
+}	
+
+####################################################################
+# SS Light armor Battalion
+####################################################################
+ss_light_armor_bat.0 = { # Model I 1935 - PzKpfw.I
+	first_light_tank_battalion = 1
+	light_tank_prototype = 1
+	light_tank_versions = 0
+}
+ss_light_armor_bat.1 = { # Model II 1936 - PzKpfw.II Ausf.A
+	first_light_tank_battalion = 2
+	light_tank_prototype = 2
+	light_tank_versions = 1
+}
+ss_light_armor_bat.2 = { # Model III 1937 - PzKpfw.II Ausf.C
+	first_light_tank_battalion = 2
+	light_tank_prototype = 2
+	light_tank_versions = 2
+}
+ss_light_armor_bat.3 = { # Model IV 1938 - PzKpfw.II Ausf.D
+	first_light_tank_battalion = 3
+	light_tank_prototype = 2
+	light_tank_versions = 3
+}
+ss_light_armor_bat.4 = { # Model V 1939 - PzKpfw.II Ausf.E
+	first_light_tank_battalion = 3
+	light_tank_prototype = 2
+	light_tank_versions = 4
+}
+ss_light_armor_bat.5 = { # Model VI 1940 - PzKpfw.II Ausf.F
+	first_light_tank_battalion = 4
+	light_tank_prototype = 2
+	light_tank_versions = 5
+}
+ss_light_armor_bat.6 = { # Model VII 1941 - PzKpfw.II Ausf.J
+	first_light_tank_battalion = 4
+	light_tank_prototype = 2
+	light_tank_versions = 6
+}
+ss_light_armor_bat.7 = { # Model VIII 1942 - PzKpfw.II Ausf.L 'Luchs'
+	first_light_tank_battalion = 5
+	light_tank_prototype = 2
+	light_tank_versions = 7
+}
+ss_light_armor_bat.8 = { # Model IX 1945 - E-5 Standardpanzer I
+	first_light_tank_battalion = 6
+	light_tank_prototype = 5
+	light_tank_versions = 8
+}	
+
+
+#EOF#

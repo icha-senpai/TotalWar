@@ -1,0 +1,48 @@
+transport_plane = {
+	type = air
+	active = no
+	sprite = Transport
+	is_bomber = no
+	
+	
+	#Size Definitions
+	max_strength = 900		#  - x4 Squadrons
+	default_organisation = 50
+	default_morale = 0.50
+	officers = 320
+
+	#Building Costs
+	build_cost_ic = 12.00
+	build_cost_manpower = 0.60
+	build_time = 35
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 185.00
+	transport_capability = 1.60	# - 18 Troops per Aircraft
+	supply_consumption = 1.50
+	fuel_consumption = 2.50
+	range = 500.00
+	radio_strength = 0.25
+
+	#Detection Abilities
+	surface_detection = 0.15
+	air_detection = 0.15
+
+	#Defensive Abilities
+	surface_defence = 1.05
+	air_defence = 0.85
+	
+	#Offensive Abilities
+	soft_attack = 0.15
+	hard_attack = 0.00
+	sea_attack = 0.00
+	air_attack = 0.15
+	strategic_attack = 0.00
+	sub_attack = 0.00
+
+	completion_size = 0.90
+	on_completion = twin_engine_aircraft_practical
+	
+	priority = 1
+}

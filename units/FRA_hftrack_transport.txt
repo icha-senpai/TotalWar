@@ -1,0 +1,100 @@
+FRA_hftrack_transport = {	# expensive/ high attrition
+	#usable_by = { FRA }
+	type = land
+	sprite = Infantry
+	active = yes
+	is_buildable = yes
+	available_trigger = {
+		has_country_flag =  FRAHf_tracks
+	}
+	unit_group = mobile_unit_type
+	
+	#Size Definitions
+	max_strength = 10.00
+	default_organisation = 45
+	default_morale = 0.55
+	officers = 30
+
+	#Building Costs
+	build_cost_ic = 6.00
+	build_cost_manpower = 0.100
+	build_time = 150
+
+	#Misc Abilities
+	maximum_speed = 9.00
+	transport_weight = 22.00
+	supply_consumption = 1.00
+	fuel_consumption = 2.50
+	radio_strength = 1.5
+	repair_cost_multiplier = -0.05 
+
+	#Defensive Abilities
+	defensiveness = -1
+	toughness = 1
+	softness = 0.25
+	air_defence = 5
+
+	#Offensive Abilities
+	suppression = 0
+	soft_attack = -1
+	hard_attack = -1
+	air_attack = 1
+
+  plains = {
+		
+		movement = 2.6
+		
+	}
+	
+	arctic = {	
+		
+		movement = 0.5
+		attrition = 2
+	}
+	desert = { 
+		attrition = 1
+		movement = 2.6
+		}
+	woods = { 
+		attrition = 1
+		movement = 1.2
+	}
+	forest = {
+		
+		movement = 1
+		attrition = 1
+	}
+	jungle = { 
+		attrition = 2
+		movement = 0.5
+		
+	}
+	
+	hills = { 
+		attrition = 1
+		movement = 1.8
+	}
+	mountain = { 
+		attrition = 1
+		movement = 0.6
+	}
+	urban = {
+		attrition = 1
+		movement = 2.6
+		
+	}
+	marsh = { 
+		attrition = 2
+		movement = 0.4
+	}
+	amphibious = { 
+		attrition = 1
+		movement = 0.4	
+	}
+	combat_width = 0
+
+	completion_size = 0.20
+	on_completion = transport_practical
+
+	priority = 3
+}

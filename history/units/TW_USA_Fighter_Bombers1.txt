@@ -1,0 +1,18 @@
+military_construction = {
+	country = USA
+	
+	fighter_bomber = { 
+		historical_model = 9
+	}
+	fighter_bomber = { 
+		historical_model = 9
+	}
+	fighter_bomber = { 
+		historical_model = 9
+	}
+		
+	cost = 30.00
+	duration = 90
+	progress = 15
+}
+#EOF#

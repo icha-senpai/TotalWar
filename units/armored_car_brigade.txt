@@ -1,0 +1,108 @@
+armored_car_brigade = { # Armored Recon Battalion
+	type = land
+	sprite = Mech
+	unit_group = recon_unit_type
+	is_mobile = yes
+	is_buildable = yes
+	active = no
+
+	#Size Definitions
+	max_strength = 6.50
+	default_organisation = 40
+	default_morale = 0.30
+	officers = 17
+
+	#Building Costs
+	build_cost_ic = 4.00
+	build_cost_manpower = 0.650
+	build_time = 90
+	repair_cost_multiplier = 0.05
+
+	#Misc Abilities
+	maximum_speed = 12.00
+	transport_weight = 15.00
+	supply_consumption = 0.25
+	fuel_consumption = 0.65
+	radio_strength = 0.50
+
+	#Defensive Abilities
+	defensiveness = 8.50	
+	toughness = 5.00
+	softness = 0.25
+	air_defence = 10.0
+	armor_value = 1.0
+
+	#Offensive Abilities
+	suppression = 3.0
+	soft_attack = 2.75
+	hard_attack = 1.25
+	air_attack = 1.25
+	ap_attack = 1.0
+
+	##  Armored Recon Units make up a good Reconnaisance in Force Unit
+	
+	plains = {
+		attack = 0.30 ## Slight bonus due to terrain being easy to fight on.  
+		movement = 0.25 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		attack = 0.20 ## Can Recon across rivers 
+		movement = 0.15 ## Not easy for infantry to cross river.  
+	}
+	arctic = {	
+		movement = -0.15 ## Not easy to move around on tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		attack = 0.30 ## Easy to attack but hot	
+		movement = 0.25 ## Desert is too hot and big to cross on foot 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = 0.20 ## Slightly hard to assault wooded areas 
+		movement = 0.15 ## Troops not specially trained to move through woods or forest
+	}
+	forest = {
+		attack = 0.15 ## Hard to attack dense forest
+		movement = 0.05 ## Hard to move through dense forest 
+	}
+	jungle = { 
+		attack = 0.15 ## Very hard to attack jungle
+		movement = 0.05  ## Not trained for jungle warfare
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		attack = 0.20 # Hard to attack up hills
+		movement = 0.15 # Hard to move through hilly areas
+	}
+	mountain = { 
+		attack = 0.15 # Not trained in mountain warfare
+		movement = 0.10 # Not trained in mountain warfare
+	}
+	urban = {
+		attack = 0.20 ## Difficult to attack urban areas if they are not trained in urban assault tactics 
+		movement = 0.35  ## Easy to move through urban streets
+	}
+	marsh = { 
+		attack = 0.15 ## Not trained to assault marshes
+		movement = -0.05 ## Difficult to move through marshes
+	}
+	amphibious = { 
+		
+	}
+	night = { 
+		attack = 0.25 ## Can conduct patrols at night
+		movement = -0.10 ## Difficult to see at night
+	}
+	fort = { 
+		
+	}
+	
+	combat_width = 0.15
+
+	completion_size = 0.25
+	on_completion = mobile_practical
+	
+	priority = 8
+}

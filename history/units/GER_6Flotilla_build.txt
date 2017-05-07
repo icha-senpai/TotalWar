@@ -1,0 +1,33 @@
+military_construction = {
+	country = GER
+	
+	submarine = { 
+		name = "U-90"
+		historical_model = 1
+	}
+	submarine = {
+		name = "U-91"
+		historical_model = 1
+	}
+	submarine = {
+		name = "U-92"
+		historical_model = 1
+	}
+	submarine = { 
+		name = "U-93"
+		historical_model = 1
+	}
+	submarine = {
+		name = "U-94"
+		historical_model = 1
+	}
+	submarine = {
+		name = "U-95"
+		historical_model = 1
+	}
+	
+	cost = 15.00
+	duration = 329
+	progress = 309
+}
+#EOF#

@@ -1,0 +1,125 @@
+ss_artillery_brigade = {
+	type = land
+	sprite = Infantry
+	active = yes
+	is_buildable = yes
+	
+	unit_group = artillery_unit_type
+	
+	usable_by = { GER }
+	
+	available_trigger = {
+		has_country_flag =  SS_supports
+	}
+	
+	#Size Definitions - x4 Battalions
+	max_strength = 27.00
+	default_organisation = 40
+	default_morale = 0.40
+	officers = 85
+
+	#Building Costs
+	build_cost_ic = 6.50
+	build_cost_manpower = 2.700
+	build_time = 60
+	repair_cost_multiplier = 0.05	# Difficult to replace if lost in combat
+
+	#Misc Abilities
+	maximum_speed = 3.3   		# Artillery towed by horses.
+	transport_weight = 28.00	# Difficult to fit aboard ships.
+	supply_consumption = 0.75	# Artillery Shells 
+	fuel_consumption = 0.00
+	radio_strength = 1.00
+
+	#Defensive Abilities
+	defensiveness = 16.00
+	toughness = 30.00
+	softness = 0.50
+	air_defence = 30.00  	# Can be easily hidden
+	armor_value = 1
+
+	#Offensive Abilities
+	suppression = 0.00
+	soft_attack = 0.25
+	hard_attack = 3.25
+	air_attack = 0.00
+	ap_attack = 3.0
+
+	##  SS units have better overall bonuses than regular units.
+	
+   	## Artillery has bonuses to attack mostly. 
+
+   	plains = {
+		attack = 0.60 ## Excellent for attacking open terrain.   
+		defence = 0.15 ## Excellent for defending open terrain. 
+		movement = -0.60 ## Horses have easier time walking on level roads
+	}
+	river = { 
+		attack = 0.60 ## Can provide suppressive covering fire.  
+		defence = 0.15 ## Easy to defend due to long sight lines.
+		movement = -0.60 ## Horses will have trouble pulling artillery guns through river water.  Need bridges! 
+	}
+	arctic = {	
+		attack = 0.60 ## Can still fire guns in the cold
+		defence = 0.15 ## Sitting in a warm foxhole is easier than attacking in -60C!	
+		movement = -0.60 ## Horses can't move guns on the tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		attack = 0.60 ## Excellent for attacking open desert terrain. 
+		defence = 0.15 ## Excellent for defending open desert terrain. 
+		movement = -0.60 ## Horses get hot and thirsty while moving the guns. 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = 0.50 ## Artillery can be effective when bombarding wooded areas. 
+		movement = -0.65 ## Not as easy for horses to move guns through wooded areas.  
+	}
+	forest = {
+		attack = 0.30 ## Artillery can be effective when bombarding forested areas.
+		movement = -0.75 ## Not as easy for horses to move guns through wooded areas. 
+	}
+	jungle = { 
+		attack = 0.20 ## Dense jungle difficult to bombard enemy positions.  Not as big of a bonus.   
+		movement = -0.95 ## Not as easy for horses to move guns through wooded areas.
+		attrition = 4 ## Jungles are very inhospitable places.		
+	}
+	
+	hills = { 
+		attack = 0.40 ## Small bonus for attacking hilly areas.  
+		defence = 0.30 ## Easy to defend due to long sight lines. Big bonus due to higher elevations. 
+		movement = -0.65 ## Not as easy for horses to move guns through up and down hilly areas. 
+	}
+	mountain = { 
+		attack = 0.20 ## Sight lines obstructed by mountains.   
+		defence = 0.10 ## Sight lines obstructed by mountains. 
+		movement = -0.80 ## Not easy for horses to move guns through up and down hilly areas. 
+	}
+	urban = {
+		attack = 0.50 ## Excellent for destroying enemy positions in cities.  
+		defence = 0.15 ## Small bonus due to urban environment. 
+		movement = -0.50 ## Easy for horses to move guns through urban streets.  
+	}
+	marsh = { 
+		attack = 0.20 ## Artillery not as effective in marshes.  
+		defence = 0.15 ## Easy to defend due to long sight lines. Big bonus due to slow attacking enemies
+		movement = -0.95 ## Horses have extreme trouble moving through marshes.  
+	}
+	amphibious = { 
+		attack = -1.00 ## Nowhere to setup guns.  
+	}
+	night = { 
+		movement = -0.50  ## Can't see as easily during the night. 
+	}
+	fort = { 
+		attack = 0.60 ## Excellent for bombarding fortifications. 
+		defence = 0.70 ## Excellent for defending fortifications.  
+	}
+	
+	combat_width = 0.06
+
+	completion_size = 0.50
+	on_completion = artillery_practical
+	
+	priority = 20
+}

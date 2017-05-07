@@ -1,0 +1,10 @@
+military_construction = {
+	country = GER
+	BB_Bismarck = {
+		name = "Bismarck"
+		historical_model = 0
+	}
+	cost = 25
+	progress = 0
+	duration = 3000
+}

@@ -1,0 +1,13 @@
+division= {
+	name = "25. Panzer-Division 'Mondschein'"
+	location = 1921 #frankfurt oder
+	leader = 98 # Haarde
+	regiment = { type = GER_A_XXV_mPzD name = "Stab 25. Panzer-Division" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = armor_brigade name = "Panzer-Regiment 9" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = motorized_infantry_bat name = "Panzergrenadier-Regiment 146/147" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = sp_artillery_brigade name = "Panzer-Artillerie-Regiment 91" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = tank_destroyer_brigade name = "Panzerjäger-Abteilung 87" historical_model = 3 experience = 50 organisation = 1 }
+	regiment = { type = motorcycle_recon_brigade name = "Kradschützen-Bataillon 87" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = armored_engineers_brigade name = "Panzer-Pionier-Bataillon 87" historical_model = 2 experience = 50 organisation = 1 }
+	regiment = { type = truck_transport name = "Gefechtstross 25. Panzer-Division" historical_model = 0 experience = 50 organisation = 1 }
+}

@@ -1,0 +1,102 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+theoretical= {
+	infantry_theory
+	militia_theory
+	mobile_theory
+	artillery_theory
+	rocket_science
+	submarine_engineering
+	electornicegineering_theory  
+	aeronautic_engineering
+	automotive_theory 
+	spearhead_theory
+	superior_firepower_theory
+	grand_battleplan_theory
+	human_wave_theory
+	base_strike_doctrine
+	fleet_in_being_doctrine
+	sealane_interdiction_doctrine
+	fighter_focus
+	cas_focus
+	tac_focus
+	nav_focus
+	strategic_air_focus
+	mechanicalengineering_theory
+	chemical_engineering
+	jetengine_theory
+	nuclear_physics
+}
+practical = {
+	infantry_practical
+	militia_practical
+	mobile_practical
+	artillery_practical
+	rocket_practical
+	naval_engineering
+	destroyer_practical 
+	cruiser_practical
+	capitalship_practical
+	carrier_practical
+	submarine_practical
+	electornicegineering_practical
+	armour_practical
+	single_engine_aircraft_practical
+	twin_engine_aircraft_practical
+	four_engine_aircraft_practical
+	land_doctrine_practical
+	naval_doctrine_practical
+	air_doctrine_practical
+	jetengine_practical
+	nuclear_bomb 
+	transport_practical
+	construction_practical
+}
+
+folders = {
+	nation_folder
+	industry_folder
+	electronics_folder
+	construction_folder
+	manufacturing_folder
+	secretweapon_folder
+	advanced_tech_folder
+	topsecret_tech_folder
+	infantry_folder
+	artillery_folder
+	armour_folder
+	advanced_armor_folder
+	advanced_land_tech_folder
+	special_forces_folder
+	infantry_organization_folder
+	armor_organization_folder
+	advanced_organization_folder
+	light_aircraft_folder
+	naval_aircraft_folder
+	medium_aircraft_folder
+	heavy_aircraft_folder
+	aircraft_armament_folder
+	aircraft_system_folder
+	jet_aircraft_folder
+	advanced_aircraft_folder
+	submarine_folder
+	smallship_folder
+	cruiser_folder
+	capitalship_folder
+	carrier_folder
+	transports_folder
+	advanced_submarine_folder
+	advanced_ship_folder
+	training_doctrine_folder
+	strategic_doctrine_folder
+	special_forces_doctrine_folder
+	advanced_land_doctrine_folder
+	naval_doctrine_folder
+	air_doctrine_folder
+	tactical_doctrine_folder
+	advanced_naval_and_air_doctrine_folder
+	command_structure_folder
+	division_increase_folder
+	division_decrease_folder
+} 

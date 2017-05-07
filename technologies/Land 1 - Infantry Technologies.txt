@@ -1,0 +1,10278 @@
+# Infantry Technologies
+##########################################################################################
+## BOLT ACTION RIFLES
+##########################################################################################
+rifle_prototype = {
+	
+	allow = {
+		OR = {
+			AND = {
+				NOT = { rifle_prototype  = 2 }
+				land_battles_fought = 100		
+				electro_mechanical_engineering = 1	
+			}
+			AND = {
+				NOT = { rifle_prototype  = 2 }
+				trench_warfare_experience = 1	
+				electro_mechanical_engineering = 10	
+			}
+			AND = {
+				NOT = { rifle_prototype  = 3 }
+				trench_warfare_experience = 1	
+				electro_mechanical_engineering = 13
+				land_battles_fought = 100
+				japan = 1
+				war = yes			
+			}
+			AND = {
+				NOT = { rifle_prototype  = 3 }
+				trench_warfare_experience = 1	
+				electro_mechanical_engineering = 13
+				NOT = { japan = 1 }
+				land_battles_fought = 300
+				war = yes			
+			}
+		}
+	}
+	
+	change = yes
+	
+	tactic_basic_attack = 1
+    tactic_basic_defend = 1
+	
+			
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1900 # Level 1 - Model 1 
+	first_offset = 1936 # Level 2 - Model 2
+	additional_offset = 3 # Model 2 thru 5
+	max_level = 3
+	folder = infantry_folder
+}
+##########################################################################################
+## SEMI-AUTOMATIC RIFLES
+##########################################################################################
+carbine_prototype = {
+	
+	allow = {
+		OR = {
+			AND = {
+				NOT = { carbine_prototype = 1 }	# 1917
+				france = 1
+				united_states = 1
+				trench_warfare_experience = 1
+				electro_mechanical_engineering = 1		
+			}
+			AND = {
+				NOT = { carbine_prototype = 1 }	# 1917
+				soviet_union = 1
+				rifle_prototype = 1
+				trench_warfare_experience = 1	
+				infantry_assault_theory = 1
+				electro_mechanical_engineering = 1	
+			}
+			AND = {
+				NOT = { carbine_prototype = 1 }	# 1917
+				NOT = { france = 1 }
+				NOT = { united_states = 1 }
+				land_battles_fought = 100
+				trench_warfare_experience = 1	
+				infantry_assault_theory = 1
+				electro_mechanical_engineering = 1	
+			}
+			AND = {
+				NOT = { carbine_prototype = 2 } # 1935
+				trench_warfare_experience = 1
+				infantry_assault_theory = 1				
+				electro_mechanical_engineering = 9
+			}
+			AND = {
+				NOT = { carbine_prototype  = 3 } # 1937
+				trench_warfare_experience = 1
+				infantry_assault_theory = 1		
+				electro_mechanical_engineering = 11		
+			}
+			AND = {
+				NOT = { carbine_prototype  = 4 } # 1939
+				trench_warfare_experience = 1
+				infantry_assault_theory = 1		
+				electro_mechanical_engineering = 13
+				war = yes			
+			}
+			AND = {
+				NOT = { carbine_prototype  = 5 } # 1941
+				trench_warfare_experience = 1
+				infantry_assault_theory = 1		
+				electro_mechanical_engineering = 15
+				war = yes			
+			}
+			AND = {
+				NOT = { carbine_prototype  = 6 } # 1943
+				trench_warfare_experience = 1
+				infantry_assault_theory = 1	
+				electro_mechanical_engineering = 17
+				war = yes			
+			}
+			AND = {
+				NOT = { carbine_prototype  = 7 } # 1945
+				trench_warfare_experience = 1
+				infantry_assault_theory = 1	
+				electro_mechanical_engineering = 19
+				war = yes			
+			}
+		}
+	}
+	
+	change = yes
+		
+	tactic_assault = 1	
+	
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 7
+	folder = infantry_folder
+}
+##########################################################################################
+## SUBMACHINEGUNS PROTOTYPES
+##########################################################################################
+submachineguns_prototype = {
+	
+	allow = {
+		OR = {
+			AND = {
+				NOT = { submachineguns_prototype  = 1 }
+				land_battles_fought = 150		
+				electro_mechanical_engineering = 12	
+			}
+			AND = {
+				NOT = { submachineguns_prototype  = 1 }
+				infantry_assault_theory = 1		
+				stormtrooper_tactics = 1
+				electro_mechanical_engineering = 12
+			}
+			AND = {
+				NOT = { submachineguns_prototype  = 1 }
+				soviet_union = 1	
+				stormtrooper_tactics = 1	
+				electro_mechanical_engineering = 8
+			}
+			AND = {
+				NOT = { submachineguns_prototype  = 2 }
+				electro_mechanical_engineering = 12			
+			}
+			AND = {
+				NOT = { submachineguns_prototype  = 3 }
+				electro_mechanical_engineering = 13	
+				war = yes		
+			}
+			AND = {
+				NOT = { submachineguns_prototype  = 4 }
+				electro_mechanical_engineering = 14
+				war = yes		
+			}
+			AND = {
+				NOT = { submachineguns_prototype  = 5 }
+				electro_mechanical_engineering = 15
+				war = yes		
+			}
+			AND = {
+				NOT = { submachineguns_prototype  = 6 }
+				electro_mechanical_engineering = 16
+				war = yes		
+			}
+			AND = {
+				NOT = { submachineguns_prototype  = 7 }
+				electro_mechanical_engineering = 17
+				war = yes		
+			}
+		}
+	}
+	
+	change = yes
+	
+	tactic_assault = 2
+		
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 7
+	
+	start_year = 1934 # Model 0
+	first_offset = 1938 # Model 1
+	additional_offset = 1 # Model 2 thru 5
+	max_level = 7
+	folder = infantry_folder
+}
+##########################################################################################
+## ASSAULT RIFLES PROTOTYPE
+##########################################################################################
+assault_rifles_prototype = {
+	
+	allow = {
+		small_arms_manufacturing = 7
+		OR = {
+			AND = {
+				NOT = { assault_rifles_prototype  = 1 }
+				land_battles_fought = 1000			
+				electro_mechanical_engineering = 18	
+			}
+			AND = {
+				NOT = { assault_rifles_prototype  = 1 }
+				mechanized_assault_tactics = 1
+				land_battles_fought = 500	
+				electro_mechanical_engineering = 18	
+			}
+			AND = {
+				NOT = { assault_rifles_prototype  = 2 }
+				electro_mechanical_engineering = 19
+						
+			}
+			AND = {
+				NOT = { assault_rifles_prototype  = 3 }
+				electro_mechanical_engineering = 21
+						
+			}
+		}
+	}
+	
+	change = yes
+	
+	tactic_assault = 3
+
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 9
+	
+	start_year = 1944 # Model 1 
+	first_offset = 1945 # Model 2
+	additional_offset = 2 # Model 3 thru 5
+	max_level = 3
+	folder = infantry_folder
+}
+##########################################################################################
+## SEMI-AUTOMATIC RIFLE DISTRIBUTION
+##########################################################################################
+semi_automatic_rifle_distribution = {
+	
+	allow = {
+		carbine_prototype = 1
+		OR = {
+			AND = {
+				NOT = { semi_automatic_rifle_distribution = 1 }	# 1917
+				small_arms_manufacturing = 1	
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution = 2 } # 1935
+				small_arms_manufacturing = 4
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution  = 3 } # 1937
+				small_arms_manufacturing = 6	
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution  = 4 } # 1939
+				small_arms_manufacturing = 8	
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution  = 5 } # 1941
+				small_arms_manufacturing = 10		
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution  = 6 } # 1943
+				small_arms_manufacturing = 12		
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution  = 7 } # 1945
+				small_arms_manufacturing = 14
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution  = 8 } # 1947
+				small_arms_manufacturing = 16
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution  = 9 } # 1949
+				small_arms_manufacturing = 18
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution  = 10 } # 1951
+				small_arms_manufacturing = 20
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution  = 11 } # 1945
+				small_arms_manufacturing = 22
+			}
+			AND = {
+				NOT = { semi_automatic_rifle_distribution  = 12 } # 1947
+				small_arms_manufacturing = 24
+			}
+		}
+	}
+	
+	change = yes
+	
+	infantry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	cavalry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	motorized_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	semi_motorized_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	afrika_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	anzac_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+	goering_brigade = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+		
+	grossdeutschland_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+		
+	guard_infantry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	guard_cavalry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	guard_motorized_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	Gurkha_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	imperial_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	naval_infantry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+	ss_cavalry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_dasreich = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_frundsberg = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_hitlerjugend = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_hohenstaufen = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_infantry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_lssah = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_motorized_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+	ss_totenkopf = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_wiking = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+########################################
+
+	infantry_bat = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	motorized_infantry_bat = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	guard_motorized_infantry_bat = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_infantry_bat = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}		
+	ss_motorized_infantry_bat = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}	
+
+########################################
+	
+	militia_brigade = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}	
+	fascist_militia_brigade = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}	
+	SA_militia_brigade = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}	
+	Communist_militia_brigade = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}	
+	garrison_brigade = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}	
+	garrison_detachment = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}	
+	ss_garrison_brigade = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}	
+	
+	HQDEF_brigade = { 
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+	##############################################
+	# SPECIAL FORCES
+	##############################################
+	light_infantry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	elite_light_infantry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+		
+	}
+	elite_light_infantry_battalion = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	airlanding_infantry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	bergsjaeger_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_bergsjaeger_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ski_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_ski_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	marine_brigade = {	
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	paratrooper_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_paratrooper_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01		
+	}
+	guard_paratrooper_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+				
+	ss_prinz_eugen = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+	commando_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_commando_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+	##########################################################
+	### Mechanized Units
+	##########################################################
+	
+	mechanized_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	mechanized_infantry_bat = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+	goering_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+		
+	ss_mechanized_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_mechanized_infantry_bat = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+	guard_mechanized_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	guard_mechanized_infantry_bat = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+	Recon_cavalry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	ss_Recon_cavalry_brigade = {
+		toughness = 0.10
+		default_organisation = -0.10
+		soft_attack = 0.15
+		defensiveness = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		supply_consumption = 0.01
+	}
+	
+	
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1918
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12
+	folder = infantry_folder
+}
+##########################################################################################
+## SubMachinegun Distribution
+##########################################################################################
+submachinegun_distribution = {
+	
+	allow = {
+		submachineguns_prototype = 1
+		OR = { 
+			AND = {
+				NOT = { submachinegun_distribution = 1 } # 1938
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 2 } # 1939
+				small_arms_manufacturing = 8
+				
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 3 } # 1941
+				small_arms_manufacturing = 10
+				
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 4 } # 1943
+				small_arms_manufacturing = 12
+				
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 5 } # 1945
+				small_arms_manufacturing = 14
+				
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 6 } # 1947
+				small_arms_manufacturing = 16
+				
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 7 } # 1949
+				small_arms_manufacturing = 18
+									
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 8 } # 1951
+				small_arms_manufacturing = 20
+									
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 9 } # 1953
+				small_arms_manufacturing = 22
+									
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 10 } # 1955
+				small_arms_manufacturing = 24
+									
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 11 } # 1957
+				small_arms_manufacturing = 26
+									
+			}
+			AND = {
+				NOT = { submachinegun_distribution = 12 } # 1959
+				small_arms_manufacturing = 28
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	infantry_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	motorized_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	semi_motorized_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	Recon_cavalry_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	afrika_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	anzac_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	cavalry_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	engineer_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	motorized_engineer_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	grossdeutschland_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	guard_cavalry_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	guard_infantry_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	guard_motorized_brigade = {  ###
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	Gurkha_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	imperial_brigade = {  ###
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	motorcycle_recon_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	naval_infantry_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	ss_cavalry_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_dasreich = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	ss_engineer_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	ss_motorized_engineer_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	ss_florian_geyer = {  ###
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_frundsberg = { ###
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_hitlerjugend = { ###
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_hohenstaufen = { ### 
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_infantry_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_lssah = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_motorized_brigade = {  ###
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_motorcycle_recon_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_prinz_eugen = { ###
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_Recon_cavalry_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_totenkopf = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_wiking = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+		
+	
+############################################
+
+	infantry_bat = { 
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	motorized_infantry_bat = { 
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	guard_motorized_infantry_bat = { 
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_infantry_bat = { 
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}	
+	ss_motorized_infantry_bat = { 
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+############################################
+####  Artillery and other static units get Submachineguns for defense of their positions
+
+
+	artillery_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	medium_artillery_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	ss_artillery_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	anti_tank_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	heavy_anti_tank_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	ss_anti_tank_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	ss_heavy_anti_tank_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+		
+	anti_air_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	heavy_anti_air_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	ss_anti_air_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	ss_heavy_anti_air_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+		
+	mixed_support_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	ss_mixed_support_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	
+	
+	HQDEF_brigade = { 
+		defensiveness = 0.30
+		build_cost_ic = 0.05
+		supply_consumption = 0.02
+	}
+	
+	
+	
+	on_completion = infantry_practical
+	
+	difficulty = 6
+	
+	start_year = 1938 # Model 0
+	first_offset = 1939 # Model 1
+	additional_offset = 2 # Model 2 thru 5
+	max_level = 12
+	folder = infantry_folder
+}
+##########################################################################################
+## Assault Rifle Distribution
+##########################################################################################
+assault_rifle_distribution = {
+	
+	allow = {
+		assault_rifles_prototype = 1
+		OR = { 
+			AND = {
+				NOT = { assault_rifle_distribution = 1 } # 1944
+				small_arms_manufacturing = 13
+				
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 2 } # 1945
+				small_arms_manufacturing = 14
+				
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 3 } # 1947
+				small_arms_manufacturing = 16
+				
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 4 } # 1949
+				small_arms_manufacturing = 18
+									
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 5 } # 1951
+				small_arms_manufacturing = 20
+									
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 6 } # 1953
+				small_arms_manufacturing = 22
+									
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 7 } # 1955
+				small_arms_manufacturing = 24
+									
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 8 } # 1957
+				small_arms_manufacturing = 26
+									
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 9 } # 1959
+				small_arms_manufacturing = 28
+									
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 10 } # 1961
+				small_arms_manufacturing = 30
+									
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 11 } # 1963
+				small_arms_manufacturing = 32
+									
+			}
+			AND = {
+				NOT = { assault_rifle_distribution = 12 } # 1965
+				small_arms_manufacturing = 34
+									
+			}
+		}			
+	}
+	
+	change = yes
+	
+	infantry_brigade = {			
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	motorized_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	semi_motorized_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	Recon_cavalry_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	afrika_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	anzac_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	cavalry_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	engineer_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	motorized_engineer_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	goering_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	grossdeutschland_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	guard_cavalry_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	guard_infantry_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	guard_motorized_brigade = {  ###
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	Gurkha_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	imperial_brigade = {  ###
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	lehr_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	motorcycle_recon_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	naval_infantry_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_mechanized_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_cavalry_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_dasreich = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	ss_engineer_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	ss_motorized_engineer_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	ss_florian_geyer = {  ###
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_frundsberg = { ###
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_hitlerjugend = { ###
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_hohenstaufen = { ### 
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_infantry_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_lssah = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_motorized_brigade = {  ###
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_motorcycle_recon_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_prinz_eugen = { ###
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_Recon_cavalry_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_totenkopf = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_wiking = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+
+	
+########################################
+
+	infantry_bat = { 
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	motorized_infantry_bat = { 
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	guard_motorized_infantry_bat = { 
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_infantry_bat = { 
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}	
+	ss_motorized_infantry_bat = { 
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.07
+		build_time = 4
+		supply_consumption = 0.02
+	}	
+	
+	on_completion = infantry_practical
+	
+	difficulty = 7
+	
+	start_year = 1944 # Model 1
+	first_offset = 1945 # Model 2
+	additional_offset = 2 # Model 3 thru 
+	max_level = 12
+	folder = infantry_folder
+}
+##########################################################################################
+## Light Machine Gun Distribution
+##########################################################################################
+lmg_distribution = {
+	
+	allow = {
+		lmg_prototype = 1	
+		OR = { 
+			AND = {
+				NOT = { lmg_distribution = 1 } # 1935
+				small_arms_manufacturing = 4
+				
+			}
+			AND = {
+				NOT = { lmg_distribution = 2 } # 1937
+				small_arms_manufacturing = 6
+				
+			}
+			AND = {
+				NOT = { lmg_distribution = 3 } # 1939
+				small_arms_manufacturing = 8
+				
+			}
+			AND = {
+				NOT = { lmg_distribution = 4 } # 1941
+				small_arms_manufacturing = 10
+									
+			}
+			AND = {
+				NOT = { lmg_distribution = 5 } # 1943
+				small_arms_manufacturing = 12
+									
+			}
+			AND = {
+				NOT = { lmg_distribution = 6 } # 1945
+				small_arms_manufacturing = 14
+									
+			}
+			AND = {
+				NOT = { lmg_distribution = 7 } # 1947
+				small_arms_manufacturing = 16
+									
+			}
+			AND = {
+				NOT = { lmg_distribution = 8 } # 1949
+				small_arms_manufacturing = 18
+									
+			}
+			AND = {
+				NOT = { lmg_distribution = 9 } # 1951
+				small_arms_manufacturing = 20
+									
+			}
+			AND = {
+				NOT = { lmg_distribution = 10 } # 1953
+				small_arms_manufacturing = 22
+									
+			}
+			AND = {
+				NOT = { lmg_distribution = 11 } # 1955
+				small_arms_manufacturing = 24
+									
+			}
+			AND = {
+				NOT = { lmg_distribution = 12 } # 1957
+				small_arms_manufacturing = 26
+									
+			}
+		}		
+	}
+	
+	change = yes
+	
+	infantry_brigade = {			# x50 LMG's
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	motorized_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	semi_motorized_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	Recon_cavalry_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	afrika_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	anzac_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	cavalry_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	
+	goering_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	grossdeutschland_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	guard_cavalry_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	
+	guard_infantry_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	guard_motorized_brigade = {  ###
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	Gurkha_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	imperial_brigade = {  ###
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	
+	motorcycle_recon_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	naval_infantry_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_cavalry_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_dasreich = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	
+	ss_florian_geyer = {  ###
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_frundsberg = { ###
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_hitlerjugend = { ###
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_hohenstaufen = { ### 
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_infantry_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_lssah = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_motorized_brigade = {  ###
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_motorcycle_recon_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_prinz_eugen = { ###
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_Recon_cavalry_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_totenkopf = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_wiking = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	
+	
+#########################################
+
+	infantry_bat = { 
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	motorized_infantry_bat = { 
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}	
+	guard_motorized_infantry_bat = { 
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}
+	ss_infantry_bat = { 
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}	
+	ss_motorized_infantry_bat = { 
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.07
+		build_time = 3
+		supply_consumption = 0.03
+		maximum_speed = -0.03
+	}	
+
+		
+	on_completion = infantry_practical
+	
+	difficulty = 6
+	
+	start_year = 1935
+	first_offset = 1937 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 12
+	folder = infantry_folder
+}
+##########################################################################################
+## Light Machine Gun Prototype
+##########################################################################################
+lmg_prototype = { # Light Machine Gun Prototype
+	
+	allow = {
+		OR = {
+			AND = {
+				NOT = { lmg_prototype  = 1 }
+				land_battles_fought = 200
+				infantry_assault_theory = 1					
+				electro_mechanical_engineering = 8		
+			}
+			AND = {
+				NOT = { lmg_prototype  = 1 }
+				germany = 1
+				infantry_assault_theory = 1	
+				electro_mechanical_engineering = 8
+			}
+			AND = {
+				NOT = { lmg_prototype  = 1 }
+				france = 1
+				trench_warfare_experience = 1
+				electro_mechanical_engineering = 1
+			}
+			AND = {
+				NOT = { lmg_prototype  = 1 }
+				soviet_union = 1
+				trench_warfare_experience = 1
+				electro_mechanical_engineering = 2
+			}
+			AND = {
+				NOT = { lmg_prototype  = 2 }
+				electro_mechanical_engineering = 11
+				infantry_assault_theory = 1	
+					
+			}
+			AND = {
+				NOT = { lmg_prototype  = 3 }
+				electro_mechanical_engineering = 13
+				infantry_assault_theory = 1	
+				war = yes		
+			}
+			AND = {
+				NOT = { lmg_prototype  = 4 }
+				electro_mechanical_engineering = 15
+				infantry_assault_theory = 1	
+				war = yes		
+			}
+			AND = {
+				NOT = { lmg_prototype  = 5 }
+				electro_mechanical_engineering = 17
+				infantry_assault_theory = 1	
+				war = yes		
+			}
+			AND = {
+				NOT = { lmg_prototype  = 6 }
+				electro_mechanical_engineering = 19
+				infantry_assault_theory = 1	
+				war = yes		
+			}
+		}
+	}
+	
+	change = yes
+		
+	tactic_delay = 1	
+
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 6
+	
+	start_year = 1934
+	first_offset = 1937 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 6 # 1945
+	folder = infantry_folder
+}
+##########################################################################################
+## Heavy Machine Gun Prototype
+##########################################################################################
+hmg_prototype = { # Heavy Machine Gun
+	
+	allow = {
+		small_arms_manufacturing = 1		
+		OR = {
+			AND = {
+				NOT = { hmg_prototype  = 1 }
+				trench_warfare_experience = 1	
+				electro_mechanical_engineering = 1		
+			}
+			AND = {
+				NOT = { hmg_prototype  = 2 }
+				trench_warfare_experience = 1
+				electro_mechanical_engineering = 14
+				war = yes
+				land_battles_fought = 100
+			}
+			AND = {
+				NOT = { hmg_prototype  = 3 }
+				trench_warfare_experience = 1
+				electro_mechanical_engineering = 16
+				war = yes		
+				land_battles_fought = 500
+			}
+		}
+	}
+	
+	change = yes
+
+    tactic_slower_delay = 2
+				
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 6
+	
+	start_year = 1912 # Model 0
+	first_offset = 1940 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 3
+	folder = infantry_folder
+}
+##########################################################################################
+## Mortar Prototype
+##########################################################################################
+mortar_prototype = { 
+	
+	allow = {
+		small_arms_manufacturing = 1
+		OR = {
+			AND = {
+				NOT = { mortar_prototype  = 1 }
+				artillery_barrage = 1	
+				electro_mechanical_engineering = 8		
+			}
+			AND = {
+				NOT = { mortar_prototype  = 2 }
+				artillery_barrage = 1
+				electro_mechanical_engineering = 12
+				war = yes		
+				land_battles_fought = 100
+			}
+			AND = {
+				NOT = { mortar_prototype  = 2 }
+				artillery_barrage = 1
+				electro_mechanical_engineering = 12
+				combined_arms_theory = 1
+			}
+			AND = {
+				NOT = { mortar_prototype  = 3 }
+				artillery_barrage = 1
+				electro_mechanical_engineering = 14
+				war = yes		
+				land_battles_fought = 300
+			}
+			AND = {
+				NOT = { mortar_prototype  = 4 }
+				artillery_barrage = 1
+				electro_mechanical_engineering = 16
+				war = yes		
+				land_battles_fought = 500
+			}
+		}
+	}
+	
+	change = yes
+	
+	combat_efficiency = 0.02
+							
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 6
+	
+	start_year = 1934 # Model 0
+	first_offset = 1938 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 4 # 1942
+	folder = infantry_folder
+}
+##########################################################################################
+## AT Rifle Prototype
+##########################################################################################
+anti_tank_rifle_prototype = { 
+	
+	allow = {
+		OR = {
+			AND = {
+				NOT = { anti_tank_rifle_prototype  = 1 }
+				land_battles_fought = 150
+				electro_mechanical_engineering = 13		
+			}
+			AND = {
+				NOT = { anti_tank_rifle_prototype  = 1 }
+				anti_tank_warfare = 1
+				electro_mechanical_engineering = 13
+			}
+			AND = {
+				NOT = { anti_tank_rifle_prototype  = 2 }
+				anti_tank_warfare = 1
+				electro_mechanical_engineering = 15
+				land_battles_fought = 200
+			}
+		}
+	}
+	
+	change = yes
+	
+	infantry_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	motorized_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	semi_motorized_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	afrika_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	anzac_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	
+	grossdeutschland_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+		
+	guard_infantry_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	guard_motorized_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	Gurkha_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	imperial_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	naval_infantry_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	
+	ss_dasreich = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_frundsberg = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_hitlerjugend = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_hohenstaufen = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_infantry_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_lssah = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_motorized_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	
+	ss_totenkopf = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_wiking = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	
+########################################
+
+	infantry_bat = { 
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	motorized_infantry_bat = { 
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	guard_motorized_infantry_bat = { 
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_infantry_bat = { 
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}		
+	ss_motorized_infantry_bat = { 
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}	
+
+########################################
+	
+	garrison_brigade = { 
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}	
+	garrison_detachment = { 
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}	
+	ss_garrison_brigade = { 
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}	
+		
+	##############################################
+	# SPECIAL FORCES
+	##############################################
+	light_infantry_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	
+	airlanding_infantry_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	bergsjaeger_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_bergsjaeger_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	marine_brigade = {	
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	paratrooper_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_paratrooper_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	guard_paratrooper_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+				
+	ss_prinz_eugen = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+		
+	##########################################################
+	### Mechanized Units
+	##########################################################
+	
+	mechanized_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	mechanized_infantry_bat = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+			
+	ss_mechanized_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	ss_mechanized_infantry_bat = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	
+	guard_mechanized_brigade = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	guard_mechanized_infantry_bat = {
+		build_cost_ic = 0.25
+		build_time = 2
+		ap_attack = 1
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+		
+	on_completion = infantry_theory
+	
+	difficulty = 6
+	
+	start_year = 1939 # Model 0
+	first_offset = 1941 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 2
+	folder = infantry_folder
+}
+##########################################################################################
+## Rocket AT Prototype
+##########################################################################################
+rocket_at_prototype = { 
+	
+	allow = {
+		small_arms_manufacturing = 1
+		OR = {
+			AND = {
+				NOT = { rocket_at_prototype  = 1 }
+				land_battles_fought = 800
+				anti_tank_warfare = 1
+				electro_mechanical_engineering = 17
+				infantry_anti_tank_tactics = 1
+			}
+			AND = {
+				NOT = { rocket_at_prototype  = 1 }
+				anti_tank_warfare = 1
+				electro_mechanical_engineering = 17
+				war = yes		
+				land_battles_fought = 500
+				infantry_anti_tank_tactics = 1
+			}
+			AND = {
+				NOT = { rocket_at_prototype  = 2 }
+				anti_tank_warfare = 1
+				infantry_armor_coordination = 6
+				electro_mechanical_engineering = 18
+				land_battles_fought = 600
+				infantry_anti_tank_tactics = 1
+			}
+			AND = {
+				NOT = { rocket_at_prototype  = 3 }
+				anti_tank_warfare = 1
+				infantry_armor_coordination = 6
+				electro_mechanical_engineering = 23
+				land_battles_fought = 800
+				infantry_anti_tank_tactics = 1
+			}
+		}
+	}
+	
+	change = yes
+
+	infantry_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	motorized_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	semi_motorized_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	afrika_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	anzac_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	
+	grossdeutschland_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+		
+	guard_infantry_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	guard_motorized_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	Gurkha_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	imperial_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	naval_infantry_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	
+	ss_dasreich = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_frundsberg = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_hitlerjugend = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_hohenstaufen = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_infantry_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_lssah = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_motorized_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	
+	ss_totenkopf = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_wiking = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	
+########################################
+
+	infantry_bat = { 
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	motorized_infantry_bat = { 
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	guard_motorized_infantry_bat = { 
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_infantry_bat = { 
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}		
+	ss_motorized_infantry_bat = { 
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}	
+
+########################################
+	
+	garrison_brigade = { 
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}	
+	garrison_detachment = { 
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}	
+	ss_garrison_brigade = { 
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}	
+		
+	##############################################
+	# SPECIAL FORCES
+	##############################################
+	light_infantry_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	
+	airlanding_infantry_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	bergsjaeger_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_bergsjaeger_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	marine_brigade = {	
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	paratrooper_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_paratrooper_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	guard_paratrooper_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+				
+	ss_prinz_eugen = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+		
+	##########################################################
+	### Mechanized Units
+	##########################################################
+	
+	mechanized_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	mechanized_infantry_bat = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+			
+	ss_mechanized_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	ss_mechanized_infantry_bat = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	
+	guard_mechanized_brigade = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}
+	guard_mechanized_infantry_bat = {
+		build_cost_ic = 1
+		build_time = 3
+		ap_attack = 3
+	}	
+	
+	research_bonus_from = {
+		rocket_science = 0.30
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 6
+	
+	start_year = 1943 # Model 0
+	first_offset = 1944 # Model 1
+	additional_offset = 5 # Model 2 thru 
+	max_level = 3
+	folder = infantry_folder
+}
+##########################################################################################
+## Flamethrower Prototype
+##########################################################################################
+flamethrower_prototype = { 
+	
+	allow = {
+		small_arms_manufacturing = 1
+		engineer_battalion = 1
+		electro_mechanical_engineering = 9
+		infantry_assault_theory = 1
+	}
+	
+	change = yes
+	
+	engineer_brigade = {
+		fort = {
+			attack = 0.20
+		}
+		urban = {
+			attack = 0.10
+		}
+	}
+	
+	motorized_engineer_brigade = {
+		fort = {
+			attack = 0.20
+		}
+		urban = {
+			attack = 0.10
+		}
+	}
+	
+	armored_engineers_brigade = {
+		fort = {
+			attack = 0.20
+		}
+		urban = {
+			attack = 0.10
+		}
+	}
+	ss_engineer_brigade = {
+		fort = {
+			attack = 0.20
+		}
+		urban = {
+			attack = 0.10
+		}
+	}
+	ss_motorized_engineer_brigade = {
+		fort = {
+			attack = 0.20
+		}
+		urban = {
+			attack = 0.10
+		}
+	}
+	ss_armored_engineers_brigade = {
+		fort = {
+			attack = 0.20
+		}
+		urban = {
+			attack = 0.10
+		}
+	}
+	
+	airborne_engineer_bat = {
+		fort = {
+			attack = 0.20
+		}
+		urban = {
+			attack = 0.10
+		}
+	}
+
+	research_bonus_from = {
+		rocket_science = 0.05
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 6
+	
+	start_year = 1935 # Model 0
+	folder = infantry_folder
+}
+##########################################################################################
+## SMALL HANDGUNS
+##########################################################################################
+small_handguns = {
+	
+	allow = {
+		electro_mechanical_engineering = 1	
+		world_war_one_warfare = 1
+	}
+	
+	change = yes
+	
+	combat_efficiency = 0.01	
+	
+			
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 2
+	
+	start_year = 1911 # Level 1 - Model 1
+	folder = infantry_folder
+}
+##########################################################################################
+## HANDGRENADES
+##########################################################################################
+handgrenades = {
+	
+	allow = {
+		electro_mechanical_engineering = 1	
+		world_war_one_warfare = 1
+	}
+	
+	change = yes
+	
+	combat_efficiency = 0.02	
+			
+	research_bonus_from = {
+		infantry_theory = 0.1
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 3
+	
+	start_year = 1915 # Level 1 - Model 1
+	folder = infantry_folder
+}
+##########################################################################################
+## Engineer Battalion
+##########################################################################################
+engineer_battalion = { 
+	
+	allow = {
+		small_arms_production = 1
+		world_war_one_warfare = 1
+		infantry_division_hq = 1
+		infiltration = 1
+		OR = { 
+			AND = {
+				NOT = { engineer_battalion = 1 } # 1918
+				small_arms_manufacturing = 1
+				
+			}
+			AND = {
+				NOT = { engineer_battalion = 2 } # 1935
+				small_arms_manufacturing = 4
+				
+			}
+			AND = {
+				NOT = { engineer_battalion = 3 } # 1937
+				small_arms_manufacturing = 6
+				
+			}
+			AND = {
+				NOT = { engineer_battalion = 4 } # 1939
+				small_arms_manufacturing = 8
+				
+			}
+			AND = {
+				NOT = { engineer_battalion = 5 } # 1941
+				small_arms_manufacturing = 10
+				
+			}
+			AND = {
+				NOT = { engineer_battalion = 6 } # 1943
+				small_arms_manufacturing = 12
+				
+			}
+			AND = {
+				NOT = { engineer_battalion = 7 } # 1945
+				small_arms_manufacturing = 16
+									
+			}
+			AND = {
+				NOT = { engineer_battalion = 8 } # 1947
+				small_arms_manufacturing = 18
+									
+			}
+			AND = {
+				NOT = { engineer_battalion = 9 } # 1949
+				small_arms_manufacturing = 20
+									
+			}
+			AND = {
+				NOT = { engineer_battalion = 10 } # 1951
+				small_arms_manufacturing = 22
+									
+			}
+			AND = {
+				NOT = { engineer_battalion = 11 } # 1953
+				small_arms_manufacturing = 24
+									
+			}
+			AND = {
+				NOT = { engineer_battalion = 12 } # 1955
+				small_arms_manufacturing = 26
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	activate_unit = engineer_brigade
+		
+	engineer_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.15
+		defensiveness = 0.45
+		build_cost_ic = 0.02
+		supply_consumption = 0.05
+	}
+	ss_engineer_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.15
+		defensiveness = 0.45
+		build_cost_ic = 0.02
+		supply_consumption = 0.05
+	}
+	
+	motorized_engineer_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.15
+		defensiveness = 0.45
+		build_cost_ic = 0.02
+		supply_consumption = 0.05
+	}
+	
+	ss_motorized_engineer_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.15
+		defensiveness = 0.45
+		build_cost_ic = 0.02
+		supply_consumption = 0.05
+	}
+	
+	armored_engineers_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.15
+		defensiveness = 0.45
+		build_cost_ic = 0.02
+		supply_consumption = 0.05
+	}
+	ss_armored_engineers_brigade = {
+		default_organisation = -0.25
+		soft_attack = 0.15
+		defensiveness = 0.45
+		build_cost_ic = 0.02
+		supply_consumption = 0.05
+	}
+	
+	airborne_engineer_bat = {
+		default_organisation = -0.25
+		soft_attack = 0.15
+		defensiveness = 0.45
+		build_cost_ic = 0.02
+		supply_consumption = 0.05
+	}
+
+	research_bonus_from = {
+		infantry_theory = 0.10
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 6
+	
+	start_year = 1918 # Model 0
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 12
+	folder = infantry_folder
+}
+##########################################################################################
+## Bridge Crossing Equipment
+##########################################################################################
+bridge_crossing_equipment = { 
+	
+	allow = {
+		engineer_battalion = 1
+		electro_mechanical_engineering = 10
+	}
+	
+	change = yes
+
+	engineer_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.20
+			movement = 0.20
+		}
+	}
+	
+	motorized_engineer_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.20
+			movement = 0.20
+		}
+	}
+	
+	ss_motorized_engineer_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.20
+			movement = 0.20
+		}
+	}
+	
+	armored_engineers_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.10
+			movement = 0.10
+		}
+	}
+	ss_engineer_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.20
+			movement = 0.20
+		}
+	}
+	ss_armored_engineers_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.10
+			movement = 0.10
+		}
+	}
+	
+	airborne_engineer_bat = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.20
+			movement = 0.20
+		}
+	}
+	
+	armor_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	light_armor_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	infantry_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	anzac_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	semi_motorized_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	motorized_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_motorized_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_totenkopf = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_lssah = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	grossdeutschland_brigade  = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	lehr_brigade  = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	afrika_brigade  = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	goering_brigade  = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_wiking = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_dasreich = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_frundsberg = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	
+	ss_hohenstaufen = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_hitlerjugend = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_polizei = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_mechanized_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	guard_mechanized_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	mechanized_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	combined_arms_brigade  = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	guard_motorized_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	guard_infantry_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_infantry_brigade = {
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}	
+	
+#######################################	
+	
+	infantry_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	motorized_infantry_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	mechanized_infantry_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	colonial_bergsjaeger_brigade = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	colonial_cavalry_brigade = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	colonial_garrison_brigade = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	colonial_infantry_brigade = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	colonial_light_infantry_brigade = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	colonial_militia_brigade = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	armor_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.01
+			movement = 0.10
+		}
+	}
+	light_armor_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.01
+			movement = 0.10
+		}
+	}
+	medium_tank_destroyer_brigade = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.01
+			movement = 0.10
+		}
+	}
+	guard_armor_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.01
+			movement = 0.10
+		}
+	}
+	guard_mechanized_infantry_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	guard_motorized_infantry_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}
+	ss_armor_brigade = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.01
+			movement = 0.10
+		}
+	}	
+	ss_armor_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.01
+			movement = 0.10
+		}
+	}	
+	ss_infantry_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}	
+	ss_mechanized_brigade = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}	
+	ss_mechanized_infantry_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}	
+	ss_motorized_infantry_bat = { 
+		supply_consumption = 0.10
+		toughness = -0.50
+		river = {
+			attack = 0.05
+			movement = 0.10
+		}
+	}	
+	
+	research_bonus_from = {
+		infantry_theory = 0.10
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 7
+	
+	start_year = 1936 # Model 0
+	first_offset = 1938 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 6
+	folder = infantry_folder
+}
+##########################################################################################
+## Anti-Personnel Mines
+##########################################################################################
+anti_personnel_mines = { 
+	
+	allow = {
+		engineer_battalion = 1
+		electro_mechanical_engineering = 10
+	}
+	
+	change = yes
+	
+	engineer_brigade = {
+		defensiveness = 1.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		marsh = { 
+			defence = 0.10 
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	
+	motorized_engineer_brigade = {
+		defensiveness = 1.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		marsh = { 
+			defence = 0.10 
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	
+	ss_motorized_engineer_brigade = {
+		defensiveness = 1.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		marsh = { 
+			defence = 0.10 
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	
+	armored_engineers_brigade = {
+		defensiveness = 1.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		marsh = { 
+			defence = 0.10 
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	ss_engineer_brigade = {
+		defensiveness = 1.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		marsh = { 
+			defence = 0.10 
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	ss_armored_engineers_brigade = {
+		defensiveness = 1.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		marsh = { 
+			defence = 0.10 
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 7
+	
+	start_year = 1936 # Model 0
+	first_offset = 1937 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 5
+	folder = infantry_folder
+}
+##########################################################################################
+## Anti-Tank Mines
+##########################################################################################
+anti_tank_mines = { 
+	
+	allow = {
+		engineer_battalion = 1
+		electro_mechanical_engineering = 10
+	}
+	
+	change = yes
+	
+	engineer_brigade = {
+		ap_attack = 3.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	
+	motorized_engineer_brigade = {
+		ap_attack = 3.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	
+	ss_motorized_engineer_brigade = {
+		ap_attack = 3.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	
+	armored_engineers_brigade = {
+		ap_attack = 3.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	ss_engineer_brigade = {
+		ap_attack = 3.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	ss_armored_engineers_brigade = {
+		ap_attack = 3.0
+		supply_consumption = 0.10
+		river = {
+			defence = 0.10
+		}
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		woods = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		fort = {
+			defence = 0.10
+		}
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 7
+	
+	start_year = 1936 # Model 0
+	first_offset = 1937 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 5
+	folder = infantry_folder
+}
+##########################################################################################
+## Demolitions
+##########################################################################################
+demolitions = { 
+	
+	allow = {
+		engineer_battalion = 1
+		electro_mechanical_engineering = 11
+	}
+	
+	change = yes
+	
+	engineer_brigade = {
+		supply_consumption = 0.12
+		fort = {
+			attack = 0.10   # Can blow up obstacles and fortifications
+		}
+		river = {
+			defence = 0.10  # Can blow bridges
+		}
+	}
+	
+	motorized_engineer_brigade = {
+		supply_consumption = 0.12
+		fort = {
+			attack = 0.10   # Can blow up obstacles and fortifications
+		}
+		river = {
+			defence = 0.10  # Can blow bridges
+		}
+	}
+	
+	ss_motorized_engineer_brigade = {
+		supply_consumption = 0.12
+		fort = {
+			attack = 0.10   # Can blow up obstacles and fortifications
+		}
+		river = {
+			defence = 0.10  # Can blow bridges
+		}
+	}
+	
+	armored_engineers_brigade = {
+		supply_consumption = 0.12
+		fort = {
+			attack = 0.10   # Can blow up obstacles and fortifications
+		}
+		river = {
+			defence = 0.10  # Can blow bridges
+		}
+	}
+	ss_engineer_brigade = {
+		supply_consumption = 0.12
+		fort = {
+			attack = 0.10   # Can blow up obstacles and fortifications
+		}
+		river = {
+			defence = 0.10  # Can blow bridges
+		}
+	}
+	ss_armored_engineers_brigade = {
+		supply_consumption = 0.12
+		fort = {
+			attack = 0.10   # Can blow up obstacles and fortifications
+		}
+		river = {
+			defence = 0.10  # Can blow bridges
+		}
+	}
+	
+	airborne_engineer_bat = {
+		supply_consumption = 0.12
+		fort = {
+			attack = 0.10   # Can blow up obstacles and fortifications
+		}
+		river = {
+			defence = 0.10  # Can blow bridges
+		}
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 8
+	
+	start_year = 1937 # Model 0
+	first_offset = 1939 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 5
+	folder = infantry_folder
+}
+##########################################################################################
+## Armored Engineers
+##########################################################################################
+armoured_engineers = { 
+	
+	allow = {
+		engineer_battalion = 1
+		infantry_tank_design = 2	
+	}
+	
+	change = yes
+	
+	activate_unit = armored_engineers_brigade
+	
+	armored_engineers_brigade = {
+		default_organisation = -0.25
+		armor_value = 0.25
+		ap_attack = 0.15
+		soft_attack = 0.30
+		hard_attack = 0.15
+		defensiveness = 0.60
+		build_cost_ic = 0.10
+		supply_consumption = 0.07
+		fuel_consumption = 0.05
+		river = {
+			attack = 0.03
+		}
+		plains = {
+			defence = 0.03
+		}
+		desert = {
+			defence = 0.03
+		}
+		woods = {
+			defence = 0.03
+		}
+		forest = {
+			defence = 0.03
+		}
+		hills = {
+			defence = 0.03
+		}
+		fort = {
+			attack = 0.03
+			defence = 0.03
+		}
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 7
+	
+	start_year = 1940 # Model 0
+	first_offset = 1941 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = infantry_folder
+}
+##########################################################################################
+## Bulldozer
+##########################################################################################
+bulldozer = { 
+	
+	allow = {
+		armoured_engineers = 1
+	}
+	
+	change = yes
+	
+	armored_engineers_brigade = {  #  Can build anti-tank ditches and trench lines much faster and easily
+		supply_consumption = 0.05
+		fuel_consumption = 0.10
+		river = {
+			defence = 0.15
+		}
+		plains = {
+			defence = 0.15
+		}
+		desert = {
+			defence = 0.15
+		}
+		woods = {
+			defence = 0.15
+		}
+		forest = {
+			defence = 0.15
+		}
+		hills = {
+			defence = 0.15
+		}
+		fort = {
+			defence = 0.15
+		}
+	}
+	ss_armored_engineers_brigade = {
+		supply_consumption = 0.05
+		fuel_consumption = 0.10
+		river = {
+			defence = 0.15
+		}
+		plains = {
+			defence = 0.15
+		}
+		desert = {
+			defence = 0.15
+		}
+		woods = {
+			defence = 0.15
+		}
+		forest = {
+			defence = 0.15
+		}
+		hills = {
+			defence = 0.15
+		}
+		fort = {
+			defence = 0.15
+		}
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 7
+	
+	start_year = 1941 # Model 0
+	folder = infantry_folder
+}
+##########################################################################################
+## Mine Clearing Tanks
+##########################################################################################
+mine_clearing_tanks = { 
+	
+	allow = {
+		armoured_engineers = 1
+	}
+	
+	change = yes
+	
+	armored_engineers_brigade = {
+		supply_consumption = 0.10
+		fuel_consumption = 0.05
+		plains = {
+			attack = 0.15
+		}
+		desert = {
+			attack = 0.15
+		}
+		woods = {
+			attack = 0.15
+		}
+		forest = {
+			attack = 0.15
+		}
+		hills = {
+			attack = 0.15
+		}
+		fort = {
+			attack = 0.15
+		}
+	}
+	ss_armored_engineers_brigade = {
+		supply_consumption = 0.10
+		fuel_consumption = 0.05
+		plains = {
+			attack = 0.15
+		}
+		desert = {
+			attack = 0.15
+		}
+		woods = {
+			attack = 0.15
+		}
+		forest = {
+			attack = 0.15
+		}
+		hills = {
+			attack = 0.15
+		}
+		fort = {
+			attack = 0.15
+		}
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 8
+	
+	start_year = 1942 # Model 0
+	folder = infantry_folder
+}
+##########################################################################################
+## Division Service Battalion
+##########################################################################################
+division_service_battalion = { 
+	
+	allow = {
+		infantry_division_hq = 1
+	}
+	
+	reinforce_chance = 0.01
+	maximum_attrition = -0.01
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1933 # Model 0
+	folder = infantry_folder
+}
+##########################################################################################
+## Division Maintenance Company
+##########################################################################################
+division_maintenance_company = { 
+	
+	allow = {
+		division_service_battalion = 1
+	}
+	
+	change = no
+
+	infantry_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	motorized_engineer_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_motorized_engineer_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	anzac_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	semi_motorized_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	motorized_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_motorized_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_totenkopf = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_lssah = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	grossdeutschland_brigade  = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	lehr_brigade  = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	afrika_brigade  = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	goering_brigade  = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_wiking = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_dasreich = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_frundsberg = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	ss_hohenstaufen = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_hitlerjugend = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_polizei = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_mechanized_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	guard_mechanized_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	mechanized_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	combined_arms_brigade  = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	guard_motorized_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	guard_infantry_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	mixed_support_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	ss_mixed_support_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	ss_infantry_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}	
+	
+	Recon_cavalry_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_Recon_cavalry_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	motorcycle_recon_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_motorcycle_recon_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+########################################
+
+	infantry_bat = { 
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	motorized_infantry_bat = { 
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	mechanized_infantry_bat = { 
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	guard_mechanized_infantry_bat = { 
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	guard_motorized_infantry_bat = { 
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_infantry_bat = { 
+		toughness = 0.50
+		supply_consumption = 0.05
+	}	
+	ss_mechanized_brigade = { 
+		toughness = 0.50
+		supply_consumption = 0.05
+	}	
+	ss_mechanized_infantry_bat = { 
+		toughness = 0.50
+		supply_consumption = 0.05
+	}	
+	ss_motorized_infantry_bat = { 
+		toughness = 0.50
+		supply_consumption = 0.05
+	}	
+		
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1933 # Model 0
+	first_offset = 1934 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = infantry_folder
+}
+##########################################################################################
+## Division Supply Company
+##########################################################################################
+division_supply_company = { 
+	
+	allow = {
+		division_service_battalion = 1
+	}
+	
+	change = no			
+	
+	
+	horse_transport = {
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+		
+	infantry_brigade = {
+		supply_consumption = -0.20
+		toughness = -0.35
+	}
+	
+	engineer_brigade = {
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+	ss_engineer_brigade = {
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+	
+	motorized_engineer_brigade = {
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+	ss_motorized_engineer_brigade = {
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+		
+	anzac_brigade = {
+		supply_consumption = -0.20 
+		toughness = -0.35
+	}
+	semi_motorized_brigade = {
+		supply_consumption = -0.10 
+		toughness = -0.35
+	}
+	motorized_brigade = {
+		supply_consumption = -0.10 
+		fuel_consumption = -0.20
+		toughness = -0.35
+	}
+	ss_motorized_brigade = {
+		supply_consumption = -0.10 
+		fuel_consumption = -0.20
+		toughness = -0.35
+	}
+	ss_totenkopf = {
+		supply_consumption = -0.10  
+		fuel_consumption = -0.20
+		toughness = -0.35
+	}
+	ss_lssah = {
+		supply_consumption = -0.10 
+		fuel_consumption = -0.20
+		toughness = -0.35
+	}
+	grossdeutschland_brigade  = {
+		supply_consumption = -0.10
+		fuel_consumption = -0.15
+		toughness = -0.35
+	}
+	afrika_brigade  = {
+		supply_consumption = -0.20 
+		fuel_consumption = -0.20	
+		toughness = -0.35		
+	}
+	
+	ss_wiking = {
+		supply_consumption = -0.10
+		fuel_consumption = -0.20	
+		toughness = -0.35		
+	}
+	ss_dasreich = {
+		supply_consumption = -0.10 
+		fuel_consumption = -0.20	
+		toughness = -0.35
+	}
+	ss_frundsberg = {
+		supply_consumption = -0.10 
+		fuel_consumption = -0.20	
+		toughness = -0.35
+	}
+	
+	ss_hohenstaufen = {
+		supply_consumption = -0.10
+		fuel_consumption = -0.20
+		toughness = -0.35		
+	}
+	ss_hitlerjugend = {
+		supply_consumption = -0.10
+		fuel_consumption = -0.20	
+		toughness = -0.35	
+	}
+	ss_polizei = {
+		supply_consumption = -0.10 
+		fuel_consumption = -0.20	
+		toughness = -0.35		
+	}
+	
+	guard_motorized_brigade = {
+		supply_consumption = -0.10 
+		fuel_consumption = -0.20
+		toughness = -0.35
+	}
+	guard_infantry_brigade = {
+		supply_consumption = -0.20
+		toughness = -0.35
+	}
+	ss_infantry_brigade = {
+		supply_consumption = -0.20
+		toughness = -0.35
+	}
+	
+	Recon_cavalry_brigade = {
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+	ss_Recon_cavalry_brigade = {
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+	
+	motorcycle_recon_brigade = {
+		supply_consumption = -0.03
+		toughness = -0.35
+	}
+	ss_motorcycle_recon_brigade = {
+		supply_consumption = -0.03
+		toughness = -0.35
+	}
+
+############################################	
+	
+	artillery_brigade = { 
+		supply_consumption = -0.10
+		toughness = -0.35
+	}
+	pack_artillery_brigade = { 
+		supply_consumption = -0.05
+		toughness = -0.35
+	}
+	anti_air_brigade = { 
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+	
+	heavy_anti_air_brigade = { 
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+	
+	anti_tank_brigade = { 
+		supply_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	heavy_anti_tank_brigade = { 
+		supply_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	airborne_artillery_brigade = { 
+		supply_consumption = -0.05 
+		toughness = -0.35
+	}
+	mixed_support_brigade = { 
+		supply_consumption = -0.10
+		toughness = -0.35
+	}
+			
+	rocket_artillery_brigade = { 
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+			
+	ss_artillery_brigade = { 
+		supply_consumption = -0.10
+		toughness = -0.35
+	}		
+	ss_mixed_support_brigade = { 
+		supply_consumption = -0.10
+		toughness = -0.35
+	}	
+	
+	ss_pack_artillery_brigade = { 
+		supply_consumption = -0.05
+		toughness = -0.35
+	}	
+	ss_rocket_artillery_brigade = { 
+		supply_consumption = -0.02
+		toughness = -0.35
+	}				
+	
+############################################
+
+	infantry_bat = { 
+		supply_consumption = -0.05
+		toughness = -0.35
+	}
+	motorized_infantry_bat = { 
+		supply_consumption = -0.05 
+		toughness = -0.35
+	}
+	garrison_detachment = { 
+		supply_consumption = -0.05 
+		toughness = -0.35
+	}
+	tropical_island_garrison_brigade = { 
+		supply_consumption = -0.05 
+		toughness = -0.35
+	}
+	colonial_bergsjaeger_brigade = { 
+		supply_consumption = -0.05 
+		toughness = -0.35
+	}
+	colonial_cavalry_brigade = { 
+		supply_consumption = -0.05
+		toughness = -0.35
+	}
+	colonial_garrison_brigade = { 
+		supply_consumption = -0.05 
+		toughness = -0.35
+	}
+	colonial_infantry_brigade = { 
+		supply_consumption = -0.05
+		toughness = -0.35
+	}
+	colonial_light_infantry_brigade = { 
+		supply_consumption = -0.05 
+		toughness = -0.35
+	}
+	colonial_militia_brigade = { 
+		supply_consumption = -0.01 
+		toughness = -0.35
+	}
+	
+	guard_motorized_infantry_bat = { 
+		supply_consumption = -0.05
+		toughness = -0.35
+	}
+	ss_infantry_bat = { 
+		supply_consumption = -0.05
+		toughness = -0.35
+	}	
+	
+	ss_motorized_infantry_bat = { 
+		supply_consumption = -0.05
+		fuel_consumption = -0.10
+		toughness = -0.35
+	}	
+	
+#######################################################
+###  Special Forces
+#######################################################
+
+	light_infantry_brigade = {
+		supply_consumption = -0.10
+		toughness = -0.35
+	}
+	airlanding_infantry_brigade = {
+		supply_consumption = -0.05
+		toughness = -0.35
+	}
+	bergsjaeger_brigade = {
+		supply_consumption = -0.10
+		toughness = -0.35
+	}
+	ss_bergsjaeger_brigade = {
+		supply_consumption = -0.10
+		toughness = -0.35
+	}
+	marine_brigade = {
+		supply_consumption = -0.15
+		toughness = -0.35
+	}
+	paratrooper_brigade = {
+		supply_consumption = -0.15
+		toughness = -0.35
+	}
+	ss_paratrooper_brigade = {
+		supply_consumption = -0.15
+		toughness = -0.35
+	}
+	guard_paratrooper_brigade = {
+		supply_consumption = -0.15
+		toughness = -0.35
+	}
+		
+	colonial_light_infantry_brigade = {
+		supply_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		supply_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	ss_prinz_eugen = {
+		supply_consumption = -0.10
+		toughness = -0.35
+	}
+	
+	airborne_engineer_bat = {
+		supply_consumption = -0.02
+		toughness = -0.35
+	}
+			
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1933 # Model 0
+	first_offset = 1934 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = infantry_folder
+}
+##########################################################################################
+## Division Medical Company
+##########################################################################################
+division_medical_company = { 
+	
+	allow = {
+		division_service_battalion = 1
+		
+	}
+	
+	change = no
+	
+	infantry_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	engineer_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_engineer_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	motorized_engineer_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_motorized_engineer_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+		
+	anzac_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	semi_motorized_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	motorized_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_motorized_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_totenkopf = {
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_lssah = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	grossdeutschland_brigade  = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	lehr_brigade  = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	afrika_brigade  = {
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	goering_brigade  = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_wiking = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_dasreich = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_frundsberg = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	ss_hohenstaufen = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_hitlerjugend = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_polizei = {
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_mechanized_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	guard_mechanized_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	mechanized_brigade = {
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	combined_arms_brigade  = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	guard_motorized_brigade = {
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	guard_infantry_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	mixed_support_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	ss_mixed_support_brigade = {
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	ss_infantry_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	Recon_cavalry_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_Recon_cavalry_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	motorcycle_recon_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_motorcycle_recon_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+############################################
+
+	artillery_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	anti_air_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	heavy_anti_air_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	anti_tank_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	heavy_anti_tank_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	airborne_artillery_brigade = { 
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	mixed_support_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	rocket_artillery_brigade = { 
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+			
+	ss_artillery_brigade = { 
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}		
+	ss_mixed_support_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}	
+	
+	ss_pack_artillery_brigade = { 
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}	
+	ss_rocket_artillery_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}				
+		
+############################################
+
+	infantry_bat = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	motorized_infantry_bat = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	mechanized_infantry_bat = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	garrison_detachment = { 
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	tropical_island_garrison_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	colonial_bergsjaeger_brigade = { 
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	colonial_cavalry_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	colonial_garrison_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	colonial_infantry_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	colonial_light_infantry_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	colonial_militia_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	guard_mechanized_infantry_bat = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	guard_motorized_infantry_bat = { 
+		default_morale = 0.01  
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_infantry_bat = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}	
+	ss_mechanized_brigade = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}	
+	ss_motorized_infantry_bat = { 
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}	
+	
+#######################################################
+###  Special Forces
+#######################################################
+
+	light_infantry_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	airlanding_infantry_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	bergsjaeger_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_bergsjaeger_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	marine_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	paratrooper_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	ss_paratrooper_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	guard_paratrooper_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+		
+	colonial_light_infantry_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+	
+	ss_prinz_eugen = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}	
+	
+	airborne_engineer_bat = {
+		default_morale = 0.01 
+		toughness = -0.25
+		supply_consumption = 0.02
+	}
+		
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1933 # Model 0
+	first_offset = 1934 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = infantry_folder
+}
+##########################################################################################
+## Division Signal Battalion
+##########################################################################################
+division_signal_battalion = { 
+	
+	allow = {
+		infantry_division_hq = 1
+		radio = 1
+	}
+	
+
+	reinforce_chance = 0.01
+		
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1936 # Model 0
+	folder = infantry_folder
+}
+##########################################################################################
+## Division Radio Company
+##########################################################################################
+division_radio_company = { 
+	
+	allow = {
+		division_signal_battalion = 1
+		short_range_radios = 1
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+	
+	encryption = -0.1	
+	
+	reinforce_chance = 0.01
+	
+	infantry_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	engineer_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_engineer_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	motorized_engineer_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_motorized_engineer_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	anzac_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0 
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	semi_motorized_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	motorized_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_motorized_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_totenkopf = {
+		radio_strength = 0.15
+		default_organisation = 3.0 
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_lssah = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	grossdeutschland_brigade  = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	lehr_brigade  = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	afrika_brigade  = {
+		radio_strength = 0.15
+		default_organisation = 3.0 
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	goering_brigade  = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_wiking = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_dasreich = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_frundsberg = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	ss_hohenstaufen = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_hitlerjugend = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_polizei = {
+		radio_strength = 0.15
+		default_organisation = 3.0  
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_mechanized_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	guard_mechanized_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0 
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	combined_arms_brigade  = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	guard_motorized_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	guard_infantry_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	mixed_support_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	ss_mixed_support_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0 
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1		
+	}
+	
+	ss_infantry_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	Recon_cavalry_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_Recon_cavalry_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	motorcycle_recon_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_motorcycle_recon_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+############################################
+
+	artillery_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	anti_air_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	heavy_anti_air_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	anti_tank_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	heavy_anti_tank_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	airborne_artillery_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0 
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	mixed_support_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	rocket_artillery_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0 
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+			
+	ss_artillery_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}		
+	ss_mixed_support_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}	
+	
+	ss_pack_artillery_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}	
+	ss_rocket_artillery_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}				
+		
+############################################
+
+	infantry_bat = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	motorized_infantry_bat = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	
+	garrison_detachment = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	tropical_island_garrison_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	colonial_bergsjaeger_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	colonial_cavalry_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	colonial_garrison_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1 
+	}
+	colonial_infantry_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	colonial_light_infantry_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	colonial_militia_brigade = { 
+		radio_strength = 0.15
+		default_organisation = 3.0 
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	guard_motorized_infantry_bat = { 
+		radio_strength = 0.15
+		default_organisation = 3.0 
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_infantry_bat = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}	
+	ss_motorized_infantry_bat = { 
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}	
+	
+#######################################################
+###  Special Forces
+#######################################################
+
+	light_infantry_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	airlanding_infantry_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	bergsjaeger_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_bergsjaeger_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	marine_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	paratrooper_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_paratrooper_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	guard_paratrooper_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+		
+	colonial_light_infantry_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	ss_prinz_eugen = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}	
+	
+	airborne_engineer_bat = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+			
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1936 # Model 0
+	first_offset = 1937 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = infantry_folder
+}
+##########################################################################################
+## Division Intel Company
+##########################################################################################
+division_intel_company = { 
+	
+	allow = {
+		division_signal_battalion = 1
+	}
+	
+	change = no
+		
+	infantry_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	engineer_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_engineer_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	motorized_engineer_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_motorized_engineer_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	anzac_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	semi_motorized_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	motorized_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	ss_motorized_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_totenkopf = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	ss_lssah = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	grossdeutschland_brigade  = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	lehr_brigade  = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	afrika_brigade  = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}    
+	}
+	goering_brigade  = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	ss_wiking = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_dasreich = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}   
+	}
+	ss_frundsberg = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+	ss_hohenstaufen = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	ss_hitlerjugend = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}   
+	}
+	ss_polizei = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	ss_mechanized_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}   
+	}
+	guard_mechanized_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	mechanized_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}   
+	}
+	guard_motorized_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	guard_infantry_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	mixed_support_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+	ss_mixed_support_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+	ss_infantry_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+	Recon_cavalry_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	ss_Recon_cavalry_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+	motorcycle_recon_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	ss_motorcycle_recon_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+############################################
+
+	artillery_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	anti_air_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+	heavy_anti_air_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+	anti_tank_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	heavy_anti_tank_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	airborne_artillery_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	mixed_support_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	rocket_artillery_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+			
+	ss_artillery_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}		
+	ss_mixed_support_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}	
+	
+		
+	ss_pack_artillery_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}	
+	ss_rocket_artillery_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}				
+		
+############################################
+
+	infantry_bat = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}   
+	}
+	motorized_infantry_bat = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}   
+	}
+	mechanized_infantry_bat = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	garrison_detachment = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}   
+	}
+	guard_mechanized_infantry_bat = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	guard_motorized_infantry_bat = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	ss_infantry_bat = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}   
+	}	
+	ss_mechanized_brigade = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}	
+	ss_mechanized_infantry_bat = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}	
+	ss_motorized_infantry_bat = { 
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+#######################################################
+###  Special Forces
+#######################################################
+
+	light_infantry_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	airlanding_infantry_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	bergsjaeger_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	ss_bergsjaeger_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	marine_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	paratrooper_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	ss_paratrooper_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	guard_paratrooper_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+		
+	colonial_light_infantry_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+	colonial_bergsjaeger_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+	ss_prinz_eugen = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}	
+	
+	airborne_engineer_bat = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		}  
+	}
+	
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 5
+	
+	start_year = 1936 # Model 0
+	first_offset = 1937 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = infantry_folder
+}
+##########################################################################################
+## Recon Battalion
+##########################################################################################
+recon_battalion = { 
+	
+	allow = {
+		OR = { 			
+			AND = {
+				NOT = { recon_battalion = 1 } # 1935
+				small_arms_manufacturing = 4
+				infantry_division_hq = 1
+			}
+			AND = {
+				NOT = { recon_battalion = 2 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { recon_battalion = 3 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { recon_battalion = 4 } # 1941
+				small_arms_manufacturing = 8
+				
+			}
+			AND = {
+				NOT = { recon_battalion = 5 } # 1943
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { recon_battalion = 6 } # 1945
+				small_arms_manufacturing = 11
+									
+			}
+			AND = {
+				NOT = { recon_battalion = 7 } # 1947
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { recon_battalion = 8 } # 1949
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { recon_battalion = 9 } # 1951
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { recon_battalion = 10 } # 1953
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { recon_battalion = 11 } # 1955
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { recon_battalion = 12 } # 1957
+				small_arms_manufacturing = 23
+									
+			}
+		}	
+	}
+	
+	change = yes
+
+	activate_unit = Recon_cavalry_brigade
+	
+	Recon_cavalry_brigade = {
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.10
+		hard_attack = 0.01
+		defensiveness = 0.15		
+		supply_consumption = 0.02
+		default_organisation = -0.25
+		ap_attack = 0.10
+	}
+	ss_Recon_cavalry_brigade = {
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.10
+		hard_attack = 0.01
+		defensiveness = 0.15		
+		supply_consumption = 0.02
+		default_organisation = -0.25
+		ap_attack = 0.10
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 4
+	
+	start_year = 1935 # Level 1 - Model 1 
+	first_offset = 1937 # Level 2 - Model 2
+	additional_offset = 2 # Model 2 thru 5
+	max_level = 12
+	folder = infantry_folder
+}
+##########################################################################################
+## Motorized Recon Battalion
+##########################################################################################
+motorized_recon_battalion = { 
+	
+	allow = {
+		OR = { 
+			AND = {
+				NOT = { motorized_recon_battalion = 1 } # 1937
+				small_arms_manufacturing = 6
+				recon_battalion = 1
+				light_motorized_transport = 1
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 5 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { motorized_recon_battalion = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}
+	}
+	
+	change = yes
+	
+	activate_unit = motorcycle_recon_brigade
+	
+	motorcycle_recon_brigade = {
+		build_cost_ic = 0.04
+		build_time = 1
+		soft_attack = 0.15
+		hard_attack = 0.01
+		defensiveness = 0.20		
+		supply_consumption = 0.02
+		fuel_consumption = 0.02
+		default_organisation = -0.25
+		ap_attack = 0.10
+	}
+	ss_motorcycle_recon_brigade = {
+		build_cost_ic = 0.04
+		build_time = 1
+		soft_attack = 0.15
+		hard_attack = 0.01
+		defensiveness = 0.20		
+		supply_consumption = 0.02
+		fuel_consumption = 0.02
+		default_organisation = -0.25
+		ap_attack = 0.10
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 4
+	
+	start_year = 1937 # Level 1 - Model 1 
+	first_offset = 1939 # Level 2 - Model 2
+	additional_offset = 2 # Model 2 thru 5
+	max_level = 12
+	folder = infantry_folder
+}
+##########################################################################################
+## Recon Heavy Weapons Company
+##########################################################################################
+recon_heavy_weapons_company = { 
+	
+	allow = {
+		OR = { 
+			AND = {
+				NOT = { recon_heavy_weapons_company = 1 } # 1937
+				small_arms_manufacturing = 6
+				recon_battalion = 1
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 5 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { recon_heavy_weapons_company = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}
+	}
+	
+	change = yes
+		
+	Recon_cavalry_brigade = {
+		defensiveness = 0.50 # x1 Company
+		build_cost_ic = 0.03
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		hard_attack = 0.10
+	}
+	ss_Recon_cavalry_brigade = {
+		defensiveness = 0.50 # x1 Company
+		build_cost_ic = 0.03
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		hard_attack = 0.10
+	}
+	
+	motorcycle_recon_brigade = {
+		defensiveness = 0.50 # x1 Company
+		build_cost_ic = 0.03
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		hard_attack = 0.10
+	}
+	ss_motorcycle_recon_brigade = {
+		defensiveness = 0.50 # x1 Company
+		build_cost_ic = 0.03
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		hard_attack = 0.10
+	}
+	
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+	}
+	
+	on_completion = infantry_theory
+	
+	difficulty = 4
+		
+	start_year = 1937 # Level 1 - Model 1
+	first_offset = 1939 # Level 2 - Model 2
+	additional_offset = 2 # Model 3 thru 
+	max_level = 12
+	folder = infantry_folder
+}

@@ -1,0 +1,12 @@
+division= {
+	name = "42. Jäger-Division"
+	location = 1861 # Berlin
+	regiment = { type = GER_A_XLII_jaeger name = "Stab 42. Jäger-Division" historical_model = 0 experience = 50 organisation = 1 }
+	regiment = { type = light_infantry_brigade name = "Jäger Regiment 25/40" historical_model = 3 experience = 50 organisation = 1 }
+}
+division= {
+	name = "114. Jäger-Division"
+	location = 1861 # Berlin
+	regiment = { type = GER_A_CXIV_jaeger name = "Stab 114. Jäger-Division" historical_model = 0 experience = 50 organisation = 1 }
+	regiment = { type = light_infantry_brigade name = "Jäger Regiment 721/741" historical_model = 3 experience = 50 organisation = 1 }
+}

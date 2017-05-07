@@ -1,0 +1,109 @@
+########################################################################################
+############# Hungarian Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Hungarian WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### FEG 35M (Mannlicher M1935) Bolt-Action Rifle
+##############################################################
+
+	country_event = {
+		id = 9106600
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = HUN
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106600"
+		desc = "EVTDESC9106600"
+		picture = "feg_thirty_five_m_bolt_action_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			feg_thirty_five_m_bolt_action_rifle_hidden = 6000
+			set_global_flag = feg_thirty_five_m_bolt_action_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 38M Toldi Light Tank
+##############################################################
+
+	country_event = {
+		id = 9106601
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = HUN
+			light_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106601"
+		desc = "EVTDESC9106601"
+		picture = "thirty_eight_m_toldi_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			thirty_eight_m_toldi_light_tank_hidden = 6000
+			set_global_flag = thirty_eight_m_toldi_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 40M Turan I/41M Turan II Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9106602
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = HUN
+			medium_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106602"
+		desc = "EVTDESC9106602"
+		picture = "fourty_m_turan_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			fourty_m_turan_light_tank_hidden = 6000
+			set_global_flag = fourty_m_turan_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+	

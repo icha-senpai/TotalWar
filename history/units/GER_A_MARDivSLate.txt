@@ -1,0 +1,42 @@
+division= {
+	name = "1. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_I name = "Stab 1. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 1/2" historical_model = 5 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 3/4" historical_model = 5 experience = 30 }
+}
+division= {
+	name = "2. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_II name = "Stab 2. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 5/6" historical_model = 5 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 7/8" historical_model = 5 experience = 30 }
+}
+division= {
+	name = "3. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_III name = "Stab 3. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 9/10" historical_model = 5 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 11/12" historical_model = 5 experience = 30 }
+}
+division= {
+	name = "8. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_VIII name = "Stab 8. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 13/14" historical_model = 5 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 15/16" historical_model = 5 experience = 30 }
+}
+division= {
+	name = "11. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_XI name = "Stab 11. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 17/18" historical_model = 5 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 19/20" historical_model = 5 experience = 30 }
+}
+division= {
+	name = "16. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_XVI name = "Stab 16. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 21/22" historical_model = 5 experience = 30 }
+	regiment = { type = naval_infantry_brigade name = "Marine-Regiment 23/24" historical_model = 5 experience = 30 }
+}

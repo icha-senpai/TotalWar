@@ -1,0 +1,13 @@
+division= {
+	name = "§Y22. Panzer-Division§W"
+	location = 2610 #Argenta
+	leader = 789 # von Apell W.
+	regiment = { type = GER_A_XXII_mPzD name = "Stab 22. Panzer-Division" historical_model = 0 experience = 30 organisation = 1 }
+	regiment = { type = captured_armor_brigade name = "Panzer Regiment 204" historical_model = 4 experience = 30 organisation = 1 }
+	regiment = { type = motorized_infantry_bat name = "Panzer Grenadier Regiment 129/140" historical_model = 4 experience = 30 organisation = 1 }
+	regiment = { type = sp_artillery_brigade name = "Panzer Artillerie Regiment 140" historical_model = 2 experience = 30 organisation = 1 }
+	regiment = { type = motorized_anti_tank_brigade name = "Panzerjäger Abteilung 150" historical_model = 4 experience = 30 organisation = 1 }
+	regiment = { type = armored_car_brigade name = "Panzer Aufklärungs Abteilung 140" historical_model = 4 experience = 30 organisation = 1 }
+	regiment = { type = armored_engineers_brigade name = "Panzer Pionier Abteilung 140" historical_model = 0 experience = 30 organisation = 1 }
+	regiment = { type = truck_transport name = "Gefechtstross 22. Panzer-Division" historical_model = 0 experience = 30 organisation = 1 }
+}

@@ -1,0 +1,720 @@
+########################################################################################
+############# Swedish Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Swedish WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### m/1894 Carbine
+##############################################################
+
+	country_event = {
+		id = 9106300
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106300"
+		desc = "EVTDESC9106300"
+		picture = "m_eighteen_ninety_four_carbine"
+		
+		option = {
+			name = "Put it Into Production."
+			m_eighteen_ninety_four_carbine_hidden = 6000
+			set_global_flag = m_eighteen_ninety_four_carbine
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### m/1896 Long Rifle
+##############################################################
+
+	country_event = {
+		id = 9106301
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106301"
+		desc = "EVTDESC9106301"
+		picture = "m_eighteen_ninety_six_long_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			m_eighteen_ninety_six_long_rifle_hidden = 6000
+			set_global_flag = m_eighteen_ninety_six_long_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### m/1938 Short Rifle
+##############################################################
+
+	country_event = {
+		id = 9106302
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			rifle_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106302"
+		desc = "EVTDESC9106302"
+		picture = "m_nineteen_thirty_eight_short_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_thirty_eight_short_rifle_hidden = 6000
+			set_global_flag = m_nineteen_thirty_eight_short_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### KG m/21-m37 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9106303
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			lmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106303"
+		desc = "EVTDESC9106303"
+		picture = "karl_gustav_m_twenty_one_light_machine_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			karl_gustav_m_twenty_one_light_machine_gun_hidden = 6000
+			set_global_flag = karl_gustav_m_twenty_one_light_machine_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### KG 84mm Recoilless Rifle
+##############################################################
+
+	country_event = {
+		id = 9106304
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			rocket_at_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106304"
+		desc = "EVTDESC9106304"
+		picture = "karl_gustav_eighty_four_mm_reccoilless_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			karl_gustav_eighty_four_mm_reccoilless_rifle_hidden = 6000
+			set_global_flag = karl_gustav_eighty_four_mm_reccoilless_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### KG m/42 Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9106305
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			carbine_prototype = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106305"
+		desc = "EVTDESC9106305"
+		picture = "karl_gustav_m_fourty_two_semi_automatic_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			karl_gustav_m_fourty_two_semi_automatic_rifle_hidden = 6000
+			set_global_flag = karl_gustav_m_fourty_two_semi_automatic_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### KG m/45 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9106306
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			submachineguns_prototype = 7
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106306"
+		desc = "EVTDESC9106306"
+		picture = "karl_gustav_m_fourty_five_smg"
+		
+		option = {
+			name = "Put it Into Production."
+			karl_gustav_m_fourty_five_smg_hidden = 6000
+			set_global_flag = karl_gustav_m_fourty_five_smg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### KG m/40 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9106307
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			lmg_prototype = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106307"
+		desc = "EVTDESC9106307"
+		picture = "kg_m_fourty_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			kg_m_fourty_lmg_hidden = 6000
+			set_global_flag = kg_m_fourty_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 37mm Bofors Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9106308
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			anti_tank_gun = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106308"
+		desc = "EVTDESC9106308"
+		picture = "bofors_thirty_seven_mm_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			bofors_thirty_seven_mm_at_gun_hidden = 6000
+			set_global_flag = bofors_thirty_seven_mm_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### 40mm Bofors Anti-Aircraft Gun
+##############################################################
+
+	country_event = {
+		id = 9106309
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			anti_aircraft_gun = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106309"
+		desc = "EVTDESC9106309"
+		picture = "bofors_fourty_mm_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			bofors_fourty_mm_aa_gun_hidden = 6000
+			set_global_flag = bofors_fourty_mm_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 105mm Kanon m/34 Heavy Field Gun
+##############################################################
+
+	country_event = {
+		id = 9106310
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			hvy_field_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106310"
+		desc = "EVTDESC9106310"
+		picture = "kanon_m_thirty_four_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			kanon_m_thirty_four_gun_hidden = 6000
+			set_global_flag = kanon_m_thirty_four_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Haubits m/40 105mm Howitzer Gun
+##############################################################
+
+	country_event = {
+		id = 9106311
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			med_field_artillery = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106311"
+		desc = "EVTDESC9106311"
+		picture = "haubits_m_fourty_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			haubits_m_fourty_howitzer_hidden = 6000
+			set_global_flag = haubits_m_fourty_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Stormartillerivagn m/43 SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9106312
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			sp_artillery_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106312"
+		desc = "EVTDESC9106312"
+		picture = "stormartillerivagn_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			stormartillerivagn_sp_artillery_hidden = 6000
+			set_global_flag = stormartillerivagn_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### L-62 Anti II SP Anti-Air
+##############################################################
+
+	country_event = {
+		id = 9106313
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			sp_anti_aircraft_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106313"
+		desc = "EVTDESC9106313"
+		picture = "l_sixty_two_sp_anti_air"
+		
+		option = {
+			name = "Put it Into Production."
+			l_sixty_two_sp_anti_air_hidden = 6000
+			set_global_flag = l_sixty_two_sp_anti_air
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Stridsvagn m/21 Light Tank
+##############################################################
+
+	country_event = {
+		id = 9106314
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			light_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106314"
+		desc = "EVTDESC9106314"
+		picture = "stridsvagn_m_twenty_one_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			stridsvagn_m_twenty_one_light_tank_hidden = 6000
+			set_global_flag = stridsvagn_m_twenty_one_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Stridsvagn L-60 Light Tank
+##############################################################
+
+	country_event = {
+		id = 9106315
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			light_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106315"
+		desc = "EVTDESC9106315"
+		picture = "stridsvagn_l_sixty_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			stridsvagn_l_sixty_light_tank_hidden = 6000
+			set_global_flag = stridsvagn_l_sixty_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Stridsvagn m/31 L-10 Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9106316
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			medium_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106316"
+		desc = "EVTDESC9106316"
+		picture = "stridsvagn_l_ten_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			stridsvagn_l_ten_medium_tank_hidden = 6000
+			set_global_flag = stridsvagn_l_ten_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Stridsvagn m/40 Light Tank
+##############################################################
+
+	country_event = {
+		id = 9106317
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			medium_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106317"
+		desc = "EVTDESC9106317"
+		picture = "stridsvagn_m_fourty_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			stridsvagn_m_fourty_light_tank_hidden = 6000
+			set_global_flag = stridsvagn_m_fourty_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Stridsvagn m/42 Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9106318
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			medium_tank_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106318"
+		desc = "EVTDESC9106318"
+		picture = "stridsvagn_m_fourty_two_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			stridsvagn_m_fourty_two_medium_tank_hidden = 6000
+			set_global_flag = stridsvagn_m_fourty_two_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Stridsvagn 104 Main Battle Tank (MBT)
+##############################################################
+
+	country_event = {
+		id = 9106319
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			main_battle_tank = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106319"
+		desc = "EVTDESC9106319"
+		picture = "stridsvagn_one_oh_four_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			stridsvagn_one_oh_four_mbt_hidden = 6000
+			set_global_flag = stridsvagn_one_oh_four_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Stridsvagn 74 Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9106320
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SWE
+			main_battle_tank = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106320"
+		desc = "EVTDESC9106320"
+		picture = "stridsvagn_seventy_four_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			stridsvagn_seventy_four_mbt_hidden = 6000
+			set_global_flag = stridsvagn_seventy_four_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}			

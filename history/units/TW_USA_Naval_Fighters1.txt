@@ -1,0 +1,12 @@
+military_construction = {
+	country = USA
+	
+	naval_fighter = { 
+		historical_model = 4
+	}
+			
+	cost = 6.00
+	duration = 90
+	progress = 15
+}
+#EOF#

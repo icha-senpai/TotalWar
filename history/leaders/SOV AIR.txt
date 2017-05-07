@@ -1,0 +1,1925 @@
+940600 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940601 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940602 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940603 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940604 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940605 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940606 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940607 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940608 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940609 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940610 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940611 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940612 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940613 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940614 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940615 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940616 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940617 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940618 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940619 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940620 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940621 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940622 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940623 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940624 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940625 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940626 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940627 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940628 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940629 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940630 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940631 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940632 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940633 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940634 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940635 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940636 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940637 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+94038 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940639 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940640 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940641 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940642 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940643 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940644 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940645 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940646 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940647 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940648 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940649 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+940650 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940651 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940652 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940653 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940654 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940655 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940656 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940657 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940658 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940659 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940660 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940661 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940662 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940663 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940664 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940665 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940666 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940667 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940668 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940669 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940670 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940671 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940672 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940673 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940674 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940675 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940676 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940677 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940678 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940679 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940680 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940681 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940682 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940683 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940684 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940685 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940686 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940687 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940688 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940689 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940690 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940691 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940692 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940693 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940694 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940695 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940696 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940697 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940698 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940699 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940700 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940701 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940702 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940703 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940704 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940705 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940706 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940707 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940708 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940709 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940710 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940711 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940712 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940713 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940714 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940715 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940716 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940717 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940718 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940719 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940720 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940721 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940722 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940723 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940724 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940725 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940726 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940727 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940728 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940729 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940730 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940731 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940732 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940733 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940734 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940735 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940736 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940737 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940738 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940739 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940740 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940741 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940742 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940743 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940744 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940745 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940746 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940747 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940748 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940749 = {
+	name = "VVS Polkovnik"
+	country = SOV
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RF_Polkovnik
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

@@ -1,0 +1,2369 @@
+################################################################################
+# WWII Jet Aircraft technologies	
+################################################################################
+################################################################################
+# JET ENGINE DESIGN	
+################################################################################
+jet_engine_design = {
+
+	allow = {
+		jet_engine_research = 3
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		default_morale = -0.01
+		air_attack = 0.50
+        air_defence = 0.50 
+        supply_consumption = 0.25
+		fuel_consumption = 0.25
+        build_cost_ic = 1.00
+        build_time = 10
+		maximum_speed = 25.0
+		range = 25.00
+		}
+	jet_flying_wing = { 	
+		default_morale = -0.01
+		air_attack = 0.50
+        air_defence = 0.50 
+        supply_consumption = 0.25
+		fuel_consumption = 0.25
+        build_cost_ic = 1.00
+        build_time = 10
+		maximum_speed = 25.0
+		range = 25.00
+		}
+	peoples_fighter = { 	
+		default_morale = -0.01
+		air_attack = 0.50
+        air_defence = 0.50 
+        supply_consumption = 0.25
+		fuel_consumption = 0.25
+        build_cost_ic = 1.00
+        build_time = 10
+		maximum_speed = 25.0
+		range = 25.00
+		}	
+	jet_bomber = { 	
+		default_morale = -0.01
+		air_attack = 0.50
+        air_defence = 0.50 
+        supply_consumption = 0.25
+		fuel_consumption = 0.25
+        build_cost_ic = 2.00
+        build_time = 10
+		maximum_speed = 25.0
+		range = 25.00
+		}	
+	amerika_bomber = { 	
+		default_morale = -0.01
+		air_attack = 0.50
+        air_defence = 0.50 
+        supply_consumption = 0.25
+		fuel_consumption = 0.25
+        build_cost_ic = 3.00
+        build_time = 10
+		maximum_speed = 25.0
+		range = 25.00
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.30
+		single_engine_aircraft_practical = 0.30
+		jetengine_theory = 0.50
+	}
+	
+	on_completion = jetengine_theory
+	
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1942
+	first_offset = 1944
+	additional_offset = 3	
+	max_level = 6
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET AERODYNAMIC DESIGN
+################################################################################
+jet_aerodynamics = {
+
+	allow = {
+		jet_engine_design = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		build_time = 7
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 100.0
+		range = 50.0
+		}
+	rocket_interceptor = { 	
+		build_time = 7
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 100.0
+		range = 50.0
+		}
+	jet_flying_wing = { 	
+		build_time = 7
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 100.0
+		range = 50.0
+		}
+	peoples_fighter = { 	
+		build_time = 7
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 100.0
+		range = 50.0
+		}	
+	jet_bomber = { 	
+		build_time = 7
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 100.0
+		range = 50.0
+		}	
+	amerika_bomber = { 	
+		build_time = 7
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 100.0
+		range = 50.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.10
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1942
+	first_offset = 1944
+	additional_offset = 3	
+	max_level = 6
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER FUSELAGE DESIGN
+################################################################################
+jet_aircraft_fuselage_design = {
+
+	allow = {
+		jet_engine_design = 1
+		jet_aerodynamics = 1
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.10
+		jetengine_theory = 0.10
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER WING DESIGN
+################################################################################
+jet_aircraft_wing_design = {
+
+	allow = {
+		jet_engine_design = 1
+		jet_aerodynamics = 1
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.10
+		jetengine_theory = 0.10
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER HORIZONTAL STABILIZER DESIGN
+################################################################################
+jet_aircraft_horizontal_stabilizer_design = {
+
+	allow = {
+		jet_engine_design = 1
+		jet_aerodynamics = 1
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.10
+		jetengine_theory = 0.10
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER VERTICAL STABILIZER DESIGN
+################################################################################
+jet_aircraft_vertical_stabilizer_design = {
+
+	allow = {
+		jet_engine_design = 1
+		jet_aerodynamics = 1
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.10
+		jetengine_theory = 0.10
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER BLUEPRINT
+################################################################################
+jet_aircraft_blueprint = {
+
+	allow = {
+		jet_aircraft_fuselage_design = 1
+		jet_aircraft_wing_design = 1
+		jet_aircraft_horizontal_stabilizer_design = 1
+		jet_aircraft_vertical_stabilizer_design = 1
+		OR = {
+			AND = { 
+				NOT = { jet_aircraft_blueprint = 2 } # 1944
+
+				jet_aircraft_fuselage_design = 2 # 1944
+				jet_aircraft_wing_design = 2 # 1944
+				jet_aircraft_horizontal_stabilizer_design = 2 # 1944
+				jet_aircraft_vertical_stabilizer_design = 2 # 1944
+							
+			}
+			AND = { 
+				NOT = { jet_aircraft_blueprint = 3 } # 1945
+		
+				jet_aircraft_fuselage_design = 3 # 1945
+				jet_aircraft_wing_design = 3 # 1945
+				jet_aircraft_horizontal_stabilizer_design = 3 # 1945
+				jet_aircraft_vertical_stabilizer_design = 3 # 1945
+							
+			}
+			AND = { 
+				NOT = { jet_aircraft_blueprint = 4 } # 1946
+		
+				jet_aircraft_fuselage_design = 4 # 1946
+				jet_aircraft_wing_design = 4 # 1946
+				jet_aircraft_horizontal_stabilizer_design = 4 # 1946
+				jet_aircraft_vertical_stabilizer_design = 34 # 1946
+		
+			}
+			AND = { 
+				NOT = { jet_aircraft_blueprint = 5 } # 1947
+		
+				jet_aircraft_fuselage_design = 5 # 1947
+				jet_aircraft_wing_design = 5 # 1947
+				jet_aircraft_horizontal_stabilizer_design = 5 # 1947
+				jet_aircraft_vertical_stabilizer_design = 5 # 1947
+		
+			}
+			AND = { 
+				NOT = { jet_aircraft_blueprint = 6 } # 1948
+		
+				jet_aircraft_fuselage_design = 6 # 1948
+				jet_aircraft_wing_design = 6 # 1948
+				jet_aircraft_horizontal_stabilizer_design = 6 # 1948
+				jet_aircraft_vertical_stabilizer_design = 6 # 1948
+		
+			}
+			AND = { 
+				NOT = { jet_aircraft_blueprint = 7 } # 1949
+		
+				jet_aircraft_fuselage_design = 7 # 1949
+				jet_aircraft_wing_design = 7 # 1949
+				jet_aircraft_horizontal_stabilizer_design = 7 # 1949
+				jet_aircraft_vertical_stabilizer_design = 7 # 1949
+		
+			}
+		}
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER PROTOTYPE AND TESTING
+################################################################################
+jet_aircraft_prototype_and_testing = {
+
+	allow = {
+		OR = {
+			AND = { 
+				NOT = { jet_aircraft_prototype_and_testing = 1 } # 1943
+				jet_aircraft_blueprint = 1 # 1943
+			}
+			AND = { 
+				NOT = { jet_aircraft_prototype_and_testing = 2 } # 1944
+				jet_aircraft_blueprint = 2 # 1944
+			}
+			AND = { 
+				NOT = { jet_aircraft_prototype_and_testing = 3 } # 1945
+				jet_aircraft_blueprint = 3 # 1945
+			}
+			AND = { 
+				NOT = { jet_aircraft_prototype_and_testing = 4 } # 1946
+				jet_aircraft_blueprint = 4 # 1946
+			}
+			AND = { 
+				NOT = { jet_aircraft_prototype_and_testing = 5 } # 1947
+				jet_aircraft_blueprint = 5 # 1947
+			}
+			AND = { 
+				NOT = { jet_aircraft_prototype_and_testing = 6 } # 1948
+				jet_aircraft_blueprint = 6 # 1948
+			}
+			AND = { 
+				NOT = { jet_aircraft_prototype_and_testing = 7 } # 1949
+				jet_aircraft_blueprint = 7 # 1949
+			}
+		}
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER MODEL
+################################################################################
+jet_aircraft_model = {
+
+	allow = {
+		OR = {
+			AND = { 
+				NOT = { jet_aircraft_model = 1 } # 1943
+				jet_aircraft_prototype_and_testing = 1 # 1943
+				short_range_aircraft_production = 11
+			}
+			AND = { 
+				NOT = { jet_aircraft_model = 2 } # 1944
+				jet_aircraft_prototype_and_testing = 2 # 1944
+				short_range_aircraft_production = 12
+			}
+			AND = { 
+				NOT = { jet_aircraft_model = 3 } # 1945
+				jet_aircraft_prototype_and_testing = 3 # 1945
+				short_range_aircraft_production = 13
+			}
+			AND = { 
+				NOT = { jet_aircraft_model = 4 } # 1946
+				jet_aircraft_prototype_and_testing = 4 # 1946
+				short_range_aircraft_production = 14
+			}
+			AND = { 
+				NOT = { jet_aircraft_model = 5 } # 1947
+				jet_aircraft_prototype_and_testing = 5 # 1947
+				short_range_aircraft_production = 15
+			}
+			AND = { 
+				NOT = { jet_aircraft_model = 6 } # 1948
+				jet_aircraft_prototype_and_testing = 6 # 1948
+				short_range_aircraft_production = 16
+			}
+			AND = { 
+				NOT = { jet_aircraft_model = 7 } # 1949
+				jet_aircraft_prototype_and_testing = 7 # 1949
+				short_range_aircraft_production = 17
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 3.00
+        air_defence = 1.00 
+        supply_consumption = 0.25
+		fuel_consumption = 0.50
+        build_cost_ic = 0.35
+        build_time = 5
+		maximum_speed = 25.0
+		range = 5.00
+		}
+	
+	jet_flying_wing = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 4.00
+        air_defence = 2.00 
+		soft_attack = 0.75
+        hard_attack = 0.25
+        supply_consumption = 0.10
+		fuel_consumption = 0.50
+        build_cost_ic = 0.40
+        build_time = 3
+		maximum_speed = 20.0
+		range = 15.00
+		}	
+		
+	jet_bomber = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.25
+        air_defence = 1.00 
+		soft_attack = 2.00
+        hard_attack = 1.00
+        supply_consumption = 0.50
+		fuel_consumption = 1.00
+        build_cost_ic = 0.50
+        build_time = 5
+		maximum_speed = 15.0
+		range = 30.00
+		}
+		
+	amerika_bomber = { 	
+		default_organisation = -5
+		default_morale = -0.05
+        air_defence = 2.00 
+		strategic_attack = 5.00
+        supply_consumption = 2.00
+		fuel_consumption = 2.00
+        build_cost_ic = 1.00
+        build_time = 10
+		maximum_speed = 5.0
+		range = 50.00
+		}	
+	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET ENGINE IMPROVEMENTS
+################################################################################
+jet_engine_improvements = {
+
+	allow = {
+		jet_aircraft_model = 1 # 1943
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+			
+	rocket_interceptor = { 	
+		maximum_speed = 10
+		range = 10.0
+		air_attack = 0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		fuel_consumption = 0.10
+		}
+	
+	jet_flying_wing = { 	
+		maximum_speed = 10
+		range = 10.0
+		air_attack = 0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		fuel_consumption = 0.10
+		}
+	peoples_fighter = { 	
+		maximum_speed = 10
+		range = 10.0
+		air_attack = 0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		fuel_consumption = 0.10
+		}	
+	jet_bomber = { 	
+		maximum_speed = 10
+		range = 10.0
+		air_attack = 0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		fuel_consumption = 0.10
+		}	
+	amerika_bomber = { 	
+		maximum_speed = 10
+		range = 10.0
+		air_attack = 0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		fuel_consumption = 0.10
+		}
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1944
+	first_offset = 1945
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET INTERNAL MECHANICAL IMPROVEMENTS
+################################################################################
+jet_internal_mechanical_improvements = {
+
+	allow = {
+		jet_aircraft_model = 1 # 1943
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		air_attack = 0.15
+		air_defence = 0.15
+		surface_defence = 0.15
+		supply_consumption = 0.10
+		range = 20.0
+		}
+	jet_flying_wing = { 	
+		air_attack = 0.15
+		air_defence = 0.15
+		surface_defence = 0.15
+		supply_consumption = 0.10
+		range = 20.0
+		}
+	peoples_fighter = { 	
+		air_attack = 0.15
+		air_defence = 0.15
+		surface_defence = 0.15
+		supply_consumption = 0.10
+		range = 20.0
+		}	
+	jet_bomber = { 	
+		air_attack = 0.15
+		air_defence = 0.15
+		surface_defence = 0.15
+		supply_consumption = 0.10
+		range = 20.0
+		}	
+	amerika_bomber = { 	
+		air_attack = 0.15
+		air_defence = 0.15
+		surface_defence = 0.15
+		supply_consumption = 0.10
+		range = 20.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1944
+	first_offset = 1945
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET AERODYNAMIC IMPROVEMENTS
+################################################################################
+jet_aerodynamic_improvements = {
+
+	allow = {
+		jet_aircraft_model = 1 # 1943
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		build_time = 3
+		air_attack = 0.20
+		air_defence = 0.20
+		maximum_speed = 5.0
+		range = 5.0
+		}
+	jet_flying_wing = { 	
+		build_time = 3
+		air_attack = 0.20
+		air_defence = 0.20
+		maximum_speed = 5.0
+		range = 5.0
+		}
+	peoples_fighter = { 	
+		build_time = 3
+		air_attack = 0.20
+		air_defence = 0.20
+		maximum_speed = 5.0
+		range = 5.0
+		}	
+	jet_bomber = { 	
+		build_time = 3
+		air_attack = 0.20
+		air_defence = 0.20
+		maximum_speed = 5.0
+		range = 5.0
+		}	
+	amerika_bomber = { 	
+		build_time = 3
+		air_attack = 0.20
+		air_defence = 0.20
+		maximum_speed = 5.0
+		range = 5.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1944
+	first_offset = 1945
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET ARMAMENT IMPROVEMENTS
+################################################################################
+jet_armament_improvements = {
+
+	allow = {
+		jet_aircraft_model = 1 # 1943
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		build_time = 1
+		air_attack = 0.15
+		air_defence = -0.15
+		maximum_speed = -5.0
+		range = -5.0
+		supply_consumption = 0.10
+		}
+	jet_flying_wing = { 	
+		build_time = 1
+		air_attack = 0.15
+		air_defence = -0.15
+		maximum_speed = -5.0
+		range = -5.0
+		supply_consumption = 0.10
+		}
+	peoples_fighter = { 	
+		build_time = 1
+		air_attack = 0.15
+		air_defence = -0.15
+		maximum_speed = -5.0
+		range = -5.0
+		supply_consumption = 0.10
+		}	
+	jet_bomber = { 	
+		build_time = 1
+		air_attack = 0.15
+		air_defence = -0.15
+		maximum_speed = -5.0
+		range = -5.0
+		supply_consumption = 0.10
+		}	
+	amerika_bomber = { 	
+		build_time = 1
+		air_attack = 0.15
+		air_defence = -0.15
+		maximum_speed = -5.0
+		range = -5.0
+		supply_consumption = 0.10
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1944
+	first_offset = 1945
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER FOCUS
+################################################################################
+jet_fighter_focus = {
+
+	allow = {
+		jet_aircraft_model = 1 # 1943
+		OR = { 
+			AND = { 
+				NOT = { jet_fighter_focus = 1 } # 1943
+				OR = { 
+					jet_aircraft_model = 1 # 1943
+					OR = { 
+						jet_engine_improvements = 1
+						jet_internal_mechanical_improvements = 1
+						jet_aerodynamic_improvements = 1
+						jet_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_focus = 2 } # 1944
+				OR = { 
+					jet_aircraft_model = 2 # 1944
+					OR = { 
+						jet_engine_improvements = 2
+						jet_internal_mechanical_improvements = 2
+						jet_aerodynamic_improvements = 2
+						jet_armament_improvements = 2
+						}
+					AND = { 
+						jet_engine_improvements = 1
+						jet_internal_mechanical_improvements = 1
+						jet_aerodynamic_improvements = 1
+						jet_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_focus = 3 } # 1945
+				OR = { 
+					jet_aircraft_model = 3 # 1945
+					OR = { 
+						jet_engine_improvements = 3
+						jet_internal_mechanical_improvements = 3
+						jet_aerodynamic_improvements = 3
+						jet_armament_improvements = 3
+						}
+					AND = { 
+						jet_engine_improvements = 2
+						jet_internal_mechanical_improvements = 2
+						jet_aerodynamic_improvements = 2
+						jet_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_focus = 4 } # 1946
+				OR = { 
+					jet_aircraft_model = 4 # 1946
+					OR = { 
+						jet_engine_improvements = 4
+						jet_internal_mechanical_improvements = 4
+						jet_aerodynamic_improvements = 4
+						jet_armament_improvements = 4
+						}
+					AND = { 
+						jet_engine_improvements = 3
+						jet_internal_mechanical_improvements = 3
+						jet_aerodynamic_improvements = 3
+						jet_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_focus = 5 } # 1947
+				OR = { 
+					jet_aircraft_model = 5 # 1947
+					OR = { 
+						jet_engine_improvements = 5
+						jet_internal_mechanical_improvements = 5
+						jet_aerodynamic_improvements = 5
+						jet_armament_improvements = 5
+						}
+					AND = { 
+						jet_engine_improvements = 4
+						jet_internal_mechanical_improvements = 4
+						jet_aerodynamic_improvements = 4
+						jet_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_focus = 6 } # 1948
+				OR = { 
+					jet_aircraft_model = 6 # 1948
+					OR = { 
+						jet_engine_improvements = 6
+						jet_internal_mechanical_improvements = 6
+						jet_aerodynamic_improvements = 6
+						jet_armament_improvements = 6
+						}
+					AND = { 
+						jet_engine_improvements = 5
+						jet_internal_mechanical_improvements = 5
+						jet_aerodynamic_improvements = 5
+						jet_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_focus = 7 } # 1949
+				OR = { 
+					jet_aircraft_model = 7 # 1949
+					OR = { 
+						jet_engine_improvements = 7
+						jet_internal_mechanical_improvements = 7
+						jet_aerodynamic_improvements = 7
+						jet_armament_improvements = 7
+						}
+					AND = { 
+						jet_engine_improvements = 6
+						jet_internal_mechanical_improvements = 6
+						jet_aerodynamic_improvements = 6
+						jet_armament_improvements = 6
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = rocket_interceptor
+	
+	rocket_interceptor = { 	
+		air_attack = 0.25
+		build_cost_ic = 0.10
+		build_time = 2
+		}
+	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER FLYING WING FOCUS
+################################################################################
+jet_fighter_flying_wing_focus = {
+
+	allow = {
+		jet_aircraft_model = 1 # 1943
+		jet_fighter_focus = 1 
+		OR = { 
+			AND = { 
+				NOT = { jet_fighter_flying_wing_focus = 1 } # 1943
+				OR = { 
+					jet_aircraft_model = 1 # 1943
+					OR = { 
+						jet_engine_improvements = 1
+						jet_internal_mechanical_improvements = 1
+						jet_aerodynamic_improvements = 1
+						jet_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_flying_wing_focus = 2 } # 1944
+				OR = { 
+					jet_aircraft_model = 2 # 1944
+					OR = { 
+						jet_engine_improvements = 2
+						jet_internal_mechanical_improvements = 2
+						jet_aerodynamic_improvements = 2
+						jet_armament_improvements = 2
+						}
+					AND = { 
+						jet_engine_improvements = 1
+						jet_internal_mechanical_improvements = 1
+						jet_aerodynamic_improvements = 1
+						jet_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_flying_wing_focus = 3 } # 1945
+				OR = { 
+					jet_aircraft_model = 3 # 1945
+					OR = { 
+						jet_engine_improvements = 3
+						jet_internal_mechanical_improvements = 3
+						jet_aerodynamic_improvements = 3
+						jet_armament_improvements = 3
+						}
+					AND = { 
+						jet_engine_improvements = 2
+						jet_internal_mechanical_improvements = 2
+						jet_aerodynamic_improvements = 2
+						jet_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_flying_wing_focus = 4 } # 1946
+				OR = { 
+					jet_aircraft_model = 4 # 1946
+					OR = { 
+						jet_engine_improvements = 4
+						jet_internal_mechanical_improvements = 4
+						jet_aerodynamic_improvements = 4
+						jet_armament_improvements = 4
+						}
+					AND = { 
+						jet_engine_improvements = 3
+						jet_internal_mechanical_improvements = 3
+						jet_aerodynamic_improvements = 3
+						jet_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_flying_wing_focus = 5 } # 1947
+				OR = { 
+					jet_aircraft_model = 5 # 1947
+					OR = { 
+						jet_engine_improvements = 5
+						jet_internal_mechanical_improvements = 5
+						jet_aerodynamic_improvements = 5
+						jet_armament_improvements = 5
+						}
+					AND = { 
+						jet_engine_improvements = 4
+						jet_internal_mechanical_improvements = 4
+						jet_aerodynamic_improvements = 4
+						jet_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_flying_wing_focus = 6 } # 1948
+				OR = { 
+					jet_aircraft_model = 6 # 1948
+					OR = { 
+						jet_engine_improvements = 6
+						jet_internal_mechanical_improvements = 6
+						jet_aerodynamic_improvements = 6
+						jet_armament_improvements = 6
+						}
+					AND = { 
+						jet_engine_improvements = 5
+						jet_internal_mechanical_improvements = 5
+						jet_aerodynamic_improvements = 5
+						jet_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_fighter_flying_wing_focus = 7 } # 1949
+				OR = { 
+					jet_aircraft_model = 7 # 1949
+					OR = { 
+						jet_engine_improvements = 7
+						jet_internal_mechanical_improvements = 7
+						jet_aerodynamic_improvements = 7
+						jet_armament_improvements = 7
+						}
+					AND = { 
+						jet_engine_improvements = 6
+						jet_internal_mechanical_improvements = 6
+						jet_aerodynamic_improvements = 6
+						jet_armament_improvements = 6
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = jet_flying_wing
+	
+	jet_flying_wing = { 	
+		air_attack = 0.15
+        air_defence = 0.15 
+		soft_attack = 0.10
+        hard_attack = 0.10
+		maximum_speed = 15.0
+		range = 15.00
+		build_cost_ic = 0.12
+		build_time = 4
+		}
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET BOMBER FOCUS
+################################################################################
+jet_bomber_focus = {
+
+	allow = {
+		jet_aircraft_model = 1 # 1943
+		OR = { 
+			AND = { 
+				NOT = { jet_bomber_focus = 1 } # 1943
+				OR = { 
+					jet_aircraft_model = 1 # 1943
+					OR = { 
+						jet_engine_improvements = 1
+						jet_internal_mechanical_improvements = 1
+						jet_aerodynamic_improvements = 1
+						jet_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { jet_bomber_focus = 2 } # 1944
+				OR = { 
+					jet_aircraft_model = 2 # 1944
+					OR = { 
+						jet_engine_improvements = 2
+						jet_internal_mechanical_improvements = 2
+						jet_aerodynamic_improvements = 2
+						jet_armament_improvements = 2
+						}
+					AND = { 
+						jet_engine_improvements = 1
+						jet_internal_mechanical_improvements = 1
+						jet_aerodynamic_improvements = 1
+						jet_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_bomber_focus = 3 } # 1945
+				OR = { 
+					jet_aircraft_model = 3 # 1945
+					OR = { 
+						jet_engine_improvements = 3
+						jet_internal_mechanical_improvements = 3
+						jet_aerodynamic_improvements = 3
+						jet_armament_improvements = 3
+						}
+					AND = { 
+						jet_engine_improvements = 2
+						jet_internal_mechanical_improvements = 2
+						jet_aerodynamic_improvements = 2
+						jet_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_bomber_focus = 4 } # 1946
+				OR = { 
+					jet_aircraft_model = 4 # 1946
+					OR = { 
+						jet_engine_improvements = 4
+						jet_internal_mechanical_improvements = 4
+						jet_aerodynamic_improvements = 4
+						jet_armament_improvements = 4
+						}
+					AND = { 
+						jet_engine_improvements = 3
+						jet_internal_mechanical_improvements = 3
+						jet_aerodynamic_improvements = 3
+						jet_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_bomber_focus = 5 } # 1947
+				OR = { 
+					jet_aircraft_model = 5 # 1947
+					OR = { 
+						jet_engine_improvements = 5
+						jet_internal_mechanical_improvements = 5
+						jet_aerodynamic_improvements = 5
+						jet_armament_improvements = 5
+						}
+					AND = { 
+						jet_engine_improvements = 4
+						jet_internal_mechanical_improvements = 4
+						jet_aerodynamic_improvements = 4
+						jet_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_bomber_focus = 6 } # 1948
+				OR = { 
+					jet_aircraft_model = 6 # 1948
+					OR = { 
+						jet_engine_improvements = 6
+						jet_internal_mechanical_improvements = 6
+						jet_aerodynamic_improvements = 6
+						jet_armament_improvements = 6
+						}
+					AND = { 
+						jet_engine_improvements = 5
+						jet_internal_mechanical_improvements = 5
+						jet_aerodynamic_improvements = 5
+						jet_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_bomber_focus = 7 } # 1949
+				OR = { 
+					jet_aircraft_model = 7 # 1949
+					OR = { 
+						jet_engine_improvements = 7
+						jet_internal_mechanical_improvements = 7
+						jet_aerodynamic_improvements = 7
+						jet_armament_improvements = 7
+						}
+					AND = { 
+						jet_engine_improvements = 6
+						jet_internal_mechanical_improvements = 6
+						jet_aerodynamic_improvements = 6
+						jet_armament_improvements = 6
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = jet_bomber
+	
+	jet_bomber = { 	
+        air_defence = 0.15
+		soft_attack = 0.25
+        hard_attack = 0.10
+		maximum_speed = 5.0
+		range = 5.00
+		build_cost_ic = 0.30
+		build_time = 5
+		}
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1	
+	max_level = 7
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET BOMBER FLYING WING FOCUS
+################################################################################
+jet_bomber_flying_wing_focus = {
+
+	allow = {
+		jet_aircraft_model = 1 # 1943
+		jet_bomber_focus = 1
+		OR = { 
+			AND = { 
+				NOT = { jet_bomber_flying_wing_focus = 1 } # 1945
+				OR = { 
+					jet_aircraft_model = 3 # 1945
+					OR = { 
+						jet_engine_improvements = 3
+						jet_internal_mechanical_improvements = 3
+						jet_aerodynamic_improvements = 3
+						jet_armament_improvements = 3
+						}
+					}
+			}
+			AND = { 
+				NOT = { jet_bomber_flying_wing_focus = 2 } # 1946
+				OR = { 
+					jet_aircraft_model = 4 # 1946
+					OR = { 
+						jet_engine_improvements = 4
+						jet_internal_mechanical_improvements = 4
+						jet_aerodynamic_improvements = 4
+						jet_armament_improvements = 4
+						}
+					AND = { 
+						jet_engine_improvements = 3
+						jet_internal_mechanical_improvements = 3
+						jet_aerodynamic_improvements = 3
+						jet_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_bomber_flying_wing_focus = 3 } # 1947
+				OR = { 
+					jet_aircraft_model = 5 # 1947
+					OR = { 
+						jet_engine_improvements = 5
+						jet_internal_mechanical_improvements = 5
+						jet_aerodynamic_improvements = 5
+						jet_armament_improvements = 5
+						}
+					AND = { 
+						jet_engine_improvements = 4
+						jet_internal_mechanical_improvements = 4
+						jet_aerodynamic_improvements = 4
+						jet_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_bomber_flying_wing_focus = 4 } # 1948
+				OR = { 
+					jet_aircraft_model = 6 # 1948
+					OR = { 
+						jet_engine_improvements = 6
+						jet_internal_mechanical_improvements = 6
+						jet_aerodynamic_improvements = 6
+						jet_armament_improvements = 6
+						}
+					AND = { 
+						jet_engine_improvements = 5
+						jet_internal_mechanical_improvements = 5
+						jet_aerodynamic_improvements = 5
+						jet_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { jet_bomber_flying_wing_focus = 5 } # 1949
+				OR = { 
+					jet_aircraft_model = 7 # 1949
+					OR = { 
+						jet_engine_improvements = 7
+						jet_internal_mechanical_improvements = 7
+						jet_aerodynamic_improvements = 7
+						jet_armament_improvements = 7
+						}
+					AND = { 
+						jet_engine_improvements = 6
+						jet_internal_mechanical_improvements = 6
+						jet_aerodynamic_improvements = 6
+						jet_armament_improvements = 6
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = amerika_bomber
+		
+	amerika_bomber = { 	
+		strategic_attack = 1.00
+		range = 50.00
+		build_cost_ic = 0.45
+		build_time = 7
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1945
+	first_offset = 1946
+	additional_offset = 1	
+	max_level = 5
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER BOMB LOAD PLUS
+################################################################################
+jet_fighter_bomb_load_plus = {
+	
+	allow = {
+		jet_fighter_focus = 1 # 1943	
+		ai = no	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.50
+		hard_attack = 0.25
+		strategic_attack = 0.15
+		maximum_speed = -50
+		range = -75
+		supply_consumption = 0.10
+		}
+	jet_flying_wing = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.75
+		hard_attack = 0.50
+		strategic_attack = 0.25
+		maximum_speed = -40
+		range = -85
+		supply_consumption = 0.10
+		}	
+	
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 5	
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET BOMBER BOMB LOAD PLUS
+################################################################################
+jet_bomber_bomb_load_plus = {
+	
+	allow = {
+		jet_bomber_focus = 1	
+		ai = no	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	jet_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 1.25
+		hard_attack = 0.85
+		strategic_attack = 0.65
+		maximum_speed = -35
+		range = -100
+		supply_consumption = 0.20
+		}	
+	amerika_bomber = { 	
+        air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.45
+		hard_attack = 0.25
+		strategic_attack = 1.65
+		maximum_speed = -40
+		range = -200
+		supply_consumption = 0.20
+		}	
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 5	
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET FIGHTER BOMB LOAD MINUS
+################################################################################
+jet_fighter_bomb_load_minus = {
+	
+	allow = {
+		jet_fighter_bomb_load_plus = 1	
+		ai = no	
+		OR = {
+			AND = { 
+				NOT = { jet_fighter_bomb_load_minus = 3 } # 1947
+				jet_fighter_bomb_load_plus = 1 # 1944
+			}
+			AND = { 
+				NOT = { jet_fighter_bomb_load_minus = 4 } # 1949
+				jet_fighter_bomb_load_plus = 2 # 1945
+			}
+			AND = { 
+				NOT = { jet_fighter_bomb_load_minus = 5 } # 1951
+				jet_fighter_bomb_load_plus = 3 # 1947
+			}
+		}	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.50
+		hard_attack = -0.25
+		strategic_attack = -0.15
+		maximum_speed = 50
+		range = 75
+		supply_consumption = -0.10
+		}
+	jet_flying_wing = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.75
+		hard_attack = -0.50
+		strategic_attack = -0.25
+		maximum_speed = 40
+		range = 85
+		supply_consumption = -0.10
+		}
+	
+
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 5	
+	folder = jet_aircraft_folder
+}
+################################################################################
+# JET BOMBER BOMB LOAD MINUS
+################################################################################
+jet_bomber_bomb_load_minus = {
+	
+	allow = {
+		jet_bomber_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { jet_bomber_bomb_load_minus = 3 } # 1947
+				jet_bomber_bomb_load_plus = 1 # 1944
+			}
+			AND = { 
+				NOT = { jet_bomber_bomb_load_minus = 4 } # 1949
+				jet_bomber_bomb_load_plus = 2 # 1945
+			}
+			AND = { 
+				NOT = { jet_bomber_bomb_load_minus = 5 } # 1951
+				jet_bomber_bomb_load_plus = 3 # 1947
+			}
+		}		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	jet_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -1.25
+		hard_attack = -0.85
+		strategic_attack = -0.65
+		maximum_speed = 35
+		range = 100
+		supply_consumption = -0.20
+		}	
+	amerika_bomber = { 	
+        air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.45
+		hard_attack = -0.25
+		strategic_attack = -1.65
+		maximum_speed = 40
+		range = 200
+		supply_consumption = -0.20
+		}
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 5	
+	folder = jet_aircraft_folder
+}
+################################################################################
+# Jet Ejection Seat
+################################################################################
+jet_ejection_seat = {
+
+	allow = {
+		fully_enclosed_cockpit = 1
+		acrylic_bubble_cockpit = 1
+		electro_mechanical_engineering = 18
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		default_morale = 0.05
+		build_cost_ic = 0.35
+		build_time = 15
+		}
+	jet_flying_wing = { 	
+		default_morale = 0.05
+		build_cost_ic = 0.35
+		build_time = 15
+		}
+	peoples_fighter = { 	
+		default_morale = 0.05
+		build_cost_ic = 0.35
+		build_time = 15
+		}	
+	jet_bomber = { 	
+		default_morale = 0.05
+		build_cost_ic = 0.35
+		build_time = 15
+		}	
+		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_morale = 0.05
+		build_cost_ic = 0.35
+		build_time = 15
+		}	
+	advanced_jet_cas = { 	
+		default_morale = 0.05
+		build_cost_ic = 0.35
+		build_time = 15
+		}	
+	advanced_jet_bomber = { 	
+		default_morale = 0.05
+		build_cost_ic = 0.35
+		build_time = 15
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_morale = 0.05
+		build_cost_ic = 0.35
+		build_time = 15
+		}	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1945
+	first_offset = 1947 	# 2nd model is from 1941
+    additional_offset = 4   # one new every 1 years
+	max_level = 7	
+	folder = jet_aircraft_folder
+}
+################################################################################
+# Jet Drop Tanks
+################################################################################
+jet_drop_tanks = {
+
+	allow = {
+		drop_tanks = 4 
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	rocket_interceptor = { 	
+		range = 100.00
+		air_attack = -1.50
+		air_defence = -1.50
+		soft_attack = -2.00
+		hard_attack = -1.00
+		sea_attack = -2.00
+		strategic_attack = -2.00
+		maximum_speed = -25.0
+		supply_consumption = 0.25
+		}
+	
+	jet_bomber = { 	
+		range = 100.00
+		air_attack = -1.50
+		air_defence = -1.50
+		soft_attack = -2.00
+		hard_attack = -1.00
+		sea_attack = -2.00
+		strategic_attack = -2.00
+		maximum_speed = -25.0
+		supply_consumption = 0.25
+		}	
+	
+#######################################	
+	advanced_jet_fighter = { 	
+		range = 150.00
+		air_attack = -1.50
+		air_defence = -1.50
+		soft_attack = -2.00
+		hard_attack = -1.00
+		sea_attack = -2.00
+		strategic_attack = -2.00
+		maximum_speed = -25.0
+		supply_consumption = 0.25
+		}	
+	advanced_jet_cas = { 	
+		range = 150.00
+		air_attack = -1.50
+		air_defence = -1.50
+		soft_attack = -2.00
+		hard_attack = -1.00
+		sea_attack = -2.00
+		strategic_attack = -2.00
+		maximum_speed = -25.0
+		supply_consumption = 0.25
+		}	
+	advanced_jet_bomber = { 	
+		range = 150.00
+		air_attack = -1.50
+		air_defence = -1.50
+		soft_attack = -2.00
+		hard_attack = -1.00
+		sea_attack = -2.00
+		strategic_attack = -2.00
+		maximum_speed = -25.0
+		supply_consumption = 0.25
+		}	
+			
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	#common for all techs.
+	start_year = 1945
+	first_offset = 1948 	# 2nd model is from 1941
+    additional_offset = 4   # one new every 1 years
+	max_level = 7	
+	folder = jet_aircraft_folder
+}
+################################################################################
+# EMERGENCY FIGHTER PROGRAM
+################################################################################
+emergency_fighter_program = {
+
+	allow = {
+		jet_aircraft_model = 2
+		jet_fighter_focus = 2
+		surrender_progress = 5
+	}
+	
+	activate_unit = peoples_fighter
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1944
+	folder = jet_aircraft_folder
+}
+################################################################################
+# Flight Suits
+################################################################################
+flight_suits = {
+
+	allow = {
+		aviation_medicine = 2
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		build_cost_ic = 0.05
+		build_time = 1
+		}	
+	jet_flying_wing = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		build_cost_ic = 0.05
+		build_time = 1
+		}
+	peoples_fighter = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		build_cost_ic = 0.05
+		build_time = 1
+		}	
+	jet_bomber = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		build_cost_ic = 0.05
+		build_time = 1
+		}	
+	amerika_bomber = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		build_cost_ic = 0.05
+		build_time = 1
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		build_cost_ic = 0.05
+		build_time = 1
+		}	
+	advanced_jet_cas = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		build_cost_ic = 0.05
+		build_time = 1
+		}	
+	advanced_jet_bomber = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		build_cost_ic = 0.05
+		build_time = 1
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		build_cost_ic = 0.05
+		build_time = 1
+		}	
+	tactical_transport_aircraft = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		build_cost_ic = 0.05
+		build_time = 1
+		}	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1941
+	first_offset = 1943 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 5	
+	folder = jet_aircraft_folder
+}
+################################################################################
+# Flight G-Suits
+################################################################################
+flight_g_suits = {
+
+	allow = {
+		aviation_medicine = 2
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		air_attack = 0.50
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	jet_flying_wing = { 	
+		air_attack = 0.50
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	peoples_fighter = { 	
+		air_attack = 0.50
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	jet_bomber = { 	
+		air_attack = 0.50
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 0.50
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.50
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.50
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1941
+	first_offset = 1944 	# 2nd model is from 1941
+    additional_offset = 3   # one new every 1 years
+	max_level = 5
+	folder = jet_aircraft_folder
+}
+################################################################################
+# FLIGHT HELMETS
+################################################################################
+flight_helmets = {
+
+	allow = {
+		aviation_medicine = 5
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		default_organisation = 1
+		build_cost_ic = 0.01
+		build_time = 2
+		}	
+	jet_flying_wing = { 	
+		default_organisation = 1
+		build_cost_ic = 0.01
+		build_time = 2
+		}
+	peoples_fighter = { 	
+		default_organisation = 1
+		build_cost_ic = 0.01
+		build_time = 2
+		}	
+	jet_bomber = { 	
+		default_organisation = 1
+		build_cost_ic = 0.01
+		build_time = 2
+		}	
+	amerika_bomber = { 	
+		default_organisation = 1
+		build_cost_ic = 0.01
+		build_time = 2
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_organisation = 1
+		build_cost_ic = 0.01
+		build_time = 2
+		}	
+	advanced_jet_cas = { 	
+		default_organisation = 1
+		build_cost_ic = 0.01
+		build_time = 2
+		}	
+	advanced_jet_bomber = { 	
+		default_organisation = 1
+		build_cost_ic = 0.01
+		build_time = 2
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_organisation = 1
+		build_cost_ic = 0.01
+		build_time = 2
+		}	
+	tactical_transport_aircraft = { 	
+		default_organisation = 1
+		build_cost_ic = 0.01
+		build_time = 2
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1945
+	first_offset = 1946 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 5
+	folder = jet_aircraft_folder
+}
+################################################################################
+# FLIGHT OXYGEN MASKS
+################################################################################
+flight_oxygen_masks = {
+
+	allow = {
+		aviation_medicine = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	pursuit_fighter = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	multi_role = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	fighter_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}		
+	cas = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	heavy_cas = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+#######################################			
+	naval_fighter = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	naval_fighter_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	naval_dive_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	naval_torpedo_plane = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	naval_cas = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	night_fighter = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	light_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	tactical_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	transport_plane = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	Flying_boat = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+#######################################			
+	naval_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	strategic_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	heavy_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	super_heavy_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	quad_engine_transport = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+#######################################		
+	rocket_interceptor = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	rocket_interceptor_van = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	jet_flying_wing = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	peoples_fighter = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	jet_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	amerika_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	advanced_jet_cas = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	advanced_jet_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	tactical_transport_aircraft = { 	
+		default_organisation = 1
+		air_attack = 0.35
+		air_defence = 0.35
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		single_engine_aircraft_practical = 0.20
+		jetengine_theory = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1940
+	first_offset = 1942 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 5
+	folder = jet_aircraft_folder
+}

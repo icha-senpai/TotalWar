@@ -1,0 +1,1232 @@
+##############################################################
+############# French Army Unique Weapons Activation Events     ###########
+##############################################################
+##############################################################
+#### Infantry Weapons
+##############################################################
+##############################################################
+#### Modele 1886 'Lebel' Rifle
+##############################################################
+
+	country_event = {
+		id = 9105700
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105700"
+		desc = "EVTDESC9105700"
+		picture = "modele_eighteen_eighty_six_bolt_action_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			modele_eighteen_eighty_six_bolt_action_rifle_hidden = 6000
+			set_global_flag = modele_eighteen_eighty_six_bolt_action_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### MAS 36 Bolt Action Rifle
+##############################################################
+
+	country_event = {
+		id = 9105701
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			rifle_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105701"
+		desc = "EVTDESC9105701"
+		picture = "mas_thirty_six_bolt_action_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			mas_thirty_six_bolt_action_rifle_hidden = 6000
+			set_global_flag = mas_thirty_six_bolt_action_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Fusil Automatique Model 1917
+##############################################################
+
+	country_event = {
+		id = 9105702
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			carbine_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105702"
+		desc = "EVTDESC9105702"
+		picture = "fusil_semi_automatic_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			fusil_semi_automatic_rifle_hidden = 6000
+			set_global_flag = fusil_semi_automatic_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### MAS 38 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105703
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			submachineguns_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105703"
+		desc = "EVTDESC9105703"
+		picture = "mas_thirty_eight_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			mas_thirty_eight_submachinegun_hidden = 6000
+			set_global_flag = mas_thirty_eight_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Fusil Modele 1915 CSRG Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105704
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			lmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105704"
+		desc = "EVTDESC9105704"
+		picture = "fusil_csrg_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			fusil_csrg_lmg_hidden = 6000
+			set_global_flag = fusil_csrg_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Chatellerault Model 1929 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105705
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			lmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105705"
+		desc = "EVTDESC9105705"
+		picture = "chatellerault_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			chatellerault_lmg_hidden = 6000
+			set_global_flag = chatellerault_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Hotchkiss Modele 1914 Heavy Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105706
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			hmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105706"
+		desc = "EVTDESC9105706"
+		picture = "hotchkiss_modele_nineteen_fourteen_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			hotchkiss_modele_nineteen_fourteen_hmg_hidden = 6000
+			set_global_flag = hotchkiss_modele_nineteen_fourteen_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Brandt Modele 1935 60mm
+##############################################################
+
+	country_event = {
+		id = 9105707
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			mortar_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105707"
+		desc = "EVTDESC9105707"
+		picture = "brandt_sixty_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			brandt_sixty_mm_mortar_hidden = 6000
+			set_global_flag = brandt_sixty_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Brandt Modele 27/31 81mm
+##############################################################
+
+	country_event = {
+		id = 9105708
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			mortar_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105708"
+		desc = "EVTDESC9105708"
+		picture = "brandt_eighty_one_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			brandt_eighty_one_mm_mortar_hidden = 6000
+			set_global_flag = brandt_eighty_one_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Canon de 75 Modele 1897 Infantry Gun
+##############################################################
+
+	country_event = {
+		id = 9105709
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			infantry_guns = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105709"
+		desc = "EVTDESC9105709"
+		picture = "canon_de_seventy_five_infantry_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			canon_de_seventy_five_infantry_gun_hidden = 6000
+			set_global_flag = canon_de_seventy_five_infantry_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Canon de 105 court Modele 1935 B Infantry Gun
+##############################################################
+
+	country_event = {
+		id = 9105710
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			infantry_guns = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105710"
+		desc = "EVTDESC9105710"
+		picture = "canon_de_one_hundred_five_infantry_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			canon_de_one_hundred_five_infantry_gun_hidden = 6000
+			set_global_flag = canon_de_one_hundred_five_infantry_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Canon de 155 C Modele 1917 Schneider Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105711
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			med_field_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105711"
+		desc = "EVTDESC9105711"
+		picture = "canon_de_one_hundred_fifty_five_schneider_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			canon_de_one_hundred_fifty_five_schneider_howitzer_hidden = 6000
+			set_global_flag = canon_de_one_hundred_fifty_five_schneider_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Mortier de 280 Modele 1914 Schneider Heavy Mortar
+##############################################################
+
+	country_event = {
+		id = 9105712
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			hvy_field_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105712"
+		desc = "EVTDESC9105712"
+		picture = "mortier_de_two_hundred_eighty_heavy_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			mortier_de_two_hundred_eighty_heavy_mortar_hidden = 6000
+			set_global_flag = mortier_de_two_hundred_eighty_heavy_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Canon de 155 (GPF) Mle.1917 155mm Heavy Artillery
+##############################################################
+
+	country_event = {
+		id = 9105713
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			hvy_field_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105713"
+		desc = "EVTDESC9105713"
+		picture = "canon_de_one_hundred_fifty_five_heavy_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			canon_de_one_hundred_fifty_five_heavy_artillery_hidden = 6000
+			set_global_flag = canon_de_one_hundred_fifty_five_heavy_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 25mm Hotchkiss Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105714
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			anti_tank_gun = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105714"
+		desc = "EVTDESC9105714"
+		picture = "twenty_five_mm_hotchkiss_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			twenty_five_mm_hotchkiss_at_gun_hidden = 6000
+			set_global_flag = twenty_five_mm_hotchkiss_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### AC 37 Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105715
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			anti_tank_gun = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105715"
+		desc = "EVTDESC9105715"
+		picture = "ac_thirty_seven_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			ac_thirty_seven_at_gun_hidden = 6000
+			set_global_flag = ac_thirty_seven_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 47mm APX Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105716
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			anti_tank_gun = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105716"
+		desc = "EVTDESC9105716"
+		picture = "fourty_seven_mm_apx_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			fourty_seven_mm_apx_at_gun_hidden = 6000
+			set_global_flag = fourty_seven_mm_apx_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Tarasque Type 53 T2 Anti-Air Gun
+##############################################################
+
+	country_event = {
+		id = 9105717
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			anti_aircraft_gun = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105717"
+		desc = "EVTDESC9105717"
+		picture = "tarasque_t_two_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			tarasque_t_two_aa_gun_hidden = 6000
+			set_global_flag = tarasque_t_two_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Canon de 75 CVM 1940 Schneider Anti-Air Gun
+##############################################################
+
+	country_event = {
+		id = 9105718
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			anti_aircraft_gun = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105718"
+		desc = "EVTDESC9105718"
+		picture = "canon_de_seventy_five_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			canon_de_seventy_five_aa_gun_hidden = 6000
+			set_global_flag = canon_de_seventy_five_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Char B1
+##############################################################
+
+	country_event = {
+		id = 9105719
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			infantry_tank_design = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105719"
+		desc = "EVTDESC9105719"
+		picture = "char_b_one_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			char_b_one_infantry_tank_hidden = 6000
+			set_global_flag = char_b_one_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### SOMUA S35
+##############################################################
+
+	country_event = {
+		id = 9105720
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			infantry_tank_design = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105720"
+		desc = "EVTDESC9105720"
+		picture = "somua_s_thirty_five_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			somua_s_thirty_five_infantry_tank_hidden = 6000
+			set_global_flag = somua_s_thirty_five_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Char G1
+##############################################################
+
+	country_event = {
+		id = 9105721
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			infantry_tank_design = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105721"
+		desc = "EVTDESC9105721"
+		picture = "char_g_one_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			char_g_one_infantry_tank_hidden = 6000
+			set_global_flag = char_g_one_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### ARL 44
+##############################################################
+
+	country_event = {
+		id = 9105722
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			infantry_tank_design = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105722"
+		desc = "EVTDESC9105722"
+		picture = "arl_fourty_four_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			arl_fourty_four_infantry_tank_hidden = 6000
+			set_global_flag = arl_fourty_four_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### FCM 36
+##############################################################
+
+	country_event = {
+		id = 9105723
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			light_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105723"
+		desc = "EVTDESC9105723"
+		picture = "fcm_thirty_six_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			fcm_thirty_six_light_tank_hidden = 6000
+			set_global_flag = fcm_thirty_six_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Hotchkiss H35
+##############################################################
+
+	country_event = {
+		id = 9105724
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			light_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105724"
+		desc = "EVTDESC9105724"
+		picture = "hotchkiss_h_thirty_five_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			hotchkiss_h_thirty_five_light_tank_hidden = 6000
+			set_global_flag = hotchkiss_h_thirty_five_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Renault R40
+##############################################################
+
+	country_event = {
+		id = 9105725
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			light_tank_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105725"
+		desc = "EVTDESC9105725"
+		picture = "renault_r_fourty_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			renault_r_fourty_light_tank_hidden = 6000
+			set_global_flag = renault_r_fourty_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Char D2
+##############################################################
+
+	country_event = {
+		id = 9105726
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			medium_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105726"
+		desc = "EVTDESC9105726"
+		picture = "char_d_two_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			char_d_two_medium_tank_hidden = 6000
+			set_global_flag = char_d_two_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### MAT-49 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105727
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			advanced_submachine_guns = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105727"
+		desc = "EVTDESC9105727"
+		picture = "mat_fourty_nine_advanced_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			mat_fourty_nine_advanced_submachinegun_hidden = 6000
+			set_global_flag = mat_fourty_nine_advanced_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### AAT-52 GPMG
+##############################################################
+
+	country_event = {
+		id = 9105728
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			advanced_light_machine_guns = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105728"
+		desc = "EVTDESC9105728"
+		picture = "aat_fifty_two_advanced_machine_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			aat_fifty_two_advanced_machine_gun_hidden = 6000
+			set_global_flag = aat_fifty_two_advanced_machine_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### MAS 49 Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9105729
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			advanced_rifles = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105729"
+		desc = "EVTDESC9105729"
+		picture = "mas_fourty_nine_advanced_semi_automatic_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			mas_fourty_nine_advanced_semi_automatic_rifle_hidden = 6000
+			set_global_flag = mas_fourty_nine_advanced_semi_automatic_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### APAV40 40mm Anti-Tank Grenade
+##############################################################
+
+	country_event = {
+		id = 9105730
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			advanced_anti_tank_grenade = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105730"
+		desc = "EVTDESC9105730"
+		picture = "apav_fourty_advanced_anti_tank_grenade"
+		
+		option = {
+			name = "Put it Into Production."
+			apav_fourty_advanced_anti_tank_grenade_hidden = 6000
+			set_global_flag = apav_fourty_advanced_anti_tank_grenade
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### AMX VCI Infantry Combat Vehicle
+##############################################################
+
+	country_event = {
+		id = 9105731
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			armored_personnel_carriers = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105731"
+		desc = "EVTDESC9105731"
+		picture = "amx_vci_apc"
+		
+		option = {
+			name = "Put it Into Production."
+			amx_vci_apc_hidden = 6000
+			set_global_flag = amx_vci_apc
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### AMX-105 SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105732
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			advanced_sp_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105732"
+		desc = "EVTDESC9105732"
+		picture = "amx_one_oh_five_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			amx_one_oh_five_sp_artillery_hidden = 6000
+			set_global_flag = amx_one_oh_five_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### AMX-13 Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105733
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			light_tank_prototype = 5
+			main_battle_tank = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105733"
+		desc = "EVTDESC9105733"
+		picture = "amx_thirteen_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			amx_thirteen_light_tank_hidden = 6000
+			set_global_flag = amx_thirteen_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### AMX-50 Heavy Tank
+##############################################################
+
+	country_event = {
+		id = 9105734
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			heavy_tank_prototype = 3
+			main_battle_tank = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105734"
+		desc = "EVTDESC9105734"
+		picture = "amx_fifty_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			amx_fifty_heavy_tank_hidden = 6000
+			set_global_flag = amx_fifty_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### AMX-30 Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9105735
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FRA
+			main_battle_tank = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105735"
+		desc = "EVTDESC9105735"
+		picture = "amx_thirty_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			amx_thirty_mbt_hidden = 6000
+			set_global_flag = amx_thirty_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}			

@@ -1,0 +1,1304 @@
+700350 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700351 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700352 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700353 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700354 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700355 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700356 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700357 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700358 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700359 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700360 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700361 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700362 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700363 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700364 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700365 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700366 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700367 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700368 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700369 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700370 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700371 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700372 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700373 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700374 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700375 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700376 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700377 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700378 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700379 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700380 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700381 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700382 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700383 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700384 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700385 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700386 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700387 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700388 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700389 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700390 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700391 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700392 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700393 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700394 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700395 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700396 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700397 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700398 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700399 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700400 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700401 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700402 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700403 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700404 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700405 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700406 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700407 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700408 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700409 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700410 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700411 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700412 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700413 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700414 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700415 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700416 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700417 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700418 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700419 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700420 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700421 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700422 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700423 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700424 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+70925 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700426 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700427 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700428 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700429 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700430 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700431 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700432 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700433 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700434 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700435 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700436 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700437 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700438 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700439 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700440 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700441 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700442 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700443 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700444 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700445 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700446 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700447 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700448 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700449 = {
+	name = "Zerstorer Kommodore"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 3_Zerstorer_Kommodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

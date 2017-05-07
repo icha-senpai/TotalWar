@@ -1,0 +1,13 @@
+division = {
+		name = "6. Gebirgs-Division"
+		location = 3227 # Graz
+                leader = 249 # Schörner
+                regiment = { type = GER_A_VI_Geb name = "Stab 6. Gebirgs-Division" historical_model = 0 organisation = 1 }
+		regiment = { type = bergsjaeger_brigade name = "Gebirgsjäger-Regiment 141/143" historical_model = 5 organisation = 1 }
+                regiment = { type = pack_artillery_brigade name = "Gebirgs-Artillerie-Regiment 118" historical_model = 5 organisation = 1 }
+                regiment = { type = engineer_brigade name = "Gebirgs-Pionier-Bataillon 91" historical_model = 4 organisation = 1 }
+                regiment = { type = Recon_cavalry_brigade name = "Aufklärungs-Abteilung 112" historical_model = 5 organisation = 1 }
+                regiment = { type = anti_tank_brigade name = "Panzerjäger-Abteilung 47" historical_model = 4 organisation = 1 }
+                regiment = { type = horse_transport name = "Gefechtstross 6. Gebirgs-Division" historical_model = 0 organisation = 1 }	
+	       }
+

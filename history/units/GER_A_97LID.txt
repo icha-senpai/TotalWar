@@ -1,0 +1,12 @@
+division= {
+	name = "§Y97. Leichte Infanterie-Division§W"
+	location = 3155 #rosenheim was in bad tölz
+	leader = 361 # Weiß
+	regiment = { type = GER_A_XCVII_jaeger name = "Stab 97. Leichte Infanterie-Division" historical_model = 0 experience = 30 organisation = 1 }
+	regiment = { type = light_infantry_brigade name = "Jäger Regiment 204/207" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = anti_tank_brigade name = "Panzerjäger-Abteilung 97" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = pack_artillery_brigade name = "Artillerie-Regiment 81" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "Aufklärungs-Abteilung 97" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = engineer_brigade name = "Pionier-Bataillon 97" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = horse_transport name = "Versorgungseinheiten 97" historical_model = 0 organisation = 1 }
+}

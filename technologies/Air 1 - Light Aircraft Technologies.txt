@@ -1,0 +1,4792 @@
+#################################
+# Light Aircraft Technology
+#################################
+###########################################################################################
+## WWI Biplane Designs
+###########################################################################################
+wwi_biplane_designs = {
+	
+	allow = {
+		world_war_one_warfare = 1
+		electro_mechanical_engineering = 1
+	}
+			
+		
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = 0.15
+		air_defence = 0.10
+		maximum_speed = 15
+		range = 10
+		build_cost_ic = 0.05
+		build_time = 2
+		}		
+	cas = { 	
+		air_attack = 0.15
+		air_defence = 0.10
+		maximum_speed = 15
+		range = 10
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.15
+		air_defence = 0.10
+		maximum_speed = 15
+		range = 10
+		build_cost_ic = 0.05
+		build_time = 2
+		}		
+#######################################		
+	
+	tactical_bomber = { 	
+		air_attack = 0.15
+		air_defence = 0.10
+		maximum_speed = 15
+		range = 10
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	Flying_boat = { 	
+		air_attack = 0.15
+		air_defence = 0.10
+		maximum_speed = 15
+		range = 10
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1918
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Duralumin
+###########################################################################################
+duralumin = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		electro_mechanical_engineering = 4
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	multi_role = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	fighter_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}		
+	cas = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	heavy_cas = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	naval_dive_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	naval_cas = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	night_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	light_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	tactical_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	transport_plane = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	Flying_boat = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+#######################################			
+	naval_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	strategic_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	heavy_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	super_heavy_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	quad_engine_transport = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+#######################################		
+	rocket_interceptor = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	rocket_interceptor_van = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	jet_flying_wing = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}
+	peoples_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	jet_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	amerika_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	tactical_transport_aircraft = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 2.00
+		build_time = 10
+		}	
+	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 8
+	
+	# common for all techs.
+	start_year = 1930
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Fully Enclosed Cockpit
+###########################################################################################
+fully_enclosed_cockpit = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		electro_mechanical_engineering = 5
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	multi_role = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	fighter_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}		
+	cas = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	heavy_cas = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	naval_dive_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	naval_cas = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	night_fighter = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	light_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	tactical_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	transport_plane = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	Flying_boat = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+#######################################			
+	naval_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	strategic_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	heavy_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	super_heavy_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	quad_engine_transport = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+#######################################		
+	rocket_interceptor = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	rocket_interceptor_van = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	jet_flying_wing = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	peoples_fighter = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	jet_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	amerika_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	tactical_transport_aircraft = { 	
+		air_attack = 0.05
+		air_defence = 0.05
+		maximum_speed = 5
+		range = 5
+		build_cost_ic = 0.02
+		build_time = 1
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1931
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Radial and Inline Engine Design
+###########################################################################################
+radial_and_inline_engine_design = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		electro_mechanical_engineering = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	multi_role = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	fighter_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}		
+	cas = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	heavy_cas = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	naval_dive_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	naval_cas = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	night_fighter = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	light_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	tactical_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	transport_plane = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	Flying_boat = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+#######################################			
+	naval_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	strategic_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	heavy_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	super_heavy_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	quad_engine_transport = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+#######################################		
+	rocket_interceptor = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	rocket_interceptor_van = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	jet_flying_wing = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}
+	peoples_fighter = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	jet_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	amerika_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}	
+	tactical_transport_aircraft = { 	
+		air_attack = 0.25
+        air_defence = 0.25 
+        supply_consumption = 0.05
+		fuel_consumption = 0.05
+        build_cost_ic = 0.15
+        build_time = 3
+		maximum_speed = 7.0
+		range = 25.00
+		}			
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1926
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Mono Wing Design
+###########################################################################################
+mono_wing_design = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		electro_mechanical_engineering = 7
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	multi_role = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	fighter_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}		
+	cas = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	heavy_cas = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	naval_dive_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	naval_cas = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	night_fighter = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	light_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	tactical_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	transport_plane = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	Flying_boat = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+#######################################			
+	naval_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	strategic_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	heavy_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	super_heavy_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	quad_engine_transport = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+#######################################		
+	rocket_interceptor = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	rocket_interceptor_van = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	jet_flying_wing = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}
+	peoples_fighter = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	jet_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	amerika_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}	
+	tactical_transport_aircraft = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 40
+		range = 40
+		build_cost_ic = 0.05
+		build_time = 5
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1933
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Retractable Landing Gear
+###########################################################################################
+retractable_landing_gear = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		electro_mechanical_engineering = 8
+		hydraulics_system = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	multi_role = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	fighter_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}		
+	cas = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	heavy_cas = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	naval_dive_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	naval_cas = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	night_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	light_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	tactical_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	transport_plane = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	Flying_boat = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+#######################################			
+	naval_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	strategic_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	heavy_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	super_heavy_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	quad_engine_transport = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+#######################################		
+	rocket_interceptor = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	rocket_interceptor_van = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	jet_flying_wing = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	peoples_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	jet_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	amerika_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}	
+	tactical_transport_aircraft = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		maximum_speed = 25
+		range = 25
+		build_cost_ic = 0.04
+		build_time = 5
+		}
+	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1934
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Fighter Aircraft Armor
+###########################################################################################
+fighter_armor = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		duralumin = 1
+		fully_enclosed_cockpit = 1
+		radial_and_inline_engine_design = 1
+		mono_wing_design = 1
+		retractable_landing_gear = 1	
+		ai = no	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_defence = 1.00
+		surface_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+	pursuit_fighter = { 	
+		air_defence = 1.00
+		surface_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.50
+		build_time = 3
+		}		
+	
+	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 8
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Fighter-Bomber Aircraft Armor
+###########################################################################################
+fighter_bomber_armor = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		duralumin = 1
+		fully_enclosed_cockpit = 1
+		radial_and_inline_engine_design = 1
+		mono_wing_design = 1
+		retractable_landing_gear = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	fighter_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+	multi_role = { 	
+		air_defence = 1.00
+		surface_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+		
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 8
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## CAS Aircraft Armor
+###########################################################################################
+cas_armor = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		duralumin = 1
+		fully_enclosed_cockpit = 1
+		radial_and_inline_engine_design = 1
+		mono_wing_design = 1
+		retractable_landing_gear = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	cas = { 	
+		air_defence = 1.00
+		surface_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+	heavy_cas = { 	
+		air_defence = 1.00
+		surface_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.50
+		build_time = 3
+		}	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 8
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Fuselage Design
+###########################################################################################
+light_aircraft_fuselage_design = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1930
+	first_offset = 1934 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 15
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Wing Design
+###########################################################################################
+light_aircraft_wing_design = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1930
+	first_offset = 1934 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 15
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Horizontal Stabilizer Design
+###########################################################################################
+light_aircraft_horizontal_stabilizer_design = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1930
+	first_offset = 1934 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 15
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Vertical Stabilizer Design
+###########################################################################################
+light_aircraft_vertical_stabilizer_design = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1930
+	first_offset = 1934 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 1 year
+	max_level = 15
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Elliptical Wing Design
+###########################################################################################
+elliptical_wing_design = {
+	
+	allow = {
+		OR =  {
+			AND = {
+				light_aircraft_wing_design = 5
+				united_kingdom = 1
+				}
+			AND = {
+				light_aircraft_wing_design = 10
+				NOT = { united_kingdom = 1 }
+			}
+		}	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = 2.00
+		air_defence = 0.65
+		maximum_speed = 35
+		range = 15
+		build_cost_ic = 1.00
+		build_time = 15
+		}	
+	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 8
+	
+	# common for all techs.
+	start_year = 1938
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Extremely Lightweight Airframe Design
+###########################################################################################
+extremely_lightweight_airframe_design = {
+	
+	allow = {
+		light_aircraft_fuselage_design = 6
+		NOT = { self_sealing_fuel_tanks = 1 }
+		air_battles_fought = 250
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	naval_fighter = { 	
+		build_cost_ic = 1.00
+		build_time = 10
+		maximum_speed = 25
+		range = 300.0
+		air_attack = 1.55
+		air_defence = -2.00
+		}	
+	cag = { 	
+		build_cost_ic = 1.00
+		build_time = 10
+		maximum_speed = 15
+		range = 150.0
+		air_attack = 0.75
+		air_defence = -1.00
+		}		
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 9
+	
+	# common for all techs.
+	start_year = 1940
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Design Blueprint
+###########################################################################################
+light_aircraft_blueprint = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		light_aircraft_fuselage_design = 1 # 1930
+		light_aircraft_wing_design = 1 # 1930
+		light_aircraft_horizontal_stabilizer_design = 1 # 1930
+		light_aircraft_vertical_stabilizer_design = 1 # 1930
+		OR = {	
+			AND = { 
+				NOT = { light_aircraft_blueprint = 2 } # 1934
+				
+				light_aircraft_fuselage_design = 2 # 1934
+				light_aircraft_wing_design = 2 # 1934
+				light_aircraft_horizontal_stabilizer_design = 2 # 1934
+				light_aircraft_vertical_stabilizer_design = 2 # 1934
+				
+			}	
+			AND = { 
+				NOT = { light_aircraft_blueprint = 3 } # 1935
+			
+				light_aircraft_fuselage_design = 3 # 1935
+				light_aircraft_wing_design = 3 # 1935
+				light_aircraft_horizontal_stabilizer_design = 3 # 1935
+				light_aircraft_vertical_stabilizer_design = 3 # 1935
+				
+			}	
+			AND = { 
+				wwi_biplane_designs = 1
+				duralumin = 1
+				fully_enclosed_cockpit = 1
+				radial_and_inline_engine_design = 1
+				mono_wing_design = 1
+				retractable_landing_gear = 1
+				NOT = { light_aircraft_blueprint = 4 } # 1936
+				
+				light_aircraft_fuselage_design = 4 # 1936
+				light_aircraft_wing_design = 4 # 1936
+				light_aircraft_horizontal_stabilizer_design = 4 # 1936
+				light_aircraft_vertical_stabilizer_design = 4 # 1936
+				
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 5 } # 1937
+				
+				light_aircraft_fuselage_design = 5 # 1937
+				light_aircraft_wing_design = 5 # 1937
+				light_aircraft_horizontal_stabilizer_design = 5 # 1937
+				light_aircraft_vertical_stabilizer_design = 5 # 1937
+							
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 6 } # 1938
+			
+				light_aircraft_fuselage_design = 6 # 1938
+				light_aircraft_wing_design = 6 # 1938
+				light_aircraft_horizontal_stabilizer_design = 6 # 1938
+				light_aircraft_vertical_stabilizer_design = 6 # 1938
+				
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 7 } # 1939
+				
+				light_aircraft_fuselage_design = 7 # 1939
+				light_aircraft_wing_design = 7 # 1939
+				light_aircraft_horizontal_stabilizer_design = 7 # 1939
+				light_aircraft_vertical_stabilizer_design = 7 # 1939
+				
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 8 } # 1940
+				
+				light_aircraft_fuselage_design = 8 # 1940
+				light_aircraft_wing_design = 8 # 1940
+				light_aircraft_horizontal_stabilizer_design = 8 # 1940
+				light_aircraft_vertical_stabilizer_design = 8 # 1940
+				
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 9 } # 1941
+
+				light_aircraft_fuselage_design = 9 # 1941
+				light_aircraft_wing_design = 9 # 1941
+				light_aircraft_horizontal_stabilizer_design = 9 # 1941
+				light_aircraft_vertical_stabilizer_design = 9 # 1941
+				
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 10 } # 1942
+
+				light_aircraft_fuselage_design = 10 # 1942
+				light_aircraft_wing_design = 10 # 1942
+				light_aircraft_horizontal_stabilizer_design = 10 # 1942
+				light_aircraft_vertical_stabilizer_design = 10 # 1942
+				
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 11 } # 1943
+
+				light_aircraft_fuselage_design = 11 # 1943
+				light_aircraft_wing_design = 11 # 1943
+				light_aircraft_horizontal_stabilizer_design = 11 # 1943
+				light_aircraft_vertical_stabilizer_design = 11 # 1943
+				
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 12 } # 1944
+	
+				light_aircraft_fuselage_design = 12 # 1944
+				light_aircraft_wing_design = 12 # 1944
+				light_aircraft_horizontal_stabilizer_design = 12 # 1944
+				light_aircraft_vertical_stabilizer_design = 12 # 1944
+				
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 13 } # 1945
+
+				light_aircraft_fuselage_design = 13 # 1945
+				light_aircraft_wing_design = 13 # 1945
+				light_aircraft_horizontal_stabilizer_design = 13 # 1945
+				light_aircraft_vertical_stabilizer_design = 13 # 1945
+				
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 14 } # 1946
+
+				light_aircraft_fuselage_design = 14 # 1946
+				light_aircraft_wing_design = 14 # 1946
+				light_aircraft_horizontal_stabilizer_design = 14 # 1946
+				light_aircraft_vertical_stabilizer_design = 14 # 1946
+				
+			}
+			AND = { 
+				NOT = { light_aircraft_blueprint = 15 } # 1947
+
+				light_aircraft_fuselage_design = 15 # 1947
+				light_aircraft_wing_design = 15 # 1947
+				light_aircraft_horizontal_stabilizer_design = 15 # 1947
+				light_aircraft_vertical_stabilizer_design = 15 # 1947
+				
+			}
+		}
+	}
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1930 # Model 1 - 1930
+	first_offset = 1934 	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1934 thru 1946
+	max_level = 15
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Prototype and Testing
+###########################################################################################
+light_aircraft_prototype_and_testing = {
+	
+	allow = {
+		light_aircraft_blueprint = 1
+		OR = {
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 2 } # 1934
+				light_aircraft_blueprint = 2 # 1934
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 3 } # 1935
+				light_aircraft_blueprint = 3 # 1935
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 4 } # 1936
+				light_aircraft_blueprint = 4 # 1936
+			}
+			AND = {
+				NOT = { light_aircraft_prototype_and_testing = 5 } # 1937
+				light_aircraft_blueprint = 5 # 1937
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 6 } # 1938
+				light_aircraft_blueprint = 6 # 1938
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 7 } # 1939
+				light_aircraft_blueprint = 7 # 1939
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 8 } # 1940
+				light_aircraft_blueprint = 8 # 1940
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 9 } # 1941
+				light_aircraft_blueprint = 9 # 1941
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 10 } # 1942
+				light_aircraft_blueprint = 10 # 1942
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 11 } # 1943
+				light_aircraft_blueprint = 11 # 1943
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 12 } # 1944
+				light_aircraft_blueprint = 12 # 1944
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 13 } # 1945
+				light_aircraft_blueprint = 13 # 1945
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 14 } # 1946
+				light_aircraft_blueprint = 14 # 1946
+			}
+			AND = { 
+				NOT = { light_aircraft_prototype_and_testing = 15 } # 1947
+				light_aircraft_blueprint = 15 # 1947
+			}
+		}
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1930 # Model 1 - 1930
+	first_offset = 1934 	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 15
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Production Version
+###########################################################################################
+light_aircraft_production_model = {
+	
+	allow = {
+		light_aircraft_prototype_and_testing = 1 # 1930
+		OR = {
+			AND = { 
+				NOT = { light_aircraft_production_model = 2 } # 1934
+				light_aircraft_prototype_and_testing = 2 # 1934
+				short_range_aircraft_production = 2
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 3 } # 1935
+				light_aircraft_prototype_and_testing = 3 # 1935
+				short_range_aircraft_production = 3
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 4 } # 1936
+				light_aircraft_prototype_and_testing = 4 # 1936
+				short_range_aircraft_production = 4
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 5 } # 1937
+				light_aircraft_prototype_and_testing = 5 # 1937
+				short_range_aircraft_production = 5
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 6 } # 1938
+				light_aircraft_prototype_and_testing = 6 # 1938
+				short_range_aircraft_production = 6
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 7 } # 1939
+				light_aircraft_prototype_and_testing = 7 # 1939
+				short_range_aircraft_production = 7
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 8 } # 1940
+				light_aircraft_prototype_and_testing = 8 # 1940
+				short_range_aircraft_production = 8
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 9 } # 1941
+				light_aircraft_prototype_and_testing = 9 # 1941
+				short_range_aircraft_production = 9
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 10 } # 1942
+				light_aircraft_prototype_and_testing = 10 # 1942
+				short_range_aircraft_production = 10
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 11 } # 1943
+				light_aircraft_prototype_and_testing = 11 # 1943
+				short_range_aircraft_production = 11
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 12 } # 1944
+				light_aircraft_prototype_and_testing = 12 # 1944
+				short_range_aircraft_production = 12
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 13 } # 1945
+				light_aircraft_prototype_and_testing = 13 # 1945
+				short_range_aircraft_production = 13
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 14 } # 1946
+				light_aircraft_prototype_and_testing = 14 # 1946
+				short_range_aircraft_production = 14
+			}
+			AND = { 
+				NOT = { light_aircraft_production_model = 15 } # 1947
+				light_aircraft_prototype_and_testing = 15 # 1947
+				short_range_aircraft_production = 15
+			}
+		}		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 2.00
+		air_defence = 0.50
+		surface_defence = 0.25
+		maximum_speed = 15
+		range = 5
+		build_cost_ic = 0.25
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.10
+		hard_attack = 0.10
+		}
+		
+	multi_role = { 		
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 1.50
+		air_defence = 1.25
+		surface_defence = 1.25
+		maximum_speed = 10
+		range = 7
+		build_cost_ic = 0.30
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.75
+		hard_attack = 0.50
+		}
+
+	pursuit_fighter = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 1.65
+		air_defence = 0.75
+		surface_defence = 0.50
+		maximum_speed = 12
+		range = 15
+		build_cost_ic = 0.33
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.40
+		hard_attack = 0.40
+		}		
+		
+	fighter_bomber = { 		
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 1.15
+		air_defence = 1.50
+		surface_defence = 2.00
+		maximum_speed = 8
+		range = 5
+		build_cost_ic = 0.35
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 1.25
+		hard_attack = 1.00
+		}	
+
+	cas = { 			
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.25
+		air_defence = 1.75
+		surface_defence = 2.50
+		maximum_speed = 10
+		range = 10
+		build_cost_ic = 0.25
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 2.00
+		hard_attack = 1.50
+		}	
+	
+	heavy_cas = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.25
+		air_defence = 2.50
+		surface_defence = 5.00
+		maximum_speed = 10
+		range = -10
+		build_cost_ic = 0.45
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 3.00
+		hard_attack = 3.00
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1930 # Model 1 - 1930
+	first_offset = 1934 	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 15
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Engine Improvements
+###########################################################################################
+light_aircraft_engine_improvements = {
+	
+	allow = {
+		light_aircraft_production_model = 4
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+			
+	interceptor = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}
+	pursuit_fighter = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}	
+	multi_role = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}
+	fighter_bomber = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}		
+	cas = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}
+	heavy_cas = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}	
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1936 # Model 1 - 1936
+	first_offset = 1937 	# Model 2 - 1937
+    additional_offset = 1   # Model 3 thru 6 - 1937 thru 1943
+	max_level = 12
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Internal Mechanical Improvements
+###########################################################################################
+light_aircraft_internal_mechanical_improvements = {
+	
+	allow = {
+		light_aircraft_production_model = 4
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+			
+	interceptor = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+	pursuit_fighter = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}	
+	multi_role = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+	fighter_bomber = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}		
+	cas = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+	heavy_cas = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1936 # Model 1 - 1930
+	first_offset = 1937 	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 12
+	folder = light_aircraft_folder
+}
+
+###########################################################################################
+## Light Aircraft Aerodynamic Improvements
+###########################################################################################
+light_aircraft_aerodynamic_improvements = {
+	
+	allow = {
+		light_aircraft_production_model = 4
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	interceptor = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}	
+	multi_role = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+	fighter_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}		
+	cas = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+	heavy_cas = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1936 # Model 1 - 1935
+	first_offset = 1937 	# Model 2 - 1936
+    additional_offset = 1  # Model 3 thru 6 - 1938 thru 1944
+	max_level = 12
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Armament Improvements
+###########################################################################################
+light_aircraft_armament_improvements = {
+	
+	allow = {
+		light_aircraft_production_model = 4
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+			
+	interceptor = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}	
+	multi_role = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}
+	fighter_bomber = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}		
+	cas = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}
+	heavy_cas = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1936 # Model 1 - 1936
+	first_offset = 1937 	# Model 2 - 1937
+    additional_offset = 1  # Model 3 thru 6 - 1938 thru 1944
+	max_level = 12
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Light Aircraft Climatization Modifications
+###########################################################################################
+light_aircraft_climatization_modifications = {
+	
+	allow = {
+		light_aircraft_production_model = 7
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+			
+	interceptor = { 	
+		build_time = 1
+		default_morale = 0.01
+		}
+	pursuit_fighter = { 	
+		build_time = 1
+		default_morale = 0.01
+		}	
+	multi_role = { 	
+		build_time = 1
+		default_morale = 0.01
+		}
+	fighter_bomber = { 	
+		build_time = 1
+		default_morale = 0.01
+		}		
+	cas = { 	
+		build_time = 1
+		default_morale = 0.01
+		}
+	heavy_cas = { 	
+		build_time = 1
+		default_morale = 0.01
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1942 # Model 1 - 1936
+	first_offset = 1943 	# Model 2 - 1937
+    additional_offset = 1  # Model 3 thru 6 - 1938 thru 1944
+	max_level = 5
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Interceptor Focus
+###########################################################################################
+interceptor_focus = {
+	
+	allow = {
+		light_aircraft_production_model = 1 # 1930
+		OR = {
+			AND = { 
+				NOT = { interceptor_focus = 2 } # 1934
+				light_aircraft_production_model = 2 # 1934
+			}
+			AND = { 
+				NOT = { interceptor_focus = 3 } # 1935
+				light_aircraft_production_model = 3 # 1935
+			}
+			AND = { 
+				NOT = { interceptor_focus = 4 } # 1936
+				OR = { 
+					light_aircraft_production_model = 4 # 1936
+					OR = { 
+						light_aircraft_engine_improvements = 1
+						light_aircraft_internal_mechanical_improvements = 1
+						light_aircraft_aerodynamic_improvements = 1
+						light_aircraft_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 5 } # 1937
+				OR = { 
+					light_aircraft_production_model = 5 # 1937
+					OR = { 
+						light_aircraft_engine_improvements = 2
+						light_aircraft_internal_mechanical_improvements = 2
+						light_aircraft_aerodynamic_improvements = 2
+						light_aircraft_armament_improvements = 2
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 1
+						light_aircraft_internal_mechanical_improvements = 1
+						light_aircraft_aerodynamic_improvements = 1
+						light_aircraft_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 6 } # 1938
+				OR = { 
+					light_aircraft_production_model = 6 # 1938
+					OR = { 
+						light_aircraft_engine_improvements = 3
+						light_aircraft_internal_mechanical_improvements = 3
+						light_aircraft_aerodynamic_improvements = 3
+						light_aircraft_armament_improvements = 3
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 2
+						light_aircraft_internal_mechanical_improvements = 2
+						light_aircraft_aerodynamic_improvements = 2
+						light_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 7 } # 1939
+				OR = { 
+					light_aircraft_production_model = 7 # 1939
+					OR = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 3
+						light_aircraft_internal_mechanical_improvements = 3
+						light_aircraft_aerodynamic_improvements = 3
+						light_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 8 } # 1940
+				OR = { 
+					light_aircraft_production_model = 8 # 1940
+					OR = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 9 } # 1941
+				OR = { 
+					light_aircraft_production_model = 9 # 1941
+					OR = { 
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 10 } # 1942
+				OR = { 
+					light_aircraft_production_model = 10 # 1942
+					OR = { 
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 11 } # 1943
+				OR = { 
+					light_aircraft_production_model = 11 # 1943
+					OR = { 
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 12 } # 1944
+				OR = { 
+					light_aircraft_production_model = 12 # 1944
+					OR = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 13 } # 1945
+				OR = { 
+					light_aircraft_production_model = 13 # 1945
+					OR = { 
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 14 } # 1946
+				OR = { 
+					light_aircraft_production_model = 14 # 1946
+					OR = { 
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { interceptor_focus = 15 } # 1947
+				OR = { 
+					light_aircraft_production_model = 15 # 1947
+					OR = { 
+						light_aircraft_engine_improvements = 12
+						light_aircraft_internal_mechanical_improvements = 12
+						light_aircraft_aerodynamic_improvements = 12
+						light_aircraft_armament_improvements = 12
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}	
+					}
+			}
+		}		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = interceptor
+	
+	interceptor = { 		
+		air_attack = 0.25
+		maximum_speed = 5.0
+		build_cost_ic = 0.07
+		build_time = 1
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1930 # Model 1 - 1930
+	first_offset = 1934	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 15
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Multi-Role Fighter Focus
+###########################################################################################
+multi_role_fighter_focus = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		duralumin = 1
+		fully_enclosed_cockpit = 1
+		radial_and_inline_engine_design = 1
+		mono_wing_design = 1
+		retractable_landing_gear = 1	
+		OR = {
+			AND = { 
+				NOT = { multi_role_fighter_focus = 1 } # 1930
+				light_aircraft_production_model = 1 # 1930
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 2 } # 1934
+				light_aircraft_production_model = 2 # 1934
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 3 } # 1935
+				light_aircraft_production_model = 3 # 1935
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 4 } # 1936
+				OR = { 
+					light_aircraft_production_model = 4 # 1936
+					OR = { 
+						light_aircraft_engine_improvements = 1
+						light_aircraft_internal_mechanical_improvements = 1
+						light_aircraft_aerodynamic_improvements = 1
+						light_aircraft_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 5 } # 1937
+				OR = { 
+					light_aircraft_production_model = 5 # 1937
+					OR = {
+						light_aircraft_engine_improvements = 2
+						light_aircraft_internal_mechanical_improvements = 2
+						light_aircraft_aerodynamic_improvements = 2
+						light_aircraft_armament_improvements = 2
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 1
+						light_aircraft_internal_mechanical_improvements = 1
+						light_aircraft_aerodynamic_improvements = 1
+						light_aircraft_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 6 } # 1938
+				OR = { 
+					light_aircraft_production_model = 6 # 1938
+					OR = { 
+						light_aircraft_engine_improvements = 3
+						light_aircraft_internal_mechanical_improvements = 3
+						light_aircraft_aerodynamic_improvements = 3
+						light_aircraft_armament_improvements = 3
+						}
+					AND = {
+						light_aircraft_engine_improvements = 2
+						light_aircraft_internal_mechanical_improvements = 2
+						light_aircraft_aerodynamic_improvements = 2
+						light_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 7 } # 1939
+				OR = { 
+					light_aircraft_production_model = 7 # 1939
+					OR = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 3
+						light_aircraft_internal_mechanical_improvements = 3
+						light_aircraft_aerodynamic_improvements = 3
+						light_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 8 } # 1940
+				OR = { 
+					light_aircraft_production_model = 8 # 1940
+					OR = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 9 } # 1941
+				OR = { 
+					light_aircraft_production_model = 9 # 1941
+					OR = { 
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 10 } # 1942
+				OR = { 
+					light_aircraft_production_model = 10 # 1942
+					OR = { 
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 11 } # 1943
+				OR = { 
+					light_aircraft_production_model = 11 # 1943
+					OR = { 
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 12 } # 1944
+				OR = { 
+					light_aircraft_production_model = 12 # 1944
+					OR = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 13 } # 1945
+				OR = { 
+					light_aircraft_production_model = 13 # 1945
+					OR = { 
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}	
+					}			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 14 } # 1946
+				OR = { 
+					light_aircraft_production_model = 14 # 1946
+					OR = { 
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { multi_role_fighter_focus = 15 } # 1947
+				OR = { 
+					light_aircraft_production_model = 15 # 1947
+					OR = { 
+						light_aircraft_engine_improvements = 12
+						light_aircraft_internal_mechanical_improvements = 12
+						light_aircraft_aerodynamic_improvements = 12
+						light_aircraft_armament_improvements = 12
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = multi_role
+	
+	multi_role = { 			
+		air_attack = 0.10
+		air_defence = 0.10
+		surface_defence = 0.15
+		soft_attack = 0.15
+		hard_attack = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1930 # Model 1 - 1930
+	first_offset = 1934	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 15
+	folder = light_aircraft_folder
+}
+
+###########################################################################################
+## Pursuit Fighter Focus
+###########################################################################################
+pursuit_fighter_focus = {
+	
+	allow = {
+		light_aircraft_production_model = 1
+		OR = {
+			AND = { 
+				NOT = { pursuit_fighter_focus = 1 } # 1930
+				light_aircraft_production_model = 1 # 1930
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 2 } # 1934
+				light_aircraft_production_model = 2 # 1934
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 3 } # 1935
+				light_aircraft_production_model = 3 # 1935
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 4 } # 1936
+				OR = { 
+					light_aircraft_production_model = 4 # 1936
+					OR = { 
+						light_aircraft_engine_improvements = 1
+						light_aircraft_internal_mechanical_improvements = 1
+						light_aircraft_aerodynamic_improvements = 1
+						light_aircraft_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 5 } # 1937
+				OR = { 
+					light_aircraft_production_model = 5 # 1937
+					OR = {
+						light_aircraft_engine_improvements = 2
+						light_aircraft_internal_mechanical_improvements = 2
+						light_aircraft_aerodynamic_improvements = 2
+						light_aircraft_armament_improvements = 2
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 1
+						light_aircraft_internal_mechanical_improvements = 1
+						light_aircraft_aerodynamic_improvements = 1
+						light_aircraft_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 6 } # 1938
+				OR = { 
+					light_aircraft_production_model = 6 # 1938
+					OR = { 
+						light_aircraft_engine_improvements = 3
+						light_aircraft_internal_mechanical_improvements = 3
+						light_aircraft_aerodynamic_improvements = 3
+						light_aircraft_armament_improvements = 3
+						}
+					AND = {
+						light_aircraft_engine_improvements = 2
+						light_aircraft_internal_mechanical_improvements = 2
+						light_aircraft_aerodynamic_improvements = 2
+						light_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 7 } # 1939
+				OR = { 
+					light_aircraft_production_model = 7 # 1939
+					OR = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 3
+						light_aircraft_internal_mechanical_improvements = 3
+						light_aircraft_aerodynamic_improvements = 3
+						light_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 8 } # 1940
+				OR = { 
+					light_aircraft_production_model = 8 # 1940
+					OR = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 9 } # 1941
+				OR = { 
+					light_aircraft_production_model = 9 # 1941
+					OR = {
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 10 } # 1942
+				OR = { 
+					light_aircraft_production_model = 10 # 1942
+					OR = { 
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}
+					AND = {
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 11 } # 1943
+				OR = { 
+					light_aircraft_production_model = 11 # 1943
+					OR = { 
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 12 } # 1944
+				OR = { 
+					light_aircraft_production_model = 12 # 1944
+					OR = {
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 13 } # 1945
+				OR = { 
+					light_aircraft_production_model = 13 # 1945
+					OR = {
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}
+					AND = {
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 14 } # 1946
+				OR = { 
+					light_aircraft_production_model = 14 # 1946
+					OR = {
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = {
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { pursuit_fighter_focus = 15 } # 1947
+				OR = { 
+					light_aircraft_production_model = 15 # 1947
+					OR = { 
+						light_aircraft_engine_improvements = 12
+						light_aircraft_internal_mechanical_improvements = 12
+						light_aircraft_aerodynamic_improvements = 12
+						light_aircraft_armament_improvements = 12
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = {
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = pursuit_fighter
+		
+	pursuit_fighter = { 			
+		air_attack = 0.15
+		air_defence = 0.15
+		maximum_speed = 2
+		range = 5
+		soft_attack = 0.05
+		hard_attack = 0.05
+		build_cost_ic = 0.09
+		build_time = 1
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1930 # Model 1 - 1930
+	first_offset = 1934	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 15
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Fighter-Bomber Focus
+###########################################################################################
+fighter_bomber_focus = {
+	
+	allow = {
+		light_aircraft_production_model = 1
+		OR = {
+			AND = { 
+				NOT = { fighter_bomber_focus = 1 } # 1930
+				light_aircraft_production_model = 1 # 1930
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 2 } # 1934
+				light_aircraft_production_model = 2 # 1934
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 3 } # 1935
+				light_aircraft_production_model = 3 # 1935
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 4 } # 1936
+				OR = { 
+					light_aircraft_production_model = 4 # 1936
+					OR = { 
+						light_aircraft_engine_improvements = 1
+						light_aircraft_internal_mechanical_improvements = 1
+						light_aircraft_aerodynamic_improvements = 1
+						light_aircraft_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 5 } # 1937
+				OR = { 
+					light_aircraft_production_model = 5 # 1937
+					OR = { 
+						light_aircraft_engine_improvements = 2
+						light_aircraft_internal_mechanical_improvements = 2
+						light_aircraft_aerodynamic_improvements = 2
+						light_aircraft_armament_improvements = 2
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 1
+						light_aircraft_internal_mechanical_improvements = 1
+						light_aircraft_aerodynamic_improvements = 1
+						light_aircraft_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 6 } # 1938
+				OR = { 
+					light_aircraft_production_model = 6 # 1938
+					OR = { 
+						light_aircraft_engine_improvements = 3
+						light_aircraft_internal_mechanical_improvements = 3
+						light_aircraft_aerodynamic_improvements = 3
+						light_aircraft_armament_improvements = 3
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 2
+						light_aircraft_internal_mechanical_improvements = 2
+						light_aircraft_aerodynamic_improvements = 2
+						light_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 7 } # 1939
+				OR = { 
+					light_aircraft_production_model = 7 # 1939
+					OR = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 3
+						light_aircraft_internal_mechanical_improvements = 3
+						light_aircraft_aerodynamic_improvements = 3
+						light_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 8 } # 1940
+				OR = { 
+					light_aircraft_production_model = 8 # 1940
+					OR = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 9 } # 1941
+				OR = { 
+					light_aircraft_production_model = 9 # 1941
+					OR = { 
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 10 } # 1942
+				OR = { 
+					light_aircraft_production_model = 10 # 1942
+					OR = {
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 11 } # 1943
+				OR = { 
+					light_aircraft_production_model = 11 # 1943
+					OR = { 
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}
+					AND = {
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 12 } # 1944
+				OR = { 
+					light_aircraft_production_model = 12 # 1944
+					OR = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 13 } # 1945
+				OR = { 
+					light_aircraft_production_model = 13 # 1945
+					OR = { 
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 14 } # 1946
+				OR = { 
+					light_aircraft_production_model = 14 # 1946
+					OR = { 
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { fighter_bomber_focus = 15 } # 1947
+				OR = { 
+					light_aircraft_production_model = 15 # 1947
+					OR = { 
+						light_aircraft_engine_improvements = 12
+						light_aircraft_internal_mechanical_improvements = 12
+						light_aircraft_aerodynamic_improvements = 12
+						light_aircraft_armament_improvements = 12
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = fighter_bomber
+		
+	fighter_bomber = { 			
+		surface_defence = 0.30
+		soft_attack = 0.25
+		hard_attack = 0.35
+		build_cost_ic = 0.12
+		build_time = 1
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1930 # Model 1 - 1930
+	first_offset = 1934	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 15
+	folder = light_aircraft_folder
+}
+###########################################################################################
+## Close Air Support Focus
+###########################################################################################
+close_air_support_focus = {
+	
+	allow = {
+		wwi_biplane_designs = 1	
+		radial_and_inline_engine_design = 1
+		OR = {
+			AND = { 
+				NOT = { close_air_support_focus = 2 } # 1934
+				light_aircraft_production_model = 2 # 1934
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 3 } # 1935
+				light_aircraft_production_model = 3 # 1935
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 4 } # 1936
+				OR = { 
+					light_aircraft_production_model = 4 # 1936
+					OR = { 
+						light_aircraft_engine_improvements = 1
+						light_aircraft_internal_mechanical_improvements = 1
+						light_aircraft_aerodynamic_improvements = 1
+						light_aircraft_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 5 } # 1937
+				OR = { 
+					light_aircraft_production_model = 5 # 1937
+					OR = { 
+						light_aircraft_engine_improvements = 2
+						light_aircraft_internal_mechanical_improvements = 2
+						light_aircraft_aerodynamic_improvements = 2
+						light_aircraft_armament_improvements = 2
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 1
+						light_aircraft_internal_mechanical_improvements = 1
+						light_aircraft_aerodynamic_improvements = 1
+						light_aircraft_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 6 } # 1938
+				OR = { 
+					light_aircraft_production_model = 6 # 1938
+					OR = {
+						light_aircraft_engine_improvements = 3
+						light_aircraft_internal_mechanical_improvements = 3
+						light_aircraft_aerodynamic_improvements = 3
+						light_aircraft_armament_improvements = 3
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 2
+						light_aircraft_internal_mechanical_improvements = 2
+						light_aircraft_aerodynamic_improvements = 2
+						light_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 7 } # 1939
+				OR = { 
+					light_aircraft_production_model = 7 # 1939
+					OR = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}
+					AND = {
+						light_aircraft_engine_improvements = 3
+						light_aircraft_internal_mechanical_improvements = 3
+						light_aircraft_aerodynamic_improvements = 3
+						light_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 8 } # 1940
+				OR = { 
+					light_aircraft_production_model = 8 # 1940
+					OR = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 9 } # 1941
+				OR = { 
+					light_aircraft_production_model = 9 # 1941
+					OR = {
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 10 } # 1942
+				OR = { 
+					light_aircraft_production_model = 10 # 1942
+					OR = { 
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}
+					AND = {
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 11 } # 1943
+				OR = { 
+					light_aircraft_production_model = 11 # 1943
+					OR = { 
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 12 } # 1944
+				OR = { 
+					light_aircraft_production_model = 12 # 1944
+					OR = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 13 } # 1945
+				OR = { 
+					light_aircraft_production_model = 13 # 1945
+					OR = { 
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 14 } # 1946
+				OR = { 
+					light_aircraft_production_model = 14 # 1946
+					OR = { 
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { close_air_support_focus = 15 } # 1947
+				OR = { 
+					light_aircraft_production_model = 15 # 1947
+					OR = { 
+						light_aircraft_engine_improvements = 12
+						light_aircraft_internal_mechanical_improvements = 12
+						light_aircraft_aerodynamic_improvements = 12
+						light_aircraft_armament_improvements = 12
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}	
+					}
+			}
+		}	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = cas
+	
+	cas = { 			
+		surface_defence = 0.30
+		soft_attack = 0.25
+		hard_attack = 0.35
+		build_cost_ic = 0.06
+		build_time = 1
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1930 # Model 1 - 1930
+	first_offset = 1934	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 15
+	folder = light_aircraft_folder
+}
+
+###########################################################################################
+## Heavy Close Air Support Focus
+###########################################################################################
+heavy_close_air_support_focus = {
+	
+	allow = {
+		light_aircraft_production_model = 6
+		OR = { 
+			AND = { 
+				NOT = { heavy_close_air_support_focus = 1 } # 1939
+				OR = { 
+					light_aircraft_production_model = 7 # 1939
+					OR = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}
+					}
+			}
+			AND = { 
+				NOT = { heavy_close_air_support_focus = 2 } # 1940
+				OR = { 
+					light_aircraft_production_model = 8 # 1940
+					OR = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 4
+						light_aircraft_internal_mechanical_improvements = 4
+						light_aircraft_aerodynamic_improvements = 4
+						light_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_close_air_support_focus = 3 } # 1941
+				OR = { 
+					light_aircraft_production_model = 9 # 1941
+					OR = { 
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 5
+						light_aircraft_internal_mechanical_improvements = 5
+						light_aircraft_aerodynamic_improvements = 5
+						light_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_close_air_support_focus = 4 } # 1942
+				OR = { 
+					light_aircraft_production_model = 10 # 1942
+					OR = { 
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 6
+						light_aircraft_internal_mechanical_improvements = 6
+						light_aircraft_aerodynamic_improvements = 6
+						light_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_close_air_support_focus = 5 } # 1943
+				OR = { 
+					light_aircraft_production_model = 11 # 1943
+					OR = {
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 7
+						light_aircraft_internal_mechanical_improvements = 7
+						light_aircraft_aerodynamic_improvements = 7
+						light_aircraft_armament_improvements = 7
+						light_aircraft_climatization_modifications = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_close_air_support_focus = 6 } # 1944
+				OR = { 
+					light_aircraft_production_model = 12 # 1944
+					OR = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}
+					AND = {
+						light_aircraft_engine_improvements = 8
+						light_aircraft_internal_mechanical_improvements = 8
+						light_aircraft_aerodynamic_improvements = 8
+						light_aircraft_armament_improvements = 8
+						light_aircraft_climatization_modifications = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_close_air_support_focus = 7 } # 1945
+				OR = { 
+					light_aircraft_production_model = 13 # 1945
+					OR = {
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}
+					AND = { 
+						light_aircraft_engine_improvements = 9
+						light_aircraft_internal_mechanical_improvements = 9
+						light_aircraft_aerodynamic_improvements = 9
+						light_aircraft_armament_improvements = 9
+						light_aircraft_climatization_modifications = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_close_air_support_focus = 8 } # 1946
+				OR = { 
+					light_aircraft_production_model = 14 # 1946
+					OR = {
+						light_aircraft_engine_improvements = 11
+						light_aircraft_internal_mechanical_improvements = 11
+						light_aircraft_aerodynamic_improvements = 11
+						light_aircraft_armament_improvements = 11
+						light_aircraft_climatization_modifications = 5
+						}
+					AND = {
+						light_aircraft_engine_improvements = 10
+						light_aircraft_internal_mechanical_improvements = 10
+						light_aircraft_aerodynamic_improvements = 10
+						light_aircraft_armament_improvements = 10
+						light_aircraft_climatization_modifications = 4
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	activate_unit = heavy_cas
+	
+	heavy_cas = { 		
+		surface_defence = 0.50
+		soft_attack = 0.35
+		hard_attack = 0.50
+		build_cost_ic = 0.10
+		build_time = 2
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.75
+	}
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1939 # Model 1 - 1930
+	first_offset = 1940	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 8
+	folder = light_aircraft_folder
+}
+################################################################################
+# FIGHTER AIRCRAFT BOMB LOAD PLUS
+################################################################################
+fighter_bomb_load_plus = {
+	
+	allow = {
+		ai = no
+		OR = {
+		interceptor_focus = 1
+		pursuit_fighter_focus = 1
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.35
+		hard_attack = 0.15
+		maximum_speed = -25
+		range = -50
+		supply_consumption = 0.10
+		}	
+	pursuit_fighter = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.60
+		hard_attack = 0.30
+		maximum_speed = -25
+		range = -50
+		supply_consumption = 0.10
+		}	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+		
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = light_aircraft_folder
+}
+################################################################################
+# MULTI-ROLE FIGHTER AIRCRAFT BOMB LOAD PLUS
+################################################################################
+multi_role_fighter_bomb_load_plus = {
+	
+	allow = {
+		multi_role_fighter_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	multi_role = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.75
+		hard_attack = 0.45
+		maximum_speed = -25
+		range = -50
+		supply_consumption = 0.10
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+		
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = light_aircraft_folder
+}
+################################################################################
+# FIGHTER BOMBER AIRCRAFT BOMB LOAD PLUS
+################################################################################
+fighter_bomber_bomb_load_plus = {
+	
+	allow = {
+		fighter_bomber_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	fighter_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 1.00
+		hard_attack = 0.75
+		maximum_speed = -25
+		range = -50
+		supply_consumption = 0.10
+		}
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+		
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = light_aircraft_folder
+}
+################################################################################
+# CAS AIRCRAFT BOMB LOAD PLUS
+################################################################################
+cas_bomb_load_plus = {
+	
+	allow = {
+		close_air_support_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	cas = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 1.25
+		hard_attack = 1.50
+		maximum_speed = -25
+		range = -50
+		supply_consumption = 0.10
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = light_aircraft_folder
+}
+################################################################################
+# HEAVY CAS AIRCRAFT BOMB LOAD PLUS
+################################################################################
+heavy_cas_bomb_load_plus = {
+	
+	allow = {
+		heavy_close_air_support_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	heavy_cas = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 1.75
+		hard_attack = 2.00
+		maximum_speed = -25
+		range = -50
+		supply_consumption = 0.10
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = light_aircraft_folder
+}
+################################################################################
+# FIGHTER AIRCRAFT BOMB LOAD MINUS
+################################################################################
+fighter_bomb_load_minus = {
+	
+	allow = {
+		fighter_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { fighter_bomb_load_minus = 3 } # 1940
+				fighter_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { fighter_bomb_load_minus = 4 } # 1942
+				fighter_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { fighter_bomb_load_minus = 5 } # 1944
+				fighter_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { fighter_bomb_load_minus = 6 } # 1946
+				fighter_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.35
+		hard_attack = -0.15
+		maximum_speed = 25
+		range = 50
+		supply_consumption = -0.10
+		}	
+	pursuit_fighter = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.60
+		hard_attack = -0.30
+		maximum_speed = 25
+		range = 50
+		supply_consumption = -0.10
+		}		
+
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+		
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = light_aircraft_folder
+}
+################################################################################
+# MULTI-ROLE FIGHTER AIRCRAFT BOMB LOAD MINUS
+################################################################################
+multi_role_fighter_bomb_load_minus = {
+	
+	allow = {
+		multi_role_fighter_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { multi_role_fighter_bomb_load_minus = 3 } # 1940
+				multi_role_fighter_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { multi_role_fighter_bomb_load_minus = 4 } # 1942
+				multi_role_fighter_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { multi_role_fighter_bomb_load_minus = 5 } # 1944
+				multi_role_fighter_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { multi_role_fighter_bomb_load_minus = 6 } # 1946
+				multi_role_fighter_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	multi_role = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.75
+		hard_attack = -0.45
+		maximum_speed = 25
+		range = 50
+		supply_consumption = -0.10
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	ai = no
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = light_aircraft_folder
+}
+################################################################################
+# FIGHTER BOMBER AIRCRAFT BOMB LOAD MINUS
+################################################################################
+fighter_bomber_bomb_load_minus = {
+	
+	allow = {
+		fighter_bomber_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { fighter_bomber_bomb_load_minus = 3 } # 1940
+				fighter_bomber_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { fighter_bomber_bomb_load_minus = 4 } # 1942
+				fighter_bomber_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { fighter_bomber_bomb_load_minus = 5 } # 1944
+				fighter_bomber_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { fighter_bomber_bomb_load_minus = 6 } # 1946
+				fighter_bomber_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	fighter_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -1.00
+		hard_attack = -0.75
+		maximum_speed = 25
+		range = 50
+		supply_consumption = -0.10
+		}
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = light_aircraft_folder
+}
+################################################################################
+# CAS AIRCRAFT BOMB LOAD MINUS
+################################################################################
+cas_bomb_load_minus = {
+	
+	allow = {
+		cas_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { cas_bomb_load_minus = 3 } # 1940
+				cas_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { cas_bomb_load_minus = 4 } # 1942
+				cas_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { cas_bomb_load_minus = 5 } # 1944
+				cas_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { cas_bomb_load_minus = 6 } # 1946
+				cas_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	cas = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -1.25
+		hard_attack = -1.50
+		maximum_speed = 25
+		range = 50
+		supply_consumption = -0.10
+		}
+
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = light_aircraft_folder
+}
+################################################################################
+# HEAVY CAS AIRCRAFT BOMB LOAD MINUS
+################################################################################
+heavy_cas_bomb_load_minus = {
+	
+	allow = {
+		heavy_cas_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { heavy_cas_bomb_load_minus = 3 } # 1940
+				heavy_cas_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { heavy_cas_bomb_load_minus = 4 } # 1942
+				heavy_cas_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { heavy_cas_bomb_load_minus = 5 } # 1944
+				heavy_cas_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { heavy_cas_bomb_load_minus = 6 } # 1946
+				heavy_cas_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	heavy_cas = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -1.75
+		hard_attack = -2.00
+		maximum_speed = 25
+		range = 50
+		supply_consumption = -0.10
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = light_aircraft_folder
+}

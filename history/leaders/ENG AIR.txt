@@ -1,0 +1,1925 @@
+620620 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620601 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620602 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620603 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620604 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620605 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620606 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620607 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620608 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620609 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620610 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620611 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620612 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620613 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620614 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620615 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620616 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620617 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620618 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620619 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620620 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620621 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620622 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620623 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620624 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620625 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620626 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620627 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620628 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620629 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620630 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620631 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620632 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620633 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620634 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620635 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620636 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620637 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620638 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620639 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620640 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620641 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620642 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620643 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620644 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620645 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620646 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620647 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620648 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620649 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+620650 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620651 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620652 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620653 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620654 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620655 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620656 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620657 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620658 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620659 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620660 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620661 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620662 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620663 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620664 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620665 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620666 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620667 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620668 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620669 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620670 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620671 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620672 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620673 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620674 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620675 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620676 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620677 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620678 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620679 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620680 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620681 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620682 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620683 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620684 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620685 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620686 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620687 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620688 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620689 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620690 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620691 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620692 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620693 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620694 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620695 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620696 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620697 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620698 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620699 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620700 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620701 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620702 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620703 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620704 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620705 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620706 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620707 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620708 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620709 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620710 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620711 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620712 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620713 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620714 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620715 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620716 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620717 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620718 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620719 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620720 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620721 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620722 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620723 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620724 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620725 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620726 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620727 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620728 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620729 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620730 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620731 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620732 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620733 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620734 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620735 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620736 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620737 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620738 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620739 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620740 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620741 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620742 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620743 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620744 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620745 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620746 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620747 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620748 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+620749 = {
+	name = "RAF Group Captain"
+	country = ENG
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_RAF_AIR_COMMODORE
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

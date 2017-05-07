@@ -1,0 +1,21 @@
+theatre = {
+	name = "Ushtria Mbretërore Shqiptare"
+	location = 4716
+	regiment = { type = hq_brigade historical_model = 0 }
+	
+division= {
+			name = "Tribal Militia"
+			location = 4494
+			is_reserve = yes
+			regiment = { type = militia_brigade historical_model = 0 }
+			
+		}
+navy = {
+	name = "Albanian Navy"
+	base = 4663
+	location = 4663
+	ship = { type = motor_torpedo_boat name = "1st MTB Flotilla" historical_model = 0 }
+
+}
+}
+

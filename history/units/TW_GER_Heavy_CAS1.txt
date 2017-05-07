@@ -1,0 +1,12 @@
+military_construction = {
+	country = GER
+	
+	heavy_cas = { 
+		historical_model = 3
+	}
+		
+	cost = 10.00
+	duration = 90
+	progress = 15
+}
+#EOF#

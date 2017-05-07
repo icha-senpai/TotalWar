@@ -1,0 +1,52 @@
+SBB_Musashi = {
+	type = naval
+	sprite = Battleship
+	capital = yes
+	can_be_pride = yes
+	hull = 6.35
+	active = no
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 40
+	default_morale = 0.60
+	officers = 125
+
+	#Building Costs
+	build_cost_ic = 18.25
+	build_cost_manpower = 2.800
+	build_time = 720
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 54.25
+	transport_capability = 0.00
+	supply_consumption = 6.55
+	fuel_consumption = 5.45
+	range = 12000.00
+	distance = 0.45
+	positioning = 0.30
+	radio_strength = 1
+
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 1.00
+	sub_detection = 0.00
+	visibility = 165.00
+
+	#Defensive Abilities
+	sea_defence = 85.15
+	air_defence = 75.00 
+
+	#Offensive Abilities
+	convoy_attack = 13.00
+	sea_attack = 65.25
+	sub_attack = 0.00
+	air_attack = 0.0
+	shore_bombardment = 21.00
+
+	completion_size = 8
+	on_completion = capitalship_practical
+	
+	priority = 90
+}

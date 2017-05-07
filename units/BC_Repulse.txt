@@ -1,0 +1,53 @@
+BC_Repulse = {
+	type = naval
+	sprite = Battlecruiser
+	capital = yes
+	can_be_pride = yes
+	active = no
+	
+	hull = 4.00
+
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 35
+	default_morale = 0.55
+	officers = 85
+
+	#Building Costs
+	build_cost_ic = 9.50
+	build_cost_manpower = 1.425
+	build_time = 460
+	repair_cost_multiplier = 0.20
+
+	#Misc Abilities
+	maximum_speed = 55.50
+	transport_capability = 0.00
+	supply_consumption = 4.25
+	fuel_consumption = 2.75
+	range = 5500.00
+	distance = 0.30
+	radio_strength = 1.25
+	positioning = 0.25
+	
+	#Detection Abilities
+	surface_detection = 1.50
+	air_detection = 1.50
+	sub_detection = 0.00
+	visibility = 100.00
+
+	#Defensive Abilities
+	sea_defence = 60.00
+	air_defence = 22.0 
+
+	#Offensive Abilities
+	convoy_attack = 14.50
+	sea_attack = 27.25
+	sub_attack = 0.00
+	air_attack = 0
+	shore_bombardment = 7.00
+
+	completion_size = 3
+	on_completion = capitalship_practical
+	
+	priority = 88
+}

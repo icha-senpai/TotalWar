@@ -1,0 +1,22 @@
+military_construction = {
+	country = GER
+	BB_Scharnhorst = {
+		name = "Scharnhorst"
+		historical_model = 1
+	}
+	
+	cost = 17.00
+	progress = 200
+	duration = 1600
+}
+military_construction = {
+	country = GER
+	BB_Gneisenau = {
+		name = "Gneisenau"
+		historical_model = 1
+	}
+	
+	cost = 17.00
+	progress = 200
+	duration = 1600
+}

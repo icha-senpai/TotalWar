@@ -1,0 +1,20 @@
+corps = {
+	name = "7. U-Flottille 'Wegener'"
+	location = 1572 #Kiel
+	regiment = { type = naval_hq_brigade name = "7. U-Flottille 'Wegener'" historical_model = 0 }
+
+	navy = {
+		name = "7. U-Flottille 'Wegener'"
+		base = 1572
+		location = 1572
+		leader = 600391
+		ship = { type = submarine name = "U-100" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-101" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-102" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-103" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-104" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-105" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+	}
+	
+}
+#EOF#

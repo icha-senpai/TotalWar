@@ -1,0 +1,1401 @@
+##############################################################
+############# Japanese Army Unique Weapons Activation Events     ###########
+##############################################################
+##############################################################
+#### Infantry Weapons
+##############################################################
+##############################################################
+#### Arisaka Type 38 Rifle
+##############################################################
+
+	country_event = {
+		id = 9105200
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105200"
+		desc = "EVTDESC9105200"
+		picture = "arisaka_type_thirty_eight_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			arisaka_type_thirty_eight_rifle_hidden = 6000
+			set_global_flag = arisaka_type_thirty_eight_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Arisaka Type 44 Cavalry Rifle Carbine
+##############################################################
+
+	country_event = {
+		id = 9105201
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105201"
+		desc = "EVTDESC9105201"
+		picture = "arisaka_type_fourty_four_cavalry_carbine"
+		
+		option = {
+			name = "Put it Into Production."
+			arisaka_type_fourty_four_cavalry_carbine_hidden = 6000
+			set_global_flag = arisaka_type_fourty_four_cavalry_carbine
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Arisaka Type 99 (Rifle) Bolt-Action Rifle
+##############################################################
+
+	country_event = {
+		id = 9105202
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			rifle_prototype = 3
+			has_global_flag = arisaka_type_thirty_eight_rifle
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105202"
+		desc = "EVTDESC9105202"
+		picture = "arisaka_type_ninety_nine_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			arisaka_type_ninety_nine_rifle_hidden = 6000
+			set_global_flag = arisaka_type_ninety_nine_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 11 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105203
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			lmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105203"
+		desc = "EVTDESC9105203"
+		picture = "type_eleven_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			type_eleven_lmg_hidden = 6000
+			set_global_flag = type_eleven_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 2 Rifle Grenade Launcher
+##############################################################
+
+	country_event = {
+		id = 9105204
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			rifle_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105204"
+		desc = "EVTDESC9105204"
+		picture = "type_two_rifle_grenade_launcher"
+		
+		option = {
+			name = "Put it Into Production."
+			type_two_rifle_grenade_launcher_hidden = 6000
+			set_global_flag = type_two_rifle_grenade_launcher
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 92 Shiki Kikanju Heavy Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105205
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			rifle_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105205"
+		desc = "EVTDESC9105205"
+		picture = "type_ninety_two_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_two_hmg_hidden = 6000
+			set_global_flag = type_ninety_two_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 96 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105206
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			lmg_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105206"
+		desc = "EVTDESC9105206"
+		picture = "type_ninety_six_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_six_lmg_hidden = 6000
+			set_global_flag = type_ninety_six_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 99 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105207
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			lmg_prototype = 3
+			has_global_flag = type_ninety_six_lmg
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105207"
+		desc = "EVTDESC9105207"
+		picture = "type_ninety_nine_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_nine_lmg_hidden = 6000
+			set_global_flag = type_ninety_nine_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 94 90mm Infantry Mortar
+##############################################################
+
+	country_event = {
+		id = 9105208
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			mortar_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105208"
+		desc = "EVTDESC9105208"
+		picture = "type_ninety_four_ninety_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_four_ninety_mm_mortar_hidden = 6000
+			set_global_flag = type_ninety_four_ninety_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 97 50mm Mortar
+##############################################################
+
+	country_event = {
+		id = 9105209
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			mortar_prototype = 2
+			has_global_flag = type_ninety_four_ninety_mm_mortar
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105209"
+		desc = "EVTDESC9105209"
+		picture = "type_ninety_seven_eighty_one_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_seven_eighty_one_mm_mortar_hidden = 6000
+			set_global_flag = type_ninety_seven_eighty_one_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}			
+##############################################################
+#### Type 97 ATR
+##############################################################
+
+	country_event = {
+		id = 9105210
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			anti_tank_rifle_prototype = 1
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105210"
+		desc = "EVTDESC9105210"
+		picture = "type_ninety_seven_anti_tank_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_seven_anti_tank_rifle_hidden = 6000
+			set_global_flag = type_ninety_seven_anti_tank_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}			
+##############################################################
+#### Type 38 75mm Field Gun
+##############################################################
+
+	country_event = {
+		id = 9105211
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			infantry_guns = 1
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105211"
+		desc = "EVTDESC9105211"
+		picture = "type_thirty_eight_seventy_five_mm_field_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			type_thirty_eight_seventy_five_mm_field_gun_hidden = 6000
+			set_global_flag = type_thirty_eight_seventy_five_mm_field_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 90 75mm Field Gun
+##############################################################
+
+	country_event = {
+		id = 9105212
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			infantry_guns = 1
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105212"
+		desc = "EVTDESC9105212"
+		picture = "type_ninety_seventy_five_mm_field_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_seventy_five_mm_field_gun_hidden = 6000
+			set_global_flag = type_ninety_seventy_five_mm_field_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 91 105mm Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105213
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			med_field_artillery = 1
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105213"
+		desc = "EVTDESC9105213"
+		picture = "type_ninety_one_one_hundred_five_mm_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_one_one_hundred_five_mm_howitzer_hidden = 6000
+			set_global_flag = type_ninety_one_one_hundred_five_mm_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 94 37mm Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105214
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			anti_tank_gun = 1
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105214"
+		desc = "EVTDESC9105214"
+		picture = "type_ninety_four_thirty_seven_mm_anti_tank_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_four_thirty_seven_mm_anti_tank_gun_hidden = 6000
+			set_global_flag = type_ninety_four_thirty_seven_mm_anti_tank_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 1 47mm Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105215
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			anti_tank_gun = 3
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105215"
+		desc = "EVTDESC9105215"
+		picture = "type_one_fourty_seven_mm_anti_tank_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			type_one_fourty_seven_mm_anti_tank_gun_hidden = 6000
+			set_global_flag = type_one_fourty_seven_mm_anti_tank_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 98 20 mm AA machine cannon
+##############################################################
+
+	country_event = {
+		id = 9105216
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			anti_aircraft_gun = 3
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105216"
+		desc = "EVTDESC9105216"
+		picture = "type_ninety_eight_twenty_mm_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_eight_twenty_mm_anti_air_gun_hidden = 6000
+			set_global_flag = type_ninety_eight_twenty_mm_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 96 25 mm AA machine cannon
+##############################################################
+
+	country_event = {
+		id = 9105217
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			anti_aircraft_gun = 1
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105217"
+		desc = "EVTDESC9105217"
+		picture = "type_ninety_six_twenty_five_mm_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_six_twenty_five_mm_anti_air_gun_hidden = 6000
+			set_global_flag = type_ninety_six_twenty_five_mm_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 98 320 mm mortar
+##############################################################
+
+	country_event = {
+		id = 9105218
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			mortar_prototype = 4
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105218"
+		desc = "EVTDESC9105218"
+		picture = "type_ninety_eight_three_hundred_twenty_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_eight_three_hundred_twenty_mm_mortar_hidden = 6000
+			set_global_flag = type_ninety_eight_three_hundred_twenty_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 4 200mm Rocket Launcher
+##############################################################
+
+	country_event = {
+		id = 9105219
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			rocket_artillery = 3
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105219"
+		desc = "EVTDESC9105219"
+		picture = "type_four_two_hundred_mm_rocket_launcher"
+		
+		option = {
+			name = "Put it Into Production."
+			type_four_two_hundred_mm_rocket_launcher_hidden = 6000
+			set_global_flag = type_four_two_hundred_mm_rocket_launcher
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 4 70mm Anti-Tank Rocket 
+##############################################################
+
+	country_event = {
+		id = 9105220
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			rocket_at_prototype = 2
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105220"
+		desc = "EVTDESC9105220"
+		picture = "type_four_seventy_mm_anti_tank_rocket"
+		
+		option = {
+			name = "Put it Into Production."
+			type_four_seventy_mm_anti_tank_rocket_hidden = 6000
+			set_global_flag = type_four_seventy_mm_anti_tank_rocket
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### TYPE 92 JYU-SOKOSHA TANKETTE
+##############################################################
+
+	country_event = {
+		id = 9105221
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			light_tank_prototype = 1
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105221"
+		desc = "EVTDESC9105221"
+		picture = "type_ninety_two_tankette"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_two_tankette_hidden = 6000
+			set_global_flag = type_ninety_two_tankette
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### TYPE 89 I-Go Infantry Tank
+##############################################################
+
+	country_event = {
+		id = 9105222
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			infantry_tank_design = 1
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105222"
+		desc = "EVTDESC9105222"
+		picture = "type_eighty_nine_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_eighty_nine_infantry_tank_hidden = 6000
+			set_global_flag = type_eighty_nine_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### TYPE 95 Ha-Go Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105223
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			light_tank_prototype = 1
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105223"
+		desc = "EVTDESC9105223"
+		picture = "type_ninety_five_ha_go_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_five_ha_go_light_tank_hidden = 6000
+			set_global_flag = type_ninety_five_ha_go_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### TYPE 97 Chi-Ha Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105224
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			light_tank_prototype = 2
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105224"
+		desc = "EVTDESC9105224"
+		picture = "type_ninety_seven_chi_ha_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_seven_chi_ha_light_tank_hidden = 6000
+			set_global_flag = type_ninety_seven_chi_ha_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### TYPE 97 Chi-Ha Shinoto Infantry Tank
+##############################################################
+
+	country_event = {
+		id = 9105225
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			infantry_tank_design = 2
+		
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105225"
+		desc = "EVTDESC9105225"
+		picture = "type_ninety_seven_chi_ha_shinhoto_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_ninety_seven_chi_ha_shinhoto_infantry_tank_hidden = 6000
+			set_global_flag = type_ninety_seven_chi_ha_shinhoto_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### TYPE 1 Chi-He Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9105226
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			medium_tank_prototype = 2
+			light_tank_gun_design = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105226"
+		desc = "EVTDESC9105226"
+		picture = "type_one_chi_he_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_one_chi_he_medium_tank_hidden = 6000
+			set_global_flag = type_one_chi_he_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### TYPE 3 Chi-Nu Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9105227
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			medium_tank_prototype = 2
+			medium_velocity_tank_gun = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105227"
+		desc = "EVTDESC9105227"
+		picture = "type_three_chi_nu_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_three_chi_nu_medium_tank_hidden = 6000
+			set_global_flag = type_three_chi_nu_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### TYPE 4 Chi-To Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9105228
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			medium_tank_prototype = 3
+
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105228"
+		desc = "EVTDESC9105228"
+		picture = "type_four_chi_to_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_four_chi_to_medium_tank_hidden = 6000
+			set_global_flag = type_four_chi_to_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### TYPE 5 Chi-Ri Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9105229
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			medium_tank_prototype = 3
+			high_velocity_tank_gun = 2
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105229"
+		desc = "EVTDESC9105229"
+		picture = "type_five_chi_ri_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_five_chi_ri_medium_tank_hidden = 6000
+			set_global_flag = type_five_chi_ri_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### I-O Super Heavy Tank
+##############################################################
+
+	country_event = {
+		id = 9105230
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			super_heavy_tank_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105230"
+		desc = "EVTDESC9105230"
+		picture = "i_o_super_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			i_o_super_heavy_tank_hidden = 6000
+			set_global_flag = i_o_super_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 2 Ka-Mi Amphibious Tank
+##############################################################
+
+	country_event = {
+		id = 9105231
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			light_tank_prototype = 2
+			amphibious_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105231"
+		desc = "EVTDESC9105231"
+		picture = "type_two_ka_mi_amphibious_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_two_ka_mi_amphibious_tank_hidden = 6000
+			set_global_flag = type_two_ka_mi_amphibious_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 3 Ka-Chi Amphibious Tank
+##############################################################
+
+	country_event = {
+		id = 9105232
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			light_tank_prototype = 3
+			amphibious_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105232"
+		desc = "EVTDESC9105232"
+		picture = "type_three_ka_chi_amphibious_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_three_ka_chi_amphibious_tank_hidden = 6000
+			set_global_flag = type_three_ka_chi_amphibious_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 5 To-Ku Amphibious Tank
+##############################################################
+
+	country_event = {
+		id = 9105233
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			light_tank_prototype = 4
+			amphibious_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105233"
+		desc = "EVTDESC9105233"
+		picture = "type_five_to_ku_amphibious_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_five_to_ku_amphibious_tank_hidden = 6000
+			set_global_flag = type_five_to_ku_amphibious_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 1 Gun Tank Ho-Ni I Assault Gun
+##############################################################
+
+	country_event = {
+		id = 9105234
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			assault_gun_prototype = 2
+	
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105234"
+		desc = "EVTDESC9105234"
+		picture = "type_one_ho_ni_assault_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			type_one_ho_ni_assault_gun_hidden = 6000
+			set_global_flag = type_one_ho_ni_assault_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 2 Gun Tank Ho-I Infantry Tank
+##############################################################
+
+	country_event = {
+		id = 9105235
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			infantry_tank_design = 5
+	
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105235"
+		desc = "EVTDESC9105235"
+		picture = "type_one_ho_i_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			type_one_ho_i_infantry_tank_hidden = 6000
+			set_global_flag = type_one_ho_i_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Type 3 Ho-Ni III Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105236
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			light_tank_destroyer_prototype = 2
+	
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105236"
+		desc = "EVTDESC9105236"
+		picture = "type_three_ho_ni_iii_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			type_three_ho_ni_iii_tank_destroyer_hidden = 6000
+			set_global_flag = type_three_ho_ni_iii_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 5 Na-To Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105237
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			light_tank_destroyer_prototype = 3
+	
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105237"
+		desc = "EVTDESC9105237"
+		picture = "type_five_na_to_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			type_five_na_to_tank_destroyer_hidden = 6000
+			set_global_flag = type_five_na_to_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Type 61 Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9105238
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			main_battle_tank = 3
+	
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105238"
+		desc = "EVTDESC9105238"
+		picture = "type_sixty_one_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			type_sixty_one_mbt_hidden = 6000
+			set_global_flag = type_sixty_one_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Type 100 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105239
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = JAP
+			submachineguns_prototype = 6
+	
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105239"
+		desc = "EVTDESC9105239"
+		picture = "type_one_hundred_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			type_one_hundred_submachinegun_hidden = 6000
+			set_global_flag = type_one_hundred_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		

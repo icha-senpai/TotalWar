@@ -1,0 +1,117 @@
+elite_light_infantry_battalion = {
+	type = land
+	sprite = Motor
+	active = no
+	
+	is_buildable = yes
+
+	unit_group = assault_unit_type
+	
+	#max_percentage_of_type = 0.05
+
+	available_trigger = {
+		has_country_flag = ELIB_activation
+	}
+	
+	#Size Definitions
+	max_strength = 5.0	# 	- x1 Battalions
+	default_organisation = 45
+	default_morale = 0.45
+	officers = 12
+	
+	#Building Costs
+	build_cost_ic = 1.00
+	build_cost_manpower = 0.500
+	build_time = 90
+	repair_cost_multiplier = 0.03
+
+	#Misc Abilities
+	maximum_speed = 7.2 ## this is a motorised unit
+	transport_weight = 17.50
+	supply_consumption = 0.20
+	fuel_consumption = 0.45
+	radio_strength = 0.15
+
+	#Defensive Abilities
+	defensiveness = 1.55
+	toughness = 15.00
+	softness = 0.85 
+	air_defence = 2.0
+	armor_value = 1.0
+
+	#Offensive Abilities
+	suppression = 2.0 
+	soft_attack = 0.45
+	hard_attack = 0.51	# - Includes a few armored cars
+	air_attack = 0.22
+	ap_attack = 1.0
+	
+	## Elite Light Infantry are specially trained for wood, forest, urban, and fortification assaults.  
+	
+	plains = { 
+		movement = -0.15 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		attack = 0.50 ## Elite Light Infantry are specially adapted to cross rivers
+		movement = -0.20 ## Not easy for infantry to cross river.  
+	}
+	arctic = {	
+		movement = -0.30 ## Not easy to move around on tundra. 
+		attrition = 3 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		movement = -0.50 ## Desert is too hot and big to cross on foot 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = 0.60 ## Specialized at assaulting wooded areas. 
+		defence = 0.15 ## Specialized at defending wooded areas.
+		movement = 0.25 ## Troops specially trained to move through woods or forest.
+	}
+	forest = {
+		attack = 0.60 ## Specialized at assaulting wooded areas. 
+		defence = 0.15 ## Specialized at defending wooded areas.
+		movement = 0.25 ## Troops specially trained to move through woods or forest.
+	}
+	jungle = { 
+		attack = 0.40 ## Very hard to attack jungle
+		defence = 0.15 ## Slightly easy to defend jungle
+		movement = 0.15  ## Not trained for jungle warfare
+		attrition = 2 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		movement = -0.25 # Hard to move through hilly areas
+	}
+	mountain = { 
+		movement = -0.25 # Not trained in mountain warfare
+	}
+	urban = {
+		attack = 0.25 ## Light Infantry can assault Urban areas easier
+		defence = 0.20 ## Light Infantry can defend Urban areas easier
+		movement = 0.15  ## Easy to move through urban streets
+	}
+	marsh = { 
+		attack = 0.10 ## Light Infantry can assault marshes a little easier
+		movement = -0.25 ## Difficult to move through marshes
+	}
+	amphibious = { 
+		attack = 0.30 ## Light Infantry can assault a beach easier
+	}
+	night = { 
+		attack = 0.20 ## Excellent for night assaults
+		defence = 0.20 ## Excellent for night defence
+		movement = -0.25 ## Difficult to see at night
+	}
+	fort = { 
+		attack = 0.45 # Better at assaulting fortifications
+		defence = 0.10 # Pillboxes and Fortresses are easy to defend from
+	}
+	
+	combat_width = 0.11
+	
+	completion_size = 0.05
+	on_completion = infantry_practical
+	
+	priority = 25
+}

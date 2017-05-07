@@ -1,0 +1,13 @@
+division= {
+	name = "26. Panzer-Division"
+	location = 2425 #Amiens
+	leader = 320 # von Lüttwitz
+	regiment = { type = GER_A_XXVI_mPzD name = "Stab 26. Panzer-Division" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = armor_brigade name = "Panzer-Regiment 26" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = motorized_infantry_bat name = "Panzergrenadier-Regiment 9/67" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = sp_artillery_brigade name = "Panzer-Artillerie-Regiment 93" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = motorized_anti_tank_brigade name = "Panzerjäger-Abteilung 93" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = armored_car_brigade name = "Panzer-Aufklärungs-Abteilung 26" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = armored_engineers_brigade name = "Panzer-Pionier-Bataillon 93" historical_model = 3 experience = 50 organisation = 1 }
+	regiment = { type = truck_transport name = "Gefechtstross 25. Panzer-Division" historical_model = 0 experience = 50 organisation = 1 }
+}

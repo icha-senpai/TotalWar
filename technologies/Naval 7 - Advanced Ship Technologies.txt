@@ -1,0 +1,1101 @@
+################################################################################
+# ADVANCED SHIP TECHNOLOGIES	
+################################################################################
+################################################################################
+# GUIDED MISSILE SHIPS
+################################################################################
+guided_missile_ships = {
+	
+	allow = {
+		destroyer_class = 7
+	}
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1953
+	folder = advanced_ship_folder
+}
+################################################################################
+# GUIDED MISSILE DESTROYER CLASS
+################################################################################
+guided_missile_destroyer_class = {
+	
+	allow = {
+		guided_missile_ships = 1
+		OR ={ 
+			AND = {
+				NOT = { guided_missile_destroyer_class = 1 } 
+				naval_surface_to_surface_missiles = 1
+				Ship_Building_Technologies = 27
+				OR = { 
+					advanced_hull_designs = 1
+					advanced_propulsion_designs = 1
+					}
+				OR = { 
+					advanced_fire_control_radar = 1
+					advanced_search_radar = 1
+					}	
+				OR = { 
+					advanced_crew_berthing_design = 1
+					advanced_damage_control = 1
+					}	
+				}
+			AND = {
+				NOT = { guided_missile_destroyer_class = 2 }
+				naval_surface_to_surface_missiles = 1
+				Ship_Building_Technologies = 29
+				OR = { 
+					advanced_hull_designs = 2
+					advanced_propulsion_designs = 2
+					}
+				OR = { 
+					advanced_fire_control_radar = 2
+					advanced_search_radar = 2
+					}	
+				OR = { 
+					advanced_crew_berthing_design = 2
+					advanced_damage_control = 2
+					}	
+				}	
+			AND = {
+				NOT = { guided_missile_destroyer_class = 3 }
+				naval_surface_to_surface_missiles = 1
+				Ship_Building_Technologies = 33
+				OR = { 
+					advanced_hull_designs = 3
+					advanced_propulsion_designs = 3
+					}
+				OR = { 
+					advanced_fire_control_radar = 3
+					advanced_search_radar = 3
+					}	
+				OR = { 
+					advanced_crew_berthing_design = 3
+					advanced_damage_control = 3
+					}	
+				}	
+			AND = {
+				NOT = { guided_missile_destroyer_class = 4 }
+				naval_surface_to_surface_missiles = 1
+				Ship_Building_Technologies = 37
+				OR = { 
+					advanced_hull_designs = 4
+					advanced_propulsion_designs = 4
+					}
+				OR = { 
+					advanced_fire_control_radar = 4
+					advanced_search_radar = 4
+					}	
+				OR = { 
+					advanced_crew_berthing_design = 4
+					advanced_damage_control = 4
+					}	
+				}	
+			AND = {
+				NOT = { guided_missile_destroyer_class = 5 }
+				naval_surface_to_surface_missiles = 1
+				Ship_Building_Technologies = 41
+				OR = { 
+					advanced_hull_designs = 5
+					advanced_propulsion_designs = 5
+					}
+				OR = { 
+					advanced_fire_control_radar = 5
+					advanced_search_radar = 5
+					}	
+				OR = { 
+					advanced_crew_berthing_design = 5
+					advanced_damage_control = 5
+					}	
+				}	
+			}
+		}
+
+	activate_unit = guided_missile_destroyer
+	
+	guided_missile_destroyer = {
+		build_cost_ic =  0.65
+		build_cost_manpower = 0.020
+		build_time = 15
+		range = 800
+		positioning = 0.01
+		visibility = -5
+		sea_defence = 1.15
+		air_defence = 1.00 
+		convoy_attack = 1.65
+		sea_attack = 1.75
+		sub_attack = 0.25
+		air_attack = 1.25
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1955
+	first_offset = 1957	
+	additional_offset = 4	
+	max_level = 5 # 1969
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED HULL DESIGN
+################################################################################
+advanced_hull_designs = {
+	
+	allow = {
+		guided_missile_ships = 1
+	}
+
+	guided_missile_destroyer = {
+		build_cost_ic =  0.15
+		build_time = 6
+		range = 250
+		sea_defence = 1.65
+		air_defence = 1.35
+		convoy_attack = 1.25
+		sea_attack = 0.85
+		sub_attack = 0.45
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		build_cost_ic =  0.25
+		build_time = 8
+		range = 350
+		sea_defence = 1.95
+		air_defence = 1.55
+		convoy_attack = 1.35
+		sea_attack = 1.25
+		sub_attack = 0.05
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1953
+	first_offset = 1956	
+	additional_offset = 4	
+	max_level = 5 # 1968
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED PROPULSION DESIGNS
+################################################################################
+advanced_propulsion_designs = {
+	
+	allow = {
+		guided_missile_ships = 1
+	}
+
+	guided_missile_destroyer = {
+		build_cost_ic =  0.20
+		build_cost_manpower = 0.010
+		build_time = 10
+		maximum_speed = 5.5
+		range = 300
+		positioning = 0.05
+		sea_defence = 1.05
+		air_defence = 0.65
+		convoy_attack = 0.35
+		sea_attack = 0.65
+		sub_attack = 0.50
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		build_cost_ic =  0.75
+		build_cost_manpower = 0.015
+		build_time = 15
+		maximum_speed = 5.5
+		range = 400
+		positioning = 0.05
+		sea_defence = 1.45
+		air_defence = 0.85
+		convoy_attack = 0.85
+		sea_attack = 0.95
+		sub_attack = 0.05
+	}
+		
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1953
+	first_offset = 1956	
+	additional_offset = 4	
+	max_level = 5 # 1968
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED FIRE CONTROL RADAR
+################################################################################
+advanced_fire_control_radar = {
+	
+	allow = {
+		guided_missile_ships = 1
+	}
+
+	guided_missile_destroyer = {
+		build_cost_ic =  0.15
+		build_time = 5
+		distance = 0.10
+		convoy_attack = 1.25
+		sea_attack = 2.35
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		build_cost_ic =  0.15
+		build_time = 5
+		distance = 0.10
+		convoy_attack = 1.45
+		sea_attack = 3.15
+	}
+		
+	change = yes
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 15
+
+	start_year = 1958
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED SEARCH RADAR
+################################################################################
+advanced_search_radar = {
+	
+	allow = {
+		guided_missile_ships = 1
+	}
+
+	guided_missile_destroyer = {
+		build_cost_ic =  0.25
+		build_cost_manpower = 0.025
+		build_time = 10
+		surface_detection = 5.00
+		air_detection = 5.00
+		positioning = 0.25
+		convoy_attack = 3.00
+		sea_attack = 4.00
+		sea_defence = 1.75
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		build_cost_ic =  0.25
+		build_cost_manpower = 0.025
+		build_time = 10
+		surface_detection = 5.00
+		air_detection = 5.00
+		positioning = 0.25
+		convoy_attack = 4.00
+		sea_attack = 7.00
+		sea_defence = 1.75
+	}
+		
+	change = yes
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 15
+
+	start_year = 1960
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED CREW BERTHING DESIGN
+################################################################################
+advanced_crew_berthing_design = {
+	
+	allow = {
+		guided_missile_ships = 1
+	}
+
+	guided_missile_destroyer = {
+		default_morale = 0.02
+		build_cost_ic =  0.10
+		build_time = 3
+		range = -200
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		default_morale = 0.02
+		build_cost_ic =  0.10
+		build_time = 3
+		range = -200
+	}
+		
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1953
+	first_offset = 1956	
+	additional_offset = 4	
+	max_level = 5 # 1968
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED DAMAGE CONTROL
+################################################################################
+advanced_damage_control = {
+	
+	allow = {
+		guided_missile_ships = 1
+	}
+
+	guided_missile_destroyer = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+		
+	change = no
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1953
+	first_offset = 1956	
+	additional_offset = 4	
+	max_level = 5 # 1968
+	folder = advanced_ship_folder
+}
+################################################################################
+# NAVAL SURFACE TO SURFACE MISSILES
+################################################################################
+naval_surface_to_surface_missiles = {
+	
+	allow = {
+		guided_missile_ships = 1
+		electronics_engineering = 25
+		OR = {
+			AND = {
+				NOT = { naval_surface_to_surface_missiles = 1 }
+				surface_to_surface_missile = 1 
+			}
+			AND = {
+				NOT = { naval_surface_to_surface_missiles = 2 }
+				surface_to_surface_missile = 2 
+			}
+			AND = {
+				NOT = { naval_surface_to_surface_missiles = 3 }
+				surface_to_surface_missile = 3 
+			}
+		}
+	}
+	
+	guided_missile_destroyer = {
+		build_cost_ic =  0.75
+		build_cost_manpower = 0.040
+		build_time = 10
+		range = -250
+		distance = 0.50
+		convoy_attack = 1.35
+		sea_attack = 1.65
+		shore_bombardment = 1.85
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		build_cost_ic =  0.75
+		build_cost_manpower = 0.040
+		build_time = 10
+		range = -250
+		distance = 0.50
+		convoy_attack = 1.35
+		sea_attack = 1.65
+		shore_bombardment = 1.85
+	}
+
+		
+	change = no
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1962
+	first_offset = 1965	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 3
+	folder = advanced_ship_folder
+}
+################################################################################
+# NAVAL SURFACE TO AIR MISSILES
+################################################################################
+naval_surface_to_air_missiles = {
+	
+	allow = {
+		guided_missile_ships = 1
+		electronics_engineering = 23
+		OR = {
+			AND = {
+				NOT = { surface_to_surface_missile = 1 }
+				surface_to_surface_missile = 1 
+			}
+			AND = {
+				NOT = { surface_to_surface_missile = 2 }
+				surface_to_surface_missile = 2 
+			}
+			AND = {
+				NOT = { surface_to_surface_missile = 3 }
+				medium_range_sam_development = 3 
+			}
+		}
+	}
+	
+	guided_missile_destroyer = {
+		build_cost_ic =  0.65
+		build_cost_manpower = 0.025
+		build_time = 10
+		range = -250
+		air_attack = 5.35
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		build_cost_ic =  0.65
+		build_cost_manpower = 0.025
+		build_time = 10
+		range = -250
+		air_attack = 5.35
+	}
+
+		
+	change = no
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1960
+	first_offset = 1963	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 3
+	folder = advanced_ship_folder
+}
+################################################################################
+# ASROC MISSILES
+################################################################################
+asroc_missiles = {
+	
+	allow = {
+		guided_missile_ships = 1
+		medium_range_sam_development = 1 
+		electronics_engineering = 24
+	}
+
+	guided_missile_destroyer = {
+		build_cost_ic =  0.65
+		build_cost_manpower = 0.015
+		build_time = 7
+		range = -150
+		sub_attack = 2.25
+	}
+	
+	nuclear_guided_missile_cruiser = {
+		build_cost_ic =  0.65
+		build_cost_manpower = 0.015
+		build_time = 7
+		range = -150
+		sub_attack = 2.25
+	}
+		
+	change = no
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 13
+
+	start_year = 1961
+	folder = advanced_ship_folder
+}
+################################################################################
+# Advanced Amphibious Ships
+################################################################################
+advanced_amphibious_ships = {
+	
+	allow = {
+		troop_transport_ships = 1
+		amphibious_landing_craft = 1
+		lst = 1
+		landing_ship_dock = 1
+	}
+				
+	research_bonus_from = {
+		naval_engineering = 0.50
+		transport_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1960
+	folder = advanced_ship_folder
+}
+################################################################################
+# AMPHIBIOUS TRANSPORT DOCK SHIP
+################################################################################
+amphibious_transport_dock_ship = {
+	
+	allow = {
+		advanced_amphibious_ships = 1
+	}
+	
+	activate_unit = transport_dock_ship
+	
+	transport_dock_ship = {
+		build_cost_ic =  0.65
+		build_cost_manpower = 0.040
+		build_time = 10
+		range = 100
+		positioning = 0.01
+		visibility = -2
+		sea_defence = 0.65
+		air_defence = 0.55
+	}	
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		transport_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1959
+	folder = advanced_ship_folder
+}
+################################################################################
+# LANDING PLATFORM HELICOPTER SHIP
+################################################################################
+landing_platform_helicopter_ship = {
+	
+	allow = {
+		advanced_amphibious_ships = 1
+	}
+	
+	activate_unit = landing_platform_helicopter
+	
+	landing_platform_helicopter = {
+		build_cost_ic =  0.85
+		build_cost_manpower = 0.065
+		build_time = 15
+		range = 150
+		positioning = 0.02
+		visibility = -3
+		sea_defence = 0.75
+		air_defence = 0.65
+	}	
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		transport_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 15
+
+	start_year = 1960
+	folder = advanced_ship_folder
+}
+################################################################################
+# SUPERCARRIER 
+################################################################################
+supercarrier = {
+	
+	allow = {
+		battlecarrier_class = 1
+	}
+			
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 20
+
+	start_year = 1953
+	folder = advanced_ship_folder
+}
+################################################################################
+# SUPERCARRIER CLASS
+################################################################################
+supercarrier_class = {
+	
+	allow = {
+		battlecarrier_class = 1
+		advanced_flight_deck_design = 1
+		advanced_hangar_deck_design = 1
+		advanced_aircraft_elevator_design = 1
+		advanced_superstructure_design = 1
+		advanced_catapults_design = 1
+		angled_flight_deck_design = 1
+		Ship_Building_Technologies = 28
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+	
+	activate_unit = super_carrier
+	
+	super_carrier = {
+		build_cost_ic =  2.50
+		build_cost_manpower = 0.25
+		build_time = 30
+		range = 450
+		positioning = 0.02
+		visibility = -1
+		sea_defence = 3.15
+		air_defence = 2.75
+	}	
+
+		
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 20
+
+	start_year = 1955
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED FLIGHT DECK DESIGN
+################################################################################
+advanced_flight_deck_design = {
+	
+	allow = {
+		supercarrier = 1
+	}
+		
+	super_carrier = {
+		build_time = 5
+		default_organisation = 5
+		air_defence = 1.0	
+	}	
+	
+	nuclear_super_aircraft_carrier = {
+		build_time = 5
+		default_organisation = 5
+		air_defence = 1.0	
+	}	
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 15
+
+	start_year = 1953
+	first_offset = 1961	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 2
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED HANGAR DECK DESIGN
+################################################################################
+advanced_hangar_deck_design = {
+	
+	allow = {
+		supercarrier = 1
+	}
+
+	super_carrier = {
+		build_cost_ic =  0.45
+		build_time = 8
+		sea_defence = 1.25
+		air_defence = 1.25
+		carrier_size = 1 
+		default_organisation = -2
+		default_morale = 0.02	
+	}	
+	
+	nuclear_super_aircraft_carrier = {
+		build_cost_ic =  0.45
+		build_time = 8
+		sea_defence = 1.25
+		air_defence = 1.25
+		carrier_size = 1 
+		default_organisation = -2
+		default_morale = 0.02	
+	}	
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 15
+
+	start_year = 1953
+	first_offset = 1961	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 2
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED AIRCRAFT ELEVATOR DESIGN
+################################################################################
+advanced_aircraft_elevator_design = {
+	
+	allow = {
+		supercarrier = 1
+	}
+
+	super_carrier = {
+		build_cost_ic =  0.25
+		build_time = 15
+		default_organisation = 3	
+	}	
+	nuclear_super_aircraft_carrier = {
+		build_cost_ic =  0.25
+		build_time = 15
+		default_organisation = 3	
+	}	
+
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1953
+	first_offset = 1961	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 2
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED SUPERSTRUCTURE DESIGN
+################################################################################
+advanced_superstructure_design = {
+	
+	allow = {
+		supercarrier = 1
+	}
+	
+	super_carrier = {
+		build_cost_ic =  0.20
+		build_time = 10
+		default_organisation = 1
+		air_attack = 0.50	
+	}	
+	nuclear_super_aircraft_carrier = {
+		build_cost_ic =  0.20
+		build_time = 10
+		default_organisation = 1
+		air_attack = 0.50	
+	}	
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1953
+	first_offset = 1961	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 2
+	folder = advanced_ship_folder
+}
+################################################################################
+# ADVANCED CATAPULTS DESIGN
+################################################################################
+advanced_catapults_design = {
+	
+	allow = {
+		supercarrier = 1
+	}
+
+	super_carrier = {
+		build_cost_ic = 0.25
+		build_time = 10
+		default_organisation = 5
+	}	
+	nuclear_super_aircraft_carrier = {
+		build_cost_ic = 0.25
+		build_time = 10
+		default_organisation = 5
+	}	
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1953
+	first_offset = 1961	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 2
+	folder = advanced_ship_folder
+}
+################################################################################
+# ANGLED FLIGHT DECK DESIGN
+################################################################################
+angled_flight_deck_design = {
+	
+	allow = {
+		supercarrier = 1
+	}
+	
+	battle_carrier = {
+		build_time = 10
+		default_organisation = 15
+		air_defence = 3.0	
+	}
+	super_carrier = {
+		default_organisation = 15
+		air_defence = 3.0	
+	}	
+	nuclear_super_aircraft_carrier = {
+		default_organisation = 15
+		air_defence = 3.0	
+	}	
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1953
+	first_offset = 1961	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 2
+	folder = advanced_ship_folder
+}
+
+################################################################################
+# NUCLEAR POWERED CRUISER CLASS
+################################################################################
+nuclear_powered_cruiser_class = {
+	
+	allow = {
+		guided_missile_destroyer_class = 3
+		small_nuclear_reactor_design = 2
+		Ship_Building_Technologies = 34
+	}
+	
+	activate_unit = nuclear_guided_missile_cruiser
+	
+	nuclear_guided_missile_cruiser = {
+		build_cost_ic =  0.95
+		build_cost_manpower = 0.020
+		build_time = 20
+		range = 1000
+		positioning = 0.01
+		visibility = -5
+		sea_defence = 1.35
+		air_defence = 1.25 
+		convoy_attack = 1.85
+		sea_attack = 2.15
+		sub_attack = 0.15
+		air_attack = 1.85
+	}
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1961
+	folder = advanced_ship_folder
+}
+################################################################################
+# NUCLEAR POWERED AIRCRAFT CARRIER CLASS
+################################################################################
+nuclear_powered_aircraft_carrier_class = {
+	
+	allow = {
+		supercarrier_class = 1
+		advanced_flight_deck_design = 2
+		advanced_hangar_deck_design = 2
+		advanced_aircraft_elevator_design = 2
+		advanced_superstructure_design = 2
+		advanced_catapults_design = 2
+		angled_flight_deck_design = 2	
+		small_nuclear_reactor_design = 2
+		Ship_Building_Technologies = 33
+	}
+	
+	activate_unit = nuclear_super_aircraft_carrier
+	
+	nuclear_super_aircraft_carrier = {
+		build_cost_ic =  3.50
+		build_cost_manpower = 0.50
+		build_time = 60
+		range = 1000
+		positioning = 0.10
+		visibility = -5
+		sea_defence = 3.50
+		air_defence = 3.00
+	}	
+		
+	research_bonus_from = {
+		naval_engineering = 0.30
+		capitalship_practical = 0.20
+		base_strike_doctrine = 0.10	
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 25
+
+	start_year = 1960
+	folder = advanced_ship_folder
+}

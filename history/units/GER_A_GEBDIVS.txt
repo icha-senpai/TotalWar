@@ -1,0 +1,13 @@
+division= {
+	name = "5. Gebirgs-Division"
+	location = 3227 # Graz
+	regiment = { type = GER_A_V_Geb name = "Stab 5. Gebirgs-Division" historical_model = 0 experience = 50 organisation = 1 }
+	regiment = { type = bergsjaeger_brigade name = "Gebirgsjäger-Regiment 85/100" historical_model = 3 experience = 50 organisation = 1 }
+}
+division= {
+	name = "157. Gebirgs-Division"
+	location = 3227 # Graz
+	is_reserve = yes
+	regiment = { type = GER_A_CLVII_Geb name = "Stab 157. Gebirgs-Division" historical_model = 0 experience = 50 organisation = 1 }
+	regiment = { type = bergsjaeger_brigade name = "Gebirgsjäger-Regiment 298/299" historical_model = 3 experience = 50 organisation = 1 }
+}

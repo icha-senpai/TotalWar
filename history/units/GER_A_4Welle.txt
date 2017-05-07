@@ -1,0 +1,84 @@
+division= {
+	name = "251. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLI_ID name = "Stab 251. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "252. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLII_ID name = "Stab 252. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "253. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLIII_ID name = "Stab 253. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "254. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLIV_ID name = "Stab 254. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "255. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLV_ID name = "Stab 255. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "256. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLVI_ID name = "Stab 256. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "257. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLVII_ID name = "Stab 257. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "258. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLVIII_ID name = "Stab 258. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "260. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLX_ID name = "Stab 260. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "262. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLXII_ID name = "Stab 262. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "263. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLXIII_ID name = "Stab 263. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "267. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLXVII_ID name = "Stab 267. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "268. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLXVIII_ID name = "Stab 268. Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "269. Infanterie-Division"
+	location = 1861 # Berlin
+	is_reserve = yes
+	regiment = { type = GER_A_CCLXIX_ID name = "Stab 269. Infanterie-Division" historical_model = 0 experience = 30 }
+}

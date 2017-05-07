@@ -1,0 +1,2465 @@
+################################################################################
+# ADVANCED ORGANIZATION
+################################################################################
+#########################################################################
+# ARMY DIVISION REORGANIZATION
+#########################################################################
+army_division_reorganization = {
+	
+	allow = { 
+		infantry_division_hq = 5
+		artillery_regiment_hq = 5
+		armor_division_hq = 3
+		mechanized_division_hq = 2
+	}
+	
+	reinforce_chance = 0.01	
+	
+	research_bonus_from = {
+		infantry_theory = 0.30
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1942
+	folder = advanced_organization_folder
+}
+#########################################################################
+# PENTOMIC DIVISION STRUCTURE
+#########################################################################
+pentomic_division_structure = {
+	
+	allow = { 
+				
+		has_country_flag = pentomic_division_structure_choice	
+			
+	}
+	
+	change = no
+	
+	activate_unit = combined_arms_brigade
+	
+	combined_arms_brigade = {
+		max_strength = 15.00
+		build_cost_ic = 4.15
+		build_cost_manpower = 1.500
+		build_time = 17
+		officers = 40
+		transport_weight = 7.00
+		supply_consumption = 0.22
+		fuel_consumption = 0.15
+		radio_strength = 1
+		soft_attack = 1.50
+		hard_attack = -0.50
+		air_attack = -0.25
+		ap_attack = -1
+		defensiveness = 1.00
+	}	
+	
+	research_bonus_from = {
+		infantry_theory = 0.30
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1951
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 1	#one new every 1 year
+	max_level = 5
+	folder = advanced_organization_folder
+}
+#########################################################################
+# 1st Battlegroup
+#########################################################################
+first_battlegroup = {
+	
+	allow = { 
+		pentomic_division_structure = 1
+		OR = { 
+			AND = {
+				NOT = { first_battlegroup = 1 } # 1955
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { first_battlegroup = 2 } # 1957
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { first_battlegroup = 3 } # 1959
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_light_machine_guns = 1 
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { first_battlegroup = 4 } # 1961
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				main_battle_tank = 1
+			}
+			AND = {
+				NOT = { first_battlegroup = 5 } # 1963
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { first_battlegroup = 6 } # 1965
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { first_battlegroup = 7 } # 1967
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { first_battlegroup = 8 } # 1969
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+		}	
+	}
+	
+	change = yes
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.85
+		soft_attack = 0.55
+		hard_attack = 0.25
+		air_attack = 0.15
+		ap_attack = 0.5
+		defensiveness = 0.25
+		supply_consumption = 0.03
+		fuel_consumption = 0.04
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1955
+	first_offset = 1957	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 8
+	folder = advanced_organization_folder
+}
+#########################################################################
+# 2nd Battlegroup
+#########################################################################
+second_battlegroup = {
+	
+	allow = { 
+		pentomic_division_structure = 2
+		OR = { 
+			AND = {
+				NOT = { second_battlegroup = 1 } # 1955
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { second_battlegroup = 2 } # 1957
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { second_battlegroup = 3 } # 1959
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_light_machine_guns = 1 
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { second_battlegroup = 4 } # 1961
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				main_battle_tank = 1
+			}
+			AND = {
+				NOT = { second_battlegroup = 5 } # 1963
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { second_battlegroup = 6 } # 1965
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { second_battlegroup = 7 } # 1967
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { second_battlegroup = 8 } # 1969
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+		}	
+	}
+	
+	change = yes
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.85
+		soft_attack = 0.55
+		hard_attack = 0.25
+		air_attack = 0.15
+		ap_attack = 0.5
+		defensiveness = 0.25
+		supply_consumption = 0.03
+		fuel_consumption = 0.04
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1955
+	first_offset = 1957	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 8
+	folder = advanced_organization_folder
+}
+#########################################################################
+# 3rd Battlegroup
+#########################################################################
+third_battlegroup = {
+	
+	allow = { 
+		pentomic_division_structure = 3
+		OR = { 
+			AND = {
+				NOT = { third_battlegroup = 1 } # 1955
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { third_battlegroup = 2 } # 1957
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { third_battlegroup = 3 } # 1959
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_light_machine_guns = 1 
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { third_battlegroup = 4 } # 1961
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				main_battle_tank = 1
+			}
+			AND = {
+				NOT = { third_battlegroup = 5 } # 1963
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { third_battlegroup = 6 } # 1965
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { third_battlegroup = 7 } # 1967
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { third_battlegroup = 8 } # 1969
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+		}	
+	}
+	
+	change = yes
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.85
+		soft_attack = 0.55
+		hard_attack = 0.25
+		air_attack = 0.15
+		ap_attack = 0.5
+		defensiveness = 0.25
+		supply_consumption = 0.03
+		fuel_consumption = 0.04
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1955
+	first_offset = 1957	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 8
+	folder = advanced_organization_folder
+}
+#########################################################################
+# 4th Battlegroup
+#########################################################################
+fourth_battlegroup = {
+	
+	allow = { 
+		pentomic_division_structure = 4
+		OR = { 
+			AND = {
+				NOT = { fourth_battlegroup = 1 } # 1955
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { fourth_battlegroup = 2 } # 1957
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { fourth_battlegroup = 3 } # 1959
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_light_machine_guns = 1 
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { fourth_battlegroup = 4 } # 1961
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				main_battle_tank = 1
+			}
+			AND = {
+				NOT = { fourth_battlegroup = 5 } # 1963
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { fourth_battlegroup = 6 } # 1965
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { fourth_battlegroup = 7 } # 1967
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { fourth_battlegroup = 8 } # 1969
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+		}	
+	}
+	
+	change = yes
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.85
+		soft_attack = 0.55
+		hard_attack = 0.25
+		air_attack = 0.15
+		ap_attack = 0.5
+		defensiveness = 0.25
+		supply_consumption = 0.03
+		fuel_consumption = 0.04
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1955
+	first_offset = 1957	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 8
+	folder = advanced_organization_folder
+}
+#########################################################################
+# 5th Battlegroup
+#########################################################################
+fifth_battlegroup = {
+	
+	allow = { 
+		pentomic_division_structure = 5
+		OR = { 
+			AND = {
+				NOT = { fifth_battlegroup = 1 } # 1955
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { fifth_battlegroup = 2 } # 1957
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { fifth_battlegroup = 3 } # 1959
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_light_machine_guns = 1 
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { fifth_battlegroup = 4 } # 1961
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				main_battle_tank = 1
+			}
+			AND = {
+				NOT = { fifth_battlegroup = 5 } # 1963
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { fifth_battlegroup = 6 } # 1965
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { fifth_battlegroup = 7 } # 1967
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { fifth_battlegroup = 8 } # 1969
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+		}	
+	}
+	
+	change = yes
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.85
+		soft_attack = 0.55
+		hard_attack = 0.25
+		air_attack = 0.15
+		ap_attack = 0.5
+		defensiveness = 0.25
+		supply_consumption = 0.03
+		fuel_consumption = 0.04
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1955
+	first_offset = 1957	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 8
+	folder = advanced_organization_folder
+}
+#########################################################################
+# Combat Brigade Reorganization
+#########################################################################
+combat_brigade_reorganization = {
+	
+	allow = { 	
+		
+		has_country_flag = combat_brigade_reorganization_choice
+		
+	}
+	
+	change = no
+	
+	activate_unit = combined_arms_brigade
+	
+	combined_arms_brigade = {
+		max_strength = 20.00
+		build_cost_ic = 5.55
+		build_cost_manpower = 2.000
+		build_time = 22
+		officers = 45
+		transport_weight = 8.00
+		supply_consumption = 0.25
+		fuel_consumption = 0.25
+		radio_strength = 1
+		soft_attack = 1.75
+		hard_attack = 0.25
+		air_attack = 0.35
+		ap_attack = 0.50
+		defensiveness = 2.00
+		maximum_speed = 0.50
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1952
+	first_offset = 1953	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 2
+	folder = advanced_organization_folder
+}
+#########################################################################
+# LIGHT COMBAT BRIGADE
+#########################################################################
+light_combat_brigade = {
+	
+	allow = { 
+		combat_brigade_reorganization = 1
+		OR = { 
+			AND = {
+				NOT = { light_combat_brigade = 1 } # 1954
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { light_combat_brigade = 2 } # 1956
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { light_combat_brigade = 3 } # 1958
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_light_machine_guns = 1 
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { light_combat_brigade = 4 } # 1960
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				main_battle_tank = 1
+			}
+			AND = {
+				NOT = { light_combat_brigade = 5 } # 1962
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { fifth_battlegroup = 6 } # 1964
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { light_combat_brigade = 7 } # 1966
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { light_combat_brigade = 8 } # 1968
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+		}
+	}
+	
+	change = yes
+	
+	combined_arms_brigade = {
+		build_cost_ic = 1.05
+		soft_attack = 1.25
+		hard_attack = 0.25
+		air_attack = 0.15
+		armor_value = 0.25
+		ap_attack = 0.25
+		defensiveness = 1.15
+		maximum_speed = 0.25
+		supply_consumption = 0.05
+		fuel_consumption = 0.07
+	}	
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1954
+	first_offset = 1956	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 8
+	folder = advanced_organization_folder
+}
+#########################################################################
+# HEAVY COMBAT BRIGADE
+#########################################################################
+heavy_combat_brigade = {
+	
+	allow = { 
+		combat_brigade_reorganization = 1
+		OR = { 
+			AND = {
+				NOT = { heavy_combat_brigade = 1 } # 1954
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { heavy_combat_brigade = 2 } # 1956
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { heavy_combat_brigade = 3 } # 1958
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_light_machine_guns = 1 
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { heavy_combat_brigade = 4 } # 1960
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				main_battle_tank = 1
+			}
+			AND = {
+				NOT = { heavy_combat_brigade = 5 } # 1962
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { heavy_combat_brigade = 6 } # 1963
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { heavy_combat_brigade = 7 } # 1964
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { heavy_combat_brigade = 8 } # 1968
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+				main_battle_tank = 2
+			}
+		}
+	}
+	
+	change = yes
+	
+	combined_arms_brigade = {
+		build_cost_ic = 2.05
+		soft_attack = 0.55
+		hard_attack = 1.45
+		air_attack = 0.65
+		armor_value = 3
+		ap_attack = 3
+		defensiveness = 1.25
+		maximum_speed = -0.15
+		supply_consumption = 0.10
+		fuel_consumption = 0.12
+	}	
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1954
+	first_offset = 1956	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 8
+	folder = advanced_organization_folder
+}
+#########################################################################
+# INFANTRY DIVISION REORGANIZATION 1944
+#########################################################################
+infantry_division_reorganization_nineteen_fourty_four = {
+	
+	allow = { 
+		infantry_division_hq = 3
+		artillery_regiment_hq = 3
+		army_division_reorganization = 1
+		machine_gun_focused_squads = 1		
+		land_battles_fought = 400
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	infantry_brigade = {
+		max_strength = -21.30
+		build_cost_ic = -5.00
+		build_cost_manpower = -21.30
+		build_time = -25
+		officers = -55
+		transport_weight = -6.00
+		supply_consumption = -1.00
+		fuel_consumption = -0.25
+		radio_strength = -1
+		soft_attack = 1.25
+		hard_attack = 0.55
+		defensiveness = 1.15
+	}	
+	
+	ss_infantry_brigade = {
+		max_strength = -21.30
+		build_cost_ic = -5.00
+		build_cost_manpower = -21.30
+		build_time = -25
+		officers = -55
+		transport_weight = -6.00
+		supply_consumption = -1.00
+		fuel_consumption = -0.25
+		radio_strength = -1
+		soft_attack = 1.25
+		hard_attack = 0.55
+		defensiveness = 1.15
+	}	
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1944
+	folder = advanced_organization_folder
+}
+#########################################################################
+# Volksgrenadier Division Formation
+#########################################################################
+volksgrenadier_division_formation = {
+	
+	allow = { 
+		infantry_division_hq = 3
+		artillery_regiment_hq = 3
+		volksgrenadier_doctrine = 1
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	conscript_brigade = {
+		max_strength = 22.08
+		build_cost_ic = 1.25
+		build_cost_manpower = 22.08
+		build_time = 10
+		officers = 35
+		transport_weight = 5.00
+		supply_consumption = 0.25
+		radio_strength = 1
+		soft_attack = 1.75
+		hard_attack = 1.25
+		ap_attack = 3
+		defensiveness = 3.35
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 4
+	
+	#common for all techs.
+	start_year = 1944
+	folder = advanced_organization_folder
+}
+#########################################################################
+# AIR ASSAULT DIVISION
+#########################################################################
+air_assault_division = {
+	
+	allow = { 
+		army_division_reorganization = 1
+		paratrooper_regiment = 1
+		SF_Division_HQ = 7
+		military_medium_transport_helicopter = 4
+		land_battles_fought = 5000
+	}
+	
+	change = yes
+	
+	activate_unit = air_cavalry_brigade
+	
+	air_cavalry_brigade = {
+		max_strength = 1.50
+		build_cost_ic = 1.25
+		build_cost_manpower = 0.200
+		build_time = 11
+		officers = 9
+		transport_weight = 9.00
+		supply_consumption = 0.65
+		fuel_consumption = 0.55
+		soft_attack = 0.75
+		hard_attack = 0.35
+		ap_attack = 1
+		defensiveness = 1.00
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1965
+	first_offset = 1966	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 5
+	folder = advanced_organization_folder
+}
+#########################################################################
+# AIR ASSAULT BRIGADE
+#########################################################################
+air_assault_brigade = {
+	
+	allow = { 
+		air_assault_division = 1
+		OR = { 
+			AND = {
+				NOT = { air_assault_brigade = 1 } # 1965
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+			}
+			AND = {
+				NOT = { air_assault_brigade = 2 } # 1967
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				automatic_grenade_launcher = 1
+			}
+			AND = {
+				NOT = { air_assault_brigade = 3 } # 1969
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	air_cavalry_brigade = {
+		build_cost_ic = 0.85
+		build_time = 5
+		soft_attack = 0.75
+		hard_attack = 0.35
+		ap_attack = 1
+		defensiveness = 1.15
+		supply_consumption = 0.05
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1965
+	first_offset = 1967	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 3
+	folder = advanced_organization_folder
+}
+#########################################################################
+# AIRBORNE DIVISION REORGANIZATION
+#########################################################################
+airborne_division_reorganization = {
+	
+	allow = { 
+		army_division_reorganization = 1
+		paratrooper_regiment = 1
+		SF_Division_HQ = 7
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	paratrooper_brigade = {
+		default_organisation = 10
+		max_strength = -40.00
+		build_cost_ic = -1.35
+		build_cost_manpower = -4.000
+		build_time = -15
+		officers = -50
+		transport_weight = -4.00
+		supply_consumption = -0.35
+		soft_attack = 0.55
+		hard_attack = 0.15
+		ap_attack = 1
+		defensiveness = 1.15
+	}
+	
+	ss_paratrooper_brigade = {
+		default_organisation = 10
+		max_strength = -40.00
+		build_cost_ic = -1.35
+		build_cost_manpower = -4.000
+		build_time = -15
+		officers = -50
+		transport_weight = -4.00
+		supply_consumption = -0.35
+		soft_attack = 0.55
+		hard_attack = 0.15
+		ap_attack = 1
+		defensiveness = 1.15
+	}
+	
+	guard_paratrooper_brigade = {
+		default_organisation = 10
+		max_strength = -40.00
+		build_cost_ic = -1.35
+		build_cost_manpower = -4.000
+		build_time = -15
+		officers = -50
+		transport_weight = -4.00
+		supply_consumption = -0.35
+		soft_attack = 0.55
+		hard_attack = 0.15
+		ap_attack = 1
+		defensiveness = 1.15
+	}
+		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1965
+	folder = advanced_organization_folder
+}
+#########################################################################
+# KAMPFGRUPPE DIVISION
+#########################################################################
+kampfgruppe_division = {
+	
+	allow = { 
+		
+		has_country_flag = kampfgruppe_division_choice
+		
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+	
+	activate_unit = combined_arms_brigade
+	
+	kampfgruppe_unit_type = 0.02
+	
+	combined_arms_brigade = {
+		max_strength = 18.30
+		build_cost_ic = 4.85
+		build_cost_manpower = 1.830
+		build_time = 20
+		officers = 40
+		transport_weight = 7.00
+		supply_consumption = 0.20
+		fuel_consumption = 0.20
+		radio_strength = 1
+		soft_attack = 1.15
+		hard_attack = 0.45
+		air_attack = 0.25
+		armor_value = 2
+		ap_attack = 2
+		defensiveness = 1.75
+	}	
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1947
+	first_offset = 1948	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 3
+	folder = advanced_organization_folder
+}
+#########################################################################
+# 1ST KAMPFGRUPPE 
+#########################################################################
+first_kampfgruppe = {
+	
+	allow = { 
+		kampfgruppe_division = 1
+		OR = { 
+			AND = {
+				NOT = { first_kampfgruppe = 1 } # 1947
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				assault_rifle_prototype = 1
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 2 } # 1947
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				assault_rifle_prototype = 2
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 3 } # 1949
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				assault_rifle_prototype = 3
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 4 } # 1951
+				assault_rifle_prototype = 3
+				medium_tank_prototype = 5  # 1945 Panther II
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 5 } # 1953
+				medium_tank_prototype = 6  # 1947 Panther III
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 6 } # 1955
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 7 } # 1957
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 8 } # 1959
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_light_machine_guns = 1 
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 9 } # 1961
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 10 } # 1963
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				main_battle_tank = 3
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 11 } # 1965
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				main_battle_tank = 3
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 12 } # 1967
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				main_battle_tank = 4
+			}
+			AND = {
+				NOT = { first_kampfgruppe = 13 } # 1969
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+				main_battle_tank = 4
+			}
+		}
+	}
+	
+	change = yes
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.85
+		soft_attack = 0.55
+		hard_attack = 0.25
+		air_attack = 0.15
+		armor_value = 0.5
+		ap_attack = 0.5
+		defensiveness = 0.25
+		supply_consumption = 0.05
+		fuel_consumption = 0.05
+	}			
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1947
+	first_offset = 1949	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 13
+	folder = advanced_organization_folder
+}
+#########################################################################
+# 2ND KAMPFGRUPPE 
+#########################################################################
+second_kampfgruppe = {
+	
+	allow = { 
+		kampfgruppe_division = 2
+		OR = { 
+			AND = {
+				NOT = { second_kampfgruppe = 1 } # 1947
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				assault_rifle_prototype = 1
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 2 } # 1947
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				assault_rifle_prototype = 2
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 3 } # 1949
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				assault_rifle_prototype = 3
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 4 } # 1951
+				assault_rifle_prototype = 3	
+				medium_tank_prototype = 5  # 1945 Panther II
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 5 } # 1953
+				medium_tank_prototype = 6  # 1947 Panther III
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 6 } # 1955
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 7 } # 1957
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 8 } # 1959
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_light_machine_guns = 1 
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 9 } # 1961
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 10 } # 1963
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				main_battle_tank = 3
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 11 } # 1965
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				main_battle_tank = 3
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 12 } # 1967
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				main_battle_tank = 4
+			}
+			AND = {
+				NOT = { second_kampfgruppe = 13 } # 1969
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+				main_battle_tank = 4
+			}
+		}
+	}
+	
+	change = yes
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.85
+		soft_attack = 0.55
+		hard_attack = 0.25
+		air_attack = 0.15
+		armor_value = 0.5
+		ap_attack = 0.5
+		defensiveness = 0.25
+		supply_consumption = 0.05
+		fuel_consumption = 0.05
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1947
+	first_offset = 1949	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 13
+	folder = advanced_organization_folder
+}
+#########################################################################
+# 3RD KAMPFGRUPPE 
+#########################################################################
+third_kampfgruppe = {
+	
+	allow = { 
+		kampfgruppe_division = 3
+		OR = { 
+			AND = {
+				NOT = { third_kampfgruppe = 1 } # 1947
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				assault_rifle_prototype = 1
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 2 } # 1947
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				assault_rifle_prototype = 2
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 3 } # 1949
+				rifle_prototype = 5
+				mortar_prototype = 4
+				hmg_prototype = 3 
+				vehicle_prototype = 8
+				light_tank_prototype = 5
+				medium_tank_prototype = 4
+				OR = {	
+				sp_artillery_prototype = 5
+				sp_rocket_artillery_prototype = 3
+				}
+				assault_rifle_prototype = 3
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 4 } # 1951
+				assault_rifle_prototype = 3
+				medium_tank_prototype = 5  # 1945 Panther II
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 5 } # 1953
+				medium_tank_prototype = 6  # 1947 Panther III
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 6 } # 1955
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 7 } # 1957
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 8 } # 1959
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_light_machine_guns = 1 
+				main_battle_tank = 1 
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 9 } # 1961
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				main_battle_tank = 2
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 10 } # 1963
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				main_battle_tank = 3
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 11 } # 1965
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				main_battle_tank = 3
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 12 } # 1967
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				main_battle_tank = 4
+			}
+			AND = {
+				NOT = { third_kampfgruppe = 13 } # 1969
+				advanced_assault_rifles = 1
+				advanced_mortars = 1
+				advanced_rifles = 1
+				advanced_submachine_guns = 1
+				advanced_light_machine_guns = 2 
+				advanced_anti_tank_grenade = 1
+				advanced_anti_tank_rockets = 1 
+				rocket_propelled_grenades = 1
+				miniguns = 1 
+				automatic_grenade_launcher = 1
+				assault_rifle_grenade_launcher = 1
+				main_battle_tank = 4
+			}
+		}
+	}
+	
+	change = yes
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.85
+		soft_attack = 0.55
+		hard_attack = 0.25
+		air_attack = 0.15
+		armor_value = 0.5
+		ap_attack = 0.5
+		defensiveness = 0.25
+		supply_consumption = 0.05
+		fuel_consumption = 0.05
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1947
+	first_offset = 1949	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 13
+	folder = advanced_organization_folder
+}
+#########################################################################
+# ADVANCED SPECIAL FORCES
+#########################################################################
+advanced_special_forces = {
+	
+	allow = { 
+		light_infantry_regiment = 1
+		mountain_infantry_regiment = 1
+		airlanding_infantry_regiment = 1
+		paratrooper_regiment = 1
+		marine_regiment = 1
+		ski_infantry_battalion = 1
+		commando_battalion = 1
+		air_commando_battalion = 1
+		camoflauge_design = 3
+	}
+		
+	special_forces_unit_type = 0.01	
+	
+	tactic_commando_raid = 5
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1942
+	folder = advanced_organization_folder
+}
+#########################################################################
+# UNDERWATER DEMOLITION TEAMS
+#########################################################################
+underwater_demolition_teams = {
+	
+	allow = { 
+		
+		has_country_flag = underwater_demolition_teams_choice
+		
+	}
+	
+	change = no
+	
+	commando_brigade = {
+		amphibious = { 
+			attack = 0.50 
+		}
+	}	
+		
+	ss_commando_brigade = {
+		amphibious = { 
+			attack = 0.50 
+		}
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1950
+	folder = advanced_organization_folder
+}
+#########################################################################
+# NAVY SEALS
+#########################################################################
+navy_seals = {
+	
+	allow = { 
+		
+		has_country_flag = navy_seals_choice
+		
+	}
+	
+	change = no
+	
+	commando_brigade = {
+		river = { 
+			attack = 0.50
+		}
+		jungle = { 
+			attack = 0.50
+		}
+		amphibious = { 
+			attack = 0.25
+		}	
+		mountain = { 
+			attack = 0.50
+		}		
+	}	
+		
+	ss_commando_brigade = {
+		river = { 
+			attack = 0.50
+		}
+		jungle = { 
+			attack = 0.50
+		}
+		amphibious = { 
+			attack = 0.25
+		}	
+		mountain = { 
+			attack = 0.50
+		}	
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1962
+	folder = advanced_organization_folder
+}
+#########################################################################
+# BRITISH SAS
+#########################################################################
+british_sas = {
+	
+	allow = { 
+		
+		has_country_flag = british_sas_choice
+		
+	}
+	
+	change = no
+	
+	commando_brigade = {
+		desert = { 
+			attack = 0.50
+		}
+		urban = { 
+			attack = 0.50
+		}
+		night = { 
+			attack = 0.25
+		}		
+	}	
+		
+	ss_commando_brigade = {
+		desert = { 
+			attack = 0.50
+		}
+		urban = { 
+			attack = 0.50
+		}
+		night = { 
+			attack = 0.25
+		}		
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1942
+	folder = advanced_organization_folder
+}
+#########################################################################
+# ARMY SPECIAL FORCES GROUP
+#########################################################################
+army_special_forces_group = {
+	
+	allow = { 
+		
+		has_country_flag = army_special_forces_group_choice
+		
+	}
+	
+	change = no
+	
+	commando_brigade = {
+		plains = { 
+			attack = 0.50
+		}
+		forest = { 
+			attack = 0.50
+		}
+		hills = { 
+			attack = 0.25
+		}		
+	}	
+		
+	ss_commando_brigade = {
+		plains = { 
+			attack = 0.50
+		}
+		forest = { 
+			attack = 0.50
+		}
+		hills = { 
+			attack = 0.25
+		}
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.60
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1951
+	folder = advanced_organization_folder
+}
+#########################################################################
+# ARMOR DIVISION REORGANIZATION
+#########################################################################
+tank_division_reorganization = {
+	
+	allow = { 
+		armor_division_hq = 3
+		ai = no
+	}
+		
+	armor_unit_type = 0.01	
+	
+	research_bonus_from = {
+		spearhead_theory = 0.80
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1942
+	folder = advanced_organization_folder
+}
+#########################################################################
+# ARMOR BRIGADE
+#########################################################################
+tank_brigade_reorganization = {
+	
+	allow = { 
+		tank_division_reorganization = 1
+		
+	}
+	
+	change = no
+		
+	armor_brigade = {			
+		max_strength = 1.20
+		officers = 3
+		supply_consumption = 0.05
+		fuel_consumption = 0.10
+		soft_attack = 3.00
+		hard_attack = 1.50
+		defensiveness = 4.00
+		transport_weight = 6.0
+		build_cost_ic = 2.7
+		build_cost_manpower = 0.175
+		ap_attack = 2
+	}		
+	ss_armor_brigade = {
+		max_strength = 1.20
+		officers = 3
+		supply_consumption = 0.05
+		fuel_consumption = 0.10
+		soft_attack = 3.00
+		hard_attack = 1.50
+		defensiveness = 4.00
+		transport_weight = 6.0
+		build_cost_ic = 2.7
+		build_cost_manpower = 0.175
+		ap_attack = 2
+	}	
+	guard_armor_brigade = {
+		max_strength = 1.20
+		officers = 3
+		supply_consumption = 0.05
+		fuel_consumption = 0.10
+		soft_attack = 3.00
+		hard_attack = 1.50
+		defensiveness = 4.00
+		transport_weight = 6.0
+		build_cost_ic = 2.7
+		build_cost_manpower = 0.175
+		ap_attack = 2
+	}	
+		
+	
+	research_bonus_from = {
+		spearhead_theory = 0.80
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1942
+	first_offset = 1943	#2nd model is from 1936
+	additional_offset = 1	#one new every 2 years
+	max_level = 6
+	folder = advanced_organization_folder
+}
+#########################################################################
+# ARMOR BATTALION
+#########################################################################
+tank_battalion_reorganization = {
+	
+	allow = { 
+		tank_division_reorganization = 1
+	}
+	
+	change = no	
+
+	armor_bat = {
+		max_strength = 1.20
+		officers = 3
+		supply_consumption = 0.05
+		fuel_consumption = 0.10
+		soft_attack = 3.00
+		hard_attack = 1.50
+		defensiveness = 4.00
+		transport_weight = 6.0
+		build_cost_ic = 2.7
+		build_cost_manpower = 0.175
+		ap_attack = 2
+	}	
+	ss_armor_bat = {
+		max_strength = 1.20
+		officers = 3
+		supply_consumption = 0.05
+		fuel_consumption = 0.10
+		soft_attack = 3.00
+		hard_attack = 1.50
+		defensiveness = 4.00
+		transport_weight = 6.0
+		build_cost_ic = 2.7
+		build_cost_manpower = 0.175
+		ap_attack = 2
+	}
+	guard_armor_bat = {
+		max_strength = 1.20
+		officers = 3
+		supply_consumption = 0.05
+		fuel_consumption = 0.10
+		soft_attack = 3.00
+		hard_attack = 1.50
+		defensiveness = 4.00
+		transport_weight = 6.0
+		build_cost_ic = 2.7
+		build_cost_manpower = 0.175
+		ap_attack = 2
+	}	
+	
+	research_bonus_from = {
+		spearhead_theory = 0.80
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1942
+	first_offset = 1943	#2nd model is from 1943
+	additional_offset = 1	#one new every 2 years
+	max_level = 3
+	folder = advanced_organization_folder
+}
+#########################################################################
+# MECHANIZED DIVISION REORGANIZATION
+#########################################################################
+mechanized_division_reorganization = {
+	
+	allow = { 
+		mechanized_division_hq = 1
+		ai = no
+	}
+	
+	mobile_unit_type = 0.01	
+	
+	research_bonus_from = {
+		spearhead_theory = 0.80
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1942
+	folder = advanced_organization_folder
+}
+#########################################################################
+# MECHANIZED BRIGADE
+#########################################################################
+mech_infantry_brigade_reorganization = {
+	
+	allow = { 
+		mechanized_division_reorganization = 1
+	}
+	
+	change = no
+	
+	mechanized_brigade = {
+		max_strength = 2.85
+		officers = 10
+		supply_consumption = 0.03
+		fuel_consumption = 0.05
+		soft_attack = 0.45
+		defensiveness = 0.85
+		transport_weight = 5.2
+		build_cost_ic = 3.15
+		build_cost_manpower = 0.32
+	}	
+	
+	ss_mechanized_brigade = {
+		max_strength = 2.85
+		officers = 10
+		supply_consumption = 0.03
+		fuel_consumption = 0.05
+		soft_attack = 0.45
+		defensiveness = 0.85
+		transport_weight = 5.2
+		build_cost_ic = 3.15
+		build_cost_manpower = 0.32
+	}
+	
+	guard_mechanized_brigade = {
+		max_strength = 2.85
+		officers = 10
+		supply_consumption = 0.03
+		fuel_consumption = 0.05
+		soft_attack = 0.45
+		defensiveness = 0.85
+		transport_weight = 5.2
+		build_cost_ic = 3.15
+		build_cost_manpower = 0.32
+	}
+	
+	research_bonus_from = {
+		spearhead_theory = 0.80
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1942
+	first_offset = 1943	#2nd model is from 1943
+	additional_offset = 1	#one new every 2 years
+	max_level = 6
+	folder = advanced_organization_folder
+}
+#########################################################################
+# MECHANIZED BATTALION
+#########################################################################
+mech_infantry_battalion_reorganization = {
+	
+	allow = { 
+		mechanized_division_reorganization = 1
+	}
+	
+	change = no
+	
+	mechanized_infantry_bat = {
+		max_strength = 2.85
+		officers = 10
+		supply_consumption = 0.03
+		fuel_consumption = 0.05
+		soft_attack = 0.45
+		defensiveness = 0.85
+		transport_weight = 5.2
+		build_cost_ic = 3.15
+		build_cost_manpower = 0.32
+	}	
+	
+	ss_mechanized_infantry_bat = {
+		max_strength = 2.85
+		officers = 10
+		supply_consumption = 0.03
+		fuel_consumption = 0.05
+		soft_attack = 0.45
+		defensiveness = 0.85
+		transport_weight = 5.2
+		build_cost_ic = 3.15
+		build_cost_manpower = 0.32
+	}
+	
+	guard_mechanized_infantry_bat = {
+		max_strength = 2.85
+		officers = 10
+		supply_consumption = 0.03
+		fuel_consumption = 0.05
+		soft_attack = 0.45
+		defensiveness = 0.85
+		transport_weight = 5.2
+		build_cost_ic = 3.15
+		build_cost_manpower = 0.32
+	}	
+	
+	research_bonus_from = {
+		spearhead_theory = 0.80
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1942
+	first_offset = 1943	#2nd model is from 1943
+	additional_offset = 1	#one new every 2 years
+	max_level = 3
+	folder = advanced_organization_folder
+}

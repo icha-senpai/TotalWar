@@ -1,0 +1,3111 @@
+################################################################################
+# Heavy Aircraft Technology
+################################################################################
+################################################################################
+# HEAVY AIRCRAFT
+################################################################################
+heavy_aircraft = {
+
+	allow = {
+		wwi_biplane_designs = 1
+		
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1932
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY AIRCRAFT FUSELAGE DESIGN
+################################################################################
+heavy_aircraft_fuselage_design = {
+
+	allow = {
+		heavy_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY AIRCRAFT HORIZONTAL STABILIZER DESIGN
+################################################################################
+heavy_aircraft_horizontal_stabilizer_design = {
+
+	allow = {
+		heavy_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY AIRCRAFT WING DESIGN
+################################################################################
+heavy_aircraft_wing_design = {
+
+	allow = {
+		heavy_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY AIRCRAFT VERTICAL STABILIZER DESIGN
+################################################################################
+heavy_aircraft_vertical_stabilizer_design = {
+
+	allow = {
+		heavy_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+
+	difficulty = 2
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY AIRCRAFT BLUEPRINT
+################################################################################
+heavy_aircraft_blueprint = {
+
+	allow = {
+		heavy_aircraft_fuselage_design = 1
+		heavy_aircraft_horizontal_stabilizer_design = 1
+		heavy_aircraft_wing_design = 1
+		heavy_aircraft_vertical_stabilizer_design = 1
+		OR = {
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 2 } # 1935
+		
+				heavy_aircraft_fuselage_design = 2 # 1935
+				heavy_aircraft_horizontal_stabilizer_design = 2 # 1935
+				heavy_aircraft_wing_design = 2 # 1935
+				heavy_aircraft_vertical_stabilizer_design = 2 # 1935
+			
+			}
+			AND = { 
+				duralumin = 1
+				fully_enclosed_cockpit = 1
+				radial_and_inline_engine_design = 1
+				mono_wing_design = 1
+				retractable_landing_gear = 1
+				NOT = { heavy_aircraft_blueprint = 3 } # 1936
+
+				heavy_aircraft_fuselage_design = 3 # 1936
+				heavy_aircraft_horizontal_stabilizer_design = 3 # 1936
+				heavy_aircraft_wing_design = 3 # 1936
+				heavy_aircraft_vertical_stabilizer_design = 3 # 1936
+			
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 4 } # 1937
+	
+				heavy_aircraft_fuselage_design = 4 # 1937
+				heavy_aircraft_horizontal_stabilizer_design = 4 # 1937
+				heavy_aircraft_wing_design = 4 # 1937
+				heavy_aircraft_vertical_stabilizer_design = 4 # 1937
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 5 } # 1938
+		
+				heavy_aircraft_fuselage_design = 5 # 1938
+				heavy_aircraft_horizontal_stabilizer_design = 5 # 1938
+				heavy_aircraft_wing_design = 5 # 1938
+				heavy_aircraft_vertical_stabilizer_design = 5 # 1938
+			
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 6 } # 1939
+		
+				heavy_aircraft_fuselage_design = 6 # 1939
+				heavy_aircraft_horizontal_stabilizer_design = 6 # 1939
+				heavy_aircraft_wing_design = 6 # 1939
+				heavy_aircraft_vertical_stabilizer_design = 6 # 1939
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 7 } # 1940
+		
+				heavy_aircraft_fuselage_design = 7 # 1940
+				heavy_aircraft_horizontal_stabilizer_design = 7 # 1940
+				heavy_aircraft_wing_design = 7 # 1940
+				heavy_aircraft_vertical_stabilizer_design = 7 # 1940
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 8 } # 1941
+		
+				heavy_aircraft_fuselage_design = 8 # 1941
+				heavy_aircraft_horizontal_stabilizer_design = 8 # 1941
+				heavy_aircraft_wing_design = 8 # 1941
+				heavy_aircraft_vertical_stabilizer_design = 8 # 1941
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 9 } # 1942
+			
+				heavy_aircraft_fuselage_design = 9 # 1942
+				heavy_aircraft_horizontal_stabilizer_design = 9 # 1942
+				heavy_aircraft_wing_design = 9 # 1942
+				heavy_aircraft_vertical_stabilizer_design = 9 # 1942
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 10 } # 1943
+		
+				heavy_aircraft_fuselage_design = 10 # 1943
+				heavy_aircraft_horizontal_stabilizer_design = 10 # 1943
+				heavy_aircraft_wing_design = 10 # 1943
+				heavy_aircraft_vertical_stabilizer_design = 10 # 1943
+			
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 11 } # 1944
+	
+				heavy_aircraft_fuselage_design = 11 # 1944
+				heavy_aircraft_horizontal_stabilizer_design = 11 # 1944
+				heavy_aircraft_wing_design = 11 # 1944
+				heavy_aircraft_vertical_stabilizer_design = 11 # 1944
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 12 } # 1945
+		
+				heavy_aircraft_fuselage_design = 12 # 1945
+				heavy_aircraft_horizontal_stabilizer_design = 12 # 1945
+				heavy_aircraft_wing_design = 12 # 1945
+				heavy_aircraft_vertical_stabilizer_design = 12 # 1945
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 13 } # 1946
+	
+				heavy_aircraft_fuselage_design = 13 # 1946
+				heavy_aircraft_horizontal_stabilizer_design = 13 # 1946
+				heavy_aircraft_wing_design = 13 # 1946
+				heavy_aircraft_vertical_stabilizer_design = 13 # 1946
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 14 } # 1947
+	
+				heavy_aircraft_fuselage_design = 14 # 1947
+				heavy_aircraft_horizontal_stabilizer_design = 14 # 1947
+				heavy_aircraft_wing_design = 14 # 1947
+				heavy_aircraft_vertical_stabilizer_design = 14 # 1947
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 15 } # 1948
+	
+				heavy_aircraft_fuselage_design = 15 # 1948
+				heavy_aircraft_horizontal_stabilizer_design = 15 # 1948
+				heavy_aircraft_wing_design = 15 # 1948
+				heavy_aircraft_vertical_stabilizer_design = 15 # 1948
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 16 } # 1949
+	
+				heavy_aircraft_fuselage_design = 16 # 1949
+				heavy_aircraft_horizontal_stabilizer_design = 16 # 1949
+				heavy_aircraft_wing_design = 16 # 1949
+				heavy_aircraft_vertical_stabilizer_design = 16 # 1949
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 17 } # 1950
+	
+				heavy_aircraft_fuselage_design = 17 # 1950
+				heavy_aircraft_horizontal_stabilizer_design = 17 # 1950
+				heavy_aircraft_wing_design = 17 # 1950
+				heavy_aircraft_vertical_stabilizer_design = 17 # 1950
+		
+			}
+			AND = { 
+				NOT = { heavy_aircraft_blueprint = 18 } # 1951
+		
+				heavy_aircraft_fuselage_design = 18 # 1951
+				heavy_aircraft_horizontal_stabilizer_design = 18 # 1951
+				heavy_aircraft_wing_design = 18 # 1951
+				heavy_aircraft_vertical_stabilizer_design = 18 # 1951
+		
+			}
+		}
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY AIRCRAFT PROTOTYPE AND TESTING
+################################################################################
+heavy_aircraft_prototype_and_testing = {
+
+	allow = {
+		heavy_aircraft_blueprint = 1
+		OR = {
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 2 } # 1935
+				heavy_aircraft_blueprint = 2 # 1935
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 3 } # 1936
+				heavy_aircraft_blueprint = 3 # 1936
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 4 } # 1937
+				heavy_aircraft_blueprint = 4 # 1937
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 5 } # 1938
+				heavy_aircraft_blueprint = 5 # 1938
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 6 } # 1939
+				heavy_aircraft_blueprint = 6 # 1939
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 7 } # 1940
+				heavy_aircraft_blueprint = 7 # 1940
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 8 } # 1941
+				heavy_aircraft_blueprint = 8 # 1941
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 9 } # 1942
+				heavy_aircraft_blueprint = 9 # 1942
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 10 } # 1943
+				heavy_aircraft_blueprint = 10 # 1943
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 11 } # 1944
+				heavy_aircraft_blueprint = 11 # 1944
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 12 } # 1945
+				heavy_aircraft_blueprint = 12 # 1945
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 13 } # 1946
+				heavy_aircraft_blueprint = 13 # 1946
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 14 } # 1947
+				heavy_aircraft_blueprint = 14 # 1947
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 15 } # 1948
+				heavy_aircraft_blueprint = 15 # 1948
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 16 } # 1949
+				heavy_aircraft_blueprint = 16 # 1949
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 17 } # 1950
+				heavy_aircraft_blueprint = 17 # 1950
+			}
+			AND = { 
+				NOT = { heavy_aircraft_prototype_and_testing = 18 } # 1951
+				heavy_aircraft_blueprint = 18 # 1951
+			}
+		}
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY AIRCRAFT MODEL
+################################################################################
+heavy_aircraft_model = {
+
+	allow = {
+		heavy_aircraft_prototype_and_testing = 1
+		OR = {
+			AND = { 
+				NOT = { heavy_aircraft_model = 2 } # 1935
+				heavy_aircraft_prototype_and_testing = 2 # 1935
+				long_range_aircraft_production = 3
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 3 } # 1936
+				heavy_aircraft_prototype_and_testing = 3 # 1936
+				long_range_aircraft_production = 4
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 4 } # 1937
+				heavy_aircraft_prototype_and_testing = 4 # 1937
+				long_range_aircraft_production = 5
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 5 } # 1938
+				heavy_aircraft_prototype_and_testing = 5 # 1938
+				long_range_aircraft_production = 6
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 6 } # 1939
+				heavy_aircraft_prototype_and_testing = 6 # 1939
+				long_range_aircraft_production = 7
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 7 } # 1940
+				heavy_aircraft_prototype_and_testing = 7 # 1940
+				long_range_aircraft_production = 8
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 8 } # 1941
+				heavy_aircraft_prototype_and_testing = 8 # 1941
+				long_range_aircraft_production = 9
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 9 } # 1942
+				heavy_aircraft_prototype_and_testing = 9 # 1942
+				long_range_aircraft_production = 10
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 10 } # 1943
+				heavy_aircraft_prototype_and_testing = 10 # 1943
+				long_range_aircraft_production = 11
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 11 } # 1944
+				heavy_aircraft_prototype_and_testing = 11 # 1944
+				long_range_aircraft_production = 12
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 12 } # 1945
+				heavy_aircraft_prototype_and_testing = 12 # 1945
+				long_range_aircraft_production = 13
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 13 } # 1946
+				heavy_aircraft_prototype_and_testing = 13 # 1946
+				long_range_aircraft_production = 14
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 14 } # 1947
+				heavy_aircraft_prototype_and_testing = 14 # 1947
+				long_range_aircraft_production = 15
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 15 } # 1948
+				heavy_aircraft_prototype_and_testing = 15 # 1948
+				long_range_aircraft_production = 16
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 16 } # 1949
+				heavy_aircraft_prototype_and_testing = 16 # 1949
+				long_range_aircraft_production = 17
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 17 } # 1950
+				heavy_aircraft_prototype_and_testing = 17 # 1950
+				long_range_aircraft_production = 18
+			}
+			AND = { 
+				NOT = { heavy_aircraft_model = 18 } # 1951
+				heavy_aircraft_prototype_and_testing = 18 # 1951
+				long_range_aircraft_production = 19
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_bomber = { 
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.50
+		air_defence = 1.25
+		surface_defence = 1.25
+		maximum_speed = 5
+		range = 40
+		build_cost_ic = 0.65
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.45
+		sea_attack = 1.75
+		sub_attack = 0.35
+		}
+	
+	strategic_bomber = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.50
+		air_defence = 3.00
+		surface_defence = 4.00
+		maximum_speed = 2
+		range = 30
+		build_cost_ic = 0.85
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.50
+		strategic_attack = 1.00
+		sea_attack = 0.10
+		}
+		
+	heavy_bomber = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.25
+		air_defence = 2.25
+		surface_defence = 3.50
+		maximum_speed = 1
+		range = 35
+		build_cost_ic = 0.90
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.75
+		strategic_attack = 1.50
+		}
+
+	quad_engine_transport = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.10
+		air_defence = 2.25
+		surface_defence = 2.25
+		maximum_speed = 2
+		range = 50
+		build_cost_ic = 1.00
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		transport_capability = 3.00
+		}	
+		
+	super_heavy_bomber = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.15
+		air_defence = 5.00
+		surface_defence = 6.50
+		maximum_speed = 4
+		range = 45
+		build_cost_ic = 1.50
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		strategic_attack = 2.50
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 8
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY AIRCRAFT ENGINE IMPROVEMENTS
+################################################################################
+heavy_aircraft_engine_improvements = {
+
+	allow = {
+		heavy_aircraft_model = 1
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	naval_bomber = { 	
+		maximum_speed = 5
+		range = 5.0
+		}
+	strategic_bomber = { 	
+		maximum_speed = 5
+		range = 5.0
+		}
+	heavy_bomber = { 	
+		maximum_speed = 5
+		range = 5.0
+		}
+	super_heavy_bomber = { 	
+		maximum_speed = 5
+		range = 5.0
+		}	
+	quad_engine_transport = { 	
+		maximum_speed = 5
+		range = 5.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY AIRCRAFT INTERNAL MECHANICAL IMPROVEMENTS
+################################################################################
+heavy_aircraft_internal_mechanical_improvements = {
+
+	allow = {
+		heavy_aircraft_model = 1
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_bomber = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+	strategic_bomber = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+	heavy_bomber = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+	super_heavy_bomber = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}	
+	quad_engine_transport = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY AIRCRAFT AERODYNAMIC IMPROVEMENTS
+################################################################################
+heavy_aircraft_aerodynamic_improvements = {
+
+	allow = {
+		heavy_aircraft_model = 1
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_bomber = { 	
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+	strategic_bomber = { 	
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+	heavy_bomber = { 	
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+	super_heavy_bomber = { 	
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}	
+	quad_engine_transport = { 	
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# NAVAL BOMBER FOCUS
+################################################################################
+naval_bomber_focus = {
+
+	allow = {
+		heavy_aircraft_model = 1 # 1932
+		OR = {
+			AND = { 
+				NOT = { naval_bomber_focus = 1 } # 1932
+				OR = { 
+					heavy_aircraft_model = 1 # 1932
+					OR = { 
+						heavy_aircraft_engine_improvements = 1
+						heavy_aircraft_internal_mechanical_improvements = 1
+						heavy_aircraft_aerodynamic_improvements = 1
+						}
+					}
+			}	
+			AND = { 
+				NOT = { naval_bomber_focus = 2 } # 1935
+				OR = { 
+					heavy_aircraft_model = 2 # 1935
+					OR = { 
+						heavy_aircraft_engine_improvements = 2
+						heavy_aircraft_internal_mechanical_improvements = 2
+						heavy_aircraft_aerodynamic_improvements = 2
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 1
+						heavy_aircraft_internal_mechanical_improvements = 1
+						heavy_aircraft_aerodynamic_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 3 } # 1936
+				OR = { 
+					heavy_aircraft_model = 3 # 1936
+					OR = { 
+						heavy_aircraft_engine_improvements = 3
+						heavy_aircraft_internal_mechanical_improvements = 3
+						heavy_aircraft_aerodynamic_improvements = 3
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 2
+						heavy_aircraft_internal_mechanical_improvements = 2
+						heavy_aircraft_aerodynamic_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 4 } # 1937
+				OR = { 
+					heavy_aircraft_model = 4 # 1937
+					OR = { 
+						heavy_aircraft_engine_improvements = 4
+						heavy_aircraft_internal_mechanical_improvements = 4
+						heavy_aircraft_aerodynamic_improvements = 4
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 3
+						heavy_aircraft_internal_mechanical_improvements = 3
+						heavy_aircraft_aerodynamic_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 5 } # 1938
+				OR = { 
+					heavy_aircraft_model = 5 # 1938
+					OR = { 
+						heavy_aircraft_engine_improvements = 5
+						heavy_aircraft_internal_mechanical_improvements = 5
+						heavy_aircraft_aerodynamic_improvements = 5
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 4
+						heavy_aircraft_internal_mechanical_improvements = 4
+						heavy_aircraft_aerodynamic_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 6 } # 1939
+				OR = {
+					heavy_aircraft_model = 6 # 1939
+					OR = { 
+						heavy_aircraft_engine_improvements = 6
+						heavy_aircraft_internal_mechanical_improvements = 6
+						heavy_aircraft_aerodynamic_improvements = 6
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 5
+						heavy_aircraft_internal_mechanical_improvements = 5
+						heavy_aircraft_aerodynamic_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 7 } # 1940
+				OR = { 
+					heavy_aircraft_model = 7 # 1940
+					OR = { 
+						heavy_aircraft_engine_improvements = 7
+						heavy_aircraft_internal_mechanical_improvements = 7
+						heavy_aircraft_aerodynamic_improvements = 7
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 6
+						heavy_aircraft_internal_mechanical_improvements = 6
+						heavy_aircraft_aerodynamic_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 8 } # 1941
+				OR = { 
+					heavy_aircraft_model = 8 # 1941
+					OR = { 
+						heavy_aircraft_engine_improvements = 8
+						heavy_aircraft_internal_mechanical_improvements = 8
+						heavy_aircraft_aerodynamic_improvements = 8
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 7
+						heavy_aircraft_internal_mechanical_improvements = 7
+						heavy_aircraft_aerodynamic_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 9 } # 1942
+				OR = { 
+					heavy_aircraft_model = 9 # 1942
+					OR = {
+						heavy_aircraft_engine_improvements = 9
+						heavy_aircraft_internal_mechanical_improvements = 9
+						heavy_aircraft_aerodynamic_improvements = 9
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 8
+						heavy_aircraft_internal_mechanical_improvements = 8
+						heavy_aircraft_aerodynamic_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 10 } # 1943
+				OR = { 
+					heavy_aircraft_model = 10 # 1943
+					OR = { 
+						heavy_aircraft_engine_improvements = 10
+						heavy_aircraft_internal_mechanical_improvements = 10
+						heavy_aircraft_aerodynamic_improvements = 10
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 9
+						heavy_aircraft_internal_mechanical_improvements = 9
+						heavy_aircraft_aerodynamic_improvements = 9
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 11 } # 1944
+				OR = { 
+					heavy_aircraft_model = 11 # 1944
+					OR = { 
+						heavy_aircraft_engine_improvements = 11
+						heavy_aircraft_internal_mechanical_improvements = 11
+						heavy_aircraft_aerodynamic_improvements = 11
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 10
+						heavy_aircraft_internal_mechanical_improvements = 10
+						heavy_aircraft_aerodynamic_improvements = 10
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 12 } # 1945
+				OR = { 
+					heavy_aircraft_model = 12 # 1945
+					OR = { 
+						heavy_aircraft_engine_improvements = 12
+						heavy_aircraft_internal_mechanical_improvements = 12
+						heavy_aircraft_aerodynamic_improvements = 12
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 11
+						heavy_aircraft_internal_mechanical_improvements = 11
+						heavy_aircraft_aerodynamic_improvements = 11
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 13 } # 1946
+				OR = { 
+					heavy_aircraft_model = 13 # 1946
+					OR = { 
+						heavy_aircraft_engine_improvements = 13
+						heavy_aircraft_internal_mechanical_improvements = 13
+						heavy_aircraft_aerodynamic_improvements = 13
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 12
+						heavy_aircraft_internal_mechanical_improvements = 12
+						heavy_aircraft_aerodynamic_improvements = 12
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 14 } # 1947
+				OR = { 
+					heavy_aircraft_model = 14 # 1947
+					OR = { 
+						heavy_aircraft_engine_improvements = 14
+						heavy_aircraft_internal_mechanical_improvements = 14
+						heavy_aircraft_aerodynamic_improvements = 14
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 13
+						heavy_aircraft_internal_mechanical_improvements = 13
+						heavy_aircraft_aerodynamic_improvements = 13
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 15 } # 1948
+				OR = { 
+					heavy_aircraft_model = 15 # 1948
+					OR = { 
+						heavy_aircraft_engine_improvements = 15
+						heavy_aircraft_internal_mechanical_improvements = 15
+						heavy_aircraft_aerodynamic_improvements = 15
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 14
+						heavy_aircraft_internal_mechanical_improvements = 14
+						heavy_aircraft_aerodynamic_improvements = 14
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 16 } # 1949
+				OR = { 
+					heavy_aircraft_model = 16 # 1949
+					OR = { 
+						heavy_aircraft_engine_improvements = 16
+						heavy_aircraft_internal_mechanical_improvements = 16
+						heavy_aircraft_aerodynamic_improvements = 16
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 15
+						heavy_aircraft_internal_mechanical_improvements = 15
+						heavy_aircraft_aerodynamic_improvements = 15
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 17 } # 1950
+				OR = { 
+					heavy_aircraft_model = 17 # 1950
+					OR = { 
+						heavy_aircraft_engine_improvements = 17
+						heavy_aircraft_internal_mechanical_improvements = 17
+						heavy_aircraft_aerodynamic_improvements = 17
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 16
+						heavy_aircraft_internal_mechanical_improvements = 16
+						heavy_aircraft_aerodynamic_improvements = 16
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_bomber_focus = 18 } # 1951
+				OR = { 
+					heavy_aircraft_model = 18 # 1951
+					OR = { 
+						heavy_aircraft_engine_improvements = 18
+						heavy_aircraft_internal_mechanical_improvements = 18
+						heavy_aircraft_aerodynamic_improvements = 18
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 17
+						heavy_aircraft_internal_mechanical_improvements = 17
+						heavy_aircraft_aerodynamic_improvements = 17
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = naval_bomber
+	
+	naval_bomber = { 	
+		build_cost_ic = 0.20
+		sea_attack = 0.75
+		sub_attack = 0.25
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# STRATEGIC BOMBER FOCUS
+################################################################################
+strategic_bomber_focus = {
+
+	allow = {
+		heavy_aircraft_model = 1
+		OR = {
+			AND = { 
+				NOT = { strategic_bomber_focus = 1 } # 1932
+				OR = { 
+					heavy_aircraft_model = 1 # 1932
+					OR = { 
+						heavy_aircraft_engine_improvements = 1
+						heavy_aircraft_internal_mechanical_improvements = 1
+						heavy_aircraft_aerodynamic_improvements = 1
+						}
+					}
+			}	
+			AND = { 
+				NOT = { strategic_bomber_focus = 2 } # 1935
+				OR = { 
+					heavy_aircraft_model = 2 # 1935
+					OR = { 
+						heavy_aircraft_engine_improvements = 2
+						heavy_aircraft_internal_mechanical_improvements = 2
+						heavy_aircraft_aerodynamic_improvements = 2
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 1
+						heavy_aircraft_internal_mechanical_improvements = 1
+						heavy_aircraft_aerodynamic_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 3 } # 1936
+				OR = { 
+					heavy_aircraft_model = 3 # 1936
+					OR = { 
+						heavy_aircraft_engine_improvements = 3
+						heavy_aircraft_internal_mechanical_improvements = 3
+						heavy_aircraft_aerodynamic_improvements = 3
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 2
+						heavy_aircraft_internal_mechanical_improvements = 2
+						heavy_aircraft_aerodynamic_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 4 } # 1937
+				OR = { 
+					heavy_aircraft_model = 4 # 1937
+					OR = { 
+						heavy_aircraft_engine_improvements = 4
+						heavy_aircraft_internal_mechanical_improvements = 4
+						heavy_aircraft_aerodynamic_improvements = 4
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 3
+						heavy_aircraft_internal_mechanical_improvements = 3
+						heavy_aircraft_aerodynamic_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 5 } # 1938
+				OR = { 
+					heavy_aircraft_model = 5 # 1938
+					OR = { 
+						heavy_aircraft_engine_improvements = 5
+						heavy_aircraft_internal_mechanical_improvements = 5
+						heavy_aircraft_aerodynamic_improvements = 5
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 4
+						heavy_aircraft_internal_mechanical_improvements = 4
+						heavy_aircraft_aerodynamic_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 6 } # 1939
+				OR = { 
+					heavy_aircraft_model = 6 # 1939
+					OR = { 
+						heavy_aircraft_engine_improvements = 6
+						heavy_aircraft_internal_mechanical_improvements = 6
+						heavy_aircraft_aerodynamic_improvements = 6
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 5
+						heavy_aircraft_internal_mechanical_improvements = 5
+						heavy_aircraft_aerodynamic_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 7 } # 1940
+				OR = { 
+					heavy_aircraft_model = 7 # 1940
+					OR = { 
+						heavy_aircraft_engine_improvements = 7
+						heavy_aircraft_internal_mechanical_improvements = 7
+						heavy_aircraft_aerodynamic_improvements = 7
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 6
+						heavy_aircraft_internal_mechanical_improvements = 6
+						heavy_aircraft_aerodynamic_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 8 } # 1941
+				OR = { 
+					heavy_aircraft_model = 8 # 1941
+					OR = { 
+						heavy_aircraft_engine_improvements = 8
+						heavy_aircraft_internal_mechanical_improvements = 8
+						heavy_aircraft_aerodynamic_improvements = 8
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 7
+						heavy_aircraft_internal_mechanical_improvements = 7
+						heavy_aircraft_aerodynamic_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 9 } # 1942
+				OR = { 
+					heavy_aircraft_model = 9 # 1942
+					OR = { 
+						heavy_aircraft_engine_improvements = 9
+						heavy_aircraft_internal_mechanical_improvements = 9
+						heavy_aircraft_aerodynamic_improvements = 9
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 8
+						heavy_aircraft_internal_mechanical_improvements = 8
+						heavy_aircraft_aerodynamic_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 10 } # 1943
+				OR = { 
+					heavy_aircraft_model = 10 # 1943
+					OR = { 
+						heavy_aircraft_engine_improvements = 10
+						heavy_aircraft_internal_mechanical_improvements = 10
+						heavy_aircraft_aerodynamic_improvements = 10
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 9
+						heavy_aircraft_internal_mechanical_improvements = 9
+						heavy_aircraft_aerodynamic_improvements = 9
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 11 } # 1944
+				OR = { 
+					heavy_aircraft_model = 11 # 1944
+					OR = { 
+						heavy_aircraft_engine_improvements = 11
+						heavy_aircraft_internal_mechanical_improvements = 11
+						heavy_aircraft_aerodynamic_improvements = 11
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 10
+						heavy_aircraft_internal_mechanical_improvements = 10
+						heavy_aircraft_aerodynamic_improvements = 10
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 12 } # 1945
+				OR = { 
+					heavy_aircraft_model = 12 # 1945
+					OR = { 
+						heavy_aircraft_engine_improvements = 12
+						heavy_aircraft_internal_mechanical_improvements = 12
+						heavy_aircraft_aerodynamic_improvements = 12
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 11
+						heavy_aircraft_internal_mechanical_improvements = 11
+						heavy_aircraft_aerodynamic_improvements = 11
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 13 } # 1946
+				OR = { 
+					heavy_aircraft_model = 13 # 1946
+					OR = { 
+						heavy_aircraft_engine_improvements = 13
+						heavy_aircraft_internal_mechanical_improvements = 13
+						heavy_aircraft_aerodynamic_improvements = 13
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 12
+						heavy_aircraft_internal_mechanical_improvements = 12
+						heavy_aircraft_aerodynamic_improvements = 12
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 14 } # 1947
+				OR = { 
+					heavy_aircraft_model = 14 # 1947
+					OR = { 
+						heavy_aircraft_engine_improvements = 14
+						heavy_aircraft_internal_mechanical_improvements = 14
+						heavy_aircraft_aerodynamic_improvements = 14
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 13
+						heavy_aircraft_internal_mechanical_improvements = 13
+						heavy_aircraft_aerodynamic_improvements = 13
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 15 } # 1948
+				OR = { 
+					heavy_aircraft_model = 15 # 1948
+					OR = { 
+						heavy_aircraft_engine_improvements = 15
+						heavy_aircraft_internal_mechanical_improvements = 15
+						heavy_aircraft_aerodynamic_improvements = 15
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 14
+						heavy_aircraft_internal_mechanical_improvements = 14
+						heavy_aircraft_aerodynamic_improvements = 14
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 16 } # 1949
+				OR = { 
+					heavy_aircraft_model = 16 # 1949
+					OR = { 
+						heavy_aircraft_engine_improvements = 16
+						heavy_aircraft_internal_mechanical_improvements = 16
+						heavy_aircraft_aerodynamic_improvements = 16
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 15
+						heavy_aircraft_internal_mechanical_improvements = 15
+						heavy_aircraft_aerodynamic_improvements = 15
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 17 } # 1950
+				OR = { 
+					heavy_aircraft_model = 17 # 1950
+					OR = { 
+						heavy_aircraft_engine_improvements = 17
+						heavy_aircraft_internal_mechanical_improvements = 17
+						heavy_aircraft_aerodynamic_improvements = 17
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 16
+						heavy_aircraft_internal_mechanical_improvements = 16
+						heavy_aircraft_aerodynamic_improvements = 16
+						}	
+					}
+			}
+			AND = { 
+				NOT = { strategic_bomber_focus = 18 } # 1951
+				OR = { 
+					heavy_aircraft_model = 18 # 1951
+					OR = { 
+						heavy_aircraft_engine_improvements = 18
+						heavy_aircraft_internal_mechanical_improvements = 18
+						heavy_aircraft_aerodynamic_improvements = 18
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 17
+						heavy_aircraft_internal_mechanical_improvements = 17
+						heavy_aircraft_aerodynamic_improvements = 17
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = strategic_bomber
+	
+	strategic_bomber = { 	
+		air_defence = 0.50
+		strategic_attack = 0.10
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER FOCUS
+################################################################################
+heavy_bomber_focus = {
+
+	allow = {
+		heavy_aircraft_model = 1
+		OR = {
+			AND = { 
+				NOT = { heavy_bomber_focus = 1 } # 1932
+				OR = { 
+					heavy_aircraft_model = 1 # 1932
+					OR = {
+						heavy_aircraft_engine_improvements = 1
+						heavy_aircraft_internal_mechanical_improvements = 1
+						heavy_aircraft_aerodynamic_improvements = 1
+						}
+					}
+			}	
+			AND = { 
+				NOT = { heavy_bomber_focus = 2 } # 1935
+				OR = { 
+					heavy_aircraft_model = 2 # 1935
+					OR = {
+						heavy_aircraft_engine_improvements = 2
+						heavy_aircraft_internal_mechanical_improvements = 2
+						heavy_aircraft_aerodynamic_improvements = 2
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 1
+						heavy_aircraft_internal_mechanical_improvements = 1
+						heavy_aircraft_aerodynamic_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 3 } # 1936
+				OR = { 
+					heavy_aircraft_model = 3 # 1936
+					OR = {
+						heavy_aircraft_engine_improvements = 3
+						heavy_aircraft_internal_mechanical_improvements = 3
+						heavy_aircraft_aerodynamic_improvements = 3
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 2
+						heavy_aircraft_internal_mechanical_improvements = 2
+						heavy_aircraft_aerodynamic_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 4 } # 1937
+				OR = { 
+					heavy_aircraft_model = 4 # 1937
+					OR = {
+						heavy_aircraft_engine_improvements = 4
+						heavy_aircraft_internal_mechanical_improvements = 4
+						heavy_aircraft_aerodynamic_improvements = 4
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 3
+						heavy_aircraft_internal_mechanical_improvements = 3
+						heavy_aircraft_aerodynamic_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 5 } # 1938
+				OR = { 
+					heavy_aircraft_model = 5 # 1938
+					OR = {
+						heavy_aircraft_engine_improvements = 5
+						heavy_aircraft_internal_mechanical_improvements = 5
+						heavy_aircraft_aerodynamic_improvements = 5
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 4
+						heavy_aircraft_internal_mechanical_improvements = 4
+						heavy_aircraft_aerodynamic_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 6 } # 1939
+				OR = { 
+					heavy_aircraft_model = 6 # 1939
+					OR = {
+						heavy_aircraft_engine_improvements = 6
+						heavy_aircraft_internal_mechanical_improvements = 6
+						heavy_aircraft_aerodynamic_improvements = 6
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 5
+						heavy_aircraft_internal_mechanical_improvements = 5
+						heavy_aircraft_aerodynamic_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 7 } # 1940
+				OR = { 
+					heavy_aircraft_model = 7 # 1940
+					OR = {
+						heavy_aircraft_engine_improvements = 7
+						heavy_aircraft_internal_mechanical_improvements = 7
+						heavy_aircraft_aerodynamic_improvements = 7
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 6
+						heavy_aircraft_internal_mechanical_improvements = 6
+						heavy_aircraft_aerodynamic_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 8 } # 1941
+				OR = { 
+					heavy_aircraft_model = 8 # 1941
+					OR = {
+						heavy_aircraft_engine_improvements = 8
+						heavy_aircraft_internal_mechanical_improvements = 8
+						heavy_aircraft_aerodynamic_improvements = 8
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 7
+						heavy_aircraft_internal_mechanical_improvements = 7
+						heavy_aircraft_aerodynamic_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 9 } # 1942
+				OR = { 
+					heavy_aircraft_model = 9 # 1942
+					OR = {
+						heavy_aircraft_engine_improvements = 9
+						heavy_aircraft_internal_mechanical_improvements = 9
+						heavy_aircraft_aerodynamic_improvements = 9
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 8
+						heavy_aircraft_internal_mechanical_improvements = 8
+						heavy_aircraft_aerodynamic_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 10 } # 1943
+				OR = { 
+					heavy_aircraft_model = 10 # 1943
+					OR = {
+						heavy_aircraft_engine_improvements = 10
+						heavy_aircraft_internal_mechanical_improvements = 10
+						heavy_aircraft_aerodynamic_improvements = 10
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 9
+						heavy_aircraft_internal_mechanical_improvements = 9
+						heavy_aircraft_aerodynamic_improvements = 9
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 11 } # 1944
+				OR = { 
+					heavy_aircraft_model = 11 # 1944
+					OR = {
+						heavy_aircraft_engine_improvements = 11
+						heavy_aircraft_internal_mechanical_improvements = 11
+						heavy_aircraft_aerodynamic_improvements = 11
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 10
+						heavy_aircraft_internal_mechanical_improvements = 10
+						heavy_aircraft_aerodynamic_improvements = 10
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 12 } # 1945
+				OR = { 
+					heavy_aircraft_model = 12 # 1945
+					OR = {
+						heavy_aircraft_engine_improvements = 12
+						heavy_aircraft_internal_mechanical_improvements = 12
+						heavy_aircraft_aerodynamic_improvements = 12
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 11
+						heavy_aircraft_internal_mechanical_improvements = 11
+						heavy_aircraft_aerodynamic_improvements = 11
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 13 } # 1946
+				OR = { 
+					heavy_aircraft_model = 13 # 1946
+					OR = {
+						heavy_aircraft_engine_improvements = 13
+						heavy_aircraft_internal_mechanical_improvements = 13
+						heavy_aircraft_aerodynamic_improvements = 13
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 12
+						heavy_aircraft_internal_mechanical_improvements = 12
+						heavy_aircraft_aerodynamic_improvements = 12
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 14 } # 1947
+				OR = { 
+					heavy_aircraft_model = 14 # 1947
+					OR = {
+						heavy_aircraft_engine_improvements = 14
+						heavy_aircraft_internal_mechanical_improvements = 14
+						heavy_aircraft_aerodynamic_improvements = 14
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 13
+						heavy_aircraft_internal_mechanical_improvements = 13
+						heavy_aircraft_aerodynamic_improvements = 13
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 15 } # 1948
+				OR = { 
+					heavy_aircraft_model = 15 # 1948
+					OR = {
+						heavy_aircraft_engine_improvements = 15
+						heavy_aircraft_internal_mechanical_improvements = 15
+						heavy_aircraft_aerodynamic_improvements = 15
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 14
+						heavy_aircraft_internal_mechanical_improvements = 14
+						heavy_aircraft_aerodynamic_improvements = 14
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 16 } # 1949
+				OR = { 
+					heavy_aircraft_model = 16 # 1949
+					OR = {
+						heavy_aircraft_engine_improvements = 16
+						heavy_aircraft_internal_mechanical_improvements = 16
+						heavy_aircraft_aerodynamic_improvements = 16
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 15
+						heavy_aircraft_internal_mechanical_improvements = 15
+						heavy_aircraft_aerodynamic_improvements = 15
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 17 } # 1950
+				OR = { 
+					heavy_aircraft_model = 17 # 1950
+					OR = {
+						heavy_aircraft_engine_improvements = 17
+						heavy_aircraft_internal_mechanical_improvements = 17
+						heavy_aircraft_aerodynamic_improvements = 17
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 16
+						heavy_aircraft_internal_mechanical_improvements = 16
+						heavy_aircraft_aerodynamic_improvements = 16
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_bomber_focus = 18 } # 1951
+				OR = { 
+					heavy_aircraft_model = 18 # 1951
+					OR = {
+						heavy_aircraft_engine_improvements = 18
+						heavy_aircraft_internal_mechanical_improvements = 18
+						heavy_aircraft_aerodynamic_improvements = 18
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 17
+						heavy_aircraft_internal_mechanical_improvements = 17
+						heavy_aircraft_aerodynamic_improvements = 17
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	activate_unit = heavy_bomber
+	
+	heavy_bomber = { 	
+		strategic_attack = 0.40
+		build_cost_ic = 0.30
+		build_time = 3
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY TRANSPORT FOCUS
+################################################################################
+heavy_transport_focus = {
+
+	allow = {
+		heavy_aircraft_model = 1
+		OR = {
+			AND = { 
+				NOT = { heavy_transport_focus = 1 } # 1932
+				OR = { 
+					heavy_aircraft_model = 1 # 1932
+					OR = {
+						heavy_aircraft_engine_improvements = 1
+						heavy_aircraft_internal_mechanical_improvements = 1
+						heavy_aircraft_aerodynamic_improvements = 1
+						}
+					}
+			}	
+			AND = { 
+				NOT = { heavy_transport_focus = 2 } # 1935
+				OR = { 
+					heavy_aircraft_model = 2 # 1935
+					OR = {
+						heavy_aircraft_engine_improvements = 2
+						heavy_aircraft_internal_mechanical_improvements = 2
+						heavy_aircraft_aerodynamic_improvements = 2
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 1
+						heavy_aircraft_internal_mechanical_improvements = 1
+						heavy_aircraft_aerodynamic_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 3 } # 1936
+				OR = { 
+					heavy_aircraft_model = 3 # 1936
+					OR = {
+						heavy_aircraft_engine_improvements = 3
+						heavy_aircraft_internal_mechanical_improvements = 3
+						heavy_aircraft_aerodynamic_improvements = 3
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 2
+						heavy_aircraft_internal_mechanical_improvements = 2
+						heavy_aircraft_aerodynamic_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 4 } # 1937
+				OR = { 
+					heavy_aircraft_model = 4 # 1937
+					OR = {
+						heavy_aircraft_engine_improvements = 4
+						heavy_aircraft_internal_mechanical_improvements = 4
+						heavy_aircraft_aerodynamic_improvements = 4
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 3
+						heavy_aircraft_internal_mechanical_improvements = 3
+						heavy_aircraft_aerodynamic_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 5 } # 1938
+				OR = { 
+					heavy_aircraft_model = 5 # 1938
+					OR = {
+						heavy_aircraft_engine_improvements = 5
+						heavy_aircraft_internal_mechanical_improvements = 5
+						heavy_aircraft_aerodynamic_improvements = 5
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 4
+						heavy_aircraft_internal_mechanical_improvements = 4
+						heavy_aircraft_aerodynamic_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 6 } # 1939
+				OR = { 
+					heavy_aircraft_model = 6 # 1939
+					OR = {
+						heavy_aircraft_engine_improvements = 6
+						heavy_aircraft_internal_mechanical_improvements = 6
+						heavy_aircraft_aerodynamic_improvements = 6
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 5
+						heavy_aircraft_internal_mechanical_improvements = 5
+						heavy_aircraft_aerodynamic_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 7 } # 1940
+				OR = { 
+					heavy_aircraft_model = 7 # 1940
+					OR = {
+						heavy_aircraft_engine_improvements = 7
+						heavy_aircraft_internal_mechanical_improvements = 7
+						heavy_aircraft_aerodynamic_improvements = 7
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 6
+						heavy_aircraft_internal_mechanical_improvements = 6
+						heavy_aircraft_aerodynamic_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 8 } # 1941
+				OR = { 
+					heavy_aircraft_model = 8 # 1941
+					OR = {
+						heavy_aircraft_engine_improvements = 8
+						heavy_aircraft_internal_mechanical_improvements = 8
+						heavy_aircraft_aerodynamic_improvements = 8
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 7
+						heavy_aircraft_internal_mechanical_improvements = 7
+						heavy_aircraft_aerodynamic_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 9 } # 1942
+				OR = { 
+					heavy_aircraft_model = 9 # 1942
+					OR = {
+						heavy_aircraft_engine_improvements = 9
+						heavy_aircraft_internal_mechanical_improvements = 9
+						heavy_aircraft_aerodynamic_improvements = 9
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 8
+						heavy_aircraft_internal_mechanical_improvements = 8
+						heavy_aircraft_aerodynamic_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 10 } # 1943
+				OR = { 
+					heavy_aircraft_model = 10 # 1943
+					OR = {
+						heavy_aircraft_engine_improvements = 10
+						heavy_aircraft_internal_mechanical_improvements = 10
+						heavy_aircraft_aerodynamic_improvements = 10
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 9
+						heavy_aircraft_internal_mechanical_improvements = 9
+						heavy_aircraft_aerodynamic_improvements = 9
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 11 } # 1944
+				OR = { 
+					heavy_aircraft_model = 11 # 1944
+					OR = {
+						heavy_aircraft_engine_improvements = 11
+						heavy_aircraft_internal_mechanical_improvements = 11
+						heavy_aircraft_aerodynamic_improvements = 11
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 10
+						heavy_aircraft_internal_mechanical_improvements = 10
+						heavy_aircraft_aerodynamic_improvements = 10
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 12 } # 1945
+				OR = { 
+					heavy_aircraft_model = 12 # 1945
+					OR = {
+						heavy_aircraft_engine_improvements = 12
+						heavy_aircraft_internal_mechanical_improvements = 12
+						heavy_aircraft_aerodynamic_improvements = 12
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 11
+						heavy_aircraft_internal_mechanical_improvements = 11
+						heavy_aircraft_aerodynamic_improvements = 11
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 13 } # 1946
+				OR = { 
+					heavy_aircraft_model = 13 # 1946
+					OR = {
+						heavy_aircraft_engine_improvements = 13
+						heavy_aircraft_internal_mechanical_improvements = 13
+						heavy_aircraft_aerodynamic_improvements = 13
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 12
+						heavy_aircraft_internal_mechanical_improvements = 12
+						heavy_aircraft_aerodynamic_improvements = 12
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 14 } # 1947
+				OR = { 
+					heavy_aircraft_model = 14 # 1947
+					OR = {
+						heavy_aircraft_engine_improvements = 14
+						heavy_aircraft_internal_mechanical_improvements = 14
+						heavy_aircraft_aerodynamic_improvements = 14
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 13
+						heavy_aircraft_internal_mechanical_improvements = 13
+						heavy_aircraft_aerodynamic_improvements = 13
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 15 } # 1948
+				OR = { 
+					heavy_aircraft_model = 15 # 1948
+					OR = {
+						heavy_aircraft_engine_improvements = 15
+						heavy_aircraft_internal_mechanical_improvements = 15
+						heavy_aircraft_aerodynamic_improvements = 15
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 14
+						heavy_aircraft_internal_mechanical_improvements = 14
+						heavy_aircraft_aerodynamic_improvements = 14
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 16 } # 1949
+				OR = { 
+					heavy_aircraft_model = 16 # 1949
+					OR = {
+						heavy_aircraft_engine_improvements = 16
+						heavy_aircraft_internal_mechanical_improvements = 16
+						heavy_aircraft_aerodynamic_improvements = 16
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 15
+						heavy_aircraft_internal_mechanical_improvements = 15
+						heavy_aircraft_aerodynamic_improvements = 15
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 17 } # 1950
+				OR = { 
+					heavy_aircraft_model = 17 # 1950
+					OR = {
+						heavy_aircraft_engine_improvements = 17
+						heavy_aircraft_internal_mechanical_improvements = 17
+						heavy_aircraft_aerodynamic_improvements = 17
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 16
+						heavy_aircraft_internal_mechanical_improvements = 16
+						heavy_aircraft_aerodynamic_improvements = 16
+						}	
+					}
+			}
+			AND = { 
+				NOT = { heavy_transport_focus = 18 } # 1951
+				OR = { 
+					heavy_aircraft_model = 18 # 1951
+					OR = {
+						heavy_aircraft_engine_improvements = 18
+						heavy_aircraft_internal_mechanical_improvements = 18
+						heavy_aircraft_aerodynamic_improvements = 18
+						}
+					AND = {
+						heavy_aircraft_engine_improvements = 17
+						heavy_aircraft_internal_mechanical_improvements = 17
+						heavy_aircraft_aerodynamic_improvements = 17
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = quad_engine_transport
+	
+	quad_engine_transport = { 	
+		transport_capability = 0.50
+		build_cost_ic = 0.35
+		build_time = 3
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1932
+	first_offset = 1935 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 18
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# SUPER HEAVY BOMBER FOCUS
+################################################################################
+super_heavy_bomber_focus = {
+
+	allow = {
+		heavy_aircraft_model = 11
+		OR = {
+			AND = { 
+				NOT = { super_heavy_bomber_focus = 1 } # 1944
+				OR = { 
+					heavy_aircraft_model = 11 # 1944
+					OR = { 
+						heavy_aircraft_engine_improvements = 11
+						heavy_aircraft_internal_mechanical_improvements = 11
+						heavy_aircraft_aerodynamic_improvements = 11
+						}
+					}
+			}
+			AND = { 
+				NOT = { super_heavy_bomber_focus = 2 } # 1945
+				OR = { 
+					heavy_aircraft_model = 12 # 1945
+					OR = { 
+						heavy_aircraft_engine_improvements = 12
+						heavy_aircraft_internal_mechanical_improvements = 12
+						heavy_aircraft_aerodynamic_improvements = 12
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 11
+						heavy_aircraft_internal_mechanical_improvements = 11
+						heavy_aircraft_aerodynamic_improvements = 11
+						}	
+					}
+			}
+			AND = { 
+				NOT = { super_heavy_bomber_focus = 3 } # 1946
+				OR = { 
+					heavy_aircraft_model = 13 # 1946
+					OR = { 
+						heavy_aircraft_engine_improvements = 13
+						heavy_aircraft_internal_mechanical_improvements = 13
+						heavy_aircraft_aerodynamic_improvements = 13
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 12
+						heavy_aircraft_internal_mechanical_improvements = 12
+						heavy_aircraft_aerodynamic_improvements = 12
+						}	
+					}
+			}
+			AND = { 
+				NOT = { super_heavy_bomber_focus = 4 } # 1947
+				OR = { 
+					heavy_aircraft_model = 14 # 1947
+					OR = { 
+						heavy_aircraft_engine_improvements = 14
+						heavy_aircraft_internal_mechanical_improvements = 14
+						heavy_aircraft_aerodynamic_improvements = 14
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 13
+						heavy_aircraft_internal_mechanical_improvements = 13
+						heavy_aircraft_aerodynamic_improvements = 13
+						}	
+					}
+			}
+			AND = { 
+				NOT = { super_heavy_bomber_focus = 5 } # 1948
+				OR = { 
+					heavy_aircraft_model = 15 # 1948
+					OR = { 
+						heavy_aircraft_engine_improvements = 15
+						heavy_aircraft_internal_mechanical_improvements = 15
+						heavy_aircraft_aerodynamic_improvements = 15
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 14
+						heavy_aircraft_internal_mechanical_improvements = 14
+						heavy_aircraft_aerodynamic_improvements = 14
+						}	
+					}
+			}
+			AND = { 
+				NOT = { super_heavy_bomber_focus = 6 } # 1949
+				OR = { 
+					heavy_aircraft_model = 16 # 1949
+					OR = { 
+						heavy_aircraft_engine_improvements = 16
+						heavy_aircraft_internal_mechanical_improvements = 16
+						heavy_aircraft_aerodynamic_improvements = 16
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 15
+						heavy_aircraft_internal_mechanical_improvements = 15
+						heavy_aircraft_aerodynamic_improvements = 15
+						}	
+					}
+			}
+			AND = { 
+				NOT = { super_heavy_bomber_focus = 7 } # 1950
+				OR = { 
+					heavy_aircraft_model = 17 # 1950
+					OR = { 
+						heavy_aircraft_engine_improvements = 17
+						heavy_aircraft_internal_mechanical_improvements = 17
+						heavy_aircraft_aerodynamic_improvements = 17
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 16
+						heavy_aircraft_internal_mechanical_improvements = 16
+						heavy_aircraft_aerodynamic_improvements = 16
+						}	
+					}
+			}
+			AND = { 
+				NOT = { super_heavy_bomber_focus = 8 } # 1951
+				OR = { 
+					heavy_aircraft_model = 18 # 1951
+					OR = { 
+						heavy_aircraft_engine_improvements = 18
+						heavy_aircraft_internal_mechanical_improvements = 18
+						heavy_aircraft_aerodynamic_improvements = 18
+						}
+					AND = { 
+						heavy_aircraft_engine_improvements = 17
+						heavy_aircraft_internal_mechanical_improvements = 17
+						heavy_aircraft_aerodynamic_improvements = 17
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	activate_unit = super_heavy_bomber
+	
+	super_heavy_bomber = { 	
+		air_defence = 0.25
+		surface_defence = 0.25
+		range = 25
+		strategic_attack = 0.75
+		build_cost_ic = 0.40
+		build_time = 4
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 8
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# STRATEGIC BOMBER ARMOR
+################################################################################
+strategic_bomber_armor = {
+
+	allow = {
+		strategic_bomber_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	strategic_bomber = { 	
+		air_defence = 1.75
+		surface_defence = 1.75
+		maximum_speed = -25
+		range = -125
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER ARMOR
+################################################################################
+heavy_bomber_armor = {
+
+	allow = {
+		heavy_bomber_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	heavy_bomber = { 	
+		air_defence = 1.50
+		surface_defence = 1.50
+		maximum_speed = -15
+		range = -150
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# SUPER HEAVY BOMBER ARMOR
+################################################################################
+super_heavy_bomber_armor = {
+
+	allow = {
+		super_heavy_bomber_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	super_heavy_bomber = { 	
+		air_defence = 2.00
+		surface_defence = 2.00
+		maximum_speed = -25
+		range = -150
+		build_cost_ic = 0.50
+		build_time = 3
+		}		
+
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER NOSE GUNNER
+################################################################################
+heavy_bomber_nose_gunner = {
+
+	allow = {
+		heavy_aircraft_model = 5
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+	strategic_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+	heavy_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1938
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER SIDE GUNNERS
+################################################################################
+heavy_bomber_side_gunners = {
+
+	allow = {
+		heavy_aircraft_model = 5
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	naval_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.10
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+	strategic_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.10
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+	heavy_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.10
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1938
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER TAIL GUNNER
+################################################################################
+heavy_bomber_tail_gunner = {
+
+	allow = {
+		heavy_aircraft_model = 5
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+	strategic_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+	heavy_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1938
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER TOP GUNNER
+################################################################################
+heavy_bomber_top_gunner = {
+
+	allow = {
+		heavy_aircraft_model = 5
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	naval_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+	strategic_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}
+	heavy_bomber = { 	
+		build_time = 1
+		build_cost_ic = 0.05
+		air_attack = 0.25
+		maximum_speed = -10.0
+		range = -10.0
+		supply_consumption = 0.10
+		}	
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	start_year = 1938
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER NOSE GUN TURRET
+################################################################################
+heavy_bomber_nose_gun_turret = {
+
+	allow = {
+		heavy_aircraft_model = 8
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+	strategic_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+	heavy_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}	
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	start_year = 1943
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER DORSAL GUN TURRET
+################################################################################
+heavy_bomber_dorsal_gun_turret = {
+
+	allow = {
+		heavy_aircraft_model = 5
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+	strategic_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+	heavy_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	start_year = 1938
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER VENTRAL GUN TURRET
+################################################################################
+heavy_bomber_ventral_gun_turret = {
+
+	allow = {
+		heavy_aircraft_model = 5
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+	strategic_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+	heavy_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}	
+		
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	start_year = 1938
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER TAIL GUN TURRET
+################################################################################
+heavy_bomber_tail_gun_turret = {
+
+	allow = {
+		heavy_aircraft_model = 9
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+	strategic_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}
+	heavy_bomber = { 	
+		build_time = 3
+		build_cost_ic = 0.25
+		air_attack = 0.50
+		maximum_speed = -20.0
+		range = -20.0
+		supply_consumption = 0.20
+		}	
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	start_year = 1942
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# SUPER HEAVY BOMBER REMOTE GUN TURRETS
+################################################################################
+super_heavy_bomber_remote_gun_turrets = {
+
+	allow = {
+		super_heavy_bomber_focus = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	super_heavy_bomber = { 	
+		build_time = 10
+		build_cost_ic = 0.50
+		air_attack = 1.00
+		maximum_speed = -25.0
+		range = -25.0
+		supply_consumption = 0.30
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+	
+	start_year = 1945
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# PRESSURIZED CABIN
+################################################################################
+pressurized_cabin = {
+
+	allow = {
+		super_heavy_bomber_focus = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	super_heavy_bomber = { 	
+		build_cost_ic = 1.00
+		build_time = 15
+		surface_defence = 2.0
+		air_defence = 2.0
+		}
+	amerika_bomber = { 	
+		build_cost_ic = 1.00
+		build_time = 15
+		surface_defence = 2.0
+		air_defence = 2.0
+		}	
+		
+	advanced_jet_heavy_bomber = { 	
+		build_cost_ic = 1.00
+		build_time = 15
+		surface_defence = 2.0
+		air_defence = 2.0
+		}
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 9
+	
+	start_year = 1944
+	first_offset = 1945 	# 2nd model is from 1941
+    additional_offset = 3   # one new every 1 years
+	max_level = 6
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# STRATEGIC BOMBER BOMB LOAD PLUS
+################################################################################
+strategic_bomber_bomb_load_plus = {
+	
+	allow = {
+		heavy_aircraft_model = 1
+		strategic_bomber_focus = 1	
+		ai = no		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	strategic_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.25
+		hard_attack = 0.10
+		strategic_attack = 1.00
+		maximum_speed = -30
+		range = -200
+		supply_consumption = 0.25
+		}
+					
+		
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER BOMB LOAD PLUS
+################################################################################
+heavy_bomber_bomb_load_plus = {
+	
+	allow = {
+		heavy_aircraft_model = 1
+		heavy_bomber_focus = 1	
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+						
+	heavy_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.35
+		hard_attack = 0.15
+		strategic_attack = 1.50
+		maximum_speed = -35
+		range = -225
+		supply_consumption = 0.25
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# SUPER HEAVY AIRCRAFT BOMB LOAD PLUS
+################################################################################
+super_heavy_bomber_bomb_load_plus = {
+	
+	allow = {
+		heavy_aircraft_model = 1
+		super_heavy_bomber_focus = 1
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+			
+	super_heavy_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.45
+		hard_attack = 0.15
+		strategic_attack = 2.00
+		maximum_speed = -45
+		range = -300
+		supply_consumption = 0.35
+		}	
+
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1939
+	first_offset = 1941 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# STRATEGIC BOMBER BOMB LOAD MINUS
+################################################################################
+strategic_bomber_bomb_load_minus = {
+	
+	allow = {
+		strategic_bomber_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { strategic_bomber_bomb_load_minus = 3 } # 1940
+				strategic_bomber_bomb_load_minus = 1 # 1936
+			}
+			AND = { 
+				NOT = { strategic_bomber_bomb_load_minus = 4 } # 1942
+				strategic_bomber_bomb_load_minus = 2 # 1937
+			}
+			AND = { 
+				NOT = { strategic_bomber_bomb_load_minus = 5 } # 1944
+				strategic_bomber_bomb_load_minus = 3 # 1938
+			}
+			AND = { 
+				NOT = { strategic_bomber_bomb_load_minus = 6 } # 1946
+				strategic_bomber_bomb_load_minus = 4 # 1938
+			}
+		}	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	strategic_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.25
+		hard_attack = -0.10
+		strategic_attack = -1.00
+		maximum_speed = 30
+		range = 200
+		supply_consumption = -0.25
+		}
+					
+		
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# HEAVY BOMBER BOMB LOAD MINUS
+################################################################################
+heavy_bomber_bomb_load_minus = {
+	
+	allow = {
+		heavy_bomber_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { heavy_bomber_bomb_load_minus = 3 } # 1940
+				heavy_bomber_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { heavy_bomber_bomb_load_minus = 4 } # 1942
+				heavy_bomber_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { heavy_bomber_bomb_load_minus = 5 } # 1944
+				heavy_bomber_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { heavy_bomber_bomb_load_minus = 6 } # 1946
+				heavy_bomber_bomb_load_plus = 4 # 1938
+			}
+		}	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	heavy_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.35
+		hard_attack = -0.15
+		strategic_attack = -1.50
+		maximum_speed = 35
+		range = 225
+		supply_consumption = -0.25
+		}	
+			
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1938 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = heavy_aircraft_folder
+}
+################################################################################
+# SUPER HEAVY AIRCRAFT BOMB LOAD MINUS
+################################################################################
+super_heavy_bomber_bomb_load_minus = {
+	
+	allow = {
+		super_heavy_bomber_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { super_heavy_bomber_bomb_load_minus = 3 } # 1943
+				super_heavy_bomber_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { super_heavy_bomber_bomb_load_minus = 4 } # 1945
+				super_heavy_bomber_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { super_heavy_bomber_bomb_load_minus = 5 } # 1947
+				super_heavy_bomber_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { super_heavy_bomber_bomb_load_minus = 6 } # 1949
+				super_heavy_bomber_bomb_load_plus = 4 # 1938
+			}
+		}	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	super_heavy_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.45
+		hard_attack = -0.15
+		strategic_attack = -2.00
+		maximum_speed = 45
+		range = 300
+		supply_consumption = -0.35
+		}	
+		
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1939
+	first_offset = 1941 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = heavy_aircraft_folder
+}

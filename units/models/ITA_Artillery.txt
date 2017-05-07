@@ -1,0 +1,930 @@
+###################################################################
+# Artillery Brigade
+###################################################################
+artillery_brigade.0 = { #1918 model I
+	first_light_artillery_battalion = 1
+	second_light_artillery_battalion = 1
+	third_light_artillery_battalion = 1
+	medium_artillery_battalion = 1
+}
+artillery_brigade.1 = { #1936 model II
+	first_light_artillery_battalion = 2
+	second_light_artillery_battalion = 2
+	third_light_artillery_battalion = 2
+	medium_artillery_battalion = 2
+}
+artillery_brigade.2 = { #1938 model III
+	first_light_artillery_battalion = 3
+	second_light_artillery_battalion = 3
+	third_light_artillery_battalion = 3
+	medium_artillery_battalion = 3
+}
+artillery_brigade.3 = { #1940 model IV
+	first_light_artillery_battalion = 4
+	second_light_artillery_battalion = 4
+	third_light_artillery_battalion = 4
+	medium_artillery_battalion = 4
+}
+artillery_brigade.4 = { #1942 model IV
+	first_light_artillery_battalion = 5
+	second_light_artillery_battalion = 5
+	third_light_artillery_battalion = 5
+	medium_artillery_battalion = 5
+}
+artillery_brigade.5 = { #1944 model IV
+	first_light_artillery_battalion = 6
+	second_light_artillery_battalion = 6
+	third_light_artillery_battalion = 6
+	medium_artillery_battalion = 6
+}
+artillery_brigade.6 = { #1946 model IV
+	first_light_artillery_battalion = 7
+	second_light_artillery_battalion = 7
+	third_light_artillery_battalion = 7
+	medium_artillery_battalion = 7
+}
+artillery_brigade.7 = { #1948 model IV
+	first_light_artillery_battalion = 8
+	second_light_artillery_battalion = 8
+	third_light_artillery_battalion = 8
+	medium_artillery_battalion = 8
+}
+artillery_brigade.8 = { #1950 model IV
+	first_light_artillery_battalion = 9
+	second_light_artillery_battalion = 9
+	third_light_artillery_battalion = 9
+	medium_artillery_battalion = 9
+}
+artillery_brigade.9 = { #1952 model IV
+	first_light_artillery_battalion = 10
+	second_light_artillery_battalion = 10
+	third_light_artillery_battalion = 10
+	medium_artillery_battalion = 10
+}
+###################################################################
+# Motorized Artillery Brigade
+###################################################################
+motorized_artillery_brigade.0 = { #1918 model I
+	first_light_artillery_battalion = 1
+	second_light_artillery_battalion = 1
+	third_light_artillery_battalion = 1
+	medium_artillery_battalion = 1
+}
+motorized_artillery_brigade.1 = { #1936 model II
+	first_light_artillery_battalion = 2
+	second_light_artillery_battalion = 2
+	third_light_artillery_battalion = 2
+	medium_artillery_battalion = 2
+}
+motorized_artillery_brigade.2 = { #1938 model III
+	first_light_artillery_battalion = 3
+	second_light_artillery_battalion = 3
+	third_light_artillery_battalion = 3
+	medium_artillery_battalion = 3
+}
+motorized_artillery_brigade.3 = { #1940 model IV
+	first_light_artillery_battalion = 4
+	second_light_artillery_battalion = 4
+	third_light_artillery_battalion = 4
+	medium_artillery_battalion = 4
+}
+motorized_artillery_brigade.4 = { #1942 model IV
+	first_light_artillery_battalion = 5
+	second_light_artillery_battalion = 5
+	third_light_artillery_battalion = 5
+	medium_artillery_battalion = 5
+}
+motorized_artillery_brigade.5 = { #1944 model IV
+	first_light_artillery_battalion = 6
+	second_light_artillery_battalion = 6
+	third_light_artillery_battalion = 6
+	medium_artillery_battalion = 6
+}
+motorized_artillery_brigade.6 = { #1946 model IV
+	first_light_artillery_battalion = 7
+	second_light_artillery_battalion = 7
+	third_light_artillery_battalion = 7
+	medium_artillery_battalion = 7
+}
+motorized_artillery_brigade.7 = { #1948 model IV
+	first_light_artillery_battalion = 8
+	second_light_artillery_battalion = 8
+	third_light_artillery_battalion = 8
+	medium_artillery_battalion = 8
+}
+motorized_artillery_brigade.8 = { #1950 model IV
+	first_light_artillery_battalion = 9
+	second_light_artillery_battalion = 9
+	third_light_artillery_battalion = 9
+	medium_artillery_battalion = 9
+}
+motorized_artillery_brigade.9 = { #1952 model IV
+	first_light_artillery_battalion = 10
+	second_light_artillery_battalion = 10
+	third_light_artillery_battalion = 10
+	medium_artillery_battalion = 10
+}
+###################################################################
+# SS Artillery Brigade
+###################################################################
+ss_artillery_brigade.0 = { #1918 model I
+	first_light_artillery_battalion = 1
+	second_light_artillery_battalion = 1
+	third_light_artillery_battalion = 1
+	medium_artillery_battalion = 1
+}
+ss_artillery_brigade.1 = { #1936 model II
+	first_light_artillery_battalion = 2
+	second_light_artillery_battalion = 2
+	third_light_artillery_battalion = 2
+	medium_artillery_battalion = 2
+}
+ss_artillery_brigade.2 = { #1938 model III
+	first_light_artillery_battalion = 3
+	second_light_artillery_battalion = 3
+	third_light_artillery_battalion = 3
+	medium_artillery_battalion = 3
+}
+ss_artillery_brigade.3 = { #1940 model IV
+	first_light_artillery_battalion = 4
+	second_light_artillery_battalion = 4
+	third_light_artillery_battalion = 4
+	medium_artillery_battalion = 4
+}
+ss_artillery_brigade.4 = { #1942 model IV
+	first_light_artillery_battalion = 5
+	second_light_artillery_battalion = 5
+	third_light_artillery_battalion = 5
+	medium_artillery_battalion = 5
+}
+ss_artillery_brigade.5 = { #1944 model IV
+	first_light_artillery_battalion = 6
+	second_light_artillery_battalion = 6
+	third_light_artillery_battalion = 6
+	medium_artillery_battalion = 6
+}
+ss_artillery_brigade.6 = { #1946 model IV
+	first_light_artillery_battalion = 7
+	second_light_artillery_battalion = 7
+	third_light_artillery_battalion = 7
+	medium_artillery_battalion = 7
+}
+ss_artillery_brigade.7 = { #1948 model IV
+	first_light_artillery_battalion = 8
+	second_light_artillery_battalion = 8
+	third_light_artillery_battalion = 8
+	medium_artillery_battalion = 8
+}
+ss_artillery_brigade.8 = { #1950 model IV
+	first_light_artillery_battalion = 9
+	second_light_artillery_battalion = 9
+	third_light_artillery_battalion = 9
+	medium_artillery_battalion = 9
+}
+ss_artillery_brigade.9 = { #1952 model IV
+	first_light_artillery_battalion = 10
+	second_light_artillery_battalion = 10
+	third_light_artillery_battalion = 10
+	medium_artillery_battalion = 10
+}
+###################################################################
+# SS Motorized Artillery Brigade
+###################################################################
+ss_motorized_artillery_brigade.0 = { #1918 model I
+	first_light_artillery_battalion = 1
+	second_light_artillery_battalion = 1
+	third_light_artillery_battalion = 1
+	medium_artillery_battalion = 1
+}
+ss_motorized_artillery_brigade.1 = { #1936 model II
+	first_light_artillery_battalion = 2
+	second_light_artillery_battalion = 2
+	third_light_artillery_battalion = 2
+	medium_artillery_battalion = 2
+}
+ss_motorized_artillery_brigade.2 = { #1938 model III
+	first_light_artillery_battalion = 3
+	second_light_artillery_battalion = 3
+	third_light_artillery_battalion = 3
+	medium_artillery_battalion = 3
+}
+ss_motorized_artillery_brigade.3 = { #1940 model IV
+	first_light_artillery_battalion = 4
+	second_light_artillery_battalion = 4
+	third_light_artillery_battalion = 4
+	medium_artillery_battalion = 4
+}
+ss_motorized_artillery_brigade.4 = { #1942 model IV
+	first_light_artillery_battalion = 5
+	second_light_artillery_battalion = 5
+	third_light_artillery_battalion = 5
+	medium_artillery_battalion = 5
+}
+ss_motorized_artillery_brigade.5 = { #1944 model IV
+	first_light_artillery_battalion = 6
+	second_light_artillery_battalion = 6
+	third_light_artillery_battalion = 6
+	medium_artillery_battalion = 6
+}
+ss_motorized_artillery_brigade.6 = { #1946 model IV
+	first_light_artillery_battalion = 7
+	second_light_artillery_battalion = 7
+	third_light_artillery_battalion = 7
+	medium_artillery_battalion = 7
+}
+ss_motorized_artillery_brigade.7 = { #1948 model IV
+	first_light_artillery_battalion = 8
+	second_light_artillery_battalion = 8
+	third_light_artillery_battalion = 8
+	medium_artillery_battalion = 8
+}
+ss_motorized_artillery_brigade.8 = { #1950 model IV
+	first_light_artillery_battalion = 9
+	second_light_artillery_battalion = 9
+	third_light_artillery_battalion = 9
+	medium_artillery_battalion = 9
+}
+ss_motorized_artillery_brigade.9 = { #1952 model IV
+	first_light_artillery_battalion = 10
+	second_light_artillery_battalion = 10
+	third_light_artillery_battalion = 10
+	medium_artillery_battalion = 10
+}
+###################################################################
+# Pack Artillery Brigade
+###################################################################
+pack_artillery_brigade.0 = { #1918 model II - 1918
+	pack_artillery = 1
+	first_light_artillery_battalion = 1
+}
+###################################################################
+# SS Pack Artillery Brigade
+###################################################################
+ss_pack_artillery_brigade.0 = { #1918 model II - 1918
+	pack_artillery = 1
+	first_light_artillery_battalion = 1
+}
+###################################################################
+# Airborne Artillery Brigade
+###################################################################
+airborne_artillery_brigade.0 = { #1918 model II - 1918
+	airborne_artillery = 1
+	first_light_artillery_battalion = 1
+}
+###################################################################
+# Rocket Artillery Brigade
+###################################################################
+rocket_artillery_brigade.0 = {
+	rocket_artillery_battalion = 1
+}
+rocket_artillery_brigade.1 = {
+	rocket_artillery_battalion = 2
+}
+rocket_artillery_brigade.2 = {
+	rocket_artillery_battalion = 3
+}
+rocket_artillery_brigade.3 = {
+	rocket_artillery_battalion = 4
+}
+rocket_artillery_brigade.4 = {
+	rocket_artillery_battalion = 5
+}
+rocket_artillery_brigade.5 = {
+	rocket_artillery_battalion = 6
+}
+rocket_artillery_brigade.6 = {
+	rocket_artillery_battalion = 7
+}
+rocket_artillery_brigade.7 = {
+	rocket_artillery_battalion = 8
+}
+rocket_artillery_brigade.8 = {
+	rocket_artillery_battalion = 9
+}
+rocket_artillery_brigade.9 = {
+	rocket_artillery_battalion = 10
+}
+###################################################################
+# SP Artillery Brigade
+###################################################################
+sp_artillery_brigade.0 = { # model I 1939
+	sp_artillery_battalion = 1
+}
+sp_artillery_brigade.1 = { # model II 1940
+	sp_artillery_battalion = 2
+}
+sp_artillery_brigade.2 = { # model III 1942
+	sp_artillery_battalion = 3
+}
+sp_artillery_brigade.3 = { # model IV 1944
+	sp_artillery_battalion = 4
+}
+sp_artillery_brigade.4 = { # model V 1946
+	sp_artillery_battalion = 5
+}
+sp_artillery_brigade.5 = { # model VI 1948
+	sp_artillery_battalion = 6
+}
+sp_artillery_brigade.6 = { # model VII 1950
+	sp_artillery_battalion = 7
+}
+sp_artillery_brigade.7 = { # model VIII 1952
+	sp_artillery_battalion = 8
+}
+sp_artillery_brigade.8 = { # model IX 1954
+	sp_artillery_battalion = 9
+}
+sp_artillery_brigade.9 = { # model X 1956
+	sp_artillery_battalion = 10
+}
+###################################################################
+# SS SP Artillery Brigade
+###################################################################
+ss_sp_artillery_brigade.0 = { # model I 1939
+	sp_artillery_battalion = 1
+}
+ss_sp_artillery_brigade.1 = { # model II 1940
+	sp_artillery_battalion = 2
+}
+ss_sp_artillery_brigade.2 = { # model III 1942
+	sp_artillery_battalion = 3
+}
+ss_sp_artillery_brigade.3 = { # model IV 1944
+	sp_artillery_battalion = 4
+}
+ss_sp_artillery_brigade.4 = { # model V 1946
+	sp_artillery_battalion = 5
+}
+ss_sp_artillery_brigade.5 = { # model VI 1948
+	sp_artillery_battalion = 6
+}
+ss_sp_artillery_brigade.6 = { # model VII 1950
+	sp_artillery_battalion = 7
+}
+ss_sp_artillery_brigade.7 = { # model VIII 1952
+	sp_artillery_battalion = 8
+}
+ss_sp_artillery_brigade.8 = { # model IX 1954
+	sp_artillery_battalion = 9
+}
+ss_sp_artillery_brigade.9 = { # model X 1956
+	sp_artillery_battalion = 10
+}
+###################################################################
+# SP Rocket Artillery Brigade
+###################################################################
+sp_rct_artillery_brigade.0 = {
+	sp_rocket_artillery_battalion = 1
+}
+sp_rct_artillery_brigade.1 = {
+	sp_rocket_artillery_battalion = 2
+}
+sp_rct_artillery_brigade.2 = {
+	sp_rocket_artillery_battalion = 3
+}
+sp_rct_artillery_brigade.3 = {
+	sp_rocket_artillery_battalion = 4
+}
+sp_rct_artillery_brigade.4 = {
+	sp_rocket_artillery_battalion = 5
+}
+sp_rct_artillery_brigade.5 = {
+	sp_rocket_artillery_battalion = 6
+}
+sp_rct_artillery_brigade.6 = {
+	sp_rocket_artillery_battalion = 7
+}
+sp_rct_artillery_brigade.7 = {
+	sp_rocket_artillery_battalion = 8
+}
+sp_rct_artillery_brigade.8 = {
+	sp_rocket_artillery_battalion = 9
+}
+sp_rct_artillery_brigade.9 = {
+	sp_rocket_artillery_battalion = 10
+}
+###################################################################
+# Motorized Anti-Air
+###################################################################
+motorized_anti_air_brigade.0 = { # model I 1936
+	first_anti_aircraft_company = 1
+	second_anti_aircraft_company = 1
+	third_anti_aircraft_company = 1
+} 
+motorized_anti_air_brigade.1 = { # model II 1938
+	first_anti_aircraft_company = 2
+	second_anti_aircraft_company = 2
+	third_anti_aircraft_company = 2
+}
+motorized_anti_air_brigade.2 = { # model III 1940
+	first_anti_aircraft_company = 3
+	second_anti_aircraft_company = 3
+	third_anti_aircraft_company = 3
+}
+motorized_anti_air_brigade.3 = { # model IV 1942
+	first_anti_aircraft_company = 4
+	second_anti_aircraft_company = 4
+	third_anti_aircraft_company = 4
+}
+motorized_anti_air_brigade.4 = { # model V 1944
+	first_anti_aircraft_company = 5
+	second_anti_aircraft_company = 5
+	third_anti_aircraft_company = 5
+}
+motorized_anti_air_brigade.5 = { # model VI 1946
+	first_anti_aircraft_company = 6
+	second_anti_aircraft_company = 6
+	third_anti_aircraft_company = 6
+}
+motorized_anti_air_brigade.6 = { # model VI 1948
+	first_anti_aircraft_company = 7
+	second_anti_aircraft_company = 7
+	third_anti_aircraft_company = 7
+}
+motorized_anti_air_brigade.7 = { # model VI 1950
+	first_anti_aircraft_company = 8
+	second_anti_aircraft_company = 8
+	third_anti_aircraft_company = 8
+}
+motorized_anti_air_brigade.8 = { # model VI 1952
+	first_anti_aircraft_company = 9
+	second_anti_aircraft_company = 9
+	third_anti_aircraft_company = 9
+}
+motorized_anti_air_brigade.9 = { # model VI 1954
+	first_anti_aircraft_company = 10
+	second_anti_aircraft_company = 10
+	third_anti_aircraft_company = 10
+}
+###################################################################
+# Anti-Air
+###################################################################
+# Anti-Air
+anti_air_brigade.0 = { # model I 1936
+	first_anti_aircraft_company = 1
+} 
+anti_air_brigade.1 = { # model II 1938
+	first_anti_aircraft_company = 2
+}
+anti_air_brigade.2 = { # model III 1940
+	first_anti_aircraft_company = 3
+}
+anti_air_brigade.3 = { # model IV 1942
+	first_anti_aircraft_company = 4
+}
+anti_air_brigade.4 = { # model V 1944 
+	first_anti_aircraft_company = 5
+}
+anti_air_brigade.5 = { # model VI 1946
+	first_anti_aircraft_company = 6
+}
+anti_air_brigade.6 = { # model VII 1948
+	first_anti_aircraft_company = 7
+}
+anti_air_brigade.7 = { # model VIII 1950
+	first_anti_aircraft_company = 8
+}
+anti_air_brigade.8 = { # model IX 1952
+	first_anti_aircraft_company = 9
+}
+anti_air_brigade.9 = { # model X 1954
+	first_anti_aircraft_company = 10
+}
+###################################################################
+# SS Motorized Anti-Air
+###################################################################
+ss_motorized_anti_air_brigade.0 = { # model I 1936
+	first_anti_aircraft_company = 1
+	second_anti_aircraft_company = 1
+	third_anti_aircraft_company = 1
+} 
+ss_motorized_anti_air_brigade.1 = { # model II 1938
+	first_anti_aircraft_company = 2
+	second_anti_aircraft_company = 2
+	third_anti_aircraft_company = 2
+}
+ss_motorized_anti_air_brigade.2 = { # model III 1940
+	first_anti_aircraft_company = 3
+	second_anti_aircraft_company = 3
+	third_anti_aircraft_company = 3
+}
+ss_motorized_anti_air_brigade.3 = { # model IV 1942
+	first_anti_aircraft_company = 4
+	second_anti_aircraft_company = 4
+	third_anti_aircraft_company = 4
+}
+ss_motorized_anti_air_brigade.4 = { # model V 1944
+	first_anti_aircraft_company = 5
+	second_anti_aircraft_company = 5
+	third_anti_aircraft_company = 5
+}
+ss_motorized_anti_air_brigade.5 = { # model VI 1946
+	first_anti_aircraft_company = 6
+	second_anti_aircraft_company = 6
+	third_anti_aircraft_company = 6
+}
+ss_motorized_anti_air_brigade.6 = { # model VI 1948
+	first_anti_aircraft_company = 7
+	second_anti_aircraft_company = 7
+	third_anti_aircraft_company = 7
+}
+ss_motorized_anti_air_brigade.7 = { # model VI 1950
+	first_anti_aircraft_company = 8
+	second_anti_aircraft_company = 8
+	third_anti_aircraft_company = 8
+}
+ss_motorized_anti_air_brigade.8 = { # model VI 1952
+	first_anti_aircraft_company = 9
+	second_anti_aircraft_company = 9
+	third_anti_aircraft_company = 9
+}
+ss_motorized_anti_air_brigade.9 = { # model VI 1954
+	first_anti_aircraft_company = 10
+	second_anti_aircraft_company = 10
+	third_anti_aircraft_company = 10
+}
+###################################################################
+# SS Anti-Air
+###################################################################
+# Anti-Air
+ss_anti_air_brigade.0 = { # model I 1936
+	first_anti_aircraft_company = 1
+} 
+ss_anti_air_brigade.1 = { # model II 1938
+	first_anti_aircraft_company = 2
+}
+ss_anti_air_brigade.2 = { # model III 1940
+	first_anti_aircraft_company = 3
+}
+ss_anti_air_brigade.3 = { # model IV 1942
+	first_anti_aircraft_company = 4
+}
+ss_anti_air_brigade.4 = { # model V 1944 
+	first_anti_aircraft_company = 5
+}
+ss_anti_air_brigade.5 = { # model VI 1946
+	first_anti_aircraft_company = 6
+}
+ss_anti_air_brigade.6 = { # model VII 1948
+	first_anti_aircraft_company = 7
+}
+ss_anti_air_brigade.7 = { # model VIII 1950
+	first_anti_aircraft_company = 8
+}
+ss_anti_air_brigade.8 = { # model IX 1952
+	first_anti_aircraft_company = 9
+}
+ss_anti_air_brigade.9 = { # model X 1954
+	first_anti_aircraft_company = 10
+}
+###################################################################
+# Heavy Artillery
+###################################################################
+heavy_artillery_brigade.0 = {	# model I 1918
+	heavy_artillery_battalion = 1
+}
+heavy_artillery_brigade.1 = { # model II 1936
+	heavy_artillery_battalion = 2
+}
+heavy_artillery_brigade.2 = { # model III 1938
+	heavy_artillery_battalion = 3
+}
+heavy_artillery_brigade.3 = { # model IV 1940
+	heavy_artillery_battalion = 4
+}
+heavy_artillery_brigade.4 = { # model V 1942
+	heavy_artillery_battalion = 5
+}
+heavy_artillery_brigade.5 = { # model VI 1944
+	heavy_artillery_battalion = 6
+}
+heavy_artillery_brigade.6 = { # model VI 1944
+	heavy_artillery_battlion = 7
+}
+heavy_artillery_brigade.7 = { # model VI 1944
+	heavy_artillery_battalion = 8
+}
+heavy_artillery_brigade.8 = { # model VI 1944
+	heavy_artillery_battalion = 9
+}
+heavy_artillery_brigade.9 = { # model VI 1944
+	heavy_artillery_battalion = 10
+}
+###################################################################
+# SP Anti Air Battalion
+###################################################################
+sp_anti_air_brigade.0 = {	# Model I 1942
+	sp_anti_aircraft_battalion = 1
+}
+sp_anti_air_brigade.1 = {	# Model II 1943
+	sp_anti_aircraft_battalion = 2
+}
+sp_anti_air_brigade.2 = {	# Model III 1945
+	sp_anti_aircraft_battalion = 3
+}
+sp_anti_air_brigade.3 = {	# Model IV 1947
+	sp_anti_aircraft_battalion = 4
+}	
+sp_anti_air_brigade.4 = {	# Model V 1949
+	sp_anti_aircraft_battalion = 5
+}		
+sp_anti_air_brigade.5 = {	# Model VI 1951
+	sp_anti_aircraft_battalion = 6
+}		
+sp_anti_air_brigade.6 = {	# Model VII 1953
+	sp_anti_aircraft_battalion = 7
+}		
+sp_anti_air_brigade.7 = {	# Model VIII 1955
+	sp_anti_aircraft_battalion = 8
+}		
+sp_anti_air_brigade.8 = {	# Model IX 1957
+	sp_anti_aircraft_battalion = 9
+}		
+sp_anti_air_brigade.9 = {	# Model X 1959
+	sp_anti_aircraft_battalion = 10
+}							
+###################################################################
+# SS SP Anti Air Battalion
+###################################################################
+ss_sp_anti_air_brigade.0 = {	# Model I 1942
+	sp_anti_aircraft_battalion = 1
+}
+ss_sp_anti_air_brigade.1 = {	# Model II 1943
+	sp_anti_aircraft_battalion = 2
+}
+ss_sp_anti_air_brigade.2 = {	# Model III 1945
+	sp_anti_aircraft_battalion = 3
+}
+ss_sp_anti_air_brigade.3 = {	# Model IV 1947
+	sp_anti_aircraft_battalion = 4
+}	
+ss_sp_anti_air_brigade.4 = {	# Model V 1949
+	sp_anti_aircraft_battalion = 5
+}		
+ss_sp_anti_air_brigade.5 = {	# Model VI 1951
+	sp_anti_aircraft_battalion = 6
+}		
+ss_sp_anti_air_brigade.6 = {	# Model VII 1953
+	sp_anti_aircraft_battalion = 7
+}		
+ss_sp_anti_air_brigade.7 = {	# Model VIII 1955
+	sp_anti_aircraft_battalion = 8
+}		
+ss_sp_anti_air_brigade.8 = {	# Model IX 1957
+	sp_anti_aircraft_battalion = 9
+}		
+ss_sp_anti_air_brigade.9 = {	# Model X 1959
+	sp_anti_aircraft_battalion = 10
+}	
+
+####################################################################
+# Anti-tank brigade
+####################################################################
+
+###################################################################
+# Motorized Anti-Tank
+###################################################################
+motorized_anti_tank_brigade.0 = { # model I 1936
+	first_anti_tank_company = 1
+	second_anti_tank_company = 1
+	third_anti_tank_company = 1
+} 
+motorized_anti_tank_brigade.1 = { # model II 1937
+	first_anti_tank_company = 2
+	second_anti_tank_company = 2
+	third_anti_tank_company = 2
+}
+motorized_anti_tank_brigade.2 = { # model III 1939
+	first_anti_tank_company = 3
+	second_anti_tank_company = 3
+	third_anti_tank_company = 3
+}
+motorized_anti_tank_brigade.3 = { # model IV 1941
+	first_anti_tank_company = 4
+	second_anti_tank_company = 4
+	third_anti_tank_company = 4
+}
+motorized_anti_tank_brigade.4 = { # model V 1943
+	first_anti_tank_company = 5
+	second_anti_tank_company = 5
+	third_anti_tank_company = 5
+}
+motorized_anti_tank_brigade.5 = { # model VI 1945
+	first_anti_tank_company = 6
+	second_anti_tank_company = 6
+	third_anti_tank_company = 6
+}
+motorized_anti_tank_brigade.6 = { # model VII 1947
+	first_anti_tank_company = 7
+	second_anti_tank_company = 7
+	third_anti_tank_company = 7
+}
+motorized_anti_tank_brigade.7 = { # model VIII 1949
+	first_anti_tank_company = 8
+	second_anti_tank_company = 8
+	third_anti_tank_company = 8
+}
+motorized_anti_tank_brigade.8 = { # model IX 1951
+	first_anti_tank_company = 9
+	second_anti_tank_company = 9
+	third_anti_tank_company = 9
+}
+motorized_anti_tank_brigade.9 = { # model X 1953
+	first_anti_tank_company = 10
+	second_anti_tank_company = 10
+	third_anti_tank_company = 10
+}
+###################################################################
+# Anti-Tank
+###################################################################
+anti_tank_brigade.0 = { # model I 1936
+	first_anti_tank_company = 1
+	second_anti_tank_company = 1
+	third_anti_tank_company = 1
+} 
+anti_tank_brigade.1 = { # model II 1937
+	first_anti_tank_company = 2
+	second_anti_tank_company = 2
+	third_anti_tank_company = 2
+}
+anti_tank_brigade.2 = { # model III 1939
+	first_anti_tank_company = 3
+	second_anti_tank_company = 3
+	third_anti_tank_company = 3
+}
+anti_tank_brigade.3 = { # model IV 1941
+	first_anti_tank_company = 4
+	second_anti_tank_company = 4
+	third_anti_tank_company = 4
+}
+anti_tank_brigade.4 = { # model V 1943
+	first_anti_tank_company = 5
+	second_anti_tank_company = 5
+	third_anti_tank_company = 5
+}
+anti_tank_brigade.5 = { # model VI 1945
+	first_anti_tank_company = 6
+	second_anti_tank_company = 6
+	third_anti_tank_company = 6
+}
+anti_tank_brigade.6 = { # model VII 1947
+	first_anti_tank_company = 7
+	second_anti_tank_company = 7
+	third_anti_tank_company = 7
+}
+anti_tank_brigade.7 = { # model VIII 1949
+	first_anti_tank_company = 8
+	second_anti_tank_company = 8
+	third_anti_tank_company = 8
+}
+anti_tank_brigade.8 = { # model IX 1951
+	first_anti_tank_company = 9
+	second_anti_tank_company = 9
+	third_anti_tank_company = 9
+}
+anti_tank_brigade.9 = { # model X 1953
+	first_anti_tank_company = 10
+	second_anti_tank_company = 10
+	third_anti_tank_company = 10
+}
+
+###################################################################
+# Motorized Anti-Tank
+###################################################################
+ss_motorized_anti_tank_brigade.0 = { # model I 1936
+	first_anti_tank_company = 1
+	second_anti_tank_company = 1
+	third_anti_tank_company = 1
+} 
+ss_motorized_anti_tank_brigade.1 = { # model II 1937
+	first_anti_tank_company = 2
+	second_anti_tank_company = 2
+	third_anti_tank_company = 2
+}
+ss_motorized_anti_tank_brigade.2 = { # model III 1939
+	first_anti_tank_company = 3
+	second_anti_tank_company = 3
+	third_anti_tank_company = 3
+}
+ss_motorized_anti_tank_brigade.3 = { # model IV 1941
+	first_anti_tank_company = 4
+	second_anti_tank_company = 4
+	third_anti_tank_company = 4
+}
+ss_motorized_anti_tank_brigade.4 = { # model V 1943
+	first_anti_tank_company = 5
+	second_anti_tank_company = 5
+	third_anti_tank_company = 5
+}
+ss_motorized_anti_tank_brigade.5 = { # model VI 1945
+	first_anti_tank_company = 6
+	second_anti_tank_company = 6
+	third_anti_tank_company = 6
+}
+ss_motorized_anti_tank_brigade.6 = { # model VII 1947
+	first_anti_tank_company = 7
+	second_anti_tank_company = 7
+	third_anti_tank_company = 7
+}
+ss_motorized_anti_tank_brigade.7 = { # model VIII 1949
+	first_anti_tank_company = 8
+	second_anti_tank_company = 8
+	third_anti_tank_company = 8
+}
+ss_motorized_anti_tank_brigade.8 = { # model IX 1951
+	first_anti_tank_company = 9
+	second_anti_tank_company = 9
+	third_anti_tank_company = 9
+}
+ss_motorized_anti_tank_brigade.9 = { # model X 1953
+	first_anti_tank_company = 10
+	second_anti_tank_company = 10
+	third_anti_tank_company = 10
+}
+###################################################################
+# Anti-Tank
+###################################################################
+ss_anti_tank_brigade.0 = { # model I 1936
+	first_anti_tank_company = 1
+	second_anti_tank_company = 1
+	third_anti_tank_company = 1
+} 
+ss_anti_tank_brigade.1 = { # model II 1937
+	first_anti_tank_company = 2
+	second_anti_tank_company = 2
+	third_anti_tank_company = 2
+}
+ss_anti_tank_brigade.2 = { # model III 1939
+	first_anti_tank_company = 3
+	second_anti_tank_company = 3
+	third_anti_tank_company = 3
+}
+ss_anti_tank_brigade.3 = { # model IV 1941
+	first_anti_tank_company = 4
+	second_anti_tank_company = 4
+	third_anti_tank_company = 4
+}
+ss_anti_tank_brigade.4 = { # model V 1943
+	first_anti_tank_company = 5
+	second_anti_tank_company = 5
+	third_anti_tank_company = 5
+}
+ss_anti_tank_brigade.5 = { # model VI 1945
+	first_anti_tank_company = 6
+	second_anti_tank_company = 6
+	third_anti_tank_company = 6
+}
+ss_anti_tank_brigade.6 = { # model VII 1947
+	first_anti_tank_company = 7
+	second_anti_tank_company = 7
+	third_anti_tank_company = 7
+}
+ss_anti_tank_brigade.7 = { # model VIII 1949
+	first_anti_tank_company = 8
+	second_anti_tank_company = 8
+	third_anti_tank_company = 8
+}
+ss_anti_tank_brigade.8 = { # model IX 1951
+	first_anti_tank_company = 9
+	second_anti_tank_company = 9
+	third_anti_tank_company = 9
+}
+ss_anti_tank_brigade.9 = { # model X 1953
+	first_anti_tank_company = 10
+	second_anti_tank_company = 10
+	third_anti_tank_company = 10
+}
+###################################################################
+# Railway Artillery
+###################################################################
+railway_artillery_brigade.0 = {	# model I 1918
+	heavy_artillery_battalion = 1
+}
+railway_artillery_brigade.1 = { # model II 1936
+	heavy_artillery_battalion = 2
+}
+railway_artillery_brigade.2 = { # model III 1938
+	heavy_artillery_battalion = 3
+}
+railway_artillery_brigade.3 = { # model IV 1940
+	heavy_artillery_battalion = 4
+}
+railway_artillery_brigade.4 = { # model V 1942
+	heavy_artillery_battalion = 5
+}
+railway_artillery_brigade.5 = { # model VI 1944
+	heavy_artillery_battalion = 6
+}
+railway_artillery_brigade.6 = { # model VI 1944
+	heavy_artillery_battlion = 7
+}
+railway_artillery_brigade.7 = { # model VI 1944
+	heavy_artillery_battalion = 8
+}
+railway_artillery_brigade.8 = { # model VI 1944
+	heavy_artillery_battalion = 9
+}
+railway_artillery_brigade.9 = { # model VI 1944
+	heavy_artillery_battalion = 10
+}		
+#EOF#

@@ -1,0 +1,49 @@
+nuclear_ballistic_missile_submarine = {
+	type = naval
+	sprite = Submarine
+	is_sub = yes
+	active = no
+	hull = 0.8
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 40  # Nuclear sub crews are more heavily trained
+	default_morale = 0.30
+	officers = 24
+
+	#Building Costs
+	build_cost_ic = 18.00
+	build_cost_manpower = 0.210
+	build_time = 500
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 37.00
+	transport_capability = 0.00
+	supply_consumption = 2.10
+	fuel_consumption = 0.00
+	range = 60000.00
+	distance = 0.15
+	radio_strength = 1
+	
+	#Detection Abilities
+	surface_detection = 10.00
+	air_detection = 1.00
+	sub_detection = 10.00
+	visibility = -70.00
+
+	#Defensive Abilities
+	sea_defence = 40.00
+	air_defence = 30.00
+
+	#Offensive Abilities
+	convoy_attack = 7.00
+	sea_attack = 10.00
+	sub_attack = 12.00
+	air_attack = 0.00
+	shore_bombardment = 0.00
+
+	completion_size = 5.0
+	on_completion = submarine_practical
+	priority = 3
+}

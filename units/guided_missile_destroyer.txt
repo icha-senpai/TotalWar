@@ -1,0 +1,51 @@
+guided_missile_destroyer = {
+	type = naval
+	sprite = Destroyer
+	active = no
+	
+	hull = 0.75
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 55
+
+	#Building Costs
+	build_cost_ic = 4.25
+	build_cost_manpower = 0.450
+	build_time = 410
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 55.00
+	transport_capability = 0.00
+	supply_consumption = 1.35
+	fuel_consumption = 1.25
+	range = 25000
+	distance = 1.00
+	radio_strength = 1
+	positioning = 0.27
+
+	#Detection Abilities
+	surface_detection = 3.00
+	air_detection = 3.00
+	sub_detection = 5.00
+	visibility = 50.00
+
+	#Defensive Abilities
+	sea_defence = 11.75
+	air_defence = 6.00 ## was 2.00
+
+	#Offensive Abilities
+	convoy_attack = 5.25
+	sea_attack = 12.45
+	sub_attack = 2.45
+	air_attack = 0.00
+	shore_bombardment = 0.00
+
+	completion_size = 2.0
+	on_completion = destroyer_practical
+	
+	priority = 20
+}

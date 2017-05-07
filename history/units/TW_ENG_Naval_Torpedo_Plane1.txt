@@ -1,0 +1,12 @@
+military_construction = {
+	country = ENG
+	
+	naval_torpedo_plane = { 
+		historical_model = 0
+	}
+		
+	cost = 4.00
+	duration = 75
+	progress = 5
+}
+#EOF#

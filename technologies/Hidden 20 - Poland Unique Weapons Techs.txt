@@ -1,0 +1,1035 @@
+##################################################################
+### Total War Poland Unique Weapons Techs
+##################################################################
+
+##################################################################################################################
+### INFANTRY WEAPONS
+##################################################################################################################
+################################################################################################
+### Karabinek wz. 1929 Bolt-Action Rifle
+################################################################################################
+karabinek_bolt_action_rifle_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes
+
+	ic_efficiency = -0.001	
+
+	infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	naval_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	cavalry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	motorized_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	semi_motorized_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+			
+		
+########################################
+
+	infantry_bat = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	motorized_infantry_bat = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+		
+########################################
+	
+	militia_brigade = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}	
+				
+	garrison_brigade = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}	
+	garrison_detachment = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}	
+		
+	HQDEF_brigade = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	##############################################
+	# SPECIAL FORCES
+	##############################################
+	light_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	elite_light_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	elite_light_infantry_battalion = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	airlanding_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	bergsjaeger_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	ski_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	marine_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	paratrooper_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+			
+	commando_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	
+	######################################################
+	### Mechanized Units
+	######################################################
+	
+	mechanized_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	mechanized_infantry_bat = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+		
+		
+	Recon_cavalry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+		
+	conscript_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	stealable = no
+	difficulty = 3
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+################################################################################################
+### Kb wz. 98a Bolt-Action Rifle
+################################################################################################
+karabinek_ninety_eight_bolt_action_rifle_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	naval_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	cavalry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	motorized_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	semi_motorized_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+			
+		
+########################################
+
+	infantry_bat = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	motorized_infantry_bat = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+		
+########################################
+	
+	militia_brigade = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}	
+				
+	garrison_brigade = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}	
+	garrison_detachment = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}	
+		
+	HQDEF_brigade = { 
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	##############################################
+	# SPECIAL FORCES
+	##############################################
+	light_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	elite_light_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	elite_light_infantry_battalion = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	airlanding_infantry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	bergsjaeger_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	ski_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	marine_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	paratrooper_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+			
+	commando_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	
+	######################################################
+	### Mechanized Units
+	######################################################
+	
+	mechanized_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	mechanized_infantry_bat = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+		
+		
+	Recon_cavalry_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+		
+	conscript_brigade = {
+		soft_attack = 0.05
+		toughness = 0.02
+	}
+	
+	stealable = no
+	difficulty = 3
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+################################################################################################
+### Kbsp wz. 1938M Semi-Automatic Rifle
+################################################################################################
+karabin_semi_automatic_rifle_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	semi_motorized_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	motorized_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	mechanized_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+		
+	light_infantry_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	elite_light_infantry_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	elite_light_infantry_battalion = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	
+	conscript_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	militia_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	
+	combined_arms_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	commando_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	ski_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	
+	
+	cavalry_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	
+	bergsjaeger_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	
+	airlanding_infantry_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	paratrooper_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	naval_infantry_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	marine_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	air_cavalry_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	
+	engineer_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+		
+	Recon_cavalry_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+				
+	HQDEF_brigade = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}	
+			
+	infantry_bat = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	motorized_infantry_bat = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	mechanized_infantry_bat = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	garrison_detachment = { 
+		toughness = 0.10
+		soft_attack = 0.07
+		defensiveness = 0.07
+	}
+	
+	stealable = no
+	difficulty = 4
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+################################################################################################
+### Mors Submachine Gun
+################################################################################################
+mors_smg_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	semi_motorized_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	motorized_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	mechanized_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+		
+	light_infantry_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	elite_light_infantry_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	elite_light_infantry_battalion = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	conscript_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	militia_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	combined_arms_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	commando_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	ski_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	
+	cavalry_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	bergsjaeger_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	airlanding_infantry_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	paratrooper_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	naval_infantry_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	marine_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	air_cavalry_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	engineer_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+		
+	Recon_cavalry_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+				
+	HQDEF_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	
+	
+	afrika_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	fascist_militia_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	goering_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	grossdeutschland_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	luftwaffe_brigade = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+		
+	infantry_bat = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	motorized_infantry_bat = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	mechanized_infantry_bat = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	garrison_detachment = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	stealable = no
+	difficulty = 4
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+################################################################################################
+### Schwarzlose machine gun
+################################################################################################
+shwarzlose_smg_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+		
+	motorized_brigade = {
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	semi_motorized_brigade = {
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+			
+		
+########################################
+
+	infantry_bat = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	motorized_infantry_bat = { 
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+		
+########################################
+	
+	
+	######################################################
+	### Mechanized Units
+	######################################################
+	
+	mechanized_brigade = {
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	mechanized_infantry_bat = {
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+		
+	Recon_cavalry_brigade = {
+		toughness = 0.25
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	
+	stealable = no
+	difficulty = 3
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+################################################################################################
+### Ckm wz. 30 HMG
+################################################################################################
+wz_thirty_hmg_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {
+		defensiveness = 0.15
+	}
+		
+	motorized_brigade = {
+		defensiveness = 0.15
+	}
+	semi_motorized_brigade = {
+		defensiveness = 0.15
+	}
+			
+		
+########################################
+
+	infantry_bat = { 
+		defensiveness = 0.15
+	}
+	motorized_infantry_bat = { 
+		defensiveness = 0.15
+	}
+		
+########################################
+	
+	
+	######################################################
+	### Mechanized Units
+	######################################################
+	
+	mechanized_brigade = {
+		defensiveness = 0.15
+	}
+	mechanized_infantry_bat = {
+		defensiveness = 0.15
+	}
+		
+	Recon_cavalry_brigade = {
+		defensiveness = 0.15
+	}	
+	
+	stealable = no
+	difficulty = 4
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+################################################################################################
+### Granatnik wz. 36
+################################################################################################
+granatnik_thirty_six_mortar_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+		
+	motorized_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	semi_motorized_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+			
+		
+########################################
+
+	infantry_bat = { 
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	motorized_infantry_bat = { 
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+		
+########################################
+	
+				
+	##############################################
+	# SPECIAL FORCES
+	##############################################
+	light_infantry_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+	airlanding_infantry_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	bergsjaeger_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+		
+	marine_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	paratrooper_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+		
+	
+	######################################################
+	### Mechanized Units
+	######################################################
+	
+	mechanized_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	mechanized_infantry_bat = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+				
+		
+	garrison_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+	
+	garrison_detachment = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+	}
+		
+	
+	
+	stealable = no
+	difficulty = 3
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+################################################################################################
+### Wz. 35 Anti-Tank Rifle
+################################################################################################
+wz_thirty_five_at_rifle_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	motorized_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	semi_motorized_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	
+	naval_infantry_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+			
+##########################################################	
+	
+	infantry_bat = {  	
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	motorized_infantry_bat = { 
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+			
+
+	##################################################
+	### SPECIAL FORCES
+	##################################################
+	light_infantry_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	elite_light_infantry_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	elite_light_infantry_battalion = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	airlanding_infantry_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	bergsjaeger_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	
+	ski_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	
+	marine_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	paratrooper_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	
+	commando_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	
+	
+	##########################################################
+	### Mechanized Units
+	##########################################################
+	
+	mechanized_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	mechanized_infantry_bat = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+		
+	##########################################################
+	### Recon Units
+	##########################################################
+	
+	
+	Recon_cavalry_brigade = {
+		hard_attack = 0.50
+		ap_attack = 0.25
+	}
+	
+	stealable = no
+	difficulty = 5
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}
+################################################################################################
+### 7TP Light Tank
+################################################################################################
+seven_tp_light_tank_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.002
+
+	light_armor_brigade = {
+		armor_value = 0.10
+		ap_attack = 0.01
+		soft_attack = 0.25
+		defensiveness = 0.45
+	}
+	
+	light_armor_bat = {
+		armor_value = 0.10
+		ap_attack = 0.01
+		soft_attack = 0.25
+		defensiveness = 0.45
+	}
+	
+	stealable = no
+	difficulty = 4
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}

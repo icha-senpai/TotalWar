@@ -1,0 +1,1925 @@
+920600 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920601 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920602 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920603 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920604 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920605 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920606 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920607 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920608 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920609 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920610 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920611 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920612 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920613 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920614 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920615 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920616 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920617 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920618 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920619 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920620 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920621 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920622 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920623 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920624 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920625 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920626 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920627 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920628 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920629 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920630 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920631 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920632 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920633 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920634 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920635 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920636 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920637 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+92038 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920639 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920640 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920641 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920642 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920643 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920644 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920645 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920646 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920647 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920648 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920649 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+920650 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920651 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920652 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920653 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920654 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920655 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920656 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920657 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920658 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920659 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920660 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920661 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920662 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920663 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920664 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920665 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920666 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920667 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920668 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920669 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920670 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920671 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920672 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920673 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920674 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920675 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920676 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920677 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920678 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920679 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920680 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920681 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920682 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920683 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920684 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920685 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920686 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920687 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920688 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920689 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920690 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920691 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920692 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920693 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920694 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920695 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920696 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920697 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920698 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920699 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920700 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920701 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920702 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920703 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920704 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920705 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920706 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920707 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920708 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920709 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920710 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920711 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920712 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920713 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920714 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920715 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920716 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920717 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920718 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920719 = {
+	name = "IJNAS Kyaputen"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJNAS_Kyaputen
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920720 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920721 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920722 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920723 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920724 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920725 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920726 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920727 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920728 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920729 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920730 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920731 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920732 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920733 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920734 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920735 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920736 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920737 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920738 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920739 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920740 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920741 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920742 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920743 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920744 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920745 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920746 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920747 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920748 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920749 = {
+	name = "IJAAF Taisa"
+	country = JAP
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_IJAF_Taisa
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

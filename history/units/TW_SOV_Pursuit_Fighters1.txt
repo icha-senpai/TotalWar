@@ -1,0 +1,12 @@
+military_construction = {
+	country = SOV
+	
+	pursuit_fighter = { 
+		historical_model = 7
+	}
+		
+	cost = 7.00
+	duration = 90
+	progress = 15
+}
+#EOF#

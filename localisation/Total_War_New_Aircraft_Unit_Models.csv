@@ -1,0 +1,1199 @@
+################################################;;;;;;;;;;;;;;x
+# New Aircraft Unit Model Names;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Luftwaffe Aircraft ;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+GER_ar_sixty_four_0;Ar 64E;;;;;;;;;x
+GER_ar_sixty_seven_0;Ar 67A;;;;;;;;;x
+GER_ar_sixty_eight_1;Ar 68E;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_he_one_twelve_0;He 112A-0;;;;;;;;;x
+GER_he_one_twelve_1;He 112B;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_me_one_oh_nine_0;Bf 109D-0;;;;;;;;;x
+GER_me_one_oh_nine_1;Bf 109D-1;;;;;;;;;x
+GER_me_one_oh_nine_2;Bf 109E-1;;;;;;;;;x
+GER_me_one_oh_nine_3;Bf 109E-1/B;;;;;;;;;x
+GER_me_one_oh_nine_4;Bf 109E-2;;;;;;;;;x
+GER_me_one_oh_nine_5;Bf 109E-3;;;;;;;;;x
+GER_me_one_oh_nine_6;Bf 109E-4;;;;;;;;;x
+GER_me_one_oh_nine_7;Bf 109E-4/B;;;;;;;;;x
+GER_me_one_oh_nine_8;Bf 109E-7;;;;;;;;;x
+GER_me_one_oh_nine_9;Bf 109F-1;;;;;;;;;x
+GER_me_one_oh_nine_10;Bf 109F-2;;;;;;;;;x
+GER_me_one_oh_nine_11;Bf 109F-4;;;;;;;;;x
+GER_me_one_oh_nine_12;Bf 109F-4/R1;;;;;;;;;x
+GER_me_one_oh_nine_13;Bf 109F-4/Z;;;;;;;;;x
+GER_me_one_oh_nine_14;Bf 109F-4/Trop;;;;;;;;;x
+GER_me_one_oh_nine_15;Bf 109G-1;;;;;;;;;x
+GER_me_one_oh_nine_16;Bf 109G-1/U2;;;;;;;;;x
+GER_me_one_oh_nine_17;Bf 109G-2;;;;;;;;;x
+GER_me_one_oh_nine_18;Bf 109G-2/Trop;;;;;;;;;x
+GER_me_one_oh_nine_19;Bf 109G-3;;;;;;;;;x
+GER_me_one_oh_nine_20;Bf 109G-4;;;;;;;;;x
+GER_me_one_oh_nine_21;Bf 109G-4/Trop;;;;;;;;;x
+GER_me_one_oh_nine_22;Bf 109G-5;;;;;;;;;x
+GER_me_one_oh_nine_23;Bf 109G-5/U2;;;;;;;;;x
+GER_me_one_oh_nine_24;Bf 109G-5/AS;;;;;;;;;x
+GER_me_one_oh_nine_25;Bf 109G-6;;;;;;;;;x
+GER_me_one_oh_nine_26;Bf 109G-6/R3;;;;;;;;;x
+GER_me_one_oh_nine_27;Bf 109G-6/Trop;;;;;;;;;x
+GER_me_one_oh_nine_28;Bf 109G-6/U4;;;;;;;;;x
+GER_me_one_oh_nine_29;Bf 109G-6/AS;;;;;;;;;x
+GER_me_one_oh_nine_30;Bf 109G-6N;;;;;;;;;x
+GER_me_one_oh_nine_31;Bf 109G-6/U4N;;;;;;;;;x
+GER_me_one_oh_nine_32;Bf 109G-10;;;;;;;;;x
+GER_me_one_oh_nine_33;Bf 109G-10/R6;;;;;;;;;x
+GER_me_one_oh_nine_34;Bf 109G-10/U4;;;;;;;;;x
+GER_me_one_oh_nine_35;Bf 109K-4;;;;;;;;;x
+GER_me_one_oh_nine_36;Bf 109K-6;;;;;;;;;x
+GER_me_one_oh_nine_37;Bf 109K-10;;;;;;;;;x
+GER_me_one_oh_nine_38;Bf 109K-14;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ta_one_fifty_two_0;Ta 152H-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_do_ten_0;Do 10;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_fw_fifty_seven_0;Fw 57;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_fw_one_ninety_0;Fw 190A-1;;;;;;;;;x
+GER_fw_one_ninety_1;Fw 190A-2;;;;;;;;;x
+GER_fw_one_ninety_2;Fw 190A-3;;;;;;;;;x
+GER_fw_one_ninety_3;Fw 190A-4;;;;;;;;;x
+GER_fw_one_ninety_4;Fw 190A-5;;;;;;;;;x
+GER_fw_one_ninety_5;Fw 190A-6;;;;;;;;;x
+GER_fw_one_ninety_6;Fw 190A-7;;;;;;;;;x
+GER_fw_one_ninety_7;Fw 190A-8;;;;;;;;;x
+GER_fw_one_ninety_8;Fw 190A-9;;;;;;;;;x
+GER_fw_one_ninety_9;Fw 190D-9;;;;;;;;;x
+GER_fw_one_ninety_10;Fw 190D-11;;;;;;;;;x
+GER_fw_one_ninety_11;Fw 190D-13;;;;;;;;;x
+GER_fw_one_ninety_12;Fw 190F-2;;;;;;;;;x
+GER_fw_one_ninety_13;Fw 190F-3;;;;;;;;;x
+GER_fw_one_ninety_14;Fw 190G-1;;;;;;;;;x
+GER_fw_one_ninety_15;Fw 190G-3;;;;;;;;;x
+GER_fw_one_ninety_16;Fw 190G-8;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_he_fifty_one_0;He 51B;;;;;;;;;x
+GER_he_fifty_one_1;He 51C;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_he_fifty_0;He 50A;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_hs_one_twenty_three_0;Hs 123A-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_eighty_seven_0;Ju 87A-1;;;;;;;;;x
+GER_ju_eighty_seven_1;Ju 87A-2;;;;;;;;;x
+GER_ju_eighty_seven_2;Ju 87B-1;;;;;;;;;x
+GER_ju_eighty_seven_3;Ju 87B-2;;;;;;;;;x
+GER_ju_eighty_seven_4;Ju 87R-1;;;;;;;;;x
+GER_ju_eighty_seven_5;Ju 87R-2;;;;;;;;;x
+GER_ju_eighty_seven_6;Ju 87R-4;;;;;;;;;x
+GER_ju_eighty_seven_7;Ju 87D-1;;;;;;;;;x
+GER_ju_eighty_seven_8;Ju 87D-3;;;;;;;;;x
+GER_ju_eighty_seven_9;Ju 87D-5;;;;;;;;;x
+GER_ju_eighty_seven_10;Ju 87G-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_hs_one_tweny_nine_0;Hs 129B-1;;;;;;;;;x
+GER_hs_one_tweny_nine_1;Hs 129B-2;;;;;;;;;x
+GER_hs_one_tweny_nine_2;Hs 129B-3;;;;;;;;;x
+GER_hs_one_tweny_nine_3;Hs 129C-1;;;;;;;;;x
+GER_hs_one_tweny_nine_4;Hs 129D-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ar_one_ninety_seven_0;Ar 197A-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_bf_one_oh_nine_t_0;Bf 109T-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_fi_one_sixty_seven_0;Fi 167A-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_fw_one_eighty_seven_0;Fw 187A-1;;;;;;;;;x
+GER_fw_one_eighty_seven_1;Fw 187A-2;;;;;;;;;x
+GER_fw_one_eighty_seven_2;Fw 187B-1;;;;;;;;;x
+GER_fw_one_eighty_seven_3;Fw 187B-2;;;;;;;;;x
+GER_fw_one_eighty_seven_4;Fw 187C-1;;;;;;;;;x
+GER_fw_one_eighty_seven_5;Fw 187C-2;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_me_one_ten_0;Bf 110B-1;;;;;;;;;x
+GER_me_one_ten_1;Bf 110C-1;;;;;;;;;x
+GER_me_one_ten_2;Bf 110C-2;;;;;;;;;x
+GER_me_one_ten_3;Bf 110C-3;;;;;;;;;x
+GER_me_one_ten_4;Bf 110C-4;;;;;;;;;x
+GER_me_one_ten_5;Bf 110C-4/B;;;;;;;;;x
+GER_me_one_ten_6;Bf 110C-7;;;;;;;;;x
+GER_me_one_ten_7;Bf 110D-1;;;;;;;;;x
+GER_me_one_ten_8;Bf 110E-1;;;;;;;;;x
+GER_me_one_ten_9;Bf 110E-2;;;;;;;;;x
+GER_me_one_ten_10;Bf 110F-1;;;;;;;;;x
+GER_me_one_ten_11;Bf 110F-2;;;;;;;;;x
+GER_me_one_ten_12;Bf 110F-4;;;;;;;;;x
+GER_me_one_ten_13;Bf 110G-2;;;;;;;;;x
+GER_me_one_ten_14;Bf 110G-4;;;;;;;;;x
+GER_me_one_ten_15;Bf 110H-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ar_two_forty_0;Ar 240B-1;;;;;;;;;x
+GER_ar_two_forty_1;Ar 240C-1;;;;;;;;;x
+GER_ar_two_forty_2;Ar 240C-2;;;;;;;;;x
+GER_ar_two_forty_3;Ar 240C-3;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_me_four_ten_0;Me 410A-1;;;;;;;;;x
+GER_me_four_ten_1;Me 410A-2;;;;;;;;;x
+GER_me_four_ten_2;Me 410A-2/U2;;;;;;;;;x
+GER_me_four_ten_3;Me 410A-3;;;;;;;;;x
+GER_me_four_ten_4;Me 410B-1;;;;;;;;;x
+GER_me_four_ten_5;Me 410C-1;;;;;;;;;x
+GER_me_four_ten_6;Me 410D-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_do_three_thirty_five_0;Do 335A-1;;;;;;;;;x
+GER_do_three_thirty_five_1;Do 335A-2;;;;;;;;;x
+GER_do_three_thirty_five_2;Do 335A-5;;;;;;;;;x
+GER_do_three_thirty_five_3;Do 335A-6;;;;;;;;;x
+GER_do_three_thirty_five_4;Do 335A-9;;;;;;;;;x
+GER_do_three_thirty_five_5;Do 335B-2;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_he_two_nineteen_0;He 219A-0;;;;;;;;;x
+GER_he_two_nineteen_1;He 219A-2;;;;;;;;;x
+GER_he_two_nineteen_2;He 219A-6;;;;;;;;;x
+GER_he_two_nineteen_3;He 219A-7;;;;;;;;;x
+GER_he_two_nineteen_4;He 219D-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ta_one_fifty_four_0;Ta 154A-1;;;;;;;;;x
+GER_ta_one_fifty_four_1;Ta 154A-2;;;;;;;;;x
+GER_ta_one_fifty_four_2;Ta 154A-3;;;;;;;;;x
+GER_ta_one_fifty_four_3;Ta 154A-4;;;;;;;;;x
+GER_ta_one_fifty_four_4;Ta 154A-5;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_do_seventeen_0;Do 17E-1;;;;;;;;;x
+GER_do_seventeen_1;Do 17M-1;;;;;;;;;x
+GER_do_seventeen_2;Do 17Z-2;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_do_two_fifteen_0;Do 215A-1;;;;;;;;;x
+GER_do_two_fifteen_1;Do 215B-5;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_eighty_eight_0;Ju 88A-1;;;;;;;;;x
+GER_ju_eighty_eight_1;Ju 88A-2;;;;;;;;;x
+GER_ju_eighty_eight_2;Ju 88A-4;;;;;;;;;x
+GER_ju_eighty_eight_3;Ju 88C-1;;;;;;;;;x
+GER_ju_eighty_eight_4;Ju 88C-2;;;;;;;;;x
+GER_ju_eighty_eight_5;Ju 88C-4;;;;;;;;;x
+GER_ju_eighty_eight_6;Ju 88C-6;;;;;;;;;x
+GER_ju_eighty_eight_7;Ju 88G-1;;;;;;;;;x
+GER_ju_eighty_eight_8;Ju 88G-6;;;;;;;;;x
+GER_ju_eighty_eight_9;Ju 88G-7;;;;;;;;;x
+GER_ju_eighty_eight_10;Ju 88P-1;;;;;;;;;x
+GER_ju_eighty_eight_11;Ju 88P-2;;;;;;;;;x
+GER_ju_eighty_eight_12;Ju 88P-3;;;;;;;;;x
+GER_ju_eighty_eight_13;Ju 88P-4;;;;;;;;;x
+GER_ju_eighty_eight_14;Ju 88S-1;;;;;;;;;x
+GER_ju_eighty_eight_15;Ju 88S-2;;;;;;;;;x
+GER_ju_eighty_eight_16;Ju 88S-3;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_do_eleven_0;Do 11C;;;;;;;;;x
+GER_do_eleven_1;Do 11D;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_do_twenty_three_0;Do 23F;;;;;;;;;x
+GER_do_twenty_three_1;Do 23G;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_he_one_eleven_0;He 111B-1;;;;;;;;;x
+GER_he_one_eleven_1;He 111B-2;;;;;;;;;x
+GER_he_one_eleven_2;He 111D-1;;;;;;;;;x
+GER_he_one_eleven_3;He 111E-1;;;;;;;;;x
+GER_he_one_eleven_4;He 111E-3;;;;;;;;;x
+GER_he_one_eleven_5;He 111E-4;;;;;;;;;x
+GER_he_one_eleven_6;He 111F-1;;;;;;;;;x
+GER_he_one_eleven_7;He 111G-4;;;;;;;;;x
+GER_he_one_eleven_8;He 111J-1;;;;;;;;;x
+GER_he_one_eleven_9;He 111P-1;;;;;;;;;x
+GER_he_one_eleven_10;He 111P-4;;;;;;;;;x
+GER_he_one_eleven_11;He 111H-1;;;;;;;;;x
+GER_he_one_eleven_12;He 111H-2;;;;;;;;;x
+GER_he_one_eleven_13;He 111H-3;;;;;;;;;x
+GER_he_one_eleven_14;He 111H-4;;;;;;;;;x
+GER_he_one_eleven_15;He 111H-6;;;;;;;;;x
+GER_he_one_eleven_16;He 111H-7;;;;;;;;;x
+GER_he_one_eleven_17;He 111H-11;;;;;;;;;x
+GER_he_one_eleven_18;He 111H-16;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_do_two_seventeen_0;Do 217E-1;;;;;;;;;x
+GER_do_two_seventeen_1;Do 217E-2;;;;;;;;;x
+GER_do_two_seventeen_2;Do 217E-3;;;;;;;;;x
+GER_do_two_seventeen_3;Do 217E-4;;;;;;;;;x
+GER_do_two_seventeen_4;Do 217E-5;;;;;;;;;x
+GER_do_two_seventeen_5;Do 217K-1;;;;;;;;;x
+GER_do_two_seventeen_6;Do 217K-2;;;;;;;;;x
+GER_do_two_seventeen_7;Do 217M-1;;;;;;;;;x
+GER_do_two_seventeen_8;Do 217M-3;;;;;;;;;x
+GER_do_two_seventeen_9;Do 217M-11;;;;;;;;;x
+GER_do_two_seventeen_10;Do 217J-1;;;;;;;;;x
+GER_do_two_seventeen_11;Do 217J-2;;;;;;;;;x
+GER_do_two_seventeen_12;Do 217N-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_one_eighty_eight_0;Ju 188E-1;;;;;;;;;x
+GER_ju_one_eighty_eight_1;Ju 188E-2;;;;;;;;;x
+GER_ju_one_eighty_eight_2;Ju 188A-2;;;;;;;;;x
+GER_ju_one_eighty_eight_3;Ju 188A-3;;;;;;;;;x
+GER_ju_one_eighty_eight_4;Ju 188G-2;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_three_eighty_eight_0;Ju 388J-1;;;;;;;;;x
+GER_ju_three_eighty_eight_1;Ju 388J-2;;;;;;;;;x
+GER_ju_three_eighty_eight_2;Ju 388K-1;;;;;;;;;x
+GER_ju_three_eighty_eight_3;Ju 388K-2;;;;;;;;;x
+GER_ju_three_eighty_eight_4;Ju 388N-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_two_eighty_eight_0;Ju 288C-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_fifty_two_0;Ju 52/3mge;;;;;;;;;x
+GER_ju_fifty_two_1;Ju 52/3mg3e;;;;;;;;;x
+GER_ju_fifty_two_2;Ju 52/3mg4e;;;;;;;;;x
+GER_ju_fifty_two_3;Ju 52/3mg5e;;;;;;;;;x
+GER_ju_fifty_two_4;Ju 52/3mg6e;;;;;;;;;x
+GER_ju_fifty_two_5;Ju 52/3mg7e;;;;;;;;;x
+GER_ju_fifty_two_6;Ju 52/3mg12e;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_go_two_forty_four_0;Go 244B-1;;;;;;;;;x
+GER_go_two_forty_four_1;Go 244B-2;;;;;;;;;x
+GER_go_two_forty_four_2;Go 244B-3;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_do_eighteen_0;Do 18D;;;;;;;;;x
+GER_do_eighteen_1;Do 18G;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_do_twenty_two_0;Do 22K;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_he_one_fifteen_0;He 115A-1;;;;;;;;;x
+GER_he_one_fifteen_1;He 115A-3;;;;;;;;;x
+GER_he_one_fifteen_2;He 115B-1;;;;;;;;;x
+GER_he_one_fifteen_3;He 115C-1;;;;;;;;;x
+GER_he_one_fifteen_4;He 115C-4;;;;;;;;;x
+GER_he_one_fifteen_5;He 115D;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_fw_two_hundred_0;Fw 200C-1;;;;;;;;;x
+GER_fw_two_hundred_1;Fw 200C-2;;;;;;;;;x
+GER_fw_two_hundred_2;Fw 200C-3;;;;;;;;;x
+GER_fw_two_hundred_3;Fw 200C-3/U1;;;;;;;;;x
+GER_fw_two_hundred_4;Fw 200C-3/U2;;;;;;;;;x
+GER_fw_two_hundred_5;Fw 200C-3/U3;;;;;;;;;x
+GER_fw_two_hundred_6;Fw 200C-4;;;;;;;;;x
+GER_fw_two_hundred_7;Fw 200C-6;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_eighty_nine_0;Ju 89A-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_he_one_seventy_seven_0;He 177A-1;;;;;;;;;x
+GER_he_one_seventy_seven_1;He 177A-2;;;;;;;;;x
+GER_he_one_seventy_seven_2;He 177A-3;;;;;;;;;x
+GER_he_one_seventy_seven_3;He 177A-5;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_me_two_sixty_four_0;Me 264A-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_he_two_seventy_seven_0;He 277A-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_four_eighty_eight_0;Ju 488A-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_ninety_0;Ju 90A-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_two_ninety_0;Ju 290A-1;;;;;;;;;x
+GER_ju_two_ninety_1;Ju 290A-2;;;;;;;;;x
+GER_ju_two_ninety_2;Ju 290A-3;;;;;;;;;x
+GER_ju_two_ninety_3;Ju 290A-7;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ju_three_ninety_0;Ju 390A-1;;;;;;;;;x
+GER_ju_three_ninety_1;Ju 390B-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_me_three_tweny_three_0;Me 323D-1;;;;;;;;;x
+GER_me_three_tweny_three_1;Me 323E-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ar_two_thirty_two_0;Ar 232B-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+###  USAAF AIRCRAFT ;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+USA_p_twenty_six_peashooter_0;P-26A;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_p_thirty_six_hawk_0;P-36A;;;;;;;;;;;;;;x
+USA_p_thirty_six_hawk_1;P-36B;;;;;;;;;;;;;;x
+USA_p_thirty_six_hawk_2;P-36C;;;;;;;;;;;;;;x
+USA_p_thirty_six_hawk_3;P-36D;;;;;;;;;;;;;;x
+USA_p_thirty_six_hawk_4;P-36E;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_p_fourty_warhawk_0;P-40;;;;;;;;;;;;;;x
+USA_p_fourty_warhawk_1;P-40B;;;;;;;;;;;;;;x
+USA_p_fourty_warhawk_2;P-40C;;;;;;;;;;;;;;x
+USA_p_fourty_warhawk_3;P-40D;;;;;;;;;;;;;;x
+USA_p_fourty_warhawk_4;P-40E;;;;;;;;;;;;;;x
+USA_p_fourty_warhawk_5;P-40L;;;;;;;;;;;;;;x
+USA_p_fourty_warhawk_6;P-40G;;;;;;;;;;;;;;x
+USA_p_fourty_warhawk_7;P-40K;;;;;;;;;;;;;;x
+USA_p_fourty_warhawk_8;P-40N;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_p_thirty_nine_airacobra_0;P-39C;;;;;;;;;;;;;;x
+USA_p_thirty_nine_airacobra_1;P-39D;;;;;;;;;;;;;;x
+USA_p_thirty_nine_airacobra_2;P-39F;;;;;;;;;;;;;;x
+USA_p_thirty_nine_airacobra_3;P-39K;;;;;;;;;;;;;;x
+USA_p_thirty_nine_airacobra_4;P-39L;;;;;;;;;;;;;;x
+USA_p_thirty_nine_airacobra_5;P-39M;;;;;;;;;;;;;;x
+USA_p_thirty_nine_airacobra_6;P-39Q;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_0;P47C-1;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_1;P47C-2;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_2;P47C-5;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_3;P47D-1;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_4;P47D-6;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_5;P47D-10;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_6;P47D-11;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_7;P47D-15;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_8;P47D-16;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_9;P47D-20;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_10;P47D-22;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_11;P47D-23;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_12;P47D-25;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_13;P47D-26;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_14;P47D-27;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_15;P47D-28;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_16;P47D-30;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_17;P47D-40;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_18;P47M;;;;;;;;;;;;;;x
+USA_p_fourty_seven_thunderbolt_19;P47N;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_p_fifty_one_mustang_0;P-51;;;;;;;;;;;;;;x
+USA_p_fifty_one_mustang_1;P-51A;;;;;;;;;;;;;;x
+USA_p_fifty_one_mustang_2;P-51B;;;;;;;;;;;;;;x
+USA_p_fifty_one_mustang_3;P-51C;;;;;;;;;;;;;;x
+USA_p_fifty_one_mustang_4;P-51D;;;;;;;;;;;;;;x
+USA_p_fifty_one_mustang_5;P-51H;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_a_thirty_six_apache_0;A-36A;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_three_f_0;F3F-1;;;;;;;;;;;;;;x
+USA_f_three_f_1;F3F-2;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_two_a_buffalo_0;F2A-1;;;;;;;;;;;;;;x
+USA_f_two_a_buffalo_1;F2A-2;;;;;;;;;;;;;;x
+USA_f_two_a_buffalo_2;F2A-3;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_four_f_wildcat_0;F4F-3;;;;;;;;;;;;;;x
+USA_f_four_f_wildcat_1;F4F-4;;;;;;;;;;;;;;x
+USA_f_four_f_wildcat_2;FM-1;;;;;;;;;;;;;;x
+USA_f_four_f_wildcat_3;FM-2;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_six_f_hellcat_0;F6F-3;;;;;;;;;;;;;;x
+USA_f_six_f_hellcat_1;F6F-5;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_eight_f_bearcat_0;F8F-1;;;;;;;;;;;;;;x
+USA_f_eight_f_bearcat_1;F8F-1B;;;;;;;;;;;;;;x
+USA_f_eight_f_bearcat_2;F8F-2;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_four_u_corsair_0;F4U-1;;;;;;;;;;;;;;x
+USA_f_four_u_corsair_1;F4U-1A;;;;;;;;;;;;;;x
+USA_f_four_u_corsair_2;F4U-4;;;;;;;;;;;;;;x
+USA_f_four_u_corsair_3;F4U-4C;;;;;;;;;;;;;;x
+USA_f_four_u_corsair_4;F4U-5;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_seven_f_tigercat_0;F7F-1;;;;;;;;;;;;;;x
+USA_f_seven_f_tigercat_1;F7F-2N;;;;;;;;;;;;;;x
+USA_f_seven_f_tigercat_2;F7F-3;;;;;;;;;;;;;;x
+USA_f_seven_f_tigercat_3;F7F-3N;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_sbu_0;SBU-1;;;;;;;;;;;;;;x
+USA_sbu_1;SBU-2;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_sb_two_u_vindicator_0;SB2U-1;;;;;;;;;;;;;;x
+USA_sb_two_u_vindicator_1;SB2U-2;;;;;;;;;;;;;;x
+USA_sb_two_u_vindicator_2;SB2U-3;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_sbc_0;SBC-3;;;;;;;;;;;;;;x
+USA_sbc_1;SBC-4;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_sbd_0;SBD-1;;;;;;;;;;;;;;x
+USA_sbd_1;SBD-2;;;;;;;;;;;;;;x
+USA_sbd_2;SBD-3;;;;;;;;;;;;;;x
+USA_sbd_3;SBD-4;;;;;;;;;;;;;;x
+USA_sbd_4;SBD-5;;;;;;;;;;;;;;x
+USA_sbd_5;SBD-6;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_sb_two_a_buccaneer_0;SB2A-2;;;;;;;;;;;;;;x
+USA_sb_two_a_buccaneer_1;SB2A-3;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_sb_two_c_helldiver_0;SB2C-1;;;;;;;;;;;;;;x
+USA_sb_two_c_helldiver_1;SB2C-1C;;;;;;;;;;;;;;x
+USA_sb_two_c_helldiver_2;SB2C-3;;;;;;;;;;;;;;x
+USA_sb_two_c_helldiver_3;SB2C-4;;;;;;;;;;;;;;x
+USA_sb_two_c_helldiver_4;SB2C-5;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_tbd_0;TBD-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_tbf_0;TBF-1;;;;;;;;;;;;;;x
+USA_tbf_1;TBF-1C;;;;;;;;;;;;;;x
+USA_tbf_2;TBF-2;;;;;;;;;;;;;;x
+USA_tbf_3;TBF-1D;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_a_one_skyraider_0;AD-1;;;;;;;;;;;;;;x
+USA_a_one_skyraider_1;AD-2;;;;;;;;;;;;;;x
+USA_a_one_skyraider_2;AD-3;;;;;;;;;;;;;;x
+USA_a_one_skyraider_3;AD-4;;;;;;;;;;;;;;x
+USA_a_one_skyraider_4;AD-4B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_p_thirty_eight_lightning_0;P-38D;;;;;;;;;;;;;;x
+USA_p_thirty_eight_lightning_1;P-38E;;;;;;;;;;;;;;x
+USA_p_thirty_eight_lightning_2;P-38F;;;;;;;;;;;;;;x
+USA_p_thirty_eight_lightning_3;P-38G;;;;;;;;;;;;;;x
+USA_p_thirty_eight_lightning_4;P-38H;;;;;;;;;;;;;;x
+USA_p_thirty_eight_lightning_5;P-38J;;;;;;;;;;;;;;x
+USA_p_thirty_eight_lightning_6;P-38L;;;;;;;;;;;;;;x
+USA_p_thirty_eight_lightning_7;P-38M;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_p_sixty_one_black_widow_0;P-61A-1;;;;;;;;;;;;;;x
+USA_p_sixty_one_black_widow_1;P-61A-5;;;;;;;;;;;;;;x
+USA_p_sixty_one_black_widow_2;P-61A-10;;;;;;;;;;;;;;x
+USA_p_sixty_one_black_widow_3;P-61A-11;;;;;;;;;;;;;;x
+USA_p_sixty_one_black_widow_4;P-61B-1;;;;;;;;;;;;;;x
+USA_p_sixty_one_black_widow_5;P-61B-10;;;;;;;;;;;;;;x
+USA_p_sixty_one_black_widow_6;P-61B-15;;;;;;;;;;;;;;x
+USA_p_sixty_one_black_widow_7;P-61C-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_a_twenty_havoc_0;A-20;;;;;;;;;;;;;;x
+USA_a_twenty_havoc_1;A-20A;;;;;;;;;;;;;;x
+USA_a_twenty_havoc_2;A-20B;;;;;;;;;;;;;;x
+USA_a_twenty_havoc_3;A-20C;;;;;;;;;;;;;;x
+USA_a_twenty_havoc_4;A-20G;;;;;;;;;;;;;;x
+USA_a_twenty_havoc_5;A-20H;;;;;;;;;;;;;;x
+USA_a_twenty_havoc_6;A-20J;;;;;;;;;;;;;;x
+USA_a_twenty_havoc_7;A-20K;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_a_twenty_six_invader_0;A-26B;;;;;;;;;;;;;;x
+USA_a_twenty_six_invader_1;A-26C;;;;;;;;;;;;;;x
+USA_a_twenty_six_invader_2;A-26D;;;;;;;;;;;;;;x
+USA_a_twenty_six_invader_3;A-26E;;;;;;;;;;;;;;x
+USA_a_twenty_six_invader_4;A-26Z;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_b_eighteen_bolo_0;B-18;;;;;;;;;;;;;;x
+USA_b_eighteen_bolo_1;B-18A;;;;;;;;;;;;;;x
+USA_b_eighteen_bolo_2;B-18B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_b_twenty_five_mitchell_0;B-25A;;;;;;;;;;;;;;x
+USA_b_twenty_five_mitchell_1;B-25B;;;;;;;;;;;;;;x
+USA_b_twenty_five_mitchell_2;B-25C;;;;;;;;;;;;;;x
+USA_b_twenty_five_mitchell_3;B-25G;;;;;;;;;;;;;;x
+USA_b_twenty_five_mitchell_4;B-25H;;;;;;;;;;;;;;x
+USA_b_twenty_five_mitchell_5;B-25J;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_b_twenty_six_marauder_0;B-26A;;;;;;;;;;;;;;x
+USA_b_twenty_six_marauder_1;B-26B;;;;;;;;;;;;;;x
+USA_b_twenty_six_marauder_2;B-26C;;;;;;;;;;;;;;x
+USA_b_twenty_six_marauder_3;B-26F;;;;;;;;;;;;;;x
+USA_b_twenty_six_marauder_4;B-26G;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_c_thirty_three_0;C-33;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_c_fourty_seven_skytrain_0;C-47A;;;;;;;;;;;;;;x
+USA_c_fourty_seven_skytrain_1;C-47B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_pby_0;PBY-1;;;;;;;;;;;;;;x
+USA_pby_1;PBY-2;;;;;;;;;;;;;;x
+USA_pby_2;PBY-3;;;;;;;;;;;;;;x
+USA_pby_3;PBY-4;;;;;;;;;;;;;;x
+USA_pby_4;PBY-5;;;;;;;;;;;;;;x
+USA_pby_5;PBY-5A;;;;;;;;;;;;;;x
+USA_pby_6;PBY-6A;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_pbm_0;PBM-1;;;;;;;;;;;;;;x
+USA_pbm_1;PBM-3;;;;;;;;;;;;;;x
+USA_pbm_2;PBM-3C;;;;;;;;;;;;;;x
+USA_pbm_3;PBM-3S;;;;;;;;;;;;;;x
+USA_pbm_4;PBM-3D;;;;;;;;;;;;;;x
+USA_pbm_5;PBM-5;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_pb_four_y_one_liberator_0;PB4Y-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_p_four_y_two_privateer_0;PB4Y-2;;;;;;;;;;;;;;x
+USA_p_four_y_two_privateer_1;PB4Y-2B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_b_seventeen_flying_fortress_0;B-17B;;;;;;;;;;;;;;x
+USA_b_seventeen_flying_fortress_1;B-17C;;;;;;;;;;;;;;x
+USA_b_seventeen_flying_fortress_2;B-17D;;;;;;;;;;;;;;x
+USA_b_seventeen_flying_fortress_3;B-17E;;;;;;;;;;;;;;x
+USA_b_seventeen_flying_fortress_4;B-17F;;;;;;;;;;;;;;x
+USA_b_seventeen_flying_fortress_5;B-17G;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_b_twenty_four_liberator_0;B-24A;;;;;;;;;;;;;;x
+USA_b_twenty_four_liberator_1;B-24C;;;;;;;;;;;;;;x
+USA_b_twenty_four_liberator_2;B-24D;;;;;;;;;;;;;;x
+USA_b_twenty_four_liberator_3;B-24H;;;;;;;;;;;;;;x
+USA_b_twenty_four_liberator_4;B-24J;;;;;;;;;;;;;;x
+USA_b_twenty_four_liberator_5;B-24L;;;;;;;;;;;;;;x
+USA_b_twenty_four_liberator_6;B-24M;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_b_twenty_nine_superfortress_0;B-29;;;;;;;;;;;;;;x
+USA_b_twenty_nine_superfortress_1;B-29A;;;;;;;;;;;;;;x
+USA_b_twenty_nine_superfortress_2;B-29B;;;;;;;;;;;;;;x
+USA_b_twenty_nine_superfortress_3;B-29C;;;;;;;;;;;;;;x
+USA_b_twenty_nine_superfortress_4;B-29D;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_c_fifty_four_skymaster_0;C-54A;;;;;;;;;;;;;;x
+USA_c_fifty_four_skymaster_1;C-54B;;;;;;;;;;;;;;x
+USA_c_fifty_four_skymaster_2;C-54D;;;;;;;;;;;;;;x
+USA_c_fifty_four_skymaster_3;C-54E;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_c_seven_four_globemaster_0;C-74A;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_c_one_tweny_four_globemaster_III_0;C-124A;;;;;;;;;;;;;;x
+USA_c_one_tweny_four_globemaster_III_1;C-124C;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+###  RED AIR FORCE AIRCRAFT ;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+SOV_i_fifteen_0;I-15;;;;;;;;;;;;;;x
+SOV_i_fifteen_1;I-15bis;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_i_one_fifty_three_0;I-153;;;;;;;;;;;;;;x
+SOV_i_one_fifty_three_1;I-153P;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_lagg_three_0;LaGG-3;;;;;;;;;;;;;;x
+SOV_lagg_three_1;LaGG-3 G-105;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_i_sixteen_0;I-16 Type 4;;;;;;;;;;;;;;x
+SOV_i_sixteen_1;I-16 Type 5;;;;;;;;;;;;;;x
+SOV_i_sixteen_2;I-16 Type 6;;;;;;;;;;;;;;x
+SOV_i_sixteen_3;I-16 Type 10;;;;;;;;;;;;;;x
+SOV_i_sixteen_4;I-16 Type 12;;;;;;;;;;;;;;x
+SOV_i_sixteen_5;I-16 Type 18;;;;;;;;;;;;;;x
+SOV_i_sixteen_6;I-16 Type 29;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_mig_three_0;MiG-3;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_yak_nine_0;Yak-9;;;;;;;;;;;;;;x
+SOV_yak_nine_1;Yak-9T;;;;;;;;;;;;;;x
+SOV_yak_nine_2;Yak-9K;;;;;;;;;;;;;;x
+SOV_yak_nine_3;Yak-9D;;;;;;;;;;;;;;x
+SOV_yak_nine_4;Yak-9TD;;;;;;;;;;;;;;x
+SOV_yak_nine_5;Yak-9DD;;;;;;;;;;;;;;x
+SOV_yak_nine_6;Yak-9M;;;;;;;;;;;;;;x
+SOV_yak_nine_7;Yak-9U (VK-105);;;;;;;;;;;;;;x
+SOV_yak_nine_8;Yak-9U (VK-107);;;;;;;;;;;;;;x
+SOV_yak_nine_9;Yak-9UT;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_yak_one_0;Yak-1;;;;;;;;;;;;;;x
+SOV_yak_one_1;Yak-1b;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_yak_seven_0;Yak-7A;;;;;;;;;;;;;;x
+SOV_yak_seven_1;Yak-7B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_yak_three_0;Yak-3;;;;;;;;;;;;;;x
+SOV_yak_three_1;Yak-3 (VK-107A);;;;;;;;;;;;;;x
+SOV_yak_three_2;Yak-3P;;;;;;;;;;;;;;x
+SOV_yak_three_3;Yak-3U;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_la_five_0;La-5;;;;;;;;;;;;;;x
+SOV_la_five_1;La-5F;;;;;;;;;;;;;;x
+SOV_la_five_2;La-5FN;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_la_seven_0;La-7;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_la_nine_0;La-9;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_la_eleven_0;La-11;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_su_two_0;Su-2;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_il_two_sturmovik_0;Il-2;;;;;;;;;;;;;;x
+SOV_il_two_sturmovik_1;Il-2M;;;;;;;;;;;;;;x
+SOV_il_two_sturmovik_2;Il-2M3;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_il_ten_0;Il-10;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_pe_three_0;Pe-3;;;;;;;;;;;;;;x
+SOV_pe_three_1;Pe-3bis;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_db_three_0;DB-3;;;;;;;;;;;;;;x
+SOV_db_three_1;DB-3A;;;;;;;;;;;;;;x
+SOV_db_three_2;DB-3B;;;;;;;;;;;;;;x
+SOV_db_three_3;DB-3T;;;;;;;;;;;;;;x
+SOV_db_three_4;DB-3M;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_il_four_0;IL-4;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_pe_two_0;Pe-2;;;;;;;;;;;;;;x
+SOV_pe_two_1;Pe-2B;;;;;;;;;;;;;;x
+SOV_pe_two_2;Pe-2D;;;;;;;;;;;;;;x
+SOV_pe_two_3;Pe-2FT;;;;;;;;;;;;;;x
+SOV_pe_two_4;Pe-2I;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_tu_two_0;Tu-2 ANT-58;;;;;;;;;;;;;;x
+SOV_tu_two_1;Tu-2 ANT-59;;;;;;;;;;;;;;x
+SOV_tu_two_2;Tu-2D ANT-62;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_tb_three_0;TB-3-4M-17F;;;;;;;;;;;;;;x
+SOV_tb_three_1;TB-3-4M-34;;;;;;;;;;;;;;x
+SOV_tb_three_2;TB-3-4M-34R;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_pe_eight_0;Pe-8;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+###  IMPERIAL JAPANESE AIR FORCE AIRCRAFT ;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+JAP_ki_ten_perry_0;Ki-10-1;;;;;;;;;;;;;;x
+JAP_ki_ten_perry_1;Ki-10-2;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_twenty_seven_nate_0;Ki-27a;;;;;;;;;;;;;;x
+JAP_ki_twenty_seven_nate_1;Ki-27b;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_fourty_three_oscar_0;Ki-43-Ia;;;;;;;;;;;;;;x
+JAP_ki_fourty_three_oscar_1;Ki-43-IIa;;;;;;;;;;;;;;x
+JAP_ki_fourty_three_oscar_2;Ki-43-IIb;;;;;;;;;;;;;;x
+JAP_ki_fourty_three_oscar_3;Ki-43-IIIb;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_fourty_four_tojo_0;Ki-44-I;;;;;;;;;;;;;;x
+JAP_ki_fourty_four_tojo_1;Ki-44-II Ko;;;;;;;;;;;;;;x
+JAP_ki_fourty_four_tojo_2;Ki-44-II Otsu;;;;;;;;;;;;;;x
+JAP_ki_fourty_four_tojo_3;Ki-44-II Hei;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_j_two_m_jack_0;J2M2 Model 11;;;;;;;;;;;;;;x
+JAP_j_two_m_jack_1;J2M3 Model 21;;;;;;;;;;;;;;x
+JAP_j_two_m_jack_2;J2M3a Model 21A;;;;;;;;;;;;;;x
+JAP_j_two_m_jack_3;J2M5 Model 33;;;;;;;;;;;;;;x
+JAP_j_two_m_jack_4;J2M5a Model 33A;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_n_one_k_george_0;N1K1-J;;;;;;;;;;;;;;x
+JAP_n_one_k_george_1;N1K1-Jc;;;;;;;;;;;;;;x
+JAP_n_one_k_george_2;N1K2-J;;;;;;;;;;;;;;x
+JAP_n_one_k_george_3;N1K2-Ja;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_eighty_four_frank_0;Ki-84-I Ko;;;;;;;;;;;;;;x
+JAP_ki_eighty_four_frank_1;Ki-84-I Otsu;;;;;;;;;;;;;;x
+JAP_ki_eighty_four_frank_2;Ki-84-I Hei;;;;;;;;;;;;;;x
+JAP_ki_eighty_four_frank_3;Ki-84-N;;;;;;;;;;;;;;x
+JAP_ki_eighty_four_frank_4;Ki-84-R;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_sixty_one_tony_0;Ki-61-I Ko;;;;;;;;;;;;;;x
+JAP_ki_sixty_one_tony_1;Ki-61-I Otsu;;;;;;;;;;;;;;x
+JAP_ki_sixty_one_tony_2;Ki-61-I Hei;;;;;;;;;;;;;;x
+JAP_ki_sixty_one_tony_3;Ki-61-I Tei;;;;;;;;;;;;;;x
+JAP_ki_sixty_one_tony_4;Ki-61-II;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_fifty_one_sonia_0;Ki-51;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_a_five_m_claude_0;A5M1;;;;;;;;;;;;;;;x
+JAP_a_five_m_claude_1;A5M2/2a;;;;;;;;;;;;;;;x
+JAP_a_five_m_claude_2;A5M4;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_a_six_m_zero_0;A6M2 Model 11;;;;;;;;;;;;;;;x
+JAP_a_six_m_zero_1;A6M2 Model 21;;;;;;;;;;;;;;;x
+JAP_a_six_m_zero_2;A6M3 Model 32;;;;;;;;;;;;;;;x
+JAP_a_six_m_zero_3;A6M3 Model 22;;;;;;;;;;;;;;;x
+JAP_a_six_m_zero_4;A6M5 Model 52;;;;;;;;;;;;;;;x
+JAP_a_six_m_zero_5;A6M8 Model 64;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_b_four_y_jean_0;B4Y;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_d_three_a_val_0;D3A;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_d_four_y_judy_0;D4Y1;;;;;;;;;;;;;;;x
+JAP_d_four_y_judy_1;D4Y2;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_b_five_n_kate_0;B5N1;;;;;;;;;;;;;;;x
+JAP_b_five_n_kate_1;B5N2;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_b_six_n_jill_0;B6N1;;;;;;;;;;;;;;;x
+JAP_b_six_n_jill_1;B6N2;;;;;;;;;;;;;;;x
+JAP_b_six_n_jill_2;B6N3;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_fourty_five_nick_0;Ki-45 KAIa;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_one_oh_two_randy_0;Ki-102;;;;;;;;;;;;;;;x
+JAP_ki_one_oh_two_randy_1;Ki-102 Ko;;;;;;;;;;;;;;;x
+JAP_ki_one_oh_two_randy_2;Ki-102 Otsu;;;;;;;;;;;;;;;x
+JAP_ki_one_oh_two_randy_3;Ki-102 Hei;;;;;;;;;;;;;;;x
+JAP_ki_one_oh_two_randy_4;Ki-108 ;;;;;;;;;;;;;;;x
+JAP_ki_one_oh_two_randy_5;Ki-108 Kai;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_j_one_n_one_irving_0;J1N1-C KAI;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_g_three_m_nell_0;G3M1 Model 11;;;;;;;;;;;;;;;x
+JAP_g_three_m_nell_1;G3M2 Model 21;;;;;;;;;;;;;;;x
+JAP_g_three_m_nell_2;G3M2 Model 22;;;;;;;;;;;;;;;x
+JAP_g_three_m_nell_3;G3M3 Model 23;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_fourty_eight_lily_0;Ki-48-Ia;;;;;;;;;;;;;;;x
+JAP_ki_fourty_eight_lily_1;Ki-48-Ib;;;;;;;;;;;;;;;x
+JAP_ki_fourty_eight_lily_2;Ki-48-IIa;;;;;;;;;;;;;;;x
+JAP_ki_fourty_eight_lily_3;Ki-48-IIb;;;;;;;;;;;;;;;x
+JAP_ki_fourty_eight_lily_4;Ki-48-IIc;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_h_six_k_mavis_0;H6K2 Model 11;;;;;;;;;;;;;;;x
+JAP_h_six_k_mavis_1;H6K4 Model 22;;;;;;;;;;;;;;;x
+JAP_h_six_k_mavis_2;H6K5 Model 23;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_hk_eight_emily_0;H8K1 Model 11;;;;;;;;;;;;;;;x
+JAP_hk_eight_emily_1;H8K2 Model 12;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_g_four_m_betty_0;G4M1 Model 11;;;;;;;;;;;;;;;x
+JAP_g_four_m_betty_1;G4M1 Model 12;;;;;;;;;;;;;;;x
+JAP_g_four_m_betty_2;G4M2 Model 22;;;;;;;;;;;;;;;x
+JAP_g_four_m_betty_3;G4M2 Model 22 Ko;;;;;;;;;;;;;;;x
+JAP_g_four_m_betty_4;G4M2 Model 22 Otsu;;;;;;;;;;;;;;;x
+JAP_g_four_m_betty_5;G4M2a Model 24;;;;;;;;;;;;;;;x
+JAP_g_four_m_betty_6;G4M3 Model 34;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_p_one_y_one_frances_0;P1Y1 Model 11;;;;;;;;;;;;;;;x
+JAP_p_one_y_one_frances_1;P1Y2 Model 16;;;;;;;;;;;;;;;x
+JAP_p_one_y_one_frances_2;P1Y3 Model 13;;;;;;;;;;;;;;;x
+JAP_p_one_y_one_frances_3;P1Y4 Model 12;;;;;;;;;;;;;;;x
+JAP_p_one_y_one_frances_4;P1Y5 Model 14;;;;;;;;;;;;;;;x
+JAP_p_one_y_one_frances_5;P1Y6 Model 17;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_twenty_one_sally_0;Ki-21-Ia;;;;;;;;;;;;;;;x
+JAP_ki_twenty_one_sally_1;Ki-21-Ib;;;;;;;;;;;;;;;x
+JAP_ki_twenty_one_sally_2;Ki-21-Ic;;;;;;;;;;;;;;;x
+JAP_ki_twenty_one_sally_3;Ki-21-IIa;;;;;;;;;;;;;;;x
+JAP_ki_twenty_one_sally_4;Ki-21-IIb;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+JAP_ki_fourty_nine_helen_0;Ki-49-I;;;;;;;;;;;;;;;x
+JAP_ki_fourty_nine_helen_1;Ki-49-IIa;;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+###  ROYAL AIR FORCE AIRCRAFT ;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+ENG_wapiti_0;Wapiti I;;;;;;;;;;;;;;;x
+ENG_wapiti_1;Wapiti IIA;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_gladiator_0;Gladiator I;;;;;;;;;;;;;;;x
+ENG_gladiator_1;Gladiator II;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_hurricane_0;Hurricane Mk I;;;;;;;;;;;;;;;x
+ENG_hurricane_1;Hurricane Mk I (revised);;;;;;;;;;;;;;;x
+ENG_hurricane_2;Hurricane Mk IIA;;;;;;;;;;;;;;;x
+ENG_hurricane_3;Hurricane Mk IIB;;;;;;;;;;;;;;;x
+ENG_hurricane_4;Hurricane Mk IIB Trop;;;;;;;;;;;;;;;x
+ENG_hurricane_5;Hurricane Mk IIC;;;;;;;;;;;;;;;x
+ENG_hurricane_6;Hurricane MK IID;;;;;;;;;;;;;;;x
+ENG_hurricane_7;Hurricane Mk IIE;;;;;;;;;;;;;;;x
+ENG_hurricane_8;Hurricane Mk IV;;;;;;;;;;;;;;;x
+ENG_hurricane_9;Hurricane Mk V;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_hind_0;Hind Mk I;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_spitfire_0;Spitfire Mk IA;;;;;;;;;;;;;;;x
+ENG_spitfire_1;Spitfire Mk IB;;;;;;;;;;;;;;;x
+ENG_spitfire_2;Spitfire Mk IIA;;;;;;;;;;;;;;;x
+ENG_spitfire_3;Spitfire Mk IIB;;;;;;;;;;;;;;;x
+ENG_spitfire_4;Spitfire Mk VA;;;;;;;;;;;;;;;x
+ENG_spitfire_5;Spitfire Mk VB;;;;;;;;;;;;;;;x
+ENG_spitfire_6;Spitfire Mk VC;;;;;;;;;;;;;;;x
+ENG_spitfire_7;Spitfire Mk VI;;;;;;;;;;;;;;;x
+ENG_spitfire_8;Spitfire Mk VII;;;;;;;;;;;;;;;x
+ENG_spitfire_9;Spitfire Mk VIII;;;;;;;;;;;;;;;x
+ENG_spitfire_10;Spitfire Mk IX;;;;;;;;;;;;;;;x
+ENG_spitfire_11;Spitfire Mk XII;;;;;;;;;;;;;;;x
+ENG_spitfire_12;Spitfire Mk XIV;;;;;;;;;;;;;;;x
+ENG_spitfire_13;Spitfire F24;;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_defiant_0;Defiant Mk I;;;;;;;;;;;;;;;x
+ENG_defiant_1;Defiant NF Mk IA;;;;;;;;;;;;;;;x
+ENG_defiant_2;Defiant Mk II;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_typhoon_0;Typhoon;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_tempest_0;Tempest Mk V;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_gordon_0;Gordon Mk I;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_battle_0;Battle Mk I;;;;;;;;;;;;;;;x
+ENG_battle_1;Battle Mk II;;;;;;;;;;;;;;;x
+ENG_battle_2;Battle Mk V;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_skua_0;Skua Mk II;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_sea_gladiator_0;Sea Gladiator;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_sea_hurricane_0;Hurricane Mk IA;;;;;;;;;;;;;;;x
+ENG_sea_hurricane_1;Hurricane Mk IB;;;;;;;;;;;;;;;x
+ENG_sea_hurricane_2;Hurricane Mk IC;;;;;;;;;;;;;;;x
+ENG_sea_hurricane_3;Hurricane Mk IIC;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_roc_0;Roc;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_fulmar_0;Fulmar Mk I;;;;;;;;;;;;;;;x
+ENG_fulmar_1;Fulmar Mk II;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_firefly_0;Firefly I;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_seafire_0;Seafire Mk IB;;;;;;;;;;;;;;;x
+ENG_seafire_1;Seafire F Mk IIC;;;;;;;;;;;;;;;x
+ENG_seafire_2;Seafire F Mk III;;;;;;;;;;;;;;;x
+ENG_seafire_3;Seafire F Mk XV;;;;;;;;;;;;;;;x
+ENG_seafire_4;Seafire F Mk 45;;;;;;;;;;;;;;;x
+ENG_seafire_5;Seafire F Mk 46;;;;;;;;;;;;;;;x
+ENG_seafire_6;Seafire F Mk 47;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_barracuda_0;Barracuda Mk I;;;;;;;;;;;;;;;x
+ENG_barracuda_1;Barracuda Mk II;;;;;;;;;;;;;;;x
+ENG_barracuda_2;Barracuda Mk III;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_swordfish_0;Swordfish I;;;;;;;;;;;;;;;x
+ENG_swordfish_1;Swordfish III;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_albacore_0;Albacore I;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_blenheim_0;Blenheim Mk I;;;;;;;;;;;;;;;x
+ENG_blenheim_1;Blenheim Mk IF;;;;;;;;;;;;;;;x
+ENG_blenheim_2;Blenheim Mk IV;;;;;;;;;;;;;;;x
+ENG_blenheim_3;Blenheim Mk IVF;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_beaufighter_0;Beaufighter Mk III;;;;;;;;;;;;;;;x
+ENG_beaufighter_1;Beaufighter Mk VI;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_mosquito_0;Mosquito Mk II;;;;;;;;;;;;;;;x
+ENG_mosquito_1;Mosquito Mk IV;;;;;;;;;;;;;;;x
+ENG_mosquito_2;Mosquito Mk VI;;;;;;;;;;;;;;;x
+ENG_mosquito_3;Mosquito Mk IX;;;;;;;;;;;;;;;x
+ENG_mosquito_4;Mosquito Mk XII;;;;;;;;;;;;;;;x
+ENG_mosquito_5;Mosquito Mk XIII;;;;;;;;;;;;;;;x
+ENG_mosquito_6;Mosquito Mk XVI;;;;;;;;;;;;;;;x
+ENG_mosquito_7;Mosquito Mk XVIII;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_wellington_0;Wellington Mk I;;;;;;;;;;;;;;;x
+ENG_wellington_1;Wellington Mk IA;;;;;;;;;;;;;;;x
+ENG_wellington_2;Wellington Mk IC;;;;;;;;;;;;;;;x
+ENG_wellington_3;Wellington Mk II;;;;;;;;;;;;;;;x
+ENG_wellington_4;Wellington Mk III;;;;;;;;;;;;;;;x
+ENG_wellington_5;Wellington Mk IV;;;;;;;;;;;;;;;x
+ENG_wellington_6;Wellington Mk VI;;;;;;;;;;;;;;;x
+ENG_wellington_7;Wellington Mk X;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_whitley_0;Whitley Mk I;;;;;;;;;;;;;;;x
+ENG_whitley_1;Whitley Mk II;;;;;;;;;;;;;;;x
+ENG_whitley_2;Whitley Mk III;;;;;;;;;;;;;;;x
+ENG_whitley_3;Whitley Mk IV;;;;;;;;;;;;;;;x
+ENG_whitley_4;Whitley Mk V;;;;;;;;;;;;;;;x
+ENG_whitley_5;Whitley Mk VII;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_hampden_0;Hampden Mk I;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_bombay_0;Bombay Mk I;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_sunderland_0;Sunderland Mk I;;;;;;;;;;;;;;;x
+ENG_sunderland_1;Sunderland Mk II;;;;;;;;;;;;;;;x
+ENG_sunderland_2;Sunderland Mk III;;;;;;;;;;;;;;;x
+ENG_sunderland_3;Sunderland Mk IV;;;;;;;;;;;;;;;x
+ENG_sunderland_4;Sunderland Mk V;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_vildebeest_0;Vildebeest Mk III;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_beaufort_0;Beaufort Mk I;;;;;;;;;;;;;;;x
+ENG_beaufort_1;Beaufort Mk II;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_halifax_0;Halifax Mk II;;;;;;;;;;;;;;;x
+ENG_halifax_1;Halifax Mk III;;;;;;;;;;;;;;;x
+ENG_halifax_2;Halifax Mk VI;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_manchester_0;Manchester Mk IA;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_lancaster_0;Lancaster Mk I;;;;;;;;;;;;;;;x
+ENG_lancaster_1;Lancaster Mk II;;;;;;;;;;;;;;;x
+ENG_lancaster_2;Lancaster Mk III;;;;;;;;;;;;;;;x
+ENG_lancaster_3;Lancaster Mk IV;;;;;;;;;;;;;;;x
+ENG_lancaster_4;Lancaster Mk V;;;;;;;;;;;;;;;x
+ENG_lancaster_5;Lancaster Mk VI;;;;;;;;;;;;;;;x
+ENG_lancaster_6;Lancaster Mk VII;;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+###  REGIA AERONAUTICA AIRCRAFT ;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+ITA_cr_thirty_two_0;C.R.32;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_cr_fourty_two_0;C.R.42;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_g_fifty_0;G.50;;;;;;;;;;;;;;;x
+ITA_g_fifty_1;G.50bis;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_mc_two_hundred_0;C.200;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_mc_two_oh_two_0;C.202;;;;;;;;;;;;;;;x
+ITA_mc_two_oh_two_1C.202AS;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_ba_sixty_five_0;Ba.65;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_ba_eighty_eight_0;Ba.88;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_ro_fifty_seven_0;Ro.57;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_sm_seventy_nine_0;SM.79-I;;;;;;;;;;;;;;;x
+ITA_sm_seventy_nine_1;SM.79-II;;;;;;;;;;;;;;;x
+ITA_sm_seventy_nine_2;SM.79-III;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_br_twenty_0;BR.20;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_ca_three_ten_0;Ca.310;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_z_one_thousand_seven_0;Z.1007;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_ca_one_thirty_three_0;Ca.133;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_z_five_oh_one_0;Z.501;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ITA_z_five_oh_six_b_0;Z.506B;;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+###  FRENCH AIR FORCE AIRCRAFT ;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+FRA_s_five_ten_0;S.510;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_mb_one_fifty_0;MB.151;;;;;;;;;;;;;;;x
+FRA_mb_one_fifty_1;MB.152;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_c_seven_fourteen_0;C.714;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_breguet_nineteen_0;Br.19 B2;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_d_five_hundred_0;D.510;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_d_five_twenty_0;D.520;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_breguet_six_ninety_three_0;Breguet 693;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_mb_one_seventy_0;MB.174A.3;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_amiot_one_fourty_three_0;Amiot 143M;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_amiot_three_fifty_four_0;Amiot 354;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_latecoere_three_hundred_0;Latecoere 300;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_f_two_twenty_0;Farman F.222;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+###  JET AIRCRAFT ;;;;;;;;;;;;;;x
+########################################################################################;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+###  LUFTWAFFE JETS ;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+GER_he_two_eighty_0;Heinkel 280;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_me_two_sixty_two_0;Me 262 A-1a;;;;;;;;;;;;;;x
+GER_me_two_sixty_two_1;Me 262 A-2a;;;;;;;;;;;;;;x
+GER_me_two_sixty_two_2;Me 262 A-3a;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ar_two_thirty_four_0;Ar 234 B-2;;;;;;;;;;;;;;x
+GER_ar_two_thirty_four_1;Ar 234 B-2/N;;;;;;;;;;;;;;x
+GER_ar_two_thirty_four_2;Ar 234 C-2;;;;;;;;;;;;;;x
+GER_ar_two_thirty_four_3;Ar 234 C-3;;;;;;;;;;;;;;x
+GER_ar_two_thirty_four_4;Ar 234 C-3/N;;;;;;;;;;;;;;x
+GER_ar_two_thirty_four_5;Ar 234 C-8;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ho_eighteen_0;Ho 18 A-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_me_eleven_twelve_0;Me 1112 A-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_he_ten_seventy_nine_0;He 1079 A-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_e_five_sixty_0;Arado Ar E.560;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_ho_two_twenty_nine_0;Horten Ho 229 A-1;;;;;;;;;;;;;;x
+GER_ho_two_twenty_nine_1;Horten Ho 229 B-2/N;;;;;;;;;;;;;;x
+GER_ho_two_twenty_nine_2;Horten Ho 229 C-1;;;;;;;;;;;;;;x
+GER_ho_two_twenty_nine_3;Horten Ho 229 D-1;;;;;;;;;;;;;;x
+GER_ho_two_twenty_nine_4;Horten Ho 229 E-1;;;;;;;;;;;;;;x
+GER_ho_two_twenty_nine_5;Horten Ho 229 E-1/Trop;;;;;;;;;;;;;;x
+GER_ho_two_twenty_nine_6;Horten Ho 229 F-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_do_twenty_eight_0;Dornier Do 28 A-1;;;;;;;;;;;;;;x
+GER_do_twenty_eight_1;Dornier Do 28 B-1;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+###  USA JETS ;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+USA_p_fifty_nine_airacomet_0;P-59A;;;;;;;;;;;;;;x
+USA_p_fifty_nine_airacomet_1;P-59B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_p_eighty_shooting_star_0;P-80A;;;;;;;;;;;;;;x
+USA_p_eighty_shooting_star_1;P-80B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_eighty_six_sabre_0;F-86A;;;;;;;;;;;;;;x
+USA_f_eighty_six_sabre_1;F-86B;;;;;;;;;;;;;;x
+USA_f_eighty_six_sabre_2;F-86D;;;;;;;;;;;;;;x
+USA_f_eighty_six_sabre_3;F-86E;;;;;;;;;;;;;;x
+USA_f_eighty_six_sabre_4;F-86F;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_nine_f_panther_0;F9F-2;;;;;;;;;;;;;;x
+USA_f_nine_f_panther_1;F9F-2B;;;;;;;;;;;;;;x
+USA_f_nine_f_panther_2;F9F-4;;;;;;;;;;;;;;x
+USA_f_nine_f_panther_3;F9F-5;;;;;;;;;;;;;;x
+USA_f_nine_f_panther_4;F9F-6 Cougar;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_one_hundred_super_sabre_0;F-100A;;;;;;;;;;;;;;x
+USA_f_one_hundred_super_sabre_1;F-100C;;;;;;;;;;;;;;x
+USA_f_one_hundred_super_sabre_2;F-100D;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_a_four_skyhawk_0;A-4A;;;;;;;;;;;;;;x
+USA_a_four_skyhawk_1;A-4B;;;;;;;;;;;;;;x
+USA_a_four_skyhawk_2;A-4C;;;;;;;;;;;;;;x
+USA_a_four_skyhawk_3;A-4E;;;;;;;;;;;;;;x
+USA_a_four_skyhawk_4;A-4F;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_eight_crusader_0;F-8A;;;;;;;;;;;;;;x
+USA_f_eight_crusader_1;F-8B;;;;;;;;;;;;;;x
+USA_f_eight_crusader_2;F-8C;;;;;;;;;;;;;;x
+USA_f_eight_crusader_3;F-8D;;;;;;;;;;;;;;x
+USA_f_eight_crusader_4;F-8E;;;;;;;;;;;;;;x
+USA_f_eight_crusader_5;F-8H;;;;;;;;;;;;;;x
+USA_f_eight_crusader_6;F-8J;;;;;;;;;;;;;;x
+USA_f_eight_crusader_7;F-8K;;;;;;;;;;;;;;x
+USA_f_eight_crusader_8;F-8L;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_one_oh_four_starfighter_0;F-104A;;;;;;;;;;;;;;x
+USA_f_one_oh_four_starfighter_1;F-104C;;;;;;;;;;;;;;x
+USA_f_one_oh_four_starfighter_2;F-104G;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_one_oh_six_delta_dart_0;F-106A;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_four_phantom_0;F-4A;;;;;;;;;;;;;;x
+USA_f_four_phantom_1;F-4B;;;;;;;;;;;;;;x
+USA_f_four_phantom_2;F-4C;;;;;;;;;;;;;;x
+USA_f_four_phantom_3;EF-4C Wild Weasel IV;;;;;;;;;;;;;;x
+USA_f_four_phantom_4;F-4D;;;;;;;;;;;;;;x
+USA_f_four_phantom_5;EF-4D Wild Weasel IV;;;;;;;;;;;;;;x
+USA_f_four_phantom_6;F-4E;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_five_tiger_0;F-5A;;;;;;;;;;;;;;x
+USA_f_five_tiger_1;F-5E Tiger II;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_one_oh_five_thunderchief_0;F-105B;;;;;;;;;;;;;;x
+USA_f_one_oh_five_thunderchief_1;F-105D;;;;;;;;;;;;;;x
+USA_f_one_oh_five_thunderchief_2;F-105F;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_a_six_intruder_0;A-6A;;;;;;;;;;;;;;x
+USA_a_six_intruder_1;A-6B;;;;;;;;;;;;;;x
+USA_a_six_intruder_2;A-6C;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_f_one_eleven_aardvark_0;F-111A;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_a_seven_corsair_II_0;A-7A;;;;;;;;;;;;;;x
+USA_a_seven_corsair_II_1;A-7B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_b_fourty_seven_stratojet_0;B-47B;;;;;;;;;;;;;;x
+USA_b_fourty_seven_stratojet_1;B-47E;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_b_fifty_two_stratofortress_0;B-52B;;;;;;;;;;;;;;x
+USA_b_fifty_two_stratofortress_1;B-52C;;;;;;;;;;;;;;x
+USA_b_fifty_two_stratofortress_2;B-52D;;;;;;;;;;;;;;x
+USA_b_fifty_two_stratofortress_3;B-52E;;;;;;;;;;;;;;x
+USA_b_fifty_two_stratofortress_4;B-52F;;;;;;;;;;;;;;x
+USA_b_fifty_two_stratofortress_5;B-52G;;;;;;;;;;;;;;x
+USA_b_fifty_two_stratofortress_6;B-52H;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_b_fifty_eight_hustler_0;B-58B;;;;;;;;;;;;;;x
+USA_b_fifty_eight_hustler_1;B-58C;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_b_thirty_six_peacemaker_0;B-36B;;;;;;;;;;;;;;x
+USA_b_thirty_six_peacemaker_1;B-36D;;;;;;;;;;;;;;x
+USA_b_thirty_six_peacemaker_2;B-36F;;;;;;;;;;;;;;x
+USA_b_thirty_six_peacemaker_3;B-36H;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_c_one_twenty_three_provider_0;C-123B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_c_one_thirty_hercules_0;C-130A;;;;;;;;;;;;;;x
+USA_c_one_thirty_hercules_1;C-130B;;;;;;;;;;;;;;x
+USA_c_one_thirty_hercules_2;C-130E;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+USA_c_one_fourty_one_starlifter_0;C-141A;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+###  RAF JETS ;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+ENG_meteor_0;Meteor F.1;;;;;;;;;;;;;;x
+ENG_meteor_1;Meteor F.3;;;;;;;;;;;;;;x
+ENG_meteor_2;Meteor F.4;;;;;;;;;;;;;;x
+ENG_meteor_3;Meteor F.8;;;;;;;;;;;;;;x
+ENG_meteor_4;Meteor NF.11;;;;;;;;;;;;;;x
+ENG_meteor_5;Meteor NF.12;;;;;;;;;;;;;;x
+ENG_meteor_6;Meteor NF.14;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_vampire_0;Vampire Mk I;;;;;;;;;;;;;;x
+ENG_vampire_1;Vampire F.3;;;;;;;;;;;;;;x
+ENG_vampire_2;Vampire FB.5;;;;;;;;;;;;;;x
+ENG_vampire_3;Vampire FB.6;;;;;;;;;;;;;;x
+ENG_vampire_4;Vampire FB.9;;;;;;;;;;;;;;x
+ENG_vampire_5;Vampire NF.10;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_sea_vampire_0;Sea Vampire F.20;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_venom_0;Venom FB.1;;;;;;;;;;;;;;x
+ENG_venom_1;Venom NF.3;;;;;;;;;;;;;;x
+ENG_venom_2;Venom FB.4;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_sea_venom_0;Sea Venom FB.1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_javelin_0;Javelin FAW 1;;;;;;;;;;;;;;x
+ENG_javelin_1;Javelin FAW 2;;;;;;;;;;;;;;x
+ENG_javelin_2;Javelin FAW 4;;;;;;;;;;;;;;x
+ENG_javelin_3;Javelin FAW 5;;;;;;;;;;;;;;x
+ENG_javelin_4;Javelin FAW 7;;;;;;;;;;;;;;x
+ENG_javelin_5;Javelin FAW 9;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_hunter_0;Hunter F.1;;;;;;;;;;;;;;x
+ENG_hunter_1;Hunter F.2;;;;;;;;;;;;;;x
+ENG_hunter_2;Hunter F.4;;;;;;;;;;;;;;x
+ENG_hunter_3;Hunter F.5;;;;;;;;;;;;;;x
+ENG_hunter_4;Hunter F.6;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_lightning_0;Lightning F.1A;;;;;;;;;;;;;;x
+ENG_lightning_1;Lightning F.2;;;;;;;;;;;;;;x
+ENG_lightning_2;Lightning F.2A;;;;;;;;;;;;;;x
+ENG_lightning_3;Lightning F.3;;;;;;;;;;;;;;x
+ENG_lightning_4;Lightning F.6;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_canberra_0;Canberra B Mk.2;;;;;;;;;;;;;;x
+ENG_canberra_1;Canberra B Mk.6;;;;;;;;;;;;;;x
+ENG_canberra_2;Canberra B Mk.8;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_vulcan_0;Vulcan B.1;;;;;;;;;;;;;;x
+ENG_vulcan_1;Vulcan B.2;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_blackburn_buckaneer_0;Blackburn Buccaneer S.1;;;;;;;;;;;;;;x
+ENG_blackburn_buckaneer_1;Blackburn Buccaneer S.2B;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+###  SOVIET JETS ;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+SOV_mig_fifteen_0;MiG-15;;;;;;;;;;;;;;x
+SOV_mig_fifteen_1;MiG-15bis;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_mig_seventeen_0;MiG-17A;;;;;;;;;;;;;;x
+SOV_mig_seventeen_1;MiG-17AS;;;;;;;;;;;;;;x
+SOV_mig_seventeen_2;MiG-17P;;;;;;;;;;;;;;x
+SOV_mig_seventeen_3;MiG-17F;;;;;;;;;;;;;;x
+SOV_mig_seventeen_4;MiG-17PM;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_mig_nineteen_0;MiG-19;;;;;;;;;;;;;;x
+SOV_mig_nineteen_1;MiG-19P;;;;;;;;;;;;;;x
+SOV_mig_nineteen_2;MiG-19S;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_mig_twenty_one_0;MiG-21F;;;;;;;;;;;;;;x
+SOV_mig_twenty_one_1;MiG-21F-13;;;;;;;;;;;;;;x
+SOV_mig_twenty_one_2;MiG-21PF;;;;;;;;;;;;;;x
+SOV_mig_twenty_one_3;MiG-21PFS;;;;;;;;;;;;;;x
+SOV_mig_twenty_one_4;MiG-21PFM;;;;;;;;;;;;;;x
+SOV_mig_twenty_one_5;MiG-21R;;;;;;;;;;;;;;x
+SOV_mig_twenty_one_6;MiG-21S;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_il_twenty_eight_beagle_0;Il-28;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_m_fifty_bounder_0;M-50A;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_tu_sixteen_badger_0;Tu-16;;;;;;;;;;;;;;x
+SOV_tu_sixteen_badger_1;Tu-16A;;;;;;;;;;;;;;x
+SOV_tu_sixteen_badger_2;Tu-16KS;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_tu_ninety_five_bear_0;Tu-95;;;;;;;;;;;;;;x
+SOV_tu_ninety_five_bear_1;Tu-95K;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_tu_twenty_eight_fiddler_0;Tu-28;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+###  ITALIAN JETS ;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+ITA_g_ninety_one_gina_0;G.91R/1;;;;;;;;;;;;;;x
+ITA_g_ninety_one_gina_1;G.91R/4;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+###  FRENCH JETS ;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+FRA_md_four_fifty_0;MD.450A;;;;;;;;;;;;;;x
+FRA_md_four_fifty_1;MD.450B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_mystere_0;MD 452 Mystere IIC;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_mirage_0;Mirage IIIC;;;;;;;;;;;;;;x
+FRA_mirage_1;Mirage IIIE;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+###  CANADIAN JETS ;;;;;;;;;;;;;;x
+##############################################################;;;;;;;;;;;;;;x
+CAN_cf_one_oh_five_arrow_0;CF-105 Mark 2;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

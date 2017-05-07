@@ -1,0 +1,1635 @@
+MODEL_TAG;Model;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# DOCTRINES TECH MODELS;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+### MINOR NATIONS ###;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### TRAINING DOCTRINES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### INFANTRY DIVISION FIELD EXERCISES ###;;;;;;;;;;;;;;x
+infantry_division_field_exercises_1;2% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_2;4% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_3;6% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_4;8% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_5;10% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_6;12% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_7;14% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_8;16% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_9;18% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_10;20% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_11;22% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_12;24% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_13;26% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_14;28% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_15;30% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_16;32% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_17;34% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_18;36% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_19;38% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_20;40% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_21;42% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_22;44% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_23;46% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_24;48% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_25;50% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_26;52% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_27;54% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_28;56% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_29;58% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_30;60% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_31;62% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_32;64% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_33;66% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_34;68% Division Proficiency;;;;;;;;;;;;;;x
+infantry_division_field_exercises_35;70% Division Proficiency;;;;;;;;;;;;;;x
+### INFANTRY REGIMENT FIELD EXERCISES ###;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_1;2% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_2;4% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_3;6% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_4;8% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_5;10% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_6;12% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_7;14% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_8;16% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_9;18% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_10;20% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_11;22% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_12;24% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_13;26% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_14;28% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_15;30% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_16;32% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_17;34% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_18;36% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_19;38% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_20;40% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_21;42% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_22;44% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_23;46% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_24;48% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_25;50% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_26;52% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_27;54% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_28;56% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_29;58% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_30;60% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_31;62% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_32;64% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_33;66% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_34;68% Regiment Proficiency;;;;;;;;;;;;;;x
+infantry_regiment_field_exercises_35;70% Regiment Proficiency;;;;;;;;;;;;;;x
+### INFANTRY BATTALION FIELD EXERCISES ###;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_1;2% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_2;4% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_3;6% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_4;8% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_5;10% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_6;12% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_7;14% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_8;16% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_9;18% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_10;20% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_11;22% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_12;24% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_13;26% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_14;28% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_15;30% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_16;32% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_17;34% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_18;36% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_19;38% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_20;40% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_21;42% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_22;44% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_23;46% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_24;48% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_25;50% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_26;52% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_27;54% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_28;56% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_29;58% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_30;60% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_31;62% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_32;64% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_33;66% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_34;68% Battalion Proficiency;;;;;;;;;;;;;;x
+infantry_battalion_field_exercises_35;70% Battalion Proficiency;;;;;;;;;;;;;;x
+### INFANTRY COMPANY FIELD EXERCISES ###;;;;;;;;;;;;;;x
+infantry_company_field_exercises_1;2% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_2;4% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_3;6% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_4;8% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_5;10% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_6;12% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_7;14% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_8;16% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_9;18% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_10;20% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_11;22% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_12;24% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_13;26% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_14;28% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_15;30% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_16;32% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_17;34% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_18;36% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_19;38% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_20;40% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_21;42% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_22;44% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_23;46% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_24;48% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_25;50% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_26;52% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_27;54% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_28;56% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_29;58% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_30;60% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_31;62% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_32;64% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_33;66% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_34;68% Company Proficiency;;;;;;;;;;;;;;x
+infantry_company_field_exercises_35;70% Company Proficiency;;;;;;;;;;;;;;x
+### DIRECT FIRE BATTALION FIELD EXERCISES ###;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_1;2% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_2;4% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_3;6% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_4;8% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_5;10% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_6;12% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_7;14% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_8;16% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_9;18% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_10;20% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_11;22% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_12;24% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_13;26% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_14;28% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_15;30% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_16;32% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_17;34% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_18;36% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_19;38% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_20;40% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_21;42% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_22;44% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_23;46% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_24;48% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_25;50% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_26;52% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_27;54% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_28;56% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_29;58% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_30;60% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_31;62% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_32;64% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_33;66% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_34;68% Battalion Proficiency;;;;;;;;;;;;;;x
+direct_fire_battalion_field_exercises_35;70% Battalion Proficiency;;;;;;;;;;;;;;x
+### DIRECT FIRE COMPANY FIELD EXERCISES ###;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_1;2% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_2;4% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_3;6% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_4;8% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_5;10% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_6;12% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_7;14% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_8;16% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_9;18% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_10;20% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_11;22% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_12;24% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_13;26% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_14;28% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_15;30% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_16;32% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_17;34% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_18;36% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_19;38% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_20;40% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_21;42% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_22;44% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_23;46% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_24;48% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_25;50% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_26;52% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_27;54% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_28;56% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_29;58% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_30;60% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_31;62% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_32;64% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_33;66% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_34;68% Company Proficiency;;;;;;;;;;;;;;x
+direct_fire_company_field_exercises_35;70% Company Proficiency;;;;;;;;;;;;;;x
+### MECHANIZED DIVISION FIELD EXERCISES ###;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_1;2% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_2;4% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_3;6% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_4;8% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_5;10% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_6;12% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_7;14% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_8;16% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_9;18% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_10;20% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_11;22% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_12;24% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_13;26% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_14;28% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_15;30% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_16;32% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_17;34% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_18;36% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_19;38% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_20;40% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_21;42% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_22;44% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_23;46% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_24;48% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_25;50% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_26;52% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_27;54% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_28;56% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_29;58% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_30;60% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_31;62% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_32;64% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_33;66% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_34;68% Division Proficiency;;;;;;;;;;;;;;x
+mechanized_division_field_exercises_35;70% Division Proficiency;;;;;;;;;;;;;;x
+### MECHANIZED REGIMENT FIELD EXERCISES ###;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_1;2% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_2;4% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_3;6% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_4;8% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_5;10% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_6;12% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_7;14% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_8;16% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_9;18% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_10;20% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_11;22% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_12;24% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_13;26% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_14;28% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_15;30% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_16;32% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_17;34% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_18;36% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_19;38% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_20;40% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_21;42% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_22;44% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_23;46% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_24;48% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_25;50% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_26;52% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_27;54% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_28;56% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_29;58% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_30;60% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_31;62% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_32;64% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_33;66% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_34;68% Regiment Proficiency;;;;;;;;;;;;;;x
+mechanized_regiment_field_exercises_35;70% Regiment Proficiency;;;;;;;;;;;;;;x
+### MECHANIZED BATTALION FIELD EXERCISES ###;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_1;2% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_2;4% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_3;6% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_4;8% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_5;10% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_6;12% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_7;14% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_8;16% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_9;18% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_10;20% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_11;22% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_12;24% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_13;26% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_14;28% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_15;30% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_16;32% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_17;34% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_18;36% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_19;38% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_20;40% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_21;42% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_22;44% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_23;46% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_24;48% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_25;50% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_26;52% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_27;54% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_28;56% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_29;58% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_30;60% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_31;62% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_32;64% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_33;66% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_34;68% Battalion Proficiency;;;;;;;;;;;;;;x
+mechanized_battalion_field_exercises_35;70% Battalion Proficiency;;;;;;;;;;;;;;x
+### MECHANIZED COMPANY FIELD EXERCISES ###;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_1;2% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_2;4% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_3;6% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_4;8% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_5;10% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_6;12% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_7;14% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_8;16% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_9;18% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_10;20% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_11;22% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_12;24% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_13;26% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_14;28% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_15;30% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_16;32% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_17;34% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_18;36% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_19;38% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_20;40% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_21;42% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_22;44% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_23;46% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_24;48% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_25;50% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_26;52% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_27;54% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_28;56% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_29;58% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_30;60% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_31;62% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_32;64% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_33;66% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_34;68% Company Proficiency;;;;;;;;;;;;;;x
+mechanized_company_field_exercises_35;70% Company Proficiency;;;;;;;;;;;;;;x
+### ARTILLERY REGIMENT FIELD EXERCISES ###;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_1;2% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_2;4% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_3;6% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_4;8% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_5;10% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_6;12% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_7;14% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_8;16% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_9;18% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_10;20% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_11;22% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_12;24% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_13;26% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_14;28% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_15;30% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_16;32% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_17;34% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_18;36% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_19;38% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_20;40% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_21;42% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_22;44% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_23;46% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_24;48% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_25;50% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_26;52% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_27;54% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_28;56% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_29;58% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_30;60% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_31;62% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_32;64% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_33;66% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_34;68% Regiment Proficiency;;;;;;;;;;;;;;x
+artillery_regiment_field_exercises_35;70% Regiment Proficiency;;;;;;;;;;;;;;x
+### ARTILLERY BATTALION FIELD EXERCISES ###;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_1;2% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_2;4% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_3;6% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_4;8% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_5;10% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_6;12% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_7;14% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_8;16% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_9;18% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_10;20% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_11;22% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_12;24% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_13;26% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_14;28% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_15;30% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_16;32% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_17;34% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_18;36% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_19;38% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_20;40% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_21;42% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_22;44% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_23;46% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_24;48% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_25;50% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_26;52% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_27;54% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_28;56% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_29;58% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_30;60% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_31;62% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_32;64% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_33;66% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_34;68% Battalion Proficiency;;;;;;;;;;;;;;x
+artillery_battalion_field_exercises_35;70% Battalion Proficiency;;;;;;;;;;;;;;x
+### ARTILLERY BATTERY FIELD EXERCISES ###;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_1;2% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_2;4% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_3;6% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_4;8% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_5;10% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_6;12% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_7;14% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_8;16% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_9;18% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_10;20% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_11;22% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_12;24% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_13;26% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_14;28% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_15;30% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_16;32% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_17;34% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_18;36% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_19;38% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_20;40% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_21;42% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_22;44% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_23;46% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_24;48% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_25;50% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_26;52% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_27;54% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_28;56% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_29;58% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_30;60% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_31;62% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_32;64% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_33;66% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_34;68% Battery Proficiency;;;;;;;;;;;;;;x
+artillery_battery_field_exercises_35;70% Battery Proficiency;;;;;;;;;;;;;;x
+### ARMOR DIVISION FIELD EXERCISES ###;;;;;;;;;;;;;;x
+armor_division_field_exercises_1;2% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_2;4% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_3;6% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_4;8% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_5;10% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_6;12% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_7;14% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_8;16% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_9;18% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_10;20% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_11;22% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_12;24% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_13;26% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_14;28% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_15;30% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_16;32% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_17;34% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_18;36% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_19;38% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_20;40% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_21;42% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_22;44% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_23;46% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_24;48% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_25;50% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_26;52% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_27;54% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_28;56% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_29;58% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_30;60% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_31;62% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_32;64% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_33;66% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_34;68% Division Proficiency;;;;;;;;;;;;;;x
+armor_division_field_exercises_35;70% Division Proficiency;;;;;;;;;;;;;;x
+### ARMOR REGIMENT FIELD EXERCISES ###;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_1;2% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_2;4% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_3;6% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_4;8% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_5;10% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_6;12% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_7;14% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_8;16% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_9;18% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_10;20% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_11;22% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_12;24% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_13;26% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_14;28% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_15;30% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_16;32% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_17;34% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_18;36% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_19;38% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_20;40% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_21;42% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_22;44% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_23;46% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_24;48% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_25;50% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_26;52% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_27;54% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_28;56% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_29;58% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_30;60% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_31;62% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_32;64% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_33;66% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_34;68% Regiment Proficiency;;;;;;;;;;;;;;x
+armor_regiment_field_exercises_35;70% Regiment Proficiency;;;;;;;;;;;;;;x
+### ARMOR BATTALION FIELD EXERCISES ###;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_1;2% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_2;4% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_3;6% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_4;8% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_5;10% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_6;12% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_7;14% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_8;16% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_9;18% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_10;20% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_11;22% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_12;24% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_13;26% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_14;28% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_15;30% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_16;32% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_17;34% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_18;36% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_19;38% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_20;40% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_21;42% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_22;44% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_23;46% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_24;48% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_25;50% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_26;52% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_27;54% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_28;56% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_29;58% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_30;60% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_31;62% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_32;64% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_33;66% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_34;68% Battalion Proficiency;;;;;;;;;;;;;;x
+armor_battalion_field_exercises_35;70% Battalion Proficiency;;;;;;;;;;;;;;x
+### ARMOR COMPANY FIELD EXERCISES ###;;;;;;;;;;;;;;x
+armor_company_field_exercises_1;2% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_2;4% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_3;6% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_4;8% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_5;10% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_6;12% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_7;14% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_8;16% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_9;18% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_10;20% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_11;22% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_12;24% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_13;26% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_14;28% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_15;30% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_16;32% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_17;34% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_18;36% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_19;38% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_20;40% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_21;42% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_22;44% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_23;46% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_24;48% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_25;50% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_26;52% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_27;54% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_28;56% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_29;58% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_30;60% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_31;62% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_32;64% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_33;66% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_34;68% Company Proficiency;;;;;;;;;;;;;;x
+armor_company_field_exercises_35;70% Company Proficiency;;;;;;;;;;;;;;x
+### RECON BATTALION FIELD EXERCISES ###;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_1;2% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_2;4% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_3;6% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_4;8% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_5;10% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_6;12% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_7;14% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_8;16% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_9;18% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_10;20% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_11;22% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_12;24% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_13;26% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_14;28% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_15;30% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_16;32% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_17;34% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_18;36% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_19;38% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_20;40% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_21;42% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_22;44% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_23;46% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_24;48% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_25;50% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_26;52% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_27;54% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_28;56% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_29;58% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_30;60% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_31;62% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_32;64% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_33;66% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_34;68% Battalion Proficiency;;;;;;;;;;;;;;x
+recon_battalion_field_exercises_35;70% Battalion Proficiency;;;;;;;;;;;;;;x
+### RECON BATTALION FIELD EXERCISES ###;;;;;;;;;;;;;;x
+recon_company_field_exercises_1;2% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_2;4% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_3;6% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_4;8% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_5;10% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_6;12% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_7;14% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_8;16% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_9;18% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_10;20% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_11;22% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_12;24% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_13;26% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_14;28% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_15;30% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_16;32% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_17;34% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_18;36% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_19;38% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_20;40% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_21;42% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_22;44% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_23;46% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_24;48% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_25;50% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_26;52% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_27;54% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_28;56% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_29;58% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_30;60% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_31;62% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_32;64% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_33;66% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_34;68% Company Proficiency;;;;;;;;;;;;;;x
+recon_company_field_exercises_35;70% Company Proficiency;;;;;;;;;;;;;;x
+### ADVANCED FIGHTER PILOT TRAINING ###;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_1;+3 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_2;+6 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_3;+9 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_4;+12 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_5;+15 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_6;+18 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_7;+21 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_8;+24 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_9;+27 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_10;+30 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_11;+33 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_12;+36 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_13;+39 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_14;+42 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_15;+45 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_16;+48 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_17;+51 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_18;+54 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_19;+57 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_20;+60 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_21;+63 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_22;+66 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_23;+69 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_24;+72 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_25;+75 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_26;+78 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_27;+81 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_28;+84 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_29;+87 Hours ;;;;;;;;;;;;;;x
+advanced_fighter_pilot_training_30;+90 Hours ;;;;;;;;;;;;;;x
+### ADVANCED BOMBER PILOT TRAINING ###;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_1;+3 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_2;+6 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_3;+9 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_4;+12 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_5;+15 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_6;+18 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_7;+21 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_8;+24 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_9;+27 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_10;+30 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_11;+33 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_12;+36 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_13;+39 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_14;+42 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_15;+45 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_16;+48 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_17;+51 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_18;+54 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_19;+57 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_20;+60 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_21;+63 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_22;+66 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_23;+69 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_24;+72 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_25;+75 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_26;+78 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_27;+81 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_28;+84 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_29;+87 Hours ;;;;;;;;;;;;;;x
+advanced_bomber_pilot_training_30;+90 Hours ;;;;;;;;;;;;;;x
+### ADVANCED BOMBADIER TRAINING ###;;;;;;;;;;;;;;x
+advanced_bombadier_training_1;+3 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_2;+6 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_3;+9 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_4;+12 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_5;+15 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_6;+18 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_7;+21 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_8;+24 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_9;+27 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_10;+30 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_11;+33 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_12;+36 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_13;+39 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_14;+42 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_15;+45 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_16;+48 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_17;+51 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_18;+54 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_19;+57 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_20;+60 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_21;+63 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_22;+66 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_23;+69 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_24;+72 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_25;+75 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_26;+78 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_27;+81 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_28;+84 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_29;+87 Hours ;;;;;;;;;;;;;;x
+advanced_bombadier_training_30;+90 Hours ;;;;;;;;;;;;;;x
+### ADVANCED NAVIGATOR TRAINING ###;;;;;;;;;;;;;;x
+advanced_navigator_training_1;+3 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_2;+6 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_3;+9 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_4;+12 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_5;+15 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_6;+18 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_7;+21 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_8;+24 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_9;+27 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_10;+30 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_11;+33 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_12;+36 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_13;+39 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_14;+42 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_15;+45 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_16;+48 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_17;+51 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_18;+54 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_19;+57 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_20;+60 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_21;+63 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_22;+66 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_23;+69 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_24;+72 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_25;+75 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_26;+78 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_27;+81 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_28;+84 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_29;+87 Hours ;;;;;;;;;;;;;;x
+advanced_navigator_training_30;+90 Hours ;;;;;;;;;;;;;;x
+### ADVANCED NAVAL AVIATOR TRAINING ###;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_1;+3 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_2;+6 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_3;+9 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_4;+12 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_5;+15 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_6;+18 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_7;+21 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_8;+24 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_9;+27 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_10;+30 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_11;+33 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_12;+36 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_13;+39 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_14;+42 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_15;+45 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_16;+48 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_17;+51 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_18;+54 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_19;+57 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_20;+60 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_21;+63 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_22;+66 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_23;+69 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_24;+72 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_25;+75 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_26;+78 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_27;+81 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_28;+84 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_29;+87 Hours ;;;;;;;;;;;;;;x
+advanced_naval_aviator_training_30;+90 Hours ;;;;;;;;;;;;;;x
+### ADVANCED MAINTENANCE TRAINING ###;;;;;;;;;;;;;;x
+advanced_maintenance_training_1;+3 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_2;+6 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_3;+9 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_4;+12 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_5;+15 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_6;+18 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_7;+21 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_8;+24 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_9;+27 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_10;+30 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_11;+33 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_12;+36 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_13;+39 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_14;+42 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_15;+45 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_16;+48 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_17;+51 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_18;+54 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_19;+57 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_20;+60 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_21;+63 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_22;+66 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_23;+69 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_24;+72 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_25;+75 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_26;+78 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_27;+81 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_28;+84 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_29;+87 Hours ;;;;;;;;;;;;;;x
+advanced_maintenance_training_30;+90 Hours ;;;;;;;;;;;;;;x
+### ADVANCED GUNNER TRAINING ###;;;;;;;;;;;;;;x
+advanced_gunner_training_1;+3 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_2;+6 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_3;+9 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_4;+12 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_5;+15 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_6;+18 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_7;+21 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_8;+24 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_9;+27 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_10;+30 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_11;+33 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_12;+36 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_13;+39 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_14;+42 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_15;+45 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_16;+48 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_17;+51 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_18;+54 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_19;+57 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_20;+60 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_21;+63 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_22;+66 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_23;+69 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_24;+72 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_25;+75 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_26;+78 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_27;+81 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_28;+84 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_29;+87 Hours ;;;;;;;;;;;;;;x
+advanced_gunner_training_30;+90 Hours ;;;;;;;;;;;;;;x
+### CAPITAL SHIP TRAINING DRILLS ###;;;;;;;;;;;;;;x
+capital_ship_training_drills_1;1 Drill/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_2;2 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_3;3 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_4;4 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_5;5 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_6;6 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_7;7 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_8;8 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_9;9 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_10;10 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_11;11 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_12;12 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_13;13 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_14;14 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_15;15 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_16;16 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_17;17 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_18;18 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_19;19 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_20;20 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_21;21 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_22;22 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_23;23 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_24;24 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_25;25 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_26;26 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_27;27 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_28;28 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_29;29 Drills/Month ;;;;;;;;;;;;;;x
+capital_ship_training_drills_30;30 Drills/Month ;;;;;;;;;;;;;;x
+### CRUISER SHIP TRAINING DRILLS ###;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_1;1 Drill/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_2;2 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_3;3 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_4;4 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_5;5 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_6;6 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_7;7 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_8;8 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_9;9 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_10;10 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_11;11 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_12;12 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_13;13 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_14;14 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_15;15 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_16;16 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_17;17 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_18;18 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_19;19 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_20;20 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_21;21 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_22;22 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_23;23 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_24;24 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_25;25 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_26;26 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_27;27 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_28;28 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_29;29 Drills/Month ;;;;;;;;;;;;;;x
+cruiser_ship_training_drills_30;30 Drills/Month ;;;;;;;;;;;;;;x
+### SMALL SHIP TRAINING DRILLS ###;;;;;;;;;;;;;;x
+small_ship_training_drills_1;1 Drill/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_2;2 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_3;3 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_4;4 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_5;5 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_6;6 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_7;7 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_8;8 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_9;9 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_10;10 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_11;11 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_12;12 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_13;13 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_14;14 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_15;15 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_16;16 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_17;17 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_18;18 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_19;19 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_20;20 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_21;21 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_22;22 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_23;23 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_24;24 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_25;25 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_26;26 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_27;27 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_28;28 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_29;29 Drills/Month ;;;;;;;;;;;;;;x
+small_ship_training_drills_30;30 Drills/Month ;;;;;;;;;;;;;;x
+### SMALL SHIP TRAINING DRILLS ###;;;;;;;;;;;;;;x
+submarine_training_drills_1;1 Drill/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_2;2 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_3;3 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_4;4 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_5;5 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_6;6 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_7;7 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_8;8 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_9;9 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_10;10 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_11;11 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_12;12 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_13;13 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_14;14 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_15;15 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_16;16 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_17;17 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_18;18 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_19;19 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_20;20 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_21;21 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_22;22 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_23;23 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_24;24 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_25;25 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_26;26 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_27;27 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_28;28 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_29;29 Drills/Month ;;;;;;;;;;;;;;x
+submarine_training_drills_30;30 Drills/Month ;;;;;;;;;;;;;;x
+### SURFACE SHIP NIGHT TRAINING DRILLS ###;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_1;1 Drill/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_2;2 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_3;3 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_4;4 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_5;5 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_6;6 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_7;7 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_8;8 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_9;9 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_10;10 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_11;11 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_12;12 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_13;13 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_14;14 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_15;15 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_16;16 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_17;17 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_18;18 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_19;19 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_20;20 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_21;21 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_22;22 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_23;23 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_24;24 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_25;25 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_26;26 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_27;27 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_28;28 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_29;29 Drills/Month ;;;;;;;;;;;;;;x
+surface_ship_night_training_drills_30;30 Drills/Month ;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### STRATEGIC DOCTRINES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+grand_battle_plan_1;Rudimentary Battle Plans;;;;;;;;;;;;;;x
+grand_battle_plan_2;Basic Battle Plans;;;;;;;;;;;;;;x
+grand_battle_plan_3;Intermediate Battle Plans;;;;;;;;;;;;;;x
+grand_battle_plan_4;Advanced Battle Plans;;;;;;;;;;;;;;x
+grand_battle_plan_5;Excellent Battle Plans;;;;;;;;;;;;;;x
+grand_battle_plan_6;Awesome Battle Plans;;;;;;;;;;;;;;x
+independent_battalions_1;Independent Operations I;;;;;;;;;;;;;;x
+independent_battalions_2;Independent Operations II;;;;;;;;;;;;;;x
+independent_battalions_3;Independent Operations III;;;;;;;;;;;;;;x
+independent_battalions_4;Independent Operations IV;;;;;;;;;;;;;;x
+independent_battalions_5;Independent Operations V;;;;;;;;;;;;;;x
+independent_battalions_6;Independent Operations VI;;;;;;;;;;;;;;x
+independent_battalions_7;Independent Operations VII;;;;;;;;;;;;;;x
+independent_battalions_8;Independent Operations VIII;;;;;;;;;;;;;;x
+independent_battalions_9;Independent Operations IX;;;;;;;;;;;;;;x
+independent_battalions_10;Independent Operations X;;;;;;;;;;;;;;x
+political_indoctrination_1;Indoctrination I;;;;;;;;;;;;;;x
+political_indoctrination_2;Indoctrination II;;;;;;;;;;;;;;x
+political_indoctrination_3;Indoctrination III;;;;;;;;;;;;;;x
+political_indoctrination_4;Indoctrination IV;;;;;;;;;;;;;;x
+political_indoctrination_5;Indoctrination V;;;;;;;;;;;;;;x
+political_indoctrination_6;Indoctrination VI;;;;;;;;;;;;;;x
+political_indoctrination_7;Indoctrination VII;;;;;;;;;;;;;;x
+political_indoctrination_8;Indoctrination VIII;;;;;;;;;;;;;;x
+political_indoctrination_9;Indoctrination IX;;;;;;;;;;;;;;x
+political_indoctrination_10;Indoctrination X;;;;;;;;;;;;;;x
+political_integration_1;Integration I;;;;;;;;;;;;;;x
+political_integration_2;Integration II;;;;;;;;;;;;;;x
+political_integration_3;Integration III;;;;;;;;;;;;;;x
+political_integration_4;Integration IV;;;;;;;;;;;;;;x
+political_integration_5;Integration V;;;;;;;;;;;;;;x
+political_integration_6;Integration VI;;;;;;;;;;;;;;x
+political_integration_7;Integration VII;;;;;;;;;;;;;;x
+political_integration_8;Integration VIII;;;;;;;;;;;;;;x
+political_integration_9;Integration IX;;;;;;;;;;;;;;x
+political_integration_10;Integration X;;;;;;;;;;;;;;x
+defense_in_depth_1;Basic Trench Layers of Defense;;;;;;;;;;;;;;x
+defense_in_depth_2;Defensive Counter-Attacks;;;;;;;;;;;;;;x
+defense_in_depth_3;Multi-Layer Defensive Fortifications;;;;;;;;;;;;;;x
+defense_in_depth_4;Large Scale Tactical Withdrawal;;;;;;;;;;;;;;x
+defense_in_depth_5;Strategic Withdrawal;;;;;;;;;;;;;;x
+deep_battle_doctrine_1;Corps Manuever Principle;;;;;;;;;;;;;;x
+deep_battle_doctrine_2;Army-Sized Maneuver;;;;;;;;;;;;;;x
+deep_battle_doctrine_3;Parallel Operations;;;;;;;;;;;;;;x
+deep_battle_doctrine_4;Simultaneous Deep Attack;;;;;;;;;;;;;;x
+deep_battle_doctrine_5;Deep Mechanized Penetration;;;;;;;;;;;;;;x
+deep_battle_doctrine_6;Armored Exploitation;;;;;;;;;;;;;;x
+urban_attrition_1;House to House Urban Fighting;;;;;;;;;;;;;;x
+urban_attrition_2;Urban Ambush Tactics;;;;;;;;;;;;;;x
+urban_attrition_3;Single Building Fortress Defense;;;;;;;;;;;;;;x
+urban_attrition_4;Urban Kills Zones;;;;;;;;;;;;;;x
+human_wave_1;1 Wave Attack;;;;;;;;;;;;;;x
+human_wave_2;2 Wave Attack;;;;;;;;;;;;;;x
+human_wave_3;3 Wave Attack;;;;;;;;;;;;;;x
+human_wave_4;4 Wave Attack;;;;;;;;;;;;;;x
+human_wave_5;5 Wave Attack;;;;;;;;;;;;;;x
+human_wave_6;6 Wave Attack;;;;;;;;;;;;;;x
+human_wave_7;7 Wave Attack;;;;;;;;;;;;;;x
+human_wave_8;8 Wave Attack;;;;;;;;;;;;;;x
+human_wave_9;9 Wave Attack;;;;;;;;;;;;;;x
+mechanized_advance_1;Mech Formation Advance I;;;;;;;;;;;;;;x
+mechanized_advance_2;Mech Formation Advance II;;;;;;;;;;;;;;x
+mechanized_advance_3;Mech Formation Advance III;;;;;;;;;;;;;;x
+mechanized_advance_4;Mech Formation Advance IV;;;;;;;;;;;;;;x
+mechanized_advance_5;Mech Formation Advance V;;;;;;;;;;;;;;x
+mechanized_advance_6;Mech Formation Advance VI;;;;;;;;;;;;;;x
+mechanized_advance_7;Mech Formation Advance VII;;;;;;;;;;;;;;x
+mechanized_advance_8;Mech Formation Advance VIII;;;;;;;;;;;;;;x
+mechanized_advance_9;Mech Formation Advance IX;;;;;;;;;;;;;;x
+mechanized_advance_10;Mech Formation Advance X;;;;;;;;;;;;;;x
+blitzkrieg_1;Dense Armored Spearhead;;;;;;;;;;;;;;x
+blitzkrieg_2;Close Air Support Coordination;;;;;;;;;;;;;;x
+blitzkrieg_3;Advanced Motorized Force Concentration;;;;;;;;;;;;;;x
+blitzkrieg_4;Mechanized Spearhead Force;;;;;;;;;;;;;;x
+blitzkrieg_5;Fast Moving Artillery Support;;;;;;;;;;;;;;x
+blitzkrieg_6;Battle of Annihilation;;;;;;;;;;;;;;x
+schwerpunkt_1;Panzer Force Breakthrough;;;;;;;;;;;;;;x
+schwerpunkt_2;Tactical Air Force Concentration;;;;;;;;;;;;;;x
+schwerpunkt_3;Advanced Local Point of Main Effort;;;;;;;;;;;;;;x
+schwerpunkt_4;Mechanized Breakthrough Exploitation;;;;;;;;;;;;;;x
+schwerpunkt_5;Rear Area Operational Superiority;;;;;;;;;;;;;;x
+spearhead_1;Panzer Spear Tip Penetration;;;;;;;;;;;;;;x
+spearhead_2;Motorized Infantry Mop Up;;;;;;;;;;;;;;x
+spearhead_3;Mechanized Assault Flank Support;;;;;;;;;;;;;;x
+spearhead_4;Heavy Armor Assault;;;;;;;;;;;;;;x
+spearhead_5;Direct Heavy Air Support;;;;;;;;;;;;;;x
+elastic_defense_1;Firebrigade Defense;;;;;;;;;;;;;;x
+elastic_defense_2;Armored Kampfgruppe Counter-Attack;;;;;;;;;;;;;;x
+elastic_defense_3;Mechanized Defensive Assault;;;;;;;;;;;;;;x
+elastic_defense_4;Flying Tank Destroyer Defense;;;;;;;;;;;;;;x
+elastic_defense_5;Powerful Assault Gun Defense;;;;;;;;;;;;;;x
+surprise_offensive_campaign_1;Secret Strategic Troop Build-Up;;;;;;;;;;;;;;x
+surprise_offensive_campaign_2;Total Radio Silence;;;;;;;;;;;;;;x
+surprise_offensive_campaign_3;Complete Strategic Surprise;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### TACTICAL DOCTRINES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### JUNGLE WARFARE TACTICS ###;;;;;;;;;;;;;;x
+jungle_warfare_tactics_1;Jungle Tactics I ;;;;;;;;;;;;;;x
+jungle_warfare_tactics_2;Jungle Tactics II ;;;;;;;;;;;;;;x
+jungle_warfare_tactics_3;Jungle Tactics III ;;;;;;;;;;;;;;x
+jungle_warfare_tactics_4;Jungle Tactics IV ;;;;;;;;;;;;;;x
+jungle_warfare_tactics_5;Jungle Tactics V ;;;;;;;;;;;;;;x
+jungle_warfare_tactics_6;Jungle Tactics VI ;;;;;;;;;;;;;;x
+jungle_warfare_tactics_7;Jungle Tactics VII ;;;;;;;;;;;;;;x
+### ARMOR MANUEVER WARFARE ###;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_1;Armor Tactics I ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_2;Armor Tactics II ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_3;Armor Tactics III ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_4;Armor Tactics IV ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_5;Armor Tactics V ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_6;Armor Tactics VI ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_7;Armor Tactics VII ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_8;Armor Tactics VIII ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_9;Armor Tactics IX ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_10;Armor Tactics X ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_11;Armor Tactics XI ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_12;Armor Tactics XII ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_13;Armor Tactics XIII ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_14;Armor Tactics XIV ;;;;;;;;;;;;;;x
+armor_maneuver_warfare_doctrine_15;Armor Tactics XV ;;;;;;;;;;;;;;x
+### INFANTRY ARMOR WARFARE ###;;;;;;;;;;;;;;x
+infantry_armor_coordination_1;Infantry/Armor Tactics I ;;;;;;;;;;;;;;x
+infantry_armor_coordination_2;Infantry/Armor Tactics II ;;;;;;;;;;;;;;x
+infantry_armor_coordination_3;Infantry/Armor Tactics III ;;;;;;;;;;;;;;x
+infantry_armor_coordination_4;Infantry/Armor Tactics IV ;;;;;;;;;;;;;;x
+infantry_armor_coordination_5;Infantry/Armor Tactics V ;;;;;;;;;;;;;;x
+infantry_armor_coordination_6;Infantry/Armor Tactics VI ;;;;;;;;;;;;;;x
+infantry_armor_coordination_7;Infantry/Armor Tactics VII ;;;;;;;;;;;;;;x
+infantry_armor_coordination_8;Infantry/Armor Tactics VIII ;;;;;;;;;;;;;;x
+infantry_armor_coordination_9;Infantry/Armor Tactics IX ;;;;;;;;;;;;;;x
+infantry_armor_coordination_10;Infantry/Armor Tactics X ;;;;;;;;;;;;;;x
+infantry_armor_coordination_11;Infantry/Armor Tactics XI ;;;;;;;;;;;;;;x
+infantry_armor_coordination_12;Infantry/Armor Tactics XII ;;;;;;;;;;;;;;x
+infantry_armor_coordination_13;Infantry/Armor Tactics XIII ;;;;;;;;;;;;;;x
+infantry_armor_coordination_14;Infantry/Armor Tactics XIV ;;;;;;;;;;;;;;x
+infantry_armor_coordination_15;Infantry/Armor Tactics XV ;;;;;;;;;;;;;;x
+### ARMOR VERSUS ARMOR WARFARE ###;;;;;;;;;;;;;;x
+armor_versus_armor_engagements_1;Armor vs Armor Tactics I ;;;;;;;;;;;;;;x
+armor_versus_armor_engagements_2;Armor vs Armor Tactics II ;;;;;;;;;;;;;;x
+armor_versus_armor_engagements_3;Armor vs Armor Tactics III ;;;;;;;;;;;;;;x
+armor_versus_armor_engagements_4;Armor vs Armor Tactics IV ;;;;;;;;;;;;;;x
+armor_versus_armor_engagements_5;Armor vs Armor Tactics V ;;;;;;;;;;;;;;x
+armor_versus_armor_engagements_6;Armor vs Armor Tactics VI ;;;;;;;;;;;;;;x
+armor_versus_armor_engagements_7;Armor vs Armor Tactics VII ;;;;;;;;;;;;;;x
+armor_versus_armor_engagements_8;Armor vs Armor Tactics VIII ;;;;;;;;;;;;;;x
+armor_versus_armor_engagements_9;Armor vs Armor Tactics IX ;;;;;;;;;;;;;;x
+armor_versus_armor_engagements_10;Armor vs Armor Tactics X ;;;;;;;;;;;;;;x
+### INFANTRY ANTI-TANK TACTICS ###;;;;;;;;;;;;;;x
+infantry_anti_tank_tactics_1;Infantry AT Tactics I ;;;;;;;;;;;;;;x
+infantry_anti_tank_tactics_2;Infantry AT Tactics II ;;;;;;;;;;;;;;x
+infantry_anti_tank_tactics_3;Infantry AT Tactics III ;;;;;;;;;;;;;;x
+infantry_anti_tank_tactics_4;Infantry AT Tactics IV ;;;;;;;;;;;;;;x
+infantry_anti_tank_tactics_5;Infantry AT Tactics V ;;;;;;;;;;;;;;x
+infantry_anti_tank_tactics_6;Infantry AT Tactics VI ;;;;;;;;;;;;;;x
+infantry_anti_tank_tactics_7;Infantry AT Tactics VII ;;;;;;;;;;;;;;x
+infantry_anti_tank_tactics_8;Infantry AT Tactics VIII ;;;;;;;;;;;;;;x
+infantry_anti_tank_tactics_9;Infantry AT Tactics IX ;;;;;;;;;;;;;;x
+infantry_anti_tank_tactics_10;Infantry AT Tactics X ;;;;;;;;;;;;;;x
+### INFANTRY CLOSE AIR SUPPORT TACTICS ###;;;;;;;;;;;;;;x
+infantry_close_air_support_doctrine_1;Infantry CAS Tactics I ;;;;;;;;;;;;;;x
+infantry_close_air_support_doctrine_2;Infantry CAS Tactics II ;;;;;;;;;;;;;;x
+infantry_close_air_support_doctrine_3;Infantry CAS Tactics III ;;;;;;;;;;;;;;x
+infantry_close_air_support_doctrine_4;Infantry CAS Tactics IV ;;;;;;;;;;;;;;x
+infantry_close_air_support_doctrine_5;Infantry CAS Tactics V ;;;;;;;;;;;;;;x
+infantry_close_air_support_doctrine_6;Infantry CAS Tactics VI ;;;;;;;;;;;;;;x
+infantry_close_air_support_doctrine_7;Infantry CAS Tactics VII ;;;;;;;;;;;;;;x
+infantry_close_air_support_doctrine_8;Infantry CAS Tactics VIII ;;;;;;;;;;;;;;x
+infantry_close_air_support_doctrine_9;Infantry CAS Tactics IX ;;;;;;;;;;;;;;x
+infantry_close_air_support_doctrine_10;Infantry CAS Tactics X ;;;;;;;;;;;;;;x
+### MECHANIZED ASSAULT TACTICS ###;;;;;;;;;;;;;;x
+mechanized_assault_tactics_1;Mech Assault Tactics I ;;;;;;;;;;;;;;x
+mechanized_assault_tactics_2;Mech Assault Tactics II ;;;;;;;;;;;;;;x
+mechanized_assault_tactics_3;Mech Assault Tactics III ;;;;;;;;;;;;;;x
+mechanized_assault_tactics_4;Mech Assault Tactics IV ;;;;;;;;;;;;;;x
+mechanized_assault_tactics_5;Mech Assault Tactics V ;;;;;;;;;;;;;;x
+mechanized_assault_tactics_6;Mech Assault Tactics VI ;;;;;;;;;;;;;;x
+mechanized_assault_tactics_7;Mech Assault Tactics VII ;;;;;;;;;;;;;;x
+mechanized_assault_tactics_8;Mech Assault Tactics VIII ;;;;;;;;;;;;;;x
+mechanized_assault_tactics_9;Mech Assault Tactics IX ;;;;;;;;;;;;;;x
+mechanized_assault_tactics_10;Mech Assault Tactics X ;;;;;;;;;;;;;;x
+### PINPOINT BARRAGE ###;;;;;;;;;;;;;;x
+pinpoint_barrage_1;3% Skill ;;;;;;;;;;;;;;x
+pinpoint_barrage_2;6% Skill;;;;;;;;;;;;;;x
+pinpoint_barrage_3;9% Skill ;;;;;;;;;;;;;;x
+pinpoint_barrage_4;12% Skill ;;;;;;;;;;;;;;x
+pinpoint_barrage_5;15% Skill ;;;;;;;;;;;;;;x
+pinpoint_barrage_6;18% Skill ;;;;;;;;;;;;;;x
+pinpoint_barrage_7;21% Skill ;;;;;;;;;;;;;;x
+pinpoint_barrage_8;24% Skill ;;;;;;;;;;;;;;x
+pinpoint_barrage_9;27% Skill ;;;;;;;;;;;;;;x
+pinpoint_barrage_10;30% Skill ;;;;;;;;;;;;;;x
+### SEARCH BARRAGE ###;;;;;;;;;;;;;;x
+search_barrage_1;3% Skill ;;;;;;;;;;;;;;x
+search_barrage_2;6% Skill;;;;;;;;;;;;;;x
+search_barrage_3;9% Skill ;;;;;;;;;;;;;;x
+search_barrage_4;12% Skill ;;;;;;;;;;;;;;x
+search_barrage_5;15% Skill ;;;;;;;;;;;;;;x
+search_barrage_6;18% Skill ;;;;;;;;;;;;;;x
+search_barrage_7;21% Skill ;;;;;;;;;;;;;;x
+search_barrage_8;24% Skill ;;;;;;;;;;;;;;x
+search_barrage_9;27% Skill ;;;;;;;;;;;;;;x
+search_barrage_10;30% Skill ;;;;;;;;;;;;;;x
+### LIFTING BARRAGE ###;;;;;;;;;;;;;;x
+lifting_barrage_1;3% Skill ;;;;;;;;;;;;;;x
+lifting_barrage_2;6% Skill;;;;;;;;;;;;;;x
+lifting_barrage_3;9% Skill ;;;;;;;;;;;;;;x
+lifting_barrage_4;12% Skill ;;;;;;;;;;;;;;x
+lifting_barrage_5;15% Skill ;;;;;;;;;;;;;;x
+lifting_barrage_6;18% Skill ;;;;;;;;;;;;;;x
+lifting_barrage_7;21% Skill ;;;;;;;;;;;;;;x
+lifting_barrage_8;24% Skill ;;;;;;;;;;;;;;x
+lifting_barrage_9;27% Skill ;;;;;;;;;;;;;;x
+lifting_barrage_10;30% Skill ;;;;;;;;;;;;;;x
+### STANDING BARRAGE ###;;;;;;;;;;;;;;x
+standing_barrage_1;3% Skill ;;;;;;;;;;;;;;x
+standing_barrage_2;6% Skill;;;;;;;;;;;;;;x
+standing_barrage_3;9% Skill ;;;;;;;;;;;;;;x
+standing_barrage_4;12% Skill ;;;;;;;;;;;;;;x
+standing_barrage_5;15% Skill ;;;;;;;;;;;;;;x
+standing_barrage_6;18% Skill ;;;;;;;;;;;;;;x
+standing_barrage_7;21% Skill ;;;;;;;;;;;;;;x
+standing_barrage_8;24% Skill ;;;;;;;;;;;;;;x
+standing_barrage_9;27% Skill ;;;;;;;;;;;;;;x
+standing_barrage_10;30% Skill ;;;;;;;;;;;;;;x
+### BOX BARRAGE ###;;;;;;;;;;;;;;x
+box_barrage_1;3% Skill ;;;;;;;;;;;;;;x
+box_barrage_2;6% Skill;;;;;;;;;;;;;;x
+box_barrage_3;9% Skill ;;;;;;;;;;;;;;x
+box_barrage_4;12% Skill ;;;;;;;;;;;;;;x
+box_barrage_5;15% Skill ;;;;;;;;;;;;;;x
+box_barrage_6;18% Skill ;;;;;;;;;;;;;;x
+box_barrage_7;21% Skill ;;;;;;;;;;;;;;x
+box_barrage_8;24% Skill ;;;;;;;;;;;;;;x
+box_barrage_9;27% Skill ;;;;;;;;;;;;;;x
+box_barrage_10;30% Skill ;;;;;;;;;;;;;;x
+### COUNTER BATTERY FIRE ###;;;;;;;;;;;;;;x
+counter_battery_fire_1;3% Skill ;;;;;;;;;;;;;;x
+counter_battery_fire_2;6% Skill;;;;;;;;;;;;;;x
+counter_battery_fire_3;9% Skill ;;;;;;;;;;;;;;x
+counter_battery_fire_4;12% Skill ;;;;;;;;;;;;;;x
+counter_battery_fire_5;15% Skill ;;;;;;;;;;;;;;x
+counter_battery_fire_6;18% Skill ;;;;;;;;;;;;;;x
+counter_battery_fire_7;21% Skill ;;;;;;;;;;;;;;x
+counter_battery_fire_8;24% Skill ;;;;;;;;;;;;;;x
+counter_battery_fire_9;27% Skill ;;;;;;;;;;;;;;x
+counter_battery_fire_10;30% Skill ;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### SPECIAL FORCES DOCTRINES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### SPECIAL FORCES SUBMACHINEGUN DISTRIBUTION ###;;;;;;;;;;;;;;x
+special_forces_submachinegun_distribution_1;150 Guns;;;;;;;;;;;;;x
+special_forces_submachinegun_distribution_2;300 Guns;;;;;;;;;;;;;x
+special_forces_submachinegun_distribution_3;450 Guns;;;;;;;;;;;;;x
+special_forces_submachinegun_distribution_4;600 Guns;;;;;;;;;;;;;x
+special_forces_submachinegun_distribution_5;750 Guns;;;;;;;;;;;;;x
+special_forces_submachinegun_distribution_6;900 Guns;;;;;;;;;;;;;x
+special_forces_submachinegun_distribution_7;1050 Guns;;;;;;;;;;;;;x
+special_forces_submachinegun_distribution_8;1200 Guns;;;;;;;;;;;;;x
+special_forces_submachinegun_distribution_9;1350 Guns;;;;;;;;;;;;;x
+special_forces_submachinegun_distribution_10;1500 Guns;;;;;;;;;;;;;x
+### SPECIAL FORCES SUBMACHINEGUN DISTRIBUTION ###;;;;;;;;;;;;;;x
+special_forces_assault_rifle_distribution_1;200 Assault Rifles;;;;;;;;;;;;;x 
+special_forces_assault_rifle_distribution_2;400 Assault Rifles;;;;;;;;;;;;;x 
+special_forces_assault_rifle_distribution_3;600 Assault Rifles;;;;;;;;;;;;;x 
+special_forces_assault_rifle_distribution_4;800 Assault Rifles;;;;;;;;;;;;;x 
+special_forces_assault_rifle_distribution_5;1000 Assault Rifles;;;;;;;;;;;;;x 
+special_forces_assault_rifle_distribution_6;1200 Assault Rifles;;;;;;;;;;;;;x 
+special_forces_assault_rifle_distribution_7;1400 Assault Rifles;;;;;;;;;;;;;x 
+special_forces_assault_rifle_distribution_8;1600 Assault Rifles;;;;;;;;;;;;;x 
+special_forces_assault_rifle_distribution_9;1800 Assault Rifles;;;;;;;;;;;;;x 
+special_forces_assault_rifle_distribution_10;2000 Assault Rifles;;;;;;;;;;;;;x 
+special_forces_assault_rifle_distribution_11;2200 Assault Rifles;;;;;;;;;;;;;x 
+### SPECIAL FORCES LMG DISTRIBUTION ###;;;;;;;;;;;;;;x
+special_forces_lmg_distribution_1;300 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_2;350 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_3;400 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_4;450 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_5;500 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_6;525 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_7;550 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_8;575 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_9;600 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_10;625 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_11;650 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_12;675 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_13;700 LMG's;;;;;;;;;;;;;x 
+special_forces_lmg_distribution_14;725 LMG's;;;;;;;;;;;;;x 
+### SPECIAL FORCES MOUNTAIN TRAINING ###;;;;;;;;;;;;;;x
+special_forces_mountain_training_1;+5% Skill ;;;;;;;;;;;;;;x
+special_forces_mountain_training_2;+10% Skill ;;;;;;;;;;;;;;x
+special_forces_mountain_training_3;+15% Skill ;;;;;;;;;;;;;;x
+special_forces_mountain_training_4;+20% Skill ;;;;;;;;;;;;;;x
+special_forces_mountain_training_5;+25% Skill ;;;;;;;;;;;;;;x
+special_forces_mountain_training_6;+30%  Skill ;;;;;;;;;;;;;;x
+### SPECIAL FORCES JUNGLE TRAINING ###;;;;;;;;;;;;;;x
+special_forces_jungle_training_1;+5% Skill ;;;;;;;;;;;;;;x
+special_forces_jungle_training_2;+10% Skill ;;;;;;;;;;;;;;x
+special_forces_jungle_training_3;+15% Skill ;;;;;;;;;;;;;;x
+special_forces_jungle_training_4;+20% Skill ;;;;;;;;;;;;;;x
+special_forces_jungle_training_5;+25% Skill ;;;;;;;;;;;;;;x
+special_forces_jungle_training_6;+30% Skill ;;;;;;;;;;;;;;x
+### SPECIAL FORCES NIGHT TRAINING ###;;;;;;;;;;;;;;x
+special_forces_night_training_1;+5% Skill ;;;;;;;;;;;;;;x
+special_forces_night_training_2;+10% Skill ;;;;;;;;;;;;;;x
+special_forces_night_training_3;+15% Skill ;;;;;;;;;;;;;;x
+special_forces_night_training_4;+20% Skill ;;;;;;;;;;;;;;x
+special_forces_night_training_5;+25% Skill ;;;;;;;;;;;;;;x
+special_forces_night_training_6;+30% Skill ;;;;;;;;;;;;;;x
+### SPECIAL FORCES FOREST TRAINING ###;;;;;;;;;;;;;;x
+special_forces_forest_training_1;+5% Skill ;;;;;;;;;;;;;;x
+special_forces_forest_training_2;+10% Skill ;;;;;;;;;;;;;;x
+special_forces_forest_training_3;+15% Skill ;;;;;;;;;;;;;;x
+special_forces_forest_training_4;+20% Skill ;;;;;;;;;;;;;;x
+special_forces_forest_training_5;+25% Skill ;;;;;;;;;;;;;;x
+special_forces_forest_training_6;+30% Skill ;;;;;;;;;;;;;;x
+### SPECIAL FORCES AMPHIBIOUS TRAINING ###;;;;;;;;;;;;;;x
+special_forces_amphibious_training_1;+5% Skill ;;;;;;;;;;;;;;x
+special_forces_amphibious_training_2;+10% Skill ;;;;;;;;;;;;;;x
+special_forces_amphibious_training_3;+15% Skill ;;;;;;;;;;;;;;x
+special_forces_amphibious_training_4;+20% Skill ;;;;;;;;;;;;;;x
+special_forces_amphibious_training_5;+25% Skill ;;;;;;;;;;;;;;x
+special_forces_amphibious_training_6;+30% Skill ;;;;;;;;;;;;;;x
+### SPECIAL FORCES AIRBORNE TRAINING ###;;;;;;;;;;;;;;x
+special_forces_airborne_training_1;+5% Skill ;;;;;;;;;;;;;;x
+special_forces_airborne_training_2;+10% Skill ;;;;;;;;;;;;;;x
+special_forces_airborne_training_3;+15% Skill ;;;;;;;;;;;;;;x
+special_forces_airborne_training_4;+20% Skill ;;;;;;;;;;;;;;x
+special_forces_airborne_training_5;+25%  Skill ;;;;;;;;;;;;;;x
+special_forces_airborne_training_6;+30% Skill ;;;;;;;;;;;;;;x
+### SPECIAL FORCES URBAN SPECIAL TACTICS ###;;;;;;;;;;;;;;x
+urban_special_tactics_1;+5% Skill ;;;;;;;;;;;;;;x
+urban_special_tactics_2;+10% Skill ;;;;;;;;;;;;;;x
+urban_special_tactics_3;+15% Skill ;;;;;;;;;;;;;;x
+urban_special_tactics_4;+20% Skill ;;;;;;;;;;;;;;x
+urban_special_tactics_5;+25% Skill ;;;;;;;;;;;;;;x
+urban_special_tactics_6;+30% Skill;;;;;;;;;;;;;;x
+### SPECIAL FORCES ARCTIC WARFARE TACTICS ###;;;;;;;;;;;;;;x
+arctic_warfare_tactics_1;+5% Skill ;;;;;;;;;;;;;;x
+arctic_warfare_tactics_2;+10% Skill ;;;;;;;;;;;;;;x
+arctic_warfare_tactics_3;+15% Skill ;;;;;;;;;;;;;;x
+arctic_warfare_tactics_4;+20% Skill ;;;;;;;;;;;;;;x
+arctic_warfare_tactics_5;+25% Skill ;;;;;;;;;;;;;;x
+arctic_warfare_tactics_6;+30% Skill ;;;;;;;;;;;;;;x
+### SPECIAL FORCES COVERT OPS ###;;;;;;;;;;;;;;x
+covert_ops_1;+5% Skill;;;;;;;;;;;;;;x
+covert_ops_2;+10% Skill;;;;;;;;;;;;;;x
+covert_ops_3;+15% Skill;;;;;;;;;;;;;;x
+covert_ops_4;+20% Skill;;;;;;;;;;;;;;x
+covert_ops_5;+25% Skill;;;;;;;;;;;;;;x
+covert_ops_6;+30% Skill;;;;;;;;;;;;;;x
+### SPECIAL FORCES INFILTRATION TACTICS ###;;;;;;;;;;;;;;x
+infiltration_tactics_1;+5% Skill;;;;;;;;;;;;;;x
+infiltration_tactics_2;+10% Skill;;;;;;;;;;;;;;x
+infiltration_tactics_3;+15% Skill;;;;;;;;;;;;;;x
+infiltration_tactics_4;+20% Skill;;;;;;;;;;;;;;x
+infiltration_tactics_5;+25% Skill;;;;;;;;;;;;;;x
+infiltration_tactics_6;+30% Skill;;;;;;;;;;;;;;x
+### SPECIAL FORCES DEEP RECON TACTICS ###;;;;;;;;;;;;;;x
+deep_recon_1;+5% Skill;;;;;;;;;;;;;;x
+deep_recon_2;+10% Skill;;;;;;;;;;;;;;x
+deep_recon_3;+15% Skill;;;;;;;;;;;;;;x
+deep_recon_4;+20% Skill;;;;;;;;;;;;;;x
+deep_recon_5;+25% Skill;;;;;;;;;;;;;;x
+deep_recon_6;+30% Skill;;;;;;;;;;;;;;x
+### SPECIAL FORCES RESCUE MISSIONS ###;;;;;;;;;;;;;;x
+rescue_missions_1;+5% Skill;;;;;;;;;;;;;;x
+rescue_missions_2;+10% Skill;;;;;;;;;;;;;;x
+rescue_missions_3;+15% Skill;;;;;;;;;;;;;;x
+rescue_missions_4;+20% Skill;;;;;;;;;;;;;;x
+rescue_missions_5;+25% Skill;;;;;;;;;;;;;;x
+rescue_missions_6;+30% Skill;;;;;;;;;;;;;;x
+### AMPHIBIOUS LANDING TACTICS ###;;;;;;;;;;;;;;x
+amphibious_landing_1;+5% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_landing_2;+10% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_landing_3;+15% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_landing_4;+20% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_landing_5;+25% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_landing_6;+30% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_landing_7;+35% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_landing_8;+40% Tactical Skill;;;;;;;;;;;;;;x 
+### AMPHIBIOUS ASSAULT TACTICS ###;;;;;;;;;;;;;;x
+amphibious_assault_1;+5% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_assault_2;+10% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_assault_3;+15% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_assault_4;+20% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_assault_5;+25% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_assault_6;+30% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_assault_7;+35% Tactical Skill;;;;;;;;;;;;;;x 
+amphibious_assault_8;+40% Tactical Skill;;;;;;;;;;;;;;x 
+### AMPHIBIOUS INVASION STRATEGY ###;;;;;;;;;;;;;;x
+amphibious_invasion_1;+5% Planning Skill;;;;;;;;;;;;;;x 
+amphibious_invasion_2;+10% Planning Skill;;;;;;;;;;;;;;x 
+amphibious_invasion_3;+15% Planning Skill;;;;;;;;;;;;;;x 
+amphibious_invasion_4;+20% Planning Skill;;;;;;;;;;;;;;x 
+amphibious_invasion_5;+25% Planning Skill;;;;;;;;;;;;;;x 
+amphibious_invasion_6;+30% Planning Skill;;;;;;;;;;;;;;x 
+amphibious_invasion_7;+35% Planning Skill;;;;;;;;;;;;;;x 
+amphibious_invasion_8;+40% Planning Skill;;;;;;;;;;;;;;x 
+### AIRBORNE LANDING TACTICS ###;;;;;;;;;;;;;;x
+airborne_landing_1;+5% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_landing_2;+10% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_landing_3;+15% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_landing_4;+20% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_landing_5;+25% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_landing_6;+30% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_landing_7;+35% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_landing_8;+40% Tactical Skill;;;;;;;;;;;;;;x 
+### AIRBORNE ASSAULT TACTICS ###;;;;;;;;;;;;;;x
+airborne_assault_1;+5% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_assault_2;+10% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_assault_3;+15% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_assault_4;+20% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_assault_5;+25% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_assault_6;+30% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_assault_7;+35% Tactical Skill;;;;;;;;;;;;;;x 
+airborne_assault_8;+40% Tactical Skill;;;;;;;;;;;;;;x 
+### AIRBORNE INVASION STRATEGY ###;;;;;;;;;;;;;;x
+airborne_invasion_1;+5% Planning Skill;;;;;;;;;;;;;;x 
+airborne_invasion_2;+10% Planning Skill;;;;;;;;;;;;;;x 
+airborne_invasion_3;+15% Planning Skill;;;;;;;;;;;;;;x 
+airborne_invasion_4;+20% Planning Skill;;;;;;;;;;;;;;x 
+airborne_invasion_5;+25% Planning Skill;;;;;;;;;;;;;;x 
+airborne_invasion_6;+30% Planning Skill;;;;;;;;;;;;;;x 
+airborne_invasion_7;+35% Planning Skill;;;;;;;;;;;;;;x 
+airborne_invasion_8;+40% Planning Skill;;;;;;;;;;;;;;x 
+##########################################################################################;;;;;;;;;;;;;;x
+### ADVANCED LAND DOCTRINES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### SEARCH AND DESTROY TACTICS ###;;;;;;;;;;;;;;x
+search_and_destroy_tactics_1;Tactics I ;;;;;;;;;;;;;;x
+search_and_destroy_tactics_2;Tactics II ;;;;;;;;;;;;;;x
+search_and_destroy_tactics_3;Tactics III ;;;;;;;;;;;;;;x
+### AIRMOBILE OPERATIONS ###;;;;;;;;;;;;;;x
+air_mobile_operations_1;Operations I ;;;;;;;;;;;;;;x
+air_mobile_operations_2;Operations II ;;;;;;;;;;;;;;x
+air_mobile_operations_3;Operations III ;;;;;;;;;;;;;;x
+air_mobile_operations_4;Operations III ;;;;;;;;;;;;;;x
+air_mobile_operations_5;Operations III ;;;;;;;;;;;;;;x
+### HELICOPTER SUPPORT ###;;;;;;;;;;;;;;x
+helicopter_support_1;Support I ;;;;;;;;;;;;;;x
+helicopter_support_2;Support II ;;;;;;;;;;;;;;x
+helicopter_support_3;Support III ;;;;;;;;;;;;;;x
+helicopter_support_4;Support III ;;;;;;;;;;;;;;x
+helicopter_support_5;Support III ;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### ADVANCED AIR AND SEA DOCTRINES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### CLOSE JET AIR TO AIR DOGFIGHTING ###;;;;;;;;;;;;;;x
+close_jet_air_to_air_dogfighting_1;3% Dogfighting Skill;;;;;;;;;;;;;;x
+close_jet_air_to_air_dogfighting_2;6% Dogfighting Skill ;;;;;;;;;;;;;;x
+close_jet_air_to_air_dogfighting_3;9% Dogfighting Skill ;;;;;;;;;;;;;;x
+close_jet_air_to_air_dogfighting_4;12% Dogfighting Skill ;;;;;;;;;;;;;;x
+close_jet_air_to_air_dogfighting_5;15% Dogfighting Skill ;;;;;;;;;;;;;;x
+close_jet_air_to_air_dogfighting_6;18% Dogfighting Skill ;;;;;;;;;;;;;;x
+close_jet_air_to_air_dogfighting_7;21% Dogfighting Skill ;;;;;;;;;;;;;;x
+close_jet_air_to_air_dogfighting_8;24% Dogfighting Skill ;;;;;;;;;;;;;;x
+close_jet_air_to_air_dogfighting_9;27% Dogfighting Skill ;;;;;;;;;;;;;;x
+close_jet_air_to_air_dogfighting_10;30% Dogfighting Skill ;;;;;;;;;;;;;;x
+### BVR JET AIR TO AIR ENGAGEMENTS ###;;;;;;;;;;;;;;x
+bvr_jet_air_to_air_engagement_1;3% Engagement Skill;;;;;;;;;;;;;;x
+bvr_jet_air_to_air_engagement_2;6% Engagement Skill ;;;;;;;;;;;;;;x
+bvr_jet_air_to_air_engagement_3;9% Engagement Skill ;;;;;;;;;;;;;;x
+bvr_jet_air_to_air_engagement_4;12% Engagement Skill ;;;;;;;;;;;;;;x
+bvr_jet_air_to_air_engagement_5;15% Engagement Skill ;;;;;;;;;;;;;;x
+bvr_jet_air_to_air_engagement_6;18% Engagement Skill ;;;;;;;;;;;;;;x
+bvr_jet_air_to_air_engagement_7;21% Engagement Skill ;;;;;;;;;;;;;;x
+### JET CLOSE AIR SUPPORT ###;;;;;;;;;;;;;;x
+jet_close_air_support_1;3% CAS Skill;;;;;;;;;;;;;;x
+jet_close_air_support_2;6% CAS Skill ;;;;;;;;;;;;;;x
+jet_close_air_support_3;9% CAS Skill ;;;;;;;;;;;;;;x
+jet_close_air_support_4;12% CAS Skill ;;;;;;;;;;;;;;x
+jet_close_air_support_5;15% CAS Skill ;;;;;;;;;;;;;;x
+jet_close_air_support_6;18% CAS Skill ;;;;;;;;;;;;;;x
+jet_close_air_support_7;21% CAS Skill ;;;;;;;;;;;;;;x
+jet_close_air_support_8;24% CAS Skill ;;;;;;;;;;;;;;x
+### SEAD MISSIONS ###;;;;;;;;;;;;;;x
+sead_missions_1;3% SEAD Skill;;;;;;;;;;;;;;x
+sead_missions_2;6% SEAD Skill ;;;;;;;;;;;;;;x
+sead_missions_3;9% SEAD Skill ;;;;;;;;;;;;;;x
+sead_missions_4;12% SEAD Skill ;;;;;;;;;;;;;;x
+sead_missions_5;15% SEAD Skill ;;;;;;;;;;;;;;x
+sead_missions_6;18% SEAD Skill ;;;;;;;;;;;;;;x
+sead_missions_7;21% SEAD Skill ;;;;;;;;;;;;;;x
+sead_missions_8;24% SEAD Skill ;;;;;;;;;;;;;;x
+sead_missions_9;27% SEAD Skill ;;;;;;;;;;;;;;x
+### NAPALM TACTICS ###;;;;;;;;;;;;;;x
+napalm_tactics_1;3% Napalm Skill;;;;;;;;;;;;;;x
+napalm_tactics_2;6% Napalm Skill ;;;;;;;;;;;;;;x
+napalm_tactics_3;9% Napalm Skill ;;;;;;;;;;;;;;x
+napalm_tactics_4;12% Napalm Skill ;;;;;;;;;;;;;;x
+napalm_tactics_5;15% Napalm Skill ;;;;;;;;;;;;;;x
+napalm_tactics_6;18% Napalm Skill ;;;;;;;;;;;;;;x
+napalm_tactics_7;21% Napalm Skill ;;;;;;;;;;;;;;x
+napalm_tactics_8;24% Napalm Skill ;;;;;;;;;;;;;;x
+napalm_tactics_9;27% Napalm Skill ;;;;;;;;;;;;;;x
+### HELICOPTER PILOT RESCUE ###;;;;;;;;;;;;;;x
+helicopter_pilot_rescue_1;3% Efficiency;;;;;;;;;;;;;;x
+helicopter_pilot_rescue_2;6% Efficiency ;;;;;;;;;;;;;;x
+helicopter_pilot_rescue_3;9% Efficiency ;;;;;;;;;;;;;;x
+helicopter_pilot_rescue_4;12% Efficiency ;;;;;;;;;;;;;;x
+helicopter_pilot_rescue_5;15% Efficiency ;;;;;;;;;;;;;;x
+helicopter_pilot_rescue_6;18% Efficiency ;;;;;;;;;;;;;;x
+helicopter_pilot_rescue_7;21% Efficiency ;;;;;;;;;;;;;;x
+helicopter_pilot_rescue_8;24% Efficiency ;;;;;;;;;;;;;;x
+helicopter_pilot_rescue_9;27% Efficiency ;;;;;;;;;;;;;;x
+### NAVAL GUIDED MISSILE OFFENSE TACTICS ###;;;;;;;;;;;;;;x
+naval_guided_missile_offense_tactics_1;Tactics I ;;;;;;;;;;;;;;x
+naval_guided_missile_offense_tactics_2;Tactics II ;;;;;;;;;;;;;;x
+naval_guided_missile_offense_tactics_3;Tactics III ;;;;;;;;;;;;;;x
+naval_guided_missile_offense_tactics_4;Tactics IV ;;;;;;;;;;;;;;x
+### NAVAL GUIDED MISSILE DEFENSE TACTICS ###;;;;;;;;;;;;;;x
+naval_guided_missile_defense_tactics_1;Tactics I ;;;;;;;;;;;;;;x
+naval_guided_missile_defense_tactics_2;Tactics II ;;;;;;;;;;;;;;x
+naval_guided_missile_defense_tactics_3;Tactics III ;;;;;;;;;;;;;;x
+naval_guided_missile_defense_tactics_4;Tactics IV ;;;;;;;;;;;;;;x
+### AMPHIBIOUS HELICOPTER VERTICAL ENVELOPMENT ###;;;;;;;;;;;;;;x
+amphibious_helicopter_vertical_envelopment_1;Envelopment I ;;;;;;;;;;;;;;x
+amphibious_helicopter_vertical_envelopment_2;Envelopment II ;;;;;;;;;;;;;;x
+amphibious_helicopter_vertical_envelopment_3;Envelopment III ;;;;;;;;;;;;;;x
+amphibious_helicopter_vertical_envelopment_4;Envelopment IV ;;;;;;;;;;;;;;x
+amphibious_helicopter_vertical_envelopment_5;Envelopment V ;;;;;;;;;;;;;;x
+### NUCLEAR SUBMARINE ANTI-SHIP TACTICS ###;;;;;;;;;;;;;;x
+nuclear_submarine_anti_ship_tactics_1;Tactics I ;;;;;;;;;;;;;;x
+nuclear_submarine_anti_ship_tactics_2;Tactics II ;;;;;;;;;;;;;;x
+nuclear_submarine_anti_ship_tactics_3;Tactics III ;;;;;;;;;;;;;;x
+nuclear_submarine_anti_ship_tactics_4;Tactics IV ;;;;;;;;;;;;;;x
+nuclear_submarine_anti_ship_tactics_5;Tactics V ;;;;;;;;;;;;;;x
+nuclear_submarine_anti_ship_tactics_6;Tactics VI ;;;;;;;;;;;;;;x
+### FAST ATTACK SUB VS SUB TACTICS ###;;;;;;;;;;;;;;x
+fast_attack_sub_vs_sub_tactics_1;Tactics I ;;;;;;;;;;;;;;x
+fast_attack_sub_vs_sub_tactics_2;Tactics II ;;;;;;;;;;;;;;x
+fast_attack_sub_vs_sub_tactics_3;Tactics III ;;;;;;;;;;;;;;x
+fast_attack_sub_vs_sub_tactics_4;Tactics IV ;;;;;;;;;;;;;;x
+fast_attack_sub_vs_sub_tactics_5;Tactics V ;;;;;;;;;;;;;;x
+fast_attack_sub_vs_sub_tactics_6;Tactics VI ;;;;;;;;;;;;;;x
+### CARRIER BATTLEGROUP ###;;;;;;;;;;;;;;x
+carrier_battlegroup_1;Battlegroup I ;;;;;;;;;;;;;;x
+carrier_battlegroup_2;Battlegroup II ;;;;;;;;;;;;;;x
+carrier_battlegroup_3;Battlegroup III ;;;;;;;;;;;;;;x
+carrier_battlegroup_4;Battlegroup IV ;;;;;;;;;;;;;;x
+carrier_battlegroup_5;Battlegroup V ;;;;;;;;;;;;;;x
+carrier_battlegroup_6;Battlegroup VI ;;;;;;;;;;;;;;x
+carrier_battlegroup_7;Battlegroup VII ;;;;;;;;;;;;;;x
+### ADVANCED SURFACE ASW ###;;;;;;;;;;;;;;x
+advanced_surface_asw_1;Tactics I ;;;;;;;;;;;;;;x
+advanced_surface_asw_2;Tactics II ;;;;;;;;;;;;;;x
+advanced_surface_asw_3;Tactics III ;;;;;;;;;;;;;;x
+advanced_surface_asw_4;Tactics IV ;;;;;;;;;;;;;;x
+advanced_surface_asw_5;Tactics V ;;;;;;;;;;;;;;x
+advanced_surface_asw_6;Tactics VI ;;;;;;;;;;;;;;x
+advanced_surface_asw_7;Tactics VII ;;;;;;;;;;;;;;x
+advanced_surface_asw_8;Tactics VIII ;;;;;;;;;;;;;;x
+advanced_surface_asw_9;Tactics IX ;;;;;;;;;;;;;;x
+advanced_surface_asw_10;Tactics X ;;;;;;;;;;;;;;x
+### HELICOPTER ASW ###;;;;;;;;;;;;;;x
+helicopter_asw_1;Tactics I ;;;;;;;;;;;;;;x
+helicopter_asw_2;Tactics II ;;;;;;;;;;;;;;x
+helicopter_asw_3;Tactics III ;;;;;;;;;;;;;;x
+helicopter_asw_4;Tactics IV ;;;;;;;;;;;;;;x
+helicopter_asw_5;Tactics V ;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

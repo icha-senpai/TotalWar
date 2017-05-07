@@ -1,0 +1,161 @@
+################################################;;;;;;;;;;;;;;x
+# Soviet New Aircraft Unit Model Names;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Fighter Aircraft ;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+SOV_interceptor_0;Polikarpov I-5;;;;;;;;;;;;;x
+SOV_interceptor_1;Polikarpov I-15;;;;;;;;;;;;;x
+SOV_interceptor_2;Polikarpov I-15bis;;;;;;;;;;;;;x
+SOV_interceptor_5;Yakovlev Yak-1;;;;;;;;;;;;;x
+SOV_interceptor_6;Polikarpov I-153;;;;;;;;;;;;;x
+SOV_interceptor_7;Polikarpov I-153P;;;;;;;;;;;;;x
+SOV_interceptor_8;LaGG-3;;;;;;;;;;;;;x
+SOV_interceptor_9;LaGG-3 G-105;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_multi_role_0;Polikarpov Po-2LSh;;;;;;;;;;;;;x
+SOV_multi_role_1;Polikarpov I-16 Type 4;;;;;;;;;;;;;x
+SOV_multi_role_2;Polikarpov I-16 Type 5;;;;;;;;;;;;;;x
+SOV_multi_role_3;Polikarpov I-16 Type 6;;;;;;;;;;;;;;x
+SOV_multi_role_4;Polikarpov I-16 Type 10;;;;;;;;;;;;;;x
+SOV_multi_role_5;Polikarpov I-16 Type 12;;;;;;;;;;;;;;x
+SOV_multi_role_6;Polikarpov I-16 Type 18;;;;;;;;;;;;;;x
+SOV_multi_role_7;Polikarpov I-16 Type 29;;;;;;;;;;;;;;x
+SOV_multi_role_8;Mikoyan MiG-3;;;;;;;;;;;;;x
+SOV_multi_role_9;Yak-9;;;;;;;;;;;;;;x
+SOV_multi_role_10;Yak-9T;;;;;;;;;;;;;;x
+SOV_multi_role_11;Yak-9K;;;;;;;;;;;;;;x
+SOV_multi_role_12;Yak-9D;;;;;;;;;;;;;;x
+SOV_multi_role_13;Yak-9M;;;;;;;;;;;;;;x
+SOV_multi_role_14;Yak-9U (VK-105);;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_pursuit_fighter_7;Yakovlev Yak-1;;;;;;;;;;;;;x
+SOV_pursuit_fighter_8;Yakovlev Yak-1b;;;;;;;;;;;;;x
+SOV_pursuit_fighter_9;Yakovlev Yak-7A;;;;;;;;;;;;;x
+SOV_pursuit_fighter_10;Yakovlev Yak-7B;;;;;;;;;;;;;x
+SOV_pursuit_fighter_11;Yakovlev Yak-3;;;;;;;;;;;;;x
+SOV_pursuit_fighter_12;Yakovlev Yak-3U;;;;;;;;;;;;;x
+SOV_pursuit_fighter_13;Lavochkin La-9;;;;;;;;;;;;;x
+SOV_pursuit_fighter_14;Lavochkin La-11;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_fighter_bomber_9;La-5;;;;;;;;;;;;;x
+SOV_fighter_bomber_10;La-5F;;;;;;;;;;;;;x
+SOV_fighter_bomber_11;La-7;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_cas_0;Kochyerigin DI-6;;;;;;;;;;;;;x
+SOV_cas_1;Kharkov KhAI-5;;;;;;;;;;;;;x
+SOV_cas_4;Sukhoi  BB-1;;;;;;;;;;;;;x
+SOV_cas_5;Sukhoi Su-2;;;;;;;;;;;;;x
+SOV_cas_6;Sukhoi Su-2bis;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_heavy_cas_1;Il-2 'Sturmovik';;;;;;;;;;;;;;x
+SOV_heavy_cas_2;Il-2 'Sturmovik';;;;;;;;;;;;;;x
+SOV_heavy_cas_3;Il-2 'Sturmovik';;;;;;;;;;;;;;x
+SOV_heavy_cas_4;Il-2M 'Sturmovik';;;;;;;;;;;;;;x
+SOV_heavy_cas_5;Il-2M3 'Sturmovik';;;;;;;;;;;;;;x
+SOV_heavy_cas_6;Il-10;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_cag_0;Polikarpov I-5N;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_naval_fighter_0;Polikarpov I-5N;;;;;;;;;;;;;;x
+SOV_naval_fighter_1;Polikarpov I-153N;;;;;;;;;;;;;;x
+SOV_naval_fighter_2;Mikoyan-Gurevich MiG-1N;;;;;;;;;;;;;;x
+SOV_naval_fighter_6;Mikoyan-Gurevich MiG-3N;;;;;;;;;;;;;;x
+SOV_naval_fighter_9;Yakovlev Yak-3N;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_naval_dive_bomber_8;Ilyushin Il-10NT;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_twin_engine_fighters_0;Tupolev ANT-21;;;;;;;;;;;;;x
+SOV_twin_engine_fighters_1;Tupolev-Antonov-29;;;;;;;;;;;;;x
+SOV_twin_engine_fighters_2;Petlyakov VI-100;;;;;;;;;;;;;x
+SOV_twin_engine_fighters_3;Tairov Ta-1;;;;;;;;;;;;;x
+SOV_twin_engine_fighters_4;Tairov Ta-3;;;;;;;;;;;;;x
+SOV_twin_engine_fighters_5;Tairov Ta-3bis;;;;;;;;;;;;;x
+SOV_twin_engine_fighters_6;Petlyakov Pe-3;;;;;;;;;;;;;x
+SOV_twin_engine_fighters_7;Petlyakov Pe-3bis;;;;;;;;;;;;;x
+SOV_twin_engine_fighters_8;Petlyakov Pe-3M;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_light_bomber_0;Tupolev SB 2M-100;;;;;;;;;;;;;x
+SOV_light_bomber_1;Tupolev SB bis;;;;;;;;;;;;;x
+SOV_light_bomber_2;Tupolev SB 2M-103/10 ;;;;;;;;;;;;;x
+SOV_light_bomber_3;Tupolev SB 2M-103/14;;;;;;;;;;;;;x
+SOV_light_bomber_4;Tupolev SB 2M-103/18;;;;;;;;;;;;;x
+SOV_light_bomber_5;Yakovlev Yak-4;;;;;;;;;;;;;x
+SOV_light_bomber_6;Petlyakov Pe-2;;;;;;;;;;;;;x
+SOV_light_bomber_7;Petlyakov Pe-2B;;;;;;;;;;;;;x
+SOV_light_bomber_8;Tupolev Tu-2 ANT-58;;;;;;;;;;;;;x
+SOV_light_bomber_9;Tupolev Tu-2 ANT-59;;;;;;;;;;;;;x
+SOV_light_bomber_10;Tupolev Tu-2 ANT-62;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_tactical_bomber_0;Tupolev TB-1;;;;;;;;;;;;;x
+SOV_tactical_bomber_1;Ilyushin DB-3;;;;;;;;;;;;;x
+SOV_tactical_bomber_2;Ilyushin DB-3A;;;;;;;;;;;;;x
+SOV_tactical_bomber_3;Ilyushin DB-3B;;;;;;;;;;;;;x
+SOV_tactical_bomber_4;Yermolayev Yer-2;;;;;;;;;;;;;x
+SOV_tactical_bomber_7;Ilyushin Il-4;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_transport_plane_0;Kalinin K-5;;;;;;;;;;;;;x
+SOV_transport_plane_1;Tupolev TB-3M-34R;;;;;;;;;;;;;x
+SOV_transport_plane_2;Tupolev TB-3ARM;;;;;;;;;;;;;x
+SOV_transport_plane_3;Lisunov Li-2;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_Flying_boat_0;Beriev MBR-2;;;;;;;;;;;;;x
+SOV_Flying_boat_1;Tupolev MTB-2;;;;;;;;;;;;;x
+SOV_Flying_boat_2;Chyetverikov MDR-6;;;;;;;;;;;;;x
+SOV_Flying_boat_3;Taganrog GST;;;;;;;;;;;;;x
+SOV_Flying_boat_4;Taganrog GSTM;;;;;;;;;;;;;x
+SOV_Flying_boat_9;Beriev Be-6;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_naval_bomber_1;Ilyushin DB-3T;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_strategic_bomber_0;Tupolev TB-3-4M-17F;;;;;;;;;;;;;x
+SOV_strategic_bomber_1;Tupolev TB-3-4AM-34FRN/FRNV;;;;;;;;;;;;;x
+SOV_strategic_bomber_6;Petlyakov Pe-8;;;;;;;;;;;;;x
+SOV_strategic_bomber_11;Tupolev Tu-4;;;;;;;;;;;;;x
+SOV_strategic_bomber_12;Tupolev Tu-4A;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_rocket_interceptor_van_0;Bereznyak-Isayev BI-1;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_rocket_interceptor_0;Mikoyan-Gurevich I-250;;;;;;;;;;;;;x
+SOV_rocket_interceptor_3;Mikoyan-Gurevich MiG-9;;;;;;;;;;;;;x
+SOV_rocket_interceptor_5;Mikoyan-Gurevich MiG-15;;;;;;;;;;;;;x
+SOV_rocket_interceptor_6;Mikoyan-Gurevich MiG-15bis;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_jet_bomber_4;Ilyushin Il-22;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_advanced_jet_fighter_1;Mikoyan-Gurevich MiG-17A;;;;;;;;;;;;;x
+SOV_advanced_jet_fighter_2;Mikoyan-Gurevich MiG-19;;;;;;;;;;;;;x
+SOV_advanced_jet_fighter_3;Mikoyan-Gurevich MiG-21F;;;;;;;;;;;;;x
+SOV_advanced_jet_fighter_4;Mikoyan-Gurevich MiG-21F-13;;;;;;;;;;;;;x
+SOV_advanced_jet_fighter_5;Mikoyan-Gurevich MiG-21PF;;;;;;;;;;;;;x
+SOV_advanced_jet_fighter_6;Tupolev Tu-28;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_advanced_jet_bomber_0;Ilyushin Il-28;;;;;;;;;;;;;x
+SOV_advanced_jet_bomber_3;M-50A;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_advanced_jet_heavy_bomber_1;Tupolev Tu-16;;;;;;;;;;;;;x
+SOV_advanced_jet_heavy_bomber_2;Tupolev Tu-95;;;;;;;;;;;;;x
+SOV_advanced_jet_heavy_bomber_3;Tupolev Tu-95M;;;;;;;;;;;;;x
+SOV_advanced_jet_heavy_bomber_4;Tupolev Tu-95K;;;;;;;;;;;;;x
+SOV_advanced_jet_heavy_bomber_5;Tupolev Tu-95KD;;;;;;;;;;;;;x
+SOV_advanced_jet_heavy_bomber_6;Tupolev Tu-95KM;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+SOV_tactical_transport_aircraft_0;Ilyushin Il-12;;;;;;;;;;;;;x
+SOV_tactical_transport_aircraft_1;Ilyushin Il-14;;;;;;;;;;;;;x
+SOV_tactical_transport_aircraft_2;Antonov An-8;;;;;;;;;;;;;x
+SOV_tactical_transport_aircraft_3;Antonov An-12;;;;;;;;;;;;;x
+SOV_tactical_transport_aircraft_4;Antonov An-12A;;;;;;;;;;;;;x
+SOV_tactical_transport_aircraft_5;Antonov An-12B;;;;;;;;;;;;;x
+SOV_tactical_transport_aircraft_6;Antonov An-22;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

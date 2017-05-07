@@ -1,0 +1,30 @@
+division= {
+	name = "1. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_I name = "Stab 1. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "2. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_II name = "Stab 2. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "3. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_III name = "Stab 3. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "8. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_VIII name = "Stab 8. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "11. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_XI name = "Stab 11. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+}
+division= {
+	name = "16. Marine-Infanterie-Division"
+	location = 1620 # 
+	regiment = { type = GER_A_Mar_XVI name = "Stab 16. Marine-Infanterie-Division" historical_model = 0 experience = 30 }
+}

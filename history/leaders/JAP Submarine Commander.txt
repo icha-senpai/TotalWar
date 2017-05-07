@@ -1,0 +1,1305 @@
+920850 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920851 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920852 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920853 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920854 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920855 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920856 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920857 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920858 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920859 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920860 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920861 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920862 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920863 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920864 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920865 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920866 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920867 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920868 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920869 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920870 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920871 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920872 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920873 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920874 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920875 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920876 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920877 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920878 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920879 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920880 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920881 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920882 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920883 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920884 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920885 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920886 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920887 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920888 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920889 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920890 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920891 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920892 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920893 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920894 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920895 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920896 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920897 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920898 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920899 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920900 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920901 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920902 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920903 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920904 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920905 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920906 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920907 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920908 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920909 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920910 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920911 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920912 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920913 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920914 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920915 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920916 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920917 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920918 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920919 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920920 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920921 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920922 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920923 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920924 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920925 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920926 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920927 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920928 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920929 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920930 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920931 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920932 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920933 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920934 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920935 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920936 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920937 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920938 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920939 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920940 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920941 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920942 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920943 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920944 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920945 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920946 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920947 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920948 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920949 = {
+	name = "Sensui-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+
+

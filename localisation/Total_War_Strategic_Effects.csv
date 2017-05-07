@@ -1,0 +1,416 @@
+####;;;;;;;;;;;;;;x
+### Triggered Effects ###;;;;;;;;;;;;;;x
+wartime_twenty_four_hour_factory_shifts;Wartime 24 Hour Factory Shifts;;;;;;;;;;;;;x
+wartime_women_factory_workers;Wartime Women Factory Workers;;;;;;;;;;;;;x
+wartime_professional_industry_labor;Wartime Professional Industry Labor;;;;;;;;;;;;;x
+wartime_conscript_industry_labor;Wartime Conscript Industry Labor;;;;;;;;;;;;;x
+############################;;;;;;;;;;;;;;x
+peacetime_textile_industry_one;Civilian Textile Industry I;;;;;;;;;;;;;x
+peacetime_textile_industry_two;Civilian Textile Industry II;;;;;;;;;;;;;x
+peacetime_textile_industry_three;Civilian Textile Industry III;;;;;;;;;;;;;x
+peacetime_textile_industry_four;Civilian Textile Industry IV;;;;;;;;;;;;;x
+peacetime_textile_industry_five;Civilian Textile Industry V;;;;;;;;;;;;;x
+peacetime_textile_industry_six;Civilian Textile Industry VI;;;;;;;;;;;;;x
+peacetime_textile_industry_seven;Civilian Textile Industry VII;;;;;;;;;;;;;x
+peacetime_textile_industry_eight;Civilian Textile Industry VIII;;;;;;;;;;;;;x
+peacetime_textile_industry_nine;Civilian Textile Industry IX;;;;;;;;;;;;;x
+peacetime_textile_industry_ten;Civilian Textile Industry X;;;;;;;;;;;;;x
+peacetime_textile_industry_eleven;Civilian Textile Industry XI;;;;;;;;;;;;;x
+peacetime_textile_industry_twelve;Civilian Textile Industry XII;;;;;;;;;;;;;x
+wartime_textile_industry_one;Military Textile Industry I;;;;;;;;;;;;;x
+wartime_textile_industry_two;Military Textile Industry II;;;;;;;;;;;;;x
+wartime_textile_industry_three;Military Textile Industry III;;;;;;;;;;;;;x
+wartime_textile_industry_four;Military Textile Industry IV;;;;;;;;;;;;;x
+wartime_textile_industry_five;Military Textile Industry V;;;;;;;;;;;;;x
+wartime_textile_industry_six;Military Textile Industry VI;;;;;;;;;;;;;x
+wartime_textile_industry_seven;Military Textile Industry VII;;;;;;;;;;;;;x
+wartime_textile_industry_eight;Military Textile Industry VIII;;;;;;;;;;;;;x
+wartime_textile_industry_nine;Military Textile Industry IX;;;;;;;;;;;;;x
+wartime_textile_industry_ten;Military Textile Industry X;;;;;;;;;;;;;x
+wartime_textile_industry_eleven;Military Textile Industry XI;;;;;;;;;;;;;x
+wartime_textile_industry_twelve;Military Textile Industry XII;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_one;Civlian Consumer Goods Industry I;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_two;Civlian Consumer Goods Industry II;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_three;Civlian Consumer Goods Industry III;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_four;Civlian Consumer Goods Industry IV;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_five;Civlian Consumer Goods Industry V;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_six;Civlian Consumer Goods Industry VI;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_seven;Civlian Consumer Goods Industry VII;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_eight;Civlian Consumer Goods Industry VIII;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_nine;Civlian Consumer Goods Industry IX;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_ten;Civlian Consumer Goods Industry X;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_eleven;Civlian Consumer Goods Industry XI;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_twelve;Civlian Consumer Goods Industry XII;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_one;Military Supply Industry I;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_two;Military Supply Industry II;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_three;Military Supply Industry III;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_four;Military Supply Industry IV;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_five;Military Supply Industry V;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_six;Military Supply Industry VI;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_seven;Military Supply Industry VII;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_eight;Military Supply Industry VIII;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_nine;Military Supply Industry IX;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_ten;Military Supply Industry X;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_eleven;Military Supply Industry XI;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_twelve;Military Supply Industry XII;;;;;;;;;;;;;x
+peacetime_automotive_industry_one;Civilian Automotive Production Industry I;;;;;;;;;;;;;x
+peacetime_automotive_industry_two;Civilian Automotive Production Industry II;;;;;;;;;;;;;x
+peacetime_automotive_industry_three;Civilian Automotive Production Industry III;;;;;;;;;;;;;x
+peacetime_automotive_industry_four;Civilian Automotive Production Industry IV;;;;;;;;;;;;;x
+peacetime_automotive_industry_five;Civilian Automotive Production Industry V;;;;;;;;;;;;;x
+peacetime_automotive_industry_six;Civilian Automotive Production Industry VI;;;;;;;;;;;;;x
+peacetime_automotive_industry_seven;Civilian Automotive Production Industry VII;;;;;;;;;;;;;x
+peacetime_automotive_industry_eight;Civilian Automotive Production Industry VIII;;;;;;;;;;;;;x
+peacetime_automotive_industry_nine;Civilian Automotive Production Industry IX;;;;;;;;;;;;;x
+peacetime_automotive_industry_ten;Civilian Automotive Production Industry X;;;;;;;;;;;;;x
+peacetime_automotive_industry_eleven;Civilian Automotive Production Industry XI;;;;;;;;;;;;;x
+peacetime_automotive_industry_twelve;Civilian Automotive Production Industry XII;;;;;;;;;;;;;x
+wartime_automotive_industry_one;Military Automotive Production Industry I;;;;;;;;;;;;;x
+wartime_automotive_industry_two;Military Automotive Production Industry II;;;;;;;;;;;;;x
+wartime_automotive_industry_three;Military Automotive Production Industry III;;;;;;;;;;;;;x
+wartime_automotive_industry_four;Military Automotive Production Industry IV;;;;;;;;;;;;;x
+wartime_automotive_industry_five;Military Automotive Production Industry V;;;;;;;;;;;;;x
+wartime_automotive_industry_six;Military Automotive Production Industry VI;;;;;;;;;;;;;x
+wartime_automotive_industry_seven;Military Automotive Production Industry VII;;;;;;;;;;;;;x
+wartime_automotive_industry_eight;Military Automotive Production Industry VIII;;;;;;;;;;;;;x
+wartime_automotive_industry_nine;Military Automotive Production Industry IX;;;;;;;;;;;;;x
+wartime_automotive_industry_ten;Military Automotive Production Industry X;;;;;;;;;;;;;x
+wartime_automotive_industry_eleven;Military Automotive Production Industry XI;;;;;;;;;;;;;x
+wartime_automotive_industry_twelve;Military Automotive Production Industry XII;;;;;;;;;;;;;x
+peacetime_military_arms_industry_one;Peacetime Military Arms Industry I;;;;;;;;;;;;;x
+peacetime_military_arms_industry_two;Peacetime Military Arms Industry II;;;;;;;;;;;;;x
+peacetime_military_arms_industry_three;Peacetime Military Arms Industry III;;;;;;;;;;;;;x
+peacetime_military_arms_industry_four;Peacetime Military Arms Industry IV;;;;;;;;;;;;;x
+peacetime_military_arms_industry_five;Peacetime Military Arms Industry V;;;;;;;;;;;;;x
+peacetime_military_arms_industry_six;Peacetime Military Arms Industry VI;;;;;;;;;;;;;x
+peacetime_military_arms_industry_seven;Peacetime Military Arms Industry VII;;;;;;;;;;;;;x
+peacetime_military_arms_industry_eight;Peacetime Military Arms Industry VIII;;;;;;;;;;;;;x
+peacetime_military_arms_industry_nine;Peacetime Military Arms Industry IX;;;;;;;;;;;;;x
+peacetime_military_arms_industry_ten;Peacetime Military Arms Industry X;;;;;;;;;;;;;x
+peacetime_military_arms_industry_eleven;Peacetime Military Arms  Industry XI;;;;;;;;;;;;;x
+peacetime_military_arms_industry_twelve;Peacetime Military Arms  Industry XII;;;;;;;;;;;;;x
+wartime_military_arms_industry_one;Wartime Military Arms Industry I;;;;;;;;;;;;;x
+wartime_military_arms_industry_two;Wartime Military Arms Industry II;;;;;;;;;;;;;x
+wartime_military_arms_industry_three;Wartime Military Arms Industry III;;;;;;;;;;;;;x
+wartime_military_arms_industry_four;Wartime Military Arms Industry IV;;;;;;;;;;;;;x
+wartime_military_arms_industry_five;Wartime Military Arms Industry V;;;;;;;;;;;;;x
+wartime_military_arms_industry_six;Wartime Military Arms Industry VI;;;;;;;;;;;;;x
+wartime_military_arms_industry_seven;Wartime Military Arms Industry VII;;;;;;;;;;;;;x
+wartime_military_arms_industry_eight;Wartime Military Arms Industry VIII;;;;;;;;;;;;;x
+wartime_military_arms_industry_nine;Wartime Military Arms Industry IX;;;;;;;;;;;;;x
+wartime_military_arms_industry_ten;Wartime Military Arms Industry X;;;;;;;;;;;;;x
+wartime_military_arms_industry_eleven;Wartime Military Arms Industry XI;;;;;;;;;;;;;x
+wartime_military_arms_industry_twelve;Wartime Military Arms Industry XII;;;;;;;;;;;;;x
+### Flags ###;;;;;;;;;;;;;;x
+peacetime_textileI;Civilian Textile Industry Level 1 ;;;;;;;;;;;;;x
+peacetime_textileII;Civilian Textile Industry Level 2 ;;;;;;;;;;;;;x
+peacetime_textileIII;Civilian Textile Industry Level 3 ;;;;;;;;;;;;;x
+peacetime_textileIV;Civilian Textile Industry Level 4 ;;;;;;;;;;;;;x
+peacetime_textileV;Civilian Textile Industry Level 5 ;;;;;;;;;;;;;x
+peacetime_textileVI;Civilian Textile Industry Level 6 ;;;;;;;;;;;;;x
+peacetime_textileVII;Civilian Textile Industry Level 7 ;;;;;;;;;;;;;x
+peacetime_textileVIII;Civilian Textile Industry Level 8 ;;;;;;;;;;;;;x
+peacetime_textileIX;Civilian Textile Industry Level 9 ;;;;;;;;;;;;;x
+peacetime_textileX;Civilian Textile Industry Level 10 ;;;;;;;;;;;;;x
+peacetime_textileXI;Civilian Textile Industry Level 11 ;;;;;;;;;;;;;x
+peacetime_textileXII;Civilian Textile Industry Level 12 ;;;;;;;;;;;;;x
+wartime_textileI;Military Textile Industry Level 1 ;;;;;;;;;;;;;x
+wartime_textileII;Military Textile Industry Level 2 ;;;;;;;;;;;;;x
+wartime_textileIII;Military Textile Industry Level 3 ;;;;;;;;;;;;;x
+wartime_textileIV;Military Textile Industry Level 4 ;;;;;;;;;;;;;x
+wartime_textileV;Military Textile Industry Level 5 ;;;;;;;;;;;;;x
+wartime_textileVI;Military Textile Industry Level 6 ;;;;;;;;;;;;;x
+wartime_textileVII;Military Textile Industry Level 7 ;;;;;;;;;;;;;x
+wartime_textileVIII;Military Textile Industry Level 8 ;;;;;;;;;;;;;x
+wartime_textileIX;Military Textile Industry Level 9 ;;;;;;;;;;;;;x
+wartime_textileX;Military Textile Industry Level 10 ;;;;;;;;;;;;;x
+wartime_textileXI;Military Textile Industry Level 11 ;;;;;;;;;;;;;x
+wartime_textileXII;Military Textile Industry Level 12 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsI;Civilian Consumer Goods Industry Level 1 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsII;Civilian Consumer Goods Industry Level 2 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsIII;Civilian Consumer Goods Industry Level 3 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsIV;Civilian Consumer Goods Industry Level 4 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsV;Civilian Consumer Goods Industry Level 5 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsVI;Civilian Consumer Goods Industry Level 6 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsVII;Civilian Consumer Goods Industry Level 7 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsVIII;Civilian Consumer Goods Industry Level 8 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsIX;Civilian Consumer Goods Industry Level 9 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsX;Civilian Consumer Goods Industry Level 10 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsXI;Civilian Consumer Goods Industry Level 11 ;;;;;;;;;;;;;x
+peacetime_consumer_goodsXII;Civilian Consumer Goods Industry Level 12 ;;;;;;;;;;;;;x
+wartime_consumer_goodsI;Civilian Military Supply Industry Level 1 ;;;;;;;;;;;;;x
+wartime_consumer_goodsII;Civilian Military Supply Industry Level 2 ;;;;;;;;;;;;;x
+wartime_consumer_goodsIII;Civilian Military Supply Industry Level 3 ;;;;;;;;;;;;;x
+wartime_consumer_goodsIV;Civilian Military Supply Industry Level 4 ;;;;;;;;;;;;;x
+wartime_consumer_goodsV;Civilian Military Supply Industry Level 5 ;;;;;;;;;;;;;x
+wartime_consumer_goodsVI;Civilian Military Supply Industry Level 6 ;;;;;;;;;;;;;x
+wartime_consumer_goodsVII;Civilian Military Supply Industry Level 7 ;;;;;;;;;;;;;x
+wartime_consumer_goodsVIII;Civilian Military Supply Industry Level 8 ;;;;;;;;;;;;;x
+wartime_consumer_goodsIX;Civilian Military Supply Industry Level 9 ;;;;;;;;;;;;;x
+wartime_consumer_goodsX;Civilian Military Supply Industry Level 10 ;;;;;;;;;;;;;x
+wartime_consumer_goodsXI;Civilian Military Supply Industry Level 11 ;;;;;;;;;;;;;x
+wartime_consumer_goodsXII;Civilian Military Supply Industry Level 12 ;;;;;;;;;;;;;x
+peacetimeautomotiveI;Civilian Automotive Production Industry Level 1 ;;;;;;;;;;;;;x
+peacetimeautomotiveII;Civilian Automotive Production Industry Level 2 ;;;;;;;;;;;;;x
+peacetimeautomotiveIII;Civilian Automotive Production Industry Level 3 ;;;;;;;;;;;;;x
+peacetimeautomotiveIV;Civilian Automotive Production Industry Level 4 ;;;;;;;;;;;;;x
+peacetimeautomotiveV;Civilian Automotive Production Industry Level 5 ;;;;;;;;;;;;;x
+peacetimeautomotiveVI;Civilian Automotive Production Industry Level 6 ;;;;;;;;;;;;;x
+peacetimeautomotiveVII;Civilian Automotive Production Industry Level 7 ;;;;;;;;;;;;;x
+peacetimeautomotiveVIII;Civilian Automotive Production Industry Level 8 ;;;;;;;;;;;;;x
+peacetimeautomotiveIX;Civilian Automotive Production Industry Level 9 ;;;;;;;;;;;;;x
+peacetimeautomotiveX;Civilian Automotive Production Industry Level 10 ;;;;;;;;;;;;;x
+peacetimeautomotiveXI;Civilian Automotive Production Industry Level 11 ;;;;;;;;;;;;;x
+peacetimeautomotiveXII;Civilian Automotive Production Industry Level 12 ;;;;;;;;;;;;;x
+wartimeautomotiveI;Military Automotive Production Industry Level 1 ;;;;;;;;;;;;;x
+wartimeautomotiveII;Military Automotive Production Industry Level 2 ;;;;;;;;;;;;;x
+wartimeautomotiveIII;Military Automotive Production Industry Level 3 ;;;;;;;;;;;;;x
+wartimeautomotiveIV;Military Automotive Production Industry Level 4 ;;;;;;;;;;;;;x
+wartimeautomotiveV;Military Automotive Production Industry Level 5 ;;;;;;;;;;;;;x
+wartimeautomotiveVI;Military Automotive Production Industry Level 6 ;;;;;;;;;;;;;x
+wartimeautomotiveVII;Military Automotive Production Industry Level 7 ;;;;;;;;;;;;;x
+wartimeautomotiveVIII;Military Automotive Production Industry Level 8 ;;;;;;;;;;;;;x
+wartimeautomotiveIX;Military Automotive Production Industry Level 9 ;;;;;;;;;;;;;x
+wartimeautomotiveX;Military Automotive Production Industry Level 10 ;;;;;;;;;;;;;x
+wartimeautomotiveXI;Military Automotive Production Industry Level 11 ;;;;;;;;;;;;;x
+wartimeautomotiveXII;Military Automotive Production Industry Level 12 ;;;;;;;;;;;;;x
+peacetime_military_armsI;Peacetime Miltary Arms Industry Level 1 ;;;;;;;;;;;;;x
+peacetime_military_armsII;Peacetime Miltary Arms Industry Level 2 ;;;;;;;;;;;;;x
+peacetime_military_armsIII;Peacetime Miltary Arms Industry Level 3 ;;;;;;;;;;;;;x
+peacetime_military_armsIV;Peacetime Miltary Arms Industry Level 4 ;;;;;;;;;;;;;x
+peacetime_military_armsV;Peacetime Miltary Arms Industry Level 5 ;;;;;;;;;;;;;x
+peacetime_military_armsVI;Peacetime Miltary Arms Industry Level 6 ;;;;;;;;;;;;;x
+peacetime_military_armsVII;Peacetime Miltary Arms Industry Level 7 ;;;;;;;;;;;;;x
+peacetime_military_armsVIII;Peacetime Miltary Arms Industry Level 8 ;;;;;;;;;;;;;x
+peacetime_military_armsIX;Peacetime Miltary Arms Industry Level 9 ;;;;;;;;;;;;;x
+peacetime_military_armsX;Peacetime Miltary Arms Industry Level 10 ;;;;;;;;;;;;;x
+peacetime_military_armsXI;Peacetime Miltary Arms Industry Level 11 ;;;;;;;;;;;;;x
+peacetime_military_armsXII;Peacetime Miltary Arms Industry Level 12 ;;;;;;;;;;;;;x
+wartime_military_armsI;Wartime Military Arms Production Industry Level 1 ;;;;;;;;;;;;;x
+wartime_military_armsII;Wartime Military Arms Production Industry Level 2 ;;;;;;;;;;;;;x
+wartime_military_armsIII;Wartime Military Arms Production Industry Level 3 ;;;;;;;;;;;;;x
+wartime_military_armsIV;Wartime Military Arms Production Industry Level 4 ;;;;;;;;;;;;;x
+wartime_military_armsV;Wartime Military Arms Production Industry Level 5 ;;;;;;;;;;;;;x
+wartime_military_armsVI;Wartime Military Arms Production Industry Level 6 ;;;;;;;;;;;;;x
+wartime_military_armsVII;Wartime Military Arms Production Industry Level 7 ;;;;;;;;;;;;;x
+wartime_military_armsVIII;Wartime Military Arms Production Industry Level 8 ;;;;;;;;;;;;;x
+wartime_military_armsIX;Wartime Military Arms Production Industry Level 9 ;;;;;;;;;;;;;x
+wartime_military_armsX;Wartime Military Arms Production Industry Level 10 ;;;;;;;;;;;;;x
+wartime_military_armsXI;Wartime Military Arms Production Industry Level 11 ;;;;;;;;;;;;;x
+wartime_military_armsXII;Wartime Military Arms Production Industry Level 12 ;;;;;;;;;;;;;x
+### Decisions ###;;;;;;;;;;;;;;x
+peacetime_textile_industry_I_title;Civilian Textile Industry Level 1 ;;;;;;;;;;;;;x
+peacetime_textile_industry_II_title;Civilian Textile Industry Level 2 ;;;;;;;;;;;;;x
+peacetime_textile_industry_III_title;Civilian Textile Industry Level 3 ;;;;;;;;;;;;;x
+peacetime_textile_industry_IV_title;Civilian Textile Industry Level 4 ;;;;;;;;;;;;;x
+peacetime_textile_industry_V_title;Civilian Textile Industry Level 5 ;;;;;;;;;;;;;x
+peacetime_textile_industry_VI_title;Civilian Textile Industry Level 6 ;;;;;;;;;;;;;x
+peacetime_textile_industry_VII_title;Civilian Textile Industry Level 7 ;;;;;;;;;;;;;x
+peacetime_textile_industry_VIII_title;Civilian Textile Industry Level 8 ;;;;;;;;;;;;;x
+peacetime_textile_industry_IX_title;Civilian Textile Industry Level 9 ;;;;;;;;;;;;;x
+peacetime_textile_industry_X_title;Civilian Textile Industry Level 10 ;;;;;;;;;;;;;x
+peacetime_textile_industry_XI_title;Civilian Textile Industry Level 11 ;;;;;;;;;;;;;x
+peacetime_textile_industry_XII_title;Civilian Textile Industry Level 12 ;;;;;;;;;;;;;x
+peacetime_textile_industry_I_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_II_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_III_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_IV_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_V_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_VI_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_VII_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_VIII_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_IX_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_X_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_XI_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+peacetime_textile_industry_XII_desc;A stronger Civilian Textile Industry will produce more textile goods for our economy ;;;;;;;;;;;;;x
+wartime_textile_industry_I_title;Military Textile Industry Level 1 ;;;;;;;;;;;;;x
+wartime_textile_industry_II_title;Military Textile Industry Level 2 ;;;;;;;;;;;;;x
+wartime_textile_industry_III_title;Military Textile Industry Level 3 ;;;;;;;;;;;;;x
+wartime_textile_industry_IV_title;Military Textile Industry Level 4 ;;;;;;;;;;;;;x
+wartime_textile_industry_V_title;Military Textile Industry Level 5 ;;;;;;;;;;;;;x
+wartime_textile_industry_VI_title;Military Textile Industry Level 6 ;;;;;;;;;;;;;x
+wartime_textile_industry_VII_title;Military Textile Industry Level 7 ;;;;;;;;;;;;;x
+wartime_textile_industry_VIII_title;Military Textile Industry Level 8 ;;;;;;;;;;;;;x
+wartime_textile_industry_IX_title;Military Textile Industry Level 9 ;;;;;;;;;;;;;x
+wartime_textile_industry_X_title;Military Textile Industry Level 10 ;;;;;;;;;;;;;x
+wartime_textile_industry_XI_title;Military Textile Industry Level 11 ;;;;;;;;;;;;;x
+wartime_textile_industry_XII_title;Military Textile Industry Level 12 ;;;;;;;;;;;;;x
+wartime_textile_industry_I_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_II_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_III_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_IV_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_V_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_VI_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_VII_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_VIII_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_IX_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_X_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_XI_desc;A stronger Military Textile Industry will produce more military textile items for our military ;;;;;;;;;;;;;x
+wartime_textile_industry_XII_desc;A stronger Military Textile Industry will produce more military textile items for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_I_title;Civilian Consumer Goods Industry Level 1 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_II_title;Civilian Consumer Goods Industry Level 2 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_III_title;Civilian Consumer Goods Industry Level 3 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_IV_title;Civilian Consumer Goods Industry Level 4 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_V_title;Civilian Consumer Goods Industry Level 5 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_VI_title;Civilian Consumer Goods Industry Level 6 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_VII_title;Civilian Consumer Goods Industry Level 7 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_VIII_title;Civilian Consumer Goods Industry Level 8 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_IX_title;Civilian Consumer Goods Industry Level 9 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_X_title;Civilian Consumer Goods Industry Level 10 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_XI_title;Civilian Consumer Goods Industry Level 11 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_XII_title;Civilian Consumer Goods Industry Level 12 ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_I_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_II_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_III_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_IV_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_V_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_VI_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_VII_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_VIII_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_IX_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_X_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_XI_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+peacetime_consumer_goods_industry_XII_desc;A stronger Civilian Consumer Goods Industry will produce more consumer goods for our economy ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_I_title;Military Supply Goods Industry Level 1 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_II_title;Military Supply Goods Industry Level 2 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_III_title;Military Supply Goods Industry Level 3 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_IV_title;Military Supply Goods Industry Level 4 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_V_title;Military Supply Goods Industry Level 5 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_VI_title;Military Supply Goods Industry Level 6 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_VII_title;Military Supply Goods Industry Level 7 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_VIII_title;Military Supply Goods Industry Level 8 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_IX_title;Military Supply Goods Industry Level 9 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_X_title;Military Supply Goods Industry Level 10 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_XI_title;Military Supply Goods Industry Level 11 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_XII_title;Military Supply Goods Industry Level 12 ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_I_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_II_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_III_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_IV_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_V_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_VI_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_VII_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_VIII_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_IX_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_X_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_XI_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+wartime_consumer_goods_industry_XII_desc;A stronger Military Supply Goods Industry will produce more military supplies for our armed forces ;;;;;;;;;;;;;x
+peacetime_automotive_industry_I_title;Civlian Automotive Production Industry Level 1 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_II_title;Civlian Automotive Production Industry Level 2 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_III_title;Civlian Automotive Production Industry Level 3 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_IV_title;Civlian Automotive Production Industry Level 4 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_V_title;Civlian Automotive Production Industry Level 5 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_VI_title;Civlian Automotive Production Industry Level 6 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_VII_title;Civlian Automotive Production Industry Level 7 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_VIII_title;Civlian Automotive Production Industry Level 8 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_IX_title;Civlian Automotive Production Industry Level 9 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_X_title;Civlian Automotive Production Industry Level 10 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_XI_title;Civlian Automotive Production Industry Level 11 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_XII_title;Civlian Automotive Production Industry Level 12 ;;;;;;;;;;;;;x
+peacetime_automotive_industry_I_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_II_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_III_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_IV_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_V_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_VI_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_VII_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_VIII_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_IX_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_X_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_XI_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+peacetime_automotive_industry_XII_desc;A stronger Civlian Automotive Production Industry will produce more civilian cars for our economy ;;;;;;;;;;;;;x
+wartime_automotive_industry_I_title;Military Automotive Production Industry Level 1 ;;;;;;;;;;;;;x
+wartime_automotive_industry_II_title;Military Automotive Production Industry Level 2 ;;;;;;;;;;;;;x
+wartime_automotive_industry_III_title;Military Automotive Production Industry Level 3 ;;;;;;;;;;;;;x
+wartime_automotive_industry_IV_title;Military Automotive Production Industry Level 4 ;;;;;;;;;;;;;x
+wartime_automotive_industry_V_title;Military Automotive Production Industry Level 5 ;;;;;;;;;;;;;x
+wartime_automotive_industry_VI_title;Military Automotive Production Industry Level 6 ;;;;;;;;;;;;;x
+wartime_automotive_industry_VII_title;Military Automotive Production Industry Level 7 ;;;;;;;;;;;;;x
+wartime_automotive_industry_VIII_title;Military Automotive Production Industry Level 8 ;;;;;;;;;;;;;x
+wartime_automotive_industry_IX_title;Military Automotive Production Industry Level 9 ;;;;;;;;;;;;;x
+wartime_automotive_industry_X_title;Military Automotive Production Industry Level 10 ;;;;;;;;;;;;;x
+wartime_automotive_industry_XI_title;Military Automotive Production Industry Level 11 ;;;;;;;;;;;;;x
+wartime_automotive_industry_XII_title;Military Automotive Production Industry Level 12 ;;;;;;;;;;;;;x
+wartime_automotive_industry_I_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_II_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_III_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_IV_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_V_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_VI_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_VII_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_VIII_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_IX_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_X_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_XI_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+wartime_automotive_industry_XII_desc;A stronger Military Automotive Production Industry will produce more tanks and military vehicles for our armed forces ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_I_title;Peacetime Military Arms Industry Level 1 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_II_title;Peacetime Military Arms Industry Level 2 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_III_title;Peacetime Military Arms Industry Level 3 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_IV_title;Peacetime Military Arms Industry Level 4 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_V_title;Peacetime Military Arms Industry Level 5 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_VI_title;Peacetime Military Arms Industry Level 6 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_VII_title;Peacetime Military Arms Industry Level 7 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_VIII_title;Peacetime Military Arms Industry Level 8 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_IX_title;Peacetime Military Arms Industry Level 9 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_X_title;Peacetime Military Arms Industry Level 10 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_XI_title;Peacetime Military Arms Industry Level 11 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_XII_title;Peacetime Military Arms Industry Level 12 ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_I_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_II_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_III_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_IV_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_V_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_VI_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_VII_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_VIII_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_IX_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_X_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_XI_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+peacetime_military_arms_industry_XII_desc;A stronger Peacetime Military Arms Industry will produce more breakthroughs in military arms research for our military ;;;;;;;;;;;;;x
+wartime_military_arms_industry_I_title;Wartime Miltary Arms Production Industry Level 1 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_II_title;Wartime Miltary Arms Production Industry Level 2 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_III_title;Wartime Miltary Arms Production Industry Level 3 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_IV_title;Wartime Miltary Arms Production Industry Level 4 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_V_title;Wartime Miltary Arms Production Industry Level 5 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_VI_title;Wartime Miltary Arms Production Industry Level 6 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_VII_title;Wartime Miltary Arms Production Industry Level 7 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_VIII_title;Wartime Miltary Arms Production Industry Level 8 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_IX_title;Wartime Miltary Arms Production Industry Level 9 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_X_title;Wartime Miltary Arms Production Industry Level 10 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_XI_title;Wartime Miltary Arms Production Industry Level 11 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_XII_title;Wartime Miltary Arms Production Industry Level 12 ;;;;;;;;;;;;;x
+wartime_military_arms_industry_I_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_II_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_III_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_IV_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_V_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_VI_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_VII_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_VIII_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_IX_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_X_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_XI_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+wartime_military_arms_industry_XII_desc;A stronger Wartime Miltary Arms Production Industry will produce more military weapons of all sorts for our armed forces ;;;;;;;;;;;;;x
+### Events ###;;;;;;;;;;;;;;x
+EVTNAME91075112;The Automotive Industry.;;;;;;;;;;;;;;x
+EVTDESC91075112;Our country is at peace and the Automotive Industry is an important industry for our economy.  By producing Automobiles we can generate corporate tax revenue from the Automotive companies that produce Automobiles in our country. Through political leadership we can influence and direct auto companies to produce more cars for a bigger boom to our economy as well.;;;;;;;;;;;;;;x
+EVTNAME91075113;Decide the direction of the Automotive Industry.;;;;;;;;;;;;;;x
+EVTDESC91075113;We are at war.  We must decided if we wish to continue to produce civilian cars for our people or if we want to take over the automotive factories and have them start producing tanks and vehicles.  The decision is yours to make but we will revist this issue every 6 months if we want to switch production again during wartime.;;;;;;;;;;;;;;x
+EVTNAME91075114;The Consumer Goods Industry.;;;;;;;;;;;;;;x
+EVTDESC91075114;Our country is at peace and the Consumer Goods Industry is an important industry for our economy.  By producing things like refrigerators, radios, and toys we can reduce the nations demand for such items.  Through political leadership we can influence and direct consumer goods companies to produce more consumer goods for a bigger boom to our economy as well.;;;;;;;;;;;;;;x
+EVTNAME91075115;Decide the direction of the Consumer Goods Industry.;;;;;;;;;;;;;;x
+EVTDESC91075115;We are at war.  We must decided if we wish to continue to produce civilian goods for our people or if we want to take over the consumer goods factories and have them start producing things like bullets, artillery shells, and rations.  The decision is yours to make but we will revist this issue every 6 months if we want to switch production again during wartime.;;;;;;;;;;;;;;x
+EVTNAME91075116;The Textile Goods Industry.;;;;;;;;;;;;;;x
+EVTDESC91075116;Our country is at peace and the Textile Goods Industry is an important industry for our economy.  By producing things like furniture, clothing, and various other textile items we can generate a lot of profits and increase industrial output.  Through political leadership we can influence and direct textile goods companies to produce more textile goods for a bigger boom to our economy as well.;;;;;;;;;;;;;;x
+EVTNAME91075117;Decide the direction of the Textile Goods Industry.;;;;;;;;;;;;;;x
+EVTDESC91075117;We are at war.  We must decided if we wish to continue to produce civilian textile goods for our people or if we want to take over the textile factories and have them start producing things like military uniforms and weapons.  The decision is yours to make but we will revist this issue every 6 months if we want to switch production again during wartime.;;;;;;;;;;;;;;x
+EVTNAME91075118;The Military Arms Industry.;;;;;;;;;;;;;;x
+EVTDESC91075118;Our country is at peace and the Military Arms Industry is an important industry for our economy and our defense.  During times of peace our military arms industry will focus more on military research and the education of officers to field more advanced weapons with a smaller military budget.  Through political leadership we can influence and direct miltary arms companies to produce more breakthroughs in miilitary research as well.;;;;;;;;;;;;;;x
+EVTNAME91075119;Decide the direction of the Military Arms Industry.;;;;;;;;;;;;;;x
+EVTDESC91075119;We are at war.  We must decided if we wish to continue to produce breakthroughs for more advanced weaponry or if we want to direct our military arms industry to start producing massive amounts of weapons.  We will be trading quality for quantity if we decide to switch production.  The decision is yours to make but we will revist this issue every 6 months if we want to switch production again during wartime.;;;;;;;;;;;;;;x
+### Event Modifiers ###;;;;;;;;;;;;;;x
+TextileIndustryCooldown;Textile Industry Cooldown;;;;;;;;;;;;;;x
+ConsumerGoodsIndustryCooldown;Consumer Goods Industry Cooldown ;;;;;;;;;;;;;;x
+AutomotiveIndustryCooldown;Automotive Industry Cooldown ;;;;;;;;;;;;;;x
+MilitaryArmsIndustryCooldown;Military Arms Industry Cooldown ;;;;;;;;;;;;;;x
+####eof;;;;;;;;;;;;;;x

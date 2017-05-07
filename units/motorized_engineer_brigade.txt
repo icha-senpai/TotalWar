@@ -1,0 +1,106 @@
+motorized_engineer_brigade = {
+	type = land
+	sprite = Infantry
+	active = no
+	unit_group = support_unit_type
+
+	#Size Definitions
+	max_strength = 10
+	default_organisation = 30
+	default_morale = 0.35
+	officers = 105
+
+	#Building Costs
+	build_cost_ic = 4.15
+	build_cost_manpower = 1.000
+	build_time = 115
+	repair_cost_multiplier = 0.08
+
+	#Misc Abilities
+	maximum_speed = 8.00
+	transport_weight = 4.00
+	supply_consumption = 0.75
+	fuel_consumption = 0.00
+	radio_strength = 0.25
+
+	#Defensive Abilities
+	defensiveness = 12.0
+	toughness = 12.0
+	softness = 1.00
+	air_defence = 5.00
+	armor_value = 0
+
+	#Offensive Abilities
+	suppression = 0.00
+	soft_attack = 0.50
+	hard_attack = 0.50
+	air_attack = 0.00
+	ap_attack = 0
+	
+	plains = {
+		defence = 0.25  ## Slight malus due to no where to hide.  
+		movement = -0.05 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		attack = 1.00 ## Engineers can build stuff to cross river
+		defence = 0.25 ## Easy to defend against enemy crossing river.
+		movement = 0.50 ## Not easy for infantry to cross river.  
+	}
+	arctic = {	
+		defence = 0.20 ## Can still set up defenses even in the cold weather
+		movement = -0.35 ## Not easy to move around on tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 	
+		defence = 0.25  ## Easy to defend but hot
+		movement = -0.05 ## Desert is too hot and big to cross on foot 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		defence = 0.25 ## Slightly easy to defend wooded area
+		movement = -0.25 ## Troops not specially trained to move through woods or forest
+	}
+	forest = {
+		defence = 0.25 ## Easy to defend dense forest
+		movement = -0.35 ## Hard to move through dense forest 
+	}
+	jungle = { 
+		defence = 0.25 ## Slightly easy to defend jungle
+		movement = -0.60  ## Not trained for jungle warfare
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		defence = 0.25 # Easy to defend top of hills
+		movement = -0.35 # Hard to move through hilly areas
+	}
+	mountain = { 
+		defence = 0.15 # Not trained in mountain warfare
+		movement = -0.55 # Not trained in mountain warfare
+	}
+	urban = {
+		defence = 0.25 ## Urban areas are easy to defend
+		movement = -0.05  ## Easy to move through urban streets
+	}
+	marsh = { 
+		defence = 0.15 ## Marshes are difficult defend from too, foxhole keeps getting water in it
+		movement = -1.10 ## Difficult to move through marshes
+	}
+	amphibious = { 
+		defence = 0.25 ## Can build beach obstacles and defenses
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		attack = 0.75 # Not trained to assault fortifications
+		defence = 0.25 # Pillboxes and Fortresses are easy to defend from
+	}
+
+	combat_width = 0.25
+
+	completion_size = 1.1
+	on_completion = infantry_practical
+	
+	priority = 3
+}

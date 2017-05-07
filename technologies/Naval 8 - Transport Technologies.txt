@@ -1,0 +1,785 @@
+################################################################################
+# TRANSPORT TECHNOLOGIES	
+################################################################################
+################################################################################
+# CARGO SHIPS
+################################################################################
+cargo_ships = {
+
+	allow = {
+		Ship_Building_Technologies = 1
+		OR = {
+			AND = {
+				NOT = { cargo_ships = 1 }	
+				seaport = 1
+			}	
+			AND = {
+				NOT = { cargo_ships = 2 }	
+				seaport = 2
+			}	
+			AND = {
+				NOT = { cargo_ships = 3 }	
+				seaport = 3
+			}	
+			AND = {
+				NOT = { cargo_ships = 4 }	
+				seaport = 4
+			}	
+			AND = {
+				NOT = { cargo_ships = 5 }	
+				seaport = 5
+			}	
+			AND = {
+				NOT = { cargo_ships = 6 }	
+				seaport = 6
+			}	
+			AND = {
+				NOT = { cargo_ships = 7 }	
+				seaport = 7
+			}	
+			AND = {
+				NOT = { cargo_ships = 8 }	
+				seaport = 8
+			}	
+			AND = {
+				NOT = { cargo_ships = 9 }	
+				seaport = 9
+			}	
+			AND = {
+				NOT = { cargo_ships = 10 }	
+				seaport = 10
+			}	
+			AND = {
+				NOT = { cargo_ships = 11 }	
+				seaport = 11
+			}	
+			AND = {
+				NOT = { cargo_ships = 12 }	
+				seaport = 12
+			}			
+		}
+	}
+	
+	supply_throughput = 0.01
+	
+	convoy_escort = {
+		efficiency = -0.01
+	}
+		
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+	
+	start_year = 1918
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 12
+	folder = transports_folder
+}
+################################################################################
+# OIL TANKERS
+################################################################################
+oil_tankers = {
+
+	allow = {
+		Ship_Building_Technologies = 1
+		OR = {
+			AND = {
+				NOT = { oil_tankers = 1 }	
+				seaport = 1
+			}	
+			AND = {
+				NOT = { oil_tankers = 2 }	
+				seaport = 2
+			}	
+			AND = {
+				NOT = { oil_tankers = 3 }	
+				seaport = 3
+			}	
+			AND = {
+				NOT = { oil_tankers = 4 }	
+				seaport = 4
+			}	
+			AND = {
+				NOT = { oil_tankers = 5 }	
+				seaport = 5
+			}	
+			AND = {
+				NOT = { oil_tankers = 6 }	
+				seaport = 6
+			}	
+			AND = {
+				NOT = { oil_tankers = 7 }	
+				seaport = 7
+			}	
+			AND = {
+				NOT = { oil_tankers = 8 }	
+				seaport = 8
+			}	
+			AND = {
+				NOT = { oil_tankers = 9 }	
+				seaport = 9
+			}	
+			AND = {
+				NOT = { oil_tankers = 10 }	
+				seaport = 10
+			}	
+			AND = {
+				NOT = { oil_tankers = 11 }	
+				seaport = 11
+			}	
+			AND = {
+				NOT = { oil_tankers = 12 }	
+				seaport = 12
+			}	
+		}
+	}	
+	
+	refinery_efficiency = 0.01
+	
+	convoy_escort = {
+		efficiency = -0.01
+	}
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+	
+	start_year = 1918
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 12
+	folder = transports_folder
+}
+################################################################################
+# ARMED CONVOY SHIPS
+################################################################################
+armed_convoy_ships = {
+
+	allow = {
+		cargo_ships = 1
+	}
+		
+	escort_efficiency = 0.05
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+	
+	start_year = 1941
+	folder = transports_folder
+}
+################################################################################
+# SEAPLANE TENDERS
+################################################################################
+seaplane_tenders = {
+
+	allow = {
+		Ship_Building_Technologies = 1
+		seaplane_focus = 1 
+	}
+	
+	activate_unit = seaplane_tender
+	
+	Flying_boat = { 	
+		default_organisation = 10
+		default_morale = 0.10
+		range = 1000.00
+		air_defence = -0.75
+		}
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+	
+	start_year = 1936
+	folder = transports_folder
+}
+################################################################################
+# TRANSPORT SHIPS
+################################################################################
+transport_ships = {
+	
+	activate_unit = transport_ship 
+
+	allow = {
+		num_of_ports  = 1
+	}
+ 
+	research_bonus_from = {
+		naval_engineering = 0.5
+		transport_practical = 0.2
+	}
+	
+	on_completion = naval_engineering
+	
+	difficulty = 6
+
+	start_year = 1918
+	folder = transports_folder
+}
+################################################################################
+# TROOP TRANSPORT SHIPS
+################################################################################
+troop_transport_ships = {
+
+	allow = {
+		industral_production = 1 
+		Ship_Building_Technologies = 1 
+	}
+	
+	activate_unit = landing_craft
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		transport_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+	
+	start_year = 1937
+	folder = transports_folder
+}
+################################################################################
+# LANDING CRAFT
+################################################################################
+amphibious_landing_craft = {
+
+	allow = {
+		troop_transport_ships = 1
+		Ship_Building_Technologies = 4
+				
+	}
+	
+	landing_craft = { 
+		amphibious_invasion_speed = 15.0 			
+	}
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		transport_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+	
+	start_year = 1941
+	folder = transports_folder
+}
+################################################################################
+# LST's
+################################################################################
+lst = {
+
+	allow = {
+		troop_transport_ships = 1
+		Ship_Building_Technologies = 1
+		amphibious_landing_craft = 2
+		amphibious_assault = 1 
+	}
+	
+	activate_unit = assault_ship
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		transport_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+	
+	start_year = 1942
+	folder = transports_folder
+}
+################################################################################
+# Landing Ship Dock
+################################################################################
+landing_ship_dock = {
+
+	allow = {
+		troop_transport_ships = 1
+		Ship_Building_Technologies = 1
+		amphibious_landing_craft = 3
+		lst = 1
+		amphibious_invasion = 1
+	}
+	
+	activate_unit = landing_ship_dock
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+		transport_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 10
+	
+	start_year = 1944
+	folder = transports_folder
+}
+
+################################################################################
+# Transport Ship Hull
+################################################################################
+transport_ship_hull = {
+
+	allow = {
+		transport_ship_activation = 1
+	}
+	
+	transport_ship = {
+		hull = 0.1
+		transport_capability = 5.00
+		fuel_consumption = 0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+	}
+	Convoy_raider_ship = {
+		hull = 0.1
+		fuel_consumption = 0.05
+		sea_defence = 0.5
+		air_defence = 0.33
+	}
+	escort_carrier = {
+		hull = 0.1
+		fuel_consumption = 0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+	}
+	
+	landing_craft = {
+		hull = 0.1
+		transport_capability = 2.00
+		fuel_consumption = 0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+	}
+	assault_ship = {
+		hull = 0.1
+		transport_capability = 4.00
+		fuel_consumption = 0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+	}
+	
+	landing_ship_dock = {
+		hull = 0.1
+		transport_capability = 2.00
+		fuel_consumption = 0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+	}
+	transport_dock_ship = {
+		hull = 0.1
+		transport_capability = 2.00
+		fuel_consumption = 0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+	}
+	landing_platform_helicopter = {
+		hull = 0.1
+		transport_capability = 2.00
+		fuel_consumption = 0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+	}
+
+	research_bonus_from = {
+		naval_engineering = 0.5
+		transport_practical = 0.2
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+
+	start_year = 1937
+	first_offset = 1938
+	additional_offset = 2	
+	max_level = 9
+	folder = transports_folder
+}
+################################################################################
+# Transport Ship Engine
+################################################################################
+transport_ship_engine = {
+
+	allow = {
+		transport_ship_activation = 1
+	}
+	
+	transport_ship = {
+		maximum_speed = 2
+		range = 200
+		air_defence = 0.25
+		fuel_consumption = 0.02
+		positioning = 0.05
+	}
+	Convoy_raider_ship = {
+		maximum_speed = 2
+		fuel_consumption = 0.02
+		range = 200		
+		air_defence = 0.25
+		positioning = 0.05
+	}
+	escort_carrier = {
+		maximum_speed = 2
+		fuel_consumption = 0.02
+		range = 200		
+		air_defence = 0.25
+		positioning = 0.05
+	}
+	
+	landing_craft = {
+		maximum_speed = 2
+		fuel_consumption = 0.02
+		range = 200		
+		air_defence = 0.25
+		positioning = 0.05
+	}
+	assault_ship = {
+		maximum_speed = 2
+		fuel_consumption = 0.02
+		range = 200		
+		air_defence = 0.25
+		positioning = 0.05
+	}
+	
+	landing_ship_dock = {
+		maximum_speed = 2
+		fuel_consumption = 0.02
+		range = 200		
+		air_defence = 0.25
+		positioning = 0.05
+	}
+	transport_dock_ship = {
+		maximum_speed = 2
+		fuel_consumption = 0.02
+		range = 200		
+		air_defence = 0.25
+		positioning = 0.05
+	}
+	landing_platform_helicopter = {
+		maximum_speed = 2
+		fuel_consumption = 0.02
+		range = 200		
+		air_defence = 0.25
+		positioning = 0.05
+	}
+
+	research_bonus_from = {
+		naval_engineering = 0.3
+		transport_practical = 0.2
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+
+	start_year = 1937
+	first_offset = 1938
+	additional_offset = 2	
+	max_level = 9
+	folder = transports_folder
+}
+################################################################################
+# Amphibious Ship Defenses
+################################################################################
+amphibious_ship_defenses = {
+
+	allow = {
+		amphibious_invasion_craft = 1
+	}
+	
+	landing_craft = {
+		sea_defence = 1.0
+		air_defence = 1.0
+	}
+	assault_ship = {
+		sea_defence = 1.0
+		air_defence = 1.0
+	}
+	
+	landing_ship_dock = {
+		sea_defence = 1.0
+		air_defence = 1.0
+	}
+	transport_dock_ship = {
+		sea_defence = 1.0
+		air_defence = 1.0
+	}
+	landing_platform_helicopter = {
+		sea_defence = 1.0
+		air_defence = 1.0
+	}
+ 
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+
+	change = no
+	on_completion = naval_engineering
+
+	difficulty = 5
+	
+	start_year = 1940
+	first_offset = 1942
+	additional_offset = 2
+	max_level = 12
+	folder = transports_folder
+}
+################################################################################
+# Landing Craft Bow Ramps
+################################################################################
+landing_craft_bow_ramps = {
+
+	allow = {
+		amphibious_landing_craft = 1
+	}
+	
+	landing_craft = {
+		amphibious_invasion_speed = 0.10
+	}
+	assault_ship = {
+		amphibious_invasion_speed = 0.10
+	}
+	
+	landing_ship_dock = {
+		amphibious_invasion_speed = 0.10
+	}
+	transport_dock_ship = {
+		amphibious_invasion_speed = 0.10
+	}
+	 
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+	
+	change = no
+	on_completion = naval_engineering
+
+	difficulty = 4
+	
+	start_year = 1941
+	folder = transports_folder
+}
+################################################################################
+# Landing Craft Machine Gun Positions
+################################################################################
+landing_craft_machinegun_positions = {
+
+	allow = {
+		amphibious_landing_craft = 1
+	}
+
+	landing_craft = {
+		amphibious_invasion_defence = 0.10
+		shore_bombardment = 0.50
+	}
+	assault_ship = {
+		amphibious_invasion_defence = 0.10
+		shore_bombardment = 1.0
+	}
+	
+	landing_ship_dock = {
+		amphibious_invasion_defence = 0.10
+		shore_bombardment = 1.0
+	}
+	transport_dock_ship = {
+		amphibious_invasion_defence = 0.10
+		shore_bombardment = 1.0
+	}
+ 
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+	
+	change = no
+	on_completion = naval_engineering
+
+	difficulty = 4
+	
+	start_year = 1941
+	first_offset = 1942
+	additional_offset = 2
+	max_level = 6
+	folder = transports_folder
+}
+################################################################################
+# Landing Craft Armor Plating
+################################################################################
+landing_craft_armor_plating = {
+
+	allow = {
+		amphibious_landing_craft = 1
+	}
+	
+	landing_craft = {
+		amphibious_invasion_defence = 0.10
+		amphibious_invasion_speed = -0.03
+	}
+	assault_ship = {
+		amphibious_invasion_defence = 0.10
+		amphibious_invasion_speed = -0.03
+	}
+	
+	landing_ship_dock = {
+		amphibious_invasion_defence = 0.10
+		amphibious_invasion_speed = -0.03
+	}
+	transport_dock_ship = {
+		amphibious_invasion_defence = 0.10
+		amphibious_invasion_speed = -0.03
+	}
+ 
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+	
+	change = no
+	on_completion = naval_engineering
+
+	difficulty = 4
+	
+	start_year = 1941
+	first_offset = 1943
+	additional_offset = 2
+	max_level = 6
+	folder = transports_folder
+}
+################################################################################
+# Landing Craft Twin Engines
+################################################################################
+landing_craft_twin_engines = {
+
+	allow = {
+		amphibious_landing_craft = 1
+	}
+	
+	landing_craft = {
+		amphibious_invasion_speed = 0.05
+	}
+	assault_ship = {
+		amphibious_invasion_speed = 0.05
+	}
+	
+	landing_ship_dock = {
+		amphibious_invasion_speed = 0.05
+	}
+	transport_dock_ship = {
+		amphibious_invasion_speed = 0.05
+	}
+ 
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+	
+	change = no
+	on_completion = naval_engineering
+
+	difficulty = 4
+	
+	start_year = 1941
+	first_offset = 1942
+	additional_offset = 2
+	max_level = 6
+	folder = transports_folder
+}
+################################################################################
+# Landing Craft Auxiliary Fuel Tanks
+################################################################################
+landing_craft_auxiliary_fuel_tanks = {
+
+	allow = {
+		amphibious_landing_craft = 1
+	}
+	
+	landing_craft = {
+		amphibious_invasion_speed = 0.03
+	}
+	assault_ship = {
+		amphibious_invasion_speed = 0.03
+	}
+	
+	landing_ship_dock = {
+		amphibious_invasion_speed = 0.03
+	}
+	transport_dock_ship = {
+		amphibious_invasion_speed = 0.03
+	}
+ 
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+	
+	change = no
+	on_completion = naval_engineering
+
+	difficulty = 4
+	
+	start_year = 1941
+	first_offset = 1943
+	additional_offset = 2
+	max_level = 6
+	folder = transports_folder
+}
+################################################################################
+# Landing Craft Troop Capacity
+################################################################################
+landing_craft_troop_capacity = {
+
+	allow = {
+		amphibious_landing_craft = 1
+	}
+	
+	landing_craft = {
+		transport_capability = 0.50
+	}
+	assault_ship = {
+		transport_capability = 1.00
+	}
+	
+	landing_ship_dock = {
+		transport_capability = 1.00
+	}
+	transport_dock_ship = {
+		transport_capability = 1.00
+	}
+	
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+	
+	change = no
+	on_completion = naval_engineering
+
+	difficulty = 4
+	
+	start_year = 1941
+	first_offset = 1942
+	additional_offset = 2
+	max_level = 12
+	folder = transports_folder
+}

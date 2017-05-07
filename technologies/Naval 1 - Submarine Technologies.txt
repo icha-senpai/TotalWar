@@ -1,0 +1,1482 @@
+################################################################################
+# SUBMARINE TECHNOLOGIES	
+################################################################################
+################################################################################
+# SUBMARINE TECHNOLOGY	
+################################################################################
+submarine_technology = {
+	
+	allow = {
+		num_of_ports = 1
+		world_war_one_warfare = 1
+		submarine_construction_technolgies = 1
+	}
+	
+	activate_unit = coastal_submarine
+	
+	research_bonus_from = {
+		submarine_engineering = 1	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 4
+
+	start_year = 1918
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE CLASS
+################################################################################
+submarine_class = {
+	
+	allow = {
+		submarine_technology = 1
+		OR = {
+			AND = {
+				NOT = { submarine_class = 1 }  # 1918
+				submarine_construction_technolgies = 1
+				submarine_propulsion = 1
+				submarine_pressure_hull = 1	
+				submarine_batteries = 1  
+				submarine_torpedo_tubes = 1
+				submarine_crew_berthing = 1
+				submarine_periscope = 1			
+			}
+			AND = {
+				NOT = { submarine_class = 2 }    # 1936
+				submarine_construction_technolgies = 4
+				OR = {
+					submarine_propulsion = 2
+					submarine_pressure_hull = 2
+				}
+				OR = {
+					submarine_batteries = 2 				
+					submarine_crew_berthing = 2
+				}	
+			}
+			AND = {
+				NOT = { submarine_class = 3 }    # 1938
+				submarine_construction_technolgies = 6
+				OR = {
+					submarine_propulsion = 3
+					submarine_pressure_hull = 3
+				}
+				OR = {
+					submarine_batteries = 3				
+					submarine_crew_berthing = 3
+				}		
+			}
+			AND = {
+				NOT = { submarine_class = 4 }    # 1940
+				submarine_construction_technolgies = 8
+				OR = {
+					submarine_propulsion = 4
+					submarine_pressure_hull = 4
+				}
+				OR = {
+					submarine_batteries = 4				
+					submarine_crew_berthing = 4
+				}	
+			}
+			AND = {
+				NOT = { submarine_class = 5 }    # 1942
+				submarine_construction_technolgies = 10
+				OR = {
+					submarine_propulsion = 5
+					submarine_pressure_hull = 5
+				}
+				OR = {
+					submarine_batteries = 5				
+					submarine_crew_berthing = 5
+				}		
+			}
+			AND = {
+				NOT = { submarine_class = 6 }    # 1944
+				submarine_construction_technolgies = 12
+				submarine_snorkel = 1
+				submarine_streamlined_hull = 1
+				submarine_torpedo_auto_loading_system = 1
+				submarine_large_battery_capacity = 1
+				submarine_thick_pressure_hull = 1
+				submarine_air_conditioning = 1
+				submarine_silent_running_drive = 1
+				submarine_echo_chamber_sonar_system = 1				
+				OR = {
+					submarine_propulsion = 6
+					submarine_pressure_hull = 6
+				}
+				OR = {
+					submarine_batteries = 6				
+					submarine_crew_berthing = 6
+				}
+			}
+			AND = {
+				NOT = { submarine_class = 7 }    # 1946
+				submarine_construction_technolgies = 14
+				OR = {
+					submarine_propulsion = 7
+					submarine_pressure_hull = 7
+				}
+				OR = {
+					submarine_batteries = 7				
+					submarine_crew_berthing = 7
+				}	
+			}
+			AND = {
+				NOT = { submarine_class = 8 }    # 1948
+				submarine_construction_technolgies = 16
+				OR = {
+					submarine_propulsion = 8
+					submarine_pressure_hull = 8
+				}
+				OR = {
+					submarine_batteries = 8				
+					submarine_crew_berthing = 8
+				}		
+			}
+			AND = {
+				NOT = { submarine_class = 9 }    # 1950
+				submarine_construction_technolgies = 18
+				OR = {
+					submarine_propulsion = 9
+					submarine_pressure_hull = 9
+				}
+				OR = {
+					submarine_batteries = 9				
+					submarine_crew_berthing = 9
+				}		
+			}	
+			AND = {
+				NOT = { submarine_class = 10 }    # 1952
+				submarine_construction_technolgies = 20
+				OR = {
+					submarine_propulsion = 10
+					submarine_pressure_hull = 10
+				}
+				OR = {
+					submarine_batteries = 10 				
+					submarine_crew_berthing = 10
+				}		
+			}	
+			AND = {
+				NOT = { submarine_class = 11 }    # 1954
+				submarine_construction_technolgies = 22
+				OR = {
+					submarine_propulsion = 11
+					submarine_pressure_hull = 11
+				}
+				OR = {
+					submarine_batteries = 11				
+					submarine_crew_berthing = 11
+				}		
+			}
+			AND = {
+				NOT = { submarine_class = 12 }    # 1956
+				submarine_construction_technolgies = 24
+				OR = {
+					submarine_propulsion = 12
+					submarine_pressure_hull = 12
+				}
+				OR = {
+					submarine_batteries = 12				
+					submarine_crew_berthing = 12
+				}		
+			}
+		}
+		
+	}
+	
+	activate_unit = submarine
+	
+	submarine = {
+		build_cost_ic =  0.25
+		build_cost_manpower = 0.001
+		build_time = 5
+		range = 50
+		positioning = 0.01
+		distance = 0.01
+		visibility = -1
+		sea_defence = 0.50
+		air_defence = 0.50
+		convoy_attack = 0.25
+		sea_attack = 0.25
+		sub_attack = 0.05
+	}
+		
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 12 # 1956
+	folder = submarine_folder
+}
+################################################################################
+# LONG RANGE SUBMARINE CLASS
+################################################################################
+long_range_submarine_class = {
+	
+	allow = {
+		submarine_technology = 1
+		OR = {
+			AND = {
+				NOT = { long_range_submarine_class = 1 }  # 1926
+				submarine_construction_technolgies = 1
+				submarine_propulsion = 1
+				submarine_pressure_hull = 1	
+				submarine_batteries = 1  
+				submarine_torpedo_tubes = 1
+				submarine_crew_berthing = 1
+				submarine_periscope = 1			
+			}
+			AND = {
+				NOT = { long_range_submarine_class = 2 }    # 1937
+				submarine_construction_technolgies = 6
+				OR = {
+					submarine_propulsion = 2
+					submarine_pressure_hull = 2
+				}
+				OR = {
+					submarine_batteries = 2 				
+					submarine_crew_berthing = 2
+				}	
+			}
+			AND = {
+				NOT = { long_range_submarine_class = 3 }    # 1939
+				submarine_construction_technolgies = 8
+				OR = {
+					submarine_propulsion = 3
+					submarine_pressure_hull = 3
+				}
+				OR = {
+					submarine_batteries = 3				
+					submarine_crew_berthing = 3
+				}		
+			}
+			AND = {
+				NOT = { long_range_submarine_class = 4 }    # 1941
+				submarine_construction_technolgies = 10
+				OR = {
+					submarine_propulsion = 4
+					submarine_pressure_hull = 4
+				}
+				OR = {
+					submarine_batteries = 4				
+					submarine_crew_berthing = 4
+				}	
+			}
+			AND = {
+				NOT = { long_range_submarine_class = 5 }    # 1943
+				submarine_construction_technolgies = 12
+				OR = {
+					submarine_propulsion = 5
+					submarine_pressure_hull = 5
+				}
+				OR = {
+					submarine_batteries = 5				
+					submarine_crew_berthing = 5
+				}			
+			}
+		}
+		
+	}
+		
+	activate_unit = long_range_submarine
+	
+	long_range_submarine = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.001
+		build_time = 5
+		range = 50
+		positioning = 0.01
+		distance = 0.01
+		visibility = -1
+		sea_defence = 0.50
+		air_defence = 0.50
+		convoy_attack = 0.25
+		sea_attack = 0.25
+		sub_attack = 0.05
+	}
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 7
+
+	start_year = 1926
+	first_offset = 1937		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5 # 1956
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE PROPULSION
+################################################################################
+submarine_propulsion = {
+	
+	allow = {
+		submarine_technology = 1
+	}
+
+	submarine = {
+		build_cost_ic =  0.04
+		build_time = 2
+		maximum_speed = 0.50
+		range = 100
+		positioning = 0.03
+		sea_defence = 0.35
+		air_defence = 0.35
+		convoy_attack = 0.15
+		sea_attack = 0.15
+		sub_attack = 0.01
+		distance = 0.01
+		visibility = -1
+	}
+	
+	long_range_submarine = {
+		build_cost_ic =  0.04
+		build_time = 2
+		maximum_speed = 0.50
+		range = 100
+		positioning = 0.03
+		sea_defence = 0.35
+		air_defence = 0.35
+		convoy_attack = 0.15
+		sea_attack = 0.15
+		sub_attack = 0.01
+		distance = 0.01
+		visibility = -1
+	}
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 12 # 1956
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE PRESSURE HULL
+################################################################################
+submarine_pressure_hull = {
+
+	allow = {
+		submarine_technology = 1
+	}
+
+	submarine = {
+		build_cost_ic =  0.03
+		build_time = 3
+		range = 50
+		sea_defence = 0.75
+		convoy_attack = 0.05
+		sea_attack = 0.05
+		sub_attack = 0.01
+	}
+	
+	long_range_submarine = {
+		build_cost_ic =  0.03
+		build_time = 3
+		range = 50
+		sea_defence = 0.75
+		convoy_attack = 0.05
+		sea_attack = 0.05
+		sub_attack = 0.01
+	}
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 11 # 1955
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE BATTERIES
+################################################################################
+submarine_batteries = {
+	
+	allow = {
+		submarine_technology = 1
+	}
+
+	submarine = {
+		build_cost_ic =  0.04
+		build_time = 3
+		positioning = 0.03
+		visibility = -0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+		convoy_attack = 0.15
+		sea_attack = 0.15
+		sub_attack = 0.03
+	}
+	
+	long_range_submarine = {
+		build_cost_ic =  0.04
+		build_time = 3
+		positioning = 0.03
+		visibility = -0.05
+		sea_defence = 0.25
+		air_defence = 0.25
+		convoy_attack = 0.15
+		sea_attack = 0.15
+		sub_attack = 0.03
+	}
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 5
+
+	start_year = 1918
+	first_offset = 1937		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 11 # 1955
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE AA-ARMAMENT
+################################################################################
+submarine_anti_air = {
+	
+	allow = {
+		submarine_technology = 1
+	}
+
+	submarine = {
+		build_cost_ic =  0.015
+		build_time = 1
+		convoy_attack = 0.10
+		sea_attack = 0.10
+		air_attack = 0.25
+	}
+	
+	long_range_submarine = {
+		build_cost_ic =  0.015
+		build_time = 1
+		convoy_attack = 0.10
+		sea_attack = 0.10
+		air_attack = 0.25
+	}
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 3
+
+	start_year = 1938
+	first_offset = 1940		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 4 # 1944
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE Torpedo Tubes
+################################################################################
+submarine_torpedo_tubes = {
+	
+	allow = {
+		submarine_technology = 1
+	}
+
+	submarine = {
+		default_organisation = 2
+		build_cost_ic =  0.02
+		build_cost_manpower = 0.001
+		build_time = 5
+		range = -100
+		convoy_attack = 0.45
+		sea_attack = 0.45
+		sub_attack = 0.01
+	}
+	
+	long_range_submarine = {
+		default_organisation = 2
+		build_cost_ic =  0.02
+		build_cost_manpower = 0.001
+		build_time = 5
+		range = -100
+		convoy_attack = 0.45
+		sea_attack = 0.45
+		sub_attack = 0.01
+	}
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 5
+
+	start_year = 1918
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 8 # 1954
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE CREW BERTHING
+################################################################################
+submarine_crew_berthing = {
+	
+	allow = {
+		submarine_technology = 1
+	}
+
+	submarine = {
+		default_morale = 0.02
+		build_cost_ic =  0.02
+		build_time = 3
+		range = -100
+	}
+	long_range_submarine = {
+		default_morale = 0.02
+		build_cost_ic =  0.02
+		build_time = 3
+		range = -100
+	}
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 4
+
+	start_year = 1918
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 11 # 1955
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE PERISCOPE
+################################################################################
+submarine_periscope = {
+	
+	allow = {
+		submarine_technology = 1
+	}
+
+	submarine = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		visibility = -0.05
+		convoy_attack = 0.25
+		sea_attack = 0.25
+	}
+	long_range_submarine = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		visibility = -0.05
+		convoy_attack = 0.25
+		sea_attack = 0.25
+	}
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 8 # 1954
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE SNORKEL
+################################################################################
+submarine_snorkel = {
+	
+	allow = {
+		submarine_technology = 1
+		submarine_propulsion = 3
+		naval_battles_fought = 300
+	}
+
+	submarine = {
+		build_cost_ic =  0.09
+		build_time = 5
+		positioning = 0.01
+		visibility = -0.55
+		sea_defence = 0.75
+		air_defence = 0.75
+	}
+	
+	long_range_submarine = {
+		build_cost_ic =  0.09
+		build_time = 5
+		positioning = 0.01
+		visibility = -0.55
+		sea_defence = 0.75
+		air_defence = 0.75
+	}
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 15
+
+	start_year = 1938
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE STREAMLINED HULL
+################################################################################
+submarine_streamlined_hull = {
+	
+	allow = {
+		submarine_technology = 1
+		submarine_pressure_hull = 5
+		submarine_class = 5
+	}
+
+	submarine = {
+		build_cost_ic =  0.05
+		build_time = 3
+		range = 100
+		positioning = 0.01
+		sea_defence = 0.25
+		convoy_attack = 0.25
+		sea_attack = 0.25
+	}
+	
+	
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 12
+
+	start_year = 1942
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE AIR INDEPENDENT PROPULSION
+################################################################################
+submarine_air_independent_propulsion = {
+	
+	allow = {
+		submarine_technology = 1
+		submarine_propulsion = 4
+		submarine_class = 5
+	}
+
+	submarine = {
+		build_cost_ic =  0.45
+		build_cost_manpower = 0.005
+		build_time = 15
+		range = -250
+		positioning = 0.15
+		visibility = -5.00
+		sea_defence = 2.00
+		air_defence = 2.00
+		convoy_attack = 2.25
+		sea_attack = 2.25
+	}	
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 15
+
+	start_year = 1942
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE TORPEDO AUTOLOADING SYSTEM
+################################################################################
+submarine_torpedo_auto_loading_system = {
+	
+	allow = {
+		submarine_technology = 1
+		submarine_class = 5
+		submarine_torpedo_tubes = 4
+	}
+
+	submarine = {
+		build_cost_ic =  0.30
+		build_cost_manpower = 0.005	
+		convoy_attack = 7.0
+		sea_attack = 7.0
+	}
+		
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 14
+
+	start_year = 1941
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE LARGE BATTERY CAPACITY
+################################################################################
+submarine_large_battery_capacity = {
+	
+	allow = {
+		submarine_technology = 1
+		submarine_class = 5
+		submarine_batteries = 3
+	}
+
+	submarine = {
+		build_cost_ic = 0.65
+		build_time = 25
+		positioning = 0.35
+		visibility = -10.00
+		sea_defence = 5.00
+		air_defence = 5.00
+	}
+		
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 15
+
+	start_year = 1940
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE THICK PRESSURE HULL
+################################################################################
+submarine_thick_pressure_hull = {
+	
+	allow = {
+		submarine_technology = 1
+		submarine_class = 5
+		submarine_pressure_hull = 4
+	}
+
+	submarine = {
+		build_cost_ic = 0.35
+		build_time = 10
+		visibility = -5.00
+		sea_defence = 5.00
+		air_defence = 5.00
+	}
+		
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 15
+
+	start_year = 1941
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE AIR CONDITIONING
+################################################################################
+submarine_air_conditioning = {
+	
+	allow = {
+		submarine_technology = 1
+		submarine_class = 5
+	}
+
+	submarine = {
+		build_cost_ic = 0.75
+		default_morale = 0.15
+		build_time = 10
+		range = -200
+	}
+		
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 15
+
+	start_year = 1942
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE SILENT RUNNING DRIVE
+################################################################################
+submarine_silent_running_drive = {
+	
+	allow = {
+		submarine_technology = 1
+		submarine_class = 5
+		submarine_propulsion = 4
+	}
+
+	submarine = {
+		build_cost_ic = 0.75
+		build_time = 10
+		sea_defence = 5.00
+	}
+		
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 18
+
+	start_year = 1942
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE ECHO CHAMBER SONAR SYSTEM
+################################################################################
+submarine_echo_chamber_sonar_system = {
+	
+	allow = {
+		submarine_technology = 1
+		submarine_class = 5
+		submarine_hydrophones = 3
+	}
+
+	submarine = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.002
+		build_time = 5
+		surface_detection = 3.00
+		sub_detection = 3.00
+	}
+		
+	can_upgrade = no
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 16
+
+	start_year = 1942
+	folder = submarine_folder
+}
+################################################################################
+# SUPPORT SUBMARINES
+################################################################################
+support_submarines = {
+	
+	allow = {
+		submarine_technology = 1
+		unrestricted_submarine_warfare = 1
+	}
+
+	submarine = {
+		default_organisation = 1
+		default_morale = 0.01
+		range = 500
+		visibility = 1.00
+		air_defence = -1.00
+	}
+	
+	long_range_submarine = {
+		default_organisation = 1
+		default_morale = 0.01
+		range = 500
+		visibility = 1.00
+		air_defence = -1.00
+	}
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+	
+	change = no
+
+	on_completion = submarine_engineering
+
+	difficulty = 8
+
+	start_year = 1942
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE TENDERS
+################################################################################
+submarine_tenders = {
+	
+	allow = {
+		submarine_technology = 1
+		naval_base_oil_tanks = 3
+		naval_base_repair_facilities = 3
+		naval_base_ordnance_depot = 3
+	}
+
+	submarine = {
+		default_organisation = 5
+		default_morale = 0.05
+		range = 1000
+		visibility = 2.00
+		air_defence = -2.00
+	}
+	
+	long_range_submarine = {
+		default_organisation = 5
+		default_morale = 0.05
+		range = 1000
+		visibility = 2.00
+		air_defence = -2.00
+	}
+	
+	research_bonus_from = {
+		submarine_practical = 0.20		
+	}
+	
+	change = no
+
+	on_completion = submarine_practical
+
+	difficulty = 6
+
+	start_year = 1943
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE ACTIVE SONARS
+################################################################################
+submarine_active_sonars = {
+	
+	allow = {
+		submarine_technology = 1
+		electronics_engineering = 1
+	}
+
+	submarine = {
+		build_cost_ic =  0.03
+		build_cost_manpower = 0.001
+		build_time = 2
+		surface_detection = 0.75
+		sub_detection = 0.75
+		sea_defence = -1.0
+		visibility = 5.0
+	}
+	long_range_submarine = {
+		build_cost_ic =  0.03
+		build_cost_manpower = 0.001
+		build_time = 2
+		surface_detection = 0.75
+		sub_detection = 0.75
+		sea_defence = -1.0
+		visibility = 5.0
+	}
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 7
+
+	start_year = 1937
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE HYDROPHONES
+################################################################################
+submarine_hydrophones = {
+
+	allow = {
+		submarine_technology = 1
+		electronics_engineering = 1
+	}
+
+	submarine = {
+		build_cost_ic =  0.02
+		build_cost_manpower = 0.001
+		build_time = 1
+		surface_detection = 0.30
+		sub_detection = 0.30
+		sea_defence = 0.25
+	}
+	long_range_submarine = {
+		build_cost_ic =  0.02
+		build_cost_manpower = 0.001
+		build_time = 1
+		surface_detection = 0.30
+		sub_detection = 0.30
+		sea_defence = 0.25
+	}
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 6
+
+	start_year = 1936
+	first_offset = 1939		
+	additional_offset = 3	
+	max_level = 3 # 1942
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE RADAR SETS
+################################################################################
+submarine_radar_sets = {
+	
+	allow = {
+		submarine_technology = 1
+		naval_radar = 2
+	}
+
+	submarine = {
+		build_cost_ic =  0.10
+		build_cost_manpower = 0.001
+		build_time = 1
+		surface_detection = 1.00
+		air_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 1.00
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	long_range_submarine = {
+		build_cost_ic =  0.10
+		build_cost_manpower = 0.001
+		build_time = 1
+		surface_detection = 1.00
+		air_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 1.00
+		sea_attack = 1.00	
+		sea_defence = 0.25
+	}
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20	
+		electornicegineering_theory = 0.20	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 9
+
+	start_year = 1940
+	first_offset = 1942		
+	additional_offset = 2	
+	max_level = 3 # 1944
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE FIRE CONTROL
+################################################################################
+submarine_fire_control = {
+	
+	allow = {
+		submarine_technology = 1
+		electronics_engineering = 1
+	}
+
+	submarine = {
+		build_cost_ic = 0.05
+		build_time = 1
+		distance = 0.01
+		convoy_attack = 0.55
+		sea_attack = 0.55
+		sub_attack = 0.05
+	}
+	
+	long_range_submarine = {
+		build_cost_ic = 0.05
+		build_time = 1
+		distance = 0.01
+		convoy_attack = 0.55
+		sea_attack = 0.55
+		sub_attack = 0.05
+	}
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20	
+		electornicegineering_theory = 0.20	
+	}
+
+	on_completion = submarine_engineering
+
+	difficulty = 8
+
+	start_year = 1936
+	first_offset = 1938		
+	additional_offset = 2	
+	max_level = 4 # 1942
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE DAMAGE CONTROL
+################################################################################
+submarine_damage_control = {
+	
+	allow = {
+		submarine_technology = 1
+		electro_mechanical_engineering = 1
+	}
+
+	submarine = {
+		sea_defence = 0.55
+	}
+	
+	long_range_submarine = {
+		sea_defence = 0.55
+	}
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+	
+	change = no
+
+	on_completion = submarine_engineering
+
+	difficulty = 4
+
+	start_year = 1918
+	first_offset = 1936		
+	additional_offset = 2	
+	max_level = 7 # 1946
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE TORPEDO
+################################################################################
+submarine_torpedo = {
+	
+	allow = {
+		submarine_technology = 1
+		electro_mechanical_engineering = 1
+		submarine_torpedo_tubes = 1 
+		
+	}
+
+	coastal_submarine = {
+		sea_attack = 1.00
+	}
+	submarine = {
+		sea_attack = 1.00
+	}
+	
+	long_range_submarine = {
+		sea_attack = 1.00
+	}
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20	
+	}
+	
+	change = no
+
+	on_completion = submarine_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE WARHEAD AND FUZING
+################################################################################
+submarine_torpedo_warhead_and_fuzing = {
+	
+	allow = {
+		submarine_torpedo = 1
+	}
+
+	submarine = {
+		build_cost_ic =  0.02
+		convoy_attack = 0.25
+		sea_attack = 0.25
+		sub_attack = 0.05
+	}
+	
+	long_range_submarine = {
+		build_cost_ic =  0.02
+		convoy_attack = 0.25
+		sea_attack = 0.25
+		sub_attack = 0.05
+	}
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+	
+	change = no
+
+	on_completion = submarine_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1936		
+	additional_offset = 2	
+	max_level = 6 # 1944
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE TORPEDO GUIDANCE
+################################################################################
+submarine_torpedo_guidance = {
+	
+	allow = {
+		submarine_torpedo = 1
+	}
+
+	submarine = {
+		build_cost_ic =  0.02
+		positioning = 0.02
+	}
+	
+	long_range_submarine = {
+		build_cost_ic =  0.02
+		positioning = 0.02
+	}
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+	
+	change = no
+
+	on_completion = submarine_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1936		
+	additional_offset = 4	
+	max_level = 2 # 1936
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE TORPEDO PROPLUSION
+################################################################################
+submarine_torpedo_propulsion = {
+	
+	allow = {
+		submarine_torpedo = 1
+	}
+
+	submarine = {
+		build_cost_ic =  0.02
+		distance = 0.01
+	}
+	
+	long_range_submarine = {
+		build_cost_ic =  0.02
+		distance = 0.01
+	}
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+	
+	change = no
+
+	on_completion = submarine_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1936		
+	additional_offset = 4	
+	max_level = 3 # 1940
+	folder = submarine_folder
+}
+################################################################################
+# SUBMARINE ACOUSTIC TORPEDO
+################################################################################
+submarine_acoustic_torpedo = {
+	
+	allow = {
+		submarine_torpedo_propulsion = 3
+		submarine_torpedo_guidance = 2
+		submarine_torpedo_warhead_and_fuzing = 6
+	}
+
+	submarine = {
+		build_cost_ic =  0.15
+		build_time = 15
+		positioning = 0.05
+		distance = 0.01
+		convoy_attack = 4.00
+		sea_attack = 3.00
+		sub_attack = 2.00
+	}
+	
+	long_range_submarine = {
+		build_cost_ic =  0.15
+		build_time = 15
+		positioning = 0.05
+		distance = 0.01
+		convoy_attack = 4.00
+		sea_attack = 3.00
+		sub_attack = 2.00
+	}
+	
+	cag = {
+		build_cost_ic =  0.15
+		build_time = 15
+		sea_attack = 3.00
+		sub_attack = 2.00
+	}
+	naval_torpedo_plane = {
+		build_cost_ic =  0.15
+		build_time = 15
+		sea_attack = 3.00
+		sub_attack = 2.00
+	}
+	Flying_boat = {
+		build_cost_ic =  0.15
+		build_time = 15
+		sea_attack = 3.00
+		sub_attack = 2.00
+	}
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		submarine_engineering = 0.50
+		submarine_practical = 0.20		
+	}
+	
+	change = no
+
+	on_completion = submarine_engineering
+
+	difficulty = 10
+
+	start_year = 1944
+	folder = submarine_folder
+}

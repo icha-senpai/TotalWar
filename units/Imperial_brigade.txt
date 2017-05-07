@@ -1,0 +1,108 @@
+imperial_brigade = {
+	usable_by = { JAP }
+	type = land
+	sprite = Elite
+	active = no
+	is_buildable = no
+	unit_group = infantry_unit_type
+	
+	#limitations
+	minimum_of_type = 6 
+	max_percentage_of_type = 0.04
+
+	#Size Definitions - x9 Battalions
+	max_strength = 100.0
+	default_organisation = 40
+	default_morale = 0.50
+	officers = 150
+
+	#Building Costs
+	build_cost_ic = 10.00
+	build_cost_manpower = 10.000
+	build_time = 60
+	repair_cost_multiplier = 0.01
+
+	#Misc Abilities
+	maximum_speed = 3.5
+	transport_weight = 11.00
+	supply_consumption = 1.25
+	fuel_consumption = 0.00
+	radio_strength = 2.25
+
+	#Defensive Abilities
+	defensiveness = 9.75	
+	toughness = 2.00
+	softness = 1.00
+	air_defence = 1.00
+
+	#Offensive Abilities
+	suppression = 2.25
+	soft_attack = 3.25
+	hard_attack = 0.00
+	air_attack = 0.00
+	ap_attack = 0
+	
+	## Infantry Units are good for a variety of things but do not specialize in any one area.  
+	
+	plains = {  
+		defence = 0.10  ## Slight bonus due to attacking infantry out in the open.  
+		movement = -0.25 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		attack = 0.10 ## Infantry can attack across river easier than other types of land units
+		movement = -0.35 ## Not easy for infantry to cross river.  
+	}
+	arctic = {		
+		movement = -0.50 ## Not easy to move around on tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		movement = -0.50 ## Desert is too hot and big to cross on foot 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = 0.04 ## Infantry can attack wooded areas easier
+		movement = -0.25 ## Troops not specially trained to move through woods or forest
+	}
+	forest = {
+		attack = 0.02 ## Hard to attack dense forest
+		movement = -0.35 ## Hard to move through dense forest 
+	}
+	jungle = { 
+		attack = 0.10 ## Infantry get a slight bonus to attack jungle
+		movement = -0.50  ## Not trained for jungle warfare
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		movement = -0.40 # Hard to move through hilly areas
+	}
+	mountain = { 
+		movement = -0.65 # Not trained in mountain warfare
+	}
+	urban = {
+		attack = 0.10 ## Difficult to attack urban areas if they are not trained in urban assault tactics 
+		defence = 0.15 ## Urban areas are easy to defend
+		movement = -0.15  ## Easy to move through urban streets
+	}
+	marsh = { 
+		attack = -0.10 ## Not trained to assault marshes
+		defence = -0.05 ## Marshes are difficult defend from too, foxhole keeps getting water in it
+		movement = -0.50 ## Difficult to move through marshes
+	}
+	amphibious = { 
+		attack = 0.10 ## Infantry is better suited for Amphibious Attacks
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		defence = 0.10 # Infantry are ideally suited for defending forts
+	}
+
+	combat_width = 0.99
+
+	completion_size = 0.60
+	on_completion = infantry_practical
+	priority = 54
+}

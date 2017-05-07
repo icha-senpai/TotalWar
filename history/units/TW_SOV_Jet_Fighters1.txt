@@ -1,0 +1,12 @@
+military_construction = {
+	country = SOV
+	
+	rocket_interceptor = { 
+		historical_model = 0
+	}
+		
+	cost = 9.00
+	duration = 90
+	progress = 15
+}
+#EOF#

@@ -1,0 +1,52 @@
+PBB_Graf_Spee = {
+	type = naval
+	sprite = HeavyCruiser
+	is_buildable = no
+	capital = yes
+	can_be_pride = yes
+	hull = 1.75  ## was 1.4
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.50
+	officers = 85
+
+	#Building Costs
+	build_cost_ic = 10.50
+	build_cost_manpower = 1.425
+	build_time = 430
+	repair_cost_multiplier = 0.20
+
+	#Misc Abilities
+	maximum_speed = 32.00
+	transport_capability = 0.00  
+	supply_consumption = 1.25
+	fuel_consumption = 1.85
+	range = 3500.00  
+	distance = 0.18  
+	radio_strength = 1
+	positioning = 0.20
+	
+	#Detection Abilities
+	surface_detection = 1.50
+	air_detection = 1.50
+	sub_detection = 0.00
+	visibility = 100.00
+
+	#Defensive Abilities
+	sea_defence = 8.00
+	air_defence = 11.0 
+
+	#Offensive Abilities
+	convoy_attack = 9.50
+	sea_attack = 12.25
+	sub_attack = 0.00
+	air_attack = 0
+	shore_bombardment = 3.00
+
+	completion_size = 3.3
+	on_completion = cruiser_practical
+	
+	priority = 99
+}

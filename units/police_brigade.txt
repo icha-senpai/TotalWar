@@ -1,0 +1,49 @@
+police_brigade = {
+	type = land
+	sprite = Infantry
+	unit_group = support_unit_type
+	active = no
+
+	#Size Definitions
+	max_strength = 8.00
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 10
+	
+	#Building Costs
+	build_cost_ic = 1.00
+	build_cost_manpower = 0.800
+	build_time = 60
+	repair_cost_multiplier = 0.01
+
+	#Misc Abilities
+	maximum_speed = 6.0
+	transport_weight = 1.00
+	supply_consumption = 0.15
+	fuel_consumption = 0.15
+	radio_strength = 1
+	
+	#Defensive Abilities
+	defensiveness = 1.00
+	toughness = 0.00
+	softness = 1.00
+	air_defence = 1.0
+
+	#Offensive Abilities
+	suppression = 12.00
+	soft_attack = 0.33
+	hard_attack = 0.00
+	air_attack = 0.00
+	ap_attack = 0
+	
+	## Police have no special bonuses. 
+	
+	
+
+	combat_width = 0.11
+	
+	completion_size = 0.05
+	on_completion = militia_practical
+	
+	priority = 45
+}

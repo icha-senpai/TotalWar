@@ -1,0 +1,7 @@
+corps= {
+	name = "II. Afrikakorps"
+	location = 1861 #berlin
+	is_reserve = no
+	regiment = { type = ger_army_group_afrika name = "Stab II. DAK" historical_model = 0 }
+	regiment = { type = motorcycle_recon_brigade name = "Aufkl. II. DAK" historical_model = 4 experience = 30 }
+}

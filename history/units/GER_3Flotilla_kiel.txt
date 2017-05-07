@@ -1,0 +1,19 @@
+corps = {
+	name = "3. U-Flottille 'Lohs'"
+	location = 1572 #Kiel
+	regiment = { type = naval_hq_brigade name = "3. U-Flottille 'Lohs'" historical_model = 0 }
+
+	navy = {
+		name = "3. U-Flottille 'Lohs'"
+		base = 1572
+		location = 1572
+		#leader = 600388
+		ship = { type = submarine name = "U-70" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-71" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-72" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-73" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-74" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-75" historical_model = 2 strength = 1 organisation = 1 experience = 80 }
+	}
+}
+#EOF#

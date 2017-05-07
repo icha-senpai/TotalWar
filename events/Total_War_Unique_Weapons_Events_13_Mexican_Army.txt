@@ -1,0 +1,142 @@
+########################################################################################
+############# Mexican Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Mexican WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### Mendoza C-1934 (M1934) Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9106800
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = MEX
+			lmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106800"
+		desc = "EVTDESC9106800"
+		picture = "mendoza_c_nineteen_thirty_four_light_machine_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			mendoza_c_nineteen_thirty_four_light_machine_gun_hidden = 6000
+			set_global_flag = mendoza_c_nineteen_thirty_four_light_machine_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Mondragon Semi-Automatic Service Rifle
+##############################################################
+
+	country_event = {
+		id = 9106801
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = MEX
+			carbine_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106801"
+		desc = "EVTDESC9106801"
+		picture = "mondragon_semi_automatic_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			mondragon_semi_automatic_rifle_hidden = 6000
+			set_global_flag = mondragon_semi_automatic_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Mendoza Model 45 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9106802
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = MEX
+			lmg_prototype = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106802"
+		desc = "EVTDESC9106802"
+		picture = "mendoza_fourty_five_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			mendoza_fourty_five_lmg_hidden = 6000
+			set_global_flag = mendoza_fourty_five_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Mendoza RM-2 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9106803
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = MEX
+			lmg_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106803"
+		desc = "EVTDESC9106803"
+		picture = "mendoza_rm_two_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			mendoza_rm_two_lmg_hidden = 6000
+			set_global_flag = mendoza_rm_two_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		

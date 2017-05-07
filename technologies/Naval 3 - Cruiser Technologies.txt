@@ -1,0 +1,1536 @@
+################################################################################
+# CRUISER TECHNOLOGIES	
+################################################################################
+################################################################################
+# LIGHT CRUISER TECHNOLOGY	
+################################################################################
+light_cruiser_technology = {
+
+	allow = {
+		num_of_ports = 1
+		Ship_Building_Technologies = 1
+	}
+ 
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 1
+
+	start_year = 1918
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER CLASS
+################################################################################
+light_cruiser_class = {
+
+	allow = {
+		light_cruiser_technology = 1 
+		
+		OR = {
+			AND = {
+				NOT = { light_cruiser_class = 1 }  # 1918
+				Ship_Building_Technologies = 1
+				OR = {
+					light_cruiser_main_armament = 1
+					light_cruiser_secondary_armament = 1	
+					
+				}
+				OR = {
+					light_cruiser_propulsion = 1 
+					light_cruiser_armor = 1
+					
+				}
+				OR = {
+					light_cruiser_hull_design = 1
+					light_cruiser_crew_berthing = 1
+					
+				}
+				
+			}
+			AND = {
+				NOT = { light_cruiser_class = 2 }    # 1934
+				Ship_Building_Technologies = 2
+				OR = {
+					light_cruiser_main_armament = 2
+					light_cruiser_secondary_armament = 2	
+					
+				}
+				OR = {
+					light_cruiser_propulsion = 2
+					light_cruiser_armor = 2
+					
+				}
+				OR = {
+					light_cruiser_hull_design = 2
+					light_cruiser_crew_berthing = 2
+					
+				}
+						
+			}
+			AND = {
+				NOT = { light_cruiser_class = 3 }    # 1936
+				Ship_Building_Technologies = 4
+				OR = {
+					light_cruiser_main_armament = 3
+					light_cruiser_secondary_armament = 3	
+					
+				}
+				OR = {
+					light_cruiser_propulsion = 3
+					light_cruiser_armor = 3
+					
+				}
+				OR = {
+					light_cruiser_hull_design = 3
+					light_cruiser_crew_berthing = 3
+					
+				}
+					
+			}
+			AND = {
+				NOT = { light_cruiser_class = 4 }    # 1938
+				Ship_Building_Technologies = 6
+				OR = {
+					light_cruiser_main_armament = 4
+					light_cruiser_secondary_armament = 4	
+					
+				}
+				OR = {
+					light_cruiser_propulsion = 4
+					light_cruiser_armor = 4
+					
+				}
+				OR = {
+					light_cruiser_hull_design = 4
+					light_cruiser_crew_berthing = 4
+					
+				}
+						
+			}
+			AND = {
+				NOT = { light_cruiser_class = 5 }    # 1940
+				Ship_Building_Technologies = 8
+				OR = {
+					light_cruiser_main_armament = 5
+					light_cruiser_secondary_armament = 5	
+					
+				}
+				OR = {
+					light_cruiser_propulsion = 5
+					light_cruiser_armor = 5
+					
+				}
+				OR = {
+					light_cruiser_hull_design = 5
+					light_cruiser_crew_berthing = 5
+					
+				}
+						
+			}
+			AND = {
+				NOT = { light_cruiser_class = 6 }    # 1942
+				Ship_Building_Technologies = 10
+				OR = {
+					light_cruiser_main_armament = 6
+					light_cruiser_secondary_armament = 6	
+					
+				}
+				OR = {
+					light_cruiser_propulsion = 6
+					light_cruiser_armor = 6
+					
+				}
+				OR = {
+					light_cruiser_hull_design = 6
+					light_cruiser_crew_berthing = 6
+					
+				}
+						
+			}
+			AND = {
+				NOT = { light_cruiser_class = 7 }    # 1944
+				Ship_Building_Technologies = 12
+				OR = {
+					light_cruiser_main_armament = 7
+					light_cruiser_secondary_armament = 7	
+					
+				}
+				OR = {
+					light_cruiser_propulsion = 7
+					light_cruiser_armor = 7
+					
+				}
+				OR = {
+					light_cruiser_hull_design = 7
+					light_cruiser_crew_berthing = 7
+					
+				}
+						
+			}
+				
+		}
+	}
+	
+	activate_unit = light_cruiser
+	
+	light_cruiser = {
+		build_cost_ic =  0.55
+		build_cost_manpower = 0.020
+		build_time = 15
+		range = 115
+		positioning = 0.01
+		distance = 0.01
+		visibility = -5
+		sea_defence = 1.35
+		air_defence = 0.55
+		convoy_attack = 0.10
+		sea_attack = 0.85
+		sub_attack = 0.10
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 7 # 1944
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER MAIN ARMAMENT	
+################################################################################
+light_cruiser_main_armament = {
+
+	allow = {
+		light_cruiser_class = 1
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 3
+		range = -200
+		distance = 0.01
+		convoy_attack = 0.20
+		sea_attack = 1.25
+		shore_bombardment = 0.25
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 7 # 1946
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER SECONDARY ARMAMENT	
+################################################################################
+light_cruiser_secondary_armament = {
+
+	allow = {
+		light_cruiser_class = 1
+	}
+ 
+	light_cruiser = {
+		build_cost_ic =  0.04
+		build_cost_manpower = 0.010
+		build_time = 1
+		air_attack = 0.35
+		convoy_attack = 0.15
+		sea_attack = 0.20
+	}
+		
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1933		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 7 # 1945
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER ANTI-AIRCRAFT GUNS	
+################################################################################
+light_cruiser_anti_aircraft_guns = {
+
+	allow = {
+		light_cruiser_class = 1
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.020
+		build_time = 3
+		range = -75
+		air_attack = 1.85
+	}
+	anti_air_cruiser = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.020
+		build_time = 3
+		range = -75
+		air_attack = 1.85
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 4
+
+	start_year = 1918
+	first_offset = 1937		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 5 # 1944
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER PROPULSION	
+################################################################################
+light_cruiser_propulsion = {
+
+	allow = {
+		light_cruiser_class = 1
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.20
+		build_cost_manpower = 0.020
+		build_time = 7
+		maximum_speed = 1.852
+		range = 200
+		positioning = 0.03
+		sea_defence = 0.40
+		air_defence = 0.30
+		convoy_attack = 0.05
+		sea_attack = 0.20
+		sub_attack = 0.01
+	}
+	anti_air_cruiser = {
+		build_cost_ic =  0.20
+		build_cost_manpower = 0.020
+		build_time = 7
+		maximum_speed = 1.852
+		range = 200
+		positioning = 0.03
+		sea_defence = 0.40
+		air_defence = 0.30
+		convoy_attack = 0.05
+		sea_attack = 0.20
+		sub_attack = 0.01
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1933		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 7 # 1945
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER ARMOR	
+################################################################################
+light_cruiser_armor = {
+
+	allow = {
+		light_cruiser_class = 1
+	}
+ 
+	light_cruiser = {
+		build_cost_ic =  0.10
+		build_time = 3
+		range = -300
+		positioning = -0.01
+		sea_defence = 3.00
+		air_defence = 0.75
+	}
+	anti_air_cruiser = {
+		build_cost_ic =  0.10
+		build_time = 3
+		range = -300
+		positioning = -0.01
+		sea_defence = 3.00
+		air_defence = 0.75
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 7 # 1946
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER HULL DESIGN	
+################################################################################
+light_cruiser_hull_design = {
+
+	allow = {
+		light_cruiser_class = 1
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.07
+		build_time = 4
+		range = 150
+		sea_defence = 0.75
+		air_defence = 0.20
+		convoy_attack = 0.01
+		sea_attack = 0.20
+		sub_attack = 0.01
+	}
+	anti_air_cruiser = {
+		build_cost_ic =  0.07
+		build_time = 4
+		range = 150
+		sea_defence = 0.75
+		air_defence = 0.20
+		convoy_attack = 0.01
+		sea_attack = 0.20
+		sub_attack = 0.01
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 7 # 1944
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER CREW BERTHING	
+################################################################################
+light_cruiser_crew_berthing = {
+
+	allow = {
+		light_cruiser_class = 1
+	}
+ 
+	light_cruiser = {
+		default_morale = 0.02
+		build_cost_ic =  0.04
+		build_time = 3
+		range = -200
+	}
+	anti_air_cruiser = {
+		default_morale = 0.02
+		build_cost_ic =  0.04
+		build_time = 3
+		range = -200
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+
+	start_year = 1918
+	first_offset = 1933		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 7 # 1943
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER FIRE CONTROL SYSTEM	
+################################################################################
+light_cruiser_fire_control_system = {
+
+	allow = {
+		light_cruiser_class = 1
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.02
+		build_time = 1
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 0.85
+	}
+	anti_air_cruiser = {
+		build_cost_ic =  0.02
+		build_time = 1
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 0.85
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1935
+	first_offset = 1937		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 3 # 1943
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER ANTI-AIR FIRE CONTROL	
+################################################################################
+light_cruiser_anti_air_fire_control = {
+
+	allow = {
+		light_cruiser_class = 1
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 0.85
+	}
+	anti_air_cruiser = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 0.85
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1937
+	first_offset = 1939		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 3 # 1945
+	folder = cruiser_folder
+}
+################################################################################
+# LIGHT CRUISER DAMAGE CONTROL	
+################################################################################
+light_cruiser_damage_control = {
+
+	allow = {
+		light_cruiser_class = 1
+	}
+	
+	light_cruiser = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	anti_air_cruiser = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+		
+	on_completion = naval_engineering
+
+	difficulty = 5
+
+	start_year = 1918
+	first_offset = 1937		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1945
+	folder = cruiser_folder
+}
+################################################################################
+# ANTI-AIR CRUISER CLASS
+################################################################################
+anti_air_cruiser_class = {
+
+	allow = {
+		light_cruiser_class = 1
+		light_cruiser_anti_aircraft_guns = 3
+		light_cruiser_anti_air_fire_control = 1
+		OR = { 
+			AND = {
+					NOT = { light_cruiser_class = 2 }    
+					OR = {
+						light_cruiser_anti_aircraft_guns = 4
+						light_cruiser_anti_air_fire_control = 2
+					}		
+				}
+			AND = {
+					NOT = { light_cruiser_class = 3 }    
+					OR = {
+						light_cruiser_anti_aircraft_guns = 5
+						light_cruiser_anti_air_fire_control = 3
+					}		
+				}	
+			}
+	}
+	
+	activate_unit = anti_air_cruiser
+	
+	anti_air_cruiser = {
+		build_cost_ic =  0.45
+		build_cost_manpower = 0.015
+		build_time = 10
+		range = 75
+		positioning = 0.01
+		distance = 0.01
+		visibility = -1
+		sea_defence = 0.85
+		air_defence = 1.25
+		air_attack = 2.55
+		convoy_attack = 0.10
+		sea_attack = 0.45
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1940
+	first_offset = 1941		# 2nd model is from 1936
+	additional_offset = 4	# one new every 2 years
+	max_level = 3 # 1945
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER TECHNOLOGY
+################################################################################
+heavy_cruiser_technology = {
+
+	allow = {
+		num_of_ports = 1
+		Ship_Building_Technologies = 1
+	}
+ 
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 1
+
+	start_year = 1918
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER CLASS
+################################################################################
+heavy_cruiser_class = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+							
+		OR = {
+			AND = {
+				NOT = { heavy_cruiser_class = 1 }  # 1918
+				Ship_Building_Technologies = 1
+				OR = {
+					heavy_cruiser_main_armament = 1
+					heavy_cruiser_secondary_armament = 1
+					
+				}
+				OR = {
+					heavy_cruiser_propulsion = 1 
+					heavy_cruiser_armor = 1
+					
+				}
+				OR = {
+					heavy_cruiser_hull_design = 1
+					heavy_cruiser_crew_berthing = 1
+					
+				}
+					
+			}
+			AND = {
+				NOT = { heavy_cruiser_class = 2 }    # 1932
+				Ship_Building_Technologies = 1
+				OR = {
+					heavy_cruiser_main_armament = 2
+					heavy_cruiser_secondary_armament = 2
+					
+				}
+				OR = {
+					heavy_cruiser_propulsion = 2 
+					heavy_cruiser_armor = 2
+					
+				}
+				OR = {
+					heavy_cruiser_hull_design = 2
+					heavy_cruiser_crew_berthing = 2
+					
+				}
+						
+			}
+			AND = {
+				NOT = { heavy_cruiser_class = 3 }    # 1935
+				Ship_Building_Technologies = 3
+				OR = {
+					heavy_cruiser_main_armament = 3
+					heavy_cruiser_secondary_armament = 3
+					
+				}
+				OR = {
+					heavy_cruiser_propulsion = 3
+					heavy_cruiser_armor = 3
+					
+				}
+				OR = {
+					heavy_cruiser_hull_design = 3
+					heavy_cruiser_crew_berthing = 3
+					
+				}
+						
+			}
+			AND = {
+				NOT = { heavy_cruiser_class = 4 }    # 1938
+				Ship_Building_Technologies = 6
+				OR = {
+					heavy_cruiser_main_armament = 4
+					heavy_cruiser_secondary_armament = 4
+					
+				}
+				OR = {
+					heavy_cruiser_propulsion = 4 
+					heavy_cruiser_armor = 4
+					
+				}
+				OR = {
+					heavy_cruiser_hull_design = 4
+					heavy_cruiser_crew_berthing = 4
+					
+				}
+					
+			}
+			AND = {
+				NOT = { heavy_cruiser_class = 5 }    # 1941
+				Ship_Building_Technologies = 9
+				OR = {
+					heavy_cruiser_main_armament = 5
+					heavy_cruiser_secondary_armament = 5
+					
+				}
+				OR = {
+					heavy_cruiser_propulsion = 5 
+					heavy_cruiser_armor = 5
+					
+				}
+				OR = {
+					heavy_cruiser_hull_design = 5
+					heavy_cruiser_crew_berthing = 5
+					
+				}
+						
+			}
+			AND = {
+				NOT = { heavy_cruiser_class = 6 }    # 1944
+				Ship_Building_Technologies = 12
+				OR = {
+					heavy_cruiser_main_armament = 6
+					heavy_cruiser_secondary_armament = 6
+					
+				}
+				OR = {
+					heavy_cruiser_propulsion = 6 
+					heavy_cruiser_armor = 6
+					
+				}
+				OR = {
+					heavy_cruiser_hull_design = 6
+					heavy_cruiser_crew_berthing = 6
+					
+				}
+						
+			}
+			AND = {
+				NOT = { heavy_cruiser_class = 7 }    # 1948
+				Ship_Building_Technologies = 15
+				OR = {
+					heavy_cruiser_main_armament = 7
+					heavy_cruiser_secondary_armament = 7
+					
+				}
+				OR = {
+					heavy_cruiser_propulsion = 7
+					heavy_cruiser_armor = 7
+					
+				}
+				OR = {
+					heavy_cruiser_hull_design = 7
+					heavy_cruiser_crew_berthing = 7
+					
+				}
+						
+			}		
+		}
+	}
+	
+	activate_unit = heavy_cruiser
+	
+	heavy_cruiser = {
+		build_cost_ic =  0.75
+		build_cost_manpower = 0.040
+		build_time = 20
+		range = 150
+		positioning = 0.01
+		distance = 0.01
+		visibility = -5
+		sea_defence = 1.75
+		air_defence = 0.85
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1932		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1948
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER MAIN ARMAMENT
+################################################################################
+heavy_cruiser_main_armament = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+	}
+	
+	heavy_cruiser = {
+		build_cost_ic =  0.25
+		build_cost_manpower = 0.015
+		build_time = 4
+		range = -250
+		distance = 0.01
+		convoy_attack = 0.25
+		sea_attack = 1.75
+		shore_bombardment = 0.55
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1932		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1948
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER SECONDARY ARMAMENT
+################################################################################
+heavy_cruiser_secondary_armament = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+	}
+ 
+	heavy_cruiser = {
+		build_cost_ic =  0.07
+		build_cost_manpower = 0.015
+		build_time = 2
+		air_attack = 0.45
+		convoy_attack = 0.20
+		sea_attack = 0.35
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1931		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1947
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER ANTI-AIRCRAFT GUNS
+################################################################################
+heavy_cruiser_anti_aircraft_guns = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+	}
+	
+	heavy_cruiser = {
+		build_cost_ic =  0.20
+		build_cost_manpower = 0.030
+		build_time = 4
+		range = -100
+		air_attack = 2.15
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+ 
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+
+	start_year = 1938
+	first_offset = 1940		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 4 # 1944
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER PROPULSION
+################################################################################
+heavy_cruiser_propulsion = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+	}
+	
+	heavy_cruiser = {
+		build_cost_ic =  0.25
+		build_cost_manpower = 0.030
+		build_time = 8
+		maximum_speed = 1.852
+		range = 250
+		positioning = 0.03
+		sea_defence = 0.35
+		air_defence = 0.25
+		convoy_attack = 0.01
+		sea_attack = 0.30
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1932		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1948
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER ARMOUR
+################################################################################
+heavy_cruiser_armour = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+	}
+	 
+	heavy_cruiser = {
+		build_cost_ic =  0.15
+		build_time = 4
+		range = -400
+		positioning = -0.01
+		sea_defence = 4.00
+		air_defence = 1.25
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1932		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1948
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER HULL DESIGN
+################################################################################
+heavy_cruiser_hull_design = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+	}
+	
+	heavy_cruiser = {
+		build_cost_ic =  0.10
+		build_time = 5
+		range = 200
+		sea_defence = 1.35
+		air_defence = 0.20
+		sea_attack = 0.35
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1932		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1948
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER CREW BERTHING
+################################################################################
+heavy_cruiser_crew_berthing = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+	}
+ 
+	heavy_cruiser = {
+		default_morale = 0.02
+		build_cost_ic =  0.05
+		build_time = 4
+		range = -250
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1931		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1947
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER FIRE CONTROL SYSTEM
+################################################################################
+heavy_cruiser_fire_control_system = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+	}
+	
+	heavy_cruiser = {
+		build_cost_ic =  0.02
+		build_time = 1
+		distance = 0.01
+		convoy_attack = 0.10
+		sea_attack = 1.05
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1935
+	first_offset = 1938		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 3 # 1945
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER ANTI-AIRCRAFT FIRE CONTROL SYSTEM
+################################################################################
+heavy_cruiser_anti_aircraft_fire_control = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+	}
+	
+	heavy_cruiser = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1937
+	first_offset = 1939		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 3 # 1945
+	folder = cruiser_folder
+}
+################################################################################
+# HEAVY CRUISER DAMAGE CONTROL SYSTEM
+################################################################################
+heavy_cruiser_damage_control = {
+
+	allow = {
+		heavy_cruiser_technology = 1
+	}
+	
+	heavy_cruiser = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+ 
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+		
+	on_completion = naval_engineering
+
+	difficulty = 5
+
+	start_year = 1918
+	first_offset = 1937		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1945
+	folder = cruiser_folder
+}
+################################################################################
+# CRUISER SURFACE SEARCH RADAR
+################################################################################
+cruiser_surface_search_radar = {
+
+	allow = {
+		OR = { 
+		light_cruiser_class = 3
+		heavy_cruiser_class = 3
+		}
+		naval_radar = 2
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	heavy_cruiser = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = electornicegineering_theory
+
+	difficulty = 8
+	
+	start_year = 1941
+	first_offset = 1942		
+	additional_offset = 2	
+	max_level = 4 # 1946
+	folder = cruiser_folder
+}
+################################################################################
+# CRUISER AIR SEARCH RADAR
+################################################################################
+cruiser_air_search_radar = {
+
+	allow = {
+		OR = { 
+		light_cruiser_class = 3
+		heavy_cruiser_class = 3
+		}
+		naval_radar = 2
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	heavy_cruiser = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = electornicegineering_theory
+
+	difficulty = 8
+	
+	start_year = 1941
+	first_offset = 1942		
+	additional_offset = 2	
+	max_level = 4 # 1946
+	folder = cruiser_folder
+}
+################################################################################
+# CRUISER FIRE CONTROL RADAR
+################################################################################
+cruiser_fire_control_radar = {
+
+	allow = {
+		OR = { 
+		light_cruiser_class = 3
+		heavy_cruiser_class = 3
+		}
+		naval_radar = 2
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	heavy_cruiser = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = electornicegineering_theory
+
+	difficulty = 9
+	
+	start_year = 1941
+	first_offset = 1943		
+	additional_offset = 2	
+	max_level = 3 # 1945
+	folder = cruiser_folder
+}
+################################################################################
+# CRUISER ACTIVE SONAR
+################################################################################
+cruiser_active_sonar = {
+
+	allow = {
+		light_cruiser_technology = 1
+		electronics_engineering = 1
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.05
+		build_cost_manpower = 0.001
+		build_time = 2
+		surface_detection = 0.75
+		sub_detection = 0.75
+		sea_defence = -1.0
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+	
+	start_year = 1922
+	folder = cruiser_folder
+}
+################################################################################
+# CRUISER HYDROPHONES
+################################################################################
+cruiser_hydrophones = {
+
+	allow = {
+		light_cruiser_technology = 1
+		electronics_engineering = 1
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.03
+		build_cost_manpower = 0.001
+		build_time = 1
+		surface_detection = 0.30
+		sub_detection = 0.30
+		sea_defence = 0.25
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+	
+	start_year = 1936
+	first_offset = 1938		
+	additional_offset = 2	
+	max_level = 5 # 1944
+	folder = cruiser_folder
+}
+################################################################################
+# CRUISER DEPTH CHARGES
+################################################################################
+cruiser_depth_charges = {
+
+	allow = {
+		light_cruiser_technology = 1
+		light_cruiser_class = 1
+	}
+	
+	light_cruiser = {
+		build_cost_ic =  0.05
+		build_time = 1
+		range = -50
+		sub_attack = 1.15
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+		cruiser_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 3
+	
+	start_year = 1918
+	folder = cruiser_folder
+}
+

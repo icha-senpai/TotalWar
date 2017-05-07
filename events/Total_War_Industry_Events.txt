@@ -1,0 +1,318 @@
+########################################################################################
+############# Total War Industry Events    ###########
+########################################################################################
+######################################################################################################################################
+#### Textile Goods Industry Events
+######################################################################################################################################
+
+	country_event = {
+		id = 91075116
+		
+		
+		trigger = {
+			
+			war = no
+			
+			not = { has_country_flag = peacetime_textile_production }
+							
+		}
+		
+		
+
+		title = "EVTNAME91075116"
+		desc = "EVTDESC91075116"
+		picture = "textile_goods_industry_peace"
+		
+		option = {
+			name = "Let's build furniture and clothes for the people!"
+			set_country_flag = peacetime_textile_production
+			ai_chance = { factor = 100 }
+		}
+			
+		
+	}
+	
+	country_event = {
+		id = 91075117
+		
+		
+		trigger = {
+			
+			war = yes
+			NOT = { has_country_modifier = "TextileIndustryCooldown" }
+			OR = { 
+				OR = { 
+					not = { has_country_flag = peacetime_textile_production }
+					has_country_flag = wartime_textile_production 
+				}
+				has_country_flag = peacetime_textile_production
+			}
+				
+		}
+		
+		
+
+		title = "EVTNAME91075117"
+		desc = "EVTDESC91075117"
+		picture = "textile_goods_industry_war"
+		
+		option = {
+			name = "The people demand clothes for themeselves!"
+			set_country_flag = peacetime_textile_production
+			clr_country_flag = wartime_textile_production
+			ai_chance = { factor = 50 }
+			add_country_modifier = {
+				name = "TextileIndustryCooldown"
+				duration = 180
+			}
+		}
+		
+		option = {
+			name = "Switch production so we can provide uniforms and weapons for our troops!"
+			set_country_flag = wartime_textile_production
+			clr_country_flag = peacetime_textile_production
+			ai_chance = { factor = 50 }
+			add_country_modifier = {
+				name = "TextileIndustryCooldown"
+				duration = 180
+			}
+		}
+		
+		
+	}	
+######################################################################################################################################
+#### Consumer Goods Industry Events
+######################################################################################################################################
+
+	country_event = {
+		id = 91075114
+		
+		
+		trigger = {
+			
+			war = no
+			
+			not = { has_country_flag = peacetime_consumer_goods_production }
+							
+		}
+		
+		
+
+		title = "EVTNAME91075114"
+		desc = "EVTDESC91075114"
+		picture = "consumer_goods_industry_peace"
+		
+		option = {
+			name = "Let's build everyday household items for the people!"
+			set_country_flag = peacetime_consumer_goods_production
+			ai_chance = { factor = 100 }
+		}
+			
+		
+	}
+	
+	country_event = {
+		id = 91075115
+		
+		
+		trigger = {
+			
+			war = yes
+			NOT = { has_country_modifier = "ConsumerGoodsIndustryCooldown" }
+			OR = { 
+				OR = { 
+					not = { has_country_flag = peacetime_consumer_goods_production }
+					has_country_flag = wartime_consumer_goods_production 
+				}
+				has_country_flag = peacetime_consumer_goods_production
+			}
+				
+		}
+		
+		
+		title = "EVTNAME91075115"
+		desc = "EVTDESC91075115"
+		picture = "consumer_goods_industry_war"
+		
+		option = {
+			name = "Let's build refrigerators while our enemies build bombs."
+			set_country_flag = peacetime_consumer_goods_production
+			clr_country_flag = wartime_consumer_goods_production
+			ai_chance = { factor = 50 }
+			add_country_modifier = {
+				name = "ConsumerGoodsIndustryCooldown"
+				duration = 180
+			}
+		}
+		
+		option = {
+			name = "Let's start producing all the stuff we will need for war!"
+			set_country_flag = wartime_consumer_goods_production
+			clr_country_flag = peacetime_consumer_goods_production
+			ai_chance = { factor = 50 }
+			add_country_modifier = {
+				name = "ConsumerGoodsIndustryCooldown"
+				duration = 180
+			}
+		}
+		
+		
+	}	
+######################################################################################################################################
+#### Automotive Industry Events
+######################################################################################################################################
+
+	country_event = {
+		id = 91075112
+		
+		
+		trigger = {
+			
+			war = no
+			
+			not = { has_country_flag = peacetime_automotive_production }
+							
+		}
+		
+		
+
+		title = "EVTNAME91075112"
+		desc = "EVTDESC91075112"
+		picture = "automotive_industry_peace"
+		
+		option = {
+			name = "Let's make automobiles for the everybody!"
+			set_country_flag = peacetime_automotive_production
+			ai_chance = { factor = 100 }
+		}
+			
+		
+	}
+	
+	country_event = {
+		id = 91075113
+		
+		
+		trigger = {
+			
+			war = yes
+			NOT = { has_country_modifier = "AutomotiveIndustryCooldown" }
+			OR = { 
+				OR = { 
+					not = { has_country_flag = peacetime_automotive_production }
+					has_country_flag = wartime_automotive_production 
+				}
+				has_country_flag = peacetime_automotive_production
+			}
+				
+		}
+		
+		
+
+		title = "EVTNAME91075113"
+		desc = "EVTDESC91075113"
+		picture = "automotive_industry_war"
+		
+		option = {
+			name = "I want to keep producing regular cars for our people."
+			set_country_flag = peacetime_automotive_production
+			clr_country_flag = wartime_automotive_production
+			ai_chance = { factor = 50 }
+			add_country_modifier = {
+				name = "AutomotiveIndustryCooldown"
+				duration = 180
+			}
+		}
+		
+		option = {
+			name = "Stop production of civilian cars and start producing tanks!"
+			set_country_flag = wartime_automotive_production
+			clr_country_flag = peacetime_automotive_production
+			ai_chance = { factor = 50 }
+			add_country_modifier = {
+				name = "AutomotiveIndustryCooldown"
+				duration = 180
+			}
+		}
+		
+		
+	}	
+	
+######################################################################################################################################
+#### Military Arms Industry Events
+######################################################################################################################################
+
+	country_event = {
+		id = 91075118
+		
+		
+		trigger = {
+			
+			war = no
+			
+			not = { has_country_flag = peacetime_military_arms_production }
+							
+		}
+		
+		
+
+		title = "EVTNAME91075118"
+		desc = "EVTDESC91075118"
+		picture = "military_arms_industry_peace"
+		
+		option = {
+			name = "More advanced weapons and better trained officers sounds good."
+			set_country_flag = peacetime_military_arms_production
+			ai_chance = { factor = 100 }
+		}
+			
+		
+	}
+	
+	country_event = {
+		id = 91075119
+		
+		
+		trigger = {
+			
+			war = yes
+			NOT = { has_country_modifier = "MilitaryArmsIndustryCooldown" }
+			OR = { 
+				OR = { 
+					not = { has_country_flag = peacetime_military_arms_production }
+					has_country_flag = wartime_military_arms_production 
+				}
+				has_country_flag = peacetime_military_arms_production
+			}
+				
+		}
+		
+		
+		title = "EVTNAME91075119"
+		desc = "EVTDESC91075119"
+		picture = "military_arms_industry_war"
+		
+		option = {
+			name = "No, I'd rather defeat the enemy with more advanced weapons."
+			set_country_flag = peacetime_military_arms_production
+			clr_country_flag = wartime_military_arms_production
+			ai_chance = { factor = 50 }
+			add_country_modifier = {
+				name = "MilitaryArmsIndustryCooldown"
+				duration = 180
+			}
+		}
+		
+		option = {
+			name = "This is a war that is won in the factories rather than on the battlefield!"
+			set_country_flag = wartime_military_arms_production
+			clr_country_flag = peacetime_military_arms_production
+			ai_chance = { factor = 50 }
+			add_country_modifier = {
+				name = "MilitaryArmsIndustryCooldown"
+				duration = 180
+			}
+		}
+		
+		
+	}

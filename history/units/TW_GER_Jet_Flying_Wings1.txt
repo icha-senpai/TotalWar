@@ -1,0 +1,12 @@
+military_construction = {
+	country = GER
+	
+	jet_flying_wing = { 
+		historical_model = 0
+	}
+		
+	cost = 10.00
+	duration = 80
+	progress = 10
+}
+#EOF#

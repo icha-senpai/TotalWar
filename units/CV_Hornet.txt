@@ -1,0 +1,53 @@
+CV_Hornet = {
+	type = naval
+	sprite = Carrier
+	capital = yes
+	active = no
+	hull = 4.25
+	
+	carrier_size = 5
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.50
+	officers = 165
+
+	#Building Costs
+	build_cost_ic = 10.55
+	build_cost_manpower = 2.200
+	build_time = 600
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 55.25
+	transport_capability = 0.00
+	supply_consumption = 6.15
+	fuel_consumption = 4.45
+	range = 13000.00
+	distance = 2.75
+	radio_strength = 1
+	positioning = 0.25
+
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 1.00
+	sub_detection = 0.00
+	visibility = 140.00
+
+	#Defensive Abilities
+	sea_defence = 22.00
+	air_defence = 15.00 
+
+	#Offensive Abilities
+	convoy_attack = 0.00
+	sea_attack = 1.00
+	sub_attack = 0.00
+	air_attack = 0.00
+	shore_bombardment = 0.00
+
+	completion_size = 3.5
+	on_completion = carrier_practical
+	
+	priority = 99
+}

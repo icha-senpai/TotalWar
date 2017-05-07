@@ -1,0 +1,51 @@
+motor_torpedo_boat = {
+	type = naval
+	sprite = Destroyer
+	active = no
+	is_sub = yes
+	hull = 0.2  
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 2
+
+	#Building Costs
+	build_cost_ic = 1.00
+	build_cost_manpower = 0.100
+	build_time = 50  
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 79.30  
+	transport_capability = 0.00
+	supply_consumption = 0.25
+	fuel_consumption = 0.25
+	range = 200.00  
+	distance = 0.08
+	radio_strength = 1
+	positioning = 0.40
+
+	#Detection Abilities
+	surface_detection = 3.00
+	air_detection = 2.00
+	sub_detection = 1.50
+	visibility = 30.00
+
+	#Defensive Abilities
+	sea_defence = 0.50
+	air_defence = 10
+
+	#Offensive Abilities
+	convoy_attack = 2.00
+	sea_attack = 2.00
+	sub_attack = 0.75
+	air_attack = 0.25
+	shore_bombardment = 0.00
+
+	completion_size = 0.05
+	on_completion = destroyer_practical
+	
+	priority = 2
+}

@@ -1,0 +1,65 @@
+military_construction = {
+	country = GER
+	
+	name = "1. Afrika-Division"
+	is_reserve = no
+	is_prioritized= no
+	
+	afrika_brigade = { name = "1. Afrika-Brigade" historical_model = 0 }
+	armored_car_brigade = { name = "Aufkl.-Abt. 1 Afrika" historical_model = 3 }
+	truck_transport = { name = "Gefechtstross-Bat. 1 Afrika" historical_model = 0 }
+	division_hq_standard = { name = "Stab 1. Afrika-Division" historical_model = 0 }
+
+	cost = 20.060
+	duration = 160.000
+	progress = 100.000
+}
+military_construction = {
+	country = GER
+	
+	name = "2. Afrika-Division"
+	is_reserve = no
+	is_prioritized= no
+	
+	afrika_brigade = { name = "2. Afrika-Brigade" historical_model = 0 }
+	armored_car_brigade = { name = "Aufkl.-Abt. 2 Afrika" historical_model = 3 }
+	truck_transport = { name = "Gefechtstross-Bat. 2 Afrika" historical_model = 0 }
+	division_hq_standard = { name = "Stab 2. Afrika-Division" historical_model = 0 }
+
+	cost = 20.060
+	duration = 160.000
+	progress = 100.000
+}
+military_construction = {
+	country = GER
+	
+	name = "3. Afrika-Division"
+	is_reserve = no
+	is_prioritized= no
+	
+	afrika_brigade = { name = "3. Afrika-Brigade" historical_model = 0 }
+	armored_car_brigade = { name = "Aufkl.-Abt. 3 Afrika" historical_model = 3 }
+	truck_transport = { name = "Gefechtstross-Bat. 3 Afrika" historical_model = 0 }
+	division_hq_standard = { name = "Stab 3. Afrika-Division" historical_model = 0 }
+
+	cost = 20.060
+	duration = 160.000
+	progress = 100.000
+}
+military_construction = {
+	country = GER
+	
+	name = "4. Afrika-Division"
+	is_reserve = no
+	is_prioritized= no
+	
+	afrika_brigade = { name = "4. Afrika-Brigade" historical_model = 0 }
+	armored_car_brigade = { name = "Aufkl.-Abt. 4 Afrika" historical_model = 3 }
+	truck_transport = { name = "Gefechtstross-Bat. 4 Afrika" historical_model = 0 }
+	division_hq_standard = { name = "Stab 4. Afrika-Division" historical_model = 0 }
+
+	cost = 20.060
+	duration = 160.000
+	progress = 100.000
+}
+#EOF#

@@ -1,0 +1,104 @@
+mechanized_infantry_bat = {
+	type = land
+	sprite = Mech
+	active = no
+	is_buildable = yes
+	is_mobile = yes
+	
+	unit_group = mobile_unit_type
+	
+	#Size Definitions	- x1 Battalion
+	max_strength = 9.00
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 35
+
+	#Building Costs
+	build_cost_ic = 7.00
+	build_cost_manpower = 0.900
+	build_time = 45
+	repair_cost_multiplier = 0.08
+
+	#Misc Abilities
+	maximum_speed = 8.00
+	transport_weight = 16.00
+	supply_consumption = 0.70
+	fuel_consumption = 1.15
+	radio_strength = 0.25
+
+	#Defensive Abilities
+	defensiveness = 3.50
+	toughness = 5.0
+	softness = 0.55
+	air_defence = 5.00
+	armor_value = 0.20
+
+	#Offensive Abilities
+	suppression = 5.00
+	soft_attack = 2.00
+	hard_attack = 0.25
+	air_attack = 0.50
+	ap_attack = 0
+	
+	##  Mechanized units accel attacking and mobility
+	
+	plains = {  
+		attack = 0.25  ## Bonus due to Infantry being in an armored vehicle
+		movement = -0.05 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		movement = -0.45 ## Not easy for infantry to cross river.  
+	}
+	arctic = {	
+		attack = 0.25  ## Bonus due to Infantry being in an armored vehicle
+		movement = -0.15 ## Not easy to move around on tundra. 
+		attrition = 3 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		attack = 0.25  ## Slight bonus due to being able to out maneuver enemy  
+		movement = -0.05 ## Desert is too hot and big to cross on foot 
+		attrition = 1 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = 0.15  ## Bonus due to Infantry being in an armored vehicle
+		movement = -0.15 ## Troops not specially trained to move through woods or forest
+	}
+	forest = {
+		movement = -0.40 ## Hard to move through dense forest 
+	}
+	jungle = { 
+		movement = -0.65 ## Not trained for jungle warfare
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		movement = -0.25 # Hard to move through hilly areas
+	}
+	mountain = { 
+		movement = -0.45 # Not trained in mountain warfare
+	}
+	urban = {
+		attack = 0.25  ## Bonus due to Infantry being in an armored vehicle
+		movement = -0.05  ## Easy to move through urban streets
+	}
+	marsh = { 
+		attack = 0.25  ## Bonus due to Infantry being in an armored vehicle
+		movement = -0.75 ## Halftracks are better at getting through marshes than wheeled vehicles
+	}
+	amphibious = { 
+		attack = -1.50  ## Mechanized Vehicles will sink to bottom of ocean if tried to unload on a beach
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		attack = 0.45  ## Bonus due to Infantry being in an armored vehicle
+	}
+
+	combat_width = 0.11
+
+	completion_size = 0.25
+	on_completion = mobile_practical
+	
+	priority = 28
+}

@@ -1,0 +1,751 @@
+#########################################################;;;;;;;;;;;;;;x;
+##### NAVAL MODELS #################################;;;;;;;;;;;;;;x;
+#########################################################;;;;;;;;;;;;;;x;
+#########################################;;;;;;;;;;;;;;x;
+#### UNITED KINGDOM NAVAL SHIPS #;;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x;
+## Submarine #;;;;;;;;;;;;;;x
+ENG_submarine_0;K Class;;;;;;;;;;;;;x
+ENG_submarine_1;S Class;;;;;;;;;;;;;x
+ENG_submarine_2;T Class;;;;;;;;;;;;;x
+ENG_submarine_3;U Class;;;;;;;;;;;;;x
+ENG_submarine_4;V Class;;;;;;;;;;;;;x
+ENG_submarine_5;A Class;;;;;;;;;;;;;x
+ENG_submarine_6;Explorer Class;;;;;;;;;;;;;x
+## Destroyer #;;;;;;;;;;;;;;x
+ENG_destroyer_actual_0;A-F Class;;;;;;;;;;;;;x
+ENG_destroyer_actual_1;Tribal-Class;;;;;;;;;;;;;x
+ENG_destroyer_actual_2;J,K, and N-Class;;;;;;;;;;;;;x
+ENG_destroyer_actual_3;L and M-Class;;;;;;;;;;;;;x
+ENG_destroyer_actual_4;O,P,Q, and R-Class;;;;;;;;;;;;;x
+ENG_destroyer_actual_5;S,T,U, and V-Class;;;;;;;;;;;;;x
+ENG_destroyer_actual_6;Battle-Class;;;;;;;;;;;;;x
+## Light Cruiser #;;;;;;;;;;;;;;x
+ENG_light_cruiser_0;Town-Class;;;;;;;;;;;;;x
+ENG_light_cruiser_1;C/D-Class;;;;;;;;;;;;;x
+ENG_light_cruiser_2;Emerald-Class;;;;;;;;;;;;;x
+ENG_light_cruiser_3;Leander-Class;;;;;;;;;;;;;x
+ENG_light_cruiser_4;Crown Colony-Class;;;;;;;;;;;;;x
+ENG_light_cruiser_5;Minotaur-Class;;;;;;;;;;;;;x
+ENG_light_cruiser_6;Tiger-Class;;;;;;;;;;;;;x
+## Heavy Cruiser #;;;;;;;;;;;;;;x
+ENG_heavy_cruiser_0;Hawkins-class;;;;;;;;;;;;;x
+ENG_heavy_cruiser_1;York-class;;;;;;;;;;;;;x
+ENG_heavy_cruiser_2;County-class;;;;;;;;;;;;;x
+ENG_heavy_cruiser_3;Surrey-class;;;;;;;;;;;;;x
+ENG_heavy_cruiser_4;Cromwell-class;;;;;;;;;;;;;x
+ENG_heavy_cruiser_5;Churchill-class;;;;;;;;;;;;;x
+## Battleship #;;;;;;;;;;;;;;x
+ENG_battleship_0;Iron Duke-Class;;;;;;;;;;;;;x
+ENG_battleship_1;Queen Elizabeth-Class;;;;;;;;;;;;;x
+ENG_battleship_2;Revenge-Class;;;;;;;;;;;;;x
+ENG_battleship_3;Nelson-Class;;;;;;;;;;;;;x
+ENG_battleship_4;King George V-Class;;;;;;;;;;;;;x
+ENG_battleship_5;Vanguard-Class;;;;;;;;;;;;;x
+ENG_battleship_6;Lion-Class;;;;;;;;;;;;;x
+## Battlecruiser #;;;;;;;;;;;;;;x
+ENG_battlecruiser_0;Indefatigable-Class;;;;;;;;;;;;;x
+ENG_battlecruiser_1;Renown-Class;;;;;;;;;;;;;x
+ENG_battlecruiser_2;Admiral-Class;;;;;;;;;;;;;x
+## Fleet Carrier #;;;;;;;;;;;;;;x
+ENG_carrier_0;Furious-Class;;;;;;;;;;;;;x
+ENG_carrier_1;Glorious-Class;;;;;;;;;;;;;x
+ENG_carrier_2;Ark Royal-Class;;;;;;;;;;;;;x
+ENG_carrier_3;Illustrious-Class;;;;;;;;;;;;;x
+ENG_carrier_4;Implacable-Class;;;;;;;;;;;;;x
+ENG_carrier_5;Audacious-Class;;;;;;;;;;;;;x
+## Light Carrier #;;;;;;;;;;;;;;x
+ENG_light_carrier_0;Hermes-Class;;;;;;;;;;;;;x
+ENG_light_carrier_1;Eagle-Class;;;;;;;;;;;;;x
+ENG_light_carrier_2;Unicorn-Class;;;;;;;;;;;;;x
+## Escort Carrier #;;;;;;;;;;;;;;x
+ENG_escort_carrier_0;Audacity-Class;;;;;;;;;;;;;x
+ENG_escort_carrier_1;Attacker-Class;;;;;;;;;;;;;x
+ENG_escort_carrier_2;Ruler-Class;;;;;;;;;;;;;x
+ENG_escort_carrier_3;Nairana-Class;;;;;;;;;;;;;x
+## Nuclear Submarine #;;;;;;;;;;;;;;x
+ENG_nuclear_submarine_0;Dreadnought-Class;;;;;;;;;;;;;x
+## Fast Attack Submarine #;;;;;;;;;;;;;;x
+ENG_nuclear_fast_attack_submarine_0;Experimental Hunter/Killer Submarine;;;;;;;;;;;;;;x
+ENG_nuclear_fast_attack_submarine_1;Valiant Class;;;;;;;;;;;;;;x
+ENG_nuclear_fast_attack_submarine_2;Churchill Class;;;;;;;;;;;;;;x
+## Ballistic Missile Submarine #;;;;;;;;;;;;;;x
+ENG_nuclear_ballistic_missile_submarine_0;Experimental Ballistic Missile Submarine;;;;;;;;;;;;;;x
+ENG_nuclear_ballistic_missile_submarine_1;Resolution Class;;;;;;;;;;;;;;x
+ENG_nuclear_ballistic_missile_submarine_2;Resolution Class Mk II;;;;;;;;;;;;;;x
+## Guided Missile Destroyer Class #;;;;;;;;;;;;;;x
+ENG_guided_missile_destroyer_0;Bristol-Class;;;;;;;;;;;;;;x
+ENG_guided_missile_destroyer_1;Liverpool-Class;;;;;;;;;;;;;;x
+ENG_guided_missile_destroyer_2;County-Class;;;;;;;;;;;;;;x
+ENG_guided_missile_destroyer_3;County-Class Mk II;;;;;;;;;;;;;;x
+ENG_guided_missile_destroyer_4;Type 82-Class;;;;;;;;;;;;;;x
+## Landing Ship Tank #;;;;;;;;;;;;;;x
+ENG_landing_ship_tank_0;LST-Class;;;;;;;;;;;;;;x
+## Landing Ship Dock #;;;;;;;;;;;;;;x
+ENG_landing_ship_dock_0;Casa Grande-Class;;;;;;;;;;;;;;x
+## Amphibious Transport Dock Ship #;;;;;;;;;;;;;;x
+ENG_transport_dock_ship_0;Fearless-Class;;;;;;;;;;;;;;x
+## Landing Platform Helicopter Ship #;;;;;;;;;;;;;;x
+ENG_landing_platform_helicopter_0;Centaur-Class;;;;;;;;;;;;;;x
+## Battlecarrier Class #;;;;;;;;;;;;;;x
+ENG_battle_carrier_0;Audacious-Class;;;;;;;;;;;;;;x
+## Supercarrier Class #;;;;;;;;;;;;;;x
+ENG_super_carrier_0;Williamson-Class;;;;;;;;;;;;;;x
+## NUCLEAR POWERED AIRCRAFT CRUISER CLASS #;;;;;;;;;;;;;;x
+ENG_nuclear_guided_missile_cruiser_0;Gibraltar-Class;;;;;;;;;;;;;;x
+## NUCLEAR POWERED AIRCRAFT CARRIER CLASS #;;;;;;;;;;;;;;x
+ENG_nuclear_powered_aircraft_carrier_class_0;Malta-Class;;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x;
+#### FRANCE NAVAL SHIPS #;;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x;
+## Submarines #;;;;;;;;;;;;;;x
+FRA_submarine_0;O'Byrne-Class;;;;;;;;;;;;;x
+FRA_submarine_1;Requin-Class;;;;;;;;;;;;;x
+FRA_submarine_2;Redoutable-Class;;;;;;;;;;;;;x
+FRA_submarine_4;L'Aurore-Class;;;;;;;;;;;;;x
+FRA_submarine_5;Roland Morillot-Class;;;;;;;;;;;;;x
+## Destroyers #;;;;;;;;;;;;;;x
+FRA_destroyer_actual_0;Aventurier-Class;;;;;;;;;;;;;x
+FRA_destroyer_actual_1;Chastang-Class;;;;;;;;;;;;;x
+FRA_destroyer_actual_2;Bourrasque/Adroit-Class;;;;;;;;;;;;;x
+FRA_destroyer_actual_3;Chacal-Class;;;;;;;;;;;;;x
+FRA_destroyer_actual_4;Le Fantasque-Class;;;;;;;;;;;;;x
+FRA_destroyer_actual_5;Mogador-Class;;;;;;;;;;;;;x
+FRA_destroyer_actual_6;Mogador II-Class;;;;;;;;;;;;;x
+## Light Cruisers #;;;;;;;;;;;;;;x
+FRA_light_cruiser_0;Pluton-Class;;;;;;;;;;;;;x
+FRA_light_cruiser_1;Duguay Trouin-Class;;;;;;;;;;;;;x
+FRA_light_cruiser_2;Jeanne d'Arc-Class;;;;;;;;;;;;;x
+FRA_light_cruiser_3;Emile Bertin-Class;;;;;;;;;;;;;x
+FRA_light_cruiser_4;La Galissonniere-Class;;;;;;;;;;;;;x
+FRA_light_cruiser_5;;;;;;;;;;;;;;x
+FRA_light_cruiser_6;;;;;;;;;;;;;;x
+## Anti-Air Cruisers #;;;;;;;;;;;;;;x
+FRA_anti_air_cruiser_0;De Grasse-Class;;;;;;;;;;;;;x
+## Heavy Cruisers #;;;;;;;;;;;;;;x
+FRA_heavy_cruiser_0;Ernest Renan-Class;;;;;;;;;;;;;x
+FRA_heavy_cruiser_1;Suffren-Class;;;;;;;;;;;;;x
+FRA_heavy_cruiser_2;Duquesne-Class;;;;;;;;;;;;;x
+FRA_heavy_cruiser_3;Algerie-Class;;;;;;;;;;;;;x
+FRA_heavy_cruiser_4;Saint Louis-Class;;;;;;;;;;;;;x
+## Battleships #;;;;;;;;;;;;;;x
+FRA_battleship_0;Courbet-Class;;;;;;;;;;;;;x
+FRA_battleship_1;Bretagne-Class;;;;;;;;;;;;;x
+FRA_battleship_2;Normandie-Class;;;;;;;;;;;;;x
+FRA_battleship_3;Richelieu-Class;;;;;;;;;;;;;x
+FRA_battleship_4;Alsace-Class;;;;;;;;;;;;;x
+## Battlecruiser #;;;;;;;;;;;;;;x
+FRA_battlecruiser_0;Durand Viel-Class;;;;;;;;;;;;;x
+FRA_battlecruiser_1;Gille-Class;;;;;;;;;;;;;x
+FRA_battlecruiser_2;Dunkerque-Class;;;;;;;;;;;;;x
+FRA_battlecruiser_3;Projekt 28-Class;;;;;;;;;;;;;x
+## Light Carrier #;;;;;;;;;;;;;;x
+FRA_light_carrier_0;Bearn-Class;;;;;;;;;;;;;x
+FRA_light_carrier_1;Joffre-Class;;;;;;;;;;;;;x
+## Battlecarrier #;;;;;;;;;;;;;;x
+FRA_battle_carrier_0,Jean Bart-class;Classe Jean Bart;;;;;;;;;;;;;x
+## Torpedo Boat #;;;;;;;;;;;;;;x
+FRA_torpedo_boat_1;La Melpoméne-class;;;;;;;;;;;;;x
+FRA_torpedo_boat_2;Le Fier-class;;;;;;;;;;;;;x
+## Frigate #;;;;;;;;;;;;;;x
+FRA_frigate_0;Bougainville-class;;;;;;;;;;;;;x
+FRA_frigate_1;Elan-class;;;;;;;;;;;;;x
+FRA_frigate_2;Flower-class;;;;;;;;;;;;;x
+## Coastal Submarine #;;;;;;;;;;;;;;x
+FRA_coastal_submarine_0;Guepe-class;;;;;;;;;;;;;x
+FRA_coastal_submarine_1;Sirene-class;;;;;;;;;;;;;x
+FRA_coastal_submarine_2;Ardonaute-class;;;;;;;;;;;;;x
+FRA_coastal_submarine_3;Minerve-class;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x;
+#### KRIEGSMARINE NAVAL SHIPS #;;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x;
+### Surface Fleet ###;;;;;;;;;;;;;;x
+### Motor-Torpedo-Boat ###;;;;;;;;;;;;;;x
+GER_motor_torpedo_boat_0;Schnellboot 1931;Schnellboot 1931;Schnellboot 1931;Schnellboot 1931;;;;;;;;;;x
+GER_motor_torpedo_boat_1;Schnellboot 1933;Schnellboot 1933;Schnellboot 1933;Schnellboot 1933;;;;;;;;;;x
+GER_motor_torpedo_boat_2;Schnellboot 1934;Schnellboot 1934;Schnellboot 1934;Schnellboot 1934;;;;;;;;;;x
+GER_motor_torpedo_boat_3;Schnellboot 1937;Schnellboot 1937;Schnellboot 1937;Schnellboot 1937;;;;;;;;;;x
+GER_motor_torpedo_boat_4;Schnellboot 1939;Schnellboot 1939;Schnellboot 1939;Schnellboot 1939;;;;;;;;;;x
+GER_motor_torpedo_boat_5;Schnellboot 1939/40;Schnellboot 1939/40;Schnellboot 1939/40;Schnellboot 1939/40;;;;;;;;;;x
+GER_motor_torpedo_boat_6;Schnellboot S-151;Schnellboot S-151;Schnellboot S-151;Schnellboot S-151;;;;;;;;;;x
+GER_motor_torpedo_boat_7;Schnellboot Type 700;Schnellboot Type 700;Schnellboot Type 700;Schnellboot Typ 700;Schnellboot Type 700;;;;;;;;;x
+### Torpedo-Boat ###;;;;;;;;;;;;;;x
+GER_torpedo_boat_0;Torpedoboot Typ 1915-class;Classe Torpedoboot Typ 1915;Torpedoboot Typ 1915-Klasse;Klasa Torpedoboot Typ 1915;Clase Torpedoboot Typ 1915;;;;;;;;;x
+GER_torpedo_boat_1;Torpedoboot Typ 1916-class;Classe Torpedoboot Typ 1916;Torpedoboot Typ 1916-Klasse;Klasa Torpedoboot Typ 1916;Clase Torpedoboot Typ 1916;;;;;;;;;x
+GER_torpedo_boat_2;Torpedoboot Typ 1923/1924-class;Classe Torpedoboot Typ 1923 'Raubvogel';Torpedoboot Typ 1923 'Raubvogel'-Klasse;Klasa Torpedoboot Typ 1923 'Raubvogel';Clase Torpedoboot Typ 1923 'Raubvogel';;;;;;;;;x
+GER_torpedo_boat_3;Flottentorpedoboot Typ 1935/37-class;Classe Flottentorpedoboot Typ 1935/37;Flottentorpedoboot Typ 1935/37-Klasse;Klasa Flottentorpedoboot Typ 1935/37;Clase Flottentorpedoboot Typ 1935/37;;;;;;;;;x
+GER_torpedo_boat_4;Flottentorpedoboot Typ 1939 (Elbing)-class;Classe Flottentorpedoboot Typ 1939;Flottentorpedoboot Typ 1939-Klasse;Klasa Flottentorpedoboot Typ 1939;Clase Flottentorpedoboot Typ 1939;;;;;;;;;x
+GER_torpedo_boat_5;Flottentorpedoboot Typ 1940-class;Classe Flottentorpedoboot Typ 1940;Flottentorpedoboot Typ 1940-Klasse;Klasa Flottentorpedoboot Typ 1940;Clase Flottentorpedoboot Typ 1940;;;;;;;;;x
+GER_torpedo_boat_6;Flottentorpedoboot Typ 1941/44-class;Classe Flottentorpedoboot Typ 1941/44;Flottentorpedoboot Typ 1941/44-Klasse;Klasa Flottentorpedoboot Typ 1941/44;Clase Flottentorpedoboot Typ 1941/44;;;;;;;;;x
+### Destroyer ###;;;;;;;;;;;;;;x
+GER_destroyer_actual_0;Gr.Torpedoboot Typ 1916(mod)-Class;Classe Gr.Torpedoboot Typ 1916(mod);Gr.Torpedoboot Typ 1916(mod)-Klasse;Klasa Gr.Torpedoboot Typ 1916(mod);Clase Gr.Torpedoboot Typ 1916(mod);;;;;;;;;x
+GER_destroyer_actual_1;Type 1934-Class;Classe Zerstörer Typ 1934;Zerstörer Typ 1934-Klasse;Klasa Zerstörer Typ 1934;Clase Zerstörer Typ 1934;;;;;;;;;x
+GER_destroyer_actual_2;Type 1934A-Class;Classe Zerstörer Typ 1934A;Zerstörer Typ 1934A-Klasse;Klasa Zerstörer Typ 1934A;Clase Zerstörer Typ 1934A;;;;;;;;;x
+GER_destroyer_actual_3;Type 1936-Class;Classe Zerstörer Typ 1934/34A;Zerstörer Typ 1934/34A-Klasse;Klasa Zerstörer Typ 1934/34A;Clase Zerstörer Typ 1934/34A;;;;;;;;;x
+GER_destroyer_actual_4;Type 1936A “Narvik”-Class;Classe Zerstörer Typ 1936/36B;Zerstörer Typ 1936/36B-Klasse;Klasa Zerstörer Typ 1936/36B;Clase Zerstörer Typ 1936/36B;;;;;;;;;x
+GER_destroyer_actual_5;Type 1936B-Class;Classe Zerstörer Typ 1936B;Zerstörer Typ 1936B-Klasse;Klasa Zerstörer Typ 1936B;Clase Zerstörer Typ 1936B;;;;;;;;;x
+GER_destroyer_actual_6;Type 1938-Class;Classe Zerstörer Typ 1942;Zerstörer Typ 1942-Klasse;Zerstörer Typ 1942-class;Clase Zerstörer Typ 1942;;;;;;;;;x
+GER_destroyer_actual_7;Type 1942C-Class;Classe Zerstörer Typ 1942;Zerstörer Typ 1942-Klasse;Zerstörer Typ 1942-class;Clase Zerstörer Typ 1942;;;;;;;;;x
+GER_destroyer_actual_8;Type 1945-Class;Classe Zerstörer Typ 1942;Zerstörer Typ 1942-Klasse;Zerstörer Typ 1942-class;Clase Zerstörer Typ 1942;;;;;;;;;x
+### Frigate ###;;;;;;;;;;;;;;x
+GER_frigate_0;Flottenbegleiter-class;Classe Flottenbegleiter;Flottenbegleiter-Klasse;Klasa Flottenbegleiter;Clase Flottenbegleiter;;;;;;;;;x
+GER_frigate_1;Geleitboot Typ 1941-class;Classe Geleitboot Typ 1941;Geleitboot Typ 1941-Klasse;Klasa Geleitboot Typ 1941;Clase Geleitboot Typ 1941;;;;;;;;;x
+GER_frigate_2;Geleitboot Typ 1943-class;Classe Geleitboot Typ 1943;Geleitboot Typ 1943-Klasse;Klasa Geleitboot Typ 1943;clase Geleitboot Typ 1943;;;;;;;;;x
+GER_frigate_3;Vorpostenboot Typ 1945-class;Classe Geleitboot Typ 1945;Geleitboot Typ 1945-Klasse;Klasa Geleitboot Typ 1945;Clase Geleitboot Typ 1945;;;;;;;;;x
+### Light Cruiser ###;;;;;;;;;;;;;;x
+GER_light_cruiser_0;Wiesbaden-Class;Classe Wiesbaden;Wiesbaden-Klasse;Klasa Wiesbaden;Clase Wiesbaden;;;;;;;;;x
+GER_light_cruiser_1;Emden-Class;Classe Emden;Ersatz Emden;Klasa Emden;Clase Emden;;;;;;;;;x
+GER_light_cruiser_2;Konigsberg-Class;Classe Königsberg;Königsberg-Klasse;Klasa Königsberg;Clase Königsberg;;;;;;;;;x
+GER_light_cruiser_3;Leipzig-Class;Classe Leipzig;Leipzig-Klasse;Klasa Leipzig;Clase Leipzig;;;;;;;;;x
+GER_light_cruiser_4;M-Class;Classe M;M-Klasse;Klasa M;Clase M;;;;;;;;;x
+GER_light_cruiser_5;Seydlitz/M II-class;Classe Seydlitz/M II;Seydlitz/M II-Klasse;Klasa Seydlitz/M II;Clase Seydlitz/M II;;;;;;;;;x
+### Heavy Cruiser ###;;;;;;;;;;;;;;x
+GER_heavy_cruiser_0;Roon-Class;Classe Roon;Roon-Klasse;Klasa Roon;Clase Roon;;;;;;;;;x
+GER_heavy_cruiser_1;Admiral Hipper-Class;Classe Admiral Hipper;Admiral Hipper-Klasse;Klasa Admiral Hipper;Clase Admiral Hipper;;;;;;;;;x
+GER_heavy_cruiser_2;Prinz Eugen-Class;Classe Prinz Eugen;Prinz Eugen-Klasse;Klasa Prinz Eugen;Clase Prinz Eugen;;;;;;;;;x
+### Anti-Air Cruiser ###;;;;;;;;;;;;;;x
+GER_anti_air_cruiser_0;Arcona/Medusa-class;Classe Arcona/Medusa;Arcona/Medusa-Klasse;Klasa Arcona/Medusa;Clase Arcona/Medusa;;;;;;;;;x
+GER_anti_air_cruiser_1;Nymphe/Thetis-class;Classe Nymphe/Thetis;Nymphe/Thetis-Klasse;Klasa Nymphe/Thetis;Clase Nymphe/Thetis;;;;;;;;;x
+GER_anti_air_cruiser_2;Ariandne/Undine-class;Nymphe-class;Nymphe-Klasse;Nymphe-class;Nymphe-class;;;;;;;;;x
+GER_anti_air_cruiser_3;Niobe-class;Classe Niobe;Niobe-Klasse;Klasa Niobe;Clase Niobe;;;;;;;;;x
+GER_anti_air_cruiser_4;Zerstörer Typ 1936C-class;Classe Zerstörer Typ 1936C;Zerstörer Typ 1936C-Klasse;Klasa Zerstörer Typ 1936C;Clase Zerstörer Typ 1936C;;;;;;;;;x
+### Battlecruiser ###;;;;;;;;;;;;;;x
+GER_battlecruiser_0;Moltke-Class;Classe Moltke;Moltke-Klasse;Klasa Moltke;Clase Moltke;;;;;;;;;x
+GER_battlecruiser_1;Derfflinger-Class;Classe Derfflinger;Derfflinger-Klasse;Klasa Derfflinger;Clase Derfflinger;;;;;;;;;x
+GER_battlecruiser_2;Mackensen-Class;Classe Mackensen;Mackensen-Klasse;Klasa Mackensen;Clase Mackensen;;;;;;;;;x
+GER_battlecruiser_3;Yorck-Class;Classe Yorck;Yorck-Klasse;Klasa Yorck;Clase Yorck;;;;;;;;;x
+GER_battlecruiser_4;O-Class;Classe O;O-Klasse;Klasa O;Clase O;;;;;;;;;x
+GER_battlecruiser_5;KW-45/50-Class;Classe KW-45/50;KW-45/50-Klasse;Klasa KW-45/50;Clase KW-45/50;;;;;;;;;x
+### Coastal Battleship ###;;;;;;;;;;;;;;x
+GER_coastal_battleship_1;Braunschweig-class;Classe Braunschweig;Braunschweig-Klasse;Klasa Braunschweig;Clase Braunschweig;;;;;;;;;x
+GER_coastal_battleship_2;Deutschland (Pre-Dreadnought)-class;Classe Deutschland;Deutschland-Klasse;Klasa Deutschland;Clase Deutschland;;;;;;;;;x
+### Pocket Battleship ###;;;;;;;;;;;;;;x
+GER_pocket_battleship_0;Deutschland-Class;Deutschland-Class;Deutschland-Klasse;Deutschland-Class;;;;;;;;;;x
+GER_pocket_battleship_1;Deutschland D-Class;Deutschland D-Class;Deutschland D-Klasse;Deutschland D-Class;;;;;;;;;;x
+GER_pocket_battleship_2;Deutschland P-Class;Deutschland III-Class;Deutschland III-Klasse;Deutschland III-Class;;;;;;;;;;x
+GER_pocket_battleship_3;Deutschland O-Class;Deutschland P-Class;Deutschland P-Klasse;Deutschland P-Class;;;;;;;;;;x
+GER_pocket_battleship_4;Deutschland Q-Class;Deutschland O-Class;Deutschland O-Klasse;Deutschland O-Class;;;;;;;;;;x
+GER_pocket_battleship_5;Deutschland Z-Class;Deutschland VI-Class;Deutschland VI-Klasse;Deutschland VI-Class;;;;;;;;;;x
+PBB_Deutschland_0;Deutschland Deutschland-class;Deutschland (Deutschland-class);Deutschland (Deutschland-class);Deutschland (Deutschland-class);Deutschland (Deutschland-class);;;;;;;;;x
+PBB_Deutschland_1;Deutschland D-class;Deutschland D-class;Deutschland D-class;Deutschland D-class;Deutschland D-class;;;;;;;;;x
+PBB_Deutschland_2;Deutschland P-class;Deutschland P-class;Deutschland P-class;Deutschland P-class;Deutschland P-class;;;;;;;;;x
+PBB_Deutschland_3;Deutschland O-class;Deutschland O-class;Deutschland O-class;Deutschland O-class;Deutschland O-class;;;;;;;;;x
+PBB_Deutschland_4;Deutschland Q-class;Deutschland Q-class;Deutschland Q-class;Deutschland Q-class;Deutschland Q-class;;;;;;;;;x
+PBB_Deutschland_5;Deutschland Z-class;Deutschland Z-class;Deutschland Z-class;Deutschland Z-class;Deutschland Z-class;;;;;;;;;x
+PBB_Adm_Scheer_0;Admiral Scheer Deutschland-class;Admiral Scheer Deutschland-class;Admiral Scheer Deutschland-class;Admiral Scheer Deutschland-class;Admiral Scheer Deutschland-class;;;;;;;;;x
+PBB_Adm_Scheer_1;Admiral Scheer D-class;Admiral Scheer D-class;Admiral Scheer D-class;Admiral Scheer D-class;Admiral Scheer D-class;;;;;;;;;x
+PBB_Adm_Scheer_2;Admiral Scheer P-class;Admiral Scheer P-class;Admiral Scheer P-class;Admiral Scheer P-class;Admiral Scheer P-class;;;;;;;;;x
+PBB_Adm_Scheer_3;Admiral Scheer O-class;Admiral Scheer O-class;Admiral Scheer O-class;Admiral Scheer O-class;Admiral Scheer O-class;;;;;;;;;x
+PBB_Adm_Scheer_4;Admiral Scheer Q-class;Admiral Scheer Q-class;Admiral Scheer Q-class;Admiral Scheer Q-class;Admiral Scheer Q-class;;;;;;;;;x
+PBB_Adm_Scheer_5;Admiral Scheer Z-class;Admiral Scheer Z-class;Admiral Scheer Z-class;Admiral Scheer Z-class;Admiral Scheer Z-class;;;;;;;;;x
+PBB_Graf_Spee_0;Admiral Graf Spee Deutschland-class;Admiral Graf Spee Deutschland-class;Admiral Graf Spee Deutschland-class;Admiral Graf Spee Deutschland-class;Admiral Graf Spee Deutschland-class;;;;;;;;;x
+PBB_Graf_Spee_1;Admiral Graf Spee D-class;Admiral Graf Spee D-class);Admiral Graf Spee D-class;Admiral Graf Spee D-class;Admiral Graf Spee D-class);;;;;;;;;x
+PBB_Graf_Spee_2;Admiral Graf Spee P-class;Admiral Graf Spee P-class);Admiral Graf Spee P-class;Admiral Graf Spee P-class;Admiral Graf Spee P-class);;;;;;;;;x
+PBB_Graf_Spee_3;Admiral Graf Spee O-class;Admiral Graf Spee O-class);Admiral Graf Spee O-class;Admiral Graf Spee O-class;Admiral Graf Spee O-class);;;;;;;;;x
+PBB_Graf_Spee_4;Admiral Graf Spee Q-class;Admiral Graf Spee Q-class);Admiral Graf Spee Q-class;Admiral Graf Spee Q-class;Admiral Graf Spee Q-class);;;;;;;;;x
+PBB_Graf_Spee_5;Admiral Graf Spee Z-class;Admiral Graf Spee Z-class);Admiral Graf Spee Z-class;Admiral Graf Spee Z-class;Admiral Graf Spee Z-class);;;;;;;;;x
+### Battleship ###;;;;;;;;;;;;;;x
+GER_battleship_0;Nassau-Class;Classe Nassau;Nassau-Klasse;Klasa Nassau;Clase Nassau;;;;;;;;;x
+GER_battleship_1;Konig-Class;Classe König;König-Klasse;Klasa König;Clase König;;;;;;;;;x
+GER_battleship_2;Scharnhorst-Class;Classe Scharnhorst 1939;Scharnhorst 1939-Klasse;Klasa Scharnhorst 1939;Clase Scharnhorst 1939;;;;;;;;;x
+GER_battleship_3;Bismarck-Class;Classe Bismarck;Bismarck-Klasse;Klasa Bismarck;Clase Bismarck;;;;;;;;;x
+GER_battleship_4;H39-Class;Classe H39;H39-Klasse;Klasa H39;Clase H39;;;;;;;;;x
+GER_battleship_5;H40A/B-Class;Classe H40A/B;H40A/B-Klasse;Klasa H40A/B;Clase H40A/B;;;;;;;;;x
+BB_Bismarck_0;Bismark (Bismarck-class);Bismarck;Bismarck;Bismarck;Bismarck;;;;;;;;;x
+BB_Bismarck_4;Bismark (Bismarck-class);Bismarck;Bismarck;Bismarck;Bismarck;;;;;;;;;x
+BB_Tirpitz_0;Tirpitz (Bismarck-class);Tirpitz;Tirpitz;Tirpitz;Tirpitz;;;;;;;;;x
+BB_Tirpitz_4;Tirpitz (Bismarck-class);Tirpitz;Tirpitz;Tirpitz;Tirpitz;;;;;;;;;x
+BB_Scharnhorst_0;Scharnhorst (1939-class/28cm guns);Scharnhorst;Scharnhorst;Scharnhorst;Scharnhorst;;;;;;;;;x
+BB_Scharnhorst_1;Scharnhorst (1942-class/38cm guns);Scharnhorst;Scharnhorst;Scharnhorst;Scharnhorst;;;;;;;;;x
+BB_Gneisenau_0;Gneisenau (1939-class/28cm guns);Gneisenau;Gneisenau;Gneisenau;Gneisenau;;;;;;;;;x
+BB_Gneisenau_1;Gneisenau (1942-class/38cm guns);Gneisenau;Gneisenau;Gneisenau;Gneisenau;;;;;;;;;x
+### Superheavy Battleship ###;;;;;;;;;;;;;;x
+GER_super_heavy_battleship_0;H41-Class;Classe H41;H41-Klasse;Klasa H41;Clase H41;;;;;;;;;x
+GER_super_heavy_battleship_1;H42-Class;Classe H42;H42-Klasse;Klasa H42;Clase H42;;;;;;;;;x
+GER_super_heavy_battleship_2;H43-Class;Classe H43;H43-Klasse;Klasa H43;Clase H43;;;;;;;;;x
+GER_super_heavy_battleship_3;H44-Class;Classe H44;H44-Klasse;Klasa H44;Clase H44;;;;;;;;;x
+### Light Carrier ###;;;;;;;;;;;;;;x
+GER_light_carrier_0;Experimetal Light Carrier;Experimetal Light Carrier;Leichter Versuchs-Flugzeugträger;Doœwiadczalny Lekki Lotniskowiec;Experimetal Light Carrier;;;;;;;;;x
+GER_light_carrier_1;Ausonia-class;Classe Ausonia;Ausonia-Klasse;Klasa Ausonia;Clase Ausonia;;;;;;;;;x
+GER_light_carrier_2;Seydlitz-class;Classe Seydlitz;Seydlitz-Klasse;Klasa Seydlitz;Clase Seydlitz;;;;;;;;;x
+GER_light_carrier_3;De Grasse-class;Classe De Grasse;De Grasse-Klasse;Klasa De Grasse;Clase De Grasse;;;;;;;;;x
+GER_light_carrier_4;Flugdeckkreuzer E IV-class;Classe Flugdeckkreuzer E IV;Flugdeckkreuzer E IV-Klasse;Klasa Flugdeckkreuzer E IV;Clase Flugdeckkreuzer E IV;;;;;;;;;x
+GER_light_carrier_5;Flugdeckkreuzer E V-class;Classe Flugdeckkreuzer E V;Flugdeckkreuzer E V-Klasse;Klasa Flugdeckkreuzer E V;Clase Flugdeckkreuzer E V;;;;;;;;;x
+### Carrier ###;;;;;;;;;;;;;;x
+GER_carrier_0;Potsdam-class;Classe Potsdam;Potsdam-Klasse;Klasa Potsdam;Clase Potsdam;;;;;;;;;x
+GER_carrier_1;Europa-class;Classe Europa;Europa-Klasse;Klasa Europa;Clase Europa;;;;;;;;;x
+GER_carrier_2;Gneisenau-class;Classe Gneisenau;Gneisenau-Klasse;Klasa Gneisenau;Clase Gneisenau;;;;;;;;;x
+GER_carrier_3;Graf Zeppelin-class;Classe Graf Zeppelin;Graf Zeppelin-Klasse;Klasa Graf Zeppelin;Clase Graf Zeppelin;;;;;;;;;x
+GER_carrier_4;Clausewitz-class;Classe Clausewitz;Clausewitz-Klasse;Klasa Clausewitz;Clase Clausewitz;;;;;;;;;x
+GER_carrier_5;Germania-class;Classe Germania;Germania-Klasse;Klasa Germania;Clase Germania;;;;;;;;;x
+GER_carrier_6;Richthofen-class;Classe Richthofen;Richthofen-Klasse;Klasa Richthofen;Clase Richthofen;;;;;;;;;x
+### Escort Carrier ###;;;;;;;;;;;;;;x
+GER_escort_carrier_0;Kiel-Class;Experimetal Escort Carrier;Versuchs-Geleitflugzeugträger;Doœwiadczalny Lotniskowiec Eskortowy;Experimetal Escort Carrier;;;;;;;;;x
+GER_escort_carrier_1;Bonn-Class;Classe Escort Carrier I;Geleitflugzeugträger I-Klasse;Klasa Lotniskowiec Eskortowy I;Clase Escort Carrier I;;;;;;;;;x
+GER_escort_carrier_2;Munich-Class;Classe Escort Carrier II;Geleitflugzeugträger II-Klasse;Klasa Lotniskowiec Eskortowy II;Clase Escort Carrier II;;;;;;;;;x
+### Convoy Raiders ###;;;;;;;;;;;;;;x
+GER_Convoy_raider_ship_0;Hilfskreuzer I;Hilfskreuzer;Hilfskreuzer;Hilfskreuzer;;;;;;;;;;x
+GER_Convoy_raider_ship_1;Hilfskreuzer II;Hilfskreuzer;Hilfskreuzer;Hilfskreuzer;;;;;;;;;;x
+GER_Convoy_raider_ship_2;Hilfskreuzer III;Hilfskreuzer;Hilfskreuzer;Hilfskreuzer;;;;;;;;;;x
+GER_Convoy_raider_ship_3;Hilfskreuzer IV;Hilfskreuzer;Hilfskreuzer;Hilfskreuzer;;;;;;;;;;x
+GER_Convoy_raider_ship_4;Hilfskreuzer V;Hilfskreuzer;Hilfskreuzer;Hilfskreuzer;;;;;;;;;;x
+GER_Convoy_raider_ship_5;Hilfskreuzer VI;Hilfskreuzer;Hilfskreuzer;Hilfskreuzer;;;;;;;;;;x
+### Submarine Fleet ###;;;;;;;;;;;;;;x
+### Coastal Submarine ###;;;;;;;;;;;;;;x
+GER_coastal_submarine_0;Type IIA/B-Class;Classe Typ II A/B;Typ II A/B-Klasse;Klasa Typ II A/B-class;Clase Typ II A/B;;;;;;;;;x
+GER_coastal_submarine_1;Type IIC/D-Class;Classe Typ II C/D;Typ II C/D-Klasse;Klasa Typ II C/D-class;Clase Typ II C/D;;;;;;;;;x
+### Submarine ###;;;;;;;;;;;;;;x
+GER_submarine_0;Type VIIA;Classe Type VII/IX;Typ VII/IX-Klasse;;Clase tipo VII/IX;;;;;;;;;x
+GER_submarine_1;Type VIIB;Classe Type VII/IX;Typ VII/IX-Klasse;;Clase tipo VII/IX;;;;;;;;;x
+GER_submarine_2;Type VIIC;Classe Type VIIC/IXC;Typ VIIC/IXC-Klasse;;Clase tipo VIIC/IXC;;;;;;;;;x
+GER_submarine_3;Type VIIC/41;Classe Type VIIC/41-IXD2;Typ VIIC/41-IXD2-Klasse;;Clase tipo VIIC/41-IXD2;;;;;;;;;x
+GER_submarine_4;Type VIIC/42;Classe Type VIIC/42-IXD2;Typ VIIC/42-IXD2-Klasse;;Clase tipo VIIC/42-IXD2;;;;;;;;;x
+GER_submarine_5;Type XXI;Classe Type XVIIB;Typ XVIIB-Klasse;;Clase tipo XVIIB;;;;;;;;;x
+GER_submarine_6;Type XXIB;Classe Type 201;Typ 201-Klasse;;Clase tipo 201;;;;;;;;;x
+GER_submarine_7;Type XXIC;Classe Type 201;Typ 201-Klasse;;Clase tipo 201;;;;;;;;;x
+### Long-range Submarine ###;;;;;;;;;;;;;;x
+GER_long_range_submarine_0;Type IX-Class;Classe Typ U 57;Typ U 57-Klasse;Klasa Typ U 57;Clase Typ U 57;;;;;;;;;x
+GER_long_range_submarine_1;Type IXB-Class;Classe Typ U 63;Typ U 63-Klasse;Klasa Typ U 63;Clase Typ U 63;;;;;;;;;x
+GER_long_range_submarine_2;Type IXC-Class;Classe Typ U 93;Typ U 93-Klasse;Klasa Typ U 93;Clase Typ U 93;;;;;;;;;x
+GER_long_range_submarine_3;Type IXC/40-Class;Classe Typ IX A/B;Typ IX A/B-Klasse;Klasa Typ IX A/B;Clase Typ IX A/B;;;;;;;;;x
+GER_long_range_submarine_4;Type IXD1-Class;Classe Typ IX C / C/40;Typ IX C / C/40-Klasse;Klasa Typ IX C / C/40;Clase Typ IX C / C/40;;;;;;;;;x
+GER_long_range_submarine_5;Type IXD2-Class;Classe Typ IX D-2(D/42);Typ IX D-2(D/42)-Klasse;Klasa Typ IX D-2(D/42);Clase Typ IX D-2(D/42);;;;;;;;;x
+### Nuclear Submarine ###;;;;;;;;;;;;;;x
+GER_nuclear_submarine_0;Donitz-Class;;;;;;;;;;x
+### Fast Attack Nuclear Submarine ###;;;;;;;;;;;;;;x
+GER_nuclear_fast_attack_submarine_0;Prien-Class;;;;;;;;;;x
+GER_nuclear_fast_attack_submarine_1;Forstman-Class;;;;;;;;;;x
+GER_nuclear_fast_attack_submarine_2;Steinbrink-Class;;;;;;;;;;x
+### Ballistic Missile Nuclear Submarine ###;;;;;;;;;;;;;;x
+GER_nuclear_ballistic_missile_submarine_0;Rose-Class;;;;;;;;;;x
+GER_nuclear_ballistic_missile_submarine_1;Schweiger-Class;;;;;;;;;;x
+GER_nuclear_ballistic_missile_submarine_2;Saltwedel-Class;;;;;;;;;;x
+### Nuclear Guided Missile Cruiser ###;;;;;;;;;;;;;;x
+GER_nuclear_guided_missile_cruiser_0;Raeder-Class;;;;;;;;;;x
+GER_nuclear_guided_missile_cruiser_1;Lutjens-Class;;;;;;;;;;x
+GER_nuclear_guided_missile_cruiser_2;Topp-Class;;;;;;;;;;x
+GER_nuclear_guided_missile_cruiser_3;Saalwachter-Class;;;;;;;;;;x
+GER_nuclear_guided_missile_cruiser_4;Albrecht-Class;;;;;;;;;;x
+### Guided Missile Destroyer ###;;;;;;;;;;;;;;x
+## Landing Ship Tank #;;;;;;;;;;;;;;x
+GER_landing_ship_tank_0;LST;;;;;;;;;;;;;;x
+## Landing Ship Dock #;;;;;;;;;;;;;;x
+GER_landing_ship_dock_0;Kreta-Class;;;;;;;;;;;;;;x
+## Amphibious Transport Dock Ship #;;;;;;;;;;;;;;x
+GER_transport_dock_ship_0;Bergen-Class;;;;;;;;;;;;;;x
+## Landing Platform Helicopter Ship #;;;;;;;;;;;;;;x
+GER_landing_platform_helicopter_0;Seelowe-Class;;;;;;;;;;;;;;x
+## Battlecarrier Class #;;;;;;;;;;;;;;x
+GER_battle_carrier_0;Clausewitz-Class;;;;;;;;;;;;;;x
+## Supercarrier Class #;;;;;;;;;;;;;;x
+GER_super_carrier_0;Lutzow-Class;;;;;;;;;;;;;;x
+## NUCLEAR POWERED AIRCRAFT CARRIER CLASS #;;;;;;;;;;;;;;x
+GER_nuclear_super_aircraft_carrier_0;Thiele-Class;;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x;
+#### ITALIAN NAVAL SHIPS #;;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x;
+ITA_battleship_0;Dante Alighieri-Class;;;;;;;;;;;;;x
+ITA_battleship_1;Conte di Cavour-Class;;;;;;;;;;;;;x
+ITA_battleship_2;Andrea Doria-Class;;;;;;;;;;;;;x
+ITA_battleship_3;Caracciolo-Class;;;;;;;;;;;;;x
+ITA_battleship_4;Littorio-Class;;;;;;;;;;;;;x
+ITA_battleship_5;UP 41-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_battlecruiser_0;Bologna-Class;;;;;;;;;;;;;x
+ITA_battlecruiser_1;Venizia-Class;;;;;;;;;;;;;x
+ITA_battlecruiser_2;Taranto-Class;;;;;;;;;;;;;x
+ITA_battlecruiser_3;Napoli-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_heavy_cruiser_0;Trento-Class;;;;;;;;;;;;;x
+ITA_heavy_cruiser_1;Zara-Class;;;;;;;;;;;;;x
+ITA_heavy_cruiser_2;Bolzano-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_light_cruiser_0;Quarto-Class;;;;;;;;;;;;;x
+ITA_light_cruiser_1;Taranto-Class;;;;;;;;;;;;;x
+ITA_light_cruiser_2;Giussano-Class;;;;;;;;;;;;;x
+ITA_light_cruiser_3;Montecuccoli-Class;;;;;;;;;;;;;x
+ITA_light_cruiser_4;Duca d'Aosta-Class;;;;;;;;;;;;;x
+ITA_light_cruiser_5;Capitani Romani-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_anti_air_cruiser_2;Etna-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_destroyer_actual_0;Sauro/Sella-Class;;;;;;;;;;;;;x
+ITA_destroyer_actual_1;Turbine/Borea/Folgore-Class;;;;;;;;;;;;;x
+ITA_destroyer_actual_2;Freccia/Maestrale-Class;;;;;;;;;;;;;x
+ITA_destroyer_actual_3;Navigatori-Class;;;;;;;;;;;;;x
+ITA_destroyer_actual_4;Oriani-Class;;;;;;;;;;;;;x
+ITA_destroyer_actual_5;Soldati I-Class;;;;;;;;;;;;;x
+ITA_destroyer_actual_6;Soldati II-Class;;;;;;;;;;;;;x
+ITA_destroyer_actual_7;Commandanti Hedaglie D'Oro-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_torpedo_boat_0;Generali-class;;;;;;;;;;;;;x
+ITA_torpedo_boat_1;Curtatone-class;;;;;;;;;;;;;x
+ITA_torpedo_boat_3;Spica-class;;;;;;;;;;;;;x
+ITA_torpedo_boat_4;Orsa-class;;;;;;;;;;;;;x
+ITA_torpedo_boat_5;Animoso-class;;;;;;;;;;;;;x
+ITA_torpedo_boat_6;Ariete-class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_frigate_0;Eritrea-class;;;;;;;;;;;;;x
+ITA_frigate_1;Diane-class;;;;;;;;;;;;;x
+ITA_frigate_2;Gabbiano-class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_carrier_0;Rota-Class;;;;;;;;;;;;;x
+ITA_carrier_1;Sparviero-Class;;;;;;;;;;;;;x
+ITA_carrier_2;Aquila-Class;;;;;;;;;;;;;x
+ITA_carrier_3;Gagnotto-Class;;;;;;;;;;;;;x
+ITA_carrier_4;Bonfiglietti-Class;;;;;;;;;;;;;x
+ITA_carrier_5;Galati-Class;;;;;;;;;;;;;x
+ITA_carrier_6;Campioni-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_light_carrier_0;Milan-Class;;;;;;;;;;;;;;x
+ITA_light_carrier_1;Bari-Class;;;;;;;;;;;;;;x
+ITA_light_carrier_2;Brescia-Class;;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+ITA_escort_carrier_0;Genoa-Class;;;;;;;;;;;;;;x
+ITA_escort_carrier_1;Rimini-Class;;;;;;;;;;;;;;x
+ITA_escort_carrier_2;Modena-Class;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_coastal_battleship_2;San Giorgio/Pisa-class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+ITA_submarine_0;Mameli-Class;;;;;;;;;;;;;x
+ITA_submarine_1;Archimede-Class;;;;;;;;;;;;;x
+ITA_submarine_2;Marcello-Class;;;;;;;;;;;;;x
+ITA_submarine_3;Marconi-Class;;;;;;;;;;;;;x
+ITA_submarine_4;Flutto-Class;;;;;;;;;;;;;x
+### Nuclear Submarine ###;;;;;;;;;;;;;;x
+ITA_nuclear_submarine_0;Palermo-Class;;;;;;;;;;x
+### Fast Attack Nuclear Submarine ###;;;;;;;;;;;;;;x
+ITA_nuclear_fast_attack_submarine_0;Cagliari-Class;;;;;;;;;;x
+ITA_nuclear_fast_attack_submarine_1;Trieste-Class;;;;;;;;;;x
+ITA_nuclear_fast_attack_submarine_2;Lecce-Class;;;;;;;;;;x
+### Ballistic Missile Nuclear Submarine ###;;;;;;;;;;;;;;x
+ITA_nuclear_ballistic_missile_submarine_0;Pisa-Class;;;;;;;;;;x
+ITA_nuclear_ballistic_missile_submarine_1;Vesuvius-Class;;;;;;;;;;x
+ITA_nuclear_ballistic_missile_submarine_2;Pomplona-Class;;;;;;;;;;x
+### Nuclear Guided Missile Cruiser ###;;;;;;;;;;;;;;x
+ITA_nuclear_guided_missile_cruiser_0;Verona-Class;;;;;;;;;;x
+ITA_nuclear_guided_missile_cruiser_1;Ancona-Class;;;;;;;;;;x
+ITA_nuclear_guided_missile_cruiser_2;Florence-Class;;;;;;;;;;x
+ITA_nuclear_guided_missile_cruiser_3;Turin-Class;;;;;;;;;;x
+ITA_nuclear_guided_missile_cruiser_4;Perugia-Class;;;;;;;;;;x
+## Landing Ship Tank #;;;;;;;;;;;;;;x
+ITA_landing_ship_tank_0;LST;;;;;;;;;;;;;;x
+## Landing Ship Dock #;;;;;;;;;;;;;;x
+ITA_landing_ship_dock_0;Sardinia-Class;;;;;;;;;;;;;;x
+## Amphibious Transport Dock Ship #;;;;;;;;;;;;;;x
+ITA_transport_dock_ship_0;Portofino-Class;;;;;;;;;;;;;;x
+## Landing Platform Helicopter Ship #;;;;;;;;;;;;;;x
+ITA_landing_platform_helicopter_0;Terni-Class;;;;;;;;;;;;;;x
+## Battlecarrier Class #;;;;;;;;;;;;;;x
+ITA_battle_carrier_0;Brindisi-Class;;;;;;;;;;;;;;x
+## Supercarrier Class #;;;;;;;;;;;;;;x
+ITA_super_carrier_0;Arezzo-Class;;;;;;;;;;;;;;x
+## NUCLEAR POWERED AIRCRAFT CARRIER CLASS #;;;;;;;;;;;;;;x
+ITA_nuclear_super_aircraft_carrier_0;Forli-Class;;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x;
+#### SOVIET NAVAL SHIPS #;;;;;;;;;;;;;;x
+#########################################;;;;;;;;;;;;;;x;
+SOV_battleship_0;Gangut-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+SOV_super_heavy_battleship_0;Sovetsky Soyuz-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+SOV_battlecruiser_0;Borodino-Class;;;;;;;;;;;;;x
+SOV_battlecruiser_1;Kronshtadt-Class;;;;;;;;;;;;;x
+SOV_battlecruiser_2;Stalingrad-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+SOV_heavy_cruiser_0;Krasnyi Kavkaz-Class;;;;;;;;;;;;;x
+SOV_heavy_cruiser_1;Kirov-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+SOV_light_cruiser_0;Profintern-Class;;;;;;;;;;;;;x
+SOV_light_cruiser_1;Chapayev-Class;;;;;;;;;;;;;x
+SOV_light_cruiser_3;Sverdlov-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+SOV_anti_air_cruiser_1;Project 66-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+SOV_destroyer_actual_0;Novik-Class;;;;;;;;;;;;;x
+SOV_destroyer_actual_1;Gnevny-Class;;;;;;;;;;;;;x
+SOV_destroyer_actual_2;Leningrad-Class;;;;;;;;;;;;;x
+SOV_destroyer_actual_3;Kiev-Class;;;;;;;;;;;;;x
+SOV_destroyer_actual_4;Skory-Class;;;;;;;;;;;;;x
+SOV_destroyer_actual_5;Kotlin-Class;;;;;;;;;;;;;x
+SOV_destroyer_actual_6;Krupny-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+SOV_carrier_4;Kostromitinova-Class;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+SOV_torpedo_boat_2;Uragan-Class;;;;;;;;;;;;;x
+SOV_torpedo_boat_7;Yasreb(P.29)-Class;;;;;;;;;;;;;x
+##############################;;;;;;;;;;;;;;x
+SOV_escort_carrier_0;Projekt 71-Class;;;;;;;;;;;;;x
+SOV_escort_carrier_1;Projekt 716-Class;;;;;;;;;;;;;x
+SOV_escort_carrier_2;Projekt 72-Class;;;;;;;;;;;;;x
+SOV_escort_carrier_3;Projekt 69AV-Class;;;;;;;;;;;;;x
+SOV_escort_carrier_4;Moskva-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+SOV_submarine_0;Dekabrist-Class;;;;;;;;;;;;;x
+SOV_submarine_1;Leninets-Class;;;;;;;;;;;;;x
+SOV_submarine_2;Shchuka-Class;;;;;;;;;;;;;x
+SOV_submarine_3;Pravda-Class;;;;;;;;;;;;;x
+SOV_submarine_4;Malyutka-Class;;;;;;;;;;;;;x
+SOV_submarine_5;K-Class;;;;;;;;;;;;;x
+SOV_submarine_6;Zulu-Class;;;;;;;;;;;;;x
+SOV_submarine_7;Whiskey-Class;;;;;;;;;;;;;x
+SOV_submarine_8;Quebec-Class;;;;;;;;;;;;;x
+SOV_submarine_9;Whale-Class;;;;;;;;;;;;;x
+SOV_submarine_10;Romeo-Class;;;;;;;;;;;;;x
+SOV_submarine_11;Foxtrot-Class;;;;;;;;;;;;;x
+### Nuclear Submarine ###;;;;;;;;;;;;;;x
+SOV_nuclear_submarine_0;K-3 Leninsky Komsomol-Class;;;;;;;;;;x
+### Fast Attack Nuclear Submarine ###;;;;;;;;;;;;;;x
+SOV_nuclear_fast_attack_submarine_0;November-Class;;;;;;;;;;x
+SOV_nuclear_fast_attack_submarine_1;Projekt 651-Class;;;;;;;;;;x
+SOV_nuclear_fast_attack_submarine_2;Victor-Class;;;;;;;;;;x
+### Ballistic Missile Nuclear Submarine ###;;;;;;;;;;;;;;x
+SOV_nuclear_ballistic_missile_submarine_0;Golf-Class;;;;;;;;;;x
+SOV_nuclear_ballistic_missile_submarine_1;Hotel-Class;;;;;;;;;;x
+SOV_nuclear_ballistic_missile_submarine_2;Yankee-Class;;;;;;;;;;x
+### Guided Missile Destroyer ###;;;;;;;;;;;;;;x
+guided_missile_destroyer_0;Kynda-Class;;;;;;;;;;;;;;x
+guided_missile_destroyer_1;Kresta I-Class ;;;;;;;;;;;;;;x
+guided_missile_destroyer_2;Kresta II-Class ;;;;;;;;;;;;;;x
+guided_missile_destroyer_3;Kara-Class;;;;;;;;;;;;;;x
+guided_missile_destroyer_4;Slava-Class;;;;;;;;;;;;;;x
+### Nuclear Guided Missile Cruiser ###;;;;;;;;;;;;;;x
+SOV_nuclear_guided_missile_cruiser_0;Projekt 777-Class;;;;;;;;;;x
+## Landing Ship Tank #;;;;;;;;;;;;;;x
+SOV_landing_ship_tank_0;LST;;;;;;;;;;;;;;x
+## Landing Ship Dock #;;;;;;;;;;;;;;x
+SOV_landing_ship_dock_0;Ivan Rogov-Class;;;;;;;;;;;;;;x
+## Amphibious Transport Dock Ship #;;;;;;;;;;;;;;x
+SOV_transport_dock_ship_0;Projekt 881-Class;;;;;;;;;;;;;;x
+## Landing Platform Helicopter Ship #;;;;;;;;;;;;;;x
+SOV_landing_platform_helicopter_0;Projekt 931-Class;;;;;;;;;;;;;;x
+## Battlecarrier Class #;;;;;;;;;;;;;;x
+SOV_battle_carrier_0;Linkorov-Class;;;;;;;;;;;;;;x
+## Supercarrier Class #;;;;;;;;;;;;;;x
+SOV_super_carrier_0;Project 419-Class;;;;;;;;;;;;;;x
+## NUCLEAR POWERED AIRCRAFT CARRIER CLASS #;;;;;;;;;;;;;;x
+SOV_nuclear_super_aircraft_carrier_0;Projekt 1022-Class;;;;;;;;;;;;;;x
+##################################################################;;;;;;;;;;;;;;x;
+#### IMPERIAL JAPANESE NAVY SHIPS #;;;;;;;;;;;;;;x
+##################################################################;;;;;;;;;;;;;;x;
+JAP_battleship_0;Fuso/Ise/Nagato-Class;;;;;;;;;;;;;x
+JAP_battleship_1;Kii-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+JAP_super_heavy_battleship_0;Yamato-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+JAP_battlecruiser_0;Kongo-Class;;;;;;;;;;;;;x
+JAP_battlecruiser_1;Amagi-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+JAP_heavy_cruiser_0;Furutaka/Aoba-Class;;;;;;;;;;;;;x
+JAP_heavy_cruiser_1;Myoko/Takao-Class;;;;;;;;;;;;;x
+JAP_heavy_cruiser_2;Mogami-Class;;;;;;;;;;;;;x
+JAP_heavy_cruiser_3;Tone-Class;;;;;;;;;;;;;x
+JAP_heavy_cruiser_4;Ibuki-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+JAP_light_cruiser_0;Kuma/Nagara-Class;;;;;;;;;;;;;x
+JAP_light_cruiser_1;Sendai/Yubari-Class;;;;;;;;;;;;;x
+JAP_light_cruiser_3;Katori-Class;;;;;;;;;;;;;x
+JAP_light_cruiser_4;Agano-Class;;;;;;;;;;;;;x
+JAP_light_cruiser_5;Oyodo-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+JAP_destroyer_actual_0;Mutsuki/Kubuki/Akatsuki/Hatsuharu-Class;;;;;;;;;;;;;x
+JAP_destroyer_actual_1;Shiratsuyu/Asashio-Class;;;;;;;;;;;;;x
+JAP_destroyer_actual_2;Kagero-Class;;;;;;;;;;;;;x
+JAP_destroyer_actual_3;Yugumo/Akizuki-Class;;;;;;;;;;;;;x
+JAP_destroyer_actual_4;Shimakaze-Class;;;;;;;;;;;;;x
+JAP_destroyer_actual_5;Matsu-Class;;;;;;;;;;;;;x
+JAP_destroyer_actual_6;Tachibana-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+JAP_carrier_0;Kaga/Akagi-Class;;;;;;;;;;;;;;x
+JAP_carrier_1;Soryu/Hiryu-Class;;;;;;;;;;;;;;x
+JAP_carrier_2;Shokaku-Class;;;;;;;;;;;;;;x
+JAP_carrier_3;Taiho-Class;;;;;;;;;;;;;;x
+JAP_carrier_4;Unryu-Class;;;;;;;;;;;;;;x
+JAP_carrier_5;;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### ESCORT CARRIER ###;;;;;;;;;;;;;;x
+JAP_escort_carrier_0;Taiyo-Class;;;;;;;;;;;;;x
+JAP_escort_carrier_1;Chitose-Class;;;;;;;;;;;;;x
+JAP_escort_carrier_2;Shimane Maru-Class;;;;;;;;;;;;;x
+### LIGHT CARRIER ###;;;;;;;;;;;;;;x
+JAP_light_carrier_0;Ryujo-Class;;;;;;;;;;;;;x
+JAP_light_carrier_1;Zuiho-Class;;;;;;;;;;;;;x
+JAP_light_carrier_2;Hiyo-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### SUBMARINE ###;;;;;;;;;;;;;;x
+JAP_submarine_0;Kaichu-Class;;;;;;;;;;;;;x
+JAP_submarine_1;Kaidai-Class;;;;;;;;;;;;;x
+JAP_submarine_2;;;;;;;;;;;;;;x
+JAP_submarine_3;;;;;;;;;;;;;;x
+JAP_submarine_4;;;;;;;;;;;;;;x
+JAP_submarine_5;;;;;;;;;;;;;;x
+JAP_submarine_6;;;;;;;;;;;;;;x
+JAP_submarine_7;;;;;;;;;;;;;;x
+JAP_submarine_8;;;;;;;;;;;;;;x
+JAP_submarine_9;;;;;;;;;;;;;;x
+JAP_submarine_10;;;;;;;;;;;;;;x
+JAP_submarine_11;;;;;;;;;;;;;;x
+### LONG RANGE SUBMARINE ###;;;;;;;;;;;;;;x
+JAP_long_range_submarine_0;Junsen-Class;;;;;;;;;;;;;x
+JAP_long_range_submarine_1;Kou-Class;;;;;;;;;;;;;x
+JAP_long_range_submarine_2;Otsu-Class;;;;;;;;;;;;;x
+JAP_long_range_submarine_3;Hei-Class;;;;;;;;;;;;;x
+JAP_long_range_submarine_4;Toku-Class;;;;;;;;;;;;;x
+### NUCLEAR SUBMARINE ###;;;;;;;;;;;;;;x
+JAP_nuclear_submarine_0;Hiroshima-Class;;;;;;;;;;x
+### FAST ATTACK NUCLEAR SUBMARINE ###;;;;;;;;;;;;;;x
+JAP_nuclear_fast_attack_submarine_0;Tokyo-Class;;;;;;;;;;x
+JAP_nuclear_fast_attack_submarine_1;Sasebo-Class;;;;;;;;;;x
+JAP_nuclear_fast_attack_submarine_2;Nagoya-Class;;;;;;;;;;x
+### BALLISTIC MISSILE NUCLEAR SUBMARINE ###;;;;;;;;;;;;;;x
+JAP_nuclear_ballistic_missile_submarine_0;Nagasaki-Class;;;;;;;;;;x
+JAP_nuclear_ballistic_missile_submarine_1;Kagoshima-Class;;;;;;;;;;x
+JAP_nuclear_ballistic_missile_submarine_2;Fukushima-Class;;;;;;;;;;x
+### GUIDED MISSILE DESTROYER ###;;;;;;;;;;;;;;x
+JAP_guided_missile_destroyer_0;Fuji-Class;;;;;;;;;;;;;;x
+JAP_guided_missile_destroyer_1;Mikasa-Class ;;;;;;;;;;;;;;x
+JAP_guided_missile_destroyer_2;Tango-Class ;;;;;;;;;;;;;;x
+JAP_guided_missile_destroyer_3;Hizen-Class;;;;;;;;;;;;;;x
+JAP_guided_missile_destroyer_4;Mishima-Class;;;;;;;;;;;;;;x
+### NUCLEAR GUIDED MISSILE CRUISER ###;;;;;;;;;;;;;;x
+JAP_nuclear_guided_missile_cruiser_0;Katori II-Class;;;;;;;;;;x
+## Landing Ship Tank #;;;;;;;;;;;;;;x
+JAP_landing_ship_tank_0;LST;;;;;;;;;;;;;;x
+## Landing Ship Dock #;;;;;;;;;;;;;;x
+JAP_landing_ship_dock_0;Nisshin-Class;;;;;;;;;;;;;;x
+## AMPHIBIOUS TRANSPORT DOCK SHIP #;;;;;;;;;;;;;;x
+JAP_transport_dock_ship_0;Moshun-Class;;;;;;;;;;;;;;x
+## LANDING PLATFORM HELICOPTER SHIP #;;;;;;;;;;;;;;x
+JAP_landing_platform_helicopter_0;Kaiten-Class;;;;;;;;;;;;;;x
+## BATTLECARRIER #;;;;;;;;;;;;;;x
+JAP_battle_carrier_0;Shinano-Class;;;;;;;;;;;;;;x
+## SUPERCARRIER #;;;;;;;;;;;;;;x
+JAP_super_carrier_0;Ten-Go-Class;;;;;;;;;;;;;;x
+## NUCLEAR POWERED AIRCRAFT CARRIER CLASS #;;;;;;;;;;;;;;x
+JAP_nuclear_super_aircraft_carrier_0;Tora-Class;;;;;;;;;;;;;;x
+##################################################################;;;;;;;;;;;;;;x;
+#### U.S. NAVY SHIPS #;;;;;;;;;;;;;;x
+##################################################################;;;;;;;;;;;;;;x;
+USA_battleship_0;Wyoming/Nevada/New Mexico Class;;;;;;;;;;;;;x
+USA_battleship_1;Tennessee-Class;;;;;;;;;;;;;x
+USA_battleship_2;Colorado-Class;;;;;;;;;;;;;x
+USA_battleship_3;North Carolina-Class;;;;;;;;;;;;;x
+USA_battleship_4;South Dakota-Class;;;;;;;;;;;;;x
+USA_battleship_5;Iowa-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+USA_super_heavy_battleship_0;Montana-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+USA_battlecruiser_0;Lexington-Class;;;;;;;;;;;;;x
+USA_battlecruiser_1;;;;;;;;;;;;;;x
+USA_battlecruiser_2;;;;;;;;;;;;;;x
+USA_battlecruiser_3;Alaska-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+USA_heavy_cruiser_0;Pensacola/Northampton-Class;;;;;;;;;;;;;x
+USA_heavy_cruiser_1;New Orleans-Class;;;;;;;;;;;;;x
+USA_heavy_cruiser_2;Wichita-Class;;;;;;;;;;;;;x
+USA_heavy_cruiser_3;Baltimore-Class;;;;;;;;;;;;;x
+USA_heavy_cruiser_4;Oregon City-Class;;;;;;;;;;;;;x
+USA_heavy_cruiser_5;Des Moines-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+USA_light_cruiser_0;Omaha-Class;;;;;;;;;;;;;x
+USA_light_cruiser_1;Brooklyn-Class;;;;;;;;;;;;;x
+USA_light_cruiser_2;St. Louis-Class;;;;;;;;;;;;;x
+USA_light_cruiser_3;Cleveland-Class;;;;;;;;;;;;;x
+USA_light_cruiser_4;Vicksburg-Class;;;;;;;;;;;;;x
+USA_light_cruiser_5;Fargo-Class;;;;;;;;;;;;;x
+USA_light_cruiser_6;Worcester-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+USA_anti_air_cruiser_0;Atlanta-Class;;;;;;;;;;;;;x
+USA_anti_air_cruiser_1;Oakland-Class;;;;;;;;;;;;;x
+USA_anti_air_cruiser_2;Juneau-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+USA_destroyer_actual_0;Clemson/Porter/Mahan-Class;;;;;;;;;;;;;x
+USA_destroyer_actual_1;Benham-Class;;;;;;;;;;;;;x
+USA_destroyer_actual_2;Sims/Gleaves-Class;;;;;;;;;;;;;x
+USA_destroyer_actual_3;Fletcher-Class;;;;;;;;;;;;;x
+USA_destroyer_actual_4;Sumner-Class;;;;;;;;;;;;;x
+USA_destroyer_actual_5;Gearing-Class;;;;;;;;;;;;;x
+USA_destroyer_actual_6;Mitscher-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+USA_frigate_0;Tacoma-Class;;;;;;;;;;;;;x
+USA_frigate_1;Evarts-Class;;;;;;;;;;;;;x
+USA_frigate_2;Buckley-Class;;;;;;;;;;;;;x
+USA_frigate_3;Rudderow-Class;;;;;;;;;;;;;x
+USA_frigate_4;J.C.Butler-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+USA_carrier_0;Lexington-Class;;;;;;;;;;;;;;x
+USA_carrier_1;Ranger/Wasp-Class;;;;;;;;;;;;;;x
+USA_carrier_2;Yorktown-Class;;;;;;;;;;;;;;x
+USA_carrier_3;Essex-Class;;;;;;;;;;;;;;x
+USA_carrier_4;Ticonderoga-Class;;;;;;;;;;;;;;x
+USA_carrier_5;;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+## BATTLECARRIER #;;;;;;;;;;;;;;x
+USA_battle_carrier_0;Midway-Class;;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### ESCORT CARRIER ###;;;;;;;;;;;;;;x
+USA_escort_carrier_0;Long Island-Class;;;;;;;;;;;;;x
+USA_escort_carrier_1;Casablanca-Class;;;;;;;;;;;;;x
+USA_escort_carrier_2;Commencement Bay-Class;;;;;;;;;;;;;x
+### LIGHT CARRIER ###;;;;;;;;;;;;;;x
+USA_light_carrier_0;Langley-Class;;;;;;;;;;;;;x
+USA_light_carrier_1;Independence-Class;;;;;;;;;;;;;x
+USA_light_carrier_2;Saipan-Class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+### SUBMARINE ###;;;;;;;;;;;;;;x
+USA_coastal_submarine_0;S-Class;;;;;;;;;;;;;x
+### SUBMARINE ###;;;;;;;;;;;;;;x
+USA_submarine_0;Porpoise-Class;;;;;;;;;;;;;x
+USA_submarine_1;Salmon/Sargo-Class;;;;;;;;;;;;;x
+USA_submarine_2;Tambor-Class;;;;;;;;;;;;;x
+USA_submarine_3;Gato-Class;;;;;;;;;;;;;x
+USA_submarine_4;Balao-Class;;;;;;;;;;;;;x
+USA_submarine_5;Tench-Class;;;;;;;;;;;;;x
+USA_submarine_6;Barracuda-Class;;;;;;;;;;;;;x
+USA_submarine_7;Tang-Class;;;;;;;;;;;;;x
+USA_submarine_8;;;;;;;;;;;;;;x
+USA_submarine_9;;;;;;;;;;;;;;x
+USA_submarine_10;;;;;;;;;;;;;;x
+USA_submarine_11;;;;;;;;;;;;;;x
+### LONG RANGE SUBMARINE ###;;;;;;;;;;;;;;x
+USA_long_range_submarine_0;;;;;;;;;;;;;;x
+USA_long_range_submarine_1;;;;;;;;;;;;;;x
+USA_long_range_submarine_2;;;;;;;;;;;;;;x
+USA_long_range_submarine_3;;;;;;;;;;;;;;x
+USA_long_range_submarine_4;;;;;;;;;;;;;;x
+### NUCLEAR SUBMARINE ###;;;;;;;;;;;;;;x
+USA_nuclear_submarine_0;Nautilus-Class;;;;;;;;;;x
+### FAST ATTACK NUCLEAR SUBMARINE ###;;;;;;;;;;;;;;x
+USA_nuclear_fast_attack_submarine_0;Skate-Class;;;;;;;;;;x
+USA_nuclear_fast_attack_submarine_1;Skipjack-Class;;;;;;;;;;x
+USA_nuclear_fast_attack_submarine_2;Sturgeon-Class;;;;;;;;;;x
+### BALLISTIC MISSILE NUCLEAR SUBMARINE ###;;;;;;;;;;;;;;x
+USA_nuclear_ballistic_missile_submarine_0;George Washington-Class;;;;;;;;;;x
+USA_nuclear_ballistic_missile_submarine_1;Ethan-Allen-Class;;;;;;;;;;x
+USA_nuclear_ballistic_missile_submarine_2;James-Madison-Class;;;;;;;;;;x
+### GUIDED MISSILE DESTROYER ###;;;;;;;;;;;;;;x
+USA_guided_missile_destroyer_0;Forest-Sherman-Class;;;;;;;;;;;;;;x
+USA_guided_missile_destroyer_1;Farragut-Class;;;;;;;;;;;;;;x
+USA_guided_missile_destroyer_2;Charles F. Adams-Class;;;;;;;;;;;;;;x
+USA_guided_missile_destroyer_3;;;;;;;;;;;;;;;x
+USA_guided_missile_destroyer_4;Spruance-Class;;;;;;;;;;;;;;x
+### NUCLEAR GUIDED MISSILE CRUISER ###;;;;;;;;;;;;;;x
+USA_nuclear_guided_missile_cruiser_0;Bainbridge-Class;;;;;;;;;;x
+## Landing Ship Tank #;;;;;;;;;;;;;;x
+USA_landing_ship_tank_0;LST;;;;;;;;;;;;;;x
+## Landing Ship Dock #;;;;;;;;;;;;;;x
+USA_landing_ship_dock_0;Ashland-Class;;;;;;;;;;;;;;x
+## AMPHIBIOUS TRANSPORT DOCK SHIP #;;;;;;;;;;;;;;x
+USA_transport_dock_ship_0;Raleigh-Class;;;;;;;;;;;;;;x
+## LANDING PLATFORM HELICOPTER SHIP #;;;;;;;;;;;;;;x
+USA_landing_platform_helicopter_0;Iwo Jima-Class;;;;;;;;;;;;;;x
+## SUPERCARRIER #;;;;;;;;;;;;;;x
+USA_super_carrier_0;Forrestal-Class;;;;;;;;;;;;;;x
+## NUCLEAR POWERED AIRCRAFT CARRIER CLASS #;;;;;;;;;;;;;;x
+USA_nuclear_super_aircraft_carrier_0;Enterprise-Class;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x;

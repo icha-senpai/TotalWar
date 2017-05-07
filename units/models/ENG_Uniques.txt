@@ -1,0 +1,285 @@
+
+BB_Anson.0 = {
+	battleship_class = 3
+}
+
+BB_Barham.1 = {
+	battleship_class = 2
+	battleship_main_armament = 2
+	battleship_secondary_armament = 2
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 2
+	battleship_armor = 2
+	battleship_hull_design = 2
+	battleship_crew_berthing = 2
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+BB_Duke_of_York.0 = {
+	battleship_class = 3
+}
+
+
+BB_Howe.0 = {
+	battleship_class = 3
+}
+
+
+BB_King_George_V.0 = {
+	battleship_class = 3
+}
+
+
+BB_Malaya.1 = {
+	battleship_class = 2
+	battleship_main_armament = 2
+	battleship_secondary_armament = 2
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 2
+	battleship_armor = 2
+	battleship_hull_design = 2
+	battleship_crew_berthing = 2
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+
+BB_Nelson.3 = {
+	battleship_class = 4
+	battleship_main_armament = 4
+	battleship_secondary_armament = 4
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 3
+	battleship_armor = 3
+	battleship_hull_design = 4
+	battleship_crew_berthing = 4
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+BB_Prince_of_Wales.0 = {
+	battleship_class = 3
+}
+
+
+BB_Queen_elizabeth.1 = {
+	battleship_class = 2
+	battleship_main_armament = 2
+	battleship_secondary_armament = 2
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 2
+	battleship_armor = 2
+	battleship_hull_design = 2
+	battleship_crew_berthing = 2
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+BB_Ramillies.1 = {
+	battleship_class = 2
+	battleship_main_armament = 2
+	battleship_secondary_armament = 2
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 2
+	battleship_armor = 2
+	battleship_hull_design = 2
+	battleship_crew_berthing = 2
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+BB_Resolution.1 = {
+	battleship_class = 2
+	battleship_main_armament = 2
+	battleship_secondary_armament = 2
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 2
+	battleship_armor = 2
+	battleship_hull_design = 2
+	battleship_crew_berthing = 2
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+
+BB_Revenge.2 = {
+	battleship_class = 3
+	battleship_main_armament = 3
+	battleship_secondary_armament = 3
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 3
+	battleship_armor = 3
+	battleship_hull_design = 3
+	battleship_crew_berthing = 2
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+
+BB_Rodney.3 = {
+	battleship_class = 4
+	battleship_main_armament = 4
+	battleship_secondary_armament = 4
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 3
+	battleship_armor = 3
+	battleship_hull_design = 4
+	battleship_crew_berthing = 4
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+
+BB_Royal_Oak.1 = {
+	battleship_class = 2
+	battleship_main_armament = 2
+	battleship_secondary_armament = 2
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 2
+	battleship_armor = 2
+	battleship_hull_design = 2
+	battleship_crew_berthing = 2
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+
+BB_Royal_sovereign.1 = {
+	battleship_class = 1
+	battleship_main_armament = 1
+	battleship_secondary_armament = 1
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 1
+	battleship_armor = 1
+	battleship_hull_design = 1
+	battleship_crew_berthing = 1
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+
+BB_Valiant.1 = {
+	battleship_class = 2
+	battleship_main_armament = 2
+	battleship_secondary_armament = 2
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 2
+	battleship_armor = 2
+	battleship_hull_design = 2
+	battleship_crew_berthing = 2
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+
+BB_Warspite.1 = {
+	battleship_class = 2
+	battleship_main_armament = 2
+	battleship_secondary_armament = 2
+	battleship_anti_air_guns = 1
+	battleship_propulsion = 2
+	battleship_armor = 2
+	battleship_hull_design = 2
+	battleship_crew_berthing = 2
+	battleship_fire_control_systems = 1
+	battleship_damage_control_system = 1
+}
+
+
+CV_Ark_Royal.0 = { # Ark Royal-class 
+	fleet_carrier_class = 1
+	aircraft_carrier_propulsion = 1
+	aircraft_carrier_armor = 1
+	aircraft_carrier_hangar_deck_design = 1
+	aircraft_carrier_elevators = 1
+	aircraft_carrier_superstructure_design = 1
+	aircraft_carrier_flight_deck_design = 1
+	aircraft_carrier_hull_design = 1
+	aircraft_carrier_crew_berthing = 1
+	aircraft_carrier_damage_control_system = 1
+}
+
+
+CV_Courageous.0 = { #Glorious-class 
+	fleet_carrier_class = 1
+	aircraft_carrier_propulsion = 1
+	aircraft_carrier_armor = 1
+	aircraft_carrier_hangar_deck_design = 1
+	aircraft_carrier_elevators = 1
+	aircraft_carrier_superstructure_design = 1
+	aircraft_carrier_flight_deck_design = 1
+	aircraft_carrier_hull_design = 1
+	aircraft_carrier_crew_berthing = 1
+	aircraft_carrier_damage_control_system = 1
+}
+
+
+CV_Furious.0 = { #Furious-class 
+	fleet_carrier_class = 1
+	aircraft_carrier_propulsion = 1
+	aircraft_carrier_armor = 1
+	aircraft_carrier_hangar_deck_design = 1
+	aircraft_carrier_elevators = 1
+	aircraft_carrier_superstructure_design = 1
+	aircraft_carrier_flight_deck_design = 1
+	aircraft_carrier_hull_design = 1
+	aircraft_carrier_crew_berthing = 1
+	aircraft_carrier_damage_control_system = 1
+}
+
+
+CV_Glorious.0 = { #Glorious-class 
+	fleet_carrier_class = 1
+	aircraft_carrier_propulsion = 1
+	aircraft_carrier_armor = 1
+	aircraft_carrier_hangar_deck_design = 1
+	aircraft_carrier_elevators = 1
+	aircraft_carrier_superstructure_design = 1
+	aircraft_carrier_flight_deck_design = 1
+	aircraft_carrier_hull_design = 1
+	aircraft_carrier_crew_berthing = 1
+	aircraft_carrier_damage_control_system = 1
+}
+
+
+BC_Hood.1 = {
+	battlecruiser_class = 2
+	battlecruiser_main_armament = 2
+	battlecruiser_secondary_armament = 2
+	battlecruiser_anti_aircraft_guns = 1
+	battlecruiser_propulsion = 2
+	battlecruiser_armor = 2
+	battlecruiser_hull_design = 2
+	battlecruiser_crew_berthing = 2
+	battlecruiser_fire_control_system = 1
+}
+
+
+BC_Renown.1 = {
+	battlecruiser_class = 2
+	battlecruiser_main_armament = 2
+	battlecruiser_secondary_armament = 2
+	battlecruiser_anti_aircraft_guns = 1
+	battlecruiser_propulsion = 2
+	battlecruiser_armor = 2
+	battlecruiser_hull_design = 2
+	battlecruiser_crew_berthing = 2
+	battlecruiser_fire_control_system = 1
+}
+
+
+BC_Repulse.1 = {
+	battlecruiser_class = 2
+	battlecruiser_main_armament = 2
+	battlecruiser_secondary_armament = 2
+	battlecruiser_anti_aircraft_guns = 1
+	battlecruiser_propulsion = 2
+	battlecruiser_armor = 2
+	battlecruiser_hull_design = 2
+	battlecruiser_crew_berthing = 2
+	battlecruiser_fire_control_system = 1
+}
+
+
+

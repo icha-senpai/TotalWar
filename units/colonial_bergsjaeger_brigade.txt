@@ -1,0 +1,105 @@
+colonial_bergsjaeger_brigade = {
+	type = land
+	sprite = Infantry
+	active = no
+	is_buildable = yes
+
+	available_trigger = {
+		has_country_flag =  impossible
+	}
+
+	unit_group = special_forces_unit_type
+
+	#Size Definitions
+	max_strength = 60.00	# - x6 Battalions
+	default_organisation = 20
+	default_morale = 0.30
+	officers = 75
+
+	#Building Costs
+	build_cost_ic = 5.00
+	build_cost_manpower = 6.000
+	build_time = 45
+	repair_cost_multiplier = 0.02
+
+	#Misc Abilities
+	maximum_speed = 4.2
+	transport_weight = 9.00
+	supply_consumption = 0.35
+	fuel_consumption = 0.00
+	radio_strength = 0.25
+
+	#Defensive Abilities
+	defensiveness = 7.75	
+	toughness = 5.0
+	softness = 1.00
+	air_defence = 1.50
+
+	#Offensive Abilities
+	suppression = 1.00
+	soft_attack = 1.75
+	hard_attack = 0.25
+	air_attack = 0.000
+	
+	#   Mountain units are good at mountain warfare
+
+	plains = {
+		movement = -0.25 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		movement = -0.35 ## Not easy for infantry to cross river.  
+	}
+	arctic = {	
+		attack = 0.10 ## Used to cold weather
+		defence = 0.10 ## Used to cold weather
+		movement = -0.50 ## Not easy to move around on tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		movement = -0.50 ## Desert is too hot and big to cross on foot 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		movement = -0.25 ## Troops not specially trained to move through woods or forest
+	}
+	forest = {
+		movement = -0.35 ## Hard to move through dense forest 
+	}
+	jungle = { 
+		movement = -0.50  ## Not trained for jungle warfare
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		attack = 1.00 # Trained in Mountain Warfare
+		defence = 0.25 # Trained in Mountain Warfare
+		movement = 0.25 # Trained in Mountain Warfare
+	}
+	mountain = { 
+		attack = 1.00 # Trained in Mountain Warfare
+		defence = 0.25 # Trained in Mountain Warfare
+		movement = 0.25 # Trained in Mountain Warfare
+	}
+	urban = {
+		movement = -0.15  ## Easy to move through urban streets
+	}
+	marsh = { 
+		movement = -0.50 ## Difficult to move through marshes
+	}
+	amphibious = { 
+		attack = 0.10 ## Infantry is better suited for Amphibious Attacks
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		defence = 0.10 # Infantry are ideally suited for defending forts
+	}
+	
+	combat_width = 0.55
+	
+	completion_size = 0.30
+	on_completion = infantry_practical
+	
+	priority = 66
+}

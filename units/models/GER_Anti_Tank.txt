@@ -1,0 +1,218 @@
+####################################################################
+# Anti-tank brigade
+####################################################################
+
+###################################################################
+# Motorized Anti-Tank
+###################################################################
+motorized_anti_tank_brigade.0 = { # model I 1936
+	first_anti_tank_company = 1
+	second_anti_tank_company = 1
+	third_anti_tank_company = 1
+} 
+motorized_anti_tank_brigade.1 = { # model II 1937
+	first_anti_tank_company = 2
+	second_anti_tank_company = 2
+	third_anti_tank_company = 2
+}
+motorized_anti_tank_brigade.2 = { # model III 1939
+	first_anti_tank_company = 3
+	second_anti_tank_company = 3
+	third_anti_tank_company = 3
+}
+motorized_anti_tank_brigade.3 = { # model IV 1941
+	first_anti_tank_company = 4
+	second_anti_tank_company = 4
+	third_anti_tank_company = 4
+}
+motorized_anti_tank_brigade.4 = { # model V 1943
+	first_anti_tank_company = 5
+	second_anti_tank_company = 5
+	third_anti_tank_company = 5
+}
+motorized_anti_tank_brigade.5 = { # model VI 1945
+	first_anti_tank_company = 6
+	second_anti_tank_company = 6
+	third_anti_tank_company = 6
+}
+motorized_anti_tank_brigade.6 = { # model VII 1947
+	first_anti_tank_company = 7
+	second_anti_tank_company = 7
+	third_anti_tank_company = 7
+}
+motorized_anti_tank_brigade.7 = { # model VIII 1949
+	first_anti_tank_company = 8
+	second_anti_tank_company = 8
+	third_anti_tank_company = 8
+}
+motorized_anti_tank_brigade.8 = { # model IX 1951
+	first_anti_tank_company = 9
+	second_anti_tank_company = 9
+	third_anti_tank_company = 9
+}
+motorized_anti_tank_brigade.9 = { # model X 1953
+	first_anti_tank_company = 10
+	second_anti_tank_company = 10
+	third_anti_tank_company = 10
+}
+###################################################################
+# Anti-Tank
+###################################################################
+anti_tank_brigade.0 = { # model I 1936
+	first_anti_tank_company = 1
+	second_anti_tank_company = 1
+	third_anti_tank_company = 1
+} 
+anti_tank_brigade.1 = { # model II 1937
+	first_anti_tank_company = 2
+	second_anti_tank_company = 2
+	third_anti_tank_company = 2
+}
+anti_tank_brigade.2 = { # model III 1939
+	first_anti_tank_company = 3
+	second_anti_tank_company = 3
+	third_anti_tank_company = 3
+}
+anti_tank_brigade.3 = { # model IV 1941
+	first_anti_tank_company = 4
+	second_anti_tank_company = 4
+	third_anti_tank_company = 4
+}
+anti_tank_brigade.4 = { # model V 1943
+	first_anti_tank_company = 5
+	second_anti_tank_company = 5
+	third_anti_tank_company = 5
+}
+anti_tank_brigade.5 = { # model VI 1945
+	first_anti_tank_company = 6
+	second_anti_tank_company = 6
+	third_anti_tank_company = 6
+}
+anti_tank_brigade.6 = { # model VII 1947
+	first_anti_tank_company = 7
+	second_anti_tank_company = 7
+	third_anti_tank_company = 7
+}
+anti_tank_brigade.7 = { # model VIII 1949
+	first_anti_tank_company = 8
+	second_anti_tank_company = 8
+	third_anti_tank_company = 8
+}
+anti_tank_brigade.8 = { # model IX 1951
+	first_anti_tank_company = 9
+	second_anti_tank_company = 9
+	third_anti_tank_company = 9
+}
+anti_tank_brigade.9 = { # model X 1953
+	first_anti_tank_company = 10
+	second_anti_tank_company = 10
+	third_anti_tank_company = 10
+}
+
+###################################################################
+# Motorized Anti-Tank
+###################################################################
+ss_motorized_anti_tank_brigade.0 = { # model I 1936
+	first_anti_tank_company = 1
+	second_anti_tank_company = 1
+	third_anti_tank_company = 1
+} 
+ss_motorized_anti_tank_brigade.1 = { # model II 1937
+	first_anti_tank_company = 2
+	second_anti_tank_company = 2
+	third_anti_tank_company = 2
+}
+ss_motorized_anti_tank_brigade.2 = { # model III 1939
+	first_anti_tank_company = 3
+	second_anti_tank_company = 3
+	third_anti_tank_company = 3
+}
+ss_motorized_anti_tank_brigade.3 = { # model IV 1941
+	first_anti_tank_company = 4
+	second_anti_tank_company = 4
+	third_anti_tank_company = 4
+}
+ss_motorized_anti_tank_brigade.4 = { # model V 1943
+	first_anti_tank_company = 5
+	second_anti_tank_company = 5
+	third_anti_tank_company = 5
+}
+ss_motorized_anti_tank_brigade.5 = { # model VI 1945
+	first_anti_tank_company = 6
+	second_anti_tank_company = 6
+	third_anti_tank_company = 6
+}
+ss_motorized_anti_tank_brigade.6 = { # model VII 1947
+	first_anti_tank_company = 7
+	second_anti_tank_company = 7
+	third_anti_tank_company = 7
+}
+ss_motorized_anti_tank_brigade.7 = { # model VIII 1949
+	first_anti_tank_company = 8
+	second_anti_tank_company = 8
+	third_anti_tank_company = 8
+}
+ss_motorized_anti_tank_brigade.8 = { # model IX 1951
+	first_anti_tank_company = 9
+	second_anti_tank_company = 9
+	third_anti_tank_company = 9
+}
+ss_motorized_anti_tank_brigade.9 = { # model X 1953
+	first_anti_tank_company = 10
+	second_anti_tank_company = 10
+	third_anti_tank_company = 10
+}
+###################################################################
+# Anti-Tank
+###################################################################
+ss_anti_tank_brigade.0 = { # model I 1936
+	first_anti_tank_company = 1
+	second_anti_tank_company = 1
+	third_anti_tank_company = 1
+} 
+ss_anti_tank_brigade.1 = { # model II 1937
+	first_anti_tank_company = 2
+	second_anti_tank_company = 2
+	third_anti_tank_company = 2
+}
+ss_anti_tank_brigade.2 = { # model III 1939
+	first_anti_tank_company = 3
+	second_anti_tank_company = 3
+	third_anti_tank_company = 3
+}
+ss_anti_tank_brigade.3 = { # model IV 1941
+	first_anti_tank_company = 4
+	second_anti_tank_company = 4
+	third_anti_tank_company = 4
+}
+ss_anti_tank_brigade.4 = { # model V 1943
+	first_anti_tank_company = 5
+	second_anti_tank_company = 5
+	third_anti_tank_company = 5
+}
+ss_anti_tank_brigade.5 = { # model VI 1945
+	first_anti_tank_company = 6
+	second_anti_tank_company = 6
+	third_anti_tank_company = 6
+}
+ss_anti_tank_brigade.6 = { # model VII 1947
+	first_anti_tank_company = 7
+	second_anti_tank_company = 7
+	third_anti_tank_company = 7
+}
+ss_anti_tank_brigade.7 = { # model VIII 1949
+	first_anti_tank_company = 8
+	second_anti_tank_company = 8
+	third_anti_tank_company = 8
+}
+ss_anti_tank_brigade.8 = { # model IX 1951
+	first_anti_tank_company = 9
+	second_anti_tank_company = 9
+	third_anti_tank_company = 9
+}
+ss_anti_tank_brigade.9 = { # model X 1953
+	first_anti_tank_company = 10
+	second_anti_tank_company = 10
+	third_anti_tank_company = 10
+}	
+#EOF#

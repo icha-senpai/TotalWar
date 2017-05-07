@@ -1,0 +1,12 @@
+military_construction = {
+	country = JAP
+	
+	pursuit_fighter = { 
+		historical_model = 10
+	}
+		
+	cost = 7.00
+	duration = 90
+	progress = 15
+}
+#EOF#

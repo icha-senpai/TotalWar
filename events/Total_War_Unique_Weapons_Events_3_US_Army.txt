@@ -1,0 +1,3368 @@
+##############################################################
+############# United States Army Unique Weapons Activation Events     ###########
+##############################################################
+##############################################################
+#### Infantry Weapons
+##############################################################
+##############################################################
+#### Springfield 1903 Bolt Action Rifle
+##############################################################
+
+	country_event = {
+		id = 9105300
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105300"
+		desc = "EVTDESC9105300"
+		picture = "springfield_nineteen_oh_three_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			springfield_nineteen_oh_three_rifle_hidden = 6000
+			set_global_flag = springfield_nineteen_oh_three_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### M1 Garand Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9105301
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			carbine_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105301"
+		desc = "EVTDESC9105301"
+		picture = "m_one_garand_semi_automatic_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_garand_semi_automatic_rifle_hidden = 6000
+			set_global_flag = m_one_garand_semi_automatic_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Johnson 1941 Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9105302
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			carbine_prototype = 5
+			has_global_flag = m_one_garand_semi_automatic_rifle
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105302"
+		desc = "EVTDESC9105302"
+		picture = "johnson_model_nineteen_fourty_one_semi_automatic_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			johnson_model_nineteen_fourty_one_semi_automatic_rifle_hidden = 6000
+			set_global_flag = johnson_model_nineteen_fourty_one_semi_automatic_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1 Thompson Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105303
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			submachineguns_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105303"
+		desc = "EVTDESC9105303"
+		picture = "m_one_thompson_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_thompson_submachinegun_hidden = 6000
+			set_global_flag = m_one_thompson_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Browning M1918 BAR
+##############################################################
+
+	country_event = {
+		id = 9105304
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			lmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105304"
+		desc = "EVTDESC9105304"
+		picture = "browning_m_nineteen_eighteen_bar"
+		
+		option = {
+			name = "Put it Into Production."
+			browning_m_nineteen_eighteen_bar_hidden = 6000
+			set_global_flag = browning_m_nineteen_eighteen_bar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Browning M1917 HMG
+##############################################################
+
+	country_event = {
+		id = 9105305
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			hmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105305"
+		desc = "EVTDESC9105305"
+		picture = "browning_m_nineteen_seventeen_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			browning_m_nineteen_seventeen_hmg_hidden = 6000
+			set_global_flag = browning_m_nineteen_seventeen_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Browning M1919 HMG
+##############################################################
+
+	country_event = {
+		id = 9105306
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			hmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105306"
+		desc = "EVTDESC9105306"
+		picture = "browning_m_nineteen_nineteen_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			browning_m_nineteen_nineteen_hmg_hidden = 6000
+			set_global_flag = browning_m_nineteen_nineteen_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M3 Greasegun
+##############################################################
+
+	country_event = {
+		id = 9105307
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			submachineguns_prototype = 6
+			has_global_flag = m_one_thompson_submachinegun
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105307"
+		desc = "EVTDESC9105307"
+		picture = "m_three_greasegun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_three_greasegun_hidden = 6000
+			set_global_flag = m_three_greasegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1 Paratrooper Carbine
+##############################################################
+
+	country_event = {
+		id = 9105308
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			paratrooper_carbine_prototype = 1
+			has_global_flag = m_one_garand_semi_automatic_rifle
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105308"
+		desc = "EVTDESC9105308"
+		picture = "m_one_paratrooper_carbine"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_paratrooper_carbine_hidden = 6000
+			set_global_flag = m_one_paratrooper_carbine
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1 81mm Mortar
+##############################################################
+
+	country_event = {
+		id = 9105309
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			mortar_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105309"
+		desc = "EVTDESC9105309"
+		picture = "m_one_eighty_one_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_eighty_one_mm_mortar_hidden = 6000
+			set_global_flag = m_one_eighty_one_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M2 60mm Mortar
+##############################################################
+
+	country_event = {
+		id = 9105310
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			mortar_prototype = 2
+			has_global_flag = m_one_eighty_one_mm_mortar	
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105310"
+		desc = "EVTDESC9105310"
+		picture = "m_two_sixty_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			m_two_sixty_mm_mortar_hidden = 6000
+			set_global_flag = m_two_sixty_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M19 60mm Mortar
+##############################################################
+
+	country_event = {
+		id = 9105311
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			mortar_prototype = 3
+			has_global_flag = m_two_sixty_mm_mortar	
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105311"
+		desc = "EVTDESC9105311"
+		picture = "m_nineteen_sixty_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_sixty_mm_mortar_hidden = 6000
+			set_global_flag = m_nineteen_sixty_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1 Bazooka Rocket Launcher
+##############################################################
+
+	country_event = {
+		id = 9105312
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			rocket_at_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105312"
+		desc = "EVTDESC9105312"
+		picture = "m_one_bazooka_at_rocket_launcher"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_bazooka_at_rocket_launcher_hidden = 6000
+			set_global_flag = m_one_bazooka_at_rocket_launcher
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M20 75mm Recoilless Rifle
+##############################################################
+
+	country_event = {
+		id = 9105313
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			paratrooper_recoilless_rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105313"
+		desc = "EVTDESC9105313"
+		picture = "m_twenty_seventy_five_mm_recoilless_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			m_twenty_seventy_five_mm_recoilless_rifle_hidden = 6000
+			set_global_flag = m_twenty_seventy_five_mm_recoilless_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+############################################################################################################################
+##############################################################
+#### M101 105mm Medium Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105314
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			infantry_guns = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105314"
+		desc = "EVTDESC9105314"
+		picture = "m_one_one_hundred_five_medium_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_one_hundred_five_medium_howitzer_hidden = 6000
+			set_global_flag = m_one_one_hundred_five_medium_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### M1918 155 GPF 155mm Medium Field Gun
+##############################################################
+
+	country_event = {
+		id = 9105315
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			med_field_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105315"
+		desc = "EVTDESC9105315"
+		picture = "m_nineteen_eighteen_one_hundred_fifty_five_mm_medium_field_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_eighteen_one_hundred_fifty_five_mm_medium_field_gun_hidden = 6000
+			set_global_flag = m_nineteen_eighteen_one_hundred_fifty_five_mm_medium_field_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M59 (M2 Long Tom) 155mm Medium Field Gun
+##############################################################
+
+	country_event = {
+		id = 9105316
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			med_field_artillery = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105316"
+		desc = "EVTDESC9105316"
+		picture = "long_tom_one_hundred_fifty_five_mm_medium_field_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			long_tom_one_hundred_fifty_five_mm_medium_field_gun_hidden = 6000
+			set_global_flag = long_tom_one_hundred_fifty_five_mm_medium_field_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M114 155mm Medium Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105317
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			med_field_artillery = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105317"
+		desc = "EVTDESC9105317"
+		picture = "m_one_fourteen_one_hundred_fifty_five_medium_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_fourteen_one_hundred_fifty_five_medium_howitzer_hidden = 6000
+			set_global_flag = m_one_fourteen_one_hundred_fifty_five_medium_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1 75mm Pack Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105318
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			pack_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105318"
+		desc = "EVTDESC9105318"
+		picture = "m_one_pack_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_pack_howitzer_hidden = 6000
+			set_global_flag = m_one_pack_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M3 105mm Light Airborne Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105319
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			airborne_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105319"
+		desc = "EVTDESC9105319"
+		picture = "m_three_one_hundred_five_mm_light_airborne_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_three_one_hundred_five_mm_light_airborne_howitzer_hidden = 6000
+			set_global_flag = m_three_one_hundred_five_mm_light_airborne_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M115 203mm Heavy Howitzer 
+##############################################################
+
+	country_event = {
+		id = 9105320
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			hvy_field_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105320"
+		desc = "EVTDESC9105320"
+		picture = "m_one_hundred_fifteen_heavy_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_hundred_fifteen_heavy_howitzer_hidden = 6000
+			set_global_flag = m_one_hundred_fifteen_heavy_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Little David Siege Mortar
+##############################################################
+
+	country_event = {
+		id = 9105321
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			hvy_field_artillery = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105321"
+		desc = "EVTDESC9105321"
+		picture = "little_david_siege_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			little_david_siege_mortar_hidden = 6000
+			set_global_flag = little_david_siege_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M3 37mm Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105322
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			anti_tank_gun = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105322"
+		desc = "EVTDESC9105322"
+		picture = "m_three_thirty_seven_mm_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_three_thirty_seven_mm_at_gun_hidden = 6000
+			set_global_flag = m_three_thirty_seven_mm_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1 57mm Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105323
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			anti_tank_gun = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105323"
+		desc = "EVTDESC9105323"
+		picture = "m_one_fifty_seven_mm_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_fifty_seven_mm_at_gun_hidden = 6000
+			set_global_flag = m_one_fifty_seven_mm_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### T8 90mm Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105324
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			anti_tank_gun = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105324"
+		desc = "EVTDESC9105324"
+		picture = "t_eight_ninety_mm_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			t_eight_ninety_mm_at_gun_hidden = 6000
+			set_global_flag = t_eight_ninety_mm_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1918 76.2mm Anti-Aircraft Gun
+##############################################################
+
+	country_event = {
+		id = 9105325
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			anti_aircraft_gun = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105325"
+		desc = "EVTDESC9105325"
+		picture = "m_nineteen_eighteen_seventy_six_mm_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_eighteen_seventy_six_mm_aa_gun_hidden = 6000
+			set_global_flag = m_nineteen_eighteen_seventy_six_mm_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1 90mm Anti-Aircraft Gun
+##############################################################
+
+	country_event = {
+		id = 9105326
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			anti_aircraft_gun = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105326"
+		desc = "EVTDESC9105326"
+		picture = "m_one_ninety_mm_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_ninety_mm_aa_gun_hidden = 6000
+			set_global_flag = m_one_ninety_mm_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M1 120mm Anti-Aircraft Gun
+##############################################################
+
+	country_event = {
+		id = 9105327
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			anti_aircraft_gun = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105327"
+		desc = "EVTDESC9105327"
+		picture = "one_hundred_twenty_mm_m_one_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			one_hundred_twenty_mm_m_one_aa_gun_hidden = 6000
+			set_global_flag = one_hundred_twenty_mm_m_one_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M45 Quadmount 50.Cal(Maxson) Anti-Aircraft Gun
+##############################################################
+
+	country_event = {
+		id = 9105328
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			anti_aircraft_gun = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105328"
+		desc = "EVTDESC9105328"
+		picture = "m_fourty_five_quadmount_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fourty_five_quadmount_aa_gun_hidden = 6000
+			set_global_flag = m_fourty_five_quadmount_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M21 114mm Rocket Artillery
+##############################################################
+
+	country_event = {
+		id = 9105329
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			rocket_artillery = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105329"
+		desc = "EVTDESC9105329"
+		picture = "m_twenty_one_one_hundred_fourteen_mm_rocket_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_twenty_one_one_hundred_fourteen_mm_rocket_artillery_hidden = 6000
+			set_global_flag = m_twenty_one_one_hundred_fourteen_mm_rocket_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Rocket Launcher T34 (Calliope)
+##############################################################
+
+	country_event = {
+		id = 9105330
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_rocket_artillery_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105330"
+		desc = "EVTDESC9105330"
+		picture = "calliope_rocket_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			calliope_rocket_artillery_hidden = 6000
+			set_global_flag = calliope_rocket_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### T19/M21 81mm MMC SP Mortar
+##############################################################
+
+	country_event = {
+		id = 9105331
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_artillery_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105331"
+		desc = "EVTDESC9105331"
+		picture = "t_nineteen_m_twenty_one_eighty_one_mm_sp_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			t_nineteen_m_twenty_one_eighty_one_mm_sp_mortar_hidden = 6000
+			set_global_flag = t_nineteen_m_twenty_one_eighty_one_mm_sp_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M3 Gun Motor Carriage 75mm SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105332
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_artillery_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105332"
+		desc = "EVTDESC9105332"
+		picture = "m_three_seventy_five_mm_gmc_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_three_seventy_five_mm_gmc_sp_artillery_hidden = 6000
+			set_global_flag = m_three_seventy_five_mm_gmc_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M8 Scott 75mm SP Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105333
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_artillery_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105333"
+		desc = "EVTDESC9105333"
+		picture = "m_eight_scott_seventy_five_mm_gmc_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_eight_scott_seventy_five_mm_gmc_sp_artillery_hidden = 6000
+			set_global_flag = m_eight_scott_seventy_five_mm_gmc_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M7 Priest 105mm SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105334
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_artillery_prototype = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105334"
+		desc = "EVTDESC9105334"
+		picture = "m_seven_priest_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_seven_priest_sp_artillery_hidden = 6000
+			set_global_flag = m_seven_priest_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M12 155mm SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105335
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_artillery_prototype = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105335"
+		desc = "EVTDESC9105335"
+		picture = "m_twelve_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_twelve_sp_artillery_hidden = 6000
+			set_global_flag = m_twelve_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M37 105mm Howitzer SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105336
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_artillery_prototype = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105336"
+		desc = "EVTDESC9105336"
+		picture = "m_thirty_seven_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_thirty_seven_sp_artillery_hidden = 6000
+			set_global_flag = m_thirty_seven_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M41 Gorilla 155mm Howitzer SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105337
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_artillery_prototype = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 45
+		}	
+		
+		title = "EVTNAME9105337"
+		desc = "EVTDESC9105337"
+		picture = "m_fourty_one_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fourty_one_sp_artillery_hidden = 6000
+			set_global_flag = m_fourty_one_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M15 Halftrack 37mm SP Anti-Aircraft Gun
+##############################################################
+
+	country_event = {
+		id = 9105338
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_anti_aircraft_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105338"
+		desc = "EVTDESC9105338"
+		picture = "m_fifteen_sp_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fifteen_sp_aa_gun_hidden = 6000
+			set_global_flag = m_fifteen_sp_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### M19 40mm SP Anti-Aircraft Gun
+##############################################################
+
+	country_event = {
+		id = 9105339
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_anti_aircraft_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105339"
+		desc = "EVTDESC9105339"
+		picture = "m_nineteen_sp_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_sp_aa_gun_hidden = 6000
+			set_global_flag = m_nineteen_sp_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### T77 x6 50. Cal Turret SP Anti-Aircraft Gun
+##############################################################
+
+	country_event = {
+		id = 9105340
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_anti_aircraft_prototype = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105340"
+		desc = "EVTDESC9105340"
+		picture = "t_seventy_seven_sp_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			t_seventy_seven_sp_aa_gun_hidden = 6000
+			set_global_flag = t_seventy_seven_sp_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+############################################################################################################################
+##############################################################
+#### M1 Tankette
+##############################################################
+
+	country_event = {
+		id = 9105341
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			light_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105341"
+		desc = "EVTDESC9105341"
+		picture = "m_one_tankette"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_tankette_hidden = 6000
+			set_global_flag = m_one_tankette
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M2 Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105342
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			light_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105342"
+		desc = "EVTDESC9105342"
+		picture = "m_two_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_two_light_tank_hidden = 6000
+			set_global_flag = m_two_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M3 Stuart Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105343
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			light_tank_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105343"
+		desc = "EVTDESC9105343"
+		picture = "m_three_stuart_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_three_stuart_light_tank_hidden = 6000
+			set_global_flag = m_three_stuart_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M5 Stuart Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105344
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			light_tank_prototype = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105344"
+		desc = "EVTDESC9105344"
+		picture = "m_five_stuart_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_five_stuart_light_tank_hidden = 6000
+			set_global_flag = m_five_stuart_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M22 Locust Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105345
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			light_tank_prototype = 4
+			airlanding_infantry_regiment = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105345"
+		desc = "EVTDESC9105345"
+		picture = "m_twenty_two_locust_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_twenty_two_locust_light_tank_hidden = 6000
+			set_global_flag = m_twenty_two_locust_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M24 Chaffee Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105346
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			light_tank_prototype = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105346"
+		desc = "EVTDESC9105346"
+		picture = "m_twenty_four_chaffee_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_twenty_four_chaffee_light_tank_hidden = 6000
+			set_global_flag = m_twenty_four_chaffee_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M3 Lee/M3 Grant Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9105347
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			medium_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105347"
+		desc = "EVTDESC9105347"
+		picture = "m_three_lee_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_three_lee_medium_tank_hidden = 6000
+			set_global_flag = m_three_lee_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M4 Sherman Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9105348
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			medium_tank_prototype = 3
+			versatile_tank_designs = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105348"
+		desc = "EVTDESC9105348"
+		picture = "m_four_sherman_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_four_sherman_medium_tank_hidden = 6000
+			set_global_flag = m_four_sherman_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M26 Pershing Heavy Tank
+##############################################################
+
+	country_event = {
+		id = 9105349
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			heavy_tank_prototype = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105349"
+		desc = "EVTDESC9105349"
+		picture = "m_twenty_six_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_twenty_six_heavy_tank_hidden = 6000
+			set_global_flag = m_twenty_six_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### T30 Super Heavy Tank
+##############################################################
+
+	country_event = {
+		id = 9105350
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			super_heavy_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105350"
+		desc = "EVTDESC9105350"
+		picture = "t_thirty_super_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			t_thirty_super_heavy_tank_hidden = 6000
+			set_global_flag = t_thirty_super_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M4 Sherman DD Amphibious Tank
+##############################################################
+
+	country_event = {
+		id = 9105351
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			amphibious_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105351"
+		desc = "EVTDESC9105351"
+		picture = "m_four_sherman_dd_amphibious_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_four_sherman_dd_amphibious_tank_hidden = 6000
+			set_global_flag = m_four_sherman_dd_amphibious_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### T48 57mm GMC Light Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105352
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			light_tank_destroyer_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105352"
+		desc = "EVTDESC9105352"
+		picture = "t_fourty_eight_gmc_light_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			t_fourty_eight_gmc_light_tank_destroyer_hidden = 6000
+			set_global_flag = t_fourty_eight_gmc_light_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### M10 Wolverine 76.2mm GMC Medium Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105353
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			medium_tank_destroyer_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105353"
+		desc = "EVTDESC9105353"
+		picture = "m_ten_wolverine_gmc_medium_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_ten_wolverine_gmc_medium_tank_destroyer_hidden = 6000
+			set_global_flag = m_ten_wolverine_gmc_medium_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M18 Hellcat 76.2mm GMC Medium Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105354
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			medium_tank_destroyer_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105354"
+		desc = "EVTDESC9105354"
+		picture = "m_eighteen_hellcat_gmc_medium_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_eighteen_hellcat_gmc_medium_tank_destroyer_hidden = 6000
+			set_global_flag = m_eighteen_hellcat_gmc_medium_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M36 Jackson/Slugger 90mm GMC Medium Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105355
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			medium_tank_destroyer_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105355"
+		desc = "EVTDESC9105355"
+		picture = "m_thirty_six_jackson_gmc_medium_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_thirty_six_jackson_gmc_medium_tank_destroyer_hidden = 6000
+			set_global_flag = m_thirty_six_jackson_gmc_medium_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### T28 105mm Heavy Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105356
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			heavy_tank_destroyer_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105356"
+		desc = "EVTDESC9105356"
+		picture = "t_twenty_eight_one_hundred_five_heavy_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			t_twenty_eight_one_hundred_five_heavy_tank_destroyer_hidden = 6000
+			set_global_flag = t_twenty_eight_one_hundred_five_heavy_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+############################################################################################################################
+##############################################################
+#### Springfield M14 Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9105357
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_rifles = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105357"
+		desc = "EVTDESC9105357"
+		picture = "m_fourteen_advanced_semi_automatic_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fourteen_advanced_semi_automatic_rifle_hidden = 6000
+			set_global_flag = m_fourteen_advanced_semi_automatic_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M16 Assault Rifle
+##############################################################
+
+	country_event = {
+		id = 9105358
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_assault_rifles = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105358"
+		desc = "EVTDESC9105358"
+		picture = "m_sixteen_assault_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			m_sixteen_assault_rifle_hidden = 6000
+			set_global_flag = m_sixteen_assault_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Colt CAR-15 Commando Assault Rifle
+##############################################################
+
+	country_event = {
+		id = 9105359
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_assault_rifles = 3
+			special_forces_assault_rifle_distribution = 7
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105359"
+		desc = "EVTDESC9105359"
+		picture = "colt_car_fifteen_commando_assault_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			colt_car_fifteen_commando_assault_rifle_hidden = 6000
+			set_global_flag = colt_car_fifteen_commando_assault_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M203 Grenade Launcher
+##############################################################
+
+	country_event = {
+		id = 9105360
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			assault_rifle_grenade_launcher = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105360"
+		desc = "EVTDESC9105360"
+		picture = "m_two_oh_three_grenade_launcher"
+		
+		option = {
+			name = "Put it Into Production."
+			m_two_oh_three_grenade_launcher_hidden = 6000
+			set_global_flag = m_two_oh_three_grenade_launcher
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### FIM-43 Redeye MANPAD
+##############################################################
+
+	country_event = {
+		id = 9105361
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			manpads = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105361"
+		desc = "EVTDESC9105361"
+		picture = "fim_fourty_three_manpad"
+		
+		option = {
+			name = "Put it Into Production."
+			fim_fourty_three_manpad_hidden = 6000
+			set_global_flag = fim_fourty_three_manpad
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M134 Minigun
+##############################################################
+
+	country_event = {
+		id = 9105362
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			miniguns = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105362"
+		desc = "EVTDESC9105362"
+		picture = "m_one_thirty_four_minigun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_thirty_four_minigun_hidden = 6000
+			set_global_flag = m_one_thirty_four_minigun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### GAU-17/A Minigun
+##############################################################
+
+	country_event = {
+		id = 9105363
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			miniguns = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105363"
+		desc = "EVTDESC9105363"
+		picture = "gau_seventeen_a_minigun"
+		
+		option = {
+			name = "Put it Into Production."
+			gau_seventeen_a_minigun_hidden = 6000
+			set_global_flag = gau_seventeen_a_minigun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M67 Recoilless Rifle
+##############################################################
+
+	country_event = {
+		id = 9105364
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			rocket_propelled_grenades = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105364"
+		desc = "EVTDESC9105364"
+		picture = "m_sixty_seven_recoilless_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			m_sixty_seven_recoilless_rifle_hidden = 6000
+			set_global_flag = m_sixty_seven_recoilless_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M72 LAW (Light Anti-Armor Weapon)
+##############################################################
+
+	country_event = {
+		id = 9105365
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_anti_tank_rockets = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105365"
+		desc = "EVTDESC9105365"
+		picture = "m_seventy_two_law"
+		
+		option = {
+			name = "Put it Into Production."
+			m_seventy_two_law_hidden = 6000
+			set_global_flag = m_seventy_two_law
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Saco Mk 19 Automatic Grenade Launcher
+##############################################################
+
+	country_event = {
+		id = 9105366
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			automatic_grenade_launcher = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105366"
+		desc = "EVTDESC9105366"
+		picture = "saco_mk_nineteen_agl"
+		
+		option = {
+			name = "Put it Into Production."
+			saco_mk_nineteen_agl_hidden = 6000
+			set_global_flag = saco_mk_nineteen_agl
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### SW Model 76 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105367
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_submachine_guns = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105367"
+		desc = "EVTDESC9105367"
+		picture = "sw_model_seventy_six_advanced_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			sw_model_seventy_six_advanced_submachinegun_hidden = 6000
+			set_global_flag = sw_model_seventy_six_advanced_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Stoner 63 (Universal Combat Weapon)
+##############################################################
+
+	country_event = {
+		id = 9105368
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_assault_rifles = 3
+			special_forces_assault_rifle_distribution = 9
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105368"
+		desc = "EVTDESC9105368"
+		picture = "stoner_sixty_three_ucw_advanced_assault_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			stoner_sixty_three_ucw_advanced_assault_rifle_hidden = 6000
+			set_global_flag = stoner_sixty_three_ucw_advanced_assault_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M60 GPMG Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105369
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_light_machine_guns = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105369"
+		desc = "EVTDESC9105369"
+		picture = "m_sixty_advanced_light_machine_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_sixty_advanced_light_machine_gun_hidden = 6000
+			set_global_flag = m_sixty_advanced_light_machine_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### M29 81mm Mortar
+##############################################################
+
+	country_event = {
+		id = 9105370
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_mortars = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105370"
+		desc = "EVTDESC9105370"
+		picture = "m_twenty_nine_eighty_one_mm_advanced_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			m_twenty_nine_eighty_one_mm_advanced_mortar_hidden = 6000
+			set_global_flag = m_twenty_nine_eighty_one_mm_advanced_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M31 AT Rifle Grenade
+##############################################################
+
+	country_event = {
+		id = 9105371
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_anti_tank_grenade = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105371"
+		desc = "EVTDESC9105371"
+		picture = "m_thirty_one_at_rifle_grenade"
+		
+		option = {
+			name = "Put it Into Production."
+			m_thirty_one_at_rifle_grenade_hidden = 6000
+			set_global_flag = m_thirty_one_at_rifle_grenade
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M40 106mm Recoilless Rifle
+##############################################################
+
+	country_event = {
+		id = 9105372
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			rocket_propelled_grenades = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105372"
+		desc = "EVTDESC9105372"
+		picture = "m_fourty_one_hundred_six_mm_advanced_recoilless_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fourty_one_hundred_six_mm_advanced_recoilless_rifle_hidden = 6000
+			set_global_flag = m_fourty_one_hundred_six_mm_advanced_recoilless_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+############################################################################################################################
+##############################################################
+#### M102 105mm Light Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105373
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			infantry_guns = 15
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105373"
+		desc = "EVTDESC9105373"
+		picture = "m_one_oh_two_one_hundred_five_light_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_oh_two_one_hundred_five_light_howitzer_hidden = 6000
+			set_global_flag = m_one_oh_two_one_hundred_five_light_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### T92 240mm HMC Self-Propelled Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105374
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_artillery_prototype = 7
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105374"
+		desc = "EVTDESC9105374"
+		picture = "t_ninety_two_two_hundred_fourty_mm_sph_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			t_ninety_two_two_hundred_fourty_mm_sph_howitzer_hidden = 6000
+			set_global_flag = t_ninety_two_two_hundred_fourty_mm_sph_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M108 105mm SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105375
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_sp_artillery = 4 
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105375"
+		desc = "EVTDESC9105375"
+		picture = "m_one_oh_eight_one_hundred_five_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_oh_eight_one_hundred_five_sp_artillery_hidden = 6000
+			set_global_flag = m_one_oh_eight_one_hundred_five_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M44 155mm SP Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105376
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_sp_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105376"
+		desc = "EVTDESC9105376"
+		picture = "m_fourty_four_one_hundred_fifty_five_mm_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fourty_four_one_hundred_fifty_five_mm_sp_artillery_hidden = 6000
+			set_global_flag = m_fourty_four_one_hundred_fifty_five_mm_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### M52 105mm SP Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105377
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_sp_artillery = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105377"
+		desc = "EVTDESC9105377"
+		picture = "m_fifty_two_one_hundred_hundred_five_mm_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fifty_two_one_hundred_hundred_five_mm_sp_artillery_hidden = 6000
+			set_global_flag = m_fifty_two_one_hundred_hundred_five_mm_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M53 155mm SP Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105378
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_sp_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105378"
+		desc = "EVTDESC9105378"
+		picture = "m_fifty_three_one_hundred_fifty_five_mm_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fifty_three_one_hundred_fifty_five_mm_sp_artillery_hidden = 6000
+			set_global_flag = m_fifty_three_one_hundred_fifty_five_mm_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M55 203mm SP Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105379
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_sp_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105379"
+		desc = "EVTDESC9105379"
+		picture = "m_fifty_five_two_hundred_three_mm_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fifty_five_two_hundred_three_mm_sp_artillery_hidden = 6000
+			set_global_flag = m_fifty_five_two_hundred_three_mm_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M107 175mm SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105380
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_sp_artillery = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105380"
+		desc = "EVTDESC9105380"
+		picture = "m_one_oh_seven_one_hundred_seventy_five_mm_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_oh_seven_one_hundred_seventy_five_mm_sp_artillery_hidden = 6000
+			set_global_flag = m_one_oh_seven_one_hundred_seventy_five_mm_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M110 203mm SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105381
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_sp_artillery = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105381"
+		desc = "EVTDESC9105381"
+		picture = "m_one_ten_two_hundred_three_mm_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_ten_two_hundred_three_mm_sp_artillery_hidden = 6000
+			set_global_flag = m_one_ten_two_hundred_three_mm_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M109 155mm SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105382
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			advanced_sp_artillery = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105382"
+		desc = "EVTDESC9105382"
+		picture = "m_one_oh_nine_one_hundred_fifty_five_mm_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_oh_nine_one_hundred_fifty_five_mm_sp_artillery_hidden = 6000
+			set_global_flag = m_one_oh_nine_one_hundred_fifty_five_mm_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M42 Duster SP Anti-Aircraft Gun
+##############################################################
+
+	country_event = {
+		id = 9105383
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_anti_aircraft_prototype = 4
+			armored_personnel_carriers = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105383"
+		desc = "EVTDESC9105383"
+		picture = "m_fourty_two_sp_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fourty_two_sp_aa_gun_hidden = 6000
+			set_global_flag = m_fourty_two_sp_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M163 Vulcan Air Defense System (VADS) AA Gun
+##############################################################
+
+	country_event = {
+		id = 9105384
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			sp_anti_aircraft_prototype = 4
+			armored_personnel_carriers = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105384"
+		desc = "EVTDESC9105384"
+		picture = "m_one_sixty_three_vads_sp_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_sixty_three_vads_sp_aa_gun_hidden = 6000
+			set_global_flag = m_one_sixty_three_vads_sp_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+############################################################################################################################
+##############################################################
+#### LVTP-5 Amphibious Armored Personnel Carrier
+##############################################################
+
+	country_event = {
+		id = 9105385
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			tracked_amphibious_landing_craft_distribution = 5
+			armored_personnel_carriers = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105385"
+		desc = "EVTDESC9105385"
+		picture = "lvtp_five_amphibious_apc"
+		
+		option = {
+			name = "Put it Into Production."
+			lvtp_five_amphibious_apc_hidden = 6000
+			set_global_flag = lvtp_five_amphibious_apc
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M59 Armored Personnel Carrier
+##############################################################
+
+	country_event = {
+		id = 9105386
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			armored_personnel_carriers = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105386"
+		desc = "EVTDESC9105386"
+		picture = "m_fifty_nine_apc"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fifty_nine_apc_hidden = 6000
+			set_global_flag = m_fifty_nine_apc
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M75 Armored Personnel Carrier
+##############################################################
+
+	country_event = {
+		id = 9105387
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			armored_personnel_carriers = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105387"
+		desc = "EVTDESC9105387"
+		picture = "m_seventy_five_apc"
+		
+		option = {
+			name = "Put it Into Production."
+			m_seventy_five_apc_hidden = 6000
+			set_global_flag = m_seventy_five_apc
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M113 Armored Personnel Carrier
+##############################################################
+
+	country_event = {
+		id = 9105388
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			armored_personnel_carriers = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105388"
+		desc = "EVTDESC9105388"
+		picture = "m_one_hundred_thirteen_apc"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_hundred_thirteen_apc_hidden = 6000
+			set_global_flag = m_one_hundred_thirteen_apc
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M41 Bulldog Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105389
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			light_tank_prototype = 5
+			advanced_tank_technology = 1 
+			mbt_turret_design = 2
+			mbt_chassis_design = 2
+			mbt_suspension_design = 2
+			mbt_main_gun_design = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105389"
+		desc = "EVTDESC9105389"
+		picture = "m_fourty_one_bulldog_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fourty_one_bulldog_light_tank_hidden = 6000
+			set_global_flag = m_fourty_one_bulldog_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M551 Sheridan Armored Recon Airborne Assault Vehicle
+##############################################################
+
+	country_event = {
+		id = 9105390
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			light_tank_prototype = 5
+			advanced_tank_technology = 1 
+			mbt_turret_design = 5
+			mbt_chassis_design = 5
+			mbt_suspension_design = 5
+			mbt_main_gun_design = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105390"
+		desc = "EVTDESC9105390"
+		picture = "m_five_fifty_one_sheridan_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_five_fifty_one_sheridan_light_tank_hidden = 6000
+			set_global_flag = m_five_fifty_one_sheridan_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### M46 Patton I Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9105391
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			main_battle_tank = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105391"
+		desc = "EVTDESC9105391"
+		picture = "m_fourty_six_patton_i_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fourty_six_patton_i_mbt_hidden = 6000
+			set_global_flag = m_fourty_six_patton_i_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M47 Patton II Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9105392
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			main_battle_tank = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105392"
+		desc = "EVTDESC9105392"
+		picture = "m_fourty_seven_patton_ii_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fourty_seven_patton_ii_mbt_hidden = 6000
+			set_global_flag = m_fourty_seven_patton_ii_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M48 Patton III Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9105393
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			main_battle_tank = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105393"
+		desc = "EVTDESC9105393"
+		picture = "m_fourty_eight_patton_iii_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fourty_eight_patton_iii_mbt_hidden = 6000
+			set_global_flag = m_fourty_eight_patton_iii_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M60 Patton IV Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9105394
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			main_battle_tank = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105394"
+		desc = "EVTDESC9105394"
+		picture = "m_sixty_patton_iv_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			m_sixty_patton_iv_mbt_hidden = 6000
+			set_global_flag = m_sixty_patton_iv_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M103 120mm Heavy Tank
+##############################################################
+
+	country_event = {
+		id = 9105395
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			heavy_tank_prototype = 4
+			main_battle_tank = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105395"
+		desc = "EVTDESC9105395"
+		picture = "m_one_oh_three_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			m_one_oh_three_heavy_tank_hidden = 6000
+			set_global_flag = m_one_oh_three_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### M50 Ontos (Thing) Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105396
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			medium_tank_destroyer_prototype = 4
+			main_battle_tank = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105396"
+		desc = "EVTDESC9105396"
+		picture = "m_fifty_ontos_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fifty_ontos_tank_destroyer_hidden = 6000
+			set_global_flag = m_fifty_ontos_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### M56 Scorpion 90mm Airborne Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105397
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = USA
+			light_tank_destroyer_prototype = 3
+			main_battle_tank = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105397"
+		desc = "EVTDESC9105397"
+		picture = "m_fifty_six_scorpion_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			m_fifty_six_scorpion_tank_destroyer_hidden = 6000
+			set_global_flag = m_fifty_six_scorpion_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}			

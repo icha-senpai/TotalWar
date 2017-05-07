@@ -1,0 +1,112 @@
+cavalry_brigade = {
+	type = land
+	sprite = Cavalry
+	active = yes
+	is_buildable = yes
+	
+	unit_group = assault_unit_type
+
+	#Size Definitions
+	max_strength = 60.0    # 2x Cavalry Regiments = x6 Battalions
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 75
+
+	#Building Costs
+	build_cost_ic = 5.00
+	build_cost_manpower = 6.0
+	build_time = 60
+	repair_cost_multiplier = 0.01
+
+	#Misc Abilities
+	maximum_speed = 5.00
+	transport_weight = 25.00	#  - Lots of Horse and equipment
+	supply_consumption = 0.55
+	fuel_consumption = 0.00
+	radio_strength = 1.75
+
+	#Defensive Abilities
+	defensiveness = 8.0	
+	toughness = 0.0
+	softness = 1.00
+	air_defence = 1.00
+
+	#Offensive Abilities
+	suppression = 7.00
+	soft_attack = 2.50
+	hard_attack = 0.00
+	air_attack = 0.00
+
+	## Cavalry are better at assaulting in open and difficult terrain.  
+	
+	plains = {
+		attack = 0.20 ## Slight bonus due to terrain being easy to fight on.  
+		defence = -0.15  ## Slight malus due to no where to hide.  
+		movement = -0.10 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		attack = 0.40 ## Horses can find points to cross river
+		defence = -0.15 ## Easy to defend against enemy crossing river.
+		movement = -0.15 ## Not easy for infantry to cross river.  
+	}
+	arctic = {	
+		attack = 0.20 ## Horses can attack in frigid weather.  
+		defence = -0.15 ## Sitting in a warm foxhole is easier than attacking in -60C!	
+		movement = 0.15 ## Not easy to move around on tundra. 
+		attrition = 3 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		attack = 0.20 ## Easy to attack but hot	
+		defence = -0.15  ## Easy to defend but hot
+		movement = -0.10 ## Desert is too hot and big to cross on foot 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = 0.20 ## Slightly hard to assault wooded areas 
+		defence = -0.05 ## Slightly easy to defend wooded area
+		movement = -0.10 ## Troops not specially trained to move through woods or forest
+	}
+	forest = {
+		attack = 0.10 ## Hard to attack dense forest
+		defence = -0.05 ## Easy to defend dense forest
+		movement = -0.20 ## Hard to move through dense forest 
+	}
+	jungle = { 
+		attack = 0.10 ## Very hard to attack jungle
+		defence = -0.10 ## Slightly easy to defend jungle
+		movement = -0.30  ## Not trained for jungle warfare
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		movement = -0.20 # Hard to move through hilly areas
+	}
+	mountain = { 
+		movement = -0.35 # Not trained in mountain warfare
+	}
+	urban = {
+		defence = -0.10 ## Urban areas are easy to defend
+		movement = -0.15  ## Easy to move through urban streets
+	}
+	marsh = { 
+		attack = 0.50 ## Mounted Infantry can assault over marshes better than foot infantry
+		defence = 0.15 ## Mounted Infantry can defend better in marshes too
+		movement = -0.15 ## Difficult to move through marshes
+	}
+	amphibious = { 
+		attack = -0.25 ## Not meant for amphibious assaults
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		defence = -0.20 # Not meant for Defending Forts
+	}
+	
+	combat_width = 0.66
+
+	completion_size = 0.40
+	on_completion = infantry_practical
+	
+	priority = 50
+}

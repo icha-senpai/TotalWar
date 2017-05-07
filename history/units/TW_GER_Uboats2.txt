@@ -1,0 +1,56 @@
+
+	navy = {
+		name = ""
+		base = 2605 # Brest
+		location = 2605
+		#leader = 
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+	}
+	
+	navy = {
+		name = ""
+		base = 2737 # Lorient
+		location = 2737
+		#leader = 
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+	}
+	
+	navy = {
+		name = ""
+		base = 2802 # St. Nazaire
+		location = 2802
+		#leader = 
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+	}
+	
+	navy = {
+		name = ""
+		base = 2870 # Nantes
+		location = 2870
+		#leader = 
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+	}
+	
+	navy = {
+		name = ""
+		base = 3273 # La Rochelle
+		location = 3273
+		#leader = 
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+	}
+	
+	navy = {
+		name = ""
+		base = 3479 # Bordeaux
+		location = 3479
+		#leader = 
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+		ship = { type = submarine historical_model = 2 strength = 100 organisation = 1 experience = 5 }
+	}
+
+#EOF#

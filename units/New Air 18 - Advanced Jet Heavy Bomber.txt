@@ -1,0 +1,47 @@
+advanced_jet_heavy_bomber = {
+	type = air
+	active = no
+	sprite = Bomber
+	is_bomber = yes
+	
+	#Size Definitions
+	max_strength = 360
+	default_organisation = 50
+	default_morale = 0.50
+	officers = 400
+
+	#Building Costs
+	build_cost_ic = 11.00
+	build_cost_manpower = 1.000
+	build_time = 140
+	repair_cost_multiplier = 0.30
+
+	#Misc Abilities
+	maximum_speed = 400.00
+	transport_capability = 0.00
+	supply_consumption = 6.0
+	fuel_consumption = 5.5
+	range = 5000.00
+	radio_strength = 1
+
+	#Detection Abilities
+	surface_detection = 4.25
+	air_detection = 1.35
+
+	#Defensive Abilities
+	surface_defence = 25.00 
+	air_defence = 12.00 
+
+	#Offensive Abilities
+	soft_attack = 8.00
+	hard_attack = 1.00
+	sea_attack = 0.00
+	air_attack = 2.50
+	strategic_attack = 9.00
+	sub_attack = 0.00
+
+	completion_size = 0.36
+	on_completion = jetengine_practical
+	
+	priority = 15
+}

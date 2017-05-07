@@ -1,0 +1,39 @@
+####;;;;;;;;;;;;;;x
+EVTNAME91075120;Factory Workers;;;;;;;;;;;;;x
+EVTDESC91075120;Now that we are at war we can decide if we want to have our factories manned with skilled professionals or unskilled conscripted laborers.  Each has their benefit and drawback.;;;;;;;;;;;;;x
+EVTNAME91075121;Fighter Armament Focus;;;;;;;;;;;;;x
+EVTDESC91075121;We must choose which type of armament fits our fighter aircraft.  Each choice offers benefits and drawbacks.  Check the Aircraft Armament Technology Tree before you make a decision.;;;;;;;;;;;;;x
+EVTNAME91075122;CAS Armament Focus;;;;;;;;;;;;;x
+EVTDESC91075122;We must choose which type of armament fits our Close Air Support aircraft.  Each choice offers benefits and drawbacks.  Check the Aircraft Armament Technology Tree before you make a decision.;;;;;;;;;;;;;x
+EVTNAME91075123;Tank Turret Systems;;;;;;;;;;;;;x
+EVTDESC91075123;We must choose which type of traversal systems we want for our tanks.  Each choice offers benefits and drawbacks.  Check the Advanced Armor Technology Tree before you make a decision.;;;;;;;;;;;;;x
+EVTNAME91075124;Scientist Recruitment;;;;;;;;;;;;;x
+EVTDESC91075124;Science is important for our economy and our military.  There are two ways to go about increasing our scientific knowledge, but we can only choose one.  We can recruit scientists who mainly work at our universities into the government or we can recruit famous independent scientists to come work for the government.  Famous scientists who worked outside of universities include such personalities as Albert Einstein, Wernher Von Braun, and Robert Oppenheimer.  Check the Nation Tech Tree before you make your decision.;;;;;;;;;;;;;x
+EVTNAME91075125;Use of Mechanized Infantry;;;;;;;;;;;;;x
+EVTDESC91075125;After fighting on many battlefields our miltary theorists have come up with a different approach in how Infantry can be used.  This new approach calls for using armored halftracks to transport and/or carry infantry to and into battle.  However, there are two different ways we can go about this, one is to use Mechanized Infantry as part of greater Combined Arms Force that will offer commanders more choices when deciding upon a tactical strategy.  The other way of doing business with Mechanized Infantry, dictates that they be used as an independent highly mobile force capable of effective assaults in many kinds of tactical situations.  Check the Tactical Doctrine Tech Tree page to see what you want to do.;;;;;;;;;;;;;x
+EVTNAME91075126;Advanced Division Reorganization;;;;;;;;;;;;;x
+EVTDESC91075126;We now have enough battle experience to choose upon a an entirely different makeup of what a Land Division should be.  There are three choices and each has their advantages and drawbacks.  A Pentomic Division has the capability to deliver a lot of firepower at the expense of mobility but it contains a lot of combined arms units.  The Combat Brigade Division is one which offers a little bit of both mobility and firepower.  The Kampfgruppe Division offers good mobility and firepower in a medium sized formation on the battlefield.  Check the Advanced Organization Tech Tree to see which one you would rather have.;;;;;;;;;;;;;x
+EVTNAME91075127;Advanced Special Forces;;;;;;;;;;;;;x
+EVTDESC91075127;Now that we have been using Special Forces for a while we can pick a dedicated direction in which we want our Special Forces to concentrate within a particlar warfare area.  Once you decide upon which type of Special Forces you would rather have, you will find them particularly useful in their special warfare area.;;;;;;;;;;;;;x
+### Flags ###;;;;;;;;;;;;;;x
+professional_factory_labor;Professional Factory Workers;;;;;;;;;;;;;x
+slave_factory_labor;Conscripted Factory Workers;;;;;;;;;;;;;x
+fighter_aircraft_machine_gun_focus;Fighter Machine Guns;;;;;;;;;;;;;x
+fighter_aircraft_cannon_focus;Fighter Cannons;;;;;;;;;;;;;x
+fighter_aircraft_mg_and_cannon_combo_focus;Fighter MG and Cannon Combo;;;;;;;;;;;;;x
+cas_aircraft_machine_gun_focus;CAS Machine Guns;;;;;;;;;;;;;x
+cas_aircraft_cannon_focus;CAS Cannons;;;;;;;;;;;;;x
+tank_hydraulic_turret_traversal_system;Hydraulic Traversal System;;;;;;;;;;;;;x
+tank_electrical_turret_traversal_system;Electrical Traversal System;;;;;;;;;;;;;x
+university_scientists_recruitment;University Scientist Recruitment;;;;;;;;;;;;;x
+famous_individual_scientist_recruitment;Famous Individual Scientist Recruitment;;;;;;;;;;;;;x
+combat_command_doctrine_mechanized;Combat Command Mechanized Infantry;;;;;;;;;;;;;x
+mobile_infantry_theory_mechanized;Mobile Assault Mechanized Infantry;;;;;;;;;;;;;x
+pentomic_division_structure_choice;Pentomic Division Structure;;;;;;;;;;;;;x
+combat_brigade_reorganization_choice;Combat Brigade Division Structure;;;;;;;;;;;;;x
+kampfgruppe_division_choice;Kampfguppe Division Structure;;;;;;;;;;;;;x
+underwater_demolition_teams_choice;Underwater Demolition Teams Choice;;;;;;;;;;;;;x
+navy_seals_choice;Navy Seals Choice;;;;;;;;;;;;;x
+british_sas_choice;Secret Air Service Choice;;;;;;;;;;;;;x
+army_special_forces_group_choice;Army Special Forces Group Choice;;;;;;;;;;;;;x
+####eof;;;;;;;;;;;;;;x

@@ -1,0 +1,12 @@
+military_construction = {
+	country = JAP
+	
+	heavy_bomber = { 
+		historical_model = 8
+	}
+			
+	cost = 25.00
+	duration = 150
+	progress = 25
+}
+#EOF#

@@ -1,0 +1,51 @@
+IX_Uboat = {
+	type = naval
+	sprite = Submarine
+	is_sub = yes
+	active = no
+	is_buildable = yes
+	hull = 0.9
+	
+	#Size Definitions
+	max_strength = 110
+	default_organisation = 45
+	default_morale = 0.55
+	officers = 100
+
+	#Building Costs
+	build_cost_ic =  2.50
+	build_cost_manpower = 0.4
+	build_time = 160
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 10
+	transport_capability = 0.00
+	supply_consumption = 0.30
+	fuel_consumption = 0.58
+	range = 1000.00
+	distance = 0.15
+	radio_strength = 1
+	positioning = 0.1
+
+	#Detection Abilities
+	surface_detection = 0.4
+	air_detection = 0.5
+	sub_detection = 0.0
+	visibility = 2
+
+	#Defensive Abilities
+	sea_defence = 2.9
+	air_defence = 6
+
+	#Offensive Abilities
+	convoy_attack = 4.00
+	sea_attack = 1.00
+	sub_attack = 0.2
+	air_attack = 0.0
+	shore_bombardment = 0.00
+
+	completion_size = 0.65
+	on_completion = submarine_practical
+	priority = 3
+}

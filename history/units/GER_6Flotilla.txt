@@ -1,0 +1,20 @@
+corps = {
+	name = "6. U-Flottille 'Hundius'"
+	location = 1572 #Kiel
+	regiment = { type = naval_hq_brigade name = "6. U-Flottille 'Hundius'" historical_model = 0 }
+
+	navy = {
+		name = "6. U-Flottille 'Hundius'"
+		base = 1572
+		location = 1572
+		#leader = 
+		ship = { type = submarine name = "U-90" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-91" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-92" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-93" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-94" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-95" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+	}
+	
+}
+#EOF#

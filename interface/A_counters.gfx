@@ -1,0 +1,2556 @@
+
+spriteTypes = {
+
+	# 22. Panzer-Division
+	spriteType = {
+		  name = "GFX_counter_GER_A_XXII_mPzD"
+		  texturefile = "gfx/mapitems/counters/GER_A_XXII_mPzD.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XXII_mPzD"
+		  texturefile = "gfx/mapitems/smallcounters/armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XXII_mPzD"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XXII_mPzD.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 23. Panzer-Division
+	spriteType = {
+		  name = "GFX_counter_GER_A_XXIII_mPzD"
+		  texturefile = "gfx/mapitems/counters/GER_A_XXIII_mPzD.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XXIII_mPzD"
+		  texturefile = "gfx/mapitems/smallcounters/armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XXIII_mPzD"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XXIII_mPzD.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 25. Panzer-Division
+	spriteType = {
+		  name = "GFX_counter_GER_A_XXV_mPzD"
+		  texturefile = "gfx/mapitems/counters/GER_A_XXV_mPzD.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XXV_mPzD"
+		  texturefile = "gfx/mapitems/smallcounters/armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XXV_mPzD"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XXV_mPzD.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 26. Panzer-Division
+	spriteType = {
+		  name = "GFX_counter_GER_A_XXVI_mPzD"
+		  texturefile = "gfx/mapitems/counters/GER_A_XXVI_mPzD.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XXVI_mPzD"
+		  texturefile = "gfx/mapitems/smallcounters/armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XXVI_mPzD"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XXVI_mPzD.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 27. Panzer-Division
+	spriteType = {
+		  name = "GFX_counter_GER_A_XXVII_mPzD"
+		  texturefile = "gfx/mapitems/counters/GER_A_XXVII_mPzD.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XXVII_mPzD"
+		  texturefile = "gfx/mapitems/smallcounters/armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XXVII_mPzD"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XXVII_mPzD.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# Kalevala
+	spriteType = {
+		  name = "GFX_counter_Ger_A_41_Kalevala"
+		  texturefile = "gfx/mapitems/counters/Ger_A_41_Kalevala.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_41_Kalevala"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_41_Kalevala"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_41_Kalevala.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 97. Jaeger-Division
+	spriteType = {
+		  name = "GFX_counter_GER_A_XCVII_jaeger"
+		  texturefile = "gfx/mapitems/counters/GER_A_XCVII_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XCVII_jaeger"
+		  texturefile = "gfx/mapitems/smallcounters/light_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XCVII_jaeger"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XCVII_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+# Historic-SS
+
+	# 6 Nord
+	spriteType = {
+		  name = "GFX_counter_Ger_A_6_Nord"
+		  texturefile = "gfx/mapitems/counters/Ger_A_6_Nord.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_6_Nord"
+		  texturefile = "gfx/mapitems/smallcounters/ss_bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_6_Nord"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_6_Nord.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 11 Nordland
+	spriteType = {
+		  name = "GFX_counter_Ger_A_11_Nordland"
+		  texturefile = "gfx/mapitems/counters/Ger_A_11_Nordland.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_11_Nordland"
+		  texturefile = "gfx/mapitems/smallcounters/ss_mechanized_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_11_Nordland"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_11_Nordland.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 13 Handschar
+	spriteType = {
+		  name = "GFX_counter_Ger_A_13_Handschar"
+		  texturefile = "gfx/mapitems/counters/Ger_A_13_Handschar.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_13_Handschar"
+		  texturefile = "gfx/mapitems/smallcounters/ss_bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_13_Handschar"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_13_Handschar.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 14 Galizien
+	spriteType = {
+		  name = "GFX_counter_Ger_A_14_Galizien"
+		  texturefile = "gfx/mapitems/counters/Ger_A_14_Galizien.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_14_Galizien"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_14_Galizien"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_14_Galizien.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 15 1st Latvian
+	spriteType = {
+		  name = "GFX_counter_Ger_A_15_1Latvian"
+		  texturefile = "gfx/mapitems/counters/Ger_A_15_1Latvian.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_15_1Latvian"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_15_1Latvian"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_15_1Latvian.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 16 Reichsfuhrer
+	spriteType = {
+		  name = "GFX_counter_Ger_A_16_Reichsfuhrer"
+		  texturefile = "gfx/mapitems/counters/Ger_A_16_Reichsfuhrer.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_16_Reichsfuhrer"
+		  texturefile = "gfx/mapitems/smallcounters/ss_motorized_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_16_Reichsfuhrer"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_16_Reichsfuhrer.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_17_GotzVonBerlichingen"
+		  texturefile = "gfx/mapitems/counters/Ger_A_17_GotzVonBerlichingen.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_17_GotzVonBerlichingen"
+		  texturefile = "gfx/mapitems/smallcounters/ss_mechanized_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_17_GotzVonBerlichingen"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_17_GotzVonBerlichingen.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_18_Horst_Wessel"
+		  texturefile = "gfx/mapitems/counters/Ger_A_18_Horst_Wessel.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_18_Horst_Wessel"
+		  texturefile = "gfx/mapitems/smallcounters/ss_mechanized_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_18_Horst_Wessel"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_18_Horst_Wessel.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# 2nd Latvian
+	spriteType = {
+		  name = "GFX_counter_Ger_A_19_2Latvian"
+		  texturefile = "gfx/mapitems/counters/Ger_A_19_2Latvian.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_19_2Latvian"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_19_2Latvian"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_19_2Latvian.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	# eesti
+	spriteType = {
+		  name = "GFX_counter_Ger_A_20_1Estonian"
+		  texturefile = "gfx/mapitems/counters/Ger_A_20_1Estonian.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_20_1Estonian"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_20_1Estonian"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_20_1Estonian.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_21_Skanderbeg"
+		  texturefile = "gfx/mapitems/counters/Ger_A_21_Skanderbeg.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_21_Skanderbeg"
+		  texturefile = "gfx/mapitems/smallcounters/ss_bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_21_Skanderbeg"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_21_Skanderbeg.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_22_Maria_Theresia"
+		  texturefile = "gfx/mapitems/counters/Ger_A_22_Maria_Theresia.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_22_Maria_Theresia"
+		  texturefile = "gfx/mapitems/smallcounters/ss_cavalry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_22_Maria_Theresia"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_22_Maria_Theresia.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_23_Kama"
+		  texturefile = "gfx/mapitems/counters/Ger_A_23_Kama.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_23_Kama"
+		  texturefile = "gfx/mapitems/smallcounters/ss_bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_23_Kama"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_23_Kama.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_23_Nederland"
+		  texturefile = "gfx/mapitems/counters/Ger_A_23_Nederland.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_23_Nederland"
+		  texturefile = "gfx/mapitems/smallcounters/ss_mechanized_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_23_Nederland"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_16_Reichsfuhrer.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_24_Karstjager"
+		  texturefile = "gfx/mapitems/counters/Ger_A_24_Karstjager.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_24_Karstjager"
+		  texturefile = "gfx/mapitems/smallcounters/ss_bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_24_Karstjager"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_24_Karstjager.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_25_1Hungarian"
+		  texturefile = "gfx/mapitems/counters/Ger_A_25_1Hungarian.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_25_1Hungarian"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_25_1Hungarian"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_25_1Hungarian.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_26_2Hungarian"
+		  texturefile = "gfx/mapitems/counters/Ger_A_26_2Hungarian.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_26_2Hungarian"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_26_2Hungarian"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_26_2Hungarian.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_27_Langemarck"
+		  texturefile = "gfx/mapitems/counters/Ger_A_27_Langemarck.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_27_Langemarck"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_27_Langemarck"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_27_Langemarck.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_28_Wallonien"
+		  texturefile = "gfx/mapitems/counters/Ger_A_28_Wallonien.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_28_Wallonien"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_28_Wallonien"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_28_Wallonien.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_29_Italia"
+		  texturefile = "gfx/mapitems/counters/Ger_A_29_Italia.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_29_Italia"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_29_Italia"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_29_Italia.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_29_RONA"
+		  texturefile = "gfx/mapitems/counters/Ger_A_29_RONA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_29_RONA"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_29_RONA"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_29_RONA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_30_2Russische"
+		  texturefile = "gfx/mapitems/counters/Ger_A_30_2Russische.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_30_2Russische"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_30_2Russische"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_30_2Russische.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_31_Grenadier_Division"
+		  texturefile = "gfx/mapitems/counters/Ger_A_31_Grenadier_Division.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_31_Grenadier_Division"
+		  texturefile = "gfx/mapitems/smallcounters/ss_motorized_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_31_Grenadier_Division"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_31_Grenadier_Division.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_32_30Januar"
+		  texturefile = "gfx/mapitems/counters/Ger_A_32_30Januar.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_32_30Januar"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_32_30Januar"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_32_30Januar.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_33_Charlemagne"
+		  texturefile = "gfx/mapitems/counters/Ger_A_33_Charlemagne.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_33_Charlemagne"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_33_Charlemagne"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_33_Charlemagne.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_34_Landstorm_Nederland"
+		  texturefile = "gfx/mapitems/counters/Ger_A_34_Landstorm_Nederland.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_34_Landstorm_Nederland"
+		  texturefile = "gfx/mapitems/smallcounters/ss_motorized_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_34_Landstorm_Nederland"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_34_Landstorm_Nederland.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_35_Police"
+		  texturefile = "gfx/mapitems/counters/Ger_A_35_Police.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_35_Police"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_35_Police"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_35_Police.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_36_Dirlewanger"
+		  texturefile = "gfx/mapitems/counters/Ger_A_36_Dirlewanger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_36_Dirlewanger"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_36_Dirlewanger"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_36_Dirlewanger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_37_Lutzow"
+		  texturefile = "gfx/mapitems/counters/Ger_A_37_Lutzow.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_37_Lutzow"
+		  texturefile = "gfx/mapitems/smallcounters/ss_cavalry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_37_Lutzow"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_37_Lutzow.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_38_Nibelungen"
+		  texturefile = "gfx/mapitems/counters/Ger_A_38_Nibelungen.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_38_Nibelungen"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_38_Nibelungen"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_38_Nibelungen.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+#Grossdeutschland Version
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_Blau_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_Blau_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_Blau_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_Blau_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_Blau_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_C_jaeger"
+		  texturefile = "gfx/mapitems/counters/GER_A_C_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_C_jaeger"
+		  texturefile = "gfx/mapitems/smallcounters/light_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_C_jaeger"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_C_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CI_jaeger"
+		  texturefile = "gfx/mapitems/counters/GER_A_CI_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CI_jaeger"
+		  texturefile = "gfx/mapitems/smallcounters/light_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CI_jaeger"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CI_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CIV_jaeger"
+		  texturefile = "gfx/mapitems/counters/GER_A_CIV_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CIV_jaeger"
+		  texturefile = "gfx/mapitems/smallcounters/light_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CIV_jaeger"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CIV_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CLXXXVIII_Geb"
+		  texturefile = "gfx/mapitems/counters/GER_A_CLXXXVIII_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CLXXXVIII_Geb"
+		  texturefile = "gfx/mapitems/smallcounters/bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CLXXXVIII_Geb"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CLXXXVIII_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_Croat_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_Croat_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_Croat_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_Croat_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_Croat_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_DENfreikorps"
+		  texturefile = "gfx/mapitems/counters/GER_A_DENfreikorps.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_DENfreikorps"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_DENfreikorps"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_DENfreikorps.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_I_Ski"
+		  texturefile = "gfx/mapitems/counters/GER_A_I_Ski.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_I_Ski"
+		  texturefile = "gfx/mapitems/smallcounters/ski_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_I_Ski"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_I_Ski.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_II_FJ"
+		  texturefile = "gfx/mapitems/counters/GER_A_II_FJ.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_II_FJ"
+		  texturefile = "gfx/mapitems/smallcounters/paratrooper_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_II_FJ"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_II_FJ.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_II_Geb"
+		  texturefile = "gfx/mapitems/counters/GER_A_II_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_II_Geb"
+		  texturefile = "gfx/mapitems/smallcounters/bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_II_Geb"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_II_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_III_FJ"
+		  texturefile = "gfx/mapitems/counters/GER_A_III_FJ.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_III_FJ"
+		  texturefile = "gfx/mapitems/smallcounters/paratrooper_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_III_FJ"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_III_FJ.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_III_Geb"
+		  texturefile = "gfx/mapitems/counters/GER_A_III_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_III_Geb"
+		  texturefile = "gfx/mapitems/smallcounters/bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_III_Geb"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_III_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_V_Geb"
+		  texturefile = "gfx/mapitems/counters/GER_A_V_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_V_Geb"
+		  texturefile = "gfx/mapitems/smallcounters/bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_V_Geb"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_V_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_VI_Geb"
+		  texturefile = "gfx/mapitems/counters/GER_A_VI_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_VI_Geb"
+		  texturefile = "gfx/mapitems/smallcounters/bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_VI_Geb"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_VI_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_VII_Geb"
+		  texturefile = "gfx/mapitems/counters/GER_A_VII_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_VII_Geb"
+		  texturefile = "gfx/mapitems/smallcounters/bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_VII_Geb"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_VII_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_VIII_Geb"
+		  texturefile = "gfx/mapitems/counters/GER_A_VIII_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_VIII_Geb"
+		  texturefile = "gfx/mapitems/smallcounters/bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_VIII_Geb"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_VIII_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_Mar_I"
+		  texturefile = "gfx/mapitems/counters/GER_A_Mar.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_Mar_I"
+		  texturefile = "gfx/mapitems/smallcounters/naval_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_Mar_I"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_Mar_I.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_Mar_II"
+		  texturefile = "gfx/mapitems/counters/GER_A_Mar.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_Mar_II"
+		  texturefile = "gfx/mapitems/smallcounters/naval_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_Mar_II"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_Mar_II.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_Mar_III"
+		  texturefile = "gfx/mapitems/counters/GER_A_Mar.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_Mar_III"
+		  texturefile = "gfx/mapitems/smallcounters/naval_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_Mar_III"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_Mar_III.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_Mar_VIII"
+		  texturefile = "gfx/mapitems/counters/GER_A_Mar.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_Mar_VIII"
+		  texturefile = "gfx/mapitems/smallcounters/naval_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_Mar_VIII"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_Mar_VIII.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_Mar_XI"
+		  texturefile = "gfx/mapitems/counters/GER_A_Mar.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_Mar_XI"
+		  texturefile = "gfx/mapitems/smallcounters/naval_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_Mar_XI"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_Mar_XI.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_Mar_XVI"
+		  texturefile = "gfx/mapitems/counters/GER_A_Mar.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_Mar_XVI"
+		  texturefile = "gfx/mapitems/smallcounters/naval_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_Mar_XVI"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_Mar_XVI.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_39_AndreasHofer"
+		  texturefile = "gfx/mapitems/counters/Ger_A_39_AndreasHofer.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_39_AndreasHofer"
+		  texturefile = "gfx/mapitems/smallcounters/ss_bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_39_AndreasHofer"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_39_AndreasHofer.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_40_Feldherrnhalle"
+		  texturefile = "gfx/mapitems/counters/Ger_A_40_Feldherrnhalle.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_40_Feldherrnhalle"
+		  texturefile = "gfx/mapitems/smallcounters/ss_mechanized_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_40_Feldherrnhalle"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_40_Feldherrnhalle.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_42_Niedersachsen"
+		  texturefile = "gfx/mapitems/counters/Ger_A_42_Niedersachsen.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_42_Niedersachsen"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_42_Niedersachsen"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_42_Niedersachsen.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_43_Reichmarschall"
+		  texturefile = "gfx/mapitems/counters/Ger_A_43_Reichmarschall.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_43_Reichmarschall"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_43_Reichmarschall"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_43_Reichmarschall.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_44_Wallenstein"
+		  texturefile = "gfx/mapitems/counters/Ger_A_44_Wallenstein.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_44_Wallenstein"
+		  texturefile = "gfx/mapitems/smallcounters/ss_mechanized_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_44_Wallenstein"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_44_Wallenstein.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_Ger_A_45_Warager"
+		  texturefile = "gfx/mapitems/counters/Ger_A_45_Warager.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_Ger_A_45_Warager"
+		  texturefile = "gfx/mapitems/smallcounters/ss_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_Ger_A_45_Warager"
+		  texturefile = "gfx/mapitems/mapcounters/Ger_A_45_Warager.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_501_sPzA"
+		  texturefile = "gfx/mapitems/counters/GER_A_501_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_501_sPzA"
+		  texturefile = "gfx/mapitems/smallcounters/heavy_armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_501_sPzA"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_501_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_502_sPzA"
+		  texturefile = "gfx/mapitems/counters/GER_A_502_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_502_sPzA"
+		  texturefile = "gfx/mapitems/smallcounters/heavy_armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_502_sPzA"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_502_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_503_sPzA"
+		  texturefile = "gfx/mapitems/counters/GER_A_503_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_503_sPzA"
+		  texturefile = "gfx/mapitems/smallcounters/heavy_armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_503_sPzA"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_503_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_504_sPzA"
+		  texturefile = "gfx/mapitems/counters/GER_A_504_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_504_sPzA"
+		  texturefile = "gfx/mapitems/smallcounters/heavy_armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_504_sPzA"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_504_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_505_sPzA"
+		  texturefile = "gfx/mapitems/counters/GER_A_505_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_505_sPzA"
+		  texturefile = "gfx/mapitems/smallcounters/heavy_armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_505_sPzA"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_505_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_506_sPzA"
+		  texturefile = "gfx/mapitems/counters/GER_A_506_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_506_sPzA"
+		  texturefile = "gfx/mapitems/smallcounters/heavy_armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_506_sPzA"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_506_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_507_sPzA"
+		  texturefile = "gfx/mapitems/counters/GER_A_507_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_507_sPzA"
+		  texturefile = "gfx/mapitems/smallcounters/heavy_armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_507_sPzA"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_507_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_508_sPzA"
+		  texturefile = "gfx/mapitems/counters/GER_A_508_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_508_sPzA"
+		  texturefile = "gfx/mapitems/smallcounters/heavy_armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_508_sPzA"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_508_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_509_sPzA"
+		  texturefile = "gfx/mapitems/counters/GER_A_509_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_509_sPzA"
+		  texturefile = "gfx/mapitems/smallcounters/heavy_armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_509_sPzA"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_509_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_510_sPzA"
+		  texturefile = "gfx/mapitems/counters/GER_A_510_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_510_sPzA"
+		  texturefile = "gfx/mapitems/smallcounters/heavy_armor_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_510_sPzA"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_510_sPzA.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_XLII_jaeger"
+		  texturefile = "gfx/mapitems/counters/GER_A_XLII_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XLII_jaeger"
+		  texturefile = "gfx/mapitems/smallcounters/light_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XLII_jaeger"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XLII_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CXIV_jaeger"
+		  texturefile = "gfx/mapitems/counters/GER_A_CXIV_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CXIV_jaeger"
+		  texturefile = "gfx/mapitems/smallcounters/light_infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CXIV_jaeger"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CXIV_jaeger.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CLVII_Geb"
+		  texturefile = "gfx/mapitems/counters/GER_A_CLVII_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CLVII_Geb"
+		  texturefile = "gfx/mapitems/smallcounters/bergsjaeger_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CLVII_Geb"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CLVII_Geb.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_IV_FJ"
+		  texturefile = "gfx/mapitems/counters/GER_A_IV_FJ.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_IV_FJ"
+		  texturefile = "gfx/mapitems/smallcounters/paratrooper_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_IV_FJ"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_IV_FJ.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_V_FJ"
+		  texturefile = "gfx/mapitems/counters/GER_A_V_FJ.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_V_FJ"
+		  texturefile = "gfx/mapitems/smallcounters/paratrooper_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_V_FJ"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_V_FJ.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_VI_FJ"
+		  texturefile = "gfx/mapitems/counters/GER_A_VI_FJ.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_VI_FJ"
+		  texturefile = "gfx/mapitems/smallcounters/paratrooper_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_VI_FJ"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_VI_FJ.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+# 3 Welle
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCV_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCV_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCV_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCVI_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCVI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCVI_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCVI_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCVI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCVII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCVII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCVII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCVII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCVII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCVIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCVIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCVIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCIX_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCIX_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCIX_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCIX_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCIX_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXI_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXI_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXI_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXIV_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXIV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXIV_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXIV_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXIV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXV_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXV_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXV_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXVI_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXVI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXVI_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXVI_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXVI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXVII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXVII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXVII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXVII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXVII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXVIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXVIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXVIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXXI_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXXI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXXI_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXXI_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXXI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXXIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXXIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXXIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXXIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXXIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXXV_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXXV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXXV_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXXV_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXXV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXXVII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXXVII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXXVII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXXVII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXXVII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXXVIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXXVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXXVIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXXVIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXXVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXXXI_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXXXI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXXXI_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXXXI_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXXXI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXXXIX_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXXXIX_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXXXIX_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXXXIX_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXXXIX_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXIX_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXIX_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXIX_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXIX_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXIX_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCXLVI_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCXLVI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCXLVI_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCXLVI_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCXLVI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+# 4 Welle
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLI_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLI_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLI_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLIV_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLIV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLIV_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLIV_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLIV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLV_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLV_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLV_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLVI_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLVI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLVI_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLVI_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLVI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLVII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLVII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLVII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLVII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLVII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLVIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLVIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLVIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLX_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLX_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLX_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLX_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLX_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLXII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLXII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLXII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLXII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLXII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLXIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLXIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLXIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLXIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLXIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLXVII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLXVII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLXVII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLXVII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLXVII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLXVIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLXVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLXVIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLXVIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLXVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCLXIX_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCLXIX_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCLXIX_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCLXIX_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCLXIX_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+# 5 Welle
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_XCIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_XCIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XCIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XCIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XCIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_XCIV_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_XCIV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XCIV_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XCIV_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XCIV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_XCV_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_XCV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XCV_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XCV_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XCV_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_XCVI_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_XCVI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XCVI_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XCVI_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XCVI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_XCVIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_XCVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_XCVIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_XCVIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_XCVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+# 6 Welle
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_LXXXI_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_LXXXI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_LXXXI_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_LXXXI_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_LXXXI_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_LXXXII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_LXXXII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_LXXXII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_LXXXII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_LXXXII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_LXXXIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_LXXXIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_LXXXIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_LXXXIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_LXXXIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_LXXXVIII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_LXXXVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_LXXXVIII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_LXXXVIII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_LXXXVIII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+	#
+	spriteType = {
+		  name = "GFX_counter_GER_A_CCCLII_ID"
+		  texturefile = "gfx/mapitems/counters/GER_A_CCCLII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_small_counter_GER_A_CCCLII_ID"
+		  texturefile = "gfx/mapitems/smallcounters/infantry_brigade.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+	spriteType = {
+		  name = "GFX_map_counter_GER_A_CCCLII_ID"
+		  texturefile = "gfx/mapitems/mapcounters/GER_A_CCCLII_ID.dds"
+		  noOfFrames = 1
+		  norefcount = yes
+	}
+
+}

@@ -1,0 +1,12 @@
+military_construction = {
+	country = JAP
+	
+	heavy_cas = { 
+		historical_model = 6
+	}
+		
+	cost = 9.00
+	duration = 90
+	progress = 15
+}
+#EOF#

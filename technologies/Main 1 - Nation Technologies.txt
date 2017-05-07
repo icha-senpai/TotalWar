@@ -1,0 +1,3720 @@
+####################################
+## NATION TECHNOLOGIES
+####################################
+university_scientists = {
+
+	allow = {
+		has_country_flag = university_scientists_recruitment
+	}
+
+	leadership_gain = 0.04
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.1
+		mechanicalengineering_theory = 0.1
+	}
+
+	on_completion = mechanicalengineering_theory
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1922
+	additional_offset = 2	# one new every 3 years
+	max_level = 24
+	folder = nation_folder
+}
+######################################################################################
+individual_scientific_researchers = {
+
+	allow = {
+		has_country_flag = famous_individual_scientist_recruitment
+	}
+
+	research_efficiency = 0.04
+
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = mechanicalengineering_theory
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1923		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 21
+	folder = nation_folder
+}
+######################################################################################
+science_industrialization = {
+
+	allow = {
+		war = yes
+		university_scientists = 10	
+	}
+
+	ic_modifier = -0.02
+	
+	leadership_gain = 0.02
+
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = mechanicalengineering_theory
+
+	difficulty = 10
+
+	start_year = 1939
+	first_offset = 1940		# 2nd model is from 1940
+	additional_offset = 2	# one new every 1 years
+	max_level = 12
+	folder = nation_folder
+}
+######################################################################################
+operations_research = {
+
+	allow = {
+		science_industrialization = 2
+	}
+	
+	leadership_gain = -0.01
+
+	air_intercept = {
+		efficiency = 0.01 #1% greater eff when on on intercept mission
+	}
+	ground_attack = {
+		efficiency = 0.01 #1% greater eff when on on ground attack missions
+		reduction_modifier = -0.01
+	}
+	interdiction = {
+		efficiency = 0.01 #1% greater eff when on on intercept mission
+		reduction_modifier = -0.01 
+	}
+	logistical_strike = {
+		efficiency = 0.01 #1% greater eff when on on logistical strike mission
+	}
+	installation_strike = {
+		efficiency = 0.01 #1% greater eff when on on Installation strike mission
+	}
+	runway_cratering = {
+		efficiency = 0.01 #1% greater eff when on on runway_cratering mission
+	}
+	port_strike = {
+		efficiency = 0.01 #1% greater eff when on port strikes mission
+		reduction_modifier = -0.01
+	}
+	naval_strike = {
+		efficiency = 0.01 #1% greater eff when on naval strikes mission
+		reduction_modifier = -0.01 
+	}
+	carrier_protection = {
+		efficiency  = 0.01 #1% greater eff when on CAG duty mission
+	}
+	strategic_bomb = {
+		efficiency = 0.01 #1% greater eff when on on strategic_bomb mission
+		reduction_modifier = -0.01 
+	}
+	paradrop_mission = {
+		efficiency = 0.01	#1% efficinency increase airborne assault missions
+	}
+	
+	escort_efficiency = 0.01
+	
+	convoy_raid = {
+		efficiency = 0.01
+		reduction_modifier = -0.01 
+	}
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = mechanicalengineering_theory
+
+	difficulty = 9
+
+	start_year = 1941
+	first_offset = 1942		# 2nd model is from 1940
+	additional_offset = 2	# one new every 1 years
+	max_level = 15
+	folder = nation_folder
+}
+######################################################################################
+secretary_of_public_information_and_education = {
+
+	allow = { 
+	}
+	
+	leadership_gain = 0.01
+    manpower_gain = -0.01
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 4
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 12
+	folder = nation_folder
+}
+######################################################################################
+mass_events = {
+
+	allow = {
+	}
+	
+	ic_modifier = -0.01
+	manpower_gain = 0.01
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 3
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 12
+	folder = nation_folder
+}
+######################################################################################
+broadcasting = {
+    
+	allow = {
+		radio = 1
+	}
+	
+	encryption = -0.01
+	leadership_gain = 0.01
+	
+	on_completion = electornicegineering_theory     
+	
+	difficulty = 4
+
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 12
+	folder = nation_folder
+}
+######################################################################################
+monumental_architecture = {
+    
+	allow = {
+		advanced_construction_engineering = 1
+	}
+	
+	energy_production = -0.01
+	rares_production = -0.01
+	ic_modifier = 0.01
+	metal_production = -0.01
+	
+	on_completion = mechanicalengineering_theory
+	
+	difficulty = 6
+	
+	start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 6
+	folder = nation_folder
+}
+######################################################################################
+gigant_infrastructure_projects = {
+
+	allow = { 
+		advanced_construction_engineering = 1
+	}
+	
+	research_efficiency = -0.01
+	ic_modifier = 0.01
+	
+    on_completion = land_doctrine_practical
+	
+    difficulty = 8
+    
+	start_year = 1936
+    first_offset = 1938
+	additional_offset = 2
+	max_level = 4
+	folder = nation_folder
+}
+######################################################################################
+#Supplies
+supply_transportation = {
+
+	allow = {
+	}
+	
+	supply_transfer_cost = -0.10
+
+	research_bonus_from = {
+		land_doctrine_practical = 0.01
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+
+	start_year = 1936
+	first_offset = 1938		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 15
+	folder = nation_folder	
+}
+######################################################################################
+supply_organisation = {
+
+	allow = {
+	}
+	
+	supply_throughput = 0.05
+
+	research_bonus_from = {
+		land_doctrine_practical = 0.01
+	}
+
+	on_completion = land_doctrine_practical
+	
+	difficulty = 5
+	
+	start_year = 1936
+	first_offset = 1938		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 15
+	folder = nation_folder	
+}
+######################################################################################
+civil_defence = {
+	
+	allow = {
+	}
+	
+	activate_building = urbanisation
+	
+	repair_rate = 0.02 	# building repair 2% faster
+
+	research_bonus_from = {
+		land_doctrine_practical = 0.01
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 4
+
+	start_year = 1936
+	first_offset = 1939		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 15
+	folder = nation_folder	
+}
+######################################################################################
+home_front_focus = {
+
+	allow = {
+		supply_production = 4
+		civil_defence = 2 
+	}
+
+	repair_rate = 0.01
+	provincial_aa_efficiency = 0.05
+	ic_to_supplies = 0.05
+	
+
+	on_completion = automotive_theory 
+
+	difficulty = 4
+
+	start_year = 1939
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 14
+	folder = nation_folder
+}
+############################################################################################
+## HOMEFRONT COORDINATION
+############################################################################################
+homefront_coordination = {
+
+	allow = { 
+		war = yes 
+	}
+	
+	supply_transfer_cost = -0.02
+	supply_throughput = -0.05
+	unit_cooperation = 0.025
+	repair_rate = 0.07
+	
+   change = no
+	
+    research_bonus_from = {
+        construction_practical = 0.05
+    }
+   
+    on_completion = construction_practical
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1939
+    first_offset = 1941 	# 2nd model is from 1936
+    additional_offset = 2   # one new every 2 years
+	max_level = 14
+    folder = nation_folder
+} 
+######################################################################################
+logistical_warfare_focus = {
+
+	allow = {
+		supply_production = 4
+		supply_transportation = 3
+		supply_organisation = 3	
+	}
+
+	supply_throughput = 0.05
+	supply_transfer_cost = -0.10
+	naval_base_efficiency = 0.05
+	ic_modifier = -0.05
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+
+	start_year = 1940
+	first_offset = 1942
+	additional_offset = 2
+	max_level = 12
+	folder = nation_folder
+}
+######################################################################################
+wartime_rationing = {
+
+	allow = {
+		home_front_focus = 1
+		
+	}
+	
+	ic_modifier = 0.02
+	ic_to_supplies = 0.02	
+	leadership_gain = -0.01
+
+	on_completion = automotive_theory 
+
+	difficulty = 3
+
+	start_year = 1942
+	first_offset = 1944
+	additional_offset = 3
+	max_level = 12
+	folder = nation_folder
+}
+######################################################################################
+garrison_deployment = {
+	
+	allow = {
+	}
+	
+	change = yes
+	
+	garrison_brigade = { 	
+		transport_weight = -980
+	}
+		
+	on_completion = infantry_theory
+
+	difficulty = 1
+
+	start_year = 1936
+	folder = nation_folder
+}
+######################################################################################
+emergency_recruitment_legislation = {
+
+	allow = {
+		surrender_progress = 50
+	}
+	
+	manpower_gain = 0.10
+	ic_efficiency = -0.05
+	ic_modifier = -0.05
+	leadership_gain = -0.05
+	combat_efficiency = -0.05
+
+	on_completion = infantry_theory
+
+	difficulty = 4
+
+	start_year = 1937
+	first_offset = 1939
+	max_level = 10
+	additional_offset = 3
+	folder = nation_folder
+}
+######################################################################################
+officer_recruitment_program = {
+	
+	allow = {
+	 war = yes
+	}
+
+	leadership_gain = 0.02
+	manpower_gain = -0.04	
+
+	on_completion = infantry_theory
+
+	difficulty = 4
+
+	start_year = 1939
+	first_offset = 1941
+	additional_offset = 3
+	max_level = 10
+	folder = nation_folder
+	can_upgrade = no
+}
+
+#Medical
+######################################################################################
+penicillin_mass_production = {
+
+	allow = {
+		
+	}
+
+	manpower_gain = 0.05
+	
+	ic_modifier = -0.01
+	
+	activate_building = hospital
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.01
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 20
+
+	start_year = 1938
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 10
+	folder = nation_folder
+}
+######################################################################################
+blood_transfusions = {
+
+	allow = {
+		
+	}
+
+	casualty_trickleback = 0.05
+	maximum_attrition = -0.05
+	
+	combat_efficiency = -0.01
+
+	research_bonus_from = {
+		land_doctrine_practical = 0.01
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 15
+
+	start_year = 1938
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 10
+	folder = nation_folder
+}
+######################################################################################
+combat_medicine = {
+
+	allow = {
+		land_battles_fought = 50
+	}
+
+	casualty_trickleback = 0.02
+
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+
+	start_year = 1935
+	first_offset = 1937		# 2nd model is from 1935
+	additional_offset = 2	# one new every 2 years
+	max_level = 15
+	folder = nation_folder
+}	
+######################################################################################
+aviation_medicine = {
+
+	allow = {
+		wwi_biplane_designs = 1
+	}
+	
+	change = no
+
+	interceptor = { 	
+		default_morale = 2
+		}
+	pursuit_fighter = { 	
+		default_morale = 2
+		}	
+	multi_role = { 	
+		default_morale = 2
+		}
+	fighter_bomber = { 	
+		default_morale = 2
+		}		
+	cas = { 	
+		default_morale = 2
+		}
+	heavy_cas = { 	
+		default_morale = 2
+		}	
+#######################################			
+	naval_fighter = { 	
+		default_morale = 2
+		}	
+	naval_fighter_bomber = { 	
+		default_morale = 2
+		}	
+	naval_dive_bomber = { 	
+		default_morale = 2
+		}	
+	naval_torpedo_plane = { 	
+		default_morale = 2
+		}	
+	naval_cas = { 	
+		default_morale = 2
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		default_morale = 2
+		}
+	night_fighter = { 	
+		default_morale = 2
+		}	
+	light_bomber = { 	
+		default_morale = 2
+		}
+	tactical_bomber = { 	
+		default_morale = 2
+		}
+	transport_plane = { 	
+		default_morale = 2
+		}	
+	Flying_boat = { 	
+		default_morale = 2
+		}
+#######################################			
+	naval_bomber = { 	
+		default_morale = 2
+		}
+	strategic_bomber = { 	
+		default_morale = 2
+		}
+	heavy_bomber = { 	
+		default_morale = 2
+		}
+	super_heavy_bomber = { 	
+		default_morale = 2
+		}	
+	quad_engine_transport = { 	
+		default_morale = 2
+		}
+#######################################		
+	rocket_interceptor = { 	
+		default_morale = 2
+		}
+	rocket_interceptor_van = { 	
+		default_morale = 2
+		}	
+	jet_flying_wing = { 	
+		default_morale = 2
+		}
+	peoples_fighter = { 	
+		default_morale = 2
+		}	
+	jet_bomber = { 	
+		default_morale = 2
+		}	
+	amerika_bomber = { 	
+		default_morale = 2
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_morale = 2
+		}	
+	advanced_jet_cas = { 	
+		default_morale = 2
+		}	
+	advanced_jet_bomber = { 	
+		default_morale = 2
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_morale = 2
+		}	
+	tactical_transport_aircraft = { 	
+		default_morale = 2
+		}
+	
+		
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+
+	start_year = 1940
+	first_offset = 1941		# 2nd model is from 1941
+	additional_offset = 2	# one new every  year
+	max_level = 8
+	folder = nation_folder
+}
+######################################################################################
+military_nutrition = {
+
+	allow = {
+		war = yes
+	}
+	
+	change = no
+
+	infantry_brigade = { 
+		default_morale = 0.01
+	}
+	semi_motorized_brigade = { 
+		default_morale = 0.01
+	}
+	motorized_brigade = { 
+		default_morale = 0.01
+	}
+	mechanized_brigade = { 
+		default_morale = 0.01
+	}
+	
+	
+	garrison_brigade = { 
+		default_morale = 0.01
+	}
+	police_brigade = { 
+		default_morale = 0.01
+	}
+	
+	light_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	elite_light_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	elite_light_infantry_battalion = { 
+		default_morale = 0.01
+	}
+	
+	conscript_brigade = { 
+		default_morale = 0.01
+	}
+	militia_brigade = { 
+		default_morale = 0.01
+	}
+	
+	combined_arms_brigade = { 
+		default_morale = 0.01
+	}
+	commando_brigade = { 
+		default_morale = 0.01
+	}
+	ski_brigade = { 
+		default_morale = 0.01
+	}
+	
+	
+	cavalry_brigade = { 
+		default_morale = 0.01
+	}
+	
+	bergsjaeger_brigade = { 
+		default_morale = 0.01
+	}
+	alpini_brigade = { 
+		default_morale = 0.01
+	}
+	alpins_brigade = { 
+		default_morale = 0.01
+	}
+	airlanding_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	paratrooper_brigade = { 
+		default_morale = 0.01
+	}
+	naval_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	marine_brigade = { 
+		default_morale = 0.01
+	}
+	air_cavalry_brigade = { 
+		default_morale = 0.01
+	}
+	
+	engineer_brigade = { 
+		default_morale = 0.01
+	}
+	
+	motorized_engineer_brigade = { 
+		default_morale = 0.01
+	}
+	
+	airborne_engineer_bat = { 
+		default_morale = 0.01
+	}
+		
+	artillery_brigade = { 
+		default_morale = 0.01
+	}
+	
+	medium_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	
+	anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	
+	heavy_anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	
+	anti_tank_brigade = { 
+		default_morale = 0.01
+	}
+	
+	heavy_anti_tank_brigade = { 
+		default_morale = 0.01
+	}
+	
+	airborne_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	heavy_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	mixed_support_brigade = { 
+		default_morale = 0.01
+	}
+		
+	rocket_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	
+	armored_car_brigade = { 
+		default_morale = 0.01
+	}
+	motorcycle_recon_brigade = { 
+		default_morale = 0.01
+	}
+	Recon_cavalry_brigade = { 
+		default_morale = 0.01
+	}
+	
+	
+	armor_brigade = { 
+		default_morale = 0.01
+	}
+	light_armor_brigade = { 
+		default_morale = 0.01
+	}
+	infantry_tank_brigade = { 
+		default_morale = 0.01
+	}
+	assault_gun_brigade = { 
+		default_morale = 0.01
+	}
+	heavy_armor_brigade = { 
+		default_morale = 0.01
+	}
+	super_heavy_armor_brigade = { 
+		default_morale = 0.01
+	}
+	heavy_assault_gun_brigade = { 
+		default_morale = 0.01
+	}
+	tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	amph_armour_brigade = { 
+		default_morale = 0.01
+	}
+	armored_engineers_brigade = { 
+		default_morale = 0.01
+	}
+	armored_support_brigade = { 
+		default_morale = 0.01
+	}
+	sp_anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	sp_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	sp_rct_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	
+	guard_armor_brigade = { 
+		default_morale = 0.01
+	}
+	guard_cavalry_brigade = { 
+		default_morale = 0.01
+	}
+	guard_heavy_armor_brigade = { 
+		default_morale = 0.01
+	}
+	guard_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	guard_mechanized_brigade = { 
+		default_morale = 0.01
+	}
+	guard_motorized_brigade = { 
+		default_morale = 0.01
+	}
+	guard_paratrooper_brigade = { 
+		default_morale = 0.01
+	}
+	guard_sp_rct_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	guards_brigade = { 
+		default_morale = 0.01
+	}
+	
+	ss_anti_air_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	ss_heavy_anti_air_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	ss_anti_tank_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	ss_heavy_anti_tank_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	ss_armored_car_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_armored_engineers_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_armored_support_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_artillery_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	ss_medium_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	
+	ss_bergsjaeger_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_cavalry_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_commando_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_dasreich = { 
+		default_morale = 0.01
+	}	
+	ss_engineer_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_motorized_engineer_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_florian_geyer = { 
+		default_morale = 0.01
+	}	
+	ss_frundsberg = { 
+		default_morale = 0.01
+	}	
+	ss_garrison_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_heavy_armor_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_hitlerjugend = { 
+		default_morale = 0.01
+	}	
+	ss_hohenstaufen = { 
+		default_morale = 0.01
+	}	
+	ss_infantry_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_lssah = { 
+		default_morale = 0.01
+	}	
+	ss_mixed_support_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_motorcycle_recon_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	ss_motorized_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	ss_pack_artillery_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_paratrooper_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_police_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_polizei = { 
+		default_morale = 0.01
+	}	
+	ss_prinz_eugen = { 
+		default_morale = 0.01
+	}	
+	ss_Recon_cavalry_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_rocket_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	ss_ski_brigade = { 
+		default_morale = 0.01
+	}
+	ss_sp_anti_air_brigade = { 
+		default_morale = 0.01
+	}
+	ss_sp_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	ss_tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	ss_totenkopf = { 
+		default_morale = 0.01
+	}
+	ss_wiking = { 
+		default_morale = 0.01
+	}
+			
+	HQDEF_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	desertrats_brigade = { 
+		default_morale = 0.01
+	}
+	anzac_brigade = { 
+		default_morale = 0.01
+	}
+	afrika_brigade = { 
+		default_morale = 0.01
+	}
+	Communist_militia_brigade = { 
+		default_morale = 0.01
+	}
+	fascist_militia_brigade = { 
+		default_morale = 0.01
+	}
+	goering_brigade = { 
+		default_morale = 0.01
+	}
+	grossdeutschland_brigade = { 
+		default_morale = 0.01
+	}
+	Gurkha_brigade = { 
+		default_morale = 0.01
+	}
+	imperial_brigade = { 
+		default_morale = 0.01
+	}
+	lehr_brigade = { 
+		default_morale = 0.01
+	}
+	luftwaffe_brigade = { 
+		default_morale = 0.01
+	}
+	NKVD_brigade = { 
+		default_morale = 0.01
+	}
+	ranger_brigade = { 
+		default_morale = 0.01
+	}
+	
+	infantry_bat = { 
+		default_morale = 0.01
+	}
+	motorized_infantry_bat = { 
+		default_morale = 0.01
+	}
+	mechanized_infantry_bat = { 
+		default_morale = 0.01
+	}
+	garrison_detachment = { 
+		default_morale = 0.01
+	}
+	tropical_island_garrison_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_bergsjaeger_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_cavalry_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_garrison_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_light_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	colonial_militia_brigade = { 
+		default_morale = 0.01
+	}
+	pack_artillery_brigade = { 
+		default_morale = 0.01
+	}
+	armor_bat = { 
+		default_morale = 0.01
+	}
+	light_armor_bat = { 
+		default_morale = 0.01
+	}
+	medium_tank_destroyer_brigade = { 
+		default_morale = 0.01
+	}
+	guard_armor_bat = { 
+		default_morale = 0.01
+	}
+	guard_mechanized_infantry_bat = { 
+		default_morale = 0.01
+	}
+	guard_motorized_infantry_bat = { 
+		default_morale = 0.01
+	}
+	ss_armor_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_armor_bat = { 
+		default_morale = 0.01
+	}	
+	ss_infantry_bat = { 
+		default_morale = 0.01
+	}	
+	ss_mechanized_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_morale = 0.01
+	}	
+	ss_motorized_infantry_bat = { 
+		default_morale = 0.01
+	}	
+	
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+
+	start_year = 1940
+	first_offset = 1941		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 8
+	folder = nation_folder
+}
+######################################################################################
+national_guard = {
+
+	allow = {
+		
+	}
+	
+	change = yes
+
+	activate_unit = conscript_brigade
+	
+	conscript_brigade = { 
+		toughness = 1
+		build_cost_ic = 0.01
+		build_time = -1
+		default_organisation = 1
+		default_morale = 0.01
+	}
+
+	research_bonus_from = {
+		land_doctrine_practical = 0.10
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 2
+
+	start_year = 1918
+	folder = nation_folder
+}
+######################################################################################
+armed_forces_basic_training = {
+
+	allow = {
+		national_guard = 1
+	}
+	
+	change = no
+		
+	manpower_gain = 0.01
+	ic_modifier = -0.002
+	leadership_gain = -0.002
+	
+	activate_building = military_college
+	
+	infantry_brigade = { 
+        default_organisation = 1
+		default_morale = 0.01
+	}
+	semi_motorized_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	motorized_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	mechanized_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	
+	garrison_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	police_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	light_infantry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	elite_light_infantry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	elite_light_infantry_battalion = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+		
+	combined_arms_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	commando_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	ski_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	
+	cavalry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	bergsjaeger_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	alpini_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	alpins_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	airlanding_infantry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	paratrooper_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	naval_infantry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	marine_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	air_cavalry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	engineer_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	motorized_engineer_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	airborne_engineer_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+		
+	artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	medium_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	anti_air_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	heavy_anti_air_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	anti_tank_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	heavy_anti_tank_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	airborne_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	heavy_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+		
+	rocket_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	mixed_support_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	
+	armored_car_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	motorcycle_recon_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	Recon_cavalry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	
+	armor_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	light_armor_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	infantry_tank_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	assault_gun_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	heavy_armor_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	super_heavy_armor_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	heavy_assault_gun_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	tank_destroyer_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	medium_tank_destroyer_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	amph_armour_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	armored_engineers_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	armored_support_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	sp_anti_air_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	sp_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	sp_rct_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	guard_armor_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	guard_cavalry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	guard_heavy_armor_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	guard_infantry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	guard_mechanized_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	guard_motorized_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	guard_paratrooper_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	guard_sp_rct_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+		
+	ss_armor_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_mechanized_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_anti_air_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	
+	ss_heavy_anti_air_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	
+	ss_anti_tank_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	
+	ss_heavy_anti_tank_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	
+	ss_armored_car_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_armored_engineers_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_armored_support_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	
+	ss_medium_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	
+	ss_bergsjaeger_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_cavalry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_commando_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_dasreich = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_engineer_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_motorized_engineer_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_florian_geyer = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_frundsberg = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_garrison_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_heavy_armor_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_hitlerjugend = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_hohenstaufen = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_infantry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_lssah = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_mixed_support_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_motorcycle_recon_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	
+	ss_motorized_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	
+	ss_pack_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_paratrooper_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_police_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_polizei = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_prinz_eugen = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_Recon_cavalry_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_rocket_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	ss_ski_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	ss_sp_anti_air_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	ss_sp_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	ss_tank_destroyer_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	ss_totenkopf = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	ss_wiking = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+			
+	HQDEF_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	
+	desertrats_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	anzac_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	afrika_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	goering_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	grossdeutschland_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	Gurkha_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	imperial_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	lehr_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	luftwaffe_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	NKVD_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	ranger_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	infantry_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	motorized_infantry_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	mechanized_infantry_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	garrison_detachment = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	tropical_island_garrison_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	
+	pack_artillery_brigade = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	armor_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	light_armor_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	guard_armor_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	guard_mechanized_infantry_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	guard_motorized_infantry_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}
+	ss_armor_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_infantry_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+	ss_motorized_infantry_bat = { 
+		default_organisation = 1
+		default_morale = 0.01
+	}	
+###################################	
+	
+	battlecruiser = { 
+		default_organisation = 1		
+	}
+	battleship = { 
+		default_organisation = 1			
+	}
+	coastal_battleship = { 
+		default_organisation = 1				
+	}
+	pocket_battleship = { 
+		default_organisation = 1			
+	}
+	super_heavy_battleship = { 
+		default_organisation = 1		
+	}
+	super_carrier = { 
+		default_organisation = 1		
+	}
+	battle_carrier = { 
+		default_organisation = 1		
+	}
+	carrier = { 
+		default_organisation = 1		
+	}
+	light_carrier = { 
+		default_organisation = 1	
+	}
+	escort_carrier = { 
+		default_organisation = 1		
+	}
+	light_cruiser = { 
+		default_organisation = 1				
+	}
+	anti_air_cruiser = { 
+		default_organisation = 1				
+	}
+	heavy_cruiser = { 
+		default_organisation = 1			
+	}
+	destroyer_actual = { 
+		default_organisation = 1				
+	}
+	destroyer = { 
+		default_organisation = 1			
+	}
+	frigate = { 
+		default_organisation = 1			
+	}
+	coastal_submarine = { 
+		default_organisation = 1				
+	}
+	submarine = { 
+		default_organisation = 1				
+	}
+	long_range_submarine = { 
+		default_organisation = 1
+	}
+	nuclear_submarine = { 
+		default_organisation = 1			
+	}
+	landing_craft = { 
+		default_organisation = 1			
+	}
+	landing_ship_dock = { 
+		default_organisation = 1			
+	}
+	assault_ship = { 
+		default_organisation = 1			
+	}
+	transport_dock_ship = { 
+		default_organisation = 1			
+	}
+	landing_platform_helicopter = { 
+		default_organisation = 1			
+	}
+	nuclear_fast_attack_submarine = { 
+		default_organisation = 1			
+	}
+	nuclear_ballistic_missile_submarine = { 
+		default_organisation = 1			
+	}
+	guided_missile_destroyer = { 
+		default_organisation = 1			
+	}
+	nuclear_guided_missile_cruiser = { 
+		default_organisation = 1			
+	}
+	nuclear_super_aircraft_carrier = { 
+		default_organisation = 1			
+	}
+	
+	BB_Andrea_Doria = { 
+		default_organisation = 1			
+	}
+	BB_Anson = { 
+		default_organisation = 1			
+	}
+	BB_Arizona = { 
+		default_organisation = 1			
+	}
+	BB_Arkansas = { 
+		default_organisation = 1			
+	}
+	BB_Barham = { 
+		default_organisation = 1			
+	}
+	BB_Bismarck = { 
+		default_organisation = 1			
+	}
+	BB_Caio_Duilio = { 
+		default_organisation = 1			
+	}
+	BB_California = { 
+		default_organisation = 1			
+	}
+	BB_Colorado = { 
+		default_organisation = 1			
+	}
+	BB_Conte_di_Cavour = { 
+		default_organisation = 1			
+	}
+	BB_Duke_of_York = { 
+		default_organisation = 1			
+	}
+	BB_Fuso = { 
+		default_organisation = 1			
+	}
+	BB_Giulio_Cesare = { 
+		default_organisation = 1			
+	}
+	BB_Gneisenau = { 
+		default_organisation = 1			
+	}
+	BB_Howe = { 
+		default_organisation = 1			
+	}
+	BB_Hyuga = { 
+		default_organisation = 1			
+	}
+	BB_Idaho = { 
+		default_organisation = 1			
+	}
+	BB_Iowa = { 
+		default_organisation = 1			
+	}
+	BB_Ise = { 
+		default_organisation = 1			
+	}
+	BB_King_George_V = { 
+		default_organisation = 1			
+	}
+	BB_Littorio = { 
+		default_organisation = 1			
+	}
+	BB_Malaya = { 
+		default_organisation = 1			
+	}
+	BB_Maryland = { 
+		default_organisation = 1			
+	}
+	BB_Mississippi = { 
+		default_organisation = 1			
+	}
+	BB_Missouri = { 
+		default_organisation = 1			
+	}
+	BB_Mutsu = { 
+		default_organisation = 1			
+	}
+	BB_Nagato = { 
+		default_organisation = 1			
+	}
+	BB_Nelson = { 
+		default_organisation = 1			
+	}
+	BB_Nevada = { 
+		default_organisation = 1			
+	}
+	BB_New_Mexico = { 
+		default_organisation = 1			
+	}
+	BB_New_York = { 
+		default_organisation = 1			
+	}
+	BB_Oklahoma = { 
+		default_organisation = 1			
+	}
+	BB_Pennsylvania = { 
+		default_organisation = 1			
+	}
+	BB_Prince_of_Wales = { 
+		default_organisation = 1			
+	}
+	BB_Queen_elizabeth = { 
+		default_organisation = 1			
+	}
+	BB_Ramillies = { 
+		default_organisation = 1			
+	}
+	BB_Resolution = { 
+		default_organisation = 1			
+	}
+	BB_Revenge = { 
+		default_organisation = 1			
+	}
+	BB_Rodney = { 
+		default_organisation = 1			
+	}
+	BB_Royal_Oak = { 
+		default_organisation = 1			
+	}
+	BB_Royal_sovereign = { 
+		default_organisation = 1			
+	}
+	BB_Scharnhorst = { 
+		default_organisation = 1			
+	}
+	BB_Tennessee = { 
+		default_organisation = 1			
+	}
+	BB_Texas = { 
+		default_organisation = 1			
+	}
+	BB_Tirpitz = { 
+		default_organisation = 1			
+	}
+	BB_Valiant = { 
+		default_organisation = 1			
+	}
+	BB_Vittorio_Veneto = { 
+		default_organisation = 1			
+	}
+	BB_Warspite = { 
+		default_organisation = 1			
+	}
+	BB_West_Virginia = { 
+		default_organisation = 1			
+	}
+	BB_Yamashiro = { 
+		default_organisation = 1			
+	}
+	BC_Haruna = { 
+		default_organisation = 1			
+	}
+	BC_Hiei = { 
+		default_organisation = 1			
+	}
+	BC_Hood = { 
+		default_organisation = 1			
+	}
+	BC_Kirishima = { 
+		default_organisation = 1			
+	}
+	BC_Kongo = { 
+		default_organisation = 1			
+	}
+	BC_Renown = { 
+		default_organisation = 1			
+	}
+	BC_Repulse = { 
+		default_organisation = 1			
+	}
+	SBB_Musashi = { 
+		default_organisation = 1			
+	}
+	SBB_Yamato = { 
+		default_organisation = 1			
+	}
+	CV_Akagi = { 
+		default_organisation = 1			
+	}
+	CV_Ark_Royal = { 
+		default_organisation = 1			
+	}
+	CV_Courageous = { 
+		default_organisation = 1			
+	}
+	CV_Enterprise = { 
+		default_organisation = 1			
+	}
+	CV_Furious = { 
+		default_organisation = 1			
+	}
+	CV_Glorious = { 
+		default_organisation = 1			
+	}
+	CV_Hiryu = { 
+		default_organisation = 1			
+	}
+	CV_Hornet = { 
+		default_organisation = 1			
+	}
+	CV_Kaga = { 
+		default_organisation = 1			
+	}
+	CV_Lexington = { 
+		default_organisation = 1			
+	}
+	CV_Ranger = { 
+		default_organisation = 1			
+	}
+	CV_Saratoga = { 
+		default_organisation = 1			
+	}
+	CV_Soryu = { 
+		default_organisation = 1			
+	}
+	CV_Yorktown = { 
+		default_organisation = 1			
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 0.20
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 4
+
+	start_year = 1918
+	first_offset = 1933	# 2nd model is from 1937
+	additional_offset = 1	# one new every 1 year
+	max_level = 30
+	folder = nation_folder
+}
+######################################################################################
+##  BASIC INFANTRY TRAINING
+######################################################################################
+basic_infantry_training = {
+
+	allow = {
+		armed_forces_basic_training = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.002
+	leadership_gain = -0.002
+	
+	infantry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	semi_motorized_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	motorized_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	mechanized_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	
+	garrison_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+		
+	light_infantry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	elite_light_infantry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	elite_light_infantry_battalion = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+		
+	combined_arms_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	commando_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	ski_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	
+	cavalry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	bergsjaeger_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	alpini_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	alpins_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	airlanding_infantry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	paratrooper_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	naval_infantry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	marine_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	air_cavalry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	engineer_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	motorized_engineer_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	airborne_engineer_bat = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+			
+	guard_cavalry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	guard_infantry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	guard_mechanized_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	guard_motorized_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	guard_paratrooper_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	guards_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	ss_bergsjaeger_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_cavalry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_commando_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_dasreich = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_engineer_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_motorized_engineer_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_frundsberg = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_garrison_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_hitlerjugend = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_hohenstaufen = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_infantry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_lssah = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_motorized_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_paratrooper_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_polizei = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_prinz_eugen = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_Recon_cavalry_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_ski_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	ss_totenkopf = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	ss_wiking = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+			
+	HQDEF_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	
+	anzac_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	afrika_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	goering_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	grossdeutschland_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	Gurkha_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	imperial_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	ranger_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	
+	infantry_bat = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	motorized_infantry_bat = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	mechanized_infantry_bat = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	garrison_detachment = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	tropical_island_garrison_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	guard_mechanized_infantry_bat = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	guard_motorized_infantry_bat = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}
+	ss_infantry_bat = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_mechanized_brigade = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_mechanized_infantry_bat = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	ss_motorized_infantry_bat = { 
+		toughness = 0.25
+        default_organisation = 2
+		soft_attack = 0.25
+		defensiveness = 0.25
+	}	
+	
+
+	research_bonus_from = {
+		land_doctrine_practical = 0.10
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+
+	start_year = 1918
+	first_offset = 1933	# 2nd model is from 1936
+	additional_offset = 1	# one new every 2 years
+	max_level = 30
+	folder = nation_folder
+}
+######################################################################################
+basic_artillery_training = {
+
+	allow = {
+		armed_forces_basic_training = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.002
+	leadership_gain = -0.002
+
+	sp_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10
+	}
+	sp_rct_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10	
+	}
+	ss_sp_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10		
+	}
+	ss_sp_rct_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10	
+	}
+	guard_sp_rct_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10			
+	}
+	
+	artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10		
+	}
+	
+	medium_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10		
+	}
+	
+	anti_air_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10				
+	}
+	
+	heavy_anti_air_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10				
+	}
+	
+	anti_tank_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10			
+	}
+	
+	heavy_anti_tank_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10			
+	}
+	
+	rocket_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10		
+	}
+	
+	ss_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10	
+	}
+	
+	ss_medium_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10	
+	}
+	
+	ss_anti_air_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10			
+	}
+	
+	ss_heavy_anti_air_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10			
+	}
+	
+	ss_anti_tank_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10	
+	}
+	
+	ss_heavy_anti_tank_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10	
+	}
+	
+	ss_rocket_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10			
+	}
+	pack_artillery_brigade = { 
+		default_organisation = 2
+		soft_attack = 0.10
+	}
+
+	research_bonus_from = {
+		artillery_practical = 0.10
+	}
+
+	on_completion = artillery_practical
+
+	difficulty = 5
+
+	start_year = 1918
+	first_offset = 1933		# 2nd model is from 1936
+	additional_offset = 1	# one new every 2 years
+	max_level = 30
+	folder = nation_folder
+}
+######################################################################################
+basic_armor_training = {
+
+	allow = {
+		armed_forces_basic_training = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.002
+	leadership_gain = -0.002
+	
+	tank_destroyer_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25
+	}
+	medium_tank_destroyer_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25			
+	}
+	heavy_tank_destroyer_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25			
+	}
+	ss_tank_destroyer_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25					
+	}
+	assault_gun_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25				
+	}
+	heavy_assault_gun_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25				
+	}
+	light_armor_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25				
+	}
+	amph_armour_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25			
+	}
+	armor_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25	
+		}
+	infantry_tank_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25				
+	}
+	heavy_armor_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25					
+ 	}
+	ss_heavy_armor_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25					
+ 	}
+	guard_heavy_armor_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25			
+ 	}
+	super_heavy_armor_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25			
+ 	}
+	armored_car_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25					
+	}
+	ss_armored_car_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25					
+	}
+	
+	armor_bat = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25
+	}
+	light_armor_bat = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25
+	}
+	guard_armor_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25
+	}
+	guard_armor_bat = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25
+	}
+	ss_armor_brigade = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25
+	}	
+	ss_armor_bat = { 
+		toughness = 1.00
+		default_organisation = 2	
+		soft_attack = 0.25	
+		hard_attack = 0.25	
+		defensiveness = 0.25
+	}	
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 4
+
+	start_year = 1935
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 1	# one new every 2 years
+	max_level = 30
+	folder = nation_folder
+}
+######################################################################################
+### BASIC PILOT TRAINING
+######################################################################################
+basic_pilot_training = {
+
+	allow = {
+		armed_forces_basic_training = 1 
+	}
+	
+	change = no
+	
+	ic_modifier = -0.002
+	leadership_gain = -0.002
+		
+	interceptor = { 	
+		default_organisation = 1
+		}
+	pursuit_fighter = { 	
+		default_organisation = 1
+		}	
+	multi_role = { 	
+		default_organisation = 1
+		}
+	fighter_bomber = { 	
+		default_organisation = 1
+		}		
+	cas = { 	
+		default_organisation = 1
+		}
+	heavy_cas = { 	
+		default_organisation = 1
+		}	
+#######################################	
+	cag = { 	
+		default_organisation = 1
+		}		
+	naval_fighter = { 	
+		default_organisation = 1
+		}	
+	naval_fighter_bomber = { 	
+		default_organisation = 1
+		}	
+	naval_dive_bomber = { 	
+		default_organisation = 1
+		}	
+	naval_torpedo_plane = { 	
+		default_organisation = 1
+		}	
+	naval_cas = { 	
+		default_organisation = 1
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		default_organisation = 1
+		}
+	night_fighter = { 	
+		default_organisation = 1
+		}	
+	light_bomber = { 	
+		default_organisation = 1
+		}
+	tactical_bomber = { 	
+		default_organisation = 1
+		}
+	transport_plane = { 	
+		default_organisation = 1
+		}	
+	Flying_boat = { 	
+		default_organisation = 1
+		}
+#######################################			
+	naval_bomber = { 	
+		default_organisation = 1
+		}
+	strategic_bomber = { 	
+		default_organisation = 1
+		}
+	heavy_bomber = { 	
+		default_organisation = 1
+		}
+	super_heavy_bomber = { 	
+		default_organisation = 1
+		}	
+	quad_engine_transport = { 	
+		default_organisation = 1
+		}
+#######################################		
+	rocket_interceptor = { 	
+		default_organisation = 1
+		}
+	rocket_interceptor_van = { 	
+		default_organisation = 1
+		}	
+	jet_flying_wing = { 	
+		default_organisation = 1
+		}
+	peoples_fighter = { 	
+		default_organisation = 1
+		}	
+	jet_bomber = { 	
+		default_organisation = 1
+		}	
+	amerika_bomber = { 	
+		default_organisation = 1
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_organisation = 1
+		}	
+	advanced_jet_cas = { 	
+		default_organisation = 1
+		}	
+	advanced_jet_bomber = { 	
+		default_organisation = 1
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_organisation = 1
+		}	
+	tactical_transport_aircraft = { 	
+		default_organisation = 1
+		}
+
+	research_bonus_from = {
+		air_doctrine_practical = 0.10
+	}
+
+	on_completion = air_doctrine_practical
+
+	difficulty = 5
+
+	start_year = 1918
+	first_offset = 1933		# 2nd model is from 1936
+	additional_offset = 1	# one new every 2 years
+	max_level = 30
+	folder = nation_folder
+}
+######################################################################################
+### BASIC AIRMEN SCHOOLS
+######################################################################################
+basic_airmen_training = {
+
+	allow = {
+		armed_forces_basic_training = 1 
+	}
+	
+	change = no
+	
+	ic_modifier = -0.002
+	leadership_gain = -0.002
+
+	interceptor = { 	
+		default_morale = 0.01
+		}
+	pursuit_fighter = { 	
+		default_morale = 0.01
+		}	
+	multi_role = { 	
+		default_morale = 0.01
+		}
+	fighter_bomber = { 	
+		default_morale = 0.01
+		}		
+	cas = { 	
+		default_morale = 0.01
+		}
+	heavy_cas = { 	
+		default_morale = 0.01
+		}	
+#######################################	
+	cag = { 	
+		default_morale = 0.01
+		}		
+	naval_fighter = { 	
+		default_morale = 0.01
+		}	
+	naval_fighter_bomber = { 	
+		default_morale = 0.01
+		}	
+	naval_dive_bomber = { 	
+		default_morale = 0.01
+		}	
+	naval_torpedo_plane = { 	
+		default_morale = 0.01
+		}	
+	naval_cas = { 	
+		default_morale = 0.01
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		default_morale = 0.01
+		}
+	night_fighter = { 	
+		default_morale = 0.01
+		}	
+	light_bomber = { 	
+		default_morale = 0.01
+		}
+	tactical_bomber = { 	
+		default_morale = 0.01
+		}
+	transport_plane = { 	
+		default_morale = 0.01
+		}	
+	Flying_boat = { 	
+		default_morale = 0.01
+		}
+#######################################			
+	naval_bomber = { 	
+		default_morale = 0.01
+		}
+	strategic_bomber = { 	
+		default_morale = 0.01
+		}
+	heavy_bomber = { 	
+		default_morale = 0.01
+		}
+	super_heavy_bomber = { 	
+		default_morale = 0.01
+		}	
+	quad_engine_transport = { 	
+		default_morale = 0.01
+		}
+#######################################		
+	rocket_interceptor = { 	
+		default_morale = 0.01
+		}
+	rocket_interceptor_van = { 	
+		default_morale = 0.01
+		}	
+	jet_flying_wing = { 	
+		default_morale = 0.01
+		}
+	peoples_fighter = { 	
+		default_morale = 0.01
+		}	
+	jet_bomber = { 	
+		default_morale = 0.01
+		}	
+	amerika_bomber = { 	
+		default_morale = 0.01
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_morale = 0.01
+		}	
+	advanced_jet_cas = { 	
+		default_morale = 0.01
+		}	
+	advanced_jet_bomber = { 	
+		default_morale = 0.01
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_morale = 0.01
+		}	
+	tactical_transport_aircraft = { 	
+		default_morale = 0.01
+		}
+
+	research_bonus_from = {
+		air_doctrine_practical = 0.10
+	}
+
+	on_completion = air_doctrine_practical
+
+	difficulty = 5
+
+	start_year = 1933
+	first_offset = 1933		# 2nd model is from 1936
+	additional_offset = 1	# one new every 2 years
+	max_level = 30
+	folder = nation_folder
+}
+######################################################################################
+basic_naval_training = {
+
+	allow = {
+		armed_forces_basic_training = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.002
+	leadership_gain = -0.002
+	
+	battlecruiser = { 
+		default_morale = 0.01	
+		supply_consumption = -0.10
+	}
+	battleship = { 
+		default_morale = 0.01	
+		supply_consumption = -0.12	
+	}
+	coastal_battleship = { 
+		default_morale = 0.01		
+		supply_consumption = -0.05	
+	}
+	pocket_battleship = { 
+		default_morale = 0.01		
+		supply_consumption = -0.04				
+	}
+	super_heavy_battleship = { 
+		default_morale = 0.01		
+		supply_consumption = -0.15			
+	}
+	super_carrier = { 
+		default_morale = 0.01		
+		supply_consumption = -0.17			
+	}
+	battle_carrier = { 
+		default_morale = 0.01		
+		supply_consumption = -0.14			
+	}
+	carrier = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12			
+	}
+	light_carrier = { 
+		default_morale = 0.01		
+		supply_consumption = -0.08		
+	}
+	escort_carrier = { 
+		default_morale = 0.01		
+		supply_consumption = -0.02			
+	}
+	light_cruiser = { 
+		default_morale = 0.01		
+		supply_consumption = -0.03					
+	}
+	anti_air_cruiser = { 
+		default_morale = 0.01		
+		supply_consumption = -0.03					
+	}
+	heavy_cruiser = { 
+		default_morale = 0.01		
+		supply_consumption = -0.04				
+	}
+	destroyer_actual = { 
+		default_morale = 0.01		
+		supply_consumption = -0.02					
+	}
+	destroyer = { 
+		default_morale = 0.01		
+		supply_consumption = -0.01				
+	}
+	frigate = { 
+		default_morale = 0.01		
+		supply_consumption = -0.01				
+	}
+	coastal_submarine = { 
+		default_morale = 0.01		
+		supply_consumption = -0.01					
+	}
+	submarine = { 
+		default_morale = 0.01		
+		supply_consumption = -0.02					
+	}
+	long_range_submarine = { 
+		default_morale = 0.01		
+		supply_consumption = -0.02	
+	}
+	nuclear_submarine = { 
+		default_morale = 0.01		
+		supply_consumption = -0.03				
+	}
+	landing_craft = { 
+		default_morale = 0.01		
+		supply_consumption = -0.02				
+	}
+	landing_ship_dock = { 
+		default_morale = 0.01		
+		supply_consumption = -0.03				
+	}
+	assault_ship = { 
+		default_morale = 0.01		
+		supply_consumption = -0.03				
+	}
+	transport_dock_ship = { 
+		default_morale = 0.01		
+		supply_consumption = -0.03				
+	}
+	landing_platform_helicopter = { 
+		default_morale = 0.01		
+		supply_consumption = -0.04				
+	}
+	nuclear_fast_attack_submarine = { 
+		default_morale = 0.01		
+		supply_consumption = -0.05				
+	}
+	nuclear_ballistic_missile_submarine = { 
+		default_morale = 0.01		
+		supply_consumption = -0.05				
+	}
+	guided_missile_destroyer = { 
+		default_morale = 0.01		
+		supply_consumption = -0.05				
+	}
+	nuclear_guided_missile_cruiser = { 
+		default_morale = 0.01		
+		supply_consumption = -0.05				
+	}
+	nuclear_super_aircraft_carrier = { 
+		default_morale = 0.01		
+		supply_consumption = -0.20				
+	}
+	
+	BB_Andrea_Doria = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12				
+	}
+	BB_Anson = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12				
+	}
+	BB_Arizona = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12				
+	}
+	BB_Arkansas = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12				
+	}
+	BB_Barham = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12				
+	}
+	BB_Bismarck = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12				
+	}
+	BB_Caio_Duilio = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12			
+	}
+	BB_California = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12			
+	}
+	BB_Colorado = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12			
+	}
+	BB_Conte_di_Cavour = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12				
+	}
+	BB_Duke_of_York = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12				
+	}
+	BB_Fuso = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Giulio_Cesare = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Gneisenau = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Howe = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Hyuga = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Idaho = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Iowa = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Ise = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_King_George_V = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Littorio = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Malaya = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Maryland = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Mississippi = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Missouri = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Mutsu = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Nagato = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Nelson = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Nevada = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_New_Mexico = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_New_York = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Oklahoma = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Pennsylvania = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Prince_of_Wales = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Queen_elizabeth = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Ramillies = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Resolution = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Revenge = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Rodney = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Royal_Oak = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Royal_sovereign = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Scharnhorst = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Tennessee = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Texas = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Tirpitz = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Valiant = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Vittorio_Veneto = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Warspite = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_West_Virginia = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BB_Yamashiro = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BC_Haruna = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BC_Hiei = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BC_Hood = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BC_Kirishima = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BC_Kongo = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BC_Renown = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	BC_Repulse = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	SBB_Musashi = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	SBB_Yamato = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Akagi = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Ark_Royal = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Courageous = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Enterprise = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Furious = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Glorious = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12	
+	}
+	CV_Hiryu = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Hornet = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Kaga = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Lexington = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Ranger = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Saratoga = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Soryu = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	CV_Yorktown = { 
+		default_morale = 0.01		
+		supply_consumption = -0.12		
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+
+	start_year = 1918
+	first_offset = 1933		# 2nd model is from 1936
+	additional_offset = 1	# one new every 2 years
+	max_level = 30
+	folder = nation_folder
+}
+######################################################################################
+germany = {
+
+	allow = {
+		germany = 1
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 20
+
+	start_year = 1936
+	
+	folder = nation_folder
+}
+
+soviet_union = {
+
+	allow = {
+		soviet_union = 1
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 20
+
+	start_year = 1936
+	
+	folder = nation_folder
+}
+
+united_states = {
+
+	allow = {
+		united_states = 1
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 20
+
+	start_year = 1936
+	
+	folder = nation_folder
+}
+
+united_kingdom = {
+
+	allow = {
+		united_kingdom = 1
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 20
+
+	start_year = 1936
+	
+	folder = nation_folder
+}
+
+italy = {
+
+	allow = {
+		italy = 1
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 20
+
+	start_year = 1936
+	
+	folder = nation_folder
+}
+
+japan = {
+
+	allow = {
+		japan = 1
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 20
+
+	start_year = 1936
+	
+	folder = nation_folder
+}
+
+france = {
+
+	allow = {
+		france = 1
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 20
+
+	start_year = 1936
+	
+	folder = nation_folder
+}
+
+nationalist_china = {
+
+	allow = {
+		nationalist_china = 1
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.02
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 20
+
+	start_year = 1936
+	
+	folder = nation_folder
+}
+
+
+

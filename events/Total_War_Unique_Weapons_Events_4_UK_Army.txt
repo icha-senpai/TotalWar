@@ -1,0 +1,2290 @@
+########################################################################################
+############# United Kingdom Royal Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### British WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### Lee Enfield .303in Bolt Action Rifle
+##############################################################
+
+	country_event = {
+		id = 9105500
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105500"
+		desc = "EVTDESC9105500"
+		picture = "lee_enfield_bolt_action_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			lee_enfield_bolt_action_rifle_hidden = 6000
+			set_global_flag = lee_enfield_bolt_action_rifle
+			set_country_flag = lee_enfield_bolt_action_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Sten Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105501
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			submachineguns_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105501"
+		desc = "EVTDESC9105501"
+		picture = "sten_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			sten_submachinegun_hidden = 6000
+			set_global_flag = sten_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Lanchester Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105502
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			submachineguns_prototype = 5
+			has_global_flag = sten_submachinegun
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105502"
+		desc = "EVTDESC9105502"
+		picture = "lanchester_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			lanchester_submachinegun_hidden = 6000
+			set_global_flag = lanchester_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Sterling Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105503
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			submachineguns_prototype = 7
+			has_global_flag = lanchester_submachinegun
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105503"
+		desc = "EVTDESC9105503"
+		picture = "sterling_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			sterling_submachinegun_hidden = 6000
+			set_global_flag = sterling_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Bren Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105504
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			lmg_prototype = 3
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105504"
+		desc = "EVTDESC9105504"
+		picture = "bren_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			bren_lmg_hidden = 6000
+			set_global_flag = bren_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Vickers Berthier Light Machine Gun (Ghurkas only)
+##############################################################
+
+	country_event = {
+		id = 9105505
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			lmg_prototype = 3
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105505"
+		desc = "EVTDESC9105505"
+		picture = "vickers_berthier_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			vickers_berthier_lmg_hidden = 6000
+			set_global_flag = vickers_berthier_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Vickers Heavy Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105506
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			hmg_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105506"
+		desc = "EVTDESC9105506"
+		picture = "vickers_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			vickers_hmg_hidden = 6000
+			set_global_flag = vickers_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Stokes 3inch. Mortar
+##############################################################
+
+	country_event = {
+		id = 9105507
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			mortar_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105507"
+		desc = "EVTDESC9105507"
+		picture = "stokes_three_inch_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			stokes_three_inch_mortar_hidden = 6000
+			set_global_flag = stokes_three_inch_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Ordnance ML 3inch. Mortar
+##############################################################
+
+	country_event = {
+		id = 9105508
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			mortar_prototype = 2
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105508"
+		desc = "EVTDESC9105508"
+		picture = "ordnance_ml_three_inch_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			ordnance_ml_three_inch_mortar_hidden = 6000
+			set_global_flag = ordnance_ml_three_inch_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Ordnance ML 2inch. Mortar
+##############################################################
+
+	country_event = {
+		id = 9105509
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			mortar_prototype = 2
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105509"
+		desc = "EVTDESC9105509"
+		picture = "ordnance_ml_two_inch_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			ordnance_ml_two_inch_mortar_hidden = 6000
+			set_global_flag = ordnance_ml_two_inch_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Ordnance ML 4.2inch. Mortar
+##############################################################
+
+	country_event = {
+		id = 9105510
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			mortar_prototype = 4
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105510"
+		desc = "EVTDESC9105510"
+		picture = "ordnance_ml_four_point_two_inch_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			ordnance_ml_four_point_two_inch_mortar_hidden = 6000
+			set_global_flag = ordnance_ml_four_point_two_inch_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Boys Anti-Tank Rifle
+##############################################################
+
+	country_event = {
+		id = 9105511
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			anti_tank_rifle_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105511"
+		desc = "EVTDESC9105511"
+		picture = "boys_anti_tank_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			boys_anti_tank_rifle_hidden = 6000
+			set_global_flag = boys_anti_tank_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### PIAT AT
+##############################################################
+
+	country_event = {
+		id = 9105564
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			rocket_at_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105564"
+		desc = "EVTDESC9105564"
+		picture = "piat_at"
+		
+		option = {
+			name = "Put it Into Production."
+			piat_at_hidden = 6000
+			set_global_flag = piat_at
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+#########################################################################################################################
+#### BRITISH WWII ARTILLERY
+#########################################################################################################################
+##############################################################
+#### QF 3.7in. Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105512
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			infantry_guns = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105512"
+		desc = "EVTDESC9105512"
+		picture = "qf_three_point_seven_inch_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			qf_three_point_seven_inch_howitzer_hidden = 6000
+			set_global_flag = qf_three_point_seven_inch_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### QF 6pdr. Gun
+##############################################################
+
+	country_event = {
+		id = 9105513
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			infantry_guns = 5
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105513"
+		desc = "EVTDESC9105513"
+		picture = "qf_six_pounder_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			qf_six_pounder_gun_hidden = 6000
+			set_global_flag = qf_six_pounder_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### QF 95mm Howtizer
+##############################################################
+
+	country_event = {
+		id = 9105514
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			med_field_artillery = 5
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105514"
+		desc = "EVTDESC9105514"
+		picture = "qf_ninety_five_mm_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			qf_ninety_five_mm_howitzer_hidden = 6000
+			set_global_flag = qf_ninety_five_mm_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 6inch. CWT Medium Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105515
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			med_field_artillery = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105515"
+		desc = "EVTDESC9105515"
+		picture = "six_inch_twenty_six_cwt"
+		
+		option = {
+			name = "Put it Into Production."
+			six_inch_twenty_six_cwt_hidden = 6000
+			set_global_flag = six_inch_twenty_six_cwt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Ordnance QF 18pdr Gun
+##############################################################
+
+	country_event = {
+		id = 9105516
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			med_field_artillery = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105516"
+		desc = "EVTDESC9105516"
+		picture = "qf_eighteen_pounder_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			qf_eighteen_pounder_gun_hidden = 6000
+			set_global_flag = qf_eighteen_pounder_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Ordnance QF 25pdr Gun
+##############################################################
+
+	country_event = {
+		id = 9105517
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			med_field_artillery = 4
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105517"
+		desc = "EVTDESC9105517"
+		picture = "qf_twenty_five_pounder_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			qf_twenty_five_pounder_gun_hidden = 6000
+			set_global_flag = qf_twenty_five_pounder_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Ordnance BL 5.5in. Medium Gun
+##############################################################
+
+	country_event = {
+		id = 9105518
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			med_field_artillery = 4
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105518"
+		desc = "EVTDESC9105518"
+		picture = "ordnance_bl_five_point_five_inch_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			ordnance_bl_five_point_five_inch_gun_hidden = 6000
+			set_global_flag = ordnance_bl_five_point_five_inch_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Ordnance BL 4.5in. Medium Gun
+##############################################################
+
+	country_event = {
+		id = 9105519
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			med_field_artillery = 3
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105519"
+		desc = "EVTDESC9105519"
+		picture = "ordnance_bl_four_point_five_inch_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			ordnance_bl_four_point_five_inch_gun_hidden = 6000
+			set_global_flag = ordnance_bl_four_point_five_inch_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Ordnance BL 60Pdr Heavy Field Gun
+##############################################################
+
+	country_event = {
+		id = 9105520
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			hvy_field_artillery = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105520"
+		desc = "EVTDESC9105520"
+		picture = "ordnance_bl_sixty_pounder_heavy_field_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			ordnance_bl_sixty_pounder_heavy_field_gun_hidden = 6000
+			set_global_flag = ordnance_bl_sixty_pounder_heavy_field_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Ordnance BL 12in. Heavy Siege Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105521
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			hvy_field_artillery = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105521"
+		desc = "EVTDESC9105521"
+		picture = "ordnance_bl_twelve_inch_heavy_siege_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			ordnance_bl_twelve_inch_heavy_siege_howitzer_hidden = 6000
+			set_global_flag = ordnance_bl_twelve_inch_heavy_siege_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Ordnance BL 8in. Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105522
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			hvy_field_artillery = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105522"
+		desc = "EVTDESC9105522"
+		picture = "ordnance_bl_eight_inch_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			ordnance_bl_eight_inch_howitzer_hidden = 6000
+			set_global_flag = ordnance_bl_eight_inch_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Ordnance BL 7.2in. Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105523
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			hvy_field_artillery = 4
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105523"
+		desc = "EVTDESC9105523"
+		picture = "ordnance_bl_seven_point_two_inch_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			ordnance_bl_seven_point_two_inch_howitzer_hidden = 6000
+			set_global_flag = ordnance_bl_seven_point_two_inch_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 3in. Rocket, No.8 Mk 1 (Land Mattress)
+##############################################################
+
+	country_event = {
+		id = 9105524
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			rocket_artillery = 3
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105524"
+		desc = "EVTDESC9105524"
+		picture = "three_inch_number_eight_rocket_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			three_inch_number_eight_rocket_artillery_hidden = 6000
+			set_global_flag = three_inch_number_eight_rocket_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### QF 2Pdr 40mm Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105525
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			anti_tank_gun = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105525"
+		desc = "EVTDESC9105525"
+		picture = "qf_two_pounder_anti_tank_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			qf_two_pounder_anti_tank_gun_hidden = 6000
+			set_global_flag = qf_two_pounder_anti_tank_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### QF 6Pdr 57mm Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105526
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			anti_tank_gun = 4
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105526"
+		desc = "EVTDESC9105526"
+		picture = "qf_six_pounder_anti_tank_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			qf_six_pounder_anti_tank_gun_hidden = 6000
+			set_global_flag = qf_six_pounder_anti_tank_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### QF 17Pdr 76.2mm Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105527
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			anti_tank_gun = 4
+			seventeen_pounder_tank_gun = 1
+			has_global_flag = qf_six_pounder_anti_tank_gun
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105527"
+		desc = "EVTDESC9105527"
+		picture = "qf_seventeen_pounder_anti_tank_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			qf_seventeen_pounder_anti_tank_gun_hidden = 6000
+			set_global_flag = qf_seventeen_pounder_anti_tank_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### QF 3in 20 CWT AA Gun
+##############################################################
+
+	country_event = {
+		id = 9105528
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			anti_aircraft_gun = 1
+	
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105528"
+		desc = "EVTDESC9105528"
+		picture = "qf_three_inch_twenty_cwt_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			qf_three_inch_twenty_cwt_anti_air_gun_hidden = 6000
+			set_global_flag = qf_three_inch_twenty_cwt_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### QF 3.7in AA
+##############################################################
+
+	country_event = {
+		id = 9105529
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			anti_aircraft_gun = 3
+	
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105529"
+		desc = "EVTDESC9105529"
+		picture = "qf_three_point_seven_inch_anti_air_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			qf_three_point_seven_inch_anti_air_gun_hidden = 6000
+			set_global_flag = qf_three_point_seven_inch_anti_air_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}			
+##############################################################
+#### T48 Gun Motor Carriage
+##############################################################
+
+	country_event = {
+		id = 9105530
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			sp_artillery_prototype = 2
+	
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105530"
+		desc = "EVTDESC9105530"
+		picture = "t_fourty_eight_gun_motor_carriage"
+		
+		option = {
+			name = "Put it Into Production."
+			t_fourty_eight_gun_motor_carriage_hidden = 6000
+			set_global_flag = t_fourty_eight_gun_motor_carriage
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Bishop SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105531
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			sp_artillery_prototype = 3
+	
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105531"
+		desc = "EVTDESC9105531"
+		picture = "bishop_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			bishop_sp_artillery_hidden = 6000
+			set_global_flag = bishop_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Deacon SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105532
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			sp_artillery_prototype = 4
+			has_global_flag = bishop_sp_artillery
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105532"
+		desc = "EVTDESC9105532"
+		picture = "deacon_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			deacon_sp_artillery_hidden = 6000
+			set_global_flag = deacon_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Sexton SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105533
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			sp_artillery_prototype = 5
+			has_global_flag = deacon_sp_artillery
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105533"
+		desc = "EVTDESC9105533"
+		picture = "sexton_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			sexton_sp_artillery_hidden = 6000
+			set_global_flag = sexton_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Sexton II SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105534
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			sp_artillery_prototype = 6
+			has_global_flag = sexton_sp_artillery
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105534"
+		desc = "EVTDESC9105534"
+		picture = "sexton_ii_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			sexton_ii_sp_artillery_hidden = 6000
+			set_global_flag = sexton_ii_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 20mm Anti-Aircraft Portee
+##############################################################
+
+	country_event = {
+		id = 9105535
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			sp_anti_aircraft_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105535"
+		desc = "EVTDESC9105535"
+		picture = "twenty_mm_anti_aircraft_portee"
+		
+		option = {
+			name = "Put it Into Production."
+			twenty_mm_anti_aircraft_portee_hidden = 6000
+			set_global_flag = twenty_mm_anti_aircraft_portee
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Crusader III, AA Mk.I
+##############################################################
+
+	country_event = {
+		id = 9105536
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			sp_anti_aircraft_prototype = 4
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105536"
+		desc = "EVTDESC9105536"
+		picture = "crusader_iii_anti_aircraft"
+		
+		option = {
+			name = "Put it Into Production."
+			crusader_iii_anti_aircraft_hidden = 6000
+			set_global_flag = crusader_iii_anti_aircraft
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+#########################################################################################################################
+#### BRITISH ARMORED VEHICLES
+#########################################################################################################################		
+##############################################################
+#### Matilda I
+##############################################################
+
+	country_event = {
+		id = 9105537
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			infantry_tank_design = 2
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105537"
+		desc = "EVTDESC9105537"
+		picture = "matilda_i_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			matilda_i_infantry_tank_hidden = 6000
+			set_global_flag = matilda_i_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Matilda II
+##############################################################
+
+	country_event = {
+		id = 9105538
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			infantry_tank_design = 4
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105538"
+		desc = "EVTDESC9105538"
+		picture = "matilda_ii_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			matilda_ii_infantry_tank_hidden = 6000
+			set_global_flag = matilda_ii_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Valentine Mk III
+##############################################################
+
+	country_event = {
+		id = 9105539
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			infantry_tank_design = 3
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105539"
+		desc = "EVTDESC9105539"
+		picture = "valentine_mark_iii_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			valentine_mark_iii_infantry_tank_hidden = 6000
+			set_global_flag = valentine_mark_iii_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Churchill
+##############################################################
+
+	country_event = {
+		id = 9105540
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			infantry_tank_design = 5
+			tank_extra_front_armor = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105540"
+		desc = "EVTDESC9105540"
+		picture = "churchill_infantry_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			churchill_infantry_tank_hidden = 6000
+			set_global_flag = churchill_infantry_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Vickers Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105541
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			light_tank_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105541"
+		desc = "EVTDESC9105541"
+		picture = "vickers_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			vickers_light_tank_hidden = 6000
+			set_global_flag = vickers_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Vickers Mk VII Tetrarch
+##############################################################
+
+	country_event = {
+		id = 9105542
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			light_tank_prototype = 3
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105542"
+		desc = "EVTDESC9105542"
+		picture = "vickers_mark_vii_tetrarch_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			vickers_mark_vii_tetrarch_light_tank_hidden = 6000
+			set_global_flag = vickers_mark_vii_tetrarch_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Vickers Mk VIII Harry Hopkins
+##############################################################
+
+	country_event = {
+		id = 9105543
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			light_tank_prototype = 4
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105543"
+		desc = "EVTDESC9105543"
+		picture = "vickers_mark_viii_harry_hopkins_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			vickers_mark_viii_harry_hopkins_light_tank_hidden = 6000
+			set_global_flag = vickers_mark_viii_harry_hopkins_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Vickers Medium
+##############################################################
+
+	country_event = {
+		id = 9105544
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			medium_tank_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105544"
+		desc = "EVTDESC9105544"
+		picture = "vickers_medium_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			vickers_medium_medium_tank_hidden = 6000
+			set_global_flag = vickers_medium_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Cruiser Tank
+##############################################################
+
+	country_event = {
+		id = 9105545
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			medium_tank_prototype = 2
+			versatile_tank_designs = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105545"
+		desc = "EVTDESC9105545"
+		picture = "cruiser_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			cruiser_medium_tank_hidden = 6000
+			set_global_flag = cruiser_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Black Prince Mk I Heavy Tank
+##############################################################
+
+	country_event = {
+		id = 9105546
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			heavy_tank_prototype = 3
+			has_global_flag = churchill_infantry_tank
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105546"
+		desc = "EVTDESC9105546"
+		picture = "black_prince_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			black_prince_heavy_tank_hidden = 6000
+			set_global_flag = black_prince_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Centurion Mk.I Heavy Tank
+##############################################################
+
+	country_event = {
+		id = 9105547
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			heavy_tank_prototype = 4
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105547"
+		desc = "EVTDESC9105547"
+		picture = "centurion_heavy_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			centurion_heavy_tank_hidden = 6000
+			set_global_flag = centurion_heavy_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Universal Carrier 2pdr
+##############################################################
+
+	country_event = {
+		id = 9105548
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			light_tank_destroyer_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105548"
+		desc = "EVTDESC9105548"
+		picture = "universal_carrier_two_pounder_light_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			universal_carrier_two_pounder_light_tank_destroyer_hidden = 6000
+			set_global_flag = universal_carrier_two_pounder_light_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Challenger
+##############################################################
+
+	country_event = {
+		id = 9105549
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			light_tank_destroyer_prototype = 2
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105549"
+		desc = "EVTDESC9105549"
+		picture = "challenger_light_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			challenger_light_tank_destroyer_hidden = 6000
+			set_global_flag = challenger_light_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Archer QF 6pdr Mk IV
+##############################################################
+
+	country_event = {
+		id = 9105550
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			light_tank_destroyer_prototype = 3
+			has_global_flag = challenger_light_tank_destroyer
+		}
+		
+		mean_time_to_happen = {
+			days = 60
+		}	
+		
+		title = "EVTNAME9105550"
+		desc = "EVTDESC9105550"
+		picture = "archer_light_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			archer_light_tank_destroyer_hidden = 6000
+			set_global_flag = archer_light_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Archer QF 17pdr Mk II
+##############################################################
+
+	country_event = {
+		id = 9105551
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			medium_tank_destroyer_prototype = 3
+			has_global_flag = archer_light_tank_destroyer
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105551"
+		desc = "EVTDESC9105551"
+		picture = "archer_medium_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			archer_medium_tank_destroyer_hidden = 6000
+			set_global_flag = archer_medium_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### AT-2 Heavy Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105552
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			heavy_tank_destroyer_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105552"
+		desc = "EVTDESC9105552"
+		picture = "at_two_heavy_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			at_two_heavy_tank_destroyer_hidden = 6000
+			set_global_flag = at_two_heavy_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### A-39 Tortoise
+##############################################################
+
+	country_event = {
+		id = 9105553
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			heavy_tank_destroyer_prototype = 2
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105553"
+		desc = "EVTDESC9105553"
+		picture = "a_thirty_nine_heavy_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			a_thirty_nine_heavy_tank_destroyer_hidden = 6000
+			set_global_flag = a_thirty_nine_heavy_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Centurion Mk.II
+##############################################################
+
+	country_event = {
+		id = 9105554
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			main_battle_tank = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105554"
+		desc = "EVTDESC9105554"
+		picture = "centurion_mark_ii_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			centurion_mark_ii_mbt_hidden = 6000
+			set_global_flag = centurion_mark_ii_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Conqueror
+##############################################################
+
+	country_event = {
+		id = 9105555
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			main_battle_tank = 2
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105555"
+		desc = "EVTDESC9105555"
+		picture = "conqueror_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			conqueror_mbt_hidden = 6000
+			set_global_flag = conqueror_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Vickers MBT
+##############################################################
+
+	country_event = {
+		id = 9105556
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			main_battle_tank = 4
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105556"
+		desc = "EVTDESC9105556"
+		picture = "vickers_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			vickers_mbt_hidden = 6000
+			set_global_flag = vickers_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Chieftain
+##############################################################
+
+	country_event = {
+		id = 9105557
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			main_battle_tank = 5
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105557"
+		desc = "EVTDESC9105557"
+		picture = "chieftan_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			chieftan_mbt_hidden = 6000
+			set_global_flag = chieftan_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+#########################################################################################################################
+#### BRITISH COLD WAR WEAPONS
+#########################################################################################################################	
+##############################################################
+#### Ordnance 3.45in. Recoilless Rifle
+##############################################################
+
+	country_event = {
+		id = 9105558
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			paratrooper_recoilless_rifle_prototype = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105558"
+		desc = "EVTDESC9105558"
+		picture = "ordnance_rcl"
+		
+		option = {
+			name = "Put it Into Production."
+			ordnance_rcl_hidden = 6000
+			set_global_flag = ordnance_rcl
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Enfield L1A1 SLR
+##############################################################
+
+	country_event = {
+		id = 9105559
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			advanced_rifles = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105559"
+		desc = "EVTDESC9105559"
+		picture = "enfield_slr"
+		
+		option = {
+			name = "Put it Into Production."
+			enfield_slr_hidden = 6000
+			set_global_flag = enfield_slr
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Enfield L4 BREN
+##############################################################
+
+	country_event = {
+		id = 9105560
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			advanced_light_machine_guns = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105560"
+		desc = "EVTDESC9105560"
+		picture = "enfield_bren"
+		
+		option = {
+			name = "Put it Into Production."
+			enfield_bren_hidden = 6000
+			set_global_flag = enfield_bren
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Enfield L7 GPMG
+##############################################################
+
+	country_event = {
+		id = 9105561
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			advanced_light_machine_guns = 2
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105561"
+		desc = "EVTDESC9105561"
+		picture = "enfield_gpmg"
+		
+		option = {
+			name = "Put it Into Production."
+			enfield_gpmg_hidden = 6000
+			set_global_flag = enfield_gpmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### L6 WOMBAT AT
+##############################################################
+
+	country_event = {
+		id = 9105562
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			advanced_anti_tank_rockets = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105562"
+		desc = "EVTDESC9105562"
+		picture = "l_six_wombat"
+		
+		option = {
+			name = "Put it Into Production."
+			l_six_wombat_hidden = 6000
+			set_global_flag = l_six_wombat
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Ordnance L16 81mm Mortar
+##############################################################
+
+	country_event = {
+		id = 9105563
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ENG
+			advanced_mortars = 1
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 30
+		}	
+		
+		title = "EVTNAME9105563"
+		desc = "EVTDESC9105563"
+		picture = "l_sixteen_eighty_one_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			l_sixteen_eighty_one_mm_mortar_hidden = 6000
+			set_global_flag = l_sixteen_eighty_one_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		

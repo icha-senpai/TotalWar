@@ -1,0 +1,6 @@
+division= {
+	name = "40. SS-Panzergrenadier-Division 'Feldherrnhalle'"
+	location = 1861 #berlin
+	regiment = { type = Ger_A_40_Feldherrnhalle name = "Stab 40. SS-Division" historical_model = 0 strength = 2 experience = 80 organisation = 1 }
+	regiment = { type = ss_mechanized_brigade name = "SS-Pz.-Grenadier-Regiment 99/100" historical_model = 0 strength = 5 experience = 80 organisation = 1 }
+}

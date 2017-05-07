@@ -1,0 +1,9 @@
+division= {
+	name = "Schwere Panzer-Abteilung 506"
+	location = 1969 # Nordhorn
+	regiment = { type = GER_A_506_sPzA name = "Stab s.Pz.Abt. 506" historical_model = 1 experience = 50 organisation = 1 }
+	regiment = { type = heavy_armor_brigade name = "s.Pz.Abt. 506" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = HQDEF_brigade name = "Personal s.Pz.Abt. 506" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = motorcycle_recon_brigade name = "Aufklärungs.Pz.Abt. 506" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = hftrack_transport name = "Gefechtstross s.Pz.Abt. 506" historical_model = 0 experience = 50 organisation = 1 }
+}

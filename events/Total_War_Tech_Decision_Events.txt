@@ -1,0 +1,313 @@
+########################################################################################
+############# Total War Tech Decision Events    ###########
+########################################################################################
+######################################################################################################################################
+#### Labor Events
+######################################################################################################################################
+
+	country_event = {
+		id = 91075120
+		
+		
+		trigger = {
+			
+			war = yes
+						
+			not = { has_country_flag = professional_factory_labor }
+			not = { has_country_flag = slave_factory_labor }
+										
+		}
+		
+		
+
+		title = "EVTNAME91075120"
+		desc = "EVTDESC91075120"
+		picture = "factory_workers"
+		
+		option = {
+			name = "I want a work force of highly skilled workers."
+			set_country_flag = professional_factory_labor
+			ai_chance = { factor = 50 }
+		}
+			
+		option = {
+			name = "We need our best men at the front, gather anyone you can to toil in the factories!"
+			set_country_flag = slave_factory_labor
+			ai_chance = { factor = 50 }
+		}
+	}
+	
+######################################################################################################################################
+#### Aircraft Armament Events
+######################################################################################################################################
+
+	country_event = {
+		id = 91075121
+		
+		
+		trigger = {
+						
+			not = { has_country_flag = fighter_aircraft_machine_gun_focus }
+			not = { has_country_flag = fighter_aircraft_cannon_focus }
+			not = { has_country_flag = fighter_aircraft_mg_and_cannon_combo_focus }
+										
+		}
+		
+		
+
+		title = "EVTNAME91075121"
+		desc = "EVTDESC91075121"
+		picture = "fighter_aircraft_guns"
+		
+		option = {
+			name = "Let's focus on Machine Guns for our fighters."
+			set_country_flag = fighter_aircraft_machine_gun_focus
+			ai_chance = { factor = 34 }
+		}
+			
+		option = {
+			name = "Let's focus on Cannons for our fighters."
+			set_country_flag = fighter_aircraft_cannon_focus
+			ai_chance = { factor = 33 }
+		}
+		
+		option = {
+			name = "Let's focus on a combination of the two for our fighters."
+			set_country_flag = fighter_aircraft_mg_and_cannon_combo_focus
+			ai_chance = { factor = 33 }
+		}
+		
+		
+	}	
+	
+	country_event = {
+		id = 91075122
+		
+		
+		trigger = {
+						
+			not = { has_country_flag = cas_aircraft_machine_gun_focus }
+			not = { has_country_flag = cas_aircraft_cannon_focus }
+													
+		}
+		
+		
+
+		title = "EVTNAME91075122"
+		desc = "EVTDESC91075122"
+		picture = "cas_aircraft_guns"
+		
+		option = {
+			name = "Let's focus on Machine Guns for our Close Air Support Aircraft."
+			set_country_flag = cas_aircraft_machine_gun_focus
+			ai_chance = { factor = 50 }
+		}
+			
+		option = {
+			name = "Let's focus on Cannons for our Close Air Support Aircraft."
+			set_country_flag = cas_aircraft_cannon_focus
+			ai_chance = { factor = 50 }
+		}
+				
+	}	
+	
+######################################################################################################################################
+#### Tank Turret Traverse Tech Event
+######################################################################################################################################
+
+	country_event = {
+		id = 91075123
+		
+		
+		trigger = {
+						
+			not = { has_country_flag = tank_hydraulic_turret_traversal_system }
+			not = { has_country_flag = tank_electrical_turret_traversal_system }
+													
+		}
+				
+
+		title = "EVTNAME91075123"
+		desc = "EVTDESC91075123"
+		picture = "tank_turret_traversal_systems"
+		
+		option = {
+			name = "I want most of our tanks equipped with hydraulic systems."
+			set_country_flag = tank_hydraulic_turret_traversal_system
+			ai_chance = { factor = 50 }
+		}
+			
+		option = {
+			name = "I think an electrical system for most of our tank designs is better."
+			set_country_flag = tank_electrical_turret_traversal_system
+			ai_chance = { factor = 50 }
+		}
+		
+		
+	}	
+
+######################################################################################################################################
+#### Scientist Decision Event
+######################################################################################################################################
+
+	country_event = {
+		id = 91075124
+		
+		
+		trigger = {
+						
+			not = { has_country_flag = university_scientists_recruitment }
+			not = { has_country_flag = famous_individual_scientist_recruitment }
+													
+		}
+				
+
+		title = "EVTNAME91075124"
+		desc = "EVTDESC91075124"
+		picture = "scientists_recruitment"
+		
+		option = {
+			name = "We should recruit scientists from Universities."
+			set_country_flag = university_scientists_recruitment
+			ai_chance = { factor = 50 }
+		}
+			
+		option = {
+			name = "Let's rely upon famous Individual Scientists instead."
+			set_country_flag = famous_individual_scientist_recruitment
+			ai_chance = { factor = 50 }
+		}
+		
+		
+	}		
+######################################################################################################################################
+#### Scientist Decision Event
+######################################################################################################################################
+
+	country_event = {
+		id = 91075125
+		
+		
+		trigger = {
+			
+			land_battles_fought = 1500
+			
+			not = { has_country_flag = combat_command_doctrine_mechanized }
+			not = { has_country_flag = mobile_infantry_theory_mechanized }
+													
+		}
+				
+
+		title = "EVTNAME91075125"
+		desc = "EVTDESC91075125"
+		picture = "mechanized_direction"
+		
+		option = {
+			name = "Let's used Mechanized Units as part of a Combined Arms Battleforce."
+			set_country_flag = combat_command_doctrine_mechanized
+			ai_chance = { factor = 50 }
+		}
+			
+		option = {
+			name = "No, Mechanized Infantry should be an independent assault force."
+			set_country_flag = mobile_infantry_theory_mechanized
+			ai_chance = { factor = 50 }
+		}
+		
+		
+	}		
+	
+######################################################################################################################################
+#### Advanced Division Reorganization Event
+######################################################################################################################################
+
+	country_event = {
+		id = 91075126
+		
+		
+		trigger = {
+			
+			army_division_reorganization = 1
+			
+			not = { has_country_flag = pentomic_division_structure_choice }
+			not = { has_country_flag = combat_brigade_reorganization_choice }
+			not = { has_country_flag = kampfgruppe_division_choice }
+													
+		}
+				
+
+		title = "EVTNAME91075126"
+		desc = "EVTDESC91075126"
+		picture = "advanced_division_reorganization_choice"
+		
+		option = {
+			name = "A large Division sounds best to me for delivering a lot of firepower."
+			set_country_flag = pentomic_division_structure_choice
+			ai_chance = { factor = 34 }
+		}
+			
+		option = {
+			name = "I want a smaller more mobile and flexible Division."
+			set_country_flag = combat_brigade_reorganization_choice
+			ai_chance = { factor = 33 }
+		}
+		
+		option = {
+			name = "Let's go with a solid mix between firepower and mobility."
+			set_country_flag = kampfgruppe_division_choice
+			ai_chance = { factor = 33 }
+		}
+		
+		
+	}	
+
+######################################################################################################################################
+#### Advanced Special Forces Event
+######################################################################################################################################
+
+	country_event = {
+		id = 91075127
+		
+		
+		trigger = {
+			
+			advanced_special_forces = 1
+			
+			not = { has_country_flag = underwater_demolition_teams_choice }
+			not = { has_country_flag = navy_seals_choice }
+			not = { has_country_flag = british_sas_choice }
+			not = { has_country_flag = army_special_forces_group_choice }
+													
+		}
+				
+
+		title = "EVTNAME91075127"
+		desc = "EVTDESC91075127"
+		picture = "advanced_special_forces_choice"
+		
+		option = {
+			name = "Commandos that can raid enemy beach defenses sounds good to me!"
+			set_country_flag = underwater_demolition_teams_choice
+			ai_chance = { factor = 25 }
+		}
+			
+		option = {
+			name = "A force of highly trained Commandos from the Sea Service is what I want!"
+			set_country_flag = navy_seals_choice
+			ai_chance = { factor = 25 }
+		}
+		
+		option = {
+			name = "Paratrooper Commandos will help me achieve my Special Operations goals!"
+			set_country_flag = british_sas_choice
+			ai_chance = { factor = 25 }
+		}
+		
+		option = {
+			name = "Commandos that specialize in Land Warfare is the best way to go!"
+			set_country_flag = army_special_forces_group_choice
+			ai_chance = { factor = 25 }
+		}
+		
+		
+	}		

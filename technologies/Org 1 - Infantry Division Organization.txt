@@ -1,0 +1,8075 @@
+###################
+####################################
+# Infantry Division Organization ###
+####################################
+###################################################################################################
+## Infantry Division HQ
+###################################################################################################
+infantry_division_hq = {
+
+	allow = {
+				
+		OR = {
+			AND = {									
+				NOT = { infantry_division_hq = 1 }	# 1918
+				first_infantry_regiment_hqtrs = 1
+				second_infantry_regiment_hq = 1 
+			}
+			AND = {
+				NOT = { infantry_division_hq = 2 }	# 1936
+				first_infantry_regiment_hqtrs = 2
+				second_infantry_regiment_hq = 2 
+			}
+			AND = {
+				NOT = { infantry_division_hq = 3 }	# 1938
+				first_infantry_regiment_hqtrs = 3
+				second_infantry_regiment_hq = 3 
+			}
+			AND = {
+				NOT = { infantry_division_hq = 4 }	# 1940
+				first_infantry_regiment_hqtrs = 4
+				second_infantry_regiment_hq = 4 
+			}
+			AND = {
+				NOT = { infantry_division_hq = 5 }	# 1942
+				first_infantry_regiment_hqtrs = 5
+				second_infantry_regiment_hq = 5
+			}
+			AND = {
+				NOT = { infantry_division_hq = 6 }	# 1944
+				first_infantry_regiment_hqtrs = 6
+				second_infantry_regiment_hq = 6 
+			}
+			AND = {
+				NOT = { infantry_division_hq = 7 }	# 1946
+				first_infantry_regiment_hqtrs = 7
+				second_infantry_regiment_hq = 7
+			}
+			AND = {
+				NOT = { infantry_division_hq = 8 }	# 1948
+				first_infantry_regiment_hqtrs = 8
+				second_infantry_regiment_hq = 8
+			}
+			AND = {
+				NOT = { infantry_division_hq = 9 }	# 1950
+				first_infantry_regiment_hqtrs = 9
+				second_infantry_regiment_hq = 9
+			}
+			AND = {
+				NOT = { infantry_division_hq = 10 }	# 1952
+				first_infantry_regiment_hqtrs = 10
+				second_infantry_regiment_hq = 10
+			}
+			AND = {
+				NOT = { infantry_division_hq = 11 }	# 1954
+				first_infantry_regiment_hqtrs = 11
+				second_infantry_regiment_hq = 11
+			}
+			AND = {
+				NOT = { infantry_division_hq = 12 }	# 1956
+				first_infantry_regiment_hqtrs = 12
+				second_infantry_regiment_hq = 12
+			}
+		}
+	}	
+	
+	change = no
+	
+   	activate_unit = division_hq_standard
+		
+	division_hq_standard = {
+		max_strength = 0.10
+		default_organisation = 3.0
+		radio_strength = 0.35
+		officers = 4
+		build_time = 5
+		air_defence = 1
+	}
+	division_hq_veteran = {
+		max_strength = 0.10
+		default_organisation = 3.0
+		radio_strength = 0.35
+		officers = 4
+		build_time = 5
+		air_defence = 1
+	}
+	division_hq_elite = {
+		max_strength = 0.10
+		default_organisation = 3.0
+		radio_strength = 0.35
+		officers = 4
+		build_time = 5
+		air_defence = 1
+	}
+	
+	
+	infantry_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	cavalry_brigade = {  
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	motorized_brigade = {   
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	semi_motorized_brigade = {   
+		default_organisation = 3.0
+		air_defence = 1
+	}
+			
+	guard_infantry_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	guard_cavalry_brigade = {  
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	guard_motorized_brigade = {  
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	ss_infantry_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_motorized_brigade = {  ###
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	afrika_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	anzac_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	Gurkha_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	imperial_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	naval_infantry_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	ss_cavalry_brigade = {  
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_dasreich = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_frundsberg = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_hitlerjugend = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_hohenstaufen = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_infantry_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_lssah = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_motorized_brigade = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	ss_totenkopf = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	ss_wiking = {
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	colonial_infantry_brigade = {  
+		default_organisation = 3.0
+		air_defence = 1
+	}
+	
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1918	
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 12
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 1st Infantry Regiment HQ
+###################################################################################################
+first_infantry_regiment_hqtrs = {
+
+	allow = {
+			
+	OR = {
+			AND = {									
+				NOT = { first_infantry_regiment_hqtrs = 1 }	# 1917
+				first_infantry_battalion = 1
+				second_infantry_battalion = 1
+				third_infantry_battalion = 1
+				first_infantry_artillery_company = 1
+				first_infantry_heavy_weapons_company = 1
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 2 }	# 1935
+				OR = { 
+					first_infantry_battalion = 2
+					second_infantry_battalion = 2
+					third_infantry_battalion = 2
+				}
+				OR = {
+					first_infantry_artillery_company = 2
+					first_infantry_anti_tank_company = 2
+					first_infantry_heavy_weapons_company = 2
+				}
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 3 }	# 1937
+				OR = { 
+					first_infantry_battalion = 3
+					second_infantry_battalion = 3
+					third_infantry_battalion = 3
+				}
+				OR = {
+					first_infantry_artillery_company = 3
+					first_infantry_anti_tank_company = 3
+					first_infantry_heavy_weapons_company = 3
+				}
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 4 }	# 1939
+				OR = { 
+					first_infantry_battalion = 4
+					second_infantry_battalion = 4
+					third_infantry_battalion = 4
+				}
+				OR = {
+					first_infantry_artillery_company = 4
+					first_infantry_anti_tank_company = 4
+					first_infantry_heavy_weapons_company = 4
+				}
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 5 }	# 1941
+				OR = { 
+					first_infantry_battalion = 5
+					second_infantry_battalion = 5
+					third_infantry_battalion = 5
+				}
+				OR = {
+					first_infantry_artillery_company = 5
+					first_infantry_anti_tank_company = 5
+					first_infantry_heavy_weapons_company = 5
+				}
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 6 }	# 1943
+				OR = { 
+					first_infantry_battalion = 6
+					second_infantry_battalion = 6
+					third_infantry_battalion = 6
+				}
+				OR = {
+					first_infantry_artillery_company = 6
+					first_infantry_anti_tank_company = 6
+					first_infantry_heavy_weapons_company = 6
+				}
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 7 }	# 1945
+				OR = { 
+					first_infantry_battalion = 7
+					second_infantry_battalion = 7
+					third_infantry_battalion = 7
+				}
+				OR = {
+					first_infantry_artillery_company = 7
+					first_infantry_anti_tank_company = 7
+					first_infantry_heavy_weapons_company = 7
+				}
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 8 }	# 1947
+				OR = { 
+					first_infantry_battalion = 8
+					second_infantry_battalion = 8
+					third_infantry_battalion = 8
+				}
+				OR = {
+					first_infantry_artillery_company = 8
+					first_infantry_anti_tank_company = 8
+					first_infantry_heavy_weapons_company = 8
+				}
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 9 }	# 1949
+				OR = { 
+					first_infantry_battalion = 9
+					second_infantry_battalion = 9
+					third_infantry_battalion = 9
+				}
+				OR = {
+					first_infantry_artillery_company = 9
+					first_infantry_anti_tank_company = 9
+					first_infantry_heavy_weapons_company = 9
+				}
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 10 }	# 1951
+				OR = { 
+					first_infantry_battalion = 10
+					second_infantry_battalion = 10
+					third_infantry_battalion = 10
+				}
+				OR = {
+					first_infantry_artillery_company = 10
+					first_infantry_anti_tank_company = 10
+					first_infantry_heavy_weapons_company = 10
+				}
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 11 }	# 1953
+				OR = { 
+					first_infantry_battalion = 11
+					second_infantry_battalion = 11
+					third_infantry_battalion = 11
+				}
+				OR = {
+					first_infantry_artillery_company = 11
+					first_infantry_anti_tank_company = 11
+					first_infantry_heavy_weapons_company = 11
+				}
+			}
+			AND = {
+				NOT = { first_infantry_regiment_hqtrs = 12 }	# 1955
+				OR = { 
+					first_infantry_battalion = 12
+					second_infantry_battalion = 12
+					third_infantry_battalion = 12
+				}
+				OR = {
+					first_infantry_artillery_company = 12
+					first_infantry_anti_tank_company = 12
+					first_infantry_heavy_weapons_company = 12
+				}
+			}
+		}		
+	}	
+	
+	change = no
+	
+	activate_unit = infantry_brigade
+	
+	activate_unit = garrison_brigade
+	
+	activate_unit = semi_motorized_brigade
+	
+	activate_unit = cavalry_brigade
+	
+	infantry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	infantry_bat = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	cavalry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	conscript_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	motorized_brigade = {   
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	motorized_infantry_bat = {   
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	semi_motorized_brigade = {   
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+			
+	guard_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	guard_cavalry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	guard_motorized_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	ss_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_motorized_brigade = {  ###
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	afrika_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	anzac_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	Gurkha_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	imperial_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	naval_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	ss_cavalry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_dasreich = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_frundsberg = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_hitlerjugend = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_hohenstaufen = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_lssah = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_motorized_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	ss_totenkopf = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_wiking = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	colonial_infantry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	garrison_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_garrison_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1918	
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 12
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 1st Infantry Battalion
+###################################################################################################
+first_infantry_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { first_infantry_battalion = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { first_infantry_battalion = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}		
+	}	
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = infantry_bat
+	
+	activate_unit = garrison_detachment
+	
+	activate_unit = HQDEF_brigade
+
+   	infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	cavalry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	conscript_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	semi_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	afrika_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	anzac_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	goering_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	grossdeutschland_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	guard_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_cavalry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	Gurkha_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	imperial_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	naval_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_cavalry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_dasreich = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_frundsberg = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hitlerjugend = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hohenstaufen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_lssah = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_totenkopf = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_wiking = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+########################################
+
+	infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	motorized_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_motorized_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}		
+	ss_motorized_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+
+########################################
+	
+	militia_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	fascist_militia_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	SA_militia_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	Communist_militia_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	colonial_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	colonial_militia_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	colonial_garrison_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	colonial_cavalry_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	garrison_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	garrison_detachment = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	ss_garrison_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	
+	HQDEF_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+	
+	on_completion = infantry_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 2nd Infantry Battalion
+###################################################################################################
+second_infantry_battalion = {
+
+	allow = {
+	
+		OR = { 
+			
+			AND = {
+				NOT = { second_infantry_battalion = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { second_infantry_battalion = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}					
+	}	
+	
+	change = yes
+
+	infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	cavalry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	conscript_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	semi_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	afrika_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	anzac_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	goering_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	grossdeutschland_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	guard_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_cavalry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	Gurkha_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	imperial_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	naval_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_cavalry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_dasreich = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_frundsberg = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hitlerjugend = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hohenstaufen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_lssah = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_totenkopf = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_wiking = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+########################################	
+	
+	infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	motorized_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_motorized_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}		
+	ss_motorized_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	
+########################################	
+	
+	militia_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	fascist_militia_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	SA_militia_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	Communist_militia_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	colonial_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	colonial_militia_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	colonial_garrison_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	colonial_cavalry_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	garrison_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	ss_garrison_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+   	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 2
+
+    # common for all techs.
+	start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 3rd Infantry Battalion
+###################################################################################################
+third_infantry_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { third_infantry_battalion = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { third_infantry_battalion = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}				
+	}	
+	
+	change = yes
+
+	infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	cavalry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	conscript_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	semi_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	garrison_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	afrika_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	anzac_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	goering_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	grossdeutschland_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	guard_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_cavalry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	Gurkha_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	imperial_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	naval_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_cavalry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_dasreich = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_frundsberg = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hitlerjugend = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hohenstaufen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_lssah = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_totenkopf = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_wiking = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+########################################	
+	
+	infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	motorized_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_motorized_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}		
+	ss_motorized_infantry_bat = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}		
+	
+###########################################################	
+	
+	colonial_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	colonial_cavalry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	colonial_garrison_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+	ss_garrison_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 1st Infantry Artillery Company
+###################################################################################################
+first_infantry_artillery_company = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { first_infantry_artillery_company = 1 } #1917
+				artillery_production_industry = 1
+				world_war_one_warfare = 1
+				infantry_guns = 1
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 2 } #1935
+				artillery_production_industry = 3
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 3 } #1937
+				artillery_production_industry = 5
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 4 } #1939
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 5 } #1941
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 6 } #1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 7 } #1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 8 } #1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 9 } #1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 10 } #1951
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 11 } #1953
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { first_infantry_artillery_company = 12 } #1955
+				artillery_production_industry = 23
+			}
+		}		
+	}	
+	
+	change = yes
+	
+	infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	motorized_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	semi_motorized_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	afrika_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	anzac_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+	goering_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	grossdeutschland_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+		
+	guard_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	guard_motorized_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	Gurkha_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	imperial_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_dasreich = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_frundsberg = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_hitlerjugend = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_hohenstaufen = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_lssah = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_motorized_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+	ss_totenkopf = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_wiking = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+##########################################################	
+	
+	infantry_bat = {  	
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	motorized_infantry_bat = { 
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	guard_motorized_infantry_bat = { 
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_infantry_bat = { 
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}		
+	ss_motorized_infantry_bat = { 
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}		
+	
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+	# common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 1st Infantry Anti-Tank Battalion
+###################################################################################################
+first_infantry_anti_tank_company = {
+
+	allow = {
+		
+		OR = {
+			
+			AND = {
+				artillery_production_industry = 1
+				world_war_one_warfare = 1
+				anti_tank_gun = 1 
+				NOT = { first_infantry_anti_tank_company = 1 } # 1917
+			}
+			AND = {
+				artillery_production_industry = 3
+				NOT = { first_infantry_anti_tank_company = 2 } # 1935
+			}
+			AND = {
+				artillery_production_industry = 5
+				NOT = { first_infantry_anti_tank_company = 3 } # 1937
+			}
+			AND = {
+				artillery_production_industry = 7
+				NOT = { first_infantry_anti_tank_company = 4 } # 1939
+			}
+			AND = {
+				artillery_production_industry = 9
+				NOT = { first_infantry_anti_tank_company = 5 } # 1941
+			}
+			AND = {
+				artillery_production_industry = 11
+				NOT = { first_infantry_anti_tank_company = 6 } # 1943
+			}
+			AND = {
+				artillery_production_industry = 13
+				NOT = { first_infantry_anti_tank_company = 7 } # 1945
+			}
+			AND = {
+				artillery_production_industry = 15
+				NOT = { first_infantry_anti_tank_company = 8 } # 1947
+			}
+			AND = {
+				artillery_production_industry = 17
+				NOT = { first_infantry_anti_tank_company = 9 } # 1949
+			}
+			AND = {
+				artillery_production_industry = 19
+				NOT = { first_infantry_anti_tank_company = 10 } # 1951
+			}
+			AND = {
+				artillery_production_industry = 21
+				NOT = { first_infantry_anti_tank_company = 11 } # 1953
+			}
+			AND = {
+				artillery_production_industry = 23
+				NOT = { first_infantry_anti_tank_company = 12 } # 1955
+			}
+		}		
+	}	
+	
+	change = yes
+
+   	infantry_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	
+	motorized_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	
+	semi_motorized_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	afrika_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	anzac_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	grossdeutschland_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	guard_infantry_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	guard_motorized_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	Gurkha_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	imperial_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_dasreich = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_frundsberg = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_hitlerjugend = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_hohenstaufen = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_infantry_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_lssah = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_motorized_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	
+	ss_totenkopf = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_wiking = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	
+##########################################################	
+	
+	infantry_bat = {  	
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	motorized_infantry_bat = { 
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	guard_motorized_infantry_bat = { 
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_infantry_bat = { 
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}		
+	ss_motorized_infantry_bat = { 
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.10
+		build_time = 1
+		maximum_speed = -0.05
+	}		
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+    # common for all techs.
+	start_year = 1917
+	first_offset = 1935
+	additional_offset = 2
+	max_level = 12 # 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 1st Infantry Heavy Weapons Company
+###################################################################################################
+first_infantry_heavy_weapons_company = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 1 } #1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				hmg_prototype = 1
+			}
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 2 } #1935
+				small_arms_manufacturing = 3
+			}
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 3 } #1937
+				small_arms_manufacturing = 5
+			}	
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 4 } #1939
+				small_arms_manufacturing = 7
+			}	
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 5 } #1941
+				small_arms_manufacturing = 9
+			}	
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 6 } #1943
+				small_arms_manufacturing = 11
+			}	
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 7 } #1945
+				small_arms_manufacturing = 13
+			}	
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 8 } #1947
+				small_arms_manufacturing = 15
+			}	
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 9 } #1949
+				small_arms_manufacturing = 17
+			}	
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 10 } #1951
+				small_arms_manufacturing = 19
+			}	
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 11 } #1953
+				small_arms_manufacturing = 21
+			}	
+			AND = {
+				NOT = { first_infantry_heavy_weapons_company = 12 } #1955
+				small_arms_manufacturing = 23
+			}	
+		}			
+	}	
+
+	change = yes
+   
+	infantry_brigade = { 	
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05		
+	}
+	motorized_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	semi_motorized_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	naval_infantry_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	garrison_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	afrika_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	anzac_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	
+	goering_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	grossdeutschland_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+		
+	guard_infantry_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	guard_motorized_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	Gurkha_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	imperial_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_dasreich = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_frundsberg = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_hitlerjugend = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_hohenstaufen = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_infantry_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_lssah = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_motorized_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	
+	ss_totenkopf = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_wiking = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	
+##########################################################	
+	
+	infantry_bat = {  	
+		defensiveness = 0.02 # x1 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.01
+		maximum_speed = -0.05	
+	}
+	motorized_infantry_bat = { 
+		defensiveness = 0.02 # x1 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.01
+		maximum_speed = -0.05	
+	}
+	guard_motorized_infantry_bat = { 
+		defensiveness = 0.02 # x1 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.01
+		maximum_speed = -0.05	
+	}
+	ss_infantry_bat = { 
+		defensiveness = 0.02 # x1 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.01
+		maximum_speed = -0.05	
+	}		
+	ss_motorized_infantry_bat = { 
+		defensiveness = 0.02 # x1 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.01
+		maximum_speed = -0.05	
+	}	
+	
+
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+    # common for all techs.
+	start_year = 1917 # Model 0
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 12
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 2nd Infantry Regiment HQ
+###################################################################################################
+second_infantry_regiment_hq = {
+
+	allow = {
+			
+		OR = {
+			AND = {									
+				NOT = { second_infantry_regiment_hq = 1 }	# 1917
+				fourth_infantry_battalion = 1
+				fifth_infantry_battalion = 1
+				sixth_infantry_battalion = 1
+				second_infantry_artillery_company = 1
+				second_infantry_heavy_weapons_company = 1
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 2 }	# 1935
+				OR = { 	
+					fourth_infantry_battalion = 2
+					fifth_infantry_battalion = 2
+					sixth_infantry_battalion = 2
+				}
+				OR = {
+					second_infantry_artillery_company = 2
+					second_infantry_anti_tank_company = 2
+					second_infantry_heavy_weapons_company = 2
+				}
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 3 }	# 1937
+				OR = { 
+					fourth_infantry_battalion = 3
+					fifth_infantry_battalion = 3
+					sixth_infantry_battalion = 3
+				}
+				OR = {
+					second_infantry_artillery_company = 3
+					second_infantry_anti_tank_company = 3
+					second_infantry_heavy_weapons_company = 3
+				}
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 4 }	# 1939
+				OR = { 
+					fourth_infantry_battalion = 4
+					fifth_infantry_battalion = 4
+					sixth_infantry_battalion = 4
+				}
+				OR = {
+					second_infantry_artillery_company = 4
+					second_infantry_anti_tank_company = 4
+					second_infantry_heavy_weapons_company = 4
+				}
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 5 }	# 1941
+				OR = { 
+					fourth_infantry_battalion = 5
+					fifth_infantry_battalion = 5
+					sixth_infantry_battalion = 5
+				}
+				OR = {
+					second_infantry_artillery_company = 5
+					second_infantry_anti_tank_company = 5
+					second_infantry_heavy_weapons_company = 5
+				}
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 6 }	# 1943
+				OR = { 
+					fourth_infantry_battalion = 6
+					fifth_infantry_battalion = 6
+					sixth_infantry_battalion = 6
+				}
+				OR = {
+					second_infantry_artillery_company = 6
+					second_infantry_anti_tank_company = 6
+					second_infantry_heavy_weapons_company = 6
+				}
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 7 }	# 1945
+				OR = { 
+					fourth_infantry_battalion = 7
+					fifth_infantry_battalion = 7
+					sixth_infantry_battalion = 7
+				}
+				OR = {
+					second_infantry_artillery_company = 7
+					second_infantry_anti_tank_company = 7
+					second_infantry_heavy_weapons_company = 7
+				}
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 8 }	# 1947
+				OR = { 
+					fourth_infantry_battalion = 8
+					fifth_infantry_battalion = 8
+					sixth_infantry_battalion = 8
+				}
+				OR = {
+					second_infantry_artillery_company = 8
+					second_infantry_anti_tank_company = 8
+					second_infantry_heavy_weapons_company = 8
+				}
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 9 }	# 1949
+				OR = { 
+					fourth_infantry_battalion = 9
+					fifth_infantry_battalion = 9
+					sixth_infantry_battalion = 9
+				}
+				OR = {
+					second_infantry_artillery_company = 9
+					second_infantry_anti_tank_company = 9
+					second_infantry_heavy_weapons_company = 9
+				}
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 10 }	# 1951
+				OR = { 
+					fourth_infantry_battalion = 10
+					fifth_infantry_battalion = 10
+					sixth_infantry_battalion = 10
+				}
+				OR = {
+					second_infantry_artillery_company = 10
+					second_infantry_anti_tank_company = 10
+					second_infantry_heavy_weapons_company = 10
+				}
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 11 }	# 1953
+				OR = { 
+					fourth_infantry_battalion = 11
+					fifth_infantry_battalion = 11
+					sixth_infantry_battalion = 11
+				}
+				OR = {
+					second_infantry_artillery_company = 11
+					second_infantry_anti_tank_company = 11
+					second_infantry_heavy_weapons_company = 11
+				}
+			}
+			AND = {
+				NOT = { second_infantry_regiment_hq = 12 }	# 1955
+				OR = { 
+					fourth_infantry_battalion = 12
+					fifth_infantry_battalion = 12
+					sixth_infantry_battalion = 12
+				}
+				OR = {
+					second_infantry_artillery_company = 12
+					second_infantry_anti_tank_company = 12
+					second_infantry_heavy_weapons_company = 12
+				}
+			}
+		}	
+	}	
+	
+	change = no
+
+	infantry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	cavalry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+		
+	motorized_brigade = {   
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	semi_motorized_brigade = {   
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+			
+	guard_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	guard_cavalry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	guard_motorized_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	ss_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_motorized_brigade = {  ###
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	afrika_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	anzac_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	Gurkha_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	imperial_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	naval_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	ss_cavalry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_dasreich = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_frundsberg = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_hitlerjugend = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_hohenstaufen = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_infantry_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_lssah = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_motorized_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	ss_totenkopf = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_wiking = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	colonial_infantry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	garrison_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_garrison_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1918	
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 12
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 4th Infantry Battalion
+###################################################################################################
+fourth_infantry_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { fourth_infantry_battalion = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				rifle_prototype = 1	
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { fourth_infantry_battalion = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}			
+	}	
+	
+	change = yes
+
+	infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	cavalry_brigade = {  
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	semi_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	garrison_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	afrika_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	anzac_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	goering_brigade = { 
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+				
+	guard_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_cavalry_brigade = {  
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	Gurkha_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	imperial_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	naval_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_cavalry_brigade = {  
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_dasreich = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_frundsberg = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hitlerjugend = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hohenstaufen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_lssah = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_motorized_brigade = {
+		default_organisation = -0.25
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_totenkopf = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_wiking = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 5th Infantry Battalion
+###################################################################################################
+fifth_infantry_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { fifth_infantry_battalion = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				rifle_prototype = 1	
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { fifth_infantry_battalion = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}		
+	}	
+	
+	change = yes
+
+	infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	cavalry_brigade = {  
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	semi_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	garrison_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	afrika_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	anzac_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+				
+	guard_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_cavalry_brigade = {  
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	Gurkha_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	imperial_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	naval_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_cavalry_brigade = {  
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_dasreich = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_frundsberg = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hitlerjugend = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hohenstaufen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_lssah = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_totenkopf = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_wiking = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 6th Infantry Battalion
+###################################################################################################
+sixth_infantry_battalion = {
+
+	allow = {
+		
+		OR = { 
+		
+			AND = {
+				NOT = { sixth_infantry_battalion = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				rifle_prototype = 1	
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { sixth_infantry_battalion = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}		
+	}	
+	
+	change = yes
+
+	infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	cavalry_brigade = {  
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	semi_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	garrison_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	afrika_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	anzac_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	guard_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_cavalry_brigade = {  
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	Gurkha_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	imperial_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	naval_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_cavalry_brigade = {  
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_dasreich = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_frundsberg = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hitlerjugend = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_hohenstaufen = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_lssah = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_motorized_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_totenkopf = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_wiking = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 2nd Infantry Artillery Company
+###################################################################################################
+second_infantry_artillery_company = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { second_infantry_artillery_company = 1 } #1917
+				artillery_production_industry = 1
+				world_war_one_warfare = 1
+				infantry_guns = 1	
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 2 } #1935
+				artillery_production_industry = 3
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 3 } #1937
+				artillery_production_industry = 5
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 4 } #1939
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 5 } #1941
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 6 } #1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 7 } #1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 8 } #1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 9 } #1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 10 } #1951
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 11 } #1953
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { second_infantry_artillery_company = 12 } #1955
+				artillery_production_industry = 23
+			}
+		}		
+	}	
+	
+	change = yes
+	
+	infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	motorized_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	semi_motorized_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	afrika_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	anzac_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+			
+	guard_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	guard_motorized_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	Gurkha_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	imperial_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_dasreich = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_frundsberg = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_hitlerjugend = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_hohenstaufen = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_lssah = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_motorized_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+	ss_totenkopf = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	ss_wiking = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+	# common for all techs.
+    start_year = 1917
+	first_offset = 1935
+	additional_offset = 2
+	max_level = 12 # 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 2nd Infantry Anti-Tank Company
+###################################################################################################
+second_infantry_anti_tank_company = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 1 } #1917
+				artillery_production_industry = 1
+				world_war_one_warfare = 1
+				anti_tank_gun = 1 
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 2 } #1935
+				artillery_production_industry = 3
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 3 } #1937
+				artillery_production_industry = 5
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 4 } #1939
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 5 } #1941
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 6 } #1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 7 } #1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 8 } #1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 9 } #1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 10 } #1951
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 11 } #1953
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { second_infantry_anti_tank_company = 12 } #1955
+				artillery_production_industry = 23
+			}
+		}		
+	}	
+	
+	change = yes
+
+   	infantry_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	motorized_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	semi_motorized_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	afrika_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	anzac_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	
+	guard_infantry_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	guard_motorized_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	Gurkha_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	imperial_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_dasreich = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_frundsberg = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_hitlerjugend = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_hohenstaufen = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_infantry_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_lssah = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_motorized_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	
+	ss_totenkopf = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	ss_wiking = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 2nd Infantry Heavy Weapons Company
+###################################################################################################
+second_infantry_heavy_weapons_company = {   #  x3 Companies: 1 per Battalion
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				hmg_prototype = 1
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { second_infantry_heavy_weapons_company = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}			
+	}	
+	
+	change = yes
+
+	infantry_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	motorized_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	semi_motorized_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	afrika_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	anzac_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	naval_infantry_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	
+	garrison_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+			
+	guard_infantry_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	guard_motorized_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	Gurkha_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	imperial_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	
+	ss_dasreich = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_frundsberg = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_hitlerjugend = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_hohenstaufen = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_infantry_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_lssah = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_motorized_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	
+	ss_totenkopf = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	ss_wiking = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 3rd Infantry Regiment HQ
+###################################################################################################
+third_infantry_regiment_hq = {
+
+	allow = {
+		NOT = { italy = 1 }
+		
+		OR = {
+			AND = {									
+				NOT = { third_infantry_regiment_hq = 1 }	# 1917
+				seventh_infantry_battalion = 1
+				eighth_infantry_battalion = 1
+				ninth_infantry_battalion = 1
+				third_infantry_artillery_company = 1
+				third_infantry_heavy_weapons_company = 1
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 2 }	# 1935
+				OR = { 
+					seventh_infantry_battalion = 2
+					eighth_infantry_battalion = 2
+					ninth_infantry_battalion = 2
+				}
+				OR = {
+					third_infantry_artillery_company = 2
+					third_infantry_anti_tank_company = 2
+					third_infantry_heavy_weapons_company = 2
+				}
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 3 }	# 1937
+				OR = { 
+					seventh_infantry_battalion = 3
+					eighth_infantry_battalion = 3
+					ninth_infantry_battalion = 3
+				}
+				OR = {
+					third_infantry_artillery_company = 3
+					third_infantry_anti_tank_company = 3
+					third_infantry_heavy_weapons_company = 3
+				}
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 4 }	# 1939
+				OR = { 
+					seventh_infantry_battalion = 4
+					eighth_infantry_battalion = 4
+					ninth_infantry_battalion = 4
+				}
+				OR = {
+					third_infantry_artillery_company = 4
+					third_infantry_anti_tank_company = 4
+					third_infantry_heavy_weapons_company = 4
+				}
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 5 }	# 1941
+				OR = { 
+					seventh_infantry_battalion = 5
+					eighth_infantry_battalion = 5
+					ninth_infantry_battalion = 5
+				}
+				OR = {
+					third_infantry_artillery_company = 5
+					third_infantry_anti_tank_company = 5
+					third_infantry_heavy_weapons_company = 5
+				}
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 6 }	# 1943
+				OR = { 
+					seventh_infantry_battalion = 6
+					eighth_infantry_battalion = 6
+					ninth_infantry_battalion = 6
+				}
+				OR = {
+					third_infantry_artillery_company = 6
+					third_infantry_anti_tank_company = 6
+					third_infantry_heavy_weapons_company = 6
+				}
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 7 }	# 1945
+				OR = { 
+					seventh_infantry_battalion = 7
+					eighth_infantry_battalion = 7
+					ninth_infantry_battalion = 7
+				}
+				OR = {
+					third_infantry_artillery_company = 7
+					third_infantry_anti_tank_company = 7
+					third_infantry_heavy_weapons_company = 7
+				}
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 8 }	# 1947
+				OR = { 
+					seventh_infantry_battalion = 8
+					eighth_infantry_battalion = 8
+					ninth_infantry_battalion = 8
+				}
+				OR = {
+					third_infantry_artillery_company = 8
+					third_infantry_anti_tank_company = 8
+					third_infantry_heavy_weapons_company = 8
+				}
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 9 }	# 1949
+				OR = { 
+					seventh_infantry_battalion = 9
+					eighth_infantry_battalion = 9
+					ninth_infantry_battalion = 9
+				}
+				OR = {
+					third_infantry_artillery_company = 9
+					third_infantry_anti_tank_company = 9
+					third_infantry_heavy_weapons_company = 9
+				}
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 10 }	# 1951
+				OR = { 
+					seventh_infantry_battalion = 10
+					eighth_infantry_battalion = 10
+					ninth_infantry_battalion = 10
+				}
+				OR = {
+					third_infantry_artillery_company = 10
+					third_infantry_anti_tank_company = 10
+					third_infantry_heavy_weapons_company = 10
+				}
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 11 }	# 1953
+				OR = { 
+					seventh_infantry_battalion = 11
+					eighth_infantry_battalion = 11
+					ninth_infantry_battalion = 11
+				}
+				OR = {
+					third_infantry_artillery_company = 11
+					third_infantry_anti_tank_company = 11
+					third_infantry_heavy_weapons_company = 11
+				}
+			}
+			AND = {
+				NOT = { third_infantry_regiment_hq = 12 }	# 1955
+				OR = { 
+					seventh_infantry_battalion = 12
+					eighth_infantry_battalion = 12
+					ninth_infantry_battalion = 12
+				}
+				OR = {
+					third_infantry_artillery_company = 12
+					third_infantry_anti_tank_company = 12
+					third_infantry_heavy_weapons_company = 12
+				}
+			}
+		}
+	}	
+	
+	change = no
+
+	infantry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.02
+		defensiveness = 0.01
+	}
+	
+	anzac_brigade = {
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.02
+		defensiveness = 0.01
+	}
+	
+	colonial_infantry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.02
+		defensiveness = 0.01
+	}
+	
+	ss_infantry_brigade = {  
+		max_strength = 0.15
+		default_organisation = 1.00
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.02
+		defensiveness = 0.01
+	}
+					
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1918	
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 12
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 7th Infantry Battalion
+###################################################################################################
+seventh_infantry_battalion = {
+
+	allow = {
+		
+		NOT = { italy = 1 }
+		
+		OR = { 
+			
+			AND = {
+				NOT = { seventh_infantry_battalion = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { seventh_infantry_battalion = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}				
+	}	
+	
+	change = yes
+
+	infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	anzac_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+				
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 8th Infantry Battalion
+###################################################################################################
+eighth_infantry_battalion = {
+
+	allow = {
+	
+		NOT = { italy = 1 }
+		
+		OR = { 
+			
+			AND = {
+				NOT = { eighth_infantry_battalion = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { eighth_infantry_battalion = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}	
+	}	
+	
+	change = yes
+
+	infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	anzac_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+			
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 9th Infantry Battalion
+###################################################################################################
+ninth_infantry_battalion = {
+
+	allow = {
+	
+		NOT = { italy = 1 }
+		
+		OR = { 
+			
+			AND = {
+				NOT = { ninth_infantry_battalion = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				rifle_prototype = 1
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { ninth_infantry_battalion = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}			
+	}	
+	
+	change = yes
+
+	infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	anzac_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	colonial_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	ss_infantry_brigade = {
+		default_organisation = -0.15
+		soft_attack = 0.02
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 0.25
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+			
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 3rd Infantry Artillery Company
+###################################################################################################
+third_infantry_artillery_company = {
+
+	allow = {
+		
+		NOT = { italy = 1 }
+		
+		OR = { 
+			
+			AND = {
+				NOT = { third_infantry_artillery_company = 1 } #1917
+				artillery_production_industry = 1
+				world_war_one_warfare = 1
+				infantry_guns = 1
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 2 } #1935
+				artillery_production_industry = 3
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 3 } #1937
+				artillery_production_industry = 5
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 4 } #1939
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 5 } #1941
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 6 } #1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 7 } #1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 8 } #1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 9 } #1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 10 } #1951
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 11 } #1953
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { third_infantry_artillery_company = 12 } #1955
+				artillery_production_industry = 23
+			}
+		}	
+	}	
+	
+	change = yes
+	
+	infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+
+	anzac_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+	
+	ss_infantry_brigade = {
+		defensiveness = 0.50 	# x1 Company
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.03
+		build_time = 1
+		supply_consumption = 0.02
+		maximum_speed = -0.05
+	}
+				
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+	# common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 3rd Infantry Anti-Tank Company
+###################################################################################################
+third_infantry_anti_tank_company = {
+
+	allow = {
+		
+		NOT = { italy = 1 }
+		
+		OR = { 
+			
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 1 } #1917
+				artillery_production_industry = 1
+				world_war_one_warfare = 1
+				anti_tank_gun = 1 
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 2 } #1935
+				artillery_production_industry = 3
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 3 } #1937
+				artillery_production_industry = 5
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 4 } #1939
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 5 } #1941
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 6 } #1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 7 } #1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 8 } #1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 9 } #1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 10 } #1951
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 11 } #1953
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { third_infantry_anti_tank_company = 12 } #1955
+				artillery_production_industry = 23
+			}
+		}	
+	}	
+	
+	change = yes
+
+   	infantry_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	
+	anzac_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+	
+	ss_infantry_brigade = {
+		build_cost_ic = 0.02   # x1 Company
+		hard_attack = 0.15
+		default_organisation = -0.25
+		supply_consumption = 0.02
+		ap_attack = 0.25
+		build_time = 1
+		maximum_speed = -0.05
+	}
+		
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 3rd Infantry Heavy Weapons Company
+###################################################################################################
+third_infantry_heavy_weapons_company = {   #  x3 Companies: 1 per Battalion
+
+	allow = {
+		
+		NOT = { italy = 1 }
+		
+		OR = { 
+			
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 1 } # 1917
+				small_arms_manufacturing = 1
+				world_war_one_warfare = 1
+				hmg_prototype = 1
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 2 } # 1935
+				small_arms_manufacturing = 3
+				
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 3 } # 1937
+				small_arms_manufacturing = 5
+				
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 4 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 5 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 6 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 7 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 8 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 9 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 10 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 11 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { third_infantry_heavy_weapons_company = 12 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+		}			
+	}	
+	
+	change = yes
+
+	infantry_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	
+	anzac_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+	
+	ss_infantry_brigade = {
+		defensiveness = 0.30 # x3 Companies
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+		
+	
+	research_bonus_from = {
+		infantry_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = infantry_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1935 # Model 1
+	additional_offset = 2 # Model 2 
+	max_level = 12 	# 1955
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## Artillery Regiment HQ
+###################################################################################################
+artillery_regiment_hq = {
+
+	allow = {
+		
+		OR = {
+			AND = {
+				NOT = { artillery_regiment_hq = 1 }
+				first_light_artillery_battalion = 1	# 1918
+				second_light_artillery_battalion = 1
+				third_light_artillery_battalion = 1
+				medium_artillery_battalion = 1
+			}
+			AND = {
+				NOT = { artillery_regiment_hq = 2 }
+				first_light_artillery_battalion = 2	# 1936
+				second_light_artillery_battalion = 2
+				third_light_artillery_battalion = 2
+				medium_artillery_battalion = 2
+			}
+			AND = {
+				NOT = { artillery_regiment_hq = 3 }
+				first_light_artillery_battalion = 3	# 1938
+				second_light_artillery_battalion = 3
+				third_light_artillery_battalion = 3
+				medium_artillery_battalion = 3
+			}
+			AND = {
+				NOT = { artillery_regiment_hq = 4 }
+				first_light_artillery_battalion = 4	# 1940
+				second_light_artillery_battalion = 4
+				third_light_artillery_battalion = 4
+				medium_artillery_battalion = 4
+			}
+			AND = {
+				NOT = { artillery_regiment_hq = 5 }
+				first_light_artillery_battalion = 5	# 1942
+				second_light_artillery_battalion = 5
+				third_light_artillery_battalion = 5
+				medium_artillery_battalion = 5
+			}
+			AND = {
+				NOT = { artillery_regiment_hq = 6 }
+				first_light_artillery_battalion = 6	# 1944
+				second_light_artillery_battalion = 6
+				third_light_artillery_battalion = 6
+				medium_artillery_battalion = 6
+			}
+			AND = {
+				NOT = { artillery_regiment_hq = 7 }
+				first_light_artillery_battalion = 7	# 1946
+				second_light_artillery_battalion = 7
+				third_light_artillery_battalion = 7
+				medium_artillery_battalion = 7
+			}
+			AND = {
+				NOT = { artillery_regiment_hq = 8 }
+				first_light_artillery_battalion = 8	# 1948
+				second_light_artillery_battalion = 8
+				third_light_artillery_battalion = 8
+				medium_artillery_battalion = 8
+			}
+			AND = {
+				NOT = { artillery_regiment_hq = 9 }
+				first_light_artillery_battalion = 9	# 1950
+				second_light_artillery_battalion = 9
+				third_light_artillery_battalion = 9
+				medium_artillery_battalion = 9
+			}
+			AND = {
+				NOT = { artillery_regiment_hq = 10 }
+				first_light_artillery_battalion = 10 # 1952
+				second_light_artillery_battalion = 10
+				third_light_artillery_battalion = 10
+				medium_artillery_battalion = 10
+			}
+		}
+		
+	}	
+	
+	change = no
+	
+	activate_unit = artillery_brigade
+		
+	artillery_brigade = {  
+		default_organisation = 1.0
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+		
+	ss_artillery_brigade = {   
+		default_organisation = 1.0
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	
+	pack_artillery_brigade = {    
+		default_organisation = 1.0
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	ss_pack_artillery_brigade = {   
+		default_organisation = 1.0
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	airborne_artillery_brigade = {   
+		default_organisation = 1.0
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		defensiveness = 0.01
+	}
+		
+		
+	
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1918
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 10
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 1st Light Artillery Battalion
+###################################################################################################
+first_light_artillery_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { first_light_artillery_battalion = 1 } 	# 1917
+				artillery_production_industry = 1
+				infantry_guns = 1
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { first_light_artillery_battalion = 2 }	# 1935	
+				artillery_production_industry = 3
+			}
+			AND = {
+				NOT = { first_light_artillery_battalion = 3 }	# 1937
+				artillery_production_industry = 5
+			}
+			AND = {
+				NOT = { first_light_artillery_battalion = 4 }	# 1939
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { first_light_artillery_battalion = 5 }	# 1941
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { first_light_artillery_battalion = 6 }	# 1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { first_light_artillery_battalion = 7 }	# 1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { first_light_artillery_battalion = 8 }	# 1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { first_light_artillery_battalion = 9 }	# 1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { first_light_artillery_battalion = 10 }	# 1951
+				artillery_production_industry = 19
+			}
+		}	
+	}	
+	
+	change = yes
+		
+	artillery_brigade = {		
+		default_organisation = -0.25   # x3 Batteries: 4 guns each
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.15
+		supply_consumption = 0.03
+		maximum_speed = -0.10
+	}
+	pack_artillery_brigade = {
+		default_organisation = -0.25   # x3 Batteries: 4 guns each
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.15
+		supply_consumption = 0.03
+		maximum_speed = -0.10
+	}
+	airborne_artillery_brigade = {
+		default_organisation = -0.25   # x3 Batteries: 4 guns each
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.15
+		supply_consumption = 0.03
+		maximum_speed = -0.10
+	}
+	
+	ss_artillery_brigade = {
+		default_organisation = -0.25   # x3 Batteries: 4 guns each
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.15
+		supply_consumption = 0.03
+		maximum_speed = -0.10
+	}
+		
+	mixed_support_brigade = {
+		default_organisation = -0.25   # x3 Batteries: 4 guns each
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.15
+		supply_consumption = 0.03
+		maximum_speed = -0.10
+	}
+	ss_mixed_support_brigade = {
+		default_organisation = -0.25   # x3 Batteries: 4 guns each
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.15
+		supply_consumption = 0.03
+		maximum_speed = -0.10
+	}
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1936	
+	additional_offset = 2
+	max_level = 10
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 2nd Light Arillery Battalion
+###################################################################################################
+second_light_artillery_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { second_light_artillery_battalion = 1 } 	# 1917
+				artillery_production_industry = 1
+				infantry_guns = 1
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { second_light_artillery_battalion = 2 }	# 1935	
+				artillery_production_industry = 3
+			}
+			AND = {
+				NOT = { second_light_artillery_battalion = 3 }	# 1937
+				artillery_production_industry = 5
+			}
+			AND = {
+				NOT = { second_light_artillery_battalion = 4 }	# 1939
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { second_light_artillery_battalion = 5 }	# 1941
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { second_light_artillery_battalion = 6 }	# 1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { second_light_artillery_battalion = 7 }	# 1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { second_light_artillery_battalion = 8 }	# 1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { second_light_artillery_battalion = 9 }	# 1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { second_light_artillery_battalion = 10 }	# 1951
+				artillery_production_industry = 19
+			}
+		}	
+	}	
+	
+	change = yes
+	
+	artillery_brigade = {
+		default_organisation = -0.25   # x3 Batteries: 4 guns each
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.15
+		supply_consumption = 0.03
+		maximum_speed = -0.10
+	}
+			
+	ss_artillery_brigade = {
+		default_organisation = -0.25   # x3 Batteries: 4 guns each
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.15
+		supply_consumption = 0.03
+		maximum_speed = -0.10
+	}
+		
+			
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1936	
+	additional_offset = 2
+	max_level = 10
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## 3rd Light Arillery Battalion
+###################################################################################################
+third_light_artillery_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { third_light_artillery_battalion = 1 } 	# 1917
+				artillery_production_industry = 1
+				infantry_guns = 1
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { third_light_artillery_battalion = 2 }	# 1935	
+				artillery_production_industry = 3
+			}
+			AND = {
+				NOT = { third_light_artillery_battalion = 3 }	# 1937
+				artillery_production_industry = 5
+			}
+			AND = {
+				NOT = { third_light_artillery_battalion = 4 }	# 1939
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { third_light_artillery_battalion = 5 }	# 1941
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { third_light_artillery_battalion = 6 }	# 1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { third_light_artillery_battalion = 7 }	# 1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { third_light_artillery_battalion = 8 }	# 1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { third_light_artillery_battalion = 9 }	# 1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { third_light_artillery_battalion = 10 }	# 1951
+				artillery_production_industry = 19
+			}
+		}	
+	}	
+	
+	change = yes
+	
+	artillery_brigade = {
+		default_organisation = -0.25   # x3 Batteries: 4 guns each
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.15
+		supply_consumption = 0.03
+		maximum_speed = -0.10
+	}
+			
+	ss_artillery_brigade = {
+		default_organisation = -0.25  # x3 Batteries: 4 guns each
+		build_cost_ic = 0.02
+		build_time = 1
+		soft_attack = 0.15
+		supply_consumption = 0.03
+		maximum_speed = -0.10
+	}
+			
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1936	
+	additional_offset = 2
+	max_level = 10
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## Medium Artillery Battalion
+###################################################################################################
+medium_artillery_battalion = {
+
+	allow = {				
+		
+		OR = { 
+			
+			AND = {
+				NOT = { medium_artillery_battalion = 1 } 	# 1917
+				artillery_production_industry = 1
+				med_field_artillery = 1 
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { medium_artillery_battalion = 2 }	# 1935	
+				artillery_production_industry = 3
+			}
+			AND = {
+				NOT = { medium_artillery_battalion = 3 }	# 1937
+				artillery_production_industry = 5
+			}
+			AND = {
+				NOT = { medium_artillery_battalion = 4 }	# 1939
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { medium_artillery_battalion = 5 }	# 1941
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { medium_artillery_battalion = 6 }	# 1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { medium_artillery_battalion = 7 }	# 1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { medium_artillery_battalion = 8 }	# 1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { medium_artillery_battalion = 9 }	# 1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { medium_artillery_battalion = 10 }	# 1951
+				artillery_production_industry = 19
+			}
+		}	
+	}	
+	
+	change = yes
+	
+	activate_unit = medium_artillery_brigade
+	
+	artillery_brigade = {		
+		default_organisation = -1.00 	# x3 Batteries: 4 guns each
+		build_cost_ic = 0.05
+		build_time = 2
+		soft_attack = 0.25
+		supply_consumption = 0.04
+		maximum_speed = -0.15
+	}
+	
+	medium_artillery_brigade = {		
+		default_organisation = -1.00 	# x3 Batteries: 4 guns each
+		build_cost_ic = 0.05
+		build_time = 2
+		soft_attack = 0.25
+		supply_consumption = 0.04
+		maximum_speed = -0.15
+	}
+		
+	ss_artillery_brigade = {
+		default_organisation = -1.00 	# x3 Batteries: 4 guns each
+		build_cost_ic = 0.05
+		build_time = 2
+		soft_attack = 0.25
+		supply_consumption = 0.04
+		maximum_speed = -0.15
+	}
+	
+	ss_medium_artillery_brigade = {		
+		default_organisation = -1.00 	# x3 Batteries: 4 guns each
+		build_cost_ic = 0.05
+		build_time = 2
+		soft_attack = 0.25
+		supply_consumption = 0.04
+		maximum_speed = -0.15
+	}
+			
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1936	
+	additional_offset = 2
+	max_level = 10
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## Heavy Artillery Battalion
+###################################################################################################
+heavy_artillery_battalion = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { heavy_artillery_battalion = 1 } 	# 1917
+				artillery_production_industry = 1
+				hvy_field_artillery = 1 
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { heavy_artillery_battalion = 2 }	# 1935	
+				artillery_production_industry = 3
+			}
+			AND = {
+				NOT = { heavy_artillery_battalion = 3 }	# 1937
+				artillery_production_industry = 5
+			}
+			AND = {
+				NOT = { heavy_artillery_battalion = 4 }	# 1939
+				artillery_production_industry = 7
+			}
+			AND = {
+				NOT = { heavy_artillery_battalion = 5 }	# 1941
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { heavy_artillery_battalion = 6 }	# 1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { heavy_artillery_battalion = 7 }	# 1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { heavy_artillery_battalion = 8 }	# 1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { heavy_artillery_battalion = 9 }	# 1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { heavy_artillery_battalion = 10 }	# 1951
+				artillery_production_industry = 19
+			}
+		}	
+	}	
+	
+	change = yes
+	
+	activate_unit = heavy_artillery_brigade
+	
+	heavy_artillery_brigade = {		
+		default_organisation = -1.0 	# x3 Batteries: 4 guns each
+		build_cost_ic = 0.25
+		build_time = 3
+		soft_attack = 0.50
+		supply_consumption = 0.05
+		maximum_speed = -0.20
+	}
+	
+	railway_artillery_brigade = {		
+		default_organisation = -1.0 	# Massive Guns!
+		build_cost_ic = 1.00
+		build_time = 10
+		soft_attack = 1.00
+		supply_consumption = 0.07
+		maximum_speed = -0.25
+	}
+	
+		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1917
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 10 # 1944
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## Rocket Artillery Battalion
+###################################################################################################
+rocket_artillery_battalion = {
+
+	allow = {	
+		
+		OR = {
+			
+			AND = {
+				NOT = { rocket_artillery_battalion = 1 }	# 1941
+				artillery_production_industry = 9
+				rocket_artillery = 1 
+				world_war_one_warfare = 1
+			}
+			AND = {
+				NOT = { rocket_artillery_battalion = 2 }	# 1943
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { rocket_artillery_battalion = 3 }	# 1945
+				artillery_production_industry = 13
+			}
+			AND = {
+				NOT = { rocket_artillery_battalion = 4 }	# 1947
+				artillery_production_industry = 15
+			}
+			AND = {
+				NOT = { rocket_artillery_battalion = 5 }	# 1949
+				artillery_production_industry = 17
+			}
+			AND = {
+				NOT = { rocket_artillery_battalion = 6 }	# 1951
+				artillery_production_industry = 19
+			}
+			AND = {
+				NOT = { rocket_artillery_battalion = 7 }	# 1953
+				artillery_production_industry = 21
+			}
+			AND = {
+				NOT = { rocket_artillery_battalion = 8 }	# 1955
+				artillery_production_industry = 23
+			}
+			AND = {
+				NOT = { rocket_artillery_battalion = 9 }	# 1957
+				artillery_production_industry = 25
+			}
+			AND = {
+				NOT = { rocket_artillery_battalion = 10 }	# 1959
+				artillery_production_industry = 27
+			}
+		}	
+	}	
+	
+	change = yes
+	
+	activate_unit = rocket_artillery_brigade
+	
+	
+	rocket_artillery_brigade = {
+		soft_attack = 4.0 	# x3 Batteries: 6 rocket launchers each
+		defensiveness = 4.00
+		build_cost_ic = 0.03
+		build_time = 2
+		default_organisation = -1.0
+		supply_consumption = 0.03
+	}
+	ss_rocket_artillery_brigade = {
+		soft_attack = 4.0 	# x3 Batteries: 6 rocket launchers each
+		defensiveness = 4.00
+		build_cost_ic = 0.03
+		build_time = 2
+		default_organisation = -1.0
+		supply_consumption = 0.03
+	}
+	
+   		
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942
+	additional_offset = 2
+	max_level = 10 # 1943
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## Military Horse Transport
+###################################################################################################
+military_horse_transport = {
+
+	allow = {
+		
+	}	
+	
+	change = yes
+
+   	activate_unit = horse_transport
+	
+	horse_transport = {
+		max_strength = 1.00
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.25
+		build_time = 5
+		
+		plains = {
+			movement = 0.02
+		}
+		arctic = {	
+			movement = 0.02
+		}
+		desert = { 
+			movement = 0.02
+		}
+		woods = { 
+			movement = 0.02
+		}
+		forest = {
+			movement = 0.02
+		}
+		jungle = { 
+			movement = 0.02
+		}
+		hills = { 
+			movement = 0.02
+		}
+		mountain = { 
+			movement = 0.02
+		}
+		urban = {
+			movement = 0.02
+		}
+		marsh = { 
+			movement = 0.02
+		}
+	}
+		
+	infantry_brigade = {
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}
+					
+	cavalry_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}
+	
+	bergsjaeger_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}
+	alpini_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}
+	alpins_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}
+				
+	Recon_cavalry_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}
+		
+	guard_cavalry_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}
+	guard_infantry_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}
+		
+	ss_bergsjaeger_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}	
+	ss_cavalry_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}	
+
+	ss_infantry_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}	
+	
+	ss_Recon_cavalry_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}	
+	
+	anzac_brigade = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}
+			
+	infantry_bat = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}
+		
+	ss_infantry_bat = { 
+		maximum_speed = 0.10
+		transport_weight = 0.25
+		supply_consumption = 0.01
+		build_cost_manpower = 0.025
+		build_cost_ic = 0.03
+		build_time = 2
+	}	
+	
+	
+	research_bonus_from = {
+		mobile_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = mobile_theory
+
+    difficulty = 3
+
+    # common for all techs.
+    start_year = 1918
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 15
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## Light Motorized Transport
+###################################################################################################
+light_motorized_transport = {
+
+	allow = {
+		automotive_construction_industry = 4
+	}	
+	
+	change = yes
+
+   	activate_unit = light_transport
+	
+	activate_unit = motorized_engineer_brigade
+	
+	light_transport = { 
+		max_strength = 1.00
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.50
+		build_time = 10
+		
+		plains = {
+			movement = 0.05
+		}
+		desert = { 
+			movement = 0.05
+		}
+		woods = { 
+			movement = 0.05
+		}
+		forest = {
+			movement = 0.05
+		}
+		jungle = { 
+			movement = 0.05
+		}
+		hills = { 
+			movement = 0.05
+		}
+		mountain = { 
+			movement = 0.05
+		}
+		urban = {
+			movement = 0.05
+		}
+	}
+	
+	infantry_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	semi_motorized_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	motorized_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	mechanized_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+		
+	commando_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+			
+	airlanding_infantry_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+		
+	armored_car_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	
+	motorcycle_recon_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	
+	Recon_cavalry_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+		
+	guard_infantry_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	
+	guard_mechanized_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	
+	guard_motorized_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+		
+	ss_armored_car_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+			
+	ss_commando_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_dasreich = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_frundsberg = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	
+	ss_hitlerjugend = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_hohenstaufen = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_infantry_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_lssah = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	
+	ss_motorcycle_recon_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_motorized_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+		
+	ss_polizei = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_prinz_eugen = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	
+	ss_Recon_cavalry_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_totenkopf = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	ss_wiking = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+				
+	anzac_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	
+	afrika_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	
+	goering_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	grossdeutschland_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	Gurkha_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	imperial_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+			
+	infantry_bat = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	motorized_infantry_bat = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	mechanized_infantry_bat = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	guard_motorized_infantry_bat = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}
+	
+	ss_infantry_bat = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_mechanized_brigade = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_mechanized_infantry_bat = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+	ss_motorized_infantry_bat = { 
+		maximum_speed = 0.15
+		transport_weight = 0.50
+		supply_consumption = 0.02
+		fuel_consumption = 0.05
+		build_cost_manpower = 0.050
+		build_cost_ic = 0.05
+		build_time = 4
+	}	
+
+	research_bonus_from = {
+		artillery_theory = 0.3
+		superior_firepower_theory = 0.1
+	}
+	
+	on_completion = artillery_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 15
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## Military Truck Transport
+###################################################################################################
+military_truck_transport = {
+
+	allow = {
+		automotive_construction_industry = 5
+	}	
+	
+	activate_unit = truck_transport
+	
+	activate_unit = motorized_brigade
+	activate_unit = motorized_infantry_bat
+			
+	change = yes
+
+	truck_transport = { 
+		max_strength = 1.00
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 1.00
+		build_time = 15
+		
+		plains = {
+			movement = 0.07
+		}
+		desert = { 
+			movement = 0.07
+		}
+		hills = { 
+			movement = 0.07
+		}
+		urban = {
+			movement = 0.07
+		}
+	}
+	
+	semi_motorized_brigade = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+	motorized_brigade = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+	
+	guard_motorized_brigade = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+			
+	ss_dasreich = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}	
+	
+	ss_frundsberg = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}	
+	
+	ss_hitlerjugend = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}	
+	ss_hohenstaufen = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}	
+	
+	ss_lssah = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}	
+	
+	ss_motorized_brigade = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}	
+			
+	ss_polizei = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}	
+		
+	ss_totenkopf = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+	ss_wiking = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+				
+	anzac_brigade = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+	afrika_brigade = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+	
+	goering_brigade = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+	grossdeutschland_brigade = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+	Gurkha_brigade = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+
+	motorized_infantry_bat = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+	
+	guard_motorized_infantry_bat = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}
+	
+	ss_motorized_infantry_bat = { 
+		maximum_speed = 0.25
+		transport_weight = 1.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.20
+		build_cost_manpower = 0.100
+		build_cost_ic = 0.15
+		build_time = 6
+	}	
+
+	research_bonus_from = {
+		mobile_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = mobile_theory
+
+    difficulty = 8
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 15
+	stealable = no
+    folder = infantry_organization_folder
+}
+###################################################################################################
+## Military Halftrack Transport
+###################################################################################################
+military_halftrack_transport = {
+
+	allow = {
+		automotive_construction_industry = 4
+	}	
+	
+	change = yes
+	
+	activate_unit = hftrack_transport
+
+	hftrack_transport = { 
+		max_strength = 1.00
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		build_cost_ic = 2.00
+		build_time = 20
+		
+		plains = {
+			movement = 0.10
+		}
+		arctic = {	
+			movement = 0.10
+		}
+		desert = { 
+			movement = 0.10
+		}
+		hills = { 
+			movement = 0.10
+		}
+		mountain = { 
+			movement = 0.10
+		}
+	}
+	
+	mechanized_brigade = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}
+						
+	guard_mechanized_brigade = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}
+			
+	ss_dasreich = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}	
+		
+	ss_frundsberg = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}	
+	
+	ss_hitlerjugend = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}	
+	ss_hohenstaufen = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}	
+	
+	ss_lssah = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}	
+				
+	ss_polizei = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}	
+		
+	ss_totenkopf = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}
+	ss_wiking = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}
+		
+	afrika_brigade = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}
+	
+	goering_brigade = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}
+	grossdeutschland_brigade = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}
+	
+	mechanized_infantry_bat = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}
+	
+	ss_mechanized_brigade = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}	
+	ss_mechanized_infantry_bat = { 
+		maximum_speed = 0.30
+		transport_weight = 1.50
+		supply_consumption = 0.04
+		fuel_consumption = 0.30
+		build_cost_manpower = 0.150
+		soft_attack = 0.50
+		defensiveness = 0.75
+		build_cost_ic = 0.30
+		build_time = 8
+	}	
+	
+	research_bonus_from = {
+		mobile_theory = 0.3
+		infantry_practical = 0.15
+	}
+
+	on_completion = mobile_theory
+
+    difficulty = 10
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 15
+	stealable = no
+    folder = infantry_organization_folder
+}
+############################################################################################
+## MILITARY POLICE
+############################################################################################
+military_police = {
+
+	allow = { 
+	}
+	
+	change = yes
+	
+	activate_unit = police_brigade
+	
+	activate_building = police_station
+	
+    police_brigade = {
+		default_organisation = 1
+		toughness = -0.01
+		soft_attack = 0.05
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 1
+		supply_consumption = 0.01
+		suppression = 0.25
+	}
+	
+    ss_police_brigade = {
+		default_organisation = 1
+		toughness = -0.01
+		soft_attack = 0.05
+		defensiveness = 0.02
+		build_cost_ic = 0.01
+		build_time = 1
+		supply_consumption = 0.01
+		suppression = 0.25
+	}
+	
+    research_bonus_from = {
+        militia_theory = 0.1
+    }
+   
+    on_completion = militia_theory
+
+    difficulty = 2
+
+    # common for all techs.
+    start_year = 1936
+	first_offset = 1938
+	additional_offset = 2
+	max_level = 15
+    folder = infantry_organization_folder
+}
+

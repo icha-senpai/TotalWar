@@ -1,0 +1,5180 @@
+################################################################################
+# Aircraft Systems technologies	
+################################################################################
+################################################################################
+# Light Aircraft Engines
+################################################################################
+v_twelve_aircraft_engine = {
+	
+	allow = {
+		electro_mechanical_engineering = 1
+		radial_and_inline_engine_design = 1
+		OR = { 	
+			AND = { 
+					NOT = { v_twelve_aircraft_engine = 2 } # 1930
+					electro_mechanical_engineering = 4
+				}
+			AND = { 
+					NOT = { v_twelve_aircraft_engine = 3 } # 1933
+					electro_mechanical_engineering = 7
+				}
+			AND = { 
+					NOT = { v_twelve_aircraft_engine = 4 } # 1936
+					electro_mechanical_engineering = 10
+				}	
+			AND = { 
+					NOT = { v_twelve_aircraft_engine = 5 } # 1939
+					air_battles_fought = 25
+					electro_mechanical_engineering = 13
+				}
+			AND = { 
+					NOT = { v_twelve_aircraft_engine = 6 } # 1942
+					air_battles_fought = 300
+					electro_mechanical_engineering = 16
+				}
+			AND = { 
+					NOT = { v_twelve_aircraft_engine = 7 } # 1945
+					air_battles_fought = 600
+					electro_mechanical_engineering = 19
+				}	
+		}
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		default_organisation = -1
+		default_morale = -0.01
+        air_defence = -0.50
+		air_attack = 0.50
+        supply_consumption = 0.15
+		fuel_consumption = 0.10
+        build_cost_ic = 0.50 
+        build_time = 10
+		maximum_speed = 50.0
+		range = 20.00
+		}
+	pursuit_fighter = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.50
+		air_attack = 0.50
+        supply_consumption = 0.15
+		fuel_consumption = 0.10
+        build_cost_ic = 0.50
+        build_time = 10
+		maximum_speed = 35.0
+		range = 50.00
+		}	
+	multi_role = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.50
+		air_attack = 0.50
+        supply_consumption = 0.15
+		fuel_consumption = 0.10
+        build_cost_ic = 0.50
+        build_time = 10
+		maximum_speed = 40.0
+		range = 25.00
+		}
+	fighter_bomber = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.50
+		air_attack = 0.50
+        supply_consumption = 0.15
+		fuel_consumption = 0.10
+        build_cost_ic = 0.50 
+        build_time = 10
+		maximum_speed = 25.0
+		range = 15.00
+		}		
+	cas = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.50
+		air_attack = 0.50
+        supply_consumption = 0.15
+		fuel_consumption = 0.10
+        build_cost_ic = 0.50
+        build_time = 10
+		maximum_speed = 10.0
+		range = 10.00
+		}
+	heavy_cas = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.50
+		air_attack = 0.50
+        supply_consumption = 0.15
+		fuel_consumption = 0.10
+        build_cost_ic = 0.50
+        build_time = 10
+		maximum_speed = 5.0
+		range = 5.00
+		}	
+			
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 12
+
+	start_year = 1926
+	first_offset = 1930 	# Model 2 - 1930
+    additional_offset = 3   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 7
+	folder = aircraft_system_folder
+}
+################################################################################
+# Carrier Aircraft Engines	
+################################################################################
+h_twenty_four_cylinder_aircraft_engine = {
+	
+	allow = {
+		radial_and_inline_engine_design = 1
+		OR = { 	
+			AND = { 
+					NOT = { h_twenty_four_cylinder_aircraft_engine = 1 } # 1936
+					electro_mechanical_engineering = 10
+				}
+			AND = { 
+					NOT = { h_twenty_four_cylinder_aircraft_engine = 2 } # 1939
+					air_battles_fought = 25
+					electro_mechanical_engineering = 13
+				}
+			AND = { 
+					NOT = { h_twenty_four_cylinder_aircraft_engine = 3 } # 1942
+					air_battles_fought = 300
+					electro_mechanical_engineering = 16
+				}
+			AND = { 
+					NOT = { h_twenty_four_cylinder_aircraft_engine = 4 } # 1945
+					air_battles_fought = 600
+					electro_mechanical_engineering = 19
+				}	
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+					
+	naval_fighter = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = 0.50
+		air_attack = 0.25
+        supply_consumption = 0.10
+		fuel_consumption = 0.05
+        build_cost_ic = 0.50 
+        build_time = 10
+		maximum_speed = 25.0
+		range = 50.00
+		}	
+	naval_fighter_bomber = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = 0.50
+		air_attack = 0.25
+        supply_consumption = 0.10
+		fuel_consumption = 0.05
+        build_cost_ic = 0.50 
+        build_time = 10
+		maximum_speed = 20.0
+		range = 40.00
+		}	
+	naval_dive_bomber = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = 0.50
+		air_attack = 0.25
+        supply_consumption = 0.10
+		fuel_consumption = 0.05
+        build_cost_ic = 0.50 
+        build_time = 10
+		maximum_speed = 10.0
+		range = 60.00
+		}	
+	naval_torpedo_plane = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = 0.50
+		air_attack = 0.25
+        supply_consumption = 0.10
+		fuel_consumption = 0.05
+        build_cost_ic = 0.50 
+        build_time = 10
+		maximum_speed = 5.0
+		range = 65.00
+		}	
+	naval_cas = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = 0.50
+		air_attack = 0.25
+        supply_consumption = 0.10
+		fuel_consumption = 0.05
+        build_cost_ic = 0.50 
+        build_time = 10
+		maximum_speed = 20.0
+		range = 40.00
+		}		
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 12
+
+	start_year = 1936
+	first_offset = 1939 	# Model 2 - 1930
+    additional_offset = 3   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 4
+	folder = aircraft_system_folder
+}
+################################################################################
+# Medium Aircraft Engines
+################################################################################
+eighteen_cylinder_radial_aircraft_engine = {
+	
+	allow = {
+		radial_and_inline_engine_design = 1
+		OR = { 	
+			AND = { 
+					NOT = { eighteen_cylinder_radial_aircraft_engine = 1 } # 1932
+					electro_mechanical_engineering = 6
+				}
+			AND = { 
+					NOT = { eighteen_cylinder_radial_aircraft_engine = 2 } # 1935
+					electro_mechanical_engineering = 9
+				}
+			AND = { 
+					NOT = { eighteen_cylinder_radial_aircraft_engine = 3 } # 1938
+					electro_mechanical_engineering = 12
+				}
+			AND = { 
+					NOT = { eighteen_cylinder_radial_aircraft_engine = 4 } # 1941
+					air_battles_fought = 300
+					electro_mechanical_engineering = 15
+				}
+			AND = { 
+					NOT = { eighteen_cylinder_radial_aircraft_engine = 5 } # 1944
+					air_battles_fought = 600
+					electro_mechanical_engineering = 18
+				}	
+			AND = { 
+					NOT = { eighteen_cylinder_radial_aircraft_engine = 6 } # 1947
+					air_battles_fought = 900
+					electro_mechanical_engineering = 21
+				}		
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+				
+	twin_engine_fighters = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.35
+		air_attack = 0.15
+        supply_consumption = 0.30
+		fuel_consumption = 0.30
+        build_cost_ic = 1.00
+        build_time = 7
+		maximum_speed = 40.0
+		range = 100.00
+		}
+	night_fighter = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.35
+		air_attack = 0.15
+        supply_consumption = 0.30
+		fuel_consumption = 0.30
+        build_cost_ic = 1.00
+        build_time = 10
+		maximum_speed = 25.0
+		range = 50.00
+		}	
+	light_bomber = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.35
+		air_attack = 0.15
+        supply_consumption = 0.30
+		fuel_consumption = 0.30
+        build_cost_ic = 1.00
+        build_time = 12
+		maximum_speed = 25.0
+		range = 150.00
+		}
+	tactical_bomber = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.35
+		air_attack = 0.15
+        supply_consumption = 0.30
+		fuel_consumption = 0.30
+        build_cost_ic = 1.00
+        build_time = 15
+		maximum_speed = 15.0
+		range = 200.00
+		}
+	Flying_boat = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.35
+		air_attack = 0.15
+        supply_consumption = 0.30
+		fuel_consumption = 0.30
+        build_cost_ic = 1.00
+        build_time = 12
+		maximum_speed = 10.0
+		range = 350.00
+		}
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.8
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 12
+
+	start_year = 1932
+	first_offset = 1935 	# Model 2 - 1941
+    additional_offset = 3   # Model 3 - 1943
+	max_level = 6
+	folder = aircraft_system_folder
+}
+################################################################################
+# Heavy Aircraft Engines	
+################################################################################
+fourteen_cylinder_radial_aircraft_engine = {
+	
+	allow = {
+		radial_and_inline_engine_design = 1
+		OR = { 	
+			AND = { 
+					NOT = { fourteen_cylinder_radial_aircraft_engine = 1 } # 1932
+					electro_mechanical_engineering = 6
+				}
+			AND = { 
+					NOT = { fourteen_cylinder_radial_aircraft_engine = 2 } # 1935
+					electro_mechanical_engineering = 9
+				}
+			AND = { 
+					NOT = { fourteen_cylinder_radial_aircraft_engine = 3 } # 1938
+					electro_mechanical_engineering = 12
+				}
+			AND = { 
+					NOT = { fourteen_cylinder_radial_aircraft_engine = 4 } # 1941
+					air_battles_fought = 300
+					electro_mechanical_engineering = 15
+				}
+			AND = { 
+					NOT = { fourteen_cylinder_radial_aircraft_engine = 5 } # 1944
+					air_battles_fought = 600
+					electro_mechanical_engineering = 18
+				}	
+			AND = { 
+					NOT = { fourteen_cylinder_radial_aircraft_engine = 6 } # 1947
+					air_battles_fought = 900
+					electro_mechanical_engineering = 21
+				}	
+			AND = { 
+					NOT = { fourteen_cylinder_radial_aircraft_engine = 7 } # 1950
+					air_battles_fought = 1200
+					electro_mechanical_engineering = 24
+				}	
+		}
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+					
+	naval_bomber = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.75
+        supply_consumption = 0.60
+		fuel_consumption = 0.60
+        build_cost_ic = 2.00
+        build_time = 10
+		maximum_speed = 35.0
+		range = 300.00
+		}
+	strategic_bomber = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.75
+        supply_consumption = 0.60
+		fuel_consumption = 0.60
+        build_cost_ic = 2.00
+        build_time = 10
+		maximum_speed = 20.0
+		range = 250.00
+		}
+	heavy_bomber = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.75
+        supply_consumption = 0.60
+		fuel_consumption = 0.60
+        build_cost_ic = 2.00
+        build_time = 10
+		maximum_speed = 15.0
+		range = 300.00
+		}
+	super_heavy_bomber = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.75
+        supply_consumption = 0.60
+		fuel_consumption = 0.60
+        build_cost_ic = 2.00
+        build_time = 10
+		maximum_speed = 20.0
+		range = 350.00
+		}	
+	
+	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.8
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 12
+
+	start_year = 1932
+	first_offset = 1935 	# Model 2 - 1943
+    additional_offset = 3   # Model 3 - 1945
+	max_level = 7
+	folder = aircraft_system_folder
+}
+################################################################################
+# Transport Aircraft Engines	
+################################################################################
+nine_cylinder_radial_aircraft_engine = {
+	
+	allow = {
+		radial_and_inline_engine_design = 1
+		OR = { 	
+			AND = { 
+					NOT = { nine_cylinder_radial_aircraft_engine = 2 } # 1931
+					electro_mechanical_engineering = 5
+				}
+			AND = { 
+					NOT = { nine_cylinder_radial_aircraft_engine = 3 } # 1936
+					electro_mechanical_engineering = 10
+				}
+			AND = { 
+					NOT = { nine_cylinder_radial_aircraft_engine = 4 } # 1941
+					electro_mechanical_engineering = 15
+				}
+			AND = { 
+					NOT = { nine_cylinder_radial_aircraft_engine = 5 } # 1946
+					electro_mechanical_engineering = 20
+				}	
+			AND = { 
+					NOT = { nine_cylinder_radial_aircraft_engine = 6 } # 1951
+					electro_mechanical_engineering = 25
+				}		
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	transport_plane = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.50
+        supply_consumption = 0.30
+		fuel_consumption = 0.30
+        build_cost_ic = 1.00
+        build_time = 10
+		maximum_speed = 15.0
+		range = 300.00
+		}	
+		
+	quad_engine_transport = { 	
+		default_organisation = -1
+		default_morale = -0.01
+		air_defence = -0.50
+        supply_consumption = 0.60
+		fuel_consumption = 0.60
+        build_cost_ic = 2.00
+        build_time = 10
+		maximum_speed = 10.0
+		range = 350.00
+		}	
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 10
+
+	start_year = 1909
+	first_offset = 1931 	# Model 2 - 1926
+    additional_offset = 5   # 
+	max_level = 6
+	folder = aircraft_system_folder
+}
+################################################################################
+# Cable Flight Control System
+################################################################################
+cable_flight_control_system = {
+	
+	allow = {
+		electro_mechanical_engineering = 4
+		mono_wing_design = 1
+		wwi_biplane_designs = 1
+		duralumin = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	interceptor = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	multi_role = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	fighter_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}		
+	cas = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	heavy_cas = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	naval_dive_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	naval_cas = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	night_fighter = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	light_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	tactical_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	transport_plane = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	Flying_boat = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+#######################################			
+	naval_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	strategic_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	heavy_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	super_heavy_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	quad_engine_transport = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+#######################################		
+	rocket_interceptor = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	rocket_interceptor_van = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	jet_flying_wing = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}
+	peoples_fighter = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	jet_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}	
+	amerika_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		supply_consumption = 0.05
+		build_cost_ic = 0.01
+		build_time = 1
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+
+	start_year = 1930
+	first_offset = 1936 	# Model 2 - 1930
+    additional_offset = 4   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 7
+	folder = aircraft_system_folder
+}
+################################################################################
+# Hydraulics System
+################################################################################
+hydraulics_system = {
+	
+	allow = {
+		electro_mechanical_engineering = 6
+		mono_wing_design = 1
+		wwi_biplane_designs = 1
+		duralumin = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	pursuit_fighter = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	multi_role = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	fighter_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}		
+	cas = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	heavy_cas = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	naval_dive_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	naval_cas = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	night_fighter = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	light_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	tactical_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	transport_plane = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	Flying_boat = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+#######################################			
+	naval_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	strategic_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	heavy_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	super_heavy_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	quad_engine_transport = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+#######################################		
+	rocket_interceptor = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	rocket_interceptor_van = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	jet_flying_wing = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}
+	peoples_fighter = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	jet_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	amerika_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	advanced_jet_cas = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	tactical_transport_aircraft = { 	
+		air_attack = -0.25
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.02
+		build_time = 1
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+
+	start_year = 1932
+	first_offset = 1937 	# Model 2 - 1930
+    additional_offset = 4   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 5
+	folder = aircraft_system_folder
+}
+################################################################################
+# Automatic Leading Edge Slots
+################################################################################
+automatic_leading_edge_slots = {
+	
+	allow = {
+		electro_mechanical_engineering = 10
+		OR = { 
+			AND = {
+				germany =1 
+				light_aircraft_wing_design = 4			
+			}
+			AND ={ 
+				NOT = { germany = 1 }
+				light_aircraft_wing_design = 6	
+				air_battles_fought = 50
+			}	
+		}		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		build_cost_ic = 0.05
+		air_attack = 1.00
+		air_defence = 1.00
+		default_morale = -0.01
+		}
+	
+#######################################	
+	
+	twin_engine_fighters = { 
+		build_cost_ic = 0.05
+		air_attack = 1.00
+		air_defence = 1.00
+		default_morale = -0.01
+		}
+	
+	advanced_jet_fighter = { 
+		build_cost_ic = 0.05	
+		air_attack = 1.00
+		air_defence = 1.00
+		default_morale = -0.01
+		}	
+	advanced_jet_cas = { 	
+		build_cost_ic = 0.05
+		air_attack = 1.00
+		air_defence = 1.00
+		default_morale = -0.01
+		}	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+
+	start_year = 1936
+	first_offset = 1940 	# Model 2 - 1930
+    additional_offset = 4   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 8
+	folder = aircraft_system_folder
+}
+################################################################################
+# Mechanical Pitch Regulator
+################################################################################
+hydraulic_pitch_regulator = {
+	
+	allow = {
+		electro_mechanical_engineering = 17
+		hydraulics_system = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	interceptor = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	pursuit_fighter = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	multi_role = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	fighter_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}		
+	cas = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	heavy_cas = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+#######################################			
+	naval_fighter = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	naval_fighter_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	naval_dive_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	naval_torpedo_plane = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	naval_cas = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	night_fighter = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	light_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	tactical_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	transport_plane = { 
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	Flying_boat = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+#######################################			
+	naval_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	strategic_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	heavy_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	super_heavy_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	quad_engine_transport = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+#######################################		
+	rocket_interceptor = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	rocket_interceptor_van = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	jet_flying_wing = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}
+	peoples_fighter = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	jet_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	amerika_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	advanced_jet_cas = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	advanced_jet_bomber = { 
+		build_cost_ic = 0.01	
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	advanced_jet_heavy_bomber = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	tactical_transport_aircraft = { 	
+		build_cost_ic = 0.01
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = -0.15
+		air_defence = -0.15
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+
+	start_year = 1936
+	folder = aircraft_system_folder
+}
+################################################################################
+# Electrical Pitch Regulator
+################################################################################
+electrical_pitch_regulator = {
+	
+	allow = {
+		electro_mechanical_engineering = 17
+		hydraulic_pitch_regulator = 1
+		electronics_engineering = 5
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	multi_role = { 	
+		build_cost_ic = 0.02
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = 0.15
+		air_defence = 0.15
+		}
+	
+	advanced_jet_fighter = { 	
+		build_cost_ic = 0.02
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = 0.15
+		air_defence = 0.15
+		}	
+	advanced_jet_cas = { 	
+		build_cost_ic = 0.02
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = 0.15
+		air_defence = 0.15
+		}	
+	advanced_jet_bomber = { 
+		build_cost_ic = 0.02
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = 0.15
+		air_defence = 0.15
+		}	
+	advanced_jet_heavy_bomber = { 	
+		build_cost_ic = 0.02
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = 0.15
+		air_defence = 0.15
+		}	
+	tactical_transport_aircraft = { 	
+		build_cost_ic = 0.02
+		maximum_speed = 5.00
+		range = 5.00
+        air_attack = 0.15
+		air_defence = 0.15
+		}	
+	
+	research_bonus_from = {
+		electornicegineering_theory = 0.3
+		electornicegineering_practical = 0.3
+		aeronautic_engineering = 0.8
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+
+	start_year = 1941
+	folder = aircraft_system_folder
+}
+################################################################################
+# Ammo Counter
+################################################################################
+ammo_counter = {
+	
+	allow = {
+		electro_mechanical_engineering = 12
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	interceptor = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+	multi_role = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}
+	fighter_bomber = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}		
+	cas = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}
+	heavy_cas = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+	naval_dive_bomber = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+	naval_cas = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}
+	night_fighter = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+	
+#######################################		
+	
+	rocket_interceptor = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+	jet_flying_wing = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}
+	peoples_fighter = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.10
+		default_organisation = 1
+		}	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+
+	start_year = 1938
+	folder = aircraft_system_folder
+}
+################################################################################
+# Pushrod and Bearing Flight Control System
+################################################################################
+pushrod_and_bearing_flight_control_system = {
+	
+	allow = {
+		electro_mechanical_engineering = 17
+		cable_flight_control_system = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	multi_role = { 	
+		air_attack = 0.50
+		air_defence = 0.25
+		supply_consumption = -0.15
+		build_cost_ic = 0.02
+		build_time = 5
+		}
+	
+
+	advanced_jet_fighter = { 	
+		air_attack = 0.50
+		air_defence = 0.25
+		supply_consumption = -0.15
+		build_cost_ic = 0.02
+		build_time = 5
+		}	
+	advanced_jet_cas = { 	
+		air_defence = 0.25
+		supply_consumption = -0.15
+		build_cost_ic = 0.02
+		build_time = 5
+		}	
+	advanced_jet_bomber = { 	
+		air_defence = 0.25
+		supply_consumption = -0.15
+		build_cost_ic = 0.02
+		build_time = 5
+		}	
+	advanced_jet_heavy_bomber = { 
+		air_defence = 0.25
+		supply_consumption = -0.15
+		build_cost_ic = 0.02
+		build_time = 5
+		}	
+	tactical_transport_aircraft = { 	
+		air_defence = 0.25
+		supply_consumption = -0.15
+		build_cost_ic = 0.02
+		build_time = 5
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.8
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+
+	start_year = 1941
+	first_offset = 1943
+	additional_offset = 3
+	max_level = 6
+	folder = aircraft_system_folder
+}
+################################################################################
+# Electrical Motors Systems
+################################################################################
+electrical_motor_systems = {
+	
+	allow = {
+		electro_mechanical_engineering = 16
+		electronics_engineering = 6
+		hydraulics_system = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	interceptor = { 	
+		 air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	pursuit_fighter = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	multi_role = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	fighter_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}		
+	cas = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	heavy_cas = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	naval_fighter_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	naval_dive_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	naval_torpedo_plane = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	naval_cas = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	night_fighter = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	light_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	tactical_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	transport_plane = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	Flying_boat = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+#######################################			
+	naval_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	strategic_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	heavy_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	super_heavy_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	quad_engine_transport = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+#######################################		
+	rocket_interceptor = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	rocket_interceptor_van = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	jet_flying_wing = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}
+	peoples_fighter = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	jet_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	amerika_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	advanced_jet_cas = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	advanced_jet_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	tactical_transport_aircraft = { 	
+		air_defence = 1.00
+		surface_defence = 0.50
+		supply_consumption = 0.20
+		build_cost_ic = 0.05
+		build_time = 2
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+
+	start_year = 1942
+	first_offset = 1944 	# Model 2 - 1930
+    additional_offset = 3   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 7
+	folder = aircraft_system_folder
+}
+################################################################################
+# Narrow Track Landing Gear
+################################################################################
+narrow_track_landing_gear = {
+	
+	allow = {
+		electro_mechanical_engineering = 11
+		retractable_landing_gear = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	interceptor = { 	
+		default_organisation = -7
+		default_morale = 0.07
+		}
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+
+	start_year = 1937
+	folder = aircraft_system_folder
+}
+################################################################################
+# Wide Track Landing Gear
+################################################################################
+wide_track_landing_gear = {
+	
+	allow = {
+		electro_mechanical_engineering = 11
+		retractable_landing_gear = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	multi_role = { 	
+		default_organisation = 5
+		default_morale = -0.05
+		}				
+	pursuit_fighter = { 	
+		default_organisation = 5
+		default_morale = -0.05
+		}	
+	fighter_bomber = { 	
+		default_organisation = 5
+		default_morale = -0.05
+		}		
+	cas = { 	
+		default_organisation = 5
+		default_morale = -0.05
+		}
+	heavy_cas = { 	
+		default_organisation = 5
+		default_morale = -0.05
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+
+	start_year = 1936
+	folder = aircraft_system_folder
+}
+################################################################################
+# Variable Pitch Propeller
+################################################################################
+variable_pitch_propeller = {
+	
+	allow = {
+		electro_mechanical_engineering = 8
+		hydraulics_system = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+	pursuit_fighter = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}	
+	multi_role = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+	fighter_bomber = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}		
+	cas = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+	heavy_cas = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}	
+#######################################			
+	naval_fighter = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}	
+	naval_fighter_bomber = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}	
+	naval_dive_bomber = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}	
+	naval_torpedo_plane = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}	
+	naval_cas = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+	night_fighter = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}	
+	light_bomber = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+	tactical_bomber = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+	transport_plane = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}	
+	Flying_boat = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+#######################################			
+	naval_bomber = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+	strategic_bomber = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+	heavy_bomber = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+	super_heavy_bomber = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}	
+	quad_engine_transport = { 	
+		maximum_speed = 15.00
+		range = 10.0
+		air_attack = 0.10
+		build_cost_ic = 0.03
+		build_time = 2
+		}
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+
+	start_year = 1934
+	first_offset = 1937 	# Model 2 - 1937
+    additional_offset = 3   # Model 3 thru 5 - 1937 thru 1945
+	max_level = 5
+	folder = aircraft_system_folder
+}
+################################################################################
+# Gun Sight
+################################################################################
+gun_sight = {
+	
+	allow = {
+		electro_mechanical_engineering = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = 0.50
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.50
+		}	
+	multi_role = { 	
+		air_attack = 0.50
+		}
+	fighter_bomber = { 	
+		air_attack = 0.50
+		}		
+	cas = { 	
+		air_attack = 0.50
+		}
+	heavy_cas = { 	
+		air_attack = 0.50
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_attack = 0.50
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.50
+		}	
+	naval_dive_bomber = { 	
+		air_attack = 0.50
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = 0.50
+		}	
+	naval_cas = { 	
+		air_attack = 0.50
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = 0.50
+		}
+	night_fighter = { 	
+		air_attack = 0.50
+		}	
+	light_bomber = { 	
+		air_attack = 0.50
+		}
+	tactical_bomber = { 	
+		air_attack = 0.50
+		}
+	transport_plane = { 	
+		air_attack = 0.50
+		}	
+	Flying_boat = { 	
+		air_attack = 0.50
+		}
+#######################################			
+	naval_bomber = { 	
+		air_attack = 0.50
+		}
+	strategic_bomber = { 	
+		air_attack = 0.50
+		}
+	heavy_bomber = { 	
+		air_attack = 0.50
+		}
+	super_heavy_bomber = { 	
+		air_attack = 0.50
+		}	
+	quad_engine_transport = { 	
+		air_attack = 0.50
+		}
+#######################################		
+	rocket_interceptor = { 	
+		air_attack = 0.50
+		}
+	rocket_interceptor_van = { 	
+		air_attack = 0.50
+		}	
+	jet_flying_wing = { 	
+		air_attack = 0.50
+		}
+	peoples_fighter = { 	
+		air_attack = 0.50
+		}	
+	jet_bomber = { 	
+		air_attack = 0.50
+		}	
+	amerika_bomber = { 	
+		air_attack = 0.50
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 0.50
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.50
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.50
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = 0.50
+		}	
+	tactical_transport_aircraft = { 	
+		air_attack = 0.50
+		}	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+
+	start_year = 1933
+	first_offset = 1939 	# Model 2 - 1930
+    additional_offset = 3   # Model 3 thru 6 - 1933 thru 1945
+	max_level = 4
+	folder = aircraft_system_folder
+}
+################################################################################
+# Pressurized Cockpit
+################################################################################
+pressurized_cockpit = {
+	
+	allow = {
+		electro_mechanical_engineering = 17
+		interceptor_focus = 11
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_defence = 3.00
+		build_cost_ic = 1.00
+		build_time = 15
+		}	
+	
+	rocket_interceptor = { 	
+		air_defence = 3.00
+		build_cost_ic = 1.00
+		build_time = 15
+		}
+	jet_flying_wing = { 	
+		air_defence = 3.00
+		build_cost_ic = 1.00
+		build_time = 15
+		}
+	peoples_fighter = { 	
+		air_defence = 3.00
+		build_cost_ic = 1.00
+		build_time = 15
+		}	
+	jet_bomber = { 	
+		air_defence = 3.00
+		build_cost_ic = 1.00
+		build_time = 15
+		}	
+			
+#######################################	
+	advanced_jet_fighter = { 	
+		air_defence = 3.00
+		build_cost_ic = 1.00
+		build_time = 15
+		}	
+	advanced_jet_cas = { 	
+		air_defence = 3.00
+		build_cost_ic = 1.00
+		build_time = 15
+		}	
+	advanced_jet_bomber = { 	
+		air_defence = 3.00
+		build_cost_ic = 1.00
+		build_time = 15
+		}	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+
+	start_year = 1944
+	first_offset = 1947 	# Model 2 - 1947
+    additional_offset = 3   # Model 3 thru 7 - 1947 thru 1962
+	max_level = 7
+	folder = aircraft_system_folder
+}
+################################################################################
+# Nitrous Oxide
+################################################################################
+nitrous_oxide = {
+	
+	allow = {
+		electro_mechanical_engineering = 20
+		interceptor_focus = 8
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	interceptor = { 	
+		air_attack = 0.50
+		air_defence = 0.50
+		build_cost_ic = 0.15
+		build_time = 3
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.50
+		air_defence = 0.50
+		build_cost_ic = 0.15
+		build_time = 3
+		}	
+	multi_role = { 	
+		air_attack = 0.50
+		air_defence = 0.50
+		build_cost_ic = 0.15
+		build_time = 3
+		}
+	fighter_bomber = { 	
+		air_attack = 0.50
+		air_defence = 0.50
+		build_cost_ic = 0.15
+		build_time = 3
+		}		
+	cas = { 	
+		air_attack = 0.50
+		air_defence = 0.50
+		build_cost_ic = 0.15
+		build_time = 3
+		}
+	heavy_cas = { 	
+		air_attack = 0.50
+		air_defence = 0.50
+		build_cost_ic = 0.15
+		build_time = 3
+		}	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+
+	start_year = 1942
+	first_offset = 1943 	# Model 2 - 1943
+    additional_offset = 1   # Model 3 thru 6 - 1943 thru 1945
+	max_level = 4
+	folder = aircraft_system_folder
+}
+################################################################################
+# Bombing Sight
+################################################################################
+bombing_sight = {
+	
+	allow = {
+		wwi_biplane_designs = 1
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	naval_bomber = { 	
+		strategic_attack = 0.25
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	strategic_bomber = { 	
+		strategic_attack = 0.25
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	heavy_bomber = { 	
+		strategic_attack = 0.25
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	super_heavy_bomber = { 	
+		strategic_attack = 0.25
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 10
+
+	start_year = 1916
+	first_offset = 1936 	# 2nd model is from 1936
+    additional_offset = 4   # one new every 4 years
+	max_level = 5
+	folder = aircraft_system_folder
+}
+################################################################################
+# Automatic Dive Brakes
+################################################################################
+dive_brakes = {
+	
+	allow = {
+		electro_mechanical_engineering = 10
+		OR = { 
+			AND = { 
+				germany = 1
+				close_air_support_focus = 4
+			}
+			AND = { 
+				NOT = { germany = 1 }
+				air_battles_fought = 50
+				close_air_support_focus = 6
+			}
+		}
+		
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	cas = { 	
+		soft_attack = 1.50
+		hard_attack = 3.00
+		build_cost_ic = 0.05
+		build_time = 1
+		}
+	light_bomber = { 	
+		soft_attack = 1.50
+		hard_attack = 3.00
+		build_cost_ic = 0.05
+		build_time = 1
+		}	
+	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+
+	start_year = 1936
+	folder = aircraft_system_folder
+}
+################################################################################
+# Acrylic Bubble Cockpit
+################################################################################
+acrylic_bubble_cockpit = {
+	
+	allow = {
+		electro_mechanical_engineering = 14
+		fully_enclosed_cockpit = 1
+		plexiglass = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	multi_role = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	
+	interceptor = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	pursuit_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	fighter_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}		
+		
+#######################################			
+		
+	naval_fighter_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+		
+	naval_cas = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}		
+
+#######################################		
+	rocket_interceptor = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+		
+	jet_flying_wing = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	peoples_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	jet_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.35
+		air_defence = 0.35
+		surface_detection = 0.50
+		air_detection = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+		
+				
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+
+	start_year = 1941
+	first_offset = 1944 	# 2nd model is from 1936
+    additional_offset = 3   # one new every 4 years
+	max_level = 10
+	folder = aircraft_system_folder
+}
+################################################################################
+# Self Sealing Fuel Tanks
+################################################################################
+self_sealing_fuel_tanks = {
+	
+	allow = {
+		electro_mechanical_engineering = 12
+		wwi_biplane_designs = 1
+		duralumin = 1
+		mono_wing_design = 1
+		NOT = { extremely_lightweight_airframe_design = 1 }
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	pursuit_fighter = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	multi_role = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	fighter_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}		
+	cas = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	heavy_cas = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+#######################################			
+	naval_fighter = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	naval_dive_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	naval_cas = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	night_fighter = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	light_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	tactical_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	transport_plane = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	Flying_boat = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+#######################################			
+	naval_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	strategic_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	heavy_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	super_heavy_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	quad_engine_transport = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+#######################################		
+	rocket_interceptor = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	rocket_interceptor_van = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	jet_flying_wing = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+	peoples_fighter = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	jet_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	amerika_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	advanced_jet_cas = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	tactical_transport_aircraft = { 	
+		air_attack = -0.50
+		air_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+
+	start_year = 1938
+	first_offset = 1940 	# 2nd model is from 1936
+    additional_offset = 3   # one new every 4 years
+	max_level = 5
+	folder = aircraft_system_folder
+}
+################################################################################
+# Drop Tanks
+################################################################################
+drop_tanks = {
+	
+	allow = {
+		electro_mechanical_engineering = 10
+		OR = {
+			light_aircraft_production_model = 3
+			naval_aircraft_model = 3
+			twin_engine_aircraft_model = 3
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+	pursuit_fighter = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}	
+	multi_role = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+	fighter_bomber = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}		
+	cas = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+	heavy_cas = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}	
+#######################################			
+	naval_fighter = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}	
+	naval_fighter_bomber = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}	
+	naval_dive_bomber = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}	
+	naval_torpedo_plane = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}	
+	naval_cas = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+	night_fighter = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}	
+	light_bomber = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+	tactical_bomber = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+	transport_plane = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}	
+	Flying_boat = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+#######################################			
+	naval_bomber = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+	strategic_bomber = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+	heavy_bomber = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+	super_heavy_bomber = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}	
+	quad_engine_transport = { 	
+		range = 50.00
+		air_attack = -0.50
+		air_defence = -0.50
+		maximum_speed = -10.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+
+	start_year = 1940
+	first_offset = 1941 	# 2nd model is from 1938
+    additional_offset = 1   # one new every 4 years
+	max_level = 10
+	folder = aircraft_system_folder
+}
+################################################################################
+# SuperCharger
+################################################################################
+supercharger = {
+	
+	allow = {
+		electro_mechanical_engineering = 8 
+		radial_and_inline_engine_design = 1	
+		air_battles_fought = 50
+		OR = { 
+			AND = { 
+					NOT = { supercharger = 1 } # 1934
+					OR = {
+					interceptor_focus = 1
+					pursuit_fighter_focus = 1
+					}
+				}
+			AND = { 
+					NOT = { supercharger = 2 } # 1938
+					OR = { 
+						interceptor_focus = 5
+						twin_engine_fighter_focus = 1
+						strategic_bomber_focus = 4
+						heavy_bomber_focus = 4
+						}
+				}
+			AND = { 
+					NOT = { supercharger = 3 } # 1942
+					OR = { 
+						interceptor_focus = 9
+						twin_engine_fighter_focus = 7
+						strategic_bomber_focus = 8
+						heavy_bomber_focus = 8
+						}
+				}	
+			AND = { 
+					NOT = { supercharger = 4 } # 1946
+					OR = { 
+						interceptor_focus = 13
+						twin_engine_fighter_focus = 11
+						strategic_bomber_focus = 12
+						heavy_bomber_focus = 12
+						heavy_transport_focus = 12
+						super_heavy_bomber_focus = 2
+						}
+				}			
+		}
+		AND = { 
+			v_twelve_aircraft_engine = 1
+			nine_cylinder_radial_aircraft_engine = 1
+			eighteen_cylinder_radial_aircraft_engine = 1
+			fourteen_cylinder_radial_aircraft_engine = 1
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	interceptor = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+	pursuit_fighter = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}	
+		
+#######################################		
+	twin_engine_fighters = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.20
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+			
+#######################################			
+	
+	strategic_bomber = { 	
+		default_morale = -0.03
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.40
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+	heavy_bomber = { 	
+		default_morale = -0.03
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.40
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+	super_heavy_bomber = { 	
+		default_morale = -0.03
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.40
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}	
+	quad_engine_transport = { 	
+		default_morale = -0.03
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.40
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 8
+
+	start_year = 1934
+	first_offset = 1938 	# 2nd model is from 1938
+    additional_offset = 4   # one new every 4 years
+	max_level = 4
+	folder = aircraft_system_folder
+}
+################################################################################
+# Fuel Injection
+################################################################################
+fuel_injection = {
+	
+	allow = {
+		electro_mechanical_engineering = 12
+		radial_and_inline_engine_design = 1
+		wwi_biplane_designs = 1
+		duralumin = 1
+		mono_wing_design = 1
+		OR = { 
+			AND = {
+				germany = 1
+				v_twelve_aircraft_engine = 3
+			}
+			AND = {
+				NOT = { germany = 1 }
+				v_twelve_aircraft_engine = 5
+				electro_mechanical_engineering = 15
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	interceptor = { 	
+		air_attack = 0.25
+		air_defence = 2.00
+		build_cost_ic = 0.10
+		build_time = 3
+		}
+				
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 10
+
+	start_year = 1936
+	first_offset = 1939 	# 2nd model is from 1950
+    additional_offset = 3   # one new every 1 years
+	max_level = 7
+	folder = aircraft_system_folder
+}
+################################################################################
+# Airborne Air Intercept Radar
+################################################################################
+airborne_air_intercept_radar = {
+	
+	allow = {
+		airborne_radar = 1
+		OR = { 
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 2 }
+			airborne_radar = 1
+			}
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 3 }
+			airborne_radar = 2
+			}
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 4 }
+			airborne_radar = 3
+			}
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 5 }
+			airborne_radar = 4
+			}
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 6 }
+			airborne_radar = 5
+			}
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 7 }
+			airborne_radar = 6
+			}
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 8 }
+			airborne_radar = 7
+			}
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 9 }
+			airborne_radar = 8
+			}
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 10 }
+			airborne_radar = 9
+			}
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 11 }
+			airborne_radar = 10
+			}
+			AND = { 
+			NOT = { airborne_air_intercept_radar = 12 }
+			airborne_radar = 11
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	multi_role = { 	
+		air_detection = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}
+		}
+		
+	twin_engine_fighters = { 	
+		air_detection = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}
+		}
+	night_fighter = { 	
+		air_detection = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}
+		}	
+	light_bomber = { 	
+		air_detection = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}
+		}
+	
+#######################################		
+	rocket_interceptor = { 	
+		air_detection = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}
+		}
+	jet_flying_wing = { 	
+		air_detection = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}
+		}
+#######################################	
+	advanced_jet_fighter = { 	
+		air_detection = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}
+		}	
+	advanced_jet_cas = { 	
+		air_detection = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}
+		}	
+	advanced_jet_bomber = { 	
+		air_detection = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}
+		}	
+		
+	research_bonus_from = {
+		electornicegineering_practical = 0.50
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+
+	start_year = 1940
+	first_offset = 1941 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 14
+	folder = aircraft_system_folder
+}
+################################################################################
+# Air to Surface Vessel Radar
+################################################################################
+air_to_surface_vessel_radar = {
+	
+	allow = {
+		airborne_radar = 1
+		OR = { 
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 2 }
+			airborne_radar = 1
+			}
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 3 }
+			airborne_radar = 2
+			}
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 4 }
+			airborne_radar = 3
+			}
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 5 }
+			airborne_radar = 4
+			}
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 6 }
+			airborne_radar = 5
+			}
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 7 }
+			airborne_radar = 6
+			}
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 8 }
+			airborne_radar = 7
+			}
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 9 }
+			airborne_radar = 8
+			}
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 10 }
+			airborne_radar = 9
+			}
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 11 }
+			airborne_radar = 10
+			}
+			AND = { 
+			NOT = { air_to_surface_vessel_radar = 12 }
+			airborne_radar = 11
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_bomber = { 	
+		surface_detection = 1.00
+		sea_attack = 1.00
+		sub_attack = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}
+		}
+		
+	Flying_boat = { 	
+		surface_detection = 1.00
+		sea_attack = 1.00
+		sub_attack = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}
+#######################################			
+	naval_bomber = { 	
+		surface_detection = 1.00
+		sea_attack = 1.00
+		sub_attack = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}
+		
+#######################################	
+	advanced_jet_bomber = { 	
+		surface_detection = 1.00
+		sea_attack = 1.00
+		sub_attack = 1.00
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}	
+	
+	
+	research_bonus_from = {
+		electornicegineering_practical = 0.50
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+
+	start_year = 1940
+	first_offset = 1941 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 12
+	folder = aircraft_system_folder
+}
+################################################################################
+# Airborne Surface Search Radar
+################################################################################
+airborne_surface_search_radar = {
+	
+	allow = {
+		airborne_radar = 1
+		OR = { 
+			AND = { 
+			NOT = { airborne_surface_search_radar = 2 }
+			airborne_radar = 1
+			}
+			AND = { 
+			NOT = { airborne_surface_search_radar = 3 }
+			airborne_radar = 2
+			}
+			AND = { 
+			NOT = { airborne_surface_search_radar = 4 }
+			airborne_radar = 3
+			}
+			AND = { 
+			NOT = { airborne_surface_search_radar = 5 }
+			airborne_radar = 4
+			}
+			AND = { 
+			NOT = { airborne_surface_search_radar = 6 }
+			airborne_radar = 5
+			}
+			AND = { 
+			NOT = { airborne_surface_search_radar = 7 }
+			airborne_radar = 6
+			}
+			AND = { 
+			NOT = { airborne_surface_search_radar = 8 }
+			airborne_radar = 7
+			}
+			AND = { 
+			NOT = { airborne_surface_search_radar = 9 }
+			airborne_radar = 8
+			}
+			AND = { 
+			NOT = { airborne_surface_search_radar = 10 }
+			airborne_radar = 9
+			}
+			AND = { 
+			NOT = { airborne_surface_search_radar = 11 }
+			airborne_radar = 10
+			}
+			AND = { 
+			NOT = { airborne_surface_search_radar = 12 }
+			airborne_radar = 11
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+				
+	light_bomber = { 	
+		surface_detection = 1.00
+		strategic_attack = 0.50
+		soft_attack = 0.50
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}
+	tactical_bomber = { 	
+		surface_detection = 1.00
+		strategic_attack = 0.50
+		soft_attack = 0.50
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}
+	
+	strategic_bomber = { 	
+		surface_detection = 1.00
+		strategic_attack = 0.50
+		soft_attack = 0.50
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}
+	heavy_bomber = { 	
+		surface_detection = 1.00
+		strategic_attack = 0.50
+		soft_attack = 0.50
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}
+	super_heavy_bomber = { 	
+		surface_detection = 1.00
+		strategic_attack = 0.50
+		soft_attack = 0.50
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}	
+	
+#######################################		
+	
+	jet_bomber = { 	
+		surface_detection = 1.00
+		strategic_attack = 0.50
+		soft_attack = 0.50
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}	
+	
+#######################################	
+	
+	advanced_jet_cas = { 	
+		surface_detection = 1.00
+		strategic_attack = 0.50
+		soft_attack = 0.50
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}	
+	advanced_jet_bomber = { 	
+		surface_detection = 1.00
+		strategic_attack = 0.50
+		soft_attack = 0.50
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}	
+	advanced_jet_heavy_bomber = { 	
+		surface_detection = 1.00
+		strategic_attack = 0.50
+		soft_attack = 0.50
+		build_time = 10
+		build_cost_ic = 1.00
+		night = {
+			attack = 0.15
+			}	
+		}	
+		
+	research_bonus_from = {
+		electornicegineering_practical = 0.50
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+
+	start_year = 1940
+	first_offset = 1941 	# 2nd model is from 1941
+    additional_offset = 3   # one new every 1 years
+	max_level = 12
+	folder = aircraft_system_folder
+}
+################################################################################
+# Radar Guided Navigation Equipment
+################################################################################
+radar_guided_navigation_equipment = {
+	
+	allow = {
+		airborne_radar = 2
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_bomber = { 	
+		range = 50.0
+		air_defence = -0.50
+		build_time = 5
+		build_cost_ic = 0.25
+		}
+	tactical_bomber = { 	
+		range = 50.0
+		air_defence = -0.50
+		build_time = 5
+		build_cost_ic = 0.25
+		}
+	
+#######################################			
+
+	strategic_bomber = { 	
+		range = 50.0
+		air_defence = -0.50
+		build_time = 5
+		build_cost_ic = 0.25
+		}
+	heavy_bomber = { 	
+		range = 50.0
+		air_defence = -0.50
+		build_time = 5
+		build_cost_ic = 0.25
+		}
+	super_heavy_bomber = { 	
+		range = 50.0
+		air_defence = -0.50
+		build_time = 5
+		build_cost_ic = 0.25
+		}	
+	
+#######################################		
+	
+	advanced_jet_fighter = { 	
+		range = 50.0
+		air_defence = -0.50
+		build_time = 5
+		build_cost_ic = 0.25
+		}	
+	advanced_jet_cas = { 	
+		range = 50.0
+		air_defence = -0.50
+		build_time = 5
+		build_cost_ic = 0.25
+		}	
+	advanced_jet_bomber = { 	
+		range = 50.0
+		air_defence = -0.50
+		build_time = 5
+		build_cost_ic = 0.25
+		}	
+	advanced_jet_heavy_bomber = { 	
+		range = 50.0
+		air_defence = -0.50
+		build_time = 5
+		build_cost_ic = 0.25
+		}	
+	tactical_transport_aircraft = { 	
+		range = 50.0
+		air_defence = -0.50
+		build_time = 5
+		build_cost_ic = 0.25
+		}	
+		
+	
+	research_bonus_from = {
+		electornicegineering_practical = 0.50
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+
+	start_year = 1942
+	first_offset = 1944 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = aircraft_system_folder
+}
+################################################################################
+# Radar Altimeter
+################################################################################
+radar_altimeter = {
+	
+	allow = {
+		dive_brakes = 1
+		cas_production_version = 2
+		airborne_radar = 2
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	cas = { 	
+		soft_attack = 0.50
+		hard_attack = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}
+			
+#######################################	
+	advanced_jet_fighter = { 	
+		soft_attack = 0.50
+		hard_attack = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	advanced_jet_cas = { 	
+		soft_attack = 0.50
+		hard_attack = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	advanced_jet_bomber = { 	
+		soft_attack = 0.50
+		hard_attack = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+	advanced_jet_heavy_bomber = { 	
+		soft_attack = 0.50
+		hard_attack = 0.50
+		build_cost_ic = 0.25
+		build_time = 3
+		}	
+		
+	
+	research_bonus_from = {
+		electornicegineering_practical = 0.50
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 8
+
+	start_year = 1942
+	folder = aircraft_system_folder
+}
+################################################################################
+# Radar Detectors
+################################################################################
+aircraft_radar_detectors = {
+	
+	allow = {
+		radar_detectors = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+#######################################		
+	twin_engine_fighters = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}
+	night_fighter = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}	
+	light_bomber = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}
+	tactical_bomber = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}
+	
+#######################################			
+	
+	strategic_bomber = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}
+	heavy_bomber = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}
+	super_heavy_bomber = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}	
+	
+#######################################		
+	rocket_interceptor = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}
+	
+	jet_flying_wing = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}
+		
+	jet_bomber = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}	
+		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}	
+	advanced_jet_cas = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}	
+	advanced_jet_bomber = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}	
+	tactical_transport_aircraft = { 	
+		air_detection = 0.25
+			build_cost_ic = 0.25
+			build_time = 3
+			night = {
+				attack = 0.05
+				defence = 0.20
+				}
+		}	
+	
+	research_bonus_from = {
+		electornicegineering_practical = 0.50
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+
+	start_year = 1941
+	first_offset = 1942	#2nd model is from 1940
+	additional_offset = 3	#one new every 2 years
+	max_level = 12
+	folder = aircraft_system_folder
+}
+################################################################################
+# Chaff
+################################################################################
+chaff = {
+	
+	allow = {
+		radar = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	light_bomber = { 	
+		night = {
+			defence = 0.10
+			}
+		}
+	tactical_bomber = { 	
+		night = {
+			defence = 0.10
+			}
+		}
+	
+#######################################			
+	
+	strategic_bomber = { 	
+		night = {
+			defence = 0.10
+			}
+		}
+	heavy_bomber = { 	
+		night = {
+			defence = 0.10
+			}
+		}
+	super_heavy_bomber = { 	
+		night = {
+			defence = 0.10
+			}
+		}	
+	
+#######################################		
+		
+	jet_bomber = { 	
+		night = {
+			defence = 0.10
+			}
+		}	
+	amerika_bomber = { 	
+		night = {
+			defence = 0.10
+			}
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		night = {
+			defence = 0.10
+			}
+		}	
+	advanced_jet_cas = { 	
+		night = {
+			defence = 0.10
+			}
+		}	
+	advanced_jet_bomber = { 	
+		night = {
+			defence = 0.10
+			}
+		}	
+	advanced_jet_heavy_bomber = { 	
+		night = {
+			defence = 0.10
+			}
+		}	
+	tactical_transport_aircraft = { 	
+		night = {
+			defence = 0.10
+			}
+		}	
+	
+	research_bonus_from = {
+		electornicegineering_practical = 0.30
+		aeronautic_engineering = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+
+	start_year = 1940
+	first_offset = 1941	#2nd model is from 1940
+	additional_offset = 1	#one new every 2 years
+	max_level = 5
+	folder = aircraft_system_folder
+}
+################################################################################
+# Radio Navigation Equipment
+################################################################################
+radio_navigation_equipment = {
+	
+	allow = {
+		compact_radio_designs = 1
+		loran = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	interceptor = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	pursuit_fighter = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	multi_role = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	fighter_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}		
+	cas = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	heavy_cas = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+#######################################			
+	naval_fighter = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	naval_fighter_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	naval_dive_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	naval_torpedo_plane = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	naval_cas = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	night_fighter = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	light_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	tactical_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	transport_plane = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	Flying_boat = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+#######################################			
+	naval_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	strategic_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	heavy_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	super_heavy_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	quad_engine_transport = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+#######################################		
+	rocket_interceptor = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	rocket_interceptor_van = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	jet_flying_wing = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}
+	peoples_fighter = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	jet_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	amerika_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	advanced_jet_cas = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	advanced_jet_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	advanced_jet_heavy_bomber = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	tactical_transport_aircraft = { 	
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 1
+		}	
+	
+	research_bonus_from = {
+		electornicegineering_practical = 0.40
+		aeronautic_engineering = 0.40
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+
+	start_year = 1941
+	folder = aircraft_system_folder
+}
+################################################################################
+# IFF Transponders
+################################################################################
+aircraft_iff_transponders = {
+	
+	allow = {
+		iff_transponders = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	radar_impact = 0.15
+	
+	research_bonus_from = {
+		electornicegineering_practical = 0.30
+		aeronautic_engineering = 0.30
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 6
+
+	start_year = 1942
+	folder = aircraft_system_folder
+}
+################################################################################
+# Aircraft Radios
+################################################################################
+aircraft_radios = {
+	
+	allow = {
+		medium_range_radios = 1
+		OR = { 
+			AND = { 
+			NOT = { aircraft_radios = 2 }
+			medium_range_radios = 1
+			}
+			AND = { 
+			NOT = { aircraft_radios = 3 }
+			medium_range_radios = 2
+			}
+			AND = { 
+			NOT = { aircraft_radios = 4 }
+			medium_range_radios = 3
+			}
+			AND = { 
+			NOT = { aircraft_radios = 5 }
+			medium_range_radios = 4
+			}
+			AND = { 
+			NOT = { aircraft_radios = 6 }
+			medium_range_radios = 5
+			}
+			AND = { 
+			NOT = { aircraft_radios = 7 }
+			medium_range_radios = 6
+			}
+			AND = { 
+			NOT = { aircraft_radios = 8 }
+			medium_range_radios = 7
+			}
+			AND = { 
+			NOT = { aircraft_radios = 9 }
+			medium_range_radios = 8
+			}
+			AND = { 
+			NOT = { aircraft_radios = 10 }
+			medium_range_radios = 9
+			}
+			AND = { 
+			NOT = { aircraft_radios = 11 }
+			medium_range_radios = 10
+			}
+			AND = { 
+			NOT = { aircraft_radios = 12 }
+			medium_range_radios = 11
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	encryption = -0.1
+	
+	interceptor = { 	
+		default_organisation = 5 
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	pursuit_fighter = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	multi_role = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	fighter_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}		
+	cas = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	heavy_cas = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+#######################################			
+	naval_fighter = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	naval_fighter_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	naval_dive_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	naval_torpedo_plane = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	naval_cas = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}		
+#######################################		
+	twin_engine_fighters = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	night_fighter = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	light_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	tactical_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	transport_plane = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	Flying_boat = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+#######################################			
+	naval_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	strategic_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	heavy_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	super_heavy_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	quad_engine_transport = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+#######################################		
+	rocket_interceptor = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	rocket_interceptor_van = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	jet_flying_wing = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}
+	peoples_fighter = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	jet_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	amerika_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	advanced_jet_cas = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		}	
+	advanced_jet_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	tactical_transport_aircraft = { 	
+		default_organisation = 5
+        maximum_speed = -25 
+        air_attack = 0.25 
+        air_defence = -0.25
+		radio_strength = 1
+		build_cost_ic = 0.15
+		build_time = 5
+		}	
+	
+	
+	research_bonus_from = {
+		electornicegineering_practical = 0.50
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 7
+
+	start_year = 1936
+	first_offset = 1938	#2nd model is from 1938
+	additional_offset = 2
+	max_level = 12
+	folder = aircraft_system_folder
+}
+################################################################################
+# Intercoolers
+################################################################################
+intercoolers = {
+	
+	allow = {
+		electro_mechanical_engineering = 12
+		radial_and_inline_engine_design = 1	
+		air_battles_fought = 100
+		OR = { 
+			AND = { 
+					NOT = { intercoolers = 1 } # 1938
+					OR = {
+						interceptor_focus = 5
+						pursuit_fighter_focus = 5
+						multi_role_fighter_focus = 5
+					}
+				}
+			AND = { 
+					NOT = { intercoolers = 2 } # 1941
+					OR = { 
+						interceptor_focus = 7
+						twin_engine_fighter_focus = 6
+						strategic_bomber_focus = 7
+						heavy_bomber_focus = 7
+						}
+				}
+			AND = { 
+					NOT = { intercoolers = 3 } # 1944
+					OR = { 
+						interceptor_focus = 10
+						twin_engine_fighter_focus = 9
+						strategic_bomber_focus = 10
+						heavy_bomber_focus = 10
+						}
+				}	
+			AND = { 
+					NOT = { intercoolers = 4 } # 1947
+					OR = { 
+						interceptor_focus = 13
+						twin_engine_fighter_focus = 12
+						strategic_bomber_focus = 13
+						heavy_bomber_focus = 13
+						heavy_transport_focus = 13
+						super_heavy_bomber_focus = 3
+						}
+				}			
+		}
+		AND = { 
+			v_twelve_aircraft_engine = 1
+			nine_cylinder_radial_aircraft_engine = 1
+			eighteen_cylinder_radial_aircraft_engine = 1
+			fourteen_cylinder_radial_aircraft_engine = 1
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	interceptor = { 	
+		default_morale = -0.01
+		air_attack = 0.25
+		air_defense = 0.50
+		supply_consumption = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 25.0
+		}
+	pursuit_fighter = { 	
+		default_morale = -0.01
+		air_attack = 0.25
+		air_defense = 0.50
+		supply_consumption = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 25.0
+		}	
+	multi_role = { 	
+		default_morale = -0.01
+		air_attack = 0.25
+		air_defense = 0.50
+		supply_consumption = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 25.0
+		}
+			
+#######################################		
+	twin_engine_fighters = { 	
+		default_morale = -0.01
+		air_attack = 0.25
+		air_defense = 0.50
+		supply_consumption = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 25.0
+		}
+	night_fighter = { 	
+		default_morale = -0.01
+		air_attack = 0.25
+		air_defense = 0.50
+		supply_consumption = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 25.0
+		}	
+		
+#######################################			
+	
+	strategic_bomber = { 	
+		default_morale = -0.01
+		air_attack = 0.25
+		air_defense = 0.50
+		supply_consumption = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 25.0
+		}
+	heavy_bomber = { 	
+		default_morale = -0.01
+		air_attack = 0.25
+		air_defense = 0.50
+		supply_consumption = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 25.0
+		}
+	super_heavy_bomber = { 	
+		default_morale = -0.01
+		air_attack = 0.25
+		air_defense = 0.50
+		supply_consumption = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 25.0
+		}	
+	quad_engine_transport = { 	
+		default_morale = -0.01
+		air_attack = 0.25
+		air_defense = 0.50
+		supply_consumption = 0.15
+		build_cost_ic = 0.05
+		build_time = 2
+		maximum_speed = 25.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 8
+
+	start_year = 1938
+	first_offset = 1941	# 2nd model is from 1938
+    additional_offset = 3   # one new every 4 years
+	max_level = 4
+	folder = aircraft_system_folder
+}
+################################################################################
+# Turbochargers
+################################################################################
+turbo_chargers = {
+	
+	allow = {
+		electro_mechanical_engineering = 12
+		radial_and_inline_engine_design = 1	
+		air_battles_fought = 100
+		OR = { 
+			AND = { 
+					NOT = { turbo_chargers = 1 } # 1938
+					OR = {
+						interceptor_focus = 5
+						pursuit_fighter_focus = 5
+						multi_role_fighter_focus = 5
+					}
+				}
+			AND = { 
+					NOT = { turbo_chargers = 2 } # 1941
+					OR = { 
+						interceptor_focus = 7
+						twin_engine_fighter_focus = 6
+						strategic_bomber_focus = 7
+						heavy_bomber_focus = 7
+						}
+				}
+			AND = { 
+					NOT = { turbo_chargers = 3 } # 1944
+					OR = { 
+						interceptor_focus = 10
+						twin_engine_fighter_focus = 9
+						strategic_bomber_focus = 10
+						heavy_bomber_focus = 10
+						}
+				}	
+			AND = { 
+					NOT = { turbo_chargers = 4 } # 1947
+					OR = { 
+						interceptor_focus = 13
+						twin_engine_fighter_focus = 12
+						strategic_bomber_focus = 13
+						heavy_bomber_focus = 13
+						heavy_transport_focus = 13
+						super_heavy_bomber_focus = 3
+						}
+				}			
+		}
+		AND = { 
+			v_twelve_aircraft_engine = 1
+			nine_cylinder_radial_aircraft_engine = 1
+			eighteen_cylinder_radial_aircraft_engine = 1
+			fourteen_cylinder_radial_aircraft_engine = 1
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	interceptor = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+	pursuit_fighter = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}	
+	multi_role = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+			
+#######################################		
+	twin_engine_fighters = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+	night_fighter = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}	
+		
+#######################################			
+	
+	strategic_bomber = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+	heavy_bomber = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+	super_heavy_bomber = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}	
+	quad_engine_transport = { 	
+		default_morale = -0.03
+		air_attack = 0.75
+		air_defence = 0.25
+		supply_consumption = 0.10
+		build_cost_ic = 0.10
+		build_time = 3
+		maximum_speed = 25.0
+		range = 25.0
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.80
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 8
+
+	start_year = 1938
+	first_offset = 1941 	# 2nd model is from 1938
+    additional_offset = 3   # one new every 4 years
+	max_level = 4
+	folder = aircraft_system_folder
+}
+################################################################################
+# Water-Methanol Injection
+################################################################################
+water_methanol_injection = {
+	
+	allow = {
+		electro_mechanical_engineering = 17
+		wwi_biplane_designs = 1
+		duralumin = 1
+		mono_wing_design = 1
+		radial_and_inline_engine_design = 1	
+		OR = { 
+		v_twelve_aircraft_engine = 5
+		fourteen_cylinder_radial_aircraft_engine = 3
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	multi_role = { 	
+		maximum_speed = 50
+		air_attack = 0.25
+		build_cost_ic = 0.05
+		build_time = 1
+		}
+		
+	night_fighter = { 	
+		maximum_speed = 50
+		air_attack = 0.25
+		build_cost_ic = 0.05
+		build_time = 1
+		}
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.70
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 10
+
+	start_year = 1942
+	folder = aircraft_system_folder
+}

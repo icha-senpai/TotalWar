@@ -1,0 +1,1925 @@
+950600 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950601 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950602 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950603 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950604 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950605 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950606 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950607 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950608 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950609 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950610 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950611 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950612 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950613 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950614 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950615 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950616 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950617 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950618 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950619 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950620 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950621 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950622 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950623 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950624 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950625 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950626 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950627 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950628 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950629 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950630 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950631 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950632 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950633 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950634 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950635 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950636 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950637 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+95038 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950639 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950640 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950641 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950642 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950643 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950644 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950645 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950646 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950647 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950648 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950649 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+950650 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950651 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950652 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950653 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950654 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950655 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950656 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950657 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950658 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950659 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950660 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950661 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950662 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950663 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950664 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950665 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950666 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950667 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950668 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950669 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950670 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950671 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950672 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950673 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950674 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950675 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950676 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950677 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950678 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950679 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950680 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950681 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950682 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950683 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950684 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950685 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950686 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950687 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950688 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950689 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950690 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950691 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950692 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950693 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950694 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950695 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950696 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950697 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950698 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950699 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950700 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950701 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950702 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950703 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950704 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950705 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950706 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950707 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950708 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950709 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950710 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950711 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950712 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950713 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950714 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950715 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950716 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950717 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950718 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950719 = {
+	name = "USN Captain"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 10_USN_Captain
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950720 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950721 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950722 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950723 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950724 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950725 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950726 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950727 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950728 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950729 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950730 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950731 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950732 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950733 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950734 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950735 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950736 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950737 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950738 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950739 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950740 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950741 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950742 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950743 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950744 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950745 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950746 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950747 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950748 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950749 = {
+	name = "USAAF Colonel"
+	country = USA
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_USAAF_Colonel
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

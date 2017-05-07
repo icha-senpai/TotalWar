@@ -1,0 +1,106 @@
+guard_mech_hq_brigade = {
+	
+	usable_by = { SOV }
+	type = land
+	sprite = Mech
+	is_buildable = no
+	is_mobile = yes
+	unit_group = shock_HQ_unit_type
+	
+	#Size Definitions
+	max_strength = 30
+	default_organisation = 65
+	default_morale = 0.85
+	officers = 250
+
+	#Building Costs
+	build_cost_ic = 4.00
+	build_cost_manpower = 1
+	build_time = 65
+
+	#Misc Abilities
+	maximum_speed = 8.00
+	transport_weight = 20.00
+	supply_consumption = 0.55
+	fuel_consumption = 0.45
+	radio_strength = 2
+	repair_cost_multiplier = 0.2
+
+	#Defensive Abilities
+	defensiveness = 1.116	# was 5.67
+	toughness = 1.2
+	softness = 0.4
+	air_defence = 9.50
+
+	#Offensive Abilities
+	suppression = 0.5
+	soft_attack = 1.0
+	hard_attack = 0.5
+	air_attack = 4.5
+
+   plains = {
+		attack = 0.15
+		movement = 0.80
+	}
+	river = {
+		defence = 0.1
+		attack = -0.1
+		movement = -0.3
+	}
+	arctic = {
+		attack = -0.1		
+		defence = -0.1 ##sitting in a warm foxhole is easier than attacking in -60C!
+		movement = -0.15
+	}
+	desert = { 
+		attack = 0.25
+		defence = 0.2
+		movement = 0.4
+	}
+	woods = { 
+		attack = 0.05
+		defence = 0.05
+		movement = -0.2
+	}
+	forest = { 
+		attack = -0.05
+		defence = -0.05 
+		movement = -0.25
+	}
+	jungle = { 
+		movement = -0.35
+	}
+	hills = {
+		movement = -0.2
+	}
+	mountain = { 
+		attack = -0.1
+		defence = -0.1
+		movement = -0.3
+	}
+	urban = { 
+		attack = -0.05
+		defence = 0.2 
+		movement = 0.3
+	}
+	marsh = { 
+		attack = -0.1
+		defence = -0.1 ##marshes are uncomfortable places at the best of times...
+		movement = -1
+	}
+	amphibious =    { 
+		
+	}
+	
+	
+	fort = { 
+		attack = 0.2
+		defence = 0.2 }
+
+	combat_width = 1
+
+	completion_size = 0.2
+	on_completion = land_doctrine_practical
+
+	priority = 90
+}

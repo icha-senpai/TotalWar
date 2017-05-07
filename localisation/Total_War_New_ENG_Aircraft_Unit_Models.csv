@@ -1,0 +1,168 @@
+################################################;;;;;;;;;;;;;;x
+# British New Aircraft Unit Model Names;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Fighter Aircraft ;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+ENG_interceptor_0;Gloster Gauntlet Mk.II;;;;;;;;;;;;;x
+ENG_interceptor_1;Gloster Gladiator Mk.II;;;;;;;;;;;;;x
+ENG_interceptor_4;Supermarine Spitfire Mk.I;;;;;;;;;;;;;x
+ENG_interceptor_5;Supermarine Spitfire Mk.Ia;;;;;;;;;;;;;x
+ENG_interceptor_6;Supermarine Spitfire Mk.IIb;;;;;;;;;;;;;x
+ENG_interceptor_7;Supermarine Spitfire Mk.Vb;;;;;;;;;;;;;x
+ENG_interceptor_8;Supermarine Spitfire Mk.IX;;;;;;;;;;;;;x
+ENG_interceptor_9;Supermarine Spitfire Mk.VIII;;;;;;;;;;;;;x
+ENG_interceptor_10;Supermarine Spitfire Mk.XVI;;;;;;;;;;;;;x
+ENG_interceptor_11;Supermarine Spitfire Mk.21;;;;;;;;;;;;;x
+ENG_interceptor_12;Supermarine Spitfire Mk.22;;;;;;;;;;;;;x
+ENG_interceptor_13;Supermarine Spitfire Mk.24;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_multi_role_0;Bristol Bulldog Mk.IIb;;;;;;;;;;;;;x
+ENG_multi_role_2;Hawker Hurricane Mk.Ia;;;;;;;;;;;;;x
+ENG_multi_role_3;Boulton Paul Defiant;;;;;;;;;;;;;x
+ENG_multi_role_4;Hawker Hurricane Mk.Ib;;;;;;;;;;;;;x
+ENG_multi_role_5;Hawker Hurricane Mk.IIc;;;;;;;;;;;;;x
+ENG_multi_role_6;Hawker Hurricane Mk.IV;;;;;;;;;;;;;x
+ENG_multi_role_7;Hawker Hurricane Mk V;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_fighter_bomber_8;Hawker Typhoon Mk.Ia;;;;;;;;;;;;;x
+ENG_fighter_bomber_9;Hawker Typhoon Mk.Ib;;;;;;;;;;;;;x
+ENG_fighter_bomber_10;Hawker Tempest Mk.V;;;;;;;;;;;;;x
+ENG_fighter_bomber_11;Hawker Tempest II;;;;;;;;;;;;;x
+ENG_fighter_bomber_12;Hawker Tempest Mk.VI;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_cas_0;Hawker Hart;;;;;;;;;;;;;x
+ENG_cas_1;Hawker Hind;;;;;;;;;;;;;x
+ENG_cas_2;Fairey Battle Mk.I;;;;;;;;;;;;;x
+ENG_cas_3;Fairey Battle Mk II;;;;;;;;;;;;;x
+ENG_cas_4;Fairey Battle Mk V;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_naval_fighter_0;Gloster Sea Gladiator;;;;;;;;;;;;;;x
+ENG_naval_fighter_1;Sea Hurricane Mk Ia;;;;;;;;;;;;;;x
+ENG_naval_fighter_2;Sea Hurricane Mk Ib;;;;;;;;;;;;;;x
+ENG_naval_fighter_3;Sea Hurricane Mk Ic;;;;;;;;;;;;;;x
+ENG_naval_fighter_4;Sea Hurricane Mk IIc;;;;;;;;;;;;;;x
+ENG_naval_fighter_5;Blackburn Roc ;;;;;;;;;;;;;;x
+ENG_naval_fighter_6;Fairey Fulmar Mk I;;;;;;;;;;;;;;x
+ENG_naval_fighter_7;Fairey Firefly Mk I;;;;;;;;;;;;;;x
+ENG_naval_fighter_8;Supermarine Seafire Mk IB;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_naval_dive_bomber_0;Blackburn Skua;;;;;;;;;;;;;;x
+ENG_naval_dive_bomber_1;Fairey Barracuda Mk I;;;;;;;;;;;;;;x
+ENG_naval_dive_bomber_2;Fairey Barracuda Mk II;;;;;;;;;;;;;;x
+ENG_naval_dive_bomber_3;Fairey Barracuda Mk III;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_naval_torpedo_plane_0;Fairey Swordfish Mk I;;;;;;;;;;;;;;x
+ENG_naval_torpedo_plane_1;Fairey Swordfish Mk III;;;;;;;;;;;;;;x
+ENG_naval_torpedo_plane_2;Fairey Albacore Mk I;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_twin_engine_fighters_0;de Havilland DH.88 Comet;;;;;;;;;;;;;x
+ENG_twin_engine_fighters_3;Bristol Blenheim Mk.I;;;;;;;;;;;;;x
+ENG_twin_engine_fighters_4;Bristol Blenheim Mk.IF;;;;;;;;;;;;;x
+ENG_twin_engine_fighters_5;Bristol Beaufighter Mk.I;;;;;;;;;;;;;x
+ENG_twin_engine_fighters_6;de Havilland Mosquito F Mk II;;;;;;;;;;;;;x
+ENG_twin_engine_fighters_7;Bristol Beaufighter Mk.III;;;;;;;;;;;;;x
+ENG_twin_engine_fighters_8;de Havilland Mosquito FB Mk VI;;;;;;;;;;;;;x
+ENG_twin_engine_fighters_9;de Havilland Mosquito FB Mk XVIII;;;;;;;;;;;;;x
+ENG_twin_engine_fighters_10;de Havilland Mosquito NF Mk 30;;;;;;;;;;;;;x
+ENG_twin_engine_fighters_11;de Havilland Hornet;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_light_bomber_0;Boulton Paul Overstrand;;;;;;;;;;;;;x
+ENG_light_bomber_1;Vickers Wellesley Mk.I;;;;;;;;;;;;;x
+ENG_light_bomber_2;Vickers Wellington Mk Ia;;;;;;;;;;;;;x
+ENG_light_bomber_3;Vickers Wellington Mk Ic;;;;;;;;;;;;;x
+ENG_light_bomber_4;Vickers Wellington Mk II;;;;;;;;;;;;;x
+ENG_light_bomber_5;Vickers Wellington Mk III;;;;;;;;;;;;;x
+ENG_light_bomber_6;Vickers Wellington Mk IV;;;;;;;;;;;;;x
+ENG_light_bomber_7;Vickers Wellington Mk VI;;;;;;;;;;;;;x
+ENG_light_bomber_8;Vickers Wellington Mk X;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_tactical_bomber_0;Handley Page Heyford;;;;;;;;;;;;;x
+ENG_tactical_bomber_1;Handley Page Harrow;;;;;;;;;;;;;x
+ENG_tactical_bomber_2;Handley Page Hampden;;;;;;;;;;;;;x
+ENG_tactical_bomber_3;Armstrong Whitworth Whitley Mk I;;;;;;;;;;;;;x
+ENG_tactical_bomber_4;Armstrong Whitworth Whitley Mk II;;;;;;;;;;;;;x
+ENG_tactical_bomber_5;Armstrong Whitworth Whitley Mk III;;;;;;;;;;;;;x
+ENG_tactical_bomber_6;Armstrong Whitworth Whitley Mk IV;;;;;;;;;;;;;x
+ENG_tactical_bomber_7;Armstrong Whitworth Whitley Mk V;;;;;;;;;;;;;x
+ENG_tactical_bomber_8;Armstrong Whitworth Whitley Mk VII;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_transport_plane_0;Vickers Valentia;;;;;;;;;;;;;x
+ENG_transport_plane_1;Bristol Bombay;;;;;;;;;;;;;x
+ENG_transport_plane_2;Handley Page Harrow;;;;;;;;;;;;;x
+ENG_transport_plane_3;Armstrong Whitworth Albemarle;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_Flying_boat_0;Supermarine Stranraer Mk.I;;;;;;;;;;;;;x
+ENG_Flying_boat_1;Short Sunderland Mk.I;;;;;;;;;;;;;x
+ENG_Flying_boat_2;Short Sunderland Mk.III;;;;;;;;;;;;;x
+ENG_Flying_boat_3;Short Sunderland Mk.V;;;;;;;;;;;;;x
+ENG_Flying_boat_4;Short Shetland Mk.I;;;;;;;;;;;;;x
+ENG_Flying_boat_5;Short Shetland Mk.II;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_naval_bomber_0;Vickers Vildebeeste Mk.IV;;;;;;;;;;;;;x
+ENG_naval_bomber_1;Avro Anson Mk.I;;;;;;;;;;;;;x
+ENG_naval_bomber_2;Bristol Blenheim Mk.Ib;;;;;;;;;;;;;x
+ENG_naval_bomber_3;Blackburn B.26 Botha Mk.I;;;;;;;;;;;;;x
+ENG_naval_bomber_4;Bristol Beaufort Mk.I;;;;;;;;;;;;;x
+ENG_naval_bomber_5;Bristol Beaufort Mk.II;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_strategic_bomber_0;Vickers Virginia;;;;;;;;;;;;;x
+ENG_strategic_bomber_3;Fairey Hendon;;;;;;;;;;;;;x
+ENG_strategic_bomber_4;Short Stirling B .Mk.I;;;;;;;;;;;;;x
+ENG_strategic_bomber_5;Halifax Mk II;;;;;;;;;;;;;;;x
+ENG_strategic_bomber_6;Halifax Mk III;;;;;;;;;;;;;;;x
+ENG_strategic_bomber_7;Halifax Mk VI;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_heavy_bomber_5;Avro Manchester Mk IA;;;;;;;;;;;;;;;x
+ENG_heavy_bomber_6;Avro Lancaster Mk I;;;;;;;;;;;;;;;x
+ENG_heavy_bomber_7;Avro Lancaster Mk II;;;;;;;;;;;;;;;x
+ENG_heavy_bomber_8;Avro Lancaster Mk III;;;;;;;;;;;;;;;x
+ENG_heavy_bomber_9;Avro Lancaster Mk IV;;;;;;;;;;;;;;;x
+ENG_heavy_bomber_10;Avro Lancaster Mk V;;;;;;;;;;;;;;;x
+ENG_heavy_bomber_11;Avro Lancaster Mk VI;;;;;;;;;;;;;;;x
+ENG_heavy_bomber_12;Avro Lancaster Mk VII;;;;;;;;;;;;;;;x
+ENG_heavy_bomber_13;Avro Lincoln B. Mk.I;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_quad_engine_transport_0;de Havilland Express;;;;;;;;;;;;;;x
+ENG_quad_engine_transport_1;Armstrong Whitworth Ensign;;;;;;;;;;;;;;x
+ENG_quad_engine_transport_2;Short Stirling Mk IV;;;;;;;;;;;;;;x
+ENG_quad_engine_transport_3;Avro York C.1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_rocket_interceptor_0;Gloster Meteor F.1;;;;;;;;;;;;;;x
+ENG_rocket_interceptor_1;Gloster Meteor F.3;;;;;;;;;;;;;;x
+ENG_rocket_interceptor_2;Gloster Meteor F.4;;;;;;;;;;;;;;x
+ENG_rocket_interceptor_3;Gloster Meteor F.8;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_jet_flying_wing_0;de Havilland Vampire Mk I;;;;;;;;;;;;;;x
+ENG_jet_flying_wing_1;de Havilland Vampire F.3;;;;;;;;;;;;;;x
+ENG_jet_flying_wing_2;de Havilland Vampire FB.5;;;;;;;;;;;;;;x
+ENG_jet_flying_wing_3;de Havilland Vampire FB.6;;;;;;;;;;;;;;x
+ENG_jet_flying_wing_4;de Havilland Vampire FB.9;;;;;;;;;;;;;;x
+ENG_jet_flying_wing_5;de Havilland Venom FB.1;;;;;;;;;;;;;;x
+ENG_jet_flying_wing_6;de Havilland Venom FB.4;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_advanced_jet_fighter_0;Javelin FAW 1;;;;;;;;;;;;;;x
+ENG_advanced_jet_fighter_1;Javelin FAW 9;;;;;;;;;;;;;;x
+ENG_advanced_jet_fighter_2;Hunter F.1;;;;;;;;;;;;;;x
+ENG_advanced_jet_fighter_3;Hunter F.6;;;;;;;;;;;;;;x
+ENG_advanced_jet_fighter_4;Lightning F.1A;;;;;;;;;;;;;;x
+ENG_advanced_jet_fighter_5;Lightning F.3;;;;;;;;;;;;;;x
+ENG_advanced_jet_fighter_6;Lightning F.6;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_advanced_jet_cas_0;Blackburn Buccaneer S.1;;;;;;;;;;;;;;x
+ENG_advanced_jet_cas_1;Blackburn Buccaneer S.2B;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_advanced_jet_bomber_0;Canberra B Mk.2;;;;;;;;;;;;;;x
+ENG_advanced_jet_bomber_1;Canberra B Mk.6;;;;;;;;;;;;;;x
+ENG_advanced_jet_bomber_2;Canberra B Mk.8;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+ENG_advanced_jet_heavy_bomber_0;Vulcan B.1;;;;;;;;;;;;;;x
+ENG_advanced_jet_heavy_bomber_1;Vulcan B.2;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

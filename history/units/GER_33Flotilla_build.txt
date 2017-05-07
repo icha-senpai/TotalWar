@@ -1,0 +1,41 @@
+military_construction = {
+	country = GER
+	
+	long_range_submarine = { 
+		name = "U-200"
+		historical_model = 2
+	}
+	long_range_submarine = {
+		name = "U-201"
+		historical_model = 2
+	}
+	long_range_submarine = {
+		name = "U-202"
+		historical_model = 2
+	}
+	long_range_submarine = {
+		name = "U-203"
+		historical_model = 2
+	}
+	long_range_submarine = {
+		name = "U-204"
+		historical_model = 2
+	}
+	long_range_submarine = {
+		name = "U-205"
+		historical_model = 2
+	}
+	long_range_submarine = {
+		name = "U-206"
+		historical_model = 2
+	}
+	long_range_submarine = {
+		name = "U-207"
+		historical_model = 2
+	}
+	
+	cost = 18.00
+	duration = 329
+	progress = 309
+}
+#EOF#

@@ -1,0 +1,1628 @@
+capital = 7561
+government = right_wing_autocrat
+ideology = paternal_autocrat
+head_of_state = 501001
+head_of_government = 501001
+foreign_minister = 501003
+armament_minister = 501004
+minister_of_security = 501005
+minister_of_intelligence = 501006
+chief_of_staff = 501001
+chief_of_army = 501001
+chief_of_navy = 501009
+chief_of_air = 501009
+alignment = { x = 60 y = 27.0 }
+neutrality = 70
+national_unity = 70
+
+oob = "CYN_1936.txt"
+
+infantry_theory = 2.5
+infantry_practical = 2.5
+militia_theory = 2.5
+militia_practical = 2.5
+mobile_theory = 1
+mobile_practical = 1
+artillery_theory = 1 
+artillery_practical = 1
+rocket_science = 0
+rocket_practical = 0 
+naval_engineering = 0
+destroyer_practical = 0
+cruiser_practical = 0
+capitalship_practical = 0
+carrier_practical = 0 
+submarine_engineering = 0
+submarine_practical = 0
+electronic_engineering_theory = 0 
+electronic_engineering_practical = 0
+automotive_theory = 0 
+armour_practical = 0
+aeronautic_engineering = 1
+single_engine_aircraft_practical = 1 
+twin_engine_aircraft_practical = 0
+four_engine_aircraft_practical = 0
+spearhead_theory = 0 
+superior_firepower_theory = 0 
+grand_battleplan_theory = 2 
+human_wave_theory = 0 
+land_doctrine_practical= 0 
+naval_doctrine_practical = 0 
+base_strike_doctrine = 0
+fleet_in_being_doctrine = 0 
+sealane_interdiction_doctrine = 0
+air_doctrine_practical = 0 
+fighter_focus = 1
+cas_focus = 1 
+tac_focus = 0
+nav_focus = 0 
+strategic_air_focus = 0 
+mechanicalengineering_theory = 2
+chemical_engineering = 1
+jetengine_theory = 0 
+jetengine_practical = 0 
+nuclear_physics = 0
+nuclear_bomb = 0 
+transport_practical = 0
+officers_ratio = 0.60
+
+#########################################################################
+# Nation
+#########################################################################
+university_scientists = 2
+individual_scientific_researchers = 0
+science_industrialization = 0
+operations_research = 0
+secretary_of_public_information_and_education = 0
+mass_events = 0
+broadcasting = 0
+monumental_architecture = 0
+gigant_infrastructure_projects = 0
+supply_transportation = 0
+supply_organisation = 0
+civil_defence = 0
+home_front_focus = 0
+homefront_coordination = 0
+logistical_warfare_focus = 0
+wartime_rationing = 0
+garrison_deployment = 0
+emergency_recruitment_legislation = 0
+officer_recruitment_program = 0
+penicillin_mass_production = 0
+blood_transfusions = 0
+combat_medicine = 0
+aviation_medicine = 0
+military_nutrition = 0
+national_guard = 1
+armed_forces_basic_training = 1
+basic_infantry_training = 0
+basic_artillery_training = 0
+basic_armor_training = 0
+basic_pilot_training = 0
+basic_airmen_training = 0
+basic_naval_training = 0
+nationalist_china = 1
+
+#########################################################################
+# Industrial - Production
+#########################################################################
+industral_production = 2
+industral_efficiency = 0
+oil_refinning = 1
+steel_production = 1
+raremetal_refinning_techniques = 1
+coal_processing_technologies = 1
+oil_to_coal_conversion = 1
+supply_production = 1
+military_conversion = 0
+industrial_chemical_engineering = 0
+plastics = 0
+plexiglass = 0
+synthetic_rubber = 0
+advanced_armor_metallurgy = 0
+steel_casting_capability = 0
+steel_electro_welding_technology = 0
+rivetted_armor = 0
+welded_armor = 0
+cast_armor = 0
+interlocked_armor = 0
+small_arms_manufacturing = 1
+automotive_construction_industry = 0
+artillery_production_industry = 0
+Ship_Building_Technologies = 0
+submarine_construction_technolgies = 0
+long_range_aircraft_production = 0
+short_range_aircraft_production = 0
+fuel_conservation = 0
+octane_conservation = 0
+
+#########################################################################
+# Electronic
+#########################################################################
+electro_mechanical_engineering = 10
+radio = 0
+military_radio_sets = 0
+short_range_radios = 0
+medium_range_radios = 0
+long_range_radios = 0
+compact_radio_designs = 0
+loran = 0
+iff_transponders = 0
+mechanical_computation_machine = 0
+electronics_engineering = 0
+cavity_magnetron = 0
+radar = 0
+ground_based_radar = 0
+airborne_radar = 0
+naval_radar = 0
+fire_control_radar = 0
+radar_minaturization = 0
+radar_detectors = 0
+handheld_calculating_table = 0
+mechanical_calculator = 0
+electronic_computing_machine = 0
+mechanical_encryption_machine = 0
+encryption_codes = 0
+decryption_teams = 0
+code_breaking_machine = 0
+
+#########################################################################
+# Construction
+#########################################################################
+construction_engineering = 1
+industry_tech = 1
+heavy_industry_tech = 0
+underground_factories = 0
+road_highway = 0
+railway = 0
+seaport = 0
+airport = 0
+advanced_construction_engineering = 1
+land_defence_engineering = 1
+adv_land_defence_engineering = 1
+airfield_construction = 0
+expand_airbases = 0
+Hangar_Maintenance = 0
+hardended_airstrip = 0
+control_tower = 0
+port_construction = 1
+coastal_defence_engineering = 1
+drydock_construction = 1
+installation_security = 0
+flak_towers = 0
+air_defense_network = 0
+aircraft_testing_facility = 0
+windtunnels = 0
+naval_base_oil_tanks = 0
+naval_base_repair_facilities = 0
+naval_base_ordnance_depot = 0
+submarine_pens = 0
+
+#########################################################################
+# Manufacturing Technology
+#########################################################################
+rifle_production = 0
+submachinegun_production = 0
+assault_rifle_production = 0
+anti_tank_rocket_production = 0
+light_machine_gun_production = 0
+heavy_machine_gun_production = 0
+light_artillery_production = 0
+medium_artillery_production = 0
+heavy_artillery_production = 0
+anti_tank_gun_production = 0
+anti_air_gun_production = 0
+aircraft_gun_production = 0
+light_tank_engine_production = 0
+medium_tank_engine_production = 0
+heavy_tank_engine_production = 0
+tank_transmission_production = 0
+light_tank_gun_production = 0
+medium_tank_gun_production = 0
+heavy_tank_gun_production = 0
+tank_spare_parts_production = 0
+aircraft_inline_engine_production = 0
+aircraft_radial_engine_production = 0
+duralumin_production = 0
+aircraft_spare_parts_production = 0
+ball_bearings_production = 0
+twenty_four_hour_shifts = 0
+jerrycan = 0
+hydrogen_peroxide_fuel = 0
+women_factory_workers = 0
+professional_industry_labor = 0
+conscript_industry_labor = 0
+
+#########################################################################
+# Secret Weapons Technology
+#########################################################################
+rocket_theory = 0
+secret_rocket_test_facility = 0
+rocket_engine = 0
+rocket_development = 0
+flying_bomb = 0
+strategic_rocket_engine = 0
+strategic_rocket_warhead = 0
+strategic_rocket_structure = 0
+strategic_rocket_propellent = 0
+strategic_rocket = 0
+rocket_interceptor_blueprint = 0
+rocket_interceptor_prototype = 0
+rocket_interceptor_testing = 0
+rocket_interceptor_production_model = 0
+theoretical_jet_engine = 0
+jet_engine_research = 0
+radio_controlled_bomb = 0
+radio_controlled_mine = 0
+atomic_research = 0
+nuclear_research = 0
+isotope_seperation = 0
+heavy_water_plant = 0
+nuclear_test_facility = 0
+nuclear_bomb_production = 0
+uranium_two_thirty_five_bomb = 0
+plutonium_two_thirty_nine_bomb = 0
+secret_aircraft_test_facility = 0
+
+#########################################################################
+# Advanced Technology
+#########################################################################
+nuclear_reactor_fission_station = 0
+large_scale_nuclear_reactor = 0
+hydrogen_bomb_development = 0
+hydrogen_bomb_tests = 0
+hydrogen_bomb_production = 0
+polio_vaccine = 0
+the_transistor = 0
+transistor_computer = 0
+integrated_circuit_computer = 0
+the_television_set = 0
+color_television_set = 0
+surface_to_air_missile_theory = 0
+surface_to_air_missile_development = 0
+optical_surface_to_air_missile = 0
+surface_to_air_missile = 0
+medium_range_sam_development = 0
+surface_to_surface_missile = 0
+mobile_sam_system = 0
+semi_active_radar_homing = 0
+active_radar_homing = 0
+two_stage_rocket_development = 0
+medium_range_ballistic_missiles = 0
+cruise_missiles = 0
+icbm = 0
+space_satellite = 0
+air_to_air_missile_development = 0
+heat_seeking_air_to_air_missile = 0
+radar_guided_air_to_air_missile = 0
+air_to_ground_missile_development = 0
+anti_tank_guided_missiles = 0
+anti_ship_cruise_missiles = 0
+anti_radiation_missiles = 0
+
+#########################################################################
+# Top Secret Projects
+#########################################################################
+wunderwaffe_program = 0
+venom_gatling_gun = 0
+ubersoldat_program = 0
+ubersoldat_development = 0
+ubersoldat_production = 0
+mg_fourty_six_machine_gun = 0
+stg_sixty_assault_rifle = 0
+mg_sixty_machine_gun = 0
+battle_robots = 0
+special_attack_units = 0
+midget_submarines = 0
+kamikazes = 0
+rocket_powered_kamikaze_plane = 0
+top_secret_war_programs = 0
+bat_and_bird_bomber_program = 0
+office_of_strategic_services = 0
+oss_missions = 0
+secret_intelligence_services = 0
+sis_missions = 0
+special_secret_programs = 0
+anti_tank_dogs = 0
+soviet_super_soldier_program = 0
+soviet_super_soldier_development = 0
+russki_howlin_commandos = 0
+
+#########################################################################
+# Infantry Technology
+#########################################################################
+rifle_prototype = 1
+carbine_prototype = 0
+submachineguns_prototype = 0
+assault_rifles_prototype = 0
+semi_automatic_rifle_distribution = 0
+submachinegun_distribution = 0
+assault_rifle_distribution = 0
+lmg_distribution = 0
+lmg_prototype = 0
+hmg_prototype = 0
+mortar_prototype = 0
+anti_tank_rifle_prototype = 0
+rocket_at_prototype = 0
+flamethrower_prototype = 0
+small_handguns = 1
+handgrenades = 1
+engineer_battalion = 0
+bridge_crossing_equipment = 0
+anti_personnel_mines = 0
+anti_tank_mines = 0
+demolitions = 0
+armoured_engineers = 0
+bulldozer = 0
+mine_clearing_tanks = 0
+division_service_battalion = 0
+division_maintenance_company = 0
+division_supply_company = 0
+division_medical_company = 0
+division_signal_battalion = 0
+division_radio_company = 0
+division_intel_company = 0
+recon_battalion = 1
+motorized_recon_battalion = 0
+recon_heavy_weapons_company = 0
+
+#########################################################################
+# Artillery
+#########################################################################
+infantry_guns = 1
+med_field_artillery = 1
+hvy_field_artillery = 0
+rocket_artillery = 0
+anti_tank_gun = 0
+anti_tank_gun_ammunition = 0
+anti_aircraft_gun = 0
+anti_aircraft_gun_ammunition = 0
+anti_tank_gun_battalion_hq = 0
+first_anti_tank_company = 0
+second_anti_tank_company = 0
+third_anti_tank_company = 0
+anti_aircraft_gun_battalion_hq = 0
+first_anti_aircraft_company = 0
+second_anti_aircraft_company = 0
+third_anti_aircraft_company = 0
+airborne_artillery = 0
+sp_artillery_prototype = 0
+sp_rocket_artillery_prototype = 0
+assault_gun_prototype = 0
+heavy_assault_gun_prototype = 0
+sp_anti_aircraft_prototype = 0
+he_artillery_shell = 0
+rocket_artillery_shell = 0
+illumination_shell = 0
+proximity_fuze = 0
+HEAT_shell = 0
+SABOT_shell = 0
+
+#########################################################################
+# Armour
+#########################################################################
+WWI_tank_designs = 0
+infantry_tank_design = 0
+light_tank_hull_designs = 0
+light_tank_engine_designs = 0
+light_tank_turret_designs = 0
+light_tank_track_and_suspension_designs = 0
+light_tank_armor_designs = 0
+light_tank_gun_designs = 0
+medium_tank_hull_designs = 0
+medium_tank_engine_designs = 0
+medium_tank_turret_designs = 0
+medium_tank_track_and_suspension_designs = 0
+medium_tank_armor_designs = 0
+medium_tank_gun_designs = 0
+heavy_tank_hull_designs = 0
+heavy_tank_engines_designs = 0
+heavy_tank_turret_designs = 0
+heavy_tank_track_and_suspension_designs = 0
+heavy_tank_armor_designs = 0
+heavy_tank_gun_designs = 0
+tank_final_drive_designs = 0
+tank_transmission_designs = 0
+tank_mantlet_designs = 0
+tank_blueprints = 0
+tank_prototype_and_testing = 0
+light_tank_prototype = 0
+medium_tank_prototype = 0
+light_tank_versions = 0
+light_medium_tank_versions = 0
+medium_tank_versions = 0
+heavy_medium_tank_versions = 0
+heavy_tank_prototype = 0
+armored_vehicle_prototype = 0
+super_heavy_tank_prototype = 0
+amphibious_tank_prototype = 0
+light_tank_destroyer_prototype = 0
+medium_tank_destroyer_prototype = 0
+heavy_tank_destroyer_prototype = 0
+
+#########################################
+# Moved
+#########################################
+gasoline_engines = 0
+diesel_engines = 0
+tank_ap_shells = 0
+tank_he_shells = 0
+
+#########################################################################
+# Advanced Ground Technologies
+#########################################################################
+tank_gun_ballistics = 0
+short_barrel_tank_gun_design = 0
+medium_velocity_tank_gun = 0
+high_velocity_tank_gun = 0
+extremely_high_velocity_tank_gun = 0
+tank_extra_front_armor = 0
+tank_extra_side_armor = 0
+tank_extra_mantlet_armor = 0
+rugged_and_simple_tank_designs = 0
+precision_engineered_tank_designs = 0
+versatile_tank_designs = 0
+crew_ergonomics = 0
+christie_suspension = 0
+torsion_bar_suspension = 0
+muzzle_brake = 0
+improved_engine_ventilation = 0
+commanders_cupola = 0
+larger_ammunition_storage_space = 0
+single_radius_steering_system = 0
+dual_radius_steering_system = 0
+interleaved_roadwheel_design = 0
+insulated_fuel_connectors = 0
+water_tight_engine_compartments = 0
+engine_governors = 0
+head_gasket_seal_designs = 0
+multi_stage_air_filters = 0
+hydraulic_turret_traversal = 0
+electric_turret_traversal = 0
+anti_tank_gun_adaptation = 0
+anti_personnel_defenses = 0
+battlefield_modified_armor = 0
+side_skirts = 0
+smoke_canisters = 0
+tactical_tank_radios = 0
+three_man_turret = 0
+advanced_tank_optics = 0
+sloped_armor = 0
+wide_tank_tracks = 0
+turret_mounted_machine_guns = 0
+wet_ammo_storage = 0
+command_tanks = 0
+
+#########################################################################
+# Advanced Ground Technologies
+#########################################################################
+advanced_rifles = 0
+advanced_assault_rifles = 0
+advanced_submachine_guns = 0
+advanced_light_machine_guns = 0
+advanced_mortars = 0
+advanced_anti_tank_grenade = 0
+assault_rifle_grenade_launcher = 0
+manpads = 0
+miniguns = 0
+minature_anti_personnel_mines = 0
+advanced_anti_tank_rockets = 0
+rocket_propelled_grenades = 0
+automatic_grenade_launcher = 0
+night_vision_technology = 0
+night_sniper_scope = 0
+tank_night_metascope = 0
+starlight_scope = 0
+advanced_tank_technology = 0
+compact_tank_engine = 0
+autoloader = 0
+mbt_armor_design = 0
+mbt_turret_design = 0
+mbt_chassis_design = 0
+mbt_suspension_design = 0
+mbt_main_gun_design = 0
+main_battle_tank = 0
+armored_personnel_carriers = 0
+standard_tank_design = 0
+complex_tank_design = 0
+extra_heavy_armor = 0
+eighty_eight_mm_tank_gun = 0
+eighty_eight_mm_tank_gun_long = 0
+seventeen_pounder_tank_gun = 0
+extremely_high_rate_of_fire_hmg = 0
+
+#########################################################################
+# Infantry Division Organization
+#########################################################################
+infantry_division_hq = 1
+first_infantry_regiment_hqtrs = 1
+first_infantry_battalion = 1
+second_infantry_battalion = 1
+third_infantry_battalion = 1
+first_infantry_artillery_company = 0
+first_infantry_anti_tank_company = 0
+first_infantry_heavy_weapons_company = 0
+second_infantry_regiment_hq = 1
+fourth_infantry_battalion = 1
+fifth_infantry_battalion = 1
+sixth_infantry_battalion = 1
+second_infantry_artillery_company = 0
+second_infantry_anti_tank_company = 0
+second_infantry_heavy_weapons_company = 0
+third_infantry_regiment_hq = 1
+seventh_infantry_battalion = 1
+eighth_infantry_battalion = 1
+ninth_infantry_battalion = 1
+third_infantry_artillery_company = 0
+third_infantry_anti_tank_company = 0
+third_infantry_heavy_weapons_company = 0
+artillery_regiment_hq = 1
+first_light_artillery_battalion = 1
+second_light_artillery_battalion = 1
+third_light_artillery_battalion = 1
+medium_artillery_battalion = 1
+heavy_artillery_battalion = 0
+rocket_artillery_battalion = 0
+military_horse_transport = 1
+light_motorized_transport = 0
+military_truck_transport = 0
+military_halftrack_transport = 0
+military_police = 0
+
+#########################################################################
+# Armor Division Organization
+#########################################################################
+armor_division_hq = 0
+armor_regiment_hq = 0
+first_tank_battalion = 0
+second_tank_battalion = 0
+third_tank_battalion = 0
+light_armor_regiment_hq = 0
+first_light_tank_battalion = 0
+second_light_tank_battalion = 0
+mechanized_division_hq = 0
+mechanized_regiment_hq = 0
+first_mechanized_battalion = 0
+second_mechanized_battalion = 0
+third_mechanized_battalion = 0
+first_mechanized_artillery_company = 0
+first_mechanized_heavy_weapons_company = 0
+mechanized_submachinegun_distribution = 0
+mechanized_assault_rifle_distribution = 0
+mechanized_lmg_distribution = 0
+light_tank_destroyer_battalion = 0
+medium_tank_destroyer_battalion = 0
+heavy_tank_destroyer_battalion = 0
+sp_artillery_battalion = 0
+sp_rocket_artillery_battalion = 0
+assault_gun_battalion = 0
+heavy_assault_gun_battalion = 0
+heavy_tank_battalion = 0
+super_heavy_tank_battalion = 0
+sp_anti_aircraft_battalion = 0
+armor_division_service_battalion = 0
+armor_maintenance_company = 0
+armor_supply_company = 0
+armor_medical_company = 0
+armor_signal_battalion = 0
+armor_radio_company = 0
+armor_intel_company = 0
+armored_recon_battalion = 1
+armored_recon_heavy_weapons_company = 0
+
+#########################################################################
+# Special Forces Organization
+#########################################################################
+light_infantry_regiment = 1
+mountain_infantry_regiment = 0
+airlanding_infantry_regiment = 0
+paratrooper_regiment = 0
+marine_regiment = 0
+ski_infantry_battalion = 0
+commando_battalion = 0
+air_commando_battalion = 0
+camoflauge_design = 0
+paratrooper_carbine_prototype = 0
+paratrooper_assault_rifle_prototype = 0
+paratrooper_recoilless_rifle_prototype = 0
+paratrooper_carbine_distribution = 0
+paratrooper_assault_rifle_distribution = 0
+paratrooper_recoilless_rifle_distribution = 0
+wheeled_amphibious_landing_craft_prototype = 0
+tracked_amphibious_landing_craft_prototype = 0
+amphibious_car_prototype = 0
+wheeled_amphibious_landing_craft_distribution = 0
+tracked_amphibious_landing_craft_distribution = 0
+amphibious_car_distribution = 0
+SF_Division_HQ = 1
+SF_first_regiment_HQ = 1
+SF_first_battalion = 1
+SF_second_battalion = 1
+SF_third_battalion = 1
+SF_first_light_gun_company = 0
+SF_second_regiment_HQ = 1
+SF_fourth_battalion = 1
+SF_fifth_battalion = 1
+SF_sixth_battalion = 1
+SF_second_light_gun_company = 0
+SF_third_regiment_HQ = 0
+SF_seventh_battalion = 0
+SF_eighth_battalion = 0
+SF_nineth_battalion = 0
+SF_third_light_gun_company = 0
+amphibious_tank_prototype = 0
+gliders_technology = 0
+
+#########################################################################
+# Advanced Organization
+#########################################################################
+army_division_reorganization = 0
+pentomic_division_structure = 0
+first_battlegroup = 0
+second_battlegroup = 0
+third_battlegroup = 0
+fourth_battlegroup = 0
+fifth_battlegroup = 0
+combat_brigade_reorganization = 0
+light_combat_brigade = 0
+heavy_combat_brigade = 0
+infantry_division_reorganization_nineteen_fourty_four = 0
+volksgrenadier_division_formation = 0
+air_assault_division = 0
+air_assault_brigade = 0
+airborne_division_reorganization = 0
+kampfgruppe_division = 0
+first_kampfgruppe = 0
+second_kampfgruppe = 0
+third_kampfgruppe = 0
+advanced_special_forces = 0
+underwater_demolition_teams = 0
+navy_seals = 0
+british_sas = 0
+army_special_forces_group = 0
+tank_division_reorganization = 0
+tank_brigade_reorganization = 0
+tank_battalion_reorganization = 0
+mechanized_division_reorganization = 0
+mech_infantry_brigade_reorganization = 0
+mech_infantry_battalion_reorganization = 0
+
+#########################################################################
+# Light Aircraft Techs
+#########################################################################
+wwi_biplane_designs = 1
+duralumin = 0
+fully_enclosed_cockpit = 0
+radial_and_inline_engine_design = 0
+mono_wing_design = 0
+retractable_landing_gear = 0
+fighter_armor = 0
+fighter_bomber_armor = 0
+cas_armor = 0
+light_aircraft_fuselage_design = 0
+light_aircraft_wing_design = 0
+light_aircraft_horizontal_stabilizer_design = 0
+light_aircraft_vertical_stabilizer_design = 0
+elliptical_wing_design = 0
+extremely_lightweight_airframe_design = 0
+light_aircraft_blueprint = 0
+light_aircraft_prototype_and_testing = 0
+light_aircraft_production_model = 0
+light_aircraft_engine_improvements = 0
+light_aircraft_internal_mechanical_improvements = 0
+light_aircraft_aerodynamic_improvements = 0
+light_aircraft_armament_improvements = 0
+light_aircraft_climatization_modifications = 0
+interceptor_focus = 0
+multi_role_fighter_focus = 0
+pursuit_fighter_focus = 0
+fighter_bomber_focus = 0
+close_air_support_focus = 0
+heavy_close_air_support_focus = 0
+fighter_bomb_load_plus = 0
+multi_role_fighter_bomb_load_plus = 0
+fighter_bomber_bomb_load_plus = 0
+cas_bomb_load_plus = 0
+heavy_cas_bomb_load_plus = 0
+fighter_bomb_load_minus = 0
+multi_role_fighter_bomb_load_minus = 0
+fighter_bomber_bomb_load_minus = 0
+cas_bomb_load_minus = 0
+heavy_cas_bomb_load_minus = 0
+
+#########################################################################
+# Naval Aircraft Techs
+#########################################################################
+naval_aircraft = 0
+naval_fuselage_design = 0
+naval_horizontal_stabilizer_design = 0
+naval_wing_design = 0
+naval_vertical_stabilizer_design = 0
+naval_aircraft_blueprint = 0
+naval_aircraft_prototype_and_testing = 0
+naval_aircraft_model = 0
+naval_aircraft_engine_improvements = 0
+naval_aircraft_internal_mechanical_improvements = 0
+naval_aircraft_aerodynamic_improvements = 0
+naval_aircraft_armament_improvements = 0
+naval_fighter_focus = 0
+naval_fighter_bomber_focus = 0
+naval_dive_bomber_focus = 0
+naval_torpedo_plane_focus = 0
+naval_cas_focus = 0
+naval_fighter_armor = 0
+naval_bomber_armor = 0
+naval_torpedo_plane_armor = 0
+tailhook = 0
+naval_fighter_bomb_load_plus = 0
+naval_fighter_bomber_bomb_load_plus = 0
+naval_dive_bomber_bomb_load_plus = 0
+naval_cas_bomb_load_plus = 0
+naval_fighter_bomb_load_minus = 0
+naval_fighter_bomber_bomb_load_minus = 0
+naval_dive_bomber_bomb_load_minus = 0
+naval_cas_bomb_load_minus = 0
+
+#########################################################################
+# Medium Aircraft
+#########################################################################
+twin_engine_aircraft = 0
+twin_engine_fuselage_design = 0
+twin_engine_horizontal_stabilizer_design = 0
+twin_engine_wing_design = 0
+twin_engine_vertical_stabilizer_design = 0
+twin_engine_aircraft_blueprint = 0
+twin_engine_aircraft_prototype_and_testing = 0
+twin_engine_aircraft_model = 0
+twin_engine_aircraft_engine_improvements = 0
+twin_engine_aircraft_internal_mechanical_improvements = 0
+twin_engine_aircraft_aerodynamic_improvements = 0
+twin_engine_aircraft_armament_improvements = 0
+twin_engine_fighter_focus = 0
+night_fighter_focus = 0
+multi_role_bomber_focus = 0
+tactical_bomber_focus = 0
+twin_engine_transport_focus = 0
+seaplane_focus = 0
+twin_engine_fighter_armor = 0
+multi_role_bomber_armor = 0
+tactical_bomber_armor = 0
+medium_bomber_nose_gunner = 0
+medium_bomber_side_gunners = 0
+medium_bomber_tail_gunner = 0
+medium_bomber_top_gunner = 0
+medium_bomber_dorsal_gun_turret = 0
+twin_engine_fighter_bomb_load_plus = 0
+multi_role_bomber_bomb_load_plus = 0
+tactical_bomber_bomb_load_plus = 0
+twin_engine_fighter_bomb_load_minus = 0
+multi_role_bomber_bomb_load_minus = 0
+tactical_bomber_bomb_load_minus = 0
+
+#########################################################################
+# Heavy Aircraft
+#########################################################################
+heavy_aircraft = 0
+heavy_aircraft_fuselage_design = 0
+heavy_aircraft_horizontal_stabilizer_design = 0
+heavy_aircraft_wing_design = 0
+heavy_aircraft_vertical_stabilizer_design = 0
+heavy_aircraft_blueprint = 0
+heavy_aircraft_prototype_and_testing = 0
+heavy_aircraft_model = 0
+heavy_aircraft_engine_improvements = 0
+heavy_aircraft_internal_mechanical_improvements = 0
+heavy_aircraft_aerodynamic_improvements = 0
+naval_bomber_focus = 0
+strategic_bomber_focus = 0
+heavy_bomber_focus = 0
+super_heavy_bomber_focus = 0
+heavy_bomber_nose_gunner = 0
+heavy_bomber_side_gunners = 0
+heavy_bomber_tail_gunner = 0
+heavy_bomber_top_gunner = 0
+heavy_bomber_nose_gun_turret = 0
+heavy_bomber_dorsal_gun_turret = 0
+heavy_bomber_ventral_gun_turret = 0
+heavy_bomber_tail_gun_turret = 0
+super_heavy_bomber_remote_gun_turrets = 0
+pressurized_cabin = 0
+strategic_bomber_bomb_load_plus = 0
+heavy_bomber_bomb_load_plus = 0
+super_heavy_bomber_bomb_load_plus = 0
+strategic_bomber_bomb_load_minus = 0
+heavy_bomber_bomb_load_minus = 0
+super_heavy_bomber_bomb_load_minus = 0
+
+#########################################################################
+# Aircraft Armament
+#########################################################################
+fighter_aircraft_machine_guns = 0
+fighter_aircraft_cannons = 0
+fighter_aircraft_mg_and_cannons = 0
+cas_aircraft_machine_guns = 0
+cas_aircraft_cannons = 0
+anti_tank_gun_adaptation = 0
+anti_bomber_cannon = 0
+anti_tank_gun_cannon = 0
+jet_fighter_aircraft_machine_guns = 0
+jet_fighter_aircraft_cannons = 0
+advanced_jet_aircraft_cannon = 0
+jet_aircraft_revolver_cannon = 0
+advanced_jet_six_barreled_gatling_cannon = 0
+vertical_firing_cannons = 0
+gun_pods = 0
+rear_gunner = 0
+remote_operated_turrets = 0
+air_to_ground_rockets = 0
+air_to_air_rockets = 0
+one_air_launched_torpedo = 0
+two_air_launched_torpedos = 0
+very_light_gp_bombs = 0
+light_gp_bombs = 0
+medium_gp_bombs = 0
+heavy_gp_bombs = 0
+aerial_bombs = 0
+cluster_bombs = 0
+incendiary_bombs = 0
+earthquake_bomb = 0
+
+#########################################################################
+# Aircraft Systems
+#########################################################################
+v_twelve_aircraft_engine = 0
+h_twenty_four_cylinder_aircraft_engine = 0
+eighteen_cylinder_radial_aircraft_engine = 0
+fourteen_cylinder_radial_aircraft_engine = 0
+nine_cylinder_radial_aircraft_engine = 0
+cable_flight_control_system = 0
+hydraulics_system = 0
+automatic_leading_edge_slots = 0
+hydraulic_pitch_regulator = 0
+electrical_pitch_regulator = 0
+ammo_counter = 0
+pushrod_and_bearing_flight_control_system = 0
+electrical_motor_systems = 0
+narrow_track_landing_gear = 0
+wide_track_landing_gear = 0
+variable_pitch_propeller = 0
+gun_sight = 0
+pressurized_cockpit = 0
+nitrous_oxide = 0
+bombing_sight = 0
+dive_brakes = 0
+acrylic_bubble_cockpit = 0
+self_sealing_fuel_tanks = 0
+drop_tanks = 0
+supercharger = 0
+fuel_injection = 0
+airborne_air_intercept_radar = 0
+air_to_surface_vessel_radar = 0 
+airborne_surface_search_radar = 0
+radar_guided_navigation_equipment = 0
+radar_altimeter = 0
+aircraft_radar_detectors = 0
+chaff = 0
+radio_navigation_equipment = 0
+aircraft_iff_transponders = 0
+aircraft_radios = 0
+intercoolers = 0
+turbo_chargers = 0
+water_methanol_injection = 0
+
+#########################################################################
+# Jet Techs
+#########################################################################
+jet_engine_design = 0
+jet_aerodynamics = 0
+jet_aircraft_fuselage_design = 0
+jet_aircraft_wing_design = 0
+jet_aircraft_horizontal_stabilizer_design = 0
+jet_aircraft_vertical_stabilizer_design = 0
+jet_aircraft_blueprint = 0
+jet_aircraft_prototype_and_testing = 0
+jet_aircraft_model = 0
+jet_engine_improvements = 0
+jet_internal_mechanical_improvements = 0
+jet_aerodynamic_improvements = 0
+jet_armament_improvements = 0
+jet_fighter_focus = 0
+jet_fighter_flying_wing_focus = 0
+jet_bomber_focus = 0
+jet_bomber_flying_wing_focus = 0
+jet_fighter_bomb_load_plus = 0
+jet_bomber_bomb_load_plus = 0
+jet_fighter_bomb_load_minus = 0
+jet_bomber_bomb_load_minus = 0
+jet_ejection_seat = 0
+jet_drop_tanks = 0
+emergency_fighter_program = 0
+flight_suits = 0
+flight_g_suits = 0
+flight_helmets = 0
+flight_oxygen_masks = 0
+
+#########################################################################
+# Advanced Aircraft Techs
+#########################################################################
+military_helicopter_theory = 0
+military_helicopter_blueprint = 0
+military_helicopter_prototype_and_testing = 0
+military_light_transport_helicopter = 0
+turboshaft_jet_engine = 0
+military_medium_transport_helicopter = 0
+military_heavy_transport_helicopter = 0
+helicopter_gunships = 0
+avionics = 0
+advanced_flight_equipment = 0
+transonic_aerodynamics = 0
+advanced_jet_guns = 0
+advanced_jet_fuselage_design = 0
+advanced_jet_wing_design = 0
+advanced_jet_delta_wing_design = 0
+advanced_jet_blueprint = 0
+advanced_jet_prototype_and_testing = 0
+advanced_jet_aircraft_model = 0
+advanced_jet_engine_improvements = 0
+advanced_jet_internal_mechanical_improvements = 0
+advanced_jet_aerodynamic_improvements = 0
+advanced_jet_armament_improvements = 0
+supersonic_development = 0
+afterburner = 0
+transonic_jet_engine_design = 0
+turboprop_engine_design = 0
+advanced_jet_horizontal_stabilizer_design = 0
+advanced_jet_vertical_stabilizer_design = 0
+jet_variable_geometry_wing_design = 0
+advanced_jet_fighter_focus = 0
+advanced_jet_cas_focus = 0
+advanced_jet_bomber_focus = 0
+advanced_jet_heavy_bomber_focus = 0
+tactical_transport_focus = 0
+advanced_jet_fighter_bomb_load_plus = 0
+advanced_jet_fighter_bomb_load_minus = 0
+advanced_jet_bomber_bomb_load_plus = 0
+advanced_jet_bomber_bomb_load_minus = 0
+
+#########################################################################
+# Submarine
+#########################################################################
+submarine_technology = 0
+submarine_class = 0
+submarine_propulsion = 0
+submarine_pressure_hull = 0
+submarine_batteries = 0
+submarine_anti_air = 0
+submarine_torpedo_tubes = 0
+submarine_crew_berthing = 0
+submarine_periscope = 0
+long_range_submarine_class = 0
+submarine_snorkel = 0
+submarine_streamlined_hull = 0
+submarine_air_independent_propulsion = 0
+submarine_torpedo_auto_loading_system = 0
+submarine_large_battery_capacity = 0
+submarine_thick_pressure_hull = 0
+submarine_air_conditioning = 0
+submarine_silent_running_drive = 0
+submarine_echo_chamber_sonar_system = 0
+support_submarines = 0
+submarine_tenders = 0
+submarine_active_sonars = 0
+submarine_hydrophones = 0
+submarine_radar_sets = 0
+submarine_fire_control = 0
+submarine_damage_control = 0
+submarine_torpedo = 0
+submarine_torpedo_warhead_and_fuzing = 0
+submarine_torpedo_guidance = 0
+submarine_torpedo_propulsion = 0
+submarine_acoustic_torpedo = 0
+
+#########################################################################
+# Destroyers
+#########################################################################
+destroyer_technology = 1
+destroyer_class = 1
+destroyer_main_armament = 1
+destroyer_secondary_armament = 1
+destroyer_propulsion = 1
+destroyer_armor = 1
+destroyer_hull_design = 1
+destroyer_crew_berthing = 1
+destroyer_fire_control_system = 0
+destroyer_anti_air_fire_control_system = 0
+destroyer_damage_control = 0
+destroyer_active_sonar = 0
+destroyer_hydrophones = 0
+destroyer_huff_duff = 0
+destroyer_surface_search_radar_set = 0
+destroyer_air_search_radar_set = 0
+destroyer_depth_charges = 0
+destroyer_hedgehog = 0
+destroyer_torpedo_launchers = 0
+destroyer_escort = 0
+patrol_torpedo_boat = 1
+cargo_ships = 0
+oil_tankers = 0
+armed_convoy_ships = 0
+seaplane_tenders = 0
+troop_transport_ships = 0
+amphibious_landing_craft = 0
+lst = 0
+landing_ship_dock = 0
+naval_ship_radios = 0
+
+#########################################################################
+# Cruisers
+#########################################################################
+light_cruiser_technology = 1
+light_cruiser_class = 1
+light_cruiser_main_armament = 1
+light_cruiser_secondary_armament = 1
+light_cruiser_anti_aircraft_guns = 1
+light_cruiser_propulsion = 1
+light_cruiser_armor = 1
+light_cruiser_hull_design = 1
+light_cruiser_crew_berthing = 1
+light_cruiser_fire_control_system = 0
+light_cruiser_anti_air_fire_control = 0
+light_cruiser_damage_control = 0
+anti_air_cruiser_class = 0
+heavy_cruiser_technology = 0
+heavy_cruiser_class = 1
+heavy_cruiser_main_armament = 1
+heavy_cruiser_secondary_armament = 1
+heavy_cruiser_anti_aircraft_guns = 1
+heavy_cruiser_propulsion = 1
+heavy_cruiser_armour = 1
+heavy_cruiser_hull_design = 1
+heavy_cruiser_crew_berthing = 1
+heavy_cruiser_fire_control_system = 0
+heavy_cruiser_anti_aircraft_fire_control = 0
+heavy_cruiser_damage_control = 0
+cruiser_surface_search_radar = 0
+cruiser_air_search_radar = 0
+cruiser_fire_control_radar = 0
+cruiser_active_sonar = 0
+cruiser_hydrophones = 0
+cruiser_depth_charges = 0
+
+#########################################################################
+# Capital ships
+#########################################################################
+pocket_battleship = 0
+battlecruiser_technology = 0
+battlecruiser_class = 0
+battlecruiser_main_armament = 0
+battlecruiser_secondary_armament = 0
+battlecruiser_anti_aircraft_guns = 0
+battlecruiser_propulsion = 0
+battlecruiser_armor = 0
+battlecruiser_hull_design = 0
+battlecruiser_crew_berthing = 0
+battlecruiser_fire_control_system = 0
+battlecruiser_anti_air_fire_control_system = 0
+battlecruiser_damage_control_system = 0
+battleship_technology = 0
+battleship_class = 0
+battleship_main_armament = 0
+battleship_secondary_armament = 0
+battleship_anti_air_guns = 0
+battleship_propulsion = 0
+battleship_armor = 0
+battleship_hull_design = 0
+battleship_crew_berthing = 0
+battleship_fire_control_systems = 0
+battleship_anti_air_fire_control_system = 0
+battleship_damage_control_system = 0
+super_heavy_battleship_technology = 0
+super_heavy_battleship_class = 0
+capital_ship_surface_search_radar = 0
+capital_ship_air_search_radar = 0
+capital_ship_fire_control_radar = 0
+capital_ship_floatplanes = 0
+capital_ship_combat_information_center = 0
+fast_battleship_design = 0
+
+#########################################################################
+# Carriers
+#########################################################################
+aircraft_carriers = 0
+fleet_carrier_class = 0
+aircraft_carrier_propulsion = 0
+aircraft_carrier_hangar_deck_design = 0
+aircraft_carrier_elevators = 0
+aircraft_carrier_superstructure_design = 0
+aircraft_carrier_flight_deck_design = 0
+aircraft_carrier_hull_design = 0
+aircraft_carrier_crew_berthing = 0
+aircraft_carrier_anti_aircraft_fire_control = 0
+aircraft_carrier_damage_control_system = 0
+light_aircraft_carrier_class = 0
+carrier_surface_search_radar = 0
+carrier_air_search_radar = 0
+carrier_fire_control_radar = 0
+carrier_combat_information_center = 0
+carrier_air_traffic_control_center = 0
+carrier_air_defence_control_center = 0
+escort_carrier_class = 0
+carrier_armored_flight_deck = 0
+carrier_catapults = 0
+fast_carrier_design = 0
+battlecarrier_class = 0
+
+#########################################################################
+# ADVANCED SUBMARINE TECHNOLOGIES
+#########################################################################
+small_nuclear_reactor_development = 0
+small_nuclear_reactor_testing = 0
+small_nuclear_reactor_design = 0
+nuclear_submarine_hull_design = 0
+nuclear_submarine_torpedo_tubes = 0
+nuclear_submarine_crew_berthing = 0
+nuclear_submarine_class = 0
+fast_attack_submarines = 0
+fast_attack_submarine_pressure_hull = 0
+fast_attack_submarine_crew_berthing = 0
+fast_attack_submarine_engine_compartment_design = 0
+fast_attack_submarine_sail_design = 0
+fast_attack_submarine_propeller_blade_design = 0
+fast_attack_submarine_class = 0
+ballistic_missile_submarines = 0
+ballistic_missile_submarine_pressure_hull_design = 0
+ballistic_missile_submarine_crew_berthing = 0
+ballistic_missile_submarine_engine_compartment_design = 0
+ballistic_missile_submarine_sail_design = 0
+ballistic_missile_submarine_propeller_blade_design = 0
+ballistic_missile_submarine_class = 0
+advanced_torpedoes = 0
+advanced_torpedo_propulsion_design = 0
+advanced_torpedo_warhead_design = 0
+advanced_acoustic_torpedoes = 0
+wake_homing_torpedoes = 0
+advanced_submarine_sonar = 0
+advanced_submarine_fire_control = 0
+
+#########################################################################
+# ADVANCED SHIP TECHNOLOGIES
+#########################################################################
+guided_missile_ships = 0
+guided_missile_destroyer_class = 0
+advanced_hull_designs = 0
+advanced_propulsion_designs = 0
+advanced_fire_control_radar = 0
+advanced_search_radar = 0
+advanced_crew_berthing_design = 0
+advanced_damage_control = 0
+naval_surface_to_surface_missiles = 0
+naval_surface_to_air_missiles = 0
+asroc_missiles = 0
+advanced_amphibious_ships = 0
+amphibious_transport_dock_ship = 0
+landing_platform_helicopter_ship = 0
+supercarrier = 0
+supercarrier_class = 0
+advanced_flight_deck_design = 0
+advanced_hangar_deck_design = 0
+advanced_aircraft_elevator_design = 0
+advanced_superstructure_design = 0
+advanced_catapults_design = 0
+angled_flight_deck_design = 0
+nuclear_powered_cruiser_class = 0
+nuclear_powered_aircraft_carrier_class = 0
+
+#########################################################################
+# Training doctrines
+#########################################################################
+infantry_division_field_exercises = 0
+infantry_regiment_field_exercises = 0
+infantry_battalion_field_exercises = 0
+infantry_company_field_exercises = 0
+direct_fire_battalion_field_exercises = 0
+direct_fire_company_field_exercises = 0
+mechanized_division_field_exercises = 0
+mechanized_regiment_field_exercises = 0
+mechanized_battalion_field_exercises = 0
+mechanized_company_field_exercises = 0
+artillery_regiment_field_exercises = 0
+artillery_battalion_field_exercises = 0
+artillery_battery_field_exercises = 0
+armor_division_field_exercises = 0
+armor_regiment_field_exercises = 0
+armor_battalion_field_exercises = 0
+armor_company_field_exercises = 0
+recon_battalion_field_exercises = 0
+recon_company_field_exercises = 0
+infantry_and_artillery_coordination = 0
+infantry_and_armor_coordination = 0
+infantry_and_air_coordination = 0
+armor_and_artillery_coordination = 0
+armor_and_air_coordination = 0
+partisan_suppression = 0
+resistance_support = 0
+advanced_fighter_pilot_training = 0
+advanced_bomber_pilot_training = 0
+advanced_bombadier_training = 0
+advanced_navigator_training = 0
+advanced_naval_aviator_training = 0
+advanced_maintenance_training = 0
+advanced_gunner_training = 0
+capital_ship_training_drills = 0
+cruiser_ship_training_drills = 0
+small_ship_training_drills = 0
+submarine_training_drills = 0
+surface_ship_night_training_drills = 0
+
+#########################################################################
+# Strategic doctrines
+#########################################################################
+world_war_one_warfare = 0
+cavalry_pursuit_tactics = 0
+attrition_warfare = 0
+stormtrooper_tactics = 0
+infiltration = 0
+artillery_barrage = 0
+grand_battle_plan = 0
+mass_assault = 0
+human_wave = 0
+banzai = 0
+Auftragstaktik = 0
+Befehlstaktik = 0
+assault_concentration = 0
+elastic_defense = 0
+strongpoint_tactics = 0
+defense_in_depth = 0
+pakfront = 0
+superior_strength = 0
+superior_firepower = 0
+blitzkrieg = 0
+schwerpunkt = 0
+spearhead = 0
+deep_battle_doctrine = 0
+army_field_manual = 0
+air_land_battle = 0
+independent_battalions = 0
+space_for_time = 0
+bushido_code = 0
+hedgehog_defense = 0
+urban_attrition = 0
+sniper_attrition = 0
+mechanized_advance = 0
+strategic_pincer = 0
+sniper_warfare = 0
+surprise_offensive_campaign = 0
+
+#########################################################################
+# SPECIAL FORCES DOCTRINES
+#########################################################################
+special_forces_integration = 0
+special_forces_independent_ops = 0
+special_forces_submachinegun_distribution = 0
+special_forces_assault_rifle_distribution = 0
+special_forces_lmg_distribution = 0
+special_forces_training = 0
+special_forces_mountain_training = 0
+special_forces_jungle_training = 0
+special_forces_night_training = 0
+special_forces_forest_training = 0
+special_forces_amphibious_training = 0
+special_forces_airborne_training = 0
+urban_special_tactics = 0
+arctic_warfare_tactics = 0
+covert_ops = 0
+infiltration_tactics = 0
+deep_recon = 0
+rescue_missions = 0
+amphibious_landing = 0
+amphibious_assault = 0
+amphibious_invasion = 0
+airborne_landing = 0
+airborne_assault = 0
+airborne_invasion = 0
+marine_fire_team_doctrine = 0
+
+#########################################################################
+# NAVAL DOCTRINES
+#########################################################################
+naval_aviation_doctrine = 0
+fleet_air_arm_support_role = 0
+carrier_air_strike = 0
+carrier_vs_carrier_duel = 0
+carrier_task_force = 0
+carrier_aircraft_invasion_support = 0
+marine_close_air_support = 0
+carrier_air_dominance = 0
+underway_replenishment = 0
+naval_repair_facilities = 0
+naval_supply_bases = 0
+fleeting_in_being = 0
+decisive_engagement_doctrine = 0
+medium_surface_engagements = 0
+small_surface_engagements = 0
+shore_bombardment_support = 0
+convoy_defense_doctrine = 0
+convoy_escorts = 0
+long_range_search_aircraft_coordination = 0
+zig_zag_course_changes = 0
+asdic_tactics = 0
+huffduff_tactics = 0
+hunter_killer_groups = 0
+submarine_warfare_doctrine = 0
+trade_interdiction_submarine_doctrine = 0
+submarine_daring_operations = 0
+submarine_reconaissance = 0
+submarine_capital_ship_doctrine = 0
+uncoordinated_convoy_attack = 0
+wolfpack_tactics = 0
+naval_patrol_aircraft_support = 0
+unrestricted_submarine_warfare = 0
+electro_boat_tactics = 0
+
+########################################################################
+# Tactical Land Doctrines
+#########################################################################
+trench_warfare_experience = 0
+infantry_assault_theory = 0
+fire_and_maneuver = 0
+infantry_tank_support_doctrine = 0
+fast_tank_destroyer_doctrine = 0
+artillery_time_on_target_doctrine = 0
+combat_command_doctrine = 0
+ground_tactical_air_support_doctrine = 0
+combined_arms_theory = 0
+regimental_combat_team = 0
+kampfgruppe = 0
+anti_tank_warfare = 0
+jungle_warfare_tactics = 0
+scout_sniper_teams = 0
+independent_snipers = 0
+machine_gun_focused_squads = 0
+armor_maneuver_warfare_doctrine = 0
+infantry_armor_coordination = 0
+armor_versus_armor_engagements = 0
+tank_destroyer_support_doctrine = 0
+infantry_anti_tank_tactics = 0
+infantry_close_air_support_doctrine = 0
+mobile_infantry_theory = 0
+mechanized_assault_tactics = 0
+pinpoint_barrage = 0
+search_barrage = 0
+lifting_barrage = 0
+standing_barrage = 0
+box_barrage = 0
+counter_battery_fire = 0
+
+########################################################################
+# AIR DOCTRINES
+#########################################################################
+air_superiority = 0
+air_intercept = 0
+fighter_sweep = 0
+dogfighting_tactics = 0
+bomber_escort = 0
+night_fighter_tactics = 0
+radar_ground_control = 0
+naval_aviation = 0
+combat_air_patrol = 0
+naval_strike = 0
+naval_shore_strike = 0
+naval_patrol_search = 0
+seaplane_pilot_rescue = 0
+strategic_bombing = 0
+daylight_precision_bombing = 0
+box_formation = 0
+night_area_bombing = 0
+strategic_bombing_command = 0
+fire_bombing = 0
+logistical_air_support = 0
+paradropped_supplies = 0
+heavy_airlift = 0
+medical_evacuation = 0
+tactical_air_support = 0
+interdiction = 0
+logistical_bombing = 0
+airbase_attack = 0
+installation_strike_tactics = 0
+tactical_air_command = 0
+close_air_support = 0
+dive_bombing = 0
+forward_air_controller = 0
+direct_air_support = 0
+flying_tank = 0
+
+########################################################################
+# ADVANCED LAND DOCTRINES
+#########################################################################
+limited_war = 0
+assymetric_warfare = 0
+guerilla_warfare = 0
+counter_assymetric_warfare = 0
+search_and_destroy_tactics = 0
+advanced_land_warfare = 0
+advanced_infantry_warfare = 0
+army_fire_teams = 0
+infantry_mobility_doctrine = 0
+mobile_artillery_integration = 0
+jager_zerstorer_doctrine = 0
+conscript_centric_warfare = 0
+multi_role_marine_doctrine = 0
+advanced_mechanized_warfare = 0
+leichte_panzer_grenadier_doctrine = 0
+mechanized_army_doctrine = 0
+infantry_fighting_vehicle_concept = 0
+mechanized_airborne_doctrine = 0
+anti_tank_guided_missile_tactics = 0
+advanced_armor_warfare = 0
+operational_maneuver_group = 0
+panzerjager_doctrine = 0
+nuclear_deterrence_doctrine = 0
+mbt_heavy_armor_doctrine = 0
+mbt_mobility_doctrine = 0
+mechanized_mbt_coordination_doctrine = 0
+advanced_airborne_warfare = 0
+air_mobile_operations = 0
+rapid_aerial_envelopment = 0
+tactical_airborne_reinforcement = 0
+gunship_support_tactics = 0
+advanced_battlefield_medicine = 0
+mobile_army_surgical_hospital = 0
+helicopter_air_ambulance = 0
+african_militia_activation = 0
+indian_infantry_activation = 0
+Luftwaffe_Infantry = 0
+
+########################################################################
+# ADVANCED AIR AND NAVAL DOCTRINES
+#########################################################################
+close_jet_air_to_air_dogfighting = 0
+bvr_jet_air_to_air_engagement = 0
+radar_intercept_officer_role = 0
+massive_airlift = 0
+jet_close_air_support = 0
+sead_missions = 0
+napalm_tactics = 0
+carpet_bombing = 0
+helicopter_close_air_support = 0
+advanced_helicopter_close_air_support = 0
+helicopter_medevac = 0
+helicopter_pilot_rescue = 0
+naval_guided_missile_offense_tactics = 0
+naval_guided_missile_defense_tactics = 0
+amphibious_helicopter_vertical_envelopment = 0
+nuclear_submarine_anti_ship_tactics = 0
+fast_attack_sub_vs_sub_tactics = 0
+carrier_battlegroup = 0
+advanced_surface_asw = 0
+helicopter_asw = 0
+
+#########################################################################
+# Division Increase Techs
+#########################################################################
+militia_increase = 0
+infantry_increase = 0
+special_forces_increase = 0
+mobile_increase = 0
+armor_increase = 0
+recon_increase = 0
+artillery_increase = 0
+armorsupport_increase = 0
+aa_at_increase = 0
+engineers_increase = 0
+SS_security_increase = 0
+SS_infantry_increase = 0
+SS_special_forces_increase = 0
+SS_mobile_increase = 0
+SS_armor_increase = 0
+SS_recon_increase = 0
+SS_artillery_increase = 0
+SS_armorsupport_increase = 0
+SS_aa_at_increase = 0
+SS_engineers_increase = 0
+NKVD_increase = 0
+Guards_infantry_increase = 0
+Guards_special_forces_increase = 0
+Guards_mobile_increase = 0
+Guards_armor_increase = 0
+Guards_artillery_increase = 0
+
+#########################################################################
+# Division Decrease Techs
+#########################################################################
+militia_decrease = 0
+infantry_decrease = 0
+special_forces_decrease = 0
+mobile_decrease = 0
+armor_decrease = 0
+recon_decrease = 0
+artillery_decrease = 0
+armorsupport_decrease = 0
+aa_at_decrease = 0
+engineers_decrease = 0
+SS_security_decrease = 0
+SS_infantry_decrease = 0
+SS_special_forces_decrease = 0
+SS_mobile_decrease = 0
+SS_armor_decrease = 0
+SS_recon_decrease = 0
+SS_artillery_decrease = 0
+SS_armorsupport_decrease = 0
+SS_aa_at_decrease = 0
+SS_engineers_decrease = 0
+NKVD_decrease = 0
+Guards_infantry_decrease = 0
+Guards_special_forces_decrease = 0
+Guards_mobile_decrease = 0
+Guards_armor_decrease = 0
+Guards_artillery_decrease = 0
+
+#########################################################################
+# Command Techs
+#########################################################################
+brigade_command_structure = 0
+divisonal_command_structure = 0
+Corps_command_structure = 0
+army_command_structure = 0
+armygroup_command_structure = 0
+supreme_command_coordination = 0
+interservice_HQ_structure = 0
+battlecommander_chance = 0
+mot_HQ_tech = 0
+mech_HQ_tech = 0
+armor_HQ_tech = 0
+mtn_HQ_tech = 0
+marine_HQ_tech = 0
+para_HQ_tech = 0
+ss_HQ_tech = 0
+ss_mot_HQ_tech = 0
+ss_mech_HQ_tech = 0
+ss_pz_HQ_tech = 0
+guard_HQ_tech = 0
+guard_mot_HQ_tech = 0
+guard_mech_HQ_tech = 0
+guard_armor_HQ_tech = 0
+guard_para_HQ_tech = 0
+guard_shock_HQ_tech = 0
+air_HQ_tech = 0
+naval_HQ_tech = 0
+
+########################################
+# Other
+########################################
+leader_activation = 0
+battle_commander_brigade_activation = 0
+
+popularity = { 
+	national_socialist = 0
+	fascistic = 0
+	paternal_autocrat = 65
+	social_conservative = 35
+	market_liberal = 0
+	social_liberal = 0
+	social_democrat = 0
+	left_wing_radical = 0
+	leninist = 0
+	stalinist = 0
+}
+
+organization = { 
+	national_socialist = 0
+	fascistic = 0
+	paternal_autocrat = 80
+	social_conservative = 65
+	market_liberal = 0
+	social_liberal = 0
+	social_democrat = 0
+	left_wing_radical = 0
+	leninist = 0
+	stalinist = 0
+}
+
+training_laws = minimal_training
+press_laws = censored_press
+industrial_policy_laws = consumer_product_orientation
+education_investment_law = minimal_education_investment
+economic_law = full_civilian_economy
+conscription_law = volunteer_army
+civil_law = limited_restrictions
+

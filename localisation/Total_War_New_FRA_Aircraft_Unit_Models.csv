@@ -1,0 +1,103 @@
+################################################;;;;;;;;;;;;;;x
+# French New Aircraft Unit Model Names;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Fighter Aircraft ;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+FRA_interceptor_0;Dewotine D.500;;;;;;;;;;;;;x
+FRA_interceptor_1;Dewotine D.510;;;;;;;;;;;;;x
+FRA_interceptor_2;Dewotine D.520;;;;;;;;;;;;;x
+FRA_interceptor_3;Bloch MB.152;;;;;;;;;;;;;x
+FRA_interceptor_4;Dewoitine D.552;;;;;;;;;;;;;x
+FRA_interceptor_5;Bloch MB.157;;;;;;;;;;;;;x
+FRA_interceptor_6;Arsenal VB 10;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_multi_role_0;Morane-Saulnier MS.405;;;;;;;;;;;;;x
+FRA_multi_role_1;Morane-Saulnier MS.406;;;;;;;;;;;;;x
+FRA_multi_role_2;Arsenal VG.33/36;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_cas_0;Breguet XIX;;;;;;;;;;;;;x
+FRA_cas_1;ANF Les Mureaux 115;;;;;;;;;;;;;x
+FRA_cas_2;ANF Les Mureaux 117;;;;;;;;;;;;;x
+FRA_cas_3;Loire-Nieuport LN.42;;;;;;;;;;;;;x
+FRA_cas_4;Latecoere 299;;;;;;;;;;;;;x
+FRA_cas_5;Bloch MB.156;;;;;;;;;;;;;x
+FRA_cas_6;Bloch MB.157;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_cag_0;PL.10;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_naval_fighter_0;D.501;;;;;;;;;;;;;;x
+FRA_naval_fighter_1;D.373;;;;;;;;;;;;;;x
+FRA_naval_fighter_2;MB.152;;;;;;;;;;;;;;x
+FRA_naval_fighter_3;MB.157;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_naval_torpedo_plane_4;D.750;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_twin_engine_fighters_0;Hanriot H.220;;;;;;;;;;;;;x
+FRA_twin_engine_fighters_1;Hanriot H-232;;;;;;;;;;;;;x
+FRA_twin_engine_fighters_2;Potez 630;;;;;;;;;;;;;x
+FRA_twin_engine_fighters_3;Potez 631;;;;;;;;;;;;;x
+FRA_twin_engine_fighters_4;Potez 671;;;;;;;;;;;;;x
+FRA_twin_engine_fighters_5;Bloch MB.174;;;;;;;;;;;;;x
+FRA_twin_engine_fighters_6;SNCASE SE.100;;;;;;;;;;;;;x
+FRA_twin_engine_fighters_7;SNCAC NC-600;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_light_bomber_0;Bleriot 127;;;;;;;;;;;;;x
+FRA_light_bomber_1;Breguet 410;;;;;;;;;;;;;x
+FRA_light_bomber_2;Breguet 460;;;;;;;;;;;;;x
+FRA_light_bomber_3;Breguet 693;;;;;;;;;;;;;x
+FRA_light_bomber_4;Amiot 351;;;;;;;;;;;;;x
+FRA_light_bomber_5;Bloch MB.175;;;;;;;;;;;;;x
+FRA_light_bomber_6;Amiot 354;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_tactical_bomber_0;Amiot 143;;;;;;;;;;;;;x
+FRA_tactical_bomber_1;Bloch MB.210;;;;;;;;;;;;;x
+FRA_tactical_bomber_2;Bloch MB.131;;;;;;;;;;;;;x
+FRA_tactical_bomber_3;Liore-Oliver LeO 451;;;;;;;;;;;;;x
+FRA_tactical_bomber_4;Amiot 354;;;;;;;;;;;;;x
+FRA_tactical_bomber_5;SNCAC NC.150;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_transport_plane_0;Bloch MB.221;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_Flying_boat_0;Latecoere 300;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_naval_bomber_0;Liore et Olivier LeO 257;;;;;;;;;;;;;x
+FRA_naval_bomber_1;Liore et Olivier LeO 257bis;;;;;;;;;;;;;x
+FRA_naval_bomber_2;Latecoere 298a;;;;;;;;;;;;;x
+FRA_naval_bomber_3;Latecoere 298d;;;;;;;;;;;;;x
+FRA_naval_bomber_4;Liore et Olivier LeO H46;;;;;;;;;;;;;x
+FRA_naval_bomber_5;Loire-Nieuport 10;;;;;;;;;;;;;x
+FRA_naval_bomber_6;SNCAO CAO.600;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_strategic_bomber_0;Farman F.222;;;;;;;;;;;;;x
+FRA_strategic_bomber_1;Farman F.420;;;;;;;;;;;;;x
+FRA_strategic_bomber_2;Bloch MB.162;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_quad_engine_transport_6;SE.161 Languedoc;;;;;;;;;;;;;x
+FRA_quad_engine_transport_13;Breguet Br.765 Sahara;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_rocket_interceptor_4;Dassault MD 450 Ouragan;;;;;;;;;;;;;x
+FRA_rocket_interceptor_6;Dassault Mystere IIC;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_jet_flying_wing_5;Sud-Est SE.530 Mistral;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_advanced_jet_fighter_5;Mirage IIIC;;;;;;;;;;;;;;x
+FRA_advanced_jet_fighter_6;Mirage IIIE;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+FRA_tactical_transport_aircraft_0;Nord Noratlas;;;;;;;;;;;;;;x
+FRA_tactical_transport_aircraft_5;Transall C-160;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

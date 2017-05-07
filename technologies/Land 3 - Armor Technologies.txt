@@ -1,0 +1,4006 @@
+# Armor Technology
+#########################################################################################
+## WWI Tank Designs
+#########################################################################################
+WWI_tank_designs = {
+	
+	allow = {
+		world_war_one_warfare = 1
+		trench_warfare_experience = 1
+	}
+	
+	tactic_superior_breakthrough = 1
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = spearhead_theory
+
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1918
+	folder = armour_folder
+}
+#########################################################################################
+## Infantry Tank Design
+#########################################################################################
+infantry_tank_design = {
+
+	allow = {
+		WWI_tank_designs = 1
+				
+	}
+	
+	activate_unit = infantry_tank_brigade
+	
+	infantry_tank_brigade = {
+		build_cost_ic = 2.00	# x3 Companies	
+		build_time = 10
+		soft_attack = 0.60
+		hard_attack = 0.20
+		defensiveness = 0.85
+		supply_consumption = 0.10
+		fuel_consumption = 0.10
+		default_organisation = -1.0
+		armor_value = 1
+		ap_attack = 0.50
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1933
+	first_offset = 1935
+	additional_offset = 2
+	max_level = 5
+	folder = armour_folder
+}
+#########################################################################################
+## Light Tank Prototype
+#########################################################################################
+light_tank_prototype = {
+	
+	allow = {
+		
+		OR = {
+			AND = { 
+				NOT = { light_tank_prototype = 1 } # 1932
+				tank_prototype_and_testing = 1 # 1932
+				light_tank_hull_designs = 1 # 1932
+				light_tank_engine_designs = 1 # 1932
+				light_tank_turret_designs = 1 # 1932
+				light_tank_track_and_suspension_designs = 1 # 1932
+				light_tank_armor_designs = 1 # 1932
+				light_tank_gun_designs = 1	 # 1932	
+			}
+			AND = { 
+				NOT = { light_tank_prototype = 2 } # 1936
+				tank_prototype_and_testing = 2 # 1935
+				OR = { 
+					light_tank_hull_designs = 2 # 1936
+					light_tank_engine_designs = 2 # 1936
+				}
+				OR = { 
+					light_tank_turret_designs = 2 # 1936
+					light_tank_track_and_suspension_designs = 2 # 1936
+				}
+				OR = { 
+					light_tank_armor_designs = 2 # 1936
+					light_tank_gun_designs = 2 # 1936
+				}	
+			}
+			AND = { 
+				NOT = { light_tank_prototype = 3 } # 1939
+				tank_prototype_and_testing = 4 # 1939
+				OR = { 
+					light_tank_hull_designs = 3 # 1939
+					light_tank_engine_designs = 3 # 1939
+				}
+				OR = { 
+					light_tank_turret_designs = 3 # 1939
+					light_tank_track_and_suspension_designs = 3 # 1939
+				}
+				OR = { 
+					light_tank_armor_designs = 3 # 1939
+					light_tank_gun_designs = 3 # 1939
+				}	
+			}
+			AND = { 
+				NOT = { light_tank_prototype = 4 } # 1942
+				tank_prototype_and_testing = 5 # 1941
+				OR = { 
+					light_tank_hull_designs = 4 # 1942
+					light_tank_engine_designs = 4 # 1942
+				}
+				OR = { 
+					light_tank_turret_designs = 4 # 1942
+					light_tank_track_and_suspension_designs = 4 # 1942
+				}
+				OR = { 
+					light_tank_armor_designs = 4 # 1942
+					light_tank_gun_designs = 4 # 1942
+				}	
+			}
+			AND = {
+				NOT = { light_tank_prototype = 5 } # 1945
+				tank_prototype_and_testing = 7 # 1945
+				OR = { 
+					light_tank_hull_designs = 5 # 1945
+					light_tank_engine_designs = 5 # 1945
+				}
+				OR = { 
+					light_tank_turret_designs = 5 # 1945
+					light_tank_track_and_suspension_designs = 5 # 1945
+				}
+				OR = { 
+					light_tank_armor_designs = 5 # 1945
+					light_tank_gun_designs = 5 # 1945
+				}
+			}
+		}
+	}
+		
+	tactic_armor_attack = 1
+		
+	change = yes
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	start_year = 1932 # Level 1
+	first_offset = 1936 # Level 2
+	additional_offset = 3 # Level 3 & 4 - 1939 & 1942 & 1945
+	max_level = 5
+	folder = armour_folder
+}
+#########################################################################################
+## Light Tank Hull Designs
+#########################################################################################
+light_tank_hull_designs = {
+
+	allow = {
+	
+		WWI_tank_designs = 1
+			
+	}
+	
+	light_armor_brigade = {
+		maximum_speed = 0.15
+		supply_consumption = 0.01
+		default_organisation = -0.25
+		toughness = -0.25
+		air_defence = 0.15
+		soft_attack = 0.50
+		hard_attack = 0.10
+		defensiveness = 0.50
+		ap_attack = 0.10
+	}
+	light_armor_bat = {
+		maximum_speed = 0.15
+		supply_consumption = 0.01
+		default_organisation = -0.25
+		toughness = -0.25
+		air_defence = 0.15
+		soft_attack = 0.25
+		hard_attack = 0.05
+		defensiveness = 0.25
+		ap_attack = 0.05
+	}
+	
+	tank_destroyer_brigade = {
+		maximum_speed = 0.15
+		supply_consumption = 0.01
+		default_organisation = -0.25
+		toughness = -0.25
+		air_defence = 0.15
+		soft_attack = 0.25
+		hard_attack = 0.05
+		defensiveness = 0.25
+		ap_attack = 0.05
+	}
+		
+	change = no
+	
+	can_upgrade = no	
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1932 # Level 1
+	first_offset = 1936 # Level 2
+	additional_offset = 3 # Level 3 & 4 - 1939 & 1942 & 1945
+	max_level = 5
+	folder = armour_folder
+}
+
+#########################################################################################
+## Light Tank Engine Designs
+#########################################################################################
+light_tank_engine_designs = {
+
+	allow = {
+	
+		WWI_tank_designs = 1
+			
+	}
+	
+	light_armor_brigade = {
+		maximum_speed = 0.25
+		fuel_consumption = 0.02
+	}
+	light_armor_bat = {
+		maximum_speed = 0.25
+		fuel_consumption = 0.02
+	}
+	
+	tank_destroyer_brigade = {
+		maximum_speed = 0.25
+		fuel_consumption = 0.02
+	}
+		
+	change = no
+	
+	can_upgrade = no	
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1932 # Level 1
+	first_offset = 1936 # Level 2
+	additional_offset = 3 # Level 3 & 4 - 1939 & 1942 & 1945
+	max_level = 5
+	folder = armour_folder
+}
+
+#########################################################################################
+## Light Tank Turret Designs
+#########################################################################################
+light_tank_turret_designs = {
+
+	allow = {
+		
+		WWI_tank_designs = 1
+	}
+		
+	light_armor_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.05
+		air_defence = 0.25
+	}
+	light_armor_bat = {
+		default_organisation = 0.25
+		armor_value = 0.10
+		air_defence = 0.25
+	}
+	
+	
+	
+	change = no
+	
+	can_upgrade = no
+			
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1932 # Level 1
+	first_offset = 1936 # Level 2
+	additional_offset = 3 # Level 3 & 4 - 1939 & 1942 & 1945
+	max_level = 5
+	folder = armour_folder
+}
+
+#########################################################################################
+## Light Tank Track and Suspension Designs
+#########################################################################################
+light_tank_track_and_suspension_designs = {
+
+	allow = {
+	
+		WWI_tank_designs = 1
+				
+	}
+		
+	light_armor_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	light_armor_bat = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	tank_destroyer_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	change = no
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1932 # Level 1
+	first_offset = 1936 # Level 2
+	additional_offset = 3 # Level 3 & 4 - 1939 & 1942 & 1945
+	max_level = 5
+	folder = armour_folder
+}
+
+#########################################################################################
+## Light Tank Armor Designs
+#########################################################################################
+light_tank_armor_designs = {
+
+	allow = {
+		
+		WWI_tank_designs = 1	
+	}
+	
+	light_armor_brigade = {
+		armor_value = 0.15
+		air_defence = 0.20
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+	light_armor_bat = {
+		armor_value = 0.15
+		air_defence = 0.20
+		toughness = -0.25
+		maximum_speed = -0.05
+	}	
+	
+	tank_destroyer_brigade = {
+		armor_value = 0.15
+		air_defence = 0.20
+		toughness = -0.25
+		maximum_speed = -0.05
+	}
+		
+	change = no
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1932 # Level 1
+	first_offset = 1936 # Level 2
+	additional_offset = 3 # Level 3 & 4 - 1939 & 1942 & 1945
+	max_level = 5
+	folder = armour_folder
+}
+#########################################################################################
+## Light Tank Gun Designs
+#########################################################################################
+light_tank_gun_designs = {
+
+	allow = {
+		
+		WWI_tank_designs = 1	
+	}
+	
+	light_armor_brigade = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+		toughness = -0.25
+		maximum_speed = -0.15
+	}
+	light_armor_bat = {
+		soft_attack = 0.15
+		defensiveness = 0.15
+		toughness = -0.25
+		maximum_speed = -0.15
+	}	
+	
+	
+		
+	change = no
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1932 # Level 1
+	first_offset = 1936 # Level 2
+	additional_offset = 3 # Level 3 & 4 - 1939 & 1942 & 1945
+	max_level = 5
+	folder = armour_folder
+}
+
+#########################################################################################
+## Medium Tank Prototype
+#########################################################################################
+medium_tank_prototype = {
+
+	allow = {
+		
+		OR = {
+			AND = { 
+				NOT = { medium_tank_prototype = 1 } # 1935
+				tank_prototype_and_testing = 1 # 1935
+				combined_arms_theory = 1
+				medium_tank_hull_designs = 1
+				medium_tank_engine_designs = 1
+				medium_tank_turret_designs = 1
+				medium_tank_track_and_suspension_designs = 1
+				medium_tank_armor_designs = 1
+				medium_tank_gun_designs = 1
+			}
+			AND = { 
+				NOT = { medium_tank_prototype = 2 } # 1939
+				tank_prototype_and_testing = 4 # 1939
+				OR = { 
+					medium_tank_hull_designs = 2 # 1939
+					medium_tank_engine_designs = 2 # 1939
+				}
+				OR = { 
+					medium_tank_turret_designs = 2 # 1939
+					medium_tank_track_and_suspension_designs = 2 # 1939
+				}
+				OR = { 
+					medium_tank_armor_designs = 2 # 1939
+					medium_tank_gun_designs = 2 # 1939
+				}	
+			}
+			AND = { 
+				NOT = { medium_tank_prototype = 3 } # 1942
+				tank_prototype_and_testing = 5 # 1941
+				OR = { 
+					medium_tank_hull_designs = 3 # 1942
+					medium_tank_engine_designs = 3 # 1942
+				}
+				OR = { 
+					medium_tank_turret_designs = 3 # 1942
+					medium_tank_track_and_suspension_designs = 3 # 1942
+				}
+				OR = { 
+					medium_tank_armor_designs = 3 # 1942
+					medium_tank_gun_designs = 3 # 1942
+				}	
+			}
+			AND = { 
+				NOT = { medium_tank_prototype = 4 } # 1945
+				tank_prototype_and_testing = 7 # 1945
+				OR = { 
+					medium_tank_hull_designs = 4 # 1945
+					medium_tank_engine_designs = 4 # 1945
+				}
+				OR = { 
+					medium_tank_turret_designs = 4 # 1945
+					medium_tank_track_and_suspension_designs = 4 # 1945
+				}
+				OR = { 
+					medium_tank_armor_designs = 4 # 1945
+					medium_tank_gun_designs = 4 # 1945
+				}	
+			}	
+		}
+	}
+	
+			
+	tactic_armor_attack = 2
+	
+	tactic_armor_defense = 2
+			
+	change = yes
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 3
+	max_level = 4
+	folder = armour_folder
+}
+
+#########################################################################################
+## Medium Tank Hull Designs
+#########################################################################################
+medium_tank_hull_designs = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { medium_tank_hull_designs = 1 } # 1935
+				combined_arms_theory = 1
+				WWI_tank_designs = 1
+			}	
+			AND = {
+				NOT = { medium_tank_hull_designs = 2 } # 1939
+				OR = { 
+					AND = { 
+						land_battles_fought = 600
+						infantry_tank_support_doctrine = 1
+					}
+					OR = { 
+						land_battles_fought = 500
+						armor_maneuver_warfare_doctrine = 4
+					}
+					AND = { 
+						germany = 1
+						blitzkrieg = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}
+			AND = {
+				NOT = { medium_tank_hull_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { medium_tank_hull_designs = 4 } # 1945
+				land_battles_fought = 2000
+			}
+		}
+		
+	}
+		
+	armor_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 1.00
+		ap_attack = 0.25
+	}
+	armor_bat = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 0.50
+		hard_attack = 0.25
+		ap_attack = 0.10
+	}
+	
+	
+	guard_armor_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 1.00
+		ap_attack = 0.25
+	}
+	guard_armor_bat = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 0.50
+		hard_attack = 0.25
+		defensiveness = 0.50
+		ap_attack = 0.10
+	}
+	
+	ss_armor_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 1.00
+		ap_attack = 0.25
+	}
+	ss_armor_bat = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 0.50
+		hard_attack = 0.25
+		defensiveness = 0.50
+		ap_attack = 0.10
+	}
+	
+	lehr_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 1.00
+		ap_attack = 0.25
+	}	
+	
+	afrika_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 1.00
+		ap_attack = 0.25
+	}
+	
+	desertrats_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 1.00
+		ap_attack = 0.25
+	}
+	
+	combined_arms_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 0.50
+		ap_attack = 0.25
+	}
+		
+	amph_armour_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 0.50
+		ap_attack = 0.25
+	}
+	
+	medium_tank_destroyer_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 0.50
+		ap_attack = 0.25
+	}
+	
+	ss_tank_destroyer_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 0.50
+		ap_attack = 0.25
+	}
+		
+	armored_support_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 0.50
+		ap_attack = 0.25
+	}
+	
+	ss_armored_support_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 0.50
+		ap_attack = 0.25
+	}
+	
+	assault_gun_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.01
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.50
+		soft_attack = 1.00
+		hard_attack = 0.50
+		defensiveness = 0.50
+		ap_attack = 0.25
+	}
+			
+	change = no
+	
+	can_upgrade = no	
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 3
+	max_level = 4
+	folder = armour_folder
+}
+#########################################################################################
+## Medium Tank Engine Designs
+#########################################################################################
+medium_tank_engine_designs = {
+
+	allow = {
+	
+		OR = { 
+			
+			AND = {
+				NOT = { medium_tank_engine_designs = 1 } # 1935
+				combined_arms_theory = 1
+				WWI_tank_designs = 1
+			}	
+			AND = {
+				NOT = { medium_tank_engine_designs = 2 } # 1939
+				OR = { 
+					AND = { 
+						land_battles_fought = 600
+						infantry_tank_support_doctrine = 1
+					}
+					OR = { 
+						land_battles_fought = 500
+						armor_maneuver_warfare_doctrine = 4
+					}
+					AND = { 
+						germany = 1
+						blitzkrieg = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}
+			AND = {
+				NOT = { medium_tank_engine_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { medium_tank_engine_designs = 4 } # 1945
+				land_battles_fought = 2000
+			}
+		}
+			
+	}
+		
+	armor_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.04
+	}
+	armor_bat = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.02
+	}
+	
+	
+	guard_armor_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.04
+	}
+	guard_armor_bat = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.02
+	}
+	
+	ss_armor_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.04
+	}
+	ss_armor_bat = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.02
+	}
+	
+	lehr_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.04
+	}	
+	
+	afrika_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.04
+	}
+	
+	desertrats_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.04
+	}
+	
+	combined_arms_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.02
+	}
+		
+	amph_armour_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.02
+	}
+	
+	medium_tank_destroyer_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.02
+	}
+	
+	ss_tank_destroyer_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.02
+	}
+		
+	armored_support_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.02
+	}
+	
+	ss_armored_support_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.02
+	}
+	
+	assault_gun_brigade = {
+		maximum_speed = 0.15
+		fuel_consumption = 0.02
+	}
+			
+	change = no
+	
+	can_upgrade = no	
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 3
+	max_level = 4
+	folder = armour_folder
+}
+
+#########################################################################################
+## Medium Tank Turret Designs
+#########################################################################################
+medium_tank_turret_designs = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { medium_tank_turret_designs = 1 } # 1935
+				combined_arms_theory = 1
+				WWI_tank_designs = 1
+			}	
+			AND = {
+				NOT = { medium_tank_turret_designs = 2 } # 1939
+				OR = { 
+					AND = { 
+						land_battles_fought = 600
+						infantry_tank_support_doctrine = 1
+					}
+					OR = { 
+						land_battles_fought = 500
+						armor_maneuver_warfare_doctrine = 4
+					}
+					AND = { 
+						germany = 1
+						blitzkrieg = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}
+			AND = {
+				NOT = { medium_tank_turret_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { medium_tank_turret_designs = 4 } # 1945
+				land_battles_fought = 2000
+			}
+		}	
+	}
+	
+	armor_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.20
+		air_defence = 0.40
+	}
+	armor_bat = {
+		default_organisation = 0.25
+		armor_value = 0.20
+		air_defence = 0.40
+	}
+	
+	
+	guard_armor_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.20
+		air_defence = 0.40
+	}
+	guard_armor_bat = {
+		default_organisation = 0.25
+		armor_value = 0.20
+		air_defence = 0.40
+	}
+	
+	ss_armor_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.20
+		air_defence = 0.40
+	}
+	ss_armor_bat = {
+		default_organisation = 1
+		armor_value = 0.25
+		ap_attack = 0.25
+		air_defence = 0.50
+	}
+	
+	lehr_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.20
+		air_defence = 0.40
+	}	
+	
+	afrika_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.20
+		air_defence = 0.40
+	}
+	
+	desertrats_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.20
+		air_defence = 0.40
+	}
+	
+	combined_arms_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.20
+		air_defence = 0.40
+	}
+		
+	amph_armour_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.20
+		air_defence = 0.40
+	}
+	
+	
+	
+	change = no
+	
+	can_upgrade = no
+			
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 3
+	max_level = 4
+	folder = armour_folder
+}
+
+#########################################################################################
+## Medium Tank Track and Suspension Designs
+#########################################################################################
+medium_tank_track_and_suspension_designs = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { medium_tank_track_and_suspension_designs = 1 } # 1935
+				combined_arms_theory = 1
+				WWI_tank_designs = 1
+			}	
+			AND = {
+				NOT = { medium_tank_track_and_suspension_designs = 2 } # 1939
+				OR = { 
+					AND = { 
+						land_battles_fought = 600
+						infantry_tank_support_doctrine = 1
+					}
+					OR = { 
+						land_battles_fought = 500
+						armor_maneuver_warfare_doctrine = 4
+					}
+					AND = { 
+						germany = 1
+						blitzkrieg = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}
+			AND = {
+				NOT = { medium_tank_track_and_suspension_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { medium_tank_track_and_suspension_designs = 4 } # 1945
+				land_battles_fought = 2000
+			}
+		}
+				
+	}
+	
+	armor_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	armor_bat = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	guard_armor_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	guard_armor_bat = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	ss_armor_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	ss_armor_bat = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	lehr_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}	
+	
+	afrika_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	desertrats_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	combined_arms_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+		
+	amph_armour_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	medium_tank_destroyer_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	ss_tank_destroyer_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+		
+	armored_support_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	ss_armored_support_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	assault_gun_brigade = {
+		plains = {
+			movement = 0.03 
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03 
+		}
+	}
+	
+	
+	change = no
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 3
+	max_level = 4
+	folder = armour_folder
+}
+
+#########################################################################################
+## Medium Tank Armor Designs
+#########################################################################################
+medium_tank_armor_designs = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { medium_tank_armor_designs = 1 } # 1935
+				combined_arms_theory = 1
+				WWI_tank_designs = 1
+			}	
+			AND = {
+				NOT = { medium_tank_armor_designs = 2 } # 1939
+				OR = { 
+					AND = { 
+						land_battles_fought = 600
+						infantry_tank_support_doctrine = 1
+					}
+					OR = { 
+						land_battles_fought = 500
+						armor_maneuver_warfare_doctrine = 4
+					}
+					AND = { 
+						germany = 1
+						blitzkrieg = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}
+			AND = {
+				NOT = { medium_tank_armor_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { medium_tank_armor_designs = 4 } # 1945
+				land_battles_fought = 2000
+			}
+		}
+		
+	}
+	
+		
+	armor_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	armor_bat = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+		
+	guard_armor_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	guard_armor_bat = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	
+	ss_armor_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	ss_armor_bat = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	
+	lehr_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}	
+	
+	afrika_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	
+	desertrats_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	
+	combined_arms_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+		
+	amph_armour_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	
+	medium_tank_destroyer_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	
+	ss_tank_destroyer_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+		
+	armored_support_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	
+	ss_armored_support_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	
+	assault_gun_brigade = {
+		armor_value = 0.50
+		air_defence = 0.50
+		toughness = -0.50
+		maximum_speed = -0.10
+	}
+	
+	change = no
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 3
+	max_level = 4
+	folder = armour_folder
+}
+
+#########################################################################################
+## Medium Tank Gun Designs
+#########################################################################################
+medium_tank_gun_designs = {
+
+	allow = {
+		
+		OR = { 
+			
+			AND = {
+				NOT = { medium_tank_gun_designs = 1 } # 1935
+				combined_arms_theory = 1
+				WWI_tank_designs = 1
+			}	
+			AND = {
+				NOT = { medium_tank_gun_designs = 2 } # 1939
+				OR = { 
+					AND = { 
+						land_battles_fought = 600
+						infantry_tank_support_doctrine = 1
+					}
+					OR = { 
+						land_battles_fought = 500
+						armor_maneuver_warfare_doctrine = 4
+					}
+					AND = { 
+						germany = 1
+						blitzkrieg = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}
+			AND = {
+				NOT = { medium_tank_gun_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { medium_tank_gun_designs = 4 } # 1945
+				land_battles_fought = 2000
+			}
+		}
+		
+	}
+	
+	armor_brigade = {
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		toughness = -1
+		maximum_speed = -1
+	}
+	armor_bat = {
+		soft_attack = 0.40
+		hard_attack = 0.25
+		defensiveness = 0.40
+		toughness = -1
+		maximum_speed = -1
+	}
+		
+	guard_armor_brigade = {
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		toughness = -1
+		maximum_speed = -1
+	}
+	guard_armor_bat = {
+		soft_attack = 0.40
+		hard_attack = 0.25
+		defensiveness = 0.40
+		toughness = -1
+		maximum_speed = -1
+	}
+	
+	ss_armor_brigade = {
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		toughness = -1
+		maximum_speed = -1
+	}
+	ss_armor_bat = {
+		soft_attack = 0.40
+		hard_attack = 0.25
+		defensiveness = 0.40
+		toughness = -1
+		maximum_speed = -1
+	}
+	
+	lehr_brigade = {
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		toughness = -1
+		maximum_speed = -1
+	}	
+	
+	afrika_brigade = {
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		toughness = -1
+		maximum_speed = -1
+	}
+	
+	desertrats_brigade = {
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		toughness = -1
+		maximum_speed = -1
+	}
+	
+	combined_arms_brigade = {
+		soft_attack = 0.40
+		hard_attack = 0.25
+		defensiveness = 0.40
+		toughness = -1
+		maximum_speed = -1
+	}
+		
+	amph_armour_brigade = {
+		soft_attack = 0.40
+		hard_attack = 0.25
+		defensiveness = 0.40
+		toughness = -1
+		maximum_speed = -1
+	}	
+	
+	
+	
+	change = no
+	
+	can_upgrade = no		
+			
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 3
+	max_level = 4
+	folder = armour_folder
+}
+
+#########################################################################################
+## Heavy Tank Prototype
+#########################################################################################
+heavy_tank_prototype = {
+
+	allow = {
+		
+		OR = {
+			AND = { 
+				NOT = { heavy_tank_prototype = 1 } # 1935
+				tank_prototype_and_testing = 1 # 1935
+				combined_arms_theory = 1
+				heavy_tank_hull_designs = 1
+				heavy_tank_engines_designs = 1
+				heavy_tank_turret_designs = 1
+				heavy_tank_track_and_suspension_designs = 1
+				heavy_tank_armor_designs = 1
+				heavy_tank_gun_designs = 1
+			}
+			AND = { 
+				NOT = { heavy_tank_prototype = 2 } # 1940
+				tank_prototype_and_testing = 4 # 1939
+				OR = { 
+					heavy_tank_hull_designs = 2 # 1940
+					heavy_tank_engines_designs = 2 # 1940
+				}
+				OR = { 
+					heavy_tank_turret_designs = 2 # 1940
+					heavy_tank_track_and_suspension_designs = 2 # 1940
+				}
+				OR = { 
+					heavy_tank_armor_designs = 2 # 1940
+					heavy_tank_gun_designs = 2 # 1940
+				}	
+			}
+			AND = { 
+				NOT = { heavy_tank_prototype = 3 } # 1942
+				tank_prototype_and_testing = 5 # 1941
+				OR = { 
+					heavy_tank_hull_designs = 3 # 1942
+					heavy_tank_engines_designs = 3 # 1942
+				}
+				OR = { 
+					heavy_tank_turret_designs = 3 # 1942
+					heavy_tank_track_and_suspension_designs = 2 # 1942
+				}
+				OR = { 
+					heavy_tank_armor_designs = 3 # 1942
+					heavy_tank_gun_designs = 3 # 1942
+				}	
+			}
+			AND = { 
+				NOT = { heavy_tank_prototype = 4 } # 1944
+				tank_prototype_and_testing = 6 # 1943
+				OR = { 
+					heavy_tank_hull_designs = 4 # 1944
+					heavy_tank_engines_designs = 4 # 1944
+				}
+				OR = { 
+					heavy_tank_turret_designs = 4 # 1944
+					heavy_tank_track_and_suspension_designs = 4 # 1944
+				}
+				OR = { 
+					heavy_tank_armor_designs = 4 # 1944
+					heavy_tank_gun_designs = 4 # 1944
+				}	
+			}
+		}
+	}
+	
+		
+	tactic_heavy_armor_shock = 2
+			
+	change = yes
+	
+	can_upgrade = yes	
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 8
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 4 # 1944
+	folder = armour_folder
+}
+#########################################################################################
+## Super Heavy Tank Prototype
+#########################################################################################
+super_heavy_tank_prototype = {
+
+	allow = {
+		
+		heavy_tank_prototype = 3
+		OR = { 
+				heavy_tank_hull_designs = 4 # 1944
+				heavy_tank_engines_designs = 4 # 1944
+			}
+			OR = { 
+				heavy_tank_turret_designs = 4 # 1944
+				heavy_tank_track_and_suspension_designs = 4 # 1944
+			}
+			OR = { 
+				heavy_tank_armor_designs = 4 # 1944
+				heavy_tank_gun_designs = 4 # 1944
+			}	
+					
+	}
+	
+				
+	tactic_heavy_armor_shock = 3
+				
+	change = yes
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 10
+	
+	# common for all techs.
+	start_year = 1944
+	first_offset = 1947
+	additional_offset = 5
+	max_level = 3 # 1952
+	folder = armour_folder
+}
+#########################################################################################
+## Heavy Tank Hull Designs
+#########################################################################################
+heavy_tank_hull_designs = {
+
+	allow = {
+	
+		OR = { 
+			AND = {
+				NOT = { heavy_tank_hull_designs = 1 } # 1935
+				WWI_tank_designs = 1
+				combined_arms_theory = 1
+			}
+			AND = {
+				NOT = { heavy_tank_hull_designs = 2 } # 1940
+				OR = { 
+					OR = { 
+						land_battles_fought = 700
+						armor_versus_armor_engagements = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}	
+			AND = {
+				NOT = { heavy_tank_hull_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { heavy_tank_hull_designs = 4 } # 1944
+				land_battles_fought = 2000
+				
+			}
+		}
+			
+	}
+		
+	heavy_armor_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.03
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.75
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		ap_attack = 0.50
+	}
+	ss_heavy_armor_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.03
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.75
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		ap_attack = 0.50
+	}
+	guard_heavy_armor_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.03
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.75
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		ap_attack = 0.50
+	}
+	
+	super_heavy_armor_brigade = {
+		maximum_speed = 0.03
+		supply_consumption = 0.07
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.75
+		soft_attack = 1.00
+		hard_attack = 0.75
+		defensiveness = 1.00
+		ap_attack = 0.50
+	}
+	
+	heavy_tank_destroyer_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.03
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.75
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		ap_attack = 0.50
+	}
+	
+	heavy_assault_gun_brigade = {
+		maximum_speed = 0.05
+		supply_consumption = 0.03
+		default_organisation = -0.50
+		toughness = -0.50
+		air_defence = 0.75
+		soft_attack = 0.75
+		hard_attack = 0.50
+		defensiveness = 0.75
+		ap_attack = 0.50
+	}
+	
+	change = no
+	
+	can_upgrade = no	
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 4 # 1944
+	folder = armour_folder
+}
+
+#########################################################################################
+## Heavy Tank Engine Designs
+#########################################################################################
+heavy_tank_engines_designs = {
+
+	allow = {
+	
+		OR = { 
+			AND = {
+				NOT = { heavy_tank_engines_designs = 1 } # 1935
+				WWI_tank_designs = 1
+				combined_arms_theory = 1
+			}
+			AND = {
+				NOT = { heavy_tank_engines_designs = 2 } # 1940
+				OR = { 
+					OR = { 
+						land_battles_fought = 700
+						armor_versus_armor_engagements = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}	
+			AND = {
+				NOT = { heavy_tank_engines_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { heavy_tank_engines_designs = 4 } # 1944
+				land_battles_fought = 2000
+				
+			}
+		}
+			
+	}
+		
+	heavy_armor_brigade = {
+		maximum_speed = 0.10
+		fuel_consumption = 0.05
+	}
+	ss_heavy_armor_brigade = {
+		maximum_speed = 0.10
+		fuel_consumption = 0.05
+	}
+	guard_heavy_armor_brigade = {
+		maximum_speed = 0.10
+		fuel_consumption = 0.05
+	}
+	
+	super_heavy_armor_brigade = {
+		maximum_speed = 0.10
+		fuel_consumption = 0.05
+	}
+	
+	heavy_tank_destroyer_brigade = {
+		maximum_speed = 0.10
+		fuel_consumption = 0.05
+	}
+	
+	heavy_assault_gun_brigade = {
+		maximum_speed = 0.10
+		fuel_consumption = 0.05
+	}
+	
+	change = no
+	
+	can_upgrade = no	
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 4 # 1944
+	folder = armour_folder
+}
+
+#########################################################################################
+## Heavy Tank Turret Designs
+#########################################################################################
+heavy_tank_turret_designs = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { heavy_tank_turret_designs = 1 } # 1935
+				WWI_tank_designs = 1
+				combined_arms_theory = 1
+			}
+			AND = {
+				NOT = { heavy_tank_turret_designs = 2 } # 1940
+				OR = { 
+					OR = { 
+						land_battles_fought = 700
+						armor_versus_armor_engagements = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}	
+			AND = {
+				NOT = { heavy_tank_turret_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { heavy_tank_turret_designs = 4 } # 1944
+				land_battles_fought = 2000
+				
+			}
+		}	
+	}
+	
+	heavy_armor_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.35
+		air_defence = 0.55
+	}
+	ss_heavy_armor_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.35
+		air_defence = 0.55
+	}
+	guard_heavy_armor_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.35
+		air_defence = 0.55
+	}
+	
+	super_heavy_armor_brigade = {
+		default_organisation = 0.25
+		armor_value = 0.50
+		air_defence = 0.70
+	}
+	
+	
+	change = no
+	
+	can_upgrade = no
+			
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 4 # 1944
+	folder = armour_folder
+}
+
+#########################################################################################
+## Heavy Tank Track and Suspension Designs
+#########################################################################################
+heavy_tank_track_and_suspension_designs = {
+
+	allow = {
+	
+		OR = { 
+			AND = {
+				NOT = { heavy_tank_track_and_suspension_designs = 1 } # 1935
+				WWI_tank_designs = 1
+				combined_arms_theory = 1
+			}
+			AND = {
+				NOT = { heavy_tank_track_and_suspension_designs = 2 } # 1940
+				OR = { 
+					OR = { 
+						land_battles_fought = 700
+						armor_versus_armor_engagements = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}	
+			AND = {
+				NOT = { heavy_tank_track_and_suspension_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { heavy_tank_track_and_suspension_designs = 4 } # 1944
+				land_battles_fought = 2000
+				
+			}
+		}
+				
+	}
+		
+	heavy_armor_brigade = {
+		plains = {
+			movement = 0.03
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03
+		}
+	}
+	ss_heavy_armor_brigade = {
+		plains = {
+			movement = 0.03
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03
+		}
+	}
+	guard_heavy_armor_brigade = {
+		plains = {
+			movement = 0.03
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03
+		}
+	}
+	
+	super_heavy_armor_brigade = {
+		plains = {
+			movement = 0.03
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03
+		}
+	}
+	
+	heavy_tank_destroyer_brigade = {
+		plains = {
+			movement = 0.03
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03
+		}
+	}
+	
+	heavy_assault_gun_brigade = {
+		plains = {
+			movement = 0.03
+		}
+		arctic = {	
+			movement = 0.03
+		}
+		desert = { 
+			movement = 0.03
+			}
+		marsh = { 
+			movement = 0.03
+		}
+	}
+		
+	change = no
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 4 # 1944
+	folder = armour_folder
+}
+
+#########################################################################################
+## Heavy Tank Armor Designs
+#########################################################################################
+heavy_tank_armor_designs = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { heavy_tank_armor_designs = 1 } # 1935
+				WWI_tank_designs = 1
+				combined_arms_theory = 1
+			}
+			AND = {
+				NOT = { heavy_tank_armor_designs = 2 } # 1940
+				OR = { 
+					OR = { 
+						land_battles_fought = 700
+						armor_versus_armor_engagements = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}	
+			AND = {
+				NOT = { heavy_tank_armor_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { heavy_tank_armor_designs = 4 } # 1944
+				land_battles_fought = 2000
+				
+			}
+		}	
+	}
+	
+	heavy_armor_brigade = {
+		armor_value = 1.00
+		air_defence = 1.00
+		toughness = -1
+		maximum_speed = -0.15
+	}
+	ss_heavy_armor_brigade = {
+		armor_value = 1.00
+		air_defence = 1.00
+		toughness = -1
+		maximum_speed = -0.15
+	}
+	guard_heavy_armor_brigade = {
+		armor_value = 1.00
+		air_defence = 1.00
+		toughness = -1
+		maximum_speed = -0.15
+	}
+	
+	super_heavy_armor_brigade = {
+		armor_value = 1.00
+		air_defence = 1.00
+		toughness = -1
+		maximum_speed = -0.15
+	}
+	
+	heavy_tank_destroyer_brigade = {
+		armor_value = 1.00
+		air_defence = 1.00
+		toughness = -1
+		maximum_speed = -0.15
+	}
+	
+	heavy_assault_gun_brigade = {
+		armor_value = 1.00
+		air_defence = 1.00
+		toughness = -1
+		maximum_speed = -0.15
+	}
+	
+		
+	change = no
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 4 # 1944
+	folder = armour_folder
+}
+
+#########################################################################################
+## Heavy Tank Gun Designs
+#########################################################################################
+heavy_tank_gun_designs = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { heavy_tank_gun_designs = 1 } # 1935
+				WWI_tank_designs = 1
+				combined_arms_theory = 1
+			}
+			AND = {
+				NOT = { heavy_tank_gun_designs = 2 } # 1940
+				OR = { 
+					OR = { 
+						land_battles_fought = 700
+						armor_versus_armor_engagements = 1
+					}
+					AND = { 
+						soviet_union = 1
+						deep_battle_doctrine = 1
+					}
+				}
+			}	
+			AND = {
+				NOT = { heavy_tank_gun_designs = 3 } # 1942
+				land_battles_fought = 1000
+			}
+			AND = {
+				NOT = { heavy_tank_gun_designs = 4 } # 1944
+				land_battles_fought = 2000
+				
+			}
+		}	
+		
+	}
+	
+	heavy_armor_brigade = {
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		toughness = -1.25
+		maximum_speed = -1
+	}
+	ss_heavy_armor_brigade = {
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		toughness = -1.25
+		maximum_speed = -1
+	}
+	guard_heavy_armor_brigade = {
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		toughness = -1.25
+		maximum_speed = -1
+	}
+	
+	super_heavy_armor_brigade = {
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		toughness = -1.25
+		maximum_speed = -1
+	}
+	
+	change = no
+	
+	can_upgrade = no		
+			
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 4 # 1944
+	folder = armour_folder
+}
+
+#########################################################################################
+## Tank Final Drive Designs
+#########################################################################################
+tank_final_drive_designs = {
+
+	allow = {
+		
+		OR = {
+			medium_tank_prototype = 2
+			heavy_tank_prototype = 2
+		}
+		
+	}
+		
+	armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	armor_bat = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+		
+	guard_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	guard_armor_bat = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	
+	ss_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	ss_armor_bat = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	
+	lehr_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}	
+	
+	afrika_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	
+	desertrats_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	
+	combined_arms_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+		
+	amph_armour_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}	
+	
+	heavy_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.05
+	}
+	ss_heavy_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.05
+	}
+	guard_heavy_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.05
+	}
+	
+	super_heavy_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.05
+	}
+	
+	
+	change = no
+	
+	can_upgrade = no		
+			
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1940
+	first_offset = 1942
+	additional_offset = 2
+	max_level = 6
+	folder = armour_folder
+}
+
+#########################################################################################
+## Tank Transmission Designs
+#########################################################################################
+tank_transmission_designs = {
+
+	allow = {
+		
+		OR = {
+			medium_tank_prototype = 1
+			heavy_tank_prototype = 1
+		}		
+		
+	}
+	
+	light_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.25
+	}
+	light_armor_bat = {
+		toughness = -1
+		maximum_speed = 0.25
+	}
+	
+	armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	armor_bat = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+		
+	guard_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	guard_armor_bat = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	
+	ss_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	ss_armor_bat = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	
+	lehr_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}	
+	
+	afrika_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	
+	desertrats_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+	
+	combined_arms_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}
+		
+	amph_armour_brigade = {
+		toughness = -1
+		maximum_speed = 0.15
+	}	
+	
+	heavy_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.05
+	}
+	ss_heavy_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.05
+	}
+	guard_heavy_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.05
+	}
+	
+	super_heavy_armor_brigade = {
+		toughness = -1
+		maximum_speed = 0.05
+	}
+	
+	
+	change = no
+	
+	can_upgrade = no		
+			
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 9
+	folder = armour_folder
+}
+
+#########################################################################################
+## Tank Mantlet Designs
+#########################################################################################
+tank_mantlet_designs = {
+
+	allow = {
+		
+		OR = {
+			medium_tank_prototype = 1
+			heavy_tank_prototype = 1
+		}	
+	}
+	
+	light_armor_brigade = {
+		soft_attack = 0.25
+		hard_attack = 0.10
+		ap_attack = 0.10
+	}
+	light_armor_bat = {
+		soft_attack = 0.25
+		hard_attack = 0.10
+		ap_attack = 0.10
+	}
+	
+	armor_brigade = {
+		soft_attack = 0.25
+		hard_attack = 0.10
+		ap_attack = 0.25
+	}
+	armor_bat = {
+		soft_attack = 0.15
+		hard_attack = 0.05
+		ap_attack = 0.15
+	}
+		
+	guard_armor_brigade = {
+		soft_attack = 0.25
+		hard_attack = 0.10
+		ap_attack = 0.25
+	}
+	guard_armor_bat = {
+		soft_attack = 0.15
+		hard_attack = 0.05
+		ap_attack = 0.15
+	}
+	
+	ss_armor_brigade = {
+		soft_attack = 0.25
+		hard_attack = 0.10
+		ap_attack = 0.25
+	}
+	ss_armor_bat = {
+		soft_attack = 0.15
+		hard_attack = 0.05
+		ap_attack = 0.15
+	}
+	
+	lehr_brigade = {
+		soft_attack = 0.25
+		hard_attack = 0.10
+		ap_attack = 0.25
+	}	
+	
+	afrika_brigade = {
+		soft_attack = 0.25
+		hard_attack = 0.10
+		ap_attack = 0.25
+	}
+	
+	desertrats_brigade = {
+		soft_attack = 0.25
+		hard_attack = 0.10
+		ap_attack = 0.25
+	}
+	
+	combined_arms_brigade = {
+		soft_attack = 0.25
+		hard_attack = 0.10
+		ap_attack = 0.25
+	}
+		
+	amph_armour_brigade = {
+		soft_attack = 0.25
+		hard_attack = 0.10
+		ap_attack = 0.25
+	}	
+	
+	heavy_armor_brigade = {
+		soft_attack = 0.50
+		hard_attack = 0.35
+		ap_attack = 0.50
+	}
+	ss_heavy_armor_brigade = {
+		soft_attack = 0.50
+		hard_attack = 0.35
+		ap_attack = 0.50
+	}
+	guard_heavy_armor_brigade = {
+		soft_attack = 0.50
+		hard_attack = 0.35
+		ap_attack = 0.50
+	}
+	
+	super_heavy_armor_brigade = {
+		soft_attack = 0.50
+		hard_attack = 0.35
+		ap_attack = 0.50
+	}
+	
+	change = no
+	
+	can_upgrade = no		
+			
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 7
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 9
+	folder = armour_folder
+}
+
+#########################################################################################
+## Tank Blueprints 
+#########################################################################################
+tank_blueprints = {
+
+	allow = {
+		
+		OR = {	
+			AND = { 
+				NOT = { tank_blueprints = 1 } # 1932
+				light_tank_hull_designs = 1 # 1932
+				light_tank_engine_designs = 1 # 1932
+				light_tank_turret_designs = 1 # 1932
+				light_tank_track_and_suspension_designs = 1 # 1932
+				light_tank_armor_designs = 1 # 1932
+				light_tank_gun_designs = 1	 # 1932		
+			}
+			OR = { 
+				AND = { 
+					NOT = { tank_blueprints = 2 } # 1935
+					OR = { 
+						light_tank_hull_designs = 2 # 1936
+						light_tank_engine_designs = 2 # 1936
+					}
+					OR = { 
+						light_tank_turret_designs = 2 # 1936
+						light_tank_track_and_suspension_designs = 2 # 1936
+					}
+					OR = { 
+						light_tank_armor_designs = 2 # 1936
+						light_tank_gun_designs = 2 # 1936
+					}					
+				}
+				AND = { 
+					NOT = { tank_blueprints = 2 } # 1935
+					OR = { 
+						medium_tank_hull_designs = 1 # 1935
+						medium_tank_engine_designs = 1 # 1935
+					}
+					OR = { 
+						medium_tank_turret_designs = 1 # 1935
+						medium_tank_track_and_suspension_designs = 1 # 1935
+					}
+					OR = { 
+						medium_tank_armor_designs = 1 # 1935
+						medium_tank_gun_designs = 1 # 1935
+					}					
+				}
+				AND = { 
+					NOT = { tank_blueprints = 2 } # 1935
+					OR = { 
+						heavy_tank_hull_designs = 1 # 1935
+						heavy_tank_engines_designs = 1 # 1935
+					}
+					OR = { 
+						heavy_tank_turret_designs = 1 # 1935
+						heavy_tank_track_and_suspension_designs = 1 # 1935
+					}
+					OR = { 
+						heavy_tank_armor_designs = 1 # 1935
+						heavy_tank_gun_designs = 1 # 1935
+					}					
+				}
+			}		
+			OR = { 
+				AND = { 
+					NOT = { tank_blueprints = 3 } # 1937
+					OR = { 
+						light_tank_hull_designs = 2 # 1936
+						light_tank_engine_designs = 2 # 1936
+					}
+					OR = { 
+						light_tank_turret_designs = 2 # 1936
+						light_tank_track_and_suspension_designs = 2 # 1936
+					}
+					OR = { 
+						light_tank_armor_designs = 2 # 1936
+						light_tank_gun_designs = 2 # 1936
+					}					
+				}
+				AND = { 
+					NOT = { tank_blueprints = 3 } # 1937
+					OR = { 
+						medium_tank_hull_designs = 1 # 1935
+						medium_tank_engine_designs = 1 # 1935
+					}
+					OR = { 
+						medium_tank_turret_designs = 1 # 1935
+						medium_tank_track_and_suspension_designs = 1 # 1935
+					}
+					OR = { 
+						medium_tank_armor_designs = 1 # 1935
+						medium_tank_gun_designs = 1 # 1935
+					}					
+				}
+				AND = { 
+					NOT = { tank_blueprints = 3 } # 1937
+					OR = { 
+						heavy_tank_hull_designs = 1 # 1935
+						heavy_tank_engines_designs = 1 # 1935
+					}
+					OR = { 
+						heavy_tank_turret_designs = 1 # 1935
+						heavy_tank_track_and_suspension_designs = 1 # 1935
+					}
+					OR = { 
+						heavy_tank_armor_designs = 1 # 1935
+						heavy_tank_gun_designs = 1 # 1935
+					}					
+				}
+			}	
+			OR = { 
+				AND = { 
+					NOT = { tank_blueprints = 4 } # 1939
+					OR = { 
+						light_tank_hull_designs = 3 # 1939
+						light_tank_engine_designs = 3 # 1939
+					}
+					OR = { 
+						light_tank_turret_designs = 3 # 1939
+						light_tank_track_and_suspension_designs = 3 # 1939
+					}
+					OR = { 
+						light_tank_armor_designs = 3 # 1939
+						light_tank_gun_designs = 3 # 1939
+					}					
+				}
+				AND = { 
+					NOT = { tank_blueprints = 4 } # 1939
+					OR = { 
+						medium_tank_hull_designs = 2 # 1939
+						medium_tank_engine_designs = 2 # 1939
+					}
+					OR = { 
+						medium_tank_turret_designs = 2 # 1939
+						medium_tank_track_and_suspension_designs = 2 # 1939
+					}
+					OR = { 
+						medium_tank_armor_designs = 2 # 1939
+						medium_tank_gun_designs = 2 # 1939
+					}					
+				}
+			}
+			OR = { 
+				AND = { 
+					NOT = { tank_blueprints = 5 } # 1941
+					OR = { 
+						heavy_tank_hull_designs = 2 # 1940
+						heavy_tank_engines_designs = 2 # 1940
+					}
+					OR = { 
+						heavy_tank_turret_designs = 2 # 1940
+						heavy_tank_track_and_suspension_designs = 2 # 1940
+					}
+					OR = { 
+						heavy_tank_armor_designs = 2 # 1940
+						heavy_tank_gun_designs = 2 # 1940
+					}					
+				}
+			}
+			OR = { 
+				AND = { 
+					NOT = { tank_blueprints = 6 } # 1943
+					OR = { 
+						light_tank_hull_designs = 4 # 1942
+						light_tank_engine_designs = 4 # 1942
+					}
+					OR = { 
+						light_tank_turret_designs = 4 # 1942
+						light_tank_track_and_suspension_designs = 4 # 1942
+					}
+					OR = { 
+						light_tank_armor_designs = 4 # 1942
+						light_tank_gun_designs = 4 # 1942
+					}					
+				}
+				AND = { 
+					NOT = { tank_blueprints = 6 } # 1943
+					OR = { 
+						medium_tank_hull_designs = 3 # 1942
+						medium_tank_engine_designs = 3 # 1942
+					}
+					OR = { 
+						medium_tank_turret_designs = 3 # 1942
+						medium_tank_track_and_suspension_designs = 3 # 1942
+					}
+					OR = { 
+						medium_tank_armor_designs = 3 # 1942
+						medium_tank_gun_designs = 3 # 1942
+					}					
+				}
+			}
+			OR = { 
+				AND = { 
+					NOT = { tank_blueprints = 7 } # 1945
+					OR = { 
+						light_tank_hull_designs = 5 # 1945
+						light_tank_engine_designs = 5 # 1945
+					}
+					OR = { 
+						light_tank_turret_designs = 5 # 1945
+						light_tank_track_and_suspension_designs = 5 # 1945
+					}
+					OR = { 
+						light_tank_armor_designs = 5 # 1945
+						light_tank_gun_designs = 5 # 1945
+					}					
+				}
+				AND = { 
+					NOT = { tank_blueprints = 7 } # 1945
+					OR = { 
+						medium_tank_hull_designs = 4 # 1945
+						medium_tank_engine_designs = 4 # 1945
+					}
+					OR = { 
+						medium_tank_turret_designs = 4 # 1945
+						medium_tank_track_and_suspension_designs = 4 # 1945
+					}
+					OR = { 
+						medium_tank_armor_designs = 4 # 1945
+						medium_tank_gun_designs = 4 # 1945
+					}					
+				}
+				AND = { 
+					NOT = { tank_blueprints = 7 } # 1945
+					OR = { 
+						heavy_tank_hull_designs = 4 # 1944
+						heavy_tank_engines_designs = 4 # 1944
+					}
+					OR = { 
+						heavy_tank_turret_designs = 4 # 1944
+						heavy_tank_track_and_suspension_designs = 4 # 1944
+					}
+					OR = { 
+						heavy_tank_armor_designs = 4 # 1944
+						heavy_tank_gun_designs = 4 # 1944
+					}					
+				}
+			}
+		}
+		
+	}
+	
+	
+	
+	change = no
+	
+	can_upgrade = no		
+			
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1932
+	first_offset = 1935
+	additional_offset = 2 # Years for tank development: 1932, 1935, 1936, 1939, 1940, 1942, 1944, 1945
+	max_level = 7		  # Years for Blueprint Tech:   1932, 1935, 1937, 1939,       1941, 1943, 1945
+	folder = armour_folder
+}
+#########################################################################################
+## Tank Prototype and Testing 
+#########################################################################################
+tank_prototype_and_testing = {
+
+	allow = {
+		tank_blueprints = 1 # 1932
+		OR = {
+			AND = { 
+				NOT = { tank_prototype_and_testing = 2 } # 1935
+				tank_blueprints = 2 # 1934
+			}
+			AND = { 
+				NOT = { tank_prototype_and_testing = 3 } # 1937
+				tank_blueprints = 3 # 1937
+			}
+			AND = { 
+				NOT = { tank_prototype_and_testing = 4 } # 1939
+				tank_blueprints = 4 # 1939
+			}
+			AND = {
+				NOT = { tank_prototype_and_testing = 5 } # 1941
+				tank_blueprints = 5 # 1941
+			}
+			AND = { 
+				NOT = { tank_prototype_and_testing = 6 } # 1943
+				tank_blueprints = 6 # 1943
+			}
+			AND = { 
+				NOT = { tank_prototype_and_testing = 7 } # 1945
+				tank_blueprints = 7 # 1945
+			}
+		}
+		
+	}
+	
+		
+	change = no
+	
+	can_upgrade = no		
+			
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1932
+	first_offset = 1935
+	additional_offset = 2
+	max_level = 7
+	folder = armour_folder
+}
+
+#########################################################################################
+## Light Tank Variants
+#########################################################################################
+light_tank_versions = {
+	
+	allow = {
+		light_tank_prototype = 1
+				
+	}
+	
+	change = yes
+	
+	light_armor_brigade = {
+		build_cost_ic = 0.05
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.05
+		hard_attack = 0.02
+		defensiveness = 0.05
+		armor_value = 0.02
+		ap_attack = 0.01
+	}
+	light_armor_bat = {
+		build_cost_ic = 0.02
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.03
+		hard_attack = 0.01
+		defensiveness = 0.03
+		armor_value = 0.01
+		ap_attack = 0.01
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 8
+	folder = armour_folder
+}
+#########################################################################################
+## Light Medium Tank Variants
+#########################################################################################
+light_medium_tank_versions = {
+
+	allow = {
+		medium_tank_prototype = 1
+		
+	}
+	
+	change = yes
+	
+	armor_brigade = {
+		build_cost_ic = 0.07
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.07
+		hard_attack = 0.04
+		defensiveness = 0.07
+		armor_value = 0.03
+		ap_attack = 0.02
+	}
+	desertrats_brigade = {
+		build_cost_ic = 0.07
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.07
+		hard_attack = 0.04
+		defensiveness = 0.07
+		armor_value = 0.03
+		ap_attack = 0.02
+	}
+	armor_bat = {
+		build_cost_ic = 0.03
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.04
+		hard_attack = 0.02
+		defensiveness = 0.04
+		armor_value = 0.02
+		ap_attack = 0.01
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.03
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.04
+		hard_attack = 0.02
+		defensiveness = 0.04
+		armor_value = 0.02
+		ap_attack = 0.01
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.03
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.04
+		hard_attack = 0.02
+		defensiveness = 0.04
+		armor_value = 0.02
+		ap_attack = 0.01
+	}
+	combined_arms_brigade = {
+		build_cost_ic = 0.07
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.07
+		hard_attack = 0.04
+		defensiveness = 0.07
+		armor_value = 0.03
+		ap_attack = 0.02
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.07
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.07
+		hard_attack = 0.04
+		defensiveness = 0.07
+		armor_value = 0.03
+		ap_attack = 0.02
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 0.07
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.07
+		hard_attack = 0.04
+		defensiveness = 0.07
+		armor_value = 0.03
+		ap_attack = 0.02
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 0.07
+		build_time = 1
+		maximum_speed = 0.01
+		soft_attack = 0.07
+		hard_attack = 0.04
+		defensiveness = 0.07
+		armor_value = 0.03
+		ap_attack = 0.02
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 7
+	folder = armour_folder
+}
+#########################################################################################
+## Medium Tank Variants
+#########################################################################################
+medium_tank_versions = {
+
+	allow = {
+		medium_tank_prototype = 2
+		
+	}
+	
+	change = yes
+	
+	armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.06
+		defensiveness = 0.10
+		armor_value = 0.05
+		ap_attack = 0.04
+	}
+	desertrats_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.06
+		defensiveness = 0.10
+		armor_value = 0.05
+		ap_attack = 0.04
+	}
+	armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.05
+		hard_attack = 0.03
+		defensiveness = 0.05
+		armor_value = 0.03
+		ap_attack = 0.02
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.05
+		hard_attack = 0.03
+		defensiveness = 0.05
+		armor_value = 0.03
+		ap_attack = 0.02
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.05
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.05
+		hard_attack = 0.03
+		defensiveness = 0.05
+		armor_value = 0.03
+		ap_attack = 0.02
+	}
+	combined_arms_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.06
+		defensiveness = 0.10
+		armor_value = 0.05
+		ap_attack = 0.04
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.06
+		defensiveness = 0.10
+		armor_value = 0.05
+		ap_attack = 0.04
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.06
+		defensiveness = 0.10
+		armor_value = 0.05
+		ap_attack = 0.04
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 0.10
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.06
+		defensiveness = 0.10
+		armor_value = 0.05
+		ap_attack = 0.04
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1939
+	first_offset = 1940
+	additional_offset = 1
+	max_level = 8
+	folder = armour_folder
+}
+#########################################################################################
+## Heavy Medium Tank Variants
+#########################################################################################
+heavy_medium_tank_versions = {
+
+	allow = {
+		medium_tank_prototype = 3
+		
+	}
+	
+	change = yes
+	
+	armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.10
+		defensiveness = 0.15
+		armor_value = 0.10
+		ap_attack = 0.06
+	}
+	desertrats_brigade = {
+		build_cost_ic = 0.15
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.10
+		defensiveness = 0.15
+		armor_value = 0.10
+		ap_attack = 0.06
+	}
+	armor_bat = {
+		build_cost_ic = 0.07
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.05
+		hard_attack = 0.05
+		defensiveness = 0.10
+		armor_value = 0.05
+		ap_attack = 0.03
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.07
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.05
+		hard_attack = 0.05
+		defensiveness = 0.10
+		armor_value = 0.05
+		ap_attack = 0.03
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.07
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.05
+		hard_attack = 0.05
+		defensiveness = 0.10
+		armor_value = 0.05
+		ap_attack = 0.03
+	}
+	combined_arms_brigade = {
+		build_cost_ic = 0.15
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.10
+		defensiveness = 0.15
+		armor_value = 0.10
+		ap_attack = 0.06
+	}
+	guard_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.10
+		defensiveness = 0.15
+		armor_value = 0.10
+		ap_attack = 0.06
+	}
+	ss_armor_brigade = {
+		build_cost_ic = 0.15
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.10
+		defensiveness = 0.15
+		armor_value = 0.10
+		ap_attack = 0.06
+	}
+	
+	afrika_brigade = {
+		build_cost_ic = 0.15
+		build_time = 1
+		maximum_speed = 0.02
+		soft_attack = 0.10
+		hard_attack = 0.10
+		defensiveness = 0.15
+		armor_value = 0.10
+		ap_attack = 0.06
+	}
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1942
+	first_offset = 1943
+	additional_offset = 1
+	max_level = 4
+	folder = armour_folder
+}
+#########################################################################################
+## Armored Vehicle Prototype
+#########################################################################################
+armored_vehicle_prototype = {
+
+	allow = {
+		
+		automotive_industry = 1
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	attack_movement_speed = 0.02
+	
+	reinforce_chance = 0.02
+	
+	armored_car_brigade = {
+		toughness = -1
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	ss_armored_car_brigade = {
+		toughness = -1
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1934
+	first_offset = 1936
+	additional_offset = 2
+	max_level = 12
+	folder = armour_folder
+}
+#########################################################################################
+## Light Tank Destroyer Prototype
+#########################################################################################
+light_tank_destroyer_prototype = {
+
+	allow = {
+		OR = {
+			AND = {
+				NOT = { light_tank_destroyer_prototype = 1 } # Panzerjager I
+				light_tank_prototype = 1
+				anti_tank_gun = 1
+				germany = 1
+				land_battles_fought = 50
+			}
+			AND = {
+				NOT = { light_tank_destroyer_prototype = 2 } # Marder II
+				light_tank_prototype = 2
+				anti_tank_gun = 2
+				germany = 1
+			}
+			AND = {
+				NOT = { light_tank_destroyer_prototype = 3 } # Marder III
+				medium_tank_prototype = 1
+				anti_tank_gun = 3
+				germany = 1	
+			}
+			AND = {
+				NOT = { light_tank_destroyer_prototype = 4} # Hetzer
+				medium_tank_prototype = 2
+				anti_tank_gun = 4
+				germany = 1	
+			}
+			AND = {
+				NOT = { light_tank_destroyer_prototype = 1 } # Universal Carrier 2 Pdr
+				armored_vehicle_prototype = 3
+				anti_tank_gun = 1
+				united_kingdom = 1
+				land_battles_fought = 50
+			}
+			AND = {
+				NOT = { light_tank_destroyer_prototype = 2 } # Challenger
+				medium_tank_prototype = 2
+				anti_tank_gun = 2
+				united_kingdom = 1
+			}
+			AND = {
+				NOT = { light_tank_destroyer_prototype = 3 } # Archer 6Pdr
+				infantry_tank_design = 3
+				anti_tank_gun = 3
+				united_kingdom = 1
+			}
+			AND = {
+				NOT = { light_tank_destroyer_prototype = 1 } # 
+				medium_tank_prototype = 2
+				anti_tank_gun = 1
+				OR = { 
+					NOT = { united_kingdom = 1 }
+					NOT = { germany  = 1 }
+				}
+				land_battles_fought = 250
+			}
+		}
+	}
+	
+			
+	tactic_anti_tank_gun_defense = 1
+	
+					
+	change = yes
+	
+	can_upgrade = yes
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1940
+	first_offset = 1941
+	additional_offset = 1
+	max_level = 4
+	folder = armour_folder
+}
+#########################################################################################
+## Medium Tank Destroyer Prototype
+#########################################################################################
+medium_tank_destroyer_prototype = {
+
+	allow = {
+		OR = {
+			#### United States
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 1 } # 1942 - M10 Wolverine
+				medium_tank_prototype = 2
+				anti_tank_gun = 3
+				united_states = 1
+				land_battles_fought = 100
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 2 } # 1943 - M18 Hellcat
+				medium_tank_prototype = 2
+				anti_tank_gun = 4
+				united_states = 1
+				land_battles_fought = 200
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 3 } # 1944- M36 Jackson
+				medium_tank_prototype = 2
+				anti_tank_gun = 5
+				united_states = 1
+				land_battles_fought = 300
+			}
+						
+			#### Germany 
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 1 } # 1942 - Marder III
+				medium_tank_prototype = 1
+				anti_tank_gun = 3
+				germany = 1
+				land_battles_fought = 100
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 2 } # 1943 - Jagdpanzer IV
+				medium_tank_prototype = 2
+				anti_tank_gun = 3
+				germany = 1
+				land_battles_fought = 250
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 3 } # 1944 - Jagdpanther
+				medium_tank_prototype = 3
+				anti_tank_gun = 3
+				germany = 1	
+				land_battles_fought = 700
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 4 } # 1945 - 
+				medium_tank_prototype = 3
+				anti_tank_gun = 5
+				germany = 1	
+				land_battles_fought = 1000
+			}
+			
+			### United Kingdom
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 1 } # 
+				medium_tank_prototype = 2
+				anti_tank_gun = 4
+				united_kingdom = 1
+				land_battles_fought = 100
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 2 } # Archer 17 Pdr Mk II
+				medium_tank_prototype = 2
+				anti_tank_gun = 5
+				united_kingdom = 1
+				land_battles_fought = 250
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 3 } # Archer 17 Pdr Mk VI
+				medium_tank_prototype = 2
+				anti_tank_gun = 5
+				united_kingdom = 1
+				land_battles_fought = 350
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 4 } # 
+				medium_tank_prototype = 2
+				anti_tank_gun = 5
+				united_kingdom = 1
+				land_battles_fought = 500
+			}
+			
+			### Soviet Union
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 1 } # 
+				medium_tank_prototype = 2
+				anti_tank_gun = 4
+				soviet_union = 1
+				land_battles_fought = 200
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 2 } # 1943 - SU-85
+				medium_tank_prototype = 2
+				anti_tank_gun = 5
+				soviet_union = 1
+				land_battles_fought = 400
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 3 } # 1944 - Su-100
+				medium_tank_prototype = 2
+				anti_tank_gun = 5
+				soviet_union = 1
+				land_battles_fought = 600
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 4 } # 
+				medium_tank_prototype = 2
+				anti_tank_gun = 5
+				soviet_union = 1
+				land_battles_fought = 800
+			}
+			
+			# Minors
+			AND = {
+				NOT = { medium_tank_destroyer_prototype = 1 } # 
+				medium_tank_prototype = 2
+				anti_tank_gun = 4
+				OR = { 
+					NOT = { united_states = 1 }
+					NOT = { united_kingdom = 1 }
+					NOT = { germany  = 1 }
+					NOT = { soviet_union = 1 }
+				}
+				land_battles_fought = 300
+			}
+		}
+		
+	}
+		
+	tactic_anti_tank_gun_defense = 2
+	
+		
+	change = yes
+	
+	can_upgrade = yes	
+	
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1942
+	first_offset = 1943
+	additional_offset = 1
+	max_level = 4
+	folder = armour_folder
+}
+#########################################################################################
+## Heavy Tank Destroyer Prototype
+#########################################################################################
+heavy_tank_destroyer_prototype = {
+
+	allow = {
+		OR = {			
+			#### Germany 
+			AND = {
+				NOT = { heavy_tank_destroyer_prototype = 1 } # 1943 - Elephant
+				heavy_tank_prototype = 1
+				anti_tank_gun = 4
+				germany = 1
+				land_battles_fought = 400
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_prototype = 2 } # 1944 - Jagdtiger
+				heavy_tank_prototype = 2
+				anti_tank_gun = 5
+				germany = 1
+				land_battles_fought = 700
+			}
+						
+			### United Kingdom
+			AND = {
+				NOT = { heavy_tank_destroyer_prototype = 1 } # AT-2 
+				heavy_tank_prototype = 2
+				anti_tank_gun = 5
+				united_kingdom = 1
+				land_battles_fought = 300
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_prototype = 2 } # A-39 Tortoise
+				heavy_tank_prototype = 2
+				anti_tank_gun = 6
+				united_kingdom = 1
+				land_battles_fought = 400
+			}		
+			
+			# Minors
+			AND = {
+				NOT = { heavy_tank_destroyer_prototype = 1 } # 
+				heavy_tank_prototype = 2
+				anti_tank_gun = 4
+				OR = { 
+					NOT = { united_kingdom = 1 }
+					NOT = { germany  = 1 }
+				}
+				land_battles_fought = 500
+			}
+		}
+	}
+		
+	tactic_anti_tank_gun_defense = 3
+	
+		
+	research_bonus_from = {
+		automotive_theory = 0.3
+		spearhead_theory = 0.1
+	}
+
+	on_completion = automotive_theory
+
+	difficulty = 6
+	
+	# common for all techs.
+	start_year = 1943
+	first_offset = 1944
+	additional_offset = 1
+	max_level = 2
+	folder = armour_folder
+}
+
+

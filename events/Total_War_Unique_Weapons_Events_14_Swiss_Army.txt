@@ -1,0 +1,142 @@
+########################################################################################
+############# Swiss Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Swiss WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### S18-100 Bullpup Anti-Tank Rifle
+##############################################################
+
+	country_event = {
+		id = 9106900
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SCH
+			anti_tank_rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106900"
+		desc = "EVTDESC9106900"
+		picture = "s_eighteen_one_hundred_bullpup_at_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			s_eighteen_one_hundred_bullpup_at_rifle_hidden = 6000
+			set_global_flag = s_eighteen_one_hundred_bullpup_at_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### S1-100 (MP34) Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9106901
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SCH
+			submachineguns_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106901"
+		desc = "EVTDESC9106901"
+		picture = "s_one_one_hundred_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			s_one_one_hundred_submachinegun_hidden = 6000
+			set_global_flag = s_one_one_hundred_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Panzer 58 Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9106902
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SCH
+			main_battle_tank = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106902"
+		desc = "EVTDESC9106902"
+		picture = "panzer_fifty_eight_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			panzer_fifty_eight_mbt_hidden = 6000
+			set_global_flag = panzer_fifty_eight_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Panzer 61 Main Battle Tank
+##############################################################
+
+	country_event = {
+		id = 9106903
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = SCH
+			main_battle_tank = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106903"
+		desc = "EVTDESC9106903"
+		picture = "panzer_sixty_one_mbt"
+		
+		option = {
+			name = "Put it Into Production."
+			panzer_sixty_one_mbt_hidden = 6000
+			set_global_flag = panzer_sixty_one_mbt
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		

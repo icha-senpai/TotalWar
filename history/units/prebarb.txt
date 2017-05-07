@@ -1,0 +1,37 @@
+army = {
+	name = "I.Pz.Gruppe"
+	location = 2385
+	regiment = { type = ger_first_panzer_army name = "I.Pz Gruppe" historical_model = 0 experience = 25}
+	regiment = { type = artillery_brigade name = "I.Pz-Artillerie" historical_model = 1 experience = 25}
+	regiment = { type = motorcycle_recon_brigade name = "I.Pz-Aufklarung" historical_model = 3 experience = 25}
+	regiment = { type = light_armor_bat name = "I.Pz-regiment" historical_model = 3 experience = 25}
+	regiment = { type = truck_transport name = "Gefechtstross-Bat.I.Pz.-Gruppe" historical_model = 0 }
+}
+	
+army = {
+	name = "4.Pz.-Gruppe"
+	location = 1527
+	regiment = { type = ger_fourth_panzer_army name = "4.Panzer Gruppe" historical_model = 0 experience = 25}
+	regiment = { type = artillery_brigade name = "4.Pz-Artillerie" historical_model = 1 experience = 25}
+	regiment = { type = motorcycle_recon_brigade name = "4.Pz-Aufklarung" historical_model = 3 experience = 25}
+	regiment = { type = light_armor_bat name = "4.Pz-regiment" historical_model = 3 experience = 25}
+	regiment = { type = truck_transport name = "Gefechtstross-Bat.4.Pz.-Gruppe" historical_model = 0 }
+}
+	
+corps = {
+	name = "56.Pz.-A.K"
+	location = 1527
+	regiment = { type = ger_lvi_panzer_korps name = "56.Panzer Korps" historical_model = 0 }
+	regiment = { type = motorized_anti_tank_brigade name = "56.Pz-J" historical_model = 3 experience = 25}
+	regiment = { type = motorcycle_recon_brigade name = "56.Pz-Aufklarung" historical_model = 3 experience = 25}
+	regiment = { type = light_transport name = "Gefechtstross-Bat.56.Pz.-A.K" historical_model = 0 }
+}
+
+corps = {
+	name = "46.Pz.-A.K"
+	location = 1527
+	regiment = { type = armor_hq_brigade name = "46.Panzer Korps" historical_model = 0 }
+	regiment = { type = motorized_anti_tank_brigade name = "46.Pz-J" historical_model = 3 experience = 25}
+	regiment = { type = motorcycle_recon_brigade name = "46.Pz-Aufklarung" historical_model = 3 experience = 25}
+	regiment = { type = light_transport name = "Gefechtstross-Bat.46.Pz.-A.K" historical_model = 0 }
+}

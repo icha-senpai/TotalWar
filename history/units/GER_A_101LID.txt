@@ -1,0 +1,12 @@
+division= {
+	name = "§Y101. Leichte Infanterie-Division§W"
+	location = 2562 # Praha
+	leader = 194 # Marcks
+	regiment = { type = GER_A_CI_jaeger name = "Stab 101. Leichte Infanterie-Division" historical_model = 0 experience = 30 organisation = 1 }
+	regiment = { type = light_infantry_brigade name = "Jäger Regiment 228/229" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = anti_tank_brigade name = "Panzerjäger-Abteilung 101" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = pack_artillery_brigade name = "Artillerie-Regiment 85" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "Aufklärungs-Abteilung 101" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = engineer_brigade name = "Pionier-Bataillon 101" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = horse_transport name = "Versorgungseinheiten 101" historical_model = 0 organisation = 1 }
+}

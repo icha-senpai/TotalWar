@@ -1,0 +1,11 @@
+corps= {
+	name = "2. Fallschirmjäger Schule"
+	location = 1861 #berlin
+	is_reserve = yes
+	is_prioritized= yes
+	regiment = { type = air_hq_brigade name = "Stab 2. Fallschirmjäger Schule" historical_model = 0 }
+	regiment = { type = paratrooper_brigade name = "1/2 Fallschirmjäger Schule" historical_model = 0 }
+	regiment = { type = paratrooper_brigade name = "2/2 Fallschirmjäger Schule" historical_model = 0 }
+	regiment = { type = paratrooper_brigade name = "3/2 Fallschirmjäger Schule" historical_model = 0 }
+	regiment = { type = airborne_artillery_brigade name = "2. Fallschirmjäger Artillerie Schule" historical_model = 0 }
+}

@@ -1,0 +1,1208 @@
+########################################################################################
+############# Italian Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Italian WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### Carcano Modello 1891 (M91) Bolt-Action Rifle
+##############################################################
+
+	country_event = {
+		id = 9105900
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105900"
+		desc = "EVTDESC9105900"
+		picture = "carcano_m_ninety_one_bolt_action_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			carcano_m_ninety_one_bolt_action_rifle_hidden = 6000
+			set_global_flag = carcano_m_ninety_one_bolt_action_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### Beretta Model 1918 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105901
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			submachineguns_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105901"
+		desc = "EVTDESC9105901"
+		picture = "beretta_model_nineteen_eighteen_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			beretta_model_nineteen_eighteen_submachinegun_hidden = 6000
+			set_global_flag = beretta_model_nineteen_eighteen_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Beretta Model 38A Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105902
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			submachineguns_prototype = 2
+			has_global_flag = beretta_model_nineteen_eighteen_submachinegun
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105902"
+		desc = "EVTDESC9105902"
+		picture = "beretta_model_nineteen_thirty_eight_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			beretta_model_nineteen_thirty_eight_submachinegun_hidden = 6000
+			set_global_flag = beretta_model_nineteen_thirty_eight_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Beretta Model 42/43/44 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105903
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			submachineguns_prototype = 6
+			has_global_flag = beretta_model_nineteen_thirty_eight_submachinegun
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105903"
+		desc = "EVTDESC9105903"
+		picture = "beretta_model_nineteen_fourty_two_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			beretta_model_nineteen_fourty_two_submachinegun_hidden = 6000
+			set_global_flag = beretta_model_nineteen_fourty_two_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Giandoso TZ-45 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105904
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			submachineguns_prototype = 7
+			
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105904"
+		desc = "EVTDESC9105904"
+		picture = "giandoso_tz_fourty_five_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			giandoso_tz_fourty_five_submachinegun_hidden = 6000
+			set_global_flag = giandoso_tz_fourty_five_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Breda Modello 30 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105905
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			lmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105905"
+		desc = "EVTDESC9105905"
+		picture = "breda_modello_thirty_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			breda_modello_thirty_lmg_hidden = 6000
+			set_global_flag = breda_modello_thirty_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Breda Modello 38 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105906
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			lmg_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105906"
+		desc = "EVTDESC9105906"
+		picture = "breda_modello_thirty_eight_lmg"
+		
+		option = {
+			name = "Put it Into Production."
+			breda_modello_thirty_eight_lmg_hidden = 6000
+			set_global_flag = breda_modello_thirty_eight_lmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### FIAT-Revelli Modello 1914 Heavy Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105907
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			hmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105907"
+		desc = "EVTDESC9105907"
+		picture = "fiat_revelli_modello_nineteen_fourteen_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			fiat_revelli_modello_nineteen_fourteen_hmg_hidden = 6000
+			set_global_flag = fiat_revelli_modello_nineteen_fourteen_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### FIAT-Revelli Modello 1935 Heavy Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9105908
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			hmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105908"
+		desc = "EVTDESC9105908"
+		picture = "fiat_revelli_modello_nineteen_thirty_five_hmg"
+		
+		option = {
+			name = "Put it Into Production."
+			fiat_revelli_modello_nineteen_thirty_five_hmg_hidden = 6000
+			set_global_flag = fiat_revelli_modello_nineteen_thirty_five_hmg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Mortaio da 81/14 Modello 35 81mm Mortar
+##############################################################
+
+	country_event = {
+		id = 9105909
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			mortar_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105909"
+		desc = "EVTDESC9105909"
+		picture = "mortaio_modello_thirty_five_eighty_one_mm_mortar"
+		
+		option = {
+			name = "Put it Into Production."
+			mortaio_modello_thirty_five_eighty_one_mm_mortar_hidden = 6000
+			set_global_flag = mortaio_modello_thirty_five_eighty_one_mm_mortar
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Solothurn S-18/100 Anti-Tank Rifle
+##############################################################
+
+	country_event = {
+		id = 9105910
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			anti_tank_rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105910"
+		desc = "EVTDESC9105910"
+		picture = "solothurn_s_eighteen_at_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			solothurn_s_eighteen_at_rifle_hidden = 6000
+			set_global_flag = solothurn_s_eighteen_at_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+#########################################################################################################################
+#### ITALIAN WWII ARTILLERY
+#########################################################################################################################
+##############################################################
+#### Cannone da 47/32 M35 Infantry Gun
+##############################################################
+
+	country_event = {
+		id = 9105911
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			infantry_guns = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105911"
+		desc = "EVTDESC9105911"
+		picture = "m_thirty_five_infantry_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_thirty_five_infantry_gun_hidden = 6000
+			set_global_flag = m_thirty_five_infantry_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Cannone da 47/32 M39 Infantry Gun
+##############################################################
+
+	country_event = {
+		id = 9105912
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			infantry_guns = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105912"
+		desc = "EVTDESC9105912"
+		picture = "m_thirty_nine_infantry_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_thirty_nine_infantry_gun_hidden = 6000
+			set_global_flag = m_thirty_nine_infantry_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Cannone da 75/32 Modello 37 Infantry Gun
+##############################################################
+
+	country_event = {
+		id = 9105913
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			infantry_guns = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105913"
+		desc = "EVTDESC9105913"
+		picture = "m_thirty_seven_infantry_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_thirty_seven_infantry_gun_hidden = 6000
+			set_global_flag = m_thirty_seven_infantry_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Cannone da 75/27 Modello 06 Medium Field Gun
+##############################################################
+
+	country_event = {
+		id = 9105914
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			med_field_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105914"
+		desc = "EVTDESC9105914"
+		picture = "m_nineteen_oh_six_medium_field_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			m_nineteen_oh_six_medium_field_artillery_hidden = 6000
+			set_global_flag = m_nineteen_oh_six_medium_field_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Obice da 210/22 Modello 35 210mm Medium Field Gun
+##############################################################
+
+	country_event = {
+		id = 9105915
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			med_field_artillery = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105915"
+		desc = "EVTDESC9105915"
+		picture = "obice_modello_thirty_five_medium_field_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			obice_modello_thirty_five_medium_field_artillery_hidden = 6000
+			set_global_flag = obice_modello_thirty_five_medium_field_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Obice da 149/19 Modello 37 150mm Medium Howitzer
+##############################################################
+
+	country_event = {
+		id = 9105916
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			med_field_artillery = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105916"
+		desc = "EVTDESC9105916"
+		picture = "obice_modello_thirty_seven_medium_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			obice_modello_thirty_seven_medium_howitzer_hidden = 6000
+			set_global_flag = obice_modello_thirty_seven_medium_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### 150mm Autokanone M. 15/16 Heavy Artillery
+##############################################################
+
+	country_event = {
+		id = 9105917
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			hvy_field_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105917"
+		desc = "EVTDESC9105917"
+		picture = "one_hundred_fifty_mm_autokanone_heavy_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			one_hundred_fifty_mm_autokanone_heavy_artillery_hidden = 6000
+			set_global_flag = one_hundred_fifty_mm_autokanone_heavy_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Cannone da 47/32 M35 Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105918
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			anti_tank_gun = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105918"
+		desc = "EVTDESC9105918"
+		picture = "m_thirty_five_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			m_thirty_five_at_gun_hidden = 6000
+			set_global_flag = m_thirty_five_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Cannone da 90/53 Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9105919
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			anti_tank_gun = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105919"
+		desc = "EVTDESC9105919"
+		picture = "cannone_da_ninety_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			cannone_da_ninety_at_gun_hidden = 6000
+			set_global_flag = cannone_da_ninety_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Breda Model 35 Anti-Air Gun
+##############################################################
+
+	country_event = {
+		id = 9105920
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			anti_aircraft_gun = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105920"
+		desc = "EVTDESC9105920"
+		picture = "breda_model_thirty_five_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			breda_model_thirty_five_aa_gun_hidden = 6000
+			set_global_flag = breda_model_thirty_five_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Cannone da 90/53 Anti-Air Gun
+##############################################################
+
+	country_event = {
+		id = 9105921
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			anti_aircraft_gun = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105921"
+		desc = "EVTDESC9105921"
+		picture = "cannone_da_ninety_aa_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			cannone_da_ninety_aa_gun_hidden = 6000
+			set_global_flag = cannone_da_ninety_aa_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Semovente 75/18 SP Artillery
+##############################################################
+
+	country_event = {
+		id = 9105922
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			sp_artillery_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105922"
+		desc = "EVTDESC9105922"
+		picture = "semovente_seventy_five_sp_artillery"
+		
+		option = {
+			name = "Put it Into Production."
+			semovente_seventy_five_sp_artillery_hidden = 6000
+			set_global_flag = semovente_seventy_five_sp_artillery
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Semovente 47/32 Assault Gun
+##############################################################
+
+	country_event = {
+		id = 9105923
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			assault_gun_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105923"
+		desc = "EVTDESC9105923"
+		picture = "semovente_fourty_seven"
+		
+		option = {
+			name = "Put it Into Production."
+			semovente_fourty_seven_hidden = 6000
+			set_global_flag = semovente_fourty_seven
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Semovente 75/46 Assault Gun
+##############################################################
+
+	country_event = {
+		id = 9105924
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			assault_gun_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105924"
+		desc = "EVTDESC9105924"
+		picture = "semovente_seventy_five_assault_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			semovente_seventy_five_assault_gun_hidden = 6000
+			set_global_flag = semovente_seventy_five_assault_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Semovente 75/34 Assault Gun
+##############################################################
+
+	country_event = {
+		id = 9105925
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			assault_gun_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105925"
+		desc = "EVTDESC9105925"
+		picture = "semovente_seventy_five_thirty_four_assault_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			semovente_seventy_five_thirty_four_assault_gun_hidden = 6000
+			set_global_flag = semovente_seventy_five_thirty_four_assault_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+#########################################################################################################################
+#### ITALIAN ARMORED VEHICLES
+#########################################################################################################################
+##############################################################
+#### L3/33 (CV-33) Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105926
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			light_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105926"
+		desc = "EVTDESC9105926"
+		picture = "cv_thirty_three_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			cv_thirty_three_light_tank_hidden = 6000
+			set_global_flag = cv_thirty_three_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Fiat L5/30 Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105927
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			light_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105927"
+		desc = "EVTDESC9105927"
+		picture = "fiat_l_five_thirty_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			fiat_l_five_thirty_light_tank_hidden = 6000
+			set_global_flag = fiat_l_five_thirty_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Carro Armato L6/40 Light Tank
+##############################################################
+
+	country_event = {
+		id = 9105928
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			light_tank_prototype = 3
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105928"
+		desc = "EVTDESC9105928"
+		picture = "carro_armato_l_six_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			carro_armato_l_six_light_tank_hidden = 6000
+			set_global_flag = carro_armato_l_six_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Fiat Carro Armato Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9105929
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			medium_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105929"
+		desc = "EVTDESC9105929"
+		picture = "fiat_carro_armato_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			fiat_carro_armato_medium_tank_hidden = 6000
+			set_global_flag = fiat_carro_armato_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Semovente 105/25 Medium Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105930
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			medium_tank_destroyer_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105930"
+		desc = "EVTDESC9105930"
+		picture = "semovente_one_oh_five_medium_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			semovente_one_oh_five_medium_tank_destroyer_hidden = 6000
+			set_global_flag = semovente_one_oh_five_medium_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Semovente 90/53 Heavy Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9105931
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			heavy_tank_destroyer_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105931"
+		desc = "EVTDESC9105931"
+		picture = "semovente_ninety_heavy_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			semovente_ninety_heavy_tank_destroyer_hidden = 6000
+			set_global_flag = semovente_ninety_heavy_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+#########################################################################################################################
+#### ITALIAN COLD WAR WEAPONS
+#########################################################################################################################
+##############################################################
+#### Beretta Model 59 (BM59) Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9105932
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			advanced_rifles = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105932"
+		desc = "EVTDESC9105932"
+		picture = "beretta_modello_fifty_nine_advanced_semi_automatic_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			beretta_modello_fifty_nine_advanced_semi_automatic_rifle_hidden = 6000
+			set_global_flag = beretta_modello_fifty_nine_advanced_semi_automatic_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Beretta Modello 12 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9105933
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			advanced_submachine_guns = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105933"
+		desc = "EVTDESC9105933"
+		picture = "beretta_modello_twelve_advanced_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			beretta_modello_twelve_advanced_submachinegun_hidden = 6000
+			set_global_flag = beretta_modello_twelve_advanced_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Franchi LF-57
+##############################################################
+
+	country_event = {
+		id = 9105934
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ITA
+			advanced_submachine_guns = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9105934"
+		desc = "EVTDESC9105934"
+		picture = "franchi_fifty_seven_advanced_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			franchi_fifty_seven_advanced_submachinegun_hidden = 6000
+			set_global_flag = franchi_fifty_seven_advanced_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	

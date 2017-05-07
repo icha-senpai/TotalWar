@@ -1,0 +1,12 @@
+division= {
+	name = "§Y99. Leichte Infanterie-Division§W"
+	location = 2494 # Bad Kissingen
+	leader = 290 # von der Chevallerie K.
+	regiment = { type = GER_A_VII_Geb name = "Stab 99. Leichte Infanterie-Division" historical_model = 0 experience = 30 organisation = 1 }
+	regiment = { type = light_infantry_brigade name = "Jäger Regiment 206/208" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = anti_tank_brigade name = "Panzerjäger-Abteilung 99" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = pack_artillery_brigade name = "Artillerie-Regiment 82" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "Aufklärungs-Abteilung 99" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = engineer_brigade name = "Pionier-Bataillon 99" historical_model = 3 experience = 30 organisation = 1 }
+	regiment = { type = horse_transport name = "Versorgungseinheiten 99" historical_model = 0 organisation = 1 }
+}

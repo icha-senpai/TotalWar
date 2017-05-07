@@ -1,0 +1,1035 @@
+####################################
+## ELECTRONIC TECHNOLOGIES
+####################################
+electro_mechanical_engineering = {
+
+	allow = {
+	
+	}
+	
+	on_completion = mechanicalengineering_theory
+
+	difficulty = 2
+
+	start_year = 1926
+	first_offset = 1927	#2nd model is from 1938
+	additional_offset = 1
+	max_level = 44
+	folder = electronics_folder
+}
+
+radio = {
+
+	allow = {
+		electro_mechanical_engineering = 1
+	}
+	
+	
+	
+	encryption = -0.05
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 8
+
+	start_year = 1930
+	folder = electronics_folder
+}
+
+military_radio_sets = {
+
+	allow = {
+		radio = 1
+	}
+	
+	
+	
+	listening_station = yes
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 6
+
+	start_year = 1936
+	folder = electronics_folder
+}
+
+short_range_radios = {
+
+	allow = {
+		military_radio_sets = 1
+	}
+	
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 5
+
+	start_year = 1936
+	first_offset = 1938	#2nd model is from 1938
+	additional_offset = 2
+	max_level = 12
+	folder = electronics_folder
+}
+
+medium_range_radios = {
+
+	allow = {
+		military_radio_sets = 1
+	}
+	
+
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 5
+
+	start_year = 1936
+	first_offset = 1938	#2nd model is from 1938
+	additional_offset = 2
+	max_level = 12
+	folder = electronics_folder
+}
+
+long_range_radios = {
+
+	allow = {
+		military_radio_sets = 1
+	}
+	
+	listening_station = yes
+	
+	
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 5
+
+	start_year = 1939
+	first_offset = 1940	#2nd model is from 1938
+	additional_offset = 2
+	max_level = 12
+	folder = electronics_folder
+}
+
+compact_radio_designs = {
+
+	allow = {
+		military_radio_sets = 1
+		short_range_radios = 4
+	}
+	
+	combat_efficiency = 0.01
+	encryption = -0.1	
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 7
+
+	start_year = 1940
+	folder = electronics_folder
+}
+
+loran = {
+
+	allow = {
+		military_radio_sets = 1
+		long_range_radios = 4
+	}
+	
+	change = yes
+	
+	battlecruiser = { 
+		range = 500		
+	}
+	battleship = { 
+		range = 500			
+	}
+	coastal_battleship = { 
+		range = 500				
+	}
+	pocket_battleship = { 
+		range = 500			
+	}
+	super_heavy_battleship = { 
+		range = 500		
+	}
+	super_carrier = { 
+		range = 500		
+	}
+	battle_carrier = { 
+		range = 500		
+	}
+	carrier = { 
+		range = 500		
+	}
+	light_carrier = { 
+		range = 500	
+	}
+	escort_carrier = { 
+		range = 500		
+	}
+	light_cruiser = { 
+		range = 500				
+	}
+	anti_air_cruiser = { 
+		range = 500				
+	}
+	heavy_cruiser = { 
+		range = 500			
+	}
+	destroyer_actual = { 
+		range = 500				
+	}
+	destroyer = { 
+		range = 500			
+	}
+	frigate = { 
+		range = 500			
+	}
+	coastal_submarine = { 
+		range = 500				
+	}
+	submarine = { 
+		range = 500				
+	}
+	long_range_submarine = { 
+		range = 500
+	}
+	nuclear_submarine = { 
+		range = 500			
+	}
+	landing_craft = { 
+		range = 500			
+	}
+	landing_ship_dock = { 
+		range = 500			
+	}
+	assault_ship = { 
+		range = 500			
+	}
+	transport_dock_ship = { 
+		range = 500			
+	}
+	landing_platform_helicopter = { 
+		range = 500			
+	}
+	nuclear_fast_attack_submarine = { 
+		range = 500			
+	}
+	nuclear_ballistic_missile_submarine = { 
+		range = 500			
+	}
+	guided_missile_destroyer = { 
+		range = 500			
+	}
+	nuclear_guided_missile_cruiser = { 
+		range = 500			
+	}
+	nuclear_super_aircraft_carrier = { 
+		range = 500			
+	}
+	
+	BB_Andrea_Doria = { 
+		range = 500			
+	}
+	BB_Anson = { 
+		range = 500			
+	}
+	BB_Arizona = { 
+		range = 500			
+	}
+	BB_Arkansas = { 
+		range = 500			
+	}
+	BB_Barham = { 
+		range = 500			
+	}
+	BB_Bismarck = { 
+		range = 500			
+	}
+	BB_Caio_Duilio = { 
+		range = 500			
+	}
+	BB_California = { 
+		range = 500			
+	}
+	BB_Colorado = { 
+		range = 500			
+	}
+	BB_Conte_di_Cavour = { 
+		range = 500			
+	}
+	BB_Duke_of_York = { 
+		range = 500			
+	}
+	BB_Fuso = { 
+		range = 500			
+	}
+	BB_Giulio_Cesare = { 
+		range = 500			
+	}
+	BB_Gneisenau = { 
+		range = 500			
+	}
+	BB_Howe = { 
+		range = 500			
+	}
+	BB_Hyuga = { 
+		range = 500			
+	}
+	BB_Idaho = { 
+		range = 500			
+	}
+	BB_Iowa = { 
+		range = 500			
+	}
+	BB_Ise = { 
+		range = 500			
+	}
+	BB_King_George_V = { 
+		range = 500			
+	}
+	BB_Littorio = { 
+		range = 500			
+	}
+	BB_Malaya = { 
+		range = 500			
+	}
+	BB_Maryland = { 
+		range = 500			
+	}
+	BB_Mississippi = { 
+		range = 500			
+	}
+	BB_Missouri = { 
+		range = 500			
+	}
+	BB_Mutsu = { 
+		range = 500			
+	}
+	BB_Nagato = { 
+		range = 500			
+	}
+	BB_Nelson = { 
+		range = 500			
+	}
+	BB_Nevada = { 
+		range = 500			
+	}
+	BB_New_Mexico = { 
+		range = 500			
+	}
+	BB_New_York = { 
+		range = 500			
+	}
+	BB_Oklahoma = { 
+		range = 500			
+	}
+	BB_Pennsylvania = { 
+		range = 500			
+	}
+	BB_Prince_of_Wales = { 
+		range = 500			
+	}
+	BB_Queen_elizabeth = { 
+		range = 500			
+	}
+	BB_Ramillies = { 
+		range = 500			
+	}
+	BB_Resolution = { 
+		range = 500			
+	}
+	BB_Revenge = { 
+		range = 500			
+	}
+	BB_Rodney = { 
+		range = 500			
+	}
+	BB_Royal_Oak = { 
+		range = 500			
+	}
+	BB_Royal_sovereign = { 
+		range = 500			
+	}
+	BB_Scharnhorst = { 
+		range = 500			
+	}
+	BB_Tennessee = { 
+		range = 500			
+	}
+	BB_Texas = { 
+		range = 500			
+	}
+	BB_Tirpitz = { 
+		range = 500			
+	}
+	BB_Valiant = { 
+		range = 500			
+	}
+	BB_Vittorio_Veneto = { 
+		range = 500			
+	}
+	BB_Warspite = { 
+		range = 500			
+	}
+	BB_West_Virginia = { 
+		range = 500			
+	}
+	BB_Yamashiro = { 
+		range = 500			
+	}
+	BC_Haruna = { 
+		range = 500			
+	}
+	BC_Hiei = { 
+		range = 500			
+	}
+	BC_Hood = { 
+		range = 500			
+	}
+	BC_Kirishima = { 
+		range = 500			
+	}
+	BC_Kongo = { 
+		range = 500			
+	}
+	BC_Renown = { 
+		range = 500			
+	}
+	BC_Repulse = { 
+		range = 500			
+	}
+	SBB_Musashi = { 
+		range = 500			
+	}
+	SBB_Yamato = { 
+		range = 500			
+	}
+	CV_Akagi = { 
+		range = 500			
+	}
+	CV_Ark_Royal = { 
+		range = 500			
+	}
+	CV_Courageous = { 
+		range = 500			
+	}
+	CV_Enterprise = { 
+		range = 500			
+	}
+	CV_Furious = { 
+		range = 500			
+	}
+	CV_Glorious = { 
+		range = 500			
+	}
+	CV_Hiryu = { 
+		range = 500			
+	}
+	CV_Hornet = { 
+		range = 500			
+	}
+	CV_Kaga = { 
+		range = 500			
+	}
+	CV_Lexington = { 
+		range = 500			
+	}
+	CV_Ranger = { 
+		range = 500			
+	}
+	CV_Saratoga = { 
+		range = 500			
+	}
+	CV_Soryu = { 
+		range = 500			
+	}
+	CV_Yorktown = { 
+		range = 500			
+	}
+		
+			
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 7
+
+	start_year = 1940
+	folder = electronics_folder
+}
+
+iff_transponders = {
+
+	allow = {
+		military_radio_sets = 1
+		medium_range_radios = 5
+	}
+	
+	
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 6
+
+	start_year = 1941
+	folder = electronics_folder
+}
+
+mechanical_computation_machine = {
+
+	allow = {
+		electro_mechanical_engineering = 1
+	}
+	
+	
+	
+	research_efficiency = 0.01
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 6
+
+	start_year = 1936
+	folder = electronics_folder
+}
+
+electronics_engineering = {
+
+	allow = {
+		mechanical_computation_machine = 1
+	}
+	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 3
+
+	start_year = 1936
+	first_offset = 1937
+	additional_offset = 1
+	max_level = 35
+	folder = electronics_folder
+}
+
+cavity_magnetron = {
+
+	allow = {
+		electronics_engineering = 2
+	}
+	
+	
+	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 15
+
+	start_year = 1938
+	folder = electronics_folder
+}
+
+radar = {
+
+	allow = {
+		cavity_magnetron = 1
+		electronics_engineering = 3
+	}
+	
+	
+	
+	activate_building = radar_station 
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 10
+
+	start_year = 1939
+	folder = electronics_folder
+}
+
+ground_based_radar = {
+
+	allow = {
+		radar = 1
+		electronics_engineering = 3
+		
+	}
+	
+	
+	
+	radar_efficiency = 0.05
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 10
+
+	start_year = 1939
+	first_offset = 1940	#2nd model is from 1940
+	additional_offset = 1	#one new every 2 years
+	max_level = 24
+	folder = electronics_folder
+}
+
+airborne_radar = {
+
+	allow = {
+		radar = 1
+		ground_based_radar = 1
+		electronics_engineering = 4 
+	}
+	
+	
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 10
+
+	start_year = 1940
+	first_offset = 1941	#2nd model is from 1940
+	additional_offset = 2	#one new every 1 years
+	max_level = 12
+	folder = electronics_folder
+}
+
+naval_radar = {
+
+	allow = {
+		radar = 1
+		ground_based_radar = 1
+		electronics_engineering = 4
+	}
+	
+	
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 10
+
+	start_year = 1940
+	first_offset = 1941	#2nd model is from 1940
+	additional_offset = 2	#one new every 2 years
+	max_level = 12
+	folder = electronics_folder
+}
+
+fire_control_radar = {
+
+	allow = {
+		radar = 1
+		ground_based_radar = 2
+		electronics_engineering = 5
+	}
+	
+	
+	
+	provincial_aa_efficiency = 0.02
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 10
+
+	start_year = 1941
+	first_offset = 1942	#2nd model is from 1940
+	additional_offset = 1	#one new every 2 years
+	max_level = 12
+	folder = electronics_folder
+}
+
+radar_minaturization = {
+
+	allow = {
+		radar = 1
+		electronics_engineering = 6
+	}
+	
+	
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 12
+
+	start_year = 1942
+	folder = electronics_folder
+}
+
+radar_detectors = {
+
+	allow = {
+		radar = 1
+		airborne_radar = 1
+	}
+	
+
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.20
+		mechanicalengineering_theory = 0.20
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 10
+
+	start_year = 1941
+	first_offset = 1942	#2nd model is from 1940
+	additional_offset = 2	#one new every 2 years
+	max_level = 6
+	folder = electronics_folder
+}
+
+handheld_calculating_table = {
+
+	allow = {
+		electro_mechanical_engineering = 1
+	}
+	
+	
+	
+	research_efficiency = 0.01
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 6
+
+	start_year = 1937
+	folder = electronics_folder
+}
+
+mechanical_calculator = {
+
+	allow = {
+		mechanical_computation_machine = 1
+	}
+	
+	
+	
+	research_efficiency = 0.005
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 9
+
+	start_year = 1936
+	first_offset = 1937	#2nd model is from 1937
+	additional_offset = 2	#one new every 2 years
+	max_level = 6
+	folder = electronics_folder
+}
+
+electronic_computing_machine = {
+
+	allow = {
+		electronics_engineering = 4
+	}
+	
+	
+	
+	research_efficiency = 0.01
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 10
+
+	start_year = 1939
+	first_offset = 1940	#2nd model is from 1940
+	additional_offset = 1	#one new every 2 years
+	max_level = 24
+	folder = electronics_folder
+}
+
+mechanical_encryption_machine = {
+
+	allow = {
+		mechanical_calculator = 1
+	}
+		
+	encryption = 0.3
+	
+	change = no
+	
+	can_upgrade = yes
+	
+	submarine = {
+		visibility = -0.25
+		convoy_attack = 2
+	}
+	coastal_submarine = {
+		visibility = -0.25
+		convoy_attack = 2
+	}
+	long_range_submarine = {
+		visibility = -0.25
+		convoy_attack = 2
+	}
+	nuclear_submarine = {
+		visibility = -0.25
+		convoy_attack = 2
+	}
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 6
+
+	start_year = 1936
+	first_offset = 1937	#2nd model is from 1940
+	additional_offset = 1	#one new every 2 years
+	max_level = 24
+	folder = electronics_folder
+}
+
+encryption_codes = {
+
+	allow = {
+		mechanical_encryption_machine = 1
+	}
+	
+	encryption = 0.2
+	
+	change = no
+	
+	can_upgrade = yes
+	
+	submarine = {
+		visibility = -0.25
+		convoy_attack = 2
+	}
+	coastal_submarine = {
+		visibility = -0.25
+		convoy_attack = 2
+	}
+	long_range_submarine = {
+		visibility = -0.25
+		convoy_attack = 2
+	}
+	nuclear_submarine = {
+		visibility = -0.25
+		convoy_attack = 2
+	}
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 6
+
+	start_year = 1936
+	first_offset = 1937	#2nd model is from 1940
+	additional_offset = 1	#one new every 2 years
+	max_level = 24
+	folder = electronics_folder
+}
+
+decryption_teams = {
+
+	allow = {
+		mechanical_encryption_machine = 1
+	}
+	
+	decryption = 0.1
+		
+	change = no
+	
+	can_upgrade = yes
+	
+	destroyer = {
+		sub_attack = 0.25
+		sub_detection = 0.50
+	}
+	destroyer_actual = {
+		sub_attack = 0.25
+		sub_detection = 0.50
+	}
+	frigate = {
+		sub_attack = 0.25
+		sub_detection = 0.50
+	}
+	convoy_escort = {
+		efficiency = 0.05
+	}
+	
+	escort_efficiency = 0.05
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 6
+
+	start_year = 1936
+	first_offset = 1937	#2nd model is from 1940
+	additional_offset = 1	#one new every 2 years
+	max_level = 24
+	folder = electronics_folder
+}
+
+code_breaking_machine = {
+
+	allow = {
+		mechanical_encryption_machine = 4
+		decryption_teams = 4
+		electronic_computing_machine = 4
+	}
+	
+	decryption = 0.3
+	
+	change = no
+	
+	can_upgrade = yes
+	
+	naval_bomber = {
+		sub_attack = 0.50
+		sub_detection = 1.00
+	}
+	Flying_boat = {
+		sub_attack = 0.50
+		sub_detection = 1.00
+	}
+	
+	destroyer = {
+		sub_attack = 0.50
+		sub_detection = 1.00
+	}
+	destroyer_actual = {
+		sub_attack = 0.50
+		sub_detection = 1.00
+	}
+	frigate = {
+		sub_attack = 0.50
+		sub_detection = 1.00
+	}
+	convoy_escort = {
+		efficiency = 0.10
+	}
+	
+	escort_efficiency = 0.10
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 12
+
+	start_year = 1941
+	first_offset = 1942	#2nd model is from 1940
+	additional_offset = 2	#one new every 2 years
+	max_level = 24
+	folder = electronics_folder
+}
+
+
+
+	

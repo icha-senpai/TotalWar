@@ -1,0 +1,2604 @@
+700750 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700751 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700752 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700753 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700754 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700755 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700756 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700757 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700758 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700759 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700760 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700761 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700762 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700763 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700764 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700765 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700766 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700767 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700768 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700769 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700770 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700771 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700772 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700773 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700774 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700775 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700776 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700777 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700778 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700779 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700780 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700781 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700782 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700783 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700784 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700785 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700786 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700787 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700788 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700789 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700790 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700791 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700792 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700793 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700794 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700795 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700796 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700797 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700798 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700799 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700800 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700801 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700802 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700803 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700804 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700805 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700806 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700807 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700808 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700809 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700810 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700811 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700812 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700813 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700814 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700815 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700816 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700817 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700818 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700819 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700820 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700821 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700822 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700823 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700824 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700825 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700826 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700827 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700828 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700829 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700830 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700831 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700832 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700833 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700834 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700835 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700836 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700837 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700838 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700839 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700840 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700841 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700842 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700843 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700844 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700845 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700846 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700847 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700848 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700849 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700850 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700851 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700852 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700853 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700854 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700855 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700856 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700857 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700858 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700859 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700860 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700861 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700862 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700863 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700864 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700865 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700866 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700867 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700868 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700869 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700870 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700871 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700872 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700873 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700874 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700875 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700876 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700877 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700878 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700879 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700880 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700881 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700882 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700883 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700884 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700885 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700886 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700887 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700888 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700889 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700890 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700891 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700892 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700893 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700894 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700895 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700896 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700897 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700898 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700899 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700900 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700901 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700902 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700903 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700904 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700905 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700906 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700907 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700908 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700909 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700910 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700911 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700912 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700913 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700914 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700915 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700916 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700917 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700918 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700919 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700920 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700921 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700922 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700923 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700924 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700925 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700926 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700927 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700928 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700929 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700930 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700931 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700932 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700933 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700934 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700935 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700936 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700937 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700938 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700939 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700940 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700941 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700942 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700943 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBoat_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700944 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700945 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700946 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700947 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700948 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700949 = {
+	name = "U-Boat Commander"
+	country = GER
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 1_UBOAT_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

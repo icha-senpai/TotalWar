@@ -1,0 +1,53 @@
+night_fighter = {
+	type = air
+	active = no
+	sprite = Fighter
+	is_bomber = no
+	
+		
+	#Size Definitions
+	max_strength = 340
+	default_organisation = 50
+	default_morale = 0.50
+	officers = 230
+
+	#Building Costs
+	build_cost_ic = 2.00
+	build_cost_manpower = 0.50
+	build_time = 45
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 350.00
+	transport_capability = 0.00
+	supply_consumption = 1.25
+	fuel_consumption = 1.60
+	range = 500.00
+	radio_strength = 0.25
+
+	#Detection Abilities
+	surface_detection = 0.65
+	air_detection = 2.00
+
+	#Defensive Abilities
+	surface_defence = 2.65
+	air_defence = 1.00
+	
+	#Offensive Abilities
+	soft_attack = 0.00
+	hard_attack = 0.00
+	sea_attack = 0.00
+	air_attack = 1.65
+	strategic_attack = 0.00
+	sub_attack = 0.00
+	
+	night = { 
+		attack = 0.35
+		defence = 0.35
+	}
+
+	completion_size = 0.34
+	on_completion = twin_engine_aircraft_practical
+	
+	priority = 11
+}

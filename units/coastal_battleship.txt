@@ -1,0 +1,51 @@
+coastal_battleship = {
+	type = naval
+	sprite = HeavyCruiser
+	capital = yes
+	can_be_pride = yes
+	hull = 3.65  
+	active = no
+
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 50
+
+	#Building Costs
+	build_cost_ic = 6.45  
+	build_cost_manpower = 1.350
+	build_time = 450 
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 21.00
+	transport_capability = 0.00  
+	supply_consumption = 1.40
+	fuel_consumption = 1.65
+	range = 3000
+	distance = 0.24
+	positioning = 0.12
+	radio_strength = 1
+
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 1.00
+	sub_detection = 0.00
+	visibility = 100.00
+
+	#Defensive Abilities
+	sea_defence = 15.00
+	air_defence = 2.00
+
+	#Offensive Abilities
+	convoy_attack = 3.00
+	sea_attack = 7.25
+	sub_attack = 0.00
+	air_attack = 0.00
+	shore_bombardment = 4.00
+
+	completion_size = 3.0
+	on_completion = capitalship_practical
+	priority = 86
+}

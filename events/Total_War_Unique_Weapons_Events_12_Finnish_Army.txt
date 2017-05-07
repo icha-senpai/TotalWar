@@ -1,0 +1,74 @@
+########################################################################################
+############# Finnish Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Finnish WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### Lahti L-39 Anti-Tank Rifle
+##############################################################
+
+	country_event = {
+		id = 9106700
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FIN
+			anti_tank_rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106700"
+		desc = "EVTDESC9106700"
+		picture = "lahti_l_thirty_nine_anti_tank_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			lahti_l_thirty_nine_anti_tank_rifle_hidden = 6000
+			set_global_flag = lahti_l_thirty_nine_anti_tank_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### KP/-31 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9106701
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = FIN
+			submachineguns_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106701"
+		desc = "EVTDESC9106701"
+		picture = "kp_thirty_one_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			kp_thirty_one_submachinegun_hidden = 6000
+			set_global_flag = kp_thirty_one_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	

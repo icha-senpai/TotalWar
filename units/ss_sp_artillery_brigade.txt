@@ -1,0 +1,125 @@
+ss_sp_artillery_brigade = {
+	type = land
+	sprite = Tank
+	active = yes
+	is_buildable = yes
+	is_mobile = yes
+	is_armor = yes
+	
+	usable_by = { GER }
+	available_trigger = {
+		has_country_flag = ss_sp_artillery_brigade_activation
+	} 
+	
+	unit_group = artillery_unit_type
+	
+	#Size Definitions
+	max_strength = 28.00
+	default_organisation = 40
+	default_morale = 0.40
+	officers = 20
+
+	#Building Costs
+	build_cost_ic = 5.50
+	build_cost_manpower = 2.800
+	build_time = 90
+	repair_cost_multiplier = 0.08
+
+	#Misc Abilities
+	maximum_speed = 7.00
+	transport_weight = 17.00
+	supply_consumption = 0.75
+	fuel_consumption = 0.95
+	radio_strength = 0.25
+
+	#Defensive Abilities
+	defensiveness = 26.00
+	toughness = 30.0
+	softness = 0.05
+	air_defence = 20.00
+	armor_value = 2
+	
+	#Offensive Abilities
+	suppression = 0.00
+	soft_attack = 1.50
+	hard_attack = 1.50
+	air_attack = 0.00
+	ap_attack = 2
+
+	##  SS units have better overall bonuses than regular units.
+	## Artillery has bonuses to attack mostly. 
+
+   	plains = {
+		attack = 0.70 ## Excellent for attacking open terrain.   
+		defence = 0.50 ## Excellent for defending open terrain. 
+		movement = -0.05 ## Tracked vehicles
+	}
+	river = { 
+		attack = 0.60 ## Can provide suppressive covering fire.  
+		defence = 0.50 ## Easy to defend due to long sight lines.
+		movement = -0.50 ## Horses will have trouble pulling artillery guns through river water.  Need bridges! 
+	}
+	arctic = {	
+		attack = 0.70 ## Can still fire guns in the cold
+		defence = 0.50 ## Sitting in a warm foxhole is easier than attacking in -60C!	
+		movement = -0.15 ## Horses can't move guns on the tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		attack = 0.70 ## Excellent for attacking open desert terrain. 
+		defence = 0.50 ## Excellent for defending open desert terrain. 
+		movement = -0.05 ## Tracked vehicles
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = 0.60 ## Artillery can be effective when bombarding wooded areas.
+		movement = -0.15 ## Tracked vehicles.  
+	}
+	forest = {
+		attack = 0.40 ## Artillery can be effective when bombarding forested areas.
+		movement = -0.25 ## Tracked vehicles. 
+	}
+	jungle = { 
+		attack = 0.30 ## Dense jungle difficult to bombard enemy positions.  Not as big of a bonus.   
+		movement = -0.50 ## Tracked vehicles.
+		attrition = 4 ## Jungles are very inhospitable places.		
+	}
+	
+	hills = { 
+		attack = 0.50 ## Small bonus for attacking hilly areas.  
+		defence = 0.40 ## Easy to defend due to long sight lines. Big bonus due to higher elevations. 
+		movement = -0.10 ## Tracked vehicles. 
+	}
+	mountain = { 
+		attack = 0.25 ## Sight lines obstructed by mountains.   
+		defence = 0.15 ## Sight lines obstructed by mountains. 
+		movement = -0.35 ## Tracked vehicles. 
+	}
+	urban = {
+		attack = 0.60 ## Excellent for destroying enemy positions in cities.  
+		defence = 0.25 ## Small bonus due to urban environment. 
+		movement = 0.05 ## Tracked vehicles.  
+	}
+	marsh = { 
+		attack = 0.30 ## Artillery not as effective in marshes.  
+		defence = 0.25 ## Easy to defend due to long sight lines. Big bonus due to slow attacking enemies
+		movement = -0.30 ## Tracked vehicles suck at moving through marshes.  
+	}
+	amphibious = { 
+		attack = -1.00 ## Nowhere to setup guns.  
+	}
+	night = { 
+		movement = -0.50  ## Can't see as easily during the night. 
+	}
+	fort = { 
+		attack = 0.50 ## Excellent for bombarding fortifications. 
+		defence = 0.25 ## Excellent for defending fortifications.  
+	}
+
+	combat_width = 0.11
+	
+	completion_size = 0.25
+	on_completion = artillery_practical
+	
+	priority = 22
+}

@@ -1,0 +1,13 @@
+division= {
+	name = "23. Panzer-Division"
+	location = 2610 #Argenta
+	leader = 606 # von Boineburg-Lengsfeld
+	regiment = { type = GER_A_XXIII_mPzD name = "Stab 23. Panzer-Division" historical_model = 3 experience = 50 organisation = 1 }
+	regiment = { type = armor_brigade name = "Panzer-Regiment 201" historical_model = 3 experience = 50 builder = FRA organisation = 1 }
+	regiment = { type = motorized_infantry_bat name = "Panzergrenadier-Regiment 126/128" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = sp_artillery_brigade name = "Panzer-Artillerie-Regiment 128" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = tank_destroyer_brigade name = "Panzerjäger-Abteilung 128" historical_model = 3 experience = 50 organisation = 1 }
+	regiment = { type = armored_car_brigade name = "Panzer-Aufklärungs-Abteilung 23" historical_model = 4 experience = 50 organisation = 1 }
+	regiment = { type = armored_engineers_brigade name = "Panzer-Pionier-Abteilung 51" historical_model = 2 experience = 50 organisation = 1 }
+	regiment = { type = truck_transport name = "Gefechtstross 23. Panzer-Division" historical_model = 0 experience = 50 organisation = 1 }
+}

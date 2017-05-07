@@ -1,0 +1,6 @@
+division= {
+	name = "39. SS-Gebirgs-Division 'Andreas Höfer'"
+	location = 3289 # Innsbruck
+	regiment = { type = Ger_A_39_AndreasHofer name = "Stab 39. SS-Division" historical_model = 0 strength = 1 experience = 30 organisation = 1 }
+	regiment = { type = ss_bergsjaeger_brigade name = "SS-Gebirgs-Regiment 97/98" historical_model = 0 strength = 10 experience = 30 organisation = 1 }
+}

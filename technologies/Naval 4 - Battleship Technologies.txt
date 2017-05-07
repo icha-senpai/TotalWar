@@ -1,0 +1,4983 @@
+################################################################################
+# BATTLESHIP TECHNOLOGIES	
+################################################################################
+################################################################################
+# POCKET BATTLESHIP TECHNOLOGY	
+################################################################################
+# 
+pocket_battleship = {
+	
+
+	allow = {
+		num_of_ports  = 1
+		Ship_Building_Technologies = 1
+		
+	}
+	
+	activate_unit = pocket_battleship
+	
+	pocket_battleship = {
+		build_cost_ic =  1.15
+		build_cost_manpower = 0.060
+		build_time = 20
+		range = 175
+		positioning = 0.01
+		distance = 0.01
+		visibility = -1
+		sea_defence = 1.85
+		air_defence = 0.85
+		convoy_attack = 0.35
+		sea_attack = 2.35
+	}
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 2
+
+	start_year = 1935
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER TECHNOLOGY	
+################################################################################
+# 
+battlecruiser_technology = {
+	
+
+	allow = {
+		num_of_ports  = 1
+		Ship_Building_Technologies = 1
+		fleet_in_being_doctrine = 1
+	}
+
+	research_bonus_from = {
+		naval_engineering = 1.00
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 3
+
+	start_year = 1918
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER CLASS	
+################################################################################
+# 
+battlecruiser_class = {
+	
+	allow = {
+		battlecruiser_technology = 1					
+		OR = {
+			AND = {
+				NOT = { battlecruiser_class = 1 }  # 1918
+				Ship_Building_Technologies = 1
+				OR = {
+					battlecruiser_main_armament = 1
+					battlecruiser_secondary_armament = 1
+					
+				}
+				OR = {
+					battlecruiser_propulsion = 1 
+					battlecruiser_armor = 1
+					
+				}
+				OR = {
+					battlecruiser_hull_design = 1
+					battlecruiser_crew_berthing = 1
+					
+				}
+				
+			}
+			AND = {
+				NOT = { battlecruiser_class = 2 }    # 1934
+				Ship_Building_Technologies = 2
+				OR = {
+					battlecruiser_main_armament = 2
+					battlecruiser_secondary_armament = 2
+					
+				}
+				OR = {
+					battlecruiser_propulsion = 2
+					battlecruiser_armor = 2
+					
+				}
+				OR = {
+					battlecruiser_hull_design = 2
+					battlecruiser_crew_berthing = 2
+					
+				}
+							
+			}
+			AND = {
+				NOT = { battlecruiser_class = 3 }    # 1936
+				Ship_Building_Technologies = 4
+				OR = {
+					battlecruiser_main_armament = 3
+					battlecruiser_secondary_armament = 3
+					
+				}
+				OR = {
+					battlecruiser_propulsion = 3
+					battlecruiser_armor = 3
+					
+				}
+				OR = {
+					battlecruiser_hull_design = 3
+					battlecruiser_crew_berthing = 3
+					
+				}
+						
+			}
+			AND = {
+				NOT = { battlecruiser_class = 4 }    # 1938
+				Ship_Building_Technologies = 6
+				OR = {
+					battlecruiser_main_armament = 4
+					battlecruiser_secondary_armament = 4
+					
+				}
+				OR = {
+					battlecruiser_propulsion = 4
+					battlecruiser_armor = 4
+					
+				}
+				OR = {
+					battlecruiser_hull_design = 4
+					battlecruiser_crew_berthing = 4
+					
+				}
+					
+			}	
+			AND = {
+				NOT = { battlecruiser_class = 5 }    # 1940
+				Ship_Building_Technologies = 8
+				OR = {
+					battlecruiser_main_armament = 5
+					battlecruiser_secondary_armament = 5
+					
+				}
+				OR = {
+					battlecruiser_propulsion = 5
+					battlecruiser_armor = 5
+					
+				}
+				OR = {
+					battlecruiser_hull_design = 5
+					battlecruiser_crew_berthing = 5
+					
+				}
+					
+			}
+			AND = {
+				NOT = { battlecruiser_class = 6 }    # 1942
+				Ship_Building_Technologies = 10
+				OR = {
+					battlecruiser_main_armament = 6
+					battlecruiser_secondary_armament = 6
+					
+				}
+				OR = {
+					battlecruiser_propulsion = 6 
+					battlecruiser_armor = 6
+					
+				}
+				OR = {
+					battlecruiser_hull_design = 6
+					battlecruiser_crew_berthing = 6
+					
+				}
+					
+			}
+		}
+	}
+	
+	activate_unit = battlecruiser
+	
+	battlecruiser = {
+		build_cost_ic =  1.00
+		build_cost_manpower = 0.060
+		build_time = 25
+		range = 200
+		positioning = 0.01
+		distance = 0.01
+		visibility = -1
+		sea_defence = 2.45
+		air_defence = 1.05
+		convoy_attack = 0.20
+		sea_attack = 1.85
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER MAIN ARMAMENT
+################################################################################
+# 
+battlecruiser_main_armament = {
+	
+	allow = {
+		battlecruiser_technology = 1
+	}
+	
+	battlecruiser = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.020
+		build_time = 7
+		range = -300
+		distance = 0.01
+		convoy_attack = 0.35
+		sea_attack = 2.45
+		shore_bombardment = 0.75
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER SECONDARY ARMAMENT	
+################################################################################
+# 
+battlecruiser_secondary_armament = {
+	
+	allow = {
+		battlecruiser_technology = 1
+	}
+	
+	battlecruiser = {
+		build_cost_ic =  0.10
+		build_cost_manpower = 0.020
+		build_time = 3
+		air_attack = 0.65
+		convoy_attack = 0.25
+		sea_attack = 0.65
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER ANTI-AIRCRAFT GUNS	
+################################################################################
+# 
+battlecruiser_anti_aircraft_guns = {
+	
+
+	allow = {
+		battlecruiser_technology = 1
+	}
+	
+	battlecruiser = {
+		build_cost_ic =  0.30
+		build_cost_manpower = 0.035
+		build_time = 5
+		range = -150
+		air_attack = 2.75
+	}
+	
+	BC_Haruna = {
+		build_cost_ic =  0.30
+		build_cost_manpower = 0.035
+		build_time = 5
+		range = -150
+		air_attack = 2.75
+	}
+	
+	BC_Hiei = {
+		build_cost_ic =  0.30
+		build_cost_manpower = 0.035
+		build_time = 5
+		range = -150
+		air_attack = 2.75
+	}
+	
+	BC_Hood = {
+		build_cost_ic =  0.30
+		build_cost_manpower = 0.035
+		build_time = 5
+		range = -150
+		air_attack = 2.75
+	}
+	
+	BC_Kirishima = {
+		build_cost_ic =  0.30
+		build_cost_manpower = 0.035
+		build_time = 5
+		range = -150
+		air_attack = 2.75
+	}
+	
+	BC_Kongo = {
+		build_cost_ic =  0.30
+		build_cost_manpower = 0.035
+		build_time = 5
+		range = -150
+		air_attack = 2.75
+	}
+	
+	BC_Renown = {
+		build_cost_ic =  0.30
+		build_cost_manpower = 0.035
+		build_time = 5
+		range = -150
+		air_attack = 2.75
+	}
+	
+	BC_Repulse = {
+		build_cost_ic =  0.30
+		build_cost_manpower = 0.035
+		build_time = 5
+		range = -150
+		air_attack = 2.75
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+
+	start_year = 1938
+	first_offset = 1940		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 4 # 1944
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER PROPULSION	
+################################################################################
+# 
+battlecruiser_propulsion = {
+
+	allow = {
+		battlecruiser_technology = 1
+	}
+	
+	battlecruiser = {
+		build_cost_ic = 0.35
+		build_cost_manpower = 0.040
+		build_time = 9
+		maximum_speed = 1.852
+		range = 300
+		positioning = 0.03
+		sea_defence = 0.40
+		air_defence = 0.30
+		convoy_attack = 0.01
+		sea_attack = 0.35
+		visibility = -5
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1933		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER ARMOR	
+################################################################################
+# 
+battlecruiser_armor = {
+	
+
+	allow = {
+		battlecruiser_technology = 1
+	}
+	
+	battlecruiser = {
+		build_cost_ic =  0.25
+		build_time = 5
+		range = -500
+		positioning = -0.01
+		sea_defence = 5.00
+		air_defence = 1.75
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER HULL DESIGN	
+################################################################################
+# 
+battlecruiser_hull_design = {
+	
+
+	allow = {
+		battlecruiser_technology = 1
+	}
+	
+	battlecruiser = {
+		build_cost_ic =  0.14
+		build_time = 6
+		range = 250
+		sea_defence = 1.85
+		air_defence = 0.45
+		sea_attack = 0.60
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER CREW BERTHING	
+################################################################################
+# 
+battlecruiser_crew_berthing = {
+	
+
+	allow = {
+		battlecruiser_technology = 1
+	}
+	
+	battlecruiser = {
+		default_morale = 0.02
+		build_cost_ic =  0.07
+		build_time = 5
+		range = -350
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER FIRE CONTROL SYSTEM	
+################################################################################
+# 
+battlecruiser_fire_control_system = {
+	
+	allow = {
+		battlecruiser_technology = 1
+	}
+	
+	battlecruiser = {
+		build_cost_ic =  0.02
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	BC_Haruna = {
+		build_cost_ic =  0.02
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	BC_Hiei = {
+		build_cost_ic =  0.02
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	BC_Hood = {
+		build_cost_ic =  0.02
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	BC_Kirishima = {
+		build_cost_ic =  0.02
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	BC_Kongo = {
+		build_cost_ic =  0.02
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	BC_Renown = {
+		build_cost_ic =  0.02
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	BC_Repulse = {
+		build_cost_ic =  0.02
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1935
+	first_offset = 1937		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 4 # 1941
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER ANTI-AIR FIRE CONTROL SYSTEM	
+################################################################################
+# 
+battlecruiser_anti_air_fire_control_system = {
+	
+	allow = {
+		battlecruiser_technology = 1
+	}
+	
+	battlecruiser = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	BC_Haruna = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	BC_Hiei = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	BC_Hood = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	BC_Kirishima = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	BC_Kongo = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	BC_Renown = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	BC_Repulse = {
+		build_cost_ic =  0.02
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1937
+	first_offset = 1939		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 3 # 1941
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLECRUISER DAMAGE CONTROL SYSTEMS	
+################################################################################
+# 
+battlecruiser_damage_control_system = {
+	
+	allow = {
+		battlecruiser_technology = 1
+	}
+	
+	battlecruiser = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	BC_Haruna = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	BC_Hiei = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	BC_Hood = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	BC_Kirishima = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	BC_Kongo = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	BC_Renown = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	BC_Repulse = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 4 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP TECHNOLOGY
+################################################################################
+# 
+battleship_technology = {
+	
+
+	allow = {
+		num_of_ports  = 1
+		Ship_Building_Technologies = 1
+		fleet_in_being_doctrine = 1
+	}
+	
+	activate_unit = coastal_battleship
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 4
+
+	start_year = 1918
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP CLASS
+################################################################################
+# 
+battleship_class = {
+	
+	allow = {
+		battleship_technology = 1
+				
+		OR = {
+			AND = {
+				NOT = { battleship_class = 1 }  # 1918
+				Ship_Building_Technologies = 1
+				OR = {
+					battleship_main_armament = 1
+					battleship_secondary_armament = 1	
+					
+				}
+				OR = {
+					battleship_propulsion = 1 
+					battleship_armor = 1
+					
+				}
+				OR = {
+					battleship_hull_design = 1
+					battleship_crew_berthing = 1
+					
+				}
+				
+			}
+			AND = {
+				NOT = { battleship_class = 2 }    # 1928
+				Ship_Building_Technologies = 1
+				OR = {
+					battleship_main_armament = 2
+					battleship_secondary_armament = 2
+					
+				}
+				OR = {
+					battleship_propulsion = 2
+					battleship_armor = 2
+					
+				}
+				OR = {
+					battleship_hull_design = 2
+					battleship_crew_berthing = 2
+					
+				}
+							
+			}
+			AND = {
+				NOT = { battleship_class = 3 }    # 1931
+				Ship_Building_Technologies = 1
+				OR = {
+					battleship_main_armament = 3
+					battleship_secondary_armament = 3	
+					
+				}
+				OR = {
+					battleship_propulsion = 3
+					battleship_armor = 3
+					
+				}
+				OR = {
+					battleship_hull_design = 3
+					battleship_crew_berthing = 3
+					
+				}
+						
+			}
+			AND = {
+				NOT = { battleship_class = 4 }    # 1934
+				Ship_Building_Technologies = 2
+				OR = {
+					battleship_main_armament = 4
+					battleship_secondary_armament = 4
+					
+				}
+				OR = {
+					battleship_propulsion = 4
+					battleship_armor = 4
+					
+				}
+				OR = {
+					battleship_hull_design = 4
+					battleship_crew_berthing = 4
+					
+				}
+						
+			}	
+			AND = {
+				NOT = { battleship_class = 5 }    # 1937
+				Ship_Building_Technologies = 5
+				OR = {
+					battleship_main_armament = 5
+					battleship_secondary_armament = 5
+					
+				}
+				OR = {
+					battleship_propulsion = 5
+					battleship_armor = 5
+					
+				}
+				OR = {
+					battleship_hull_design = 5
+					battleship_crew_berthing = 5
+					
+				}	
+			}	
+			AND = {
+				NOT = { battleship_class = 6 }    # 1940
+				Ship_Building_Technologies = 8
+				OR = {
+					battleship_main_armament = 6
+					battleship_secondary_armament = 6	
+					
+				}
+				OR = {
+					battleship_propulsion = 6
+					battleship_armor = 6
+					
+				}
+				OR = {
+					battleship_hull_design = 6
+					battleship_crew_berthing = 6
+					
+				}	
+			}
+			AND = {
+				NOT = { battleship_class = 7 }    # 1943
+				Ship_Building_Technologies = 11
+				OR = {
+					battleship_main_armament = 7
+					battleship_secondary_armament = 7	
+					
+				}
+				OR = {
+					battleship_propulsion = 7
+					battleship_armor = 7
+					
+				}
+				OR = {
+					battleship_hull_design = 7
+					battleship_crew_berthing = 7
+					
+				}
+			}
+		}
+	}
+	
+	activate_unit = battleship
+		
+	battleship = {
+		build_cost_ic =  1.50
+		build_cost_manpower = 0.080
+		build_time = 35
+		range = 250
+		positioning = 0.01
+		distance = 0.01
+		visibility = -1
+		sea_defence = 2.85
+		air_defence = 1.65
+		convoy_attack = 0.25
+		sea_attack = 2.35
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1918
+	first_offset = 1928		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1943
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP MAIN ARMAMENT
+################################################################################
+# 
+battleship_main_armament = {
+	
+	allow = {
+		battleship_technology = 1
+	}
+	
+	battleship = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.020
+		build_time = 7
+		range = -300
+		distance = 0.02
+		convoy_attack = 0.35
+		sea_attack = 3.25
+		shore_bombardment = 1.25
+	}
+	
+	coastal_battleship = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.015
+		build_time = 6
+		range = -275
+		distance = 0.02
+		convoy_attack = 0.30
+		sea_attack = 3.00
+		shore_bombardment = 1.00
+	}
+	
+	super_heavy_battleship = {
+		build_cost_ic =  0.60
+		build_cost_manpower = 0.035
+		build_time = 10
+		range = -400
+		distance = 0.03
+		convoy_attack = 0.30
+		sea_attack = 4.55
+		shore_bombardment = 1.25
+	}
+	
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1918
+	first_offset = 1928		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1943
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP SECONDARY ARMAMENT
+################################################################################
+# 
+battleship_secondary_armament = {
+	
+
+	allow = {
+		battleship_technology = 1
+	}
+	
+	battleship = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.030
+		build_time = 4
+		air_attack = 0.85
+		convoy_attack = 0.30
+		sea_attack = 1.05
+	}
+	
+	coastal_battleship = {
+		build_cost_ic =  0.05
+		build_cost_manpower = 0.025
+		build_time = 3
+		air_attack = 0.80
+		convoy_attack = 0.20
+		sea_attack = 0.85
+	}
+	
+	super_heavy_battleship = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.040
+		build_time = 6
+		air_attack = 1.25
+		convoy_attack = 0.35
+		sea_attack = 1.65
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1927		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP ANTI-AIR GUNS
+################################################################################
+# 
+battleship_anti_air_guns = {
+	
+	allow = {
+		battleship_technology = 1
+	}
+	
+	battleship = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	
+	coastal_battleship = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.030
+		build_time = 5
+		range = -150
+		air_attack = 3.95
+	}
+	
+	super_heavy_battleship = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.050
+		build_time = 9
+		range = -300
+		air_attack = 5.75
+	}
+	
+	SBB_Yamato = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.050
+		build_time = 9
+		range = -300
+		air_attack = 5.75
+	}
+	SBB_Musashi = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.050
+		build_time = 9
+		range = -300
+		air_attack = 5.75
+	}
+	
+	BB_Andrea_Doria = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Anson = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Arizona = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Arkansas = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Barham = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Bismarck = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Caio_Duilio = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_California = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Colorado = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Conte_di_Cavour = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Duke_of_York = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Fuso = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Giulio_Cesare = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Gneisenau = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Howe = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Hyuga = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Idaho = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Iowa = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Ise = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_King_George_V = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Littorio = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Malaya = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Maryland = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Mississippi = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Missouri = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Mutsu = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Nagato = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Nelson = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Nevada = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_New_Mexico = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_New_York = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Oklahoma = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Pennsylvania = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Prince_of_Wales = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Queen_elizabeth = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Ramillies = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Resolution = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Revenge = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Rodney = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Royal_Oak = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Royal_sovereign = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Scharnhorst = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Tennessee = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Texas = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Tirpitz = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Valiant = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Vittorio_Veneto = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Warspite = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_West_Virginia = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	BB_Yamashiro = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	
+	PBB_Graf_Spee = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	PBB_Deutschland = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	PBB_Adm_Scheer = {
+		build_cost_ic =  0.35
+		build_cost_manpower = 0.040
+		build_time = 6
+		range = -200
+		air_attack = 4.15
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+
+	start_year = 1937
+	first_offset = 1939		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 4 # 1943
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP PROPULSION
+################################################################################
+# 
+battleship_propulsion = {
+	
+	allow = {
+		battleship_technology = 1
+	}
+	
+	battleship = {
+		build_cost_ic =  0.45
+		build_cost_manpower = 0.045
+		build_time = 10
+		maximum_speed = 1.852
+		range = 400
+		positioning = 0.03
+		sea_defence = 0.45
+		air_defence = 0.35
+		convoy_attack = 0.01
+		sea_attack = 0.40
+		visibility = -5
+	}
+	
+	coastal_battleship = {
+		build_cost_ic =  0.45
+		build_cost_manpower = 0.035
+		build_time = 8
+		maximum_speed = 1.852
+		range = 350
+		positioning = 0.03
+		sea_defence = 0.40
+		air_defence = 0.30
+		convoy_attack = 0.01
+		sea_attack = 0.30
+		visibility = -5
+	}
+	
+	super_heavy_battleship = {
+		build_cost_ic =  0.45
+		build_cost_manpower = 0.060
+		build_time = 15
+		maximum_speed = 1.852
+		range = 500
+		positioning = 0.03
+		sea_defence = 0.75
+		air_defence = 0.65
+		convoy_attack = 0.01
+		sea_attack = 0.60
+		visibility = -5
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1928		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP ARMOR
+################################################################################
+# 
+battleship_armor = {
+	
+	allow = {
+		battleship_technology = 1
+	}
+	
+	battleship = {
+		build_cost_ic =  0.35
+		build_time = 6
+		range = -600
+		positioning = -0.01
+		sea_defence = 6.55
+		air_defence = 2.45
+	}
+	
+	coastal_battleship = {
+		build_cost_ic =  0.25
+		build_time = 5
+		range = -550
+		positioning = -0.01
+		sea_defence = 6.35
+		air_defence = 2.15
+	}
+	
+	super_heavy_battleship = {
+		build_cost_ic =  0.40
+		build_time = 10
+		range = -700
+		positioning = -0.01
+		sea_defence = 8.75
+		air_defence = 4.15
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1928		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1943
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP HULL DESIGN
+################################################################################
+# 
+battleship_hull_design = {
+	
+	allow = {
+		battleship_technology = 1
+	}
+	
+	battleship = {
+		build_cost_ic =  0.20
+		build_time = 7
+		range = 300
+		sea_defence = 2.45
+		air_defence = 0.65
+		sea_attack = 0.70
+	}
+	
+	coastal_battleship = {
+		build_cost_ic =  0.15
+		build_time = 6
+		range = 250
+		sea_defence = 2.35
+		air_defence = 0.55
+		sea_attack = 0.60
+	}
+	
+	super_heavy_battleship = {
+		build_cost_ic =  0.20
+		build_time = 10
+		range = 400
+		sea_defence = 3.65
+		air_defence = 1.25
+		sea_attack = 1.05
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 9
+
+	start_year = 1918
+	first_offset = 1928		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1943
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP CREW BERTHING
+################################################################################
+# 
+battleship_crew_berthing = {
+	
+	allow = {
+		battleship_technology = 1
+	}
+	
+	battleship = {
+		default_morale = 0.02
+		build_cost_ic =  0.10
+		build_time = 8
+		range = -450
+	}
+	
+	coastal_battleship = {
+		default_morale = 0.02
+		build_cost_ic =  0.08
+		build_time = 6
+		range = -400
+	}
+	
+	super_heavy_battleship = {
+		default_morale = 0.02
+		build_cost_ic =  0.10
+		build_time = 10
+		range = -500
+	}
+	
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1918
+	first_offset = 1928		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 7 # 1943
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP FIRE CONTROL SYSTEMS
+################################################################################
+# 
+battleship_fire_control_systems = {
+	
+	allow = {
+		battleship_technology = 1
+	}
+
+	battleship = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	coastal_battleship = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	super_heavy_battleship = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	SBB_Yamato = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	SBB_Musashi = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	BB_Andrea_Doria = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Anson = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Arizona = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Arkansas = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Barham = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Bismarck = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Caio_Duilio = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_California = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Colorado = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Conte_di_Cavour = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Duke_of_York = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Fuso = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Giulio_Cesare = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Gneisenau = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Howe = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Hyuga = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Idaho = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Iowa = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Ise = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_King_George_V = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Littorio = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Malaya = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Maryland = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Mississippi = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Missouri = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Mutsu = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Nagato = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Nelson = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Nevada = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_New_Mexico = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_New_York = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Oklahoma = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Pennsylvania = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Prince_of_Wales = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Queen_elizabeth = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Ramillies = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Resolution = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Revenge = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Rodney = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Royal_Oak = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Royal_sovereign = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Scharnhorst = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Tennessee = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Texas = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Tirpitz = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Valiant = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Vittorio_Veneto = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Warspite = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_West_Virginia = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	BB_Yamashiro = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	PBB_Graf_Spee = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	PBB_Deutschland = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	PBB_Adm_Scheer = {
+		build_cost_ic =  0.03
+		build_time = 2
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 1.25
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1935
+	first_offset = 1937		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 3 # 1941
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP ANTI-AIR FIRE CONTROL SYSTEM
+################################################################################
+# 
+battleship_anti_air_fire_control_system = {
+	
+	allow = {
+		battleship_technology = 1
+	}
+
+	battleship = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	coastal_battleship = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	super_heavy_battleship = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	SBB_Yamato = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	SBB_Musashi = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	BB_Andrea_Doria = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Anson = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Arizona = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Arkansas = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Barham = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Bismarck = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Caio_Duilio = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_California = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Colorado = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Conte_di_Cavour = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Duke_of_York = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Fuso = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Giulio_Cesare = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Gneisenau = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Howe = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Hyuga = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Idaho = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Iowa = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Ise = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_King_George_V = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Littorio = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Malaya = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Maryland = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Mississippi = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Missouri = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Mutsu = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Nagato = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Nelson = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Nevada = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_New_Mexico = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_New_York = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Oklahoma = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Pennsylvania = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Prince_of_Wales = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Queen_elizabeth = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Ramillies = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Resolution = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Revenge = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Rodney = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Royal_Oak = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Royal_sovereign = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Scharnhorst = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Tennessee = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Texas = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Tirpitz = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Valiant = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Vittorio_Veneto = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Warspite = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_West_Virginia = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	BB_Yamashiro = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	PBB_Graf_Spee = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	PBB_Deutschland = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	PBB_Adm_Scheer = {
+		build_cost_ic =  0.03
+		build_time = 2
+		air_attack = 1.15
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+
+	start_year = 1937
+	first_offset = 1939		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 3 # 1941
+	folder = capitalship_folder
+}
+################################################################################
+# BATTLESHIP DAMAGE CONTROL
+################################################################################
+# 
+battleship_damage_control_system = {
+	
+	allow = {
+		battleship_technology = 1
+	}
+
+	battleship = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	coastal_battleship = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	super_heavy_battleship = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	SBB_Yamato = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	SBB_Musashi = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	BB_Andrea_Doria = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Anson = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Arizona = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Arkansas = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Barham = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Bismarck = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Caio_Duilio = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_California = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Colorado = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Conte_di_Cavour = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Duke_of_York = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Fuso = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Giulio_Cesare = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Gneisenau = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Howe = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Hyuga = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Idaho = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Iowa = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Ise = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_King_George_V = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Littorio = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Malaya = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Maryland = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Mississippi = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Missouri = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Mutsu = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Nagato = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Nelson = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Nevada = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_New_Mexico = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_New_York = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Oklahoma = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Pennsylvania = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Prince_of_Wales = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Queen_elizabeth = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Ramillies = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Resolution = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Revenge = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Rodney = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Royal_Oak = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Royal_sovereign = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Scharnhorst = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Tennessee = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Texas = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Tirpitz = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Valiant = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Vittorio_Veneto = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Warspite = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_West_Virginia = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	BB_Yamashiro = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	PBB_Graf_Spee = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	PBB_Deutschland = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	PBB_Adm_Scheer = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	change = no
+	
+	can_upgrade = yes
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+
+	start_year = 1918
+	first_offset = 1936		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1942
+	folder = capitalship_folder
+}
+################################################################################
+# SUPER HEAVY BATTLESHIP TECHNOLOGY
+################################################################################
+# 
+super_heavy_battleship_technology = {
+	
+
+	allow = {
+		num_of_ports  = 1
+		Ship_Building_Technologies = 1
+		fleet_in_being_doctrine = 1
+		battleship_class = 3
+	}
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1936
+	folder = capitalship_folder
+}
+################################################################################
+# SUPER HEAVY BATTLESHIP CLASS
+################################################################################
+# 
+super_heavy_battleship_class = {
+	
+	allow = {
+		super_heavy_battleship_technology = 1
+		battleship_main_armament = 2
+		battleship_secondary_armament = 2	
+		battleship_propulsion = 2
+		battleship_armor = 2
+		battleship_hull_design = 2
+		battleship_crew_berthing = 2
+		OR = {
+			AND = {
+				NOT = { super_heavy_battleship_class = 1 }    # 1937
+				OR = {
+					battleship_main_armament = 3
+					battleship_secondary_armament = 3
+				}
+				OR = {
+					battleship_propulsion = 3
+					battleship_armor = 3
+				}
+				OR = {
+					battleship_hull_design = 3
+					battleship_crew_berthing = 3
+				}
+							
+			}
+			AND = {
+				NOT = { super_heavy_battleship_class = 2 }    # 1940
+				OR = {
+					battleship_main_armament = 4
+					battleship_secondary_armament = 4
+				}
+				OR = {
+					battleship_propulsion = 4
+					battleship_armor = 4
+				}
+				OR = {
+					battleship_hull_design = 4
+					battleship_crew_berthing = 4
+				}	
+			}		
+		}
+	}
+	
+	activate_unit = super_heavy_battleship
+	
+	super_heavy_battleship = {
+		build_cost_ic =  2.00
+		build_cost_manpower = 0.080
+		build_time = 35
+		range = 250
+		positioning = 0.01
+		distance = 0.01
+		visibility = -5
+		sea_defence = 2.85
+		air_defence = 1.65
+		convoy_attack = 0.25
+		sea_attack = 2.35
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 050
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1937
+	first_offset = 1940		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 2 # 1940
+	folder = capitalship_folder
+}
+################################################################################
+# CAPITAL SHIP SURFACE SEARCH RADAR
+################################################################################
+# 
+capital_ship_surface_search_radar = {
+	
+
+	allow = {
+		OR = { 
+		battleship_class = 3
+		super_heavy_battleship_class = 1
+		}
+		naval_radar = 2
+	}
+	
+	battleship = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	super_heavy_battleship = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	
+	SBB_Yamato = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	SBB_Musashi = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	
+	BB_Andrea_Doria = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Anson = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Arizona = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Arkansas = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Barham = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Bismarck = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Caio_Duilio = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_California = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Colorado = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Conte_di_Cavour = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Duke_of_York = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Fuso = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Giulio_Cesare = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Gneisenau = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Howe = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Hyuga = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Idaho = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Iowa = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Ise = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_King_George_V = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Littorio = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Malaya = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Maryland = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Mississippi = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Missouri = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Mutsu = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Nagato = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Nelson = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Nevada = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_New_Mexico = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_New_York = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Oklahoma = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Pennsylvania = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Prince_of_Wales = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Queen_elizabeth = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Ramillies = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Resolution = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Revenge = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Rodney = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Royal_Oak = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Royal_sovereign = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Scharnhorst = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Tennessee = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Texas = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Tirpitz = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Valiant = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Vittorio_Veneto = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Warspite = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_West_Virginia = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	BB_Yamashiro = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	
+	PBB_Graf_Spee = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	PBB_Deutschland = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	PBB_Adm_Scheer = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = electornicegineering_theory
+
+	difficulty = 9
+	
+	start_year = 1941
+	first_offset = 1942		
+	additional_offset = 2	
+	max_level = 4 # 1946
+	folder = capitalship_folder
+}
+################################################################################
+# CAPITAL SHIP AIR SEARCH RADAR
+################################################################################
+# 
+capital_ship_air_search_radar = {
+
+	allow = {
+		OR = { 
+		battleship_class = 3
+		super_heavy_battleship_class = 1
+		}
+		naval_radar = 2
+	}
+	
+	battleship = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	super_heavy_battleship = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	
+	SBB_Yamato = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	SBB_Musashi = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	
+	BB_Andrea_Doria = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Anson = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Arizona = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Arkansas = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Barham = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Bismarck = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Caio_Duilio = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_California = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Colorado = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Conte_di_Cavour = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Duke_of_York = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Fuso = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Giulio_Cesare = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Gneisenau = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Howe = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Hyuga = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Idaho = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Iowa = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Ise = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_King_George_V = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Littorio = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Malaya = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Maryland = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Mississippi = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Missouri = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Mutsu = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Nagato = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Nelson = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Nevada = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_New_Mexico = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_New_York = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Oklahoma = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Pennsylvania = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Prince_of_Wales = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Queen_elizabeth = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Ramillies = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Resolution = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Revenge = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Rodney = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Royal_Oak = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Royal_sovereign = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Scharnhorst = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Tennessee = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Texas = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Tirpitz = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Valiant = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Vittorio_Veneto = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Warspite = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_West_Virginia = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	BB_Yamashiro = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	
+	PBB_Graf_Spee = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	PBB_Deutschland = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	PBB_Adm_Scheer = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = electornicegineering_theory
+
+	difficulty = 9
+	
+	start_year = 1941
+	first_offset = 1943		
+	additional_offset = 2	
+	max_level = 3 # 1945
+	folder = capitalship_folder
+}
+################################################################################
+# CAPITAL SHIP FIRE SEARCH RADAR
+################################################################################
+# 
+capital_ship_fire_control_radar = {
+	
+	allow = {
+		OR = { 
+		battleship_class = 3
+		super_heavy_battleship_class = 1
+		}
+		naval_radar = 2
+	}
+	
+	battleship = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	super_heavy_battleship = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	
+	SBB_Yamato = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	SBB_Musashi = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	
+	BB_Andrea_Doria = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Anson = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Arizona = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Arkansas = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Barham = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Bismarck = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Caio_Duilio = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_California = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Colorado = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Conte_di_Cavour = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Duke_of_York = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Fuso = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Giulio_Cesare = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Gneisenau = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Howe = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Hyuga = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Idaho = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Iowa = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Ise = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_King_George_V = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Littorio = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Malaya = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Maryland = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Mississippi = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Missouri = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Mutsu = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Nagato = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Nelson = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Nevada = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_New_Mexico = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_New_York = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Oklahoma = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Pennsylvania = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Prince_of_Wales = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Queen_elizabeth = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Ramillies = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Resolution = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Revenge = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Rodney = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Royal_Oak = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Royal_sovereign = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Scharnhorst = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Tennessee = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Texas = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Tirpitz = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Valiant = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Vittorio_Veneto = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Warspite = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_West_Virginia = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	BB_Yamashiro = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	
+	PBB_Graf_Spee = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	PBB_Deutschland = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	PBB_Adm_Scheer = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 1
+		sea_attack = 0.75
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = electornicegineering_theory
+
+	difficulty = 9
+	
+	start_year = 1941
+	first_offset = 1943		
+	additional_offset = 2	
+	max_level = 3 # 1946
+	folder = capitalship_folder
+}
+################################################################################
+# CAPITAL SHIP FLOATPLANES
+################################################################################
+# 
+capital_ship_floatplanes = {
+
+	allow = {
+		OR = { 
+		battleship_class = 3
+		super_heavy_battleship_class = 1
+		}
+	}
+	
+	battleship = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	super_heavy_battleship = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	
+	SBB_Yamato = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	SBB_Musashi = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	
+	BB_Andrea_Doria = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Anson = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Arizona = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Arkansas = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Barham = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Bismarck = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Caio_Duilio = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_California = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Colorado = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Conte_di_Cavour = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Duke_of_York = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Fuso = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Giulio_Cesare = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Gneisenau = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Howe = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Hyuga = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Idaho = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Iowa = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Ise = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_King_George_V = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Littorio = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Malaya = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Maryland = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Mississippi = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Missouri = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Mutsu = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Nagato = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Nelson = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Nevada = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_New_Mexico = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_New_York = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Oklahoma = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Pennsylvania = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Prince_of_Wales = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Queen_elizabeth = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Ramillies = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Resolution = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Revenge = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Rodney = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Royal_Oak = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Royal_sovereign = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Scharnhorst = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Tennessee = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Texas = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Tirpitz = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Valiant = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Vittorio_Veneto = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Warspite = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_West_Virginia = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	BB_Yamashiro = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	
+	PBB_Graf_Spee = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	PBB_Deutschland = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	PBB_Adm_Scheer = {
+		build_cost_ic =  0.50
+		build_cost_manpower = 0.005
+		build_time = 3
+		surface_detection = 3.00
+		positioning = 0.01
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+
+	start_year = 1939
+	folder = capitalship_folder
+}
+################################################################################
+# CAPITAL SHIP COMBAT INFORMATION CENTER
+################################################################################
+# 
+capital_ship_combat_information_center = {
+
+	allow = {
+		OR = { 
+		battleship_class = 3
+		super_heavy_battleship_class = 1
+		}
+		naval_ship_radios = 4
+		naval_radar = 3
+	}
+	
+	targeting_choice = 0.10
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	battleship = {
+		default_organisation = 5
+		officers = 25
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.025
+	}
+	super_heavy_battleship = {
+		default_organisation = 5
+		officers = 25
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.025
+	}
+	
+	naval_organisation = 5
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+		
+	on_completion = naval_engineering
+
+	difficulty = 10
+
+	start_year = 1943
+	folder = capitalship_folder
+}
+################################################################################
+# FAST BATTLESHIP DESIGN
+################################################################################
+# 
+fast_battleship_design = {
+
+	allow = {
+		battleship_class = 1
+	}
+	
+	battlecruiser = {
+		maximum_speed = 18.0
+		range = -3000
+	}
+	battleship = {
+		maximum_speed = 18.0
+		range = -3000
+	}
+	super_heavy_battleship = {
+		maximum_speed = 18.0
+		range = -3000
+	}
+	
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		capitalship_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 12
+
+	start_year = 1937
+	folder = capitalship_folder
+}

@@ -1,0 +1,9 @@
+division= {
+	name = "§YSchwere Panzer-Abteilung 507§W"
+	location = 1861 #berlin
+	regiment = { type = GER_A_507_sPzA name = "Stab s.Pz.Abt. 507" historical_model = 0 experience = 50 organisation = 1 }
+	regiment = { type = heavy_armor_brigade name = "s.Pz.Abt. 507" historical_model = 3 experience = 50 organisation = 1 }
+	regiment = { type = HQDEF_brigade name = "Personal s.Pz.Abt. 507" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = motorcycle_recon_brigade name = "Aufklärungs.Pz.Abt. 507" historical_model = 5 experience = 50 organisation = 1 }
+	regiment = { type = truck_transport name = "Gefechtstross s.Pz.Abt. 507" historical_model = 0 experience = 50 organisation = 1 }
+}

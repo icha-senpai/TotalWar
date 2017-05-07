@@ -1,0 +1,52 @@
+heavy_cruiser = {
+	type = naval
+	sprite = HeavyCruiser
+	active = no
+	capital = no
+	can_be_pride = yes
+	
+	hull = 3.0
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 45
+
+	#Building Costs
+	build_cost_ic = 5.35
+	build_cost_manpower = 0.900
+	build_time = 420
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 51.00
+	transport_capability = 0.00
+	supply_consumption = 1.35
+	fuel_consumption = 1.25
+	range = 6000.00
+	distance = 0.22
+	radio_strength = 1
+	positioning = 0.17
+
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 1.00
+	sub_detection = 0.00
+	visibility = 90.00
+
+	#Defensive Abilities
+	sea_defence = 16.00
+	air_defence = 12.00 
+
+	#Offensive Abilities
+	convoy_attack = 5.00
+	sea_attack = 8.75
+	sub_attack = 0.00
+	air_attack = 0.00
+	shore_bombardment = 2.75
+
+	completion_size = 2.5
+	on_completion = cruiser_practical
+	priority = 80
+}

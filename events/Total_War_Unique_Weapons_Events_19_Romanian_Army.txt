@@ -1,0 +1,142 @@
+########################################################################################
+############# Romania Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Romania WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### Orita Model 1941 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9107400
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ROM
+			submachineguns_prototype = 5
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107400"
+		desc = "EVTDESC9107400"
+		picture = "orita_smg"
+		
+		option = {
+			name = "Put it Into Production."
+			orita_smg_hidden = 6000
+			set_global_flag = orita_smg
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### 75mm Resita Model 1943 Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9107401
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ROM
+			anti_tank_gun = 4
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107401"
+		desc = "EVTDESC9107401"
+		picture = "resita_seventy_five_mm_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			resita_seventy_five_mm_at_gun_hidden = 6000
+			set_global_flag = resita_seventy_five_mm_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### TACAM T-60 Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9107402
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ROM
+			medium_tank_destroyer_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107402"
+		desc = "EVTDESC9107402"
+		picture = "tacam_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			tacam_tank_destroyer_hidden = 6000
+			set_global_flag = tacam_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### TACAM R-2 TD Tank Destroyer
+##############################################################
+
+	country_event = {
+		id = 9107403
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = ROM
+			medium_tank_destroyer_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107403"
+		desc = "EVTDESC9107403"
+		picture = "tacam_r_two_tank_destroyer"
+		
+		option = {
+			name = "Put it Into Production."
+			tacam_r_two_tank_destroyer_hidden = 6000
+			set_global_flag = tacam_r_two_tank_destroyer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	

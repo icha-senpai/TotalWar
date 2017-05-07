@@ -1,0 +1,12 @@
+military_construction = {
+	country = SOV
+	
+	jet_bomber = { 
+		historical_model = 4
+	}
+		
+	cost = 15.00
+	duration = 120
+	progress = 15
+}
+#EOF#

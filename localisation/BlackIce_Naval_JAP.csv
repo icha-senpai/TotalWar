@@ -1,0 +1,60 @@
+#MODEL_TAG;ENGLISH;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Technology model names                       #;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+### Carriers ( CV ) ###;;;;;;;;;;;;;;x
+### Unique Carrier ( CV ) ###;;;;;;;;;;;;;;x
+CV_Akagi;IJN Akagi ;;;;;;;;;;;;;x
+CV_Akagi_short;AKA ;;;;;;;;;;;;;x
+CV_Kaga;IJN Kaga ;;;;;;;;;;;;;x
+CV_Kaga_short;KAG ;;;;;;;;;;;;;x
+CV_Hiryu;IJN Hiryu ;;;;;;;;;;;;;x
+CV_Hiryu_short;HIR ;;;;;;;;;;;;;x
+CV_Soryu;IJN Soryu ;;;;;;;;;;;;;x
+CV_Soryu_short;SOR ;;;;;;;;;;;;;x
+### Light carriers ( CVL ) ###;;;;;;;;;;;;;;x
+### Escort carrier ( ... ) ###;;;;;;;;;;;;;;x
+##########################;;;;;;;;;;;;;;x
+### Super heavy Battleships ( SHBB ) ###;;;;;;;;;;;;;;x
+SBB_Yamato;IJN Yamamoto ;;;;;;;;;;;;;x
+SBB_Yamato_short;YAM ;;;;;;;;;;;;;x
+SBB_Musashi;IJN Musashi ;;;;;;;;;;;;;x
+SBB_Musashi_short;MUS ;;;;;;;;;;;;;x
+##########################;;;;;;;;;;;;;;x
+### Battleships ( BB ) ###;;;;;;;;;;;;;;x
+BB_Fuso;IJN Fuso ;;;;;;;;;;;;;x
+BB_Fuso_short;FUS ;;;;;;;;;;;;;x
+BB_Hyuga;IJN Hyuga ;;;;;;;;;;;;;x
+BB_Hyuga_short;HYU ;;;;;;;;;;;;;x
+BB_Ise;IJN Ise ;;;;;;;;;;;;;x
+BB_Ise_short;ISE ;;;;;;;;;;;;;x
+BB_Yamashiro;IJN Yamashiro ;;;;;;;;;;;;;x
+BB_Yamashiro_short;YAS ;;;;;;;;;;;;;x
+BB_Mutsu;IJN Mutsu ;;;;;;;;;;;;;x
+BB_Mutsu_short;MUT ;;;;;;;;;;;;;x
+BB_Nagato;IJN Nagato ;;;;;;;;;;;;;x
+BB_Nagato_short;NAG ;;;;;;;;;;;;;x
+### Battlecruisers ( BC ) ###;;;;;;;;;;;;;;x
+BC_Haruna;IJN Haruna ;;;;;;;;;;;;;x
+BC_Haruna_short;HAR ;;;;;;;;;;;;;x
+BC_Hiei;IJN Hiei ;;;;;;;;;;;;;x
+BC_Hiei_short;HIE ;;;;;;;;;;;;;x
+BC_Kirishima;IJN Kirishima ;;;;;;;;;;;;;x
+BC_Kirishima_short;KIR ;;;;;;;;;;;;;x
+BC_Kongo;IJN Kongo ;;;;;;;;;;;;;x
+BC_Kongo_short;KON ;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+JAP_torpedo_boat_0;Chidori-class;;;;;;;;;;;;;x
+JAP_torpedo_boat_1;Otori-class;;;;;;;;;;;;;x
+JAP_torpedo_boat_2;Momi/Wakatake-class;;;;;;;;;;;;;x
+JAP_torpedo_boat_3;Tomozuru-class;;;;;;;;;;;;;x
+JAP_torpedo_boat_4;Matsu-class;;;;;;;;;;;;;x
+JAP_torpedo_boat_5;Tachibana-class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+JAP_frigate_0;Shimushu-class;;;;;;;;;;;;;x
+JAP_frigate_1;Etorofu-class;;;;;;;;;;;;;x
+JAP_frigate_2;Mikura-class;;;;;;;;;;;;;x
+JAP_frigate_3;Kaibokan C-class;;;;;;;;;;;;;x
+JAP_frigate_4;Kaibokan D-class;;;;;;;;;;;;;x
+#;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

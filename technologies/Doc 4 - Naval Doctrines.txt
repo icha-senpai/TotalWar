@@ -1,0 +1,2864 @@
+# ########################################################################
+# NAVAL DOCTRINES
+# ########################################################################
+# ########################################################################
+# NAVAL AVIATION
+# ########################################################################
+naval_aviation_doctrine = {
+
+	allow = {
+		
+	}
+		
+	
+	super_carrier = { 
+		default_organisation = 5
+		default_morale = 0.05	
+	}
+	battle_carrier = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	carrier = { 
+		default_organisation = 5
+		default_morale = 0.05		
+	}
+	light_carrier = { 
+		default_organisation = 5
+		default_morale = 0.05	
+	}
+	escort_carrier = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	nuclear_super_aircraft_carrier = { 
+		default_organisation = 5
+		default_morale = 0.05				
+	}
+	
+	anti_air_cruiser = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	
+	CV_Akagi = { 
+		default_organisation = 5
+		default_morale = 0.05		
+	}
+	CV_Ark_Royal = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	CV_Courageous = { 
+		default_organisation = 5
+		default_morale = 0.05		
+	}
+	CV_Enterprise = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	CV_Furious = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	CV_Glorious = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	CV_Hiryu = { 
+		default_organisation = 5
+		default_morale = 0.05				
+	}
+	CV_Hornet = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	CV_Kaga = { 
+		default_organisation = 5
+		default_morale = 0.05		
+	}
+	CV_Lexington = { 
+		default_organisation = 5
+		default_morale = 0.05		
+	}
+	CV_Ranger = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	CV_Saratoga = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	CV_Soryu = { 
+		default_organisation = 5
+		default_morale = 0.05		
+	}
+	CV_Yorktown = { 
+		default_organisation = 5
+		default_morale = 0.05
+	}	
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		base_strike_doctrine = 0.25
+	}
+	
+	on_completion = base_strike_doctrine
+
+	difficulty = 5
+	start_year = 1936
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# FLEET AIR ARM SUPPORT ROLE
+# ########################################################################
+fleet_air_arm_support_role = {
+
+	allow = {
+		naval_aviation_doctrine = 1
+	}
+	
+	super_carrier = { 
+		surface_detection = 2.00	
+	}
+	battle_carrier = { 
+		surface_detection = 2.00			
+	}
+	carrier = { 
+		surface_detection = 2.00	
+	}
+	light_carrier = { 
+		surface_detection = 2.00
+	}
+	escort_carrier = { 
+		surface_detection = 2.00			
+	}
+	nuclear_super_aircraft_carrier = { 
+		surface_detection = 2.00			
+	}
+	
+	CV_Akagi = { 
+		surface_detection = 2.00		
+	}
+	CV_Ark_Royal = { 
+		surface_detection = 2.00			
+	}
+	CV_Courageous = { 
+		surface_detection = 2.00		
+	}
+	CV_Enterprise = { 
+		surface_detection = 2.00			
+	}
+	CV_Furious = { 
+		surface_detection = 2.00			
+	}
+	CV_Glorious = { 
+		surface_detection = 2.00			
+	}
+	CV_Hiryu = { 
+		surface_detection = 2.00				
+	}
+	CV_Hornet = { 
+		surface_detection = 2.00			
+	}
+	CV_Kaga = { 
+		surface_detection = 2.00		
+	}
+	CV_Lexington = { 
+		surface_detection = 2.00		
+	}
+	CV_Ranger = { 
+		surface_detection = 2.00			
+	}
+	CV_Saratoga = { 
+		surface_detection = 2.00			
+	}
+	CV_Soryu = { 
+		surface_detection = 2.00		
+	}
+	CV_Yorktown = { 
+		surface_detection = 2.00
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		base_strike_doctrine = 0.25
+	}
+	
+	on_completion = base_strike_doctrine
+
+	difficulty = 10
+	start_year = 1933
+	first_offset = 1936 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 4
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# CARRIER AIR STRIKE
+# ########################################################################
+carrier_air_strike = {
+
+	allow = {
+		naval_aviation_doctrine = 1
+		naval_battles_fought = 25	
+						
+	}
+	
+	super_carrier = { 
+		distance = 0.50	
+	}
+	battle_carrier = { 
+		distance = 0.50			
+	}
+	carrier = { 
+		distance = 0.50
+	}
+	light_carrier = { 
+		distance = 0.50
+	}
+	escort_carrier = { 
+		distance = 0.50		
+	}
+	nuclear_super_aircraft_carrier = { 
+		distance = 0.50		
+	}
+	
+	CV_Akagi = { 
+		distance = 0.50		
+	}
+	CV_Ark_Royal = { 
+		distance = 0.50			
+	}
+	CV_Courageous = { 
+		distance = 0.50		
+	}
+	CV_Enterprise = { 
+		distance = 0.50			
+	}
+	CV_Furious = { 
+		distance = 0.50			
+	}
+	CV_Glorious = { 
+		distance = 0.50			
+	}
+	CV_Hiryu = { 
+		distance = 0.50				
+	}
+	CV_Hornet = { 
+		distance = 0.50			
+	}
+	CV_Kaga = { 
+		distance = 0.50		
+	}
+	CV_Lexington = { 
+		distance = 0.50		
+	}
+	CV_Ranger = { 
+		distance = 0.50			
+	}
+	CV_Saratoga = { 
+		distance = 0.50			
+	}
+	CV_Soryu = { 
+		distance = 0.50		
+	}
+	CV_Yorktown = { 
+		distance = 0.50
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		base_strike_doctrine = 0.25
+	}
+	
+	on_completion = base_strike_doctrine
+
+	difficulty = 15
+	start_year = 1941
+	first_offset = 1943 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# CARRIER VS CARRIER DUEL
+# ########################################################################
+carrier_vs_carrier_duel = {
+
+	allow = {
+		naval_aviation_doctrine = 1
+		naval_battles_fought = 45
+				
+		
+	}
+	
+	super_carrier = { 
+		positioning = 0.05
+	}
+	battle_carrier = { 
+		positioning = 0.05			
+	}
+	carrier = { 
+		positioning = 0.05
+	}
+	light_carrier = { 
+		positioning = 0.05
+	}
+	escort_carrier = { 
+		positioning = 0.05			
+	}
+	nuclear_super_aircraft_carrier = { 
+		positioning = 0.05		
+	}
+	
+	CV_Akagi = { 
+		positioning = 0.05		
+	}
+	CV_Ark_Royal = { 
+		positioning = 0.05			
+	}
+	CV_Courageous = { 
+		positioning = 0.05		
+	}
+	CV_Enterprise = { 
+		positioning = 0.05			
+	}
+	CV_Furious = { 
+		positioning = 0.05			
+	}
+	CV_Glorious = { 
+		positioning = 0.05			
+	}
+	CV_Hiryu = { 
+		positioning = 0.05				
+	}
+	CV_Hornet = { 
+		positioning = 0.05			
+	}
+	CV_Kaga = { 
+		positioning = 0.05		
+	}
+	CV_Lexington = { 
+		positioning = 0.05		
+	}
+	CV_Ranger = { 
+		positioning = 0.05			
+	}
+	CV_Saratoga = { 
+		positioning = 0.05			
+	}
+	CV_Soryu = { 
+		positioning = 0.05		
+	}
+	CV_Yorktown = { 
+		positioning = 0.05
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		base_strike_doctrine = 0.25
+	}
+	
+	on_completion = base_strike_doctrine
+
+	difficulty = 15
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# CARRIER TASK FORCE
+# ########################################################################
+carrier_task_force = {
+
+	allow = {
+		naval_aviation_doctrine = 1
+		naval_battles_fought = 65
+					
+	}
+	
+	super_carrier = { 
+		default_organisation = 5
+		air_defence = 0.50
+	}
+	battle_carrier = { 
+		default_organisation = 5
+		air_defence = 0.50		
+	}
+	carrier = { 
+		default_organisation = 5
+		air_defence = 0.50	
+	}
+	light_carrier = { 
+		default_organisation = 5
+		air_defence = 0.50
+	}
+	escort_carrier = { 
+		default_organisation = 5
+		air_defence = 0.50		
+	}
+	nuclear_super_aircraft_carrier = { 
+		default_organisation = 5	
+		air_defence = 0.50	
+	}
+	
+	CV_Akagi = { 
+		default_organisation = 5
+		air_defence = 0.50		
+	}
+	CV_Ark_Royal = { 
+		default_organisation = 5
+		air_defence = 0.50		
+	}
+	CV_Courageous = { 
+		default_organisation = 5
+		air_defence = 0.50		
+	}
+	CV_Enterprise = { 
+		default_organisation = 5
+		air_defence = 0.50			
+	}
+	CV_Furious = { 
+		default_organisation = 5
+		air_defence = 0.50			
+	}
+	CV_Glorious = { 
+		default_organisation = 5
+		air_defence = 0.50		
+	}
+	CV_Hiryu = { 
+		default_organisation = 5
+		air_defence = 0.50			
+	}
+	CV_Hornet = { 
+		default_organisation = 5
+		air_defence = 0.50		
+	}
+	CV_Kaga = { 
+		default_organisation = 5
+		air_defence = 0.50		
+	}
+	CV_Lexington = { 
+		default_organisation = 5
+		air_defence = 0.50		
+	}
+	CV_Ranger = { 
+		default_organisation = 5
+		air_defence = 0.50			
+	}
+	CV_Saratoga = { 
+		default_organisation = 5
+		air_defence = 0.50			
+	}
+	CV_Soryu = { 
+		default_organisation = 5
+		air_defence = 0.50		
+	}
+	CV_Yorktown = { 
+		default_organisation = 5
+		air_defence = 0.50
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		base_strike_doctrine = 0.25
+	}
+	
+	on_completion = base_strike_doctrine
+
+	difficulty = 15
+	start_year = 1944
+	first_offset = 1945 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# CARRIER AIRCRAFT INVASION SUPPORT
+# ########################################################################
+carrier_aircraft_invasion_support = {
+
+	allow = {
+		naval_aviation_doctrine = 1
+		naval_battles_fought = 65	
+	}
+	
+	cag = { 	
+		soft_attack = 1.00
+		hard_attack = 0.50
+		}	
+						
+	naval_fighter = { 	
+		soft_attack = 1.00
+		hard_attack = 0.50
+		}	
+	
+	naval_dive_bomber = { 	
+		soft_attack = 1.00
+		hard_attack = 0.50
+		}	
+	naval_torpedo_plane = { 	
+		soft_attack = 1.00
+		hard_attack = 0.50
+		}	
+		
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		base_strike_doctrine = 0.25
+	}
+	
+	on_completion = base_strike_doctrine
+
+	difficulty = 15
+	start_year = 1944
+	first_offset = 1945 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# MARINE CLOSE AIR SUPPORT
+# ########################################################################
+marine_close_air_support = {
+
+	allow = {
+		naval_aviation_doctrine = 1
+		naval_battles_fought = 65
+					
+	}
+	
+	cag = { 	
+		soft_attack = 2.00
+		hard_attack = 1.00
+		}	
+	
+	naval_fighter_bomber = { 	
+		soft_attack = 2.00
+		hard_attack = 1.00
+		}	
+	naval_cas = { 	
+		soft_attack = 2.00
+		hard_attack = 1.00
+		}	
+	
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		base_strike_doctrine = 0.25
+	}
+	
+	on_completion = base_strike_doctrine
+
+	difficulty = 15
+	start_year = 1944
+	first_offset = 1945 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# CARRIER AIR DOMINANCE
+# ########################################################################
+carrier_air_dominance = {
+
+	allow = {
+		naval_aviation_doctrine = 1
+		naval_battles_fought = 65
+				
+	}
+	
+	cag = { 	
+		default_organisation = 4
+		}
+	
+					
+	naval_fighter = { 	
+		default_organisation = 4
+		}	
+	naval_fighter_bomber = { 	
+		default_organisation = 4
+		}	
+		
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		base_strike_doctrine = 0.25
+	}
+	
+	on_completion = base_strike_doctrine
+
+	difficulty = 15
+	start_year = 1944
+	first_offset = 1945 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# UNDERWAY REPLENISHMENT
+# ########################################################################
+underway_replenishment = {
+
+	allow = {
+		war = yes
+		naval_battles_fought = 25		
+	}
+	
+	battlecruiser = { 
+		default_organisation = 3		
+		range = 150
+	}
+	battleship = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	coastal_battleship = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	pocket_battleship = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	super_heavy_battleship = { 
+		default_organisation = 3		
+		range = 150		
+	}
+	super_carrier = { 
+		default_organisation = 3		
+		range = 150	
+	}
+	battle_carrier = { 
+		default_organisation = 3		
+		range = 150		
+	}
+	carrier = { 
+		default_organisation = 3		
+		range = 150		
+	}
+	light_carrier = { 
+		default_organisation = 3		
+		range = 150	
+	}
+	escort_carrier = { 
+		default_organisation = 3		
+		range = 150	
+	}
+	light_cruiser = { 
+		default_organisation = 3		
+		range = 150				
+	}
+	anti_air_cruiser = { 
+		default_organisation = 3		
+		range = 150				
+	}
+	heavy_cruiser = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	destroyer_actual = { 
+		default_organisation = 3		
+		range = 150				
+	}
+	destroyer = { 
+		default_organisation = 3		
+		range = 150		
+	}
+	frigate = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	landing_craft = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	landing_ship_dock = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	assault_ship = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	transport_dock_ship = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	landing_platform_helicopter = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	guided_missile_destroyer = { 
+		default_organisation = 3		
+		range = 150			
+	}
+	nuclear_guided_missile_cruiser = { 
+		default_organisation = 3				
+	}
+	nuclear_super_aircraft_carrier = { 
+		default_organisation = 3			
+	}
+	
+	BB_Andrea_Doria = { 
+		default_organisation = 3		
+		range = 150				
+	}
+	BB_Anson = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Arizona = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Arkansas = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Barham = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Bismarck = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Caio_Duilio = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_California = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Colorado = { 
+		default_organisation = 3
+        range = 150	
+	}
+	BB_Conte_di_Cavour = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Duke_of_York = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Fuso = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Giulio_Cesare = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Gneisenau = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Howe = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Hyuga = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Idaho = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Iowa = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Ise = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_King_George_V = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Littorio = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Malaya = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Maryland = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Mississippi = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Missouri = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Mutsu = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Nagato = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Nelson = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Nevada = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_New_Mexico = { 
+		default_organisation = 3
+        range = 150
+	}
+	BB_New_York = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Oklahoma = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Pennsylvania = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Prince_of_Wales = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Queen_elizabeth = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Ramillies = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Resolution = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Revenge = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Rodney = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Royal_Oak = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Royal_sovereign = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Scharnhorst = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Tennessee = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Texas = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Tirpitz = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Valiant = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BB_Vittorio_Veneto = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Warspite = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_West_Virginia = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BB_Yamashiro = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BC_Haruna = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BC_Hiei = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BC_Hood = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BC_Kirishima = { 
+		default_organisation = 3
+        range = 150		
+	}
+	BC_Kongo = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BC_Renown = { 
+		default_organisation = 3
+        range = 150			
+	}
+	BC_Repulse = { 
+		default_organisation = 3
+        range = 150		
+	}
+	SBB_Musashi = { 
+		default_organisation = 3
+        range = 150		
+	}
+	SBB_Yamato = { 
+		default_organisation = 3
+        range = 150		
+	}
+	CV_Akagi = { 
+		default_organisation = 3
+        range = 150		
+	}
+	CV_Ark_Royal = { 
+		default_organisation = 3
+        range = 150		
+	}
+	CV_Courageous = { 
+		default_organisation = 3
+        range = 150		
+	}
+	CV_Enterprise = { 
+		default_organisation = 3
+        range = 150			
+	}
+	CV_Furious = { 
+		default_organisation = 3
+        range = 150			
+	}
+	CV_Glorious = { 
+		default_organisation = 3
+        range = 150			
+	}
+	CV_Hiryu = { 
+		default_organisation = 3
+        range = 150			
+	}
+	CV_Hornet = { 
+		default_organisation = 3
+        range = 150			
+	}
+	CV_Kaga = { 
+		default_organisation = 3
+        range = 150	
+	}
+	CV_Lexington = { 
+		default_organisation = 3
+        range = 150		
+	}
+	CV_Ranger = { 
+		default_organisation = 3
+        range = 150		
+	}
+	CV_Saratoga = { 
+		default_organisation = 3
+        range = 150			
+	}
+	CV_Soryu = { 
+		default_organisation = 3
+        range = 150		
+	}
+	CV_Yorktown = { 
+		default_organisation = 3
+        range = 150	
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.65
+	}
+
+	on_completion = naval_doctrine_practical 
+
+	difficulty = 15
+	start_year = 1943
+	first_offset = 1944 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# NAVAL REPAIR FACILITIES
+# ########################################################################
+naval_repair_facilities = {
+
+	allow = {
+		war = yes
+		naval_battles_fought = 25
+			
+	}
+	
+	battlecruiser = { 
+		default_morale = 0.03
+	}
+	battleship = { 
+		default_morale = 0.03			
+	}
+	coastal_battleship = { 
+		default_morale = 0.03			
+	}
+	pocket_battleship = { 
+		default_morale = 0.03			
+	}
+	super_heavy_battleship = { 
+		default_morale = 0.03		
+	}
+	super_carrier = { 
+		default_morale = 0.03	
+	}
+	battle_carrier = { 
+		default_morale = 0.03		
+	}
+	carrier = { 
+		default_morale = 0.03		
+	}
+	light_carrier = { 
+		default_morale = 0.03	
+	}
+	escort_carrier = { 
+		default_morale = 0.03	
+	}
+	light_cruiser = { 
+		default_morale = 0.03				
+	}
+	anti_air_cruiser = { 
+		default_morale = 0.03				
+	}
+	heavy_cruiser = { 
+		default_morale = 0.03			
+	}
+	destroyer_actual = { 
+		default_morale = 0.03				
+	}
+	destroyer = { 
+		default_morale = 0.03		
+	}
+	frigate = { 
+		default_morale = 0.03			
+	}
+	landing_craft = { 
+		default_morale = 0.03			
+	}
+	landing_ship_dock = { 
+		default_morale = 0.03			
+	}
+	assault_ship = { 
+		default_morale = 0.03			
+	}
+	transport_dock_ship = { 
+		default_morale = 0.03			
+	}
+	landing_platform_helicopter = { 
+		default_morale = 0.03			
+	}
+	guided_missile_destroyer = { 
+		default_morale = 0.03			
+	}
+	nuclear_guided_missile_cruiser = { 
+		default_morale = 0.03					
+	}
+	nuclear_super_aircraft_carrier = { 
+		default_morale = 0.03				
+	}
+	
+	BB_Andrea_Doria = { 
+		default_morale = 0.03				
+	}
+	BB_Anson = { 
+		default_morale = 0.03			
+	}
+	BB_Arizona = { 
+		default_morale = 0.03			
+	}
+	BB_Arkansas = { 
+		default_morale = 0.03			
+	}
+	BB_Barham = { 
+		default_morale = 0.03			
+	}
+	BB_Bismarck = { 
+		default_morale = 0.03	
+	}
+	BB_Caio_Duilio = { 
+		default_morale = 0.03			
+	}
+	BB_California = { 
+		default_morale = 0.03			
+	}
+	BB_Colorado = { 
+		default_morale = 0.03	
+	}
+	BB_Conte_di_Cavour = { 
+		default_morale = 0.03			
+	}
+	BB_Duke_of_York = { 
+		default_morale = 0.03			
+	}
+	BB_Fuso = { 
+		default_morale = 0.03			
+	}
+	BB_Giulio_Cesare = { 
+		default_morale = 0.03			
+	}
+	BB_Gneisenau = { 
+		default_morale = 0.03			
+	}
+	BB_Howe = { 
+		default_morale = 0.03		
+	}
+	BB_Hyuga = { 
+		default_morale = 0.03			
+	}
+	BB_Idaho = { 
+		default_morale = 0.03			
+	}
+	BB_Iowa = { 
+		default_morale = 0.03		
+	}
+	BB_Ise = { 
+		default_morale = 0.03		
+	}
+	BB_King_George_V = { 
+		default_morale = 0.03		
+	}
+	BB_Littorio = { 
+		default_morale = 0.03			
+	}
+	BB_Malaya = { 
+		default_morale = 0.03		
+	}
+	BB_Maryland = { 
+		default_morale = 0.03		
+	}
+	BB_Mississippi = { 
+		default_morale = 0.03			
+	}
+	BB_Missouri = { 
+		default_morale = 0.03			
+	}
+	BB_Mutsu = { 
+		default_morale = 0.03		
+	}
+	BB_Nagato = { 
+		default_morale = 0.03		
+	}
+	BB_Nelson = { 
+		default_morale = 0.03		
+	}
+	BB_Nevada = { 
+		default_morale = 0.03			
+	}
+	BB_New_Mexico = { 
+		default_morale = 0.03
+	}
+	BB_New_York = { 
+		default_morale = 0.03		
+	}
+	BB_Oklahoma = { 
+		default_morale = 0.03		
+	}
+	BB_Pennsylvania = { 
+		default_morale = 0.03			
+	}
+	BB_Prince_of_Wales = { 
+		default_morale = 0.03			
+	}
+	BB_Queen_elizabeth = { 
+		default_morale = 0.03			
+	}
+	BB_Ramillies = { 
+		default_morale = 0.03		
+	}
+	BB_Resolution = { 
+		default_morale = 0.03			
+	}
+	BB_Revenge = { 
+		default_morale = 0.03		
+	}
+	BB_Rodney = { 
+		default_morale = 0.03			
+	}
+	BB_Royal_Oak = { 
+		default_morale = 0.03		
+	}
+	BB_Royal_sovereign = { 
+		default_morale = 0.03		
+	}
+	BB_Scharnhorst = { 
+		default_morale = 0.03		
+	}
+	BB_Tennessee = { 
+		default_morale = 0.03			
+	}
+	BB_Texas = { 
+		default_morale = 0.03		
+	}
+	BB_Tirpitz = { 
+		default_morale = 0.03		
+	}
+	BB_Valiant = { 
+		default_morale = 0.03			
+	}
+	BB_Vittorio_Veneto = { 
+		default_morale = 0.03		
+	}
+	BB_Warspite = { 
+		default_morale = 0.03		
+	}
+	BB_West_Virginia = { 
+		default_morale = 0.03		
+	}
+	BB_Yamashiro = { 
+		default_morale = 0.03		
+	}
+	BC_Haruna = { 
+		default_morale = 0.03			
+	}
+	BC_Hiei = { 
+		default_morale = 0.03		
+	}
+	BC_Hood = { 
+		default_morale = 0.03		
+	}
+	BC_Kirishima = { 
+		default_morale = 0.03		
+	}
+	BC_Kongo = { 
+		default_morale = 0.03			
+	}
+	BC_Renown = { 
+		default_morale = 0.03			
+	}
+	BC_Repulse = { 
+		default_morale = 0.03		
+	}
+	SBB_Musashi = { 
+		default_morale = 0.03		
+	}
+	SBB_Yamato = { 
+		default_morale = 0.03		
+	}
+	CV_Akagi = { 
+		default_morale = 0.03		
+	}
+	CV_Ark_Royal = { 
+		default_morale = 0.03		
+	}
+	CV_Courageous = { 
+		default_morale = 0.03		
+	}
+	CV_Enterprise = { 
+		default_morale = 0.03			
+	}
+	CV_Furious = { 
+		default_morale = 0.03			
+	}
+	CV_Glorious = { 
+		default_morale = 0.03			
+	}
+	CV_Hiryu = { 
+		default_morale = 0.03			
+	}
+	CV_Hornet = { 
+		default_morale = 0.03			
+	}
+	CV_Kaga = { 
+		default_morale = 0.03	
+	}
+	CV_Lexington = { 
+		default_morale = 0.03		
+	}
+	CV_Ranger = { 
+		default_morale = 0.03		
+	}
+	CV_Saratoga = { 
+		default_morale = 0.03			
+	}
+	CV_Soryu = { 
+		default_morale = 0.03		
+	}
+	CV_Yorktown = { 
+		default_morale = 0.03
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.65
+	}
+
+	on_completion = naval_doctrine_practical 
+
+	difficulty = 15
+	start_year = 1943
+	first_offset = 1944 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# NAVAL SUPPLY BASES
+# ########################################################################
+naval_supply_bases = {
+
+	allow = {
+		war = yes
+		naval_battles_fought = 25
+			
+	}
+	
+	sortie = {
+		reduction_modifier = -0.10
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.65
+	}
+
+	on_completion = naval_doctrine_practical 
+
+	difficulty = 15
+	start_year = 1943
+	first_offset = 1944 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ################################################################################################
+# FLEET IN BEING DOCTRINES
+# ################################################################################################
+# ########################################################################
+# FLEET IN BEING DOCTRINE
+# ########################################################################
+fleeting_in_being = {
+
+	allow = {
+	
+	}
+	
+	activate_unit = naval_infantry_brigade 
+	
+	battlecruiser = { 
+		default_organisation = 5
+		default_morale = 0.05	
+	}
+	battleship = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	coastal_battleship = { 
+		default_organisation = 5
+		default_morale = 0.05				
+	}
+	pocket_battleship = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	super_heavy_battleship = { 
+		default_organisation = 5
+		default_morale = 0.05		
+	}
+	light_cruiser = { 
+		default_organisation = 5
+		default_morale = 0.05				
+	}
+	heavy_cruiser = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	destroyer_actual = { 
+		default_organisation = 5
+		default_morale = 0.05				
+	}
+	destroyer = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	frigate = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	guided_missile_destroyer = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	nuclear_guided_missile_cruiser = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	
+	BB_Andrea_Doria = { 
+		default_organisation = 5
+		default_morale = 0.05				
+	}
+	BB_Anson = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	BB_Arizona = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	BB_Arkansas = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	BB_Barham = { 
+		default_organisation = 5
+		default_morale = 0.05			
+	}
+	BB_Bismarck = { 
+		default_organisation = 5
+        default_morale = 0.05	
+	}
+	BB_Caio_Duilio = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_California = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Colorado = { 
+		default_organisation = 5
+        default_morale = 0.05	
+	}
+	BB_Conte_di_Cavour = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Duke_of_York = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Fuso = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Giulio_Cesare = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Gneisenau = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Howe = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Hyuga = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Idaho = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Iowa = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Ise = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_King_George_V = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Littorio = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Malaya = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Maryland = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Mississippi = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Missouri = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Mutsu = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Nagato = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Nelson = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Nevada = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_New_Mexico = { 
+		default_organisation = 5
+        default_morale = 0.05
+	}
+	BB_New_York = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Oklahoma = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Pennsylvania = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Prince_of_Wales = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Queen_elizabeth = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Ramillies = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Resolution = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Revenge = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Rodney = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Royal_Oak = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Royal_sovereign = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Scharnhorst = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Tennessee = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Texas = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Tirpitz = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Valiant = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BB_Vittorio_Veneto = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Warspite = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_West_Virginia = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BB_Yamashiro = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BC_Haruna = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BC_Hiei = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BC_Hood = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BC_Kirishima = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	BC_Kongo = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BC_Renown = { 
+		default_organisation = 5
+        default_morale = 0.05			
+	}
+	BC_Repulse = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	SBB_Musashi = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	SBB_Yamato = { 
+		default_organisation = 5
+        default_morale = 0.05		
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 5
+	start_year = 1936
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# DECISIVE ENGAGEMENT DOCTRINE
+# ########################################################################
+decisive_engagement_doctrine = {
+
+	allow = {
+		fleeting_in_being = 1 
+			
+	}
+	
+	battlecruiser = { 
+		positioning = 0.05
+	}
+	battleship = { 
+		positioning = 0.05			
+	}
+	coastal_battleship = { 
+		positioning = 0.05					
+	}
+	pocket_battleship = { 
+		positioning = 0.05				
+	}
+	super_heavy_battleship = { 
+		positioning = 0.05			
+	}
+	
+	BB_Andrea_Doria = { 
+		positioning = 0.05				
+	}
+	BB_Anson = { 
+		positioning = 0.05			
+	}
+	BB_Arizona = { 
+		positioning = 0.05			
+	}
+	BB_Arkansas = { 
+		positioning = 0.05			
+	}
+	BB_Barham = { 
+		positioning = 0.05			
+	}
+	BB_Bismarck = { 
+		positioning = 0.05
+	}
+	BB_Caio_Duilio = { 
+		positioning = 0.05		
+	}
+	BB_California = { 
+		positioning = 0.05		
+	}
+	BB_Colorado = { 
+		positioning = 0.05
+	}
+	BB_Conte_di_Cavour = { 
+		positioning = 0.05		
+	}
+	BB_Duke_of_York = { 
+		positioning = 0.05		
+	}
+	BB_Fuso = { 
+		positioning = 0.05		
+	}
+	BB_Giulio_Cesare = { 
+		positioning = 0.05		
+	}
+	BB_Gneisenau = { 
+		positioning = 0.05		
+	}
+	BB_Howe = { 
+		positioning = 0.05	
+	}
+	BB_Hyuga = { 
+		positioning = 0.05		
+	}
+	BB_Idaho = { 
+		positioning = 0.05		
+	}
+	BB_Iowa = { 
+		positioning = 0.05	
+	}
+	BB_Ise = { 
+		positioning = 0.05	
+	}
+	BB_King_George_V = { 
+		positioning = 0.05	
+	}
+	BB_Littorio = { 
+		positioning = 0.05		
+	}
+	BB_Malaya = { 
+		positioning = 0.05	
+	}
+	BB_Maryland = { 
+		positioning = 0.05	
+	}
+	BB_Mississippi = { 
+		positioning = 0.05		
+	}
+	BB_Missouri = { 
+		positioning = 0.05		
+	}
+	BB_Mutsu = { 
+		positioning = 0.05	
+	}
+	BB_Nagato = { 
+		positioning = 0.05	
+	}
+	BB_Nelson = { 
+		positioning = 0.05	
+	}
+	BB_Nevada = { 
+		positioning = 0.05		
+	}
+	BB_New_Mexico = { 
+		default_organisation = 5
+        default_morale = 0.05
+	}
+	BB_New_York = { 
+		positioning = 0.05	
+	}
+	BB_Oklahoma = { 
+		positioning = 0.05	
+	}
+	BB_Pennsylvania = { 
+		positioning = 0.05		
+	}
+	BB_Prince_of_Wales = { 
+		positioning = 0.05		
+	}
+	BB_Queen_elizabeth = { 
+		positioning = 0.05		
+	}
+	BB_Ramillies = { 
+		positioning = 0.05	
+	}
+	BB_Resolution = { 
+		positioning = 0.05		
+	}
+	BB_Revenge = { 
+		positioning = 0.05	
+	}
+	BB_Rodney = { 
+		positioning = 0.05		
+	}
+	BB_Royal_Oak = { 
+		positioning = 0.05	
+	}
+	BB_Royal_sovereign = { 
+		positioning = 0.05	
+	}
+	BB_Scharnhorst = { 
+		positioning = 0.05	
+	}
+	BB_Tennessee = { 
+		positioning = 0.05		
+	}
+	BB_Texas = { 
+		positioning = 0.05	
+	}
+	BB_Tirpitz = { 
+		positioning = 0.05	
+	}
+	BB_Valiant = { 
+		positioning = 0.05		
+	}
+	BB_Vittorio_Veneto = { 
+		positioning = 0.05	
+	}
+	BB_Warspite = { 
+		positioning = 0.05	
+	}
+	BB_West_Virginia = { 
+		positioning = 0.05	
+	}
+	BB_Yamashiro = { 
+		positioning = 0.05	
+	}
+	BC_Haruna = { 
+		positioning = 0.05		
+	}
+	BC_Hiei = { 
+		positioning = 0.05	
+	}
+	BC_Hood = { 
+		positioning = 0.05	
+	}
+	BC_Kirishima = { 
+		positioning = 0.05	
+	}
+	BC_Kongo = { 
+		positioning = 0.05		
+	}
+	BC_Renown = { 
+		positioning = 0.05		
+	}
+	BC_Repulse = { 
+		positioning = 0.05	
+	}
+	SBB_Musashi = { 
+		positioning = 0.05	
+	}
+	SBB_Yamato = { 
+		positioning = 0.05	
+	}
+		
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 10
+	start_year = 1936
+	first_offset = 1938 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# MEDIUM SURFACE ENGAGEMENTS
+# ########################################################################
+medium_surface_engagements = {
+
+	allow = {
+		fleeting_in_being = 1 	
+				
+	}
+	
+	light_cruiser = { 
+		positioning = 0.05					
+	}
+	heavy_cruiser = { 
+		positioning = 0.05				
+	}
+	nuclear_guided_missile_cruiser = { 
+		positioning = 0.05				
+	}	
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 10
+	start_year = 1936
+	first_offset = 1938 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# SMALL SURFACE ENGAGEMENTS
+# ########################################################################
+small_surface_engagements = {
+
+	allow = {
+		fleeting_in_being = 1 
+			
+	}
+	
+	destroyer_actual = { 
+		positioning = 0.05				
+	}
+	destroyer = { 
+		positioning = 0.05				
+	}
+	frigate = { 
+		positioning = 0.05				
+	}
+	guided_missile_destroyer = { 
+		positioning = 0.05				
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 10
+	start_year = 1936
+	first_offset = 1938 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# SHORE BOMBARDMENT SUPPORT
+# ########################################################################
+shore_bombardment_support = {
+
+	allow = {
+		fleeting_in_being = 1 	
+			
+	}
+	
+	battlecruiser = { 
+		shore_bombardment = 1.00
+	}
+	battleship = { 
+		shore_bombardment = 1.00		
+	}
+	coastal_battleship = { 
+		shore_bombardment = 1.00				
+	}
+	pocket_battleship = { 
+		shore_bombardment = 1.00			
+	}
+	super_heavy_battleship = { 
+		shore_bombardment = 1.00		
+	}
+	light_cruiser = { 
+		shore_bombardment = 1.00				
+	}
+	heavy_cruiser = { 
+		shore_bombardment = 1.00		
+	}
+	destroyer_actual = { 
+		shore_bombardment = 1.00			
+	}
+	destroyer = { 
+		shore_bombardment = 1.00			
+	}
+	
+	BB_Andrea_Doria = { 
+		shore_bombardment = 1.00				
+	}
+	BB_Anson = { 
+		shore_bombardment = 1.00			
+	}
+	BB_Arizona = { 
+		shore_bombardment = 1.00			
+	}
+	BB_Arkansas = { 
+		shore_bombardment = 1.00			
+	}
+	BB_Barham = { 
+		shore_bombardment = 1.00			
+	}
+	BB_Bismarck = { 
+		shore_bombardment = 1.00
+	}
+	BB_Caio_Duilio = { 
+		shore_bombardment = 1.00		
+	}
+	BB_California = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Colorado = { 
+		shore_bombardment = 1.00
+	}
+	BB_Conte_di_Cavour = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Duke_of_York = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Fuso = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Giulio_Cesare = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Gneisenau = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Howe = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Hyuga = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Idaho = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Iowa = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Ise = { 
+		shore_bombardment = 1.00	
+	}
+	BB_King_George_V = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Littorio = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Malaya = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Maryland = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Mississippi = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Missouri = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Mutsu = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Nagato = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Nelson = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Nevada = { 
+		shore_bombardment = 1.00		
+	}
+	BB_New_Mexico = { 
+		shore_bombardment = 1.00
+	}
+	BB_New_York = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Oklahoma = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Pennsylvania = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Prince_of_Wales = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Queen_elizabeth = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Ramillies = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Resolution = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Revenge = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Rodney = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Royal_Oak = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Royal_sovereign = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Scharnhorst = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Tennessee = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Texas = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Tirpitz = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Valiant = { 
+		shore_bombardment = 1.00		
+	}
+	BB_Vittorio_Veneto = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Warspite = { 
+		shore_bombardment = 1.00	
+	}
+	BB_West_Virginia = { 
+		shore_bombardment = 1.00	
+	}
+	BB_Yamashiro = { 
+		shore_bombardment = 1.00	
+	}
+	BC_Haruna = { 
+		shore_bombardment = 1.00		
+	}
+	BC_Hiei = { 
+		shore_bombardment = 1.00	
+	}
+	BC_Hood = { 
+		shore_bombardment = 1.00	
+	}
+	BC_Kirishima = { 
+		shore_bombardment = 1.00	
+	}
+	BC_Kongo = { 
+		shore_bombardment = 1.00		
+	}
+	BC_Renown = { 
+		shore_bombardment = 1.00		
+	}
+	BC_Repulse = { 
+		shore_bombardment = 1.00	
+	}
+	SBB_Musashi = { 
+		shore_bombardment = 1.00	
+	}
+	SBB_Yamato = { 
+		shore_bombardment = 1.00	
+	}
+		
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 10
+	start_year = 1936
+	first_offset = 1938 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# CONVOY DEFENSE DOCTRINE
+# ########################################################################
+convoy_defense_doctrine = {
+
+	allow = {
+		
+	}
+	
+	allow_escorts = yes
+	
+		
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 5
+	start_year = 1939
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# CONVOY ESCORT
+# ########################################################################
+convoy_escorts = {
+
+	allow = {
+		convoy_defense_doctrine = 1 
+	
+	}
+	
+	
+	convoy_escort = {
+		efficiency = 0.05
+	}
+		
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 15
+	start_year = 1939
+	first_offset = 1940 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# LONG RANGE SEARCH AIRCRAFT COORDINATION
+# ########################################################################
+long_range_search_aircraft_coordination = {
+
+	allow = {
+		convoy_defense_doctrine = 1
+	
+	}
+	
+	naval_bomber = { 	
+		sub_attack = 0.50
+		}	
+	Flying_boat = { 	
+		sub_attack = 0.50
+		}	
+			
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 15
+	start_year = 1939
+	first_offset = 1940 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# ZIG ZAG COURSE CHANGES
+# ########################################################################
+zig_zag_course_changes = {
+
+	allow = {
+		convoy_defense_doctrine = 1
+	
+	}
+	
+	escort_efficiency = 0.05
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 15
+	start_year = 1939
+	first_offset = 1940 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# ASDIC TACTICS
+# ########################################################################
+asdic_tactics = {
+
+	allow = {
+		convoy_defense_doctrine = 1
+		naval_battles_fought = 50
+		destroyer_hydrophones = 1
+		
+	}
+	
+	destroyer_actual = { 
+		sub_attack = 0.50			
+	}
+	destroyer = { 
+		sub_attack = 0.50			
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 15
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# HUFFDUFF TACTICS
+# ########################################################################
+huffduff_tactics = {
+
+	allow = {
+		convoy_defense_doctrine = 1
+		naval_battles_fought = 50
+		destroyer_huff_duff = 1
+	}
+	
+	destroyer_actual = { 
+		sub_detection = 0.50			
+	}
+	destroyer = { 
+		sub_detection = 0.50			
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 15
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# HUNTER KILLER GROUPS
+# ########################################################################
+hunter_killer_groups = {
+
+	allow = {
+		convoy_defense_doctrine = 1
+		naval_battles_fought = 50
+		escort_carrier_class = 1
+	
+	}
+	
+	escort_carrier = { 
+		default_organisation = 1
+		sub_detection = 0.50			
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		fleet_in_being_doctrine = 0.25
+	}
+	
+	on_completion = fleet_in_being_doctrine
+
+	difficulty = 15
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# SUBMARINE WARFARE DOCTRINES
+# ########################################################################
+submarine_warfare_doctrine = {
+
+	allow = {
+	
+	}
+	
+	convoy_raid = {
+		efficiency = 0.05
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		sealane_interdiction_doctrine = 0.25
+	}
+
+	on_completion = sealane_interdiction_doctrine
+
+	difficulty = 5
+	start_year = 1936
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# TRADE INTERDICTION SUBMARINE DOCTRINE
+# ########################################################################
+trade_interdiction_submarine_doctrine = {
+
+	allow = {
+		submarine_warfare_doctrine = 1
+	}
+	
+	convoy_raid = {
+		efficiency = 0.05
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		sealane_interdiction_doctrine = 0.25
+	}
+
+	on_completion = sealane_interdiction_doctrine
+
+	difficulty = 10
+	start_year = 1918
+	first_offset = 1934 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# SUBMARINE DARING OPERATIONS
+# ########################################################################
+submarine_daring_operations = {
+
+	allow = {
+		submarine_warfare_doctrine = 1
+	
+	}
+	
+	
+	submarine = { 
+		visibility = -1.00				
+	}
+		
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		sealane_interdiction_doctrine = 0.25
+	}
+
+	on_completion = sealane_interdiction_doctrine
+
+	difficulty = 15
+	start_year = 1939
+	first_offset = 1940 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# SUBMARINE RECONAISSANCE
+# ########################################################################
+submarine_reconaissance = {
+
+	allow = {
+		submarine_warfare_doctrine = 1
+
+	}
+	
+	coastal_submarine = { 
+		surface_detection = 1			
+	}
+	submarine = { 
+		surface_detection = 1				
+	}
+	long_range_submarine = { 
+		surface_detection = 1
+	}
+	nuclear_submarine = { 
+		surface_detection = 1		
+	}
+	nuclear_fast_attack_submarine = { 
+		surface_detection = 1		
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		sealane_interdiction_doctrine = 0.25
+	}
+
+	on_completion = sealane_interdiction_doctrine
+
+	difficulty = 15
+	start_year = 1939
+	first_offset = 1940 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# SUBMARINE CAPITAL SHIP HUNTING DOCTRINE
+# ########################################################################
+submarine_capital_ship_doctrine = {
+
+	allow = {
+		submarine_warfare_doctrine = 1
+	
+	}
+	
+	coastal_submarine = { 
+		sea_attack = 1.00		
+	}
+	submarine = { 
+		sea_attack = 1.00				
+	}
+	long_range_submarine = { 
+		sea_attack = 1.00
+	}
+	nuclear_submarine = { 
+		sea_attack = 1.00	
+	}
+	nuclear_fast_attack_submarine = { 
+		sea_attack = 1.00		
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		sealane_interdiction_doctrine = 0.25
+	}
+
+	on_completion = sealane_interdiction_doctrine
+
+	difficulty = 10
+	start_year = 1939
+	first_offset = 1940 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# UNCOORDINATED CONVOY ATTACK
+# ########################################################################
+uncoordinated_convoy_attack = {
+
+	allow = {
+		submarine_warfare_doctrine = 1
+	}
+		
+	coastal_submarine = { 
+		convoy_attack = 0.50		
+	}
+	submarine = { 
+		convoy_attack = 0.50				
+	}
+	long_range_submarine = { 
+		convoy_attack = 0.50
+	}
+	nuclear_submarine = { 
+		convoy_attack = 0.50	
+	}
+	nuclear_fast_attack_submarine = { 
+		convoy_attack = 0.50		
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		sealane_interdiction_doctrine = 0.25
+	}
+
+	on_completion = sealane_interdiction_doctrine
+
+	difficulty = 15
+	start_year = 1939
+	first_offset = 1940 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# WOLFPACK TACTICS
+# ########################################################################
+wolfpack_tactics = {
+
+	allow = {
+		submarine_warfare_doctrine = 1
+		naval_battles_fought = 100
+	}
+	
+	convoy_raid = {
+		efficiency = 0.10
+	}
+	
+	coastal_submarine = { 
+		convoy_attack = 1.00		
+	}
+	submarine = { 
+		convoy_attack = 1.00				
+	}
+	long_range_submarine = { 
+		convoy_attack = 1.00
+	}
+	nuclear_submarine = { 
+		convoy_attack = 1.00	
+	}
+	nuclear_fast_attack_submarine = { 
+		convoy_attack = 1.00		
+	}
+			
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		sealane_interdiction_doctrine = 0.25
+	}
+
+	on_completion = sealane_interdiction_doctrine
+
+	difficulty = 15
+	start_year = 1940
+	first_offset = 1941 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# NAVAL PATROL AIRCRAFT SUBMARINE SUPPORT
+# ########################################################################
+naval_patrol_aircraft_support = {
+
+	allow = {
+		submarine_warfare_doctrine = 1
+		naval_battles_fought = 100
+	}
+	
+	convoy_raid = {
+		efficiency = 0.05
+	}
+	
+	naval_bomber = { 	
+		surface_detection = 1.00
+		sea_attack = 1.00
+		}	
+	Flying_boat = { 	
+		surface_detection = 1.00
+		sea_attack = 1.00
+		}	
+			
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		sealane_interdiction_doctrine = 0.25
+	}
+
+	on_completion = sealane_interdiction_doctrine
+
+	difficulty = 15
+	start_year = 1940
+	first_offset = 1941 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# UNRESTRICTED SUBMARINE WARFARE
+# ########################################################################
+unrestricted_submarine_warfare = {
+
+	allow = {
+		submarine_warfare_doctrine = 1
+		naval_battles_fought = 100
+	}
+	
+	convoy_raid = {
+		reduction_modifier = -0.10
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		sealane_interdiction_doctrine = 0.25
+	}
+
+	on_completion = sealane_interdiction_doctrine
+
+	difficulty = 15
+	start_year = 1940
+	first_offset = 1941 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}
+# ########################################################################
+# ELECTRO-BOAT TACTICS
+# ########################################################################
+electro_boat_tactics = {
+
+	allow = {
+		submarine_warfare_doctrine = 1
+		naval_battles_fought = 200
+		submarine_class = 6
+	}
+	
+	submarine = { 
+		convoy_attack = 1.00
+		sea_attack = 1.00
+		sea_defence = 1.00
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_doctrine_practical = 0.50
+		sealane_interdiction_doctrine = 0.25
+	}
+
+	on_completion = sealane_interdiction_doctrine
+
+	difficulty = 15
+	start_year = 1945
+	first_offset = 1946 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+	folder = naval_doctrine_folder
+}

@@ -1,0 +1,7184 @@
+###################
+###################
+# Armor Division Organization
+###################
+###################################################################################
+## Armor Division HQ
+###################################################################################
+armor_division_hq = {
+
+	allow = {
+		OR = {
+			AND = {									
+				NOT = { armor_division_hq = 1 }	# 1935
+				OR = {
+					armor_regiment_hq = 1
+					light_armor_regiment_hq = 1 
+				}
+			}
+			AND = {
+				NOT = { armor_division_hq = 2 }	# 1939
+				OR = { 
+					armor_regiment_hq = 2
+					light_armor_regiment_hq = 2 
+				}	
+			}
+			AND = {
+				NOT = { armor_division_hq = 3 }	# 1941
+				OR = {
+					armor_regiment_hq = 3
+					light_armor_regiment_hq = 3 
+				}	
+			}
+			AND = {
+				NOT = { armor_division_hq = 4 }	# 1943
+				OR = { 		
+					armor_regiment_hq = 4
+					light_armor_regiment_hq = 4 
+				}
+			}
+			AND = {
+				NOT = { armor_division_hq = 5 }	# 1945
+				OR = { 		
+					armor_regiment_hq = 5
+					light_armor_regiment_hq = 5 
+				}
+			}
+			AND = {
+				NOT = { armor_division_hq = 6 }	# 1947
+				OR = { 		
+					armor_regiment_hq = 6
+					light_armor_regiment_hq = 6 
+				}
+			}
+			AND = {
+				NOT = { armor_division_hq = 7 }	# 1949
+				OR = { 		
+					armor_regiment_hq = 7
+					light_armor_regiment_hq = 7 
+				}
+			}
+			AND = {
+				NOT = { armor_division_hq = 8 }	# 1951
+				OR = { 		
+					armor_regiment_hq = 8
+					light_armor_regiment_hq = 8 
+				}
+			}
+			AND = {
+				NOT = { armor_division_hq = 9 }	# 1953
+				OR = { 		
+					armor_regiment_hq = 9
+					light_armor_regiment_hq = 9
+				}
+			}
+			AND = {
+				NOT = { armor_division_hq = 10 }	# 1955
+				OR = { 		
+					armor_regiment_hq = 10
+					light_armor_regiment_hq = 10
+				}
+			}
+		}		
+		
+	}	
+	
+	change = no
+	
+	armor_brigade = {
+		default_organisation = 1.0
+		air_defence = 1
+	}
+	
+	light_armor_brigade = {
+		default_organisation = 1.0
+		air_defence = 1
+	}
+			
+	guard_armor_brigade = {
+		default_organisation = 1.0
+		air_defence = 1
+	}
+		
+	ss_armor_brigade = {
+		default_organisation = 1.0
+		air_defence = 1
+	}
+	
+	lehr_brigade = {
+		default_organisation = 1.0
+		air_defence = 1
+	}
+			
+					
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 7
+
+    # common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Armor Regiment HQ
+###################################################################################
+armor_regiment_hq = {
+
+	allow = {
+		OR = {
+			AND = {									
+				NOT = { armor_regiment_hq = 1 }	# 1935
+				first_tank_battalion = 1
+				second_tank_battalion = 1
+			}
+			AND = {
+				NOT = { armor_regiment_hq = 2 }	# 1939
+				first_tank_battalion = 2
+				second_tank_battalion = 2
+			}
+			AND = {
+				NOT = { armor_regiment_hq = 3 }	# 1941
+				first_tank_battalion = 3
+				second_tank_battalion = 3
+				
+			}
+			AND = {
+				NOT = { armor_regiment_hq = 4 }	# 1943
+				first_tank_battalion = 4
+				second_tank_battalion = 4
+				
+			}
+			AND = {
+				NOT = { armor_regiment_hq = 5 }	# 1945
+				first_tank_battalion = 5
+				second_tank_battalion = 5
+				
+			}
+			AND = {
+				NOT = { armor_regiment_hq = 6 }	# 1947
+				first_tank_battalion = 6
+				second_tank_battalion = 6
+				
+			}
+			AND = {
+				NOT = { armor_regiment_hq = 7 }	# 1949
+				first_tank_battalion = 7
+				second_tank_battalion = 7
+				
+			}
+			AND = {
+				NOT = { armor_regiment_hq = 8 }	# 1951
+				first_tank_battalion = 8
+				second_tank_battalion = 8
+			
+			}
+			AND = {
+				NOT = { armor_regiment_hq = 9 }	# 1953
+				first_tank_battalion = 9
+				second_tank_battalion = 9
+				
+			}
+			AND = {
+				NOT = { armor_regiment_hq = 10 } # 1955
+				first_tank_battalion = 10
+				second_tank_battalion = 10
+				
+			}
+		}
+		
+	}	
+	
+	change = no
+	
+	activate_unit = armor_brigade
+	
+	armor_brigade = {
+		max_strength = 0.03
+		default_organisation = 0.25
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	guard_armor_brigade = {
+		max_strength = 0.03
+		default_organisation = 0.25
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+
+	ss_armor_brigade = {
+		max_strength = 0.03
+		default_organisation = 0.25
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	lehr_brigade = {
+		max_strength = 0.03
+		default_organisation = 0.25
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1935
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## 1st Tank Battalion
+###################################################################################
+first_tank_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { first_tank_battalion = 1 } # 1935
+				combined_arms_theory = 1	
+				medium_tank_prototype = 1
+				automotive_construction_industry = 4
+			}
+			AND = {
+				NOT = { first_tank_battalion = 2 } # 1939
+				automotive_construction_industry = 7
+			}
+			AND = {
+				NOT = { first_tank_battalion = 3 } # 1941
+				automotive_construction_industry = 9
+			}
+			AND = {
+				NOT = { first_tank_battalion = 4 } # 1943
+				automotive_construction_industry = 11
+			}
+			AND = {
+				NOT = { first_tank_battalion = 5 } # 1945
+				automotive_construction_industry = 13
+			}
+			AND = {
+				NOT = { first_tank_battalion = 6 } # 1947
+				automotive_construction_industry = 15
+			}
+			AND = {
+				NOT = { first_tank_battalion = 7 } # 1949
+				automotive_construction_industry = 17
+			}
+			AND = {
+				NOT = { first_tank_battalion = 8 } # 1951
+				automotive_construction_industry = 19
+			}
+			AND = {
+				NOT = { first_tank_battalion = 9 } # 1953
+				automotive_construction_industry = 21
+			}
+			AND = {
+				NOT = { first_tank_battalion = 10 } # 1955
+				automotive_construction_industry = 23
+			}
+		}
+	}	
+	
+	change = yes
+	
+	activate_unit = armor_bat
+	
+	armor_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	armor_bat = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	
+	
+	guard_armor_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	guard_armor_bat = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	
+	ss_armor_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	ss_armor_bat = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	
+	combined_arms_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+		
+	amph_armour_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}	
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## 2nd Tank Battalion
+###################################################################################
+second_tank_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { second_tank_battalion = 1 } # 1935
+				combined_arms_theory = 1	
+				medium_tank_prototype = 1
+				automotive_construction_industry = 4
+			}
+			AND = {
+				NOT = { second_tank_battalion = 2 } # 1939
+				automotive_construction_industry = 7
+			}
+			AND = {
+				NOT = { second_tank_battalion = 3 } # 1941
+				automotive_construction_industry = 9
+			}
+			AND = {
+				NOT = { second_tank_battalion = 4 } # 1943
+				automotive_construction_industry = 11
+			}
+			AND = {
+				NOT = { second_tank_battalion = 5 } # 1945
+				automotive_construction_industry = 13
+			}
+			AND = {
+				NOT = { second_tank_battalion = 6 } # 1947
+				automotive_construction_industry = 15
+			}
+			AND = {
+				NOT = { second_tank_battalion = 7 } # 1949
+				automotive_construction_industry = 17
+			}
+			AND = {
+				NOT = { second_tank_battalion = 8 } # 1951
+				automotive_construction_industry = 19
+			}
+			AND = {
+				NOT = { second_tank_battalion = 9 } # 1953
+				automotive_construction_industry = 21
+			}
+			AND = {
+				NOT = { second_tank_battalion = 10 } # 1955
+				automotive_construction_industry = 23
+			}
+		}
+	}	
+	
+	change = yes
+	
+	armor_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+		
+	guard_armor_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+		
+	ss_armor_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	
+	lehr_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}	
+	
+	afrika_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+		
+				
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## 3rd Tank Battalion
+###################################################################################
+third_tank_battalion = {
+
+	allow = {
+		armor_increase = 6
+		OR = { 
+			AND = {
+				NOT = { third_tank_battalion = 1 } # 1935
+				combined_arms_theory = 1	
+				medium_tank_prototype = 1
+				automotive_construction_industry = 4
+			}
+			AND = {
+				NOT = { third_tank_battalion = 2 } # 1939
+				automotive_construction_industry = 7
+			}
+			AND = {
+				NOT = { third_tank_battalion = 3 } # 1941
+				automotive_construction_industry = 9
+			}
+			AND = {
+				NOT = { third_tank_battalion = 4 } # 1943
+				automotive_construction_industry = 11
+			}
+			AND = {
+				NOT = { third_tank_battalion = 5 } # 1945
+				automotive_construction_industry = 13
+			}
+			AND = {
+				NOT = { third_tank_battalion = 6 } # 1947
+				automotive_construction_industry = 15
+			}
+			AND = {
+				NOT = { third_tank_battalion = 7 } # 1949
+				automotive_construction_industry = 17
+			}
+			AND = {
+				NOT = { third_tank_battalion = 8 } # 1951
+				automotive_construction_industry = 19
+			}
+			AND = {
+				NOT = { third_tank_battalion = 9 } # 1953
+				automotive_construction_industry = 21
+			}
+			AND = {
+				NOT = { third_tank_battalion = 10 } # 1955
+				automotive_construction_industry = 23
+			}
+		}
+	}	
+	
+	change = yes
+	
+	armor_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+			
+	guard_armor_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+		
+	ss_armor_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+	
+	desertrats_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 5
+		soft_attack = 1
+		hard_attack = 1
+		defensiveness = 1
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		default_organisation = -3.0
+	}
+		
+				
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+	start_year = 1935
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+######################################################################################################################################################################
+## Light Armor Regiment HQ
+######################################################################################################################################################################
+light_armor_regiment_hq = {
+
+	allow = {
+		OR = {
+			AND = {									
+				NOT = { light_armor_regiment_hq = 1 }	# 1935
+				first_light_tank_battalion = 1
+				second_light_tank_battalion = 1
+			}
+			AND = {
+				NOT = { light_armor_regiment_hq = 2 }	# 1936
+				first_light_tank_battalion = 2
+				second_light_tank_battalion = 2
+			}
+			AND = {
+				NOT = { light_armor_regiment_hq = 3 }	# 1938
+				first_light_tank_battalion = 3
+				second_light_tank_battalion = 3
+				
+			}
+			AND = {
+				NOT = { light_armor_regiment_hq = 4 }	# 1940
+				first_light_tank_battalion = 4
+				second_light_tank_battalion = 4
+				
+			}
+			AND = {
+				NOT = { light_armor_regiment_hq = 5 }	# 1942
+				first_light_tank_battalion = 5
+				second_light_tank_battalion = 5
+				
+			}
+			AND = {
+				NOT = { light_armor_regiment_hq = 6 }	# 1944
+				first_light_tank_battalion = 6
+				second_light_tank_battalion = 6
+				
+			}
+			AND = {
+				NOT = { light_armor_regiment_hq = 7 }	# 1946
+				first_light_tank_battalion = 7
+				second_light_tank_battalion = 7
+				
+			}
+			AND = {
+				NOT = { light_armor_regiment_hq = 8 }	# 1948
+				first_light_tank_battalion = 8
+				second_light_tank_battalion = 8
+			
+			}
+			AND = {
+				NOT = { light_armor_regiment_hq = 9 }	# 1950
+				first_light_tank_battalion = 9
+				second_light_tank_battalion = 9
+				
+			}
+			AND = {
+				NOT = { light_armor_regiment_hq = 10 } # 1952
+				first_light_tank_battalion = 10
+				second_light_tank_battalion = 10
+				
+			}
+			AND = {
+				NOT = { light_armor_regiment_hq = 11 } # 1954
+				first_light_tank_battalion = 11
+				second_light_tank_battalion = 11
+				
+			}
+		}
+	}	
+	
+	change = no
+		
+	activate_unit = light_armor_brigade
+	
+	light_armor_brigade = {
+		max_strength = 0.02
+		default_organisation = 1.0
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1935
+	first_offset = 1936	
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## 1st Light Tank Battalion
+###################################################################################
+first_light_tank_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { first_light_tank_battalion = 1 } # 1935		
+				light_tank_prototype = 1
+				automotive_construction_industry = 4
+			}
+			AND = {
+				NOT = { first_light_tank_battalion = 2 } # 1936
+				automotive_construction_industry = 5
+			}
+			AND = {
+				NOT = { first_light_tank_battalion = 3 } # 1938
+				automotive_construction_industry = 6
+			}
+			AND = {
+				NOT = { first_light_tank_battalion = 4 } # 1940
+				automotive_construction_industry = 8
+			}
+			AND = {
+				NOT = { first_light_tank_battalion = 5 } # 1942
+				automotive_construction_industry = 10
+			}
+			AND = {
+				NOT = { first_light_tank_battalion = 6 } # 1944
+				automotive_construction_industry = 12
+			}
+			AND = {
+				NOT = { first_light_tank_battalion = 7 } # 1946
+				automotive_construction_industry = 14
+			}
+			AND = {
+				NOT = { first_light_tank_battalion = 8 } # 1948
+				automotive_construction_industry = 16
+			}
+			AND = {
+				NOT = { first_light_tank_battalion = 9 } # 1950
+				automotive_construction_industry = 18
+			}
+			AND = {
+				NOT = { first_light_tank_battalion = 10 } # 1952
+				automotive_construction_industry = 20
+			}
+		}
+	}	
+	
+	change = yes
+	
+	activate_unit = light_armor_bat
+	
+	light_armor_brigade = {
+		build_cost_ic = 0.25	# x3 Companies	
+		build_time = 3
+		soft_attack = 0.40
+		hard_attack = 0.06
+		defensiveness = 0.40
+		supply_consumption = 0.02
+		fuel_consumption = 0.06
+		default_organisation = -3
+	}
+	light_armor_bat = {
+		build_cost_ic = 0.25	# x3 Companies	
+		build_time = 3
+		soft_attack = 0.40
+		hard_attack = 0.06
+		defensiveness = 0.40
+		supply_consumption = 0.02
+		fuel_consumption = 0.06
+		default_organisation = -3
+	}
+	
+	
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1935
+	first_offset = 1936	
+	additional_offset = 2 # 
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## 2nd Light Tank Battalion
+###################################################################################
+second_light_tank_battalion = {
+
+	allow = {
+		armor_maneuver_warfare_doctrine = 1		
+		OR = { 
+			AND = {
+				NOT = { second_light_tank_battalion = 1 } # 1935
+				light_tank_prototype = 1
+				automotive_construction_industry = 4
+			}
+			AND = {
+				NOT = { second_light_tank_battalion = 2 } # 1936
+				automotive_construction_industry = 5
+			}
+			AND = {
+				NOT = { second_light_tank_battalion = 3 } # 1938
+				automotive_construction_industry = 6
+			}
+			AND = {
+				NOT = { second_light_tank_battalion = 4 } # 1940
+				automotive_construction_industry = 8
+			}
+			AND = {
+				NOT = { second_light_tank_battalion = 5 } # 1942
+				automotive_construction_industry = 10
+			}
+			AND = {
+				NOT = { second_light_tank_battalion = 6 } # 1944
+				automotive_construction_industry = 12
+			}
+			AND = {
+				NOT = { second_light_tank_battalion = 7 } # 1946
+				automotive_construction_industry = 14
+			}
+			AND = {
+				NOT = { second_light_tank_battalion = 8 } # 1948
+				automotive_construction_industry = 16
+			}
+			AND = {
+				NOT = { second_light_tank_battalion = 9 } # 1950
+				automotive_construction_industry = 18
+			}
+			AND = {
+				NOT = { second_light_tank_battalion = 10 } # 1952
+				automotive_construction_industry = 20
+			}
+		}
+	}	
+	
+	change = yes
+	
+	light_armor_brigade = {
+		build_cost_ic = 0.25	# x3 Companies	
+		build_time = 3
+		soft_attack = 0.40
+		hard_attack = 0.06
+		defensiveness = 0.40
+		supply_consumption = 0.02
+		fuel_consumption = 0.06
+		default_organisation = -3
+	}
+			
+	
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1935
+	first_offset = 1936	
+	additional_offset = 2 # 
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+
+###################################################################################
+## Mechanized Division HQ
+###################################################################################
+mechanized_division_hq = {
+
+	allow = {	
+		OR = { 
+			AND = {
+				NOT = { mechanized_division_hq = 1 } # 1941
+				mechanized_regiment_hq = 1 # 1941
+			}
+			AND = {
+				NOT = { mechanized_division_hq = 2 } # 1942
+				mechanized_regiment_hq = 2 # 1942
+			}
+			AND = {
+				NOT = { mechanized_division_hq = 3 } # 1943
+				mechanized_regiment_hq = 3 # 1944
+			}
+			AND = {
+				NOT = { mechanized_division_hq = 4 } # 1945
+				mechanized_regiment_hq = 4 # 1946
+			}
+			AND = {
+				NOT = { mechanized_division_hq = 5 } # 1947
+				mechanized_regiment_hq = 5 # 1948
+			}	
+			AND = {
+				NOT = { mechanized_division_hq = 6 } # 1949
+				mechanized_regiment_hq = 6 # 1948
+			}
+			AND = {
+				NOT = { mechanized_division_hq = 7 } # 1951
+				mechanized_regiment_hq = 7 # 1948
+			}
+			AND = {
+				NOT = { mechanized_division_hq = 8 } # 1953
+				mechanized_regiment_hq = 8 # 1948
+			}
+			AND = {
+				NOT = { mechanized_division_hq = 9 } # 1955
+				mechanized_regiment_hq = 9 # 1948
+			}
+			AND = {
+				NOT = { mechanized_division_hq = 10 } # 1957
+				mechanized_regiment_hq = 10 # 1948
+			}
+		}
+	}	
+	
+	change = no
+	
+	mechanized_brigade = {
+		default_organisation = 1
+	}
+	
+	ss_mechanized_brigade = {
+		default_organisation = 1
+	}
+	
+	guard_mechanized_brigade = {
+		default_organisation = 1
+	}
+	
+	goering_brigade = {
+		default_organisation = 1
+	}
+			
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Mechanized Regiment HQ
+###################################################################################
+mechanized_regiment_hq = {
+
+	allow = {
+		OR = { 
+			AND = {
+				NOT = { mechanized_regiment_hq = 1 } # 1941
+				first_mechanized_battalion = 1 # 1941
+				second_mechanized_battalion = 1 # 1941
+				first_mechanized_artillery_company = 1 # 1941
+				first_mechanized_heavy_weapons_company = 1 # 1941
+			}
+			AND = {
+				NOT = { mechanized_regiment_hq = 2 } # 1942
+				first_mechanized_battalion = 2 # 1942
+				second_mechanized_battalion = 2 # 1942
+				first_mechanized_artillery_company = 2 # 1942
+				first_mechanized_heavy_weapons_company = 2 # 1942
+			}
+			AND = {
+				NOT = { mechanized_regiment_hq = 3 } # 1943
+				first_mechanized_battalion = 3 # 1943
+				second_mechanized_battalion = 3 # 1943
+				first_mechanized_artillery_company = 3 # 1943
+				first_mechanized_heavy_weapons_company = 3 # 1943
+			}
+			AND = {
+				NOT = { mechanized_regiment_hq = 4 } # 1945
+				first_mechanized_battalion = 4 # 1945
+				second_mechanized_battalion = 4 # 1945
+				first_mechanized_artillery_company = 4 # 1945
+				first_mechanized_heavy_weapons_company = 4 # 1945
+			}
+			AND = {
+				NOT = { mechanized_regiment_hq = 5 } # 1947
+				first_mechanized_battalion = 5 # 1947
+				second_mechanized_battalion = 5 # 1947
+				first_mechanized_artillery_company = 5 # 1947
+				first_mechanized_heavy_weapons_company = 5 # 1947
+			}	
+			AND = {
+				NOT = { mechanized_regiment_hq = 6 } # 1949
+				first_mechanized_battalion = 6 # 1949
+				second_mechanized_battalion = 6 # 1949
+				first_mechanized_artillery_company = 6 # 1949
+				first_mechanized_heavy_weapons_company = 6 # 1949
+			}	
+			AND = {
+				NOT = { mechanized_regiment_hq = 7 } # 1951
+				first_mechanized_battalion = 7 # 1951
+				second_mechanized_battalion = 7 # 1951
+				first_mechanized_artillery_company = 7 # 1951
+				first_mechanized_heavy_weapons_company = 7 # 1951
+			}	
+			AND = {
+				NOT = { mechanized_regiment_hq = 8 } # 1953
+				first_mechanized_battalion = 8 # 1953
+				second_mechanized_battalion = 8 # 1953
+				first_mechanized_artillery_company = 8 # 1953
+				first_mechanized_heavy_weapons_company = 8 # 1953
+			}	
+			AND = {
+				NOT = { mechanized_regiment_hq = 9 } # 1955
+				first_mechanized_battalion = 9 # 1955
+				second_mechanized_battalion = 9 # 1955
+				first_mechanized_artillery_company = 9 # 1955
+				first_mechanized_heavy_weapons_company = 9 # 1955
+			}	
+			AND = {
+				NOT = { mechanized_regiment_hq = 10 } # 1957
+				first_mechanized_battalion = 10 # 1957
+				second_mechanized_battalion = 10 # 1957
+				first_mechanized_artillery_company = 10 # 1957
+				first_mechanized_heavy_weapons_company = 10 # 1957
+			}	
+		}		
+	}	
+	
+	change = no
+		
+	activate_unit = mechanized_brigade
+		
+	mechanized_brigade = {
+		max_strength = 0.15
+		default_organisation = 0.25
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	ss_mechanized_brigade = {
+		max_strength = 0.15
+		default_organisation = 0.25
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	guard_mechanized_brigade = {
+		max_strength = 0.15
+		default_organisation = 0.25
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+	goering_brigade = {
+		max_strength = 0.15
+		default_organisation = 0.25
+		radio_strength = 0.25
+		officers = 2
+		soft_attack = 0.01
+		hard_attack = 0.01
+		defensiveness = 0.01
+	}
+	
+
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## 1st Mechanized Battalion
+###################################################################################
+first_mechanized_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { first_mechanized_battalion = 1 } # 1941
+				military_halftrack_transport = 1
+				infantry_division_hq = 1
+				small_arms_manufacturing = 9
+				OR = {
+					mobile_infantry_theory = 1
+					combat_command_doctrine = 1
+				}
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 2 } # 1942
+				small_arms_manufacturing = 11
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 3 } # 1944
+				small_arms_manufacturing = 12
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 4 } # 1946
+				small_arms_manufacturing = 14
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 5 } # 1948
+				small_arms_manufacturing = 16
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 6 } # 1950
+				small_arms_manufacturing = 18
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 7 } # 1952
+				small_arms_manufacturing = 20
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 8 } # 1954
+				small_arms_manufacturing = 22
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 9 } # 1956
+				small_arms_manufacturing = 24
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 10 } # 1958
+				small_arms_manufacturing = 26
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 11 } # 1960
+				small_arms_manufacturing = 28
+			}
+			AND = {
+				NOT = { first_mechanized_battalion = 12 } # 1962
+				small_arms_manufacturing = 30
+			}
+		}
+	}	
+	
+	change = yes
+		
+	activate_unit = mechanized_infantry_bat
+
+	mechanized_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	mechanized_infantry_bat = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	goering_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	ss_mechanized_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	ss_mechanized_infantry_bat = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	guard_mechanized_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	guard_mechanized_infantry_bat = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## 2nd Mechanized Battalion
+###################################################################################
+second_mechanized_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { second_mechanized_battalion = 1 } # 1941
+				military_halftrack_transport = 1
+				infantry_division_hq = 1
+				small_arms_manufacturing = 9
+				OR = {
+					mobile_infantry_theory = 1
+					combat_command_doctrine = 1
+				}
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 2 } # 1942
+				small_arms_manufacturing = 11
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 3 } # 1944
+				small_arms_manufacturing = 12
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 4 } # 1946
+				small_arms_manufacturing = 14
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 5 } # 1948
+				small_arms_manufacturing = 16
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 6 } # 1950
+				small_arms_manufacturing = 18
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 7 } # 1952
+				small_arms_manufacturing = 20
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 8 } # 1954
+				small_arms_manufacturing = 22
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 9 } # 1956
+				small_arms_manufacturing = 24
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 10 } # 1958
+				small_arms_manufacturing = 26
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 11 } # 1960
+				small_arms_manufacturing = 28
+			}
+			AND = {
+				NOT = { second_mechanized_battalion = 12 } # 1962
+				small_arms_manufacturing = 30
+			}
+		}
+	}	
+	
+	change = yes
+		
+	mechanized_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	goering_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	ss_mechanized_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	guard_mechanized_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+	
+
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## 3rd Mechanized Battalion
+###################################################################################
+third_mechanized_battalion = {
+
+	allow = {
+		mobile_increase = 3
+		OR = { 
+			AND = {
+				NOT = { third_mechanized_battalion = 1 } # 1941
+				military_halftrack_transport = 1
+				infantry_division_hq = 1
+				small_arms_manufacturing = 9
+				OR = {
+					mobile_infantry_theory = 1
+					combat_command_doctrine = 1
+				}
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 2 } # 1942
+				small_arms_manufacturing = 11
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 3 } # 1944
+				small_arms_manufacturing = 12
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 4 } # 1946
+				small_arms_manufacturing = 14
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 5 } # 1948
+				small_arms_manufacturing = 16
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 6 } # 1950
+				small_arms_manufacturing = 18
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 7 } # 1952
+				small_arms_manufacturing = 20
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 8 } # 1954
+				small_arms_manufacturing = 22
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 9 } # 1956
+				small_arms_manufacturing = 24
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 10 } # 1958
+				small_arms_manufacturing = 26
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 11 } # 1960
+				small_arms_manufacturing = 28
+			}
+			AND = {
+				NOT = { third_mechanized_battalion = 12 } # 1962
+				small_arms_manufacturing = 30
+			}
+		}
+	}	
+	
+	change = yes
+		
+	mechanized_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	ss_mechanized_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	guard_mechanized_brigade = {
+		default_organisation = -0.15	# x3 Companies
+		soft_attack = 0.10
+		defensiveness = 0.10
+		build_cost_ic = 0.10
+		build_time = 1
+		supply_consumption = 0.01
+		ap_attack = 0.01
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## 1st Mechanized Artillery Company
+###################################################################################
+first_mechanized_artillery_company = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { first_mechanized_artillery_company = 1 } # 1941
+				military_halftrack_transport = 1
+				mechanized_regiment_hq = 1
+				sp_artillery_prototype = 1
+				artillery_production_industry = 9
+			}
+			AND = {
+				NOT = { first_mechanized_artillery_company = 2 } # 1942
+				artillery_production_industry = 11
+			}
+			AND = {
+				NOT = { first_mechanized_artillery_company = 3 } # 1944
+				artillery_production_industry = 12
+			}
+			AND = {
+				NOT = { first_mechanized_artillery_company = 4 } # 1946
+				artillery_production_industry = 14
+			}
+			AND = {
+				NOT = { first_mechanized_artillery_company = 5 } # 1948
+				artillery_production_industry = 16
+			}
+			AND = {
+				NOT = { first_mechanized_artillery_company = 6 } # 1950
+				artillery_production_industry = 18
+			}
+			AND = {
+				NOT = { first_mechanized_artillery_company = 7 } # 1952
+				artillery_production_industry = 20
+			}
+			AND = {
+				NOT = { first_mechanized_artillery_company = 8 } # 1954
+				artillery_production_industry = 22
+			}
+			AND = {
+				NOT = { first_mechanized_artillery_company = 9 } # 1956
+				artillery_production_industry = 24
+			}
+			AND = {
+				NOT = { first_mechanized_artillery_company = 10 } # 1958
+				artillery_production_industry = 26
+			}
+		}
+	}	
+	
+	change = yes
+		
+	mechanized_brigade = {
+		defensiveness = 0.50 	# x1 Company: 6 guns total, 2 per platoon x 3 platoons
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.15
+		build_time = 2
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}	
+	
+	ss_mechanized_brigade = {
+		defensiveness = 0.50 	# x1 Company: 6 guns total, 2 per platoon x 3 platoons
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.15
+		build_time = 2
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}	
+	
+	guard_mechanized_brigade = {
+		defensiveness = 0.50 	# x1 Company: 6 guns total, 2 per platoon x 3 platoons
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.15
+		build_time = 2
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}	
+	
+	goering_brigade = {
+		defensiveness = 0.50 	# x1 Company: 6 guns total, 2 per platoon x 3 platoons
+		soft_attack = 0.25
+		ap_attack = 0.01
+		default_organisation = -0.25
+		build_cost_ic = 0.15
+		build_time = 2
+		supply_consumption = 0.03
+		maximum_speed = -0.05
+	}
+	
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## 1st Mechanized Heavy Weapons Company
+###################################################################################
+first_mechanized_heavy_weapons_company = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 1 } # 1941
+				military_halftrack_transport = 1
+				mechanized_regiment_hq = 1
+				hmg_prototype = 1
+				small_arms_manufacturing = 9
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 2 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 3 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 4 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 5 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 6 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 7 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 8 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 9 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 10 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 11 } # 1961
+				small_arms_manufacturing = 29
+									
+			}
+			AND = {
+				NOT = { first_mechanized_heavy_weapons_company = 12 } # 1963
+				small_arms_manufacturing = 31
+									
+			}
+		}	
+	}	
+	
+	change = yes
+		
+	mechanized_brigade = {
+		defensiveness = 0.20 # x2 Companies
+		build_cost_ic = 0.12
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}	
+	
+	ss_mechanized_brigade = {
+		defensiveness = 0.20 # x2 Companies
+		build_cost_ic = 0.12
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}	
+	
+	guard_mechanized_brigade = {
+		defensiveness = 0.20 # x2 Companies
+		build_cost_ic = 0.12
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}	
+	
+	
+	goering_brigade = {
+		defensiveness = 0.20 # x2 Companies
+		build_cost_ic = 0.12
+		build_time = 1
+		default_organisation = -0.15
+		supply_consumption = 0.02
+		maximum_speed = -0.05	
+	}
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Mechanized Submachinegun Distribution
+###################################################################################
+mechanized_submachinegun_distribution = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { mechanized_submachinegun_distribution = 1 } # 1941
+				first_mechanized_battalion = 1
+				submachineguns_prototype = 3 # 1940	
+				small_arms_manufacturing = 10
+			}
+			AND = {
+				NOT = { mechanized_submachinegun_distribution = 2 } # 1942
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { mechanized_submachinegun_distribution = 3 } # 1944
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { mechanized_submachinegun_distribution = 4 } # 1946
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { mechanized_submachinegun_distribution = 5 } # 1948
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { mechanized_submachinegun_distribution = 6 } # 1950
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { mechanized_submachinegun_distribution = 7 } # 1952
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { mechanized_submachinegun_distribution = 8 } # 1954
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { mechanized_submachinegun_distribution = 9 } # 1956
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { mechanized_submachinegun_distribution = 10 } # 1958
+				small_arms_manufacturing = 27
+									
+			}
+		}		
+	}
+	
+	change = yes
+	
+	mechanized_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	mechanized_infantry_bat = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	ss_mechanized_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_mechanized_infantry_bat = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	guard_mechanized_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	guard_mechanized_infantry_bat = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	goering_brigade = {
+		toughness = 0.25
+		default_organisation = -0.20
+		soft_attack = 0.30
+		defensiveness = 0.30
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	###########################################
+	### Armored Vehicle Crews
+	###########################################
+		
+	sp_artillery_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_sp_artillery_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	sp_anti_air_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_sp_anti_air_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	assault_gun_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	heavy_assault_gun_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	tank_destroyer_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	medium_tank_destroyer_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	heavy_tank_destroyer_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_tank_destroyer_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	armor_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	armor_bat = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	light_armor_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	light_armor_bat = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	ss_armor_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_armor_bat = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	guard_armor_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	guard_armor_bat = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	combined_arms_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	heavy_armor_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_heavy_armor_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	guard_heavy_armor_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	super_heavy_armor_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	armored_engineers_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_armored_engineers_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+	armored_support_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	ss_armored_support_brigade = {
+		default_organisation = -0.20	
+		defensiveness = 0.15
+		build_cost_ic = 0.15
+		build_time = 3
+		supply_consumption = 0.02
+	}
+	
+
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942	
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Mechanized Assault Rifle Distribution
+###################################################################################
+mechanized_assault_rifle_distribution = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { mechanized_assault_rifle_distribution = 1 } # 1941
+				first_mechanized_battalion = 1
+				assault_rifles_prototype = 1
+				small_arms_manufacturing = 10
+			}
+			AND = {
+				NOT = { mechanized_assault_rifle_distribution = 2 } # 1942
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { mechanized_assault_rifle_distribution = 3 } # 1944
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { mechanized_assault_rifle_distribution = 4 } # 1946
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { mechanized_assault_rifle_distribution = 5 } # 1948
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { mechanized_assault_rifle_distribution = 6 } # 1950
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { mechanized_assault_rifle_distribution = 7 } # 1952
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { mechanized_assault_rifle_distribution = 8 } # 1954
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { mechanized_assault_rifle_distribution = 9 } # 1956
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { mechanized_assault_rifle_distribution = 10 } # 1958
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	mechanized_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	mechanized_infantry_bat = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	ss_mechanized_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_mechanized_infantry_bat = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	guard_mechanized_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	guard_mechanized_infantry_bat = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	goering_brigade = {
+		toughness = 1.00
+		default_organisation = -0.35
+		soft_attack = 0.55
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	###########################################
+	### Armored Vehicle Crews
+	###########################################
+	
+	lehr_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	sp_artillery_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_sp_artillery_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	sp_anti_air_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_sp_anti_air_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	assault_gun_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	heavy_assault_gun_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	tank_destroyer_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	medium_tank_destroyer_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	heavy_tank_destroyer_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_tank_destroyer_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	armor_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	armor_bat = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	light_armor_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	light_armor_bat = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	ss_armor_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_armor_bat = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	guard_armor_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	guard_armor_bat = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	combined_arms_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	heavy_armor_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_heavy_armor_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	guard_heavy_armor_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	super_heavy_armor_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	armored_engineers_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_armored_engineers_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	
+	armored_support_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+	ss_armored_support_brigade = {
+		default_organisation = -0.35
+		defensiveness = 0.55
+		build_cost_ic = 0.25
+		build_time = 4
+		supply_consumption = 0.02
+	}
+
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1944
+	first_offset = 1945 # Model 2
+	additional_offset = 2 # Model 3 thru 
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Mechanized Light Machine Gun Distribution
+###################################################################################
+mechanized_lmg_distribution = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { mechanized_lmg_distribution = 1 } # 1941
+				first_mechanized_battalion = 1
+				lmg_prototype = 3	# 1939
+				small_arms_manufacturing = 10
+			}
+			AND = {
+				NOT = { mechanized_lmg_distribution = 2 } # 1942
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { mechanized_lmg_distribution = 3 } # 1944
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { mechanized_lmg_distribution = 4 } # 1946
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { mechanized_lmg_distribution = 5 } # 1948
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { mechanized_lmg_distribution = 6 } # 1950
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { mechanized_lmg_distribution = 7 } # 1952
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { mechanized_lmg_distribution = 8 } # 1954
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { mechanized_lmg_distribution = 9 } # 1956
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { mechanized_lmg_distribution = 10 } # 1958
+				small_arms_manufacturing = 27
+									
+			}
+		}	
+	}
+	
+	change = yes
+	
+	mechanized_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.25
+		build_time = 1
+		supply_consumption = 0.02
+		maximum_speed = -0.03
+	}
+	mechanized_infantry_bat = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.25
+		build_time = 1
+		supply_consumption = 0.02
+		maximum_speed = -0.03
+	}
+	
+	ss_mechanized_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.25
+		build_time = 1
+		supply_consumption = 0.02
+		maximum_speed = -0.03
+	}
+	ss_mechanized_infantry_bat = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.25
+		build_time = 1
+		supply_consumption = 0.02
+		maximum_speed = -0.03
+	}
+	
+	guard_mechanized_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.25
+		build_time = 1
+		supply_consumption = 0.02
+		maximum_speed = -0.03
+	}
+	guard_mechanized_infantry_bat = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.25
+		build_time = 1
+		supply_consumption = 0.02
+		maximum_speed = -0.03
+	}
+	
+	goering_brigade = {
+		toughness = 0.35
+		default_organisation = -0.35
+		soft_attack = 0.45
+		defensiveness = 0.60
+		build_cost_ic = 0.25
+		build_time = 1
+		supply_consumption = 0.02
+		maximum_speed = -0.03
+	}
+	
+
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 6
+
+    # common for all techs.
+    start_year = 1941
+	first_offset = 1942 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Light Tank Destroyer Battalion
+###################################################################################
+light_tank_destroyer_battalion = {
+
+	allow = {
+	
+		OR = { 
+			AND = {
+				NOT = { light_tank_destroyer_battalion = 1 } # 1939
+				light_tank_destroyer_prototype = 1
+				automotive_construction_industry = 8
+			}
+			AND = {
+				NOT = { light_tank_destroyer_battalion = 2 } # 1941
+				automotive_construction_industry = 9
+				
+			}
+			AND = {
+				NOT = { light_tank_destroyer_battalion = 3 } # 1943
+				automotive_construction_industry = 11
+									
+			}
+			AND = {
+				NOT = { light_tank_destroyer_battalion = 4 } # 1945
+				automotive_construction_industry = 13
+									
+			}
+			AND = {
+				NOT = { light_tank_destroyer_battalion = 5 } # 1947
+				automotive_construction_industry = 15
+									
+			}
+			AND = {
+				NOT = { light_tank_destroyer_battalion = 6 } # 1949
+				automotive_construction_industry = 17
+									
+			}
+			AND = {
+				NOT = { light_tank_destroyer_battalion = 7 } # 1951
+				automotive_construction_industry = 19
+									
+			}
+			AND = {
+				NOT = { light_tank_destroyer_battalion = 8 } # 1953
+				automotive_construction_industry = 21
+									
+			}
+			AND = {
+				NOT = { light_tank_destroyer_battalion = 9 } # 1955
+				automotive_construction_industry = 23
+									
+			}
+			AND = {
+				NOT = { light_tank_destroyer_battalion = 10 } # 1957
+				automotive_construction_industry = 25
+									
+			}
+		}	
+		
+	}	
+	
+	change = yes
+	
+	activate_unit = tank_destroyer_brigade
+	
+	tank_destroyer_brigade = {
+		build_cost_ic = 0.25	# x3 Companies	
+		build_time = 3
+		hard_attack = 1.00
+		defensiveness = 1.00
+		supply_consumption = 0.02
+		fuel_consumption = 0.09
+		default_organisation = -1.0
+	}
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1939
+	first_offset = 1941	
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Medium Tank Destroyer Battalion
+###################################################################################
+medium_tank_destroyer_battalion = {
+
+	allow = {
+		
+		OR = {
+			AND = {
+				NOT = { medium_tank_destroyer_battalion = 1 } # 1942
+				medium_tank_destroyer_prototype = 1
+				automotive_construction_industry = 11
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_battalion = 2 } # 1943
+				automotive_construction_industry = 12
+									
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_battalion = 3 } # 1945
+				automotive_construction_industry = 14
+									
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_battalion = 4 } # 1947
+				automotive_construction_industry = 16
+									
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_battalion = 5 } # 1949
+				automotive_construction_industry = 18
+									
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_battalion = 6 } # 1951
+				automotive_construction_industry = 20
+									
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_battalion = 7 } # 1953
+				automotive_construction_industry = 22
+									
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_battalion = 8 } # 1955
+				automotive_construction_industry = 24
+									
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_battalion = 9 } # 1957
+				automotive_construction_industry = 26
+									
+			}
+			AND = {
+				NOT = { medium_tank_destroyer_battalion = 10 } # 1959
+				automotive_construction_industry = 28
+									
+			}
+		}	
+	}	
+	
+	change = yes
+	
+	activate_unit = medium_tank_destroyer_brigade
+	
+	activate_unit = armored_support_brigade
+	
+	medium_tank_destroyer_brigade = {
+		build_cost_ic = 0.50	# x3 Companies	
+		build_time = 4
+		hard_attack = 2.00
+		defensiveness = 2.00
+		supply_consumption = 0.03
+		fuel_consumption = 0.15
+		default_organisation = -1.0
+	}
+	
+	armored_support_brigade = {
+		build_cost_ic = 0.50	# x1 Companies
+		build_time = 2	
+		hard_attack = 0.60
+		defensiveness = 0.60
+		supply_consumption = 0.03
+		fuel_consumption = 0.05
+		default_organisation = -3.0
+	}
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1942
+	first_offset = 1943	
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Heavy Tank Destroyer Battalion
+###################################################################################
+heavy_tank_destroyer_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { heavy_tank_destroyer_battalion = 1 } # 1943
+				heavy_tank_destroyer_prototype = 1
+				automotive_construction_industry = 13					
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_battalion = 2 } # 1945
+				automotive_construction_industry = 14
+									
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_battalion = 3 } # 1947
+				automotive_construction_industry = 16
+									
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_battalion = 4 } # 1949
+				automotive_construction_industry = 18
+									
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_battalion = 5 } # 1951
+				automotive_construction_industry = 20
+									
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_battalion = 6 } # 1953
+				automotive_construction_industry = 22
+									
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_battalion = 7 } # 1955
+				automotive_construction_industry = 24
+									
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_battalion = 8 } # 1957
+				automotive_construction_industry = 26
+									
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_battalion = 9 } # 1959
+				automotive_construction_industry = 28
+									
+			}
+			AND = {
+				NOT = { heavy_tank_destroyer_battalion = 10 } # 1961
+				automotive_construction_industry = 30
+									
+			}
+		}	
+	}	
+	
+	change = yes
+	
+	activate_unit = heavy_tank_destroyer_brigade
+	
+	heavy_tank_destroyer_brigade = {
+		build_cost_ic = 0.75	# x3 Companies	
+		build_time = 7
+		hard_attack = 3.50
+		defensiveness = 3.50
+		supply_consumption = 0.05
+		fuel_consumption = 0.20
+		default_organisation = -1.0
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1943
+	first_offset = 1945
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## SP Artillery Battalion
+###################################################################################
+sp_artillery_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { sp_artillery_battalion = 1 } # 1939
+				sp_artillery_prototype = 1
+				automotive_construction_industry = 8
+			}
+			AND = {
+				NOT = { sp_artillery_battalion = 2 } # 1940
+				automotive_construction_industry = 9
+			}
+			AND = {
+				NOT = { sp_artillery_battalion = 3 } # 1942
+				automotive_construction_industry = 10
+			}
+			AND = {
+				NOT = { sp_artillery_battalion = 4 } # 1944
+				automotive_construction_industry = 12
+			}
+			AND = {
+				NOT = { sp_artillery_battalion = 5 } # 1946
+				automotive_construction_industry = 14
+			}
+			AND = {
+				NOT = { sp_artillery_battalion = 6 } # 1948
+				automotive_construction_industry = 16
+			}
+			AND = {
+				NOT = { sp_artillery_battalion = 7 } # 1950
+				automotive_construction_industry = 18
+			}
+			AND = {
+				NOT = { sp_artillery_battalion = 8 } # 1952
+				automotive_construction_industry = 20
+			}
+			AND = {
+				NOT = { sp_artillery_battalion = 9 } # 1954
+				automotive_construction_industry = 22
+			}
+			AND = {
+				NOT = { sp_artillery_battalion = 10 } # 1956
+				automotive_construction_industry = 24
+			}
+		}
+	}	
+	
+	change = yes
+	
+	activate_unit = sp_artillery_brigade
+		
+	sp_artillery_brigade = {
+		default_organisation = -1.0  	# x3 Batteries: 4 guns each	
+		build_cost_ic = 0.50
+		build_time = 3
+		supply_consumption = 0.04
+		fuel_consumption = 0.10
+		maximum_speed = -0.15
+		soft_attack = 0.10
+		hard_attack = 0.05
+		defensiveness = 0.03
+	}
+	ss_sp_artillery_brigade = {
+		default_organisation = -1.0  	# x3 Batteries: 4 guns each	
+		build_cost_ic = 0.50
+		build_time = 3
+		supply_consumption = 0.04
+		fuel_consumption = 0.10
+		maximum_speed = -0.15
+		soft_attack = 0.10
+		hard_attack = 0.05
+		defensiveness = 0.03
+	}
+	
+	armored_support_brigade = {
+		default_organisation = -1.0  	# x3 Batteries: 4 guns each	
+		build_cost_ic = 0.50
+		build_time = 3
+		supply_consumption = 0.04
+		fuel_consumption = 0.10
+		maximum_speed = -0.15
+		soft_attack = 0.10
+		hard_attack = 0.05
+		defensiveness = 0.03
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1939
+	first_offset = 1940 
+	additional_offset = 2 
+	max_level = 10 # 1943
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## SP Rocket Artillery Battalion
+###################################################################################
+sp_rocket_artillery_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { sp_rocket_artillery_battalion = 1 } # 1942
+				sp_rocket_artillery_prototype = 1
+				automotive_construction_industry = 11
+			}
+			AND = {
+				NOT = { sp_rocket_artillery_battalion = 2 } # 1943
+				automotive_construction_industry = 12
+			}
+			AND = {
+				NOT = { sp_rocket_artillery_battalion = 3 } # 1945
+				automotive_construction_industry = 13
+			}
+			AND = {
+				NOT = { sp_rocket_artillery_battalion = 4 } # 1947
+				automotive_construction_industry = 15
+			}
+			AND = {
+				NOT = { sp_rocket_artillery_battalion = 5 } # 1949
+				automotive_construction_industry = 17
+			}
+			AND = {
+				NOT = { sp_rocket_artillery_battalion = 6 } # 1951
+				automotive_construction_industry = 19
+			}
+			AND = {
+				NOT = { sp_rocket_artillery_battalion = 7 } # 1953
+				automotive_construction_industry = 21
+			}
+			AND = {
+				NOT = { sp_rocket_artillery_battalion = 8 } # 1955
+				automotive_construction_industry = 23
+			}
+			AND = {
+				NOT = { sp_rocket_artillery_battalion = 9 } # 1957
+				automotive_construction_industry = 25
+			}
+			AND = {
+				NOT = { sp_rocket_artillery_battalion = 10 } # 1959
+				automotive_construction_industry = 27
+			}
+		}
+	}
+	
+	change = yes
+	
+	activate_unit = sp_rct_artillery_brigade
+	
+	sp_rct_artillery_brigade = {		
+		soft_attack = 5.00		# x3 Batteries: 4 guns each
+		defensiveness = 4.00
+		hard_attack = 0.75
+		build_cost_ic = 0.25
+		build_time = 3
+		default_organisation = -1.0
+		supply_consumption = 0.04
+		fuel_consumption = 0.10
+	}
+	ss_sp_rct_artillery_brigade = {
+		soft_attack = 5.00		# x3 Batteries: 4 guns each
+		defensiveness = 4.00
+		hard_attack = 0.75
+		build_cost_ic = 0.25
+		build_time = 3
+		default_organisation = -1.0
+		supply_consumption = 0.04
+		fuel_consumption = 0.10
+		
+	}
+	guard_sp_rct_artillery_brigade = {
+		soft_attack = 5.00		# x3 Batteries: 4 guns each
+		defensiveness = 4.00
+		hard_attack = 0.75
+		build_cost_ic = 0.25
+		build_time = 3
+		default_organisation = -1.0
+		supply_consumption = 0.04
+		fuel_consumption = 0.10
+		
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+	start_year = 1942
+	first_offset = 1943 
+	additional_offset = 2 
+	max_level = 10 # 1959
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Assault Gun Battalion
+###################################################################################
+assault_gun_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { assault_gun_battalion = 1 } # 1940
+				assault_gun_prototype = 1
+				automotive_construction_industry = 9
+			}
+			AND = {
+				NOT = { assault_gun_battalion = 2 } # 1941
+				automotive_construction_industry = 10
+			}
+			AND = {
+				NOT = { assault_gun_battalion = 3 } # 1943
+				automotive_construction_industry = 11
+			}
+			AND = {
+				NOT = { assault_gun_battalion = 4 } # 1947
+				automotive_construction_industry = 13
+			}
+			AND = {
+				NOT = { assault_gun_battalion = 5 } # 1949
+				automotive_construction_industry = 15
+			}
+			AND = {
+				NOT = { assault_gun_battalion = 6 } # 1951
+				automotive_construction_industry = 17
+			}
+			AND = {
+				NOT = { assault_gun_battalion = 7 } # 1953
+				automotive_construction_industry = 19
+			}
+			AND = {
+				NOT = { assault_gun_battalion = 8 } # 1955
+				automotive_construction_industry = 21
+			}
+			AND = {
+				NOT = { assault_gun_battalion = 9 } # 1957
+				automotive_construction_industry = 23
+			}
+			AND = {
+				NOT = { assault_gun_battalion = 10 } # 1959
+				automotive_construction_industry = 25
+			}
+		}
+	}	
+	
+	change = yes
+	
+	activate_unit = assault_gun_brigade
+	
+	assault_gun_brigade = {
+		build_cost_ic = 0.45
+		build_time = 4
+		soft_attack = 0.55
+		hard_attack = 0.55
+		defensiveness = 0.75		
+		supply_consumption = 0.04
+		fuel_consumption = 0.12
+		default_organisation = -1.0
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1940
+	first_offset = 1941 
+	additional_offset = 2
+	max_level = 10 # 
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Heavy Assault Gun Battalion
+###################################################################################
+heavy_assault_gun_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { heavy_assault_gun_battalion = 1 } # 1943
+				heavy_assault_gun_prototype = 1
+				automotive_construction_industry = 12
+			}
+			AND = {
+				NOT = { heavy_assault_gun_battalion = 2 } # 1944
+				automotive_construction_industry = 13
+			}
+			AND = {
+				NOT = { heavy_assault_gun_battalion = 3 } # 1946
+				automotive_construction_industry = 14
+			}
+			AND = {
+				NOT = { heavy_assault_gun_battalion = 4 } # 1948
+				automotive_construction_industry = 16
+			}
+			AND = {
+				NOT = { heavy_assault_gun_battalion = 5 } # 1950
+				automotive_construction_industry = 18
+			}
+			AND = {
+				NOT = { heavy_assault_gun_battalion = 6 } # 1952
+				automotive_construction_industry = 20
+			}
+			AND = {
+				NOT = { heavy_assault_gun_battalion = 7 } # 1954
+				automotive_construction_industry = 22
+			}
+			AND = {
+				NOT = { heavy_assault_gun_battalion = 8 } # 1956
+				automotive_construction_industry = 24
+			}
+			AND = {
+				NOT = { heavy_assault_gun_battalion = 9 } # 1958
+				automotive_construction_industry = 26
+			}
+			AND = {
+				NOT = { heavy_assault_gun_battalion = 10 } # 1960
+				automotive_construction_industry = 28
+			}
+		}
+	}	
+	
+	change = yes
+	
+	activate_unit = heavy_assault_gun_brigade
+	
+	heavy_assault_gun_brigade = {
+		build_cost_ic = 0.75
+		build_time = 7
+		soft_attack = 2.00
+		hard_attack = 0.75
+		defensiveness = 1.15		
+		supply_consumption = 0.05
+		fuel_consumption = 0.25
+		default_organisation = -1.0
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1943
+	first_offset = 1944 
+	additional_offset = 2 
+	max_level = 10 # 1944
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Heavy Tank Battalion
+###################################################################################
+heavy_tank_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { heavy_tank_battalion = 1 } # 1935
+				heavy_tank_prototype = 1
+				automotive_construction_industry = 4
+			}
+			AND = {
+				NOT = { heavy_tank_battalion = 2 } # 1940
+				automotive_construction_industry = 8
+			}
+			AND = {
+				NOT = { heavy_tank_battalion = 3 } # 1942
+				automotive_construction_industry = 10
+			}
+			AND = {
+				NOT = { heavy_tank_battalion = 4 } # 1944
+				automotive_construction_industry = 12
+			}
+			AND = {
+				NOT = { heavy_tank_battalion = 5 } # 1946
+				automotive_construction_industry = 14
+			}
+			AND = {
+				NOT = { heavy_tank_battalion = 6 } # 1948
+				automotive_construction_industry = 16
+			}
+			AND = {
+				NOT = { heavy_tank_battalion = 7 } # 1950
+				automotive_construction_industry = 18
+			}
+			AND = {
+				NOT = { heavy_tank_battalion = 8 } # 1952
+				automotive_construction_industry = 19
+			}
+			AND = {
+				NOT = { heavy_tank_battalion = 9 } # 1954
+				automotive_construction_industry = 21
+			}
+			AND = {
+				NOT = { heavy_tank_battalion = 10 } # 1956
+				automotive_construction_industry = 23
+			}
+		}
+	}	
+	
+	change = yes
+	
+	activate_unit = heavy_armor_brigade
+	
+	heavy_armor_brigade = {
+		build_cost_ic = 1.00
+		build_time = 10
+		soft_attack = 1.15
+		hard_attack = 1.15
+		defensiveness = 1.25		
+		supply_consumption = 0.07
+		fuel_consumption = 0.25
+		default_organisation = -1.0
+		armor_value = 3.0
+		ap_attack = 3.0
+	}
+	ss_heavy_armor_brigade = {
+		build_cost_ic = 1.00
+		build_time = 10
+		soft_attack = 1.15
+		hard_attack = 1.15
+		defensiveness = 1.25		
+		supply_consumption = 0.07
+		fuel_consumption = 0.25
+		default_organisation = -1.0
+		armor_value = 3.0
+		ap_attack = 3.0
+	}
+	guard_heavy_armor_brigade = {
+		build_cost_ic = 1.00
+		build_time = 10
+		soft_attack = 1.15
+		hard_attack = 1.15
+		defensiveness = 1.25		
+		supply_consumption = 0.07
+		fuel_consumption = 0.25
+		default_organisation = -1.0
+		armor_value = 3.0
+		ap_attack = 3.0
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 7
+
+    # common for all techs.
+    start_year = 1935
+	first_offset = 1940
+	additional_offset = 2
+	max_level = 10 # 1956
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Super Heavy Tank Battalion
+###################################################################################
+super_heavy_tank_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { super_heavy_tank_battalion = 1 } # 1944
+				super_heavy_tank_prototype = 1
+				automotive_construction_industry = 13
+			}
+			AND = {
+				NOT = { super_heavy_tank_battalion = 2 } # 1945
+				automotive_construction_industry = 14
+			}
+			AND = {
+				NOT = { super_heavy_tank_battalion = 3 } # 1947
+				automotive_construction_industry = 15
+			}
+			AND = {
+				NOT = { super_heavy_tank_battalion = 4 } # 1949
+				automotive_construction_industry = 17
+			}
+			AND = {
+				NOT = { super_heavy_tank_battalion = 5 } # 1951
+				automotive_construction_industry = 19
+			}
+			AND = {
+				NOT = { super_heavy_tank_battalion = 6 } # 1953
+				automotive_construction_industry = 21
+			}
+			AND = {
+				NOT = { super_heavy_tank_battalion = 7 } # 1955
+				automotive_construction_industry = 23
+			}
+			AND = {
+				NOT = { super_heavy_tank_battalion = 8 } # 1957
+				automotive_construction_industry = 25
+			}
+			AND = {
+				NOT = { super_heavy_tank_battalion = 9 } # 1959
+				automotive_construction_industry = 27
+			}
+			AND = {
+				NOT = { super_heavy_tank_battalion = 10 } # 1961
+				automotive_construction_industry = 29
+			}
+		}
+	}	
+	
+	change = yes
+	
+	activate_unit = super_heavy_armor_brigade
+	
+	super_heavy_armor_brigade = {
+		build_cost_ic = 1.50
+		build_time = 15
+		soft_attack = 1.25
+		hard_attack = 1.50
+		defensiveness = 1.35		
+		supply_consumption = 0.10
+		fuel_consumption = 0.30
+		default_organisation = -1.0
+		armor_value = 4.0
+		ap_attack = 4.0
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 9
+
+    # common for all techs.
+    start_year = 1944 # Level 1 - 1944
+	first_offset = 1945 # Level 2 - 1945
+	additional_offset = 2 
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## SP Anti Aircraft Battalion
+###################################################################################
+sp_anti_aircraft_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = {
+				NOT = { sp_anti_aircraft_battalion = 1 } # 1942
+				sp_anti_aircraft_prototype = 1
+				automotive_construction_industry = 11
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_battalion = 2 } # 1943
+				automotive_construction_industry = 12
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_battalion = 3 } # 1945
+				automotive_construction_industry = 13
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_battalion = 4 } # 1947
+				automotive_construction_industry = 15
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_battalion = 5 } # 1949
+				automotive_construction_industry = 17
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_battalion = 6 } # 1951
+				automotive_construction_industry = 19
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_battalion = 7 } # 1953
+				automotive_construction_industry = 21
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_battalion = 8 } # 1955
+				automotive_construction_industry = 23
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_battalion = 9 } # 1957
+				automotive_construction_industry = 25
+			}
+			AND = {
+				NOT = { sp_anti_aircraft_battalion = 10 } # 1959
+				automotive_construction_industry = 27
+			}
+		}
+	}	
+	
+	change = yes
+	
+	activate_unit = sp_anti_air_brigade
+		
+	sp_anti_air_brigade = {
+		build_cost_ic = 0.40
+		build_time = 5
+		soft_attack = 0.45
+		air_attack = 2.0
+		air_defence = 3.0
+		defensiveness = 0.65
+		default_organisation = -1.0
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+	}
+	ss_sp_anti_air_brigade = {
+		build_cost_ic = 0.40
+		build_time = 5
+		soft_attack = 0.45
+		air_attack = 2.0
+		air_defence = 3.0
+		defensiveness = 0.65
+		default_organisation = -1.0
+		supply_consumption = 0.05
+		fuel_consumption = 0.15
+		armor_value = 0.25
+		ap_attack = 0.25	
+	}
+	
+	armored_support_brigade = {
+		build_cost_ic = 0.40
+		build_time = 3
+		soft_attack = 0.15
+		air_attack = 0.45
+		air_defence = 1.0
+		defensiveness = 0.25
+		default_organisation = -1.0
+		supply_consumption = 0.05
+		fuel_consumption = 0.05
+		armor_value = 0.25
+		ap_attack = 0.25	
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1942
+	first_offset = 1943	
+	additional_offset = 2
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Armor Division Service Battalion
+###################################################################################
+armor_division_service_battalion = {
+
+	allow = {
+		armor_division_hq = 1
+		
+	}	
+		
+	reinforce_chance = 0.01
+	maximum_attrition = -0.01
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    start_year = 1938 # Model 0
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Armor Division Maintenance Company
+###################################################################################
+armor_maintenance_company = {
+
+	allow = {
+		armor_division_hq = 1
+		armor_division_service_battalion = 1
+	}
+
+	change = no	
+	
+	can_upgrade = yes
+	
+	armor_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	armor_bat = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	light_armor_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	light_armor_bat = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	armored_car_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	armored_support_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	guard_armor_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	guard_armor_bat = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	ss_armor_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_armor_bat = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_armored_car_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_armored_support_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	tank_destroyer_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	medium_tank_destroyer_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	heavy_tank_destroyer_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_tank_destroyer_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	assault_gun_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	heavy_assault_gun_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	heavy_armor_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_heavy_armor_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	guard_heavy_armor_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	sp_artillery_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_sp_artillery_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	sp_anti_air_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_sp_anti_air_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	sp_rct_artillery_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_sp_rct_artillery_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	guard_sp_rct_artillery_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	armored_engineers_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_armored_engineers_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	mechanized_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	mechanized_infantry_bat = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	ss_mechanized_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	ss_mechanized_infantry_bat = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	guard_mechanized_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	guard_mechanized_infantry_bat = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+	goering_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	lehr_brigade = {
+		toughness = 0.50
+		supply_consumption = 0.05
+	}
+	
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    start_year = 1938 # Model 0
+	first_offset = 1939 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Armor Division Supply Company
+###################################################################################
+armor_supply_company = {
+
+	allow = {
+		armor_division_hq = 1
+		armor_division_service_battalion = 1
+	}	
+	
+	change = no	
+	
+	can_upgrade = yes
+	
+	light_transport = {
+		supply_consumption = -0.10
+        fuel_consumption = -0.02
+		toughness = -0.35
+	}
+	truck_transport = {
+		supply_consumption = -0.15
+        fuel_consumption = -0.03
+		toughness = -0.35
+	}
+	hftrack_transport = {
+		supply_consumption = -0.20
+        fuel_consumption = -0.04
+		toughness = -0.35
+	}
+	
+	combined_arms_brigade  = {
+		supply_consumption = -0.25
+		fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	
+	armor_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	armor_bat = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	light_armor_brigade = {
+		supply_consumption = -0.10
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	light_armor_bat = {
+		supply_consumption = -0.05
+        fuel_consumption = -0.01
+		toughness = -0.35
+	}
+	armored_car_brigade = {
+		supply_consumption = -0.05
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	armored_support_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	
+	guard_armor_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	guard_armor_bat = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	ss_armor_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	ss_armor_bat = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	ss_armored_car_brigade = {
+		supply_consumption = -0.10
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	ss_armored_support_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	
+	tank_destroyer_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	medium_tank_destroyer_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	heavy_tank_destroyer_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	ss_tank_destroyer_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	assault_gun_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	heavy_assault_gun_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	heavy_armor_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	ss_heavy_armor_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	guard_heavy_armor_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	
+	sp_artillery_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	ss_sp_artillery_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+	}
+	
+	sp_anti_air_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	ss_sp_anti_air_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	
+	sp_rct_artillery_brigade = {
+		supply_consumption = -0.15
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	ss_sp_rct_artillery_brigade = {
+		supply_consumption = -0.15
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	guard_sp_rct_artillery_brigade = {
+		supply_consumption = -0.15
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	armored_engineers_brigade = {
+		supply_consumption = -0.15
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	ss_armored_engineers_brigade = {
+		supply_consumption = -0.15
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	mechanized_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	mechanized_infantry_bat = {
+		supply_consumption = -0.15
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	ss_mechanized_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	ss_mechanized_infantry_bat = {
+		supply_consumption = -0.15
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	guard_mechanized_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+	guard_mechanized_infantry_bat = {
+		supply_consumption = -0.15
+        fuel_consumption = -0.05
+		toughness = -0.35
+	}
+	
+	goering_brigade = {
+		supply_consumption = -0.50
+        fuel_consumption = -0.15
+		toughness = -0.35
+	}
+	lehr_brigade = {
+		supply_consumption = -0.25
+        fuel_consumption = -0.10
+		toughness = -0.35
+	}
+			
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    start_year = 1938 # Model 0
+	first_offset = 1939 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 10
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Armor Division Medical Company
+###################################################################################
+armor_medical_company = {
+
+	allow = {
+		armor_division_hq = 1
+		armor_division_service_battalion = 1		
+	}	
+	
+	change = no	
+	
+	can_upgrade = yes
+		
+	armor_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	armor_bat = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	light_armor_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	light_armor_bat = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	armored_car_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	armored_support_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	guard_armor_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	guard_armor_bat = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	ss_armor_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	ss_armor_bat = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	ss_armored_car_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	ss_armored_support_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	tank_destroyer_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	medium_tank_destroyer_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	heavy_tank_destroyer_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	ss_tank_destroyer_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	assault_gun_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	heavy_assault_gun_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	heavy_armor_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	ss_heavy_armor_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	guard_heavy_armor_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	sp_artillery_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	ss_sp_artillery_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	sp_anti_air_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	ss_sp_anti_air_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	sp_rct_artillery_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	ss_sp_rct_artillery_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	guard_sp_rct_artillery_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	armored_engineers_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	ss_armored_engineers_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	mechanized_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	mechanized_infantry_bat = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	ss_mechanized_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	ss_mechanized_infantry_bat = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	guard_mechanized_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	guard_mechanized_infantry_bat = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	goering_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	lehr_brigade = {
+		default_morale = 0.01
+		toughness = -0.25
+		supply_consumption = 0.05
+	}
+	
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1938
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Armor Division Signal Battalion
+###################################################################################
+armor_signal_battalion = {
+
+	allow = {
+		armor_division_hq = 1		
+	}	
+		
+	reinforce_chance = 0.01
+
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    start_year = 1938
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Armor Division Radio Company
+###################################################################################
+armor_radio_company = {
+
+	allow = {
+		armor_division_hq = 1	
+		armor_signal_battalion = 1
+	}	
+	
+	change = no	
+	
+	can_upgrade = yes
+	
+	encryption = -0.1	
+	
+	reinforce_chance = 0.01
+	
+	armor_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	armor_bat = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	light_armor_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	light_armor_bat = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	armored_car_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	armored_support_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	guard_armor_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	guard_armor_bat = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	ss_armor_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_armor_bat = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_armored_car_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_armored_support_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	tank_destroyer_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	medium_tank_destroyer_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	heavy_tank_destroyer_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_tank_destroyer_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	assault_gun_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	heavy_assault_gun_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	heavy_armor_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_heavy_armor_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	guard_heavy_armor_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	sp_artillery_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_sp_artillery_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	sp_anti_air_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_sp_anti_air_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	sp_rct_artillery_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_sp_rct_artillery_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	guard_sp_rct_artillery_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	armored_engineers_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_armored_engineers_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	mechanized_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	mechanized_infantry_bat = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	ss_mechanized_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	ss_mechanized_infantry_bat = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	guard_mechanized_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	guard_mechanized_infantry_bat = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	
+	goering_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+	lehr_brigade = {
+		radio_strength = 0.15
+		default_organisation = 3.0
+		supply_consumption = 0.05
+		build_cost_ic = 0.10
+		build_time = 1
+	}
+		
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1938
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Armor Division Intel Company
+###################################################################################
+armor_intel_company = {
+
+	allow = {
+		armor_division_hq = 1	
+		armor_signal_battalion = 1		
+	}	
+	
+	change = no	
+	
+	can_upgrade = yes
+				
+	armor_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	armor_bat = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	light_armor_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	light_armor_bat = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	armored_car_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	armored_support_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	guard_armor_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	guard_armor_bat = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	ss_armor_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_armor_bat = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_armored_car_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_armored_support_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	tank_destroyer_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	medium_tank_destroyer_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	heavy_tank_destroyer_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_tank_destroyer_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	assault_gun_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	heavy_assault_gun_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	heavy_armor_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_heavy_armor_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	guard_heavy_armor_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	sp_artillery_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_sp_artillery_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	sp_anti_air_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_sp_anti_air_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	sp_rct_artillery_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_sp_rct_artillery_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	guard_sp_rct_artillery_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	armored_engineers_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_armored_engineers_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	mechanized_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	mechanized_infantry_bat = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	ss_mechanized_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	ss_mechanized_infantry_bat = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	guard_mechanized_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	guard_mechanized_infantry_bat = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	goering_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	lehr_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	desertrats_brigade = {
+		plains = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		river = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		desert = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		woods = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		forest = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		jungle = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		hills = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		urban = {
+			attack = 0.02
+			movement = 0.02
+			defence = 0.02
+		}
+		marsh = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		night = {
+			attack = 0.01
+			movement = 0.01
+			defence = 0.01
+		}
+		fort = {
+			attack = 0.02
+			defence = 0.02
+		} 
+	}
+	
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 5
+
+    # common for all techs.
+    start_year = 1938
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Armor Division Recon Battalion
+###################################################################################
+armored_recon_battalion = {
+
+	allow = {
+		
+		OR = { 
+			AND = { 
+				NOT = { armored_recon_battalion = 1 } # 1937
+				armor_division_hq = 1	
+				armored_vehicle_prototype = 3
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 2 } # 1939
+				automotive_construction_industry = 7
+				
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 3 } # 1941
+				automotive_construction_industry = 9
+				
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 4 } # 1943
+				automotive_construction_industry = 11
+				
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 5 } # 1945
+				automotive_construction_industry = 13
+									
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 6 } # 1947
+				automotive_construction_industry = 15
+									
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 7 } # 1949
+				automotive_construction_industry = 17
+									
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 8 } # 1951
+				automotive_construction_industry = 19
+									
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 9 } # 1953
+				automotive_construction_industry = 21
+									
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 10 } # 1955
+				automotive_construction_industry = 23
+									
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 11 } # 1957
+				automotive_construction_industry = 25
+									
+			}
+			AND = {
+				NOT = { armored_recon_battalion = 12 } # 1959
+				automotive_construction_industry = 27
+									
+			}
+		}
+	}	
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	activate_unit = armored_car_brigade
+	
+	armored_car_brigade = {	
+		build_cost_ic = 0.25
+		build_time = 1
+		soft_attack = 0.25
+		hard_attack = 0.10
+		defensiveness = 0.45		
+		supply_consumption = 0.05
+		fuel_consumption = 0.05
+		default_organisation = -1.0
+		armor_value = 0.05
+		ap_attack = 0.10
+	}
+	ss_armored_car_brigade = {
+		build_cost_ic = 0.25
+		build_time = 1
+		soft_attack = 0.25
+		hard_attack = 0.10
+		defensiveness = 0.45		
+		supply_consumption = 0.05
+		fuel_consumption = 0.05
+		default_organisation = -1.0
+		armor_value = 0.05
+		ap_attack = 0.10
+	}
+	
+	
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1938
+	first_offset = 1939	
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}
+###################################################################################
+## Armor Division Recon Heavy Weapons Company
+###################################################################################
+armored_recon_heavy_weapons_company = {
+
+	allow = {
+		
+		OR = { 
+			AND = { 
+				NOT = { armored_recon_heavy_weapons_company = 1 } # 1937
+				armored_recon_battalion = 1
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 2 } # 1939
+				small_arms_manufacturing = 7
+				
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 3 } # 1941
+				small_arms_manufacturing = 9
+				
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 4 } # 1943
+				small_arms_manufacturing = 11
+				
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 5 } # 1945
+				small_arms_manufacturing = 13
+									
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 6 } # 1947
+				small_arms_manufacturing = 15
+									
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 7 } # 1949
+				small_arms_manufacturing = 17
+									
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 8 } # 1951
+				small_arms_manufacturing = 19
+									
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 9 } # 1953
+				small_arms_manufacturing = 21
+									
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 10 } # 1955
+				small_arms_manufacturing = 23
+									
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 11 } # 1957
+				small_arms_manufacturing = 25
+									
+			}
+			AND = {
+				NOT = { armored_recon_heavy_weapons_company = 12 } # 1959
+				small_arms_manufacturing = 27
+									
+			}
+		}
+	}	
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	armored_car_brigade = {
+		defensiveness = 0.50 # x1 Company
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.25
+	}
+	ss_armored_car_brigade = {
+		defensiveness = 0.50 # x1 Company
+		build_cost_ic = 0.02
+		build_time = 1
+		default_organisation = -0.25
+		supply_consumption = 0.01
+		ap_attack = 0.25
+	}
+
+	research_bonus_from = {
+		spearhead_theory = 0.30
+	}
+
+	on_completion = spearhead_theory
+
+    difficulty = 4
+
+    # common for all techs.
+    start_year = 1938
+	first_offset = 1939
+	additional_offset = 2
+	max_level = 12
+ 	stealable = no
+    folder = armor_organization_folder
+}

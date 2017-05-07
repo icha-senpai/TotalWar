@@ -1,0 +1,1925 @@
+700600 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700601 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700602 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700603 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700604 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700605 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700606 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700607 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700608 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700609 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700610 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700611 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700612 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700613 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700614 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700615 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700616 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700617 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700618 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700619 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700620 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700621 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700622 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700623 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700624 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700625 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700626 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700627 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700628 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700629 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700630 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700631 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700632 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700633 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700634 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700635 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700636 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700637 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+70038 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700639 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700640 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700641 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700642 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700643 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700644 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700645 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700646 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700647 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700648 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700649 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+700650 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700651 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700652 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700653 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700654 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700655 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700656 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700657 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700658 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700659 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700660 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700661 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700662 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700663 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700664 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700665 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700666 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700667 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700668 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700669 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700670 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700671 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700672 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700673 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700674 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700675 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700676 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700677 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700678 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700679 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700680 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700681 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700682 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700683 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700684 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700685 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700686 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700687 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700688 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700689 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700690 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700691 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700692 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700693 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700694 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700695 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700696 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700697 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700698 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700699 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700700 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700701 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700702 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700703 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700704 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700705 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700706 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700707 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700708 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700709 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700710 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700711 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700712 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700713 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700714 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700715 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700716 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700717 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700718 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700719 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700720 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700721 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700722 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700723 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700724 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700725 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700726 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700727 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700728 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700729 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700730 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700731 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700732 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700733 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700734 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700735 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700736 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700737 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700738 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700739 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700740 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700741 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700742 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700743 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700744 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700745 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700746 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700747 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700748 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+700749 = {
+	name = "Geschwaderkommodore"
+	country = GER
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 2_LUFTWAFFE_OBERST
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

@@ -1,0 +1,99 @@
+# MODEL_TAG;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Unique/Historical Commands;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+fra_paris_theatre;Armée de Paris HQ;;;;;;;;;;;;;x
+fra_paris_theatre_short;PARIS HQ;;;;;;;;;;;;;x
+fra_mirecourt_theatre;Armée de Mirecourt HQ;;;;;;;;;;;;;x
+fra_mirecourt_theatre_short;MCOURT HQ;;;;;;;;;;;;;x
+fra_marseille_theatre;Armée de Marseilles HQ;;;;;;;;;;;;;x
+fra_marseille_theatre_short;MARS HQ;;;;;;;;;;;;;x
+fra_africa_theatre;Armée de Africa HQ;;;;;;;;;;;;;x
+fra_africa_theatre_short;AFRICA HQ;;;;;;;;;;;;;x
+fra_colonial_theatre;Armée de Colonial HQ;;;;;;;;;;;;;x
+fra_colonial_theatre_short;COL HQ;;;;;;;;;;;;;x
+fra_indochine_theatre;Armée de Indochine HQ;;;;;;;;;;;;;x
+fra_indochine_theatre_short;IND HQ;;;;;;;;;;;;;x
+fra_maginot_army_group;Ligne Maginot HQ;;;;;;;;;;;;;x
+fra_maginot_army_group_short;MAG-AG;;;;;;;;;;;;;x
+fra_african_army_group;Armée d'Afrique HQ;;;;;;;;;;;;;x
+fra_african_army_group_short;AFR-AG;;;;;;;;;;;;;x
+fra_first_army;1e Armée HQ;;;;;;;;;;;;;x
+fra_first_army_short;FRA-1A-HQ;;;;;;;;;;;;;x
+fra_second_army;2e Armée HQ;;;;;;;;;;;;;x
+fra_second_army_short;FRA-2A-HQ;;;;;;;;;;;;;x
+fra_third_army;3e Armée HQ;;;;;;;;;;;;;x
+fra_third_army_short;FRA-3A-HQ;;;;;;;;;;;;;x
+fra_fourth_army;4e Armée HQ;;;;;;;;;;;;;x
+fra_fourth_army_short;FRA-4A-HQ;;;;;;;;;;;;;x
+fra_fifth_army;5e Armée HQ;;;;;;;;;;;;;x
+fra_fifth_army_short;FRA-5A-HQ;;;;;;;;;;;;;x
+fra_seventh_army;7e Armée HQ;;;;;;;;;;;;;x
+fra_seventh_army_short;FRA-7A-HQ;;;;;;;;;;;;;x
+fra_eighth_army;8e Armée HQ;;;;;;;;;;;;;x
+fra_eighth_army_short;FRA-8A-HQ;;;;;;;;;;;;;x
+fra_ninth_army;9e Armée HQ;;;;;;;;;;;;;x
+fra_ninth_army_short;FRA-9A-HQ;;;;;;;;;;;;;x
+fra_alps_army;Armée des Alps HQ;;;;;;;;;;;;;x
+fra_alps_army_short;FRA-ALPS-HQ;;;;;;;;;;;;;x
+fra_tunisian_army;Armée de Tunésie HQ;;;;;;;;;;;;;x
+fra_tunisian_army_short;FRA-TUN-HQ;;;;;;;;;;;;;x
+fra_i_corps;1e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_i_corps_short;FRA-1C-HQ;;;;;;;;;;;;;x
+fra_ii_corps;2e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_ii_corps_short;FRA-2C-HQ;;;;;;;;;;;;;x
+fra_iii_corps;3e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_iii_corps_short;FRA-3C-HQ;;;;;;;;;;;;;x
+fra_iv_corps;4e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_iv_corps_short;FRA-4C-HQ;;;;;;;;;;;;;x
+fra_v_corps;5e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_v_corps_short;FRA-5C-HQ;;;;;;;;;;;;;x
+fra_vi_corps;6e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_vi_corps_short;FRA-6C-HQ;;;;;;;;;;;;;x
+fra_vii_corps;7e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_vii_corps_short;FRA-7C-HQ;;;;;;;;;;;;;x
+fra_viii_corps;8e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_viii_corps_short;FRA-8C-HQ;;;;;;;;;;;;;x
+fra_ix_corps;9e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_ix_corps_short;FRA-9C-HQ;;;;;;;;;;;;;x
+fra_x_corps;10e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_x_corps_short;FRA-10C-HQ;;;;;;;;;;;;;x
+fra_xi_corps;11e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xi_corps_short;FRA-11C-HQ;;;;;;;;;;;;;x
+fra_xii_corps;12e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xii_corps_short;FRA-12C-HQ;;;;;;;;;;;;;x
+fra_xiii_corps;13e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xiii_corps_short;FRA-13C-HQ;;;;;;;;;;;;;x
+fra_xiv_corps;14e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xiv_corps_short;FRA-14C-HQ;;;;;;;;;;;;;x
+fra_xv_corps;15e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xv_corps_short;FRA-15C-HQ;;;;;;;;;;;;;x
+fra_xvi_corps;16e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xvi_corps_short;FRA-16C-HQ;;;;;;;;;;;;;x
+fra_xvii_corps;17e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xvii_corps_short;FRA-17C-HQ;;;;;;;;;;;;;x
+fra_xviii_corps;18e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xviii_corps_short;FRA-18C-HQ;;;;;;;;;;;;;x
+fra_xix_region_corps;19e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xix_region_corps_short;FRA-19C-HQ;;;;;;;;;;;;;x
+fra_xx_corps;20e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xx_corps_short;FRA-20C-HQ;;;;;;;;;;;;;x
+fra_xxiv_corps;24e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xxiv_corps_short;FRA-24C-HQ;;;;;;;;;;;;;x
+fra_xli_fort_corps;41e Corps d'Forteresse HQ;;;;;;;;;;;;;x
+fra_xli_fort_corps_short;FRA-41F-HQ;;;;;;;;;;;;;x
+fra_xlii_fort_corps;42e Corps d'Forteresse HQ;;;;;;;;;;;;;x
+fra_xlii_fort_corps_short;FRA-42F-HQ;;;;;;;;;;;;;x
+fra_xliii_corps;43e Corps d'Armée HQ;;;;;;;;;;;;;x
+fra_xliii_corps_short;FRA-43C-HQ;;;;;;;;;;;;;x
+fra_xliv_fort_corps;44e Corps d'Forteresse HQ;;;;;;;;;;;;;x
+fra_xliv_fort_corps_short;FRA-44F-HQ;;;;;;;;;;;;;x
+fra_i_cav_corps;1e Corps de Cavalerie HQ;;;;;;;;;;;;;x
+fra_i_cav_corps_short;FRA-1CAV-HQ;;;;;;;;;;;;;x
+fra_colonial_corps;Corps d'Armée Colonial HQ;;;;;;;;;;;;;x
+fra_colonial_corps_short;FRA-1COL-HQ;;;;;;;;;;;;;x
+fra_indochine_corps;Troupes d'Indochine HQ;;;;;;;;;;;;;x
+fra_indochine_corps_short;FRA-IND-HQ;;;;;;;;;;;;;x
+fra_exped_corps;Corps Expéditionnaire HQ;;;;;;;;;;;;;x
+fra_exped_corps_short;FRA-EXPED-HQ;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;x

@@ -1,0 +1,1353 @@
+#########################################################################
+# AIR DOCTRINES
+#########################################################################
+#########################################################################
+#  AIR SUPERIORITY
+#########################################################################
+air_superiority = {
+	
+	allow = { 
+		
+	}	
+	
+		
+	air_intercept = {
+		efficiency = 0.05 #5% greater eff when on on intercept mission
+	}	
+	
+	bomber_targeting = 0.05
+	fighter_targeting = 0.05
+	
+	research_bonus_from = {
+		fighter_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	
+	on_completion = fighter_focus
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1918
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  AIR INTERCEPT
+#########################################################################
+air_intercept = {
+	
+	allow = { 
+		air_superiority = 1	
+		air_battles_fought = 25
+	}
+	
+	bomber_targeting = 0.07
+	fighter_targeting = -0.07
+	
+	air_intercept = {
+		efficiency = 0.07 #5% greater eff when on on intercept mission
+	}	
+	
+	research_bonus_from = {
+		fighter_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = fighter_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1938
+	first_offset = 1939 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  FIGHTER SWEEP
+#########################################################################
+fighter_sweep = {
+	
+	allow = { 
+		air_superiority = 1
+		air_battles_fought = 50
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	fighter_targeting = 0.07
+			
+	interceptor = { 	
+		air_detection = 1.00
+		}
+	pursuit_fighter = { 	
+		air_detection = 1.00
+		}	
+	multi_role = { 	
+		air_detection = 1.00
+		}
+	fighter_bomber = { 	
+		air_detection = 1.00
+		}		
+		
+#######################################	
+			
+	twin_engine_fighters = { 	
+		air_detection = 1.00
+		}
+	
+#######################################	
+	
+	rocket_interceptor = { 	
+		air_detection = 1.00
+		}
+	jet_flying_wing = { 	
+		air_detection = 1.00
+		}
+	peoples_fighter = { 	
+		air_detection = 1.00
+		}	
+		
+#######################################	
+
+	advanced_jet_fighter = { 	
+		air_detection = 1.00
+		}	
+		
+	
+	research_bonus_from = {
+		fighter_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = fighter_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1940
+	first_offset = 1941 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  DOGFIGHTING TACTICS
+#########################################################################
+dogfighting_tactics = {
+	
+	allow = { 
+		air_superiority = 1
+		air_battles_fought = 50
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	fighter_targeting = 0.02
+		
+	interceptor = { 	
+		air_attack = 2.0
+		}
+	pursuit_fighter = { 	
+		air_attack = 2.0
+		}	
+	multi_role = { 	
+		air_attack = 2.0
+		}
+	fighter_bomber = { 	
+		air_attack = 2.0
+		}		
+		
+#######################################	
+			
+	twin_engine_fighters = { 	
+		air_attack = 2.0
+		}
+	
+#######################################	
+	
+	rocket_interceptor = { 	
+		air_attack = 2.0
+		}
+	jet_flying_wing = { 	
+		air_attack = 2.0
+		}
+	peoples_fighter = { 	
+		air_attack = 2.0
+		}	
+		
+#######################################	
+
+	advanced_jet_fighter = { 	
+		air_attack = 2.0
+		}		
+			
+	research_bonus_from = {
+		fighter_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = fighter_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1940
+	first_offset = 1941 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  BOMBER ESCORT
+#########################################################################
+bomber_escort = {
+	
+	allow = { 
+		air_superiority = 1
+		air_battles_fought = 100
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	bomber_targeting = -0.07
+			
+	interceptor = { 	
+		range = 100.00
+		}
+	pursuit_fighter = { 	
+		range = 100.00
+		}	
+	multi_role = { 	
+		range = 100.00
+		}
+	fighter_bomber = { 	
+		range = 100.00
+		}		
+		
+#######################################	
+			
+	twin_engine_fighters = { 	
+		range = 100.00
+		}
+	
+#######################################	
+	
+	rocket_interceptor = { 	
+		range = 100.00
+		}
+	jet_flying_wing = { 	
+		range = 100.00
+		}
+	peoples_fighter = { 	
+		range = 100.00
+		}	
+		
+#######################################	
+
+	advanced_jet_fighter = { 	
+		range = 100.00
+		}		
+		
+	
+	research_bonus_from = {
+		fighter_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = fighter_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  NIGHT FIGHTER TACTICS
+#########################################################################
+night_fighter_tactics = {
+	
+	allow = { 
+		air_superiority = 1
+		air_battles_fought = 100
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+			
+	interceptor = { 	
+		night = { 
+			attack = 0.07
+			defence = 0.07
+			}
+		}
+	pursuit_fighter = { 	
+		night = { 
+			attack = 0.07
+			defence = 0.07
+			}
+		}	
+	multi_role = { 	
+		night = { 
+			attack = 0.07
+			defence = 0.07
+			}
+		}
+	fighter_bomber = { 	
+		night = { 
+			attack = 0.07
+			defence = 0.07
+			}
+		}		
+		
+#######################################	
+			
+	twin_engine_fighters = { 	
+		night = { 
+			attack = 0.07
+			defence = 0.07
+			}
+		}
+	night_fighter = { 	
+		night = { 
+			attack = 0.07
+			defence = 0.07
+			}
+		}	
+	
+#######################################	
+	
+	rocket_interceptor = { 	
+		night = { 
+			attack = 0.07
+			defence = 0.07
+			}
+		}
+	jet_flying_wing = { 	
+		night = { 
+			attack = 0.07
+			defence = 0.07
+			}
+		}
+	peoples_fighter = { 	
+		night = { 
+			attack = 0.07
+			defence = 0.07
+			}
+		}	
+		
+#######################################	
+
+	advanced_jet_fighter = { 	
+		night = { 
+			attack = 0.07
+			defence = 0.07
+			}
+		}	
+		
+	
+	research_bonus_from = {
+		fighter_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = fighter_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1941
+	first_offset = 1942 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  RADAR GROUND CONTROL
+#########################################################################
+radar_ground_control = {
+	
+	allow = { 
+		air_superiority = 1
+		air_battles_fought = 100
+	}
+	
+	radar_impact = 0.07
+	
+	research_bonus_from = {
+		fighter_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = fighter_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1940
+	first_offset = 1941 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  NAVAL AVIATION
+#########################################################################
+naval_aviation = {
+	
+	allow = { 
+		
+	}
+	
+	carrier_protection = {
+		efficiency  = 0.05 #5% greater eff when on CAG duty mission
+	}	
+
+	naval_strike = {
+		efficiency = 0.05 #5% greater eff when on naval strikes mission
+	}	
+	
+	naval_air_target_chance = 0.05
+
+	port_strike = {
+		efficiency = 0.05 #5% greater eff when on port strikes mission
+	}	
+	
+	research_bonus_from = {
+		nav_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = nav_focus
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1922
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  COMBAT AIR PATROL
+#########################################################################
+combat_air_patrol = {
+	
+	allow = { 
+		naval_aviation = 1	
+		naval_battles_fought = 25
+	}
+	
+	carrier_protection = {
+		efficiency  = 0.07 #7% greater eff when on CAG duty mission
+	}	
+	
+	research_bonus_from = {
+		nav_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = nav_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1941
+	first_offset = 1942 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  NAVAL STRIKE
+#########################################################################
+naval_strike = {
+	
+	allow = { 
+		naval_aviation = 1
+		naval_battles_fought = 25
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	naval_strike = {
+		efficiency = 0.07 #7% greater eff when on naval strikes mission
+	}	
+	
+	naval_air_target_chance = 0.25
+	
+	
+	research_bonus_from = {
+		nav_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = nav_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1941
+	first_offset = 1942 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  NAVAL SHORE STRIKE
+#########################################################################
+naval_shore_strike = {
+	
+	allow = { 
+		naval_aviation = 1
+		naval_battles_fought = 25
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	port_strike = {
+		efficiency = 0.07 #5% greater eff when on port strikes mission
+	}	
+			
+	
+	research_bonus_from = {
+		nav_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = nav_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1941
+	first_offset = 1942 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  NAVAL PATROL SEARCH
+#########################################################################
+naval_patrol_search = {
+	
+	allow = { 
+		naval_aviation = 1
+		naval_battles_fought = 25
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+			
+	naval_bomber = { 	
+		surface_detection = 2.00
+		}	
+	Flying_boat = { 	
+		surface_detection = 2.00
+		}	
+	
+	
+	research_bonus_from = {
+		nav_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = nav_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1942
+	first_offset = 1943	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  SEAPLANE PILOT RESCUE
+#########################################################################
+seaplane_pilot_rescue = {
+	
+	allow = { 
+		naval_aviation = 1
+		naval_battles_fought = 25
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	cag = { 	
+		default_morale = 0.07
+		}	
+				
+	naval_fighter = { 	
+		default_morale = 0.07
+		}	
+	naval_fighter_bomber = { 	
+		default_morale = 0.07
+		}	
+	naval_dive_bomber = { 	
+		default_morale = 0.07
+		}	
+	naval_torpedo_plane = { 	
+		default_morale = 0.07
+		}	
+	naval_cas = { 	
+		default_morale = 0.07
+		}		
+	
+	research_bonus_from = {
+		nav_focus = 0.35
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = nav_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1941
+	first_offset = 1942	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  STRATEGIC BOMBING
+#########################################################################
+strategic_bombing = {
+	
+	allow = { 
+		
+	}
+	
+	strategic_bomb = {
+		efficiency = 0.05 #5% greater eff when on on strategic_bomb mission
+	}		
+	
+	strategic_bomb = {
+		reduction_modifier = -0.05
+	}	
+	
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = strategic_air_focus
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1918
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  DAYLIGHT PRECISION BOMBING
+#########################################################################
+daylight_precision_bombing = {
+	
+	allow = { 
+		strategic_bombing = 1
+		air_battles_fought = 50
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	strategic_bomber = { 	
+		strategic_attack = 1.00
+		}	
+	heavy_bomber = { 	
+		strategic_attack = 1.00
+		}
+	super_heavy_bomber = { 	
+		strategic_attack = 1.00
+		}
+	
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = strategic_air_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1940
+	first_offset = 1941	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  BOX FORMATION
+#########################################################################
+box_formation = {
+	
+	allow = { 
+		strategic_bombing = 1
+		air_battles_fought = 100
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+		
+	strategic_bomber = { 	
+		air_defence = 2.00
+		}	
+	heavy_bomber = { 	
+		air_defence = 2.00
+		}
+	super_heavy_bomber = { 	
+		air_defence = 2.00
+		}	
+		
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = strategic_air_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1941
+	first_offset = 1942	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  NIGHT AREA BOMBING
+#########################################################################
+night_area_bombing = {
+	
+	allow = { 
+		strategic_bombing = 1
+		air_battles_fought = 50
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	strategic_bomber = { 	
+		night = { 
+				attack = 0.07
+			}
+		}	
+	heavy_bomber = { 	
+		night = { 
+				attack = 0.07 
+			}
+		}
+	super_heavy_bomber = { 	
+		night = { 
+				attack = 0.07 
+			}
+		}	
+	
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = strategic_air_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1940
+	first_offset = 1941	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  STRATEGIC BOMBING COMMAND
+#########################################################################
+strategic_bombing_command = {
+	
+	allow = { 
+		strategic_bombing = 1
+		air_battles_fought = 100
+	}
+	
+		
+	strategic_bomb = {
+		reduction_modifier = -0.07
+	}	
+	
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = strategic_air_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  FIRE BOMBING
+#########################################################################
+fire_bombing = {
+	
+	allow = { 
+		strategic_bombing = 1		
+		air_battles_fought = 250		
+	}
+	
+		
+	strategic_bomb = {
+		efficiency = 0.07 #7% greater eff when on on strategic_bomb mission
+	}	
+		
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = strategic_air_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1945
+	first_offset = 1946	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  LOGISTICAL AIR SUPPORT
+#########################################################################
+logistical_air_support = {
+	
+	allow = { 
+		
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	supply_throughput = 0.05
+	supply_transfer_cost = -0.05
+	
+	transport_plane = { 	
+		default_organisation = 5
+		default_morale = 0.05
+		}	
+		
+	
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = strategic_air_focus
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1936
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  PARADOPPED SUPPLIES
+#########################################################################
+paradropped_supplies = {
+	
+	allow = { 
+		logistical_air_support = 1
+		air_battles_fought = 100
+	}
+	
+	change = no 
+	
+	can_upgrade = yes	
+	
+	supply_transfer_cost = -0.07
+	
+	transport_plane = { 	
+		default_morale = 0.07
+		maximum_speed = 10.00
+		transport_capability = 0.50
+		range = 50.00
+		}	
+		
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = strategic_air_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1941
+	first_offset = 1942	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  HEAVY AIRLIFT
+#########################################################################
+heavy_airlift = {
+	
+	allow = { 
+		logistical_air_support = 1
+		air_battles_fought = 100
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	supply_throughput = 0.07
+	
+	quad_engine_transport = { 	
+		default_morale = 0.07
+		maximum_speed = 10.00
+		transport_capability = 1.00
+		range = 100.00
+		}
+	
+
+	
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = strategic_air_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1942
+	first_offset = 1943	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  MEDICAL EVACUATION
+#########################################################################
+medical_evacuation = {
+	
+	allow = { 
+		logistical_air_support = 1
+		air_battles_fought = 100
+	}
+	
+	casualty_trickleback = 0.07	
+	
+	research_bonus_from = {
+		strategic_air_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = strategic_air_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  TACTICAL AIR SUPPORT
+#########################################################################
+tactical_air_support = {
+	
+	allow = { 
+		
+	}
+		
+	reserve_focus = 0.05
+	
+	interdiction = {
+		efficiency = 0.05 #5% greater eff when on on intercept mission
+	}	
+	
+	logistical_strike = {
+		efficiency = 0.05 #5% greater eff when on on logistical strike mission
+	}	
+	
+	installation_strike = {
+		efficiency = 0.05 #5% greater eff when on on Installation strike mission
+	}	
+	
+	ground_attack = {
+		reduction_modifier = -0.05
+	}
+	interdiction = {
+		reduction_modifier = -0.05 
+	}
+	
+	research_bonus_from = {
+		tac_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = tac_focus
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1936
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  INTERDICTION
+#########################################################################
+interdiction = {
+	
+	allow = { 
+		tactical_air_support = 1	
+		air_battles_fought = 15
+	}
+		
+	interdiction = {
+		efficiency = 0.07 #7% greater eff when on on intercept mission
+	}	
+	
+	reserve_focus = 0.07
+	
+	research_bonus_from = {
+		tac_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = tac_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1937
+	first_offset = 1938	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  LOGISTICAL BOMBING
+#########################################################################
+logistical_bombing = {
+	
+	allow = { 
+		tactical_air_support = 1
+		air_battles_fought = 15
+	}
+	
+	logistical_strike = {
+		efficiency = 0.07 #7% greater eff when on on logistical strike mission
+	}	
+	
+	research_bonus_from = {
+		tac_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	change = no 
+	on_completion = tac_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1937
+	first_offset = 1938	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  AIRBASE ATTACK
+#########################################################################
+airbase_attack = {
+	
+	allow = { 
+		tactical_air_support = 1
+		air_battles_fought = 15
+	}
+		
+	runway_cratering = {
+		efficiency = 0.07 #7% greater eff when on on runway_cratering mission
+	}	
+	
+	research_bonus_from = {
+		tac_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = tac_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1937
+	first_offset = 1938	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  INSTALLATION STRIKE TACTICS
+#########################################################################
+installation_strike_tactics = {
+	
+	allow = { 
+		tactical_air_support = 1
+		air_battles_fought = 15
+	}
+		
+	installation_strike = {
+		efficiency = 0.07 #7% greater eff when on on Installation strike mission
+	}	
+	
+	research_bonus_from = {
+		tac_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = tac_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1937
+	first_offset = 1938	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  TACTICAL AIR COMMAND
+#########################################################################
+tactical_air_command = {
+	
+	allow = { 
+		tactical_air_support = 1
+		air_battles_fought = 200
+	}
+		
+	interdiction = {
+		reduction_modifier = -0.07
+	}	
+	
+	research_bonus_from = {
+		tac_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = tac_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1944
+	first_offset = 1945	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  CLOSE AIR SUPPORT
+#########################################################################
+close_air_support = {
+	
+	allow = { 
+		
+	}
+		
+	frontline_focus = 0.05
+	
+	ground_attack = {
+		efficiency = 0.05 #5% greater eff when on on ground attack missions
+	}	
+	
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = cas_focus
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1936
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  DIVE BOMBING
+#########################################################################
+dive_bombing = {
+	
+	allow = { 
+		close_air_support = 1
+		dive_brakes = 1
+		close_air_support_focus = 5
+	}
+		
+	ground_attack = {
+		efficiency = 0.07 #7% greater eff when on on ground attack missions
+	}	
+	
+	cas = { 	
+		soft_attack = 1.0
+		hard_attack = 1.0
+		}
+	heavy_cas = { 	
+		soft_attack = 1.0
+		hard_attack = 1.0
+		}	
+	
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = cas_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1937
+	first_offset = 1939	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  FORWARD AIR CONTROLLER
+#########################################################################
+forward_air_controller = {
+	
+	allow = { 
+		close_air_support = 1
+		land_battles_fought = 75
+	}
+	
+		
+	frontline_focus = 0.07	
+	
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = cas_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1941
+	first_offset = 1942	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  DIRECT AIR SUPPORT
+#########################################################################
+direct_air_support = {
+	
+	allow = { 
+		close_air_support = 1	
+		land_battles_fought = 75
+	}
+		
+	ground_attack = {
+		reduction_modifier = -0.07
+	}	
+			
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = cas_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1939
+	first_offset = 1941	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}
+#########################################################################
+#  FLYING TANK
+#########################################################################
+flying_tank = {
+	
+	allow = { 
+		close_air_support = 1		
+		land_battles_fought = 75
+	}
+	
+	change = no 
+	
+	can_upgrade = yes
+	
+	cas = { 	
+		surface_defence = 2.0
+		}
+	heavy_cas = { 	
+		surface_defence = 2.0
+		}				
+
+	
+	research_bonus_from = {
+		cas_focus = 0.25
+		air_doctrine_practical = 0.50
+	}
+
+	on_completion = cas_focus
+
+	difficulty = 15
+	
+	#common for all techs.
+	start_year = 1940
+	first_offset = 1942	# Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 15
+	folder = air_doctrine_folder
+}

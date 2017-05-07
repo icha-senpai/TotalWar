@@ -1,0 +1,333 @@
+# Events to make sure there is a German U-Boat Campaign
+
+############################
+### U-Boats in Wilhemshaven Type VIIC Class ###
+############################
+
+	country_event = {
+
+		id = 902011
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			year = 1940
+			war_with = ENG
+			submarine_class = 3
+			NOT = { submarine_class = 4 }
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New U-Boats"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_UBoats1.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+###############################
+### U-Boats in France Type VIIC Class ###
+###############################
+	
+	country_event = {
+
+		id = 902012
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			submarine_class = 3
+			NOT = { submarine_class = 4 }
+			OR = { 
+			year = 1940
+			year = 1941
+			year = 1942
+			year = 1943
+			year = 1944
+			}
+			war_with = ENG
+			AND = {
+			2613 = { controlled_by = GER }  # Paris
+			2605 = { controlled_by = GER }  # Brest
+			2737 = { controlled_by = GER }  # Lorient
+			2802 = { controlled_by = GER }  # St. Nazaire
+			2870 = { controlled_by = GER }  # Nantes
+			3273 = { controlled_by = GER }  # La Rochelle
+			3479 = { controlled_by = GER }  # Bordueax
+			}
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New U-Boats"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_UBoats2.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+############################
+### U-Boats in Wilhemshaven Type VII/41 Class ###
+############################
+
+	country_event = {
+
+		id = 902013
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			year = 1940
+			war_with = ENG
+			submarine_class = 4
+			NOT = { submarine_class = 5 }
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New U-Boats"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_UBoats3.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+###############################
+### U-Boats in France Type VII/41 Class ###
+###############################
+	
+	country_event = {
+
+		id = 902014
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			submarine_class = 4
+			NOT = { submarine_class = 5 }
+			OR = { 
+			year = 1940
+			year = 1941
+			year = 1942
+			year = 1943
+			year = 1944
+			}
+			war_with = ENG
+			AND = {
+			2613 = { controlled_by = GER }  # Paris
+			2605 = { controlled_by = GER }  # Brest
+			2737 = { controlled_by = GER }  # Lorient
+			2802 = { controlled_by = GER }  # St. Nazaire
+			2870 = { controlled_by = GER }  # Nantes
+			3273 = { controlled_by = GER }  # La Rochelle
+			3479 = { controlled_by = GER }  # Bordueax
+			}
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New U-Boats"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_UBoats4.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+	
+############################
+### U-Boats in Wilhemshaven Type VII/42 Class ###
+############################
+
+	country_event = {
+
+		id = 902015
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			year = 1940
+			war_with = ENG
+			submarine_class = 5
+			NOT = { submarine_class = 6 }
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New U-Boats"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_UBoats5.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+###############################
+### U-Boats in France Type VII/42 Class ###
+###############################
+	
+	country_event = {
+
+		id = 902016
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			submarine_class = 5
+			NOT = { submarine_class = 6 }
+			OR = { 
+			year = 1940
+			year = 1941
+			year = 1942
+			year = 1943
+			year = 1944
+			}
+			war_with = ENG
+			AND = {
+			2613 = { controlled_by = GER }  # Paris
+			2605 = { controlled_by = GER }  # Brest
+			2737 = { controlled_by = GER }  # Lorient
+			2802 = { controlled_by = GER }  # St. Nazaire
+			2870 = { controlled_by = GER }  # Nantes
+			3273 = { controlled_by = GER }  # La Rochelle
+			3479 = { controlled_by = GER }  # Bordueax
+			}
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New U-Boats"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_UBoats6.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}	
+
+############################
+### U-Boats in Wilhemshaven Type XXI Class ###
+############################
+
+	country_event = {
+
+		id = 902017
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			year = 1940
+			war_with = ENG
+			submarine_class = 6
+			NOT = { submarine_class = 7 }
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New U-Boats"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_UBoats7.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}
+	
+###############################
+### U-Boats in France Type XXI Class ###
+###############################
+	
+	country_event = {
+
+		id = 902018
+		
+		trigger = {
+			tag = GER
+			ai = yes
+			submarine_class = 6
+			NOT = { submarine_class = 7 }
+			OR = { 
+			year = 1940
+			year = 1941
+			year = 1942
+			year = 1943
+			year = 1944
+			}
+			war_with = ENG
+			AND = {
+			2613 = { controlled_by = GER }  # Paris
+			2605 = { controlled_by = GER }  # Brest
+			2737 = { controlled_by = GER }  # Lorient
+			2802 = { controlled_by = GER }  # St. Nazaire
+			2870 = { controlled_by = GER }  # Nantes
+			3273 = { controlled_by = GER }  # La Rochelle
+			3479 = { controlled_by = GER }  # Bordueax
+			}
+        }
+		
+		mean_time_to_happen = {
+			days = 30
+		}		
+
+		title = "New U-Boats"
+		desc = ""
+		picture = "blank"
+
+		option = {
+			name = ""
+			manpower = -1
+			load_oob = TW_GER_UBoats8.txt
+			ai_chance = { factor = 100 }
+		}
+				
+	}		

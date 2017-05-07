@@ -1,0 +1,11 @@
+EVTDESC400044;With the technology levels of heavy cruiser armament, engine and armour at level 4 (1942) the Pocket Battleship became obsolete and the design was stricking of every navies designlist. Thus ending up not buildable anymore;;;;;;;;;;;;;x
+Austrian_Divisions.txt; Inherit the reformed Austrian Divisions ;;;;;;;;;;;;x
+battle_commander_GER_IV.txt; Battlecommander Gunther von Kluge ;;;;;;;;;;;;x
+Dunkirk_Evacuation_Decision_title;Dunkirk evacuation ;;;;;;;;;;;;x
+Dunkirk_Evacuation_Decision_desc;This will trigger the evacuation of Dunkrik by civilian ships from Prothsmouth ;;;;;;;;;;;;x
+Dunkirk_Abandoned_Equipment_Decision_title;Abandoned equipment ;;;;;;;;;;;;x
+Dunkirk_Abandoned_Equipment_Decision_desc;The allied forces were forced to abandone lots of equipment which later were used by the Germans ;;;;;;;;;;;;x
+Dunkirk_Fleet.txt;\n - Civilian ship owners rise answer the call in Portsmouth! -\n;;;;;;;;;;;;x
+Dunkirk_Abandoned_Equipment.txt;\n - Allied forces abandon their vehicles and equipment on the beaches of Dunkirk! -\n;;;;;;;;;;;;x
+Dunkirk_Evacuees.txt;\n - Tattered Remnants of Allied Forces Need Rescuing in Dunkirk! -\n;;;;;;;;;;;;x
+###EOF###;;;;;;;;;;;;;x

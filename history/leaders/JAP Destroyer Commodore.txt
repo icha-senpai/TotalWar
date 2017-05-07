@@ -1,0 +1,1305 @@
+920750 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920751 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920752 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920753 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920754 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920755 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920756 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920757 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920758 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920759 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920760 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920761 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920762 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920763 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920764 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920765 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920766 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920767 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920768 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920769 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920770 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920771 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920772 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920773 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920774 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920775 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920776 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920777 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920778 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920779 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920780 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920781 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920782 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920783 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920784 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920785 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920786 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920787 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920788 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920789 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920790 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920791 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920792 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920793 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920794 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920795 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920796 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920797 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920798 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920799 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920800 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920801 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920802 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920803 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920804 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920805 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920806 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920807 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920808 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920809 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920810 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920811 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920812 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920813 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920814 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920815 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920816 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920817 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920818 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920819 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920820 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920821 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920822 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920823 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920824 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920825 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920826 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920827 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920828 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920829 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920830 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920831 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920832 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920833 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920834 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920835 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920836 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920837 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920838 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920839 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920840 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920841 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920842 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920843 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920844 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920845 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920846 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920847 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920848 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+920849 = {
+	name = "Kuchiku-kan Chusa"
+	country = JAP
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 6_Destroyer_Commodore
+	add_trait = superior_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+
+

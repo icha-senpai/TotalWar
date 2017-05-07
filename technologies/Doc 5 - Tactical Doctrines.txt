@@ -1,0 +1,2372 @@
+# ########################################################################
+# TACTICAL DOCTRINES
+# ########################################################################
+# ########################################################################
+# TRENCH WARFARE EXPERIENCE
+# ########################################################################
+trench_warfare_experience = {
+
+	allow = {
+		OR = {
+			AND = {
+				world_war_one_warfare = 1
+				OR = { 
+					united_kingdom = 1
+					germany = 1
+					united_states = 1
+					france = 1
+					soviet_union = 1
+				}
+			}
+			AND = { 
+				world_war_one_warfare = 1
+				land_battles_fought = 200
+				japan = 1
+				}
+			AND = { 
+				world_war_one_warfare = 1
+				land_battles_fought = 500
+				}	
+		}
+	}
+	
+	change = no
+	
+	tactic_basic_defend = 2
+	
+	infantry_brigade = { 
+		default_organisation = 5
+	}
+	semi_motorized_brigade = { 
+		default_organisation = 5
+	}
+	motorized_brigade = { 
+		default_organisation = 5
+	}
+	mechanized_brigade = { 
+		default_organisation = 5
+	}	
+	
+	light_infantry_brigade = { 
+		default_organisation = 5
+	}
+	elite_light_infantry_brigade = { 
+		default_organisation = 5
+	}
+	elite_light_infantry_battalion = { 
+		default_organisation = 5
+	}
+	
+	conscript_brigade = { 
+		default_organisation = 5
+	}
+		
+	combined_arms_brigade = { 
+		default_organisation = 5
+	}
+	
+	commando_brigade = { 
+		default_organisation = 5
+	}
+	ski_brigade = { 
+		default_organisation = 5
+	}
+					
+	ss_mechanized_brigade = { 
+		default_organisation = 5
+	}	
+	
+	ss_dasreich = { 
+		default_organisation = 5
+	}	
+	ss_florian_geyer = { 
+		default_organisation = 5
+	}	
+	ss_frundsberg = { 
+		default_organisation = 5
+	}	
+	ss_hitlerjugend = { 
+		default_organisation = 5
+	}	
+	ss_hohenstaufen = { 
+		default_organisation = 5
+	}	
+	ss_infantry_brigade = { 
+		default_organisation = 5
+	}	
+	ss_lssah = { 
+		default_organisation = 5
+	}	
+	ss_motorized_brigade = { 
+		default_organisation = 5
+	}	
+	ss_prinz_eugen = { 
+		default_organisation = 5
+	}	
+	ss_Recon_cavalry_brigade = { 
+		default_organisation = 5
+	}	
+	ss_totenkopf = { 
+		default_organisation = 5
+	}
+	ss_wiking = { 
+		default_organisation = 5
+	}
+			
+	anzac_brigade = { 
+		default_organisation = 5
+	}
+	afrika_brigade = { 
+		default_organisation = 5
+	}
+	
+	goering_brigade = { 
+		default_organisation = 5
+	}
+	grossdeutschland_brigade = { 
+		default_organisation = 5
+	}
+	
+	lehr_brigade = { 
+		default_organisation = 5
+	}
+	
+	ranger_brigade = { 
+		default_organisation = 5
+	}
+	
+	infantry_bat = { 
+		default_organisation = 5
+	}
+	motorized_infantry_bat = { 
+		default_organisation = 5
+	}
+	
+	ss_infantry_bat = { 
+		default_organisation = 5
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_organisation = 5
+	}	
+	ss_motorized_infantry_bat = { 
+		default_organisation = 5
+	}	
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+	start_year = 1918
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# INFANTRY ASSAULT THEORY
+# ########################################################################
+infantry_assault_theory = {
+
+	allow = {
+		trench_warfare_experience = 1
+		OR = {
+			AND = { 
+				NOT = { army_field_manual = 1 }
+				machine_gun_focused_squads = 1
+				land_battles_fought = 1500
+			}
+			AND = { 
+				NOT = { machine_gun_focused_squads = 1 }
+				NOT = { stormtrooper_tactics = 1 }
+				land_battles_fought = 250
+			}
+		}
+	}
+	
+	change = no
+	
+	tactic_assault = 5
+	
+	infantry_brigade = { 
+		toughness = 1.0
+	}
+	semi_motorized_brigade = { 
+		toughness = 1.0
+	}
+	motorized_brigade = { 
+		toughness = 1.0
+	}
+	mechanized_brigade = { 
+		toughness = 1.0
+	}	
+	
+	light_infantry_brigade = { 
+		toughness = 1.0
+	}
+	elite_light_infantry_brigade = { 
+		toughness = 1.0
+	}
+	elite_light_infantry_battalion = { 
+		toughness = 1.0
+	}
+	
+	conscript_brigade = { 
+		toughness = 1.0
+	}
+		
+	combined_arms_brigade = { 
+		toughness = 1.0
+	}
+	
+	commando_brigade = { 
+		toughness = 1.0
+	}
+	ski_brigade = { 
+		toughness = 1.0
+	}
+					
+	ss_mechanized_brigade = { 
+		toughness = 1.0
+	}	
+	
+	ss_dasreich = { 
+		toughness = 1.0
+	}	
+	ss_florian_geyer = { 
+		toughness = 1.0
+	}	
+	ss_frundsberg = { 
+		toughness = 1.0
+	}	
+	ss_hitlerjugend = { 
+		toughness = 1.0
+	}	
+	ss_hohenstaufen = { 
+		toughness = 1.0
+	}	
+	ss_infantry_brigade = { 
+		toughness = 1.0
+	}	
+	ss_lssah = { 
+		toughness = 1.0
+	}	
+	ss_motorized_brigade = { 
+		toughness = 1.0
+	}	
+	ss_prinz_eugen = { 
+		toughness = 1.0
+	}	
+	ss_Recon_cavalry_brigade = { 
+		toughness = 1.0
+	}	
+	ss_totenkopf = { 
+		toughness = 1.0
+	}
+	ss_wiking = { 
+		toughness = 1.0
+	}
+			
+	anzac_brigade = { 
+		toughness = 1.0
+	}
+	afrika_brigade = { 
+		toughness = 1.0
+	}
+	
+	goering_brigade = { 
+		toughness = 1.0
+	}
+	grossdeutschland_brigade = { 
+		toughness = 1.0
+	}
+	
+	lehr_brigade = { 
+		toughness = 1.0
+	}
+	
+	ranger_brigade = { 
+		toughness = 1.0
+	}
+	
+	infantry_bat = { 
+		toughness = 1.0
+	}
+	motorized_infantry_bat = { 
+		toughness = 1.0
+	}
+	
+	ss_infantry_bat = { 
+		toughness = 1.0
+	}	
+	ss_mechanized_infantry_bat = { 
+		toughness = 1.0
+	}	
+	ss_motorized_infantry_bat = { 
+		toughness = 1.0
+	}	
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 6
+	start_year = 1939
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# INFANTRY FIRE AND MANUEVER
+# ########################################################################
+fire_and_maneuver = {
+
+	allow = {
+		infantry_assault_theory = 1
+		army_field_manual = 1
+		NOT = { machine_gun_focused_squads = 1 }
+		NOT = { stormtrooper_tactics = 1 }
+	}
+	
+	change = no
+	
+	tactic_fire_and_manuever = 15
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+	start_year = 1941
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# INFANTRY TANK SUPPORT DOCTRINE
+# ########################################################################
+infantry_tank_support_doctrine = {
+
+	allow = {
+		trench_warfare_experience = 1
+		OR = { 
+			AND = { 
+				germany = 1
+				infantry_tank_design = 6
+				land_battles_fought = 2000
+			}
+			AND = { 
+				soviet_union = 1
+				infantry_tank_design = 5
+				land_battles_fought = 1500
+			}
+			AND = {
+				AND = { 
+					NOT = { germany = 1 }
+					NOT = { soviet_union = 1 }
+				}
+				infantry_tank_design = 1
+			}
+		}
+		NOT = { infantry_armor_coordination = 1 }
+	}
+	
+	change = no
+	
+	tactic_armor_attack = 1
+	
+	infantry_tank_brigade = { 
+		default_organisation = 20
+	}	
+	armor_brigade = { 
+		default_organisation = 5
+		maximum_speed = -0.30
+	}	
+	light_armor_brigade = { 
+		default_organisation = 5
+		maximum_speed = -0.30
+	}	
+	
+	armor_bat = { 
+		default_organisation = 5
+		maximum_speed = -0.30
+	}	
+	light_armor_bat = { 
+		default_organisation = 5
+		maximum_speed = -0.30
+	}	
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+	start_year = 1939
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# FAST TANK DESTROYER DOCTRINE
+# ########################################################################
+fast_tank_destroyer_doctrine = {
+
+	allow = {
+		anti_tank_warfare = 1
+		infantry_tank_support_doctrine = 1
+		NOT = { tank_destroyer_support_doctrine = 1 }
+		OR = {
+			AND = {
+				germany = 1	
+				land_battles_fought = 2000
+			}
+			AND = { 
+				soviet_union = 1
+				land_battles_fought = 3000
+				mechanized_advance = 1
+			}
+			AND = {
+				NOT = { germany = 1 }
+				NOT = { soviet_union = 1 }
+				infantry_tank_support_doctrine = 1
+			}
+		}
+	}
+	
+	change = no
+	
+	tank_destroyer_brigade = { 
+		default_organisation = 10
+		maximum_speed = 1.00
+		armor_value = -2
+	}
+	medium_tank_destroyer_brigade = { 
+		default_organisation = 10
+		maximum_speed = 1.00
+		armor_value = -2
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_organisation = 10
+		maximum_speed = 1.00
+		armor_value = -2
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+	start_year = 1940
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# ARTILLERY SUPERIORITY DOCTRINE
+# ########################################################################
+artillery_time_on_target_doctrine = {
+
+	allow = {
+		NOT = { mobile_infantry_theory = 1 }
+		trench_warfare_experience = 1
+		artillery_barrage = 1
+		superior_firepower = 1
+		standing_barrage = 1	
+		lifting_barrage = 1
+		pinpoint_barrage = 1
+		search_barrage = 1
+		}
+
+	change = no		
+	
+	artillery_unit_type = 0.05
+	
+	tactic_offensive_artillery_bombardment = 5
+	
+	artillery_brigade = { 
+		default_organisation = 10
+		soft_attack = 0.50
+	}
+	
+	medium_artillery_brigade = { 
+		default_organisation = 10
+		soft_attack = 0.50
+	}
+		
+	sp_artillery_brigade = { 
+		default_organisation = 10
+		soft_attack = 0.50
+	}
+	
+	ss_sp_artillery_brigade = { 
+		default_organisation = 10
+		soft_attack = 0.50
+	}
+	
+	ss_artillery_brigade = { 
+		default_organisation = 10
+		soft_attack = 0.50
+	}
+	
+	ss_medium_artillery_brigade = { 
+		default_organisation = 10
+		soft_attack = 0.50
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+	start_year = 1942
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# COMBAT COMMAND DOCTRINE
+# ########################################################################
+combat_command_doctrine = {
+
+	allow = {
+		infantry_assault_theory = 1
+								
+		has_country_flag = combat_command_doctrine_mechanized
+	}
+	
+	change = no
+	
+	mobile_unit_type = 0.01
+	armor_unit_type = 0.01
+	direct_fire_unit_type = 0.01
+		
+	mechanized_brigade = { 
+		default_organisation = 2
+	}
+			
+	combined_arms_brigade = { 
+		default_organisation = 2
+	}
+				
+	armor_brigade = { 
+		default_organisation = 2
+	}
+	medium_tank_destroyer_brigade = { 
+		default_organisation = 2
+	}
+	sp_artillery_brigade = { 
+		default_organisation = 2
+	}	
+
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+	
+	start_year = 1941
+	first_offset = 1942 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# GROUND TACTICAL AIR SUPPORT DOCTRINE
+# ########################################################################
+ground_tactical_air_support_doctrine = {
+
+	allow = {
+		combined_arms_theory = 1
+		NOT = { infantry_close_air_support_doctrine = 1 }
+		OR = {
+			AND = {
+				germany = 1	
+				land_battles_fought = 1000
+				interdiction = 5
+			}
+			AND = { 
+				soviet_union = 1
+				land_battles_fought = 1000
+				interdiction = 4
+			}
+			AND = {
+				NOT = { germany = 1 }
+				NOT = { soviet_union = 1 }
+				interdiction = 3
+				land_battles_fought = 500
+			}
+		}
+	}
+	
+	change = no
+	
+	tactic_fighter_bombers = 3
+		
+	research_bonus_from = {
+		tac_focus = 0.25
+	}
+	
+	on_completion = tac_focus
+
+	difficulty = 7
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# COMBINED ARMS THEORY
+# ########################################################################
+combined_arms_theory = {
+
+	allow = {
+		trench_warfare_experience = 1
+	}
+		
+	unit_cooperation = 0.05
+	
+	activate_unit = mixed_support_brigade
+		
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 15
+	start_year = 1935
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# REGIMENTAL COMBAT TEAM
+# ########################################################################
+regimental_combat_team = {
+
+	allow = {
+		combined_arms_theory = 1
+		NOT = { kampfgruppe = 1 }
+		OR  = {
+			AND = { 
+					OR = {
+						germany = 1	
+						soviet_union = 1
+					}
+					land_battles_fought = 5000
+					infantry_and_artillery_coordination = 5
+					infantry_and_armor_coordination = 5
+					infantry_and_air_coordination = 5
+					armor_and_artillery_coordination = 5
+					armor_and_air_coordination = 5
+				}
+			AND = { 
+				united_states = 1	
+				land_battles_fought = 1000
+				infantry_and_artillery_coordination = 3
+				infantry_and_armor_coordination = 2
+				infantry_and_air_coordination = 2
+				armor_and_artillery_coordination = 1
+				armor_and_air_coordination = 1
+				}	
+			AND = { 
+					OR = {
+						united_kingdom = 1	
+						japan = 1
+					}
+					land_battles_fought = 4000
+					infantry_and_artillery_coordination = 5
+					infantry_and_armor_coordination = 5
+					infantry_and_air_coordination = 5
+					armor_and_artillery_coordination = 5
+					armor_and_air_coordination = 5
+				}
+			AND = { 
+					OR = {
+						NOT = { united_kingdom = 1 }
+						NOT = { united_states = 1 }
+						NOT = { japan = 1 }
+						NOT = { germany = 1 }
+						NOT = { soviet_union = 1 }
+						NOT = { nationalist_china = 1 }
+					}
+					land_battles_fought = 6000
+					infantry_and_artillery_coordination = 5
+					infantry_and_armor_coordination = 5
+					infantry_and_air_coordination = 5
+					armor_and_artillery_coordination = 5
+					armor_and_air_coordination = 5
+				}	
+		}		
+	}
+	
+	change = yes
+	
+	kampfgruppe_unit_type = 0.01
+	
+	combined_arms_brigade = { 
+		default_morale = 0.02
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 12
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# KAMPFGRUPPE
+# ########################################################################
+kampfgruppe = {
+
+	allow = {
+		combined_arms_theory = 1
+		NOT = { regimental_combat_team = 1 }
+		OR  = {
+			AND = { 
+					OR = {
+						united_states = 1	
+						soviet_union = 1
+					}
+					land_battles_fought = 6000
+					infantry_and_artillery_coordination = 5
+					infantry_and_armor_coordination = 5
+					infantry_and_air_coordination = 5
+					armor_and_artillery_coordination = 5
+					armor_and_air_coordination = 5
+				}
+			AND = { 
+				germany = 1	
+				infantry_and_artillery_coordination = 3
+				infantry_and_armor_coordination = 2
+				infantry_and_air_coordination = 1
+				armor_and_artillery_coordination = 1
+				armor_and_air_coordination = 1
+				}	
+			AND = { 
+					OR = {
+						united_kingdom = 1	
+						japan = 1
+					}
+					land_battles_fought = 5000
+				}
+			AND = { 
+					OR = {
+						NOT = { united_kingdom = 1 }
+						NOT = { united_states = 1 }
+						NOT = { japan = 1 }
+						NOT = { germany = 1 }
+						NOT = { soviet_union = 1 }
+						NOT = { nationalist_china = 1 }
+					}
+					land_battles_fought = 7000
+					infantry_and_artillery_coordination = 5
+					infantry_and_armor_coordination = 5
+					infantry_and_air_coordination = 5
+					armor_and_artillery_coordination = 5
+					armor_and_air_coordination = 5
+				}	
+		}
+	}
+	
+	change = yes
+	
+	kampfgruppe_unit_type = 0.01
+	
+	tactic_quick_assault = 1
+	
+	combined_arms_brigade = { 
+		default_organisation = 2
+		maximum_speed = 0.05
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 10
+	start_year = 1939
+	first_offset = 1941 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 12
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# ANTI-TANK WARFARE
+# ########################################################################
+anti_tank_warfare = {
+
+	allow = {
+		combined_arms_theory = 1
+	}
+	
+	
+	tactic_anti_tank_gun_defense = 1
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+	start_year = 1938
+	first_offset = 1940 # Model 1
+	additional_offset = 2 # Model 2 thru 
+	max_level = 11
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# JUNGLE WARFARE TACTICS
+# ########################################################################
+jungle_warfare_tactics = {
+
+	allow = {
+		combined_arms_theory = 1
+		special_forces_jungle_training = 2
+	}
+	
+	change = no
+	
+	tactic_ambush = 1
+	
+	tactic_surprise_attack = 1
+	
+	infantry_brigade = { 
+		jungle = { 
+			attack = 0.10
+			defence = 0.05 
+			movement = 0.10 
+		}
+	}
+			
+	light_infantry_brigade = { 
+		jungle = { 
+			attack = 0.10
+			defence = 0.05 
+			movement = 0.10 
+		}
+	}
+	elite_light_infantry_brigade = { 
+		jungle = { 
+			attack = 0.10
+			defence = 0.05 
+			movement = 0.10 
+		}
+	}
+	elite_light_infantry_battalion = { 
+		jungle = { 
+			attack = 0.10
+			defence = 0.05 
+			movement = 0.10 
+		}
+	}
+	
+	commando_brigade = { 
+		jungle = { 
+			attack = 0.10
+			defence = 0.05 
+			movement = 0.10 
+		}
+	}
+		
+	marine_brigade = { 
+		jungle = { 
+			attack = 0.10
+			defence = 0.05 
+			movement = 0.10 
+		}
+	}
+						
+	anzac_brigade = { 
+		jungle = { 
+			attack = 0.10
+			defence = 0.05 
+			movement = 0.10 
+		}
+	}
+		
+	infantry_bat = { 
+		jungle = { 
+			attack = 0.10
+			defence = 0.05 
+			movement = 0.10 
+		}
+	}
+	tropical_island_garrison_brigade = { 
+		jungle = { 
+			attack = 0.10
+			defence = 0.05 
+			movement = 0.10 
+		}
+	}
+	pack_artillery_brigade = { 
+		jungle = { 
+			attack = 0.10
+			defence = 0.05 
+			movement = 0.10 
+		}
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+	
+	difficulty = 7
+	
+	stealable = no
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 7
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# SCOUT SNIPER TEAMS
+# ########################################################################
+scout_sniper_teams = {
+
+	allow = {
+		combined_arms_theory = 1
+		political_integration = 4
+		sniper_warfare = 1
+	}
+	
+	
+	
+	combat_efficiency = 0.02
+	
+	tactic_snipers = 1
+	
+	tactic_delay = 1
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 8
+	start_year = 1941
+	first_offset = 1942 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# INDEPENDENT SNIPERS
+# ########################################################################
+independent_snipers = {
+
+	allow = {
+		combined_arms_theory = 1
+		sniper_warfare = 1
+	}
+	
+	
+	
+	combat_efficiency = 0.01
+	
+	tactic_snipers = 1
+	
+	tactic_slower_delay = 1
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# MACHINE GUN FOCUS DOCTRINE
+# ########################################################################
+machine_gun_focused_squads = {
+
+	allow = {
+		NOT = { fire_and_maneuver = 1 }
+		OR = { 
+			AND = { 
+			combined_arms_theory = 1
+			stormtrooper_tactics = 1
+			lmg_prototype = 1
+			germany = 1
+			}
+			AND = { 
+			combined_arms_theory = 1
+			stormtrooper_tactics = 1
+			lmg_prototype = 1
+			land_battles_fought = 3000
+			NOT = { germany = 1 }
+			}
+		}
+	}
+	
+	change = no
+			
+	tactic_machine_gun_squads = 15
+	
+	infantry_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}
+	semi_motorized_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}
+	motorized_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}
+	mechanized_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}
+	
+	paratrooper_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	
+			
+	light_infantry_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}
+		
+		
+	combined_arms_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}
+			
+	ss_mechanized_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	ss_dasreich = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	ss_frundsberg = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	ss_hitlerjugend = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	ss_hohenstaufen = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	ss_infantry_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	ss_lssah = { 
+		default_organisation = 7
+		toughness = 5
+	}	
+	ss_paratrooper_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}		
+	ss_polizei = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	ss_prinz_eugen = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	ss_totenkopf = { 
+		default_organisation = 7
+		toughness = 2
+	}
+	ss_wiking = { 
+		default_organisation = 7
+		toughness = 2
+	}
+			
+	afrika_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}
+	
+	goering_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}
+	grossdeutschland_brigade = { 
+		default_organisation = 7
+		toughness = 2
+	}
+		
+	infantry_bat = { 
+		default_organisation = 7
+		toughness = 2
+	}
+	motorized_infantry_bat = { 
+		default_organisation = 7
+		toughness = 2
+	}
+	mechanized_infantry_bat = { 
+		default_organisation = 7
+		toughness = 2
+	}
+	
+	ss_infantry_bat = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	ss_motorized_infantry_bat = { 
+		default_organisation = 7
+		toughness = 2
+	}	
+	
+	research_bonus_from = {
+		infantry_theory = 0.25
+	}
+	
+	on_completion = infantry_theory
+
+	difficulty = 12
+	start_year = 1936
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# ARMOR MANUEVER WARFARE DOCTRINE
+# ########################################################################
+armor_maneuver_warfare_doctrine = {
+
+	allow = {
+		combined_arms_theory = 1
+		OR = {
+			AND = {
+				germany = 1	
+				armor_division_hq = 1
+				armor_company_field_exercises = 1
+			}
+			AND = { 
+				soviet_union = 1
+				deep_battle_doctrine = 1 
+				armor_division_hq = 1
+				armor_company_field_exercises = 1
+			}
+			AND = {
+				OR = { 
+					NOT = { germany = 1	}
+					NOT = { soviet_union = 1 }
+				}
+			land_battles_fought = 300
+			armor_division_hq = 1
+			armor_company_field_exercises = 2
+			}
+		}
+		NOT = { infantry_tank_support_doctrine = 1 }
+	}
+	
+	change = no
+	
+	tactic_armor_attack = 2
+			
+	armor_brigade = { 
+		maximum_speed = 0.10
+	}
+	light_armor_brigade = { 
+		maximum_speed = 0.10
+	}
+	assault_gun_brigade = { 
+		maximum_speed = 0.10
+	}
+	heavy_armor_brigade = { 
+		maximum_speed = 0.10
+	}
+	super_heavy_armor_brigade = { 
+		maximum_speed = 0.10
+	}
+		
+	guard_armor_brigade = { 
+		maximum_speed = 0.10
+	}
+	guard_heavy_armor_brigade = { 
+		maximum_speed = 0.10
+	}
+		
+	ss_armor_brigade = { 
+		maximum_speed = 0.10
+	}	
+		
+	armor_bat = { 
+		maximum_speed = 0.10
+	}
+	light_armor_bat = { 
+		maximum_speed = 0.10
+	}
+	guard_armor_bat = { 
+		maximum_speed = 0.10
+	}
+	ss_armor_bat = { 
+		maximum_speed = 0.10
+	}	
+	
+	research_bonus_from = {
+		spearhead_theory = 0.25
+	}
+	
+	on_completion = spearhead_theory
+
+	difficulty = 7
+	start_year = 1936
+	first_offset = 1937 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 15
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# INFANTRY / ARMOR COORDINATION
+# ########################################################################
+infantry_armor_coordination = {
+
+	allow = {
+		combined_arms_theory = 1
+		OR = {
+			AND = {
+				germany = 1
+				armor_division_hq = 1
+				armor_battalion_field_exercises = 1
+				infantry_company_field_exercises = 2				
+			}
+			AND = { 
+				soviet_union = 1
+				land_battles_fought = 300
+				armor_division_hq = 1
+				armor_battalion_field_exercises = 1
+				infantry_company_field_exercises = 2
+			}
+			AND = {
+				OR = { 
+					NOT = { germany = 1	}
+					NOT = { soviet_union = 1 }
+				}
+			land_battles_fought = 600
+			armor_division_hq = 1
+			armor_battalion_field_exercises = 1
+			infantry_company_field_exercises = 2
+			}
+		}
+		NOT = { infantry_tank_support_doctrine = 1 }
+	}
+	
+	change = no
+		
+	infantry_tank_brigade = { 
+		toughness = -1
+	}	
+	armor_brigade = { 
+		toughness = 1
+	}	
+	assault_gun_brigade = { 
+		toughness = 1
+	}
+	light_armor_brigade = { 
+		toughness = 1
+	}	
+	
+	heavy_armor_brigade = { 
+		toughness = 1
+	}
+	super_heavy_armor_brigade = { 
+		toughness = 1
+	}
+	
+	armor_bat = { 
+		toughness = 1
+	}	
+	light_armor_bat = { 
+		toughness = 1
+	}	
+	
+	guard_armor_brigade = { 
+		toughness = 1
+	}
+	guard_heavy_armor_brigade = { 
+		toughness = 1
+	}
+		
+	ss_armor_brigade = { 
+		toughness = 1
+	}	
+	
+	ss_armor_bat = { 
+		toughness = 1
+	}	
+	
+	research_bonus_from = {
+		spearhead_theory = 0.25
+	}
+	
+	on_completion = spearhead_theory
+
+	difficulty = 7
+	start_year = 1938
+	first_offset = 1939 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 15
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# ARMOR VERSUS ARMOR ENGAGEMENTS
+# ########################################################################
+armor_versus_armor_engagements = {
+
+	allow = {
+		combined_arms_theory = 1
+		OR = {
+			AND = { 
+				OR = {
+					germany = 1	
+					soviet_union = 1
+				}
+				land_battles_fought = 100
+				armor_division_hq = 2
+				armor_regiment_field_exercises = 4
+			}
+			AND = { 
+				OR = {
+					united_states = 1	
+					united_kingdom = 1
+				}
+				land_battles_fought = 200
+				armor_division_hq = 2
+				armor_regiment_field_exercises = 4
+			}
+			AND = { 
+				NOT = { united_states = 1 }
+				NOT = {	united_kingdom = 1 }
+				NOT = {	germany = 1 }
+				NOT = {	soviet_union = 1 }
+				land_battles_fought = 500
+				armor_division_hq = 2
+				armor_regiment_field_exercises = 4
+			}
+		}
+		NOT = { infantry_tank_support_doctrine = 1 }
+	}
+	
+	change = no
+		
+	tactic_armor_defense = 2
+	
+	armor_brigade = { 
+		default_organisation = 2
+	}	
+	assault_gun_brigade = { 
+		default_organisation = 2
+	}
+	light_armor_brigade = { 
+		default_organisation = 2
+	}	
+	
+	heavy_armor_brigade = { 
+		default_organisation = 2
+	}
+	super_heavy_armor_brigade = { 
+		default_organisation = 2
+	}
+	
+	armor_bat = { 
+		default_organisation = 2
+	}	
+	light_armor_bat = { 
+		default_organisation = 2
+	}	
+	
+	guard_armor_brigade = { 
+		default_organisation = 2
+	}
+	guard_heavy_armor_brigade = { 
+		default_organisation = 2
+	}
+		
+	ss_armor_brigade = { 
+		default_organisation = 2
+	}	
+	ss_armor_bat = { 
+		default_organisation = 2
+	}		
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+	start_year = 1941
+	first_offset = 1942 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# TANK DESTROYER SUPPORT DOCTRINE
+# ########################################################################
+tank_destroyer_support_doctrine = {
+
+	allow = {
+		combined_arms_theory = 1
+		anti_tank_warfare = 1
+		NOT = { fast_tank_destroyer_doctrine = 1 }
+		OR = {
+			AND = {
+				germany = 1	
+				land_battles_fought = 150
+			}
+			AND = { 
+				soviet_union = 1
+				land_battles_fought = 200
+			}
+			AND = {
+				NOT = { germany = 1 }
+				NOT = {	soviet_union = 1 }
+				land_battles_fought = 1000
+			}
+		}
+		
+	}
+	
+	change = no
+	
+	direct_fire_unit_type = 0.05
+	
+	tactic_anti_tank_gun_defense = 3
+	
+	tank_destroyer_brigade = { 
+		default_organisation = 5
+		armor_value = 2
+	}
+	medium_tank_destroyer_brigade = { 
+		default_organisation = 5
+		armor_value = 2
+	}
+	heavy_tank_destroyer_brigade = { 
+		default_organisation = 5
+		armor_value = 2
+	}
+		
+	ss_tank_destroyer_brigade = { 
+		default_organisation = 5
+		armor_value = 2
+	}
+		
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+	start_year = 1941
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# INFANTRY ANTI-TANK TACTICS
+# ########################################################################
+infantry_anti_tank_tactics = {
+
+	allow = {
+		combined_arms_theory = 1
+		anti_tank_warfare = 3 
+		land_battles_fought = 250
+	}
+	
+	change = no
+	
+	infantry_brigade = { 
+		hard_attack = 1.0
+	}
+	semi_motorized_brigade = { 
+		hard_attack = 1.0
+	}
+	motorized_brigade = { 
+		hard_attack = 1.0
+	}
+	mechanized_brigade = { 
+		hard_attack = 1.0
+	}	
+	
+	light_infantry_brigade = { 
+		hard_attack = 1.0
+	}
+	elite_light_infantry_brigade = { 
+		hard_attack = 1.0
+	}
+	elite_light_infantry_battalion = { 
+		hard_attack = 1.0
+	}
+	
+	conscript_brigade = { 
+		hard_attack = 1.0
+	}
+		
+	combined_arms_brigade = { 
+		hard_attack = 1.0
+	}
+	
+	commando_brigade = { 
+		hard_attack = 1.0
+	}
+	ski_brigade = { 
+		hard_attack = 1.0
+	}
+					
+	ss_mechanized_brigade = { 
+		hard_attack = 1.0
+	}	
+	
+	ss_dasreich = { 
+		hard_attack = 1.0
+	}	
+	ss_florian_geyer = { 
+		hard_attack = 1.0
+	}	
+	ss_frundsberg = { 
+		hard_attack = 1.0
+	}	
+	ss_hitlerjugend = { 
+		hard_attack = 1.0
+	}	
+	ss_hohenstaufen = { 
+		hard_attack = 1.0
+	}	
+	ss_infantry_brigade = { 
+		hard_attack = 1.0
+	}	
+	ss_lssah = { 
+		hard_attack = 1.0
+	}	
+	ss_motorized_brigade = { 
+		hard_attack = 1.0
+	}	
+	ss_prinz_eugen = { 
+		hard_attack = 1.0
+	}	
+	ss_Recon_cavalry_brigade = { 
+		hard_attack = 1.0
+	}	
+	ss_totenkopf = { 
+		hard_attack = 1.0
+	}
+	ss_wiking = { 
+		hard_attack = 1.0
+	}
+			
+	anzac_brigade = { 
+		hard_attack = 1.0
+	}
+	afrika_brigade = { 
+		hard_attack = 1.0
+	}
+	
+	goering_brigade = { 
+		hard_attack = 1.0
+	}
+	grossdeutschland_brigade = { 
+		hard_attack = 1.0
+	}
+	
+	lehr_brigade = { 
+		hard_attack = 1.0
+	}
+	
+	ranger_brigade = { 
+		hard_attack = 1.0
+	}
+	
+	infantry_bat = { 
+		hard_attack = 1.0
+	}
+	motorized_infantry_bat = { 
+		hard_attack = 1.0
+	}
+	
+	ss_infantry_bat = { 
+		hard_attack = 1.0
+	}	
+	ss_mechanized_infantry_bat = { 
+		hard_attack = 1.0
+	}	
+	ss_motorized_infantry_bat = { 
+		hard_attack = 1.0
+	}	
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 6
+	start_year = 1941
+	first_offset = 1942 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# DIRECT AIR SUPPORT DOCTRINE
+# ########################################################################
+infantry_close_air_support_doctrine = {
+
+	allow = {
+		NOT = { ground_tactical_air_support_doctrine = 1 }
+		combined_arms_theory = 1
+		close_air_support = 1
+		OR = {
+			AND = {
+				germany = 1	
+				land_battles_fought = 250
+				direct_air_support = 1
+			}
+			AND = { 
+				soviet_union = 1
+				land_battles_fought = 300
+				flying_tank = 1
+			}
+			AND = {
+				NOT = { germany = 1 }
+				NOT = { soviet_union = 1 }
+				close_air_support = 1
+				land_battles_fought = 1500
+			}
+		}
+	}
+	
+	change = no
+	
+	tactic_close_air_support = 3
+	unit_cooperation = 0.01
+		
+	infantry_brigade = { 
+		default_morale = 0.01
+	}
+	semi_motorized_brigade = { 
+		default_morale = 0.01
+	}
+	motorized_brigade = { 
+		default_morale = 0.01
+	}
+	mechanized_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	light_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	elite_light_infantry_brigade = { 
+		default_morale = 0.01
+	}
+	elite_light_infantry_battalion = { 
+		default_morale = 0.01
+	}
+	
+	conscript_brigade = { 
+		default_morale = 0.01
+	}
+		
+	combined_arms_brigade = { 
+		default_morale = 0.01
+	}
+	
+	commando_brigade = { 
+		default_morale = 0.01
+	}
+	ski_brigade = { 
+		default_morale = 0.01
+	}
+					
+	ss_mechanized_brigade = { 
+		default_morale = 0.01
+	}	
+	
+	ss_dasreich = { 
+		default_morale = 0.01
+	}	
+	ss_florian_geyer = { 
+		default_morale = 0.01
+	}	
+	ss_frundsberg = { 
+		default_morale = 0.01
+	}	
+	ss_hitlerjugend = { 
+		default_morale = 0.01
+	}	
+	ss_hohenstaufen = { 
+		default_morale = 0.01
+	}	
+	ss_infantry_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_lssah = { 
+		default_morale = 0.01
+	}	
+	ss_motorized_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_prinz_eugen = { 
+		default_morale = 0.01
+	}	
+	ss_Recon_cavalry_brigade = { 
+		default_morale = 0.01
+	}	
+	ss_totenkopf = { 
+		default_morale = 0.01
+	}
+	ss_wiking = { 
+		default_morale = 0.01
+	}
+			
+	anzac_brigade = { 
+		default_morale = 0.01
+	}
+	afrika_brigade = { 
+		default_morale = 0.01
+	}
+	
+	goering_brigade = { 
+		default_morale = 0.01
+	}
+	grossdeutschland_brigade = { 
+		default_morale = 0.01
+	}
+	
+	lehr_brigade = { 
+		default_morale = 0.01
+	}
+	
+	ranger_brigade = { 
+		default_morale = 0.01
+	}
+	
+	infantry_bat = { 
+		default_morale = 0.01
+	}
+	motorized_infantry_bat = { 
+		default_morale = 0.01
+	}
+	
+	ss_infantry_bat = { 
+		default_morale = 0.01
+	}	
+	ss_mechanized_infantry_bat = { 
+		default_morale = 0.01
+	}	
+	ss_motorized_infantry_bat = { 
+		default_morale = 0.01
+	}	
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+	start_year = 1939
+	first_offset = 1940 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# MOBILE INFANTRY THEORY
+# ########################################################################
+mobile_infantry_theory = {
+
+	allow = {
+		combined_arms_theory = 1
+		
+		has_country_flag = mobile_infantry_theory_mechanized
+		
+	}
+			
+	mobile_unit_type = 0.05
+	
+	tactic_assault = 3
+	
+	tactic_tactical_withdrawal = 3
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 15
+	start_year = 1941
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# MECHANIZED ASSAULT TACTICS
+# ########################################################################
+mechanized_assault_tactics = {
+
+	allow = {
+		mobile_infantry_theory = 1 
+		
+	}
+	
+	change = no
+	
+	tactic_super_blitz = 1
+	tactic_encirclement = 1
+	
+	mobile_unit_type = 0.02
+		
+	mechanized_brigade = { 
+		default_organisation = 3
+	}	
+	
+	mechanized_infantry_bat = { 
+		default_organisation = 3
+	}	
+					
+	ss_mechanized_brigade = { 
+		default_organisation = 3
+	}	
+	
+	ss_mechanized_infantry_bat = { 
+		default_organisation = 3
+	}	
+
+	goering_brigade = { 
+		default_organisation = 3
+	}
+			
+	guard_mechanized_brigade = { 
+		default_organisation = 3
+	}
+	
+	guard_mechanized_infantry_bat = { 
+		default_organisation = 3
+	}
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 7
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# PINPOINT BARRAGE
+# ########################################################################
+pinpoint_barrage = {
+
+	allow = {
+		trench_warfare_experience = 1 
+		land_battles_fought = 100
+	}
+	
+	change = no
+		
+	artillery_brigade = { 
+		soft_attack = 0.10
+	}
+	
+	medium_artillery_brigade = { 
+		soft_attack = 0.10
+	}
+	
+	heavy_artillery_brigade = { 
+		soft_attack = 0.10
+	}
+		
+	sp_artillery_brigade = { 
+		soft_attack = 0.10
+	}
+	
+	ss_sp_artillery_brigade = { 
+		soft_attack = 0.10
+	}
+	
+	ss_artillery_brigade = { 
+		soft_attack = 0.10
+	}
+	
+	ss_medium_artillery_brigade = { 
+		soft_attack = 0.10
+	}
+	
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+	start_year = 1939
+	first_offset = 1940 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# SEARCH BARRAGE
+# ########################################################################
+search_barrage = {
+
+	allow = {
+		trench_warfare_experience = 1
+		land_battles_fought = 50
+	}
+	
+		
+	artillery_brigade = { 
+		plains = { 
+			attack = 0.02
+		}
+		woods = { 
+			attack = 0.02
+		}
+		forest = { 
+			attack = 0.02
+		}
+		urban = { 
+			attack = 0.02
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	medium_artillery_brigade = { 
+		plains = { 
+			attack = 0.02
+		}
+		woods = { 
+			attack = 0.02
+		}
+		forest = { 
+			attack = 0.02
+		}
+		urban = { 
+			attack = 0.02
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	heavy_artillery_brigade = { 
+		plains = { 
+			attack = 0.02
+		}
+		woods = { 
+			attack = 0.02
+		}
+		forest = { 
+			attack = 0.02
+		}
+		urban = { 
+			attack = 0.02
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+		
+	sp_artillery_brigade = { 
+		plains = { 
+			attack = 0.02
+		}
+		woods = { 
+			attack = 0.02
+		}
+		forest = { 
+			attack = 0.02
+		}
+		urban = { 
+			attack = 0.02
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	ss_sp_artillery_brigade = { 
+		plains = { 
+			attack = 0.02
+		}
+		woods = { 
+			attack = 0.02
+		}
+		forest = { 
+			attack = 0.02
+		}
+		urban = { 
+			attack = 0.02
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	ss_artillery_brigade = { 
+		plains = { 
+			attack = 0.02
+		}
+		woods = { 
+			attack = 0.02
+		}
+		forest = { 
+			attack = 0.02
+		}
+		urban = { 
+			attack = 0.02
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	ss_medium_artillery_brigade = { 
+		plains = { 
+			attack = 0.02
+		}
+		woods = { 
+			attack = 0.02
+		}
+		forest = { 
+			attack = 0.02
+		}
+		urban = { 
+			attack = 0.02
+		}
+		fort = { 
+			attack = 0.02
+		}
+	}
+	
+	change = no
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+	start_year = 1940
+	first_offset = 1941 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# LIFTING BARRAGE
+# ########################################################################
+lifting_barrage = {
+
+	allow = {
+		trench_warfare_experience = 1
+		land_battles_fought = 25
+	}
+		
+	artillery_brigade = { 
+		plains = { 
+			defence = 0.02
+		}
+		woods = { 
+			defence = 0.02
+		}
+		forest = { 
+			defence = 0.02
+		}
+		urban = { 
+			defence = 0.02
+		}
+	}
+	
+	medium_artillery_brigade = { 
+		plains = { 
+			defence = 0.02
+		}
+		woods = { 
+			defence = 0.02
+		}
+		forest = { 
+			defence = 0.02
+		}
+		urban = { 
+			defence = 0.02
+		}
+	}
+	
+	heavy_artillery_brigade = { 
+		plains = { 
+			defence = 0.02
+		}
+		woods = { 
+			defence = 0.02
+		}
+		forest = { 
+			defence = 0.02
+		}
+		urban = { 
+			defence = 0.02
+		}
+	}
+		
+	sp_artillery_brigade = { 
+		plains = { 
+			defence = 0.02
+		}
+		woods = { 
+			defence = 0.02
+		}
+		forest = { 
+			defence = 0.02
+		}
+		urban = { 
+			defence = 0.02
+		}
+	}
+	
+	ss_sp_artillery_brigade = { 
+		plains = { 
+			defence = 0.02
+		}
+		woods = { 
+			defence = 0.02
+		}
+		forest = { 
+			defence = 0.02
+		}
+		urban = { 
+			defence = 0.02
+		}
+	}
+	
+	ss_artillery_brigade = { 
+		plains = { 
+			defence = 0.02
+		}
+		woods = { 
+			defence = 0.02
+		}
+		forest = { 
+			defence = 0.02
+		}
+		urban = { 
+			defence = 0.02
+		}
+	}
+	
+	ss_medium_artillery_brigade = { 
+		plains = { 
+			defence = 0.02
+		}
+		woods = { 
+			defence = 0.02
+		}
+		forest = { 
+			defence = 0.02
+		}
+		urban = { 
+			defence = 0.02
+		}
+	}
+	
+	change = no
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+	start_year = 1941
+	first_offset = 1942 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# STANDING BARRAGE
+# ########################################################################
+standing_barrage = {
+
+	allow = {
+		trench_warfare_experience = 1
+		land_battles_fought = 25
+	}
+		
+	artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	medium_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	heavy_artillery_brigade = { 
+		default_organisation = 1
+	}
+		
+	sp_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	ss_sp_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	ss_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	ss_medium_artillery_brigade = { 
+		default_organisation = 1
+	}
+	
+	change = no
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+	start_year = 1942
+	first_offset = 1943 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# BOX BARRAGE
+# ########################################################################
+box_barrage = {
+
+	allow = {
+		trench_warfare_experience = 1
+		land_battles_fought = 50
+	}
+		
+	artillery_brigade = { 
+		plains = { 
+			attack = 0.03
+		}
+	}
+	
+	medium_artillery_brigade = { 
+		plains = { 
+			attack = 0.03
+		}
+	}
+	
+	heavy_artillery_brigade = { 
+		plains = { 
+			attack = 0.03
+		}
+	}
+		
+	sp_artillery_brigade = { 
+		plains = { 
+			attack = 0.03
+		}
+	}
+	
+	ss_sp_artillery_brigade = { 
+		plains = { 
+			attack = 0.03
+		}
+	}
+	
+	ss_artillery_brigade = { 
+		plains = { 
+			attack = 0.03
+		}
+	}
+	
+	ss_medium_artillery_brigade = { 
+		plains = { 
+			attack = 0.03
+		}
+	}
+	
+	change = no
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+	start_year = 1943
+	first_offset = 1944 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}
+# ########################################################################
+# COUNTER-BATTERY FIRE
+# ########################################################################
+counter_battery_fire = {
+
+	allow = {
+		trench_warfare_experience = 1
+		land_battles_fought = 75
+	}
+	
+	artillery_unit_type = 0.01
+		
+	change = no
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.25
+	}
+	
+	on_completion = land_doctrine_practical
+
+	difficulty = 5
+	start_year = 1944
+	first_offset = 1945 # Model 1
+	additional_offset = 1 # Model 2 thru 
+	max_level = 10
+	folder = tactical_doctrine_folder
+}

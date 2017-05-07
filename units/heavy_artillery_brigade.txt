@@ -1,0 +1,117 @@
+heavy_artillery_brigade = {
+	type = land
+	sprite = Infantry
+	active = no
+	unit_group = artillery_unit_type
+	
+	is_buildable = yes
+	
+	#Size Definitions
+	max_strength = 18.00
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 80
+
+	#Building Costs
+	build_cost_ic = 8.00
+	build_cost_manpower = 1.8
+	build_time = 90
+	repair_cost_multiplier = 0.06
+
+	#Misc Abilities
+	maximum_speed = 4.0
+	transport_weight = 45.00
+	supply_consumption = 0.85
+	fuel_consumption = 0.00
+	radio_strength = 1
+
+	#Defensive Abilities
+	defensiveness = 30.00
+	toughness = 20.0
+	softness = 0.50
+	air_defence = 30.00
+	armor_value = 1
+
+	#Offensive Abilities
+	suppression = 0.00
+	soft_attack = 7.0     # very high soft attack to cause max disruption
+	hard_attack = 1.0
+	air_attack = 0.1
+	ap_attack = 4
+	
+	# Heavy Artillery excellent for destroying forts and besieging cities.  
+
+   	plains = {
+		attack = 0.80 ## Excellent for attacking open terrain.   
+		defence = 0.25 ## Excellent for defending open terrain. 
+		movement = -0.90 ## Horses have easier time walking on level roads
+	}
+	river = { 
+		attack = 0.80 ## Can provide suppressive covering fire.  
+		defence = 0.25 ## Easy to defend due to long sight lines.
+		movement = -1.00 ## Horses will have trouble pulling artillery guns through river water.  Need bridges! 
+	}
+	arctic = {	
+		attack = 0.80 ## Can still fire guns in the cold
+		defence = 0.25 ## Sitting in a warm foxhole is easier than attacking in -60C!	
+		movement = -0.90 ## Horses can't move guns on the tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		attack = 0.80 ## Excellent for attacking open desert terrain. 
+		defence = 0.25 ## Excellent for defending open desert terrain. 
+		movement = -0.90 ## Horses get hot and thirsty while moving the guns. 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		attack = 0.70 ## Artillery can be effective when bombarding wooded areas.
+		movement = -0.95 ## Not as easy for horses to move guns through wooded areas.  
+	}
+	forest = {
+		attack = 0.50 ## Artillery can be effective when bombarding forested areas.
+		movement = -1.05 ## Not as easy for horses to move guns through wooded areas. 
+	}
+	jungle = { 
+		attack = 0.40 ## Dense jungle difficult to bombard enemy positions.  Not as big of a bonus.   
+		movement = -1.25 ## Not as easy for horses to move guns through wooded areas.
+		attrition = 4 ## Jungles are very inhospitable places.		
+	}
+	
+	hills = { 
+		attack = 0.60 ## Small bonus for attacking hilly areas.  
+		defence = 0.15 ## Easy to defend due to long sight lines. Big bonus due to higher elevations. 
+		movement = -0.95 ## Not as easy for horses to move guns through up and down hilly areas. 
+	}
+	mountain = { 
+		attack = 0.40 ## Sight lines obstructed by mountains.   
+		defence = 0.05 ## Sight lines obstructed by mountains. 
+		movement = -1.10 ## Not easy for horses to move guns through up and down hilly areas. 
+	}
+	urban = {
+		attack = 0.70 ## Excellent for destroying enemy positions in cities.  
+		defence = 0.05 ## Small bonus due to urban environment. 
+		movement = -0.80 ## Easy for horses to move guns through urban streets.  
+	}
+	marsh = { 
+		attack = 0.40 ## Artillery not as effective in marshes.  
+		defence = 0.05 ## Easy to defend due to long sight lines. Big bonus due to slow attacking enemies
+		movement = -1.25 ## Horses have extreme trouble moving through marshes.  
+	}
+	amphibious = { 
+		attack = -1.00 ## Nowhere to setup guns.  
+	}
+	night = { 
+		movement = -0.50  ## Can't see as easily during the night. 
+	}
+	fort = { 
+		attack = 1.00 ## Excellent for bombarding fortifications. 
+		defence = 1.10 ## Excellent for defending fortifications.  
+	}
+	
+	combat_width = 0.45    # high frontage due to bombardments taking up space of battlefront
+
+	completion_size = 0.75
+	on_completion = artillery_practical
+	
+	priority = 20
+}

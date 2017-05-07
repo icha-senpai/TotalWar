@@ -1,0 +1,108 @@
+########################################################################################
+############# Canadian Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Canadian WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### Ross Straight-Pull Bolt-Action Service Rifle
+##############################################################
+
+	country_event = {
+		id = 9107000
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CAN
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107000"
+		desc = "EVTDESC9107000"
+		picture = "ross_bolt_action_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			ross_bolt_action_rifle_hidden = 6000
+			set_global_flag = ross_bolt_action_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Cruiser Tank Ram Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9107001
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CAN
+			medium_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107001"
+		desc = "EVTDESC9107001"
+		picture = "cruiser_tank_ram_medium_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			cruiser_tank_ram_medium_tank_hidden = 6000
+			set_global_flag = cruiser_tank_ram_medium_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}
+##############################################################
+#### Grizzly I Cruiser Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9107002
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CAN
+			medium_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9107002"
+		desc = "EVTDESC9107002"
+		picture = "grizzly_cruiser_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			grizzly_cruiser_tank_hidden = 6000
+			set_global_flag = grizzly_cruiser_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		

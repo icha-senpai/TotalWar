@@ -1,0 +1,98 @@
+fascist_militia_brigade = {  # Battalion Sized Unit
+	type = land
+	sprite = Infantry
+	active = yes
+	is_buildable = yes
+	
+	unit_group = infantry_unit_type 
+	
+	available_trigger = {
+		has_country_flag =  fascist_militia_brigade_activation
+	}
+
+	#Size Definitions - x2 Battalions
+	max_strength = 13
+	default_organisation = 35
+	default_morale = 0.35
+	officers = 10
+	
+	#Building Costs
+	build_cost_ic = 1.00
+	build_cost_manpower = 1.300
+	build_time = 45
+	repair_cost_multiplier = 0.01
+
+	#Misc Abilities
+	maximum_speed = 3.0
+	transport_weight = 1.00
+	supply_consumption = 0.10
+	fuel_consumption = 0.00
+	radio_strength = 0.25
+
+	#Defensive Abilities
+	defensiveness = 2.50
+	toughness = 0.00
+	softness = 1
+	air_defence = 1.00
+
+	#Offensive Abilities
+	suppression = 0.50
+	soft_attack = 0.75
+	hard_attack = 0.00
+	air_attack = 0.00
+
+	## Militia worse at both attack and defense. 
+	
+	plains = { 
+		movement = -0.25 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		movement = -0.35 ## Not easy for infantry to cross river.  
+	}
+	arctic = {	
+		movement = -0.50 ## Not easy to move around on tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		movement = -0.50 ## Desert is too hot and big to cross on foot 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		movement = -0.25 ## Troops not specially trained to move through woods or forest
+	}
+	forest = {
+		movement = -0.35 ## Hard to move through dense forest 
+	}
+	jungle = { 
+		movement = -0.50  ## Not trained for jungle warfare
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		movement = -0.50 # Hard to move through hilly areas
+	}
+	mountain = { 
+		movement = -0.85 # Not trained in mountain warfare
+	}
+	urban = {
+		movement = -0.15  ## Easy to move through urban streets
+	}
+	marsh = { 
+		movement = -0.40 ## Difficult to move through marshes
+	}
+	amphibious = { 
+		
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		
+	}
+
+	combat_width = 0.22
+
+	completion_size = 0.13
+	on_completion = militia_practical
+	priority = 45
+}

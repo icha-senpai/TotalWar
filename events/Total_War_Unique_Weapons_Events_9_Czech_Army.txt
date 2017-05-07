@@ -1,0 +1,312 @@
+########################################################################################
+############# Czechoslovakia Army Unique Weapons Activation Events     ###########
+########################################################################################
+######################################################################################################################################
+#### Czechoslovakia WWII Infantry Weapons
+######################################################################################################################################
+##############################################################
+#### Ceska Zbrojovka vz. 24 Bolt-Action Service Rifle
+##############################################################
+
+	country_event = {
+		id = 9106400
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CZE
+			rifle_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106400"
+		desc = "EVTDESC9106400"
+		picture = "ceska_zbrojovka_twenty_four_bolt_action_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			ceska_zbrojovka_twenty_four_bolt_action_rifle_hidden = 6000
+			set_global_flag = ceska_zbrojovka_twenty_four_bolt_action_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		
+##############################################################
+#### ZH-29 Semi-Automatic Rifle
+##############################################################
+
+	country_event = {
+		id = 9106401
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CZE
+			carbine_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106401"
+		desc = "EVTDESC9106401"
+		picture = "zh_twenty_nine_semi_automatic_rifle"
+		
+		option = {
+			name = "Put it Into Production."
+			zh_twenty_nine_semi_automatic_rifle_hidden = 6000
+			set_global_flag = zh_twenty_nine_semi_automatic_rifle
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Ceska Zbrojovka vz. 30 Light Machine Gun
+##############################################################
+
+	country_event = {
+		id = 9106402
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CZE
+			lmg_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106402"
+		desc = "EVTDESC9106402"
+		picture = "ceska_zbrojovka_thirty_light_machine_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			ceska_zbrojovka_thirty_light_machine_gun_hidden = 6000
+			set_global_flag = ceska_zbrojovka_thirty_light_machine_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Ceska Zbrojovka ZK-383 Submachinegun
+##############################################################
+
+	country_event = {
+		id = 9106403
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CZE
+			submachineguns_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106403"
+		desc = "EVTDESC9106403"
+		picture = "ceska_zbrojovka_zk_three_eighty_three_submachinegun"
+		
+		option = {
+			name = "Put it Into Production."
+			ceska_zbrojovka_zk_three_eighty_three_submachinegun_hidden = 6000
+			set_global_flag = ceska_zbrojovka_zk_three_eighty_three_submachinegun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Skoda 100mm vz. 30 100mm Howitzer
+##############################################################
+
+	country_event = {
+		id = 9106404
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CZE
+			infantry_guns = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106404"
+		desc = "EVTDESC9106404"
+		picture = "skoda_one_hundred_mm_howitzer"
+		
+		option = {
+			name = "Put it Into Production."
+			skoda_one_hundred_mm_howitzer_hidden = 6000
+			set_global_flag = skoda_one_hundred_mm_howitzer
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Skoda vz. 36 47mm Anti-Tank Gun
+##############################################################
+
+	country_event = {
+		id = 9106405
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CZE
+			anti_tank_gun = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106405"
+		desc = "EVTDESC9106405"
+		picture = "skoda_fourty_seven_mm_at_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			skoda_fourty_seven_mm_at_gun_hidden = 6000
+			set_global_flag = skoda_fourty_seven_mm_at_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### Skoda vz. 30 76.5mm Field Gun
+##############################################################
+
+	country_event = {
+		id = 9106406
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CZE
+			med_field_artillery = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106406"
+		desc = "EVTDESC9106406"
+		picture = "skoda_seventy_six_mm_field_gun"
+		
+		option = {
+			name = "Put it Into Production."
+			skoda_seventy_six_mm_field_gun_hidden = 6000
+			set_global_flag = skoda_seventy_six_mm_field_gun
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### LT vz 35/PzKpfW 35(t) Light Tank
+##############################################################
+
+	country_event = {
+		id = 9106407
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CZE
+			light_tank_prototype = 2
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106407"
+		desc = "EVTDESC9106407"
+		picture = "lt_vz_thirty_five_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			lt_vz_thirty_five_light_tank_hidden = 6000
+			set_global_flag = lt_vz_thirty_five_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}	
+##############################################################
+#### LT vz 38/PzKpfW 38(t) Medium Tank
+##############################################################
+
+	country_event = {
+		id = 9106408
+		
+		fire_only_once = yes
+
+		trigger = {
+			tag = CZE
+			medium_tank_prototype = 1
+		}
+		
+		mean_time_to_happen = {
+			days = 15
+		}	
+		
+		title = "EVTNAME9106408"
+		desc = "EVTDESC9106408"
+		picture = "lt_vz_thirty_eight_light_tank"
+		
+		option = {
+			name = "Put it Into Production."
+			lt_vz_thirty_eight_light_tank_hidden = 6000
+			set_global_flag = lt_vz_thirty_eight_light_tank
+			ai_chance = { factor = 100 }
+		}
+		
+		option = {
+			name= "No need."
+			ai_chance = { factor = 0 }
+		}
+	}		

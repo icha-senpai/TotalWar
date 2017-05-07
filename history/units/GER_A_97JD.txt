@@ -1,0 +1,13 @@
+division= {
+	name = "97. Jäger-Division"
+	location = 3155 #rosenheim was in bad tölz
+	leader = 232 # Rupp
+	regiment = { type = GER_A_XCVII_jaeger name = "Stab 97. Jäger-Division" historical_model = 0 experience = 60 organisation = 1 }
+	regiment = { type = light_infantry_brigade name = "Jäger Regiment 204/207" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = infantry_bat name = "Feldersatz-Bataillon 81" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = artillery_brigade name = "Artillerie-Regiment 81" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = anti_tank_brigade name = "Panzerjäger-Abteilung 97" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = Recon_cavalry_brigade name = "Aufklärungs-Abteilung 97" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = engineer_brigade name = "Pionier-Bataillon 97" historical_model = 5 experience = 60 organisation = 1 }
+	regiment = { type = light_transport name = "Versorgungseinheiten 97" historical_model = 0 organisation = 1 }
+}

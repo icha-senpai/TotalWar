@@ -1,0 +1,53 @@
+BB_Queen_elizabeth = {
+	type = naval
+	sprite = Battleship
+	capital = yes
+	can_be_pride = yes
+	
+	hull = 5.15
+	active = no
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.50
+	officers = 100
+
+	#Building Costs
+	build_cost_ic = 14.25
+	build_cost_manpower = 2.100
+	build_time = 655
+	repair_cost_multiplier = 0.25
+
+	#Misc Abilities
+	maximum_speed = 45.40
+	transport_capability = 0.00
+	supply_consumption = 5.55
+	fuel_consumption = 3.85
+	range = 7000.00
+	distance = 0.32
+	positioning = 0.20
+	radio_strength = 1
+
+	#Detection Abilities
+	surface_detection = 1.50
+	air_detection = 1.50
+	sub_detection = 0.00
+	visibility = 120.00
+
+	#Defensive Abilities
+	sea_defence = 41.00
+	air_defence = 21.00 
+
+	#Offensive Abilities
+	convoy_attack = 10.00
+	sea_attack = 23.00
+	sub_attack = 0.00
+	air_attack = 0.0
+	shore_bombardment = 10.00
+
+	completion_size = 3.6
+	on_completion = capitalship_practical
+	
+	priority = 89
+}

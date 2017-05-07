@@ -1,0 +1,52 @@
+destroyer = {	# Destroyer Escorts
+	type = naval
+	sprite = Destroyer
+	active = no
+	is_buildable = yes
+	
+	hull = 0.5
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 10
+
+	#Building Costs
+	build_cost_ic = 0.25
+	build_cost_manpower = 1.00
+	build_time = 200
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 50.00
+	transport_capability = 0.00
+	supply_consumption = 0.25
+	fuel_consumption = 0.45
+	range = 2000
+	distance = 0.14
+	radio_strength = 1
+	positioning = 0.25
+
+	#Detection Abilities
+	surface_detection = 1.00
+	air_detection = 2.00
+	sub_detection = 2.50
+	visibility = 40.00
+
+	#Defensive Abilities
+	sea_defence = 3.50
+	air_defence = 5 
+
+	#Offensive Abilities
+	convoy_attack = 1
+	sea_attack = 0.50
+	sub_attack = 3.00
+	air_attack = 0.0
+	shore_bombardment = 0.1
+
+	completion_size = 1.5
+	on_completion = destroyer_practical
+	
+	priority = 70
+}

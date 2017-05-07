@@ -1,0 +1,1123 @@
+####################################################################
+# Interceptors
+####################################################################
+interceptor.0 = { # 			
+	interceptor_focus = 1
+}
+interceptor.1 = { # 			
+	interceptor_focus = 2
+}
+interceptor.2 = { # 			
+	interceptor_focus = 3
+}
+interceptor.3 = { # 			
+	interceptor_focus = 4
+}
+interceptor.4 = { # 			
+	interceptor_focus = 5
+}
+interceptor.5 = { #				
+	interceptor_focus = 6
+}
+interceptor.6 = { #				
+	interceptor_focus = 7
+}
+interceptor.7 = { #				
+	interceptor_focus = 8
+}
+interceptor.8 = { #				
+	interceptor_focus = 9
+}
+interceptor.9 = { #				
+	interceptor_focus = 10
+}
+interceptor.10 = { #				
+	interceptor_focus = 11
+}
+interceptor.11 = { #				
+	interceptor_focus = 12
+}
+interceptor.12 = { #				
+	interceptor_focus = 13
+}
+interceptor.13 = { #				
+	interceptor_focus = 14
+}
+interceptor.14 = { #				
+	interceptor_focus = 15
+}
+
+####################################################################
+# Multi-Role Fighters
+####################################################################
+multi_role.0 = { # 						
+	multi_role_fighter_focus = 1
+}
+multi_role.1 = { # 						
+	multi_role_fighter_focus = 2
+}
+multi_role.2 = { # 						
+	multi_role_fighter_focus = 3
+}
+multi_role.3 = { # 						
+	multi_role_fighter_focus = 4
+}
+multi_role.4 = { # 						
+	multi_role_fighter_focus = 5
+}
+multi_role.5 = { # 						
+	multi_role_fighter_focus = 6
+}
+multi_role.6 = { # 						
+	multi_role_fighter_focus = 7
+}
+multi_role.7 = { # 						
+	multi_role_fighter_focus = 8
+}
+multi_role.8 = { # 						
+	multi_role_fighter_focus = 9
+}
+multi_role.9 = { # 						
+	multi_role_fighter_focus = 10
+}
+multi_role.10 = { # 						
+	multi_role_fighter_focus = 11
+}
+multi_role.11 = { # 						
+	multi_role_fighter_focus = 12
+}
+multi_role.12 = { # 						
+	multi_role_fighter_focus = 13
+}
+multi_role.13 = { # 						
+	multi_role_fighter_focus = 14
+}
+multi_role.14 = { # 						
+	multi_role_fighter_focus = 15
+}
+
+####################################################################
+# Pursuit Fighters
+####################################################################
+pursuit_fighter.0 = { # 						
+	pursuit_fighter_focus = 1
+}
+pursuit_fighter.1 = { # 						
+	pursuit_fighter_focus = 2
+}
+pursuit_fighter.2 = { # 						
+	pursuit_fighter_focus = 3
+}
+pursuit_fighter.3 = { # 						
+	pursuit_fighter_focus = 4
+}
+pursuit_fighter.4 = { # 						
+	pursuit_fighter_focus = 5
+}
+pursuit_fighter.5 = { # 						
+	pursuit_fighter_focus = 6
+}
+pursuit_fighter.6 = { # 						
+	pursuit_fighter_focus = 7
+}
+pursuit_fighter.7 = { # 						
+	pursuit_fighter_focus = 8
+}
+pursuit_fighter.8 = { # 						
+	pursuit_fighter_focus = 9
+}
+pursuit_fighter.9 = { # 						
+	pursuit_fighter_focus = 10
+}
+pursuit_fighter.10 = { # 						
+	pursuit_fighter_focus = 11
+}
+pursuit_fighter.11 = { # 						
+	pursuit_fighter_focus = 12
+}
+pursuit_fighter.12 = { # 						
+	pursuit_fighter_focus = 13
+}
+pursuit_fighter.13 = { # 						
+	pursuit_fighter_focus = 14
+}
+pursuit_fighter.14 = { # 						
+	pursuit_fighter_focus = 15
+}
+
+####################################################################
+# Fighter-Bombers
+####################################################################
+fighter_bomber.0 = { # 						
+	fighter_bomber_focus = 1
+}
+fighter_bomber.1 = { # 						
+	fighter_bomber_focus = 2
+}
+fighter_bomber.2 = { # 						
+	fighter_bomber_focus = 3
+}
+fighter_bomber.3 = { # 					
+	fighter_bomber_focus = 4
+}
+fighter_bomber.4 = { # 						
+	fighter_bomber_focus = 5
+}
+fighter_bomber.5 = { # 						
+	fighter_bomber_focus = 6
+}
+fighter_bomber.6 = { # 						
+	fighter_bomber_focus = 7
+}
+fighter_bomber.7 = { # 						
+	fighter_bomber_focus = 8
+}
+fighter_bomber.8 = { # 						
+	fighter_bomber_focus = 9
+}
+fighter_bomber.9 = { # 						
+	fighter_bomber_focus = 10
+}
+fighter_bomber.10 = { # 						
+	fighter_bomber_focus = 11
+}
+fighter_bomber.11 = { # 						
+	fighter_bomber_focus = 12
+}
+fighter_bomber.12 = { # 						
+	fighter_bomber_focus = 13
+}
+fighter_bomber.13 = { # 						
+	fighter_bomber_focus = 14
+}
+fighter_bomber.14 = { # 						
+	fighter_bomber_focus = 15
+}
+
+####################################################################
+# Close-Air Support (CAS)
+####################################################################
+cas.0 = { # 					
+	close_air_support_focus = 1
+}
+cas.1 = { # 					
+	close_air_support_focus = 2
+}
+cas.2 = { # 					
+	close_air_support_focus = 3
+}
+cas.3 = { # 					
+	close_air_support_focus = 4
+}
+cas.4 = { # 					
+	close_air_support_focus = 5
+}
+cas.5 = { # 					
+	close_air_support_focus = 6
+}
+cas.6 = { # 					
+	close_air_support_focus = 7
+}
+cas.7 = { # 					
+	close_air_support_focus = 8
+}
+cas.8 = { # 					
+	close_air_support_focus = 9
+}
+cas.9 = { # 					
+	close_air_support_focus = 10
+}
+cas.10 = { # 					
+	close_air_support_focus = 11
+}
+cas.11 = { # 					
+	close_air_support_focus = 12
+}
+cas.12 = { # 					
+	close_air_support_focus = 13
+}
+cas.13 = { # 					
+	close_air_support_focus = 14
+}
+cas.14 = { # 					
+	close_air_support_focus = 15
+}
+
+####################################################################
+# Heavy CAS
+####################################################################
+heavy_cas.0 = { # 						
+	heavy_close_air_support_focus = 1
+}
+heavy_cas.1 = { # 						
+	heavy_close_air_support_focus = 2
+}
+heavy_cas.2 = { # 						
+	heavy_close_air_support_focus = 3
+}
+heavy_cas.3 = { # 						
+	heavy_close_air_support_focus = 4
+}
+heavy_cas.4 = { # 						
+	heavy_close_air_support_focus = 5
+}
+heavy_cas.5 = { # 						
+	heavy_close_air_support_focus = 6
+}
+heavy_cas.6 = { # 						
+	heavy_close_air_support_focus = 7
+}
+heavy_cas.7 = { # 						
+	heavy_close_air_support_focus = 8
+}
+
+####################################################################
+# Carrier Air Groups (CAGs)
+####################################################################
+cag.0 = { #		Carrier Reconaissance Squadron								
+	wwi_biplane_designs = 1
+}
+
+####################################################################
+# Carrier Fighter
+####################################################################
+naval_fighter.0 = { # 						
+	naval_fighter_focus = 1
+}
+naval_fighter.1 = { # 						
+	naval_fighter_focus = 2
+}
+naval_fighter.2 = { # 					
+	naval_fighter_focus = 3
+}
+naval_fighter.3 = { # 					
+	naval_fighter_focus = 4
+}
+naval_fighter.4 = { # 					
+	naval_fighter_focus = 5
+}
+naval_fighter.5 = { # 					
+	naval_fighter_focus = 6
+}
+naval_fighter.6 = { # 				
+	naval_fighter_focus = 7
+}
+naval_fighter.7 = { # 					
+	naval_fighter_focus = 8
+}
+naval_fighter.8 = { # 					
+	naval_fighter_focus = 9
+}
+
+####################################################################
+# Carrier Fighter-Bomber
+####################################################################
+naval_fighter_bomber.0 = { # 						
+	naval_fighter_bomber_focus = 1
+}
+naval_fighter_bomber.1 = { # 						
+	naval_fighter_bomber_focus = 2
+}
+naval_fighter_bomber.2 = { # 						
+	naval_fighter_bomber_focus = 3
+}
+naval_fighter_bomber.3 = { # 					
+	naval_fighter_bomber_focus = 4
+}
+naval_fighter_bomber.4 = { # 						
+	naval_fighter_bomber_focus = 5
+}
+naval_fighter_bomber.5 = { # 						
+	naval_fighter_bomber_focus = 6
+}
+naval_fighter_bomber.6 = { # 						
+	naval_fighter_bomber_focus = 7
+}
+naval_fighter_bomber.7 = { # 					
+	naval_fighter_bomber_focus = 8
+}
+naval_fighter_bomber.8 = { # 				
+	naval_fighter_bomber_focus = 9
+}
+
+####################################################################
+# Carrier Dive-Bomber
+####################################################################
+naval_dive_bomber.0 = { # 			
+	naval_dive_bomber_focus = 1
+}
+naval_dive_bomber.1 = { # 					
+	naval_dive_bomber_focus = 2
+}
+naval_dive_bomber.2 = { # 						
+	naval_dive_bomber_focus = 3
+}
+naval_dive_bomber.3 = { # 					
+	naval_dive_bomber_focus = 4
+}
+naval_dive_bomber.4 = { # 					
+	naval_dive_bomber_focus = 5
+}
+naval_dive_bomber.5 = { # 					
+	naval_dive_bomber_focus = 6
+}
+naval_dive_bomber.6 = { # 					
+	naval_dive_bomber_focus = 7
+}
+naval_dive_bomber.7 = { # 					
+	naval_dive_bomber_focus = 8
+}
+naval_dive_bomber.8 = { # 					
+	naval_dive_bomber_focus = 9
+}
+
+####################################################################
+# Carrier Torpedo Plane
+####################################################################
+naval_torpedo_plane.0 = { # 					
+	naval_torpedo_plane_focus = 1
+}
+naval_torpedo_plane.1 = { # 					
+	naval_torpedo_plane_focus = 2
+}
+naval_torpedo_plane.2 = { # 						
+	naval_torpedo_plane_focus = 3
+}
+naval_torpedo_plane.3 = { # 					
+	naval_torpedo_plane_focus = 4
+}
+naval_torpedo_plane.4 = { # 					
+	naval_torpedo_plane_focus = 5
+}
+naval_torpedo_plane.5 = { # 					
+	naval_torpedo_plane_focus = 6
+}
+naval_torpedo_plane.6 = { # 					
+	naval_torpedo_plane_focus = 7
+}
+naval_torpedo_plane.7 = { # 					
+	naval_torpedo_plane_focus = 8
+}
+naval_torpedo_plane.8 = { # 					
+	naval_torpedo_plane_focus = 9
+}
+
+####################################################################
+# Carrier CAS
+####################################################################
+naval_cas.0 = { # 					
+	naval_cas_focus = 1
+}
+naval_cas.1 = { # 						
+	naval_cas_focus = 2
+}
+naval_cas.2 = { # 						
+	naval_cas_focus = 3
+}
+naval_cas.3 = { # 					
+	naval_cas_focus = 4
+}
+naval_cas.4 = { # 						
+	naval_cas_focus = 5
+}
+naval_cas.5 = { # 						
+	naval_cas_focus = 6
+}
+naval_cas.6 = { # 						
+	naval_cas_focus = 7
+}
+naval_cas.7 = { # 					
+	naval_cas_focus = 8
+}
+naval_cas.8 = { # 				
+	naval_cas_focus = 9
+}
+
+####################################################################
+# Twin-Engine Fighters
+####################################################################
+twin_engine_fighters.0 = {	# 			
+	twin_engine_fighter_focus = 1
+}
+twin_engine_fighters.1 = { 	#			
+	twin_engine_fighter_focus = 2
+}
+twin_engine_fighters.2 = {  #			
+	twin_engine_fighter_focus = 3
+}
+twin_engine_fighters.3 = {	#			
+	twin_engine_fighter_focus = 4
+}
+twin_engine_fighters.4 = {	#			
+	twin_engine_fighter_focus = 5
+}
+twin_engine_fighters.5 = {	#			
+	twin_engine_fighter_focus = 6
+}
+twin_engine_fighters.6 = {	#			
+	twin_engine_fighter_focus = 7
+}
+twin_engine_fighters.7 = {	#			
+	twin_engine_fighter_focus = 8
+}
+twin_engine_fighters.8 = {	#			
+	twin_engine_fighter_focus = 9
+}
+twin_engine_fighters.9 = {	#			
+	twin_engine_fighter_focus = 10
+}
+twin_engine_fighters.10 = {	#			
+	twin_engine_fighter_focus = 11
+}
+
+####################################################################
+# Night Fighters
+####################################################################
+night_fighter.0 = {	# 			
+	night_fighter_focus = 1
+}
+night_fighter.1 = { 	#			
+	night_fighter_focus = 2
+}
+night_fighter.2 = {  #			
+	night_fighter_focus = 3
+}
+night_fighter.3 = {	#			
+	night_fighter_focus = 4
+}
+night_fighter.4 = {	#			
+	night_fighter_focus = 5
+}
+night_fighter.5 = {	#			
+	night_fighter_focus = 6
+}
+night_fighter.6 = {	#			
+	night_fighter_focus = 7
+}
+night_fighter.7 = {	#			
+	night_fighter_focus = 8
+}
+
+####################################################################
+# Multi-Role Bomber
+####################################################################
+light_bomber.0 = {	#				
+	multi_role_bomber_focus = 1
+}
+light_bomber.1 = {	#				
+	multi_role_bomber_focus = 2
+}
+light_bomber.2 = {	#				
+	multi_role_bomber_focus = 3
+}
+light_bomber.3 = {	#				
+	multi_role_bomber_focus = 4
+}
+light_bomber.4 = {	#				
+	multi_role_bomber_focus = 5
+}
+light_bomber.5 = {	#				
+	multi_role_bomber_focus = 6
+}
+light_bomber.6 = {	#				
+	multi_role_bomber_focus = 7
+}
+light_bomber.7 = {	#				
+	multi_role_bomber_focus = 8
+}
+light_bomber.8 = {	#				
+	multi_role_bomber_focus = 9
+}
+light_bomber.9 = {	#				
+	multi_role_bomber_focus = 10
+}
+
+####################################################################
+# Medium (Tactical) Bombers
+####################################################################
+tactical_bomber.0 = { # 				
+	tactical_bomber_focus = 1
+}
+tactical_bomber.1 = { # 				
+	tactical_bomber_focus = 2
+}
+tactical_bomber.2 = { # 				
+	tactical_bomber_focus = 3
+}
+tactical_bomber.3 = { # 				
+	tactical_bomber_focus = 4
+}
+tactical_bomber.4 = { # 				
+	tactical_bomber_focus = 5
+}
+tactical_bomber.5 = { # 				
+	tactical_bomber_focus = 6
+}
+tactical_bomber.6 = { # 				
+	tactical_bomber_focus = 7
+}
+tactical_bomber.7 = { # 				
+	tactical_bomber_focus = 8
+}
+tactical_bomber.8 = { # 				
+	tactical_bomber_focus = 9
+}
+tactical_bomber.9 = { # 				
+	tactical_bomber_focus = 10
+}
+
+####################################################################
+# Twin-Engine Transport Planes
+####################################################################
+transport_plane.0 = { # 							 	 
+	twin_engine_transport_focus = 1
+}
+transport_plane.1 = { # 				
+	twin_engine_transport_focus = 2
+}
+transport_plane.2 = { # 					 	 
+	twin_engine_transport_focus = 3
+}
+transport_plane.3 = { # 							 
+	twin_engine_transport_focus = 4
+}
+transport_plane.4 = { # 							 
+	twin_engine_transport_focus = 5
+}
+transport_plane.5 = { # 							 
+	twin_engine_transport_focus = 6
+}
+transport_plane.6 = { # 							 
+	twin_engine_transport_focus = 7
+}
+transport_plane.7 = { # 							 
+	twin_engine_transport_focus = 8
+}
+transport_plane.8 = { # 							 
+	twin_engine_transport_focus = 9
+}
+transport_plane.9 = { # 							 
+	twin_engine_transport_focus = 10
+}
+
+####################################################################
+# Flying Boats
+####################################################################
+Flying_boat.0 = { #					
+	seaplane_focus = 1
+}
+Flying_boat.1 = { #					
+	seaplane_focus = 2
+}
+Flying_boat.2 = { #					
+	seaplane_focus = 3
+}
+Flying_boat.3 = { #					
+	seaplane_focus = 4
+}
+Flying_boat.4 = { #					
+	seaplane_focus = 5
+}
+Flying_boat.5 = { #					
+	seaplane_focus = 6
+}
+Flying_boat.6 = { #					
+	seaplane_focus = 7
+}
+Flying_boat.7 = { #					
+	seaplane_focus = 8
+}
+Flying_boat.8 = { #					
+	seaplane_focus = 9
+}
+Flying_boat.9 = { #					
+	seaplane_focus = 10
+}
+
+####################################################################
+# Naval Bombers Planes
+####################################################################
+naval_bomber.0 = { # 				
+	naval_bomber_focus = 1
+}
+naval_bomber.1 = { # 				
+	naval_bomber_focus = 2
+}
+naval_bomber.2 = { # 				
+	naval_bomber_focus = 3
+}
+naval_bomber.3 = { # 				
+	naval_bomber_focus = 4
+}
+naval_bomber.4 = { # 				
+	naval_bomber_focus = 5
+}
+naval_bomber.5 = { # 				
+	naval_bomber_focus = 6
+}
+naval_bomber.6 = { # 				
+	naval_bomber_focus = 7
+}
+naval_bomber.7 = { # 				
+	naval_bomber_focus = 8
+}
+naval_bomber.8 = { # 				
+	naval_bomber_focus = 9
+}
+naval_bomber.9 = { # 				
+	naval_bomber_focus = 10
+}
+naval_bomber.10 = { # 				
+	naval_bomber_focus = 11
+}
+naval_bomber.11 = { # 				
+	naval_bomber_focus = 12
+}
+naval_bomber.12 = { # 				
+	naval_bomber_focus = 13
+}
+naval_bomber.13 = { # 				
+	naval_bomber_focus = 14
+}
+naval_bomber.14 = { # 				
+	naval_bomber_focus = 15
+}
+naval_bomber.15 = { # 				
+	naval_bomber_focus = 16
+}
+naval_bomber.16 = { # 				
+	naval_bomber_focus = 17
+}
+naval_bomber.17 = { # 				
+	naval_bomber_focus = 18
+}
+
+
+####################################################################
+# Strategic Bombers
+####################################################################
+strategic_bomber.0 = { # 			
+	strategic_bomber_focus = 1
+}
+strategic_bomber.1 = { # 			
+	strategic_bomber_focus = 2
+}
+strategic_bomber.2 = { # 			
+	strategic_bomber_focus = 3
+}
+strategic_bomber.3 = { # 			
+	strategic_bomber_focus = 4
+}
+strategic_bomber.4 = { # 			
+	strategic_bomber_focus = 5
+}
+strategic_bomber.5 = { # 			
+	strategic_bomber_focus = 6
+}
+strategic_bomber.6 = { # 			
+	strategic_bomber_focus = 7
+}
+strategic_bomber.7 = { # 			
+	strategic_bomber_focus = 8
+}
+strategic_bomber.8 = { # 			
+	strategic_bomber_focus = 9
+}
+strategic_bomber.9 = { # 			
+	strategic_bomber_focus = 10
+}
+strategic_bomber.10 = { # 			
+	strategic_bomber_focus = 11
+}
+strategic_bomber.11 = { # 			
+	strategic_bomber_focus = 12
+}
+strategic_bomber.12 = { # 			
+	strategic_bomber_focus = 13
+}
+strategic_bomber.13 = { # 			
+	strategic_bomber_focus = 14
+}
+strategic_bomber.14 = { # 			
+	strategic_bomber_focus = 15
+}
+strategic_bomber.15 = { # 			
+	strategic_bomber_focus = 16
+}
+strategic_bomber.16 = { # 			
+	strategic_bomber_focus = 17
+}
+strategic_bomber.17 = { # 			
+	strategic_bomber_focus = 18
+}
+
+####################################################################
+# Heavy Bombers
+####################################################################
+heavy_bomber.0 = { # 			
+	heavy_bomber_focus = 1
+}
+heavy_bomber.1 = { # 			
+	heavy_bomber_focus = 2
+}
+heavy_bomber.2 = { # 			
+	heavy_bomber_focus = 3
+}
+heavy_bomber.3 = { # 			
+	heavy_bomber_focus = 4
+}
+heavy_bomber.4 = { # 			
+	heavy_bomber_focus = 5
+}
+heavy_bomber.5 = { # 			
+	heavy_bomber_focus = 6
+}
+heavy_bomber.6 = { # 			
+	heavy_bomber_focus = 7
+}
+heavy_bomber.7 = { # 			
+	heavy_bomber_focus = 8
+}
+heavy_bomber.8 = { # 			
+	heavy_bomber_focus = 9
+}
+heavy_bomber.9 = { # 			
+	heavy_bomber_focus = 10
+}
+heavy_bomber.10 = { # 			
+	heavy_bomber_focus = 11
+}
+heavy_bomber.11 = { # 			
+	heavy_bomber_focus = 12
+}
+heavy_bomber.12 = { # 			
+	heavy_bomber_focus = 13
+}
+heavy_bomber.13 = { # 			
+	heavy_bomber_focus = 14
+}
+heavy_bomber.14 = { # 			
+	heavy_bomber_focus = 15
+}
+heavy_bomber.15 = { # 			
+	heavy_bomber_focus = 16
+}
+heavy_bomber.16 = { # 			
+	heavy_bomber_focus = 17
+}
+heavy_bomber.17 = { # 			
+	heavy_bomber_focus = 18
+}
+
+####################################################################
+# Super Heavy Bombers
+####################################################################
+super_heavy_bomber.0 = { # 			
+	super_heavy_bomber_focus = 1
+}
+super_heavy_bomber.1 = { # 			
+	super_heavy_bomber_focus = 2
+}
+super_heavy_bomber.2 = { # 			
+	super_heavy_bomber_focus = 3
+}
+super_heavy_bomber.3 = { # 			
+	super_heavy_bomber_focus = 4
+}
+super_heavy_bomber.4 = { # 			
+	super_heavy_bomber_focus = 5
+}
+super_heavy_bomber.5 = { # 			
+	super_heavy_bomber_focus = 6
+}
+super_heavy_bomber.6 = { # 			
+	super_heavy_bomber_focus = 7
+}
+super_heavy_bomber.7 = { # 			
+	super_heavy_bomber_focus = 8
+}
+super_heavy_bomber.8 = { # 			
+	super_heavy_bomber_focus = 9
+}
+
+####################################################################
+# Heavy Transport Planes
+####################################################################
+quad_engine_transport.0 = { # 			
+	heavy_transport_focus = 1
+}
+quad_engine_transport.1 = { # 			
+	heavy_transport_focus = 2
+}
+quad_engine_transport.2 = { # 			
+	heavy_transport_focus = 3
+}
+quad_engine_transport.3 = { # 			
+	heavy_transport_focus = 4
+}
+quad_engine_transport.4 = { # 			
+	heavy_transport_focus = 5
+}
+quad_engine_transport.5 = { # 			
+	heavy_transport_focus = 6
+}
+quad_engine_transport.6 = { # 			
+	heavy_transport_focus = 7
+}
+quad_engine_transport.7 = { # 			
+	heavy_transport_focus = 8
+}
+quad_engine_transport.8 = { # 			
+	heavy_transport_focus = 9
+}
+quad_engine_transport.9 = { # 			
+	heavy_transport_focus = 10
+}
+quad_engine_transport.10 = { # 			
+	heavy_transport_focus = 11
+}
+quad_engine_transport.11 = { # 			
+	heavy_transport_focus = 12
+}
+quad_engine_transport.12 = { # 			
+	heavy_transport_focus = 13
+}
+quad_engine_transport.13 = { # 			
+	heavy_transport_focus = 14
+}
+quad_engine_transport.14 = { # 			
+	heavy_transport_focus = 15
+}
+quad_engine_transport.15 = { # 			
+	heavy_transport_focus = 16
+}
+quad_engine_transport.16 = { # 			
+	heavy_transport_focus = 17
+}
+quad_engine_transport.17 = { # 			
+	heavy_transport_focus = 18
+}
+####################################################################
+# Jet Fighters
+####################################################################
+rocket_interceptor.0 = { # 			
+	jet_fighter_focus = 1
+}
+rocket_interceptor.1 = { # 			
+	jet_fighter_focus = 2
+}
+rocket_interceptor.2 = { # 			
+	jet_fighter_focus = 3
+}
+rocket_interceptor.3 = { # 			
+	jet_fighter_focus = 4
+}
+rocket_interceptor.4 = { # 			
+	jet_fighter_focus = 5
+}
+rocket_interceptor.5 = { # 			
+	jet_fighter_focus = 6
+}
+rocket_interceptor.6 = { # 			
+	jet_fighter_focus = 7
+}
+####################################################################
+# Jet Flying Wing
+####################################################################
+jet_flying_wing.0 = { # 			
+	jet_fighter_flying_wing_focus = 1
+}
+jet_flying_wing.1 = { # 			
+	jet_fighter_flying_wing_focus = 2
+}
+jet_flying_wing.2 = { # 			
+	jet_fighter_flying_wing_focus = 3
+}
+jet_flying_wing.3 = { # 			
+	jet_fighter_flying_wing_focus = 4
+}
+jet_flying_wing.4 = { # 			
+	jet_fighter_flying_wing_focus = 5
+}
+jet_flying_wing.5 = { # 			
+	jet_fighter_flying_wing_focus = 6
+}
+jet_flying_wing.6 = { # 			
+	jet_fighter_flying_wing_focus = 7
+}
+####################################################################
+# Jet Bombers
+####################################################################
+jet_bomber.0 = { # 			
+	jet_bomber_focus = 1
+}
+jet_bomber.1 = { # 			
+	jet_bomber_focus = 2
+}
+jet_bomber.2 = { # 			
+	jet_bomber_focus = 3
+}
+jet_bomber.3 = { # 			
+	jet_bomber_focus = 4
+}
+jet_bomber.4 = { # 			
+	jet_bomber_focus = 5
+}
+jet_bomber.5 = { # 			
+	jet_bomber_focus = 6
+}
+jet_bomber.6 = { # 			
+	jet_bomber_focus = 7
+}
+
+####################################################################
+# Long Range Jet Bomber
+####################################################################
+amerika_bomber.0 = { # 			
+	jet_bomber_flying_wing_focus = 1
+}
+amerika_bomber.1 = { # 			
+	jet_bomber_flying_wing_focus = 2
+}
+amerika_bomber.2 = { # 			
+	jet_bomber_flying_wing_focus = 3
+}
+amerika_bomber.3 = { # 			
+	jet_bomber_flying_wing_focus = 4
+}
+amerika_bomber.4 = { # 			
+	jet_bomber_flying_wing_focus = 5
+}
+amerika_bomber.5 = { # 			
+	jet_bomber_flying_wing_focus = 6
+}
+amerika_bomber.6 = { # 			
+	jet_bomber_flying_wing_focus = 7
+}
+
+####################################################################
+# Advanced Jet Fighter
+####################################################################
+advanced_jet_fighter.0 = { # 			
+	advanced_jet_fighter_focus = 1
+}
+advanced_jet_fighter.1 = { # 			
+	advanced_jet_fighter_focus = 2
+}
+advanced_jet_fighter.2 = { # 			
+	advanced_jet_fighter_focus = 3
+}
+advanced_jet_fighter.3 = { # 			
+	advanced_jet_fighter_focus = 4
+}
+advanced_jet_fighter.4 = { # 			
+	advanced_jet_fighter_focus = 5
+}
+advanced_jet_fighter.5 = { # 		
+	advanced_jet_fighter_focus = 6
+}
+advanced_jet_fighter.6 = { # 			
+	advanced_jet_fighter_focus = 7
+}
+
+####################################################################
+# Advanced Jet CAS
+####################################################################
+advanced_jet_cas.0 = { # 			
+	advanced_jet_cas_focus = 1
+}
+advanced_jet_cas.1 = { # 			
+	advanced_jet_cas_focus = 2
+}
+advanced_jet_cas.2 = { # 			
+	advanced_jet_cas_focus = 3
+}
+advanced_jet_cas.3 = { # 			
+	advanced_jet_cas_focus = 4
+}
+advanced_jet_cas.4 = { # 			
+	advanced_jet_cas_focus = 5
+}
+advanced_jet_cas.5 = { # 			
+	advanced_jet_cas_focus = 6
+}
+advanced_jet_cas.6 = { # 			
+	advanced_jet_cas_focus = 7
+}
+
+
+####################################################################
+# Advanced Jet Bomber
+####################################################################
+advanced_jet_bomber.0 = { # 			
+	advanced_jet_fighter_focus = 1
+}
+advanced_jet_bomber.1 = { # 			
+	advanced_jet_fighter_focus = 2
+}
+advanced_jet_bomber.2 = { # 			
+	advanced_jet_fighter_focus = 3
+}
+advanced_jet_bomber.3 = { # 			
+	advanced_jet_fighter_focus = 4
+}
+advanced_jet_bomber.4 = { # 			
+	advanced_jet_fighter_focus = 5
+}
+advanced_jet_bomber.5 = { # 			
+	advanced_jet_fighter_focus = 6
+}
+advanced_jet_bomber.6 = { # 			
+	advanced_jet_fighter_focus = 7
+}
+
+####################################################################
+# Advanced Jet Heavy Bomber
+####################################################################
+advanced_jet_heavy_bomber.0 = { # 			
+	advanced_jet_heavy_bomber_focus = 1
+}
+advanced_jet_heavy_bomber.1 = { # 			
+	advanced_jet_heavy_bomber_focus = 2
+}
+advanced_jet_heavy_bomber.2 = { # 			
+	advanced_jet_heavy_bomber_focus = 3
+}
+advanced_jet_heavy_bomber.3 = { # 			
+	advanced_jet_heavy_bomber_focus = 4
+}
+advanced_jet_heavy_bomber.4 = { # 			
+	advanced_jet_heavy_bomber_focus = 5
+}
+advanced_jet_heavy_bomber.5 = { # 			
+	advanced_jet_heavy_bomber_focus = 6
+}
+advanced_jet_heavy_bomber.6 = { # 			
+	advanced_jet_heavy_bomber_focus = 7
+}
+
+####################################################################
+# Tactical Transport
+####################################################################
+tactical_transport_aircraft.0 = { # 					
+	tactical_transport_focus = 1
+}
+tactical_transport_aircraft.1 = { # 			
+	tactical_transport_focus = 2
+}
+tactical_transport_aircraft.2 = { # 			
+	tactical_transport_focus = 3
+}
+tactical_transport_aircraft.3 = { # 			
+	tactical_transport_focus = 4
+}
+tactical_transport_aircraft.4 = { # 			
+	tactical_transport_focus = 5
+}
+tactical_transport_aircraft.5 = { # 			
+	tactical_transport_focus = 6
+}
+tactical_transport_aircraft.6 = { # 			
+	tactical_transport_focus = 7
+}
+####### EOF

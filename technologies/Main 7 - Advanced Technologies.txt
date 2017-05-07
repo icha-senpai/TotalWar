@@ -1,0 +1,1204 @@
+################################################################################
+# ADVANCED TECHNOLOGIES	
+################################################################################
+#########################################################################
+#  NUCLEAR REACTOR FISSION STATION
+#########################################################################
+nuclear_reactor_fission_station = {
+	
+	allow = { 
+		nuclear_test_facility = 1
+		nuclear_bomb_production = 1
+	}
+	
+	change = no
+	
+	ic_modifier = 0.02
+	manpower_gain = -0.01	
+	
+	research_bonus_from = {
+		nuclear_physics = 1.0
+	}
+
+	on_completion = nuclear_physics
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1951
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  LARGE SCALE NUCLEAR REACTOR
+#########################################################################
+large_scale_nuclear_reactor = {
+	
+	allow = { 
+		nuclear_reactor_fission_station = 1
+	}
+	
+	change = no
+	
+	ic_modifier = 0.02
+	manpower_gain = -0.01
+	ic_efficiency = 0.02
+	metal_production = 0.02
+	rares_production = 0.02
+	energy_production = 0.02
+	ic_to_supplies = 0.02
+	repair_rate = 0.02
+	
+	research_bonus_from = {
+		nuclear_physics = 1.0
+	}
+
+	on_completion = nuclear_physics
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1957
+	first_offset = 1959	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 12
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  HYDROGEN BOMB DEVELOPMENT
+#########################################################################
+hydrogen_bomb_development = {
+	
+	allow = { 
+		nuclear_bomb_production = 7
+		
+	}
+	
+	change = no
+	
+	ic_modifier = -0.01
+	manpower_gain = -0.01		
+	
+	research_bonus_from = {
+		nuclear_bomb = 0.9
+		nuclear_physics = 0.1
+	}
+
+	on_completion = nuclear_bomb
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1950
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  HYDROGEN BOMB TESTS
+#########################################################################
+hydrogen_bomb_tests = {
+	
+	allow = { 
+		hydrogen_bomb_development = 1
+	}
+	
+	change = no
+	
+	ic_modifier = -0.02
+	manpower_gain = -0.02		
+	
+	research_bonus_from = {
+		nuclear_bomb = 0.9
+		nuclear_physics = 0.1
+	}
+
+	on_completion = nuclear_bomb
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1952
+	first_offset = 1954	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 6
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  HYDROGEN BOMB PRODUCTION
+#########################################################################
+hydrogen_bomb_production = {
+	
+	allow = { 
+		hydrogen_bomb_tests = 2
+	}
+	
+	change = no
+	
+	nuclear_production = 0.10	
+	
+	is_nuclear = yes
+	
+	research_bonus_from = {
+		nuclear_bomb = 0.9
+		nuclear_physics = 0.1
+	}
+
+	on_completion = nuclear_bomb
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1954
+	first_offset = 1954	
+	additional_offset = 1	
+	max_level = 24
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  POLIO VACCINE
+#########################################################################
+polio_vaccine = {
+	
+	allow = { 
+		penicillin_mass_production = 1
+		combat_medicine = 9
+	}
+			
+	manpower_gain = 0.10
+	
+	research_bonus_from = {
+		land_doctrine_practical = 0.01
+	}
+
+	on_completion = land_doctrine_practical
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1955
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  THE TRANSISTOR
+#########################################################################
+the_transistor = {
+	
+	allow = { 
+		electronic_computing_machine = 9
+		electronics_engineering = 10
+	}
+		
+	research_efficiency = 0.02	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1947
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  TRANSISTOR COMPUTER
+#########################################################################
+transistor_computer = {
+	
+	allow = { 
+		the_transistor = 1
+		electronics_engineering = 18
+	}
+		
+	research_efficiency = 0.05	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1955
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  INTEGRATED CIRCUIT COMPUTER
+#########################################################################
+integrated_circuit_computer = {
+	
+	allow = { 
+		transistor_computer = 1
+		electronics_engineering = 20
+	}
+		
+	research_efficiency = 0.04	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1958
+	first_offset = 1960	#2nd model is from 1940
+	additional_offset = 2	#one new every 2 years
+	max_level = 7
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  THE TELEVISION SET
+#########################################################################
+the_television_set = {
+	
+	allow = { 
+		broadcasting = 6
+		electronics_engineering = 9
+	}
+	
+	encryption = -0.02
+	leadership_gain = 0.02	
+	research_efficiency = 0.01
+	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1946
+	first_offset = 1948	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 12
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  COLOR TELEVISION SET
+#########################################################################
+color_television_set = {
+	
+	allow = { 
+		the_television_set = 11
+		integrated_circuit_computer = 1
+		electronics_engineering = 31
+	}
+	
+	encryption = -0.02
+	leadership_gain = 0.02	
+	research_efficiency = 0.01	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1968
+	first_offset = 1970	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 2
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  SURFACE TO AIR MISSILE THEORY
+#########################################################################
+surface_to_air_missile_theory = {
+	
+	allow = { 
+		electronic_computing_machine = 4
+		rocket_development = 1
+		electronics_engineering = 5
+	}
+	
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1942
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  SURFACE TO AIR MISSILE DEVELOPMENT
+#########################################################################
+surface_to_air_missile_development = {
+	
+	allow = { 
+		surface_to_air_missile_theory = 1
+	}
+	
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1944
+	first_offset = 1946	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 5
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  OPTICALLY GUIDED SURFACE TO AIR MISSILE
+#########################################################################
+optical_surface_to_air_missile = {
+	
+	allow = { 
+		surface_to_air_missile_development = 1
+		electronics_engineering = 8
+	}
+	
+		
+	provincial_aa_efficiency = 0.50	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1945
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  RADAR GUIDED SURFACE TO AIR MISSILE
+#########################################################################
+surface_to_air_missile = {
+	
+	allow = { 
+		surface_to_air_missile_development = 5
+		ground_based_radar = 12
+		electronics_engineering = 16
+	}
+	
+		
+	provincial_aa_efficiency = 0.25
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1952
+	first_offset = 1955	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 6
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  MEDIUM RANGE SAM DEVELOPMENT
+#########################################################################
+medium_range_sam_development = {
+	
+	allow = { 
+		surface_to_air_missile = 1
+		transistor_computer = 1
+		electronics_engineering = 23
+	}
+		
+	provincial_aa_efficiency = 0.10
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1960
+	first_offset = 1963	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 3
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  SURFACE TO SURFACE MISSILE
+#########################################################################
+surface_to_surface_missile = {
+	
+	allow = { 
+		surface_to_air_missile_development = 5
+		integrated_circuit_computer = 1
+		flying_bomb = 1
+		strategic_rocket = 1
+		electronics_engineering = 20
+	}
+	
+	change = no
+		
+	flying_bomb = {
+		range = 200
+		strategic_attack = 5.0
+		maximum_speed = 100.0
+		soft_attack = 3.00
+		hard_attack = 1.00
+		build_cost_ic = 2.00
+		build_cost_manpower = 0.25
+		build_time = 10
+	} 		
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1957
+	first_offset = 1962	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 4
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  MOBILE SAM SYSTEM
+#########################################################################
+mobile_sam_system = {
+	
+	allow = { 
+		surface_to_air_missile_development = 5
+		surface_to_air_missile = 5
+		medium_range_sam_development = 3
+		integrated_circuit_computer = 1
+		electronics_engineering = 20
+	}
+	
+	change = yes
+	
+	sp_anti_air_brigade = {
+		air_attack = 10.0
+		air_defence = 5.0
+		supply_consumption = 1.00
+		fuel_consumption = 2.00
+		}
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1957
+	first_offset = 1961	
+	additional_offset = 3	
+	max_level = 4 # 1968
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  SEMI-ACTIVE RADAR HOMING
+#########################################################################
+semi_active_radar_homing = {
+	
+	allow = { 
+		fire_control_radar = 12
+		radar_minaturization = 1
+		medium_range_sam_development = 2
+		integrated_circuit_computer = 1
+		electronics_engineering = 28
+	}
+	
+	change = no	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.4
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1965
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  ACTIVE RADAR HOMING
+#########################################################################
+active_radar_homing = {
+	
+	allow = { 
+		semi_active_radar_homing = 1
+		fire_control_radar = 12
+		radar_minaturization = 1
+		medium_range_sam_development = 3
+		integrated_circuit_computer = 1
+		electronics_engineering = 29
+	}
+	
+	change = no	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.4
+		mechanicalengineering_theory = 0.2
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1966
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  TWO STAGE ROCKET DEVELOPMENT- 
+#########################################################################
+two_stage_rocket_development = {
+	
+	allow = { 
+		strategic_rocket = 1
+		strategic_rocket_propellent = 2
+		strategic_rocket_structure = 2
+		strategic_rocket_warhead = 2
+		strategic_rocket_engine = 2
+	}
+	
+	change = no
+	
+	ic_modifier = -0.01
+	manpower_gain = -0.01		
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 1.00
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1946
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  MEDIUM RANGE BALLISTIC MISSILES 
+#########################################################################
+medium_range_ballistic_missiles = {
+	
+	allow = { 
+		two_stage_rocket_development = 1
+		strategic_rocket_propellent = 3
+		strategic_rocket_structure = 3
+		strategic_rocket_warhead = 3
+		strategic_rocket_engine = 3
+	}
+	
+	change = no
+	
+	ic_modifier = -0.01
+	manpower_gain = -0.01	
+	
+	flying_rocket = {
+		range = 500
+	} 	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 1.00
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1947
+	first_offset = 1950	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 3
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  CRUISE MISSILES 
+#########################################################################
+cruise_missiles = {
+	
+	allow = { 
+		medium_range_ballistic_missiles = 3
+		strategic_rocket_propellent = 6
+		strategic_rocket_structure = 6
+		strategic_rocket_warhead = 6
+		strategic_rocket_engine = 6
+	}
+	
+	change = no
+	
+	ic_modifier = -0.01
+	manpower_gain = -0.01
+	
+	flying_bomb = {
+		range = 500
+		strategic_attack = 5.0
+		maximum_speed = 200.0
+		soft_attack = 5.00
+		hard_attack = 2.00
+	} 		
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 1.00
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1954
+	folder = advanced_tech_folder
+}
+#########################################################################
+#  ICBM
+#########################################################################
+icbm = {
+	
+	allow = { 
+		medium_range_ballistic_missiles = 3
+		strategic_rocket_propellent = 9
+		strategic_rocket_structure = 9
+		strategic_rocket_warhead = 9
+		strategic_rocket_engine = 9
+	}
+	
+	change = no
+	
+	ic_modifier = -0.01
+	manpower_gain = -0.01
+	
+	flying_rocket = {
+		range = 3000
+		strategic_attack = 10.0
+	} 		
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 1.00
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1959
+	first_offset = 1962	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 3
+	folder = advanced_tech_folder
+}
+#########################################################################
+# SPACE SATELLITE
+#########################################################################
+space_satellite = {
+	
+	allow = { 
+		medium_range_ballistic_missiles = 3
+		strategic_rocket_propellent = 8
+		strategic_rocket_structure = 8
+		strategic_rocket_engine = 8
+		electronics_engineering = 20
+	}
+	
+	change = no
+	
+	ic_modifier = -0.05
+	manpower_gain = -0.05	
+	
+	flying_rocket = {
+		build_cost_ic = -1.00
+		build_time = -10		
+	} 		
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 1.00
+	}
+
+	on_completion = rocket_science
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1957
+	folder = advanced_tech_folder
+}
+#########################################################################
+# AIR TO AIR MISSILE DEVELOPMENT
+#########################################################################
+air_to_air_missile_development = {
+	
+	allow = { 
+		strategic_rocket_propellent = 4
+		strategic_rocket_structure = 4
+		strategic_rocket_warhead = 4
+		strategic_rocket_engine = 4
+		electronics_engineering = 13
+	}
+	
+	change = no	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1950
+	folder = advanced_tech_folder
+}
+#########################################################################
+# HEAT SEEKING AIR TO AIR MISSILE 
+#########################################################################
+heat_seeking_air_to_air_missile = {
+	
+	allow = { 
+		air_to_air_missile_development = 1
+		electronics_engineering = 17
+	}
+	
+	change = no
+	
+	can_upgrade = no
+		
+	rocket_interceptor = { 	
+		air_attack = 3.00
+		supply_consumption = 0.50
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 1.00
+		build_time = 20
+		}
+	
+	jet_flying_wing = { 	
+		air_attack = 3.00
+		supply_consumption = 0.50
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 1.00
+		build_time = 20
+		}
+	peoples_fighter = { 	
+		air_attack = 3.00
+		supply_consumption = 0.50
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 1.00
+		build_time = 20
+		}	
+		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 3.00
+		supply_consumption = 0.50
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 1.00
+		build_time = 20
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 3.00
+		supply_consumption = 0.50
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 1.00
+		build_time = 20
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 3.00
+		supply_consumption = 0.50
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 1.00
+		build_time = 20
+		}	
+	
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = electornicegineering_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1954
+	first_offset = 1957	#2nd model is from 1936
+	additional_offset = 4	#one new every 2 years
+	max_level = 3
+	folder = advanced_tech_folder
+}
+#########################################################################
+# RADAR GUIDED AIR TO AIR MISSILE 
+#########################################################################
+radar_guided_air_to_air_missile = {
+	
+	allow = { 
+		air_to_air_missile_development = 1
+		radar_minaturization = 1
+		fire_control_radar = 12
+		electronics_engineering = 19
+	}
+	
+	change = no
+	
+	can_upgrade = no
+		
+	rocket_interceptor = { 	
+		air_attack = 4.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}
+	
+	jet_flying_wing = { 	
+		air_attack = 4.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}
+	peoples_fighter = { 	
+		air_attack = 4.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}	
+		
+#######################################	
+	advanced_jet_fighter = { 	
+		air_attack = 4.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 4.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 4.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = electornicegineering_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1956
+	first_offset = 1959	#2nd model is from 1936
+	additional_offset = 4	#one new every 2 years
+	max_level = 3
+	folder = advanced_tech_folder
+}
+#########################################################################
+# AIR TO GROUND MISSILE DEVELOPMENT
+#########################################################################
+air_to_ground_missile_development = {
+	
+	allow = { 
+		air_to_air_missile_development = 1
+		electronics_engineering = 13
+	}
+	
+	change = no	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = electornicegineering_theory
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1950
+	folder = advanced_tech_folder
+}
+#########################################################################
+# ANTI-TANK GUIDED MISSILES
+#########################################################################
+anti_tank_guided_missiles = {
+	
+	allow = { 
+		air_to_ground_missile_development = 1
+		radio_controlled_bomb = 1
+		fire_control_radar = 12
+		radar_minaturization = 1
+		electronics_engineering = 19
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	
+	jet_bomber = { 	
+		soft_attack = 1.00	
+		hard_attack = 3.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}
+			
+#######################################	
+	
+	advanced_jet_cas = { 	
+		soft_attack = 1.00	
+		hard_attack = 3.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}	
+	advanced_jet_bomber = { 	
+		soft_attack = 1.00	
+		hard_attack = 3.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = electornicegineering_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1956
+	first_offset = 1964	#2nd model is from 1936
+	additional_offset = 5	#one new every 2 years
+	max_level = 2
+	folder = advanced_tech_folder
+}
+#########################################################################
+# ANTI-SHIP CRUISE MISSILES
+#########################################################################
+anti_ship_cruise_missiles = {
+	
+	allow = { 
+		air_to_ground_missile_development = 1
+		radio_controlled_bomb = 1
+		fire_control_radar = 12
+		radar_minaturization = 1
+		electronics_engineering = 23
+	}
+	
+	change = no
+	
+	can_upgrade = no
+	
+	naval_bomber = { 	
+		sea_attack = 3.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}
+	
+	jet_bomber = { 	
+		sea_attack = 3.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}
+			
+#######################################	
+	
+	advanced_jet_cas = { 	
+		sea_attack = 3.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}	
+	advanced_jet_bomber = { 	
+		sea_attack = 3.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30
+		}	
+
+		
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = electornicegineering_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1960
+	folder = advanced_tech_folder
+}
+#########################################################################
+# ANTI-RADIATION MISSILES
+#########################################################################
+anti_radiation_missiles = {
+	
+	allow = { 
+		air_to_ground_missile_development = 1
+		radio_controlled_bomb = 1
+		fire_control_radar = 12
+		radar_minaturization = 1
+		electronics_engineering = 28		
+	}
+	
+	change = no
+	
+	can_upgrade = no	
+		
+	jet_bomber = { 	
+		surface_defence = 5.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30	
+		}
+			
+#######################################	
+	
+	advanced_jet_cas = { 	
+		surface_defence = 5.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30	
+		}	
+	advanced_jet_bomber = { 	
+		surface_defence = 5.00
+		supply_consumption = 0.75
+		maximum_speed = -25.00
+		range = -25.00
+		build_cost_ic = 2.00
+		build_time = 30	
+		}	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.2
+		mechanicalengineering_theory = 0.2
+		rocket_science = 0.50
+	}
+
+	on_completion = electornicegineering_practical
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1965
+	folder = advanced_tech_folder
+}

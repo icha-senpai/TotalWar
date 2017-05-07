@@ -1,0 +1,211 @@
+################################################;;;;;;;;;;;;;;x
+# Germany New Aircraft Unit Model Names;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# Fighter Aircraft ;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+GER_interceptor_0;Arado Ar 64E;;;;;;;;;;;;;x
+GER_interceptor_1;Arado Ar 67A;;;;;;;;;;;;;x
+GER_interceptor_2;Arado Ar 68E;;;;;;;;;;;;;x
+GER_interceptor_3;Messerschmitt Bf 109 D-0;;;;;;;;;;;;;x
+GER_interceptor_4;Messerschmitt Bf 109 D-1;;;;;;;;;;;;;x
+GER_interceptor_5;Messerschmitt Bf 109 E-2;;;;;;;;;;;;;x
+GER_interceptor_6;Messerschmitt Bf 109 E-3;;;;;;;;;;;;;x
+GER_interceptor_7;Messerschmitt Bf 109 E-7;;;;;;;;;;;;;x
+GER_interceptor_8;Messerschmitt Bf 109 F-2;;;;;;;;;;;;;x
+GER_interceptor_9;Messerschmitt Bf 109 F-4;;;;;;;;;;;;;x
+GER_interceptor_10;Messerschmitt Bf 109 G-2;;;;;;;;;;;;;x
+GER_interceptor_11;Messerschmitt Bf 109 G-6;;;;;;;;;;;;;x
+GER_interceptor_12;Messerschmitt Bf 109 K-4;;;;;;;;;;;;;x
+GER_interceptor_13;Fock Wulf Ta 152H-1;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_multi_role_0;Dornier Do 10;;;;;;;;;;;;;x
+GER_multi_role_3;Fock Wulf Fw 57;;;;;;;;;;;;;x
+GER_multi_role_5;Messerschmitt Bf 109 E-1/B;;;;;;;;;;;;;x
+GER_multi_role_6;Messerschmitt Bf 109 E-4/B;;;;;;;;;;;;;x
+GER_multi_role_8;Focke-Wulf Fw 190 A-1 Wurger;;;;;;;;;;;;;x
+GER_multi_role_9;Focke-Wulf Fw 190 A-7 Wurger;;;;;;;;;;;;;x
+GER_multi_role_10;Focke-Wulf Fw 190 A-8 Wurger;;;;;;;;;;;;;x
+GER_multi_role_11;Focke-Wulf Fw 190 A-9 Wurger;;;;;;;;;;;;;x
+GER_multi_role_12;Focke-Wulf Fw 190 D-9 Dora;;;;;;;;;;;;;x
+GER_multi_role_13;Focke-Wulf Fw 190 G-8;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_pursuit_fighter_3;Heinkel He 112A-0;;;;;;;;;;;;;x
+GER_pursuit_fighter_4;Heinkel He 112B;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_fighter_bomber_3;Heinkel He 51B;;;;;;;;;;;;;x
+GER_fighter_bomber_4;Heinkel He 51C;;;;;;;;;;;;;x
+GER_fighter_bomber_11;Focke-Wulf Fw190 F-8 Wurger;;;;;;;;;;;;;x
+GER_fighter_bomber_12;Focke-Wulf Fw190 F-9 Wurger;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_cas_0;Heinkel He 50A-1;;;;;;;;;;;;;x
+GER_cas_3;Henschel Hs 123A-1;;;;;;;;;;;;;x
+GER_cas_4;Junkers Ju 87A-1 Stuka;;;;;;;;;;;;;x
+GER_cas_5;Junkers Ju 87A-2 Stuka;;;;;;;;;;;;;x
+GER_cas_6;Junkers Ju 87B-2 Stuka;;;;;;;;;;;;;x
+GER_cas_7;Junkers Ju 87R-1 Stuka;;;;;;;;;;;;;x
+GER_cas_8;Junkers Ju 87R-2 Stuka;;;;;;;;;;;;;x
+GER_cas_9;Junkers Ju 87R-4 Stuka;;;;;;;;;;;;;x
+GER_cas_10;Junkers Ju 87D-1 Stuka;;;;;;;;;;;;;x
+GER_cas_11;Junkers Ju 87D-3 Stuka;;;;;;;;;;;;;x
+GER_cas_12;Junkers Ju 87D-5 Stuka;;;;;;;;;;;;;x
+GER_cas_13;Junkers Ju 87G-1 Stuka;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_heavy_cas_3;Henschel Hs 129B-1;;;;;;;;;;;;;x
+GER_heavy_cas_4;Henschel Hs 129B-2;;;;;;;;;x
+GER_heavy_cas_5;Henschel Hs 129B-3;;;;;;;;;x
+GER_heavy_cas_6;Henschel Hs 129C-1;;;;;;;;;x
+GER_heavy_cas_7;Henschel Hs 129D-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_cag_0;Arado Ar 68T-1;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_naval_fighter_2;Arado Ar 197A-1;;;;;;;;;;;;;;x
+GER_naval_fighter_4;Messerschmitt Bf 109T-1;;;;;;;;;;;;;;x
+GER_naval_fighter_5;Messerschmitt Me 155A-1;;;;;;;;;;;;;;x
+GER_naval_fighter_6;Focke-Wulf Fw 190T-1;;;;;;;;;;;;;x
+GER_naval_fighter_7;Focke-Wulf Fw 190T-4;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_naval_dive_bomber_3;Junkers Ju 87C-1;;;;;;;;;;;;;x
+GER_naval_dive_bomber_5;Junkers Ju 187T-1;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_naval_fighter_bomber_6;Focke-Wulf Fw 190F-8/U4;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_naval_torpedo_plane_3;Feisler Fi 167A-1;;;;;;;;;;;;;;x
+GER_naval_torpedo_plane_4;Junkers Ju 87D-4;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_twin_engine_fighters_0;Fock Wulf Fw 187A-1;;;;;;;;;;;;;x
+GER_twin_engine_fighters_1;Fock Wulf Fw 187A-2;;;;;;;;;;;;;x
+GER_twin_engine_fighters_2;Fock Wulf Fw 187B-2;;;;;;;;;;;;;x
+GER_twin_engine_fighters_3;Messerschmitt Bf 110B-1;;;;;;;;;;;;;x
+GER_twin_engine_fighters_4;Messerschmitt Bf 110C-1;;;;;;;;;;;;;x
+GER_twin_engine_fighters_5;Arado Ar 240B-1;;;;;;;;;;;;;x
+GER_twin_engine_fighters_6;Messerschmitt Bf 110D-1;;;;;;;;;;;;;x
+GER_twin_engine_fighters_7;Messerschmitt Bf 110F-4;;;;;;;;;;;;;x
+GER_twin_engine_fighters_8;Messerschmitt Me 410B-1 Hornisse;;;;;;;;;;;;;x
+GER_twin_engine_fighters_9;Messerschmitt Me 410D-1 Hornisse;;;;;;;;;;;;;x
+GER_twin_engine_fighters_10;Dornier Do 335B-2 Pfeil;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_night_fighter_3;Heinkel He 219A-1;;;;;;;;;;;;;x
+GER_night_fighter_4;Heinkel He 219A-6;;;;;;;;;;;;;x
+GER_night_fighter_5;Fock Wulf Ta 154A-3;;;;;;;;;;;;;x
+GER_night_fighter_6;Fock Wulf Ta 154A-5;;;;;;;;;;;;;x
+GER_night_fighter_7;Heinkel He 219D-1;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_light_bomber_0;Dornier Do 17E-1;;;;;;;;;;;;;x
+GER_light_bomber_1;Dornier Do 17M-1;;;;;;;;;;;;;x
+GER_light_bomber_2;Dornier Do 17Z-2;;;;;;;;;;;;;x
+GER_light_bomber_3;Dornier Do 215A-1;;;;;;;;;;;;;x
+GER_light_bomber_4;Dornier Do 215B-5;;;;;;;;;;;;;x
+GER_light_bomber_5;Junkers Ju 88 A-1;;;;;;;;;;;;;x
+GER_light_bomber_6;Junkers Ju 88 C-2;;;;;;;;;;;;;x
+GER_light_bomber_7;Dornier Do 217 E-5;;;;;;;;;;;;;x
+GER_light_bomber_8;Junkers Ju 188 E-2;;;;;;;;;;;;;x
+GER_light_bomber_9;Junkers Ju 188 G-2;;;;;;;;;;;;;x
+GER_light_bomber_10;Junkers Ju 388 J-1;;;;;;;;;;;;;x
+GER_light_bomber_11;Junkers Ju 388 K-1;;;;;;;;;;;;;x
+GER_light_bomber_12;Junkers Ju 388 K-2;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_tactical_bomber_0;Dornier Do 11D-1;;;;;;;;;;;;;x
+GER_tactical_bomber_1;Junkers Ju 86E-2;;;;;;;;;;;;;x
+GER_tactical_bomber_2;Heinkel He 111E-4;;;;;;;;;;;;;x
+GER_tactical_bomber_3;Heinkel He 111H-2;;;;;;;;;;;;;x
+GER_tactical_bomber_4;Heinkel He 111H-4;;;;;;;;;;;;;x
+GER_tactical_bomber_5;Heinkel He 111H-6;;;;;;;;;;;;;x
+GER_tactical_bomber_6;Heinkel He 111H-7;;;;;;;;;;;;;x
+GER_tactical_bomber_7;Heinkel He 111H-11;;;;;;;;;;;;;x
+GER_tactical_bomber_8;Heinkel He 111H-16;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_transport_plane_0;Ju 52/3mge;;;;;;;;;x
+GER_transport_plane_1;Ju 52/3mg3e;;;;;;;;;x
+GER_transport_plane_2;Ju 52/3mg4e;;;;;;;;;x
+GER_transport_plane_3;Ju 52/3mg5e;;;;;;;;;x
+GER_transport_plane_4;Ju 52/3mg6e;;;;;;;;;x
+GER_transport_plane_5;Go 244B-1;;;;;;;;;x
+GER_transport_plane_6;Go 244B-2;;;;;;;;;x
+GER_transport_plane_7;Go 244B-3;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_Flying_boat_0;Dornier Do 18D-1;;;;;;;;;;;;;x
+GER_Flying_boat_1;Dornier Do 18G-1;;;;;;;;;;;;;x
+GER_Flying_boat_2;Dornier Do 22;;;;;;;;;;;;;x
+GER_Flying_boat_3;Dornier Do 26;;;;;;;;;;;;;x
+GER_Flying_boat_4;Blohm & Voss Bv 138 Seedrache;;;;;;;;;;;;;x
+GER_Flying_boat_5;Blohm & Voss Bv 222 Wiking V-5;;;;;;;;;;;;;x
+GER_Flying_boat_6;Blohm & Voss Bv 222 Wiking C-1;;;;;;;;;;;;;x
+GER_Flying_boat_7;Dornier Do 214A-1;;;;;;;;;;;;;x
+GER_Flying_boat_8;Dornier Do 214B-1;;;;;;;;;;;;;x
+GER_Flying_boat_9;Blohm & Voss Bv 238;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_naval_bomber_0;Heinkel He 59B-2;;;;;;;;;;;;;x
+GER_naval_bomber_1;Heinkel He 59E-1;;;;;;;;;;;;;x
+GER_naval_bomber_4;Blohm & Voss BV 142;;;;;;;;;;;;;x
+GER_naval_bomber_5;Focke-Wulf Fw 200C-1;;;;;;;;;x
+GER_naval_bomber_6;Focke-Wulf Fw 200C-2;;;;;;;;;x
+GER_naval_bomber_7;Focke-Wulf Fw 200C-3;;;;;;;;;x
+GER_naval_bomber_8;Focke-Wulf Fw 200C-4;;;;;;;;;x
+GER_naval_bomber_9;Focke-Wulf Fw 200C-6;;;;;;;;;x
+GER_naval_bomber_10;Junkers Ju 290A-2;;;;;;;;;;;;;x
+GER_naval_bomber_11;Junkers Ju 290A-7;;;;;;;;;;;;;x
+GER_naval_bomber_12;Junkers Ju 390A-1;;;;;;;;;x
+GER_naval_bomber_13;Junkers Ju 390B-1;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_strategic_bomber_5;Junkers Ju 89A-1;;;;;;;;;;;;;x
+GER_strategic_bomber_6;Junkers Ju 89A-3;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_heavy_bomber_8;Heinkel He 177A-1;;;;;;;;;;;;;;;x
+GER_heavy_bomber_9;Heinkel He 177A-2;;;;;;;;;;;;;;;x
+GER_heavy_bomber_10;Heinkel He 177A-5;;;;;;;;;;;;;;;x
+GER_heavy_bomber_11;Messerschmiett Me 264A-1;;;;;;;;;;;;;;;x
+GER_heavy_bomber_12;Heinkel He 277A-1;;;;;;;;;;;;;;;x
+GER_heavy_bomber_13;Junkers Ju 488A-1;;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_quad_engine_transport_5;Focke Wulf FW 200A-03;;;;;;;;;;;;;x
+GER_quad_engine_transport_6;Junkers Ju 90A-1;;;;;;;;;;;;;x
+GER_quad_engine_transport_8;Junkers Ju 290A-1;;;;;;;;;;;;;x
+GER_quad_engine_transport_9;Junkers Ju 290A-3;;;;;;;;;;;;;x
+GER_quad_engine_transport_10;Junkers Ju 390A-1;;;;;;;;;;;;;x
+GER_quad_engine_transport_11;Messerschmitt Me 323D-1;;;;;;;;;;;;;x
+GER_quad_engine_transport_12;Arado Ar 232B-1;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_rocket_interceptor_van_0;Messerschmitt Me 163B-1 Komet;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_rocket_interceptor_0;Heinkel He 280 V3;;;;;;;;;;;;;x
+GER_rocket_interceptor_1;Messerschmitt Me 262A-1a Schwalbe;;;;;;;;;;;;;x
+GER_rocket_interceptor_2;Messerschmitt Me 262A-2a Schwalbe;;;;;;;;;;;;;x
+GER_rocket_interceptor_3;Messerschmitt Me 262A-3a Schwalbe;;;;;;;;;;;;;x
+GER_rocket_interceptor_4;Messerschmitt Me 1112 A-1;;;;;;;;;;;;;x
+GER_rocket_interceptor_5;Messerschmitt He 1079 A-1;;;;;;;;;;;;;x
+GER_rocket_interceptor_6;Messerschmitt Me P.1101;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_jet_flying_wing_0;Horten Ho 229 A-1;;;;;;;;;;;;;;x
+GER_jet_flying_wing_1;Horten Ho 229 B-2/N;;;;;;;;;;;;;;x
+GER_jet_flying_wing_2;Horten Ho 229 C-1;;;;;;;;;;;;;;x
+GER_jet_flying_wing_3;Horten Ho 229 D-1;;;;;;;;;;;;;;x
+GER_jet_flying_wing_4;Horten Ho 229 E-1;;;;;;;;;;;;;;x
+GER_jet_flying_wing_5;Horten Ho 229 E-1/Trop;;;;;;;;;;;;;;x
+GER_jet_flying_wing_6;Horten Ho 229 F-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_jet_bomber_0;Arado Ar 234 B-2;;;;;;;;;;;;;;x
+GER_jet_bomber_1;Arado Ar 234 B-2/N;;;;;;;;;;;;;;x
+GER_jet_bomber_2;Arado Ar 234 C-2;;;;;;;;;;;;;;x
+GER_jet_bomber_3;Arado Ar 234 C-3;;;;;;;;;;;;;;x
+GER_jet_bomber_4;Arado Ar 234 C-3/N;;;;;;;;;;;;;;x
+GER_jet_bomber_5;Arado Ar 234 C-8;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_amerika_bomber_0;Horten Ho 18A-1;;;;;;;;;;;;;;x
+GER_amerika_bomber_1;Horten Ho 18A-2;;;;;;;;;;;;;;x
+GER_amerika_bomber_2;Horten Ho 18A-3;;;;;;;;;;;;;;x
+GER_amerika_bomber_3;Arado Ar E.560A-1;;;;;;;;;;;;;;x
+GER_amerika_bomber_4;Arado Ar E.555A-1;;;;;;;;;;;;;;x
+GER_amerika_bomber_5;Arado Ar E.555B-1;;;;;;;;;;;;;;x
+GER_amerika_bomber_6;Arado Ar E.555C-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+GER_tactical_transport_aircraft_0;Dornier Do 28 A-1;;;;;;;;;;;;;;x
+GER_tactical_transport_aircraft_1;Dornier Do 28 B-1;;;;;;;;;;;;;;x
+#########################;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

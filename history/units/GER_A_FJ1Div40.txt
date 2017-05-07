@@ -1,0 +1,36 @@
+division= {
+	name = "3. Fallschirmjäger Division"
+	location = 1861 # Berlin
+	regiment = { type = GER_A_III_FJ name = "Stab 3. Fallschirmjäger Division" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = paratrooper_brigade name = "Fallschirmjäger-Regiment 5" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = airlanding_infantry_brigade name = "Fallschirmjäger-Regiment 8/9" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = elite_light_infantry_battalion name = "3. Fallschirmjäger-Pionier-Bataillon" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = commando_brigade name = "3. Fallschirmjäger-Panzerjäger-Abteilung" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = motorcycle_recon_brigade name = "Aufklärungs-Kompanie 3" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = airborne_artillery_brigade name = "3. Fallschirmjäger-Artillerie-Bataillon" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = light_transport  name = "Fallschirmjäger-Gefechtstross 3" historical_model = 0 experience = 15 organisation = 1 }
+}
+division= {
+	name = "5. Fallschirmjäger Division"
+	location = 1861 # Berlin
+	regiment = { type = GER_A_V_FJ name = "Stab 5. Fallschirmjäger Division" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = paratrooper_brigade name = "Fallschirmjäger-Regiment 13" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = airlanding_infantry_brigade name = "Fallschirmjäger-Regiment 14/15" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = elite_light_infantry_battalion name = "5. Fallschirmjäger-Pionier-Bataillon" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = commando_brigade name = "5. Fallschirmjäger-Panzerjäger-Abteilung" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = motorcycle_recon_brigade name = "Aufklärungs-Kompanie 5" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = airborne_artillery_brigade name = "5. Fallschirmjäger-Artillerie-Bataillon" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = light_transport  name = "Fallschirmjäger-Gefechtstross 5" historical_model = 0 experience = 15 organisation = 1 }
+}
+division= {
+	name = "6. Fallschirmjäger Division"
+	location = 1861 # Berlin
+	regiment = { type = GER_A_VI_FJ name = "Stab 6. Fallschirmjäger Division" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = paratrooper_brigade name = "Fallschirmjäger-Regiment 16" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = airlanding_infantry_brigade name = "Fallschirmjäger-Regiment 17/18" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = elite_light_infantry_battalion name = "6. Fallschirmjäger-Pionier-Bataillon" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = commando_brigade name = "6. Fallschirmjäger-Panzerjäger-Abteilung" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = motorcycle_recon_brigade name = "Aufklärungs-Kompanie 6" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = airborne_artillery_brigade name = "6. Fallschirmjäger-Artillerie-Bataillon" historical_model = 0 experience = 15 organisation = 1 }
+	regiment = { type = light_transport  name = "Fallschirmjäger-Gefechtstross 6" historical_model = 0 experience = 15 organisation = 1 }
+}

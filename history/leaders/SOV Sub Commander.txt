@@ -1,0 +1,1304 @@
+940750 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940751 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940752 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940753 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940754 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940755 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940756 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940757 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940758 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940759 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940760 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940761 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940762 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940763 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940764 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940765 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940766 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940767 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940768 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940769 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940770 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940771 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940772 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940773 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940774 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940775 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940776 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940777 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940778 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940779 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940780 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940781 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940782 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940783 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940784 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940785 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940786 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940787 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940788 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940789 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940790 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940791 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940792 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940793 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940794 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940795 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940796 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940797 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940798 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940799 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940800 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940801 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940802 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940803 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940804 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940805 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940806 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940807 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940808 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940809 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940810 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940811 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940812 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940813 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940814 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940815 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940816 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940817 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940818 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940819 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940820 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940821 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940822 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940823 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940824 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940825 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940826 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940827 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940828 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940829 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940830 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940831 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940832 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940833 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940834 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940835 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940836 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940837 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940838 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940839 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940840 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940841 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940842 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940843 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940844 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940845 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940846 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940847 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940848 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+940849 = {
+	name = "Submarine Commander"
+	country = SOV
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 8_RBF_Submarine_Commander
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

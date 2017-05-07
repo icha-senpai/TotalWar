@@ -1,0 +1,2569 @@
+#################################
+# Naval Aircraft Technology
+#################################
+################################################################################
+# NAVAL AIRCRAFT
+################################################################################
+naval_aircraft = {
+
+	allow = {
+		wwi_biplane_designs = 1
+		tailhook = 1
+		aircraft_carriers = 1
+	}
+	
+	activate_unit = cag
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1930
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL FUSELAGE DESIGN
+################################################################################
+naval_fuselage_design = {
+
+	allow = {
+		wwi_biplane_designs = 1
+		duralumin = 1
+		fully_enclosed_cockpit = 1
+		radial_and_inline_engine_design = 1
+		mono_wing_design = 1
+		retractable_landing_gear = 1
+		naval_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 12
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL HORIZONTAL STABILIZER DESIGN
+################################################################################
+naval_horizontal_stabilizer_design = {
+
+	allow = {
+		wwi_biplane_designs = 1
+		duralumin = 1
+		fully_enclosed_cockpit = 1
+		radial_and_inline_engine_design = 1
+		mono_wing_design = 1
+		retractable_landing_gear = 1
+		naval_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 12
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL WING DESIGN
+################################################################################
+naval_wing_design = {
+
+	allow = {
+		wwi_biplane_designs = 1
+		duralumin = 1
+		fully_enclosed_cockpit = 1
+		radial_and_inline_engine_design = 1
+		mono_wing_design = 1
+		retractable_landing_gear = 1
+		naval_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 12
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL VERTICAL STABILIZER DESIGN
+################################################################################
+naval_vertical_stabilizer_design = {
+
+	allow = {
+		wwi_biplane_designs = 1
+		duralumin = 1
+		fully_enclosed_cockpit = 1
+		radial_and_inline_engine_design = 1
+		mono_wing_design = 1
+		retractable_landing_gear = 1
+		naval_aircraft = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1935
+	first_offset = 1936 	# 2nd model is from 1937
+    additional_offset = 1   # one new every 2 years
+	max_level = 12
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL AIRCRAFT BLUEPRINT
+################################################################################
+naval_aircraft_blueprint = {
+
+	allow = {
+		naval_fuselage_design = 1 # 1935
+		naval_wing_design = 1 # 1935
+		naval_horizontal_stabilizer_design = 1 # 1935
+		naval_vertical_stabilizer_design = 1 # 1935
+		OR = {
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 2 } # 1936
+	
+				naval_fuselage_design = 2 # 1936
+				naval_wing_design = 2 # 1936
+				naval_horizontal_stabilizer_design = 2 # 1936
+				naval_vertical_stabilizer_design = 2 # 1936
+				
+			}
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 3 } # 1937
+	
+				naval_fuselage_design = 3 # 1937
+				naval_wing_design = 3 # 1937
+				naval_horizontal_stabilizer_design = 3 # 1937
+				naval_vertical_stabilizer_design = 3 # 1937
+				
+				
+			}
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 4 } # 1938
+	
+				naval_fuselage_design = 4 # 1938
+				naval_wing_design = 4 # 1938
+				naval_horizontal_stabilizer_design = 4 # 1938
+				naval_vertical_stabilizer_design = 4 # 1938
+				
+			}
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 5 } # 1939
+	
+				naval_fuselage_design = 5 # 1939
+				naval_wing_design = 5 # 1939
+				naval_horizontal_stabilizer_design = 5 # 1939
+				naval_vertical_stabilizer_design = 5 # 1939
+			
+			}
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 6 } # 1940
+	
+				naval_fuselage_design = 6 # 1940
+				naval_wing_design = 6 # 1940
+				naval_horizontal_stabilizer_design = 6 # 1940
+				naval_vertical_stabilizer_design = 6 # 1940
+			
+			}
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 7 } # 1941
+		
+				naval_fuselage_design = 7 # 1941
+				naval_wing_design = 7 # 1941
+				naval_horizontal_stabilizer_design = 7 # 1941
+				naval_vertical_stabilizer_design = 7 # 1941
+			
+			}
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 8 } # 1942
+
+				naval_fuselage_design = 8 # 1942
+				naval_wing_design = 8 # 1942
+				naval_horizontal_stabilizer_design = 8 # 1942
+				naval_vertical_stabilizer_design = 8 # 1942
+			
+			}
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 9 } # 1943
+
+				naval_fuselage_design = 9 # 1943
+				naval_wing_design = 9 # 1943
+				naval_horizontal_stabilizer_design = 9 # 1943
+				naval_vertical_stabilizer_design = 9 # 1943
+			
+			}
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 10 } # 1944
+			
+				naval_fuselage_design = 10 # 1944
+				naval_wing_design = 10 # 1944
+				naval_horizontal_stabilizer_design = 10 # 1944
+				naval_vertical_stabilizer_design = 10 # 1944
+			
+			}
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 11 } # 1945
+
+				naval_fuselage_design = 11 # 1945
+				naval_wing_design = 11 # 1945
+				naval_horizontal_stabilizer_design = 11 # 1945
+				naval_vertical_stabilizer_design = 11 # 1945
+			
+			}
+			AND = { 
+				NOT = { naval_aircraft_blueprint = 12 } # 1946
+	
+				naval_fuselage_design = 12 # 1946
+				naval_wing_design = 12 # 1946
+				naval_horizontal_stabilizer_design = 12 # 1946
+				naval_vertical_stabilizer_design = 12 # 1946
+			
+			}
+		}
+	}
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1935 # Model 1 - 1930
+	first_offset = 1936 	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1934 thru 1946
+	max_level = 12
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL AIRCRAFT PROTOTYPE AND TESTING
+################################################################################
+naval_aircraft_prototype_and_testing = {
+
+	allow = {
+		OR = {
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 2 } # 1936
+				naval_aircraft_blueprint = 2 # 1936
+			}
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 3 } # 1937
+				naval_aircraft_blueprint = 3 # 1937
+			}
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 4 } # 1938
+				naval_aircraft_blueprint = 4 # 1938
+			}
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 5 } # 1939
+				naval_aircraft_blueprint = 5 # 1939
+			}
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 6 } # 1940
+				naval_aircraft_blueprint = 6 # 1940
+			}
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 7 } # 1941
+				naval_aircraft_blueprint = 7 # 1941
+			}
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 8 } # 1942
+				naval_aircraft_blueprint = 8 # 1942
+			}
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 9 } # 1943
+				naval_aircraft_blueprint = 9 # 1943
+			}
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 10 } # 1944
+				naval_aircraft_blueprint = 10 # 1944
+			}
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 11 } # 1945
+				naval_aircraft_blueprint = 11 # 1945
+			}
+			AND = { 
+				NOT = { naval_aircraft_prototype_and_testing = 12 } # 1946
+				naval_aircraft_blueprint = 12 # 1945
+			}
+		}
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1935 # Model 1 - 1930
+	first_offset = 1936	# Model 2 - 1934
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 12
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL AIRCRAFT MODEL
+################################################################################
+naval_aircraft_model = {
+
+	allow = {
+		OR = {
+			AND = { 
+				NOT = { naval_aircraft_model = 2 } # 1936
+				naval_aircraft_prototype_and_testing = 2 # 1936
+				short_range_aircraft_production = 4
+			}
+			AND = { 
+				NOT = { naval_aircraft_model = 3 } # 1937
+				naval_aircraft_prototype_and_testing = 3 # 1937
+				short_range_aircraft_production = 5
+			}
+			AND = { 
+				NOT = { naval_aircraft_model = 4 } # 1938
+				naval_aircraft_prototype_and_testing = 4 # 1938
+				short_range_aircraft_production = 6
+			}
+			AND = { 
+				NOT = { naval_aircraft_model = 5 } # 1939
+				naval_aircraft_prototype_and_testing = 5 # 1939
+				short_range_aircraft_production = 7
+			}
+			AND = { 
+				NOT = { naval_aircraft_model = 6 } # 1940
+				naval_aircraft_prototype_and_testing = 6 # 1940
+				short_range_aircraft_production = 8
+			}
+			AND = { 
+				NOT = { naval_aircraft_model = 7 } # 1941
+				naval_aircraft_prototype_and_testing = 7 # 1941
+				short_range_aircraft_production = 9
+			}
+			AND = { 
+				NOT = { naval_aircraft_model = 8 } # 1942
+				naval_aircraft_prototype_and_testing = 8 # 1942
+				short_range_aircraft_production = 10
+			}
+			AND = { 
+				NOT = { naval_aircraft_model = 9 } # 1943
+				naval_aircraft_prototype_and_testing = 9 # 1943
+				short_range_aircraft_production = 11
+			}
+			AND = { 
+				NOT = { naval_aircraft_model = 10 } # 1944
+				naval_aircraft_prototype_and_testing = 10 # 1944
+				short_range_aircraft_production = 12
+			}
+			AND = { 
+				NOT = { naval_aircraft_model = 11 } # 1945
+				naval_aircraft_prototype_and_testing = 11 # 1945
+				short_range_aircraft_production = 13
+			}
+			AND = { 
+				NOT = { naval_aircraft_model = 12 } # 1946
+				naval_aircraft_prototype_and_testing = 12 # 1946
+				short_range_aircraft_production = 14
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	cag = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 1.45
+		air_defence = 1.25
+		surface_defence = 1.25
+		maximum_speed = 10
+		range = 50
+		build_cost_ic = 0.15
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.75
+		hard_attack = 0.50
+		sea_attack = 1.25
+		sub_attack = 0.40
+		}	
+				
+	naval_fighter = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 1.45
+		air_defence = 1.25
+		surface_defence = 1.25
+		maximum_speed = 10
+		range = 50
+		build_cost_ic = 0.07
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 0.75
+		hard_attack = 0.50
+		sea_attack = 1.25
+		sub_attack = 0.40
+		}	
+		
+	naval_fighter_bomber = { 		
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 1.15
+		air_defence = 1.50
+		surface_defence = 2.00
+		maximum_speed = 8
+		range = 40
+		build_cost_ic = 0.10
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 1.25
+		hard_attack = 1.00
+		sea_attack = 1.50
+		sub_attack = 0.60
+		}
+
+	naval_dive_bomber = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = -0.50
+		air_defence = 1.25
+		surface_defence = 2.00
+		maximum_speed = 5
+		range = 75
+		build_cost_ic = 0.07
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 2.25
+		hard_attack = 1.75
+		sea_attack = 3.00
+		sub_attack = 0.75
+		}	
+		
+	naval_torpedo_plane = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_defence = 0.50
+		surface_defence = 0.50
+		maximum_speed = 3
+		range = 100
+		build_cost_ic = 0.07
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		sea_attack = 4.50
+		sub_attack = 0.25
+		}	
+		
+	naval_cas = { 			
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.75
+		air_defence = 1.25
+		surface_defence = 3.00
+		maximum_speed = 9
+		range = 45
+		build_cost_ic = 0.08
+		build_time = 5
+		supply_consumption = 0.25
+		fuel_consumption = 0.10
+		soft_attack = 2.25
+		hard_attack = 1.50
+		sea_attack = 1.25
+		sub_attack = 0.25
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1935 # Model 1 - 1935
+	first_offset = 1936	# Model 2 - 1936
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 12
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL AIRCRAFT ENGINE IMPROVEMENTS
+################################################################################
+naval_aircraft_engine_improvements = {
+
+	allow = {
+		naval_aircraft_model = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	cag = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}
+	
+	naval_fighter = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}	
+	naval_fighter_bomber = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}	
+	naval_dive_bomber = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}	
+	naval_torpedo_plane = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}	
+	naval_cas = { 	
+		maximum_speed = 5
+		range = 5.0
+		air_attack = 0.15
+		}	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 5
+	
+	# common for all techs.
+	start_year = 1937 # Model 1 - 1937
+	first_offset = 1938	# Model 2 - 1938
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 10
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL AIRCRAFT INTERNAL MECHANICAL IMPROVEMENTS
+################################################################################
+naval_aircraft_internal_mechanical_improvements = {
+
+	allow = {
+		naval_aircraft_model = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	cag = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}	
+	
+	naval_fighter = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}	
+	naval_fighter_bomber = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}	
+	naval_dive_bomber = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}	
+	naval_torpedo_plane = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}	
+	naval_cas = { 	
+		supply_consumption = -0.10
+		range = 10.0
+		}	
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1937 # Model 1 - 1937
+	first_offset = 1938	# Model 2 - 1938
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 10
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL AIRCRAFT AERODYNAMIC IMPROVEMENTS
+################################################################################
+naval_aircraft_aerodynamic_improvements = {
+
+	allow = {
+		naval_aircraft_model = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	cag = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}	
+	
+	naval_fighter = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}	
+	naval_dive_bomber = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}	
+	naval_cas = { 	
+		air_attack = 0.10
+		air_defence = 0.10
+		maximum_speed = 2.0
+		range = 2.0
+		}	
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1937 # Model 1 - 1937
+	first_offset = 1938	# Model 2 - 1938
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 10
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL AIRCRAFT AERODYNAMIC IMPROVEMENTS
+################################################################################
+naval_aircraft_armament_improvements = {
+
+	allow = {
+		naval_aircraft_model = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	cag = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}	
+	
+	naval_fighter = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}	
+	naval_fighter_bomber = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}	
+	naval_dive_bomber = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}	
+	naval_torpedo_plane = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}	
+	naval_cas = { 	
+		air_attack = 0.10
+		air_defence = -0.15
+		maximum_speed = -4.0
+		range = -4.0
+		supply_consumption = 0.05
+		}	
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1937 # Model 1 - 1937
+	first_offset = 1938	# Model 2 - 1938
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 10
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL FIGHTER FOCUS
+################################################################################
+naval_fighter_focus = {
+
+	allow = {
+		naval_aircraft_model = 1 # 1935
+		OR = {
+			AND = { 
+				NOT = { naval_fighter_focus = 2 } # 1937
+				OR = { 
+					naval_aircraft_model = 2 # 1937
+					OR = { 
+						naval_aircraft_engine_improvements = 1
+						naval_aircraft_internal_mechanical_improvements = 1
+						naval_aircraft_aerodynamic_improvements = 1
+						naval_aircraft_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_focus = 3 } # 1938
+				OR = { 
+					naval_aircraft_model = 3 # 1938
+					OR = { 
+						naval_aircraft_engine_improvements = 2
+						naval_aircraft_internal_mechanical_improvements = 2
+						naval_aircraft_aerodynamic_improvements = 2
+						naval_aircraft_armament_improvements = 2
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 1
+						naval_aircraft_internal_mechanical_improvements = 1
+						naval_aircraft_aerodynamic_improvements = 1
+						naval_aircraft_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_focus = 4 } # 1939
+				OR = { 
+					naval_aircraft_model = 5 # 1939
+					OR = { 
+						naval_aircraft_engine_improvements = 3
+						naval_aircraft_internal_mechanical_improvements = 3
+						naval_aircraft_aerodynamic_improvements = 3
+						naval_aircraft_armament_improvements = 3
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 2
+						naval_aircraft_internal_mechanical_improvements = 2
+						naval_aircraft_aerodynamic_improvements = 2
+						naval_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_focus = 5 } # 1940
+				OR = { 
+					naval_aircraft_model = 6 # 1940
+					OR = { 
+						naval_aircraft_engine_improvements = 4
+						naval_aircraft_internal_mechanical_improvements = 4
+						naval_aircraft_aerodynamic_improvements = 4
+						naval_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 3
+						naval_aircraft_internal_mechanical_improvements = 3
+						naval_aircraft_aerodynamic_improvements = 3
+						naval_aircraft_armament_improvements = 3
+						}
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_focus = 6 } # 1941
+				OR = { 
+					naval_aircraft_model = 7 # 1941
+					OR = { 
+						naval_aircraft_engine_improvements = 5
+						naval_aircraft_internal_mechanical_improvements = 5
+						naval_aircraft_aerodynamic_improvements = 5
+						naval_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 4
+						naval_aircraft_internal_mechanical_improvements = 4
+						naval_aircraft_aerodynamic_improvements = 4
+						naval_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_focus = 7 } # 1942
+				OR = { 
+					naval_aircraft_model = 8 # 1942
+					OR = { 
+						naval_aircraft_engine_improvements = 6
+						naval_aircraft_internal_mechanical_improvements = 6
+						naval_aircraft_aerodynamic_improvements = 6
+						naval_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 5
+						naval_aircraft_internal_mechanical_improvements = 5
+						naval_aircraft_aerodynamic_improvements = 5
+						naval_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_focus = 8 } # 1943
+				OR = { 
+					naval_aircraft_model = 9 # 1943
+					OR = { 
+						naval_aircraft_engine_improvements = 7
+						naval_aircraft_internal_mechanical_improvements = 7
+						naval_aircraft_aerodynamic_improvements = 7
+						naval_aircraft_armament_improvements = 7
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 6
+						naval_aircraft_internal_mechanical_improvements = 6
+						naval_aircraft_aerodynamic_improvements = 6
+						naval_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_focus = 9 } # 1944
+				OR = { 
+					naval_aircraft_model = 10 # 1944
+					OR = { 
+						naval_aircraft_engine_improvements = 8
+						naval_aircraft_internal_mechanical_improvements = 8
+						naval_aircraft_aerodynamic_improvements = 8
+						naval_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 7
+						naval_aircraft_internal_mechanical_improvements = 7
+						naval_aircraft_aerodynamic_improvements = 7
+						naval_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_focus = 10 } # 1945
+				OR = { 
+					naval_aircraft_model = 11 # 1945
+					OR = {
+						naval_aircraft_engine_improvements = 9
+						naval_aircraft_internal_mechanical_improvements = 9
+						naval_aircraft_aerodynamic_improvements = 9
+						naval_aircraft_armament_improvements = 9
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 8
+						naval_aircraft_internal_mechanical_improvements = 8
+						naval_aircraft_aerodynamic_improvements = 8
+						naval_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_focus = 11 } # 1946
+				OR = { 
+					naval_aircraft_model = 12 # 1946
+					OR = { 
+						naval_aircraft_engine_improvements = 10
+						naval_aircraft_internal_mechanical_improvements = 10
+						naval_aircraft_aerodynamic_improvements = 10
+						naval_aircraft_armament_improvements = 10
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 9
+						naval_aircraft_internal_mechanical_improvements = 9
+						naval_aircraft_aerodynamic_improvements = 9
+						naval_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+		}	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = naval_fighter
+	
+	cag = { 		
+		air_attack = 0.20
+		maximum_speed = 4.0
+		build_cost_ic = 0.10
+		build_time = 1
+		}
+		
+	naval_fighter = { 		
+		air_attack = 0.20
+		maximum_speed = 4.0
+		build_cost_ic = 0.07
+		build_time = 1
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936 # Model 1 - 1936
+	first_offset = 1937	# Model 2 - 1937
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 11
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL FIGHTER BOMBER FOCUS
+################################################################################
+naval_fighter_bomber_focus = {
+
+	allow = {
+		naval_aircraft_model = 1 # 1935
+		OR = {
+			AND = { 
+				NOT = { naval_fighter_bomber_focus = 2 } # 1937
+				OR = { 
+					naval_aircraft_model = 2 # 1937
+					OR = { 
+						naval_aircraft_engine_improvements = 1
+						naval_aircraft_internal_mechanical_improvements = 1
+						naval_aircraft_aerodynamic_improvements = 1
+						naval_aircraft_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_focus = 3 } # 1938
+				OR = { 
+					naval_aircraft_model = 3 # 1938
+					OR = { 
+						naval_aircraft_engine_improvements = 2
+						naval_aircraft_internal_mechanical_improvements = 2
+						naval_aircraft_aerodynamic_improvements = 2
+						naval_aircraft_armament_improvements = 2
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 1
+						naval_aircraft_internal_mechanical_improvements = 1
+						naval_aircraft_aerodynamic_improvements = 1
+						naval_aircraft_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_focus = 4 } # 1939
+				OR = { 
+					naval_aircraft_model = 5 # 1939
+					OR = { 
+						naval_aircraft_engine_improvements = 3
+						naval_aircraft_internal_mechanical_improvements = 3
+						naval_aircraft_aerodynamic_improvements = 3
+						naval_aircraft_armament_improvements = 3
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 2
+						naval_aircraft_internal_mechanical_improvements = 2
+						naval_aircraft_aerodynamic_improvements = 2
+						naval_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_focus = 5 } # 1940
+				OR = { 
+					naval_aircraft_model = 6 # 1940
+					OR = {
+						naval_aircraft_engine_improvements = 4
+						naval_aircraft_internal_mechanical_improvements = 4
+						naval_aircraft_aerodynamic_improvements = 4
+						naval_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 3
+						naval_aircraft_internal_mechanical_improvements = 3
+						naval_aircraft_aerodynamic_improvements = 3
+						naval_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_focus = 6 } # 1941
+				OR = { 
+					naval_aircraft_model = 7 # 1941
+					OR = {
+						naval_aircraft_engine_improvements = 5
+						naval_aircraft_internal_mechanical_improvements = 5
+						naval_aircraft_aerodynamic_improvements = 5
+						naval_aircraft_armament_improvements = 5
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 4
+						naval_aircraft_internal_mechanical_improvements = 4
+						naval_aircraft_aerodynamic_improvements = 4
+						naval_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_focus = 7 } # 1942
+				OR = { 
+					naval_aircraft_model = 8 # 1942
+					OR = {
+						naval_aircraft_engine_improvements = 6
+						naval_aircraft_internal_mechanical_improvements = 6
+						naval_aircraft_aerodynamic_improvements = 6
+						naval_aircraft_armament_improvements = 6
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 5
+						naval_aircraft_internal_mechanical_improvements = 5
+						naval_aircraft_aerodynamic_improvements = 5
+						naval_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_focus = 8 } # 1943
+				OR = { 
+					naval_aircraft_model = 9 # 1943
+					OR = { 
+						naval_aircraft_engine_improvements = 7
+						naval_aircraft_internal_mechanical_improvements = 7
+						naval_aircraft_aerodynamic_improvements = 7
+						naval_aircraft_armament_improvements = 7
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 6
+						naval_aircraft_internal_mechanical_improvements = 6
+						naval_aircraft_aerodynamic_improvements = 6
+						naval_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_focus = 9 } # 1944
+				OR = { 
+					naval_aircraft_model = 10 # 1944
+					OR = {
+						naval_aircraft_engine_improvements = 8
+						naval_aircraft_internal_mechanical_improvements = 8
+						naval_aircraft_aerodynamic_improvements = 8
+						naval_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 7
+						naval_aircraft_internal_mechanical_improvements = 7
+						naval_aircraft_aerodynamic_improvements = 7
+						naval_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_focus = 10 } # 1945
+				OR = { 
+					naval_aircraft_model = 11 # 1945
+					OR = {
+						naval_aircraft_engine_improvements = 9
+						naval_aircraft_internal_mechanical_improvements = 9
+						naval_aircraft_aerodynamic_improvements = 9
+						naval_aircraft_armament_improvements = 9
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 8
+						naval_aircraft_internal_mechanical_improvements = 8
+						naval_aircraft_aerodynamic_improvements = 8
+						naval_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_focus = 11 } # 1946
+				OR = { 
+					naval_aircraft_model = 12 # 1946
+					OR = {
+						naval_aircraft_engine_improvements = 10
+						naval_aircraft_internal_mechanical_improvements = 10
+						naval_aircraft_aerodynamic_improvements = 10
+						naval_aircraft_armament_improvements = 10
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 9
+						naval_aircraft_internal_mechanical_improvements = 9
+						naval_aircraft_aerodynamic_improvements = 9
+						naval_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+		}	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	activate_unit = naval_fighter_bomber
+	
+	cag = { 			
+		soft_attack = 0.25
+		hard_attack = 0.25
+		sea_attack = 0.15
+		sub_attack = 0.10
+		build_cost_ic = 0.08
+		build_time = 1
+		}
+	
+	naval_fighter_bomber = { 			
+		soft_attack = 0.25
+		hard_attack = 0.25
+		sea_attack = 0.15
+		sub_attack = 0.10
+		build_cost_ic = 0.08
+		build_time = 1
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936 # Model 1 - 1936
+	first_offset = 1937	# Model 2 - 1937
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 11
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL DIVE BOMBER FOCUS
+################################################################################
+naval_dive_bomber_focus = {
+
+	allow = {
+		naval_aircraft_model = 1 # 1935
+		OR = {
+			AND = { 
+				NOT = { naval_dive_bomber_focus = 2 } # 1937
+				OR = { 
+					naval_aircraft_model = 2 # 1937
+					OR = {
+						naval_aircraft_engine_improvements = 1
+						naval_aircraft_internal_mechanical_improvements = 1
+						naval_aircraft_aerodynamic_improvements = 1
+						naval_aircraft_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_focus = 3 } # 1938
+				OR = { 
+					naval_aircraft_model = 3 # 1938
+					OR = {
+						naval_aircraft_engine_improvements = 2
+						naval_aircraft_internal_mechanical_improvements = 2
+						naval_aircraft_aerodynamic_improvements = 2
+						naval_aircraft_armament_improvements = 2
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 1
+						naval_aircraft_internal_mechanical_improvements = 1
+						naval_aircraft_aerodynamic_improvements = 1
+						naval_aircraft_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_focus = 4 } # 1939
+				OR = { 
+					naval_aircraft_model = 5 # 1939
+					OR = {
+						naval_aircraft_engine_improvements = 3
+						naval_aircraft_internal_mechanical_improvements = 3
+						naval_aircraft_aerodynamic_improvements = 3
+						naval_aircraft_armament_improvements = 3
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 2
+						naval_aircraft_internal_mechanical_improvements = 2
+						naval_aircraft_aerodynamic_improvements = 2
+						naval_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_focus = 5 } # 1940
+				OR = { 
+					naval_aircraft_model = 6 # 1940
+					OR = {
+						naval_aircraft_engine_improvements = 4
+						naval_aircraft_internal_mechanical_improvements = 4
+						naval_aircraft_aerodynamic_improvements = 4
+						naval_aircraft_armament_improvements = 4
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 3
+						naval_aircraft_internal_mechanical_improvements = 3
+						naval_aircraft_aerodynamic_improvements = 3
+						naval_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_focus = 6 } # 1941
+				OR = { 
+					naval_aircraft_model = 7 # 1941
+					OR = { 
+						naval_aircraft_engine_improvements = 5
+						naval_aircraft_internal_mechanical_improvements = 5
+						naval_aircraft_aerodynamic_improvements = 5
+						naval_aircraft_armament_improvements = 5
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 4
+						naval_aircraft_internal_mechanical_improvements = 4
+						naval_aircraft_aerodynamic_improvements = 4
+						naval_aircraft_armament_improvements = 4
+						}
+					}
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_focus = 7 } # 1942
+				OR = { 
+					naval_aircraft_model = 8 # 1942
+					OR = { 
+						naval_aircraft_engine_improvements = 6
+						naval_aircraft_internal_mechanical_improvements = 6
+						naval_aircraft_aerodynamic_improvements = 6
+						naval_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 5
+						naval_aircraft_internal_mechanical_improvements = 5
+						naval_aircraft_aerodynamic_improvements = 5
+						naval_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_focus = 8 } # 1943
+				OR = { 
+					naval_aircraft_model = 9 # 1943
+					OR = { 
+						naval_aircraft_engine_improvements = 7
+						naval_aircraft_internal_mechanical_improvements = 7
+						naval_aircraft_aerodynamic_improvements = 7
+						naval_aircraft_armament_improvements = 7
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 6
+						naval_aircraft_internal_mechanical_improvements = 6
+						naval_aircraft_aerodynamic_improvements = 6
+						naval_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_focus = 9 } # 1944
+				OR = { 
+					naval_aircraft_model = 10 # 1944
+					OR = { 
+						naval_aircraft_engine_improvements = 8
+						naval_aircraft_internal_mechanical_improvements = 8
+						naval_aircraft_aerodynamic_improvements = 8
+						naval_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 7
+						naval_aircraft_internal_mechanical_improvements = 7
+						naval_aircraft_aerodynamic_improvements = 7
+						naval_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_focus = 10 } # 1945
+				OR = { 
+					naval_aircraft_model = 11 # 1945
+					OR = {
+						naval_aircraft_engine_improvements = 9
+						naval_aircraft_internal_mechanical_improvements = 9
+						naval_aircraft_aerodynamic_improvements = 9
+						naval_aircraft_armament_improvements = 9
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 8
+						naval_aircraft_internal_mechanical_improvements = 8
+						naval_aircraft_aerodynamic_improvements = 8
+						naval_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_focus = 11 } # 1946
+				OR = { 
+					naval_aircraft_model = 12 # 1946
+					OR = { 
+						naval_aircraft_engine_improvements = 10
+						naval_aircraft_internal_mechanical_improvements = 10
+						naval_aircraft_aerodynamic_improvements = 10
+						naval_aircraft_armament_improvements = 10
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 9
+						naval_aircraft_internal_mechanical_improvements = 9
+						naval_aircraft_aerodynamic_improvements = 9
+						naval_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+		}	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	activate_unit = naval_dive_bomber
+	
+	cag = { 		
+		sea_attack = 0.50
+		build_cost_ic = 0.08
+		build_time = 1
+		}
+	
+	naval_dive_bomber = { 		
+		sea_attack = 0.50
+		build_cost_ic = 0.08
+		build_time = 1
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936 # Model 1 - 1936
+	first_offset = 1937	# Model 2 - 1937
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 11
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL TORPEDO PLANE FOCUS
+################################################################################
+naval_torpedo_plane_focus = {
+
+	allow = {
+		naval_aircraft_model = 1 # 1935
+		OR = {
+			AND = { 
+				NOT = { naval_torpedo_plane_focus = 2 } # 1937
+				OR = { 
+					naval_aircraft_model = 2 # 1937
+					OR = { 
+						naval_aircraft_engine_improvements = 1
+						naval_aircraft_internal_mechanical_improvements = 1
+						naval_aircraft_aerodynamic_improvements = 1
+						naval_aircraft_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { naval_torpedo_plane_focus = 3 } # 1938
+				OR = { 
+					naval_aircraft_model = 3 # 1938
+					OR = {
+						naval_aircraft_engine_improvements = 2
+						naval_aircraft_internal_mechanical_improvements = 2
+						naval_aircraft_aerodynamic_improvements = 2
+						naval_aircraft_armament_improvements = 2
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 1
+						naval_aircraft_internal_mechanical_improvements = 1
+						naval_aircraft_aerodynamic_improvements = 1
+						naval_aircraft_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_torpedo_plane_focus = 4 } # 1939
+				OR = { 
+					naval_aircraft_model = 5 # 1939
+					OR = { 
+						naval_aircraft_engine_improvements = 3
+						naval_aircraft_internal_mechanical_improvements = 3
+						naval_aircraft_aerodynamic_improvements = 3
+						naval_aircraft_armament_improvements = 3
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 2
+						naval_aircraft_internal_mechanical_improvements = 2
+						naval_aircraft_aerodynamic_improvements = 2
+						naval_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_torpedo_plane_focus = 5 } # 1940
+				OR = { 
+					naval_aircraft_model = 6 # 1940
+					OR = { 
+						naval_aircraft_engine_improvements = 4
+						naval_aircraft_internal_mechanical_improvements = 4
+						naval_aircraft_aerodynamic_improvements = 4
+						naval_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 3
+						naval_aircraft_internal_mechanical_improvements = 3
+						naval_aircraft_aerodynamic_improvements = 3
+						naval_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_torpedo_plane_focus = 6 } # 1941
+				OR = { 
+					naval_aircraft_model = 7 # 1941
+					OR = { 
+						naval_aircraft_engine_improvements = 5
+						naval_aircraft_internal_mechanical_improvements = 5
+						naval_aircraft_aerodynamic_improvements = 5
+						naval_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 4
+						naval_aircraft_internal_mechanical_improvements = 4
+						naval_aircraft_aerodynamic_improvements = 4
+						naval_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_torpedo_plane_focus = 7 } # 1942
+				OR = { 
+					naval_aircraft_model = 8 # 1942
+					OR = { 
+						naval_aircraft_engine_improvements = 6
+						naval_aircraft_internal_mechanical_improvements = 6
+						naval_aircraft_aerodynamic_improvements = 6
+						naval_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 5
+						naval_aircraft_internal_mechanical_improvements = 5
+						naval_aircraft_aerodynamic_improvements = 5
+						naval_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_torpedo_plane_focus = 8 } # 1943
+				OR = { 
+					naval_aircraft_model = 9 # 1943
+					OR = { 
+						naval_aircraft_engine_improvements = 7
+						naval_aircraft_internal_mechanical_improvements = 7
+						naval_aircraft_aerodynamic_improvements = 7
+						naval_aircraft_armament_improvements = 7
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 6
+						naval_aircraft_internal_mechanical_improvements = 6
+						naval_aircraft_aerodynamic_improvements = 6
+						naval_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_torpedo_plane_focus = 9 } # 1944
+				OR = { 
+					naval_aircraft_model = 10 # 1944
+					OR = { 
+						naval_aircraft_engine_improvements = 8
+						naval_aircraft_internal_mechanical_improvements = 8
+						naval_aircraft_aerodynamic_improvements = 8
+						naval_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 7
+						naval_aircraft_internal_mechanical_improvements = 7
+						naval_aircraft_aerodynamic_improvements = 7
+						naval_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_torpedo_plane_focus = 10 } # 1945
+				OR = { 
+					naval_aircraft_model = 11 # 1945
+					OR = { 
+						naval_aircraft_engine_improvements = 9
+						naval_aircraft_internal_mechanical_improvements = 9
+						naval_aircraft_aerodynamic_improvements = 9
+						naval_aircraft_armament_improvements = 9
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 8
+						naval_aircraft_internal_mechanical_improvements = 8
+						naval_aircraft_aerodynamic_improvements = 8
+						naval_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_torpedo_plane_focus = 11 } # 1946
+				OR = { 
+					naval_aircraft_model = 12 # 1946
+					OR = { 
+						naval_aircraft_engine_improvements = 10
+						naval_aircraft_internal_mechanical_improvements = 10
+						naval_aircraft_aerodynamic_improvements = 10
+						naval_aircraft_armament_improvements = 10
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 9
+						naval_aircraft_internal_mechanical_improvements = 9
+						naval_aircraft_aerodynamic_improvements = 9
+						naval_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+		}					
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	activate_unit = naval_torpedo_plane
+
+	cag = { 	
+		sea_attack = 1.00
+		build_cost_ic = 0.08
+		build_time = 1
+		}
+	
+	naval_torpedo_plane = { 	
+		sea_attack = 1.00
+		build_cost_ic = 0.08
+		build_time = 1
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936 # Model 1 - 1936
+	first_offset = 1937	# Model 2 - 1937
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 11
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL CAS FOCUS
+################################################################################
+naval_cas_focus = {
+
+	allow = {
+		naval_aircraft_model = 1 # 1935
+		OR = {
+			AND = { 
+				NOT = { naval_cas_focus = 2 } # 1937
+				OR = { 
+					naval_aircraft_model = 2 # 1937
+					OR = {
+						naval_aircraft_engine_improvements = 1
+						naval_aircraft_internal_mechanical_improvements = 1
+						naval_aircraft_aerodynamic_improvements = 1
+						naval_aircraft_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { naval_cas_focus = 3 } # 1938
+				OR = { 
+					naval_aircraft_model = 3 # 1938
+					OR = { 
+						naval_aircraft_engine_improvements = 2
+						naval_aircraft_internal_mechanical_improvements = 2
+						naval_aircraft_aerodynamic_improvements = 2
+						naval_aircraft_armament_improvements = 2
+						}
+					AND = {
+						naval_aircraft_engine_improvements = 1
+						naval_aircraft_internal_mechanical_improvements = 1
+						naval_aircraft_aerodynamic_improvements = 1
+						naval_aircraft_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_cas_focus = 4 } # 1939
+				OR = { 
+					naval_aircraft_model = 5 # 1939
+					OR = { 
+						naval_aircraft_engine_improvements = 3
+						naval_aircraft_internal_mechanical_improvements = 3
+						naval_aircraft_aerodynamic_improvements = 3
+						naval_aircraft_armament_improvements = 3
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 2
+						naval_aircraft_internal_mechanical_improvements = 2
+						naval_aircraft_aerodynamic_improvements = 2
+						naval_aircraft_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_cas_focus = 5 } # 1940
+				OR = { 
+					naval_aircraft_model = 6 # 1940
+					OR = { 
+						naval_aircraft_engine_improvements = 4
+						naval_aircraft_internal_mechanical_improvements = 4
+						naval_aircraft_aerodynamic_improvements = 4
+						naval_aircraft_armament_improvements = 4
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 3
+						naval_aircraft_internal_mechanical_improvements = 3
+						naval_aircraft_aerodynamic_improvements = 3
+						naval_aircraft_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_cas_focus = 6 } # 1941
+				OR = { 
+					naval_aircraft_model = 7 # 1941
+					OR = { 
+						naval_aircraft_engine_improvements = 5
+						naval_aircraft_internal_mechanical_improvements = 5
+						naval_aircraft_aerodynamic_improvements = 5
+						naval_aircraft_armament_improvements = 5
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 4
+						naval_aircraft_internal_mechanical_improvements = 4
+						naval_aircraft_aerodynamic_improvements = 4
+						naval_aircraft_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_cas_focus = 7 } # 1942
+				OR = { 
+					naval_aircraft_model = 8 # 1942
+					OR = { 
+						naval_aircraft_engine_improvements = 6
+						naval_aircraft_internal_mechanical_improvements = 6
+						naval_aircraft_aerodynamic_improvements = 6
+						naval_aircraft_armament_improvements = 6
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 5
+						naval_aircraft_internal_mechanical_improvements = 5
+						naval_aircraft_aerodynamic_improvements = 5
+						naval_aircraft_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_cas_focus = 8 } # 1943
+				OR = { 
+					naval_aircraft_model = 9 # 1943
+					OR = { 
+						naval_aircraft_engine_improvements = 7
+						naval_aircraft_internal_mechanical_improvements = 7
+						naval_aircraft_aerodynamic_improvements = 7
+						naval_aircraft_armament_improvements = 7
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 6
+						naval_aircraft_internal_mechanical_improvements = 6
+						naval_aircraft_aerodynamic_improvements = 6
+						naval_aircraft_armament_improvements = 6
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_cas_focus = 9 } # 1944
+				OR = { 
+					naval_aircraft_model = 10 # 1944
+					OR = { 
+						naval_aircraft_engine_improvements = 8
+						naval_aircraft_internal_mechanical_improvements = 8
+						naval_aircraft_aerodynamic_improvements = 8
+						naval_aircraft_armament_improvements = 8
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 7
+						naval_aircraft_internal_mechanical_improvements = 7
+						naval_aircraft_aerodynamic_improvements = 7
+						naval_aircraft_armament_improvements = 7
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_cas_focus = 10 } # 1945
+				OR = { 
+					naval_aircraft_model = 11 # 1945
+					OR = { 
+						naval_aircraft_engine_improvements = 9
+						naval_aircraft_internal_mechanical_improvements = 9
+						naval_aircraft_aerodynamic_improvements = 9
+						naval_aircraft_armament_improvements = 9
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 8
+						naval_aircraft_internal_mechanical_improvements = 8
+						naval_aircraft_aerodynamic_improvements = 8
+						naval_aircraft_armament_improvements = 8
+						}	
+					}
+			}
+			AND = { 
+				NOT = { naval_cas_focus = 11 } # 1946
+				OR = { 
+					naval_aircraft_model = 12 # 1946
+					OR = {
+						naval_aircraft_engine_improvements = 10
+						naval_aircraft_internal_mechanical_improvements = 10
+						naval_aircraft_aerodynamic_improvements = 10
+						naval_aircraft_armament_improvements = 10
+						}
+					AND = { 
+						naval_aircraft_engine_improvements = 9
+						naval_aircraft_internal_mechanical_improvements = 9
+						naval_aircraft_aerodynamic_improvements = 9
+						naval_aircraft_armament_improvements = 9
+						}	
+					}
+			}
+		}	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	activate_unit = naval_cas
+
+	cag = { 			
+		soft_attack = 0.25
+		hard_attack = 0.35
+		build_cost_ic = 0.09
+		build_time = 1
+		}
+	
+	naval_cas = { 			
+		soft_attack = 0.25
+		hard_attack = 0.35
+		build_cost_ic = 0.09
+		build_time = 1
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936 # Model 1 - 1936
+	first_offset = 1937	# Model 2 - 1937
+    additional_offset = 1   # Model 3 thru 7 - 1936 thru 1944
+	max_level = 11
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL FIGHTER ARMOR
+################################################################################
+naval_fighter_armor = {
+
+	allow = {
+		naval_fighter_focus = 2
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_fighter = { 	
+		air_defence = 1.00
+		surface_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.50
+		build_time = 3
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL BOMBER ARMOR
+################################################################################
+naval_bomber_armor = {
+
+	allow = {
+		naval_dive_bomber_focus = 2
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_dive_bomber = { 	
+		air_defence = 1.00
+		surface_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL TORPEDO PLANE ARMOR
+################################################################################
+naval_torpedo_plane_armor = {
+
+	allow = {
+		naval_torpedo_plane_focus = 2
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_torpedo_plane = { 	
+		air_defence = 1.00
+		surface_defence = 1.00
+		maximum_speed = -50
+		range = -50
+		build_cost_ic = 0.50
+		build_time = 3
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 2
+	
+	# common for all techs.
+	start_year = 1936
+	first_offset = 1937 	# 2nd model is from 1937
+    additional_offset = 2   # one new every 2 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}
+################################################################################
+# FOLDING WINGS
+################################################################################
+folding_wings = {
+
+	allow = {
+		naval_aircraft_model = 4
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	carrier = {
+		carrier_size = 1 		
+	}
+	
+	light_carrier = {
+		carrier_size = 1 		
+	}
+	
+	battle_carrier = {
+		carrier_size = 1 
+	}
+	
+	super_carrier = {
+		carrier_size = 1 
+	}
+	
+	CV_Akagi = { 
+		carrier_size = 1 
+	}
+	CV_Ark_Royal = { 
+		carrier_size = 1 
+	}
+	CV_Courageous = { 
+		carrier_size = 1 
+	}
+	CV_Enterprise = { 
+		carrier_size = 1 	
+	}
+	CV_Furious = { 
+		carrier_size = 1 		
+	}
+	CV_Glorious = { 
+		carrier_size = 1 	
+	}
+	CV_Hiryu = { 
+		carrier_size = 1 		
+	}
+	CV_Hornet = { 
+		carrier_size = 1 	
+	}
+	CV_Kaga = { 
+		carrier_size = 1 
+	}
+	CV_Lexington = { 
+		carrier_size = 1 		
+	}
+	CV_Ranger = { 
+		carrier_size = 1 
+	}
+	CV_Saratoga = { 
+		carrier_size = 1 
+	}
+	CV_Soryu = { 
+		carrier_size = 1 
+	}
+	CV_Yorktown = { 
+		carrier_size = 1 
+	}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+	
+	difficulty = 4
+	
+	# common for all techs.
+	start_year = 1938
+	folder = naval_aircraft_folder
+}
+################################################################################
+# TAILHOOK
+################################################################################
+tailhook = {
+
+	allow = {
+		wwi_biplane_designs = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	cag = { 	
+		default_organisation = 2
+		}
+	naval_fighter = { 	
+		default_organisation = 2
+		}	
+	naval_fighter_bomber = { 	
+		default_organisation = 2
+		}	
+	naval_dive_bomber = { 	
+		default_organisation = 2
+		}	
+	naval_torpedo_plane = { 	
+		default_organisation = 2
+		}	
+	naval_cas = { 	
+		default_organisation = 2
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+	
+	difficulty = 3
+	
+	# common for all techs.
+	start_year = 1911
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL FIGHTER BOMB LOAD PLUS
+################################################################################
+naval_fighter_bomb_load_plus = {
+	
+	allow = {
+		naval_aircraft_model = 3
+		naval_fighter_focus = 2
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_fighter = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.50
+		hard_attack = 0.25
+		sea_attack = 0.40
+		sub_attack = 0.20
+		maximum_speed = -25
+		range = -50
+		supply_consumption = 0.10
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL FIGHTER BOMBER BOMB LOAD PLUS
+################################################################################
+naval_fighter_bomber_bomb_load_plus = {
+	
+	allow = {
+		naval_aircraft_model = 3
+		naval_fighter_bomber_focus = 2
+		ai = no	
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_fighter_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 0.85
+		hard_attack = 0.45
+		sea_attack = 0.65
+		sub_attack = 0.30
+		maximum_speed = -25
+		range = -50
+		supply_consumption = 0.10
+		}
+	
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL DIVE BOMBER BOMB LOAD PLUS
+################################################################################
+naval_dive_bomber_bomb_load_plus = {
+	
+	allow = {
+		naval_aircraft_model = 3
+		naval_dive_bomber_focus = 2	
+		ai = no
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_dive_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 1.25
+		hard_attack = 0.65
+		sea_attack = 1.20
+		sub_attack = 0.40
+		maximum_speed = -25
+		range = -50
+		supply_consumption = 0.10
+		}
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL CAS BOMB LOAD PLUS
+################################################################################
+naval_cas_bomb_load_plus = {
+	
+	allow = {
+		naval_aircraft_model = 3
+		naval_cas_focus = 2
+		ai = no		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_cas = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 1.50
+		hard_attack = 1.50
+		sea_attack = 0.65
+		sub_attack = 0.20
+		maximum_speed = -25
+		range = -50
+		supply_consumption = 0.10
+		}
+		
+		
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL FIGHTER BOMB LOAD MINUS
+################################################################################
+naval_fighter_bomb_load_minus = {
+	
+	allow = {
+		naval_fighter_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { naval_fighter_bomb_load_minus = 3 } # 1938
+				naval_fighter_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { naval_fighter_bomb_load_minus = 4 } # 1940
+				naval_fighter_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { naval_fighter_bomb_load_minus = 5 } # 1942
+				naval_fighter_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { naval_fighter_bomb_load_minus = 6 } # 1944
+				naval_fighter_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_fighter = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.50
+		hard_attack = -0.25
+		sea_attack = -0.40
+		sub_attack = -0.20
+		maximum_speed = 25
+		range = 50
+		supply_consumption = -0.10
+		}
+
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL FIGHTER BOMB LOAD MINUS
+################################################################################
+naval_fighter_bomber_bomb_load_minus = {
+	
+	allow = {	
+		naval_fighter_bomber_bomb_load_plus	= 1	
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { naval_fighter_bomber_bomb_load_minus = 3 } # 1938
+				naval_fighter_bomber_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_bomb_load_minus = 4 } # 1940
+				naval_fighter_bomber_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_bomb_load_minus = 5 } # 1942
+				naval_fighter_bomber_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { naval_fighter_bomber_bomb_load_minus = 6 } # 1944
+				naval_fighter_bomber_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_fighter_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -0.85
+		hard_attack = -0.45
+		sea_attack = -0.65
+		sub_attack = -0.30
+		maximum_speed = 25
+		range = 50
+		supply_consumption = -0.10
+		}
+		
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL DIVE BOMBER BOMB LOAD MINUS
+################################################################################
+naval_dive_bomber_bomb_load_minus = {
+	
+	allow = {
+		naval_dive_bomber_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { naval_dive_bomber_bomb_load_minus = 3 } # 1938
+				naval_dive_bomber_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_bomb_load_minus = 4 } # 1940
+				naval_dive_bomber_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_bomb_load_minus = 5 } # 1942
+				naval_dive_bomber_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { naval_dive_bomber_bomb_load_minus = 6 } # 1944
+				naval_dive_bomber_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_dive_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -1.25
+		hard_attack = -0.65
+		sea_attack = -1.20
+		sub_attack = -0.40
+		maximum_speed = 25
+		range = 50
+		supply_consumption = -0.10
+		}
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}
+################################################################################
+# NAVAL CAS BOMB LOAD MINUS
+################################################################################
+naval_cas_bomb_load_minus = {
+	
+	allow = {
+		naval_cas_bomb_load_plus = 1
+		ai = no
+		OR = {
+			AND = { 
+				NOT = { naval_cas_bomb_load_minus = 3 } # 1938
+				naval_cas_bomb_load_plus = 1 # 1936
+			}
+			AND = { 
+				NOT = { naval_cas_bomb_load_minus = 4 } # 1940
+				naval_cas_bomb_load_plus = 2 # 1937
+			}
+			AND = { 
+				NOT = { naval_cas_bomb_load_minus = 5 } # 1942
+				naval_cas_bomb_load_plus = 3 # 1938
+			}
+			AND = { 
+				NOT = { naval_cas_bomb_load_minus = 6 } # 1944
+				naval_cas_bomb_load_plus = 4 # 1938
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	naval_cas = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -1.50
+		hard_attack = -1.50
+		sea_attack = -0.65
+		sub_attack = -0.20
+		maximum_speed = 25
+		range = 50
+		supply_consumption = -0.10
+		}
+				
+
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1938
+	first_offset = 1940 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 6
+	folder = naval_aircraft_folder
+}

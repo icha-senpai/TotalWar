@@ -1,0 +1,162 @@
+##################################################################
+### Total War Belgian Unique Weapons Techs
+##################################################################
+
+##################################################################################################################
+### INFANTRY WEAPONS
+##################################################################################################################
+################################################################################################
+### Fabrique Nationale FN M1930 (BAR) Light Machine Gun
+################################################################################################
+fn_m_nineteen_thirty_bar_hidden = {
+
+		allow = {
+			 has_country_flag = impossible
+		}
+		
+	change = yes	
+	
+	ic_efficiency = -0.001
+
+	infantry_brigade = {			
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	motorized_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	semi_motorized_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	Recon_cavalry_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	cavalry_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	engineer_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	
+	motorcycle_recon_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	naval_infantry_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	ranger_brigade = {			
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+		
+	
+#########################################
+
+	infantry_bat = { 
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	motorized_infantry_bat = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}	
+		
+	########################################################
+	### SPECIAL FORCES
+	########################################################
+	
+	light_infantry_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	elite_light_infantry_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	elite_light_infantry_battalion = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	airlanding_infantry_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	bergsjaeger_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	ski_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	marine_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	paratrooper_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+			
+	commando_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	
+		
+	##########################################################
+	### Mechanized Units
+	##########################################################
+	
+	mechanized_brigade = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	mechanized_infantry_bat = {
+		toughness = 0.50
+		soft_attack = 0.50
+		defensiveness = 0.50
+	}
+	
+	stealable = no
+	difficulty = 3
+	start_year = 1903
+	first_offset = 1904
+	additional_offset = 1
+	max_level = 2
+}

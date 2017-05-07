@@ -1,0 +1,17 @@
+corps = {
+	name = "1. U-Flottille 'Weddigen'"
+	location = 1570 #Wilhemshaven
+	regiment = { type = naval_hq_brigade name = "1. U-Flottille 'Weddigen'" historical_model = 0 }
+	
+	navy = {
+		name = "1. U-Flottille 'Weddigen'"
+		base = 1570
+		location = 1570
+		ship = { type = submarine name = "U-50" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-51" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-52" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-53" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-54" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+		ship = { type = submarine name = "U-55" historical_model = 1 strength = 1 organisation = 1 experience = 80 }
+	}
+}

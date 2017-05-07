@@ -1,0 +1,1304 @@
+950750 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950751 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950752 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950753 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950754 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950755 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950756 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950757 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950758 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950759 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950760 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950761 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950762 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950763 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950764 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950765 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950766 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950767 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950768 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950769 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950770 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950771 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950772 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950773 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950774 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950775 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950776 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950777 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950778 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950779 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950780 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950781 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950782 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950783 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950784 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950785 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950786 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950787 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950788 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950789 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950790 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950791 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950792 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950793 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950794 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950795 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950796 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950797 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950798 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950799 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950800 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950801 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950802 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950803 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950804 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950805 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950806 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950807 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950808 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950809 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950810 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950811 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950812 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950813 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950814 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950815 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950816 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950817 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950818 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950819 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950820 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950821 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950822 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950823 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950824 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950825 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950826 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950827 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950828 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950829 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950830 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950831 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950832 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950833 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950834 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950835 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950836 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950837 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950838 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950839 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950840 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950841 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950842 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950843 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950844 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950845 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950846 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950847 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950848 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+950849 = {
+	name = "Submarine Commander"
+	country = USA
+	type = sea
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 9_SUB_COMMANDER
+	add_trait = seawolf
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

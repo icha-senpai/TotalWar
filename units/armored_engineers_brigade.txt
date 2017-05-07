@@ -1,0 +1,100 @@
+armored_engineers_brigade = {
+	type = land
+	sprite = Tank ##assuming mixture of heavy and medium armour as base slightly different penalties
+	active = no
+	is_buildable = yes
+	unit_group = support_unit_type
+
+	#Size Definitions
+	max_strength = 8.50
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 20
+
+	#Building Costs
+	build_cost_ic = 6.00 ## a support brigade
+	build_cost_manpower = 0.850 ## a support brigade
+	build_time = 120 ## a support brigade
+	repair_cost_multiplier = 0.10
+	
+	#Misc Abilities
+	maximum_speed = 7.2
+	transport_weight = 40.00 ## a support brigade
+	supply_consumption = 0.45 ## a support brigade
+	fuel_consumption = 0.65
+	radio_strength = 0.25
+
+	#Defensive Abilities
+	defensiveness = 15.00
+	toughness = 1.00 
+	softness = 0.55
+	air_defence = 10.00
+	armor_value = 4.0
+
+	#Offensive Abilities
+	suppression = 0.00
+	soft_attack = 6.25 ##higher soft attack due to flametanks and UK heavies with 75mm infantry support guns
+	hard_attack = 2.25 ## still not particularly effective AT guns
+	air_attack = 0.00
+	ap_attack = 1
+
+	### Armored Engineers specialize in Crossing Rivers and Clearing Jungles
+	
+	plains = {
+		defence = 0.25 ## Easy terrain to fight on.  Small bonus.
+		movement = 0.25 ## Easy terrain to move and manuever on. 
+	}
+	river = { 
+		attack = 1.00 ## Uses specialized portable bridges to cross rivers
+		movement = 0.50 ## Need strong bridges to support weight of armor. 
+	}
+	arctic = {	
+		movement = -0.25 ## Can't drive across tundra as easily.  
+		attrition = 5 ## Too cold to stay outside for too long.	
+	}
+	desert = { 
+		defence = 0.25 ## Easy to defend due to long sight lines 
+		movement = 0.25 ## Easy to maneuver tanks across sand
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		movement = -0.35 ## Not as easy to move armor through woods 
+	}
+	forest = {
+		movement = -0.50 ## Difficult for amored vehicles to move through dense forest 
+	}
+	jungle = { 
+		attack = 0.50 ## Can use bulldozers to clear jungle
+		movement = 0.50  ## No equipment for moving through dense jungle
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		movement = -0.25 # Slightly hard to manuever up and down hills
+	}
+	mountain = { 
+		movement = -1.00 # Armored vehicles not meant to traverse steep mountains
+	}
+	urban = {
+		movement = 0.10 ## Easy to move around on paved streets 
+	}
+	marsh = { 
+		movement = -0.25 ## Slightly easier for amphibious armor to move through marshes
+	}
+	amphibious = { 
+		attack = -1.00 ## Cannot conduct amphibious assaults
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		
+	}
+
+	combat_width = 0.11
+
+	completion_size = 0.25
+	on_completion = armour_practical
+	
+	priority = 2
+}

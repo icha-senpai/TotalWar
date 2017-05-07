@@ -1,0 +1,12 @@
+military_construction = {
+	country = JAP
+	
+	naval_fighter = { 
+		historical_model = 0
+	}
+		
+	cost = 5.00
+	duration = 90
+	progress = 15
+}
+#EOF#

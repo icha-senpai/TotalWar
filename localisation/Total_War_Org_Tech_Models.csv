@@ -1,0 +1,1364 @@
+MODEL_TAG;Model;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+# ORGANIZATION TECH MODELS;;;;;;;;;;;;;;x
+################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+### ALL NATIONS ###;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### SPECIAL FORCES ORGANIZATION TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### CAMOFLAUGE DESIGNS ###;;;;;;;;;;;;;;x
+camoflauge_design_1;Rudimentary Forest Pattern;;;;;;;;;;;;;;x
+camoflauge_design_2;Basic Forest Pattern;;;;;;;;;;;;;;x
+camoflauge_design_3;Woodland Brush Pattern;;;;;;;;;;;;;;x
+camoflauge_design_4;Winter Forest Pattern;;;;;;;;;;;;;;x
+camoflauge_design_5;Desert Sand Pattern;;;;;;;;;;;;;;x
+camoflauge_design_6;Urban Pattern;;;;;;;;;;;;;;x
+### PARATROOPER CARBINE DISTRIBUTION ###;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_1;40%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_2;45%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_3;50%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_4;55%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_5;60%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_6;65%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_7;70%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_8;75%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_9;70%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_10;85%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_11;90%;;;;;;;;;;;;;;x
+paratrooper_carbine_distribution_12;95%;;;;;;;;;;;;;;x
+### PARATROOPER ASSAULT RIFLE DISTRIBUTION ###;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_1;40%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_2;45%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_3;50%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_4;55%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_5;60%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_6;65%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_7;70%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_8;75%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_9;80%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_10;85%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_11;90%;;;;;;;;;;;;;;x
+paratrooper_assault_rifle_distribution_12;95%;;;;;;;;;;;;;;x
+### PARATROOPER ASSAULT RIFLE DISTRIBUTION ###;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_1;40%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_2;45%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_3;50%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_4;55%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_5;60%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_6;65%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_7;70%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_8;75%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_9;80%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_10;85%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_11;90%;;;;;;;;;;;;;;x
+paratrooper_recoilless_rifle_distribution_12;95%;;;;;;;;;;;;;;x
+### WHEELED AMPHIB LANDING CRAFT DISTRIBUTION ###;;;;;;;;;;;;;;x
+wheeled_amphibious_landing_craft_distribution_1;50 Craft;;;;;;;;;;;;;;x
+wheeled_amphibious_landing_craft_distribution_2;100 Craft;;;;;;;;;;;;;;x
+wheeled_amphibious_landing_craft_distribution_3;150 Craft;;;;;;;;;;;;;;x
+wheeled_amphibious_landing_craft_distribution_4;200 Craft;;;;;;;;;;;;;;x
+wheeled_amphibious_landing_craft_distribution_5;250 Craft;;;;;;;;;;;;;;x
+wheeled_amphibious_landing_craft_distribution_6;300 Craft;;;;;;;;;;;;;;x
+wheeled_amphibious_landing_craft_distribution_7;350 Craft;;;;;;;;;;;;;;x
+wheeled_amphibious_landing_craft_distribution_8;400 Craft;;;;;;;;;;;;;;x
+wheeled_amphibious_landing_craft_distribution_9;450 Craft;;;;;;;;;;;;;;x
+wheeled_amphibious_landing_craft_distribution_10;500 Craft;;;;;;;;;;;;;;x
+### TRACKED AMPHIB LANDING CRAFT DISTRIBUTION ###;;;;;;;;;;;;;;x
+tracked_amphibious_landing_craft_distribution_1;50 Craft;;;;;;;;;;;;;;x
+tracked_amphibious_landing_craft_distribution_2;100 Craft;;;;;;;;;;;;;;x
+tracked_amphibious_landing_craft_distribution_3;150 Craft;;;;;;;;;;;;;;x
+tracked_amphibious_landing_craft_distribution_4;200 Craft;;;;;;;;;;;;;;x
+tracked_amphibious_landing_craft_distribution_5;250 Craft;;;;;;;;;;;;;;x
+tracked_amphibious_landing_craft_distribution_6;300 Craft;;;;;;;;;;;;;;x
+tracked_amphibious_landing_craft_distribution_7;350 Craft;;;;;;;;;;;;;;x
+tracked_amphibious_landing_craft_distribution_8;400 Craft;;;;;;;;;;;;;;x
+tracked_amphibious_landing_craft_distribution_9;450 Craft;;;;;;;;;;;;;;x
+tracked_amphibious_landing_craft_distribution_10;500 Craft;;;;;;;;;;;;;;x
+### AMPHIB CAR DISTRIBUTION ###;;;;;;;;;;;;;;x
+amphibious_car_distribution_1;50 Cars;;;;;;;;;;;;;;x
+amphibious_car_distribution_2;100 Cars;;;;;;;;;;;;;;x
+amphibious_car_distribution_3;150 Cars;;;;;;;;;;;;;;x
+amphibious_car_distribution_4;200 Cars;;;;;;;;;;;;;;x
+amphibious_car_distribution_5;250 Cars;;;;;;;;;;;;;;x
+amphibious_car_distribution_6;300 Cars;;;;;;;;;;;;;;x
+amphibious_car_distribution_7;350 Cars;;;;;;;;;;;;;;x
+amphibious_car_distribution_8;400 Cars;;;;;;;;;;;;;;x
+amphibious_car_distribution_9;450 Cars;;;;;;;;;;;;;;x
+amphibious_car_distribution_10;500 Cars;;;;;;;;;;;;;;x
+### SPECIAL FORCES DIVISION HQ ###;;;;;;;;;;;;;;x
+SF_Division_HQ_1;Division HQ I;;;;;;;;;;;;;;x
+SF_Division_HQ_2;Division HQ II;;;;;;;;;;;;;;x
+SF_Division_HQ_3;Division HQ III;;;;;;;;;;;;;;x
+SF_Division_HQ_4;Division HQ IV;;;;;;;;;;;;;;x
+SF_Division_HQ_5;Division HQ V;;;;;;;;;;;;;;x
+SF_Division_HQ_6;Division HQ VI;;;;;;;;;;;;;;x
+SF_Division_HQ_7;Division HQ VII;;;;;;;;;;;;;;x
+SF_Division_HQ_8;Division HQ VIII;;;;;;;;;;;;;;x
+SF_Division_HQ_9;Division HQ IX;;;;;;;;;;;;;;x
+SF_Division_HQ_10;Division HQ X;;;;;;;;;;;;;;x
+SF_Division_HQ_11;Division HQ XI;;;;;;;;;;;;;;x
+SF_Division_HQ_12;Division HQ XII;;;;;;;;;;;;;;x
+### SPECIAL FORCES DIVISION HQ ###;;;;;;;;;;;;;;x
+SF_Division_HQ_1;Division HQ I;;;;;;;;;;;;;;x
+SF_Division_HQ_2;Division HQ II;;;;;;;;;;;;;;x
+SF_Division_HQ_3;Division HQ III;;;;;;;;;;;;;;x
+SF_Division_HQ_4;Division HQ IV;;;;;;;;;;;;;;x
+SF_Division_HQ_5;Division HQ V;;;;;;;;;;;;;;x
+SF_Division_HQ_6;Division HQ VI;;;;;;;;;;;;;;x
+SF_Division_HQ_7;Division HQ VII;;;;;;;;;;;;;;x
+SF_Division_HQ_8;Division HQ VIII;;;;;;;;;;;;;;x
+SF_Division_HQ_9;Division HQ IX;;;;;;;;;;;;;;x
+SF_Division_HQ_10;Division HQ X;;;;;;;;;;;;;;x
+SF_Division_HQ_11;Division HQ XI;;;;;;;;;;;;;;x
+SF_Division_HQ_12;Division HQ XII;;;;;;;;;;;;;;x
+### SPECIAL FORCES 1ST RGTL HQ ###;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_1;Regimental HQ I;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_2;Regimental HQ II;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_3;Regimental HQ III;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_4;Regimental HQ IV;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_5;Regimental HQ V;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_6;Regimental HQ VI;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_7;Regimental HQ VII;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_8;Regimental HQ VIII;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_9;Regimental HQ IX;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_10;Regimental HQ X;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_11;Regimental HQ XI;;;;;;;;;;;;;;x
+SF_first_regiment_HQ_12;Regimental HQ XII;;;;;;;;;;;;;;x
+### SPECIAL FORCES 1ST Battalion ###;;;;;;;;;;;;;;x
+SF_first_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+SF_first_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 2ND Battalion ###;;;;;;;;;;;;;;x
+SF_second_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+SF_second_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 3RD Battalion ###;;;;;;;;;;;;;;x
+SF_third_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+SF_third_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 1ST LIGHT GUN CPY ###;;;;;;;;;;;;;;x
+SF_first_light_gun_company_1;40% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_2;45% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_3;50% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_4;55% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_5;60% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_6;65% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_7;70% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_8;75% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_9;80% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_10;85% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_11;90% New Light Gun Type;;;;;;;;;;;;;;x
+SF_first_light_gun_company_12;95% New Light Gun Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 2ND RGTL HQ ###;;;;;;;;;;;;;;x
+SF_second_regiment_HQ_1;Regimental HQ I;;;;;;;;;;;;;;x
+SF_second_regiment_HQ_2;Regimental HQ II;;;;;;;;;;;;;;x
+SF_second_regiment_HQ_3;Regimental HQ III;;;;;;;;;;;;;;x
+SF_second_regiment_HQ_4;Regimental HQ IV;;;;;;;;;;;;;;x
+SF_second_regiment_HQ_5;Regimental HQ V;;;;;;;;;;;;;;x
+SF_second_regiment_HQ_6;Regimental HQ VI;;;;;;;;;;;;;;x
+SF_second_regiment_HQ_7;Regimental HQ VII;;;;;;;;;;;;;;x
+### SPECIAL FORCES 4TH Battalion ###;;;;;;;;;;;;;;x
+SF_fourth_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+SF_fourth_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 5TH Battalion ###;;;;;;;;;;;;;;x
+SF_fifth_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+SF_fifth_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 6TH Battalion ###;;;;;;;;;;;;;;x
+SF_sixth_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+SF_sixth_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 1ST LIGHT GUN CPY ###;;;;;;;;;;;;;;x
+SF_second_light_gun_company_1;40% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_2;45% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_3;50% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_4;55% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_5;60% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_6;65% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_7;70% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_8;75% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_9;80% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_10;85% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_11;90% New Light Gun Type;;;;;;;;;;;;;;x
+SF_second_light_gun_company_12;95% New Light Gun Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 3RD RGTL HQ ###;;;;;;;;;;;;;;x
+SF_third_regiment_HQ_1;Regimental HQ I;;;;;;;;;;;;;;x
+SF_third_regiment_HQ_2;Regimental HQ II;;;;;;;;;;;;;;x
+SF_third_regiment_HQ_3;Regimental HQ III;;;;;;;;;;;;;;x
+SF_third_regiment_HQ_4;Regimental HQ IV;;;;;;;;;;;;;;x
+SF_third_regiment_HQ_5;Regimental HQ V;;;;;;;;;;;;;;x
+SF_third_regiment_HQ_6;Regimental HQ VI;;;;;;;;;;;;;;x
+SF_third_regiment_HQ_7;Regimental HQ VII;;;;;;;;;;;;;;x
+### SPECIAL FORCES 7TH Battalion ###;;;;;;;;;;;;;;x
+SF_seventh_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+SF_seventh_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 8TH Battalion ###;;;;;;;;;;;;;;x
+SF_eighth_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+SF_eighth_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 9TH Battalion ###;;;;;;;;;;;;;;x
+SF_ninth_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+SF_ninth_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### SPECIAL FORCES 1ST LIGHT GUN CPY ###;;;;;;;;;;;;;;x
+SF_third_light_gun_company_1;40% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_2;45% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_3;50% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_4;55% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_5;60% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_6;65% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_7;70% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_8;75% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_9;80% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_10;85% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_11;90% New Light Gun Type;;;;;;;;;;;;;;x
+SF_third_light_gun_company_12;95% New Light Gun Type;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### INFANTRY DIVISION ORGANIZATION TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### INFANTRY DIVISION HQ ###;;;;;;;;;;;;;;x
+infantry_division_hq_1;Division HQ I;;;;;;;;;;;;;;x
+infantry_division_hq_2;Division HQ II;;;;;;;;;;;;;;x
+infantry_division_hq_3;Division HQ III;;;;;;;;;;;;;;x
+infantry_division_hq_4;Division HQ IV;;;;;;;;;;;;;;x
+infantry_division_hq_5;Division HQ V;;;;;;;;;;;;;;x
+infantry_division_hq_6;Division HQ VI;;;;;;;;;;;;;;x
+infantry_division_hq_7;Division HQ VII;;;;;;;;;;;;;;x
+infantry_division_hq_8;Division HQ VIII;;;;;;;;;;;;;;x
+infantry_division_hq_9;Division HQ IX;;;;;;;;;;;;;;x
+infantry_division_hq_10;Division HQ X;;;;;;;;;;;;;;x
+infantry_division_hq_11;Division HQ XI;;;;;;;;;;;;;;x
+infantry_division_hq_12;Division HQ XII;;;;;;;;;;;;;;x
+### 1ST INFANTRY REGIMENTAL HQ ###;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_1;Regimental HQ I;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_2;Regimental HQ II;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_3;Regimental HQ III;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_4;Regimental HQ IV;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_5;Regimental HQ V;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_6;Regimental HQ VI;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_7;Regimental HQ VII;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_8;Regimental HQ VIII;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_9;Regimental HQ IX;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_10;Regimental HQ X;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_11;Regimental HQ XI;;;;;;;;;;;;;;x
+first_infantry_regiment_hqtrs_12;Regimental HQ XII;;;;;;;;;;;;;;x
+### 1ST INFANTRY BATTALION ###;;;;;;;;;;;;;;x
+first_infantry_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+first_infantry_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 2ND INFANTRY BATTALION ###;;;;;;;;;;;;;;x
+second_infantry_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+second_infantry_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 3RD INFANTRY BATTALION ###;;;;;;;;;;;;;;x
+third_infantry_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+third_infantry_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 1ST INFANTRY ARTILLERY COMPANY ###;;;;;;;;;;;;;;x
+first_infantry_artillery_company_1;40% New Artillery Type;;;;;;;;;;;;;x
+first_infantry_artillery_company_2;45% New Artillery Type;;;;;;;;;;;;;;x
+first_infantry_artillery_company_3;50% New Artillery Type;;;;;;;;;;;;;;x
+first_infantry_artillery_company_4;55% New Artillery Type;;;;;;;;;;;;;;x
+first_infantry_artillery_company_5;60% New Artillery Type;;;;;;;;;;;;;;x
+first_infantry_artillery_company_6;65% New Artillery Type;;;;;;;;;;;;;;x
+first_infantry_artillery_company_7;70% New Artillery Type;;;;;;;;;;;;;;x
+first_infantry_artillery_company_8;75% New Artillery Type;;;;;;;;;;;;;;x
+first_infantry_artillery_company_9;80% New Artillery Type;;;;;;;;;;;;;;x
+first_infantry_artillery_company_10;85% New Artillery Type;;;;;;;;;;;;;;x
+first_infantry_artillery_company_11;90% New Artillery Type;;;;;;;;;;;;;;x
+first_infantry_artillery_company_12;95% New Artillery Type;;;;;;;;;;;;;;x
+### 1ST INFANTRY ANTI-TANK COMPANY ###;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_1;40% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_2;45% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_3;50% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_4;55% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_5;60% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_6;65% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_7;70% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_8;75% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_9;80% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_10;85% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_11;90% New AT Gun Type;;;;;;;;;;;;;;x
+first_infantry_anti_tank_company_12;95% New AT Gun Type;;;;;;;;;;;;;;x
+### 1ST INFANTRY HEAVY WEAPONS COMPANY ###;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_1;40% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_2;45% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_3;50% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_4;55% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_5;60% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_6;65% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_7;70% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_8;75% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_9;80% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_10;85% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_11;90% New Heavy MG Type;;;;;;;;;;;;;;x
+first_infantry_heavy_weapons_company_12;95% New Heavy MG Type;;;;;;;;;;;;;;x
+### 2ND INFANTRY REGIMENTAL HQ ###;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_1;Regimental HQ I;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_2;Regimental HQ II;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_3;Regimental HQ III;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_4;Regimental HQ IV;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_5;Regimental HQ V;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_6;Regimental HQ VI;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_7;Regimental HQ VII;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_8;Regimental HQ VIII;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_9;Regimental HQ IX;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_10;Regimental HQ X;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_11;Regimental HQ XI;;;;;;;;;;;;;;x
+second_infantry_regiment_hq_12;Regimental HQ XII;;;;;;;;;;;;;;x
+### 4TH INFANTRY BATTALION ###;;;;;;;;;;;;;;x
+fourth_infantry_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+fourth_infantry_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 5TH INFANTRY BATTALION ###;;;;;;;;;;;;;;x
+fifth_infantry_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+fifth_infantry_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 6TH INFANTRY BATTALION ###;;;;;;;;;;;;;;x
+sixth_infantry_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+sixth_infantry_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 2ND INFANTRY ARTILLERY COMPANY ###;;;;;;;;;;;;;;x
+second_infantry_artillery_company_1;40% New Artillery Type;;;;;;;;;;;;;x
+second_infantry_artillery_company_2;45% New Artillery Type;;;;;;;;;;;;;;x
+second_infantry_artillery_company_3;50% New Artillery Type;;;;;;;;;;;;;;x
+second_infantry_artillery_company_4;55% New Artillery Type;;;;;;;;;;;;;;x
+second_infantry_artillery_company_5;60% New Artillery Type;;;;;;;;;;;;;;x
+second_infantry_artillery_company_6;65% New Artillery Type;;;;;;;;;;;;;;x
+second_infantry_artillery_company_7;70% New Artillery Type;;;;;;;;;;;;;;x
+second_infantry_artillery_company_8;75% New Artillery Type;;;;;;;;;;;;;;x
+second_infantry_artillery_company_9;80% New Artillery Type;;;;;;;;;;;;;;x
+second_infantry_artillery_company_10;85% New Artillery Type;;;;;;;;;;;;;;x
+second_infantry_artillery_company_11;90% New Artillery Type;;;;;;;;;;;;;;x
+second_infantry_artillery_company_12;95% New Artillery Type;;;;;;;;;;;;;;x
+### 2ND INFANTRY ANTI-TANK COMPANY ###;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_1;40% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_2;45% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_3;50% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_4;55% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_5;60% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_6;65% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_7;70% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_8;75% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_9;80% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_10;85% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_11;90% New AT Gun Type;;;;;;;;;;;;;;x
+second_infantry_anti_tank_company_12;95% New AT Gun Type;;;;;;;;;;;;;;x
+### 2ND INFANTRY HEAVY WEAPONS COMPANY ###;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_1;40% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_2;45% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_3;50% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_4;55% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_5;60% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_6;65% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_7;70% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_8;75% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_9;80% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_10;85% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_11;90% New Heavy MG Type;;;;;;;;;;;;;;x
+second_infantry_heavy_weapons_company_12;95% New Heavy MG Type;;;;;;;;;;;;;;x
+### 3RD INFANTRY REGIMENTAL HQ ###;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_1;Regimental HQ I;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_2;Regimental HQ II;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_3;Regimental HQ III;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_4;Regimental HQ IV;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_5;Regimental HQ V;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_6;Regimental HQ VI;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_7;Regimental HQ VII;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_8;Regimental HQ VIII;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_9;Regimental HQ IX;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_10;Regimental HQ X;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_11;Regimental HQ XI;;;;;;;;;;;;;;x
+third_infantry_regiment_hq_12;Regimental HQ XII;;;;;;;;;;;;;;x
+### 7TH INFANTRY BATTALION ###;;;;;;;;;;;;;;x
+seventh_infantry_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+seventh_infantry_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 8TH INFANTRY BATTALION ###;;;;;;;;;;;;;;x
+eighth_infantry_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+eighth_infantry_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 9TH INFANTRY BATTALION ###;;;;;;;;;;;;;;x
+ninth_infantry_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_2;45% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+ninth_infantry_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 3RD INFANTRY ARTILLERY COMPANY ###;;;;;;;;;;;;;;x
+third_infantry_artillery_company_1;40% New Artillery Type;;;;;;;;;;;;;x
+third_infantry_artillery_company_2;45% New Artillery Type;;;;;;;;;;;;;;x
+third_infantry_artillery_company_3;50% New Artillery Type;;;;;;;;;;;;;;x
+third_infantry_artillery_company_4;55% New Artillery Type;;;;;;;;;;;;;;x
+third_infantry_artillery_company_5;60% New Artillery Type;;;;;;;;;;;;;;x
+third_infantry_artillery_company_6;65% New Artillery Type;;;;;;;;;;;;;;x
+third_infantry_artillery_company_7;70% New Artillery Type;;;;;;;;;;;;;;x
+third_infantry_artillery_company_8;75% New Artillery Type;;;;;;;;;;;;;;x
+third_infantry_artillery_company_9;80% New Artillery Type;;;;;;;;;;;;;;x
+third_infantry_artillery_company_10;85% New Artillery Type;;;;;;;;;;;;;;x
+third_infantry_artillery_company_11;90% New Artillery Type;;;;;;;;;;;;;;x
+third_infantry_artillery_company_12;95% New Artillery Type;;;;;;;;;;;;;;x
+### 2ND INFANTRY ANTI-TANK COMPANY ###;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_1;40% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_2;45% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_3;50% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_4;55% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_5;60% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_6;65% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_7;70% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_8;75% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_9;80% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_10;85% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_11;90% New AT Gun Type;;;;;;;;;;;;;;x
+third_infantry_anti_tank_company_12;95% New AT Gun Type;;;;;;;;;;;;;;x
+### 3RD INFANTRY HEAVY WEAPONS COMPANY ###;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_1;40% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_2;45% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_3;50% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_4;55% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_5;60% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_6;65% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_7;70% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_8;75% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_9;80% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_10;85% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_11;90% New Heavy MG Type;;;;;;;;;;;;;;x
+third_infantry_heavy_weapons_company_12;95% New Heavy MG Type;;;;;;;;;;;;;;x
+### ARTILLERY REGIMENTAL HQ ###;;;;;;;;;;;;;;x
+artillery_regiment_hq_1;Regiment HQ I;;;;;;;;;;;;;;x
+artillery_regiment_hq_2;Regiment HQ II;;;;;;;;;;;;;;x
+artillery_regiment_hq_3;Regiment HQ III;;;;;;;;;;;;;;x
+artillery_regiment_hq_4;Regiment HQ IV;;;;;;;;;;;;;;x
+artillery_regiment_hq_5;Regiment HQ V;;;;;;;;;;;;;;x
+artillery_regiment_hq_6;Regiment HQ VI;;;;;;;;;;;;;;x
+artillery_regiment_hq_7;Regiment HQ VII;;;;;;;;;;;;;;x
+artillery_regiment_hq_8;Regiment HQ VIII;;;;;;;;;;;;;;x
+artillery_regiment_hq_9;Regiment HQ IX;;;;;;;;;;;;;;x
+artillery_regiment_hq_10;Regiment HQ X;;;;;;;;;;;;;;x
+### 1ST LIGHT ARTILLERY BATTALION ###;;;;;;;;;;;;;;x
+first_light_artillery_battalion_1;50% New Light Artillery Type ;;;;;;;;;;;;;;x
+first_light_artillery_battalion_2;55% New Light Artillery Type ;;;;;;;;;;;;;;x
+first_light_artillery_battalion_3;60% New Light Artillery Type ;;;;;;;;;;;;;;x
+first_light_artillery_battalion_4;65% New Light Artillery Type ;;;;;;;;;;;;;;x
+first_light_artillery_battalion_5;70% New Light Artillery Type ;;;;;;;;;;;;;;x
+first_light_artillery_battalion_6;75% New Light Artillery Type ;;;;;;;;;;;;;;x
+first_light_artillery_battalion_7;80% New Light Artillery Type ;;;;;;;;;;;;;;x
+first_light_artillery_battalion_8;85% New Light Artillery Type ;;;;;;;;;;;;;;x
+first_light_artillery_battalion_9;90% New Light Artillery Type ;;;;;;;;;;;;;;x
+first_light_artillery_battalion_10;95% New Light Artillery Type ;;;;;;;;;;;;;;x
+### 2ND LIGHT ARTILLERY BATTALION ###;;;;;;;;;;;;;;x
+second_light_artillery_battalion_1;50% New Light Artillery Type ;;;;;;;;;;;;;;x
+second_light_artillery_battalion_2;55% New Light Artillery Type ;;;;;;;;;;;;;;x
+second_light_artillery_battalion_3;60% New Light Artillery Type ;;;;;;;;;;;;;;x
+second_light_artillery_battalion_4;65% New Light Artillery Type ;;;;;;;;;;;;;;x
+second_light_artillery_battalion_5;70% New Light Artillery Type ;;;;;;;;;;;;;;x
+second_light_artillery_battalion_6;75% New Light Artillery Type ;;;;;;;;;;;;;;x
+second_light_artillery_battalion_7;80% New Light Artillery Type ;;;;;;;;;;;;;;x
+second_light_artillery_battalion_8;85% New Light Artillery Type ;;;;;;;;;;;;;;x
+second_light_artillery_battalion_9;90% New Light Artillery Type ;;;;;;;;;;;;;;x
+second_light_artillery_battalion_10;95% New Light Artillery Type ;;;;;;;;;;;;;;x
+### 3RD LIGHT ARTILLERY BATTALION ###;;;;;;;;;;;;;;x
+third_light_artillery_battalion_1;50% New Light Artillery Type ;;;;;;;;;;;;;;x
+third_light_artillery_battalion_2;55% New Light Artillery Type ;;;;;;;;;;;;;;x
+third_light_artillery_battalion_3;60% New Light Artillery Type ;;;;;;;;;;;;;;x
+third_light_artillery_battalion_4;65% New Light Artillery Type ;;;;;;;;;;;;;;x
+third_light_artillery_battalion_5;70% New Light Artillery Type ;;;;;;;;;;;;;;x
+third_light_artillery_battalion_6;75% New Light Artillery Type ;;;;;;;;;;;;;;x
+third_light_artillery_battalion_7;80% New Light Artillery Type ;;;;;;;;;;;;;;x
+third_light_artillery_battalion_8;85% New Light Artillery Type ;;;;;;;;;;;;;;x
+third_light_artillery_battalion_9;90% New Light Artillery Type ;;;;;;;;;;;;;;x
+third_light_artillery_battalion_10;95% New Light Artillery Type ;;;;;;;;;;;;;;x
+### MEDIUM ARTILLERY BATTALION ###;;;;;;;;;;;;;;x
+medium_artillery_battalion_1;50% New Medium Artillery Type;;;;;;;;;;;;;;x
+medium_artillery_battalion_2;55% New Medium Artillery Type;;;;;;;;;;;;;;x
+medium_artillery_battalion_3;60% New Medium Artillery Type;;;;;;;;;;;;;;x
+medium_artillery_battalion_4;65% New Medium Artillery Type;;;;;;;;;;;;;;x
+medium_artillery_battalion_5;70% New Medium Artillery Type;;;;;;;;;;;;;;x
+medium_artillery_battalion_6;75% New Medium Artillery Type;;;;;;;;;;;;;;x
+medium_artillery_battalion_7;80% New Medium Artillery Type;;;;;;;;;;;;;;x
+medium_artillery_battalion_8;85% New Medium Artillery Type;;;;;;;;;;;;;;x
+medium_artillery_battalion_9;90% New Medium Artillery Type;;;;;;;;;;;;;;x
+medium_artillery_battalion_10;95% New Medium Artillery Type;;;;;;;;;;;;;;x
+### HEAVY ARTILLERY BATTALION ###;;;;;;;;;;;;;;x
+heavy_artillery_battalion_1;50% New Heavy Artillery Type;;;;;;;;;;;;;;x
+heavy_artillery_battalion_2;55% New Heavy Artillery Type;;;;;;;;;;;;;;x
+heavy_artillery_battalion_3;60% New Heavy Artillery Type;;;;;;;;;;;;;;x
+heavy_artillery_battalion_4;65% New Heavy Artillery Type;;;;;;;;;;;;;;x
+heavy_artillery_battalion_5;70% New Heavy Artillery Type;;;;;;;;;;;;;;x
+heavy_artillery_battalion_6;75% New Heavy Artillery Type;;;;;;;;;;;;;;x
+heavy_artillery_battalion_7;80% New Heavy Artillery Type;;;;;;;;;;;;;;x
+heavy_artillery_battalion_8;85% New Heavy Artillery Type;;;;;;;;;;;;;;x
+heavy_artillery_battalion_9;90% New Heavy Artillery Type;;;;;;;;;;;;;;x
+heavy_artillery_battalion_10;95% New Heavy Artillery Type;;;;;;;;;;;;;;x
+### ROCKET ARTILLERY BATTALION ###;;;;;;;;;;;;;;x
+rocket_artillery_battalion_1;50% New Rocket Artillery Type;;;;;;;;;;;;;;x
+rocket_artillery_battalion_2;55% New Rocket Artillery Type;;;;;;;;;;;;;;x
+rocket_artillery_battalion_3;60% New Rocket Artillery Type;;;;;;;;;;;;;;x
+rocket_artillery_battalion_4;65% New Rocket Artillery Type;;;;;;;;;;;;;;x
+rocket_artillery_battalion_5;70% New Rocket Artillery Type;;;;;;;;;;;;;;x
+rocket_artillery_battalion_6;75% New Rocket Artillery Type;;;;;;;;;;;;;;x
+rocket_artillery_battalion_7;80% New Rocket Artillery Type;;;;;;;;;;;;;;x
+rocket_artillery_battalion_8;85% New Rocket Artillery Type;;;;;;;;;;;;;;x
+rocket_artillery_battalion_9;90% New Rocket Artillery Type;;;;;;;;;;;;;;x
+rocket_artillery_battalion_10;95% New Rocket Artillery Type;;;;;;;;;;;;;;x
+### MOTORIZATION OF INFANTRY ###;;;;;;;;;;;;;;x
+motorization_of_infantry_1;+100 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_2;+150 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_3;+200 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_4;+250 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_5;+300 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_6;+350 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_7;+400 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_8;+450 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_9;+500 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_10;+550 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_11;+600 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_12;+650 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_13;+700 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_14;+750 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_15;+800 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_16;+850 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_17;+900 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_18;+950 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_19;+1000 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_20;+1050 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_21;+1100 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_22;+1150 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_23;+1200 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_24;+1250 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_25;+1300 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_26;+1350 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_27;+1400 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_28;+1450 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_29;+1500 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_infantry_30;+1550 Vehicles ;;;;;;;;;;;;;;x
+### MOTORIZATION OF ARTILLERY ###;;;;;;;;;;;;;;x
+motorization_of_artillery_1;+100 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_2;+150 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_3;+200 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_4;+250 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_5;+300 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_6;+350 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_7;+400 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_8;+450 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_9;+500 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_10;+550 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_11;+600 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_12;+650 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_13;+700 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_14;+750 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_15;+800 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_16;+850 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_17;+900 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_18;+950 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_19;+1000 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_20;+1050 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_21;+1100 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_22;+1150 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_23;+1200 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_24;+1250 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_25;+1300 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_26;+1350 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_27;+1400 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_28;+1450 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_29;+1500 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_artillery_30;+1550 Vehicles ;;;;;;;;;;;;;;x
+### MOTORIZATION OF CAVALRY ###;;;;;;;;;;;;;;x
+motorization_of_cavalry_1;+100 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_2;+150 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_3;+200 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_4;+250 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_5;+300 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_6;+350 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_7;+400 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_8;+450 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_9;+500 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_10;+550 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_11;+600 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_12;+650 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_13;+700 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_14;+750 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_15;+800 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_16;+850 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_17;+900 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_18;+950 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_19;+1000 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_20;+1050 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_21;+1100 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_22;+1150 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_23;+1200 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_24;+1250 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_25;+1300 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_26;+1350 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_27;+1400 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_28;+1450 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_29;+1500 Vehicles ;;;;;;;;;;;;;;x
+motorization_of_cavalry_30;+1550 Vehicles ;;;;;;;;;;;;;;x
+### MILITARY POLICE ###;;;;;;;;;;;;;;x
+military_police_1;Military Police I;;;;;;;;;;;;;;x
+military_police_2;Military Police II ;;;;;;;;;;;;;;x
+military_police_3;Military Police III ;;;;;;;;;;;;;;x
+military_police_4;Military Police IV ;;;;;;;;;;;;;;x
+military_police_5;Military Police V ;;;;;;;;;;;;;;x
+military_police_6;Military Police VI ;;;;;;;;;;;;;;x
+military_police_7;Military Police VII ;;;;;;;;;;;;;;x
+military_police_8;Military Police VIII ;;;;;;;;;;;;;;x
+military_police_9;Military Police IX ;;;;;;;;;;;;;;x
+military_police_10;Military Police X ;;;;;;;;;;;;;;x
+military_police_11;Military Police XI ;;;;;;;;;;;;;;x
+military_police_12;Military Police XII ;;;;;;;;;;;;;;x
+military_police_13;Military Police XIII ;;;;;;;;;;;;;;x
+military_police_14;Military Police XIV ;;;;;;;;;;;;;;x
+military_police_15;Military Police XV ;;;;;;;;;;;;;;x
+### MILITARY HORSE TRANSPORT ###;;;;;;;;;;;;;;x
+military_horse_transport_1;+100 Horses;;;;;;;;;;;;;;x
+military_horse_transport_2;+200 Horses  ;;;;;;;;;;;;;;x
+military_horse_transport_3;+300 Horses;;;;;;;;;;;;;;x
+military_horse_transport_4;+400 Horses;;;;;;;;;;;;;;x
+military_horse_transport_5;+500 Horses;;;;;;;;;;;;;;x
+military_horse_transport_6;+600 Horses;;;;;;;;;;;;;;x
+military_horse_transport_7;+700 Horses;;;;;;;;;;;;;;x
+military_horse_transport_8;+800 Horses;;;;;;;;;;;;;;x
+military_horse_transport_9;+900 Horses;;;;;;;;;;;;;;x
+military_horse_transport_10;+1000 Horses;;;;;;;;;;;;;;x
+military_horse_transport_11;+1100 Horses;;;;;;;;;;;;;;x
+military_horse_transport_12;+1200 Horses;;;;;;;;;;;;;;x
+military_horse_transport_13;+1300 Horses;;;;;;;;;;;;;;x
+military_horse_transport_14;+1400 Horses;;;;;;;;;;;;;;x
+military_horse_transport_15;+1500 Horses;;;;;;;;;;;;;;x
+### LIGHT VEHICLE TRANSPORT ###;;;;;;;;;;;;;;x
+light_motorized_transport_1;+100 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_2;+200 Light Vehicles  ;;;;;;;;;;;;;;x
+light_motorized_transport_3;+300 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_4;+400 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_5;+500 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_6;+600 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_7;+700 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_8;+800 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_9;+900 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_10;+1000 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_11;+1100 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_12;+1200 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_13;+1300 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_14;+1400 Light Vehicles;;;;;;;;;;;;;;x
+light_motorized_transport_15;+1500 Light Vehicles;;;;;;;;;;;;;;x
+### TRUCK TRANSPORT ###;;;;;;;;;;;;;;x
+military_truck_transport_1;+100 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_2;+200 Trucks  ;;;;;;;;;;;;;;x
+military_truck_transport_3;+300 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_4;+400 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_5;+500 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_6;+600 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_7;+700 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_8;+800 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_9;+900 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_10;+1000 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_11;+1100 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_12;+1200 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_13;+1300 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_14;+1400 Trucks;;;;;;;;;;;;;;x
+military_truck_transport_15;+1500 Trucks;;;;;;;;;;;;;;x
+### TRUCK TRANSPORT ###;;;;;;;;;;;;;;x
+military_halftrack_transport_1;+100 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_2;+200 Halftracks  ;;;;;;;;;;;;;;x
+military_halftrack_transport_3;+300 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_4;+400 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_5;+500 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_6;+600 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_7;+700 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_8;+800 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_9;+900 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_10;+1000 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_11;+1100 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_12;+1200 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_13;+1300 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_14;+1400 Halftracks;;;;;;;;;;;;;;x
+military_halftrack_transport_15;+1500 Halftracks;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### ARMOR DIVISION ORGANIZATION TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### ARMOR DIVISION HQ ###;;;;;;;;;;;;;;x
+armor_division_hq_1;Armor HQ I;;;;;;;;;;;;;;x
+armor_division_hq_2;Armor HQ II ;;;;;;;;;;;;;;x
+armor_division_hq_3;Armor HQ III ;;;;;;;;;;;;;;x
+armor_division_hq_4;Armor HQ IV ;;;;;;;;;;;;;;x
+armor_division_hq_5;Armor HQ V ;;;;;;;;;;;;;;x
+armor_division_hq_6;Armor HQ VI ;;;;;;;;;;;;;;x
+armor_division_hq_7;Armor HQ VII ;;;;;;;;;;;;;;x
+armor_division_hq_8;Armor HQ VIII ;;;;;;;;;;;;;;x
+armor_division_hq_9;Armor HQ IX ;;;;;;;;;;;;;;x
+armor_division_hq_10;Armor HQ X ;;;;;;;;;;;;;;x
+### ARMOR REGIMENT HQ ###;;;;;;;;;;;;;;x
+armor_regiment_hq_1;Regimental HQ I ;;;;;;;;;;;;;;x
+armor_regiment_hq_2;Regimental HQ II ;;;;;;;;;;;;;;x
+armor_regiment_hq_3;Regimental HQ III ;;;;;;;;;;;;;;x
+armor_regiment_hq_4;Regimental HQ IV ;;;;;;;;;;;;;;x
+armor_regiment_hq_5;Regimental HQ V ;;;;;;;;;;;;;;x
+armor_regiment_hq_6;Regimental HQ VI ;;;;;;;;;;;;;;x
+armor_regiment_hq_7;Regimental HQ VII ;;;;;;;;;;;;;;x
+armor_regiment_hq_8;Regimental HQ VIII ;;;;;;;;;;;;;;x
+armor_regiment_hq_9;Regimental HQ IX ;;;;;;;;;;;;;;x
+armor_regiment_hq_10;Regimental HQ X ;;;;;;;;;;;;;;x
+### 1ST TANK BATTALION ###;;;;;;;;;;;;;;x
+first_tank_battalion_1;50% New Tank Type ;;;;;;;;;;;;;;x
+first_tank_battalion_2;55% New Tank Type;;;;;;;;;;;;;;x
+first_tank_battalion_3;60% New Tank Type ;;;;;;;;;;;;;;x
+first_tank_battalion_4;65% New Tank Type;;;;;;;;;;;;;;x
+first_tank_battalion_5;70% New Tank Type;;;;;;;;;;;;;;x
+first_tank_battalion_6;75% New Tank Type;;;;;;;;;;;;;;x
+first_tank_battalion_7;80% New Tank Type;;;;;;;;;;;;;;x
+first_tank_battalion_8;85% New Tank Type;;;;;;;;;;;;;;x
+first_tank_battalion_9;90% New Tank Type ;;;;;;;;;;;;;;x
+first_tank_battalion_10;95% New Tank Type;;;;;;;;;;;;;;x
+### 2ND TANK BATTALION ###;;;;;;;;;;;;;;x
+second_tank_battalion_1;50% New Tank Type ;;;;;;;;;;;;;;x
+second_tank_battalion_2;55% New Tank Type ;;;;;;;;;;;;;;x
+second_tank_battalion_3;60% New Tank Type ;;;;;;;;;;;;;;x
+second_tank_battalion_4;65% New Tank Type ;;;;;;;;;;;;;;x
+second_tank_battalion_5;70% New Tank Type ;;;;;;;;;;;;;;x
+second_tank_battalion_6;75% New Tank Type ;;;;;;;;;;;;;;x
+second_tank_battalion_7;80% New Tank Type  ;;;;;;;;;;;;;;x
+second_tank_battalion_8;85% New Tank Type  ;;;;;;;;;;;;;;x
+second_tank_battalion_9;90% New Tank Type  ;;;;;;;;;;;;;;x
+second_tank_battalion_10;95% New Tank Type  ;;;;;;;;;;;;;;x
+### 3RD TANK BATTALION ###;;;;;;;;;;;;;;x
+third_tank_battalion_1;50% New Tank Type ;;;;;;;;;;;;;;x
+third_tank_battalion_2;55% New Tank Type ;;;;;;;;;;;;;;x
+third_tank_battalion_3;60% New Tank Type ;;;;;;;;;;;;;;x
+third_tank_battalion_4;65% New Tank Type ;;;;;;;;;;;;;;x
+third_tank_battalion_5;70% New Tank Type ;;;;;;;;;;;;;;x
+third_tank_battalion_6;75% New Tank Type ;;;;;;;;;;;;;;x
+third_tank_battalion_7;80% New Tank Type  ;;;;;;;;;;;;;;x
+third_tank_battalion_8;85% New Tank Type  ;;;;;;;;;;;;;;x
+third_tank_battalion_9;90% New Tank Type  ;;;;;;;;;;;;;;x
+third_tank_battalion_10;95% New Tank Type  ;;;;;;;;;;;;;;x
+### LIGHT ARMOR REGIMENT HQ ###;;;;;;;;;;;;;;x
+light_armor_regiment_hq_1;Regimental HQ I ;;;;;;;;;;;;;;x
+light_armor_regiment_hq_2;Regimental HQ II ;;;;;;;;;;;;;;x
+light_armor_regiment_hq_3;Regimental HQ III ;;;;;;;;;;;;;;x
+light_armor_regiment_hq_4;Regimental HQ IV ;;;;;;;;;;;;;;x
+light_armor_regiment_hq_5;Regimental HQ V ;;;;;;;;;;;;;;x
+light_armor_regiment_hq_6;Regimental HQ VI ;;;;;;;;;;;;;;x
+light_armor_regiment_hq_7;Regimental HQ VII ;;;;;;;;;;;;;;x
+light_armor_regiment_hq_8;Regimental HQ VIII ;;;;;;;;;;;;;;x
+light_armor_regiment_hq_9;Regimental HQ IX ;;;;;;;;;;;;;;x
+light_armor_regiment_hq_10;Regimental HQ X ;;;;;;;;;;;;;;x
+### 1ST LIGHT TANK BATTALION ###;;;;;;;;;;;;;;x
+first_light_tank_battalion_1;50% New Light Tank Type ;;;;;;;;;;;;;;x
+first_light_tank_battalion_2;55% New Light Tank Type;;;;;;;;;;;;;;x
+first_light_tank_battalion_3;60% New Light Tank Type ;;;;;;;;;;;;;;x
+first_light_tank_battalion_4;65% New Light Tank Type;;;;;;;;;;;;;;x
+first_light_tank_battalion_5;70% New Light Tank Type;;;;;;;;;;;;;;x
+first_light_tank_battalion_6;75% New Light Tank Type ;;;;;;;;;;;;;;x
+first_light_tank_battalion_7;80% New Light Tank Type ;;;;;;;;;;;;;;x
+first_light_tank_battalion_8;85% New Light Tank Type ;;;;;;;;;;;;;;x
+first_light_tank_battalion_9;90% New Light Tank Type ;;;;;;;;;;;;;;x
+first_light_tank_battalion_10;95% New Light Tank Type ;;;;;;;;;;;;;;x
+### 2ND LIGHT TANK BATTALION ###;;;;;;;;;;;;;;x
+second_light_tank_battalion_1;50% New Light Tank Type ;;;;;;;;;;;;;;x
+second_light_tank_battalion_2;55% New Light Tank Type  ;;;;;;;;;;;;;;x
+second_light_tank_battalion_3;60% New Light Tank Type  ;;;;;;;;;;;;;;x
+second_light_tank_battalion_4;65% New Light Tank Type ;;;;;;;;;;;;;;x
+second_light_tank_battalion_5;70% New Light Tank Type ;;;;;;;;;;;;;;x
+second_light_tank_battalion_6;75% New Light Tank Type  ;;;;;;;;;;;;;;x
+second_light_tank_battalion_7;80% New Light Tank Type  ;;;;;;;;;;;;;;x
+second_light_tank_battalion_8;85% New Light Tank Type  ;;;;;;;;;;;;;;x
+second_light_tank_battalion_9;90% New Light Tank Type ;;;;;;;;;;;;;;x
+second_light_tank_battalion_10;95% New Light Tank Type ;;;;;;;;;;;;;;x
+### MECHANIZED DIVISION HQ ###;;;;;;;;;;;;;;x
+mechanized_division_hq_1;Division HQ I;;;;;;;;;;;;;;x
+mechanized_division_hq_2;Division HQ II ;;;;;;;;;;;;;;x
+mechanized_division_hq_3;Division HQ III ;;;;;;;;;;;;;;x
+mechanized_division_hq_4;Division HQ IV ;;;;;;;;;;;;;;x
+mechanized_division_hq_5;Division HQ V ;;;;;;;;;;;;;;x
+mechanized_division_hq_6;Division HQ VI ;;;;;;;;;;;;;;x
+mechanized_division_hq_7;Division HQ VII ;;;;;;;;;;;;;;x
+mechanized_division_hq_8;Division HQ VIII ;;;;;;;;;;;;;;x
+mechanized_division_hq_9;Division HQ IX ;;;;;;;;;;;;;;x
+mechanized_division_hq_10;Division HQ X ;;;;;;;;;;;;;;x
+### MECHANIZED REGIMENT HQ ###;;;;;;;;;;;;;;x
+mechanized_regiment_hq_1;Regimental HQ I ;;;;;;;;;;;;;;x
+mechanized_regiment_hq_2;Regimental HQ II ;;;;;;;;;;;;;;x
+mechanized_regiment_hq_3;Regimental HQ III ;;;;;;;;;;;;;;x
+mechanized_regiment_hq_4;Regimental HQ IV ;;;;;;;;;;;;;;x
+mechanized_regiment_hq_5;Regimental HQ V ;;;;;;;;;;;;;;x
+mechanized_regiment_hq_6;Regimental HQ VI ;;;;;;;;;;;;;;x
+mechanized_regiment_hq_7;Regimental HQ VII ;;;;;;;;;;;;;;x
+mechanized_regiment_hq_8;Regimental HQ VIII ;;;;;;;;;;;;;;x
+mechanized_regiment_hq_9;Regimental HQ IX ;;;;;;;;;;;;;;x
+mechanized_regiment_hq_10;Regimental HQ X ;;;;;;;;;;;;;;x
+### 1ST MECHANIZED BATTALION ###;;;;;;;;;;;;;;x
+first_mechanized_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+first_mechanized_battalion_2;45% New Rifle Type ;;;;;;;;;;;;;;x
+first_mechanized_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+first_mechanized_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+first_mechanized_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+first_mechanized_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+first_mechanized_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+first_mechanized_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+first_mechanized_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+first_mechanized_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+first_mechanized_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+first_mechanized_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 2ND MECHANIZED BATTALION ###;;;;;;;;;;;;;;x
+second_mechanized_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+second_mechanized_battalion_2;45% New Rifle Type ;;;;;;;;;;;;;;x
+second_mechanized_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+second_mechanized_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+second_mechanized_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+second_mechanized_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+second_mechanized_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+second_mechanized_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+second_mechanized_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+second_mechanized_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+second_mechanized_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+second_mechanized_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 3RD MECHANIZED BATTALION ###;;;;;;;;;;;;;;x
+third_mechanized_battalion_1;40% New Rifle Type;;;;;;;;;;;;;;x
+third_mechanized_battalion_2;45% New Rifle Type ;;;;;;;;;;;;;;x
+third_mechanized_battalion_3;50% New Rifle Type;;;;;;;;;;;;;;x
+third_mechanized_battalion_4;55% New Rifle Type;;;;;;;;;;;;;;x
+third_mechanized_battalion_5;60% New Rifle Type;;;;;;;;;;;;;;x
+third_mechanized_battalion_6;65% New Rifle Type;;;;;;;;;;;;;;x
+third_mechanized_battalion_7;70% New Rifle Type;;;;;;;;;;;;;;x
+third_mechanized_battalion_8;75% New Rifle Type;;;;;;;;;;;;;;x
+third_mechanized_battalion_9;80% New Rifle Type;;;;;;;;;;;;;;x
+third_mechanized_battalion_10;85% New Rifle Type;;;;;;;;;;;;;;x
+third_mechanized_battalion_11;90% New Rifle Type;;;;;;;;;;;;;;x
+third_mechanized_battalion_12;95% New Rifle Type;;;;;;;;;;;;;;x
+### 1ST MECHANIZED ARTILLERY COMPANY ###;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_1;40% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_2;45% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_3;50% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_4;55% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_5;60% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_6;65% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_7;70% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_8;75% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_9;80% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_10;85% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_11;90% New SP Artillery Type;;;;;;;;;;;;;;x
+first_mechanized_artillery_company_12;95% New SP Artillery Type;;;;;;;;;;;;;;x
+### 1ST MECHANIZED HEAVY WEAPONS COMPANY ###;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_1;40% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_2;45% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_3;50% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_4;55% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_5;60% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_6;65% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_7;70% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_8;75% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_9;80% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_10;85% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_11;90% New Heavy Weapons Type;;;;;;;;;;;;;;x
+first_mechanized_heavy_weapons_company_12;95% New Heavy Weapons Type;;;;;;;;;;;;;;x
+### MECHANIZED SUBMACHINEGUNS DISTRIBUTION ###;;;;;;;;;;;;;;x
+mechanized_submachinegun_distribution_1;50% Distributed;;;;;;;;;;;;;x
+mechanized_submachinegun_distribution_2;55% Distributed;;;;;;;;;;;;;x
+mechanized_submachinegun_distribution_3;60% Distributed;;;;;;;;;;;;;x
+mechanized_submachinegun_distribution_4;65% Distributed;;;;;;;;;;;;;x
+mechanized_submachinegun_distribution_5;70% Distributed;;;;;;;;;;;;;x
+mechanized_submachinegun_distribution_6;75% Distributed;;;;;;;;;;;;;x
+mechanized_submachinegun_distribution_7;80% Distributed;;;;;;;;;;;;;x
+mechanized_submachinegun_distribution_8;85% Distributed;;;;;;;;;;;;;x
+mechanized_submachinegun_distribution_9;90% Distributed;;;;;;;;;;;;;x
+mechanized_submachinegun_distribution_10;95% Distributed;;;;;;;;;;;;;x
+### MECHANIZED ASSAULT RIFLE DISTRIBUTION ###;;;;;;;;;;;;;;x
+mechanized_assault_rifle_distribution_1;50% Distributed;;;;;;;;;;;;;x 
+mechanized_assault_rifle_distribution_2;55% Distributed;;;;;;;;;;;;;x 
+mechanized_assault_rifle_distribution_3;60% Distributed;;;;;;;;;;;;;x 
+mechanized_assault_rifle_distribution_4;65% Distributed;;;;;;;;;;;;;x 
+mechanized_assault_rifle_distribution_5;70% Distributed;;;;;;;;;;;;;x 
+mechanized_assault_rifle_distribution_6;75% Distributed;;;;;;;;;;;;;x 
+mechanized_assault_rifle_distribution_7;80% Distributed;;;;;;;;;;;;;x
+mechanized_assault_rifle_distribution_8;85% Distributed;;;;;;;;;;;;;x
+mechanized_assault_rifle_distribution_9;90% Distributed;;;;;;;;;;;;;x
+mechanized_assault_rifle_distribution_10;95% Distributed;;;;;;;;;;;;;x
+### MECHANIZED LIGHT MACHINE GUN DISTRIBUTION ###;;;;;;;;;;;;;;x
+mechanized_lmg_distribution_1;50% Distributed;;;;;;;;;;;;;x 
+mechanized_lmg_distribution_2;55% Distributed;;;;;;;;;;;;;x 
+mechanized_lmg_distribution_3;60% Distributed;;;;;;;;;;;;;x 
+mechanized_lmg_distribution_4;65% Distributed;;;;;;;;;;;;;x 
+mechanized_lmg_distribution_5;70% Distributed;;;;;;;;;;;;;x 
+mechanized_lmg_distribution_6;75% Distributed;;;;;;;;;;;;;x 
+mechanized_lmg_distribution_7;80% Distributed;;;;;;;;;;;;;x  
+mechanized_lmg_distribution_8;85% Distributed;;;;;;;;;;;;;x  
+mechanized_lmg_distribution_9;90% Distributed;;;;;;;;;;;;;x  
+mechanized_lmg_distribution_10;95% Distributed;;;;;;;;;;;;;x  
+### LIGHT TANK DESTROYER BATTALION ###;;;;;;;;;;;;;;x
+light_tank_destroyer_battalion_1;50% New Lt TD Type ;;;;;;;;;;;;;;x
+light_tank_destroyer_battalion_2;55% New Lt TD Type ;;;;;;;;;;;;;;x
+light_tank_destroyer_battalion_3;60% New Lt TD Type ;;;;;;;;;;;;;;x
+light_tank_destroyer_battalion_4;65% New Lt TD Type ;;;;;;;;;;;;;;x
+light_tank_destroyer_battalion_5;70% New Lt TD Type ;;;;;;;;;;;;;;x
+light_tank_destroyer_battalion_6;75% New Lt TD Type ;;;;;;;;;;;;;;x
+light_tank_destroyer_battalion_7;80% New Lt TD Type ;;;;;;;;;;;;;;x
+light_tank_destroyer_battalion_8;85% New Lt TD Type ;;;;;;;;;;;;;;x
+light_tank_destroyer_battalion_9;90% New Lt TD Type ;;;;;;;;;;;;;;x
+light_tank_destroyer_battalion_10;95% New Lt TD Type ;;;;;;;;;;;;;;x
+### MEDIUM TANK DESTROYER BATTALION ###;;;;;;;;;;;;;;x
+medium_tank_destroyer_battalion_1;50% New Med TD Type;;;;;;;;;;;;;;x
+medium_tank_destroyer_battalion_2;55% New Med TD Type;;;;;;;;;;;;;;x
+medium_tank_destroyer_battalion_3;60% New Med TD Type ;;;;;;;;;;;;;;x
+medium_tank_destroyer_battalion_4;65% New Med TD Type ;;;;;;;;;;;;;;x
+medium_tank_destroyer_battalion_5;70% New Med TD Type ;;;;;;;;;;;;;;x
+medium_tank_destroyer_battalion_6;75% New Med TD Type ;;;;;;;;;;;;;;x
+medium_tank_destroyer_battalion_7;80% New Med TD Type ;;;;;;;;;;;;;;x
+medium_tank_destroyer_battalion_8;85% New Med TD Type ;;;;;;;;;;;;;;x
+medium_tank_destroyer_battalion_9;90% New Med TD Type ;;;;;;;;;;;;;;x
+medium_tank_destroyer_battalion_10;95% New Med TD Type ;;;;;;;;;;;;;;x
+### HEAVY TANK DESTROYER BATTALION ###;;;;;;;;;;;;;;x
+heavy_tank_destroyer_battalion_1;50% New Hvy TD Type ;;;;;;;;;;;;;;x
+heavy_tank_destroyer_battalion_2;55% New Med TD Type ;;;;;;;;;;;;;;x
+heavy_tank_destroyer_battalion_3;60% New Med TD Type ;;;;;;;;;;;;;;x
+heavy_tank_destroyer_battalion_4;65% New Med TD Type ;;;;;;;;;;;;;;x
+heavy_tank_destroyer_battalion_5;70% New Med TD Type ;;;;;;;;;;;;;;x
+heavy_tank_destroyer_battalion_6;75% New Med TD Type ;;;;;;;;;;;;;;x
+heavy_tank_destroyer_battalion_7;80% New Med TD Type ;;;;;;;;;;;;;;x
+heavy_tank_destroyer_battalion_8;85% New Med TD Type ;;;;;;;;;;;;;;x
+heavy_tank_destroyer_battalion_9;90% New Med TD Type ;;;;;;;;;;;;;;x
+heavy_tank_destroyer_battalion_10;95% New Med TD Type ;;;;;;;;;;;;;;x
+### SP ARTILLERY BATTALION ###;;;;;;;;;;;;;;x
+sp_artillery_battalion_1;50% New SP Artillery Type ;;;;;;;;;;;;;;x
+sp_artillery_battalion_2;55% New SP Artillery Type ;;;;;;;;;;;;;;x
+sp_artillery_battalion_3;60% New SP Artillery Type;;;;;;;;;;;;;;x
+sp_artillery_battalion_4;65% New SP Artillery Type ;;;;;;;;;;;;;;x
+sp_artillery_battalion_5;70% New SP Artillery Type ;;;;;;;;;;;;;;x
+sp_artillery_battalion_6;75% New SP Artillery Type ;;;;;;;;;;;;;;x
+sp_artillery_battalion_7;80% New SP Artillery Type ;;;;;;;;;;;;;;x
+sp_artillery_battalion_8;85% New SP Artillery Type ;;;;;;;;;;;;;;x
+sp_artillery_battalion_9;90% New SP Artillery Type ;;;;;;;;;;;;;;x
+sp_artillery_battalion_10;95% New SP Artillery Type ;;;;;;;;;;;;;;x
+### SP ROCKET ARTILLERY BATTALION ###;;;;;;;;;;;;;;x
+sp_rocket_artillery_battalion_1;50% New SP Rocket Arty Type;;;;;;;;;;;;;;x
+sp_rocket_artillery_battalion_2;55% New SP Rocket Arty Type;;;;;;;;;;;;;;x
+sp_rocket_artillery_battalion_3;60% New SP Rocket Arty Type;;;;;;;;;;;;;;x
+sp_rocket_artillery_battalion_4;65% New SP Rocket Arty Type;;;;;;;;;;;;;;x
+sp_rocket_artillery_battalion_5;70% New SP Rocket Arty Type;;;;;;;;;;;;;;x
+sp_rocket_artillery_battalion_6;75% New SP Rocket Arty Type;;;;;;;;;;;;;;x
+sp_rocket_artillery_battalion_7;80% New SP Rocket Arty Type;;;;;;;;;;;;;;x
+sp_rocket_artillery_battalion_8;85% New SP Rocket Arty Type;;;;;;;;;;;;;;x
+sp_rocket_artillery_battalion_9;90% New SP Rocket Arty Type;;;;;;;;;;;;;;x
+sp_rocket_artillery_battalion_10;95% New SP Rocket Arty Type;;;;;;;;;;;;;;x
+### ASSAULT GUN BATTALION ###;;;;;;;;;;;;;;x
+assault_gun_battalion_1;50% New Assault Gun Type;;;;;;;;;;;;;;x
+assault_gun_battalion_2;55% New Assault Gun Type;;;;;;;;;;;;;;x
+assault_gun_battalion_3;60% New Assault Gun Type;;;;;;;;;;;;;;x
+assault_gun_battalion_4;65% New Assault Gun Type;;;;;;;;;;;;;;x
+assault_gun_battalion_5;70% New Assault Gun Type;;;;;;;;;;;;;;x
+assault_gun_battalion_6;75% New Assault Gun Type;;;;;;;;;;;;;;x
+assault_gun_battalion_7;80% New Assault Gun Type;;;;;;;;;;;;;;x
+assault_gun_battalion_8;85% New Assault Gun Type;;;;;;;;;;;;;;x
+assault_gun_battalion_9;90% New Assault Gun Type;;;;;;;;;;;;;;x
+assault_gun_battalion_10;95% New Assault Gun Type;;;;;;;;;;;;;;x
+### HEAVY ASSAULT GUN BATTALION ###;;;;;;;;;;;;;;x
+heavy_assault_gun_battalion_1;50% New Hvy Asslt Gun Type;;;;;;;;;;;;;;x
+heavy_assault_gun_battalion_2;55% New Hvy Asslt Gun Type;;;;;;;;;;;;;;x
+heavy_assault_gun_battalion_3;60% New Hvy Asslt Gun Type;;;;;;;;;;;;;;x
+heavy_assault_gun_battalion_4;65% New Hvy Asslt Gun Type;;;;;;;;;;;;;;x
+heavy_assault_gun_battalion_5;70% New Hvy Asslt Gun Type;;;;;;;;;;;;;;x
+heavy_assault_gun_battalion_6;75% New Hvy Asslt Gun Type;;;;;;;;;;;;;;x
+heavy_assault_gun_battalion_7;80% New Hvy Asslt Gun Type;;;;;;;;;;;;;;x
+heavy_assault_gun_battalion_8;85% New Hvy Asslt Gun Type;;;;;;;;;;;;;;x
+heavy_assault_gun_battalion_9;90% New Hvy Asslt Gun Type;;;;;;;;;;;;;;x
+heavy_assault_gun_battalion_10;95% New Hvy Asslt Gun Type;;;;;;;;;;;;;;x
+### HEAVY TANK BATTALION ###;;;;;;;;;;;;;;x
+heavy_tank_battalion_1;50% New Hvy Tank Type;;;;;;;;;;;;;;x
+heavy_tank_battalion_2;55% New Hvy Tank Type;;;;;;;;;;;;;;x
+heavy_tank_battalion_3;60% New Hvy Tank Type;;;;;;;;;;;;;;x
+heavy_tank_battalion_4;65% New Hvy Tank Type;;;;;;;;;;;;;;x
+heavy_tank_battalion_5;70% New Hvy Tank Type;;;;;;;;;;;;;;x
+heavy_tank_battalion_6;75% New Hvy Tank Type;;;;;;;;;;;;;;x
+heavy_tank_battalion_7;80% New Hvy Tank Type;;;;;;;;;;;;;;x
+heavy_tank_battalion_8;85% New Hvy Tank Type;;;;;;;;;;;;;;x
+heavy_tank_battalion_9;90% New Hvy Tank Type;;;;;;;;;;;;;;x
+heavy_tank_battalion_10;95% New Hvy Tank Type;;;;;;;;;;;;;;x
+### SUPER HEAVY TANK BATTALION ###;;;;;;;;;;;;;;x
+super_heavy_tank_battalion_1;50% New Supr Hvy Tank Type;;;;;;;;;;;;;;x
+super_heavy_tank_battalion_2;55% New Supr Hvy Tank Type;;;;;;;;;;;;;;x
+super_heavy_tank_battalion_3;60% New Supr Hvy Tank Type;;;;;;;;;;;;;;x
+super_heavy_tank_battalion_4;65% New Supr Hvy Tank Type;;;;;;;;;;;;;;x
+super_heavy_tank_battalion_5;70% New Supr Hvy Tank Type;;;;;;;;;;;;;;x
+super_heavy_tank_battalion_6;75% New Supr Hvy Tank Type;;;;;;;;;;;;;;x
+super_heavy_tank_battalion_7;80% New Supr Hvy Tank Type;;;;;;;;;;;;;;x
+super_heavy_tank_battalion_8;85% New Supr Hvy Tank Type;;;;;;;;;;;;;;x
+super_heavy_tank_battalion_9;90% New Supr Hvy Tank Type;;;;;;;;;;;;;;x
+super_heavy_tank_battalion_10;95% New Supr Hvy Tank Type;;;;;;;;;;;;;;x
+### SP ANTI-AIR BATTALION ###;;;;;;;;;;;;;;x
+sp_anti_aircraft_battalion_1;50% New SP AA Type;;;;;;;;;;;;;;x
+sp_anti_aircraft_battalion_2;55% New SP AA Type;;;;;;;;;;;;;;x
+sp_anti_aircraft_battalion_3;60% New SP AA Type;;;;;;;;;;;;;;x
+sp_anti_aircraft_battalion_4;65% New SP AA Type;;;;;;;;;;;;;;x
+sp_anti_aircraft_battalion_5;70% New SP AA Type;;;;;;;;;;;;;;x
+sp_anti_aircraft_battalion_6;75% New SP AA Type;;;;;;;;;;;;;;x
+sp_anti_aircraft_battalion_7;80% New SP AA Type;;;;;;;;;;;;;;x
+sp_anti_aircraft_battalion_8;85% New SP AA Type;;;;;;;;;;;;;;x
+sp_anti_aircraft_battalion_9;90% New SP AA Type;;;;;;;;;;;;;;x
+sp_anti_aircraft_battalion_10;95% New SP AA Type;;;;;;;;;;;;;;x
+### ARMOR DIVISION MAINTENANCE COMPANY ###;;;;;;;;;;;;;;x
+armor_maintenance_company_1;Maintenance Company I;;;;;;;;;;;;;;x
+armor_maintenance_company_2;Maintenance Company II;;;;;;;;;;;;;;x
+armor_maintenance_company_3;Maintenance Company III;;;;;;;;;;;;;;x
+armor_maintenance_company_4;Maintenance Company IV;;;;;;;;;;;;;;x
+armor_maintenance_company_5;Maintenance Company V;;;;;;;;;;;;;;x
+armor_maintenance_company_6;Maintenance Company VI;;;;;;;;;;;;;;x
+armor_maintenance_company_7;Maintenance Company VII;;;;;;;;;;;;;;x
+armor_maintenance_company_8;Maintenance Company VIII;;;;;;;;;;;;;;x
+armor_maintenance_company_9;Maintenance Company IX;;;;;;;;;;;;;;x
+armor_maintenance_company_10;Maintenance Company X;;;;;;;;;;;;;;x
+### ARMOR SUPPLY COMPANY ###;;;;;;;;;;;;;;x
+armor_supply_company_1; Supply Company I;;;;;;;;;;;;;;x
+armor_supply_company_2; Supply Company II;;;;;;;;;;;;;;x
+armor_supply_company_3; Supply Company III;;;;;;;;;;;;;;x
+armor_supply_company_4; Supply Company IV;;;;;;;;;;;;;;x
+armor_supply_company_5; Supply Company V;;;;;;;;;;;;;;x
+armor_supply_company_6; Supply Company VI;;;;;;;;;;;;;;x
+armor_supply_company_7; Supply Company VII;;;;;;;;;;;;;;x
+armor_supply_company_8; Supply Company VIII;;;;;;;;;;;;;;x
+armor_supply_company_9; Supply Company IX;;;;;;;;;;;;;;x
+armor_supply_company_10; Supply Company X;;;;;;;;;;;;;;x
+### DIVISION MEDICAL COMPANY ###;;;;;;;;;;;;;;x
+armor_medical_company_1; Medical Company I;;;;;;;;;;;;;;x
+armor_medical_company_2; Medical Company II;;;;;;;;;;;;;;x
+armor_medical_company_3; Medical Company III;;;;;;;;;;;;;;x
+armor_medical_company_4; Medical Company IV;;;;;;;;;;;;;;x
+armor_medical_company_5; Medical Company V;;;;;;;;;;;;;;x
+armor_medical_company_6; Medical Company VI;;;;;;;;;;;;;;x
+armor_medical_company_7; Medical Company VII;;;;;;;;;;;;;;x
+armor_medical_company_8; Medical Company VIII;;;;;;;;;;;;;;x
+armor_medical_company_9; Medical Company IX;;;;;;;;;;;;;;x
+armor_medical_company_10; Medical Company X;;;;;;;;;;;;;;x
+armor_medical_company_11; Medical Company XI;;;;;;;;;;;;;;x
+armor_medical_company_12; Medical Company XII;;;;;;;;;;;;;;x
+armor_medical_company_13; Medical Company XIII;;;;;;;;;;;;;;x
+armor_medical_company_14; Medical Company XIV;;;;;;;;;;;;;;x
+armor_medical_company_15; Medical Company XV;;;;;;;;;;;;;;x
+### ARMOR RADIO COMPANY ###;;;;;;;;;;;;;;x
+armor_radio_company_1; Radio Company I;;;;;;;;;;;;;;x
+armor_radio_company_2; Radio Company II;;;;;;;;;;;;;;x
+armor_radio_company_3; Radio Company III;;;;;;;;;;;;;;x
+armor_radio_company_4; Radio Company IV;;;;;;;;;;;;;;x
+armor_radio_company_5; Radio Company V;;;;;;;;;;;;;;x
+armor_radio_company_6; Radio Company VI;;;;;;;;;;;;;;x
+armor_radio_company_7; Radio Company VII;;;;;;;;;;;;;;x
+armor_radio_company_8; Radio Company VIII;;;;;;;;;;;;;;x
+armor_radio_company_9; Radio Company IX;;;;;;;;;;;;;;x
+armor_radio_company_10; Radio Company X;;;;;;;;;;;;;;x
+armor_radio_company_11; Radio Company XI;;;;;;;;;;;;;;x
+armor_radio_company_12; Radio Company XII;;;;;;;;;;;;;;x
+armor_radio_company_13; Radio Company XIII;;;;;;;;;;;;;;x
+armor_radio_company_14; Radio Company XIV;;;;;;;;;;;;;;x
+armor_radio_company_15; Radio Company XV;;;;;;;;;;;;;;x
+### ARMOR INTEL COMPANY ###;;;;;;;;;;;;;;x
+armor_intel_company_1;Field Intel Company I;;;;;;;;;;;;;;x
+armor_intel_company_2;Field Intel Company II;;;;;;;;;;;;;;x
+armor_intel_company_3;Field Intel Company III;;;;;;;;;;;;;;x
+armor_intel_company_4;Field Intel Company IV;;;;;;;;;;;;;;x
+armor_intel_company_5;Field Intel Company V;;;;;;;;;;;;;;x
+armor_intel_company_6;Field Intel Company VI;;;;;;;;;;;;;;x
+armor_intel_company_7;Field Intel Company VII;;;;;;;;;;;;;;x
+armor_intel_company_8;Field Intel Company VIII;;;;;;;;;;;;;;x
+armor_intel_company_9;Field Intel Company IX;;;;;;;;;;;;;;x
+armor_intel_company_10;Field Intel Company X;;;;;;;;;;;;;;x
+armor_intel_company_11;Field Intel Company XI;;;;;;;;;;;;;;x
+armor_intel_company_12;Field Intel Company XII;;;;;;;;;;;;;;x
+armor_intel_company_13;Field Intel Company XIII;;;;;;;;;;;;;;x
+armor_intel_company_14;Field Intel Company XIV;;;;;;;;;;;;;;x
+armor_intel_company_15;Field Intel Company XV;;;;;;;;;;;;;;x
+### ARMOR RECON BATTALION ###;;;;;;;;;;;;;;x
+armored_recon_battalion_1;50% New Armoured Car Type;;;;;;;;;;;;;;x
+armored_recon_battalion_2;55% New Armoured Car Type;;;;;;;;;;;;;;x
+armored_recon_battalion_3;60% New Armoured Car Type;;;;;;;;;;;;;;x
+armored_recon_battalion_4;65% New Armoured Car Type;;;;;;;;;;;;;;x
+armored_recon_battalion_5;70% New Armoured Car Type;;;;;;;;;;;;;;x
+armored_recon_battalion_6;75% New Armoured Car Type;;;;;;;;;;;;;;x
+armored_recon_battalion_7;80% New Armoured Car Type;;;;;;;;;;;;;;x
+armored_recon_battalion_8;85% New Armoured Car Type;;;;;;;;;;;;;;x
+armored_recon_battalion_9;90% New Armoured Car Type;;;;;;;;;;;;;;x
+armored_recon_battalion_10;95% New Armoured Car Type;;;;;;;;;;;;;;x
+### ARMORED RECON HEAVY WEAPONS COMPANY ###;;;;;;;;;;;;;;x
+armored_recon_heavy_weapons_company_1;50% New Heavy Weapon Type;;;;;;;;;;;;;;x
+armored_recon_heavy_weapons_company_2;55% New Heavy Weapon Type;;;;;;;;;;;;;;x
+armored_recon_heavy_weapons_company_3;60% New Heavy Weapon Type;;;;;;;;;;;;;;x
+armored_recon_heavy_weapons_company_4;65% New Heavy Weapon Type;;;;;;;;;;;;;;x
+armored_recon_heavy_weapons_company_5;70% New Heavy Weapon Type;;;;;;;;;;;;;;x
+armored_recon_heavy_weapons_company_6;75% New Heavy Weapon Type;;;;;;;;;;;;;;x
+armored_recon_heavy_weapons_company_7;80% New Heavy Weapon Type;;;;;;;;;;;;;;x
+armored_recon_heavy_weapons_company_8;85% New Heavy Weapon Type;;;;;;;;;;;;;;x
+armored_recon_heavy_weapons_company_9;90% New Heavy Weapon Type;;;;;;;;;;;;;;x
+armored_recon_heavy_weapons_company_10;95% New Heavy Weapon Type;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### ADVANCED DIVISION ORGANIZATION TECHNOLOGIES ###;;;;;;;;;;;;;;x
+##########################################################################################;;;;;;;;;;;;;;x
+### PENTOMIC DIVISION STRUCTURE ###;;;;;;;;;;;;;;x
+pentomic_division_structure_1;I Battlegroup;;;;;;;;;;;;;;x
+pentomic_division_structure_2;II Battlegroups ;;;;;;;;;;;;;;x
+pentomic_division_structure_3;III Battlegroups ;;;;;;;;;;;;;;x
+pentomic_division_structure_4;IV Battlegroups ;;;;;;;;;;;;;;x
+pentomic_division_structure_5;V Battlegroups ;;;;;;;;;;;;;;x
+### 1ST BATTLEGROUP ###;;;;;;;;;;;;;;x
+first_battlegroup_1;60% New Advanced Weapons Type;;;;;;;;;;;;;;x
+first_battlegroup_2;65% New Advanced Weapons Type;;;;;;;;;;;;;;x
+first_battlegroup_3;70% New Advanced Weapons Type;;;;;;;;;;;;;;x
+first_battlegroup_4;75% New Advanced Weapons Type;;;;;;;;;;;;;;x
+first_battlegroup_5;80% New Advanced Weapons Type;;;;;;;;;;;;;;x
+first_battlegroup_6;85% New Advanced Weapons Type;;;;;;;;;;;;;;x
+first_battlegroup_7;90% New Advanced Weapons Type;;;;;;;;;;;;;;x
+first_battlegroup_8;95% New Advanced Weapons Type;;;;;;;;;;;;;;x
+### 2ND BATTLEGROUP ###;;;;;;;;;;;;;;x
+second_battlegroup_1;60% New Advanced Weapons Type;;;;;;;;;;;;;;x
+second_battlegroup_2;65% New Advanced Weapons Type;;;;;;;;;;;;;;x
+second_battlegroup_3;70% New Advanced Weapons Type;;;;;;;;;;;;;;x
+second_battlegroup_4;75% New Advanced Weapons Type;;;;;;;;;;;;;;x
+second_battlegroup_5;80% New Advanced Weapons Type;;;;;;;;;;;;;;x
+second_battlegroup_6;85% New Advanced Weapons Type;;;;;;;;;;;;;;x
+second_battlegroup_7;90% New Advanced Weapons Type;;;;;;;;;;;;;;x
+second_battlegroup_8;95% New Advanced Weapons Type;;;;;;;;;;;;;;x
+### 3RD BATTLEGROUP ###;;;;;;;;;;;;;;x
+third_battlegroup_1;60% New Advanced Weapons Type;;;;;;;;;;;;;;x
+third_battlegroup_2;65% New Advanced Weapons Type;;;;;;;;;;;;;;x
+third_battlegroup_3;70% New Advanced Weapons Type;;;;;;;;;;;;;;x
+third_battlegroup_4;75% New Advanced Weapons Type;;;;;;;;;;;;;;x
+third_battlegroup_5;80% New Advanced Weapons Type;;;;;;;;;;;;;;x
+third_battlegroup_6;85% New Advanced Weapons Type;;;;;;;;;;;;;;x
+third_battlegroup_7;90% New Advanced Weapons Type;;;;;;;;;;;;;;x
+third_battlegroup_8;95% New Advanced Weapons Type;;;;;;;;;;;;;;x
+### 4TH BATTLEGROUP ###;;;;;;;;;;;;;;x
+fourth_battlegroup_1;60% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fourth_battlegroup_2;65% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fourth_battlegroup_3;70% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fourth_battlegroup_4;75% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fourth_battlegroup_5;80% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fourth_battlegroup_6;85% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fourth_battlegroup_7;90% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fourth_battlegroup_8;95% New Advanced Weapons Type;;;;;;;;;;;;;;x
+### 5TH BATTLEGROUP ###;;;;;;;;;;;;;;x
+fifth_battlegroup_1;60% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fifth_battlegroup_2;65% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fifth_battlegroup_3;70% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fifth_battlegroup_4;75% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fifth_battlegroup_5;80% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fifth_battlegroup_6;85% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fifth_battlegroup_7;90% New Advanced Weapons Type;;;;;;;;;;;;;;x
+fifth_battlegroup_8;95% New Advanced Weapons Type;;;;;;;;;;;;;;x
+### COMBAT BRIGADE REORGANIZATION ###;;;;;;;;;;;;;;x
+combat_brigade_reorganization_1;Combat Brigade I;;;;;;;;;;;;;;x
+combat_brigade_reorganization_2;Combat Brigade II;;;;;;;;;;;;;;x
+### LIGHT COMBAT BRIGADE ###;;;;;;;;;;;;;;x
+light_combat_brigade_1;60% New Advanced Weapons Type;;;;;;;;;;;;;;x
+light_combat_brigade_2;65% New Advanced Weapons Type;;;;;;;;;;;;;;x
+light_combat_brigade_3;70% New Advanced Weapons Type;;;;;;;;;;;;;;x
+light_combat_brigade_4;75% New Advanced Weapons Type;;;;;;;;;;;;;;x
+light_combat_brigade_5;80% New Advanced Weapons Type;;;;;;;;;;;;;;x
+light_combat_brigade_6;85% New Advanced Weapons Type;;;;;;;;;;;;;;x
+light_combat_brigade_7;90% New Advanced Weapons Type;;;;;;;;;;;;;;x
+light_combat_brigade_8;95% New Advanced Weapons Type;;;;;;;;;;;;;;x
+### HEAVY COMBAT BRIGADE ###;;;;;;;;;;;;;;x
+heavy_combat_brigade_1;60% New Advanced Weapons Type;;;;;;;;;;;;;;x
+heavy_combat_brigade_2;65% New Advanced Weapons Type;;;;;;;;;;;;;;x
+heavy_combat_brigade_3;70% New Advanced Weapons Type;;;;;;;;;;;;;;x
+heavy_combat_brigade_4;75% New Advanced Weapons Type;;;;;;;;;;;;;;x
+heavy_combat_brigade_5;80% New Advanced Weapons Type;;;;;;;;;;;;;;x
+heavy_combat_brigade_6;85% New Advanced Weapons Type;;;;;;;;;;;;;;x
+heavy_combat_brigade_7;90% New Advanced Weapons Type;;;;;;;;;;;;;;x
+heavy_combat_brigade_8;95% New Advanced Weapons Type;;;;;;;;;;;;;;x
+### AIR ASSAULT DIVISION ###;;;;;;;;;;;;;;x
+air_assault_division_1;Division I ;;;;;;;;;;;;;;x
+air_assault_division_2;Division II ;;;;;;;;;;;;;;x
+air_assault_division_3;Division III ;;;;;;;;;;;;;;x
+air_assault_division_4;Division IV ;;;;;;;;;;;;;;x
+air_assault_division_5;Division V ;;;;;;;;;;;;;;x
+### AIR ASSAULT BRIGADE ###;;;;;;;;;;;;;;x
+air_assault_brigade_1;Brigade I ;;;;;;;;;;;;;;x
+air_assault_brigade_2;Brigade II ;;;;;;;;;;;;;;x
+air_assault_brigade_3;Brigade III ;;;;;;;;;;;;;;x
+### ARMOR BRIGADE ###;;;;;;;;;;;;;;x
+tank_brigade_reorganization_1;Tank Brigade Re-Org I ;;;;;;;;;;;;;;x
+tank_brigade_reorganization_2;Tank Brigade Re-Org II ;;;;;;;;;;;;;;x
+tank_brigade_reorganization_3;Tank Brigade Re-Org III ;;;;;;;;;;;;;;x
+tank_brigade_reorganization_4;Tank Brigade Re-Org IV ;;;;;;;;;;;;;;x
+tank_brigade_reorganization_5;Tank Brigade Re-Org V ;;;;;;;;;;;;;;x
+tank_brigade_reorganization_6;Tank Brigade Re-Org VI ;;;;;;;;;;;;;;x
+### ARMOR BATTALION ###;;;;;;;;;;;;;;x
+tank_battalion_reorganization_1;Tank Battalion Re-Org I ;;;;;;;;;;;;;;x
+tank_battalion_reorganization_2;Tank Battalion Re-Org II  ;;;;;;;;;;;;;;x
+tank_battalion_reorganization_3;Tank Battalion Re-Org III  ;;;;;;;;;;;;;;x
+### MECHANIZED BRIGADE ###;;;;;;;;;;;;;;x
+mech_infantry_brigade_reorganization_1;Mechanized Brigade Re-Org I ;;;;;;;;;;;;;;x
+mech_infantry_brigade_reorganization_2;Mechanized Brigade Re-Org II ;;;;;;;;;;;;;;x
+mech_infantry_brigade_reorganization_3;Mechanized Brigade Re-Org III ;;;;;;;;;;;;;;x
+mech_infantry_brigade_reorganization_4;Mechanized Brigade Re-Org IV ;;;;;;;;;;;;;;x
+mech_infantry_brigade_reorganization_5;Mechanized Brigade Re-Org V ;;;;;;;;;;;;;;x
+mech_infantry_brigade_reorganization_6;Mechanized Brigade Re-Org VI ;;;;;;;;;;;;;;x
+### MECHANIZED BATTALION ###;;;;;;;;;;;;;;x
+mech_infantry_battalion_reorganization_1;Mechanized Battalion Re-Org I ;;;;;;;;;;;;;;x
+mech_infantry_battalion_reorganization_2;Mechanized Battalion Re-Org II ;;;;;;;;;;;;;;x
+mech_infantry_battalion_reorganization_3;Mechanized Battalion Re-Org III ;;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

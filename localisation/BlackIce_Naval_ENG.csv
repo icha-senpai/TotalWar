@@ -1,0 +1,68 @@
+#######################;;;;;;;;;;;;;;x
+### Models ENG Navy ###;;;;;;;;;;;;;;x
+#######################;;;;;;;;;;;;;;x
+### Unique Carrier ( CV ) ###;;;;;;;;;;;;;;x
+CV_Ark_Royal;HMS Ark Royal ;;;;;;;;;;;;;x
+CV_Furious;HMS Furious;;;;;;;;;;;;;x
+CV_Glorious;HMS Glorious ;;;;;;;;;;;;;x
+CV_Courageous;HMS Courageous ;;;;;;;;;;;;;x
+CV_Ark_Royal_short;ARK ;;;;;;;;;;;;;x
+CV_Furious_short;FUR;;;;;;;;;;;;;x
+CV_Glorious_short;GLO ;;;;;;;;;;;;;x
+CV_Courageous_short;COR ;;;;;;;;;;;;;x
+##########################;;;;;;;;;;;;;;x
+### Battleships ( BB ) ###;;;;;;;;;;;;;;x
+### Unique Battleships ( BB ) ###;;;;;;;;;;;;;;x
+BB_King_George_V;HMS King George V ;;;;;;;;;;;;;x
+BB_Duke_of_York;HMS Duke Of York ;;;;;;;;;;;;;x
+BB_Prince_of_Wales;HMS Prince Of Wales ;;;;;;;;;;;;;x
+BB_Howe;HMS Howe ;;;;;;;;;;;;;x
+BB_Anson;HMS Anson ;;;;;;;;;;;;;x
+BB_Nelson;HMS Nelson ;;;;;;;;;;;;;x
+BB_Rodney;HMS Rodney ;;;;;;;;;;;;;x
+BB_Warspite;HMS Warspite ;;;;;;;;;;;;;x
+BB_Revenge;HMS Revenge ;;;;;;;;;;;;;x
+BB_Queen_elizabeth;HMS Queen Elizabeth ;;;;;;;;;;;;;x
+BB_Ramillies;HMS Ramillies ;;;;;;;;;;;;;x
+BB_Resolution;HMS Resolution ;;;;;;;;;;;;;x
+BB_Royal_Oak;HMS Royal Oak;;;;;;;;;;;;;x
+BB_Royal_sovereign;HMS Royal Sovereign ;;;;;;;;;;;;;x
+BB_Valiant;HMS Valiant ;;;;;;;;;;;;;x
+BB_Barham;HMS Barham ;;;;;;;;;;;;;x
+BB_Malaya;HMS Malaya ;;;;;;;;;;;;;x
+BB_King_George_V_short;KGV;;;;;;;;;;;;;x
+BB_Duke_of_York_short;DOY ;;;;;;;;;;;;;x
+BB_Prince_of_Wales_short;POW;;;;;;;;;;;;;x
+BB_Howe_short;HOW ;;;;;;;;;;;;;x
+BB_Anson_short;ASN ;;;;;;;;;;;;;x
+BB_Nelson_short;NEL ;;;;;;;;;;;;;x
+BB_Rodney_short;ROD ;;;;;;;;;;;;;x
+BB_Warspite_short;WAR ;;;;;;;;;;;;;x
+BB_Revenge_short;REV ;;;;;;;;;;;;;x
+BB_Queen_elizabeth_short;QUE ;;;;;;;;;;;;;x
+BB_Ramillies_short;RAM ;;;;;;;;;;;;;x
+BB_Resolution_short;RES ;;;;;;;;;;;;;x
+BB_Royal_Oak_short;OAK;;;;;;;;;;;;;x
+BB_Royal_sovereign_short;SOV ;;;;;;;;;;;;;x
+BB_Valiant_short;VAL ;;;;;;;;;;;;;x
+BB_Barham_short;BAR ;;;;;;;;;;;;;x
+BB_Malaya_short;MAY ;;;;;;;;;;;;;x
+############################;;;;;;;;;;;;;;x
+### Unique Battlecruiser ( BC ) ###;;;;;;;;;;;;;;x
+BC_Hood;HMS Hood ;;;;;;;;;;;;;x
+BC_Renown;HMS Renown ;;;;;;;;;;;;;x
+BC_Repulse;HMS Repulse ;;;;;;;;;;;;;x
+BC_Hood_short;HOD ;;;;;;;;;;;;;x
+BC_Renown_short;REN ;;;;;;;;;;;;;x
+BC_Repulse_short;REP ;;;;;;;;;;;;;x
+KGV_decision_title;Ordering of the battleship HMS King George V ;;;;;;;;;;;;;x
+KGV_decision_desc;HMS King George V (pennant number 41) was the lead ship of the five British King George V-class battleships of the Royal Navy. King George V was built by Vickers-Armstrong at Walker Naval Yard, Newcastle upon Tyne;;;;;;;;;;;;;x
+POW_decision_title;Ordering of the battleship HMS Prince Of Wales ;;;;;;;;;;;;;x
+POW_decision_desc;Prince of Wales was originally named King Edward VIII but upon the abdication of Edward VIII the ship was renamed even before she had been laid down. This occurred at Cammell Laird's shipyard in Birkenhead on 1 January 1937 ;;;;;;;;;;;;;x
+DOY_decision_title;Ordering of the battleship HMS Duke Of York ;;;;;;;;;;;;;x
+DOY_decision_desc;Duke of York was the third ship in the King George V class, and was laid down at John Brown & Company's shipyard in Clydebank, Scotland, on 5 May 1937. ;;;;;;;;;;;;;x
+Anson_decision_title;Ordering of the battleship HMS Anson ;;;;;;;;;;;;;x
+Anson_decision_desc;The keel of the fourth ship of the KGV class was laid at the Swan Hunter and Wigham Richardson Shipyard on 20 July 1937 ;;;;;;;;;;;;;x
+Howe_decision_title;Ordering of the battleship HMS Howe ;;;;;;;;;;;;;x
+Howe_decision_desc;The keel of the Howe, the last ship of the King George V class, was laid on 1 June 1937 at the Fairfield Shipyard in Govan ;;;;;;;;;;;;;x
+#EOF;;;;;;;;;;;;;;x

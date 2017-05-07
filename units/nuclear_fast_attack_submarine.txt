@@ -1,0 +1,49 @@
+nuclear_fast_attack_submarine = {
+	type = naval
+	sprite = Submarine
+	is_sub = yes
+	active = no
+	hull = 0.8
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 40  # Nuclear sub crews are more heavily trained
+	default_morale = 0.30
+	officers = 16
+
+	#Building Costs
+	build_cost_ic = 16.00
+	build_cost_manpower = 0.150
+	build_time = 460
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 55.60
+	transport_capability = 0.00
+	supply_consumption = 2.10
+	fuel_consumption = 0.00
+	range = 60000.00
+	distance = 0.22
+	radio_strength = 1
+	
+	#Detection Abilities
+	surface_detection = 12.00
+	air_detection = 1.00
+	sub_detection = 15.00
+	visibility = -50.00
+
+	#Defensive Abilities
+	sea_defence = 18.00
+	air_defence = 20.00
+
+	#Offensive Abilities
+	convoy_attack = 15.00
+	sea_attack = 19.00
+	sub_attack = 24.00
+	air_attack = 0.00
+	shore_bombardment = 0.00
+
+	completion_size = 3.0
+	on_completion = submarine_practical
+	priority = 3
+}

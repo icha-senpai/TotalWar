@@ -1,0 +1,100 @@
+afrika_brigade = {
+	usable_by = { GER }
+	type = land
+	sprite = Motor
+	active = no
+	is_buildable = yes
+	unit_group = infantry_unit_type
+	is_mobile = yes
+
+	#Size Definitions - x6 Infantry Battalions & 2 Armor Battalions 
+	max_strength = 80.0
+	default_organisation = 35
+	default_morale = 0.40
+	officers = 150
+
+	#Building Costs
+	build_cost_ic = 12.00
+	build_cost_manpower = 8.15
+	build_time = 75
+	repair_cost_multiplier = 0.07
+
+	#Misc Abilities
+	maximum_speed = 9.00
+	transport_weight = 24.00
+	supply_consumption = 0.95
+	fuel_consumption = 2.85
+	radio_strength = 2.25
+
+	#Defensive Abilities
+	defensiveness = 22.05
+	toughness = 1.00
+	softness = 0.75
+	air_defence = 1.00
+	armor_value = 4
+
+	#Offensive Abilities
+	suppression = 2.25
+	soft_attack = 7.35
+	hard_attack = 3.55
+	air_attack = 1.25
+	ap_attack = 5
+	
+	## Motorized Infantry have the same stats as regular foot infantry but with bonuses to movement
+	
+	plains = {  
+		attack = 0.15  ## Slight bonus due to being able to out maneuver enemy  
+		movement = -0.15 ## Can run on open terrain a lot easier.  
+	}
+	river = { 
+		movement = -0.35 ## Not easy for infantry to cross river.  
+	}
+	arctic = {		
+		movement = -0.30 ## Not easy to move around on tundra. 
+		attrition = 5 ## Too cold to stay outside for too long.
+	}
+	desert = { 
+		attack = 0.15  ## Slight bonus due to being able to out maneuver enemy  
+		movement = -0.15 ## Desert is too hot and big to cross on foot 
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		movement = -0.35 ## Troops not specially trained to move through woods or forest
+	}
+	forest = {
+		movement = -0.45 ## Hard to move through dense forest 
+	}
+	jungle = { 
+		movement = -0.70 ## Not trained for jungle warfare
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		movement = -0.35 # Hard to move through hilly areas
+	}
+	mountain = { 
+		movement = -0.55 # Not trained in mountain warfare
+	}
+	urban = {
+		movement = -0.05  ## Easy to move through urban streets
+	}
+	marsh = { 
+		movement = -1.10 ## Difficult to move through marshes
+	}
+	amphibious = { 
+		
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+		
+	}
+
+	combat_width = 0.99
+
+	completion_size = 0.50
+	on_completion = infantry_practical
+	
+	priority = 71
+}

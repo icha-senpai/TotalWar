@@ -1,0 +1,1925 @@
+930600 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930601 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930602 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930603 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930604 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930605 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930606 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930607 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930608 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930609 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930610 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930611 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930612 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930613 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930614 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930615 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930616 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930617 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930618 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930619 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930620 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930621 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930622 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930623 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930624 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930625 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930626 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930627 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930628 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930629 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930630 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930631 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930632 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930633 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930634 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930635 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930636 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930637 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+93038 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930639 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930640 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930641 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930642 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930643 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930644 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930645 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930646 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930647 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930648 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930649 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = superior_air_tactician
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+930650 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930651 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930652 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930653 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930654 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930655 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930656 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930657 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930658 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930659 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930660 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930661 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930662 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930663 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930664 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930665 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930666 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930667 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930668 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930669 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = tank_buster
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930670 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930671 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930672 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930673 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930674 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930675 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930676 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930677 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930678 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930679 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930680 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930681 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930682 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930683 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930684 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930685 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930686 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930687 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930688 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930689 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = carpet_bomber
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930690 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930691 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930692 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930693 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930694 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930695 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930696 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930697 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930698 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930699 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = night_flyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930700 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930701 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930702 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930703 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930704 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930705 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930706 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930707 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930708 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930709 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930710 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930711 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930712 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930713 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930714 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930715 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930716 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930717 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930718 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930719 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	add_trait = fleet_destroyer
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930720 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930721 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930722 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930723 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930724 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930725 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930726 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930727 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930728 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930729 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930730 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930731 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930732 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930733 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930734 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930735 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930736 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930737 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930738 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930739 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930740 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930741 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930742 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930743 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930744 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930745 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930746 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930747 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930748 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+930749 = {
+	name = "Kong Jun Shang Xiao"
+	country = CHI
+	type = air
+	skill = 0
+	max_skill = 10
+	loyalty = 1.00
+	picture = 7_KJ_SX
+	history = {
+		1936.1.1 = { rank = 1 }
+	}
+}
+
+
+
+

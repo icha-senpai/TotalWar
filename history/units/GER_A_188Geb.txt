@@ -1,0 +1,17 @@
+division= {
+		name = "188. Reserve-Gebirgs-Divison"
+		location = 3227 # Graz
+		is_reserve = yes
+		regiment = { type = GER_A_CLXXXVIII_Geb name = "Stab 188. Reserve-Gebirgs-Divison" historical_model = 0 organisation = 1 }
+		regiment = { type = bergsjaeger_brigade name = "Reserve-Geb.-Reg. 136/137/138/139" historical_model = 0 organisation = 1 }
+                regiment = { type = artillery_brigade name = "Reserve-Artillerie-Regiment 112" historical_model = 0 organisation = 1 }
+                regiment = { type = engineer_brigade name = "Reserve-Pionier-Bataillon 83" historical_model = 0 organisation = 1 }
+                regiment = { type = Recon_cavalry_brigade name = "Reserve-Grenadier-Bataillon 499" historical_model = 0 organisation = 1 }
+                regiment = { type = horse_transport name = "Gefechtstross 1088" historical_model = 0 organisation = 1 }
+}
+division= {
+		name = "8. Gebirgs-Division"
+		location = 3227 # Graz
+		regiment = { type = GER_A_VIII_Geb name = "Stab 8. Gebirgs-Division" historical_model = 0 experience = 50 organisation = 1 }
+		regiment = { type = bergsjaeger_brigade name = "Gebirgsjäger-Regiment 296/297" historical_model = 3 experience = 50 organisation = 1 }
+}

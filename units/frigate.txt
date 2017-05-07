@@ -1,0 +1,49 @@
+frigate = {
+	type = naval
+	sprite = Destroyer
+	active = yes
+	hull = 0.35  
+	
+	#Size Definitions
+	max_strength = 100
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 5
+
+	#Building Costs
+	build_cost_ic = 0.65
+	build_cost_manpower = 0.200
+	build_time = 120
+	repair_cost_multiplier = 0.15
+
+	#Misc Abilities
+	maximum_speed = 37.00  
+	transport_capability = 0.00
+	supply_consumption = 0.30
+	fuel_consumption = 0.40
+	radio_strength = 1
+	range = 1000.00  
+	distance = 0.08
+	positioning = 0.20
+
+	#Detection Abilities
+	surface_detection = 1
+	air_detection = 2
+	sub_detection = 2
+	visibility = 25.00
+
+	#Defensive Abilities
+	sea_defence = 2.50
+	air_defence = 6 
+
+	#Offensive Abilities
+	convoy_attack = 0.50
+	sea_attack = 1.00
+	sub_attack = 1.00
+	air_attack = 1.00
+	shore_bombardment = 0.0
+
+	completion_size = 0.5
+	on_completion = destroyer_practical
+	priority = 69
+}

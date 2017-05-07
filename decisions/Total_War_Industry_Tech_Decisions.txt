@@ -1,0 +1,2171 @@
+diplomatic_decisions = {
+### Textile Industry Tech Decisions ###
+	peacetime_textile_industry_I = {
+		potential = {
+			tag = this
+			textile_industry = 1
+			has_country_flag = peacetime_textile_production
+			not = { has_country_flag = peacetime_textileI }
+			not = { has_country_flag = peacetime_textileII }
+			not = { has_country_flag = peacetime_textileIII }
+			not = { has_country_flag = peacetime_textileIV }
+			not = { has_country_flag = peacetime_textileV }
+			not = { has_country_flag = peacetime_textileVI }
+			not = { has_country_flag = peacetime_textileVII }
+			not = { has_country_flag = peacetime_textileVIII }
+			not = { has_country_flag = peacetime_textileIX }
+			not = { has_country_flag = peacetime_textileX }
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileI
+			
+		}
+	}
+	peacetime_textile_industry_II = {
+		potential = {
+			tag = this
+			textile_industry = 2
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileI
+			not = { has_country_flag = peacetime_textileII }
+			not = { has_country_flag = peacetime_textileIII }
+			not = { has_country_flag = peacetime_textileIV }
+			not = { has_country_flag = peacetime_textileV }
+			not = { has_country_flag = peacetime_textileVI }
+			not = { has_country_flag = peacetime_textileVII }
+			not = { has_country_flag = peacetime_textileVIII }
+			not = { has_country_flag = peacetime_textileIX }
+			not = { has_country_flag = peacetime_textileX }
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileII
+			
+		}
+	}
+	peacetime_textile_industry_III = {
+		potential = {
+			tag = this
+			textile_industry = 3
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileII
+			not = { has_country_flag = peacetime_textileIII }
+			not = { has_country_flag = peacetime_textileIV }
+			not = { has_country_flag = peacetime_textileV }
+			not = { has_country_flag = peacetime_textileVI }
+			not = { has_country_flag = peacetime_textileVII }
+			not = { has_country_flag = peacetime_textileVIII }
+			not = { has_country_flag = peacetime_textileIX }
+			not = { has_country_flag = peacetime_textileX }
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+		
+		effect = { 
+			set_country_flag = peacetime_textileIII
+			
+		}
+	}
+	peacetime_textile_industry_IV = {
+		potential = {
+			tag = this
+			textile_industry = 4
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileIII
+			not = { has_country_flag = peacetime_textileIV }
+			not = { has_country_flag = peacetime_textileV }
+			not = { has_country_flag = peacetime_textileVI }
+			not = { has_country_flag = peacetime_textileVII }
+			not = { has_country_flag = peacetime_textileVIII }
+			not = { has_country_flag = peacetime_textileIX }
+			not = { has_country_flag = peacetime_textileX }
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileIV
+	
+		}
+	}
+	peacetime_textile_industry_V = {
+		potential = {
+			tag = this
+			textile_industry = 5
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileIV
+			not = { has_country_flag = peacetime_textileV }
+			not = { has_country_flag = peacetime_textileVI }
+			not = { has_country_flag = peacetime_textileVII }
+			not = { has_country_flag = peacetime_textileVIII }
+			not = { has_country_flag = peacetime_textileIX }
+			not = { has_country_flag = peacetime_textileX }
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileV
+			
+		}
+	}
+	peacetime_textile_industry_VI = {
+		potential = {
+			tag = this
+			textile_industry = 6
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileV
+			not = { has_country_flag = peacetime_textileVI }
+			not = { has_country_flag = peacetime_textileVII }
+			not = { has_country_flag = peacetime_textileVIII }
+			not = { has_country_flag = peacetime_textileIX }
+			not = { has_country_flag = peacetime_textileX }
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileVI
+			
+		}
+	}
+	peacetime_textile_industry_VII = {
+		potential = {
+			tag = this
+			textile_industry = 7
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileVI
+			not = { has_country_flag = peacetime_textileVII }
+			not = { has_country_flag = peacetime_textileVIII }
+			not = { has_country_flag = peacetime_textileIX }
+			not = { has_country_flag = peacetime_textileX }
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileVII
+			
+		}
+	}
+	peacetime_textile_industry_VIII = {
+		potential = {
+			tag = this
+			textile_industry = 8
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileVII
+			not = { has_country_flag = peacetime_textileVIII }
+			not = { has_country_flag = peacetime_textileIX }
+			not = { has_country_flag = peacetime_textileX }
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileVIII
+			
+		}
+	}
+	peacetime_textile_industry_IX = {
+		potential = {
+			tag = this
+			textile_industry = 9
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileVIII
+			not = { has_country_flag = peacetime_textileIX }
+			not = { has_country_flag = peacetime_textileX }
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileIX
+			
+		}
+	}
+
+	peacetime_textile_industry_X = {
+		potential = {
+			tag = this
+			textile_industry = 10
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileIX
+			not = { has_country_flag = peacetime_textileX }
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileX
+			
+		}
+	}
+	peacetime_textile_industry_XI = {
+		potential = {
+			tag = this
+			textile_industry = 11
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileX
+			not = { has_country_flag = peacetime_textileXI }
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileXI
+			
+		}
+	}
+	peacetime_textile_industry_XII = {
+		potential = {
+			tag = this
+			textile_industry = 12
+			has_country_flag = peacetime_textile_production
+			has_country_flag = peacetime_textileXI
+			not = { has_country_flag = peacetime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_textileXII
+			
+		}
+	}
+#####################################################################################################	
+	wartime_textile_industry_I = {
+		potential = {
+			tag = this
+			textile_industry = 1
+			has_country_flag = wartime_textile_production
+			not = { has_country_flag = wartime_textileI }
+			not = { has_country_flag = wartime_textileII }
+			not = { has_country_flag = wartime_textileIII }
+			not = { has_country_flag = wartime_textileIV }
+			not = { has_country_flag = wartime_textileV }
+			not = { has_country_flag = wartime_textileVI }
+			not = { has_country_flag = wartime_textileVII }
+			not = { has_country_flag = wartime_textileVIII }
+			not = { has_country_flag = wartime_textileIX }
+			not = { has_country_flag = wartime_textileX }
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileI
+			
+		}
+	}
+	wartime_textile_industry_II = {
+		potential = {
+			tag = this
+			textile_industry = 2
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileI
+			not = { has_country_flag = wartime_textileII }
+			not = { has_country_flag = wartime_textileIII }
+			not = { has_country_flag = wartime_textileIV }
+			not = { has_country_flag = wartime_textileV }
+			not = { has_country_flag = wartime_textileVI }
+			not = { has_country_flag = wartime_textileVII }
+			not = { has_country_flag = wartime_textileVIII }
+			not = { has_country_flag = wartime_textileIX }
+			not = { has_country_flag = wartime_textileX }
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileII
+			
+		}
+	}
+	wartime_textile_industry_III = {
+		potential = {
+			tag = this
+			textile_industry = 3
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileII
+			not = { has_country_flag = wartime_textileIII }
+			not = { has_country_flag = wartime_textileIV }
+			not = { has_country_flag = wartime_textileV }
+			not = { has_country_flag = wartime_textileVI }
+			not = { has_country_flag = wartime_textileVII }
+			not = { has_country_flag = wartime_textileVIII }
+			not = { has_country_flag = wartime_textileIX }
+			not = { has_country_flag = wartime_textileX }
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+		
+		effect = { 
+			set_country_flag = wartime_textileIII
+			
+		}
+	}
+	wartime_textile_industry_IV = {
+		potential = {
+			tag = this
+			textile_industry = 4
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileIII
+			not = { has_country_flag = wartime_textileIV }
+			not = { has_country_flag = wartime_textileV }
+			not = { has_country_flag = wartime_textileVI }
+			not = { has_country_flag = wartime_textileVII }
+			not = { has_country_flag = wartime_textileVIII }
+			not = { has_country_flag = wartime_textileIX }
+			not = { has_country_flag = wartime_textileX }
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileIV
+	
+		}
+	}
+	wartime_textile_industry_V = {
+		potential = {
+			tag = this
+			textile_industry = 5
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileIV
+			not = { has_country_flag = wartime_textileV }
+			not = { has_country_flag = wartime_textileVI }
+			not = { has_country_flag = wartime_textileVII }
+			not = { has_country_flag = wartime_textileVIII }
+			not = { has_country_flag = wartime_textileIX }
+			not = { has_country_flag = wartime_textileX }
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileV
+			
+		}
+	}
+	wartime_textile_industry_VI = {
+		potential = {
+			tag = this
+			textile_industry = 6
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileV
+			not = { has_country_flag = wartime_textileVI }
+			not = { has_country_flag = wartime_textileVII }
+			not = { has_country_flag = wartime_textileVIII }
+			not = { has_country_flag = wartime_textileIX }
+			not = { has_country_flag = wartime_textileX }
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileVI
+			
+		}
+	}
+	wartime_textile_industry_VII = {
+		potential = {
+			tag = this
+			textile_industry = 7
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileVI
+			not = { has_country_flag = wartime_textileVII }
+			not = { has_country_flag = wartime_textileVIII }
+			not = { has_country_flag = wartime_textileIX }
+			not = { has_country_flag = wartime_textileX }
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileVII
+			
+		}
+	}
+	wartime_textile_industry_VIII = {
+		potential = {
+			tag = this
+			textile_industry = 8
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileVII
+			not = { has_country_flag = wartime_textileVIII }
+			not = { has_country_flag = wartime_textileIX }
+			not = { has_country_flag = wartime_textileX }
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileVIII
+			
+		}
+	}
+	wartime_textile_industry_IX = {
+		potential = {
+			tag = this
+			textile_industry = 9
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileVIII
+			not = { has_country_flag = wartime_textileIX }
+			not = { has_country_flag = wartime_textileX }
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileIX
+			
+		}
+	}
+
+	wartime_textile_industry_X = {
+		potential = {
+			tag = this
+			textile_industry = 10
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileIX
+			not = { has_country_flag = wartime_textileX }
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileX
+			
+		}
+	}
+	wartime_textile_industry_XI = {
+		potential = {
+			tag = this
+			textile_industry = 11
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileX
+			not = { has_country_flag = wartime_textileXI }
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileXI
+			
+		}
+	}
+	wartime_textile_industry_XII = {
+		potential = {
+			tag = this
+			textile_industry = 12
+			has_country_flag = wartime_textile_production
+			has_country_flag = wartime_textileXI
+			not = { has_country_flag = wartime_textileXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_textileXII
+			
+		}
+	}
+### Peacetime Consumer Goods Tech Decisions #########################################################################
+	peacetime_consumer_goods_industry_I = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 1
+			has_country_flag = peacetime_consumer_goods_production
+			not = { has_country_flag = peacetime_consumer_goodsI }
+			not = { has_country_flag = peacetime_consumer_goodsII }
+			not = { has_country_flag = peacetime_consumer_goodsIII }
+			not = { has_country_flag = peacetime_consumer_goodsIV }
+			not = { has_country_flag = peacetime_consumer_goodsV }
+			not = { has_country_flag = peacetime_consumer_goodsVI }
+			not = { has_country_flag = peacetime_consumer_goodsVII }
+			not = { has_country_flag = peacetime_consumer_goodsVIII }
+			not = { has_country_flag = peacetime_consumer_goodsIX }
+			not = { has_country_flag = peacetime_consumer_goodsX }
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsI
+			
+		}
+	}
+	peacetime_consumer_goods_industry_II = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 2
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsI
+			not = { has_country_flag = peacetime_consumer_goodsII }
+			not = { has_country_flag = peacetime_consumer_goodsIII }
+			not = { has_country_flag = peacetime_consumer_goodsIV }
+			not = { has_country_flag = peacetime_consumer_goodsV }
+			not = { has_country_flag = peacetime_consumer_goodsVI }
+			not = { has_country_flag = peacetime_consumer_goodsVII }
+			not = { has_country_flag = peacetime_consumer_goodsVIII }
+			not = { has_country_flag = peacetime_consumer_goodsIX }
+			not = { has_country_flag = peacetime_consumer_goodsX }
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsII
+			
+		}
+	}
+	peacetime_consumer_goods_industry_III = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 3
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsII
+			not = { has_country_flag = peacetime_consumer_goodsIII }
+			not = { has_country_flag = peacetime_consumer_goodsIV }
+			not = { has_country_flag = peacetime_consumer_goodsV }
+			not = { has_country_flag = peacetime_consumer_goodsVI }
+			not = { has_country_flag = peacetime_consumer_goodsVII }
+			not = { has_country_flag = peacetime_consumer_goodsVIII }
+			not = { has_country_flag = peacetime_consumer_goodsIX }
+			not = { has_country_flag = peacetime_consumer_goodsX }
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+		
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsIII
+			
+		}
+	}
+	peacetime_consumer_goods_industry_IV = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 4
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsIII
+			not = { has_country_flag = peacetime_consumer_goodsIV }
+			not = { has_country_flag = peacetime_consumer_goodsV }
+			not = { has_country_flag = peacetime_consumer_goodsVI }
+			not = { has_country_flag = peacetime_consumer_goodsVII }
+			not = { has_country_flag = peacetime_consumer_goodsVIII }
+			not = { has_country_flag = peacetime_consumer_goodsIX }
+			not = { has_country_flag = peacetime_consumer_goodsX }
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsIV
+	
+		}
+	}
+	peacetime_consumer_goods_industry_V = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 5
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsIV
+			not = { has_country_flag = peacetime_consumer_goodsV }
+			not = { has_country_flag = peacetime_consumer_goodsVI }
+			not = { has_country_flag = peacetime_consumer_goodsVII }
+			not = { has_country_flag = peacetime_consumer_goodsVIII }
+			not = { has_country_flag = peacetime_consumer_goodsIX }
+			not = { has_country_flag = peacetime_consumer_goodsX }
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsV
+			
+		}
+	}
+	peacetime_consumer_goods_industry_VI = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 6
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsV
+			not = { has_country_flag = peacetime_consumer_goodsVI }
+			not = { has_country_flag = peacetime_consumer_goodsVII }
+			not = { has_country_flag = peacetime_consumer_goodsVIII }
+			not = { has_country_flag = peacetime_consumer_goodsIX }
+			not = { has_country_flag = peacetime_consumer_goodsX }
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsVI
+			
+		}
+	}
+	peacetime_consumer_goods_industry_VII = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 7
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsVI
+			not = { has_country_flag = peacetime_consumer_goodsVII }
+			not = { has_country_flag = peacetime_consumer_goodsVIII }
+			not = { has_country_flag = peacetime_consumer_goodsIX }
+			not = { has_country_flag = peacetime_consumer_goodsX }
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsVII
+			
+		}
+	}
+	peacetime_consumer_goods_industry_VIII = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 8
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsVII
+			not = { has_country_flag = peacetime_consumer_goodsVIII }
+			not = { has_country_flag = peacetime_consumer_goodsIX }
+			not = { has_country_flag = peacetime_consumer_goodsX }
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsVIII
+			
+		}
+	}
+	peacetime_consumer_goods_industry_IX = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 9
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsVIII
+			not = { has_country_flag = peacetime_consumer_goodsIX }
+			not = { has_country_flag = peacetime_consumer_goodsX }
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsIX
+			
+		}
+	}
+
+	peacetime_consumer_goods_industry_X = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 10
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsIX
+			not = { has_country_flag = peacetime_consumer_goodsX }
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsX
+			
+		}
+	}
+	peacetime_consumer_goods_industry_XI = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 11
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsX
+			not = { has_country_flag = peacetime_consumer_goodsXI }
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsXI
+			
+		}
+	}
+	peacetime_consumer_goods_industry_XII = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 12
+			has_country_flag = peacetime_consumer_goods_production
+			has_country_flag = peacetime_consumer_goodsXI
+			not = { has_country_flag = peacetime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_consumer_goodsXII
+			
+		}
+	}
+### Wartime Automotive Industry Tech Decisions ###
+	wartime_consumer_goods_industry_I = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 1
+			has_country_flag = wartime_consumer_goods_production
+			not = { has_country_flag = wartime_consumer_goodsI }
+			not = { has_country_flag = wartime_consumer_goodsII }
+			not = { has_country_flag = wartime_consumer_goodsIII }
+			not = { has_country_flag = wartime_consumer_goodsIV }
+			not = { has_country_flag = wartime_consumer_goodsV }
+			not = { has_country_flag = wartime_consumer_goodsVI }
+			not = { has_country_flag = wartime_consumer_goodsVII }
+			not = { has_country_flag = wartime_consumer_goodsVIII }
+			not = { has_country_flag = wartime_consumer_goodsIX }
+			not = { has_country_flag = wartime_consumer_goodsX }
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsI
+			
+		}
+	}
+	wartime_consumer_goods_industry_II = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 2
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsI
+			not = { has_country_flag = wartime_consumer_goodsII }
+			not = { has_country_flag = wartime_consumer_goodsIII }
+			not = { has_country_flag = wartime_consumer_goodsIV }
+			not = { has_country_flag = wartime_consumer_goodsV }
+			not = { has_country_flag = wartime_consumer_goodsVI }
+			not = { has_country_flag = wartime_consumer_goodsVII }
+			not = { has_country_flag = wartime_consumer_goodsVIII }
+			not = { has_country_flag = wartime_consumer_goodsIX }
+			not = { has_country_flag = wartime_consumer_goodsX }
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsII
+			
+		}
+	}
+	wartime_consumer_goods_industry_III = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 3
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsII
+			not = { has_country_flag = wartime_consumer_goodsIII }
+			not = { has_country_flag = wartime_consumer_goodsIV }
+			not = { has_country_flag = wartime_consumer_goodsV }
+			not = { has_country_flag = wartime_consumer_goodsVI }
+			not = { has_country_flag = wartime_consumer_goodsVII }
+			not = { has_country_flag = wartime_consumer_goodsVIII }
+			not = { has_country_flag = wartime_consumer_goodsIX }
+			not = { has_country_flag = wartime_consumer_goodsX }
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+		
+		effect = { 
+			set_country_flag = wartime_consumer_goodsIII
+			
+		}
+	}
+	wartime_consumer_goods_industry_IV = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 4
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsIII
+			not = { has_country_flag = wartime_consumer_goodsIV }
+			not = { has_country_flag = wartime_consumer_goodsV }
+			not = { has_country_flag = wartime_consumer_goodsVI }
+			not = { has_country_flag = wartime_consumer_goodsVII }
+			not = { has_country_flag = wartime_consumer_goodsVIII }
+			not = { has_country_flag = wartime_consumer_goodsIX }
+			not = { has_country_flag = wartime_consumer_goodsX }
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsIV
+	
+		}
+	}
+	wartime_consumer_goods_industry_V = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 5
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsIV
+			not = { has_country_flag = wartime_consumer_goodsV }
+			not = { has_country_flag = wartime_consumer_goodsVI }
+			not = { has_country_flag = wartime_consumer_goodsVII }
+			not = { has_country_flag = wartime_consumer_goodsVIII }
+			not = { has_country_flag = wartime_consumer_goodsIX }
+			not = { has_country_flag = wartime_consumer_goodsX }
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsV
+			
+		}
+	}
+	wartime_consumer_goods_industry_VI = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 6
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsV
+			not = { has_country_flag = wartime_consumer_goodsVI }
+			not = { has_country_flag = wartime_consumer_goodsVII }
+			not = { has_country_flag = wartime_consumer_goodsVIII }
+			not = { has_country_flag = wartime_consumer_goodsIX }
+			not = { has_country_flag = wartime_consumer_goodsX }
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsVI
+			
+		}
+	}
+	wartime_consumer_goods_industry_VII = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 7
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsVI
+			not = { has_country_flag = wartime_consumer_goodsVII }
+			not = { has_country_flag = wartime_consumer_goodsVIII }
+			not = { has_country_flag = wartime_consumer_goodsIX }
+			not = { has_country_flag = wartime_consumer_goodsX }
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsVII
+			
+		}
+	}
+	wartime_consumer_goods_industry_VIII = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 8
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsVII
+			not = { has_country_flag = wartime_consumer_goodsVIII }
+			not = { has_country_flag = wartime_consumer_goodsIX }
+			not = { has_country_flag = wartime_consumer_goodsX }
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsVIII
+			
+		}
+	}
+	wartime_consumer_goods_industry_IX = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 9
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsVIII
+			not = { has_country_flag = wartime_consumer_goodsIX }
+			not = { has_country_flag = wartime_consumer_goodsX }
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsIX
+			
+		}
+	}
+
+	wartime_consumer_goods_industry_X = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 10
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsIX
+			not = { has_country_flag = wartime_consumer_goodsX }
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsX
+			
+		}
+	}
+	wartime_consumer_goods_industry_XI = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 11
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsX
+			not = { has_country_flag = wartime_consumer_goodsXI }
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsXI
+			
+		}
+	}
+	wartime_consumer_goods_industry_XII = {
+		potential = {
+			tag = this
+			consumer_goods_industry = 12
+			has_country_flag = wartime_consumer_goods_production
+			has_country_flag = wartime_consumer_goodsXI
+			not = { has_country_flag = wartime_consumer_goodsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_consumer_goodsXII
+			
+		}
+	}
+### Peacetime Automotive Industry Tech Decisions ######################################################################
+	peacetime_automotive_industry_I = {
+		potential = {
+			tag = this
+			automotive_industry = 1
+			has_country_flag = peacetime_automotive_production
+			not = { has_country_flag = peacetimeautomotiveI }
+			not = { has_country_flag = peacetimeautomotiveII }
+			not = { has_country_flag = peacetimeautomotiveIII }
+			not = { has_country_flag = peacetimeautomotiveIV }
+			not = { has_country_flag = peacetimeautomotiveV }
+			not = { has_country_flag = peacetimeautomotiveVI }
+			not = { has_country_flag = peacetimeautomotiveVII }
+			not = { has_country_flag = peacetimeautomotiveVIII }
+			not = { has_country_flag = peacetimeautomotiveIX }
+			not = { has_country_flag = peacetimeautomotiveX }
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveI
+			
+		}
+	}
+	peacetime_automotive_industry_II = {
+		potential = {
+			tag = this
+			automotive_industry = 2
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveI
+			not = { has_country_flag = peacetimeautomotiveII }
+			not = { has_country_flag = peacetimeautomotiveIII }
+			not = { has_country_flag = peacetimeautomotiveIV }
+			not = { has_country_flag = peacetimeautomotiveV }
+			not = { has_country_flag = peacetimeautomotiveVI }
+			not = { has_country_flag = peacetimeautomotiveVII }
+			not = { has_country_flag = peacetimeautomotiveVIII }
+			not = { has_country_flag = peacetimeautomotiveIX }
+			not = { has_country_flag = peacetimeautomotiveX }
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveII
+			
+		}
+	}
+	peacetime_automotive_industry_III = {
+		potential = {
+			tag = this
+			automotive_industry = 3
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveII
+			not = { has_country_flag = peacetimeautomotiveIII }
+			not = { has_country_flag = peacetimeautomotiveIV }
+			not = { has_country_flag = peacetimeautomotiveV }
+			not = { has_country_flag = peacetimeautomotiveVI }
+			not = { has_country_flag = peacetimeautomotiveVII }
+			not = { has_country_flag = peacetimeautomotiveVIII }
+			not = { has_country_flag = peacetimeautomotiveIX }
+			not = { has_country_flag = peacetimeautomotiveX }
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+		
+		effect = { 
+			set_country_flag = peacetimeautomotiveIII
+			
+		}
+	}
+	peacetime_automotive_industry_IV = {
+		potential = {
+			tag = this
+			automotive_industry = 4
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveIII
+			not = { has_country_flag = peacetimeautomotiveIV }
+			not = { has_country_flag = peacetimeautomotiveV }
+			not = { has_country_flag = peacetimeautomotiveVI }
+			not = { has_country_flag = peacetimeautomotiveVII }
+			not = { has_country_flag = peacetimeautomotiveVIII }
+			not = { has_country_flag = peacetimeautomotiveIX }
+			not = { has_country_flag = peacetimeautomotiveX }
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveIV
+	
+		}
+	}
+	peacetime_automotive_industry_V = {
+		potential = {
+			tag = this
+			automotive_industry = 5
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveIV
+			not = { has_country_flag = peacetimeautomotiveV }
+			not = { has_country_flag = peacetimeautomotiveVI }
+			not = { has_country_flag = peacetimeautomotiveVII }
+			not = { has_country_flag = peacetimeautomotiveVIII }
+			not = { has_country_flag = peacetimeautomotiveIX }
+			not = { has_country_flag = peacetimeautomotiveX }
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveV
+			
+		}
+	}
+	peacetime_automotive_industry_VI = {
+		potential = {
+			tag = this
+			automotive_industry = 6
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveV
+			not = { has_country_flag = peacetimeautomotiveVI }
+			not = { has_country_flag = peacetimeautomotiveVII }
+			not = { has_country_flag = peacetimeautomotiveVIII }
+			not = { has_country_flag = peacetimeautomotiveIX }
+			not = { has_country_flag = peacetimeautomotiveX }
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveVI
+			
+		}
+	}
+	peacetime_automotive_industry_VII = {
+		potential = {
+			tag = this
+			automotive_industry = 7
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveVI
+			not = { has_country_flag = peacetimeautomotiveVII }
+			not = { has_country_flag = peacetimeautomotiveVIII }
+			not = { has_country_flag = peacetimeautomotiveIX }
+			not = { has_country_flag = peacetimeautomotiveX }
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveVII
+			
+		}
+	}
+	peacetime_automotive_industry_VIII = {
+		potential = {
+			tag = this
+			automotive_industry = 8
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveVII
+			not = { has_country_flag = peacetimeautomotiveVIII }
+			not = { has_country_flag = peacetimeautomotiveIX }
+			not = { has_country_flag = peacetimeautomotiveX }
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveVIII
+			
+		}
+	}
+	peacetime_automotive_industry_IX = {
+		potential = {
+			tag = this
+			automotive_industry = 9
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveVIII
+			not = { has_country_flag = peacetimeautomotiveIX }
+			not = { has_country_flag = peacetimeautomotiveX }
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveIX
+			
+		}
+	}
+
+	peacetime_automotive_industry_X = {
+		potential = {
+			tag = this
+			automotive_industry = 10
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveIX
+			not = { has_country_flag = peacetimeautomotiveX }
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveX
+			
+		}
+	}
+	peacetime_automotive_industry_XI = {
+		potential = {
+			tag = this
+			automotive_industry = 11
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveX
+			not = { has_country_flag = peacetimeautomotiveXI }
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveXI
+			
+		}
+	}
+	peacetime_automotive_industry_XII = {
+		potential = {
+			tag = this
+			automotive_industry = 12
+			has_country_flag = peacetime_automotive_production
+			has_country_flag = peacetimeautomotiveXI
+			not = { has_country_flag = peacetimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetimeautomotiveXII
+			
+		}
+	}
+### Wartime Automotive Industry Tech Decisions ###
+	wartime_automotive_industry_I = {
+		potential = {
+			tag = this
+			automotive_industry = 1
+			has_country_flag = wartime_automotive_production
+			not = { has_country_flag = wartimeautomotiveI }
+			not = { has_country_flag = wartimeautomotiveII }
+			not = { has_country_flag = wartimeautomotiveIII }
+			not = { has_country_flag = wartimeautomotiveIV }
+			not = { has_country_flag = wartimeautomotiveV }
+			not = { has_country_flag = wartimeautomotiveVI }
+			not = { has_country_flag = wartimeautomotiveVII }
+			not = { has_country_flag = wartimeautomotiveVIII }
+			not = { has_country_flag = wartimeautomotiveIX }
+			not = { has_country_flag = wartimeautomotiveX }
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveI
+			
+		}
+	}
+	wartime_automotive_industry_II = {
+		potential = {
+			tag = this
+			automotive_industry = 2
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveI
+			not = { has_country_flag = wartimeautomotiveII }
+			not = { has_country_flag = wartimeautomotiveIII }
+			not = { has_country_flag = wartimeautomotiveIV }
+			not = { has_country_flag = wartimeautomotiveV }
+			not = { has_country_flag = wartimeautomotiveVI }
+			not = { has_country_flag = wartimeautomotiveVII }
+			not = { has_country_flag = wartimeautomotiveVIII }
+			not = { has_country_flag = wartimeautomotiveIX }
+			not = { has_country_flag = wartimeautomotiveX }
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveII
+			
+		}
+	}
+	wartime_automotive_industry_III = {
+		potential = {
+			tag = this
+			automotive_industry = 3
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveII
+			not = { has_country_flag = wartimeautomotiveIII }
+			not = { has_country_flag = wartimeautomotiveIV }
+			not = { has_country_flag = wartimeautomotiveV }
+			not = { has_country_flag = wartimeautomotiveVI }
+			not = { has_country_flag = wartimeautomotiveVII }
+			not = { has_country_flag = wartimeautomotiveVIII }
+			not = { has_country_flag = wartimeautomotiveIX }
+			not = { has_country_flag = wartimeautomotiveX }
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+		
+		effect = { 
+			set_country_flag = wartimeautomotiveIII
+			
+		}
+	}
+	wartime_automotive_industry_IV = {
+		potential = {
+			tag = this
+			automotive_industry = 4
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveIII
+			not = { has_country_flag = wartimeautomotiveIV }
+			not = { has_country_flag = wartimeautomotiveV }
+			not = { has_country_flag = wartimeautomotiveVI }
+			not = { has_country_flag = wartimeautomotiveVII }
+			not = { has_country_flag = wartimeautomotiveVIII }
+			not = { has_country_flag = wartimeautomotiveIX }
+			not = { has_country_flag = wartimeautomotiveX }
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveIV
+	
+		}
+	}
+	wartime_automotive_industry_V = {
+		potential = {
+			tag = this
+			automotive_industry = 5
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveIV
+			not = { has_country_flag = wartimeautomotiveV }
+			not = { has_country_flag = wartimeautomotiveVI }
+			not = { has_country_flag = wartimeautomotiveVII }
+			not = { has_country_flag = wartimeautomotiveVIII }
+			not = { has_country_flag = wartimeautomotiveIX }
+			not = { has_country_flag = wartimeautomotiveX }
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveV
+			
+		}
+	}
+	wartime_automotive_industry_VI = {
+		potential = {
+			tag = this
+			automotive_industry = 6
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveV
+			not = { has_country_flag = wartimeautomotiveVI }
+			not = { has_country_flag = wartimeautomotiveVII }
+			not = { has_country_flag = wartimeautomotiveVIII }
+			not = { has_country_flag = wartimeautomotiveIX }
+			not = { has_country_flag = wartimeautomotiveX }
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveVI
+			
+		}
+	}
+	wartime_automotive_industry_VII = {
+		potential = {
+			tag = this
+			automotive_industry = 7
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveVI
+			not = { has_country_flag = wartimeautomotiveVII }
+			not = { has_country_flag = wartimeautomotiveVIII }
+			not = { has_country_flag = wartimeautomotiveIX }
+			not = { has_country_flag = wartimeautomotiveX }
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveVII
+			
+		}
+	}
+	wartime_automotive_industry_VIII = {
+		potential = {
+			tag = this
+			automotive_industry = 8
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveVII
+			not = { has_country_flag = wartimeautomotiveVIII }
+			not = { has_country_flag = wartimeautomotiveIX }
+			not = { has_country_flag = wartimeautomotiveX }
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveVIII
+			
+		}
+	}
+	wartime_automotive_industry_IX = {
+		potential = {
+			tag = this
+			automotive_industry = 9
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveVIII
+			not = { has_country_flag = wartimeautomotiveIX }
+			not = { has_country_flag = wartimeautomotiveX }
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveIX
+			
+		}
+	}
+
+	wartime_automotive_industry_X = {
+		potential = {
+			tag = this
+			automotive_industry = 10
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveIX
+			not = { has_country_flag = wartimeautomotiveX }
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveX
+			
+		}
+	}
+	wartime_automotive_industry_XI = {
+		potential = {
+			tag = this
+			automotive_industry = 11
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveX
+			not = { has_country_flag = wartimeautomotiveXI }
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveXI
+			
+		}
+	}
+	wartime_automotive_industry_XII = {
+		potential = {
+			tag = this
+			automotive_industry = 12
+			has_country_flag = wartime_automotive_production
+			has_country_flag = wartimeautomotiveXI
+			not = { has_country_flag = wartimeautomotiveXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartimeautomotiveXII
+			
+		}
+	}	
+### Military Arms Industry Tech Decisions ######################################################################
+	peacetime_military_arms_industry_I = {
+		potential = {
+			tag = this
+			military_arms_industry = 1
+			has_country_flag = peacetime_military_arms_production
+			not = { has_country_flag = peacetime_military_armsI }
+			not = { has_country_flag = peacetime_military_armsII }
+			not = { has_country_flag = peacetime_military_armsIII }
+			not = { has_country_flag = peacetime_military_armsIV }
+			not = { has_country_flag = peacetime_military_armsV }
+			not = { has_country_flag = peacetime_military_armsVI }
+			not = { has_country_flag = peacetime_military_armsVII }
+			not = { has_country_flag = peacetime_military_armsVIII }
+			not = { has_country_flag = peacetime_military_armsIX }
+			not = { has_country_flag = peacetime_military_armsX }
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsI
+			
+		}
+	}
+	peacetime_military_arms_industry_II = {
+		potential = {
+			tag = this
+			military_arms_industry = 2
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsI
+			not = { has_country_flag = peacetime_military_armsII }
+			not = { has_country_flag = peacetime_military_armsIII }
+			not = { has_country_flag = peacetime_military_armsIV }
+			not = { has_country_flag = peacetime_military_armsV }
+			not = { has_country_flag = peacetime_military_armsVI }
+			not = { has_country_flag = peacetime_military_armsVII }
+			not = { has_country_flag = peacetime_military_armsVIII }
+			not = { has_country_flag = peacetime_military_armsIX }
+			not = { has_country_flag = peacetime_military_armsX }
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsII
+			
+		}
+	}
+	peacetime_military_arms_industry_III = {
+		potential = {
+			tag = this
+			military_arms_industry = 3
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsII
+			not = { has_country_flag = peacetime_military_armsIII }
+			not = { has_country_flag = peacetime_military_armsIV }
+			not = { has_country_flag = peacetime_military_armsV }
+			not = { has_country_flag = peacetime_military_armsVI }
+			not = { has_country_flag = peacetime_military_armsVII }
+			not = { has_country_flag = peacetime_military_armsVIII }
+			not = { has_country_flag = peacetime_military_armsIX }
+			not = { has_country_flag = peacetime_military_armsX }
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+		
+		effect = { 
+			set_country_flag = peacetime_military_armsIII
+			
+		}
+	}
+	peacetime_military_arms_industry_IV = {
+		potential = {
+			tag = this
+			military_arms_industry = 4
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsIII
+			not = { has_country_flag = peacetime_military_armsIV }
+			not = { has_country_flag = peacetime_military_armsV }
+			not = { has_country_flag = peacetime_military_armsVI }
+			not = { has_country_flag = peacetime_military_armsVII }
+			not = { has_country_flag = peacetime_military_armsVIII }
+			not = { has_country_flag = peacetime_military_armsIX }
+			not = { has_country_flag = peacetime_military_armsX }
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsIV
+	
+		}
+	}
+	peacetime_military_arms_industry_V = {
+		potential = {
+			tag = this
+			military_arms_industry = 5
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsIV
+			not = { has_country_flag = peacetime_military_armsV }
+			not = { has_country_flag = peacetime_military_armsVI }
+			not = { has_country_flag = peacetime_military_armsVII }
+			not = { has_country_flag = peacetime_military_armsVIII }
+			not = { has_country_flag = peacetime_military_armsIX }
+			not = { has_country_flag = peacetime_military_armsX }
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsV
+			
+		}
+	}
+	peacetime_military_arms_industry_VI = {
+		potential = {
+			tag = this
+			military_arms_industry = 6
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsV
+			not = { has_country_flag = peacetime_military_armsVI }
+			not = { has_country_flag = peacetime_military_armsVII }
+			not = { has_country_flag = peacetime_military_armsVIII }
+			not = { has_country_flag = peacetime_military_armsIX }
+			not = { has_country_flag = peacetime_military_armsX }
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsVI
+			
+		}
+	}
+	peacetime_military_arms_industry_VII = {
+		potential = {
+			tag = this
+			military_arms_industry = 7
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsVI
+			not = { has_country_flag = peacetime_military_armsVII }
+			not = { has_country_flag = peacetime_military_armsVIII }
+			not = { has_country_flag = peacetime_military_armsIX }
+			not = { has_country_flag = peacetime_military_armsX }
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsVII
+			
+		}
+	}
+	peacetime_military_arms_industry_VIII = {
+		potential = {
+			tag = this
+			military_arms_industry = 8
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsVII
+			not = { has_country_flag = peacetime_military_armsVIII }
+			not = { has_country_flag = peacetime_military_armsIX }
+			not = { has_country_flag = peacetime_military_armsX }
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsVIII
+			
+		}
+	}
+	peacetime_military_arms_industry_IX = {
+		potential = {
+			tag = this
+			military_arms_industry = 9
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsVIII
+			not = { has_country_flag = peacetime_military_armsIX }
+			not = { has_country_flag = peacetime_military_armsX }
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsIX
+			
+		}
+	}
+
+	peacetime_military_arms_industry_X = {
+		potential = {
+			tag = this
+			military_arms_industry = 10
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsIX
+			not = { has_country_flag = peacetime_military_armsX }
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsX
+			
+		}
+	}
+	peacetime_military_arms_industry_XI = {
+		potential = {
+			tag = this
+			military_arms_industry = 11
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsX
+			not = { has_country_flag = peacetime_military_armsXI }
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsXI
+			
+		}
+	}
+	peacetime_military_arms_industry_XII = {
+		potential = {
+			tag = this
+			military_arms_industry = 12
+			has_country_flag = peacetime_military_arms_production
+			has_country_flag = peacetime_military_armsXI
+			not = { has_country_flag = peacetime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = peacetime_military_armsXII
+			
+		}
+	}
+### Wartime Automotive Industry Tech Decisions ###
+	wartime_military_arms_industry_I = {
+		potential = {
+			tag = this
+			military_arms_industry = 1
+			has_country_flag = wartime_military_arms_production
+			not = { has_country_flag = wartime_military_armsI }
+			not = { has_country_flag = wartime_military_armsII }
+			not = { has_country_flag = wartime_military_armsIII }
+			not = { has_country_flag = wartime_military_armsIV }
+			not = { has_country_flag = wartime_military_armsV }
+			not = { has_country_flag = wartime_military_armsVI }
+			not = { has_country_flag = wartime_military_armsVII }
+			not = { has_country_flag = wartime_military_armsVIII }
+			not = { has_country_flag = wartime_military_armsIX }
+			not = { has_country_flag = wartime_military_armsX }
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsI
+			
+		}
+	}
+	wartime_military_arms_industry_II = {
+		potential = {
+			tag = this
+			military_arms_industry = 2
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsI
+			not = { has_country_flag = wartime_military_armsII }
+			not = { has_country_flag = wartime_military_armsIII }
+			not = { has_country_flag = wartime_military_armsIV }
+			not = { has_country_flag = wartime_military_armsV }
+			not = { has_country_flag = wartime_military_armsVI }
+			not = { has_country_flag = wartime_military_armsVII }
+			not = { has_country_flag = wartime_military_armsVIII }
+			not = { has_country_flag = wartime_military_armsIX }
+			not = { has_country_flag = wartime_military_armsX }
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsII
+			
+		}
+	}
+	wartime_military_arms_industry_III = {
+		potential = {
+			tag = this
+			military_arms_industry = 3
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsII
+			not = { has_country_flag = wartime_military_armsIII }
+			not = { has_country_flag = wartime_military_armsIV }
+			not = { has_country_flag = wartime_military_armsV }
+			not = { has_country_flag = wartime_military_armsVI }
+			not = { has_country_flag = wartime_military_armsVII }
+			not = { has_country_flag = wartime_military_armsVIII }
+			not = { has_country_flag = wartime_military_armsIX }
+			not = { has_country_flag = wartime_military_armsX }
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+		
+		effect = { 
+			set_country_flag = wartime_military_armsIII
+			
+		}
+	}
+	wartime_military_arms_industry_IV = {
+		potential = {
+			tag = this
+			military_arms_industry = 4
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsIII
+			not = { has_country_flag = wartime_military_armsIV }
+			not = { has_country_flag = wartime_military_armsV }
+			not = { has_country_flag = wartime_military_armsVI }
+			not = { has_country_flag = wartime_military_armsVII }
+			not = { has_country_flag = wartime_military_armsVIII }
+			not = { has_country_flag = wartime_military_armsIX }
+			not = { has_country_flag = wartime_military_armsX }
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsIV
+	
+		}
+	}
+	wartime_military_arms_industry_V = {
+		potential = {
+			tag = this
+			military_arms_industry = 5
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsIV
+			not = { has_country_flag = wartime_military_armsV }
+			not = { has_country_flag = wartime_military_armsVI }
+			not = { has_country_flag = wartime_military_armsVII }
+			not = { has_country_flag = wartime_military_armsVIII }
+			not = { has_country_flag = wartime_military_armsIX }
+			not = { has_country_flag = wartime_military_armsX }
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsV
+			
+		}
+	}
+	wartime_military_arms_industry_VI = {
+		potential = {
+			tag = this
+			military_arms_industry = 6
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsV
+			not = { has_country_flag = wartime_military_armsVI }
+			not = { has_country_flag = wartime_military_armsVII }
+			not = { has_country_flag = wartime_military_armsVIII }
+			not = { has_country_flag = wartime_military_armsIX }
+			not = { has_country_flag = wartime_military_armsX }
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsVI
+			
+		}
+	}
+	wartime_military_arms_industry_VII = {
+		potential = {
+			tag = this
+			military_arms_industry = 7
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsVI
+			not = { has_country_flag = wartime_military_armsVII }
+			not = { has_country_flag = wartime_military_armsVIII }
+			not = { has_country_flag = wartime_military_armsIX }
+			not = { has_country_flag = wartime_military_armsX }
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsVII
+			
+		}
+	}
+	wartime_military_arms_industry_VIII = {
+		potential = {
+			tag = this
+			military_arms_industry = 8
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsVII
+			not = { has_country_flag = wartime_military_armsVIII }
+			not = { has_country_flag = wartime_military_armsIX }
+			not = { has_country_flag = wartime_military_armsX }
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsVIII
+			
+		}
+	}
+	wartime_military_arms_industry_IX = {
+		potential = {
+			tag = this
+			military_arms_industry = 9
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsVIII
+			not = { has_country_flag = wartime_military_armsIX }
+			not = { has_country_flag = wartime_military_armsX }
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsIX
+			
+		}
+	}
+
+	wartime_military_arms_industry_X = {
+		potential = {
+			tag = this
+			military_arms_industry = 10
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsIX
+			not = { has_country_flag = wartime_military_armsX }
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsX
+			
+		}
+	}
+	wartime_military_arms_industry_XI = {
+		potential = {
+			tag = this
+			military_arms_industry = 11
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsX
+			not = { has_country_flag = wartime_military_armsXI }
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsXI
+			
+		}
+	}
+	wartime_military_arms_industry_XII = {
+		potential = {
+			tag = this
+			military_arms_industry = 12
+			has_country_flag = wartime_military_arms_production
+			has_country_flag = wartime_military_armsXI
+			not = { has_country_flag = wartime_military_armsXII }
+		}
+
+		allow = {
+		}
+
+		effect = { 
+			set_country_flag = wartime_military_armsXII
+			
+		}
+	}		
+}
+###EOF###

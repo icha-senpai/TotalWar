@@ -1,0 +1,27 @@
+military_construction = {
+	country = GER
+	
+	submarine = { 
+		historical_model = 4
+	}
+	submarine = {
+		historical_model = 4
+	}
+	submarine = {
+		historical_model = 4
+	}
+	submarine = { 
+		historical_model = 4
+	}
+	submarine = {
+		historical_model = 4
+	}
+	submarine = {
+		historical_model = 4
+	}
+	
+	cost = 12.00
+	duration = 180
+	progress = 90
+}
+#EOF#

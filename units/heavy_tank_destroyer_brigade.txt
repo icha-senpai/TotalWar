@@ -1,0 +1,111 @@
+heavy_tank_destroyer_brigade = { # Company Level Unit
+	type = land
+	sprite = Tank 
+	active = no
+	is_buildable = yes
+	is_mobile = yes
+	is_armor = yes
+	unit_group = direct_fire_unit_type
+	
+	#Size Definitions	- x1 Company
+	max_strength = 6.15
+	default_organisation = 30
+	default_morale = 0.30
+	officers = 20
+	repair_cost_multiplier = 0.12
+
+	#Building Costs
+	build_cost_ic = 6.00
+	build_cost_manpower = 0.615
+	build_time = 120
+
+	#Misc Abilities
+	maximum_speed = 4.7
+	transport_weight = 20.00
+	supply_consumption = 0.55
+	fuel_consumption = 1.00
+	radio_strength = 0.25
+
+	#Defensive Abilities
+	defensiveness = 15.00
+	toughness = 10.0
+	softness = 0.05
+	air_defence = 20.00
+	armor_value = 18
+	
+	#Offensive Abilities
+	suppression = 0.00
+	soft_attack = 0.35
+	hard_attack = 12.00
+	air_attack = 0.00
+	ap_attack = 25
+	
+	## Armored units have bonuses mostly to open terrain.  
+	
+	plains = {
+		attack = 0.10 ## Easy terrain to fight on.  Small bonus.
+		defence = 0.50 ## Easy terrain to fight on.  Small bonus.
+		movement = -0.05 ## Easy terrain to move and manuever on. 
+	}
+	river = { 
+		defence = 0.50 ## Can defend against river attacks easily
+		movement = -0.50 ## Cannot move across rivers and streams easily.  Need strong bridges to support weight of armor. 
+	}
+	arctic = {	
+		defence = 0.35 ## sitting in a warm foxhole is easier than attacking in -60C!
+		movement = -0.15 ## Can't drive across tundra as easily.  
+		attrition = 5 ## Too cold to stay outside for too long.	
+	}
+	desert = { 
+		attack = 0.10 ## Able to attack across deserts easily	
+		defence = 0.50 ## Easy to defend due to long sight lines 
+		movement = -0.05 ## Easy to maneuver tanks across sand
+		attrition = 2 ## Desert too hot to stay outside for long.
+		}
+	woods = { 
+		defence = 0.30 ## Easy to defend wooded area due to low silhouette of assault guns.
+		movement = -0.25 ## Not as easy to move armor through woods 
+	}
+	forest = {
+		defence = 0.20 ## Easy to defend dense forest due to low silhouette of assault guns. 
+		movement = -0.60 ## Difficult for amored vehicles to move through dense forest 
+	}
+	jungle = { 
+		defence = 0.20 ## Slightly easy to defend dense jungle with tanks.
+		movement = -0.60  ## Assault Guns can move through dense jungle easier.
+		attrition = 4 ## Jungles are very inhospitable places.
+	}
+	
+	hills = { 
+		defence = 0.40 # Easy to conceal assault guns on hilly terrain
+		movement = -0.30 # Slightly hard to manuever up and down hills
+	}
+	mountain = { 
+		defence = 0.25 # Armored vehicles not meant to traverse steep mountains
+		movement = -0.50 # Armored vehicles not meant to traverse steep mountains
+	}
+	urban = {
+		defence = 0.25 ## Can defend urban areas if tanks are dug in.  Not too much room to manuever though.  Also more vulnerable to handheld anti-tank weapons.  
+		movement = 0.10 ## Easy to move around on paved streets 
+	}
+	marsh = { 
+		defence = -0.10 ## Marshes are difficult defend from too, not as easy to manuever in the wetlands
+		movement = -0.85 ## Slightly easier for amphibious armor to move through marshes
+	}
+	amphibious = { 
+		attack = -0.85 ## Cannot conduct amphibious assaults 
+	}
+	night = { 
+		movement = -0.50 ## Difficult to see at night
+	}
+	fort = { 
+	
+	}
+	
+	combat_width = 0.11
+
+	completion_size = 0.50
+	on_completion = armour_practical
+	
+	priority = 13
+}

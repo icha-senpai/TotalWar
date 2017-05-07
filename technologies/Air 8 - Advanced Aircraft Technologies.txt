@@ -1,0 +1,2652 @@
+################################################################################
+# ADVANCED AIRCRAFT TECHNOLOGIES	
+################################################################################
+################################################################################
+# MILITARY HELICOPTER THEORY
+################################################################################
+military_helicopter_theory = {
+	
+	allow = { 
+		wwi_biplane_designs = 1
+	}
+	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+ 
+	on_completion = aeronautic_engineering
+
+	difficulty = 4
+	
+	#common for all techs.
+	start_year = 1936
+	first_offset = 1938	#2nd model is from 1936
+	additional_offset = 2	#one new every 2 years
+	max_level = 4
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# MILITARY HELICOPTER BLUEPRINT
+################################################################################
+military_helicopter_blueprint = {
+	
+	allow = { 
+		military_helicopter_theory = 4
+	}
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1943
+	first_offset = 1944	#2nd model is from 1936
+	additional_offset = 5	#one new every 2 years
+	max_level = 5
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# MILITARY HELICOPTER PROTOTYPE AND TESTING
+################################################################################
+military_helicopter_prototype_and_testing = {
+	
+	allow = { 
+		military_helicopter_blueprint = 1
+		OR = {
+			AND = { 
+				NOT = { military_helicopter_prototype_and_testing = 1 } # 1944
+				military_helicopter_blueprint = 1 # 1943
+			}
+			AND = { 
+				NOT = { military_helicopter_prototype_and_testing = 2 } # 1945
+				military_helicopter_blueprint = 2 # 1944
+			}
+			AND = { 
+				NOT = { military_helicopter_prototype_and_testing = 3 } # 1950
+				military_helicopter_blueprint = 3 # 1949
+			}
+			AND = { 
+				NOT = { military_helicopter_prototype_and_testing = 4 } # 1955
+				military_helicopter_blueprint = 4 # 1954
+			}
+			AND = { 
+				NOT = { military_helicopter_prototype_and_testing = 5 } # 1960
+				military_helicopter_blueprint = 5 # 1959
+			}
+		}
+	}
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1944
+	first_offset = 1945	#2nd model is from 1936
+	additional_offset = 5	#one new every 2 years
+	max_level = 5
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# MILITARY LIGHT TRANSPORT HELICOPTER
+################################################################################
+military_light_transport_helicopter = {
+	
+	allow = { 
+		military_helicopter_prototype_and_testing = 1
+	}
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1944
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# TURBOSHAFT JET ENGINE
+################################################################################
+turboshaft_jet_engine = {
+	
+	allow = { 
+		jet_engine_design = 6
+	}
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1950
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# MILITARY MEDIUM TRANSPORT HELICOPTER
+################################################################################
+military_medium_transport_helicopter = {
+	
+	allow = { 
+		military_helicopter_prototype_and_testing = 3
+		turboshaft_jet_engine = 1
+		military_light_transport_helicopter = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	air_cavalry_brigade = {
+		max_strength = 0.50
+		maximum_speed = 10
+		build_cost_ic = 0.15
+		build_cost_manpower = 0.050
+		build_time = 5
+		officers = 6
+		transport_weight = 1.00
+		supply_consumption = 0.25
+		fuel_consumption = 0.25
+		soft_attack = 0.35
+		hard_attack = 0.15
+		defensiveness = 0.50
+	}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1954
+	first_offset = 1957	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 4
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# MILITARY HEAVY TRANSPORT HELICOPTER
+################################################################################
+military_heavy_transport_helicopter = {
+	
+	allow = { 
+		military_helicopter_prototype_and_testing = 5
+		turboshaft_jet_engine = 1
+		military_light_transport_helicopter = 1
+		military_medium_transport_helicopter = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	air_cavalry_brigade = {
+		max_strength = 1.00
+		maximum_speed = 10
+		build_cost_ic = 0.25
+		build_cost_manpower = 0.135
+		build_time = 9
+		officers = 11
+		transport_weight = 2.00
+		supply_consumption = 0.45
+		fuel_consumption = 0.45
+		soft_attack = 0.55
+		hard_attack = 0.35
+		defensiveness = 0.75
+	}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 5
+	
+	#common for all techs.
+	start_year = 1961
+	first_offset = 1964	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 3
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# HELICOPTER GUNSHIPS
+################################################################################
+helicopter_gunships = {
+	
+	allow = { 
+		military_helicopter_prototype_and_testing = 5
+		turboshaft_jet_engine = 1
+		military_light_transport_helicopter = 1
+		military_medium_transport_helicopter = 1
+		military_heavy_transport_helicopter = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	air_cavalry_brigade = {
+		max_strength = 0.30
+		build_cost_ic = 0.35
+		build_cost_manpower = 0.115
+		build_time = 8
+		officers = 7
+		transport_weight = 1.50
+		supply_consumption = 0.55
+		fuel_consumption = 0.55
+		soft_attack = 1.65
+		hard_attack = 1.45
+		ap_attack = 3
+		defensiveness = 2.35
+	}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1965
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# AVIONICS
+################################################################################
+avionics = {
+	
+	allow = { 
+		aircraft_radios = 6
+		aircraft_iff_transponders = 1
+		radio_navigation_equipment = 1
+		aircraft_radar_detectors = 5
+		radar_altimeter = 1
+		radar_guided_navigation_equipment = 4
+		airborne_air_intercept_radar = 5
+		electronics_engineering = 8
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		default_morale = -0.02
+		build_cost_ic = 0.10
+		build_time = 3
+		radio_strength = 1
+		air_detection = 0.10
+		surface_defence = 0.10
+		air_defence = 0.10
+		soft_attack = 0.15
+		hard_attack = 0.15
+		sea_attack = 0.15
+		air_attack = 0.15
+		strategic_attack = 0.15
+		sub_attack = 0.15
+		}
+	jet_flying_wing = { 	
+		default_morale = -0.02
+		build_cost_ic = 0.10
+		build_time = 3
+		radio_strength = 1
+		air_detection = 0.10
+		surface_defence = 0.10
+		air_defence = 0.10
+		soft_attack = 0.15
+		hard_attack = 0.15
+		sea_attack = 0.15
+		air_attack = 0.15
+		strategic_attack = 0.15
+		sub_attack = 0.15
+		}
+	peoples_fighter = { 	
+		default_morale = -0.02
+		build_cost_ic = 0.10
+		build_time = 3
+		radio_strength = 1
+		air_detection = 0.10
+		surface_defence = 0.10
+		air_defence = 0.10
+		soft_attack = 0.15
+		hard_attack = 0.15
+		sea_attack = 0.15
+		air_attack = 0.15
+		strategic_attack = 0.15
+		sub_attack = 0.15
+		}	
+	jet_bomber = { 	
+		default_morale = -0.02
+		build_cost_ic = 0.10
+		build_time = 3
+		radio_strength = 1
+		air_detection = 0.10
+		surface_defence = 0.10
+		air_defence = 0.10
+		soft_attack = 0.15
+		hard_attack = 0.15
+		sea_attack = 0.15
+		air_attack = 0.15
+		strategic_attack = 0.15
+		sub_attack = 0.15
+		}	
+	amerika_bomber = { 	
+		default_morale = -0.02
+		build_cost_ic = 0.10
+		build_time = 3
+		radio_strength = 1
+		air_detection = 0.10
+		surface_defence = 0.10
+		air_defence = 0.10
+		soft_attack = 0.15
+		hard_attack = 0.15
+		sea_attack = 0.15
+		air_attack = 0.15
+		strategic_attack = 0.15
+		sub_attack = 0.15
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_morale = -0.02
+		build_cost_ic = 0.10
+		build_time = 3
+		radio_strength = 1
+		air_detection = 0.10
+		surface_defence = 0.10
+		air_defence = 0.10
+		soft_attack = 0.15
+		hard_attack = 0.15
+		sea_attack = 0.15
+		air_attack = 0.15
+		strategic_attack = 0.15
+		sub_attack = 0.15
+		}	
+	advanced_jet_cas = { 	
+		default_morale = -0.02
+		build_cost_ic = 0.10
+		build_time = 3
+		radio_strength = 1
+		air_detection = 0.10
+		surface_defence = 0.10
+		air_defence = 0.10
+		soft_attack = 0.15
+		hard_attack = 0.15
+		sea_attack = 0.15
+		air_attack = 0.15
+		strategic_attack = 0.15
+		sub_attack = 0.15
+		}	
+	advanced_jet_bomber = { 	
+		default_morale = -0.02
+		build_cost_ic = 0.10
+		build_time = 3
+		radio_strength = 1
+		air_detection = 0.10
+		surface_defence = 0.10
+		air_defence = 0.10
+		soft_attack = 0.15
+		hard_attack = 0.15
+		sea_attack = 0.15
+		air_attack = 0.15
+		strategic_attack = 0.15
+		sub_attack = 0.15
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_morale = -0.02
+		build_cost_ic = 0.10
+		build_time = 3
+		radio_strength = 1
+		air_detection = 0.10
+		surface_defence = 0.10
+		air_defence = 0.10
+		soft_attack = 0.15
+		hard_attack = 0.15
+		sea_attack = 0.15
+		air_attack = 0.15
+		strategic_attack = 0.15
+		sub_attack = 0.15
+		}	
+	
+	
+	research_bonus_from = {
+		electornicegineering_theory  = 0.30
+		aeronautic_engineering = 0.30
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1945
+	first_offset = 1948	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 9
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED FLIGHT EQUIPMENT
+################################################################################
+advanced_flight_equipment = {
+	
+	allow = { 
+		aviation_medicine = 8
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	rocket_interceptor = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		air_attack = 0.10
+		air_defence = 0.10
+		build_cost_ic = 0.03
+		build_time = 2.5
+		}
+	jet_flying_wing = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		air_attack = 0.10
+		air_defence = 0.10
+		build_cost_ic = 0.03
+		build_time = 2.5
+		}
+	peoples_fighter = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		air_attack = 0.10
+		air_defence = 0.10
+		build_cost_ic = 0.03
+		build_time = 2.5
+		}	
+	jet_bomber = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		air_attack = 0.10
+		air_defence = 0.10
+		build_cost_ic = 0.03
+		build_time = 2.5
+		}	
+	amerika_bomber = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		air_attack = 0.10
+		air_defence = 0.10
+		build_cost_ic = 0.03
+		build_time = 2.5
+		}		
+#######################################	
+	advanced_jet_fighter = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		air_attack = 0.10
+		air_defence = 0.10
+		build_cost_ic = 0.03
+		build_time = 2.5
+		}	
+	advanced_jet_cas = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		air_attack = 0.10
+		air_defence = 0.10
+		build_cost_ic = 0.03
+		build_time = 2.5
+		}	
+	advanced_jet_bomber = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		air_attack = 0.10
+		air_defence = 0.10
+		build_cost_ic = 0.03
+		build_time = 2.5
+		}	
+	advanced_jet_heavy_bomber = { 	
+		default_organisation = 1
+		default_morale = 0.01
+		air_attack = 0.10
+		air_defence = 0.10
+		build_cost_ic = 0.03
+		build_time = 2.5
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 6
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# TRANSONIC AERODYNAMICS
+################################################################################
+transonic_aerodynamics = {
+	
+	allow = { 
+		jet_ejection_seat = 1
+		electro_mechanical_engineering = 26
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	advanced_jet_fighter = { 	
+		build_time = 7
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 25.0
+		range = 25.0
+		}	
+	advanced_jet_cas = { 	
+		build_time = 7
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 25.0
+		range = 25.0
+		}	
+	advanced_jet_bomber = { 	
+		build_time = 7
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 25.0
+		range = 25.0
+		}	
+	advanced_jet_heavy_bomber = { 	
+		build_time = 7
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 25.0
+		range = 25.0
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1957
+	first_offset = 1960	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 5
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET GUNS
+################################################################################
+advanced_jet_guns = {
+	
+	allow = { 
+		jet_fighter_focus = 2
+		jet_aircraft_model = 3
+	}
+	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1946
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET FUSELAGE DESIGN
+################################################################################
+advanced_jet_fuselage_design = {
+	
+	allow = { 
+		jet_aircraft_fuselage_design = 5 # 1947
+	}
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET WING DESIGN
+################################################################################
+advanced_jet_wing_design = {
+	
+	allow = { 
+		jet_aircraft_wing_design = 5 # 1947
+	}
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET DELTA WING DESIGN
+################################################################################
+advanced_jet_delta_wing_design = {
+	
+	allow = { 
+		jet_aircraft_wing_design = 7 # 1949 
+		advanced_jet_wing_design = 4 # 1958
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	advanced_jet_fighter = { 	
+		air_attack = 2.75
+		air_defence = 1.15
+		maximum_speed = 60.00
+		range = 30.00
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1959
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET HORIZONTAL STABILIZER DESIGN
+################################################################################
+advanced_jet_horizontal_stabilizer_design = {
+	
+	allow = { 
+		jet_aircraft_wing_design = 5 # 1947 
+	}
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET VERTICAL STABILIZER DESIGN
+################################################################################
+advanced_jet_vertical_stabilizer_design = {
+	
+	allow = { 
+		jet_aircraft_wing_design = 5 # 1947
+	}
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# JET VARIABLE GEOMETRY WING DESIGN
+################################################################################
+jet_variable_geometry_wing_design = {
+	
+	allow = { 
+		jet_aircraft_wing_design = 7 # 1949 
+		advanced_jet_wing_design = 6
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+		
+	advanced_jet_bomber = { 	
+		default_morale = -0.01
+		air_attack = 1.15
+		air_defence = 2.25
+		maximum_speed = 100.00
+		range = 250.00
+		fuel_consumption = -0.55
+		build_cost_ic = 1.00
+		build_time = 10
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1967
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET FIGHTER BLUEPRINT
+################################################################################
+advanced_jet_blueprint = {
+	
+	allow = { 
+		advanced_jet_fuselage_design = 1 
+		advanced_jet_wing_design = 1
+		advanced_jet_horizontal_stabilizer_design = 1
+		advanced_jet_vertical_stabilizer_design = 1
+		OR = {
+			AND = { 
+				NOT = { advanced_jet_blueprint = 1 } # 1949
+		
+				advanced_jet_fuselage_design = 1 # 1949
+				advanced_jet_wing_design = 1 # 1949
+				advanced_jet_horizontal_stabilizer_design = 1 # 1949
+				advanced_jet_vertical_stabilizer_design = 1 # 1949
+			
+			}
+			AND = { 
+				NOT = { advanced_jet_blueprint = 2 } # 1952
+		
+				advanced_jet_fuselage_design = 2 # 1952
+				advanced_jet_wing_design = 2 # 1952
+				advanced_jet_horizontal_stabilizer_design = 2 # 1952
+				advanced_jet_vertical_stabilizer_design = 2 # 1952
+		
+			}
+			AND = { 
+				NOT = { advanced_jet_blueprint = 3 } # 1955
+		
+				advanced_jet_fuselage_design = 3 # 1955
+				advanced_jet_wing_design = 3 # 1955
+				advanced_jet_horizontal_stabilizer_design = 3 # 1955
+				advanced_jet_vertical_stabilizer_design = 3 # 1955
+		
+			}
+			AND = { 
+				NOT = { advanced_jet_blueprint = 4 } # 1958
+		
+				advanced_jet_fuselage_design = 4 # 1958
+				advanced_jet_wing_design = 4 # 1958
+				advanced_jet_horizontal_stabilizer_design = 4 # 1958
+				advanced_jet_vertical_stabilizer_design = 4 # 1958
+		
+			}
+			AND = { 
+				NOT = { advanced_jet_blueprint = 5 } # 1961
+		 
+				advanced_jet_fuselage_design = 5 # 1961
+				advanced_jet_wing_design = 5 # 1961
+				advanced_jet_horizontal_stabilizer_design = 5 # 1961
+				advanced_jet_vertical_stabilizer_design = 5 # 1961
+		
+			}
+			AND = { 
+				NOT = { advanced_jet_blueprint = 6 } # 1964
+		
+				advanced_jet_fuselage_design = 6 # 1964
+				advanced_jet_wing_design = 6 # 1964
+				advanced_jet_horizontal_stabilizer_design = 6 # 1964
+				advanced_jet_vertical_stabilizer_design = 6 # 1964
+		
+			}
+			AND = { 
+				NOT = { advanced_jet_blueprint = 7 } # 1967
+		
+				advanced_jet_fuselage_design = 7 # 1967
+				advanced_jet_wing_design = 7 # 1967
+				advanced_jet_horizontal_stabilizer_design = 7 # 1967
+				advanced_jet_vertical_stabilizer_design = 7 # 1967
+		
+			}
+		}
+	}
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_practical = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET FIGHTER PROTOTYPE AND TESTING
+################################################################################
+advanced_jet_prototype_and_testing = {
+	
+	allow = { 
+		advanced_jet_blueprint = 1
+		OR = {
+			AND = { 
+				NOT = { advanced_jet_prototype_and_testing = 1 } # 1949
+				advanced_jet_blueprint = 1 # 1949
+			}
+			AND = { 
+				NOT = { advanced_jet_prototype_and_testing = 2 } # 1952
+				advanced_jet_blueprint = 2 # 1952
+			}
+			AND = { 
+				NOT = { advanced_jet_prototype_and_testing = 3 } # 1955
+				advanced_jet_blueprint = 3 # 1955
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_prototype_and_testing = 4 } # 1957
+				advanced_jet_blueprint = 4 # 1957
+			}
+			AND = { 
+				NOT = { advanced_jet_prototype_and_testing = 5 } # 1961
+				advanced_jet_blueprint = 5 # 1961
+			}
+			AND = { 
+				NOT = { advanced_jet_prototype_and_testing = 6 } # 1964
+				advanced_jet_blueprint = 6 # 1964
+			}
+			AND = { 
+				NOT = { advanced_jet_prototype_and_testing = 7 } # 1967
+				advanced_jet_blueprint = 7 # 1967
+			}
+		}
+	}
+	
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_practical = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET AIRCRAFT MODEL
+################################################################################
+advanced_jet_aircraft_model = {
+	
+	allow = { 
+		advanced_jet_prototype_and_testing = 1
+		OR = {
+			AND = { 
+				NOT = { advanced_jet_aircraft_model = 1 } # 1949
+				advanced_jet_prototype_and_testing = 1 # 1949
+				long_range_aircraft_production = 17
+			}
+			AND = { 
+				NOT = { advanced_jet_aircraft_model = 2 } # 1952
+				advanced_jet_prototype_and_testing = 2 # 1952
+				long_range_aircraft_production = 20
+			}
+			AND = { 
+				NOT = { advanced_jet_aircraft_model = 3 } # 1955
+				advanced_jet_prototype_and_testing = 3 # 1955
+				long_range_aircraft_production = 23
+			}
+			AND = { 
+				NOT = { advanced_jet_aircraft_model = 4 } # 1957
+				advanced_jet_prototype_and_testing = 4 # 1957
+				long_range_aircraft_production = 26
+			}
+			AND = { 
+				NOT = { advanced_jet_aircraft_model = 5 } # 1961
+				advanced_jet_prototype_and_testing = 5 # 1961
+				long_range_aircraft_production = 29
+			}
+			AND = { 
+				NOT = { advanced_jet_aircraft_model = 6 } # 1964
+				advanced_jet_prototype_and_testing = 6 # 1964
+				long_range_aircraft_production = 32
+			}
+			AND = { 
+				NOT = { advanced_jet_aircraft_model = 7 } # 1967
+				advanced_jet_prototype_and_testing = 7 # 1967
+				long_range_aircraft_production = 34
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	advanced_jet_fighter = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 4.00
+        air_defence = 2.00 
+		soft_attack = 1.00
+        hard_attack = 0.50
+        supply_consumption = 0.50
+		fuel_consumption = 0.50
+        build_cost_ic = 1.00
+        build_time = 10
+		maximum_speed = 40.0
+		range = 35.00
+		}	
+		
+	advanced_jet_cas = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 1.00
+        air_defence = 1.50 
+		soft_attack = 3.00
+        hard_attack = 3.00
+        supply_consumption = 0.35
+		fuel_consumption = 0.35
+        build_cost_ic = 0.75
+        build_time = 7
+		maximum_speed = 30.0
+		range = 25.00
+		}
+
+	advanced_jet_bomber = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.50
+        air_defence = 1.00 
+		soft_attack = 5.00
+        hard_attack = 1.50
+		strategic_attack = 1.00
+        supply_consumption = 0.60
+		fuel_consumption = 0.60
+        build_cost_ic = 1.50
+        build_time = 15
+		maximum_speed = 35.0
+		range = 15.00
+		}
+
+	advanced_jet_heavy_bomber = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		air_attack = 0.25
+        air_defence = 0.75 
+		soft_attack = 1.00
+        hard_attack = 0.50
+		strategic_attack = 3.00
+        supply_consumption = 1.20
+		fuel_consumption = 1.20
+        build_cost_ic = 2.00
+        build_time = 20
+		maximum_speed = 25.0
+		range = 10.00
+		}	
+
+	tactical_transport_aircraft = { 	
+		default_organisation = -5
+		default_morale = -0.05
+		supply_consumption = 1.00
+		fuel_consumption = 1.00
+        build_cost_ic = 1.00
+        build_time = 15
+		maximum_speed = 25.0
+		range = 50.00
+		transport_capability = 1.00
+		}		
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_practical = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET ENGINE IMPROVEMENTS
+################################################################################
+advanced_jet_engine_improvements = {
+	
+	allow = { 
+		advanced_jet_aircraft_model = 1
+	}
+
+	change = yes
+	
+	can_upgrade = yes
+		
+	advanced_jet_fighter = { 	
+		maximum_speed = 15
+		range = 15.0
+		air_attack = 0.35
+		air_defence = 0.35
+		supply_consumption = 0.15
+		fuel_consumption = 0.15
+		}	
+	advanced_jet_cas = { 	
+		maximum_speed = 15
+		range = 15.0
+		air_attack = 0.35
+		air_defence = 0.35
+		supply_consumption = 0.15
+		fuel_consumption = 0.15
+		}	
+	advanced_jet_bomber = { 	
+		maximum_speed = 15
+		range = 15.0
+		air_attack = 0.35
+		air_defence = 0.35
+		supply_consumption = 0.15
+		fuel_consumption = 0.15
+		}	
+	advanced_jet_heavy_bomber = { 	
+		maximum_speed = 15
+		range = 15.0
+		air_attack = 0.35
+		air_defence = 0.35
+		supply_consumption = 0.15
+		fuel_consumption = 0.15
+		}	
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 7
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET INTERNAL MECHANICAL IMPROVEMENTS
+################################################################################
+advanced_jet_internal_mechanical_improvements = {
+	
+	allow = { 
+		advanced_jet_aircraft_model = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	advanced_jet_fighter = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		surface_defence = 0.25
+		supply_consumption = 0.15
+		range = 35.0
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		surface_defence = 0.25
+		supply_consumption = 0.15
+		range = 35.0
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		surface_defence = 0.25
+		supply_consumption = 0.15
+		range = 35.0
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		surface_defence = 0.25
+		supply_consumption = 0.15
+		range = 35.0
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET AERODYNAMIC IMPROVEMENTS
+################################################################################
+advanced_jet_aerodynamic_improvements = {
+	
+	allow = { 
+		advanced_jet_aircraft_model = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	advanced_jet_fighter = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 10.0
+		range = 10.0
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 10.0
+		range = 10.0
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 10.0
+		range = 10.0
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = 0.25
+		air_defence = 0.25
+		maximum_speed = 10.0
+		range = 10.0
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET ARMAMENT IMPROVEMENTS
+################################################################################
+advanced_jet_armament_improvements = {
+	
+	allow = { 
+		advanced_jet_aircraft_model = 1
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	advanced_jet_fighter = { 	
+		air_attack = 0.15
+		air_defence = -0.15
+		maximum_speed = -5.0
+		range = -5.0
+		supply_consumption = 0.10
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 0.15
+		air_defence = -0.15
+		maximum_speed = -5.0
+		range = -5.0
+		supply_consumption = 0.10
+		}	
+	advanced_jet_bomber = { 	
+		air_attack = 0.15
+		air_defence = -0.15
+		maximum_speed = -5.0
+		range = -5.0
+		supply_consumption = 0.10
+		}	
+	advanced_jet_heavy_bomber = { 	
+		air_attack = 0.15
+		air_defence = -0.15
+		maximum_speed = -5.0
+		range = -5.0
+		supply_consumption = 0.10
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# SUPERSONIC DEVELOPMENT
+################################################################################
+supersonic_development = {
+	
+	allow = { 
+		jet_aerodynamics = 5
+		afterburner = 1
+		jet_engine_design = 6
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	advanced_jet_fighter = { 	
+		maximum_speed = 300.00
+		range = 300.00
+		air_defence = 3.0
+		air_attack = 3.0
+		surface_defence = 3.0
+		build_cost_ic = 2.00
+		build_time = 20
+		}	
+	advanced_jet_cas = { 	
+		maximum_speed = 300.00
+		range = 300.00
+		air_defence = 3.0
+		air_attack = 3.0
+		surface_defence = 3.0
+		build_cost_ic = 2.00
+		build_time = 20
+		}	
+	advanced_jet_bomber = { 	
+		maximum_speed = 300.00
+		range = 300.00
+		air_defence = 3.0
+		air_attack = 3.0
+		surface_defence = 3.0
+		build_cost_ic = 2.00
+		build_time = 20
+		}	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_practical = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 12
+	
+	#common for all techs.
+	start_year = 1954
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# AFTERBURNER
+################################################################################
+afterburner = {
+	
+	allow = { 
+		jet_engine_design = 4
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	advanced_jet_fighter = { 	
+		maximum_speed = 100.00
+		range = 50.00
+		fuel_consumption = 1.00
+		air_defence = 1.0
+		air_attack = 1.0
+		surface_defence = 1.0
+		build_cost_ic = 0.50
+		build_time = 10
+		}	
+	advanced_jet_cas = { 	
+		maximum_speed = 100.00
+		range = 50.00
+		fuel_consumption = 1.00
+		air_defence = 1.0
+		air_attack = 1.0
+		surface_defence = 1.0
+		build_cost_ic = 0.50
+		build_time = 10
+		}	
+	advanced_jet_bomber = { 	
+		maximum_speed = 100.00
+		range = 50.00
+		fuel_consumption = 1.00
+		air_defence = 1.0
+		air_attack = 1.0
+		surface_defence = 1.0
+		build_cost_ic = 0.50
+		build_time = 10
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_practical = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 9
+	
+	#common for all techs.
+	start_year = 1952
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# TRANSONIC JET ENGINE DESIGN
+################################################################################
+transonic_jet_engine_design = {
+	
+	allow = { 
+		jet_engine_design = 6
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	advanced_jet_fighter = { 	
+		default_morale = -0.01
+		air_attack = 0.50
+        air_defence = 0.50 
+        supply_consumption = 0.25
+		fuel_consumption = 0.25
+        build_cost_ic = 1.00 
+        build_time = 10
+		maximum_speed = 25.0
+		range = 25.00
+		}	
+	advanced_jet_cas = { 	
+		default_morale = -0.01
+		air_attack = 0.50
+        air_defence = 0.50 
+        supply_consumption = 0.25
+		fuel_consumption = 0.25
+        build_cost_ic = 1.00 
+        build_time = 10
+		maximum_speed = 25.0
+		range = 25.00
+		}	
+	advanced_jet_bomber = { 	
+		default_morale = -0.01
+		air_attack = 0.50
+        air_defence = 0.50 
+        supply_consumption = 0.25
+		fuel_consumption = 0.25
+        build_cost_ic = 1.00 
+        build_time = 10
+		maximum_speed = 25.0
+		range = 25.00
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_theory = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 10
+	
+	#common for all techs.
+	start_year = 1957
+	first_offset = 1960	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 6
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# TURBOPROP ENGINE DESIGN
+################################################################################
+turboprop_engine_design = {
+	
+	allow = { 
+		jet_engine_design = 6
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	tactical_transport_aircraft = { 	
+		maximum_speed = 25.00
+		range = 25.00
+		build_cost_ic = 0.75
+        build_time = 10
+		fuel_consumption = 0.15
+		air_defence = 0.25
+		}	
+		
+############################################
+			
+	advanced_jet_heavy_bomber = { 	
+		maximum_speed = 25.00
+		range = 25.00
+		build_cost_ic = 0.75
+        build_time = 10
+		fuel_consumption = 0.15
+		air_defence = 0.25
+		}			
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_theory = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 8
+	
+	#common for all techs.
+	start_year = 1955
+	first_offset = 1958	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 6
+	folder = advanced_aircraft_folder
+}
+
+################################################################################
+# ADVANCED JET FIGHTER FOCUS
+################################################################################
+advanced_jet_fighter_focus = {
+	
+	allow = { 
+		advanced_jet_aircraft_model = 1 # 1949
+		OR = { 
+			AND = { 
+				NOT = { advanced_jet_fighter_focus = 1 } # 1949
+				OR = { 
+					advanced_jet_aircraft_model = 1 # 1949
+					OR = { 
+						advanced_jet_engine_improvements = 1
+						advanced_jet_internal_mechanical_improvements = 1
+						advanced_jet_aerodynamic_improvements = 1
+						advanced_jet_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_focus = 2 } # 1952
+				OR = { 
+					advanced_jet_aircraft_model = 2 # 1952
+					OR = { 
+						advanced_jet_engine_improvements = 2
+						advanced_jet_internal_mechanical_improvements = 2
+						advanced_jet_aerodynamic_improvements = 2
+						advanced_jet_armament_improvements = 2
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 1
+						advanced_jet_internal_mechanical_improvements = 1
+						advanced_jet_aerodynamic_improvements = 1
+						advanced_jet_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_focus = 3 } # 1955
+				OR = { 
+					advanced_jet_aircraft_model = 3 # 1955
+					OR = { 
+						advanced_jet_engine_improvements = 3
+						advanced_jet_internal_mechanical_improvements = 3
+						advanced_jet_aerodynamic_improvements = 3
+						advanced_jet_armament_improvements = 3
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 2
+						advanced_jet_internal_mechanical_improvements = 2
+						advanced_jet_aerodynamic_improvements = 2
+						advanced_jet_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_focus = 4 } # 1958
+				OR = { 
+					advanced_jet_aircraft_model = 4 # 1958
+					OR = { 
+						advanced_jet_engine_improvements = 4
+						advanced_jet_internal_mechanical_improvements = 4
+						advanced_jet_aerodynamic_improvements = 4
+						advanced_jet_armament_improvements = 4
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 3
+						advanced_jet_internal_mechanical_improvements = 3
+						advanced_jet_aerodynamic_improvements = 3
+						advanced_jet_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_focus = 5 } # 1961
+				OR = { 
+					advanced_jet_aircraft_model = 5 # 1961
+					OR = { 
+						advanced_jet_engine_improvements = 5
+						advanced_jet_internal_mechanical_improvements = 5
+						advanced_jet_aerodynamic_improvements = 5
+						advanced_jet_armament_improvements = 5
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 4
+						advanced_jet_internal_mechanical_improvements = 4
+						advanced_jet_aerodynamic_improvements = 4
+						advanced_jet_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_focus = 6 } # 1964
+				OR = { 
+					advanced_jet_aircraft_model = 6 # 1964
+					OR = { 
+						advanced_jet_engine_improvements = 6
+						advanced_jet_internal_mechanical_improvements = 6
+						advanced_jet_aerodynamic_improvements = 6
+						advanced_jet_armament_improvements = 6
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 5
+						advanced_jet_internal_mechanical_improvements = 5
+						advanced_jet_aerodynamic_improvements = 5
+						advanced_jet_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_focus = 7 } # 1967
+				OR = { 
+					advanced_jet_aircraft_model = 7 # 1967
+					OR = { 
+						advanced_jet_engine_improvements = 7
+						advanced_jet_internal_mechanical_improvements = 7
+						advanced_jet_aerodynamic_improvements = 7
+						advanced_jet_armament_improvements = 7
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 6
+						advanced_jet_internal_mechanical_improvements = 6
+						advanced_jet_aerodynamic_improvements = 6
+						advanced_jet_armament_improvements = 6
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = advanced_jet_fighter
+			
+	advanced_jet_fighter = { 	
+		air_attack = 0.25
+        air_defence = 0.25
+		soft_attack = 0.15
+        hard_attack = 0.10
+		maximum_speed = 15.0
+		range = 10.00
+		build_cost_ic = 0.25
+		build_time = 3
+		}		
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_practical = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET CAS FOCUS
+################################################################################
+advanced_jet_cas_focus = {
+	
+	allow = { 
+		advanced_jet_aircraft_model = 1 # 1949
+		advanced_jet_fighter_focus = 1
+		OR = { 
+			AND = { 
+				NOT = { advanced_jet_cas_focus = 1 } # 1949
+				OR = { 
+					advanced_jet_aircraft_model = 1 # 1949
+					OR = { 
+						advanced_jet_engine_improvements = 1
+						advanced_jet_internal_mechanical_improvements = 1
+						advanced_jet_aerodynamic_improvements = 1
+						advanced_jet_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_cas_focus = 2 } # 1952
+				OR = { 
+					advanced_jet_aircraft_model = 2 # 1952
+					OR = { 
+						advanced_jet_engine_improvements = 2
+						advanced_jet_internal_mechanical_improvements = 2
+						advanced_jet_aerodynamic_improvements = 2
+						advanced_jet_armament_improvements = 2
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 1
+						advanced_jet_internal_mechanical_improvements = 1
+						advanced_jet_aerodynamic_improvements = 1
+						advanced_jet_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_cas_focus = 3 } # 1955
+				OR = { 
+					advanced_jet_aircraft_model = 3 # 1955
+					OR = { 
+						advanced_jet_engine_improvements = 3
+						advanced_jet_internal_mechanical_improvements = 3
+						advanced_jet_aerodynamic_improvements = 3
+						advanced_jet_armament_improvements = 3
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 2
+						advanced_jet_internal_mechanical_improvements = 2
+						advanced_jet_aerodynamic_improvements = 2
+						advanced_jet_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_cas_focus = 4 } # 1958
+				OR = { 
+					advanced_jet_aircraft_model = 4 # 1958
+					OR = { 
+						advanced_jet_engine_improvements = 4
+						advanced_jet_internal_mechanical_improvements = 4
+						advanced_jet_aerodynamic_improvements = 4
+						advanced_jet_armament_improvements = 4
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 3
+						advanced_jet_internal_mechanical_improvements = 3
+						advanced_jet_aerodynamic_improvements = 3
+						advanced_jet_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_cas_focus = 5 } # 1961
+				OR = { 
+					advanced_jet_aircraft_model = 5 # 1961
+					OR = { 
+						advanced_jet_engine_improvements = 5
+						advanced_jet_internal_mechanical_improvements = 5
+						advanced_jet_aerodynamic_improvements = 5
+						advanced_jet_armament_improvements = 5
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 4
+						advanced_jet_internal_mechanical_improvements = 4
+						advanced_jet_aerodynamic_improvements = 4
+						advanced_jet_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_cas_focus = 6 } # 1964
+				OR = { 
+					advanced_jet_aircraft_model = 6 # 1964
+					OR = { 
+						advanced_jet_engine_improvements = 6
+						advanced_jet_internal_mechanical_improvements = 6
+						advanced_jet_aerodynamic_improvements = 6
+						advanced_jet_armament_improvements = 6
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 5
+						advanced_jet_internal_mechanical_improvements = 5
+						advanced_jet_aerodynamic_improvements = 5
+						advanced_jet_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_cas_focus = 7 } # 1967
+				OR = { 
+					advanced_jet_aircraft_model = 7 # 1967
+					OR = { 
+						advanced_jet_engine_improvements = 7
+						advanced_jet_internal_mechanical_improvements = 7
+						advanced_jet_aerodynamic_improvements = 7
+						advanced_jet_armament_improvements = 7
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 6
+						advanced_jet_internal_mechanical_improvements = 6
+						advanced_jet_aerodynamic_improvements = 6
+						advanced_jet_armament_improvements = 6
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = advanced_jet_cas
+			
+	advanced_jet_cas = { 
+		soft_attack = 0.50
+        hard_attack = 1.00
+		build_cost_ic = 0.20
+		build_time = 3
+		}	
+	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_practical = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET BOMBER FOCUS
+################################################################################
+advanced_jet_bomber_focus = {
+	
+	allow = { 
+		advanced_jet_aircraft_model = 1 # 1949
+		OR = { 
+			AND = { 
+				NOT = { advanced_jet_bomber_focus = 1 } # 1949
+				OR = { 
+					advanced_jet_aircraft_model = 1 # 1949
+					OR = { 
+						advanced_jet_engine_improvements = 1
+						advanced_jet_internal_mechanical_improvements = 1
+						advanced_jet_aerodynamic_improvements = 1
+						advanced_jet_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_focus = 2 } # 1952
+				OR = { 
+					advanced_jet_aircraft_model = 2 # 1952
+					OR = { 
+						advanced_jet_engine_improvements = 2
+						advanced_jet_internal_mechanical_improvements = 2
+						advanced_jet_aerodynamic_improvements = 2
+						advanced_jet_armament_improvements = 2
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 1
+						advanced_jet_internal_mechanical_improvements = 1
+						advanced_jet_aerodynamic_improvements = 1
+						advanced_jet_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_focus = 3 } # 1955
+				OR = { 
+					advanced_jet_aircraft_model = 3 # 1955
+					OR = { 
+						advanced_jet_engine_improvements = 3
+						advanced_jet_internal_mechanical_improvements = 3
+						advanced_jet_aerodynamic_improvements = 3
+						advanced_jet_armament_improvements = 3
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 2
+						advanced_jet_internal_mechanical_improvements = 2
+						advanced_jet_aerodynamic_improvements = 2
+						advanced_jet_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_focus = 4 } # 1958
+				OR = { 
+					advanced_jet_aircraft_model = 4 # 1958
+					OR = { 
+						advanced_jet_engine_improvements = 4
+						advanced_jet_internal_mechanical_improvements = 4
+						advanced_jet_aerodynamic_improvements = 4
+						advanced_jet_armament_improvements = 4
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 3
+						advanced_jet_internal_mechanical_improvements = 3
+						advanced_jet_aerodynamic_improvements = 3
+						advanced_jet_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_focus = 5 } # 1961
+				OR = { 
+					advanced_jet_aircraft_model = 5 # 1961
+					OR = { 
+						advanced_jet_engine_improvements = 5
+						advanced_jet_internal_mechanical_improvements = 5
+						advanced_jet_aerodynamic_improvements = 5
+						advanced_jet_armament_improvements = 5
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 4
+						advanced_jet_internal_mechanical_improvements = 4
+						advanced_jet_aerodynamic_improvements = 4
+						advanced_jet_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_focus = 6 } # 1964
+				OR = { 
+					advanced_jet_aircraft_model = 6 # 1964
+					OR = { 
+						advanced_jet_engine_improvements = 6
+						advanced_jet_internal_mechanical_improvements = 6
+						advanced_jet_aerodynamic_improvements = 6
+						advanced_jet_armament_improvements = 6
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 5
+						advanced_jet_internal_mechanical_improvements = 5
+						advanced_jet_aerodynamic_improvements = 5
+						advanced_jet_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_focus = 7 } # 1967
+				OR = { 
+					advanced_jet_aircraft_model = 7 # 1967
+					OR = { 
+						advanced_jet_engine_improvements = 7
+						advanced_jet_internal_mechanical_improvements = 7
+						advanced_jet_aerodynamic_improvements = 7
+						advanced_jet_armament_improvements = 7
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 6
+						advanced_jet_internal_mechanical_improvements = 6
+						advanced_jet_aerodynamic_improvements = 6
+						advanced_jet_armament_improvements = 6
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = advanced_jet_bomber
+			
+	advanced_jet_bomber = { 	
+		soft_attack = 1.00
+		build_cost_ic = 0.35
+		build_time = 4
+		}
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_practical = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET HEAVY BOMBER FOCUS
+################################################################################
+advanced_jet_heavy_bomber_focus = {
+	
+	allow = { 
+		advanced_jet_aircraft_model = 1 # 1949
+		advanced_jet_bomber_focus = 1
+		OR = { 
+			AND = { 
+				NOT = { advanced_jet_heavy_bomber_focus = 1 } # 1949
+				OR = { 
+					advanced_jet_aircraft_model = 1 # 1949
+					OR = { 
+						advanced_jet_engine_improvements = 1
+						advanced_jet_internal_mechanical_improvements = 1
+						advanced_jet_aerodynamic_improvements = 1
+						advanced_jet_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_heavy_bomber_focus = 2 } # 1952
+				OR = { 
+					advanced_jet_aircraft_model = 2 # 1952
+					OR = { 
+						advanced_jet_engine_improvements = 2
+						advanced_jet_internal_mechanical_improvements = 2
+						advanced_jet_aerodynamic_improvements = 2
+						advanced_jet_armament_improvements = 2
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 1
+						advanced_jet_internal_mechanical_improvements = 1
+						advanced_jet_aerodynamic_improvements = 1
+						advanced_jet_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_heavy_bomber_focus = 3 } # 1955
+				OR = { 
+					advanced_jet_aircraft_model = 3 # 1955
+					OR = { 
+						advanced_jet_engine_improvements = 3
+						advanced_jet_internal_mechanical_improvements = 3
+						advanced_jet_aerodynamic_improvements = 3
+						advanced_jet_armament_improvements = 3
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 2
+						advanced_jet_internal_mechanical_improvements = 2
+						advanced_jet_aerodynamic_improvements = 2
+						advanced_jet_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_heavy_bomber_focus = 4 } # 1958
+				OR = { 
+					advanced_jet_aircraft_model = 4 # 1958
+					OR = { 
+						advanced_jet_engine_improvements = 4
+						advanced_jet_internal_mechanical_improvements = 4
+						advanced_jet_aerodynamic_improvements = 4
+						advanced_jet_armament_improvements = 4
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 3
+						advanced_jet_internal_mechanical_improvements = 3
+						advanced_jet_aerodynamic_improvements = 3
+						advanced_jet_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_heavy_bomber_focus = 5 } # 1961
+				OR = { 
+					advanced_jet_aircraft_model = 5 # 1961
+					OR = { 
+						advanced_jet_engine_improvements = 5
+						advanced_jet_internal_mechanical_improvements = 5
+						advanced_jet_aerodynamic_improvements = 5
+						advanced_jet_armament_improvements = 5
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 4
+						advanced_jet_internal_mechanical_improvements = 4
+						advanced_jet_aerodynamic_improvements = 4
+						advanced_jet_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_heavy_bomber_focus = 6 } # 1964
+				OR = { 
+					advanced_jet_aircraft_model = 6 # 1964
+					OR = { 
+						advanced_jet_engine_improvements = 6
+						advanced_jet_internal_mechanical_improvements = 6
+						advanced_jet_aerodynamic_improvements = 6
+						advanced_jet_armament_improvements = 6
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 5
+						advanced_jet_internal_mechanical_improvements = 5
+						advanced_jet_aerodynamic_improvements = 5
+						advanced_jet_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { advanced_jet_heavy_bomber_focus = 7 } # 1967
+				OR = { 
+					advanced_jet_aircraft_model = 7 # 1967
+					OR = { 
+						advanced_jet_engine_improvements = 7
+						advanced_jet_internal_mechanical_improvements = 7
+						advanced_jet_aerodynamic_improvements = 7
+						advanced_jet_armament_improvements = 7
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 6
+						advanced_jet_internal_mechanical_improvements = 6
+						advanced_jet_aerodynamic_improvements = 6
+						advanced_jet_armament_improvements = 6
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes	
+	
+	activate_unit = advanced_jet_heavy_bomber
+			
+	advanced_jet_heavy_bomber = { 	
+        air_defence = 0.15
+		strategic_attack = 1.00
+		maximum_speed = 10.0
+		range = 50.00
+		build_cost_ic = 0.60
+		build_time = 5
+		}		
+		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_practical = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# TACTICAL TRANSPORT FOCUS
+################################################################################
+tactical_transport_focus = {
+	
+	allow = { 
+		advanced_jet_aircraft_model = 1 # 1949
+		turboprop_engine_design = 1
+		OR = { 
+			AND = { 
+				NOT = { tactical_transport_focus = 1 } # 1949
+				OR = { 
+					advanced_jet_aircraft_model = 1 # 1949
+					OR = { 
+						advanced_jet_engine_improvements = 1
+						advanced_jet_internal_mechanical_improvements = 1
+						advanced_jet_aerodynamic_improvements = 1
+						advanced_jet_armament_improvements = 1
+						}
+					}
+			}
+			AND = { 
+				NOT = { tactical_transport_focus = 2 } # 1952
+				OR = { 
+					advanced_jet_aircraft_model = 2 # 1952
+					OR = { 
+						advanced_jet_engine_improvements = 2
+						advanced_jet_internal_mechanical_improvements = 2
+						advanced_jet_aerodynamic_improvements = 2
+						advanced_jet_armament_improvements = 2
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 1
+						advanced_jet_internal_mechanical_improvements = 1
+						advanced_jet_aerodynamic_improvements = 1
+						advanced_jet_armament_improvements = 1
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_transport_focus = 3 } # 1955
+				OR = { 
+					advanced_jet_aircraft_model = 3 # 1955
+					OR = { 
+						advanced_jet_engine_improvements = 3
+						advanced_jet_internal_mechanical_improvements = 3
+						advanced_jet_aerodynamic_improvements = 3
+						advanced_jet_armament_improvements = 3
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 2
+						advanced_jet_internal_mechanical_improvements = 2
+						advanced_jet_aerodynamic_improvements = 2
+						advanced_jet_armament_improvements = 2
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_transport_focus = 4 } # 1958
+				OR = { 
+					advanced_jet_aircraft_model = 4 # 1958
+					OR = { 
+						advanced_jet_engine_improvements = 4
+						advanced_jet_internal_mechanical_improvements = 4
+						advanced_jet_aerodynamic_improvements = 4
+						advanced_jet_armament_improvements = 4
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 3
+						advanced_jet_internal_mechanical_improvements = 3
+						advanced_jet_aerodynamic_improvements = 3
+						advanced_jet_armament_improvements = 3
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_transport_focus = 5 } # 1961
+				OR = { 
+					advanced_jet_aircraft_model = 5 # 1961
+					OR = { 
+						advanced_jet_engine_improvements = 5
+						advanced_jet_internal_mechanical_improvements = 5
+						advanced_jet_aerodynamic_improvements = 5
+						advanced_jet_armament_improvements = 5
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 4
+						advanced_jet_internal_mechanical_improvements = 4
+						advanced_jet_aerodynamic_improvements = 4
+						advanced_jet_armament_improvements = 4
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_transport_focus = 6 } # 1964
+				OR = { 
+					advanced_jet_aircraft_model = 6 # 1964
+					OR = { 
+						advanced_jet_engine_improvements = 6
+						advanced_jet_internal_mechanical_improvements = 6
+						advanced_jet_aerodynamic_improvements = 6
+						advanced_jet_armament_improvements = 6
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 5
+						advanced_jet_internal_mechanical_improvements = 5
+						advanced_jet_aerodynamic_improvements = 5
+						advanced_jet_armament_improvements = 5
+						}	
+					}
+			}
+			AND = { 
+				NOT = { tactical_transport_focus = 7 } # 1967
+				OR = { 
+					advanced_jet_aircraft_model = 7 # 1967
+					OR = { 
+						advanced_jet_engine_improvements = 7
+						advanced_jet_internal_mechanical_improvements = 7
+						advanced_jet_aerodynamic_improvements = 7
+						advanced_jet_armament_improvements = 7
+						}
+					AND = { 
+						advanced_jet_engine_improvements = 6
+						advanced_jet_internal_mechanical_improvements = 6
+						advanced_jet_aerodynamic_improvements = 6
+						advanced_jet_armament_improvements = 6
+						}	
+					}
+			}
+		}
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	activate_unit = tactical_transport_aircraft
+			
+	tactical_transport_aircraft = { 	
+		maximum_speed = 25.0
+		range = 25.00
+		transport_capability = 0.65
+		build_cost_ic = 0.35
+		build_time = 4
+		}		
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+		jetengine_practical = 0.50
+	}
+
+	on_completion = aeronautic_engineering
+
+	difficulty = 6
+	
+	#common for all techs.
+	start_year = 1949
+	first_offset = 1952	#2nd model is from 1936
+	additional_offset = 3	#one new every 2 years
+	max_level = 7
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET FIGHTER BOMB LOAD PLUS
+################################################################################
+advanced_jet_fighter_bomb_load_plus = {
+	
+	allow = {
+		ai = no
+		advanced_jet_aircraft_model = 1 # 1949		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	advanced_jet_fighter = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 1.50
+		hard_attack = 1.00
+		strategic_attack = 0.75
+		maximum_speed = -50
+		range = -125
+		supply_consumption = 0.25
+		}	
+	advanced_jet_cas = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 2.25
+		hard_attack = 2.00
+		strategic_attack = 0.50
+		maximum_speed = -35
+		range = -100
+		supply_consumption = 0.35
+		}		
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1949
+	first_offset = 1951 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 10	
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET FIGHTER BOMB LOAD MINUS
+################################################################################
+advanced_jet_fighter_bomb_load_minus = {
+	
+	allow = {
+		ai = no
+		advanced_jet_fighter_bomb_load_plus = 1
+		OR = {
+			AND = { 
+				NOT = { advanced_jet_fighter_bomb_load_minus = 3 } # 1953
+				advanced_jet_fighter_bomb_load_plus = 1 # 1949
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_bomb_load_minus = 4 } # 1955
+				advanced_jet_fighter_bomb_load_plus = 2 # 1951
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_bomb_load_minus = 5 } # 1957
+				advanced_jet_fighter_bomb_load_plus = 3 # 1953
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_bomb_load_minus = 6 } # 1959
+				advanced_jet_fighter_bomb_load_plus = 4 # 1955
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_bomb_load_minus = 7 } # 1961
+				advanced_jet_fighter_bomb_load_plus = 5 # 1957
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_bomb_load_minus = 8 } # 1963
+				advanced_jet_fighter_bomb_load_plus = 6 # 1959
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_bomb_load_minus = 9 } # 1965
+				advanced_jet_fighter_bomb_load_plus = 7 # 1961
+			}
+			AND = { 
+				NOT = { advanced_jet_fighter_bomb_load_minus = 10 } # 1967
+				advanced_jet_fighter_bomb_load_plus = 8 # 1963
+			}
+		}
+		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	advanced_jet_fighter = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -1.50
+		hard_attack = -1.00
+		strategic_attack = -0.75
+		maximum_speed = 50
+		range = 125
+		supply_consumption = -0.25
+		}	
+	advanced_jet_cas = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -2.25
+		hard_attack = -2.00
+		strategic_attack = -0.50
+		maximum_speed = 35
+		range = 100
+		supply_consumption = -0.35
+		}		
+			
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1949
+	first_offset = 1951 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 10	
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET BOMBER BOMB LOAD PLUS
+################################################################################
+advanced_jet_bomber_bomb_load_plus = {
+	
+	allow = {
+		ai = no
+		advanced_jet_aircraft_model = 1 # 1949			
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	advanced_jet_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 3.00
+		hard_attack = 2.25
+		strategic_attack = 1.35
+		maximum_speed = -55
+		range = -140
+		supply_consumption = 0.40
+		}
+	advanced_jet_heavy_bomber = { 	
+		air_attack = -1.00
+		air_defence = -1.00
+		soft_attack = 1.25
+		hard_attack = 0.85
+		strategic_attack = 3.00
+		maximum_speed = -65
+		range = -200
+		supply_consumption = 0.50
+		}		
+		
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1949
+	first_offset = 1951 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 10	
+	folder = advanced_aircraft_folder
+}
+################################################################################
+# ADVANCED JET BOMBER BOMB LOAD MINUS
+################################################################################
+advanced_jet_bomber_bomb_load_minus = {
+	
+	allow = {
+		ai = no
+		advanced_jet_bomber_bomb_load_plus = 1
+		OR = {
+			AND = { 
+				NOT = { advanced_jet_bomber_bomb_load_minus = 3 } # 1953
+				advanced_jet_bomber_bomb_load_plus = 1 # 1949
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_bomb_load_minus = 4 } # 1955
+				advanced_jet_bomber_bomb_load_plus = 2 # 1951
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_bomb_load_minus = 5 } # 1957
+				advanced_jet_bomber_bomb_load_plus = 3 # 1953
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_bomb_load_minus = 6 } # 1959
+				advanced_jet_bomber_bomb_load_plus = 4 # 1955
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_bomb_load_minus = 7 } # 1961
+				advanced_jet_bomber_bomb_load_plus = 5 # 1957
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_bomb_load_minus = 8 } # 1963
+				advanced_jet_bomber_bomb_load_plus = 6 # 1959
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_bomb_load_minus = 9 } # 1965
+				advanced_jet_bomber_bomb_load_plus = 7 # 1961
+			}
+			AND = { 
+				NOT = { advanced_jet_bomber_bomb_load_minus = 10 } # 1967
+				advanced_jet_bomber_bomb_load_plus = 8 # 1963
+			}
+		}		
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+		
+	advanced_jet_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -3.00
+		hard_attack = -2.25
+		strategic_attack = -1.35
+		maximum_speed = 55
+		range = 140
+		supply_consumption = -0.40
+		}
+	advanced_jet_heavy_bomber = { 	
+		air_attack = 1.00
+		air_defence = 1.00
+		soft_attack = -1.25
+		hard_attack = -0.85
+		strategic_attack = -3.00
+		maximum_speed = 65
+		range = 200
+		supply_consumption = -0.50
+		}	
+	
+	research_bonus_from = {
+		aeronautic_engineering = 0.50
+	}
+	
+	
+	
+	on_completion = aeronautic_engineering
+	
+	difficulty = 1
+	
+	# common for all techs.
+	start_year = 1949
+	first_offset = 1951 	# 2nd model is from 1941
+    additional_offset = 2   # one new every 1 years
+	max_level = 10	
+	folder = advanced_aircraft_folder
+}

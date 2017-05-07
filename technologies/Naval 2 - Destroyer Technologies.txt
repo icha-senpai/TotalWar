@@ -1,0 +1,1522 @@
+################################################################################
+# DESTROYER TECHNOLOGIES	
+################################################################################
+################################################################################
+# DESTROYER TECHNOLOGY	
+################################################################################
+destroyer_technology = {
+
+	allow = {
+		num_of_ports = 1
+		world_war_one_warfare = 1
+		Ship_Building_Technologies = 1
+	}
+
+	research_bonus_from = {
+		naval_engineering = 1.0
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 1
+	
+	start_year = 1918
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER CLASS	
+################################################################################
+destroyer_class = {
+
+	allow = {
+		destroyer_technology = 1 
+		
+		OR = {
+			AND = {
+				NOT = { destroyer_class = 1 }  # 1918
+				Ship_Building_Technologies = 1
+				OR = {
+					destroyer_main_armament = 1
+					destroyer_secondary_armament = 1
+					
+				}
+				OR = {
+					destroyer_propulsion = 1 
+					destroyer_armor = 1
+					
+				}
+				OR = {
+					destroyer_hull_design = 1
+					destroyer_crew_berthing = 1
+					
+				}
+				
+			}
+			AND = {
+				NOT = { destroyer_class = 2 }    # 1934
+				Ship_Building_Technologies = 2
+				OR = {
+					destroyer_main_armament = 2
+					destroyer_secondary_armament = 2
+					
+				}
+				OR = {
+					destroyer_propulsion = 2
+					destroyer_armor = 2
+					
+				}
+				OR = {
+					destroyer_hull_design = 2
+					destroyer_crew_berthing = 2
+					
+				}
+						
+			}
+			AND = {
+				NOT = { destroyer_class = 3 }    # 1936
+				Ship_Building_Technologies = 4
+				OR = {
+					destroyer_main_armament = 3
+					destroyer_secondary_armament = 3
+					
+				}
+				OR = {
+					destroyer_propulsion = 3 
+					destroyer_armor = 3
+					
+				}
+				OR = {
+					destroyer_hull_design = 3
+					destroyer_crew_berthing = 3
+					
+				}
+						
+			}
+			AND = {
+				NOT = { destroyer_class = 4 }    # 1938
+				Ship_Building_Technologies = 6
+				OR = {
+					destroyer_main_armament = 4
+					destroyer_secondary_armament = 4
+					
+				}
+				OR = {
+					destroyer_propulsion = 4
+					destroyer_armor = 4
+					
+				}
+				OR = {
+					destroyer_hull_design = 4
+					destroyer_crew_berthing = 4
+					
+				}
+					
+			}
+			AND = {
+				NOT = { destroyer_class = 5 }    # 1940
+				Ship_Building_Technologies = 8
+				OR = {
+					destroyer_main_armament = 5
+					destroyer_secondary_armament = 5
+					
+				}
+				OR = {
+					destroyer_propulsion = 5
+					destroyer_armor = 5
+					
+				}
+				OR = {
+					destroyer_hull_design = 5
+					destroyer_crew_berthing = 5
+					
+				}
+						
+			}
+			AND = {
+				NOT = { destroyer_class = 6 }    # 1942
+				Ship_Building_Technologies = 10
+				OR = {
+					destroyer_main_armament = 6
+					destroyer_secondary_armament = 6
+					
+				}
+				OR = {
+					destroyer_propulsion = 6 
+					destroyer_armor = 6
+					
+				}
+				OR = {
+					destroyer_hull_design = 6
+					destroyer_crew_berthing = 6
+					
+				}
+						
+			}
+			AND = {
+				NOT = { destroyer_class = 7 }    # 1944
+				Ship_Building_Technologies = 12
+				OR = {
+					destroyer_main_armament = 7
+					destroyer_secondary_armament = 7
+					
+				}
+				OR = {
+					destroyer_propulsion = 7
+					destroyer_armor = 7
+					
+				}
+				OR = {
+					destroyer_hull_design = 7
+					destroyer_crew_berthing = 7
+					
+				}
+						
+			}
+			AND = {
+				NOT = { destroyer_class = 8 }    # 1946
+				Ship_Building_Technologies = 14
+				OR = {
+					destroyer_main_armament = 8
+					destroyer_secondary_armament = 8
+					
+				}
+				OR = {
+					destroyer_propulsion = 8
+					destroyer_armor = 8
+					
+				}
+				OR = {
+					destroyer_hull_design = 8
+					destroyer_crew_berthing = 8
+					
+				}
+						
+			}	
+			AND = {
+				NOT = { destroyer_class = 9 }    # 1948
+				Ship_Building_Technologies = 16
+				OR = {
+					destroyer_main_armament = 9
+					destroyer_secondary_armament = 9
+					
+				}
+				OR = {
+					destroyer_propulsion = 9
+					destroyer_armor = 9
+					
+				}
+				OR = {
+					destroyer_hull_design = 9
+					destroyer_crew_berthing = 9
+					
+				}
+						
+			}	
+		}
+	}
+	
+	activate_unit = destroyer_actual
+
+	destroyer_actual = {
+		build_cost_ic =  0.45
+		build_cost_manpower = 0.005
+		build_time = 10
+		range = 100
+		positioning = 0.01
+		distance = 0.01
+		visibility = -5
+		sea_defence = 1.00
+		air_defence = 0.25
+		convoy_attack = 0.10
+		sea_attack = 0.55
+		sub_attack = 0.25
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+		
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 9 # 1948
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER MAIN ARMAMENT	
+################################################################################
+destroyer_main_armament = {
+
+	allow = {
+		destroyer_technology = 1 
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.10
+		build_cost_manpower = 0.001
+		build_time = 2
+		range = -150
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 0.75
+		shore_bombardment = 0.15
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+	
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 9 # 1945
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER SECONDARY ARMAMENT	
+################################################################################
+destroyer_secondary_armament = {
+
+	allow = {
+		destroyer_technology = 1 
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.02
+		build_cost_manpower = 0.005
+		build_time = 1
+		air_attack = 0.25
+		convoy_attack = 0.10
+		sea_attack = 0.15
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+	
+	start_year = 1918
+	first_offset = 1933		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 9 # 1947
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER ANTI-AIRCRAFT GUNS	
+################################################################################
+destroyer_anti_air_guns = {
+
+	allow = {
+		destroyer_technology = 1 
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.010
+		build_time = 2
+		range = -50
+		air_attack = 1.35
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 4
+	
+	start_year = 1937
+	first_offset = 1939		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 4 # 1943
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER PROPULSION	
+################################################################################
+destroyer_propulsion = {
+
+	allow = {
+		destroyer_technology = 1 
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.005
+		build_time = 5
+		maximum_speed = 1.852
+		range = 150
+		positioning = 0.03
+		sea_defence = 0.50
+		air_defence = 0.35
+		convoy_attack = 0.10
+		sea_attack = 0.25
+		sub_attack = 0.15
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+	
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 9 # 1944
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER ARMOR	
+################################################################################
+destroyer_armor = {
+
+	allow = {
+		destroyer_technology = 1 
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.07
+		build_time = 2
+		range = -250
+		positioning = -0.01
+		sea_defence = 2.00
+		air_defence = 0.50
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+	
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 9 # 1948
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER HULL DESIGN
+################################################################################
+destroyer_hull_design = {
+
+	allow = {
+		destroyer_technology = 1
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.05
+		build_time = 3
+		range = 100
+		sea_defence = 0.45
+		air_defence = 0.10
+		convoy_attack = 0.05
+		sea_attack = 0.15
+		sub_attack = 0.05
+	}
+	
+	change = yes
+	
+	can_upgrade = no
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 6
+	
+	start_year = 1918
+	first_offset = 1934		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 9 # 1948
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER CREW BERTHING	
+################################################################################
+destroyer_crew_berthing = {
+
+	allow = {
+		destroyer_technology = 1
+	}
+	
+	destroyer_actual = {
+		default_morale = 0.02
+		build_cost_ic =  0.03
+		build_time = 2
+		range = -150
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+	
+	start_year = 1918
+	first_offset = 1933		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 9 # 1947
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER FIRE CONTROL SYSTEM	
+################################################################################
+destroyer_fire_control_system = {
+
+	allow = {
+		destroyer_technology = 1
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.02
+		build_time = 1
+		distance = 0.01
+		convoy_attack = 0.15
+		sea_attack = 0.65
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 7
+	
+	start_year = 1918
+	first_offset = 1937		# 2nd model is from 1936
+	additional_offset = 3	# one new every 2 years
+	max_level = 3 # 1940
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER ANTI-AIR FIRE CONTROL SYSTEM	
+################################################################################
+destroyer_anti_air_fire_control_system = {
+
+	allow = {
+		destroyer_technology = 1
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.02
+		build_time = 1
+		air_attack = 0.65
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 4
+	
+	start_year = 1936
+	first_offset = 1939		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 3 # 1940
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER DAMAGE CONTROL 
+################################################################################
+destroyer_damage_control = {
+
+	allow = {
+		destroyer_technology = 1
+	}
+	
+	destroyer_actual = {
+		sea_defence = 0.65
+		air_defence = 0.65
+	}
+	
+	can_upgrade = no
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	change = no
+	
+	on_completion =naval_engineering
+
+	difficulty = 3
+	
+	start_year = 1918
+	first_offset = 1937		# 2nd model is from 1936
+	additional_offset = 2	# one new every 2 years
+	max_level = 6 # 1945
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER ACTIVE SONAR
+################################################################################
+destroyer_active_sonar = {
+
+	allow = {
+		destroyer_technology = 1
+		electronics_engineering = 1
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.03
+		build_cost_manpower = 0.001
+		build_time = 2
+		surface_detection = 0.75
+		sub_detection = 0.75
+		sea_defence = -1.0
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+	
+	start_year = 1922
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER HYDROPHONES
+################################################################################
+destroyer_hydrophones = {
+
+	allow = {
+		destroyer_technology = 1
+		electronics_engineering = 1
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.02
+		build_cost_manpower = 0.001
+		build_time = 1
+		surface_detection = 0.30
+		sub_detection = 0.30
+		sea_defence = 0.25
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+	
+	start_year = 1930
+	first_offset = 1943	
+	additional_offset = 3	
+	max_level = 3 # 1942
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER HF/DF RADIO
+################################################################################
+destroyer_huff_duff = {
+
+	allow = {
+		destroyer_technology = 1
+		electronics_engineering = 6
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.05
+		build_cost_manpower = 0.001
+		build_time = 2
+		sub_detection = 0.85
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = electornicegineering_theory
+
+	difficulty = 9
+	
+	start_year = 1942
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER SURFACE SEARCH RADAR SET
+################################################################################
+destroyer_surface_search_radar_set = {
+
+	allow = {
+		destroyer_technology = 1
+		naval_radar = 2
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.001
+		build_time = 1
+		surface_detection = 1.00
+		positioning = 0.10
+		convoy_attack = 0.20
+		sea_attack = 1.00
+		sea_defence = 0.50
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = electornicegineering_theory
+
+	difficulty = 9
+	
+	start_year = 1941
+	first_offset = 1943		
+	additional_offset = 2	
+	max_level = 2 # 1943
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER AIR SEARCH RADAR SET
+################################################################################
+destroyer_air_search_radar_set = {
+
+	allow = {
+		destroyer_technology = 1
+		naval_radar = 2
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.15
+		build_cost_manpower = 0.001
+		build_time = 1
+		air_detection = 1.00
+		air_defence = 0.50
+		air_attack = 0.50
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = electornicegineering_theory
+
+	difficulty = 9
+	
+	start_year = 1941
+	first_offset = 1943		
+	additional_offset = 2	
+	max_level = 2 # 1943
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER DEPTH CHARGES
+################################################################################
+destroyer_depth_charges = {
+
+	allow = {
+		destroyer_technology = 1
+		destroyer_class = 1
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.05
+		build_time = 1
+		range = -50
+		sub_attack = 1.15
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 2
+	
+	start_year = 1918
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER HEDGEHOG
+################################################################################
+destroyer_hedgehog = {
+
+	allow = {
+		destroyer_technology = 1
+		destroyer_class = 5
+		destroyer_depth_charges = 1 
+	}
+	
+	destroyer_actual = {
+		build_cost_ic =  0.25
+		build_time = 2
+		range = -50
+		sub_attack = 2.35
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 8
+	
+	start_year = 1944
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER TORPEDO LAUNCHERS
+################################################################################
+destroyer_torpedo_launchers = {
+
+	allow = {
+		destroyer_technology = 1
+		destroyer_class = 2
+	}
+	
+	activate_unit = torpedo_boat
+	
+	destroyer_actual = {
+		build_cost_ic =  0.20
+		build_cost_manpower = 0.005
+		build_time = 5
+		range = -150
+		distance = 0.02
+		convoy_attack = 1.25
+		sea_attack = 1.25
+	}
+	
+	change = yes
+	
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+	
+	start_year = 1938
+	folder = smallship_folder
+}
+################################################################################
+# DESTROYER ESCORT
+################################################################################
+destroyer_escort = {
+
+	allow = {
+		destroyer_technology = 1
+		destroyer_class = 2
+	}
+	
+	activate_unit = destroyer
+	
+	activate_unit = frigate
+	
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+	
+	start_year = 1937
+	folder = smallship_folder
+}
+################################################################################
+# PATROL TORPEDO BOAT
+################################################################################
+patrol_torpedo_boat = {
+
+	allow = {
+		destroyer_technology = 1
+		destroyer_class = 2
+		destroyer_torpedo_launchers = 1 
+	}
+
+	activate_unit =	torpedo_boat
+	
+	activate_unit =	motor_torpedo_boat
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		destroyer_practical = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 3
+	
+	start_year = 1940
+	folder = smallship_folder
+}
+
+################################################################################
+# NAVAL SHIP RADIOS
+################################################################################
+naval_ship_radios = {
+
+	allow = {
+		long_range_radios = 1
+		OR = {
+			AND = {
+				NOT = { naval_ship_radios = 1 }	
+				long_range_radios = 1
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 2 }	
+				long_range_radios = 2
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 3 }	
+				long_range_radios = 3
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 4 }	
+				long_range_radios = 4
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 5 }	
+				long_range_radios = 5
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 6 }	
+				long_range_radios = 6
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 7 }	
+				long_range_radios = 7
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 8 }	
+				long_range_radios = 8
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 9 }	
+				long_range_radios = 9
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 10 }	
+				long_range_radios = 10
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 11 }	
+				long_range_radios = 11
+			}	
+			AND = {
+				NOT = { naval_ship_radios = 12 }	
+				long_range_radios = 12
+			}
+		}
+	}
+	
+	encryption = -0.1
+	
+	battlecruiser = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5	
+	}
+	battleship = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	coastal_battleship = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5					
+	}
+	pocket_battleship = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	super_heavy_battleship = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5			
+	}
+	super_carrier = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5			
+	}
+	battle_carrier = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5			
+	}
+	carrier = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5			
+	}
+	light_carrier = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5		
+	}
+	escort_carrier = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5			
+	}
+	light_cruiser = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5					
+	}
+	heavy_cruiser = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	destroyer_actual = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5					
+	}
+	destroyer = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	frigate = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	submarine = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5					
+	}
+	long_range_submarine = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5					
+	}
+	nuclear_submarine = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	landing_craft = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	landing_ship_dock = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	assault_ship = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	
+	BB_Andrea_Doria = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5			
+	}
+	BB_Anson = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Arizona = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Arkansas = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Barham = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Bismarck = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Caio_Duilio = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_California = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Colorado = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Conte_di_Cavour = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Duke_of_York = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Fuso = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Giulio_Cesare = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Gneisenau = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Howe = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Hyuga = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Idaho = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Iowa = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Ise = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_King_George_V = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Littorio = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Malaya = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Maryland = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Mississippi = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Missouri = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Mutsu = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Nagato = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Nelson = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Nevada = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_New_Mexico = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_New_York = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Oklahoma = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Pennsylvania = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Prince_of_Wales = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Queen_elizabeth = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Ramillies = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Resolution = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Revenge = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Rodney = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Royal_Oak = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Royal_sovereign = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Scharnhorst = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Tennessee = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Texas = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Tirpitz = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Valiant = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Vittorio_Veneto = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5			
+	}
+	BB_Warspite = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_West_Virginia = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BB_Yamashiro = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BC_Haruna = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BC_Hiei = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BC_Hood = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BC_Kirishima = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BC_Kongo = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BC_Renown = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	BC_Repulse = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	SBB_Musashi = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	SBB_Yamato = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Akagi = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Ark_Royal = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Courageous = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Enterprise = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5			
+	}
+	CV_Furious = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Glorious = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Hiryu = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Hornet = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Kaga = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5			
+	}
+	CV_Lexington = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Ranger = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Saratoga = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Soryu = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	CV_Yorktown = { 
+		default_organisation = 5	
+		build_cost_ic = 0.15
+		build_time = 5				
+	}
+	can_upgrade = yes
+
+	research_bonus_from = {
+		naval_engineering = 0.50
+		electornicegineering_theory = 0.20
+	}
+	
+	on_completion = naval_engineering
+
+	difficulty = 5
+	
+	start_year = 1936
+	first_offset = 1939
+	additional_offset = 3
+	max_level = 5
+	folder = smallship_folder
+}
+
+
+
+
